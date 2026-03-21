@@ -1,0 +1,155 @@
+import { useEffect, useRef } from 'react';
+import { getPartyToken } from '../utils/partyColors';
+import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+
+const SOURCE_KIND_LABELS = {
+  official: 'Oficial',
+  profile: 'Profil',
+  press: 'Presă',
+};
+
+export function DetailPanel({ politician, onClose }) {
+  const panelRef = useRef(null);
+  const sources = Array.isArray(politician.sources) ? politician.sources : [];
+
+  useEffect(() => {
+    const handleKey = (event) => {
+      if (event.key === 'Escape') onClose();
+    };
+
+    document.addEventListener('keydown', handleKey);
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.removeEventListener('keydown', handleKey);
+      document.body.style.overflow = '';
+    };
+  }, [onClose]);
+
+  return (
+    <div className="detail-panel-shell">
+      <div className="detail-panel-backdrop backdrop-fade" onClick={onClose} />
+
+      <div
+        ref={panelRef}
+        className="detail-panel panel-slide"
+        data-party-token={getPartyToken(politician.party)}
+        data-status={politician.status}
+      >
+        <div className="detail-panel-topbar">
+          <button onClick={onClose} className="detail-panel-close">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M9 3L5 7l4 4" />
+            </svg>
+            Înapoi
+          </button>
+
+          <span className="detail-panel-toplabel">Fișă politician</span>
+        </div>
+
+        <div className="detail-panel-content">
+          <div className="detail-panel-accent" />
+
+          <h2 className="detail-panel-name">{politician.name}</h2>
+
+          <div className="detail-panel-meta">
+            <span className="detail-panel-party">
+              <span className="detail-panel-party-dot" />
+              {politician.party}
+            </span>
+
+            <span className="detail-panel-separator">·</span>
+
+            <span className="detail-panel-type">
+              {POSITION_LABELS[politician.position_type] || politician.position_type}
+            </span>
+          </div>
+
+          <div className="detail-panel-divider" />
+
+          <Section label="Status juridic">
+            <span className="detail-panel-status">
+              <span className="detail-panel-status-dot" />
+              {STATUS_LABELS[politician.status] || politician.status}
+            </span>
+          </Section>
+
+          <Section label="Faptă">
+            <p className="detail-panel-copy detail-panel-copy--crime">{politician.crime}</p>
+          </Section>
+
+          {(politician.sentence || politician.conviction_year) && (
+            <div className="detail-panel-keyfacts">
+              {politician.sentence && (
+                <div>
+                  <SectionLabel>Pedeapsă</SectionLabel>
+                  <p className="detail-panel-keyfact-value detail-panel-keyfact-value--accent">{politician.sentence}</p>
+                </div>
+              )}
+
+              {politician.conviction_year && (
+                <div>
+                  <SectionLabel>Anul condamnării</SectionLabel>
+                  <p className="detail-panel-keyfact-value detail-panel-keyfact-value--tabular">{politician.conviction_year}</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {politician.position && (
+            <Section label="Funcția deținută">
+              <p className="detail-panel-copy detail-panel-copy--muted">{politician.position}</p>
+            </Section>
+          )}
+
+          {politician.details && (
+            <Section label="Detalii">
+              <p className="detail-panel-copy detail-panel-copy--details">{politician.details}</p>
+            </Section>
+          )}
+
+          {sources.length > 0 && (
+            <Section label={sources.length === 1 ? 'Sursă' : 'Surse'}>
+              <div className="detail-panel-source-list">
+                {sources.map((source) => (
+                  <a
+                    key={source.url}
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="detail-panel-source-link"
+                  >
+                    <span className="detail-panel-source-label">{source.label}</span>
+                    <span className="detail-panel-source-kind">{SOURCE_KIND_LABELS[source.kind] || 'Extern'}</span>
+                    <svg className="detail-panel-link-icon" width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M4 1h7v7M11 1L5 7" />
+                    </svg>
+                  </a>
+                ))}
+              </div>
+            </Section>
+          )}
+
+          <div className="detail-panel-footer-divider" />
+
+          <p className="detail-panel-footer-note">
+            Informațiile provin din surse publice și pot conține erori. Verifică întotdeauna sursele originale.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SectionLabel({ children }) {
+  return <div className="detail-panel-section-label">{children}</div>;
+}
+
+function Section({ label, children }) {
+  return (
+    <div className="detail-panel-section">
+      <SectionLabel>{label}</SectionLabel>
+      {children}
+    </div>
+  );
+}
