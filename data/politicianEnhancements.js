@@ -800,12 +800,29 @@ export const politicianOverrides = {
       },
     ],
   },
+  'George Copos': {
+    details:
+      'Condamnat definitiv \u00een martie 2014 \u00een dosarul transferurilor de fotbali\u0219ti, pentru evaziune fiscal\u0103. DNA a comunicat condamnarea la 3 ani \u0219i 8 luni de \u00eenchisoare prin decizia Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4705',
+      },
+    ],
+  },
   'Varujan Vosganian': {
     replace_sources: true,
     details:
       'În dosarul Romgaz-Interagro, Senatul a respins de două ori cererea procurorilor de încuviințare a începerii urmăririi penale împotriva lui. Presa a continuat să îl indice ca vizat de ancheta DIICOT în contextul dosarului Romgaz.',
     verified_at: '2026-03-22',
     sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/PAGINI/Stenograme/Stenograme2015/15.02.12.pdf',
+      },
       {
         label: 'Radio România',
         kind: 'press',
@@ -1005,6 +1022,11 @@ export const politicianOverrides = {
       'În septembrie 2025 a fost citată la Parchetul General ca suspect într-un dosar care vizează 11 infracțiuni. În octombrie 2025, Parchetul General a anunțat punerea în mișcare a urmăririi penale și demersurile pentru ridicarea imunității sale de europarlamentar.',
     verified_at: '2026-03-22',
     sources: [
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/doceo/document/PV-10-2025-10-09_EN.html',
+      },
       {
         label: 'Digi24',
         kind: 'press',
