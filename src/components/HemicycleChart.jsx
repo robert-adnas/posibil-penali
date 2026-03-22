@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState, useCallback } from 'react';
+import { useRef, useEffect, useState, useCallback, useMemo } from 'react';
 import * as d3 from 'd3';
 import { getPartyColor, getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
@@ -8,10 +8,26 @@ export function HemicycleChart({ data, onSelect }) {
   const svgRef = useRef(null);
   const tooltipRef = useRef(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+  const [canHover, setCanHover] = useState(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return true;
+    return window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  });
+
+  const partySummary = useMemo(() => {
+    const summary = new Map();
+
+    data.forEach((politician) => {
+      summary.set(politician.party, (summary.get(politician.party) || 0) + 1);
+    });
+
+    return [...summary.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([party, total]) => ({ party, total }));
+  }, [data]);
 
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) return undefined;
 
     const observer = new ResizeObserver((entries) => {
       const { width } = entries[0].contentRect;
@@ -19,6 +35,7 @@ export function HemicycleChart({ data, onSelect }) {
       const height = isMobile
         ? Math.max(240, Math.min(width * 0.6, 320))
         : Math.max(250, Math.min(width * 0.45, 420));
+
       setDimensions((prev) => {
         if (prev.width === width && prev.height === height) return prev;
         return { width, height };
@@ -29,21 +46,39 @@ export function HemicycleChart({ data, onSelect }) {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return undefined;
+
+    const mediaQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const updateHoverMode = () => setCanHover(mediaQuery.matches);
+
+    updateHoverMode();
+
+    if (mediaQuery.addEventListener) {
+      mediaQuery.addEventListener('change', updateHoverMode);
+      return () => mediaQuery.removeEventListener('change', updateHoverMode);
+    }
+
+    mediaQuery.addListener(updateHoverMode);
+    return () => mediaQuery.removeListener(updateHoverMode);
+  }, []);
+
   const showTooltip = useCallback((event, datum) => {
     const tooltip = tooltipRef.current;
-    if (!tooltip) return;
+    const container = containerRef.current;
+    if (!tooltip || !container) return;
 
     tooltip.dataset.partyToken = getPartyToken(datum.party);
     tooltip.style.display = 'block';
     tooltip.innerHTML = `
       <div class="tooltip-name">${datum.name}</div>
-      <div class="tooltip-meta">${datum.party} · ${POSITION_LABELS[datum.position_type] || datum.position_type}</div>
+      <div class="tooltip-meta">${datum.party} &middot; ${POSITION_LABELS[datum.position_type] || datum.position_type}</div>
       <div class="tooltip-crime">${datum.crime}</div>
       ${datum.sentence_years ? `<div class="tooltip-sentence">${formatYears(datum.sentence_years)}</div>` : ''}
       <div class="tooltip-status">${STATUS_LABELS[datum.status] || datum.status}</div>
     `;
 
-    const rect = containerRef.current.getBoundingClientRect();
+    const rect = container.getBoundingClientRect();
     let left = event.clientX - rect.left + 12;
     let top = event.clientY - rect.top - 10;
     const tooltipWidth = tooltip.offsetWidth;
@@ -113,10 +148,10 @@ export function HemicycleChart({ data, onSelect }) {
     const arcPadding = 0.02;
     const totalArc = Math.PI;
     let currentAngle = Math.PI;
-
     const partyArcs = {};
+
     partyOrder.forEach((party) => {
-      const count = byParty.get(party).length;
+      const count = byParty.get(party)?.length || 0;
       const arcLength = (count / data.length) * (totalArc - partyOrder.length * arcPadding);
 
       partyArcs[party] = {
@@ -137,12 +172,11 @@ export function HemicycleChart({ data, onSelect }) {
     const nodes = data.map((datum) => {
       const arc = partyArcs[datum.party];
       const radius = radiusScale(datum.sentence_years || 0.5);
-      const partyMembers = byParty.get(datum.party);
+      const partyMembers = byParty.get(datum.party) || [];
       const index = partyMembers.indexOf(datum);
       const t = partyMembers.length > 1 ? index / (partyMembers.length - 1) : 0.5;
       const angle = arc.start + t * (arc.end - arc.start);
-      // Deterministic orbit based on index to avoid different layouts on each render
-      const orbitT = partyMembers.length > 1 ? (index / partyMembers.length) : 0.5;
+      const orbitT = partyMembers.length > 1 ? index / partyMembers.length : 0.5;
       const orbit = isMobile
         ? maxRadius * (0.25 + orbitT * 0.65)
         : maxRadius * (0.4 + orbitT * 0.5);
@@ -173,7 +207,7 @@ export function HemicycleChart({ data, onSelect }) {
           const dy = datum.y - centerY;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
-          if (distance + datum.r > maxRadius) {
+          if (distance > 0 && distance + datum.r > maxRadius) {
             const scale = (maxRadius - datum.r) / distance;
             datum.x = centerX + dx * scale;
             datum.y = centerY + dy * scale;
@@ -186,34 +220,51 @@ export function HemicycleChart({ data, onSelect }) {
 
     for (let tick = 0; tick < 200; tick += 1) simulation.tick();
 
-    // On mobile, crop SVG to actual bubble bounds to eliminate dead space
     if (isMobile) {
       let minY = Infinity;
       let maxY = -Infinity;
       let minX = Infinity;
       let maxX = -Infinity;
+
       nodes.forEach((datum) => {
         minY = Math.min(minY, datum.y - datum.r);
         maxY = Math.max(maxY, datum.y + datum.r);
         minX = Math.min(minX, datum.x - datum.r);
         maxX = Math.max(maxX, datum.x + datum.r);
       });
+
       const pad = 6;
       const vbX = margin.left + minX - pad;
       const vbY = margin.top + minY - pad;
-      const vbW = (maxX - minX) + pad * 2;
-      const vbH = (maxY - minY) + pad * 2;
-      svg.attr('viewBox', `${vbX} ${vbY} ${vbW} ${vbH}`)
+      const vbW = maxX - minX + pad * 2;
+      const vbH = maxY - minY + pad * 2;
+
+      svg
+        .attr('viewBox', `${vbX} ${vbY} ${vbW} ${vbH}`)
         .attr('width', width)
         .attr('height', (vbH / vbW) * width);
     }
 
-    const bubbles = group.selectAll('.bubble')
+    const bubbleGroups = group.selectAll('.bubble-node')
       .data(nodes)
-      .join('circle')
+      .join('g')
+      .attr('class', 'bubble-node')
+      .attr('transform', (datum) => `translate(${datum.x},${datum.y})`)
+      .attr('tabindex', 0)
+      .attr('role', 'button')
+      .attr('aria-label', (datum) => {
+        const statusLabel = STATUS_LABELS[datum.status] || datum.status;
+        const sentenceLabel = datum.sentence_years ? `, ${formatYears(datum.sentence_years)}` : '';
+        return `${datum.name}, ${datum.party}, ${statusLabel}${sentenceLabel}`;
+      });
+
+    bubbleGroups.append('circle')
+      .attr('class', 'bubble-hit')
+      .attr('r', (datum) => Math.max(datum.r + (isMobile ? 10 : 4), datum.r))
+      .attr('fill', 'rgba(0, 0, 0, 0)');
+
+    bubbleGroups.append('circle')
       .attr('class', 'bubble')
-      .attr('cx', (datum) => datum.x)
-      .attr('cy', (datum) => datum.y)
       .attr('r', 0)
       .attr('fill', (datum) => getPartyColor(datum.party))
       .attr('fill-opacity', (datum) => (datum.status === 'convicted' ? 0.8 : 0.45))
@@ -223,32 +274,65 @@ export function HemicycleChart({ data, onSelect }) {
           : 'var(--color-rule)'
       ))
       .attr('stroke-width', (datum) => (datum.status === 'convicted' ? 1.5 : 0.75))
-      .attr('stroke-opacity', (datum) => (datum.status === 'convicted' ? 0.7 : 0.4))
-      .on('mouseover', function handleMouseOver(event, datum) {
-        d3.select(this)
-          .attr('fill-opacity', 1)
-          .attr('stroke-width', 2.5)
-          .attr('stroke-opacity', 1)
-          .attr('stroke', getPartyColor(datum.party));
+      .attr('stroke-opacity', (datum) => (datum.status === 'convicted' ? 0.7 : 0.4));
+
+    const setBubbleActive = (node, datum) => {
+      d3.select(node)
+        .select('.bubble')
+        .attr('fill-opacity', 1)
+        .attr('stroke-width', 2.5)
+        .attr('stroke-opacity', 1)
+        .attr('stroke', getPartyColor(datum.party));
+    };
+
+    const resetBubble = (node, datum) => {
+      d3.select(node)
+        .select('.bubble')
+        .attr('fill-opacity', datum.status === 'convicted' ? 0.8 : 0.45)
+        .attr('stroke-width', datum.status === 'convicted' ? 1.5 : 0.75)
+        .attr('stroke-opacity', datum.status === 'convicted' ? 0.7 : 0.4)
+        .attr('stroke', datum.status === 'convicted' ? getPartyColor(datum.party) : 'var(--color-rule)');
+    };
+
+    bubbleGroups
+      .on('pointerenter', canHover ? function handlePointerEnter(event, datum) {
+        setBubbleActive(this, datum);
         showTooltip(event, datum);
-      })
-      .on('mousemove', function handleMouseMove(event, datum) {
+      } : null)
+      .on('pointermove', canHover ? function handlePointerMove(event, datum) {
         showTooltip(event, datum);
-      })
-      .on('mouseout', function handleMouseOut(event, datum) {
-        d3.select(this)
-          .attr('fill-opacity', datum.status === 'convicted' ? 0.8 : 0.45)
-          .attr('stroke-width', datum.status === 'convicted' ? 1.5 : 0.75)
-          .attr('stroke-opacity', datum.status === 'convicted' ? 0.7 : 0.4)
-          .attr('stroke', datum.status === 'convicted' ? getPartyColor(datum.party) : 'var(--color-rule)');
+      } : null)
+      .on('pointerleave', function handlePointerLeave(_, datum) {
+        resetBubble(this, datum);
         hideTooltip();
       })
-      .on('click', function handleClick(event, datum) {
+      .on('focus', function handleFocus(_, datum) {
+        const bubbleRect = this.querySelector('.bubble')?.getBoundingClientRect();
+        setBubbleActive(this, datum);
+
+        if (bubbleRect) {
+          showTooltip({
+            clientX: bubbleRect.left + bubbleRect.width / 2,
+            clientY: bubbleRect.top + bubbleRect.height / 2,
+          }, datum);
+        }
+      })
+      .on('blur', function handleBlur(_, datum) {
+        resetBubble(this, datum);
+        hideTooltip();
+      })
+      .on('keydown', function handleKeydown(event, datum) {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        hideTooltip();
+        onSelect(datum);
+      })
+      .on('click', function handleClick(_, datum) {
         hideTooltip();
         onSelect(datum);
       });
 
-    bubbles.transition()
+    bubbleGroups.select('.bubble').transition()
       .duration(400)
       .delay((datum, index) => index * 5)
       .attr('r', (datum) => datum.r);
@@ -261,7 +345,6 @@ export function HemicycleChart({ data, onSelect }) {
         const lx = centerX + labelRadius * Math.cos(midAngle);
         const ly = centerY - labelRadius * Math.sin(midAngle);
 
-        // Anchor labels based on position: left side = end, right side = start, top = middle
         const angleDeg = (midAngle * 180) / Math.PI;
         let anchor = 'middle';
         if (angleDeg < 60) anchor = 'start';
@@ -280,7 +363,7 @@ export function HemicycleChart({ data, onSelect }) {
           .text(party);
       });
     }
-  }, [data, dimensions, hideTooltip, onSelect, showTooltip]);
+  }, [canHover, data, dimensions, hideTooltip, onSelect, showTooltip]);
 
   return (
     <div ref={containerRef} className="hemicycle-shell">
@@ -290,6 +373,22 @@ export function HemicycleChart({ data, onSelect }) {
         <>
           <svg ref={svgRef} className="hemicycle-svg" />
           <div ref={tooltipRef} className="tooltip" />
+
+          {dimensions.width < 500 && partySummary.length > 0 && (
+            <div className="hemicycle-party-list">
+              {partySummary.map((party) => (
+                <span
+                  key={party.party}
+                  className="hemicycle-party-item"
+                  data-party-token={getPartyToken(party.party)}
+                >
+                  <span className="hemicycle-party-dot" />
+                  <span>{party.party}</span>
+                  <span className="hemicycle-party-count">{party.total}</span>
+                </span>
+              ))}
+            </div>
+          )}
 
           <div className="hemicycle-legend">
             <span>Mărime = durata pedepsei</span>
