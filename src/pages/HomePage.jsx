@@ -43,10 +43,10 @@ export function HomePage() {
 
           <div className="app-intro-row">
             <p className="app-intro">
-              Bază de date independentă cu politicieni români implicați în dosare penale —
-              de la condamnări definitive la cercetări în curs. Statusul juridic al fiecărei
-              persoane este indicat explicit. Prezumția de nevinovăție se aplică tuturor
-              persoanelor fără condamnare definitivă.{' '}
+              Bază de date independentă despre politicieni români incluși în cauze penale sau de
+              integritate de interes public. Pentru fiecare persoană inclusă sunt indicate explicit
+              statusul juridic, sursele folosite și data ultimei verificări. Prezumția de nevinovăție se aplică tuturor
+              persoanelor fără condamnare definitivă.{` `}
               <Link to="/metodologie" className="app-intro-link" style={{ whiteSpace: 'nowrap' }}>Cum funcționează →</Link>
             </p>
             <StatsBar stats={stats} />
@@ -77,7 +77,7 @@ export function HomePage() {
             </div>
 
             <aside className="main-grid-sidebar">
-              <PartyRanking allData={allData} filteredData={filteredData} />
+              <PartyRanking data={filteredData} />
             </aside>
           </div>
         </div>
@@ -89,8 +89,8 @@ export function HomePage() {
 
           <div className="app-footer-grid">
             <div className="app-footer-copy">
-              <p>Surse per fișă: oficiale când sunt disponibile, completate cu Wikipedia, Digi24, G4Media, HotNews și AGERPRES.</p>
-              <p>Proiect non-profit, open-source. Lista nu este exhaustivă. Verificați întotdeauna sursele originale.</p>
+              <p>Fiecare persoană inclusă are cel puțin o sursă oficială, completată unde este util cu presă de referință.</p>
+              <p>Proiect non-profit, open-source. Lista nu este exhaustivă. Verificați întotdeauna sursele originale și data ultimei verificări.</p>
             </div>
 
             <nav className="app-footer-nav">

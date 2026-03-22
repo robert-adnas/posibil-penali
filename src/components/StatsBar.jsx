@@ -1,9 +1,9 @@
 export function StatsBar({ stats }) {
   return (
     <div className="stats-bar">
-      <Stat value={stats.total} label="politicieni" />
-      <Stat value={stats.convicted} label="condamnați" accent />
-      <Stat value={stats.totalPrisonYears} label="ani de pușcărie" />
+      <Stat value={stats.total} label="persoane incluse" />
+      <Stat value={stats.convicted} label="condamnări definitive" accent />
+      <Stat value={stats.totalPrisonYears} label="ani de pedeapsă" />
     </div>
   );
 }

@@ -10,7 +10,7 @@ const STATUS_DEFS = [
   {
     key: 'first_instance',
     label: 'Condamnat în primă instanță',
-    legal: 'Condamnat de tribunal, dar sentința nu este definitivă. Inculpatul poate declara apel. Prezumția de nevinovăție se aplică parțial — sentința poate fi modificată sau anulată în căile de atac.',
+    legal: 'Există o sentință de condamnare, dar aceasta nu este definitivă și poate fi schimbată în apel. Vinovăția nu este stabilită definitiv.',
   },
   {
     key: 'indicted',
@@ -20,7 +20,7 @@ const STATUS_DEFS = [
   {
     key: 'investigated',
     label: 'Cercetat penal',
-    legal: 'Persoana se află sub urmărire penală (urmărire penală în curs), dar nu a fost trimisă în judecată. Prezumția de nevinovăție se aplică deplin.',
+    legal: 'Persoana se află sub urmărire penală (urmărire penală în curs), dar nu a fost trimisă încă în judecată. Prezumția de nevinovăție se aplică deplin.',
   },
   {
     key: 'prescribed',
@@ -41,8 +41,8 @@ export function Metodologie() {
         <p>
           Acest proiect este un instrument independent de transparență publică, realizat în scop
           civic și jurnalistic necomercial. Scopul său este de a centraliza și vizualiza informații
-          despre politicieni români implicați în dosare penale, facilitând accesul cetățenilor la
-          date de interes public.
+          documentate despre politicieni români incluși în cauze penale sau de integritate de interes
+          public, facilitând accesul cetățenilor la date relevante.
         </p>
         <p>
           Proiectul nu este afiliat niciunei organizații politice, ONG, instituții publice sau
@@ -55,8 +55,8 @@ export function Metodologie() {
         <p>O persoană este inclusă în baza de date dacă îndeplinește simultan:</p>
         <ul>
           <li>A deținut o funcție publică electivă sau numită în România (parlamentar, ministru, primar, consilier județean, europarlamentar, secretar de stat etc.)</li>
-          <li>Este sau a fost implicată într-un dosar penal documentat public</li>
-          <li>Informațiile provin din cel puțin o sursă credibilă și verificabilă (dosar instanță, comunicat DNA/DIICOT, publicație de referință)</li>
+          <li>Este sau a fost implicată într-o cauză penală sau de integritate documentată public</li>
+          <li>Informațiile provin din cel puțin o sursă oficială verificabilă (instanță, DNA, ANI, Ministerul Public), completată unde este util cu presă de referință</li>
         </ul>
         <p>
           Lista nu este exhaustivă — prioritatea a fost acuratețea în detrimentul completitudinii.
@@ -91,14 +91,14 @@ export function Metodologie() {
       <Section title="Surse utilizate">
         <p>Informațiile sunt colectate exclusiv din surse publice:</p>
         <ul>
-          <li><strong>Surse oficiale:</strong> Portal.just.ro (decizii judecătorești), PNA.ro (comunicate DNA), DIICOT.ro</li>
+          <li><strong>Surse oficiale:</strong> portal.just.ro (decizii judecătorești), dna.ro, mpublic.ro, ANI / integritate.eu, DIICOT.ro, Parlamentul României, Parlamentul European</li>
           <li><strong>Presă de referință:</strong> G4Media, HotNews, Digi24, AGERPRES, ProTV Știri, Newsweek România</li>
           <li><strong>Platforme de monitorizare:</strong> România Curată, B365</li>
-          <li><strong>Enciclopedii:</strong> Wikipedia (ca sursă de completare, verificată cu surse primare)</li>
         </ul>
         <p>
-          Fiecare fișă include link-urile surselor folosite. Acolo unde a fost posibil,
-          informațiile au fost verificate cu minimum două surse independente.
+          Fiecare persoană inclusă are cel puțin o sursă oficială. Acolo unde contextul o cere,
+          am adăugat și presă de referință pentru clarificarea hotărârilor, a rezultatului final
+          sau a evoluției procedurale.
         </p>
       </Section>
 
@@ -110,18 +110,19 @@ export function Metodologie() {
         </p>
         <p>
           Data ultimei actualizări este afișată în subsolul paginii principale. Această bază de date
-          nu se actualizează în timp real — întotdeauna verificați sursele originale pentru
-          informații la zi.
+          nu se actualizează în timp real. Pentru fiecare persoană inclusă este afișată și data ultimei verificări
+          editoriale — întotdeauna verificați sursele originale pentru informații la zi.
         </p>
       </Section>
 
-      <Section title="Cum se citește o fișă">
-        <p>Fiecare fișă de politician conține:</p>
+      <Section title="Cum se citește o intrare">
+        <p>Fiecare intrare despre un politician conține:</p>
         <ul>
           <li><strong>Nume și partid</strong> — la momentul comiterii faptei sau al condamnării</li>
           <li><strong>Funcția deținută</strong> — funcția publică relevantă în contextul dosarului</li>
           <li><strong>Faptă</strong> — descriere sumară a acuzațiilor sau a faptelor reținute de instanță</li>
           <li><strong>Status juridic</strong> — stadiul procesual curent (vezi categorii mai sus)</li>
+          <li><strong>Ultima verificare</strong> — data la care statusul și sursele au fost revizuite editorial</li>
           <li><strong>Pedeapsă</strong> — dacă există sentință definitivă sau în primă instanță</li>
           <li><strong>Surse</strong> — link-uri directe către sursele documentare folosite</li>
         </ul>

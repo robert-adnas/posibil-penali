@@ -1,24 +1,10 @@
 export const metadataOverrides = {
   description:
-    'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
+    'Proiect independent, non-profit și open source despre cazuri publice documentate din politica românească, cu status juridic explicit și surse oficiale pentru fiecare persoană inclusă.',
   last_updated: '2026-03-22',
   notes:
-    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare fișă păstrează cel puțin o sursă individuală; unde a fost posibil, am adăugat și surse oficiale ale statului român sau profiluri parlamentare. Lista rămâne deschisă și nu este exhaustivă.',
+    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
-
-export const politicianRemovals = [
-  'Adriean Videanu',
-  'Allen Coliban',
-  'Codruț Șereș',
-  'Dan Dungaciu',
-  'Gheorghe Hansa',
-  'Ioan Cindrea',
-  'Ioan Mihai Lasca',
-  'Mircia Muntean',
-  'Ringo Dămureanu',
-  'Sorin Roșca Stănescu',
-  'Vasile Cîmpoeru',
-];
 
 export const politicianOverrides = {
   'Daniel Tudorache': {
@@ -85,29 +71,6 @@ export const politicianOverrides = {
         label: 'HotNews',
         kind: 'press',
         url: 'https://hotnews.ro/video-traian-basescu-a-retras-ordinul-virtutea-militara-in-grad-de-cavaler-acordat-in-2002-lui-catalin-voicu-601192',
-      },
-    ],
-  },
-  'Allen Coliban': {
-    replace_sources: true,
-    status: 'investigated',
-    crime: 'Abuz în serviciu',
-    sentence: null,
-    sentence_years: null,
-    conviction_year: null,
-    details:
-      'În aprilie 2023, Tribunalul Brașov a confirmat la cererea DNA redeschiderea urmăririi penale într-un dosar care îi vizează pe Allen Coliban și city managerul Adriana Miron, în legătură cu delegarea atribuțiilor primarului.',
-    verified_at: '2026-03-21',
-    sources: [
-      {
-        label: 'Digi24',
-        kind: 'press',
-        url: 'https://www.digi24.ro/stiri/actualitate/justitie/tribunalul-brasov-a-confirmat-redeschiderea-urmaririi-penale-intr-un-dosar-al-dna-in-care-e-implicat-primarul-coliban-2312595',
-      },
-      {
-        label: 'HotNews',
-        kind: 'press',
-        url: 'https://hotnews.ro/perchezitii-dna-la-primaria-brasov-privind-atribuirea-unor-contracte-surse-66072',
       },
     ],
   },
@@ -674,25 +637,6 @@ export const politicianOverrides = {
       },
     ],
   },
-  'Adriean Videanu': {
-    replace_sources: true,
-    sentence: 'Achitat definitiv (2024)',
-    details:
-      'Achitat definitiv de ÎCCJ în mai 2024 în dosarul Romgaz-Interagro, după ce primise soluție de achitare și la instanța de fond în decembrie 2022.',
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'Digi24',
-        kind: 'press',
-        url: 'https://www.digi24.ro/stiri/actualitate/justitie/adriean-videanu-si-ioan-niculae-achitati-definitiv-in-dosarul-delapidarii-romgaz-2808213',
-      },
-      {
-        label: 'News.ro',
-        kind: 'press',
-        url: 'https://www.news.ro/justitie/adriean-videanu-si-ioan-niculae-achitati-definitiv-in-dosarul-romgaz-1922403029442024051721610262',
-      },
-    ],
-  },
   'Vlad Cosma': {
     replace_sources: true,
     status: 'prescribed',
@@ -867,26 +811,6 @@ export const politicianOverrides = {
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/adriean-videanu-si-ioan-niculae-achitati-definitiv-in-dosarul-delapidarii-romgaz-2808213',
-      },
-    ],
-  },
-  'Dan Dungaciu': {
-    replace_sources: true,
-    position: 'Prim-vicepreședinte AUR; fost director ISPRI',
-    position_type: 'other',
-    details:
-      'Trimis în judecată în 2024 pentru abuz în serviciu într-un dosar legat de activitatea sa la ISPRI. În 2025 dosarul se afla încă în faza de cameră preliminară, iar în ianuarie 2026 presa a relatat riscul intervenirii prescripției.',
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'G4Media',
-        kind: 'press',
-        url: 'https://www.g4media.ro/exclusiv-judecatorul-din-dosarul-lui-dan-dungaciu-a-publicat-motivarea-la-doua-saptamani-dupa-ce-g4media-ro-a-dezvaluit-tergiversarea-redactarii-timp-de-un-an-si-doua-luni-raspunderea-penala-a-lui-d.html',
-      },
-      {
-        label: 'Justnews',
-        kind: 'press',
-        url: 'https://justnews.ro/s-a-suspendat-procesul-in-care-un-institut-al-academiei-romane-contesta-raportul-curtii-de-conturi-care-a-dus-la-dosarul-dna-deschis-fostului-director-dan-dungaciu/',
       },
     ],
   },

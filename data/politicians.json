@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "description": "Politicieni români condamnați pentru corupție și alte infracțiuni",
+    "description": "Proiect independent, non-profit și open source despre cazuri publice documentate din politica românească, cu status juridic explicit și surse oficiale pentru fiecare persoană inclusă.",
     "sources": [
       "https://newsweek.ro/justitie/guvernul-din-spatele-gratiilor-23-de-ministri-condamnati-dupa-1989-au-luat-90-de-ani-de-inchisoare",
       "https://www.romaniacurata.ro/lista-condamnati-candidati-probleme-penale-alegeri-parlamentare/",
@@ -12,8 +12,8 @@
       "https://www.g4media.ro",
       "https://www.hotnews.ro"
     ],
-    "last_updated": "2026-03-21",
-    "notes": "Categorii de status: convicted (condamnare definitivă), first_instance (condamnat în primă instanță, poate face apel), indicted (trimis în judecată), investigated (sub urmărire penală), prescribed (prescris), acquitted (achitat). Doar intrări bine documentate din surse media de încredere (G4Media, HotNews, Digi24, România Curată, Newsweek RO) și documente oficiale (rapoarte DNA, decizii judecătorești). Intrările au fost verificate cu cel puțin 2 surse independente acolo unde a fost posibil."
+    "last_updated": "2026-03-22",
+    "notes": "Categorii de status: convicted (condamnare definitivă), first_instance (condamnat în primă instanță, cu apel posibil), indicted (trimis în judecată), investigated (cercetat penal), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; acolo unde contextul o cere, sunt adăugate și surse de presă de referință pentru clarificarea evoluției procedurale."
   },
   "politicians": [
     {
@@ -171,19 +171,6 @@
       "status": "convicted",
       "details": "Condamnat pentru fraudă la privatizare și manipulare de piață.",
       "source_url": "https://www.hotnews.ro/sorin-pantis-condamnat"
-    },
-    {
-      "name": "Codruț Șereș",
-      "party": "PC",
-      "position": "Ministru Economie și Comerț (2004-2006)",
-      "position_type": "minister",
-      "crime": "Abuz în serviciu (Hidroelectrica)",
-      "sentence": "4 ani și 8 luni închisoare",
-      "sentence_years": 4.67,
-      "conviction_year": 2015,
-      "status": "convicted",
-      "details": "Condamnat pentru delapidare de fonduri de la Hidroelectrica.",
-      "source_url": "https://ro.wikipedia.org/wiki/Codru%C8%9B_%C8%98ere%C8%99"
     },
     {
       "name": "Zsolt Nagy",
@@ -420,19 +407,6 @@
       "source_url": "https://ro.wikipedia.org/wiki/Adrian_Duicu"
     },
     {
-      "name": "Ioan Cindrea",
-      "party": "PSD",
-      "position": "Președinte Consiliu Județean Sibiu; Senator",
-      "position_type": "county_council_president",
-      "crime": "Conflict de interese (angajare ilegală a soției la biroul parlamentar)",
-      "sentence": "1 an și 6 luni cu suspendare",
-      "sentence_years": 1.5,
-      "conviction_year": 2015,
-      "status": "convicted",
-      "details": "Condamnat pentru conflict de interese - angajare ilegală a soției la biroul parlamentar. Surse: HotNews, Digi24.",
-      "source_url": "https://ro.wikipedia.org/wiki/Ioan_Cindrea"
-    },
-    {
       "name": "Radu Mazăre",
       "party": "PSD",
       "position": "Primar Constanța (2000-2015)",
@@ -498,19 +472,6 @@
       "source_url": "https://ro.wikipedia.org/wiki/C%C4%83t%C4%83lin_Chereche%C8%99"
     },
     {
-      "name": "Mircia Muntean",
-      "party": "PSD",
-      "position": "Primar Deva",
-      "position_type": "mayor",
-      "crime": "Abuz în serviciu; conducere sub influența alcoolului",
-      "sentence": "6 ani închisoare cu executare",
-      "sentence_years": 6,
-      "conviction_year": 2017,
-      "status": "convicted",
-      "details": "Condamnat pentru abuz în serviciu combinat cu alte acuzații. Surse: Digi24, HotNews.",
-      "source_url": "https://ro.wikipedia.org/wiki/Mircia_Muntean"
-    },
-    {
       "name": "Iulian Bădescu",
       "party": "PSD",
       "position": "Primar Ploiești",
@@ -548,32 +509,6 @@
       "status": "convicted",
       "details": "Condamnat pentru trafic de influență și complicitate la spălare de bani în dosarul Vâlcov/tablourilor. Surse: G4Media, HotNews.",
       "source_url": "https://www.digi24.ro/stiri/actualitate/justitie/minel-prina-condamnat"
-    },
-    {
-      "name": "Vasile Cîmpoeru",
-      "party": "PNL",
-      "position": "Primar Bragadiru (Ilfov)",
-      "position_type": "mayor",
-      "crime": "Instigare la falsificare documente oficiale; complicitate la fals intelectual (autorizații de construire)",
-      "sentence": "4 ani și 4 luni închisoare",
-      "sentence_years": 4.33,
-      "conviction_year": 2021,
-      "status": "convicted",
-      "details": "Condamnat pentru instigare la falsificarea autorizațiilor de construire oficiale. Surse: G4Media, HotNews.",
-      "source_url": "https://www.digi24.ro/vasile-cimpoeru-condamnat"
-    },
-    {
-      "name": "Gheorghe Hansa",
-      "party": "PNL",
-      "position": "Primar Cernavodă",
-      "position_type": "mayor",
-      "crime": "Abuz în serviciu (achiziții publice ilegale)",
-      "sentence": "4 ani și 10 luni închisoare",
-      "sentence_years": 4.83,
-      "conviction_year": 2019,
-      "status": "convicted",
-      "details": "Condamnat pentru abuz în serviciu în contracte ilegale de achiziții publice. Surse: HotNews.",
-      "source_url": "https://www.digi24.ro/stiri/actualitate/justitie/gheorghe-hansa-condamnat"
     },
     {
       "name": "Antonie Solomon",
@@ -693,19 +628,6 @@
       "source_url": "https://ro.wikipedia.org/wiki/C%C4%83t%C4%83lin_Voicu"
     },
     {
-      "name": "Sorin Roșca Stănescu",
-      "party": "PNL",
-      "position": "Senator (2012-2014, Dâmbovița)",
-      "position_type": "senator",
-      "crime": "Utilizare informații privilegiate; grup infracțional organizat (dosarul Rompetrol)",
-      "sentence": "2 ani și 4 luni închisoare cu executare",
-      "sentence_years": 2.33,
-      "conviction_year": 2014,
-      "status": "convicted",
-      "details": "Condamnat pentru utilizare de informații privilegiate și apartenență la grup infracțional organizat în dosarul Rompetrol. Surse: HotNews, Digi24.",
-      "source_url": "https://ro.wikipedia.org/wiki/Sorin_Ro%C8%99ca_St%C4%83nescu"
-    },
-    {
       "name": "Cristian David",
       "party": "PNL",
       "position": "Ministru Interne",
@@ -717,19 +639,6 @@
       "status": "acquitted",
       "details": "Inițial acuzat de luare de mită, dar achitat în 2019.",
       "source_url": "https://ro.wikipedia.org/wiki/Cristian_David_(politician)"
-    },
-    {
-      "name": "Adriean Videanu",
-      "party": "PDL",
-      "position": "Ministru Economie",
-      "position_type": "minister",
-      "crime": "Complicitate la abuz în serviciu",
-      "sentence": "Achitat (2022)",
-      "sentence_years": 0,
-      "conviction_year": null,
-      "status": "acquitted",
-      "details": "Inițial acuzat, dar achitat în 2022.",
-      "source_url": "https://ro.wikipedia.org/wiki/Adriean_Videanu"
     },
     {
       "name": "Vlad Cosma",
@@ -1018,19 +927,6 @@
       "source_url": "https://www.hotnews.ro/varujan-vosganian-cercetat"
     },
     {
-      "name": "Ioan Mihai Lasca",
-      "party": "AUR",
-      "position_type": "deputy",
-      "position": "Deputat de Bihor",
-      "crime": "Lovire sau alte violențe; constituire grup infracțional organizat",
-      "sentence": "2 ani închisoare cu suspendare",
-      "sentence_years": 2,
-      "conviction_year": 2021,
-      "status": "convicted",
-      "details": "Condamnat definitiv pentru agresarea unui bărbat în trafic. Judecat separat de DIICOT pentru constituirea unui grup infracțional care spărgea bancomate în mai multe țări.",
-      "source_url": "https://www.g4media.ro/profil-de-deputat-condamnat-coordonatorul-aur-bihor-este-judecat-pentru-constituirea-unui-grup-infractional-organizat-care-spargea-bancomate-in-alt-dosar-penal-a-fost-condamnat-pentru-lovire-la-2-an.html"
-    },
-    {
       "name": "Lucian Florin Pușcașu",
       "party": "AUR",
       "position_type": "deputy",
@@ -1042,32 +938,6 @@
       "status": "convicted",
       "details": "Condamnat definitiv pentru fraudă cu fonduri europene. A falsificat documente privind numărul de participanți la cursuri de calificare, obținând peste 40.000 euro din programul Phare.",
       "source_url": "https://antena3suceava.ro/politica/ipocrizie-fara-margini-un-deputat-sucevean-condamnat-penal-la-1-an-si-6-luni-pentru-fraude-cu-3833.html"
-    },
-    {
-      "name": "Ringo Dămureanu",
-      "party": "AUR",
-      "position_type": "deputy",
-      "position": "Deputat de Dolj",
-      "crime": "Lovire",
-      "sentence": "Amendă penală",
-      "sentence_years": null,
-      "conviction_year": 2001,
-      "status": "convicted",
-      "details": "Condamnat definitiv cu amendă penală pentru lovire. Reabilitat în 2018. Exclus din grupul parlamentar AUR în 2024.",
-      "source_url": "https://www.g4media.ro/unul-dintre-membrii-delegatiei-aur-care-se-intalneste-cu-presedintele-iohannis-a-fost-condamnat-cu-amenda-penala-pentru-lovire-ringo-damureanu-este-liderul-unui-sindicat-din-craiova-si-a-devenit-depu.html"
-    },
-    {
-      "name": "Dan Dungaciu",
-      "party": "AUR",
-      "position_type": "deputy",
-      "position": "Deputat, prim-vicepreședinte AUR",
-      "crime": "Abuz în serviciu",
-      "sentence": null,
-      "sentence_years": null,
-      "conviction_year": null,
-      "status": "indicted",
-      "details": "Trimis în judecată de DNA în aprilie 2024 pentru abuz în serviciu. Acuzat că a dat în folosință gratuită două spații ISPRI unei asociații fără licitație.",
-      "source_url": "https://www.g4media.ro/curtea-de-apel-dispune-inceperea-judecatii-pe-fond-in-dosarul-lui-dan-dungaciu-de-abuz-in-serviciu-cu-doi-ani-de-intarziere-raspunderea-penala-a-prim-vicepresedintelui-aur-s-a-prescris-potrivit-expe.html"
     },
     {
       "name": "Diana Iovanovici-Șoșoacă",
@@ -1094,19 +964,6 @@
       "status": "indicted",
       "details": "Trimisă în judecată de DNA pentru conflict de interese. S-a numit pe sine manager de proiect cu fonduri europene și și-a majorat indemnizația. Cercetată separat de DNA pentru abuz în serviciu.",
       "source_url": "https://jurnalul.ro/special-jurnalul/partid-fara-penali-candidati-senat-clotilde-armand-judecata-conflict-interese-974971.html"
-    },
-    {
-      "name": "Allen Coliban",
-      "party": "USR",
-      "position_type": "mayor",
-      "position": "Primar Brașov",
-      "crime": "Abuz în serviciu (multiple dosare DNA)",
-      "sentence": null,
-      "sentence_years": null,
-      "conviction_year": null,
-      "status": "indicted",
-      "details": "Cercetat în 4 dosare penale. Trimis în judecată alături de partenera sa pentru un prejudiciu de 16 milioane lei legat de FC Brașov.",
-      "source_url": "https://ecopolitic.ro/fostul-primar-usr-al-brasovului-allen-coliban-si-iubita-sa-trimisi-in-judecata-pentru-un-prejudiciu-de-16-milioane-de-lei-realitatea-net/"
     },
     {
       "name": "Vlad Voiculescu",

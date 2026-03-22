@@ -19,7 +19,7 @@ export function PageLayout({ children, title, kicker }) {
               </svg>
               Înapoi
             </Link>
-            <Link to="/" className="page-site-name">Politicieni Corupți</Link>
+            <Link to="/" className="page-site-name">Arhiva Integrității Publice</Link>
           </div>
 
           <div className="app-kicker-row" style={{ marginTop: '1.5rem' }}>
@@ -43,7 +43,7 @@ export function PageLayout({ children, title, kicker }) {
 
           <div className="app-footer-grid">
             <div className="app-footer-copy">
-              <p>Proiect non-profit, open-source. Lista nu este exhaustivă. Verificați întotdeauna sursele originale.</p>
+              <p>Fiecare persoană inclusă are cel puțin o sursă oficială. Lista nu este exhaustivă. Verificați întotdeauna sursele originale.</p>
             </div>
 
             <nav className="app-footer-nav">

@@ -7,9 +7,9 @@ export function AvizLegal() {
       <Section title="Scop și natură juridică">
         <p>
           Această bază de date este un instrument independent de transparență civică și informare
-          publică, realizat și menținut de un particular în scop necomercial. Nu reprezintă o
-          publicație jurnalistică profesionistă și nu este afiliată niciunei organizații, partid,
-          instituții publice sau entități comerciale.
+          publică, realizat și menținut de un particular, cu caracter editorial și documentar, în
+          scop necomercial. Nu este afiliată niciunei organizații, partid, instituții publice,
+          redacții sau entități comerciale.
         </p>
         <p>
           Proiectul urmărește să facă accesibile, într-un format vizual și ușor de navigat,
@@ -28,17 +28,16 @@ export function AvizLegal() {
           </p>
         </div>
         <p>
-          Includerea unei persoane în această bază de date cu statusul „cercetat penal",
-          „trimis în judecată" sau „condamnat în primă instanță" <strong>nu constituie o
+          Includerea unei persoane în această bază de date cu statusul „cercetat penal”,
+          „trimis în judecată” sau „condamnat în primă instanță” <strong>nu constituie o
           afirmare a vinovăției penale definitive</strong> și nu trebuie interpretată ca atare.
           Statusul juridic al fiecărei persoane este indicat explicit și reflectă stadiul
           procesual la data ultimei actualizări.
         </p>
         <p>
-          Titlul proiectului — „Politicieni Corupți" — este o denumire editorială cu caracter
-          general, consacrată în limbajul public. El nu implică faptul că fiecare persoană
-          listată a fost condamnată definitiv. Subtitlul „Condamnați, judecați și cercetați penal"
-          descrie complet spectrul statusurilor incluse.
+          Titlul și prezentarea proiectului au caracter descriptiv și orientativ. Vinovăția nu este
+          atribuită prin titulatură, ci este reflectată exclusiv prin statusul juridic explicit
+          afișat pentru fiecare persoană inclusă, împreună cu sursele și data ultimei verificări.
         </p>
       </Section>
 
@@ -60,8 +59,8 @@ export function AvizLegal() {
             funcții publice.
           </li>
           <li>
-            <strong>Interesul public legitim</strong> — transparența actului de guvernare și
-            a exercitării funcțiilor publice este recunoscută ca interes public în jurisprudența
+            <strong>Interesul public legitim</strong> — transparența actului de guvernare și a
+            exercitării funcțiilor publice este recunoscută ca interes public în jurisprudența
             CEDO și a Curții de Justiție a UE.
           </li>
         </ul>

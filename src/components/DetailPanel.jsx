@@ -11,6 +11,13 @@ const SOURCE_KIND_LABELS = {
 export function DetailPanel({ politician, onClose }) {
   const panelRef = useRef(null);
   const sources = Array.isArray(politician.sources) ? politician.sources : [];
+  const formattedVerifiedAt = politician.verified_at
+    ? new Intl.DateTimeFormat('ro-RO', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).format(new Date(politician.verified_at))
+    : null;
 
   useEffect(() => {
     const handleKey = (event) => {
@@ -44,7 +51,7 @@ export function DetailPanel({ politician, onClose }) {
             Înapoi
           </button>
 
-          <span className="detail-panel-toplabel">Fișă politician</span>
+          <span className="detail-panel-toplabel">Profil public</span>
         </div>
 
         <div className="detail-panel-content">
@@ -73,6 +80,12 @@ export function DetailPanel({ politician, onClose }) {
               {STATUS_LABELS[politician.status] || politician.status}
             </span>
           </Section>
+
+          {formattedVerifiedAt && (
+            <Section label="Ultima verificare">
+              <p className="detail-panel-copy detail-panel-copy--muted">{formattedVerifiedAt}</p>
+            </Section>
+          )}
 
           <Section label="Faptă">
             <p className="detail-panel-copy detail-panel-copy--crime">{politician.crime}</p>
@@ -133,7 +146,7 @@ export function DetailPanel({ politician, onClose }) {
           <div className="detail-panel-footer-divider" />
 
           <p className="detail-panel-footer-note">
-            Informațiile provin din surse publice și pot conține erori. Verifică întotdeauna sursele originale.
+            Informațiile provin din surse publice și sunt prezentate rezumativ. Verifică întotdeauna sursele originale și data ultimei verificări.
           </p>
         </div>
       </div>

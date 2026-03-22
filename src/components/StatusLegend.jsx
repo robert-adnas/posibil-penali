@@ -9,7 +9,7 @@ const STATUSES = [
   {
     key: 'first_instance',
     label: 'Condamnat în primă instanță',
-    description: 'Condamnat de tribunal, dar sentința nu este definitivă. Poate face apel. Prezumția de nevinovăție se aplică parțial.',
+    description: 'Există o sentință de condamnare, dar aceasta nu este definitivă și poate fi schimbată în apel. Vinovăția nu este stabilită definitiv.',
   },
   {
     key: 'indicted',
@@ -19,7 +19,7 @@ const STATUSES = [
   {
     key: 'investigated',
     label: 'Cercetat penal',
-    description: 'Sub urmărire penală, dar netrimit încă în judecată. Prezumția de nevinovăție se aplică deplin.',
+    description: 'Sub urmărire penală, dar nu a fost trimis încă în judecată. Prezumția de nevinovăție se aplică deplin.',
   },
   {
     key: 'prescribed',

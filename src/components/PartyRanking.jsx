@@ -2,11 +2,11 @@ import { useMemo } from 'react';
 import { getPartyToken } from '../utils/partyColors';
 import { formatYears } from '../utils/constants';
 
-export function PartyRanking({ allData, filteredData }) {
+export function PartyRanking({ data }) {
   const rankings = useMemo(() => {
     const partyStats = {};
 
-    allData.forEach((politician) => {
+    data.forEach((politician) => {
       if (!partyStats[politician.party]) {
         partyStats[politician.party] = { total: 0, convicted: 0, years: 0 };
       }
@@ -22,31 +22,31 @@ export function PartyRanking({ allData, filteredData }) {
     return Object.entries(partyStats)
       .sort((a, b) => b[1].total - a[1].total)
       .map(([party, stats]) => ({ party, ...stats }));
-  }, [allData]);
+  }, [data]);
 
   const maxTotal = Math.max(...rankings.map((ranking) => ranking.total), 1);
-
-  const activeParties = useMemo(() => {
-    const activePartySet = new Set();
-    filteredData.forEach((politician) => activePartySet.add(politician.party));
-    return activePartySet;
-  }, [filteredData]);
+  const hasMixedStatuses = data.some((politician) => politician.status !== 'convicted');
 
   return (
     <div className="party-ranking">
-      <h3 className="party-ranking-title">Clasament partide</h3>
+      <h3 className="party-ranking-title">Distribuție pe partide</h3>
+
+      {hasMixedStatuses && (
+        <p className="party-ranking-note">
+          Numărul principal reprezintă persoane din selecția curentă, nu doar condamnări definitive.
+        </p>
+      )}
 
       <div className="party-ranking-list">
         {rankings.map((ranking, index) => {
-          const dimmed = filteredData.length !== allData.length && !activeParties.has(ranking.party);
           const width = (ranking.total / maxTotal) * 100;
+          const showConvictedSubstat = hasMixedStatuses && ranking.convicted > 0;
 
           return (
             <div
               key={ranking.party}
               className="party-ranking-item"
               data-party-token={getPartyToken(ranking.party)}
-              data-dimmed={dimmed}
             >
               <div className="party-ranking-header">
                 <div className="party-ranking-name-group">
@@ -64,15 +64,19 @@ export function PartyRanking({ allData, filteredData }) {
                   <rect className="party-ranking-bar-fill" x="0" y="0" width={width} height="4" />
                 </svg>
 
-                <div className="party-ranking-substats">
-                  <span className="party-ranking-substat">{ranking.convicted} condamnați</span>
+                {(showConvictedSubstat || ranking.years > 0) && (
+                  <div className="party-ranking-substats">
+                    {showConvictedSubstat && (
+                      <span className="party-ranking-substat">{ranking.convicted} condamnări definitive</span>
+                    )}
 
-                  {ranking.years > 0 && (
-                    <span className="party-ranking-substat party-ranking-substat--tabular">
-                      {formatYears(ranking.years)}
-                    </span>
-                  )}
-                </div>
+                    {ranking.years > 0 && (
+                      <span className="party-ranking-substat party-ranking-substat--tabular">
+                        {formatYears(ranking.years)}
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           );
