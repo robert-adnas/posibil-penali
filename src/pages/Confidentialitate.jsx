@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
 
-const CONTACT_EMAIL = 'contact@[adresa-ta.ro]'; // ← înlocuiți cu adresa dvs. de email
+const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 
 export function Confidentialitate() {
   return (

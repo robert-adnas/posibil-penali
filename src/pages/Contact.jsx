@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
 
-const CONTACT_EMAIL = 'contact@[adresa-ta.ro]'; // ← înlocuiți cu adresa dvs. de email
+const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 
 const REQUEST_TYPES = [
   { value: 'correction', label: 'Solicitare de corecție' },
@@ -181,7 +181,7 @@ export function Contact() {
           </a>
 
           <p className="contact-form-note">
-            Niciun date nu sunt trimise direct prin acest site. Formularul pre-completează un
+            Datele nu sunt trimise direct prin acest site. Formularul pre-completează un
             email în aplicația dvs. de email.
           </p>
         </div>
