@@ -47,7 +47,7 @@ export function HomePage() {
               de la condamnări definitive la cercetări în curs. Statusul juridic al fiecărei
               persoane este indicat explicit. Prezumția de nevinovăție se aplică tuturor
               persoanelor fără condamnare definitivă.{' '}
-              <Link to="/metodologie" className="app-intro-link">Cum funcționează →</Link>
+              <Link to="/metodologie" className="app-intro-link" style={{ whiteSpace: 'nowrap' }}>Cum funcționează →</Link>
             </p>
             <StatsBar stats={stats} />
           </div>
