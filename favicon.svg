@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Politicieni Corupți">
+  <rect width="64" height="64" rx="10" fill="#8b2500"/>
+  <!-- Eye almond -->
+  <path d="M 8,32 C 18,20 46,20 56,32 C 46,44 18,44 8,32 Z" fill="#f5f0e8"/>
+  <!-- Iris -->
+  <circle cx="32" cy="32" r="9" fill="#8b2500"/>
+  <!-- Pupil -->
+  <circle cx="32" cy="32" r="4" fill="#f5f0e8"/>
+</svg>
