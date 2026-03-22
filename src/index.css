@@ -740,7 +740,8 @@ button {
   height: 8px;
   flex-shrink: 0;
   border-radius: 999px;
-  background: var(--status-color);
+  background: transparent;
+  border: 2px solid var(--status-color);
 }
 
 .detail-panel-copy--crime {
@@ -938,7 +939,8 @@ button {
   width: 6px;
   height: 6px;
   border-radius: 999px;
-  background: var(--status-color, var(--color-ink-faint));
+  background: transparent;
+  border: 1.5px solid var(--status-color, var(--color-ink-faint));
 }
 
 .status-legend-chevron {
@@ -976,7 +978,8 @@ button {
   height: 8px;
   flex-shrink: 0;
   border-radius: 999px;
-  background: var(--status-color, var(--color-ink-faint));
+  background: transparent;
+  border: 2px solid var(--status-color, var(--color-ink-faint));
 }
 
 .status-legend-item-label {
