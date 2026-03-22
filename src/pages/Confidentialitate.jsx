@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
+import { useSEO } from '../hooks/useSEO';
 
 const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 
 export function Confidentialitate() {
+  useSEO({
+    title: 'Politică de Confidențialitate | Politicieni Corupți',
+    description: 'Politica de confidențialitate a proiectului: nu colectăm date, nu folosim cookie-uri, nu urmărim vizitatorii.',
+  });
   return (
     <PageLayout title="Politică de Confidențialitate" kicker="GDPR & date personale">
       <p className="page-intro-note">

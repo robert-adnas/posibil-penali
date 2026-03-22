@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
+import { useSEO } from '../hooks/useSEO';
 
 const STATUS_DEFS = [
   {
@@ -35,6 +36,10 @@ const STATUS_DEFS = [
 ];
 
 export function Metodologie() {
+  useSEO({
+    title: 'Metodologie | Politicieni Corupți',
+    description: 'Cum funcționează baza de date, criteriile de includere, sursele utilizate și definițiile statusurilor juridice.',
+  });
   return (
     <PageLayout title="Metodologie" kicker="Transparență & surse">
       <Section title="Ce este această bază de date">

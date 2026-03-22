@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useSEO } from '../hooks/useSEO';
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { HemicycleChart } from '../components/HemicycleChart';
@@ -11,6 +12,7 @@ import { StatusLegend } from '../components/StatusLegend';
 export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
   const [selectedPolitician, setSelectedPolitician] = useState(null);
+  useSEO();
 
   const convictionYears = allData
     .map((politician) => politician.conviction_year)

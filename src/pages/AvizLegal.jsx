@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
+import { useSEO } from '../hooks/useSEO';
 
 export function AvizLegal() {
+  useSEO({
+    title: 'Aviz Legal | Politicieni Corupți',
+    description: 'Cadrul juridic al bazei de date: prezumția de nevinovăție, temeiul legal GDPR și limitele de răspundere.',
+  });
   return (
     <PageLayout title="Aviz Legal" kicker="Cadru juridic">
       <Section title="Scop și natură juridică">

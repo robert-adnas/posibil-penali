@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
+import { useSEO } from '../hooks/useSEO';
 
 const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 
@@ -11,6 +12,10 @@ const REQUEST_TYPES = [
 ];
 
 export function Contact() {
+  useSEO({
+    title: 'Contact & Corecții | Politicieni Corupți',
+    description: 'Trimite o solicitare de corecție, eliminare a datelor (GDPR) sau contactează echipa proiectului.',
+  });
   const [type, setType] = useState('correction');
   const [politician, setPolitician] = useState('');
   const [description, setDescription] = useState('');
