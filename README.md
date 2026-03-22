@@ -1,16 +1,28 @@
-# React + Vite
+# Politicieni Corupți
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Arhivă independentă, non-profit și open-source cu politicieni români implicați în dosare penale.
 
-Currently, two official plugins are available:
+🔗 **[politicieni-corupti.ro](https://politicieni-corupti.ro)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Scopul proiectului
 
-## React Compiler
+Proiectul adună într-un singur loc informații despre politicieni români condamnați, trimiși în judecată sau cercetați penal. Fiecare fișă indică explicit stadiul juridic al persoanei — de la condamnări definitive până la cercetări în curs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Prezumția de nevinovăție se aplică tuturor persoanelor fără condamnare definitivă.
 
-## Expanding the ESLint configuration
+## Ce conține
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Nume, funcție și partid
+- Statusul juridic (condamnat definitiv, trimis în judecată, cercetat etc.)
+- Durata pedepsei, acolo unde există condamnare
+- Surse oficiale sau jurnalistice verificabile pentru fiecare caz
+
+## Surse
+
+Datele provin din surse oficiale (dosare publice, comunicate instanțe) completate cu Wikipedia, Digi24, G4Media, HotNews și AGERPRES.
+
+Lista nu este exhaustivă. Verificați întotdeauna sursele originale.
+
+## Contribuții
+
+Dacă observați o eroare sau doriți să adăugați un caz, deschideți un [Issue](https://github.com/robert-adnas/posibil-penali/issues) sau trimiteți un Pull Request.
