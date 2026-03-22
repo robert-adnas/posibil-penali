@@ -7,7 +7,7 @@ export function HemicycleChart({ data, onSelect }) {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
   const tooltipRef = useRef(null);
-  const [dimensions, setDimensions] = useState({ width: 800, height: 450 });
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
     const container = containerRef.current;
@@ -19,7 +19,10 @@ export function HemicycleChart({ data, onSelect }) {
       const height = isMobile
         ? Math.max(240, Math.min(width * 0.6, 320))
         : Math.max(250, Math.min(width * 0.45, 420));
-      setDimensions({ width, height });
+      setDimensions((prev) => {
+        if (prev.width === width && prev.height === height) return prev;
+        return { width, height };
+      });
     });
 
     observer.observe(container);
@@ -61,7 +64,7 @@ export function HemicycleChart({ data, onSelect }) {
   }, []);
 
   useEffect(() => {
-    if (!svgRef.current || !data.length) return;
+    if (!svgRef.current || !data.length || dimensions.width === 0) return;
 
     const { width, height } = dimensions;
     const isMobile = width < 500;
@@ -138,9 +141,11 @@ export function HemicycleChart({ data, onSelect }) {
       const index = partyMembers.indexOf(datum);
       const t = partyMembers.length > 1 ? index / (partyMembers.length - 1) : 0.5;
       const angle = arc.start + t * (arc.end - arc.start);
+      // Deterministic orbit based on index to avoid different layouts on each render
+      const orbitT = partyMembers.length > 1 ? (index / partyMembers.length) : 0.5;
       const orbit = isMobile
-        ? maxRadius * (0.25 + Math.random() * 0.65)
-        : maxRadius * (0.4 + Math.random() * 0.5);
+        ? maxRadius * (0.25 + orbitT * 0.65)
+        : maxRadius * (0.4 + orbitT * 0.5);
 
       return {
         ...datum,
@@ -244,8 +249,8 @@ export function HemicycleChart({ data, onSelect }) {
       });
 
     bubbles.transition()
-      .duration(600)
-      .delay((datum, index) => index * 15)
+      .duration(400)
+      .delay((datum, index) => index * 5)
       .attr('r', (datum) => datum.r);
 
     if (!isMobile) {
