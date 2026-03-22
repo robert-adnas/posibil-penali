@@ -516,13 +516,13 @@ button {
 .tooltip[data-party-token="romania-socialista"] { --tooltip-party-color: #f87171; }
 .tooltip[data-party-token="other"] { --tooltip-party-color: #f5f0e8; }
 
-.bubble-node:focus-visible .bubble {
-  stroke-width: 2.5;
-  stroke-opacity: 1;
-}
-
 .bubble-hit {
   pointer-events: all;
+}
+
+.bubble-node:focus,
+.bubble-node:focus-visible {
+  outline: none;
 }
 
 .bubble {
