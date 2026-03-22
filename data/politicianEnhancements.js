@@ -1426,4 +1426,129 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Nati Meir',
+    party: 'PRM',
+    position: 'Deputat de Tulcea (2004-2008)',
+    position_type: 'deputy',
+    crime: 'Trafic de influen\u021b\u0103',
+    sentence: '4 ani \u00eenchisoare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een februarie 2014 pentru dou\u0103 infrac\u021biuni concurente de trafic de influen\u021b\u0103, dintre care una \u00een form\u0103 continuat\u0103. DNA a precizat c\u0103 hot\u0103r\u00e2rea a avut \u00een vedere recunoa\u0219terea vinov\u0103\u021biei.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4709',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://fr.wikipedia.org/wiki/Nati_Meir',
+      },
+    ],
+  },
+  {
+    name: 'Ovidiu Neme\u0219',
+    party: 'PNL',
+    position: 'Primar al municipiului Sighetu Marma\u021biei',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Cluj \u00een noiembrie 2020 pentru dou\u0103 infrac\u021biuni de abuz \u00een serviciu. Separat, \u00eentr-o alt\u0103 cauz\u0103 mediatizat\u0103 de DNA, instan\u021ba de apel a schimbat \u00eencadrarea juridic\u0103 \u00een neglijen\u021b\u0103 \u00een serviciu \u0219i a dispus \u00eenchiderea procesului prin prescrip\u021bie \u00een iunie 2022.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10117',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11282',
+      },
+    ],
+  },
+  {
+    name: 'Dan \u0218tefan Motreanu',
+    party: 'PNL',
+    position: 'Deputat; fost ministru al agriculturii; actual europarlamentar',
+    position_type: 'deputy',
+    crime: 'Sp\u0103lare de bani',
+    sentence: 'Achitat definitiv (2019)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis \u00een judecat\u0103 \u00een dosarul privind finan\u021barea campaniei electorale din 2008, iar \u00ceCCJ a dispus \u00een iunie 2019 achitarea sa definitiv\u0103 pentru sp\u0103lare de bani, re\u021bin\u00e2nd c\u0103 fapta nu exist\u0103.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6697',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/197647/DAN-STEFAN_MOTREANU/cv',
+      },
+    ],
+  },
+  {
+    name: 'George-Adrian Scutaru',
+    party: 'PNL',
+    position: 'Deputat de Buz\u0103u; ulterior consilier preziden\u021bial',
+    position_type: 'deputy',
+    crime: 'Sp\u0103lare de bani',
+    sentence: 'Achitat definitiv (2019)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'Trimis \u00een judecat\u0103 de DNA \u00een acela\u0219i dosar privind finan\u021barea campaniei din 2008. Prin decizia definitiv\u0103 din iunie 2019, \u00ceCCJ a dispus achitarea sa pentru sp\u0103lare de bani, constat\u00e2nd c\u0103 fapta nu exist\u0103.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6697',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Banias',
+    party: 'PC',
+    position: 'Senator de Constan\u021ba (2008-2016); ulterior deputat',
+    position_type: 'senator',
+    crime: 'Grup infrac\u021bional organizat; trafic de influen\u021b\u0103; instigare la abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2019)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis \u00een judecat\u0103 \u00een dosarul de corup\u021bie din Portul Constan\u021ba, iar \u00ceCCJ a dispus \u00een iulie 2019 achitarea sa definitiv\u0103, re\u021bin\u00e2nd c\u0103 faptele nu exist\u0103, nu sunt prev\u0103zute de legea penal\u0103 sau nu exist\u0103 probe c\u0103 a s\u0103v\u00e2r\u0219it infrac\u021biunea.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3112',
+      },
+      {
+        label: 'Senatul Rom\u00e2niei',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=f3a2983b-794a-4a91-b915-abdf5c9c84db',
+      },
+    ],
+  },
 ];
