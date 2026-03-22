@@ -1,6 +1,6 @@
 export const metadataOverrides = {
   description:
-    'Proiect independent, non-profit și open source despre cazuri publice documentate din politica românească, cu status juridic explicit și surse oficiale pentru fiecare persoană inclusă.',
+        'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
   last_updated: '2026-03-22',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
@@ -37,6 +37,7 @@ export const politicianOverrides = {
   },
   'Marian-Daniel Vanghelie': {
     replace_sources: true,
+    conviction_year: 2021,
     details:
       'În martie 2025, Curtea de Apel București a închis definitiv dosarul în care primise în primă instanță 11 ani și 8 luni: pentru luare de mită instanța a constatat prescripția, iar pentru abuz în serviciu și spălare de bani a dispus achitarea.',
     verified_at: '2026-03-21',
@@ -708,6 +709,7 @@ export const politicianOverrides = {
   },
   'Mircea Cosma': {
     replace_sources: true,
+    conviction_year: 2016,
     details:
       'În ianuarie 2024, Curtea de Apel Ploiești a menținut definitiv încetarea procesului penal pentru luare de mită și abuz în serviciu, după ce inițial primise 8 ani de închisoare în același dosar de corupție.',
     verified_at: '2026-03-22',
@@ -1138,6 +1140,289 @@ export const politicianAdditions = [
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/trimis-in-judecata-pentru-luare-de-mita-dumitru-buzatu-a-facut-un-denunt-la-dna-2754415',
+      },
+    ],
+  },
+  {
+    name: 'Romeo Stavarache',
+    party: 'PNL',
+    position: 'Primar al municipiului Bac\u0103u (2004-2016)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: '4 ani \u00eenchisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een noiembrie 2017 pentru c\u0103 a primit sume de bani \u0219i bunuri de la oameni de afaceri \u00een schimbul favoriz\u0103rii unor contracte publice derulate prin Prim\u0103ria Bac\u0103u.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8599',
+      },
+    ],
+  },
+  {
+    name: 'Mircia Gut\u0103u',
+    party: 'PDL',
+    position: 'Primar al municipiului R\u00e2mnicu V\u00e2lcea',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu contra intereselor publice, \u00een form\u0103 continuat\u0103',
+    sentence: '3 ani \u0219i 6 luni \u00eenchisoare cu executare',
+    sentence_years: 3.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv \u00een iunie 2014 \u00een dosarul privind acordarea nelegal\u0103 a unor sporuri salariale \u00een Prim\u0103ria R\u00e2mnicu V\u00e2lcea. Aceasta este condamnarea definitiv\u0103 r\u0103mas\u0103 \u00een vigoare \u00een dosarele DNA care l-au vizat.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5031',
+      },
+    ],
+  },
+  {
+    name: 'Emilian Fr\u00e2ncu',
+    party: 'PNL',
+    position: 'Primar al municipiului R\u00e2mnicu V\u00e2lcea (2012-2014); fost deputat',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: '4 ani \u00eenchisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een martie 2014 dup\u0103 ce DNA a sus\u021binut c\u0103 a pretins \u0219i primit 20.000 euro pentru a interveni \u00een favoarea unui om de afaceri \u00een leg\u0103tur\u0103 cu avizarea unui contract public.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4755',
+      },
+    ],
+  },
+  {
+    name: 'Marian Zlotea',
+    party: 'PDL',
+    position: 'Europarlamentar (2007-2009); pre\u0219edinte ANSVSA',
+    position_type: 'member_european_parliament',
+    crime: 'Trafic de influen\u021b\u0103; luare de mit\u0103; constituire de grup infrac\u021bional organizat; instigare la luare de mit\u0103',
+    sentence: '8 ani \u0219i 6 luni \u00eenchisoare cu executare',
+    sentence_years: 8.5,
+    conviction_year: 2021,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Bucure\u0219ti \u00een ianuarie 2021 \u00een dosarul privind fapte de corup\u021bie comise \u00een perioada \u00een care conducea ANSVSA, inclusiv folosirea influen\u021bei pentru str\u00e2ngerea de bani \u0219i alte foloase pentru partid.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10233',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/evenimente/ani-fostul-presedinte-ansvsa-marian-zlotea-nu-poate-justifica-85-000-de-euro-31507',
+      },
+    ],
+  },
+  {
+    name: 'B\u0103ran Auric\u0103',
+    party: 'PDL',
+    position: 'Primar al comunei Tormac (jude\u021bul Timi\u0219)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; folosire de documente false pentru fonduri europene; fals intelectual',
+    sentence: '9 ani \u0219i 9 luni \u00eenchisoare',
+    sentence_years: 9.75,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv \u00een noiembrie 2020 \u00eentr-un dosar DNA privind atribuirea nelegal\u0103 a unor lucr\u0103ri finan\u021bate din fonduri europene \u0219i falsificarea documenta\u021biei folosite pentru decontare. Anterior primise \u0219i o condamnare definitiv\u0103 separat\u0103 \u00een alt dosar de fraud\u0103 cu fonduri UE.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10133',
+      },
+    ],
+  },
+  {
+    name: 'Mihail Boldea',
+    party: 'PDL',
+    position: 'Deputat de Gala\u021bi (2008-2012)',
+    position_type: 'deputy',
+    crime: 'Sp\u0103lare de bani',
+    sentence: 'Achitat definitiv (2021)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a comunicat mai \u00eent\u00e2i condamnarea sa definitiv\u0103 cu suspendare din iulie 2020, dar a actualizat ulterior fi\u0219a cauzei: \u00een octombrie 2021, \u00ceCCJ a admis recursurile \u00een casa\u021bie \u0219i a dispus achitarea sa definitiv\u0103 pentru sp\u0103lare de bani.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9914',
+      },
+    ],
+  },
+  {
+    name: 'Dan P\u0103sat',
+    party: 'PDL',
+    position: 'Deputat de Giurgiu (2008-2012)',
+    position_type: 'deputy',
+    crime: '\u0218antaj; opera\u021biuni financiare incompatibile cu func\u021bia',
+    sentence: '3 ani \u00eenchisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2013,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een decembrie 2013 dup\u0103 ce DNA a re\u021binut c\u0103 \u0219i-a folosit influen\u021ba de deputat pentru a constr\u00e2nge reprezentan\u021bii unor firme \u0219i pentru a ob\u021bine beneficii pentru societatea pe care o controla de facto.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4516',
+      },
+    ],
+  },
+  {
+    name: 'Sorin Andi Pandele',
+    party: 'PDL',
+    position: 'Deputat de Arge\u0219 (2008-2012)',
+    position_type: 'deputy',
+    crime: 'Luare de mit\u0103; abuz \u00een serviciu; fals material \u00een \u00eenscrisuri oficiale',
+    sentence: '5 ani \u00eenchisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een ianuarie 2014 pentru fapte de corup\u021bie comise anterior mandatului parlamentar, c\u00e2nd conducea Oficiul de Cadastru \u0219i Publicitate Imobiliar\u0103 Arge\u0219.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4596',
+      },
+    ],
+  },
+  {
+    name: 'Dorin Laz\u0103r Maior',
+    party: 'PSD',
+    position: 'Deputat de Bra\u0219ov (2000-2004)',
+    position_type: 'deputy',
+    crime: 'Complicitate la cump\u0103rare de influen\u021b\u0103',
+    sentence: '5 ani \u0219i 91 de zile \u00eenchisoare',
+    sentence_years: 5.25,
+    conviction_year: 2023,
+    status: 'convicted',
+    details:
+      'Prin hot\u0103r\u00e2rea definitiv\u0103 din iulie 2023, Curtea de Apel T\u00e2rgu Mure\u0219 a stabilit pentru noua fapt\u0103 o pedeaps\u0103 de 2 ani \u00eenchisoare, la care s-a ad\u0103ugat restul neexecutat dintr-o condamnare anterioar\u0103, rezult\u00e2nd pedeapsa final\u0103 de 5 ani \u0219i 91 de zile.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12210',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/extradarea-lui-dorin-lazar-maior-a-fost-amanata-fostul-lider-al-revolutionarilor-din-brasov-a-fost-internat-intr-un-spital-din-italia-2526417',
+      },
+    ],
+  },
+  {
+    name: 'Cristian Marius Minc\u0103',
+    party: 'PNL',
+    position: 'Primar al comunei Cosme\u0219ti (jude\u021bul Teleorman)',
+    position_type: 'mayor',
+    crime: 'Fraud\u0103 cu fonduri europene; fals intelectual',
+    sentence: '2 ani, 10 luni \u0219i 20 de zile \u00eenchisoare cu suspendare',
+    sentence_years: 2.89,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Bucure\u0219ti \u00een noiembrie 2020 pentru documente false \u0219i opera\u021biuni frauduloase folosite la ob\u021binerea de fonduri europene.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=10155',
+      },
+    ],
+  },
+  {
+    name: 'Iulian Miliare',
+    party: 'PNL',
+    position: 'Primar al comunei Berezeni (jude\u021bul Vaslui)',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare cu rea-credin\u021b\u0103 de documente false pentru ob\u021binerea de fonduri europene',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Ia\u0219i \u00een iunie 2019 \u00eentr-un dosar DNA privind ob\u021binerea nelegal\u0103 de subven\u021bii APIA prin intermediul unei asocia\u021bii locale de cresc\u0103tori de animale.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9525',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Percea',
+    party: 'PNL',
+    position: 'Primar al comunei Ciclova Rom\u00e2n\u0103 (jude\u021bul Cara\u0219-Severin)',
+    position_type: 'mayor',
+    crime: 'Fraud\u0103 cu fonduri europene',
+    sentence: '5 ani \u00eenchisoare',
+    sentence_years: 5,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Timi\u0219oara \u00een martie 2020 pentru folosirea de documente false \u0219i sprijinirea ob\u021binerii nelegale de fonduri europene \u00een contextul unor proiecte agricole.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11583',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Vi\u0219ovan',
+    party: 'PSD',
+    position: 'Primar al comunei Rozavlea (jude\u021bul Maramure\u0219)',
+    position_type: 'mayor',
+    crime: 'Fraud\u0103 cu fonduri europene; schimbarea nelegal\u0103 a destina\u021biei fondurilor europene',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Cluj \u00een aprilie 2016 pentru nereguli grave \u00eentr-un proiect finan\u021bat din fonduri SAPARD, \u00een perioada \u00een care conducea Prim\u0103ria Rozavlea.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7407',
       },
     ],
   },

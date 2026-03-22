@@ -1,21 +1,21 @@
-# Arhiva Integrității Publice
+# Politicieni Corupți
 
-Arhivă independentă, non-profit și open-source cu cazuri publice documentate din politica românească.
+Arhivă independentă, non-profit și open-source cu politicieni români implicați în dosare penale.
 
 **Site:** [politicieni-corupti.ro](https://politicieni-corupti.ro)
 
 ## Scopul proiectului
 
-Proiectul adună într-un singur loc informații despre politicieni români incluși în cauze penale sau de integritate de interes public. Pentru fiecare persoană inclusă sunt indicate explicit stadiul juridic și data ultimei verificări.
+Proiectul adună într-un singur loc informații despre politicieni români condamnați, trimiși în judecată sau cercetați penal. Fiecare fișă indică explicit stadiul juridic al persoanei — de la condamnări definitive până la cercetări în curs.
 
 Prezumția de nevinovăție se aplică tuturor persoanelor fără condamnare definitivă.
 
 ## Ce conține
 
 - Nume, funcție și partid
-- Statusul juridic explicit pentru fiecare persoană inclusă
-- Data ultimei verificări editoriale
-- Surse oficiale verificabile, completate unde este util cu presă de referință
+- Statusul juridic (condamnat definitiv, trimis în judecată, cercetat etc.)
+- Durata pedepsei, acolo unde există condamnare
+- Surse oficiale sau jurnalistice verificabile pentru fiecare caz
 
 ## Surse
 

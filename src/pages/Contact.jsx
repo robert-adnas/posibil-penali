@@ -22,7 +22,7 @@ export function Contact() {
       ? `Solicitare corecție: ${politician || 'politician'}`
       : type === 'removal'
       ? `Solicitare eliminare GDPR: ${politician || 'politician'}`
-      : 'Contact general – Arhiva Integrității Publice'
+      : 'Contact general – Politicieni Corupți'
   );
 
   const body = encodeURIComponent(

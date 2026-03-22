@@ -43,10 +43,10 @@ export function HomePage() {
 
           <div className="app-intro-row">
             <p className="app-intro">
-              Bază de date independentă despre politicieni români incluși în cauze penale sau de
-              integritate de interes public. Pentru fiecare persoană inclusă sunt indicate explicit
-              statusul juridic, sursele folosite și data ultimei verificări. Prezumția de nevinovăție se aplică tuturor
-              persoanelor fără condamnare definitivă.{` `}
+              Bază de date independentă cu politicieni români implicați în dosare penale —
+              de la condamnări definitive la cercetări în curs. Statusul juridic al fiecărei
+              persoane este indicat explicit. Prezumția de nevinovăție se aplică tuturor
+              persoanelor fără condamnare definitivă.{' '}
               <Link to="/metodologie" className="app-intro-link" style={{ whiteSpace: 'nowrap' }}>Cum funcționează →</Link>
             </p>
             <StatsBar stats={stats} />

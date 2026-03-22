@@ -19,7 +19,7 @@ export function PageLayout({ children, title, kicker }) {
               </svg>
               Înapoi
             </Link>
-            <Link to="/" className="page-site-name">Arhiva Integrității Publice</Link>
+            <Link to="/" className="page-site-name">Politicieni Corupți</Link>
           </div>
 
           <div className="app-kicker-row" style={{ marginTop: '1.5rem' }}>
