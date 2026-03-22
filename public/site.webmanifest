@@ -1,6 +1,6 @@
 {
   "name": "Politicieni Corupți",
-  "short_name": "Politicieni",
+  "short_name": "Penali",
   "description": "Proiect independent, non-profit și open source despre cazuri documentate de corupție și integritate din politica românească.",
   "lang": "ro",
   "start_url": "/",
@@ -9,14 +9,9 @@
   "theme_color": "#f5f0e8",
   "icons": [
     {
-      "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }

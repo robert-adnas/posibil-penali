@@ -1,18 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Politicieni Corupți">
-  <rect width="64" height="64" rx="16" fill="#f5f0e8" />
-  <rect x="5" y="5" width="54" height="54" rx="14" fill="none" stroke="#d4cabb" stroke-width="2" />
-  <rect x="15" y="14" width="6" height="36" rx="3" fill="#8b2500" />
-  <circle cx="40" cy="32" r="16" fill="#8b2500" />
-  <circle cx="40" cy="32" r="11.5" fill="none" stroke="#f5f0e8" stroke-width="1.8" opacity="0.9" />
-  <text
-    x="40"
-    y="38"
-    text-anchor="middle"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="18"
-    font-weight="700"
-    fill="#f5f0e8"
-  >
-    P
-  </text>
+  <rect width="64" height="64" rx="10" fill="#8b2500"/>
+  <!-- Eye almond -->
+  <path d="M 8,32 C 18,20 46,20 56,32 C 46,44 18,44 8,32 Z" fill="#f5f0e8"/>
+  <!-- Iris -->
+  <circle cx="32" cy="32" r="9" fill="#8b2500"/>
+  <!-- Pupil -->
+  <circle cx="32" cy="32" r="4" fill="#f5f0e8"/>
 </svg>
