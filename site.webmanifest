@@ -1,8 +1,7 @@
 {
-  "name": "Arhiva Integrității Publice",
+  "name": "Politicieni Corupți",
   "short_name": "Integritate",
-  "description": "Proiect independent, non-profit și open source cu cazuri publice documentate, status juridic explicit și surse oficiale pentru fiecare persoană inclusă.",
-  "lang": "ro",
+  "description": "Proiect independent, non-profit și open source despre cazuri documentate de corupție și integritate din politica românească.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f5f0e8",
