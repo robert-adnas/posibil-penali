@@ -877,6 +877,7 @@ export const politicianOverrides = {
     ],
   },
   'Mircia Chelaru': {
+    party: 'AUR',
     verified_at: '2026-03-22',
     sources: [
       {
@@ -1548,6 +1549,68 @@ export const politicianAdditions = [
         label: 'Senatul Rom\u00e2niei',
         kind: 'official',
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=f3a2983b-794a-4a91-b915-abdf5c9c84db',
+      },
+    ],
+  },
+  {
+    name: 'Daniel Gheorghe Rusu',
+    party: 'AUR',
+    position: 'Deputat de Alba (ales pe listele AUR); fost primar al comunei \u0218pring',
+    position_type: 'deputy',
+    crime: 'Compromiterea intereselor justi\u021biei; abuz \u00een serviciu; participa\u021bie improprie la fals intelectual',
+    sentence: 'Amend\u0103 penal\u0103 40.000 lei',
+    sentence_years: 0,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'A fost condamnat definitiv de \u00ceCCJ \u00een noiembrie 2022 la amend\u0103 penal\u0103 pentru compromiterea intereselor justi\u021biei, dup\u0103 publicarea pe Facebook a unor informa\u021bii dintr-o anchet\u0103 penal\u0103. Separat, DNA Alba Iulia l-a trimis \u00een judecat\u0103 \u00een ianuarie 2024 pentru fapte comise ca primar al comunei \u0218pring, iar \u00een 28 ianuarie 2026 \u00ceCCJ a dispus achitarea sa definitiv\u0103 \u00een acel dosar.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12329',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/un-deputat-a-fost-amendat-penal-cu-40-000-lei-pentru-postari-pe-retelele-de-socializare-2158827',
+      },
+      {
+        label: 'Alba24',
+        kind: 'press',
+        url: 'https://alba24.ro/fost-deputat-aur-de-alba-si-primar-achitat-la-iccj-pentru-abuz-in-servciu-si-fals-intelectual-pentru-ce-fapte-a-fost-judecat-1117630.html',
+      },
+    ],
+  },
+  {
+    name: 'Marin Anton',
+    party: 'AUR',
+    position: 'Candidat AUR la \u0219efia CJ Giurgiu (2024); fost deputat \u0219i secretar de stat',
+    position_type: 'deputy',
+    crime: 'Luare de mit\u0103',
+    sentence: '5 ani \u00eenchisoare (proces \u00eenchis prin prescrip\u021bie)',
+    sentence_years: 5,
+    conviction_year: 2021,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis \u00een judecat\u0103 \u00een ianuarie 2018 pentru mita de 5,3 milioane euro pretins\u0103 \u00een 2009 \u00een dosarul moderniz\u0103rii Aeroportului Otopeni. Tribunalul Bucure\u0219ti l-a condamnat \u00een prim\u0103 instan\u021b\u0103 la 5 ani de \u00eenchisoare \u00een septembrie 2021, iar Curtea de Apel Bucure\u0219ti a \u00eenchis cauza definitiv \u00een februarie 2024 ca urmare a intervenirii prescrip\u021biei.',
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8617',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/amphtml/stiri/actualitate/justitie/un-fost-deputat-pnl-scapa-de-o-condamnare-de-5-ani-intr-un-dosar-cu-mita-de-cinci-milioane-euro-2684983',
+      },
+      {
+        label: 'Puterea',
+        kind: 'press',
+        url: 'https://www.puterea.ro/candidatul-aur-pentru-sefia-consiliului-judetean-giurgiu-marin-anton-fost-condamnat-pentru-mita-de-53-milioane-euro/',
       },
     ],
   },
