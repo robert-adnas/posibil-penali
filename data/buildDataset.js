@@ -1,4 +1,9 @@
-import { metadataOverrides, politicianAdditions, politicianOverrides } from './politicianEnhancements.js';
+import {
+  metadataOverrides,
+  politicianAdditions,
+  politicianOverrides,
+  politicianRemovals,
+} from './politicianEnhancements.js';
 
 const HOST_LABELS = {
   'agerpres.ro': 'AGERPRES',
@@ -126,13 +131,14 @@ function mergePolitician(basePolitician, override = {}) {
 }
 
 export function buildDataset(baseData) {
-  const basePoliticians = baseData.politicians.map((politician) =>
-    mergePolitician(politician, politicianOverrides[politician.name] || {})
-  );
+  const removalSet = new Set(politicianRemovals);
+  const basePoliticians = baseData.politicians
+    .filter((politician) => !removalSet.has(politician.name))
+    .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}));
 
   const existingNames = new Set(basePoliticians.map((politician) => politician.name));
   const additions = politicianAdditions
-    .filter((politician) => !existingNames.has(politician.name))
+    .filter((politician) => !existingNames.has(politician.name) && !removalSet.has(politician.name))
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}));
 
   return {

@@ -6,6 +6,20 @@ export const metadataOverrides = {
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare fișă păstrează cel puțin o sursă individuală; unde a fost posibil, am adăugat și surse oficiale ale statului român sau profiluri parlamentare. Lista rămâne deschisă și nu este exhaustivă.',
 };
 
+export const politicianRemovals = [
+  'Adriean Videanu',
+  'Allen Coliban',
+  'Codruț Șereș',
+  'Dan Dungaciu',
+  'Gheorghe Hansa',
+  'Ioan Cindrea',
+  'Ioan Mihai Lasca',
+  'Mircia Muntean',
+  'Ringo Dămureanu',
+  'Sorin Roșca Stănescu',
+  'Vasile Cîmpoeru',
+];
+
 export const politicianOverrides = {
   'Daniel Tudorache': {
     replace_sources: true,
@@ -789,6 +803,11 @@ export const politicianOverrides = {
     verified_at: '2026-03-22',
     sources: [
       {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6809',
+      },
+      {
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/piedone-iesit-din-inchisoare-nu-cer-despagubiri-statului-duc-mandatul-pana-la-capat-piedone-n-o-muritu-doar-putin-s-o-odihnitu-2394969',
@@ -809,6 +828,22 @@ export const politicianOverrides = {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4705',
+      },
+    ],
+  },
+  'Sorin Frunzăverde': {
+    replace_sources: true,
+    verified_at: '2026-03-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7439',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6505',
       },
     ],
   },
