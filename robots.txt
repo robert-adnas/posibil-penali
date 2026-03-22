@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robert-adnas.github.io/posibil-penali/sitemap.xml
