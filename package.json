@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
+    "og-image": "node scripts/generate-og-image.js",
     "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint ."
   },
@@ -29,6 +30,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "gh-pages": "^6.3.0",
     "globals": "^17.4.0",
+    "puppeteer": "^24.40.0",
     "tailwindcss": "^4.2.2",
     "vite": "^8.0.1"
   }

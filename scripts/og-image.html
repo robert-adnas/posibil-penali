@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>OG Image</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .og {
+      width: 1200px;
+      height: 630px;
+      background: #8b2500;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 64px 80px;
+      position: relative;
+    }
+
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .eye-icon {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+
+    .label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(245, 240, 232, 0.5);
+    }
+
+    .title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 108px;
+      line-height: 0.9;
+      color: #f5f0e8;
+      letter-spacing: -0.02em;
+    }
+
+    .title em {
+      font-style: italic;
+    }
+
+    .description {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: rgba(245, 240, 232, 0.5);
+      max-width: 700px;
+    }
+
+    .hemicycle {
+      position: absolute;
+      right: -20px;
+      bottom: -40px;
+      opacity: 0.18;
+      pointer-events: none;
+    }
+
+    .bottom {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      color: rgba(245, 240, 232, 0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="og">
+
+    <!-- Hemicycle ghost — dots along 3 arcs, semicircle -->
+    <svg class="hemicycle" width="560" height="320" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg">
+      <script type="text/javascript">
+        // rendered via inline JS at paint time
+      </script>
+      <!-- Arc 1 (outer) — 28 dots -->
+      <g id="arc3"></g>
+      <!-- Arc 2 (middle) — 22 dots -->
+      <g id="arc2"></g>
+      <!-- Arc 3 (inner) — 16 dots -->
+      <g id="arc1"></g>
+    </svg>
+    <script>
+      (function() {
+        const cx = 280, cy = 320;
+        const arcs = [
+          { r: 290, n: 30, rDot: 5.5, op: 1 },
+          { r: 220, n: 24, rDot: 4.5, op: 0.85 },
+          { r: 155, n: 17, rDot: 3.5, op: 0.7 },
+        ];
+        arcs.forEach((arc, i) => {
+          const g = document.getElementById('arc' + (i + 1));
+          for (let j = 0; j < arc.n; j++) {
+            // spread from 5° to 175° (avoid edges)
+            const angle = Math.PI - (j / (arc.n - 1)) * Math.PI * 0.95 - Math.PI * 0.025;
+            const x = cx + arc.r * Math.cos(angle);
+            const y = cy - arc.r * Math.sin(angle);
+            // vary opacity slightly per dot for organic feel (deterministic)
+            const dotOp = arc.op * (0.75 + (j % 3) * 0.125);
+            const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            c.setAttribute('cx', x.toFixed(1));
+            c.setAttribute('cy', y.toFixed(1));
+            c.setAttribute('r', arc.rDot);
+            c.setAttribute('fill', `rgba(245,240,232,${dotOp.toFixed(2)})`);
+            g.appendChild(c);
+          }
+        });
+      })();
+    </script>
+
+    <div class="top">
+      <svg class="eye-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 8,32 C 18,20 46,20 56,32 C 46,44 18,44 8,32 Z" fill="rgba(245,240,232,0.55)"/>
+        <circle cx="32" cy="32" r="9" fill="#8b2500"/>
+        <circle cx="32" cy="32" r="4" fill="rgba(245,240,232,0.55)"/>
+      </svg>
+      <span class="label">Arhivă independentă</span>
+    </div>
+
+    <div class="title">
+      <em>Politicieni</em><br>Corupți
+    </div>
+
+    <div>
+      <p class="description">Condamnați, trimiși în judecată sau cercetați penal.<br>Date verificate, surse oficiale.</p>
+      <p class="bottom" style="margin-top: 20px;">politicieni-corupti.ro</p>
+    </div>
+
+  </div>
+
+  <p style="color:#444; font-size:12px; font-family:sans-serif; margin-top:14px;">
+    DevTools → right-click red box → Capture node screenshot → save as public/og-image.png
+  </p>
+</body>
+</html>
