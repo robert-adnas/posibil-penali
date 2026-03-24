@@ -1671,4 +1671,82 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Adrian Nicolae Domoco\u0219',
+    party: 'PNL',
+    position: 'Primar al municipiului Beiu\u0219 (jude\u021bul Bihor)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; fals intelectual; opera\u021biuni financiare incompatibile cu func\u021bia; de\u021binere ilegal\u0103 de arm\u0103 \u0219i muni\u021bie',
+    sentence: '5 ani \u0219i 8 luni \u00eenchisoare',
+    sentence_years: 5.67,
+    conviction_year: 2018,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een 14 decembrie 2018 pentru o serie de fapte de corup\u021bie \u0219i infrac\u021biuni conexe comise ca primar al municipiului Beiu\u0219. Separat, \u00eentr-un alt dosar DNA privind rela\u021bia cu Unicarm, Curtea de Apel Oradea a dispus achitarea sa definitiv\u0103 \u00een august 2020.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9259',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6040',
+      },
+    ],
+  },
+  {
+    name: 'D\u0103nu\u021b Rentea',
+    party: 'PSD',
+    position: 'Primar al comunei S\u0103celu (jude\u021bul Gorj)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103; primire de foloase necuvenite; folosire de documente false pentru fonduri europene; abuz \u00een serviciu',
+    sentence: '5 ani \u00eenchisoare',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een 10 februarie 2015 \u00een dosarul privind proiectul SAPARD pentru alimentarea cu ap\u0103 a comunei S\u0103celu. DNA a re\u021binut c\u0103 a prezentat documente false \u0219i a favorizat plata unor lucr\u0103ri neexecutate ori executate neconform.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6001',
+      },
+      {
+        label: 'Gazeta de Sud',
+        kind: 'press',
+        url: 'https://www.gds.ro/Local/2007-08-24/Ponta-avocatul-lui-Danut-Rentea/',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Olaru',
+    party: 'PNL',
+    position: 'Primar al comunei Girov (jude\u021bul Neam\u021b)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    sentence: '2 ani \u00eenchisoare',
+    sentence_years: 2,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Bac\u0103u \u00een 13 aprilie 2017 pentru plata nelegal\u0103 a aproape 936.000 lei c\u0103tre un executant, \u00een condi\u021biile \u00een care bunurile facturate nu fuseser\u0103 livrate comunei Girov.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8200',
+      },
+      {
+        label: 'Rom\u00e2nia Liber\u0103',
+        kind: 'press',
+        url: 'https://romanialibera.ro/sport/modelul-pinalti-face-prozeliti-primar-pnl-sef-la-pdl-147119/',
+      },
+    ],
+  },
 ];
