@@ -9,17 +9,20 @@ import { DetailPanel } from '../components/DetailPanel';
 import { PartyRanking } from '../components/PartyRanking';
 import { StatusLegend } from '../components/StatusLegend';
 import { downloadJSON, downloadCSV } from '../utils/download';
+import { useAnalytics } from '../hooks/useAnalytics';
 
 export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
   const [selectedPolitician, setSelectedPolitician] = useState(null);
   const [homeQuery, setHomeQuery] = useState('');
   const navigate = useNavigate();
+  const { track } = useAnalytics();
   useSEO();
 
   function handleHomeSearch(e) {
     e.preventDefault();
     const q = homeQuery.trim();
+    if (q) track('Homepage Search', { query: q });
     navigate(q ? `/lista?q=${encodeURIComponent(q)}` : '/lista');
   }
 
