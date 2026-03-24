@@ -70,9 +70,10 @@ export function useData() {
     };
   }, [filteredData]);
 
-  function findBySlug(slug) {
-    return allData.find((p) => nameToSlug(p.name) === slug) || null;
-  }
+  const findBySlug = useMemo(() => {
+    const index = Object.fromEntries(allData.map((p) => [nameToSlug(p.name), p]));
+    return (slug) => index[slug] || null;
+  }, []);
 
   return {
     metadata,

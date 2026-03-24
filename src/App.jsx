@@ -8,6 +8,7 @@ import { Confidentialitate } from './pages/Confidentialitate';
 import { PoliticianPage } from './pages/PoliticianPage';
 import { GlosarPage } from './pages/GlosarPage';
 import { ListaPage } from './pages/Lista';
+import { NotFound } from './pages/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/aviz-legal" element={<AvizLegal />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/confidentialitate" element={<Confidentialitate />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

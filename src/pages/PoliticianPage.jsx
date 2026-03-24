@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+import { nameToSlug } from '../utils/slug';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -55,9 +56,13 @@ function Section({ label, children }) {
 
 export function PoliticianPage() {
   const { slug } = useParams();
-  const navigate = useNavigate();
-  const { findBySlug } = useData();
+  const location = useLocation();
+  const { findBySlug, allData } = useData();
   const politician = findBySlug(slug);
+
+  // Referrer-aware back link: if came from /lista (with ?q= preserved), go back there
+  const backHref = location.state?.from || '/lista';
+  const backLabel = location.state?.fromLabel || 'Lista politicienilor';
 
   const title = politician
     ? `${politician.name} — ${STATUS_LABELS[politician.status] || politician.status} | Politicieni Corupți`
@@ -104,6 +109,16 @@ export function PoliticianPage() {
     );
   }
 
+  // Same-party politicians, excluding the current one, convicted first
+  const sameParty = allData
+    .filter((p) => p.party === politician.party && p.name !== politician.name)
+    .sort((a, b) => {
+      if (a.status === 'convicted' && b.status !== 'convicted') return -1;
+      if (b.status === 'convicted' && a.status !== 'convicted') return 1;
+      return 0;
+    })
+    .slice(0, 10);
+
   const sources = Array.isArray(politician.sources) ? politician.sources : [];
   const formattedVerifiedAt = politician.verified_at
     ? new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' }).format(
@@ -116,8 +131,8 @@ export function PoliticianPage() {
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
-            <Link to="/" className="app-kicker" style={{ textDecoration: 'none' }}>
-              ← Politicieni Corupți
+            <Link to={backHref} className="app-kicker" style={{ textDecoration: 'none' }}>
+              ← {backLabel}
             </Link>
             <span className="app-kicker-separator">—</span>
             <span className="app-kicker-meta">Profil public</span>
@@ -147,6 +162,7 @@ export function PoliticianPage() {
         <div className="app-inner">
           <div className="pol-page-grid">
             <div className="pol-page-card">
+
               <Section label="Status juridic">
                 <span
                   className="detail-panel-status"
@@ -240,6 +256,37 @@ export function PoliticianPage() {
                 <Link to="/metodologie" className="app-intro-link">Metodologie →</Link>
               </p>
             </div>
+
+            {sameParty.length > 0 && (
+              <aside className="pol-page-sidebar">
+                <div className="pol-page-sidebar-heading">
+                  Alți politicieni {politician.party}
+                </div>
+                <ul className="pol-page-sidebar-list">
+                  {sameParty.map((p) => (
+                    <li key={p.name}>
+                      <Link
+                        to={`/politician/${nameToSlug(p.name)}`}
+                        state={{ from: '/lista', fromLabel: 'Lista politicienilor' }}
+                        className="pol-page-sidebar-link"
+                        data-status={p.status}
+                      >
+                        <span className="pol-page-sidebar-dot" />
+                        <span className="pol-page-sidebar-name">{p.name}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                {allData.filter((p) => p.party === politician.party).length > 11 && (
+                  <Link
+                    to={`/lista?q=${encodeURIComponent(politician.party)}`}
+                    className="pol-page-sidebar-more"
+                  >
+                    Toți din {politician.party} →
+                  </Link>
+                )}
+              </aside>
+            )}
           </div>
         </div>
       </main>

@@ -1761,11 +1761,34 @@ button {
   color: var(--color-ink);
 }
 
+.lista-search-kbd {
+  position: absolute;
+  right: 0.75rem;
+  font-family: inherit;
+  font-size: 0.65rem;
+  line-height: 1;
+  padding: 0.2rem 0.35rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 3px;
+  color: var(--color-ink-faint);
+  background: var(--color-parchment-dark);
+  pointer-events: none;
+  letter-spacing: 0.02em;
+}
+
 .lista-tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.375rem;
   margin-top: 0.875rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 2px; /* prevent clipping of focus rings */
+}
+
+.lista-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .lista-tab {
@@ -1777,6 +1800,7 @@ button {
   border: 1px solid var(--color-rule);
   background: transparent;
   font-size: 0.75rem;
+  flex-shrink: 0;
   color: var(--color-ink-muted);
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
@@ -1817,11 +1841,58 @@ button {
 [data-status="acquitted"] .lista-tab-dot,
 .lista-tab[data-status="acquitted"] .lista-tab-dot { background: #22c55e; opacity: 1; }
 
-.lista-count {
+.lista-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-top: 0.875rem;
+}
+
+.lista-count {
   font-size: 0.75rem;
   color: var(--color-ink-faint);
   letter-spacing: 0.02em;
+}
+
+.lista-sort {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.lista-sort-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  margin-right: 0.25rem;
+}
+
+.lista-sort-btn {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 0.7rem;
+  font-family: inherit;
+  color: var(--color-ink-muted);
+  cursor: pointer;
+  transition: all 0.12s;
+  letter-spacing: 0.02em;
+}
+
+.lista-sort-btn:hover {
+  border-color: var(--color-rule);
+  color: var(--color-ink);
+}
+
+.lista-sort-btn--active {
+  border-color: var(--color-ink-muted);
+  color: var(--color-ink);
+  background: var(--color-parchment-dark);
 }
 
 .lista-count-query {
@@ -2034,7 +2105,16 @@ button {
 }
 
 .pol-page-grid {
-  max-width: 680px;
+  display: grid;
+  grid-template-columns: minmax(0, 680px);
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .pol-page-grid {
+    grid-template-columns: minmax(0, 680px) 260px;
+  }
 }
 
 .pol-page-card {
@@ -2059,6 +2139,88 @@ button {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-text-muted);
+}
+
+/* ─── Politician page sidebar ────────────────────────────────────── */
+
+.pol-page-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg, 8px);
+  padding: 1.25rem;
+}
+
+.pol-page-sidebar-heading {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 0.875rem;
+}
+
+.pol-page-sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.pol-page-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--color-ink);
+  font-size: 0.8125rem;
+  transition: background 0.12s;
+}
+
+.pol-page-sidebar-link:hover {
+  background: var(--color-parchment-dark);
+}
+
+.pol-page-sidebar-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--color-ink-faint);
+}
+
+[data-status="convicted"] .pol-page-sidebar-dot { background: #ef4444; }
+[data-status="first_instance"] .pol-page-sidebar-dot { background: #f97316; }
+[data-status="indicted"] .pol-page-sidebar-dot { background: #eab308; }
+[data-status="investigated"] .pol-page-sidebar-dot { background: #3b82f6; }
+[data-status="prescribed"] .pol-page-sidebar-dot { background: #6b7280; }
+[data-status="acquitted"] .pol-page-sidebar-dot { background: #22c55e; }
+
+.pol-page-sidebar-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pol-page-sidebar-more {
+  display: block;
+  margin-top: 0.875rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.775rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 0.12s;
+}
+
+.pol-page-sidebar-more:hover {
+  color: var(--color-ink);
 }
 
 /* ─── Politician list (SEO) ──────────────────────────────────────── */

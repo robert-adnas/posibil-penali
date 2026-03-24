@@ -11,7 +11,7 @@
     "validate": "node scripts/validate.js",
     "og-image": "node scripts/generate-og-image.js",
     "og-politicians": "node scripts/generate-og-politicians.js",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint ."
   },
   "dependencies": {

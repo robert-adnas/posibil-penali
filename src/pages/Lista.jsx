@@ -35,6 +35,7 @@ export function ListaPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQueryState] = useState(() => searchParams.get('q') || '');
   const [activeStatus, setActiveStatus] = useState(null);
+  const [sortBy, setSortBy] = useState('default'); // 'default' | 'name' | 'year' | 'sentence'
   const searchRef = useRef(null);
 
   // Keep URL in sync with the search query
@@ -62,9 +63,21 @@ export function ListaPage() {
   }, [queryFiltered]);
 
   const results = useMemo(() => {
-    if (!activeStatus) return queryFiltered;
-    return queryFiltered.filter((p) => p.status === activeStatus);
-  }, [queryFiltered, activeStatus]);
+    const filtered = activeStatus
+      ? queryFiltered.filter((p) => p.status === activeStatus)
+      : queryFiltered;
+
+    if (sortBy === 'name') {
+      return [...filtered].sort((a, b) => a.name.localeCompare(b.name, 'ro'));
+    }
+    if (sortBy === 'year') {
+      return [...filtered].sort((a, b) => (b.conviction_year || 0) - (a.conviction_year || 0));
+    }
+    if (sortBy === 'sentence') {
+      return [...filtered].sort((a, b) => (b.sentence_years || 0) - (a.sentence_years || 0));
+    }
+    return filtered;
+  }, [queryFiltered, activeStatus, sortBy]);
 
   // Statuses that have at least 1 result given the current query
   const visibleStatuses = useMemo(
@@ -133,12 +146,14 @@ export function ListaPage() {
               autoComplete="off"
               spellCheck={false}
             />
-            {query && (
+            {query ? (
               <button className="lista-search-clear" onClick={() => setQuery('')} aria-label="Șterge căutarea">
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M2 2l8 8M10 2l-8 8" strokeLinecap="round" />
                 </svg>
               </button>
+            ) : (
+              <kbd className="lista-search-kbd">/</kbd>
             )}
           </div>
 
@@ -157,17 +172,38 @@ export function ListaPage() {
             ))}
           </div>
 
-          {/* Count */}
-          <p className="lista-count">
-            {results.length === allData.length
-              ? `${allData.length} politicieni`
-              : results.length === 0
-              ? 'Niciun rezultat'
-              : `${results.length} din ${allData.length}`}
-            {q && results.length > 0 && (
-              <span className="lista-count-query"> pentru „{q}"</span>
+          {/* Count + Sort */}
+          <div className="lista-toolbar">
+            <p className="lista-count">
+              {results.length === allData.length
+                ? `${allData.length} politicieni`
+                : results.length === 0
+                ? 'Niciun rezultat'
+                : `${results.length} din ${allData.length}`}
+              {q && results.length > 0 && (
+                <span className="lista-count-query"> pentru „{q}"</span>
+              )}
+            </p>
+            {results.length > 1 && (
+              <div className="lista-sort">
+                <span className="lista-sort-label">Sortează</span>
+                {[
+                  { key: 'default', label: 'Relevanță' },
+                  { key: 'name',    label: 'Nume A–Z' },
+                  { key: 'year',    label: 'An condamnare' },
+                  { key: 'sentence',label: 'Pedeapsă' },
+                ].map((opt) => (
+                  <button
+                    key={opt.key}
+                    className={`lista-sort-btn${sortBy === opt.key ? ' lista-sort-btn--active' : ''}`}
+                    onClick={() => setSortBy(opt.key)}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
             )}
-          </p>
+          </div>
         </div>
       </div>
 
@@ -187,7 +223,11 @@ export function ListaPage() {
             <ul className="lista-list">
               {results.map((p) => (
                 <li key={p.name} className="lista-item" data-status={p.status}>
-                  <Link to={`/politician/${nameToSlug(p.name)}`} className="lista-item-link">
+                  <Link
+                    to={`/politician/${nameToSlug(p.name)}`}
+                    state={{ from: `/lista${searchParams.toString() ? `?${searchParams.toString()}` : ''}`, fromLabel: 'Lista politicienilor' }}
+                    className="lista-item-link"
+                  >
                     <span className="lista-item-dot" />
                     <span className="lista-item-name">{highlight(p.name, q)}</span>
                     <span className="lista-item-party">{highlight(p.party, q)}</span>
