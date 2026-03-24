@@ -1957,18 +1957,24 @@ button {
     padding: 0.55rem 0.25rem;
   }
 
-  .lista-item-dot { grid-column: 1; grid-row: 1; }
-  .lista-item-name { grid-column: 2; grid-row: 1; font-size: 0.875rem; }
-  .lista-item-party { grid-column: 3; grid-row: 1; font-size: 0.8rem; }
-  .lista-item-status { grid-column: 4; grid-row: 1; }
+  .lista-item-dot      { grid-column: 1; grid-row: 1; align-self: center; }
+  .lista-item-name     { grid-column: 2; grid-row: 1; font-size: 0.875rem; }
+  .lista-item-party    { grid-column: 3; grid-row: 1; font-size: 0.8rem; }
+  .lista-item-position { display: none; }
+  .lista-item-status   { grid-column: 4; grid-row: 1; text-align: right; }
 }
 
 /* Wide screens: add position column */
 @media (min-width: 900px) {
   .lista-item-link {
     grid-template-columns: 16px 2fr 1fr 1fr 155px;
+    grid-template-rows: 1fr;
+    align-items: center;
   }
 
+  .lista-item-dot      { grid-column: 1; grid-row: 1; align-self: center; }
+  .lista-item-name     { grid-column: 2; grid-row: 1; }
+  .lista-item-party    { grid-column: 3; grid-row: 1; }
   .lista-item-position {
     display: block;
     grid-column: 4;
@@ -1976,8 +1982,7 @@ button {
     font-size: 0.8rem;
     color: var(--color-ink-muted);
   }
-
-  .lista-item-status { grid-column: 5; grid-row: 1; }
+  .lista-item-status   { grid-column: 5; grid-row: 1; text-align: right; }
 }
 
 /* ─── Politician page ────────────────────────────────────────────── */

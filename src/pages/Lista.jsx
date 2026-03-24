@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useMemo, useEffect, useRef } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
@@ -32,8 +32,16 @@ function highlight(text, query) {
 
 export function ListaPage() {
   const { allData } = useData();
-  const [query, setQuery] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [query, setQueryState] = useState(() => searchParams.get('q') || '');
   const [activeStatus, setActiveStatus] = useState(null);
+  const searchRef = useRef(null);
+
+  // Keep URL in sync with the search query
+  function setQuery(value) {
+    setQueryState(value);
+    setSearchParams(value ? { q: value } : {}, { replace: true });
+  }
 
   const queryFiltered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -58,14 +66,30 @@ export function ListaPage() {
     return queryFiltered.filter((p) => p.status === activeStatus);
   }, [queryFiltered, activeStatus]);
 
-  // If the active status tab becomes empty due to a query change, clear it
+  // Statuses that have at least 1 result given the current query
   const visibleStatuses = useMemo(
     () => new Set(Object.keys(countByStatus)),
     [countByStatus]
   );
-  if (activeStatus && !visibleStatuses.has(activeStatus)) {
-    setActiveStatus(null);
-  }
+
+  // If the active tab becomes empty due to a query change, clear it
+  useEffect(() => {
+    if (activeStatus && !visibleStatuses.has(activeStatus)) {
+      setActiveStatus(null);
+    }
+  }, [activeStatus, visibleStatuses]);
+
+  // Press "/" anywhere on the page to focus the search input
+  useEffect(() => {
+    function handleKey(e) {
+      if (e.key !== '/') return;
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
+      e.preventDefault();
+      searchRef.current?.focus();
+    }
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, []);
 
   useSEO({
     title: 'Lista politicienilor — Arhivă completă | Politicieni Corupți',
@@ -100,6 +124,7 @@ export function ListaPage() {
               <path d="M10 10l3.5 3.5" strokeLinecap="round" />
             </svg>
             <input
+              ref={searchRef}
               className="lista-search"
               type="search"
               placeholder="Caută după nume, partid sau funcție…"

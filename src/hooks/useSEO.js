@@ -22,7 +22,7 @@ function setCanonical(url) {
   el.setAttribute('href', url);
 }
 
-export function useSEO({ title, description, url, image } = {}) {
+export function useSEO({ title, description, url, image, noindex = false } = {}) {
   useEffect(() => {
     const resolvedTitle = title || DEFAULT_TITLE;
     const resolvedDescription = description || DEFAULT_DESCRIPTION;
@@ -32,6 +32,15 @@ export function useSEO({ title, description, url, image } = {}) {
     document.title = resolvedTitle;
     setMeta('meta[name="description"]', 'content', resolvedDescription);
     setCanonical(resolvedUrl);
+
+    // robots
+    let robotsEl = document.querySelector('meta[name="robots"]');
+    if (!robotsEl) {
+      robotsEl = document.createElement('meta');
+      robotsEl.setAttribute('name', 'robots');
+      document.head.appendChild(robotsEl);
+    }
+    robotsEl.setAttribute('content', noindex ? 'noindex, nofollow' : 'index, follow');
 
     setMeta('meta[property="og:title"]', 'content', resolvedTitle);
     setMeta('meta[property="og:description"]', 'content', resolvedDescription);
@@ -46,6 +55,7 @@ export function useSEO({ title, description, url, image } = {}) {
       document.title = DEFAULT_TITLE;
       setMeta('meta[name="description"]', 'content', DEFAULT_DESCRIPTION);
       setCanonical(DEFAULT_URL);
+      document.querySelector('meta[name="robots"]')?.setAttribute('content', 'index, follow');
       setMeta('meta[property="og:title"]', 'content', DEFAULT_TITLE);
       setMeta('meta[property="og:description"]', 'content', DEFAULT_DESCRIPTION);
       setMeta('meta[property="og:url"]', 'content', DEFAULT_URL);

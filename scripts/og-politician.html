@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>OG Politician</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .og {
+      width: 1200px;
+      height: 630px;
+      background: #f5f0e8;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 64px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .accent-bar {
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 8px;
+    }
+    .top {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(26,22,18,0.4);
+    }
+    .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 88px;
+      line-height: 0.95;
+      color: #1a1612;
+      letter-spacing: -0.02em;
+      max-width: 900px;
+    }
+    .meta-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .party-badge {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(26,22,18,0.55);
+      background: rgba(26,22,18,0.07);
+      padding: 6px 14px;
+      border-radius: 4px;
+    }
+    .position-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(26,22,18,0.45);
+    }
+    .status-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .bottom-site {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      color: rgba(26,22,18,0.3);
+    }
+    .sentence-block {
+      text-align: right;
+    }
+    .sentence-value {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      color: #1a1612;
+    }
+    .sentence-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(26,22,18,0.35);
+      margin-top: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="og" id="og">
+    <div class="accent-bar" id="accent"></div>
+    <div class="top">Politicieni Corupți — Arhivă independentă</div>
+    <div>
+      <div class="name" id="name">Nume Politician</div>
+      <div class="meta-row">
+        <span class="party-badge" id="party">PSD</span>
+        <span class="position-label" id="position">Funcție</span>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="status-chip" id="status">
+        <span class="status-dot" id="status-dot"></span>
+        <span id="status-label">Status</span>
+      </div>
+      <div class="sentence-block" id="sentence-block" style="display:none">
+        <div class="sentence-value" id="sentence-value"></div>
+        <div class="sentence-label">Pedeapsă</div>
+      </div>
+      <div class="bottom-site">politicieni-corupti.ro</div>
+    </div>
+  </div>
+  <script>
+    const STATUS_COLORS = {
+      convicted:      { dot: '#ef4444', bar: '#ef4444' },
+      first_instance: { dot: '#f97316', bar: '#f97316' },
+      indicted:       { dot: '#eab308', bar: '#eab308' },
+      investigated:   { dot: '#3b82f6', bar: '#3b82f6' },
+      prescribed:     { dot: '#6b7280', bar: '#6b7280' },
+      acquitted:      { dot: '#22c55e', bar: '#22c55e' },
+    };
+    const STATUS_LABELS = {
+      convicted:      'Condamnat definitiv',
+      first_instance: 'Condamnat (primă instanță)',
+      indicted:       'Trimis în judecată',
+      investigated:   'Cercetat penal',
+      prescribed:     'Prescris',
+      acquitted:      'Achitat',
+    };
+    const POSITION_LABELS = {
+      prime_minister: 'Prim-ministru',
+      minister: 'Ministru',
+      senator: 'Senator',
+      deputy: 'Deputat',
+      mayor: 'Primar',
+      county_council_president: 'Președinte CJ',
+      member_european_parliament: 'Europarlamentar',
+      secretary_of_state: 'Secretar de stat',
+      local_official: 'Ales local',
+      other: 'Altele',
+    };
+
+    function render(p) {
+      document.getElementById('name').textContent = p.name;
+      document.getElementById('party').textContent = p.party;
+      document.getElementById('position').textContent =
+        POSITION_LABELS[p.position_type] || p.position_type || '';
+
+      const colors = STATUS_COLORS[p.status] || { dot: '#6b7280', bar: '#6b7280' };
+      document.getElementById('accent').style.background = colors.bar;
+      document.getElementById('status-dot').style.background = colors.dot;
+      document.getElementById('status-label').textContent =
+        STATUS_LABELS[p.status] || p.status;
+
+      if (p.sentence) {
+        document.getElementById('sentence-block').style.display = 'block';
+        document.getElementById('sentence-value').textContent = p.sentence;
+        document.getElementById('bottom-site')?.remove();
+      }
+    }
+
+    // Expose for Puppeteer
+    window.__renderPolitician = render;
+  </script>
+</body>
+</html>

@@ -68,8 +68,11 @@ export function PoliticianPage() {
     : 'Pagina acestui politician nu a fost găsită.';
 
   const pageUrl = politician ? `${BASE_URL}/politician/${slug}` : BASE_URL;
+  const ogImage = politician
+    ? `${BASE_URL}/og/${slug}.png`
+    : `${BASE_URL}/og-image.png`;
 
-  useSEO({ title, description, url: pageUrl });
+  useSEO({ title, description, url: pageUrl, image: ogImage });
 
   useEffect(() => {
     if (!politician) return;

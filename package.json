@@ -6,10 +6,11 @@
   "homepage": "https://politicieni-corupti.ro",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/generate-sitemap.js && vite build",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
     "og-image": "node scripts/generate-og-image.js",
+    "og-politicians": "node scripts/generate-og-politicians.js",
     "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint ."
   },
