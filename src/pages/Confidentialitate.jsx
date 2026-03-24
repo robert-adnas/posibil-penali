@@ -7,7 +7,7 @@ const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 export function Confidentialitate() {
   useSEO({
     title: 'Politică de Confidențialitate | Politicieni Corupți',
-    description: 'Politica de confidențialitate a proiectului: nu colectăm date, nu folosim cookie-uri, nu urmărim vizitatorii.',
+    description: 'Politica de confidențialitate a proiectului: nu colectăm date personale, nu folosim cookie-uri. Analiză de trafic anonimă prin GoatCounter.',
   });
   return (
     <PageLayout title="Politică de Confidențialitate" kicker="GDPR & date personale">
@@ -34,9 +34,28 @@ export function Confidentialitate() {
 
       <Section title="Servicii de analiză (analytics)">
         <p>
-          Nu folosim niciun serviciu de analiză a traficului sau comportamentului utilizatorilor
-          (precum Google Analytics, Matomo, Plausible, Hotjar sau similare). Nu sunt încărcate
-          scripturi de tracking terțe.
+          Folosim <strong>GoatCounter</strong> — un serviciu de analiză a traficului orientat spre
+          confidențialitate. GoatCounter <strong>nu folosește cookie-uri</strong>, nu urmărește
+          vizitatorii între sesiuni sau site-uri și nu colectează date personale identificabile
+          (fără adrese IP complete, fără fingerprinting de dispozitiv).
+        </p>
+        <p>
+          Datele colectate sunt exclusiv agregate și anonime: număr de vizite per pagină, țară
+          de origine (la nivel de țară, nu mai precis), tipul browserului și sistemul de operare
+          — suficient pentru a înțelege cum este folosit site-ul, fără a compromite
+          confidențialitatea vizitatorilor.
+        </p>
+        <p>
+          GoatCounter este un proiect open-source. Detalii complete despre politica lor de
+          confidențialitate:{' '}
+          <a
+            href="https://www.goatcounter.com/help/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="legal-inline-link"
+          >
+            goatcounter.com/help/privacy
+          </a>.
         </p>
       </Section>
 

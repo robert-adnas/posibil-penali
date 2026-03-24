@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
+import { useAnalytics } from '../hooks/useAnalytics';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
 
@@ -41,6 +42,7 @@ function highlight(text, query) {
 
 export function ListaPage() {
   const { allData } = useData();
+  const { track } = useAnalytics();
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQueryState] = useState(() => searchParams.get('q') || '');
   const [activeStatus, setActiveStatus] = useState(null);
@@ -132,6 +134,14 @@ export function ListaPage() {
       setActiveStatus(null);
     }
   }, [activeStatus, visibleStatuses]);
+
+  // Track searches — debounced, only after 3+ characters
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 3) return;
+    const timer = setTimeout(() => track('Search', { query: q }), 1000);
+    return () => clearTimeout(timer);
+  }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Press "/" anywhere on the page to focus the search input
   useEffect(() => {

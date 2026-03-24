@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useSEO } from '../hooks/useSEO';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { HemicycleChart } from '../components/HemicycleChart';
 import { Filters } from '../components/Filters';
@@ -13,7 +13,15 @@ import { downloadJSON, downloadCSV } from '../utils/download';
 export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
   const [selectedPolitician, setSelectedPolitician] = useState(null);
+  const [homeQuery, setHomeQuery] = useState('');
+  const navigate = useNavigate();
   useSEO();
+
+  function handleHomeSearch(e) {
+    e.preventDefault();
+    const q = homeQuery.trim();
+    navigate(q ? `/lista?q=${encodeURIComponent(q)}` : '/lista');
+  }
 
   const convictionYears = allData
     .map((politician) => politician.conviction_year)
@@ -54,6 +62,30 @@ export function HomePage() {
             </p>
             <StatsBar stats={stats} />
           </div>
+
+          <form className="home-search-form" onSubmit={handleHomeSearch}>
+            <div className="home-search-wrap">
+              <svg className="home-search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <circle cx="6.5" cy="6.5" r="4.5" />
+                <path d="M10 10l3.5 3.5" strokeLinecap="round" />
+              </svg>
+              <input
+                className="home-search-input"
+                type="search"
+                placeholder={`Caută dintre cei ${allData.length} politicieni…`}
+                value={homeQuery}
+                onChange={(e) => setHomeQuery(e.target.value)}
+                autoComplete="off"
+                spellCheck={false}
+              />
+              <button type="submit" className="home-search-btn">
+                Caută
+              </button>
+            </div>
+            <Link to="/lista" className="home-search-browse">
+              sau răsfoiește lista completă →
+            </Link>
+          </form>
         </div>
       </header>
 

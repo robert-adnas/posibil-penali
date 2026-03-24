@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
+import { useAnalytics } from '../hooks/useAnalytics';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
 import { nameToSlug } from '../utils/slug';
@@ -58,6 +59,7 @@ export function PoliticianPage() {
   const { slug } = useParams();
   const location = useLocation();
   const { findBySlug, allData } = useData();
+  const { track } = useAnalytics();
   const politician = findBySlug(slug);
 
   // Referrer-aware back link: if came from /lista (with ?q= preserved), go back there
@@ -99,6 +101,10 @@ export function PoliticianPage() {
     : `${BASE_URL}/og-image.png`;
 
   useSEO({ title, description, url: pageUrl, image: ogImage });
+
+  useEffect(() => {
+    if (politician) track('Politician View', { name: politician.name, status: politician.status, party: politician.party });
+  }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!politician) return;

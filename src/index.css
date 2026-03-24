@@ -1700,6 +1700,89 @@ button {
   }
 }
 
+/* ─── Homepage search ───────────────────────────────────────────── */
+
+.home-search-form {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 520px;
+}
+
+.home-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.home-search-icon {
+  position: absolute;
+  left: 0.875rem;
+  color: var(--color-ink-faint);
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.home-search-input {
+  flex: 1;
+  padding: 0.7rem 0.875rem 0.7rem 2.5rem;
+  background: var(--color-parchment-dark);
+  border: 1px solid var(--color-rule);
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  font-size: 0.9rem;
+  color: var(--color-ink);
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+  appearance: none;
+  min-width: 0;
+}
+
+.home-search-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.home-search-input::placeholder {
+  color: var(--color-ink-faint);
+}
+
+.home-search-input:focus {
+  border-color: var(--color-ink-muted);
+  background: var(--color-parchment);
+}
+
+.home-search-btn {
+  padding: 0.7rem 1.1rem;
+  background: var(--color-ink);
+  color: var(--color-parchment);
+  border: 1px solid var(--color-ink);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.home-search-btn:hover {
+  opacity: 0.85;
+}
+
+.home-search-browse {
+  font-size: 0.8rem;
+  color: var(--color-ink-faint);
+  text-decoration: none;
+  transition: color 0.15s;
+  padding-left: 0.125rem;
+}
+
+.home-search-browse:hover {
+  color: var(--color-accent);
+}
+
 /* ─── Lista page ─────────────────────────────────────────────────── */
 
 .lista-controls-section {
