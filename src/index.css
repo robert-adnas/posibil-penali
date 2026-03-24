@@ -108,7 +108,7 @@ button {
 .app-kicker-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   column-gap: 0.75rem;
   row-gap: 0.25rem;
   margin-bottom: 0.5rem;
@@ -1703,8 +1703,13 @@ button {
 /* ─── Lista page ─────────────────────────────────────────────────── */
 
 .lista-controls-section {
-  padding-top: 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-top: 1rem;
   padding-bottom: 0.5rem;
+  background: var(--color-parchment);
+  border-bottom: 1px solid var(--color-rule-light);
 }
 
 .lista-search-wrap {
@@ -1826,6 +1831,12 @@ button {
   background: currentColor;
   flex-shrink: 0;
   opacity: 0.6;
+}
+
+.lista-tab-count {
+  font-size: 0.65rem;
+  opacity: 0.65;
+  font-variant-numeric: tabular-nums;
 }
 
 [data-status="convicted"] .lista-tab-dot,
@@ -1978,6 +1989,10 @@ button {
 }
 
 .lista-item-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
   font-size: 0.7rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1986,6 +2001,15 @@ button {
   grid-row: 1 / 3;
   text-align: right;
   white-space: nowrap;
+}
+
+.lista-item-sentence {
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+  opacity: 0.85;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
 }
 
 .lista-highlight {
@@ -2056,12 +2080,32 @@ button {
   .lista-item-status   { grid-column: 5; grid-row: 1; text-align: right; }
 }
 
+/* ─── Politician page layout overrides ──────────────────────────── */
+
+.pol-page-shell .app-header {
+  padding-bottom: 0.5rem;
+}
+
+.pol-page-shell .app-main {
+  padding-block: 1rem;
+}
+
+@media (min-width: 900px) {
+  .pol-page-shell .app-header {
+    padding-bottom: 0.75rem;
+  }
+
+  .pol-page-shell .app-main {
+    padding-block: 1.25rem;
+  }
+}
+
 /* ─── Politician page ────────────────────────────────────────────── */
 
 .pol-page-name-row {
   position: relative;
   padding-left: 1.25rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .pol-page-accent {
@@ -2071,7 +2115,7 @@ button {
   bottom: 0.25rem;
   width: 3px;
   border-radius: 2px;
-  background: var(--party-color, var(--color-text-muted));
+  background: var(--party-color, var(--color-ink-faint));
 }
 
 [data-status="convicted"] .pol-page-accent { background: var(--color-status-convicted); }
@@ -2082,10 +2126,10 @@ button {
 [data-status="acquitted"] .pol-page-accent { background: var(--color-status-acquitted); }
 
 .pol-page-name {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(1.75rem, 4vw, 2.75rem);
   line-height: 1.15;
-  color: var(--color-text);
+  color: var(--color-ink);
   margin: 0;
 }
 
@@ -2095,7 +2139,7 @@ button {
   gap: 0.5rem;
   margin-top: 0.75rem;
   font-size: 0.875rem;
-  color: var(--color-text-muted);
+  color: var(--color-ink-muted);
 }
 
 .pol-page-party {
@@ -2118,13 +2162,21 @@ button {
 }
 
 .pol-page-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg, 8px);
-  padding: 2rem;
+  background: var(--color-parchment-dark);
+  border: 1px solid var(--color-rule-light);
+  border-radius: 8px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.1rem;
+}
+
+.pol-page-card .detail-panel-keyfacts {
+  margin-bottom: 0;
+}
+
+.pol-page-card .detail-panel-footer-divider {
+  margin-block: 0;
 }
 
 .pol-page-section {
@@ -2138,18 +2190,23 @@ button {
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-ink-muted);
 }
 
 /* ─── Politician page sidebar ────────────────────────────────────── */
 
 .pol-page-sidebar {
-  position: sticky;
-  top: 1.5rem;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg, 8px);
+  background: var(--color-parchment-dark);
+  border: 1px solid var(--color-rule-light);
+  border-radius: 8px;
   padding: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .pol-page-sidebar {
+    position: sticky;
+    top: 1.5rem;
+  }
 }
 
 .pol-page-sidebar-heading {
@@ -2157,7 +2214,7 @@ button {
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-ink-muted);
   margin-bottom: 0.875rem;
 }
 
@@ -2212,9 +2269,9 @@ button {
   display: block;
   margin-top: 0.875rem;
   padding-top: 0.75rem;
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-rule-light);
   font-size: 0.775rem;
-  color: var(--color-text-muted);
+  color: var(--color-ink-muted);
   text-decoration: none;
   transition: color 0.12s;
 }
@@ -2226,7 +2283,7 @@ button {
 /* ─── Politician list (SEO) ──────────────────────────────────────── */
 
 .pol-list-section {
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-rule-light);
   padding-top: 2rem;
   margin-top: 1rem;
 }
@@ -2236,7 +2293,7 @@ button {
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-ink-muted);
   margin-bottom: 1.25rem;
 }
 
@@ -2256,14 +2313,14 @@ button {
   padding: 0.35rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8125rem;
-  color: var(--color-text);
+  color: var(--color-ink);
   text-decoration: none;
   transition: background 0.15s;
 }
 
 .pol-list-link:hover {
-  background: var(--color-surface-hover, rgba(0,0,0,0.04));
-  color: var(--color-text);
+  background: var(--color-parchment-dark);
+  color: var(--color-ink);
 }
 
 .pol-list-dot {
@@ -2271,7 +2328,7 @@ button {
   height: 6px;
   border-radius: 50%;
   flex-shrink: 0;
-  background: var(--color-text-muted);
+  background: var(--color-ink-faint);
 }
 
 .pol-list-dot[data-status="convicted"] { background: var(--color-status-convicted); }
@@ -2280,3 +2337,92 @@ button {
 .pol-list-dot[data-status="investigated"] { background: var(--color-status-investigated); }
 .pol-list-dot[data-status="prescribed"] { background: var(--color-status-prescribed); }
 .pol-list-dot[data-status="acquitted"] { background: var(--color-status-acquitted); }
+
+/* ─── Share button (politician page) ────────────────────────────── */
+
+.pol-page-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: auto;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-rule);
+  background: transparent;
+  color: var(--color-ink-faint);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pol-page-share-btn:hover {
+  border-color: var(--color-ink-muted);
+  color: var(--color-ink);
+}
+
+.pol-page-share-btn--copied {
+  border-color: #22c55e;
+  color: #16a34a;
+  background: color-mix(in srgb, #22c55e 8%, transparent);
+}
+
+/* ─── Print styles ───────────────────────────────────────────────── */
+
+@media print {
+  /* Hide navigation and interactive elements */
+  .app-kicker-row .pol-page-share-btn,
+  .pol-page-sidebar,
+  .app-footer,
+  .detail-panel-footer-note,
+  .detail-panel-footer-divider {
+    display: none !important;
+  }
+
+  /* Reset backgrounds to white */
+  body,
+  .app-shell,
+  .pol-page-card {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Remove card border/shadow */
+  .pol-page-card {
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* Full-width layout */
+  .pol-page-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Make links show their URL */
+  .detail-panel-source-link::after {
+    content: ' (' attr(href) ')';
+    font-size: 10px;
+    color: #555;
+    word-break: break-all;
+  }
+
+  /* Accent bar */
+  .pol-page-accent {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Status dot */
+  .detail-panel-status-dot {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 1.5cm;
+  }
+}

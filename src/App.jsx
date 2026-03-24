@@ -1,30 +1,51 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ScrollToTop } from './components/ScrollToTop';
-import { HomePage } from './pages/HomePage';
-import { Metodologie } from './pages/Metodologie';
-import { AvizLegal } from './pages/AvizLegal';
-import { Contact } from './pages/Contact';
-import { Confidentialitate } from './pages/Confidentialitate';
-import { PoliticianPage } from './pages/PoliticianPage';
-import { GlosarPage } from './pages/GlosarPage';
-import { ListaPage } from './pages/Lista';
-import { NotFound } from './pages/NotFound';
+import { ErrorBoundary } from './components/ErrorBoundary';
+
+const HomePage        = lazy(() => import('./pages/HomePage').then((m) => ({ default: m.HomePage })));
+const Metodologie     = lazy(() => import('./pages/Metodologie').then((m) => ({ default: m.Metodologie })));
+const AvizLegal       = lazy(() => import('./pages/AvizLegal').then((m) => ({ default: m.AvizLegal })));
+const Contact         = lazy(() => import('./pages/Contact').then((m) => ({ default: m.Contact })));
+const Confidentialitate = lazy(() => import('./pages/Confidentialitate').then((m) => ({ default: m.Confidentialitate })));
+const PoliticianPage  = lazy(() => import('./pages/PoliticianPage').then((m) => ({ default: m.PoliticianPage })));
+const GlosarPage      = lazy(() => import('./pages/GlosarPage').then((m) => ({ default: m.GlosarPage })));
+const ListaPage       = lazy(() => import('./pages/Lista').then((m) => ({ default: m.ListaPage })));
+const NotFound        = lazy(() => import('./pages/NotFound').then((m) => ({ default: m.NotFound })));
+
+function PageFallback() {
+  return (
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'var(--color-parchment)',
+      }}
+    />
+  );
+}
 
 function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/politician/:slug" element={<PoliticianPage />} />
-        <Route path="/glosar" element={<GlosarPage />} />
-        <Route path="/lista" element={<ListaPage />} />
-        <Route path="/metodologie" element={<Metodologie />} />
-        <Route path="/aviz-legal" element={<AvizLegal />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/confidentialitate" element={<Confidentialitate />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <ErrorBoundary>
+        <Suspense fallback={<PageFallback />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/politician/:slug" element={<PoliticianPage />} />
+            <Route path="/glosar" element={<GlosarPage />} />
+            <Route path="/lista" element={<ListaPage />} />
+            <Route path="/metodologie" element={<Metodologie />} />
+            <Route path="/aviz-legal" element={<AvizLegal />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/confidentialitate" element={<Confidentialitate />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
+      </ErrorBoundary>
     </BrowserRouter>
   );
 }

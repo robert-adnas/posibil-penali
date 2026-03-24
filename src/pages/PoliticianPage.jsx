@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
@@ -64,6 +64,27 @@ export function PoliticianPage() {
   const backHref = location.state?.from || '/lista';
   const backLabel = location.state?.fromLabel || 'Lista politicienilor';
 
+  const [copied, setCopied] = useState(false);
+  function handleShare() {
+    const url = window.location.href;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      });
+    } else {
+      // Fallback for older browsers
+      const el = document.createElement('textarea');
+      el.value = url;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  }
+
   const title = politician
     ? `${politician.name} — ${STATUS_LABELS[politician.status] || politician.status} | Politicieni Corupți`
     : 'Politician negăsit | Politicieni Corupți';
@@ -91,6 +112,19 @@ export function PoliticianPage() {
     };
   }, [politician, slug]);
 
+  // Must be before early return to satisfy Rules of Hooks
+  const sameParty = useMemo(() => {
+    if (!politician) return [];
+    return allData
+      .filter((p) => p.party === politician.party && p.name !== politician.name)
+      .sort((a, b) => {
+        if (a.status === 'convicted' && b.status !== 'convicted') return -1;
+        if (b.status === 'convicted' && a.status !== 'convicted') return 1;
+        return 0;
+      })
+      .slice(0, 10);
+  }, [politician, allData]);
+
   if (!politician) {
     return (
       <div className="app-shell">
@@ -109,16 +143,6 @@ export function PoliticianPage() {
     );
   }
 
-  // Same-party politicians, excluding the current one, convicted first
-  const sameParty = allData
-    .filter((p) => p.party === politician.party && p.name !== politician.name)
-    .sort((a, b) => {
-      if (a.status === 'convicted' && b.status !== 'convicted') return -1;
-      if (b.status === 'convicted' && a.status !== 'convicted') return 1;
-      return 0;
-    })
-    .slice(0, 10);
-
   const sources = Array.isArray(politician.sources) ? politician.sources : [];
   const formattedVerifiedAt = politician.verified_at
     ? new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' }).format(
@@ -127,7 +151,7 @@ export function PoliticianPage() {
     : null;
 
   return (
-    <div className="app-shell">
+    <div className="app-shell pol-page-shell">
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
@@ -136,6 +160,28 @@ export function PoliticianPage() {
             </Link>
             <span className="app-kicker-separator">—</span>
             <span className="app-kicker-meta">Profil public</span>
+            <button
+              className={`pol-page-share-btn${copied ? ' pol-page-share-btn--copied' : ''}`}
+              onClick={handleShare}
+              aria-label="Copiază linkul paginii"
+            >
+              {copied ? (
+                <>
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.8">
+                    <path d="M2 6l3 3 5-5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  Copiat!
+                </>
+              ) : (
+                <>
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <rect x="4" y="4" width="7" height="7" rx="1" />
+                    <path d="M8 4V2a1 1 0 00-1-1H2a1 1 0 00-1 1v5a1 1 0 001 1h2" />
+                  </svg>
+                  Copiază link
+                </>
+              )}
+            </button>
           </div>
 
           <div

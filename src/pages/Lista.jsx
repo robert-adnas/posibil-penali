@@ -3,9 +3,18 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
-import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
+
+const STATUS_RANK = {
+  convicted: 0,
+  first_instance: 1,
+  indicted: 2,
+  investigated: 3,
+  prescribed: 4,
+  acquitted: 5,
+};
 
 const STATUS_FILTERS = [
   { key: null, label: 'Toți' },
@@ -35,7 +44,7 @@ export function ListaPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQueryState] = useState(() => searchParams.get('q') || '');
   const [activeStatus, setActiveStatus] = useState(null);
-  const [sortBy, setSortBy] = useState('default'); // 'default' | 'name' | 'year' | 'sentence'
+  const [sortBy, setSortBy] = useState(null); // null | 'name' | 'position' | 'sentence'
   const searchRef = useRef(null);
 
   // Keep URL in sync with the search query
@@ -50,7 +59,8 @@ export function ListaPage() {
     return allData.filter((p) =>
       p.name.toLowerCase().includes(q) ||
       p.party.toLowerCase().includes(q) ||
-      (p.position || '').toLowerCase().includes(q)
+      (p.position || '').toLowerCase().includes(q) ||
+      (p.crime || '').toLowerCase().includes(q)
     );
   }, [allData, query]);
 
@@ -70,13 +80,43 @@ export function ListaPage() {
     if (sortBy === 'name') {
       return [...filtered].sort((a, b) => a.name.localeCompare(b.name, 'ro'));
     }
-    if (sortBy === 'year') {
-      return [...filtered].sort((a, b) => (b.conviction_year || 0) - (a.conviction_year || 0));
+    if (sortBy === 'position') {
+      const POSITION_RANK = {
+        prime_minister: 0,
+        minister: 1,
+        senator: 2,
+        deputy: 3,
+        county_council_president: 4,
+        member_european_parliament: 5,
+        mayor: 6,
+        secretary_of_state: 7,
+        local_official: 8,
+        other: 9,
+      };
+      return [...filtered].sort((a, b) => {
+        const rankA = POSITION_RANK[a.position_type] ?? 99;
+        const rankB = POSITION_RANK[b.position_type] ?? 99;
+        if (rankA !== rankB) return rankA - rankB;
+        return a.name.localeCompare(b.name, 'ro');
+      });
     }
     if (sortBy === 'sentence') {
-      return [...filtered].sort((a, b) => (b.sentence_years || 0) - (a.sentence_years || 0));
+      return [...filtered].sort((a, b) => {
+        const aY = a.sentence_years ?? 0;
+        const bY = b.sentence_years ?? 0;
+        if (aY > 0 && bY > 0) return bY - aY;
+        if (aY > 0) return -1;
+        if (bY > 0) return 1;
+        return a.name.localeCompare(b.name, 'ro');
+      });
     }
-    return filtered;
+    // Default: sort by status severity, then alphabetically
+    return [...filtered].sort((a, b) => {
+      const rankA = STATUS_RANK[a.status] ?? 99;
+      const rankB = STATUS_RANK[b.status] ?? 99;
+      if (rankA !== rankB) return rankA - rankB;
+      return a.name.localeCompare(b.name, 'ro');
+    });
   }, [queryFiltered, activeStatus, sortBy]);
 
   // Statuses that have at least 1 result given the current query
@@ -84,6 +124,7 @@ export function ListaPage() {
     () => new Set(Object.keys(countByStatus)),
     [countByStatus]
   );
+
 
   // If the active tab becomes empty due to a query change, clear it
   useEffect(() => {
@@ -104,9 +145,12 @@ export function ListaPage() {
     return () => document.removeEventListener('keydown', handleKey);
   }, []);
 
+  const activeFilterLabel = STATUS_FILTERS.find((f) => f.key === activeStatus)?.label;
   useSEO({
-    title: 'Lista politicienilor — Arhivă completă | Politicieni Corupți',
-    description: `Toți cei ${allData.length} politicieni din arhivă: condamnați, trimiși în judecată sau cercetați penal. Caută după nume sau partid.`,
+    title: activeStatus
+      ? `${activeFilterLabel} (${results.length}) — Lista politicienilor | Politicieni Corupți`
+      : 'Lista politicienilor — Arhivă completă | Politicieni Corupți',
+    description: `Toți cei ${allData.length} politicieni din arhivă: condamnați, trimiși în judecată sau cercetați penal. Caută după nume, partid sau faptă.`,
     url: `${BASE_URL}/lista`,
   });
 
@@ -140,7 +184,7 @@ export function ListaPage() {
               ref={searchRef}
               className="lista-search"
               type="search"
-              placeholder="Caută după nume, partid sau funcție…"
+              placeholder="Caută după nume, partid, funcție sau faptă…"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               autoComplete="off"
@@ -168,6 +212,9 @@ export function ListaPage() {
               >
                 {f.key && <span className="lista-tab-dot" />}
                 {f.label}
+                {f.key && countByStatus[f.key] && (
+                  <span className="lista-tab-count">{countByStatus[f.key]}</span>
+                )}
               </button>
             ))}
           </div>
@@ -188,15 +235,14 @@ export function ListaPage() {
               <div className="lista-sort">
                 <span className="lista-sort-label">Sortează</span>
                 {[
-                  { key: 'default', label: 'Relevanță' },
-                  { key: 'name',    label: 'Nume A–Z' },
-                  { key: 'year',    label: 'An condamnare' },
-                  { key: 'sentence',label: 'Pedeapsă' },
+                  { key: 'name',     label: 'Nume A–Z' },
+                  { key: 'position', label: 'Funcție' },
+                  { key: 'sentence', label: 'Pedeapsă' },
                 ].map((opt) => (
                   <button
                     key={opt.key}
                     className={`lista-sort-btn${sortBy === opt.key ? ' lista-sort-btn--active' : ''}`}
-                    onClick={() => setSortBy(opt.key)}
+                    onClick={() => setSortBy(sortBy === opt.key ? null : opt.key)}
                   >
                     {opt.label}
                   </button>
@@ -222,7 +268,11 @@ export function ListaPage() {
           ) : (
             <ul className="lista-list">
               {results.map((p) => (
-                <li key={p.name} className="lista-item" data-status={p.status}>
+                <li
+                  key={p.name}
+                  className="lista-item"
+                  data-status={p.status}
+                >
                   <Link
                     to={`/politician/${nameToSlug(p.name)}`}
                     state={{ from: `/lista${searchParams.toString() ? `?${searchParams.toString()}` : ''}`, fromLabel: 'Lista politicienilor' }}
@@ -236,6 +286,9 @@ export function ListaPage() {
                     </span>
                     <span className="lista-item-status">
                       {STATUS_LABELS[p.status] || p.status}
+                      {p.sentence_years > 0 && (
+                        <span className="lista-item-sentence">{formatYears(p.sentence_years)}</span>
+                      )}
                     </span>
                   </Link>
                 </li>
