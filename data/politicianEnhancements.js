@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-22',
+  last_updated: '2026-03-24',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -1611,6 +1611,63 @@ export const politicianAdditions = [
         label: 'Puterea',
         kind: 'press',
         url: 'https://www.puterea.ro/candidatul-aur-pentru-sefia-consiliului-judetean-giurgiu-marin-anton-fost-condamnat-pentru-mita-de-53-milioane-euro/',
+      },
+    ],
+  },
+  {
+    name: 'Ion N\u0103ft\u0103nil\u0103',
+    party: 'PDL',
+    position: 'Primar al comunei Albe\u0219tii de Muscel (jude\u021bul Arge\u0219)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; folosire de documente false pentru fonduri europene; conflict de interese',
+    sentence: '4 ani \u00eenchisoare',
+    sentence_years: 4,
+    conviction_year: 2024,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Pite\u0219ti prin decizia penal\u0103 nr. 310 din 4 aprilie 2024 pentru abuz \u00een serviciu \u00een leg\u0103tur\u0103 cu un proiect de alimentare cu ap\u0103 al comunei. DNA a ar\u0103tat c\u0103 fusese condamnat definitiv \u0219i anterior, \u00een noiembrie 2014, \u00eentr-un dosar privind fonduri europene \u0219i conflict de interese.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12615',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5665',
+      },
+      {
+        label: 'Wikidata',
+        kind: 'profile',
+        url: 'https://www.wikidata.org/wiki/Q23309146',
+      },
+    ],
+  },
+  {
+    name: 'Viorel Mitea Ro\u0219ca',
+    party: 'PNL',
+    position: 'Primar al comunei Brebu (jude\u021bul Cara\u0219-Severin)',
+    position_type: 'mayor',
+    crime: 'Trafic de influen\u021b\u0103',
+    sentence: '1 an \u0219i 6 luni \u00eenchisoare (am\u00e2narea aplic\u0103rii pedepsei)',
+    sentence_years: 1.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv \u00een dosarul privind fraudarea fondurilor pentru paji\u0219ti comunale, dup\u0103 ce DNA a sus\u021binut c\u0103 a participat la mecanismul prin care lucr\u0103ri publice erau decontate fictiv, iar sumele nefolosite erau \u00eemp\u0103r\u021bite \u00eentre participan\u021bi.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5604',
+      },
+      {
+        label: 'Wikidata',
+        kind: 'profile',
+        url: 'https://www.wikidata.org/wiki/Q26239076',
       },
     ],
   },
