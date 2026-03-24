@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import rawData from '../../data/politicians.json';
 import { buildDataset } from '../../data/buildDataset.js';
+import { nameToSlug } from '../utils/slug.js';
 
 const dataset = buildDataset(rawData);
 const allData = dataset.politicians;
@@ -69,6 +70,10 @@ export function useData() {
     };
   }, [filteredData]);
 
+  function findBySlug(slug) {
+    return allData.find((p) => nameToSlug(p.name) === slug) || null;
+  }
+
   return {
     metadata,
     allData,
@@ -79,5 +84,6 @@ export function useData() {
     positionTypes,
     statuses,
     stats,
+    findBySlug,
   };
 }

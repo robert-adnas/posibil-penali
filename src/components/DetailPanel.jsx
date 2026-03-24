@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+import { nameToSlug } from '../utils/slug';
 
 const SOURCE_KIND_LABELS = {
   official: 'Oficial',
@@ -51,7 +53,13 @@ export function DetailPanel({ politician, onClose }) {
             Înapoi
           </button>
 
-          <span className="detail-panel-toplabel">Profil public</span>
+          <Link
+            to={`/politician/${nameToSlug(politician.name)}`}
+            className="detail-panel-toplabel"
+            style={{ textDecoration: 'none' }}
+          >
+            Pagina completă →
+          </Link>
         </div>
 
         <div className="detail-panel-content">

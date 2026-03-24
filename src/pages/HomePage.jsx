@@ -8,6 +8,7 @@ import { StatsBar } from '../components/StatsBar';
 import { DetailPanel } from '../components/DetailPanel';
 import { PartyRanking } from '../components/PartyRanking';
 import { StatusLegend } from '../components/StatusLegend';
+import { downloadJSON, downloadCSV } from '../utils/download';
 
 export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
@@ -93,9 +94,19 @@ export function HomePage() {
             <div className="app-footer-copy">
               <p>Fiecare persoană inclusă are cel puțin o sursă oficială, completată unde este util cu presă de referință.</p>
               <p>Proiect non-profit, open-source. Lista nu este exhaustivă. Verificați întotdeauna sursele originale și data ultimei verificări.</p>
+              <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.75rem', flexWrap: 'wrap' }}>
+                <button onClick={downloadJSON} className="app-footer-nav-link" style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
+                  ↓ Date JSON
+                </button>
+                <button onClick={downloadCSV} className="app-footer-nav-link" style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
+                  ↓ Date CSV
+                </button>
+              </div>
             </div>
 
             <nav className="app-footer-nav">
+              <Link to="/lista" className="app-footer-nav-link">Toți politicienii ({allData.length})</Link>
+              <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
               <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>
               <Link to="/aviz-legal" className="app-footer-nav-link">Aviz legal</Link>
               <Link to="/contact" className="app-footer-nav-link">Contact & Corecții</Link>

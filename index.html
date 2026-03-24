@@ -57,6 +57,16 @@
 
     <title>Politicieni Corupți | Arhivă independentă despre corupție și integritate</title>
 
+    <script>
+      // Restore path after GitHub Pages 404 redirect
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, '', decodeURIComponent(p));
+        }
+      })();
+    </script>
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
