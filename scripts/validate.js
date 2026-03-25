@@ -14,6 +14,7 @@ const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy',
 const KNOWN_PARTIES = ['PSD', 'PNL', 'PDL', 'PC', 'PD', 'UDMR', 'AUR', 'PP-DD', 'PMP', 'PNȚCD', 'PRM', 'USR', 'SOS Romania', 'SOS', 'ADN', 'PLAN', 'ANC', 'PSDI', 'PNCR', 'PUSL', 'Independent', 'România Socialistă'];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];
 const STATUSES_REQUIRING_SENTENCE = ['convicted', 'first_instance', 'prescribed'];
+const YEAR_RANGE = { min: 2010, max: 2026 };
 
 let errors = 0;
 let warnings = 0;
@@ -91,8 +92,13 @@ try {
       });
     }
 
-    if (politician.conviction_year && (politician.conviction_year < 1990 || politician.conviction_year > 2030)) {
-      warn(`${prefix} unusual conviction_year: ${politician.conviction_year}`);
+    if (
+      politician.conviction_year
+      && (politician.conviction_year < YEAR_RANGE.min || politician.conviction_year > YEAR_RANGE.max)
+    ) {
+      error(
+        `${prefix} conviction_year ${politician.conviction_year} is outside the supported range ${YEAR_RANGE.min}-${YEAR_RANGE.max}`
+      );
     }
   });
 

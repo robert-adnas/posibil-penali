@@ -1749,4 +1749,108 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Vasile Andrea\u0219',
+    party: 'PSD',
+    position: 'Primar al comunei S\u00e2mb\u0103ta de Sus (jude\u021bul Bra\u0219ov)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; conflict de interese',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Bra\u0219ov \u00een 18 mai 2022 pentru scutirea nelegal\u0103 de la plata unor impozite locale a unor firme controlate de familie, \u00een perioada \u00een care conducea Prim\u0103ria S\u00e2mb\u0103ta de Sus.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11303',
+      },
+      {
+        label: 'BizBra\u0219ov',
+        kind: 'press',
+        url: 'https://www.bizbrasov.ro/2018/06/09/primarul-psd-din-sambata-de-sus-si-scutit-familia-de-la-plata-unor-impozite-locale-de-aproape-14-milioane-de-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Costel Tuli\u021bu',
+    party: 'PDL',
+    position: 'Primar al ora\u0219ului Bechet (jude\u021bul Dolj)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; conflict de interese',
+    sentence: '3 ani \u00eenchisoare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Craiova \u00een 27 octombrie 2016 pentru pl\u0103\u021bi nelegale din fonduri publice \u0219i pentru \u00eencheierea unor contracte care au produs foloase materiale unei rude apropiate, \u00een timp ce era primar al ora\u0219ului Bechet.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7830',
+      },
+      {
+        label: 'Enciclopedia Rom\u00e2niei',
+        kind: 'profile',
+        url: 'https://enciclopediaromaniei.ro/wiki/Bechet',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru Dr\u0103ghici',
+    party: 'PNL',
+    position: 'Primar al comunei S\u0103l\u0103trucel (jude\u021bul V\u00e2lcea)',
+    position_type: 'mayor',
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene; conflict de interese; fals intelectual; uz de fals',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Pite\u0219ti \u00een 25 mai 2018 \u00eentr-un dosar DNA privind subven\u021bii APIA ob\u021binute nelegal prin intermediul unei asocia\u021bii locale de cresc\u0103tori de animale. La momentul scoaterii din func\u021bie pentru un alt conflict de interese, presa local\u0103 \u00eel identifica drept ales PNL.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
+      },
+      {
+        label: 'Arena V\u00e2lcean\u0103',
+        kind: 'press',
+        url: 'https://arenavalceana.ro/dumitru-draghici-a-fost-eliberat-din-functia-de-primar-al-comunei-salatrucel/',
+      },
+    ],
+  },
+  {
+    name: 'Ion Mo\u0219oarc\u0103',
+    party: 'PSD',
+    position: 'Primar al comunei Gr\u0103dinari (jude\u021bul Cara\u0219-Severin)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
+    sentence: '1 an \u00eenchisoare cu executare',
+    sentence_years: 1,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Dup\u0103 trimiterea \u00een judecat\u0103 de DNA \u00een dosarul fraud\u0103rii fondurilor APIA pentru paji\u0219ti comunale, Curtea de Apel Timi\u0219oara a pronun\u021bat \u00een noiembrie 2014 condamnarea definitiv\u0103 la 1 an de \u00eenchisoare, cu confiscarea sumei de 15.000 lei.',
+    verified_at: '2026-03-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4562',
+      },
+      {
+        label: 'Stiripesurse',
+        kind: 'press',
+        url: 'https://www.stiripesurse.ro/primar-condamnat-la-inchisoare_940370.html',
+      },
+    ],
+  },
 ];
