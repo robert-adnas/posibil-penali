@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-24',
+  last_updated: '2026-03-26',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -1850,6 +1850,161 @@ export const politicianAdditions = [
         label: 'Stiripesurse',
         kind: 'press',
         url: 'https://www.stiripesurse.ro/primar-condamnat-la-inchisoare_940370.html',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Jors',
+    party: 'PDL',
+    position: 'Primar al comunei Bahnea (jude\u021bul Mure\u0219)',
+    position_type: 'mayor',
+    crime: 'Conflict de interese; folosire sau prezentare de documente false ori inexacte pentru ob\u021binerea de fonduri europene',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een 4 iunie 2014, dup\u0103 ce DNA a re\u021binut c\u0103 a solicitat subven\u021bii APIA pe baza unui contract de arend\u0103 semnat de el at\u00e2t ca persoan\u0103 fizic\u0103, c\u00e2t \u0219i ca reprezentant al Prim\u0103riei Bahnea, \u00eencas\u00e2nd nelegal peste 55.000 lei.',
+    verified_at: '2026-03-26',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4996',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3716',
+      },
+      {
+        label: 'Enciclopedia Rom\u00e2niei',
+        kind: 'profile',
+        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_Bahnea',
+      },
+    ],
+  },
+  {
+    name: 'Sandu Costel',
+    party: 'PNL',
+    position: 'Primar al comunei Plugari (jude\u021bul Ia\u0219i)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103; complicitate la folosirea de documente false pentru fonduri europene',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2013,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Ia\u0219i \u00een 22 martie 2013 \u00eentr-un dosar DNA privind concesionarea nelegal\u0103 a peste 700 de hectare de paji\u0219te c\u0103tre o structur\u0103 controlat\u0103 de apropia\u021bi ai familiei, urmat\u0103 de ob\u021binerea ilegal\u0103 de subven\u021bii APIA.',
+    verified_at: '2026-03-26',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3988',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-plugari-iasi.html',
+      },
+    ],
+  },
+  {
+    name: 'Neculai Lupu',
+    party: 'PRM',
+    position: 'Primar al comunei Frunti\u0219eni (jude\u021bul Vaslui)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu; conflict de interese',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de \u00ceCCJ \u00een 16 iulie 2014, dup\u0103 ce DNA a sus\u021binut c\u0103, \u00een calitate de primar \u0219i membru al unei asocia\u021bii locale, a redus abuziv chiria pentru p\u0103\u0219unea comunal\u0103 \u0219i a facilitat ob\u021binerea ilegal\u0103 de subven\u021bii europene.',
+    verified_at: '2026-03-26',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5155',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3769',
+      },
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-fruntiseni-vaslui.html',
+      },
+    ],
+  },
+  {
+    name: 'Viorel Chiri\u021b\u0103',
+    party: 'PSD',
+    position: 'Primar al comunei I.C. Br\u0103tianu (jude\u021bul Tulcea)',
+    position_type: 'mayor',
+    crime: 'Conflict de interese',
+    sentence: '3 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.25,
+    conviction_year: 2015,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Constan\u021ba \u00een 2 decembrie 2015, dup\u0103 ce DNA a re\u021binut c\u0103 a \u00eenchiriat direct fiicei sale 37,5 hectare de teren ale prim\u0103riei, contract folosit apoi pentru accesarea unei finan\u021b\u0103ri europene destinate tinerilor fermieri.',
+    verified_at: '2026-03-26',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7019',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=4637',
+      },
+      {
+        label: 'Enciclopedia Rom\u00e2niei',
+        kind: 'profile',
+        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_I.C._Br%C4%83tianu',
+      },
+    ],
+  },
+  {
+    name: '\u0218tefan Ionescu',
+    party: 'PSD',
+    position: 'Primar al comunei Valea Ciorii (jude\u021bul Ialomi\u021ba)',
+    position_type: 'mayor',
+    crime: 'Complicitate la folosirea sau prezentarea de documente false ori inexacte pentru ob\u021binerea de fonduri europene',
+    sentence: '2 ani \u00eenchisoare cu suspendare sub supraveghere',
+    sentence_years: 2,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Bucure\u0219ti \u00een 20 septembrie 2022, dup\u0103 ce DNA a ar\u0103tat c\u0103 a sprijinit o asocia\u021bie local\u0103 s\u0103 ob\u021bin\u0103 subven\u021bii APIA pentru o suprafa\u021b\u0103 mai mare dec\u00e2t cea de\u021binut\u0103 \u00een acte, inclusiv prin furnizarea unei hot\u0103r\u00e2ri de consiliu local falsificate.',
+    verified_at: '2026-03-26',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11566',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9923',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'profile',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/primarie/valea-ciorii/',
       },
     ],
   },
