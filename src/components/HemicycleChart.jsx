@@ -70,12 +70,14 @@ export function HemicycleChart({ data, onSelect }) {
 
     tooltip.dataset.partyToken = getPartyToken(datum.party);
     tooltip.style.display = 'block';
+    const isDefinitive = datum.status === 'convicted';
     tooltip.innerHTML = `
       <div class="tooltip-name">${datum.name}</div>
       <div class="tooltip-meta">${datum.party} &middot; ${POSITION_LABELS[datum.position_type] || datum.position_type}</div>
       <div class="tooltip-crime">${datum.crime}</div>
       ${datum.sentence_years ? `<div class="tooltip-sentence">${formatYears(datum.sentence_years)}</div>` : ''}
       <div class="tooltip-status">${STATUS_LABELS[datum.status] || datum.status}</div>
+      ${!isDefinitive ? '<div class="tooltip-innocence">Prezumția de nevinovăție se aplică</div>' : ''}
     `;
 
     const rect = container.getBoundingClientRect();
@@ -263,18 +265,30 @@ export function HemicycleChart({ data, onSelect }) {
       .attr('r', (datum) => Math.max(datum.r + (isMobile ? 10 : 4), datum.r))
       .attr('fill', 'rgba(0, 0, 0, 0)');
 
+    const statusStyles = {
+      convicted:      { fillOpacity: 0.85, strokeWidth: 1.5,  strokeOpacity: 0.7, usePartyStroke: true,  dasharray: null },
+      first_instance: { fillOpacity: 0.55, strokeWidth: 1.25, strokeOpacity: 0.6, usePartyStroke: true,  dasharray: null },
+      indicted:       { fillOpacity: 0.35, strokeWidth: 1,    strokeOpacity: 0.5, usePartyStroke: false, dasharray: null },
+      investigated:   { fillOpacity: 0.2,  strokeWidth: 1,    strokeOpacity: 0.5, usePartyStroke: false, dasharray: '3,2' },
+      prescribed:     { fillOpacity: 0.15, strokeWidth: 0.75, strokeOpacity: 0.35,usePartyStroke: false, dasharray: '2,2' },
+      acquitted:      { fillOpacity: 0.12, strokeWidth: 1.25, strokeOpacity: 0.5, usePartyStroke: false, dasharray: null },
+    };
+
     bubbleGroups.append('circle')
       .attr('class', 'bubble')
       .attr('r', 0)
-      .attr('fill', (datum) => getPartyColor(datum.party))
-      .attr('fill-opacity', (datum) => (datum.status === 'convicted' ? 0.8 : 0.45))
-      .attr('stroke', (datum) => (
-        datum.status === 'convicted'
-          ? getPartyColor(datum.party)
-          : 'var(--color-rule)'
-      ))
-      .attr('stroke-width', (datum) => (datum.status === 'convicted' ? 1.5 : 0.75))
-      .attr('stroke-opacity', (datum) => (datum.status === 'convicted' ? 0.7 : 0.4));
+      .attr('fill', (datum) => {
+        const s = statusStyles[datum.status] || statusStyles.investigated;
+        return s.fillOpacity > 0.3 ? getPartyColor(datum.party) : getPartyColor(datum.party);
+      })
+      .attr('fill-opacity', (datum) => (statusStyles[datum.status] || statusStyles.investigated).fillOpacity)
+      .attr('stroke', (datum) => {
+        const s = statusStyles[datum.status] || statusStyles.investigated;
+        return s.usePartyStroke ? getPartyColor(datum.party) : 'var(--color-rule)';
+      })
+      .attr('stroke-width', (datum) => (statusStyles[datum.status] || statusStyles.investigated).strokeWidth)
+      .attr('stroke-opacity', (datum) => (statusStyles[datum.status] || statusStyles.investigated).strokeOpacity)
+      .attr('stroke-dasharray', (datum) => (statusStyles[datum.status] || statusStyles.investigated).dasharray);
 
     const setBubbleActive = (node, datum) => {
       d3.select(node)
@@ -286,12 +300,14 @@ export function HemicycleChart({ data, onSelect }) {
     };
 
     const resetBubble = (node, datum) => {
+      const s = statusStyles[datum.status] || statusStyles.investigated;
       d3.select(node)
         .select('.bubble')
-        .attr('fill-opacity', datum.status === 'convicted' ? 0.8 : 0.45)
-        .attr('stroke-width', datum.status === 'convicted' ? 1.5 : 0.75)
-        .attr('stroke-opacity', datum.status === 'convicted' ? 0.7 : 0.4)
-        .attr('stroke', datum.status === 'convicted' ? getPartyColor(datum.party) : 'var(--color-rule)');
+        .attr('fill-opacity', s.fillOpacity)
+        .attr('stroke-width', s.strokeWidth)
+        .attr('stroke-opacity', s.strokeOpacity)
+        .attr('stroke', s.usePartyStroke ? getPartyColor(datum.party) : 'var(--color-rule)')
+        .attr('stroke-dasharray', s.dasharray);
     };
 
     bubbleGroups
@@ -394,6 +410,8 @@ export function HemicycleChart({ data, onSelect }) {
             <span>Mărime = durata pedepsei</span>
             <span className="hemicycle-legend-divider">·</span>
             <span>Culoare = partid</span>
+            <span className="hemicycle-legend-divider">·</span>
+            <span>Opacitate = stadiul juridic</span>
             <span className="hemicycle-legend-divider">·</span>
             <span>{dimensions.width < 500 ? 'Tap pentru detalii' : 'Click pentru detalii'}</span>
           </div>

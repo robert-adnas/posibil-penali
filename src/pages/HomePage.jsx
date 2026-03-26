@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useSEO } from '../hooks/useSEO';
 import { Link, useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
@@ -15,6 +15,13 @@ export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
   const [selectedPolitician, setSelectedPolitician] = useState(null);
   const [homeQuery, setHomeQuery] = useState('');
+  const [disclaimerDismissed, setDisclaimerDismissed] = useState(
+    () => localStorage.getItem('disclaimer-dismissed') === '1'
+  );
+  const dismissDisclaimer = useCallback(() => {
+    setDisclaimerDismissed(true);
+    localStorage.setItem('disclaimer-dismissed', '1');
+  }, []);
   const navigate = useNavigate();
   const { track } = useAnalytics();
   useSEO();
@@ -52,15 +59,38 @@ export function HomePage() {
           </div>
 
           <h1 className="app-title">Politicieni Corupți</h1>
-          <p className="app-subtitle">Condamnați, judecați și cercetați penal</p>
+          <p className="app-subtitle">Condamnați, anchetați, judecați și achitați</p>
           <div className="app-rule" />
+
+          {!disclaimerDismissed && (
+            <div className="app-disclaimer">
+              <svg className="app-disclaimer-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <circle cx="8" cy="8" r="6.5" />
+                <path d="M8 5v3.5M8 10.5v.5" strokeLinecap="round" />
+              </svg>
+              <p>
+                <strong>Nu toți politicienii incluși sunt condamnați.</strong>{' '}
+                Titlul are caracter descriptiv. Fiecare persoană are un status juridic explicit
+                (condamnat, trimis în judecată, cercetat, achitat). Prezumția de nevinovăție se
+                aplică tuturor persoanelor fără condamnare definitivă.{' '}
+                <Link to="/glosar" className="app-intro-link">Ce înseamnă fiecare status →</Link>
+              </p>
+              <button
+                className="app-disclaimer-close"
+                onClick={dismissDisclaimer}
+                aria-label="Închide notificarea"
+              >
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M3 3l8 8M11 3l-8 8" strokeLinecap="round" />
+                </svg>
+              </button>
+            </div>
+          )}
 
           <div className="app-intro-row">
             <p className="app-intro">
               Bază de date independentă cu politicieni români implicați în dosare penale —
-              de la condamnări definitive la cercetări în curs. Statusul juridic al fiecărei
-              persoane este indicat explicit. Prezumția de nevinovăție se aplică tuturor
-              persoanelor fără condamnare definitivă.{' '}
+              de la condamnări definitive la cercetări în curs.{' '}
               <Link to="/metodologie" className="app-intro-link" style={{ whiteSpace: 'nowrap' }}>Cum funcționează →</Link>
             </p>
             <StatsBar stats={stats} />
