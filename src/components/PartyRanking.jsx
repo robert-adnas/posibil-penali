@@ -29,7 +29,7 @@ export function PartyRanking({ data }) {
 
   return (
     <div className="party-ranking">
-      <h3 className="party-ranking-title">Distribuție pe partide</h3>
+      <h2 className="party-ranking-title">Distribuție pe partide</h2>
 
       {hasMixedStatuses && (
         <p className="party-ranking-note">
