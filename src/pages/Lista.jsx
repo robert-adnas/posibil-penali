@@ -27,9 +27,13 @@ const STATUS_FILTERS = [
   { key: 'acquitted', label: 'Achitați' },
 ];
 
+function stripDiacritics(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 function highlight(text, query) {
   if (!query || !text) return text;
-  const idx = text.toLowerCase().indexOf(query.toLowerCase());
+  const idx = stripDiacritics(text.toLowerCase()).indexOf(stripDiacritics(query.toLowerCase()));
   if (idx === -1) return text;
   return (
     <>
@@ -56,13 +60,13 @@ export function ListaPage() {
   }
 
   const queryFiltered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = stripDiacritics(query.trim().toLowerCase());
     if (!q) return allData;
     return allData.filter((p) =>
-      p.name.toLowerCase().includes(q) ||
-      p.party.toLowerCase().includes(q) ||
-      (p.position || '').toLowerCase().includes(q) ||
-      (p.crime || '').toLowerCase().includes(q)
+      stripDiacritics(p.name.toLowerCase()).includes(q) ||
+      stripDiacritics(p.party.toLowerCase()).includes(q) ||
+      stripDiacritics((p.position || '').toLowerCase()).includes(q) ||
+      stripDiacritics((p.crime || '').toLowerCase()).includes(q)
     );
   }, [allData, query]);
 
