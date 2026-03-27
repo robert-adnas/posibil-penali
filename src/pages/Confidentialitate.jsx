@@ -24,11 +24,16 @@ export function Confidentialitate() {
         </p>
       </Section>
 
-      <Section title="Cookie-uri">
+      <Section title="Cookie-uri și stocare locală">
         <p>
           <strong>Acest site nu folosește cookie-uri</strong> de niciun fel — nici funcționale,
           nici de sesiune, nici de tracking, nici de marketing. Nu există banner de consimțământ
           pentru cookie-uri deoarece nu există cookie-uri de gestionat.
+        </p>
+        <p>
+          Site-ul folosește <strong>localStorage</strong> (stocare locală în browser) exclusiv
+          pentru preferințe funcționale (tema vizuală aleasă de utilizator). Nu sunt stocate
+          date personale, iar aceste preferințe rămân doar pe dispozitivul dvs.
         </p>
       </Section>
 
@@ -68,7 +73,13 @@ export function Confidentialitate() {
         </p>
         <p>
           Aceste loguri sunt gestionate exclusiv de GitHub și nu sunt accesibile autorului
-          acestui site. Pentru detalii:{' '}
+          acestui site.
+        </p>
+        <p>
+          Găzduirea pe GitHub Pages poate implica transferul de date tehnice (adrese IP) către
+          servere situate în SUA. Acest transfer se realizează în baza Acordului de prelucrare
+          a datelor al Microsoft/GitHub și a Clauzelor Contractuale Standard ale UE (SCC),
+          conform prevederilor Capitolului V din GDPR. Pentru detalii:{' '}
           <a
             href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
             target="_blank"
@@ -93,6 +104,27 @@ export function Confidentialitate() {
         <p>
           Consultați <Link to="/aviz-legal" className="legal-inline-link">Avizul legal</Link> pentru
           detalii complete despre baza juridică a prelucrării.
+        </p>
+      </Section>
+
+      <Section title="Operatorul de date">
+        <p>
+          Operatorul de date cu caracter personal, în sensul Art. 4 pct. 7 din GDPR, este
+          autorul acestui proiect — persoană fizică, contactabilă la{' '}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="legal-inline-link">{CONTACT_EMAIL}</a>.
+        </p>
+        <p>
+          Proiectul nu are desemnat un responsabil cu protecția datelor (DPO), dat fiind
+          caracterul individual și necomercial al activității.
+        </p>
+      </Section>
+
+      <Section title="Durata de păstrare a datelor">
+        <p>
+          Datele despre politicieni sunt păstrate atât timp cât rămân de interes public și
+          sunt documentate prin surse verificabile. Informațiile pot fi actualizate, corectate
+          sau eliminate în urma unei solicitări justificate sau atunci când nu mai sunt
+          susținute de surse credibile.
         </p>
       </Section>
 

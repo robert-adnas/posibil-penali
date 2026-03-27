@@ -57,7 +57,7 @@ export function Contact() {
           rapid.
         </p>
         <p>
-          Ne angajăm să analizăm fiecare solicitare și să răspundem în termen de maximum
+          Autorul se angajează să analizeze fiecare solicitare și să răspundă în termen de maximum
           <strong> 30 de zile calendaristice</strong>.
         </p>
       </Section>

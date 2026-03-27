@@ -61,7 +61,7 @@ export function HomePage() {
           </div>
 
           <h1 className="app-title">Politicieni Corupți</h1>
-          <p className="app-subtitle">Condamnați, anchetați, judecați și achitați</p>
+          <p className="app-subtitle">Condamnați, cercetați, judecați și achitați</p>
           <div className="app-rule" />
 
           {!disclaimerDismissed && (

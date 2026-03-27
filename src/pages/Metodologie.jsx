@@ -129,8 +129,8 @@ export function Metodologie() {
         <p>Regulile de calcul:</p>
         <ul>
           <li>Sumele exprimate în <strong>euro (€)</strong> sunt preluate ca atare</li>
-          <li>Sumele exprimate în <strong>lei (RON)</strong> sunt convertite în euro la cursul aproximativ de 1 € = 5 lei</li>
-          <li>Totalul este afișat în lei, la același curs de conversie</li>
+          <li>Sumele exprimate în <strong>lei (RON)</strong> sunt convertite în euro la cursul orientativ de 1 € ≈ 5 lei (curs simplificat, utilizat doar în scop estimativ)</li>
+          <li>Totalul este afișat în lei, la același curs orientativ de conversie</li>
           <li>Se extrage o singură sursă per politician (din „Faptă", cu fallback pe „Detalii") pentru a evita dubla numărare</li>
         </ul>
         <p className="method-note">

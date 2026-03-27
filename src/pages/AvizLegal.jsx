@@ -49,7 +49,7 @@ export function AvizLegal() {
       <Section title="Baza legală pentru prelucrarea datelor (GDPR)">
         <p>
           Prelucrarea datelor cu caracter personal din această bază de date se realizează în
-          temeiul următoarelor temeiuri juridice:
+          baza următoarelor temeiuri juridice:
         </p>
         <ul>
           <li>
@@ -64,9 +64,9 @@ export function AvizLegal() {
             funcții publice.
           </li>
           <li>
-            <strong>Interesul public legitim</strong> — transparența actului de guvernare și a
-            exercitării funcțiilor publice este recunoscută ca interes public în jurisprudența
-            CEDO și a Curții de Justiție a UE.
+            <strong>Articolul 6 alineatul (1) litera (f) din GDPR — interes legitim</strong> — transparența
+            actului de guvernare și a exercitării funcțiilor publice este recunoscută ca interes
+            public legitim în jurisprudența CEDO și a Curții de Justiție a UE.
           </li>
         </ul>
         <p>
@@ -95,8 +95,8 @@ export function AvizLegal() {
 
       <Section title="Exactitate și angajamentul față de corecturi">
         <p>
-          Ne angajăm să menținem informațiile cât mai exacte și actualizate posibil. Orice eroare
-          factuală semnalată va fi analizată și corectată în cel mai scurt timp. Corecțiile
+          Autorul se angajează să mențină informațiile cât mai exacte și actualizate posibil. Orice
+          eroare factuală semnalată va fi analizată și corectată în cel mai scurt timp. Corecțiile
           semnificative (de exemplu, schimbări de status juridic) vor fi consemnate în procesul
           de actualizare.
         </p>
