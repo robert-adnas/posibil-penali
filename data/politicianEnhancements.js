@@ -2571,11 +2571,6 @@ export const politicianAdditions = [
         url: 'https://www.tirgumures.ro/index.php?Itemid=228&id=8079&lang=ro&option=com_content&view=article',
       },
       {
-        label: 'UDMR',
-        kind: 'official',
-        url: 'https://udmr.ro/actualitate/stiri/Soos-Zoltan-a-votat-pentru-schimbare-pentru-Targu-Mures',
-      },
-      {
         label: 'G4Media',
         kind: 'press',
         url: 'https://www.g4media.ro/primarul-din-targu-mures-soos-zoltan-ramane-sub-control-judiciar-dosarul-instrumentat-de-dna-are-ca-obiect-luarea-de-mita.html',
