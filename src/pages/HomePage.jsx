@@ -51,6 +51,9 @@ export function HomePage() {
 
   return (
     <div className="app-shell">
+      <a href="#main-content" className="skip-nav">
+        Sari la conținut
+      </a>
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
@@ -141,7 +144,7 @@ export function HomePage() {
         </div>
       </div>
 
-      <main className="app-section app-main">
+      <main id="main-content" className="app-section app-main">
         <div className="app-inner">
           <div className="main-grid">
             <div className="main-grid-chart">

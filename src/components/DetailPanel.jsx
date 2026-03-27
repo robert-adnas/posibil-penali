@@ -29,6 +29,41 @@ export function DetailPanel({ politician, onClose }) {
     document.addEventListener('keydown', handleKey);
     document.body.style.overflow = 'hidden';
 
+    // Focus trap: keep Tab cycling inside the panel
+    const panel = panelRef.current;
+    if (panel) {
+      const previouslyFocused = document.activeElement;
+      const closeBtn = panel.querySelector('.detail-panel-close');
+      if (closeBtn) closeBtn.focus();
+
+      const trapFocus = (e) => {
+        if (e.key !== 'Tab') return;
+        const focusable = panel.querySelectorAll(
+          'a[href], button, [tabindex]:not([tabindex="-1"]), input, textarea, select'
+        );
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      };
+      document.addEventListener('keydown', trapFocus);
+
+      return () => {
+        document.removeEventListener('keydown', handleKey);
+        document.removeEventListener('keydown', trapFocus);
+        document.body.style.overflow = '';
+        if (previouslyFocused && typeof previouslyFocused.focus === 'function') {
+          previouslyFocused.focus();
+        }
+      };
+    }
+
     return () => {
       document.removeEventListener('keydown', handleKey);
       document.body.style.overflow = '';
@@ -36,8 +71,8 @@ export function DetailPanel({ politician, onClose }) {
   }, [onClose]);
 
   return (
-    <div className="detail-panel-shell">
-      <div className="detail-panel-backdrop backdrop-fade" onClick={onClose} />
+    <div className="detail-panel-shell" role="dialog" aria-modal="true" aria-label={`Detalii despre ${politician.name}`}>
+      <div className="detail-panel-backdrop backdrop-fade" onClick={onClose} aria-hidden="true" />
 
       <div
         ref={panelRef}

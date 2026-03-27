@@ -391,7 +391,7 @@ export function HemicycleChart({ data, onSelect }) {
         <div className="hemicycle-empty">Niciun rezultat pentru filtrele selectate.</div>
       ) : (
         <>
-          <svg ref={svgRef} className="hemicycle-svg" />
+          <svg ref={svgRef} className="hemicycle-svg" role="img" aria-label={`Vizualizare hemiciclu cu ${data.length} politicieni grupați pe partide. Mărimea reprezintă durata pedepsei, culoarea partidul, opacitatea stadiul juridic.`} />
           <div ref={tooltipRef} className="tooltip" />
 
           {dimensions.width < 500 && partySummary.length > 0 && (
