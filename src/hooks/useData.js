@@ -24,7 +24,12 @@ function toSortedCounts(data, key) {
   });
 
   return Object.entries(counts)
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => {
+      // Push "Independent" to the end
+      if (a[0] === 'Independent') return 1;
+      if (b[0] === 'Independent') return -1;
+      return b[1] - a[1];
+    })
     .map(([value, count]) => ({ value, count }));
 }
 

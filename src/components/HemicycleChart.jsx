@@ -144,7 +144,11 @@ export function HemicycleChart({ data, onSelect }) {
 
     const byParty = d3.group(data, (datum) => datum.party);
     const partyOrder = [...byParty.entries()]
-      .sort((a, b) => b[1].length - a[1].length)
+      .sort((a, b) => {
+        if (a[0] === 'Independent') return 1;
+        if (b[0] === 'Independent') return -1;
+        return b[1].length - a[1].length;
+      })
       .map(([party]) => party);
 
     const arcPadding = 0.02;

@@ -20,7 +20,11 @@ export function PartyRanking({ data }) {
     });
 
     return Object.entries(partyStats)
-      .sort((a, b) => b[1].total - a[1].total)
+      .sort((a, b) => {
+        if (a[0] === 'Independent') return 1;
+        if (b[0] === 'Independent') return -1;
+        return b[1].total - a[1].total;
+      })
       .map(([party, stats]) => ({ party, ...stats }));
   }, [data]);
 
