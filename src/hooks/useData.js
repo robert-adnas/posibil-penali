@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import rawData from '../../data/politicians.json';
 import { buildDataset } from '../../data/buildDataset.js';
 import { nameToSlug } from '../utils/slug.js';
+import { parsePrejudiciuEur } from '../utils/parsePrejudiciu.js';
 
 const dataset = buildDataset(rawData);
 const allData = dataset.politicians;
@@ -63,10 +64,12 @@ export function useData() {
   const stats = useMemo(() => {
     const convicted = filteredData.filter((politician) => politician.status === 'convicted');
     const totalYears = convicted.reduce((sum, politician) => sum + (politician.sentence_years || 0), 0);
+    const totalPrejudiciu = filteredData.reduce((sum, politician) => sum + parsePrejudiciuEur(politician), 0);
     return {
       total: filteredData.length,
       convicted: convicted.length,
       totalPrisonYears: Math.round(totalYears),
+      totalPrejudiciu,
     };
   }, [filteredData]);
 

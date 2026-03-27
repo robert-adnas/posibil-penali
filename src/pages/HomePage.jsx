@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { HemicycleChart } from '../components/HemicycleChart';
 import { Filters } from '../components/Filters';
-import { StatsBar } from '../components/StatsBar';
+import { StatsBar, PrejudiciuBanner } from '../components/StatsBar';
 import { DetailPanel } from '../components/DetailPanel';
 import { PartyRanking } from '../components/PartyRanking';
 import { StatusLegend } from '../components/StatusLegend';
@@ -97,6 +97,8 @@ export function HomePage() {
             </p>
             <StatsBar stats={stats} />
           </div>
+
+          <PrejudiciuBanner stats={stats} />
 
           <form className="home-search-form" onSubmit={handleHomeSearch}>
             <div className="home-search-wrap">

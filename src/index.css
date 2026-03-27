@@ -327,6 +327,97 @@ button {
   color: var(--color-accent);
 }
 
+.prejudiciu-banner {
+  margin-top: 1.25rem;
+  background: color-mix(in srgb, var(--color-accent) 6%, var(--color-parchment-dark));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 18%, transparent);
+  border-radius: 8px;
+  padding: 0.875rem 1.25rem;
+}
+
+.prejudiciu-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prejudiciu-label {
+  color: var(--color-ink-muted);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.prejudiciu-value {
+  color: var(--color-accent);
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-left: auto;
+}
+
+.prejudiciu-info-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-ink-faint);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+
+.prejudiciu-info-btn:hover {
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+}
+
+.prejudiciu-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease-out;
+}
+
+.prejudiciu-details[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+
+.prejudiciu-details-inner {
+  overflow: hidden;
+}
+
+.prejudiciu-details[data-open="true"] .prejudiciu-details-inner {
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-accent) 12%, transparent);
+}
+
+.prejudiciu-details p {
+  color: var(--color-ink-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.prejudiciu-details-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-accent);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.prejudiciu-details-link:hover {
+  text-decoration: underline;
+}
+
 .stat-label {
   color: var(--color-ink-faint);
   font-size: 9px;

@@ -120,6 +120,26 @@ export function Metodologie() {
         </p>
       </Section>
 
+      <Section title="Prejudiciu total documentat" id="prejudiciu">
+        <p>
+          Suma afișată pe pagina principală ca „Prejudiciu total documentat" este calculată automat
+          prin extragerea valorilor monetare menționate în câmpul „Faptă" al fiecărei intrări
+          (sau, în lipsa acestuia, din câmpul „Detalii").
+        </p>
+        <p>Regulile de calcul:</p>
+        <ul>
+          <li>Sumele exprimate în <strong>euro (€)</strong> sunt preluate ca atare</li>
+          <li>Sumele exprimate în <strong>lei (RON)</strong> sunt convertite în euro la cursul aproximativ de 1 € = 5 lei</li>
+          <li>Totalul este afișat în lei, la același curs de conversie</li>
+          <li>Se extrage o singură sursă per politician (din „Faptă", cu fallback pe „Detalii") pentru a evita dubla numărare</li>
+        </ul>
+        <p className="method-note">
+          <strong>Atenție:</strong> Această sumă este orientativă. Nu toate dosarele conțin valori
+          cuantificabile, iar cifrele provin din actele de acuzare sau din hotărârile instanțelor —
+          nu din evaluări independente. Suma reală poate fi semnificativ diferită.
+        </p>
+      </Section>
+
       <Section title="Cum se citește o intrare">
         <p>Fiecare intrare despre un politician conține:</p>
         <ul>
@@ -145,9 +165,9 @@ export function Metodologie() {
   );
 }
 
-function Section({ title, children }) {
+function Section({ title, id, children }) {
   return (
-    <section className="page-section">
+    <section className="page-section" id={id}>
       <h2 className="page-section-title">{title}</h2>
       <div className="page-section-body">{children}</div>
     </section>
