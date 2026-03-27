@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-27',
+  last_updated: '2026-03-28',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -2713,6 +2713,99 @@ export const politicianAdditions = [
         label: 'Observatorul Prahovean',
         kind: 'press',
         url: 'https://www.observatorulph.ro/administratie/2744369-primarului-din-sinaia-i-s-a-facut-rau-in-timpul-perchezitiilor-dna',
+      },
+    ],
+  },
+  {
+    name: 'Dan Oloieru',
+    party: 'PNL',
+    position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi (jude\u021bul Boto\u0219ani)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: 'Cercetat penal',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Potrivit relat\u0103rilor din martie 2026, a recunoscut fapta \u00eentr-un acord de recunoa\u0219tere a vinov\u0103\u021biei, dar validarea judec\u0103toreasc\u0103 nu era \u00eenc\u0103 definitiv\u0103.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
+      },
+      {
+        label: 'Monitorul de Boto\u0219ani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/local/2025/04/13/dna-zguduie-viata-politica-din-judet-modificari-in-conducerea-filialei-pnl-botosani/',
+      },
+      {
+        label: 'Monitorul de Boto\u0219ani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/prima-pagina/2026/03/13/dan-oloeriu-a-recunoscut-ca-a-luat-spaga-ce-pedeapsa-i-au-dat-magistratii/',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru-Verginel Giread\u0103',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mihai Eminescu (jude\u021bul Boto\u0219ani)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: 'Cercetat penal',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een leg\u0103tur\u0103 cu lucr\u0103ri publice. Verificarea din decembrie 2025 arat\u0103 c\u0103 nu mai de\u021binea func\u021bia de primar, iar presa local\u0103 \u00eel indica drept politician PSD.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
+      },
+      {
+        label: 'Ziarul de Ia\u0219i',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/cine-este-verginel-gireada-primarul-saltat-azi-de-dna-latifundiar-psd-familia-sa-conduce-comuna-mihai-eminescu-din-2004--1742327.html',
+      },
+      {
+        label: 'TeleM Regional',
+        kind: 'press',
+        url: 'https://telem.ro/primaria-din-comuna-mihai-eminescu-o-afacere-in-familie-fiica-lui-verginel-gireada-a-castigat-alegerile/',
+      },
+    ],
+  },
+  {
+    name: 'Ionel Neagu',
+    party: 'PSD',
+    position: 'Primar al comunei Troianul (jude\u021bul Teleorman)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: 'Cercetat penal; sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA a dispus la 8 august 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i controlul judiciar fa\u021b\u0103 de primarul comunei Troianul, re\u021bin\u00e2nd \u0219ase infrac\u021biuni de luare de mit\u0103. Procurorii sus\u021bin c\u0103 ar fi pretins \u0219i primit \u00een total 145.000 lei pentru atribuirea preferen\u021bial\u0103 a unor contracte \u0219i achizi\u021bii.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12988',
+      },
+      {
+        label: 'Prim\u0103ria Troianul',
+        kind: 'official',
+        url: 'https://www.comunatroianul.ro/primar.html',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/surse-perchezitii-dna-la-primaria-din-troianul-judetul-teleorman-este-vizat-primarul-psd-pentru-luare-de-mita-si-deturnare-de-fonduri-din-programele-anghel-saligny-si-pnrr.html',
       },
     ],
   },
