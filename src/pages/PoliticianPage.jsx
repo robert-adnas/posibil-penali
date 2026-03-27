@@ -5,6 +5,7 @@ import { useData } from '../hooks/useData';
 import { useAnalytics } from '../hooks/useAnalytics';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { nameToSlug } from '../utils/slug';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
@@ -166,6 +167,7 @@ export function PoliticianPage() {
             </Link>
             <span className="app-kicker-separator">—</span>
             <span className="app-kicker-meta">Profil public</span>
+            <ThemeToggle />
             <button
               className={`pol-page-share-btn${copied ? ' pol-page-share-btn--copied' : ''}`}
               onClick={handleShare}

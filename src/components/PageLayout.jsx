@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { ThemeToggle } from './ThemeToggle';
 
 const NAV_LINKS = [
   { to: '/metodologie', label: 'Metodologie' },
@@ -19,7 +20,10 @@ export function PageLayout({ children, title, kicker }) {
               </svg>
               Înapoi
             </Link>
-            <Link to="/" className="page-site-name">Politicieni Corupți</Link>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <Link to="/" className="page-site-name">Politicieni Corupți</Link>
+              <ThemeToggle />
+            </div>
           </div>
 
           <div className="app-kicker-row" style={{ marginTop: '1.5rem' }}>

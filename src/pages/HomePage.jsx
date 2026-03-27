@@ -10,6 +10,7 @@ import { PartyRanking } from '../components/PartyRanking';
 import { StatusLegend } from '../components/StatusLegend';
 import { downloadJSON, downloadCSV } from '../utils/download';
 import { useAnalytics } from '../hooks/useAnalytics';
+import { ThemeToggle } from '../components/ThemeToggle';
 
 export function HomePage() {
   const { metadata, filteredData, allData, filters, setFilters, parties, positionTypes, statuses, stats } = useData();
@@ -56,6 +57,7 @@ export function HomePage() {
             <span className="app-kicker">Arhivă independentă</span>
             <span className="app-kicker-separator">—</span>
             <span className="app-kicker-meta">România, {coverageStartYear}–{coverageEndYear}</span>
+            <ThemeToggle />
           </div>
 
           <h1 className="app-title">Politicieni Corupți</h1>

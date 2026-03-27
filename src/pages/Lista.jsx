@@ -5,6 +5,7 @@ import { useData } from '../hooks/useData';
 import { useAnalytics } from '../hooks/useAnalytics';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
+import { ThemeToggle } from '../components/ThemeToggle';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -180,6 +181,7 @@ export function ListaPage() {
             </Link>
             <span className="app-kicker-separator">—</span>
             <span className="app-kicker-meta">Arhivă completă</span>
+            <ThemeToggle />
           </div>
           <h1 className="app-title">Lista politicienilor</h1>
           <div className="app-rule" />

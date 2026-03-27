@@ -14,6 +14,96 @@
   --color-accent: #8b2500;
 }
 
+/* ── Dark mode ──────────────────────────────────────────── */
+
+[data-theme="dark"] {
+  --color-parchment: #141210;
+  --color-parchment-dark: #1c1a17;
+  --color-ink: #f0ece5;
+  --color-ink-light: #ddd7cc;
+  --color-ink-muted: #b5ad9f;
+  --color-ink-faint: #918779;
+  --color-rule: #3a3530;
+  --color-rule-light: #2a2622;
+  --color-accent: #e07d45;
+}
+
+[data-theme="dark"] ::selection {
+  background: oklch(55% 0.15 25 / 0.35);
+}
+
+[data-theme="dark"] .lista-highlight {
+  background: oklch(55% 0.15 80 / 0.35);
+}
+
+[data-theme="dark"] .tooltip {
+  background: #2c2823;
+  border: 1px solid #3d3732;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  color: #ede8e0;
+}
+
+[data-theme="dark"] .tooltip-meta,
+[data-theme="dark"] .tooltip-status {
+  color: rgba(237, 232, 224, 0.8);
+}
+
+[data-theme="dark"] .tooltip-crime {
+  color: #ede8e0;
+}
+
+[data-theme="dark"] .tooltip-sentence {
+  color: #f6c78d;
+}
+
+[data-theme="dark"] .tooltip-innocence {
+  border-top-color: rgba(237, 232, 224, 0.15);
+  color: rgba(237, 232, 224, 0.5);
+}
+
+[data-theme="dark"] .detail-panel-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .detail-panel {
+  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .legal-highlight {
+  background: color-mix(in srgb, var(--color-ink) 6%, transparent);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #3a3530;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #5a5448;
+}
+
+/* ── Theme toggle ──────────────────────────────────────── */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  border-radius: 999px;
+  border: 1px solid var(--color-rule);
+  background: transparent;
+  color: var(--color-ink-faint);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: var(--color-ink-muted);
+  color: var(--color-ink);
+}
+
 * {
   margin: 0;
   padding: 0;
