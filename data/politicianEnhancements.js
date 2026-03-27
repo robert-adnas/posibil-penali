@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-26',
+  last_updated: '2026-03-27',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -1794,11 +1794,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7830',
       },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Bechet',
-      },
     ],
   },
   {
@@ -1876,11 +1871,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3716',
-      },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_Bahnea',
       },
     ],
   },
@@ -1970,11 +1960,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=4637',
       },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_I.C._Br%C4%83tianu',
-      },
     ],
   },
   {
@@ -2063,11 +2048,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1690',
       },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_Z%C4%83voi',
-      },
     ],
   },
   {
@@ -2125,11 +2105,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6816',
       },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_Cop%C4%83ceni_%28Ilfov%29',
-      },
     ],
   },
   {
@@ -2155,11 +2130,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2836',
-      },
-      {
-        label: 'Enciclopedia Rom\u00e2niei',
-        kind: 'profile',
-        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_F%C3%A2rliug',
       },
     ],
   },
@@ -2320,6 +2290,295 @@ export const politicianAdditions = [
         label: 'Jurnalul de Ilfov',
         kind: 'press',
         url: 'https://jurnaluldeilfov.ro/alegeri-locale-in-comuna-1-decembrie/',
+      },
+    ],
+  },
+  {
+    name: 'Radu Cristian',
+    party: 'PNL',
+    position: 'Primar al municipiului Mangalia',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103; sp\u0103lare a banilor; instigare la folosirea cu rea-credin\u021b\u0103 a bunurilor sau creditului societ\u0103\u021bii',
+    sentence: 'Trimis \u00een judecat\u0103',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'Trimis \u00een judecat\u0103 de DNA la 18 decembrie 2025 \u00een dosarul privind presupuse mite de aproximativ 645.000 euro \u0219i sp\u0103lare de bani \u00een leg\u0103tur\u0103 cu emiterea unor documente urbanistice \u0219i alte demersuri administrative. Separat, DNA \u00eel mai trimisese \u00een judecat\u0103 \u00een iunie 2023 \u00eentr-un dosar de abuz \u00een serviciu privind contracte de asisten\u021b\u0103 juridic\u0103 ale Prim\u0103riei Mangalia.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13432',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=12995',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12105',
+      },
+      {
+        label: 'PNL Constan\u021ba',
+        kind: 'official',
+        url: 'https://pnlconstanta.ro/2022/07/16/radu-cristian/',
+      },
+    ],
+  },
+  {
+    name: 'Drago\u0219 Chitic',
+    party: 'PNL',
+    position: 'Primar al municipiului Piatra-Neam\u021b (2016-2020)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis \u00een judecat\u0103 \u00een 2018 \u00een dosarul schimbului de terenuri prin care municipiul Piatra-Neam\u021b ar fi fost prejudiciat cu peste 1 milion de lei. Prin actualizarea oficial\u0103 din 22 iunie 2023, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 deoarece faptele nu sunt prev\u0103zute de legea penal\u0103.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8663',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/liderul-pnl-piatra-neamt-dragos-chitic-a-demisionat-din-functie-17998740',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Minea',
+    party: 'PNL',
+    position: 'Primar al comunei Chiajna (jude\u021bul Ilfov)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Trimis \u00een judecat\u0103',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'Trimis \u00een judecat\u0103 de DNA \u00een 10 mai 2023 pentru finan\u021barea ilegal\u0103 a clubului Concordia Chiajna \u0219i pentru \u00eenchirierea unor baze sportive la tarife considerate derizorii, cu un prejudiciu total indicat de procurori de aproape 45 milioane lei. Verificarea din februarie 2026 indic\u0103 faptul c\u0103 dosarul nu avea \u00eenc\u0103 o solu\u021bie definitiv\u0103.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12061',
+      },
+      {
+        label: 'Prim\u0103ria Chiajna',
+        kind: 'official',
+        url: 'https://www.primariachiajna.ro/membru-primarie/minea-mircea/',
+      },
+      {
+        label: 'PressHub',
+        kind: 'press',
+        url: 'https://www.presshub.ro/tribunalul-ilfov-ascunde-numele-judecatorului-care-blocheaza-dosarul-primarului-din-chiajna-caz-de-10-milioane-de-euro-401088/',
+      },
+    ],
+  },
+  {
+    name: 'Cristian Maricel C\u00eerjaliu',
+    party: 'PSD',
+    position: 'Primar al comunei Agigea (jude\u021bul Constan\u021ba)',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Trimis \u00een judecat\u0103',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'Trimis \u00een judecat\u0103 de DNA \u00een 12 iunie 2020 pentru exproprierea \u0219i intabularea unui teren care a ajuns ulterior, \u00een parte, la o firm\u0103 controlat\u0103 de rude \u0219i apropia\u021bi. Verificarea din 14 martie 2026 arat\u0103 c\u0103 pronun\u021barea pe fond fusese din nou am\u00e2nat\u0103, noul termen fiind stabilit pentru 7 aprilie 2026.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9829',
+      },
+      {
+        label: 'Prim\u0103ria Agigea',
+        kind: 'official',
+        url: 'https://primaria-agigea.ro/primar/',
+      },
+      {
+        label: 'Jurnalul',
+        kind: 'press',
+        url: 'https://jurnalul.ro/stiri/politica/rezultate-alegeri-locale-2024-cristian-cirjaliu-primaria-agigea-967215.html',
+      },
+      {
+        label: 'Ziarul Amprenta',
+        kind: 'press',
+        url: 'https://ziarulamprenta.ro/justitie/cristian-maricel-cirjaliu-primarul-din-agigea-o-noua-amanare-de-pronuntare-in-dosarul-dna-ce-a-decis-ieri-tribunalul-constanta/530391/',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Vieru',
+    party: 'PSD',
+    position: 'Fost primar al comunei Puie\u0219ti (jude\u021bul Vaslui)',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare de documente false pentru fonduri europene; ob\u021binere ilegal\u0103 de fonduri; fals intelectual',
+    sentence: '2 ani, 10 luni \u0219i 10 zile \u00eenchisoare cu suspendare',
+    sentence_years: 2.86,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Ia\u0219i la 29 februarie 2016 pentru fraudarea unui proiect SAPARD de modernizare a unui drum comunal. DNA a ar\u0103tat c\u0103, \u00een calitate de primar, a semnat recep\u021bia unor lucr\u0103ri neexecutate, determin\u00e2nd plata nelegal\u0103 a peste 500.000 lei.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7250',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4115',
+      },
+      {
+        label: 'Vremea Nou\u0103',
+        kind: 'press',
+        url: 'https://www.vremeanoua.ro/republica-puiesti-edilii-comunei-ori-condamnati-ori-in-curs-de-condamnare/',
+      },
+    ],
+  },
+  {
+    name: 'Ion Florin Mo\u021b',
+    party: 'PC',
+    position: 'Primar al comunei Z\u0103rand (jude\u021bul Arad)',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103; sp\u0103lare a banilor',
+    sentence: '2 ani \u00eenchisoare cu suspendare sub supraveghere',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Curtea de Apel Oradea la 30 ianuarie 2014, dup\u0103 ce DNA a re\u021binut c\u0103 a acceptat 40.000 euro mit\u0103 pentru avizarea unor documente de fond funciar \u0219i a disimulat o parte din bani printr-un contract de \u00eemprumut.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4660',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4213&jffi=comunicat&jftfdi=',
+      },
+      {
+        label: 'Evenimentul Zilei',
+        kind: 'press',
+        url: 'https://evz.ro/scandalul-otv-ion-mot-un-primar-cu-1300-de-oi-898858.html',
+      },
+    ],
+  },
+  {
+    name: 'Fabian Lauren\u021biu Costel Drocan',
+    party: 'PNL',
+    position: 'Primar al comunei Devesel (jude\u021bul Mehedin\u021bi)',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare cu rea-credin\u021b\u0103 de documente false pentru fonduri europene',
+    sentence: '3 ani \u00eenchisoare cu suspendare (proces \u00eenchis ulterior prin prescrip\u021bie)',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'prescribed',
+    details:
+      'Condamnat definitiv \u00een 17 octombrie 2019 la 3 ani de \u00eenchisoare cu suspendare pentru ob\u021binerea nelegal\u0103 a unei subven\u021bii APIA. Prin actualizarea oficial\u0103 DNA din 13 martie 2023, Curtea de Apel Craiova a admis contesta\u021bia \u00een anulare \u0219i a \u00eenchis procesul penal ca urmare a intervenirii prescrip\u021biei, men\u021bin\u00e2nd celelalte dispozi\u021bii necontrare.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9649',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9911',
+      },
+      {
+        label: 'Jurnalul Olteniei',
+        kind: 'press',
+        url: 'https://www.jurnalulolteniei.ro/2019/10/22/249957/',
+      },
+    ],
+  },
+  {
+    name: 'Pav\u0103l Ioan',
+    party: 'PSD',
+    position: 'Primar al comunei Dumbr\u0103veni (jude\u021bul Suceava)',
+    position_type: 'mayor',
+    crime: 'Dare de mit\u0103; abuz \u00een serviciu cu consecin\u021be deosebit de grave; fals intelectual',
+    sentence: '1 an \u0219i 4 luni \u00eenchisoare cu suspendare',
+    sentence_years: 1.33,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv \u00een 7 septembrie 2017, prin acord de recunoa\u0219tere a vinov\u0103\u021biei admis de Curtea de Apel Bac\u0103u, pentru dare de mit\u0103 c\u0103tre poli\u021bi\u0219ti rutieri. Separat, DNA Suceava l-a trimis \u00een judecat\u0103 la 23 februarie 2026 pentru abuz \u00een serviciu \u0219i fals intelectual \u00een leg\u0103tur\u0103 cu trei contracte fictive de repara\u021bii drumuri.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8444',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13588',
+      },
+      {
+        label: 'Crai nou',
+        kind: 'press',
+        url: 'https://www.crainou.ro/2024/10/29/ioan-paval-investit-pentru-al-cincilea-mandat-in-functia-de-primar-al-comunei-dumbraveni/',
+      },
+    ],
+  },
+  {
+    name: 'So\u00f3s Zolt\u00e1n',
+    party: 'Independent',
+    position: 'Primar al municipiului T\u00e2rgu Mure\u0219',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: 'Cercetat penal; sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA T\u00e2rgu Mure\u0219 a dispus la 10 decembrie 2024 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit indirect opere de art\u0103 \u0219i bani \u00een leg\u0103tur\u0103 cu contracte ale prim\u0103riei. La 25 iunie 2025, instan\u021ba a men\u021binut definitiv controlul judiciar, iar dosarul nu are o solu\u021bie final\u0103 public confirmat\u0103.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12757',
+      },
+      {
+        label: 'Prim\u0103ria T\u00e2rgu Mure\u0219',
+        kind: 'official',
+        url: 'https://www.tirgumures.ro/index.php?Itemid=228&id=8079&lang=ro&option=com_content&view=article',
+      },
+      {
+        label: 'UDMR',
+        kind: 'official',
+        url: 'https://udmr.ro/actualitate/stiri/Soos-Zoltan-a-votat-pentru-schimbare-pentru-Targu-Mures',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/primarul-din-targu-mures-soos-zoltan-ramane-sub-control-judiciar-dosarul-instrumentat-de-dna-are-ca-obiect-luarea-de-mita.html',
       },
     ],
   },
