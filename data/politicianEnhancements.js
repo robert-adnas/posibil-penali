@@ -2577,4 +2577,143 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Vergil Chi\u021bac',
+    party: 'PNL',
+    position: 'Primar al municipiului Constan\u021ba',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Cercetat penal',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Constan\u021ba a anun\u021bat la 13 iulie 2023 efectuarea urm\u0103ririi penale fa\u021b\u0103 de primarul municipiului Constan\u021ba \u00een dosarul privind finan\u021barea integral\u0103, f\u0103r\u0103 procedur\u0103 de selec\u021bie public\u0103, a unui eveniment sportiv interna\u021bional. Verificarea acestei cauze p\u00e2n\u0103 la 27 martie 2026 nu a identificat o solu\u021bie definitiv\u0103 public confirmat\u0103.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12166',
+      },
+      {
+        label: 'Prim\u0103ria Constan\u021ba',
+        kind: 'official',
+        url: 'https://primaria-constanta.ro/stire-pmc/primarul-constantei-a-vizitat-santierul-scolii-gimnaziale-nr-7-remus-opreanu/',
+      },
+      {
+        label: 'PNL Constan\u021ba',
+        kind: 'official',
+        url: 'https://pnlconstanta.ro/2024/01/17/primarul-vergil-chitac-a-semnat-contractul-de-executie-a-proiectului-reabilitarea-retelelor-termice-secundare-si-contorizarea-la-nivel-de-scara-pentru-municipiul-constanta-etapa-iv/',
+      },
+    ],
+  },
+  {
+    name: 'Cosmin Andrei',
+    party: 'PSD',
+    position: 'Primar al municipiului Boto\u0219ani',
+    position_type: 'mayor',
+    crime: 'Folosirea de informa\u021bii care nu sunt destinate publicit\u0103\u021bii pentru ob\u021binerea de foloase necuvenite',
+    sentence: '1 an \u00eenchisoare (am\u00e2narea aplic\u0103rii pedepsei)',
+    sentence_years: 1,
+    conviction_year: 2025,
+    status: 'first_instance',
+    details:
+      'DNA Suceava a pus \u00een mi\u0219care ac\u021biunea penal\u0103 la 2 februarie 2024, sus\u021bin\u00e2nd c\u0103 ar fi divulgat subiectele unui concurs organizat de prim\u0103rie. Potrivit relat\u0103rilor din 1 mai 2025 \u0219i 22 ianuarie 2026, Tribunalul Boto\u0219ani l-a condamnat \u00een prim\u0103 instan\u021b\u0103 la 1 an de \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei, iar apelul era \u00eenc\u0103 pendinte.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12362',
+      },
+      {
+        label: 'PSD Boto\u0219ani',
+        kind: 'official',
+        url: 'https://www.psdbotosani.ro/category/comunicate-presa/',
+      },
+      {
+        label: 'Monitorul de Boto\u0219ani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/prima-pagina/2026/01/22/amanari-pe-banda-rulanta-in-dosarul-primarului-cosmin-andrei-pentru-a-cincea-oara-la-rand-instanta-amana-pronuntarea/',
+      },
+      {
+        label: 'Monitorul de Boto\u0219ani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/prima-pagina/2025/05/01/cum-il-albesc-judecatorii-pe-primarul-cosmin-andrei-fapta-e-grava-dar-omul-e-iubit-de-comunitate/',
+      },
+    ],
+  },
+  {
+    name: 'Iulian Iacomi',
+    party: 'PSD',
+    position: 'Primar al ora\u0219ului Lehliu-Gar\u0103',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103',
+    sentence: 'Trimis \u00een judecat\u0103',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'Dup\u0103 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i instituirea controlului judiciar \u00een august 2024, DNA l-a trimis \u00een judecat\u0103 la 9 decembrie 2024 pentru luare de mit\u0103 \u00een form\u0103 continuat\u0103, procurorii sus\u021bin\u00e2nd c\u0103 ar fi primit peste 1,15 milioane lei \u0219i 74.000 euro \u00een leg\u0103tur\u0103 cu acte de urbanism.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12750',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12648',
+      },
+      {
+        label: 'Prim\u0103ria Lehliu-Gar\u0103',
+        kind: 'official',
+        url: 'https://www.primarialehliugara.ro/consiliul-local/',
+      },
+      {
+        label: 'PSD',
+        kind: 'official',
+        url: 'https://www.psd.ro/conferinta-de-presa-sustinuta-de-presedintele-interimar-al-psd-marcel-ciolacu-secretarul-general-interimar-al-psd-paul-stanescu-si-presedintele-psd-calarasi-iulian-iacomi-dupa-conferinta-organizat/',
+      },
+    ],
+  },
+  {
+    name: 'Vlad Oprea',
+    party: 'PNL',
+    position: 'Primar al ora\u0219ului Sinaia',
+    position_type: 'mayor',
+    crime: 'Luare de mit\u0103; trafic de influen\u021b\u0103; abuz \u00een serviciu; fals \u00een declara\u021biile de avere; opera\u021biuni financiare incompatibile cu func\u021bia',
+    sentence: 'Cercetat penal; sub control judiciar pe cau\u021biune',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA a dispus la 27 ianuarie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i control judiciar pe cau\u021biune fa\u021b\u0103 de primarul ora\u0219ului Sinaia. La 13 mai 2025, DNA a cerut \u00eenlocuirea m\u0103surii cu arestul preventiv, sus\u021bin\u00e2nd c\u0103 acesta ar fi continuat s\u0103 exercite atribu\u021bii de primar cu \u00eenc\u0103lcarea obliga\u021biilor impuse.',
+    verified_at: '2026-03-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12774',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12900',
+      },
+      {
+        label: 'Prim\u0103ria Sinaia',
+        kind: 'official',
+        url: 'https://www.primaria-sinaia.ro/2025/12/21/anunt-sedinta-ordinara-a-consiliului-local-sinaia-care-se-va-desfasura-cu-prezenta-fizica-in-sala-de-sedinte-a-primariei-orasului-sinaia-marti-23-decembrie-2025-ora-1500/',
+      },
+      {
+        label: 'Observatorul Prahovean',
+        kind: 'press',
+        url: 'https://www.observatorulph.ro/administratie/2744369-primarului-din-sinaia-i-s-a-facut-rau-in-timpul-perchezitiilor-dna',
+      },
+    ],
+  },
 ];
