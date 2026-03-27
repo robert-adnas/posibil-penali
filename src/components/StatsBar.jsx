@@ -37,11 +37,11 @@ export function PrejudiciuBanner({ stats }) {
       <div className="prejudiciu-details" data-open={open ? 'true' : 'false'}>
         <div className="prejudiciu-details-inner">
           <p>
-            Sumă orientativă, calculată automat din dosarele documentate.
-            Sumele în euro sunt convertite la cursul aproximativ de 5 lei/€.
-            Nu toate dosarele conțin valori cuantificabile — cifrele provin
-            din actele de acuzare sau din hotărârile instanțelor, acolo unde
-            acestea sunt publice.
+            Sumă orientativă, calculată automat doar din valorile descrise
+            explicit ca prejudiciu, pagubă sau plăți/alocări nelegale de
+            fonduri. Sumele în euro sunt convertite la cursul aproximativ de
+            5 lei/€. Mita, cadourile sau alte sume care nu sunt legate clar de
+            un prejudiciu nu intră în total.
           </p>
           <Link to="/metodologie#prejudiciu" className="prejudiciu-details-link">
             Metodologia completă →

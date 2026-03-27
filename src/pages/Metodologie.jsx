@@ -123,20 +123,27 @@ export function Metodologie() {
       <Section title="Prejudiciu total documentat" id="prejudiciu">
         <p>
           Suma afișată pe pagina principală ca „Prejudiciu total documentat" este calculată automat
-          prin extragerea valorilor monetare menționate în câmpul „Faptă" al fiecărei intrări
-          (sau, în lipsa acestuia, din câmpul „Detalii").
+          prin extragerea doar a valorilor monetare legate explicit de un prejudiciu sau de o pagubă
+          documentată. Sunt incluse și formulările care descriu direct plăți, alocări sau încasări
+          nelegale de fonduri publice ori europene, atunci când textul indică limpede o pierdere
+          economică.
         </p>
         <p>Regulile de calcul:</p>
         <ul>
+          <li>Se citește mai întâi câmpul <strong>„Faptă"</strong>; dacă acolo nu există o valoare eligibilă, se caută în <strong>„Detalii"</strong></li>
+          <li>Sunt incluse doar sumele descrise explicit ca <strong>prejudiciu</strong>, <strong>pagubă</strong> sau ca <strong>plăți / alocări / încasări nelegale</strong></li>
+          <li>Nu sunt incluse sumele care descriu doar <strong>mită</strong>, <strong>șpagă</strong>, cadouri, valoarea unor bunuri sau alte beneficii care nu sunt legate clar în text de un prejudiciu</li>
+          <li>Dacă aceeași formulare conține și o sumă de mită, și o sumă de prejudiciu, este contabilizată doar valoarea de prejudiciu</li>
           <li>Sumele exprimate în <strong>euro (€)</strong> sunt preluate ca atare</li>
           <li>Sumele exprimate în <strong>lei (RON)</strong> sunt convertite în euro la cursul orientativ de 1 € ≈ 5 lei (curs simplificat, utilizat doar în scop estimativ)</li>
           <li>Totalul este afișat în lei, la același curs orientativ de conversie</li>
-          <li>Se extrage o singură sursă per politician (din „Faptă", cu fallback pe „Detalii") pentru a evita dubla numărare</li>
         </ul>
         <p className="method-note">
           <strong>Atenție:</strong> Această sumă este orientativă. Nu toate dosarele conțin valori
           cuantificabile, iar cifrele provin din actele de acuzare sau din hotărârile instanțelor —
-          nu din evaluări independente. Suma reală poate fi semnificativ diferită.
+          nu din evaluări independente. Chiar și după această filtrare, formula rămâne una
+          automată și conservatoare: totalul include doar sumele pe care textul le leagă suficient
+          de clar de un prejudiciu documentat.
         </p>
       </Section>
 
