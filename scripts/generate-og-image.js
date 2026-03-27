@@ -11,7 +11,6 @@ const page = await browser.newPage();
 await page.setViewport({ width: 1600, height: 900, deviceScaleFactor: 2 });
 await page.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
 
-// Let web fonts finish rendering
 await new Promise(r => setTimeout(r, 500));
 
 const el = await page.$('.og');

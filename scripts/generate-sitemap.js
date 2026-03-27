@@ -5,12 +5,10 @@ import { dirname, join } from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 
-// ── Load data ────────────────────────────────────────────────────────────────
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
 const { politicians, metadata } = buildDataset(rawData);
 
-// ── Slug (mirrors src/utils/slug.js) ─────────────────────────────────────────
 function nameToSlug(name) {
   return name
     .toLowerCase()
@@ -25,7 +23,6 @@ function nameToSlug(name) {
     .replace(/^-|-$/g, '');
 }
 
-// ── Static pages ─────────────────────────────────────────────────────────────
 const BASE_URL = 'https://politicieni-corupti.ro';
 const lastMod = metadata.last_updated || new Date().toISOString().slice(0, 10);
 
@@ -39,7 +36,6 @@ const staticPages = [
   { path: '/confidentialitate', changefreq: 'yearly',  priority: '0.3' },
 ];
 
-// ── Build XML ────────────────────────────────────────────────────────────────
 function urlEntry({ loc, lastmod, changefreq, priority }) {
   return [
     '  <url>',
@@ -52,11 +48,9 @@ function urlEntry({ loc, lastmod, changefreq, priority }) {
 }
 
 const entries = [
-  // Static pages
   ...staticPages.map((p) =>
     urlEntry({ loc: `${BASE_URL}${p.path}`, lastmod: lastMod, changefreq: p.changefreq, priority: p.priority })
   ),
-  // One entry per politician
   ...politicians.map((p) => {
     const slug = nameToSlug(p.name);
     const politicianLastMod = p.verified_at || lastMod;
@@ -76,7 +70,6 @@ const xml = [
   '</urlset>',
 ].join('\n');
 
-// ── Write ─────────────────────────────────────────────────────────────────────
 const outPath = join(root, 'public/sitemap.xml');
 writeFileSync(outPath, xml, 'utf8');
 

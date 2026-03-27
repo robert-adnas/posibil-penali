@@ -14,8 +14,6 @@
   --color-accent: #8b2500;
 }
 
-/* ── Dark mode ──────────────────────────────────────────── */
-
 [data-theme="dark"] {
   --color-parchment: #141210;
   --color-parchment-dark: #1c1a17;
@@ -80,8 +78,6 @@
 [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
   background: #5a5448;
 }
-
-/* ── Theme toggle ──────────────────────────────────────── */
 
 .theme-toggle {
   display: inline-flex;
@@ -1149,8 +1145,6 @@ button {
   margin-top: 1rem;
 }
 
-/* ── Footer nav ─────────────────────────────────────────── */
-
 .app-footer-nav {
   display: flex;
   flex-wrap: wrap;
@@ -1171,8 +1165,6 @@ button {
 .app-footer-nav-link:hover {
   color: var(--color-ink-muted);
 }
-
-/* ── App subtitle ────────────────────────────────────────── */
 
 .app-subtitle {
   margin-top: 0.3rem;
@@ -1195,8 +1187,6 @@ button {
 .app-intro-link:hover {
   opacity: 0.75;
 }
-
-/* ── Status legend ───────────────────────────────────────── */
 
 .status-legend-bar {
   padding-block: 0.625rem;
@@ -1299,8 +1289,6 @@ button {
   border-radius: 0.25rem;
 }
 
-/* ── Secondary page layout ───────────────────────────────── */
-
 .page-header {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1364,8 +1352,6 @@ button {
   margin-bottom: 2rem;
 }
 
-/* ── Page sections (prose) ───────────────────────────────── */
-
 .page-section {
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1414,8 +1400,6 @@ button {
   font-weight: 600;
 }
 
-/* ── Legal highlight box ─────────────────────────────────── */
-
 .legal-highlight {
   padding: 1rem 1.25rem;
   background: color-mix(in srgb, var(--color-ink) 4%, transparent);
@@ -1439,8 +1423,6 @@ button {
 .legal-inline-link:hover {
   opacity: 0.75;
 }
-
-/* ── Methodology status list ─────────────────────────────── */
 
 .method-status-list {
   display: flex;
@@ -1512,8 +1494,6 @@ button {
 .method-footer-link:hover {
   opacity: 0.75;
 }
-
-/* ── Contact form ────────────────────────────────────────── */
 
 .contact-form {
   display: flex;
@@ -1617,8 +1597,6 @@ button {
   font-size: 11px;
   line-height: 1.55;
 }
-
-/* ── Responsive additions ────────────────────────────────── */
 
 @media (min-width: 640px) {
   .app-subtitle {
@@ -1942,8 +1920,6 @@ button {
   }
 }
 
-/* ─── Homepage search ───────────────────────────────────────────── */
-
 .home-search-form {
   margin-top: 1.25rem;
   display: flex;
@@ -2026,8 +2002,6 @@ button {
 .home-search-browse:hover {
   color: var(--color-accent);
 }
-
-/* ─── Lista page ─────────────────────────────────────────────────── */
 
 .lista-controls-section {
   position: sticky;
@@ -2116,7 +2090,7 @@ button {
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding-bottom: 2px; /* prevent clipping of focus rings */
+  padding-bottom: 2px; 
 }
 
 .lista-tabs::-webkit-scrollbar {
@@ -2242,7 +2216,6 @@ button {
   padding-bottom: 3rem;
 }
 
-/* List rows */
 .lista-list {
   list-style: none;
   border-top: 1px solid var(--color-rule-light);
@@ -2287,7 +2260,6 @@ button {
 [data-status="prescribed"] .lista-item-dot { background: #6b7280; }
 [data-status="acquitted"] .lista-item-dot { background: #22c55e; }
 
-/* Visual weight by legal certainty */
 .lista-item[data-status="convicted"] { opacity: 1; }
 .lista-item[data-status="first_instance"] { opacity: 0.85; }
 .lista-item[data-status="indicted"] { opacity: 0.72; }
@@ -2356,7 +2328,6 @@ button {
   padding: 0 1px;
 }
 
-/* Empty state */
 .lista-empty {
   padding: 3rem 0;
   text-align: center;
@@ -2380,7 +2351,6 @@ button {
   font-size: inherit;
 }
 
-/* Medium screens: single row, name + party side by side */
 @media (min-width: 600px) {
   .lista-item-link {
     grid-template-columns: 16px 1fr 1fr 155px;
@@ -2396,7 +2366,6 @@ button {
   .lista-item-status   { grid-column: 4; grid-row: 1; text-align: right; }
 }
 
-/* Wide screens: add position column */
 @media (min-width: 900px) {
   .lista-item-link {
     grid-template-columns: 16px 2fr 1fr 1fr 155px;
@@ -2417,8 +2386,6 @@ button {
   .lista-item-status   { grid-column: 5; grid-row: 1; text-align: right; }
 }
 
-/* ─── Politician page layout overrides ──────────────────────────── */
-
 .pol-page-shell .app-header {
   padding-bottom: 0.5rem;
 }
@@ -2436,8 +2403,6 @@ button {
     padding-block: 1.25rem;
   }
 }
-
-/* ─── Politician page ────────────────────────────────────────────── */
 
 .pol-page-name-row {
   position: relative;
@@ -2530,8 +2495,6 @@ button {
   color: var(--color-ink-muted);
 }
 
-/* ─── Politician page sidebar ────────────────────────────────────── */
-
 .pol-page-sidebar {
   background: var(--color-parchment-dark);
   border: 1px solid var(--color-rule-light);
@@ -2617,8 +2580,6 @@ button {
   color: var(--color-ink);
 }
 
-/* ─── Politician list (SEO) ──────────────────────────────────────── */
-
 .pol-list-section {
   border-top: 1px solid var(--color-rule-light);
   padding-top: 2rem;
@@ -2675,8 +2636,6 @@ button {
 .pol-list-dot[data-status="prescribed"] { background: var(--color-status-prescribed); }
 .pol-list-dot[data-status="acquitted"] { background: var(--color-status-acquitted); }
 
-/* ─── Share button (politician page) ────────────────────────────── */
-
 .pol-page-share-btn {
   display: inline-flex;
   align-items: center;
@@ -2706,10 +2665,8 @@ button {
   background: color-mix(in srgb, #22c55e 8%, transparent);
 }
 
-/* ─── Print styles ───────────────────────────────────────────────── */
-
 @media print {
-  /* Hide navigation and interactive elements */
+  
   .app-kicker-row .pol-page-share-btn,
   .pol-page-sidebar,
   .app-footer,
@@ -2718,7 +2675,7 @@ button {
     display: none !important;
   }
 
-  /* Reset backgrounds to white */
+  
   body,
   .app-shell,
   .pol-page-card {
@@ -2726,19 +2683,19 @@ button {
     color: #000 !important;
   }
 
-  /* Remove card border/shadow */
+  
   .pol-page-card {
     border: none !important;
     padding: 0 !important;
     box-shadow: none !important;
   }
 
-  /* Full-width layout */
+  
   .pol-page-grid {
     grid-template-columns: 1fr !important;
   }
 
-  /* Make links show their URL */
+  
   .detail-panel-source-link::after {
     content: ' (' attr(href) ')';
     font-size: 10px;
@@ -2746,19 +2703,19 @@ button {
     word-break: break-all;
   }
 
-  /* Accent bar */
+  
   .pol-page-accent {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
 
-  /* Status dot */
+  
   .detail-panel-status-dot {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
 
-  /* Page margins */
+  
   @page {
     margin: 1.5cm;
   }

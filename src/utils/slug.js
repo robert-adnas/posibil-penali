@@ -1,5 +1,3 @@
-// Converts a Romanian politician name to a URL-safe slug
-// e.g. "Adrian Năstase" → "adrian-nastase"
 export function nameToSlug(name) {
   return name
     .toLowerCase()

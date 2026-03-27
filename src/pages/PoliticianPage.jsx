@@ -63,7 +63,6 @@ export function PoliticianPage() {
   const { track } = useAnalytics();
   const politician = findBySlug(slug);
 
-  // Referrer-aware back link: if came from /lista (with ?q= preserved), go back there
   const backHref = location.state?.from || '/lista';
   const backLabel = location.state?.fromLabel || 'Lista politicienilor';
 
@@ -76,7 +75,6 @@ export function PoliticianPage() {
         setTimeout(() => setCopied(false), 2000);
       });
     } else {
-      // Fallback for older browsers
       const el = document.createElement('textarea');
       el.value = url;
       document.body.appendChild(el);
@@ -119,7 +117,6 @@ export function PoliticianPage() {
     };
   }, [politician, slug]);
 
-  // Must be before early return to satisfy Rules of Hooks
   const sameParty = useMemo(() => {
     if (!politician) return [];
     return allData

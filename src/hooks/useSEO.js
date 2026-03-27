@@ -33,7 +33,6 @@ export function useSEO({ title, description, url, image, noindex = false } = {})
     setMeta('meta[name="description"]', 'content', resolvedDescription);
     setCanonical(resolvedUrl);
 
-    // robots
     let robotsEl = document.querySelector('meta[name="robots"]');
     if (!robotsEl) {
       robotsEl = document.createElement('meta');

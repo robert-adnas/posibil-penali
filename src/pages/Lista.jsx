@@ -51,10 +51,9 @@ export function ListaPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQueryState] = useState(() => searchParams.get('q') || '');
   const [activeStatus, setActiveStatus] = useState(null);
-  const [sortBy, setSortBy] = useState(null); // null | 'name' | 'position' | 'sentence'
+  const [sortBy, setSortBy] = useState(null);
   const searchRef = useRef(null);
 
-  // Keep URL in sync with the search query
   function setQuery(value) {
     setQueryState(value);
     setSearchParams(value ? { q: value } : {}, { replace: true });
@@ -117,7 +116,6 @@ export function ListaPage() {
         return a.name.localeCompare(b.name, 'ro');
       });
     }
-    // Default: sort by status severity, then alphabetically
     return [...filtered].sort((a, b) => {
       const rankA = STATUS_RANK[a.status] ?? 99;
       const rankB = STATUS_RANK[b.status] ?? 99;
@@ -126,21 +124,18 @@ export function ListaPage() {
     });
   }, [queryFiltered, activeStatus, sortBy]);
 
-  // Statuses that have at least 1 result given the current query
   const visibleStatuses = useMemo(
     () => new Set(Object.keys(countByStatus)),
     [countByStatus]
   );
 
 
-  // If the active tab becomes empty due to a query change, clear it
   useEffect(() => {
     if (activeStatus && !visibleStatuses.has(activeStatus)) {
       setActiveStatus(null);
     }
   }, [activeStatus, visibleStatuses]);
 
-  // Track searches — debounced, only after 3+ characters
   useEffect(() => {
     const q = query.trim();
     if (q.length < 3) return;
@@ -148,7 +143,6 @@ export function ListaPage() {
     return () => clearTimeout(timer);
   }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Press "/" anywhere on the page to focus the search input
   useEffect(() => {
     function handleKey(e) {
       if (e.key !== '/') return;
@@ -190,7 +184,6 @@ export function ListaPage() {
 
       <div className="app-section lista-controls-section">
         <div className="app-inner">
-          {/* Search */}
           <div className="lista-search-wrap">
             <svg className="lista-search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
               <circle cx="6.5" cy="6.5" r="4.5" />
@@ -217,7 +210,6 @@ export function ListaPage() {
             )}
           </div>
 
-          {/* Status tabs — only show tabs with at least 1 result */}
           <div className="lista-tabs">
             {STATUS_FILTERS.filter((f) => !f.key || visibleStatuses.has(f.key)).map((f) => (
               <button
@@ -235,7 +227,6 @@ export function ListaPage() {
             ))}
           </div>
 
-          {/* Count + Sort */}
           <div className="lista-toolbar">
             <p className="lista-count">
               {results.length === allData.length
