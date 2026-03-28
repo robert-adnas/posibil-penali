@@ -2809,4 +2809,166 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Barti Tihamér',
+    party: 'UDMR',
+    position: 'Vicepreședinte al Consiliului Județean Harghita',
+    position_type: 'county_council_president',
+    crime:
+      'Folosirea influenței sau autorității într-un partid pentru obținerea de foloase necuvenite; instigare la folosirea de informații nedestinate publicității',
+    sentence: 'Trimis în judecată sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Târgu Mureș a dispus la 12 februarie 2025 punerea în mișcare a acțiunii penale, iar la 12 septembrie 2025 l-a trimis în judecată sub control judiciar, susținând că ar fi folosit influența politică pentru promovarea temporară a unui șef ANAF Harghita de la care ar fi obținut informații fiscale nepublice despre mai multe societăți comerciale.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13005',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12792',
+      },
+      {
+        label: 'Consiliul Județean Harghita',
+        kind: 'official',
+        url: 'https://judetulharghita.ro/consiliul-judetean-harghita/conducere/',
+      },
+      {
+        label: 'UDMR',
+        kind: 'official',
+        url: 'https://udmr.ro/profil/Barti-Tihamer',
+      },
+    ],
+  },
+  {
+    name: 'Todorică-Constantin Șerban',
+    party: 'PNL',
+    position: 'Vicepreședinte al Consiliului Județean Brașov',
+    position_type: 'county_council_president',
+    crime: 'Abuz în serviciu; constituirea unui grup infracțional organizat',
+    sentence: 'Trimis în judecată sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Brașov a pus în mișcare acțiunea penală la 31 octombrie 2025 și l-a trimis în judecată la 23 decembrie 2025, susținând că ar fi viciat procedurile de numire și menținere a conducerii Companiei Apa Brașov SA pentru a controla resursele societății.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13435',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13217',
+      },
+      {
+        label: 'PNL Brașov',
+        kind: 'official',
+        url: 'https://pnlbrasov.ro/echipa',
+      },
+    ],
+  },
+  {
+    name: 'Eugen Nechita',
+    party: 'PSD',
+    position: 'Primar al comunei Drăgușeni (județul Botoșani)',
+    position_type: 'mayor',
+    crime: 'Luare de mită',
+    sentence: 'Trimis în judecată; aflat anterior sub control judiciar și în arest preventiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'După punerea în mișcare a acțiunii penale și plasarea sub control judiciar la 26 iunie 2025, DNA Suceava l-a trimis în judecată la 10 februarie 2026, acuzând că ar fi pretins 200.000 lei și ar fi primit 90.000 lei în legătură cu aprobarea plăților și derularea unor contracte publice.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13550',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12933',
+      },
+      {
+        label: 'BotoșaniNews',
+        kind: 'press',
+        url: 'https://www.botosaninews.ro/617771/politic/primarul-din-botosani-care-a-anuntat-ca-trece-la-pnl-cu-tot-cu-organizatie-candideaza-din-partea-psd/',
+      },
+    ],
+  },
+  {
+    name: 'Ilie Ivanache',
+    party: 'PNL',
+    position: 'Fost primar al comunei Ungureni (județul Botoșani)',
+    position_type: 'mayor',
+    crime:
+      'Luare de mită; folosirea de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații',
+    sentence: 'Trimis în judecată sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar la 8 ianuarie 2026 l-a trimis în judecată, susținând că ar fi primit bani și ar fi furnizat informații confidențiale pentru favorizarea unei firme la licitații și plăți aferente unor lucrări publice.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13456',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
+      },
+      {
+        label: 'Monitorul de Botoșani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/prima-pagina/2025/04/08/primarii-verginel-gireada-si-dan-oloieru-retinuti-de-dna-intr-un-dosar-de-coruptie/',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Filip',
+    party: 'PSD',
+    position: 'Primar al comunei Zănești (județul Neamț)',
+    position_type: 'mayor',
+    crime: 'Luare de mită; abuz în serviciu',
+    sentence: 'Cercetat penal; arestat preventiv, ulterior sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Bacău a dispus la 12 noiembrie 2025 punerea în mișcare a acțiunii penale și reținerea sa pentru luare de mită și abuz în serviciu în legătură cu mai multe contracte publice derulate în perioada 2023-2025. Verificarea din 12 februarie 2026 arată că a fost eliberat din arest preventiv, dar a rămas sub control judiciar și cu interdicția de a-și exercita funcția.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13255',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/02/12/neamt-primarul-comunei-zanesti-eliberat-din-arestul-preventiv-dar-cu-interdictie-de-a-exercita-funct--1527453',
+      },
+      {
+        label: 'Radio Iași',
+        kind: 'press',
+        url: 'https://www.radioiasi.ro/stiri/regional/primarul-comunei-zanesti-judetul-neamt-ioan-filip-a-fost-arestat-preventiv-pentru-30-zile/',
+      },
+    ],
+  },
 ];
