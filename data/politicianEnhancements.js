@@ -3252,4 +3252,186 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Mihai Ioan Lasca',
+    party: 'AUR',
+    position: 'Deputat de Bihor (ales pe listele AUR în 2020; ulterior neafiliat)',
+    position_type: 'deputy',
+    crime: 'Lovire sau alte violențe; distrugere',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2021,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Oradea a menținut definitiv la 2 iunie 2021 condamnarea de 2 ani cu suspendare și 120 de zile de muncă în folosul comunității, în dosarul privind agresarea în trafic a unui șofer în august 2019. L-am încadrat la AUR deoarece a intrat în Parlament pe listele acestui partid, chiar dacă a devenit ulterior deputat neafiliat.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/deputatul-mihai-ioan-lasca-intrat-in-parlament-pe-listele-aur-a-fost-condamnat-la-inchisoare-cu-suspendare-dupa-ce-a-batut-un-sofer-1550167',
+      },
+      {
+        label: 'Epoch Times România',
+        kind: 'press',
+        url: 'https://epochtimes-romania.com/news/deputat-ex-aur-condamnat-definitiv-pentru-violente---315096',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/iccj-a-confirmat-condamnarea-deputatului-mihai-lasca-ex-aur-care-a-batut-un-sofer-in-trafic_841733.html',
+      },
+    ],
+  },
+  {
+    name: 'Marian Cristinel Bîgiu',
+    party: 'PNL',
+    position: 'Președinte al Consiliului Județean Buzău; fost senator',
+    position_type: 'county_council_president',
+    crime: 'Luare de mită; conflict de interese; tentativă de spălare a banilor',
+    sentence: '5 ani și 2 luni închisoare',
+    sentence_years: 5.17,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv la 16 decembrie 2016 pentru luare de mită în formă continuată, conflict de interese și tentativă de spălare a banilor. L-am păstrat la PNL deoarece mandatul politic și cariera parlamentară care au precedat șefia CJ Buzău sunt cel mai clar legate de acest partid, deși înaintea arestării migrase la PSD.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7951',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5634',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/cine-este-marian-bigiu-seful-consiliului-judetean-buzau-anchetat-de-dna-pentru-luare-de-mita-331388',
+      },
+    ],
+  },
+  {
+    name: 'Duicu Ioan-Adrian',
+    party: 'PSD',
+    position: 'Președinte al Consiliului Județean Mehedinți; președinte PSD Mehedinți la data faptelor',
+    position_type: 'county_council_president',
+    crime:
+      'Permiterea accesului unor persoane neautorizate la informații nedestinate publicității, în scopul obținerii de foloase necuvenite',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 19 februarie 2020 în dosarul trimis în judecată de DNA în 2014, achitându-l însă pentru alte capete din rechizitoriu și menținând condamnarea pentru accesul neautorizat la informații nedestinate publicității.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9746',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=5139&jffi=comunicat&jftfdi=',
+      },
+    ],
+  },
+  {
+    name: 'Ioțcu Petru Nicolae',
+    party: 'PDL',
+    position: 'Președinte al Consiliului Județean Arad; fost senator',
+    position_type: 'county_council_president',
+    crime: 'Trafic de influență',
+    sentence: '4 ani închisoare',
+    sentence_years: 4,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv la 26 iunie 2017 pentru trafic de influență, după ce DNA a susținut că pretinsese și primise 35.000 lei și 10.000 euro în legătură cu contracte ale Consiliului Județean Arad. Într-un dosar distinct, trimis în judecată în 2017, a fost ulterior achitat definitiv în 2020.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8297',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8386',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0B7FD917-249E-42EA-AB58-DF2030FBAA84',
+      },
+    ],
+  },
+  {
+    name: 'Aristotel Adrian Căncescu',
+    party: 'PNL',
+    position: 'Președinte al Consiliului Județean Brașov; fost senator',
+    position_type: 'county_council_president',
+    crime: 'Luare de mită; trafic de influență; abuz în serviciu',
+    sentence: '7 ani și 10 luni închisoare',
+    sentence_years: 7.83,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Brașov l-a condamnat definitiv la 1 februarie 2022 pentru luare de mită, trafic de influență și abuz în serviciu în dosarul contractelor atribuite de Consiliul Județean Brașov. Un alt comunicat DNA din 2017 arată că acesta fusese trimis în judecată și în cauze conexe privind același mod de exercitare a funcției.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11086',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5703',
+      },
+      {
+        label: 'Brașov Metropolitan',
+        kind: 'press',
+        url: 'https://brasovmetropolitan.ro/2013/06/aristotel-cancescu-a-castigat-un-nou-mandat-de-presedinte-al-pnl-brasov/',
+      },
+    ],
+  },
+  {
+    name: 'Diniță Ion',
+    party: 'PC',
+    position: 'Deputat de Brașov',
+    position_type: 'deputy',
+    crime: 'Complicitate la abuz în serviciu',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Brașov l-a condamnat definitiv la 1 februarie 2022 în dosarul Căncescu pentru complicitate la abuz în serviciu. Am păstrat partidul PC, conform surselor de presă și descrierii sale publice ca deputat conservator în faza de urmărire penală.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11086',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5703',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/dosar-cancescu-dna-cere-arestarea-preventiva-a-lui-ion-dini-a-deputat_456053.html',
+      },
+    ],
+  },
 ];
