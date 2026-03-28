@@ -2753,14 +2753,19 @@ export const politicianAdditions = [
     position: 'Fost primar al comunei Mihai Eminescu (jude\u021bul Boto\u0219ani)',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
-    sentence: 'Cercetat penal',
+    sentence: 'Sesizarea instantei cu acord de recunoastere a vinovatiei',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'indicted',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een leg\u0103tur\u0103 cu lucr\u0103ri publice. Verificarea din decembrie 2025 arat\u0103 c\u0103 nu mai de\u021binea func\u021bia de primar, iar presa local\u0103 \u00eel indica drept politician PSD.',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een leg\u0103tur\u0103 cu lucr\u0103ri publice. La 11 noiembrie 2025, DNA a anun\u021bat sesizarea instan\u021bei, \u00een baza acordului de recunoa\u0219tere a vinov\u0103\u021biei \u00eencheiat cu el, ceea ce plaseaz\u0103 cauza \u00een faza judiciar\u0103. Verificarea din decembrie 2025 arat\u0103 c\u0103 nu mai de\u021binea func\u021bia de primar, iar presa local\u0103 \u00eel indica drept politician PSD.',
     verified_at: '2026-03-28',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13246',
+      },
       {
         label: 'DNA',
         kind: 'official',
@@ -2976,24 +2981,29 @@ export const politicianAdditions = [
     party: 'București 2020',
     position: 'Primar al Sectorului 3 București',
     position_type: 'mayor',
-    crime: 'Abuz în serviciu',
-    sentence: 'Cercetat penal; sub control judiciar pe cauțiune',
+    crime: 'Abuz în serviciu; complicitate la fals intelectual',
+    sentence: 'Trimis în judecată într-un dosar și cercetat penal într-un altul; sub control judiciar pe cauțiune',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'indicted',
     details:
-      'După dosarul deschis în 2022 privind documentații urbanistice și lucrări publice, DNA a dispus la 6 februarie 2026 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune într-un nou dosar privind lucrări rutiere și de construire realizate fără documentațiile și avizele legale. Nu am identificat până la 28 martie 2026 o soluție definitivă în cauzele oficial comunicate.',
+      'DNA a anunțat la 10 august 2022 trimiterea în judecată a lui Robert Sorin Negoiță în dosarul privind emiterea nelegală a unor documente de urbanism și lucrări publice la Sectorul 3, după comunicatul de urmărire penală din 21 februarie 2022. Separat, la 6 februarie 2026, DNA a dispus punerea în mișcare a acțiunii penale și control judiciar pe cauțiune într-un nou dosar privind lucrări rutiere și de construire realizate fără documentațiile și avizele legale. Nu am identificat până la 28 martie 2026 o soluție definitivă oficială în aceste cauze.',
     verified_at: '2026-03-28',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=13536',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11396',
       },
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=11008',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13536',
       },
       {
         label: 'Primăria Sectorului 3',
