@@ -3105,4 +3105,151 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Iulian Dumitrescu',
+    party: 'PNL',
+    position: 'Fost președinte al Consiliului Județean Prahova; fost senator',
+    position_type: 'county_council_president',
+    crime:
+      'Trafic de influență; luare de mită; dare de mită; operațiuni financiare incompatibile cu funcția; fals în declarații de avere',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'După punerea în mișcare a acțiunii penale și controlul judiciar dispuse la 1 februarie 2024, DNA a extins acuzațiile la 30 iulie 2024 și l-a trimis în judecată la 9 decembrie 2024 în dosarul privind pretinse mite, trafic de influență și folosirea unor operațiuni financiare incompatibile cu funcția de președinte al Consiliului Județean Prahova.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12750',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12647',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=EB40708A-6972-4D24-BDF4-4CBBD6310544',
+      },
+      {
+        label: 'Consiliul Județean Prahova',
+        kind: 'official',
+        url: 'https://cjph.ro/a-inceput-constructia-retelei-de-gaze-pe-valea-slanicului-iulian-dumitrescu-presedintele-cj-prahova-a-semnat-ordinul-pentru-inceperea-lucrarilor-in-comunele-alunis-bertea-si-stefesti/',
+      },
+    ],
+  },
+  {
+    name: 'Aur Sandu',
+    party: 'PSD',
+    position: 'Primar al comunei Boghești, județul Vrancea (la data faptelor)',
+    position_type: 'mayor',
+    crime:
+      'Complicitate la folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea de fonduri europene',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Galați a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Aur Sandu pentru rolul atribuit în folosirea unor contracte și adeverințe false la APIA, în perioada 2016-2019, pentru obținerea pe nedrept a unor subvenții în valoare totală de 158.675 lei.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12877',
+      },
+      {
+        label: 'Primăria Boghești',
+        kind: 'official',
+        url: 'https://www.primaria-boghesti.ro/echipa/aur-sandu/',
+      },
+    ],
+  },
+  {
+    name: 'Mirela-Florența Matichescu',
+    party: 'PSD',
+    position: 'Deputat de Constanța; fost administrator public al județului Constanța',
+    position_type: 'deputy',
+    crime: 'Abuz în serviciu; instigare la abuz în serviciu',
+    sentence: 'Trimisă în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Constanța a anunțat la 6 mai 2025 trimiterea în judecată a deputatei Mirela-Florența Matichescu în dosarul privind acordarea pretins nelegală și discriminatorie, în anul 2018, a unei finanțări nerambursabile pentru o asociație sportivă de fotbal, cu un prejudiciu indicat de 835.757,26 lei.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12896',
+      },
+      {
+        label: 'Ziua de Constanța',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/politic/deputata-psd-mirela-matichescu-la-forumul-de-bun-si-bine-de-la-palatul-parlamentului-914625.html',
+      },
+    ],
+  },
+  {
+    name: 'Răzvan-Iulian Ciortea',
+    party: 'PSD',
+    position: 'Deputat de Cluj; fost subprefect al județului Cluj',
+    position_type: 'deputy',
+    crime: 'Instigare la abuz în serviciu; instigare la fals intelectual; fals în declarații',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Cluj a anunțat la 12 noiembrie 2025 trimiterea în judecată a lui Răzvan-Iulian Ciortea, după ce ar fi declarat necorespunzător adevărului că altă persoană se afla la volanul autoturismului surprins cu 164 km/h pe autostradă. Dosarul a fost trimis spre judecare la Înalta Curte de Casație și Justiție, având în vedere calitatea sa de deputat.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13251',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=105ce174-ddec-4231-b337-59a47933d983',
+      },
+    ],
+  },
+  {
+    name: 'Mihai Barbu',
+    party: 'PNL',
+    position: 'Fost președinte interimar al filialei PNL Vaslui; fost președinte al Autorității pentru Reformă Feroviară',
+    position_type: 'other',
+    crime: 'Folosirea influenței ori autorității în scopul obținerii de foloase necuvenite',
+    sentence: 'Cercetat penal; sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Iași a dispus la 6 noiembrie 2025 punerea în mișcare a acțiunii penale și controlul judiciar față de Mihai Barbu, susținând că și-ar fi folosit influența politică pentru facilitarea unor intervenții legate de un dosar de despăgubiri de aproximativ 3.000.000 euro. Potrivit relatărilor din 17 februarie 2026, măsura controlului judiciar a fost menținută definitiv.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13238',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/02/17/vaslui-fostul-presedinte-interimar-al-organizatiei-pnl-mihai-barbu-ramane-sub-control-judiciar--1528781',
+      },
+      {
+        label: 'TVR Info',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/presedintele-pnl-vaslui-mihai-barbu-plasat-sub-control-judiciar-dogioiu-explicatii-privind-intalnirea-bolojan-bogos/',
+      },
+    ],
+  },
 ];
