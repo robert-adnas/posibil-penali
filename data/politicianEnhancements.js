@@ -2971,4 +2971,128 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Robert Sorin Negoiță',
+    party: 'București 2020',
+    position: 'Primar al Sectorului 3 București',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Cercetat penal; sub control judiciar pe cauțiune',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'După dosarul deschis în 2022 privind documentații urbanistice și lucrări publice, DNA a dispus la 6 februarie 2026 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune într-un nou dosar privind lucrări rutiere și de construire realizate fără documentațiile și avizele legale. Nu am identificat până la 28 martie 2026 o soluție definitivă în cauzele oficial comunicate.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13536',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11008',
+      },
+      {
+        label: 'Primăria Sectorului 3',
+        kind: 'official',
+        url: 'https://www.primarie3.ro/index.php/primaria/conducerea_detaliu/22',
+      },
+      {
+        label: 'Portal Legislativ',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/281101',
+      },
+    ],
+  },
+  {
+    name: 'Claudiu Daniel Chelariu',
+    party: 'PSD',
+    position: 'Primar al comunei Mihălășeni (județul Botoșani)',
+    position_type: 'mayor',
+    crime: 'Luare de mită; dare de mită',
+    sentence: 'Trimis în judecată într-un dosar și cercetat penal într-un altul',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 25 iunie 2025 într-un dosar de dare de mită legat de controale de mediu, iar la 22 septembrie 2025 a dispus punerea în mișcare a acțiunii penale și control judiciar într-un al doilea dosar, în care susține că ar fi pretins și primit 500.000 lei pentru plăți dintr-un contract de modernizare de drumuri.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12932',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13020',
+      },
+      {
+        label: 'Epoch Times România',
+        kind: 'press',
+        url: 'https://epochtimes-romania.com/news/dna-dispune-sechestru-asigurator-si-control-judiciar-pentru-un-primar-de-la-psd-acuzat-ca-ar-fi-luat-spaga---376657',
+      },
+    ],
+  },
+  {
+    name: 'Neculai Șchiopu',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Coșula (ulterior primar ales în 2025)',
+    position_type: 'local_official',
+    crime: 'Luare de mită',
+    sentence: 'Cercetat penal; sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar față de viceprimarul comunei Coșula, susținând că ar fi pretins materiale de construcții de peste 30.000 lei pentru un apropiat. În mai 2025 presa locală a consemnat că, deși era cercetat, a câștigat alegerile pentru funcția de primar.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
+      },
+      {
+        label: 'Monitorul de Botoșani',
+        kind: 'press',
+        url: 'https://www.monitorulbt.ro/local/2025/05/06/spaga-cu-pavele-la-cosula-favoruri-promise-in-schimbul-materialelor-pentru-un-consilier-local/',
+      },
+    ],
+  },
+  {
+    name: 'Ionuț Voicu',
+    party: 'PNL',
+    position: 'Fost secretar general adjunct al filialei PNL Botoșani',
+    position_type: 'other',
+    crime: 'Trafic de influență',
+    sentence: 'Cercetat penal; sub control judiciar pe cauțiune',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar în februarie 2026 presa locală a consemnat menținerea definitivă a măsurii. Procurorii susțin că ar fi pretins bani pentru a interveni în favoarea unei firme la licitații și pentru deblocarea unor plăți aferente lucrărilor publice.',
+    verified_at: '2026-03-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
+      },
+      {
+        label: 'Radio Iași',
+        kind: 'press',
+        url: 'https://www.radioiasi.ro/stiri/regional/dna-suceava-mentine-controlul-judiciar-in-cazul-fostului-secretar-general-al-pnl-botosani-ionut-voicu/',
+      },
+      {
+        label: 'BotoșaniNews',
+        kind: 'press',
+        url: 'https://www.botosaninews.ro/679402/social/justitie/secretarul-pnl-ionut-voicu-acuzat-de-trafic-de-influenta-ar-fi-cerut-bani-de-la-un-om-de-afaceri-pentru-a-favoriza-castigarea-unor-licitatii/',
+      },
+    ],
+  },
 ];
