@@ -6,7 +6,7 @@
   "homepage": "https://politicieni-corupti.ro",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-sitemap.js && vite build",
+    "build": "node scripts/generate-sitemap.js && vite build && node scripts/prerender.js",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
     "og-image": "node scripts/generate-og-image.js",

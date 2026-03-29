@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-28',
+  last_updated: '2026-03-29',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -3431,6 +3431,130 @@ export const politicianAdditions = [
         label: 'DCNews',
         kind: 'press',
         url: 'https://www.dcnews.ro/dosar-cancescu-dna-cere-arestarea-preventiva-a-lui-ion-dini-a-deputat_456053.html',
+      },
+    ],
+  },
+  {
+    name: 'Adrian Gurzău',
+    party: 'PMP',
+    position: 'Deputat de Cluj',
+    position_type: 'deputy',
+    crime: 'Trafic de influență',
+    sentence: '2 ani și 8 luni închisoare cu suspendare',
+    sentence_years: 2.67,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'Tribunalul București a admis la 28 martie 2017 acordul de recunoaștere a vinovăției încheiat cu DNA, hotărârea rămânând definitivă prin neapelare la 25 aprilie 2017. Procurorii au susținut că, în perioada aprilie-noiembrie 2015, a pretins și primit foloase printr-un contract fictiv cu Carpatica Asig în schimbul influenței promise asupra unor decidenți din ASF.',
+    verified_at: '2026-03-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8175',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8007',
+      },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/comisia-juridica-aviz-favorabil-cererii-dna-de-retinere-si-arestare-preventiva-a-deputatului-pmp-adrian-gurzau-finul-elenei-udrea-454671',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Gheorghe Drăghici',
+    party: 'PSD',
+    position: 'Deputat de Argeș; trezorier PSD la data faptelor',
+    position_type: 'deputy',
+    crime: 'Utilizarea subvențiilor în alte scopuri decât cele pentru care au fost acordate; delapidare',
+    sentence: '6 ani închisoare',
+    sentence_years: 6,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'După condamnarea definitivă la 5 ani din 1 iulie 2021 în dosarul achiziției unui imobil și al înstrăinării unui autoturism din patrimoniul partidului, Tribunalul București a admis la 5 septembrie 2022 un nou acord de recunoaștere a vinovăției, definitiv la 12 octombrie 2022, și a stabilit pedeapsa rezultantă de 6 ani închisoare. Într-un alt dosar privind contracte de consultanță pentru primării din Argeș, DNA a consemnat ulterior achitarea sa definitivă în 2024.',
+    verified_at: '2026-03-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11615',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11301',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10502',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=43D25014-DF7E-496A-B2F0-13DA954D5913',
+      },
+    ],
+  },
+  {
+    name: 'Florin Serghei Anghel',
+    party: 'PDL',
+    position: 'Președinte al Consiliului Județean Prahova la data faptelor',
+    position_type: 'county_council_president',
+    crime: 'Instigare la abuz în serviciu',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 30 decembrie 2015 în dosarul vânzării activului „Cazarma 1375 Ciuperceasca”, acuzându-l că l-a împuternicit pe șeful Plopeni Industrial Parc să înstrăineze terenuri fără evaluare și licitație. În aprilie 2024, ÎCCJ a desființat soluția de încetare prin prescripție și a dispus rejudecarea cauzei, astfel că am păstrat statutul de trimis în judecată.',
+    verified_at: '2026-03-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6995',
+      },
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/justitie/inalta-curte-desfiinteaza-decizie-curtii-apel-ploiesti-fostul-deputat-psd-andreea-cosma-presedinte-consiliului-judetean-prahova-scapau-acuzatii-coruptie-urmare-prescrierii-dosarul-rejudecat-1922405704142024042221548246',
+      },
+    ],
+  },
+  {
+    name: 'Marian Oprișan',
+    party: 'PSD',
+    position: 'Președinte al Consiliului Județean Vrancea',
+    position_type: 'county_council_president',
+    crime: 'Abuz în serviciu; utilizarea creditelor în alte scopuri; fals intelectual; uz de fals',
+    sentence: 'Achitat definitiv (2015)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul „Căprioara”, iar Judecătoria Cluj-Napoca a dispus la 6 februarie 2015 achitarea sa pentru abuz în serviciu, utilizarea creditelor în alte scopuri și fals intelectual, respectiv încetarea procesului pentru uz de fals. Curtea de Apel Cluj a menținut soluția la 18 decembrie 2015, hotărârea devenind definitivă.',
+    verified_at: '2026-03-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=468',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/regional/digi24-cluj-napoca/marian-oprisan-achitat-in-dosarul-de-coruptie-356598',
       },
     ],
   },
