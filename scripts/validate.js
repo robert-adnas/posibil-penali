@@ -9,7 +9,7 @@ import { buildDataset } from '../data/buildDataset.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(__dirname, '..', 'data', 'politicians.json');
 
-const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'prescribed', 'acquitted'];
+const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'prescribed', 'closed', 'acquitted'];
 const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy', 'mayor', 'county_council_president', 'member_european_parliament', 'secretary_of_state', 'local_official', 'other'];
 const KNOWN_PARTIES = ['PSD', 'PNL', 'PDL', 'PC', 'PD', 'UDMR', 'AUR', 'PP-DD', 'PMP', 'PNȚCD', 'PRM', 'USR', 'SOS Romania', 'SOS', 'ADN', 'PLAN', 'ANC', 'PSDI', 'PNCR', 'PUSL', 'București 2020', 'Independent', 'România Socialistă'];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];

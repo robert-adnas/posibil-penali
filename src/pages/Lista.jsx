@@ -15,7 +15,8 @@ const STATUS_RANK = {
   indicted: 2,
   investigated: 3,
   prescribed: 4,
-  acquitted: 5,
+  closed: 5,
+  acquitted: 6,
 };
 
 const STATUS_FILTERS = [
@@ -25,6 +26,7 @@ const STATUS_FILTERS = [
   { key: 'indicted', label: 'Trimiși în judecată' },
   { key: 'investigated', label: 'Cercetați' },
   { key: 'prescribed', label: 'Prescriși' },
+  { key: 'closed', label: 'Clasați' },
   { key: 'acquitted', label: 'Achitați' },
 ];
 

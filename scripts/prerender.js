@@ -64,6 +64,7 @@ const STATUS_LABELS = {
   indicted: 'Trimis în judecată',
   investigated: 'Cercetat',
   prescribed: 'Prescris',
+  closed: 'Clasat',
   acquitted: 'Achitat',
 };
 
@@ -161,12 +162,12 @@ const staticPages = [
   {
     path: 'lista',
     title: 'Lista completă | Politicieni Corupți',
-    description: `Toți cei ${politicians.length} politicieni români cu dosare penale — condamnați, trimiși în judecată, cercetați sau achitați. Caută și filtrează după nume, partid sau status.`,
+    description: `Toți cei ${politicians.length} politicieni români cu dosare penale — condamnați, trimiși în judecată, cercetați, clasați sau achitați. Caută și filtrează după nume, partid sau status.`,
   },
   {
     path: 'glosar',
     title: 'Glosar juridic | Politicieni Corupți',
-    description: 'Ce înseamnă fiecare status juridic: condamnat definitiv, trimis în judecată, cercetat, achitat, prescris. Ghid simplu pentru înțelegerea termenilor legali.',
+    description: 'Ce înseamnă fiecare status juridic: condamnat definitiv, trimis în judecată, cercetat, prescris, clasat, achitat. Ghid simplu pentru înțelegerea termenilor legali.',
   },
   {
     path: 'metodologie',

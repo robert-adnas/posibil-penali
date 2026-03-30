@@ -55,6 +55,16 @@ Prescripția NU echivalează cu o achitare și nu înseamnă că fapta nu a exis
 În dosarele de corupție din România, prescripția a fost un subiect controversat după modificările aduse Codului Penal în 2017–2018.`,
   },
   {
+    key: 'closed',
+    label: 'Clasat',
+    summary: 'Ce înseamnă clasarea sau închiderea cauzei fără trimitere în judecată?',
+    explanation: `„Clasat” înseamnă că procurorul a dispus clasarea cauzei sau că dosarul s-a închis fără a ajunge la judecată. Motivele pot varia: fapta nu este prevăzută de legea penală, nu există probe suficiente, lipsește o condiție procedurală ori intervine un impediment legal.
+
+Această soluție NU este o condamnare și NU echivalează automat cu o achitare pronunțată de instanță. Este însă o soluție terminală la nivelul urmăririi penale sau al sesizării instanței.
+
+În arhivă, folosim acest status pentru cazurile în care există o soluție oficială de clasare sau o închidere procedurală clară, fără trimitere în judecată.`,
+  },
+  {
     key: 'acquitted',
     label: 'Achitat',
     summary: 'Ce înseamnă achitat în dreptul penal român?',
@@ -70,7 +80,7 @@ export function GlosarPage() {
   useSEO({
     title: 'Glosar juridic — Ce înseamnă condamnat definitiv, trimis în judecată, cercetat | Politicieni Corupți',
     description:
-      'Explică termenii juridici folosiți în dosarele penale ale politicienilor români: condamnat definitiv, condamnat în primă instanță, trimis în judecată, cercetat penal, prescris, achitat.',
+      'Explică termenii juridici folosiți în dosarele penale ale politicienilor români: condamnat definitiv, condamnat în primă instanță, trimis în judecată, cercetat penal, prescris, clasat, achitat.',
     url: `${BASE_URL}/glosar`,
   });
 

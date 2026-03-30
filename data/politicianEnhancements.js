@@ -1,9 +1,9 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-29',
+  last_updated: '2026-03-30',
   notes:
-    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
+    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
 
 export const politicianOverrides = {
@@ -75,8 +75,10 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Costel Alexe': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -85,28 +87,26 @@ export const politicianOverrides = {
       },
     ],
   },
-  'Niculae BÄƒdÄƒlÄƒu': {
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11663',
-      },
-    ],
-  },
   'Niculae B\u0103d\u0103l\u0103u': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=11663',
       },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11628',
+      },
     ],
   },
+
   'Vlad Voiculescu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -115,8 +115,10 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Dumitru Buzatu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -125,9 +127,10 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Clotilde Armand': {
     replace_sources: true,
-    verified_at: '2026-03-22',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'ANI',
@@ -141,25 +144,34 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Borboly Csaba': {
     replace_sources: true,
-    verified_at: '2026-03-22',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4299',
       },
-      {
-        label: 'Wikipedia',
-        kind: 'profile',
-        url: 'https://ro.wikipedia.org/wiki/Borboly_Csaba',
-      },
     ],
   },
+
   'Ovidiu Marius Isail\u0103': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    sentence: '5 ani și 4 luni închisoare',
+    sentence_years: 5.33,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 10 noiembrie 2016 la 5 ani și 4 luni închisoare pentru trafic de influență și instigare la fals în înscrisuri sub semnătură privată, după ce DNA îl trimisese în judecată în iulie 2014.',
+    verified_at: '2026-03-30',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7817',
+      },
       {
         label: 'DNA',
         kind: 'official',
@@ -167,35 +179,33 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Titus Corl\u0103\u021bean': {
     replace_sources: true,
-    verified_at: '2026-03-22',
+    sentence: 'Cauză clasată (2018)',
+    status: 'closed',
+    details:
+      'DNA a cerut în 2016 încuviințarea urmăririi penale în dosarul votului din diaspora, însă Senatul a respins solicitarea. Prin actualizarea oficială din 20 noiembrie 2018, DNA a consemnat clasarea cauzei, inclusiv pentru lipsa condiției legale necesare punerii în mișcare a acțiunii penale după votul Senatului.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7387',
       },
-      {
-        label: 'Wikipedia',
-        kind: 'profile',
-        url: 'https://ro.wikipedia.org/wiki/Titus_Corl%C4%83%C8%9Bean',
-      },
     ],
   },
+
   'Viorel Ilie': {
     replace_sources: true,
-    verified_at: '2026-03-22',
+    details:
+      'În dosarul concursurilor pretins trucate de la Ministerul pentru Relația cu Parlamentul, DNA a trimis în judecată funcționari din minister în ianuarie 2018, dar Senatul hotărâse deja în octombrie 2017 să nu ceară urmărirea penală a ministrului Viorel Ilie. Nu am identificat o actualizare oficială ulterioară care să indice trimiterea lui în judecată sau o soluție finală diferită.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8613',
-      },
-      {
-        label: 'Wikipedia',
-        kind: 'profile',
-        url: 'https://ro.wikipedia.org/wiki/Viorel_Ilie',
       },
     ],
   },
@@ -390,8 +400,21 @@ export const politicianOverrides = {
     ],
   },
   'Adrian Duicu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    crime:
+      'Permiterea accesului unor persoane neautorizate la informații nedestinate publicității, în scopul obținerii de foloase necuvenite',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2020,
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 19 februarie 2020 în dosarul trimis în judecată de DNA în 2014, achitându-l însă pentru alte capete din rechizitoriu și menținând condamnarea pentru accesul neautorizat la informații nedestinate publicității.',
+    verified_at: '2026-03-30',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9746',
+      },
       {
         label: 'DNA',
         kind: 'official',
@@ -666,7 +689,7 @@ export const politicianOverrides = {
     crime: 'Dare de mită; operațiuni financiare incompatibile cu funcția; complicitate la abuz în serviciu; fals în declarații',
     details:
       'Condamnat definitiv de ÎCCJ în decembrie 2016 la 1 an și 6 luni cu suspendare pentru dare de mită și operațiuni financiare incompatibile cu funcția. Separat, DNA l-a trimis în judecată în decembrie 2021 în dosarul privind obținerea ilegală a certificatului de revoluționar.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -744,6 +767,39 @@ export const politicianOverrides = {
       },
     ],
   },
+  'Mircea Drăghici': {
+    replace_sources: true,
+    position: 'Deputat de Argeș; trezorier PSD la data faptelor',
+    crime: 'Utilizarea subvențiilor în alte scopuri decât cele pentru care au fost acordate; delapidare',
+    sentence: '6 ani închisoare',
+    sentence_years: 6,
+    conviction_year: 2022,
+    details:
+      'După condamnarea definitivă la 5 ani din 1 iulie 2021 în dosarul achiziției unui imobil și al înstrăinării unui autoturism din patrimoniul partidului, Tribunalul București a admis la 5 septembrie 2022 un nou acord de recunoaștere a vinovăției, definitiv la 12 octombrie 2022, și a stabilit pedeapsa rezultantă de 6 ani închisoare. Într-un alt dosar privind contracte de consultanță pentru primării din Argeș, DNA a consemnat ulterior achitarea sa definitivă în 2024.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11615',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11301',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10502',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+    ],
+  },
   'Cristian Popescu Piedone': {
     replace_sources: true,
     verified_at: '2026-03-22',
@@ -793,11 +849,12 @@ export const politicianOverrides = {
       },
     ],
   },
+
   'Varujan Vosganian': {
     replace_sources: true,
     details:
-      'În dosarul Romgaz-Interagro, Senatul a respins de două ori cererea procurorilor de încuviințare a începerii urmăririi penale împotriva lui. Presa a continuat să îl indice ca vizat de ancheta DIICOT în contextul dosarului Romgaz.',
-    verified_at: '2026-03-22',
+      'În dosarul Romgaz-Interagro, Senatul a respins cererea de începere a urmăririi penale formulate în februarie 2015, după ce o cerere similară mai fusese respinsă și în 2013. Nu am identificat o trimitere în judecată sau o soluție oficială ulterioară care să modifice acest stadiu procedural.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'Senatul României',
@@ -847,12 +904,55 @@ export const politicianOverrides = {
     ],
   },
   'Nicolae Iotcu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    party: 'PDL',
+    position: 'Președinte al Consiliului Județean Arad; fost senator',
+    crime: 'Trafic de influență',
+    sentence: '4 ani închisoare',
+    sentence_years: 4,
+    conviction_year: 2017,
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv la 26 iunie 2017 pentru trafic de influență, după ce DNA a susținut că pretinsese și primise 35.000 lei și 10.000 euro în legătură cu contracte ale Consiliului Județean Arad. Într-un dosar distinct, trimis în judecată în 2017, a fost ulterior achitat definitiv în 2020.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8297',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8386',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0B7FD917-249E-42EA-AB58-DF2030FBAA84',
+      },
+    ],
+  },
+  'Aristotel Căncescu': {
+    replace_sources: true,
+    position: 'Președinte al Consiliului Județean Brașov; fost senator',
+    details:
+      'Curtea de Apel Brașov l-a condamnat definitiv la 1 februarie 2022 pentru luare de mită, trafic de influență și abuz în serviciu în dosarul contractelor atribuite de Consiliul Județean Brașov. Un alt comunicat DNA din 2017 arată că acesta fusese trimis în judecată și în cauze conexe privind același mod de exercitare a funcției.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11086',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5703',
+      },
+      {
+        label: 'Brașov Metropolitan',
+        kind: 'press',
+        url: 'https://brasovmetropolitan.ro/2013/06/aristotel-cancescu-a-castigat-un-nou-mandat-de-presedinte-al-pnl-brasov/',
       },
     ],
   },
@@ -3253,37 +3353,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Mihai Ioan Lasca',
-    party: 'AUR',
-    position: 'Deputat de Bihor (ales pe listele AUR în 2020; ulterior neafiliat)',
-    position_type: 'deputy',
-    crime: 'Lovire sau alte violențe; distrugere',
-    sentence: '2 ani închisoare cu suspendare',
-    sentence_years: 2,
-    conviction_year: 2021,
-    status: 'convicted',
-    details:
-      'Curtea de Apel Oradea a menținut definitiv la 2 iunie 2021 condamnarea de 2 ani cu suspendare și 120 de zile de muncă în folosul comunității, în dosarul privind agresarea în trafic a unui șofer în august 2019. L-am încadrat la AUR deoarece a intrat în Parlament pe listele acestui partid, chiar dacă a devenit ulterior deputat neafiliat.',
-    verified_at: '2026-03-28',
-    sources: [
-      {
-        label: 'Digi24',
-        kind: 'press',
-        url: 'https://www.digi24.ro/stiri/deputatul-mihai-ioan-lasca-intrat-in-parlament-pe-listele-aur-a-fost-condamnat-la-inchisoare-cu-suspendare-dupa-ce-a-batut-un-sofer-1550167',
-      },
-      {
-        label: 'Epoch Times România',
-        kind: 'press',
-        url: 'https://epochtimes-romania.com/news/deputat-ex-aur-condamnat-definitiv-pentru-violente---315096',
-      },
-      {
-        label: 'DCNews',
-        kind: 'press',
-        url: 'https://www.dcnews.ro/iccj-a-confirmat-condamnarea-deputatului-mihai-lasca-ex-aur-care-a-batut-un-sofer-in-trafic_841733.html',
-      },
-    ],
-  },
-  {
     name: 'Marian Cristinel Bîgiu',
     party: 'PNL',
     position: 'Președinte al Consiliului Județean Buzău; fost senator',
@@ -3311,95 +3380,6 @@ export const politicianAdditions = [
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/cine-este-marian-bigiu-seful-consiliului-judetean-buzau-anchetat-de-dna-pentru-luare-de-mita-331388',
-      },
-    ],
-  },
-  {
-    name: 'Duicu Ioan-Adrian',
-    party: 'PSD',
-    position: 'Președinte al Consiliului Județean Mehedinți; președinte PSD Mehedinți la data faptelor',
-    position_type: 'county_council_president',
-    crime:
-      'Permiterea accesului unor persoane neautorizate la informații nedestinate publicității, în scopul obținerii de foloase necuvenite',
-    sentence: '1 an și 6 luni închisoare cu suspendare',
-    sentence_years: 1.5,
-    conviction_year: 2020,
-    status: 'convicted',
-    details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 19 februarie 2020 în dosarul trimis în judecată de DNA în 2014, achitându-l însă pentru alte capete din rechizitoriu și menținând condamnarea pentru accesul neautorizat la informații nedestinate publicității.',
-    verified_at: '2026-03-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=9746',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=5139&jffi=comunicat&jftfdi=',
-      },
-    ],
-  },
-  {
-    name: 'Ioțcu Petru Nicolae',
-    party: 'PDL',
-    position: 'Președinte al Consiliului Județean Arad; fost senator',
-    position_type: 'county_council_president',
-    crime: 'Trafic de influență',
-    sentence: '4 ani închisoare',
-    sentence_years: 4,
-    conviction_year: 2017,
-    status: 'convicted',
-    details:
-      'Curtea de Apel Timișoara l-a condamnat definitiv la 26 iunie 2017 pentru trafic de influență, după ce DNA a susținut că pretinsese și primise 35.000 lei și 10.000 euro în legătură cu contracte ale Consiliului Județean Arad. Într-un dosar distinct, trimis în judecată în 2017, a fost ulterior achitat definitiv în 2020.',
-    verified_at: '2026-03-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=8297',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=8386',
-      },
-      {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0B7FD917-249E-42EA-AB58-DF2030FBAA84',
-      },
-    ],
-  },
-  {
-    name: 'Aristotel Adrian Căncescu',
-    party: 'PNL',
-    position: 'Președinte al Consiliului Județean Brașov; fost senator',
-    position_type: 'county_council_president',
-    crime: 'Luare de mită; trafic de influență; abuz în serviciu',
-    sentence: '7 ani și 10 luni închisoare',
-    sentence_years: 7.83,
-    conviction_year: 2022,
-    status: 'convicted',
-    details:
-      'Curtea de Apel Brașov l-a condamnat definitiv la 1 februarie 2022 pentru luare de mită, trafic de influență și abuz în serviciu în dosarul contractelor atribuite de Consiliul Județean Brașov. Un alt comunicat DNA din 2017 arată că acesta fusese trimis în judecată și în cauze conexe privind același mod de exercitare a funcției.',
-    verified_at: '2026-03-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11086',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5703',
-      },
-      {
-        label: 'Brașov Metropolitan',
-        kind: 'press',
-        url: 'https://brasovmetropolitan.ro/2013/06/aristotel-cancescu-a-castigat-un-nou-mandat-de-presedinte-al-pnl-brasov/',
       },
     ],
   },
@@ -3466,47 +3446,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Mircea Gheorghe Drăghici',
-    party: 'PSD',
-    position: 'Deputat de Argeș; trezorier PSD la data faptelor',
-    position_type: 'deputy',
-    crime: 'Utilizarea subvențiilor în alte scopuri decât cele pentru care au fost acordate; delapidare',
-    sentence: '6 ani închisoare',
-    sentence_years: 6,
-    conviction_year: 2022,
-    status: 'convicted',
-    details:
-      'După condamnarea definitivă la 5 ani din 1 iulie 2021 în dosarul achiziției unui imobil și al înstrăinării unui autoturism din patrimoniul partidului, Tribunalul București a admis la 5 septembrie 2022 un nou acord de recunoaștere a vinovăției, definitiv la 12 octombrie 2022, și a stabilit pedeapsa rezultantă de 6 ani închisoare. Într-un alt dosar privind contracte de consultanță pentru primării din Argeș, DNA a consemnat ulterior achitarea sa definitivă în 2024.',
-    verified_at: '2026-03-29',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11615',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11301',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10502',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
-      },
-      {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=43D25014-DF7E-496A-B2F0-13DA954D5913',
-      },
-    ],
-  },
-  {
     name: 'Florin Serghei Anghel',
     party: 'PDL',
     position: 'Președinte al Consiliului Județean Prahova la data faptelor',
@@ -3555,6 +3494,110 @@ export const politicianAdditions = [
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/regional/digi24-cluj-napoca/marian-oprisan-achitat-in-dosarul-de-coruptie-356598',
+      },
+    ],
+  },
+  {
+    name: 'Cristian Adomniței',
+    party: 'PNL',
+    position: 'Președinte al Consiliului Județean Iași; fost deputat și ministru al Educației',
+    position_type: 'county_council_president',
+    crime: 'Favorizarea făptuitorului; fals intelectual',
+    sentence: 'Achitat definitiv (2024)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în iulie 2015 în dosarul materialelor de promovare ale județului Iași, acuzându-l că ar fi acoperit prin acte false neexecutarea contractului. Prin actualizarea oficială din 19 martie 2024, DNA a consemnat că Curtea de Apel Galați a dispus achitarea sa definitivă la 8 februarie 2024, reținând că fapta nu este prevăzută de legea penală ori nu există probe că a săvârșit infracțiunea.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6506',
+      },
+    ],
+  },
+  {
+    name: 'Andrei Volosevici',
+    party: 'PDL',
+    position: 'Primar al municipiului Ploiești; ulterior senator de Prahova',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu; trafic de influență',
+    sentence: 'Achitat definitiv (2022)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în iunie 2016 în dosarul finanțării clubului FC Petrolul și al unor pretinse intervenții pentru contracte publice și panotaj electoral. Prin actualizarea oficială din 9 martie 2022, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 20 ianuarie 2022, pentru că faptele nu există ori nu sunt prevăzute de legea penală.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7543',
+      },
+      {
+        label: 'Primăria Ploiești',
+        kind: 'official',
+        url: 'https://ploiesti.ro/descopera-ploiestiul-2/oameni-parteneriate/primarii-ploiestiului/',
+      },
+    ],
+  },
+  {
+    name: 'Teodor Neamțu',
+    party: 'PDL',
+    position: 'Primar al municipiului Mediaș',
+    position_type: 'mayor',
+    crime: 'Complicitate la abuz în serviciu',
+    sentence: 'Achitat definitiv (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în septembrie 2014 pentru că ar fi înlesnit hotărârile prin care Consiliul Local Mediaș a devenit unic acționar al societății Gospodăria Comunală SA, cu producerea unui prejudiciu bugetului local. Prin actualizarea oficială din 4 iunie 2018, DNA a consemnat că Curtea de Apel Alba l-a achitat definitiv la 18 mai 2018, întrucât faptele nu sunt prevăzute de legea penală.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5265',
+      },
+      {
+        label: 'Primăria Mediaș',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/34AC10818498348AC2258057003F4256/%24FILE/BUGET_2011.pdf?Open=',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Iliuță',
+    party: 'PSD',
+    position: 'Președinte al Consiliului Județean Călărași',
+    position_type: 'county_council_president',
+    crime: 'Abuz în serviciu',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 19 iunie 2024 în dosarul privind contractele de pază atribuite Consiliului Județean Călărași unei firme fără licență, acuzând un prejudiciu de 582.083 lei. Într-un alt dosar DNA, trimis în judecată în 2021 pentru abuz în serviciu, fals intelectual și șantaj, aceeași instituție a consemnat prin actualizarea oficială din 14 martie 2025 că fusese achitat definitiv; am păstrat totuși statutul de trimis în judecată deoarece dosarul din 2024 rămâne activ.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12606',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10238',
+      },
+      {
+        label: 'Consiliul Județean Călărași',
+        kind: 'official',
+        url: 'https://www.calarasi.ro/conducerea-executiva/',
       },
     ],
   },

@@ -29,6 +29,11 @@ const STATUS_DEFS = [
     legal: 'Termenul de prescripție a răspunderii penale a expirat. Fapta nu mai poate fi judecată, indiferent de vinovăție. Nu echivalează cu achitarea.',
   },
   {
+    key: 'closed',
+    label: 'Clasat',
+    legal: 'Parchetul a dispus clasarea sau cauza a fost închisă fără trimitere în judecată. Nu există o condamnare și nici o soluție de achitare pronunțată de instanță.',
+  },
+  {
     key: 'acquitted',
     label: 'Achitat',
     legal: 'Instanța a pronunțat achitarea — fie prin lipsă de probe, fie prin neîntrunirea elementelor constitutive ale infracțiunii. Nu există vinovăție stabilită.',

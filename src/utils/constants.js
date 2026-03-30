@@ -17,6 +17,7 @@ export const STATUS_LABELS = {
   indicted: 'Trimis în judecată',
   investigated: 'Cercetat',
   prescribed: 'Prescris',
+  closed: 'Clasat',
   acquitted: 'Achitat',
 };
 

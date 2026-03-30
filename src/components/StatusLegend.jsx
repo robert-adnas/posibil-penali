@@ -27,6 +27,11 @@ const STATUSES = [
     description: 'Termenul legal pentru urmărire penală a expirat. Nu mai poate fi judecat pentru această faptă.',
   },
   {
+    key: 'closed',
+    label: 'Clasat',
+    description: 'Parchetul a clasat cauza sau aceasta a fost închisă fără trimitere în judecată. Nu există condamnare definitivă.',
+  },
+  {
     key: 'acquitted',
     label: 'Achitat',
     description: 'Instanța a pronunțat achitarea. Nu există vinovăție stabilită de nicio instanță.',
