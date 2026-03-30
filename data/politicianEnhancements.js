@@ -1081,8 +1081,8 @@ export const politicianOverrides = {
   'Diana Iovanovici-\u0218o\u0219oac\u0103': {
     replace_sources: true,
     details:
-      'În septembrie 2025 a fost citată la Parchetul General ca suspect într-un dosar care vizează 11 infracțiuni. În octombrie 2025, Parchetul General a anunțat punerea în mișcare a urmăririi penale și demersurile pentru ridicarea imunității sale de europarlamentar.',
-    verified_at: '2026-03-22',
+      'În septembrie 2025 a fost citată la Parchetul General ca suspect într-un dosar care vizează 11 infracțiuni. În octombrie 2025, Parchetul General a anunțat punerea în mișcare a urmăririi penale și demersurile pentru ridicarea imunității sale de europarlamentar, iar agenda oficială a comisiei JURI din 23-24 martie 2026 arată că cererea de ridicare a imunității era încă în procedură, cu audiere și schimb de opinii programate.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'Parlamentul European',
@@ -1090,14 +1090,14 @@ export const politicianOverrides = {
         url: 'https://www.europarl.europa.eu/doceo/document/PV-10-2025-10-09_EN.html',
       },
       {
-        label: 'Digi24',
-        kind: 'press',
-        url: 'https://www.digi24.ro/stiri/actualitate/justitie/diana-sosoaca-trebuie-sa-se-prezinte-marti-la-parchetul-general-ea-este-vizata-ca-suspect-intr-un-dosar-pentru-11-infractiuni-3424767',
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/doceo/document/JURI-OJ-2026-03-23-1_EN.pdf',
       },
       {
-        label: 'Digi24',
+        label: 'Gazeta de Sud',
         kind: 'press',
-        url: 'https://www.digi24.ro/stiri/actualitate/politica/acuzatiile-oficiale-aduse-de-procurori-dianei-sosoaca-parchetul-cere-ridicarea-imunitatii-europarlamentarei-sos-romania-3444453',
+        url: 'https://www.gds.ro/Actualitate/2025-10-06/diana-sosoaca-inculpata-oficial-pentru-11-infractiuni/',
       },
     ],
   },
@@ -2244,8 +2244,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis \u00een judecat\u0103 de DNA \u00een 14 iulie 2022 \u00een dosarul privind edificarea \u0219i intabularea unui bloc construit cu \u00eenc\u0103lcarea autoriza\u021biei \u00een zona T\u0103t\u0103ra\u0219i (\u201eFlux\u201d), dup\u0103 ce procurorii au sus\u021binut c\u0103 a sprijinit emiterea unor documente care nu reflectau situa\u021bia real\u0103 a construc\u021biei.',
-    verified_at: '2026-03-26',
+      'Trimis \u00een judecat\u0103 de DNA \u00een 14 iulie 2022 \u00een dosarul privind edificarea \u0219i intabularea unui bloc construit cu \u00eenc\u0103lcarea autoriza\u021biei \u00een zona T\u0103t\u0103ra\u0219i (\u201eFlux\u201d), dup\u0103 ce procurorii au sus\u021binut c\u0103 a sprijinit emiterea unor documente care nu reflectau situa\u021bia real\u0103 a construc\u021biei. Verificarea din martie 2026 indic\u0103 faptul c\u0103 dosarul era \u00eenc\u0103 pe rol, f\u0103r\u0103 solu\u021bie definitiv\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2342,8 +2342,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis\u0103 \u00een judecat\u0103 de DNA \u00een 27 februarie 2023 \u00eentr-un dosar privind achizi\u021bia la suprapre\u021b a unor dezinfectan\u021bi \u00een perioada pandemiei. Separat, \u00eentr-o cauz\u0103 DNA mai veche, Curtea de Apel T\u00e2rgu Mure\u0219 a dispus \u00een ianuarie 2023 \u00eencetarea procesului pentru abuz \u00een serviciu ca urmare a prescrip\u021biei \u0219i achitarea sa pentru acuza\u021bia de luare de mit\u0103.',
-    verified_at: '2026-03-26',
+      'Trimis\u0103 \u00een judecat\u0103 de DNA \u00een 27 februarie 2023 \u00eentr-un dosar privind achizi\u021bia la suprapre\u021b a unor dezinfectan\u021bi \u00een perioada pandemiei. Separat, \u00eentr-o cauz\u0103 DNA mai veche, Curtea de Apel T\u00e2rgu Mure\u0219 a dispus \u00een ianuarie 2023 \u00eencetarea procesului pentru abuz \u00een serviciu ca urmare a prescrip\u021biei \u0219i achitarea sa pentru acuza\u021bia de luare de mit\u0103. Nu am identificat o solu\u021bie definitiv\u0103 ulterioar\u0103 p\u00e2n\u0103 la 30 martie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2354,11 +2354,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7088',
-      },
-      {
-        label: 'Zi de Zi',
-        kind: 'press',
-        url: 'https://www.zi-de-zi.ro/2019/11/24/maria-precup-primar-psd-de-reghin-am-votat-pentru-o-romanie-fara-ura/',
       },
     ],
   },
@@ -2373,8 +2368,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA l-a plasat sub control judiciar \u00een noiembrie 2019, sus\u021bin\u00e2nd c\u0103 ar fi pretins \u0219i primit bani \u0219i pavaje de la administratorul unei firme aflate \u00een rela\u021bii contractuale cu Prim\u0103ria 1 Decembrie. \u00centr-un comunicat ulterior din 16 ianuarie 2020, DNA a precizat c\u0103 urm\u0103rirea penal\u0103 fa\u021b\u0103 de el continua.',
-    verified_at: '2026-03-26',
+      'DNA l-a plasat sub control judiciar \u00een noiembrie 2019, sus\u021bin\u00e2nd c\u0103 ar fi pretins \u0219i primit bani \u0219i pavaje de la administratorul unei firme aflate \u00een rela\u021bii contractuale cu Prim\u0103ria 1 Decembrie. \u00centr-un comunicat ulterior din 16 ianuarie 2020, DNA a precizat c\u0103 urm\u0103rirea penal\u0103 fa\u021b\u0103 de el continua. Nu am identificat o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103 ulterioar\u0103 p\u00e2n\u0103 la 30 martie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2385,11 +2380,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9694',
-      },
-      {
-        label: 'Jurnalul de Ilfov',
-        kind: 'press',
-        url: 'https://jurnaluldeilfov.ro/alegeri-locale-in-comuna-1-decembrie/',
       },
     ],
   },
@@ -2404,8 +2394,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis \u00een judecat\u0103 de DNA la 18 decembrie 2025 \u00een dosarul privind presupuse mite de aproximativ 645.000 euro \u0219i sp\u0103lare de bani \u00een leg\u0103tur\u0103 cu emiterea unor documente urbanistice \u0219i alte demersuri administrative. Separat, DNA \u00eel mai trimisese \u00een judecat\u0103 \u00een iunie 2023 \u00eentr-un dosar de abuz \u00een serviciu privind contracte de asisten\u021b\u0103 juridic\u0103 ale Prim\u0103riei Mangalia.',
-    verified_at: '2026-03-27',
+      'Trimis \u00een judecat\u0103 de DNA la 18 decembrie 2025 \u00een dosarul privind presupuse mite de aproximativ 645.000 euro \u0219i sp\u0103lare de bani \u00een leg\u0103tur\u0103 cu emiterea unor documente urbanistice \u0219i alte demersuri administrative. Separat, \u00een dosarul mai vechi privind contractele de asisten\u021b\u0103 juridic\u0103 ale Prim\u0103riei Mangalia, Curtea de Apel Constan\u021ba a pronun\u021bat la 13 martie 2026 o solu\u021bie de achitare pe fond pentru Cristian Radu \u0219i ceilal\u021bi inculpa\u021bi; statusul general r\u0103m\u00e2ne totu\u0219i indicted din cauza cauzei distincte trimise \u00een judecat\u0103 de DNA \u00een decembrie 2025.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2423,9 +2413,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12105',
       },
       {
-        label: 'PNL Constan\u021ba',
+        label: 'Portal Just - Curtea de Apel Constan\u021ba',
         kind: 'official',
-        url: 'https://pnlconstanta.ro/2022/07/16/radu-cristian/',
+        url: 'https://portal.just.ro/36/Documents/ANUNTURI_SEDINTE/PENAL/_lista%20sedinte%202026/Lista%20ds%20352_.pdf',
+      },
+      {
+        label: 'Ziua de Constan\u021ba',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/verdict-astazi-in-dosarul-de-coruptie-al-fostului-primar-din-mangalia-cristian-radu-931027.html',
       },
     ],
   },
@@ -2466,8 +2461,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis \u00een judecat\u0103 de DNA \u00een 10 mai 2023 pentru finan\u021barea ilegal\u0103 a clubului Concordia Chiajna \u0219i pentru \u00eenchirierea unor baze sportive la tarife considerate derizorii, cu un prejudiciu total indicat de procurori de aproape 45 milioane lei. Verificarea din februarie 2026 indic\u0103 faptul c\u0103 dosarul nu avea \u00eenc\u0103 o solu\u021bie definitiv\u0103.',
-    verified_at: '2026-03-27',
+      'Trimis \u00een judecat\u0103 de DNA \u00een 10 mai 2023 pentru finan\u021barea ilegal\u0103 a clubului Concordia Chiajna \u0219i pentru \u00eenchirierea unor baze sportive la tarife considerate derizorii, cu un prejudiciu total indicat de procurori de aproape 45 milioane lei. Relat\u0103rile din 12 februarie 2026 indicau c\u0103 dosarul era \u00eenc\u0103 blocat \u00een camera preliminar\u0103 la Tribunalul Ilfov; p\u00e2n\u0103 la 30 martie 2026 nu am identificat o solu\u021bie definitiv\u0103 oficial\u0103 ulterioar\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2475,14 +2470,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12061',
       },
       {
-        label: 'Prim\u0103ria Chiajna',
-        kind: 'official',
-        url: 'https://www.primariachiajna.ro/membru-primarie/minea-mircea/',
-      },
-      {
         label: 'PressHub',
         kind: 'press',
-        url: 'https://www.presshub.ro/tribunalul-ilfov-ascunde-numele-judecatorului-care-blocheaza-dosarul-primarului-din-chiajna-caz-de-10-milioane-de-euro-401088/',
+        url: 'https://buletin.de/bucuresti/dosarul-penal-al-primarului-din-chiajna-apropiat-de-familia-savonea-blocat-de-doi-ani-in-camera-preliminara-presshub/',
       },
     ],
   },
@@ -2497,8 +2487,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis \u00een judecat\u0103 de DNA \u00een 12 iunie 2020 pentru exproprierea \u0219i intabularea unui teren care a ajuns ulterior, \u00een parte, la o firm\u0103 controlat\u0103 de rude \u0219i apropia\u021bi. Verificarea din 14 martie 2026 arat\u0103 c\u0103 pronun\u021barea pe fond fusese din nou am\u00e2nat\u0103, noul termen fiind stabilit pentru 7 aprilie 2026.',
-    verified_at: '2026-03-27',
+      'Trimis \u00een judecat\u0103 de DNA \u00een 12 iunie 2020 pentru exproprierea \u0219i intabularea unui teren care a ajuns ulterior, \u00een parte, la o firm\u0103 controlat\u0103 de rude \u0219i apropia\u021bi. Dup\u0103 ce achitarea pe fond din martie 2024 a fost desfiin\u021bat\u0103 \u00een apel la 16 ianuarie 2025, cauza a reintrat \u00een rejudecare; verificarea din martie 2026 arat\u0103 c\u0103 pronun\u021barea fusese din nou am\u00e2nat\u0103, noul termen fiind stabilit pentru 7 aprilie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2506,14 +2496,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9829',
       },
       {
-        label: 'Prim\u0103ria Agigea',
-        kind: 'official',
-        url: 'https://primaria-agigea.ro/primar/',
-      },
-      {
-        label: 'Jurnalul',
+        label: 'Ziarul Amprenta',
         kind: 'press',
-        url: 'https://jurnalul.ro/stiri/politica/rezultate-alegeri-locale-2024-cristian-cirjaliu-primaria-agigea-967215.html',
+        url: 'https://ziarulamprenta.ro/stirile-zilei/dosarul-lui-cristian-cirjaliu-primarul-din-agigea-se-va-rejudeca/371680/',
       },
       {
         label: 'Ziarul Amprenta',
@@ -2657,18 +2642,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA T\u00e2rgu Mure\u0219 a dispus la 10 decembrie 2024 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit indirect opere de art\u0103 \u0219i bani \u00een leg\u0103tur\u0103 cu contracte ale prim\u0103riei. La 25 iunie 2025, instan\u021ba a men\u021binut definitiv controlul judiciar, iar dosarul nu are o solu\u021bie final\u0103 public confirmat\u0103.',
-    verified_at: '2026-03-27',
+      'DNA T\u00e2rgu Mure\u0219 a dispus la 10 decembrie 2024 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit indirect opere de art\u0103 \u0219i bani \u00een leg\u0103tur\u0103 cu contracte ale prim\u0103riei. \u00cen cursul anului 2025 cauza a continuat cu men\u021binerea succesiv\u0103 a controlului judiciar, iar p\u00e2n\u0103 la 30 martie 2026 nu am identificat o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12757',
-      },
-      {
-        label: 'Prim\u0103ria T\u00e2rgu Mure\u0219',
-        kind: 'official',
-        url: 'https://www.tirgumures.ro/index.php?Itemid=228&id=8079&lang=ro&option=com_content&view=article',
       },
       {
         label: 'G4Media',
@@ -2688,23 +2668,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Constan\u021ba a anun\u021bat la 13 iulie 2023 efectuarea urm\u0103ririi penale fa\u021b\u0103 de primarul municipiului Constan\u021ba \u00een dosarul privind finan\u021barea integral\u0103, f\u0103r\u0103 procedur\u0103 de selec\u021bie public\u0103, a unui eveniment sportiv interna\u021bional. Verificarea acestei cauze p\u00e2n\u0103 la 27 martie 2026 nu a identificat o solu\u021bie definitiv\u0103 public confirmat\u0103.',
-    verified_at: '2026-03-27',
+      'DNA Constan\u021ba a anun\u021bat la 13 iulie 2023 efectuarea urm\u0103ririi penale fa\u021b\u0103 de primarul municipiului Constan\u021ba \u00een dosarul privind finan\u021barea integral\u0103, f\u0103r\u0103 procedur\u0103 de selec\u021bie public\u0103, a unui eveniment sportiv interna\u021bional. P\u00e2n\u0103 la 30 martie 2026 nu am identificat o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103 ulterioar\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12166',
-      },
-      {
-        label: 'Prim\u0103ria Constan\u021ba',
-        kind: 'official',
-        url: 'https://primaria-constanta.ro/stire-pmc/primarul-constantei-a-vizitat-santierul-scolii-gimnaziale-nr-7-remus-opreanu/',
-      },
-      {
-        label: 'PNL Constan\u021ba',
-        kind: 'official',
-        url: 'https://pnlconstanta.ro/2024/01/17/primarul-vergil-chitac-a-semnat-contractul-de-executie-a-proiectului-reabilitarea-retelelor-termice-secundare-si-contorizarea-la-nivel-de-scara-pentru-municipiul-constanta-etapa-iv/',
       },
     ],
   },
@@ -2719,18 +2689,13 @@ export const politicianAdditions = [
     conviction_year: 2025,
     status: 'first_instance',
     details:
-      'DNA Suceava a pus \u00een mi\u0219care ac\u021biunea penal\u0103 la 2 februarie 2024, sus\u021bin\u00e2nd c\u0103 ar fi divulgat subiectele unui concurs organizat de prim\u0103rie. Potrivit relat\u0103rilor din 1 mai 2025 \u0219i 22 ianuarie 2026, Tribunalul Boto\u0219ani l-a condamnat \u00een prim\u0103 instan\u021b\u0103 la 1 an de \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei, iar apelul era \u00eenc\u0103 pendinte.',
-    verified_at: '2026-03-27',
+      'DNA Suceava a pus \u00een mi\u0219care ac\u021biunea penal\u0103 la 2 februarie 2024, sus\u021bin\u00e2nd c\u0103 ar fi divulgat subiectele unui concurs organizat de prim\u0103rie. Tribunalul Boto\u0219ani l-a condamnat \u00een prim\u0103 instan\u021b\u0103 la 29 aprilie 2025 la 1 an de \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei. La 22 ianuarie 2026, Curtea de Apel Suceava am\u00e2na din nou pronun\u021barea \u00een apel pentru 20 februarie 2026; nu am identificat o solu\u021bie definitiv\u0103 public\u0103 ulterioar\u0103 p\u00e2n\u0103 la 30 martie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12362',
-      },
-      {
-        label: 'PSD Boto\u0219ani',
-        kind: 'official',
-        url: 'https://www.psdbotosani.ro/category/comunicate-presa/',
       },
       {
         label: 'Monitorul de Boto\u0219ani',
@@ -2755,8 +2720,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Dup\u0103 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i instituirea controlului judiciar \u00een august 2024, DNA l-a trimis \u00een judecat\u0103 la 9 decembrie 2024 pentru luare de mit\u0103 \u00een form\u0103 continuat\u0103, procurorii sus\u021bin\u00e2nd c\u0103 ar fi primit peste 1,15 milioane lei \u0219i 74.000 euro \u00een leg\u0103tur\u0103 cu acte de urbanism.',
-    verified_at: '2026-03-27',
+      'Dup\u0103 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i instituirea controlului judiciar la 2 august 2024, DNA l-a trimis \u00een judecat\u0103 la 9 decembrie 2024 pentru luare de mit\u0103 \u00een form\u0103 continuat\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit peste 1,15 milioane lei \u0219i 74.000 euro \u00een leg\u0103tur\u0103 cu acte de urbanism. Nu am identificat, p\u00e2n\u0103 la 30 martie 2026, un comunicat oficial ulterior care s\u0103 ateste o solu\u021bie definitiv\u0103 sau o schimbare public confirmat\u0103 a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2767,16 +2732,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12648',
-      },
-      {
-        label: 'Prim\u0103ria Lehliu-Gar\u0103',
-        kind: 'official',
-        url: 'https://www.primarialehliugara.ro/consiliul-local/',
-      },
-      {
-        label: 'PSD',
-        kind: 'official',
-        url: 'https://www.psd.ro/conferinta-de-presa-sustinuta-de-presedintele-interimar-al-psd-marcel-ciolacu-secretarul-general-interimar-al-psd-paul-stanescu-si-presedintele-psd-calarasi-iulian-iacomi-dupa-conferinta-organizat/',
       },
     ],
   },
@@ -2791,8 +2746,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA a dispus la 27 ianuarie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i control judiciar pe cau\u021biune fa\u021b\u0103 de primarul ora\u0219ului Sinaia. La 13 mai 2025, DNA a cerut \u00eenlocuirea m\u0103surii cu arestul preventiv, sus\u021bin\u00e2nd c\u0103 acesta ar fi continuat s\u0103 exercite atribu\u021bii de primar cu \u00eenc\u0103lcarea obliga\u021biilor impuse.',
-    verified_at: '2026-03-27',
+      'DNA a dispus la 27 ianuarie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i control judiciar pe cau\u021biune fa\u021b\u0103 de primarul ora\u0219ului Sinaia. La 13 mai 2025, DNA a cerut \u00eenlocuirea m\u0103surii cu arestul preventiv, sus\u021bin\u00e2nd c\u0103 acesta ar fi continuat s\u0103 exercite atribu\u021bii de primar cu \u00eenc\u0103lcarea obliga\u021biilor impuse. Nu am identificat, p\u00e2n\u0103 la 30 martie 2026, o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103 \u00een aceast\u0103 cauz\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2804,16 +2759,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12900',
       },
-      {
-        label: 'Prim\u0103ria Sinaia',
-        kind: 'official',
-        url: 'https://www.primaria-sinaia.ro/2025/12/21/anunt-sedinta-ordinara-a-consiliului-local-sinaia-care-se-va-desfasura-cu-prezenta-fizica-in-sala-de-sedinte-a-primariei-orasului-sinaia-marti-23-decembrie-2025-ora-1500/',
-      },
-      {
-        label: 'Observatorul Prahovean',
-        kind: 'press',
-        url: 'https://www.observatorulph.ro/administratie/2744369-primarului-din-sinaia-i-s-a-facut-rau-in-timpul-perchezitiilor-dna',
-      },
     ],
   },
   {
@@ -2822,23 +2767,18 @@ export const politicianAdditions = [
     position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi (jude\u021bul Boto\u0219ani)',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
-    sentence: 'Cercetat penal',
+    sentence: 'Acord de recunoa\u0219tere nevalidat definitiv',
     sentence_years: null,
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Potrivit relat\u0103rilor din martie 2026, a recunoscut fapta \u00eentr-un acord de recunoa\u0219tere a vinov\u0103\u021biei, dar validarea judec\u0103toreasc\u0103 nu era \u00eenc\u0103 definitiv\u0103.',
-    verified_at: '2026-03-28',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Relat\u0103ri din 13 martie 2026 indic\u0103 faptul c\u0103 a \u00eencheiat un acord de recunoa\u0219tere a vinov\u0103\u021biei \u0219i a acceptat o pedeaps\u0103 de 3 ani de \u00eenchisoare cu suspendare, \u00eens\u0103 validarea judec\u0103toreasc\u0103 \u0219i solu\u021bia definitiv\u0103 nu erau \u00eenc\u0103 public confirmate p\u00e2n\u0103 la 30 martie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
-      },
-      {
-        label: 'Monitorul de Boto\u0219ani',
-        kind: 'press',
-        url: 'https://www.monitorulbt.ro/local/2025/04/13/dna-zguduie-viata-politica-din-judet-modificari-in-conducerea-filialei-pnl-botosani/',
       },
       {
         label: 'Monitorul de Boto\u0219ani',
@@ -2853,13 +2793,13 @@ export const politicianAdditions = [
     position: 'Fost primar al comunei Mihai Eminescu (jude\u021bul Boto\u0219ani)',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
-    sentence: 'Sesizarea instantei cu acord de recunoastere a vinovatiei',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    sentence: '3 ani \u00eenchisoare cu suspendare (condamnare cu acord de recunoa\u0219tere)',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'first_instance',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een leg\u0103tur\u0103 cu lucr\u0103ri publice. La 11 noiembrie 2025, DNA a anun\u021bat sesizarea instan\u021bei, \u00een baza acordului de recunoa\u0219tere a vinov\u0103\u021biei \u00eencheiat cu el, ceea ce plaseaz\u0103 cauza \u00een faza judiciar\u0103. Verificarea din decembrie 2025 arat\u0103 c\u0103 nu mai de\u021binea func\u021bia de primar, iar presa local\u0103 \u00eel indica drept politician PSD.',
-    verified_at: '2026-03-28',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een leg\u0103tur\u0103 cu lucr\u0103ri publice. La 11 noiembrie 2025, DNA a anun\u021bat sesizarea instan\u021bei, \u00een baza acordului de recunoa\u0219tere a vinov\u0103\u021biei \u00eencheiat cu el. La 27 ianuarie 2026, Tribunalul Boto\u0219ani a admis acordul \u0219i l-a condamnat \u00een prim\u0103 instan\u021b\u0103 la 3 ani de \u00eenchisoare cu suspendare, cu termen de supraveghere de 4 ani, hot\u0103r\u00e2rea fiind nedefinitiv\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2872,14 +2812,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
       },
       {
-        label: 'Ziarul de Ia\u0219i',
+        label: '\u0218tiri Boto\u0219ani',
         kind: 'press',
-        url: 'https://www.ziaruldeiasi.ro/stiri/cine-este-verginel-gireada-primarul-saltat-azi-de-dna-latifundiar-psd-familia-sa-conduce-comuna-mihai-eminescu-din-2004--1742327.html',
-      },
-      {
-        label: 'TeleM Regional',
-        kind: 'press',
-        url: 'https://telem.ro/primaria-din-comuna-mihai-eminescu-o-afacere-in-familie-fiica-lui-verginel-gireada-a-castigat-alegerile/',
+        url: 'https://stiri.botosani.ro/stiri/justitie/decizie-in-dosarul-de-luare-de-mita-condamnare-cu-suspendare-verginel-gireada-obligat-sa-munceasca-fara-plata-la-primaria-botosani-sau-bucecea.html',
       },
     ],
   },
@@ -2894,23 +2829,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA a dispus la 8 august 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i controlul judiciar fa\u021b\u0103 de primarul comunei Troianul, re\u021bin\u00e2nd \u0219ase infrac\u021biuni de luare de mit\u0103. Procurorii sus\u021bin c\u0103 ar fi pretins \u0219i primit \u00een total 145.000 lei pentru atribuirea preferen\u021bial\u0103 a unor contracte \u0219i achizi\u021bii.',
-    verified_at: '2026-03-28',
+      'DNA a dispus la 8 august 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i controlul judiciar fa\u021b\u0103 de primarul comunei Troianul, re\u021bin\u00e2nd \u0219ase infrac\u021biuni de luare de mit\u0103. Procurorii sus\u021bin c\u0103 ar fi pretins \u0219i primit \u00een total 145.000 lei pentru atribuirea preferen\u021bial\u0103 a unor contracte \u0219i achizi\u021bii. Nu am identificat, p\u00e2n\u0103 la 30 martie 2026, o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103 \u00een aceast\u0103 cauz\u0103.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12988',
-      },
-      {
-        label: 'Prim\u0103ria Troianul',
-        kind: 'official',
-        url: 'https://www.comunatroianul.ro/primar.html',
-      },
-      {
-        label: 'G4Media',
-        kind: 'press',
-        url: 'https://www.g4media.ro/surse-perchezitii-dna-la-primaria-din-troianul-judetul-teleorman-este-vizat-primarul-psd-pentru-luare-de-mita-si-deturnare-de-fonduri-din-programele-anghel-saligny-si-pnrr.html',
       },
     ],
   },
@@ -2926,8 +2851,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Târgu Mureș a dispus la 12 februarie 2025 punerea în mișcare a acțiunii penale, iar la 12 septembrie 2025 l-a trimis în judecată sub control judiciar, susținând că ar fi folosit influența politică pentru promovarea temporară a unui șef ANAF Harghita de la care ar fi obținut informații fiscale nepublice despre mai multe societăți comerciale.',
-    verified_at: '2026-03-28',
+      'DNA Târgu Mureș a dispus la 12 februarie 2025 punerea în mișcare a acțiunii penale, iar la 12 septembrie 2025 l-a trimis în judecată sub control judiciar, susținând că ar fi folosit influența politică pentru promovarea temporară a unui șef ANAF Harghita de la care ar fi obținut informații fiscale nepublice despre mai multe societăți comerciale. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2938,16 +2863,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12792',
-      },
-      {
-        label: 'Consiliul Județean Harghita',
-        kind: 'official',
-        url: 'https://judetulharghita.ro/consiliul-judetean-harghita/conducere/',
-      },
-      {
-        label: 'UDMR',
-        kind: 'official',
-        url: 'https://udmr.ro/profil/Barti-Tihamer',
       },
     ],
   },
@@ -2962,8 +2877,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Brașov a pus în mișcare acțiunea penală la 31 octombrie 2025 și l-a trimis în judecată la 23 decembrie 2025, susținând că ar fi viciat procedurile de numire și menținere a conducerii Companiei Apa Brașov SA pentru a controla resursele societății.',
-    verified_at: '2026-03-28',
+      'DNA Brașov a pus în mișcare acțiunea penală la 31 octombrie 2025 și l-a trimis în judecată la 23 decembrie 2025, susținând că ar fi viciat procedurile de numire și menținere a conducerii Companiei Apa Brașov SA pentru a controla resursele societății. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -2975,11 +2890,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13217',
       },
-      {
-        label: 'PNL Brașov',
-        kind: 'official',
-        url: 'https://pnlbrasov.ro/echipa',
-      },
     ],
   },
   {
@@ -2988,13 +2898,13 @@ export const politicianAdditions = [
     position: 'Primar al comunei Drăgușeni (județul Botoșani)',
     position_type: 'mayor',
     crime: 'Luare de mită',
-    sentence: 'Trimis în judecată; aflat anterior sub control judiciar și în arest preventiv',
+    sentence: 'Trimis în judecată în stare de arest preventiv',
     sentence_years: null,
     conviction_year: null,
     status: 'indicted',
     details:
-      'După punerea în mișcare a acțiunii penale și plasarea sub control judiciar la 26 iunie 2025, DNA Suceava l-a trimis în judecată la 10 februarie 2026, acuzând că ar fi pretins 200.000 lei și ar fi primit 90.000 lei în legătură cu aprobarea plăților și derularea unor contracte publice.',
-    verified_at: '2026-03-28',
+      'După punerea în mișcare a acțiunii penale și plasarea sub control judiciar la 26 iunie 2025, DNA Suceava l-a trimis în judecată la 10 februarie 2026, în stare de arest preventiv, acuzând că ar fi pretins 200.000 lei și ar fi primit 90.000 lei în legătură cu aprobarea plăților și derularea unor contracte publice. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3005,11 +2915,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12933',
-      },
-      {
-        label: 'BotoșaniNews',
-        kind: 'press',
-        url: 'https://www.botosaninews.ro/617771/politic/primarul-din-botosani-care-a-anuntat-ca-trece-la-pnl-cu-tot-cu-organizatie-candideaza-din-partea-psd/',
       },
     ],
   },
@@ -3025,8 +2930,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar la 8 ianuarie 2026 l-a trimis în judecată, susținând că ar fi primit bani și ar fi furnizat informații confidențiale pentru favorizarea unei firme la licitații și plăți aferente unor lucrări publice.',
-    verified_at: '2026-03-28',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar la 8 ianuarie 2026 l-a trimis în judecată, susținând că ar fi primit bani și ar fi furnizat informații confidențiale pentru favorizarea unei firme la licitații și plăți aferente unor lucrări publice. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3037,11 +2942,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
-      },
-      {
-        label: 'Monitorul de Botoșani',
-        kind: 'press',
-        url: 'https://www.monitorulbt.ro/prima-pagina/2025/04/08/primarii-verginel-gireada-si-dan-oloieru-retinuti-de-dna-intr-un-dosar-de-coruptie/',
       },
     ],
   },
@@ -3056,8 +2956,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Bacău a dispus la 12 noiembrie 2025 punerea în mișcare a acțiunii penale și reținerea sa pentru luare de mită și abuz în serviciu în legătură cu mai multe contracte publice derulate în perioada 2023-2025. Verificarea din 12 februarie 2026 arată că a fost eliberat din arest preventiv, dar a rămas sub control judiciar și cu interdicția de a-și exercita funcția.',
-    verified_at: '2026-03-28',
+      'DNA Bacău a dispus la 12 noiembrie 2025 punerea în mișcare a acțiunii penale și reținerea sa pentru luare de mită și abuz în serviciu în legătură cu mai multe contracte publice derulate în perioada 2023-2025. La 12 februarie 2026, Curtea de Apel Bacău a dispus eliberarea sa din arest preventiv și plasarea sub control judiciar, cu interdicția de a-și exercita funcția. Nu am identificat, până la 30 martie 2026, o trimitere în judecată sau o soluție finală oficială în cauză.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3068,11 +2968,6 @@ export const politicianAdditions = [
         label: 'AGERPRES',
         kind: 'press',
         url: 'https://agerpres.ro/justitie/2026/02/12/neamt-primarul-comunei-zanesti-eliberat-din-arestul-preventiv-dar-cu-interdictie-de-a-exercita-funct--1527453',
-      },
-      {
-        label: 'Radio Iași',
-        kind: 'press',
-        url: 'https://www.radioiasi.ro/stiri/regional/primarul-comunei-zanesti-judetul-neamt-ioan-filip-a-fost-arestat-preventiv-pentru-30-zile/',
       },
     ],
   },
@@ -3087,8 +2982,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA a anunțat la 10 august 2022 trimiterea în judecată a lui Robert Sorin Negoiță în dosarul privind emiterea nelegală a unor documente de urbanism și lucrări publice la Sectorul 3, după comunicatul de urmărire penală din 21 februarie 2022. Separat, la 6 februarie 2026, DNA a dispus punerea în mișcare a acțiunii penale și control judiciar pe cauțiune într-un nou dosar privind lucrări rutiere și de construire realizate fără documentațiile și avizele legale. Nu am identificat până la 28 martie 2026 o soluție definitivă oficială în aceste cauze.',
-    verified_at: '2026-03-28',
+      'DNA a anunțat la 10 august 2022 trimiterea în judecată a lui Robert Sorin Negoiță în dosarul privind emiterea nelegală a unor documente de urbanism și lucrări publice la Sectorul 3, după comunicatul de urmărire penală din 21 februarie 2022. Separat, la 6 februarie 2026, DNA a dispus punerea în mișcare a acțiunii penale și control judiciar pe cauțiune într-un nou dosar privind lucrări rutiere și de construire realizate fără documentațiile și avizele legale. Nu am identificat până la 30 martie 2026 o soluție definitivă oficială în aceste cauze.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3105,16 +3000,6 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13536',
       },
-      {
-        label: 'Primăria Sectorului 3',
-        kind: 'official',
-        url: 'https://www.primarie3.ro/index.php/primaria/conducerea_detaliu/22',
-      },
-      {
-        label: 'Portal Legislativ',
-        kind: 'official',
-        url: 'https://legislatie.just.ro/Public/DetaliiDocument/281101',
-      },
     ],
   },
   {
@@ -3128,8 +3013,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA l-a trimis în judecată la 25 iunie 2025 într-un dosar de dare de mită legat de controale de mediu, iar la 22 septembrie 2025 a dispus punerea în mișcare a acțiunii penale și control judiciar într-un al doilea dosar, în care susține că ar fi pretins și primit 500.000 lei pentru plăți dintr-un contract de modernizare de drumuri.',
-    verified_at: '2026-03-28',
+      'DNA l-a trimis în judecată la 25 iunie 2025 într-un dosar de dare de mită legat de controale de mediu, iar la 22 septembrie 2025 a dispus punerea în mișcare a acțiunii penale și control judiciar într-un al doilea dosar, în care susține că ar fi pretins și primit 500.000 lei pentru plăți dintr-un contract de modernizare de drumuri. La 17 ianuarie 2026, Tribunalul Botoșani a menținut controlul judiciar în cel de-al doilea dosar. Nu am identificat, până la 30 martie 2026, o soluție definitivă oficială ulterioară.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3142,9 +3027,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=13020',
       },
       {
-        label: 'Epoch Times România',
+        label: 'Știri de la Botoșani',
         kind: 'press',
-        url: 'https://epochtimes-romania.com/news/dna-dispune-sechestru-asigurator-si-control-judiciar-pentru-un-primar-de-la-psd-acuzat-ca-ar-fi-luat-spaga---376657',
+        url: 'https://stiridelabotosani.ro/categorie/administratie/tribunalul-botosani-mentine-restrictiile-pentru-primarul-din-mihalaseni-acuzat-de-luare-de-mita',
       },
     ],
   },
@@ -3159,8 +3044,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar față de viceprimarul comunei Coșula, susținând că ar fi pretins materiale de construcții de peste 30.000 lei pentru un apropiat. În mai 2025 presa locală a consemnat că, deși era cercetat, a câștigat alegerile pentru funcția de primar.',
-    verified_at: '2026-03-28',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar față de viceprimarul comunei Coșula, susținând că ar fi pretins materiale de construcții de peste 30.000 lei pentru un apropiat. În mai 2025 presa locală a consemnat că, deși era cercetat, a câștigat alegerile pentru funcția de primar. Nu am identificat, până la 30 martie 2026, o trimitere în judecată sau o soluție finală oficială în această cauză.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3185,8 +3070,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar în februarie 2026 presa locală a consemnat menținerea definitivă a măsurii. Procurorii susțin că ar fi pretins bani pentru a interveni în favoarea unei firme la licitații și pentru deblocarea unor plăți aferente lucrărilor publice.',
-    verified_at: '2026-03-28',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea în mișcare a acțiunii penale și control judiciar pe cauțiune, iar la 4 februarie 2026 Tribunalul Botoșani a respins definitiv contestația formulată împotriva prelungirii măsurii dispuse de DNA de la 30 ianuarie 2026. Procurorii susțin că ar fi pretins bani pentru a interveni în favoarea unei firme la licitații și pentru deblocarea unor plăți aferente lucrărilor publice. Nu am identificat, până la 30 martie 2026, o trimitere în judecată sau o soluție finală oficială în cauză.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3197,11 +3082,6 @@ export const politicianAdditions = [
         label: 'Radio Iași',
         kind: 'press',
         url: 'https://www.radioiasi.ro/stiri/regional/dna-suceava-mentine-controlul-judiciar-in-cazul-fostului-secretar-general-al-pnl-botosani-ionut-voicu/',
-      },
-      {
-        label: 'BotoșaniNews',
-        kind: 'press',
-        url: 'https://www.botosaninews.ro/679402/social/justitie/secretarul-pnl-ionut-voicu-acuzat-de-trafic-de-influenta-ar-fi-cerut-bani-de-la-un-om-de-afaceri-pentru-a-favoriza-castigarea-unor-licitatii/',
       },
     ],
   },
@@ -3217,8 +3097,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'După punerea în mișcare a acțiunii penale și controlul judiciar dispuse la 1 februarie 2024, DNA a extins acuzațiile la 30 iulie 2024 și l-a trimis în judecată la 9 decembrie 2024 în dosarul privind pretinse mite, trafic de influență și folosirea unor operațiuni financiare incompatibile cu funcția de președinte al Consiliului Județean Prahova.',
-    verified_at: '2026-03-28',
+      'După punerea în mișcare a acțiunii penale și controlul judiciar dispuse la 1 februarie 2024, DNA a extins acuzațiile la 30 iulie 2024 și l-a trimis în judecată la 9 decembrie 2024 în dosarul privind pretinse mite, trafic de influență și folosirea unor operațiuni financiare incompatibile cu funcția de președinte al Consiliului Județean Prahova. Potrivit relatărilor din 6 februarie 2026, dosarul se afla încă în camera preliminară la Curtea de Apel București, cu termen nou stabilit pentru 18 martie 2026.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3231,14 +3111,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12647',
       },
       {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=EB40708A-6972-4D24-BDF4-4CBBD6310544',
-      },
-      {
-        label: 'Consiliul Județean Prahova',
-        kind: 'official',
-        url: 'https://cjph.ro/a-inceput-constructia-retelei-de-gaze-pe-valea-slanicului-iulian-dumitrescu-presedintele-cj-prahova-a-semnat-ordinul-pentru-inceperea-lucrarilor-in-comunele-alunis-bertea-si-stefesti/',
+        label: 'Ziarul Prahova',
+        kind: 'press',
+        url: 'https://ziarulprahova.ro/2026/02/o-noua-amanare-in-dosarul-privind-inceperea-procesului-lui-iulian-dumitrescu/',
       },
     ],
   },
@@ -3254,18 +3129,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Galați a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Aur Sandu pentru rolul atribuit în folosirea unor contracte și adeverințe false la APIA, în perioada 2016-2019, pentru obținerea pe nedrept a unor subvenții în valoare totală de 158.675 lei.',
-    verified_at: '2026-03-28',
+      'DNA Galați a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Aur Sandu pentru rolul atribuit în folosirea unor contracte și adeverințe false la APIA, în perioada 2016-2019, pentru obținerea pe nedrept a unor subvenții în valoare totală de 158.675 lei. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12877',
-      },
-      {
-        label: 'Primăria Boghești',
-        kind: 'official',
-        url: 'https://www.primaria-boghesti.ro/echipa/aur-sandu/',
       },
     ],
   },
@@ -3280,8 +3150,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Constanța a anunțat la 6 mai 2025 trimiterea în judecată a deputatei Mirela-Florența Matichescu în dosarul privind acordarea pretins nelegală și discriminatorie, în anul 2018, a unei finanțări nerambursabile pentru o asociație sportivă de fotbal, cu un prejudiciu indicat de 835.757,26 lei.',
-    verified_at: '2026-03-28',
+      'DNA Constanța a anunțat la 6 mai 2025 trimiterea în judecată a deputatei Mirela-Florența Matichescu în dosarul privind acordarea pretins nelegală și discriminatorie, în anul 2018, a unei finanțări nerambursabile pentru o asociație sportivă de fotbal, cu un prejudiciu indicat de 835.757,26 lei. La 3 decembrie 2025, Înalta Curte a constatat legalitatea sesizării instanței și a administrării probelor, permițând începerea judecății. Nu am identificat, până la 30 martie 2026, o soluție definitivă ulterioară.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3291,7 +3161,7 @@ export const politicianAdditions = [
       {
         label: 'Ziua de Constanța',
         kind: 'press',
-        url: 'https://www.ziuaconstanta.ro/stiri/politic/deputata-psd-mirela-matichescu-la-forumul-de-bun-si-bine-de-la-palatul-parlamentului-914625.html',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/oficial-incepe-procesul-in-care-deputata-psd-constanta-mirela-matichescu-este-acuzata-de-abuz-in-serviciu-minuta-919994.html',
       },
     ],
   },
@@ -3306,18 +3176,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Cluj a anunțat la 12 noiembrie 2025 trimiterea în judecată a lui Răzvan-Iulian Ciortea, după ce ar fi declarat necorespunzător adevărului că altă persoană se afla la volanul autoturismului surprins cu 164 km/h pe autostradă. Dosarul a fost trimis spre judecare la Înalta Curte de Casație și Justiție, având în vedere calitatea sa de deputat.',
-    verified_at: '2026-03-28',
+      'DNA Cluj a anunțat la 12 noiembrie 2025 trimiterea în judecată a lui Răzvan-Iulian Ciortea, după ce ar fi declarat necorespunzător adevărului că altă persoană se afla la volanul autoturismului surprins cu 164 km/h pe autostradă. Dosarul a fost trimis spre judecare la Înalta Curte de Casație și Justiție, având în vedere calitatea sa de deputat. Nu am identificat, până la 30 martie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13251',
-      },
-      {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=105ce174-ddec-4231-b337-59a47933d983',
       },
     ],
   },
@@ -3327,13 +3192,13 @@ export const politicianAdditions = [
     position: 'Fost președinte interimar al filialei PNL Vaslui; fost președinte al Autorității pentru Reformă Feroviară',
     position_type: 'other',
     crime: 'Folosirea influenței ori autorității în scopul obținerii de foloase necuvenite',
-    sentence: 'Cercetat penal; sub control judiciar',
+    sentence: 'Cercetat penal; control judiciar menținut definitiv la 17 februarie 2026',
     sentence_years: null,
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Iași a dispus la 6 noiembrie 2025 punerea în mișcare a acțiunii penale și controlul judiciar față de Mihai Barbu, susținând că și-ar fi folosit influența politică pentru facilitarea unor intervenții legate de un dosar de despăgubiri de aproximativ 3.000.000 euro. Potrivit relatărilor din 17 februarie 2026, măsura controlului judiciar a fost menținută definitiv.',
-    verified_at: '2026-03-28',
+      'DNA Iași a dispus la 6 noiembrie 2025 punerea în mișcare a acțiunii penale și controlul judiciar față de Mihai Barbu, susținând că și-ar fi folosit influența politică pentru facilitarea unor intervenții legate de un dosar de despăgubiri de aproximativ 3.000.000 euro. La 17 februarie 2026, Tribunalul Vaslui a respins definitiv plângerea formulată împotriva ordonanței DNA din 22 decembrie 2025 de prelungire a controlului judiciar. Nu am identificat, până la 30 martie 2026, o trimitere în judecată sau o soluție finală oficială în cauză.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
@@ -3345,10 +3210,119 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://agerpres.ro/justitie/2026/02/17/vaslui-fostul-presedinte-interimar-al-organizatiei-pnl-mihai-barbu-ramane-sub-control-judiciar--1528781',
       },
+    ],
+  },
+  {
+    name: 'Mihai Banu',
+    party: 'PNL',
+    position: 'Deputat de Bacău la data faptelor',
+    position_type: 'deputy',
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Bacău l-a condamnat definitiv la 6 iulie 2020 la 3 ani de închisoare pentru trafic de influență într-un al doilea dosar DNA legat de contracte de îndiguire și bani pretinși pentru partidul din care făcea parte. Anterior, la 14 decembrie 2017, fusese deja condamnat definitiv la 3 ani de închisoare în dosarul Berca. L-am păstrat la PNL întrucât mandatul parlamentar relevant a fost obținut pe listele PNL în 2008, chiar dacă în plan local a gravitat ulterior și în jurul PDL Bacău.',
+    verified_at: '2026-03-30',
+    sources: [
       {
-        label: 'TVR Info',
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9924',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8631',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3a777a84-f5ad-4743-ab60-e78ab6011c6f',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Munteanu',
+    party: 'PSD',
+    position: 'Deputat de Neamț; fost lider al grupului PSD din Camera Deputaților',
+    position_type: 'deputy',
+    crime: 'Trafic de influență; spălare de bani',
+    sentence: '6 ani închisoare în primă instanță; proces încetat definitiv ca urmare a prescripției',
+    sentence_years: 6,
+    conviction_year: 2020,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată sub control judiciar la 29 iunie 2017, acuzându-l că ar fi pretins 400.000 euro pentru intervenții pe lângă conducerea Hidroelectrica. Tribunalul București l-a condamnat în noiembrie 2020 la 6 ani de închisoare, însă la 10 mai 2023 Curtea de Apel București a dispus definitiv încetarea procesului penal ca urmare a intervenirii prescripției răspunderii penale și confiscarea sumelor considerate traficate.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8263',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=7D8E623A-CAC6-43FD-8691-644C66F5E7A7',
+      },
+      {
+        label: 'Digi24',
         kind: 'press',
-        url: 'https://tvrinfo.ro/presedintele-pnl-vaslui-mihai-barbu-plasat-sub-control-judiciar-dogioiu-explicatii-privind-intalnirea-bolojan-bogos/',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/un-fost-lider-al-deputatilor-psd-scapa-de-o-condamnare-de-sase-ani-de-inchisoare-2342779',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Adăscăliței',
+    party: 'PSD',
+    position: 'Deputat de Iași',
+    position_type: 'deputy',
+    crime: 'Operațiuni financiare incompatibile cu funcția; folosirea cu rea-credință a bunurilor sau creditului societății',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Iași l-a trimis în judecată sub control judiciar la 7 iulie 2015, susținând că a continuat să administreze în fapt mai multe societăți și a folosit în mod contrar intereselor unei firme bunurile și creditul acesteia. La 7 octombrie 2019, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, reținând că faptele nu sunt prevăzute de legea penală.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6523',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/profesia-parlamentarilor-fara-legatura-cu-domeniul-de-legiferare-sunt-un-autodidact-cu-oarece-rezultate-sa-spun-asa-272977',
+      },
+    ],
+  },
+  {
+    name: 'Mihai Alexandru Voicu',
+    party: 'PNL',
+    position: 'Deputat de Dolj',
+    position_type: 'deputy',
+    crime: 'Folosirea influenței sau autorității într-un partid pentru obținerea de foloase necuvenite',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Craiova l-a trimis în judecată la 21 decembrie 2017, susținând că ar fi condiționat candidaturi eligibile și susținerea pentru funcții publice de plata unor contribuții pentru campania electorală din 2012. La 22 iunie 2020, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, constatând că faptele nu sunt prevăzute de legea penală.',
+    verified_at: '2026-03-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8575',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=a6fcb930-a12a-4d8a-bb7c-7a99b5b95856',
       },
     ],
   },
@@ -3456,8 +3430,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA l-a trimis în judecată la 30 decembrie 2015 în dosarul vânzării activului „Cazarma 1375 Ciuperceasca”, acuzându-l că l-a împuternicit pe șeful Plopeni Industrial Parc să înstrăineze terenuri fără evaluare și licitație. În aprilie 2024, ÎCCJ a desființat soluția de încetare prin prescripție și a dispus rejudecarea cauzei, astfel că am păstrat statutul de trimis în judecată.',
-    verified_at: '2026-03-29',
+      'DNA l-a trimis în judecată la 30 decembrie 2015 în dosarul vânzării activului „Cazarma 1375 Ciuperceasca”, acuzându-l că l-a împuternicit pe șeful Plopeni Industrial Parc să înstrăineze terenuri fără evaluare și licitație. În aprilie 2024, ÎCCJ a desființat soluția de încetare prin prescripție și a dispus rejudecarea cauzei. Nu am identificat, până la 30 martie 2026, o soluție definitivă ulterioară care să justifice schimbarea statutului.',
+    verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
