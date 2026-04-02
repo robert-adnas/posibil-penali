@@ -3327,6 +3327,94 @@ export const politicianAdditions = [
     ],
   },
   {
+    name: 'Valerian Vreme',
+    party: 'PDL',
+    position: 'Fost ministru al Comunicațiilor și Societății Informaționale; deputat de Bacău',
+    position_type: 'minister',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a cerut începerea urmăririi penale în dosarul Microsoft în septembrie 2014 și l-a trimis în judecată la 13 septembrie 2017 pentru abuz în serviciu în legătură cu contractul de licențe software pentru școli. La 24 septembrie 2019, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, constatând că fapta nu este prevăzută de legea penală.',
+    verified_at: '2026-04-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8368',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5309',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/fostul-ministru-al-comunicatiilor-valerian-vreme-a-demisionat-din-pdl_339703.html',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Roșca',
+    party: 'PNL',
+    position: 'Deputat de Prahova',
+    position_type: 'deputy',
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare cu suspendare în primă instanță; proces încetat definitiv ca urmare a prescripției',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'prescribed',
+    details:
+      'DNA a cerut în 11 noiembrie 2014 încuviințarea arestării preventive a deputatului Mircea Roșca și l-a acuzat de două infracțiuni de trafic de influență. În februarie 2018 a fost condamnat în primă instanță la 3 ani de închisoare cu suspendare, însă la 22 aprilie 2024 Înalta Curte de Casație și Justiție a dispus definitiv încetarea procesului penal ca urmare a intervenirii prescripției.',
+    verified_at: '2026-04-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5505',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/2024/04/22/deputatul-liberal-mircea-rosca-scapa-definitiv-de-acuzatiile-de-coruptie-dupa-ce-faptele-s-au-prescr--1284908',
+      },
+      {
+        label: 'Observatorul Prahovean',
+        kind: 'press',
+        url: 'https://www.observatorulph.ro/national/90993-mircea-rosca-condamnat-la-trei-ani-de-inchisoare-cu-suspendare',
+      },
+    ],
+  },
+  {
+    name: 'Cornel Mircea Sămărtinean',
+    party: 'PMP',
+    position: 'Deputat de Timiș; fost director al Aeroportului Internațional „Traian Vuia” Timișoara',
+    position_type: 'deputy',
+    crime: 'Abuz în serviciu; conflict de interese',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Timișoara l-a trimis în judecată la 22 decembrie 2015 pentru modul în care au fost închiriate spațiile comerciale din aeroport în anul 2010. La 5 aprilie 2021, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, reținând că faptele nu sunt prevăzute de legea penală.',
+    verified_at: '2026-04-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6987',
+      },
+      {
+        label: 'deBanat',
+        kind: 'press',
+        url: 'https://debanat.ro/2017/04/un-deputat-pmp-si-un-consilier-judetean-pnl-ajung-in-instanta-in-dosarul-aeroportul_189565.html',
+      },
+    ],
+  },
+  {
     name: 'Marian Cristinel Bîgiu',
     party: 'PNL',
     position: 'Președinte al Consiliului Județean Buzău; fost senator',
