@@ -7,6 +7,7 @@ import { Filters } from '../components/Filters';
 import { StatsBar, PrejudiciuBanner } from '../components/StatsBar';
 import { DetailPanel } from '../components/DetailPanel';
 import { PartyRanking } from '../components/PartyRanking';
+import { CountyRanking } from '../components/CountyRanking';
 import { StatusLegend } from '../components/StatusLegend';
 import { downloadJSON, downloadCSV } from '../utils/download';
 import { useAnalytics } from '../hooks/useAnalytics';
@@ -153,6 +154,7 @@ export function HomePage() {
 
             <aside className="main-grid-sidebar">
               <PartyRanking data={filteredData} />
+              <CountyRanking data={filteredData} />
             </aside>
           </div>
         </div>

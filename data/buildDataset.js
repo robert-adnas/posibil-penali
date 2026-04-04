@@ -2,6 +2,7 @@ import {
   metadataOverrides,
   politicianAdditions,
   politicianOverrides,
+  countyOverrides,
 } from './politicianEnhancements.js';
 
 const HOST_LABELS = {
@@ -129,14 +130,23 @@ function mergePolitician(basePolitician, override = {}) {
   return merged;
 }
 
+function applyCounty(politician) {
+  if (politician.county) return politician;
+  const county = countyOverrides[politician.name];
+  if (county) return { ...politician, county };
+  return politician;
+}
+
 export function buildDataset(baseData) {
   const basePoliticians = baseData.politicians
-    .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}));
+    .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
+    .map(applyCounty);
 
   const existingNames = new Set(basePoliticians.map((politician) => politician.name));
   const additions = politicianAdditions
     .filter((politician) => !existingNames.has(politician.name))
-    .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}));
+    .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
+    .map(applyCounty);
 
   return {
     metadata: {

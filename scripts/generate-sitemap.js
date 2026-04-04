@@ -47,10 +47,61 @@ function urlEntry({ loc, lastmod, changefreq, priority }) {
   ].join('\n');
 }
 
+// Build party pages
+const partyGroups = {};
+politicians.forEach((p) => {
+  partyGroups[p.party] = (partyGroups[p.party] || 0) + 1;
+});
+const partyEntries = Object.entries(partyGroups)
+  .sort((a, b) => b[1] - a[1])
+  .map(([party]) =>
+    urlEntry({
+      loc: `${BASE_URL}/partid/${nameToSlug(party)}`,
+      lastmod: lastMod,
+      changefreq: 'weekly',
+      priority: '0.8',
+    })
+  );
+
+// Build status pages
+const STATUS_ORDER = [
+  'convicted', 'first_instance', 'indicted', 'investigated',
+  'prescribed', 'closed', 'acquitted',
+];
+const statusEntries = STATUS_ORDER
+  .filter((status) => politicians.some((p) => p.status === status))
+  .map((status) =>
+    urlEntry({
+      loc: `${BASE_URL}/status/${status}`,
+      lastmod: lastMod,
+      changefreq: 'weekly',
+      priority: '0.8',
+    })
+  );
+
+// Build county pages
+const countyGroups = {};
+politicians.forEach((p) => {
+  if (p.county) countyGroups[p.county] = (countyGroups[p.county] || 0) + 1;
+});
+const countyEntries = Object.entries(countyGroups)
+  .sort((a, b) => b[1] - a[1])
+  .map(([county]) =>
+    urlEntry({
+      loc: `${BASE_URL}/judet/${nameToSlug(county)}`,
+      lastmod: lastMod,
+      changefreq: 'weekly',
+      priority: '0.8',
+    })
+  );
+
 const entries = [
   ...staticPages.map((p) =>
     urlEntry({ loc: `${BASE_URL}${p.path}`, lastmod: lastMod, changefreq: p.changefreq, priority: p.priority })
   ),
+  ...partyEntries,
+  ...statusEntries,
+  ...countyEntries,
   ...politicians.map((p) => {
     const slug = nameToSlug(p.name);
     const politicianLastMod = p.verified_at || lastMod;
@@ -73,5 +124,5 @@ const xml = [
 const outPath = join(root, 'public/sitemap.xml');
 writeFileSync(outPath, xml, 'utf8');
 
-const total = staticPages.length + politicians.length;
-console.log(`✓ sitemap.xml generated — ${total} URLs (${staticPages.length} static + ${politicians.length} politicians)`);
+const total = staticPages.length + partyEntries.length + statusEntries.length + countyEntries.length + politicians.length;
+console.log(`✓ sitemap.xml generated — ${total} URLs (${staticPages.length} static + ${partyEntries.length} parties + ${statusEntries.length} statuses + ${countyEntries.length} counties + ${politicians.length} politicians)`);

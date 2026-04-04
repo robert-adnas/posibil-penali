@@ -197,12 +197,20 @@ export function PoliticianPage() {
           </div>
 
           <div className="pol-page-meta">
-            <span className="pol-page-party">
+            <Link to={`/partid/${nameToSlug(politician.party)}`} className="pol-page-party pol-page-meta-link">
               <span className="detail-panel-party-dot" />
               {politician.party}
-            </span>
+            </Link>
             <span className="detail-panel-separator">·</span>
             <span>{POSITION_LABELS[politician.position_type] || politician.position_type}</span>
+            {politician.county && (
+              <>
+                <span className="detail-panel-separator">·</span>
+                <Link to={`/judet/${nameToSlug(politician.county)}`} className="pol-page-meta-link">
+                  {politician.county}
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </header>
@@ -306,33 +314,48 @@ export function PoliticianPage() {
               </p>
             </div>
 
-            {sameParty.length > 0 && (
+            {(sameParty.length > 0 || politician.county) && (
               <aside className="pol-page-sidebar">
-                <div className="pol-page-sidebar-heading">
-                  Alți politicieni {politician.party}
-                </div>
-                <ul className="pol-page-sidebar-list">
-                  {sameParty.map((p) => (
-                    <li key={p.name}>
+                {sameParty.length > 0 && (
+                  <>
+                    <div className="pol-page-sidebar-heading">
+                      Alți politicieni {politician.party}
+                    </div>
+                    <ul className="pol-page-sidebar-list">
+                      {sameParty.map((p) => (
+                        <li key={p.name}>
+                          <Link
+                            to={`/politician/${nameToSlug(p.name)}`}
+                            state={{ from: '/lista', fromLabel: 'Lista politicienilor' }}
+                            className="pol-page-sidebar-link"
+                            data-status={p.status}
+                          >
+                            <span className="pol-page-sidebar-dot" />
+                            <span className="pol-page-sidebar-name">{p.name}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    {allData.filter((p) => p.party === politician.party).length > 11 && (
                       <Link
-                        to={`/politician/${nameToSlug(p.name)}`}
-                        state={{ from: '/lista', fromLabel: 'Lista politicienilor' }}
-                        className="pol-page-sidebar-link"
-                        data-status={p.status}
+                        to={`/partid/${nameToSlug(politician.party)}`}
+                        className="pol-page-sidebar-more"
                       >
-                        <span className="pol-page-sidebar-dot" />
-                        <span className="pol-page-sidebar-name">{p.name}</span>
+                        Toți din {politician.party} →
                       </Link>
-                    </li>
-                  ))}
-                </ul>
-                {allData.filter((p) => p.party === politician.party).length > 11 && (
-                  <Link
-                    to={`/lista?q=${encodeURIComponent(politician.party)}`}
-                    className="pol-page-sidebar-more"
-                  >
-                    Toți din {politician.party} →
-                  </Link>
+                    )}
+                  </>
+                )}
+                {politician.county && (
+                  <div className="pol-page-sidebar-county">
+                    <div className="pol-page-sidebar-heading">Județ</div>
+                    <Link
+                      to={`/judet/${nameToSlug(politician.county)}`}
+                      className="pol-page-sidebar-county-link"
+                    >
+                      {politician.county} →
+                    </Link>
+                  </div>
                 )}
               </aside>
             )}

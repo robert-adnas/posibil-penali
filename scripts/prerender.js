@@ -458,6 +458,256 @@ for (const page of staticPages) {
   count += 1;
 }
 
+// ── Party pages ─────────────────────────────────────────
+const partyGroups = {};
+politicians.forEach((politician) => {
+  if (!partyGroups[politician.party]) partyGroups[politician.party] = [];
+  partyGroups[politician.party].push(politician);
+});
+
+const STATUS_DESCRIPTIONS = {
+  convicted: 'Politicieni cu condamnare definitiv\u0103 \u2014 sentin\u021ba a trecut prin toate instan\u021bele de apel \u0219i este executorie.',
+  first_instance: 'Politicieni condamna\u021bi \u00een prim\u0103 instan\u021b\u0103 \u2014 sentin\u021ba nu este definitiv\u0103 \u0219i poate fi contestat\u0103 prin apel.',
+  indicted: 'Politicieni trimi\u0219i \u00een judecat\u0103 de procuratur\u0103 \u2014 procesul penal este \u00een curs.',
+  investigated: 'Politicieni cerceta\u021bi penal \u2014 ancheta este \u00een curs, f\u0103r\u0103 trimitere \u00een judecat\u0103.',
+  prescribed: 'Cazuri \u00een care instan\u021ba a constatat prescrip\u021bia faptelor \u2014 procesul s-a \u00eenchis f\u0103r\u0103 o sentin\u021b\u0103 pe fond.',
+  closed: 'Cazuri clasate sau \u00eenchise f\u0103r\u0103 trimitere \u00een judecat\u0103.',
+  acquitted: 'Politicieni achita\u021bi \u2014 instan\u021ba a decis c\u0103 fapta nu exist\u0103, nu a fost comis\u0103 de inculpat, sau nu este infrac\u021biune.',
+};
+
+for (const [party, members] of Object.entries(partyGroups)) {
+  const partySlug = nameToSlug(party);
+  const sorted = byStatusThenName(members);
+  const convictedMembers = members.filter((p) => p.status === 'convicted');
+  const totalYears = convictedMembers.reduce((s, p) => s + (p.sentence_years || 0), 0);
+  const otherParties = Object.entries(partyGroups)
+    .filter(([name]) => name !== party)
+    .sort((a, b) => b[1].length - a[1].length);
+
+  const partyJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${party} \u2014 Politicieni cu dosare penale`,
+    url: `${BASE_URL}/partid/${partySlug}`,
+    description: `${members.length} politicieni ${party} cu dosare penale: ${convictedMembers.length} condamna\u021bi definitiv.`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: members.length,
+      itemListElement: sorted.slice(0, 20).map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${BASE_URL}/politician/${nameToSlug(p.name)}`,
+        name: p.name,
+      })),
+    },
+  };
+
+  renderPage({
+    path: `partid/${partySlug}`,
+    title: `${escapeHtml(party)} \u2014 Politicieni cu dosare penale | Politicieni Corup\u021bi`,
+    description: `${members.length} politicieni ${party} cu dosare penale: ${convictedMembers.length} condamna\u021bi definitiv, ${Math.round(totalYears)} ani de \u00eenchisoare.`,
+    canonical: `${BASE_URL}/partid/${partySlug}`,
+    jsonLd: partyJsonLd,
+    rootContent: `
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhiv\u0103</a>
+              <a href="/lista">Lista complet\u0103</a>
+              <span aria-current="page">${escapeHtml(party)}</span>
+            </nav>
+            <p class="app-kicker">Partid</p>
+            <h1 class="app-title">${escapeHtml(party)}</h1>
+            <p class="app-intro">${members.length} politicieni cu dosare penale: ${convictedMembers.length} condamna\u021bi definitiv, ${Math.round(totalYears)} ani de \u00eenchisoare.</p>
+            ${renderSiteNav()}
+            ${renderSection(
+              `Politicieni ${escapeHtml(party)} documenta\u021bi (${members.length})`,
+              renderBulletList(sorted.map((p) => renderPoliticianListItem(p, { includeCrime: true })))
+            )}
+            ${otherParties.length > 0 ? renderSection(
+              'Alte partide',
+              renderBulletList(otherParties.map(([name, list]) =>
+                `<li><a href="/partid/${nameToSlug(name)}">${escapeHtml(name)} (${list.length})</a></li>`
+              ))
+            ) : ''}
+          </div>
+        </main>
+      </div>
+    `,
+  });
+  count += 1;
+}
+
+// ── Status pages ────────────────────────────────────────
+for (const status of STATUS_ORDER) {
+  const statusMembers = byStatusThenName(politicians.filter((p) => p.status === status));
+  if (statusMembers.length === 0) continue;
+
+  const statusSlug = status;
+  const label = STATUS_LABELS[status] || status;
+  const totalYears = statusMembers.reduce((s, p) => s + (p.sentence_years || 0), 0);
+  const statusDescription = STATUS_DESCRIPTIONS[status] || '';
+
+  const statusPartyCounts = {};
+  statusMembers.forEach((p) => {
+    statusPartyCounts[p.party] = (statusPartyCounts[p.party] || 0) + 1;
+  });
+  const statusParties = Object.entries(statusPartyCounts).sort((a, b) => b[1] - a[1]);
+
+  const statusJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${label} \u2014 Politicieni`,
+    url: `${BASE_URL}/status/${statusSlug}`,
+    description: `${statusMembers.length} politicieni rom\u00e2ni cu status \u201e${label.toLowerCase()}\u201d. ${statusDescription}`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: statusMembers.length,
+      itemListElement: statusMembers.slice(0, 20).map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${BASE_URL}/politician/${nameToSlug(p.name)}`,
+        name: p.name,
+      })),
+    },
+  };
+
+  const otherStatuses = STATUS_ORDER.filter((s) => s !== status && politicians.some((p) => p.status === s));
+
+  renderPage({
+    path: `status/${statusSlug}`,
+    title: `${label} \u2014 Politicieni | Politicieni Corup\u021bi`,
+    description: `${statusMembers.length} politicieni rom\u00e2ni cu status \u201e${label.toLowerCase()}\u201d. ${statusDescription}`,
+    canonical: `${BASE_URL}/status/${statusSlug}`,
+    jsonLd: statusJsonLd,
+    rootContent: `
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhiv\u0103</a>
+              <a href="/lista">Lista complet\u0103</a>
+              <span aria-current="page">${escapeHtml(label)}</span>
+            </nav>
+            <p class="app-kicker">Status juridic</p>
+            <h1 class="app-title">${escapeHtml(label)}</h1>
+            <p class="app-intro">
+              ${statusMembers.length} politicieni. ${escapeHtml(statusDescription)}
+              ${totalYears > 0 ? ` Total: ${Math.round(totalYears)} ani de \u00eenchisoare.` : ''}
+            </p>
+            ${renderSiteNav()}
+            ${statusParties.length > 1 ? renderSection(
+              'Distribu\u021bie pe partide',
+              renderBulletList(statusParties.map(([name, cnt]) =>
+                `<li><a href="/partid/${nameToSlug(name)}">${escapeHtml(name)}</a> \u2014 ${cnt}</li>`
+              ))
+            ) : ''}
+            ${renderSection(
+              `${escapeHtml(label)} (${statusMembers.length})`,
+              renderBulletList(statusMembers.map((p) => renderPoliticianListItem(p, { includeCrime: true })))
+            )}
+            ${otherStatuses.length > 0 ? renderSection(
+              'Alte statusuri juridice',
+              renderBulletList(otherStatuses.map((s) => {
+                const cnt = politicians.filter((p) => p.status === s).length;
+                return `<li><a href="/status/${s}">${escapeHtml(STATUS_LABELS[s] || s)} (${cnt})</a></li>`;
+              }))
+            ) : ''}
+          </div>
+        </main>
+      </div>
+    `,
+  });
+  count += 1;
+}
+
+// ── County pages ────────────────────────────────────────
+const countyGroups = {};
+politicians.forEach((politician) => {
+  if (!politician.county) return;
+  if (!countyGroups[politician.county]) countyGroups[politician.county] = [];
+  countyGroups[politician.county].push(politician);
+});
+
+for (const [county, members] of Object.entries(countyGroups).sort((a, b) => a[0].localeCompare(b[0], 'ro'))) {
+  const countySlug = nameToSlug(county);
+  const sorted = byStatusThenName(members);
+  const convictedMembers = members.filter((p) => p.status === 'convicted');
+  const totalYears = convictedMembers.reduce((s, p) => s + (p.sentence_years || 0), 0);
+
+  const countyPartyCounts = {};
+  members.forEach((p) => {
+    countyPartyCounts[p.party] = (countyPartyCounts[p.party] || 0) + 1;
+  });
+  const countyParties = Object.entries(countyPartyCounts).sort((a, b) => b[1] - a[1]);
+
+  const otherCounties = Object.entries(countyGroups)
+    .filter(([name]) => name !== county)
+    .sort((a, b) => b[1].length - a[1].length);
+
+  const countyJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `Politicieni cu dosare penale din ${county}`,
+    url: `${BASE_URL}/judet/${countySlug}`,
+    description: `${members.length} politicieni cu dosare penale din jude\u021bul ${county}: ${convictedMembers.length} condamna\u021bi definitiv.`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: members.length,
+      itemListElement: sorted.slice(0, 20).map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${BASE_URL}/politician/${nameToSlug(p.name)}`,
+        name: p.name,
+      })),
+    },
+  };
+
+  renderPage({
+    path: `judet/${countySlug}`,
+    title: `Politicieni cu dosare penale din ${escapeHtml(county)} | Politicieni Corup\u021bi`,
+    description: `${members.length} politicieni cu dosare penale din jude\u021bul ${county}: ${convictedMembers.length} condamna\u021bi definitiv, ${Math.round(totalYears)} ani de \u00eenchisoare.`,
+    canonical: `${BASE_URL}/judet/${countySlug}`,
+    jsonLd: countyJsonLd,
+    rootContent: `
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhiv\u0103</a>
+              <a href="/lista">Lista complet\u0103</a>
+              <span aria-current="page">Jude\u021bul ${escapeHtml(county)}</span>
+            </nav>
+            <p class="app-kicker">Jude\u021b</p>
+            <h1 class="app-title">Jude\u021bul ${escapeHtml(county)}</h1>
+            <p class="app-intro">${members.length} politicieni cu dosare penale: ${convictedMembers.length} condamna\u021bi definitiv, ${Math.round(totalYears)} ani de \u00eenchisoare.</p>
+            ${renderSiteNav()}
+            ${countyParties.length > 1 ? renderSection(
+              'Distribu\u021bie pe partide',
+              renderBulletList(countyParties.map(([name, cnt]) =>
+                `<li><a href="/partid/${nameToSlug(name)}">${escapeHtml(name)}</a> \u2014 ${cnt}</li>`
+              ))
+            ) : ''}
+            ${renderSection(
+              `Politicieni din ${escapeHtml(county)} (${members.length})`,
+              renderBulletList(sorted.map((p) => renderPoliticianListItem(p, { includeCrime: true })))
+            )}
+            ${otherCounties.length > 0 ? renderSection(
+              'Alte jude\u021be',
+              renderBulletList(otherCounties.slice(0, 15).map(([name, list]) =>
+                `<li><a href="/judet/${nameToSlug(name)}">${escapeHtml(name)} (${list.length})</a></li>`
+              ))
+            ) : ''}
+          </div>
+        </main>
+      </div>
+    `,
+  });
+  count += 1;
+}
+
+// ── Politician pages ────────────────────────────────────
 for (const politician of politicians) {
   const slug = nameToSlug(politician.name);
   const statusLabel = STATUS_LABELS[politician.status] || politician.status;

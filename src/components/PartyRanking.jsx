@@ -1,5 +1,7 @@
 import { useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { getPartyToken } from '../utils/partyColors';
+import { nameToSlug } from '../utils/slug';
 import { formatYears } from '../utils/constants';
 
 export function PartyRanking({ data }) {
@@ -47,9 +49,10 @@ export function PartyRanking({ data }) {
           const showConvictedSubstat = hasMixedStatuses && ranking.convicted > 0;
 
           return (
-            <div
+            <Link
               key={ranking.party}
-              className="party-ranking-item"
+              to={`/partid/${nameToSlug(ranking.party)}`}
+              className="party-ranking-item party-ranking-item--link"
               data-party-token={getPartyToken(ranking.party)}
             >
               <div className="party-ranking-header">
@@ -82,7 +85,7 @@ export function PartyRanking({ data }) {
                   </div>
                 )}
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

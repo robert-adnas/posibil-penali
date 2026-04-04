@@ -11,6 +11,9 @@ const Confidentialitate = lazy(() => import('./pages/Confidentialitate').then((m
 const PoliticianPage  = lazy(() => import('./pages/PoliticianPage').then((m) => ({ default: m.PoliticianPage })));
 const GlosarPage      = lazy(() => import('./pages/GlosarPage').then((m) => ({ default: m.GlosarPage })));
 const ListaPage       = lazy(() => import('./pages/Lista').then((m) => ({ default: m.ListaPage })));
+const PartidPage      = lazy(() => import('./pages/PartidPage').then((m) => ({ default: m.PartidPage })));
+const StatusPage      = lazy(() => import('./pages/StatusPage').then((m) => ({ default: m.StatusPage })));
+const JudetPage       = lazy(() => import('./pages/JudetPage').then((m) => ({ default: m.JudetPage })));
 const NotFound        = lazy(() => import('./pages/NotFound').then((m) => ({ default: m.NotFound })));
 
 function PageFallback() {
@@ -38,6 +41,9 @@ function App() {
             <Route path="/politician/:slug" element={<PoliticianPage />} />
             <Route path="/glosar" element={<GlosarPage />} />
             <Route path="/lista" element={<ListaPage />} />
+            <Route path="/partid/:slug" element={<PartidPage />} />
+            <Route path="/status/:statusKey" element={<StatusPage />} />
+            <Route path="/judet/:slug" element={<JudetPage />} />
             <Route path="/metodologie" element={<Metodologie />} />
             <Route path="/aviz-legal" element={<AvizLegal />} />
             <Route path="/contact" element={<Contact />} />
