@@ -1,49 +1,38 @@
 /**
  * Post-build pre-rendering script.
  *
- * For every route (static pages + politician pages), generates a dedicated
- * index.html in dist/ so GitHub Pages serves 200 instead of falling through
- * to 404.html.  Each file gets customised <title>, <meta>, <link rel=canonical>,
- * Open Graph tags, and JSON-LD structured data.
- *
- * The React app boots on top of this HTML and takes over — nothing changes
- * for the user.
+ * Each important route gets a dedicated HTML file in dist/ with route-specific
+ * metadata plus crawlable HTML content inside #root. React replaces this
+ * content on boot, but search engines and no-JS visitors can still access the
+ * page copy and internal links immediately.
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 const distDir = join(root, 'dist');
+const publicDir = join(root, 'public');
 
-// ---------------------------------------------------------------------------
-// Load data
-// ---------------------------------------------------------------------------
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
-const { politicians } = buildDataset(rawData);
+const { politicians, metadata } = buildDataset(rawData);
+const template = readFileSync(join(distDir, 'index.html'), 'utf8');
 
-// ---------------------------------------------------------------------------
-// Helpers
-// ---------------------------------------------------------------------------
 const BASE_URL = 'https://politicieni-corupti.ro';
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.png`;
-
-function nameToSlug(name) {
-  return name
-    .toLowerCase()
-    .replace(/[ăÄ]/g, 'a')
-    .replace(/[âÂ]/g, 'a')
-    .replace(/[îÎ]/g, 'i')
-    .replace(/[șȘşŞ]/g, 's')
-    .replace(/[țȚţŢ]/g, 't')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
+const STATUS_ORDER = [
+  'convicted',
+  'first_instance',
+  'indicted',
+  'investigated',
+  'prescribed',
+  'closed',
+  'acquitted',
+];
+const ACTIVE_STATUSES = new Set(['first_instance', 'indicted', 'investigated']);
 
 const POSITION_LABELS = {
   prime_minister: 'Prim-ministru',
@@ -51,7 +40,7 @@ const POSITION_LABELS = {
   senator: 'Senator',
   deputy: 'Deputat',
   mayor: 'Primar',
-  county_council_president: 'Președinte CJ',
+  county_council_president: 'Pre\u0219edinte CJ',
   member_european_parliament: 'Europarlamentar',
   secretary_of_state: 'Secretar de stat',
   local_official: 'Ales local',
@@ -60,49 +49,140 @@ const POSITION_LABELS = {
 
 const STATUS_LABELS = {
   convicted: 'Condamnat definitiv',
-  first_instance: 'Condamnat (primă instanță)',
-  indicted: 'Trimis în judecată',
+  first_instance: 'Condamnat (prim\u0103 instan\u021b\u0103)',
+  indicted: 'Trimis \u00een judecat\u0103',
   investigated: 'Cercetat',
   prescribed: 'Prescris',
   closed: 'Clasat',
   acquitted: 'Achitat',
 };
 
-function escapeHtml(str) {
-  return String(str)
+const SITE_LINKS = [
+  { href: '/', label: 'Arhiv\u0103' },
+  { href: '/lista', label: 'Lista complet\u0103' },
+  { href: '/glosar', label: 'Glosar juridic' },
+  { href: '/metodologie', label: 'Metodologie' },
+  { href: '/contact', label: 'Contact' },
+];
+
+function nameToSlug(name) {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function escapeHtml(value) {
+  return String(value)
     .replace(/&/g, '&amp;')
     .replace(/"/g, '&quot;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 }
 
-// ---------------------------------------------------------------------------
-// Read the built index.html as template
-// ---------------------------------------------------------------------------
-const template = readFileSync(join(distDir, 'index.html'), 'utf8');
+function formatDateRo(value) {
+  if (!value) return null;
 
-function renderPage({ path, title, description, canonical, ogImage, jsonLd, noscriptContent }) {
+  try {
+    return new Intl.DateTimeFormat('ro-RO', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).format(new Date(value));
+  } catch {
+    return value;
+  }
+}
+
+function sortPoliticians(items) {
+  return [...items].sort((left, right) => left.name.localeCompare(right.name, 'ro'));
+}
+
+function byStatusThenName(items) {
+  return [...items].sort((left, right) => {
+    const leftRank = STATUS_ORDER.indexOf(left.status);
+    const rightRank = STATUS_ORDER.indexOf(right.status);
+
+    if (leftRank !== rightRank) return leftRank - rightRank;
+    return left.name.localeCompare(right.name, 'ro');
+  });
+}
+
+function renderSiteNav(currentHref = '') {
+  return `
+    <nav aria-label="Navigare principal\u0103" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
+      ${SITE_LINKS.map((link) => (
+        `<a href="${link.href}"${link.href === currentHref ? ' aria-current="page"' : ''}>${escapeHtml(link.label)}</a>`
+      )).join('')}
+    </nav>
+  `;
+}
+
+function renderSection(title, body) {
+  return `
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">${escapeHtml(title)}</h2>
+      ${body}
+    </section>
+  `;
+}
+
+function renderBulletList(items) {
+  return `<ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">${items.join('')}</ul>`;
+}
+
+function renderPoliticianListItem(politician, options = {}) {
+  const { includeCrime = false } = options;
+  const slug = nameToSlug(politician.name);
+  const statusLabel = STATUS_LABELS[politician.status] || politician.status;
+  const positionLabel = POSITION_LABELS[politician.position_type] || politician.position_type || '';
+  const crime = politician.crime ? `, ${escapeHtml(politician.crime)}` : '';
+
+  return `
+    <li>
+      <a href="/politician/${slug}">${escapeHtml(politician.name)}</a>
+      <span> - ${escapeHtml(statusLabel)}, ${escapeHtml(politician.party)}, ${escapeHtml(positionLabel)}${includeCrime ? crime : ''}</span>
+    </li>
+  `;
+}
+
+function renderSourceList(politician) {
+  const sources = Array.isArray(politician.sources) ? politician.sources : [];
+  if (sources.length === 0) return '';
+
+  return renderBulletList(
+    sources.map((source) => {
+      const sourceLabel = source.label || source.url;
+      const kindLabel = source.kind === 'official'
+        ? 'Surs\u0103 oficial\u0103'
+        : source.kind === 'profile'
+        ? 'Profil'
+        : 'Pres\u0103';
+
+      return `
+        <li>
+          <a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(sourceLabel)}</a>
+          <span> - ${kindLabel}</span>
+        </li>
+      `;
+    })
+  );
+}
+
+function renderPage({ path, title, description, canonical, ogImage, jsonLd, rootContent }) {
   let html = template;
 
-  // Replace <title>
-  html = html.replace(
-    /<title>[^<]*<\/title>/,
-    `<title>${escapeHtml(title)}</title>`
-  );
-
-  // Replace meta description
+  html = html.replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(title)}</title>`);
   html = html.replace(
     /(<meta\s+name="description"\s+content=")([^"]*)(")/,
     `$1${escapeHtml(description)}$3`
   );
-
-  // Replace canonical
   html = html.replace(
     /(<link\s+rel="canonical"\s+href=")([^"]*)(")/,
     `$1${escapeHtml(canonical)}$3`
   );
-
-  // Replace OG tags
   html = html.replace(
     /(<meta\s+property="og:title"\s+content=")([^"]*)(")/,
     `$1${escapeHtml(title)}$3`
@@ -119,8 +199,6 @@ function renderPage({ path, title, description, canonical, ogImage, jsonLd, nosc
     /(<meta\s+property="og:image"\s+content=")([^"]*)(")/,
     `$1${escapeHtml(ogImage || DEFAULT_IMAGE)}$3`
   );
-
-  // Replace Twitter tags
   html = html.replace(
     /(<meta\s+name="twitter:title"\s+content=")([^"]*)(")/,
     `$1${escapeHtml(title)}$3`
@@ -134,64 +212,217 @@ function renderPage({ path, title, description, canonical, ogImage, jsonLd, nosc
     `$1${escapeHtml(ogImage || DEFAULT_IMAGE)}$3`
   );
 
-  // Inject JSON-LD before closing </head> (after the existing one)
-  if (jsonLd) {
-    const jsonLdTag = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
-    html = html.replace('</head>', `${jsonLdTag}\n  </head>`);
+  const jsonLdEntries = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+  if (jsonLdEntries.length > 0) {
+    const jsonLdMarkup = jsonLdEntries
+      .map((entry) => `<script type="application/ld+json">${JSON.stringify(entry)}</script>`)
+      .join('\n  ');
+
+    html = html.replace('</head>', `  ${jsonLdMarkup}\n</head>`);
   }
 
-  // Inject noscript content inside <div id="root"> so crawlers that don't
-  // execute JS still see meaningful text. React will replace it on hydration.
-  if (noscriptContent) {
+  if (rootContent) {
     html = html.replace(
       '<div id="root"></div>',
-      `<div id="root"><noscript>${noscriptContent}</noscript></div>`
+      `<div id="root" data-prerendered="true">${rootContent}</div>`
     );
   }
 
-  // Write file
-  const outDir = join(distDir, path);
+  const outDir = path ? join(distDir, path) : distDir;
   mkdirSync(outDir, { recursive: true });
   writeFileSync(join(outDir, 'index.html'), html, 'utf8');
 }
 
-// ---------------------------------------------------------------------------
-// Static pages
-// ---------------------------------------------------------------------------
+const lastUpdatedText = formatDateRo(metadata.last_updated) || metadata.last_updated || 'necunoscut';
+const convictedCount = politicians.filter((politician) => politician.status === 'convicted').length;
+const activeCount = politicians.filter((politician) => ACTIVE_STATUSES.has(politician.status)).length;
+const topParties = Object.entries(
+  politicians.reduce((acc, politician) => {
+    acc[politician.party] = (acc[politician.party] || 0) + 1;
+    return acc;
+  }, {})
+)
+  .sort((left, right) => right[1] - left[1])
+  .slice(0, 8);
+
+const featuredPoliticians = byStatusThenName(
+  politicians.filter((politician) => politician.status !== 'acquitted')
+).slice(0, 18);
+
+const homeRootContent = `
+  <div class="app-shell">
+    <main class="app-section">
+      <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+        <p class="app-kicker">Arhiv\u0103 independent\u0103 despre corup\u021bie \u0219i integritate</p>
+        <h1 class="app-title">Politicieni Corup\u021bi</h1>
+        <p class="app-intro">
+          Baza de date documenteaz\u0103 politicieni rom\u00e2ni condamna\u021bi, trimi\u0219i \u00een judecat\u0103,
+          cerceta\u021bi penal, prescri\u0219i, clasa\u021bi sau achita\u021bi \u00een cauze de corup\u021bie \u0219i abuz.
+        </p>
+        <p style="max-width:64rem;line-height:1.7;margin:1rem 0 0;color:var(--color-text-muted);">
+          Actualizat la ${escapeHtml(lastUpdatedText)}. Arhiva include ${politicians.length} profiluri publice,
+          ${convictedCount} condamn\u0103ri definitive \u0219i ${activeCount} cazuri active aflate \u00een anchet\u0103
+          sau judecat\u0103.
+        </p>
+        ${renderSiteNav('/')}
+        ${renderSection(
+          'Acces rapid',
+          renderBulletList([
+            `<li><a href="/lista">Vezi lista complet\u0103 a celor ${politicians.length} politicieni din arhiv\u0103</a></li>`,
+            '<li><a href="/glosar">\u00cen\u021belege diferen\u021ba dintre condamnat, trimis \u00een judecat\u0103, cercetat sau achitat</a></li>',
+            '<li><a href="/metodologie">Vezi criteriile editoriale, sursele \u0219i procesul de verificare</a></li>',
+          ])
+        )}
+        ${renderSection(
+          'Partide cu cele mai multe cazuri documentate',
+          renderBulletList(
+            topParties.map(([party, count]) => `<li>${escapeHtml(party)} - ${count} profiluri</li>`)
+          )
+        )}
+        ${renderSection(
+          'Profiluri importante din arhiv\u0103',
+          `
+            ${renderBulletList(
+              featuredPoliticians.map((politician) =>
+                renderPoliticianListItem(politician, { includeCrime: true })
+              )
+            )}
+            <p style="margin-top:1rem;"><a href="/lista">Continu\u0103 cu lista complet\u0103 \u2192</a></p>
+          `
+        )}
+      </div>
+    </main>
+  </div>
+`;
+
+const listRootContent = `
+  <div class="app-shell">
+    <main class="app-section">
+      <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+        <p class="app-kicker">Arhiv\u0103 complet\u0103</p>
+        <h1 class="app-title">Lista politicienilor documenta\u021bi</h1>
+        <p class="app-intro">
+          To\u021bi politicienii inclu\u0219i \u00een baza de date Politicieni Corup\u021bi, grupa\u021bi dup\u0103 status
+          juridic \u0219i lega\u021bi c\u0103tre profilurile individuale.
+        </p>
+        <p style="max-width:64rem;line-height:1.7;margin:1rem 0 0;color:var(--color-text-muted);">
+          Pagina aceasta func\u021bioneaz\u0103 \u0219i ca hub SEO: fiecare profil are link intern direct, astfel \u00eenc\u00e2t
+          motoarele de c\u0103utare pot descoperi rapid toate fi\u0219ele din arhiv\u0103.
+        </p>
+        ${renderSiteNav('/lista')}
+        ${STATUS_ORDER.map((status) => {
+          const items = sortPoliticians(politicians.filter((politician) => politician.status === status));
+          if (items.length === 0) return '';
+
+          return renderSection(
+            `${STATUS_LABELS[status]} (${items.length})`,
+            renderBulletList(items.map((politician) => renderPoliticianListItem(politician)))
+          );
+        }).join('')}
+      </div>
+    </main>
+  </div>
+`;
+
+const listJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Lista politicienilor documentati',
+  url: `${BASE_URL}/lista`,
+  description:
+    'Lista complet\u0103 cu politicieni rom\u00e2ni condamna\u021bi, trimi\u0219i \u00een judecat\u0103 sau cerceta\u021bi pentru corup\u021bie.',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: politicians.length,
+    itemListElement: byStatusThenName(politicians).slice(0, 30).map((politician, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: `${BASE_URL}/politician/${nameToSlug(politician.name)}`,
+      name: politician.name,
+    })),
+  },
+};
+
 const staticPages = [
   {
-    path: 'lista',
-    title: 'Lista completă | Politicieni Corupți',
-    description: `Toți cei ${politicians.length} politicieni români cu dosare penale — condamnați, trimiși în judecată, cercetați, clasați sau achitați. Caută și filtrează după nume, partid sau status.`,
-  },
-  {
     path: 'glosar',
-    title: 'Glosar juridic | Politicieni Corupți',
-    description: 'Ce înseamnă fiecare status juridic: condamnat definitiv, trimis în judecată, cercetat, prescris, clasat, achitat. Ghid simplu pentru înțelegerea termenilor legali.',
+    title: 'Glosar juridic | Politicieni Corup\u021bi',
+    heading: 'Glosar juridic',
+    description:
+      'Explica\u021bii simple pentru statusurile juridice folosite \u00een arhiv\u0103: condamnat definitiv, trimis \u00een judecat\u0103, cercetat, prescris, clasat sau achitat.',
+    highlights: [
+      'Diferen\u021ba dintre condamnare definitiv\u0103, prim\u0103 instan\u021b\u0103 \u0219i anchet\u0103.',
+      'Cum trebuie citite formul\u0103rile juridice din fiecare profil public.',
+    ],
   },
   {
     path: 'metodologie',
-    title: 'Metodologie | Politicieni Corupți',
-    description: 'Cum funcționează baza de date: criterii de includere, surse folosite, proces de verificare și clasificare a statusurilor juridice.',
+    title: 'Metodologie | Politicieni Corup\u021bi',
+    heading: 'Metodologie',
+    description:
+      'Criteriile editoriale, sursele folosite, modul de actualizare a datelor \u0219i limitele proiectului.',
+    highlights: [
+      'Cine intr\u0103 \u00een baz\u0103, cum sunt verificate sursele \u0219i cum sunt actualizate cazurile.',
+      'De ce fiecare profil are status juridic explicit \u0219i surse verificabile.',
+    ],
   },
   {
     path: 'aviz-legal',
-    title: 'Aviz legal | Politicieni Corupți',
-    description: 'Informații juridice privind baza de date: temeiuri legale, prezumția de nevinovăție, drepturile persoanelor vizate și limitarea responsabilității.',
+    title: 'Aviz legal | Politicieni Corup\u021bi',
+    heading: 'Aviz legal',
+    description:
+      'Context juridic pentru publicarea informa\u021biilor, prezum\u021bia de nevinov\u0103\u021bie \u0219i limitele responsabilit\u0103\u021bii editoriale.',
+    highlights: [
+      'Cum este respectat interesul public \u0219i dreptul la informare.',
+      'Cum este formulat fiecare profil atunci c\u00e2nd nu exist\u0103 o condamnare definitiv\u0103.',
+    ],
   },
   {
     path: 'contact',
-    title: 'Contact & Corecții | Politicieni Corupți',
-    description: 'Trimite corecții, actualizări sau sesizări. Fiecare raportare este verificată înainte de publicare.',
+    title: 'Contact & Corec\u021bii | Politicieni Corup\u021bi',
+    heading: 'Contact \u0219i corec\u021bii',
+    description:
+      'Trimite actualiz\u0103ri, rectific\u0103ri sau surse suplimentare. Fiecare raportare este verificat\u0103 \u00eenainte de publicare.',
+    highlights: [
+      'Folose\u0219te pagina pentru a semnala erori, complet\u0103ri sau schimb\u0103ri de status.',
+      'Sugestiile trebuie sus\u021binute de documente sau surse publice verificabile.',
+    ],
   },
   {
     path: 'confidentialitate',
-    title: 'Politica de confidențialitate | Politicieni Corupți',
-    description: 'Informații despre datele colectate de site, cookie-uri, analitice și drepturile utilizatorilor conform GDPR.',
+    title: 'Politica de confiden\u021bialitate | Politicieni Corup\u021bi',
+    heading: 'Politica de confiden\u021bialitate',
+    description:
+      'Informa\u021bii despre datele colectate de site, analiticele folosite \u0219i drepturile utilizatorilor.',
+    highlights: [
+      'Ce date tehnice pot fi colectate \u00een timpul navig\u0103rii.',
+      'Cum sunt folosite analiticele \u0219i ce drepturi au utilizatorii.',
+    ],
   },
 ];
 
 let count = 0;
+
+renderPage({
+  path: '',
+  title: 'Politicieni Corup\u021bi | Arhiv\u0103 independent\u0103 despre corup\u021bie \u0219i integritate',
+  description:
+    'Baz\u0103 de date cu politicieni rom\u00e2ni condamna\u021bi, trimi\u0219i \u00een judecat\u0103 sau cerceta\u021bi penal pentru corup\u021bie. Date verificate, surse oficiale, actualizate permanent.',
+  canonical: `${BASE_URL}/`,
+  rootContent: homeRootContent,
+});
+count += 1;
+
+renderPage({
+  path: 'lista',
+  title: 'Lista complet\u0103 | Politicieni Corup\u021bi',
+  description:
+    `To\u021bi cei ${politicians.length} politicieni rom\u00e2ni cu dosare penale - condamna\u021bi, trimi\u0219i \u00een judecat\u0103, cerceta\u021bi, clasa\u021bi sau achita\u021bi.`,
+  canonical: `${BASE_URL}/lista`,
+  jsonLd: listJsonLd,
+  rootContent: listRootContent,
+});
+count += 1;
 
 for (const page of staticPages) {
   renderPage({
@@ -199,47 +430,70 @@ for (const page of staticPages) {
     title: page.title,
     description: page.description,
     canonical: `${BASE_URL}/${page.path}`,
+    rootContent: `
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <p class="app-kicker">Resurs\u0103 contextual\u0103</p>
+            <h1 class="app-title">${escapeHtml(page.heading)}</h1>
+            <p class="app-intro">${escapeHtml(page.description)}</p>
+            ${renderSiteNav(`/${page.path}`)}
+            ${renderSection(
+              'Ce g\u0103se\u0219ti pe aceast\u0103 pagin\u0103',
+              renderBulletList(page.highlights.map((item) => `<li>${escapeHtml(item)}</li>`))
+            )}
+            ${renderSection(
+              'Continu\u0103 explorarea',
+              renderBulletList([
+                `<li><a href="/lista">R\u0103sfoie\u0219te lista complet\u0103 a celor ${politicians.length} profiluri</a></li>`,
+                '<li><a href="/">Revino la pagina principal\u0103 a arhivei</a></li>',
+                '<li><a href="/metodologie">Vezi criteriile editoriale \u0219i sursele folosite</a></li>',
+              ])
+            )}
+          </div>
+        </main>
+      </div>
+    `,
   });
-  count++;
+  count += 1;
 }
 
-// ---------------------------------------------------------------------------
-// Politician pages
-// ---------------------------------------------------------------------------
-for (const p of politicians) {
-  const slug = nameToSlug(p.name);
-  const statusLabel = STATUS_LABELS[p.status] || p.status;
-  const positionLabel = POSITION_LABELS[p.position_type] || p.position_type;
+for (const politician of politicians) {
+  const slug = nameToSlug(politician.name);
+  const statusLabel = STATUS_LABELS[politician.status] || politician.status;
+  const positionLabel = POSITION_LABELS[politician.position_type] || politician.position_type;
   const pageUrl = `${BASE_URL}/politician/${slug}`;
+  const title = `${politician.name} - ${statusLabel} | Politicieni Corup\u021bi`;
+  const description = `${politician.name} (${politician.party}, ${positionLabel}): ${politician.crime}. Status juridic: ${statusLabel}.`;
+  const candidateOgImagePath = join(publicDir, 'og', `${slug}.png`);
+  const ogImage = existsSync(candidateOgImagePath) ? `${BASE_URL}/og/${slug}.png` : DEFAULT_IMAGE;
+  const relatedPoliticians = sortPoliticians(
+    politicians.filter(
+      (candidate) => candidate.party === politician.party && candidate.name !== politician.name
+    )
+  ).slice(0, 8);
+  const facts = [];
+  const sourceList = renderSourceList(politician);
 
-  const title = `${p.name} — ${statusLabel} | Politicieni Corupți`;
-  const description = `${p.name} (${p.party}, ${positionLabel}): ${p.crime}. Status juridic: ${statusLabel}.`;
+  if (politician.sentence) facts.push(`<li>Pedeaps\u0103: ${escapeHtml(politician.sentence)}</li>`);
+  if (politician.conviction_year) facts.push(`<li>An relevant: ${escapeHtml(politician.conviction_year)}</li>`);
+  if (politician.verified_at) facts.push(`<li>Ultima verificare: ${escapeHtml(formatDateRo(politician.verified_at))}</li>`);
 
-  // Check for politician-specific OG image
-  const ogImage = `${BASE_URL}/og/politician/${slug}.png`;
-
-  // JSON-LD structured data
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: p.name,
-    description: `${positionLabel}, ${p.party}. ${statusLabel}.`,
+    '@type': 'ProfilePage',
+    name: politician.name,
     url: pageUrl,
-    memberOf: {
-      '@type': 'Organization',
-      name: p.party,
+    mainEntity: {
+      '@type': 'Person',
+      '@id': `${pageUrl}#person`,
+      name: politician.name,
+      description: politician.details || politician.crime || undefined,
+      jobTitle: politician.position || undefined,
+      memberOf: politician.party ? { '@type': 'Organization', name: politician.party } : undefined,
+      url: pageUrl,
     },
   };
-
-  // Noscript content for crawlers
-  const noscriptContent = [
-    `<h1>${escapeHtml(p.name)}</h1>`,
-    `<p>${escapeHtml(p.party)} · ${escapeHtml(positionLabel)}</p>`,
-    `<p>Status juridic: ${escapeHtml(statusLabel)}</p>`,
-    `<p>${escapeHtml(p.crime)}</p>`,
-    p.sentence ? `<p>Pedeapsă: ${escapeHtml(p.sentence)}</p>` : '',
-    p.details ? `<p>${escapeHtml(p.details)}</p>` : '',
-  ].filter(Boolean).join('');
 
   renderPage({
     path: `politician/${slug}`,
@@ -248,9 +502,43 @@ for (const p of politicians) {
     canonical: pageUrl,
     ogImage,
     jsonLd,
-    noscriptContent,
+    rootContent: `
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhiv\u0103</a>
+              <a href="/lista">Lista complet\u0103</a>
+              <span aria-current="page">${escapeHtml(politician.name)}</span>
+            </nav>
+            <p class="app-kicker">${escapeHtml(statusLabel)}</p>
+            <h1 class="app-title">${escapeHtml(politician.name)}</h1>
+            <p class="app-intro">${escapeHtml(politician.party)} - ${escapeHtml(positionLabel)}</p>
+            ${facts.length > 0 ? renderSection('Repere rapide', renderBulletList(facts)) : ''}
+            ${renderSection('Fapta documentat\u0103', `<p style="margin:0;line-height:1.7;">${escapeHtml(politician.crime)}</p>`)}
+            ${politician.details ? renderSection('Detalii', `<p style="margin:0;line-height:1.7;">${escapeHtml(politician.details)}</p>`) : ''}
+            ${sourceList ? renderSection(
+              Array.isArray(politician.sources) && politician.sources.length === 1 ? 'Surs\u0103' : 'Surse',
+              sourceList
+            ) : ''}
+            ${relatedPoliticians.length > 0 ? renderSection(
+              `Al\u021bi politicieni ${escapeHtml(politician.party)}`,
+              renderBulletList(relatedPoliticians.map((candidate) => renderPoliticianListItem(candidate)))
+            ) : ''}
+            ${renderSection(
+              'Continu\u0103 explorarea',
+              renderBulletList([
+                '<li><a href="/lista">R\u0103sfoie\u0219te arhiva complet\u0103</a></li>',
+                '<li><a href="/glosar">Verific\u0103 sensul statusurilor juridice</a></li>',
+                '<li><a href="/metodologie">Vezi sursele \u0219i metodologia proiectului</a></li>',
+              ])
+            )}
+          </div>
+        </main>
+      </div>
+    `,
   });
-  count++;
+  count += 1;
 }
 
-console.log(`✓ Pre-rendered ${count} pages (${staticPages.length} static + ${politicians.length} politicians)`);
+console.log(`Pre-rendered ${count} pages with crawlable HTML content.`);
