@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-03-31',
+  last_updated: '2026-04-04',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -3411,6 +3411,94 @@ export const politicianAdditions = [
         label: 'deBanat',
         kind: 'press',
         url: 'https://debanat.ro/2017/04/un-deputat-pmp-si-un-consilier-judetean-pnl-ajung-in-instanta-in-dosarul-aeroportul_189565.html',
+      },
+    ],
+  },
+  {
+    name: 'Lucreția Cadar',
+    party: 'PSD',
+    position: 'Primar al comunei Deda, județul Mureș',
+    position_type: 'mayor',
+    crime: 'Folosirea sau prezentarea de documente ori declarații false pentru obținerea de fonduri europene; complicitate la aceeași infracțiune',
+    sentence: 'Trimisă în judecată sub control judiciar',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'După comunicatul DNA din 11 septembrie 2024 privind punerea în mișcare a acțiunii penale și reținerea sa, procurorii DNA Târgu-Mureș au anunțat la 7 martie 2025 trimiterea în judecată sub control judiciar a primarei comunei Deda în dosarul privind folosirea unor documente și declarații nereale pentru accesarea de fonduri europene prin proiectul „De la marginalizare la integrare!”. Nu am identificat, până la 4 aprilie 2026, o soluție definitivă ulterioară.',
+    verified_at: '2026-04-04',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12828',
+      },
+      {
+        label: 'Primăria Deda',
+        kind: 'official',
+        url: 'https://primariadeda.ro/despre-institutie/conducere/primar/',
+      },
+      {
+        label: 'Zi de Zi Mureș',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2026/03/31/lucretia-cadar-realeasa-presedinte-al-psd-deda/',
+      },
+    ],
+  },
+  {
+    name: 'Filimon Brian',
+    party: 'PNL',
+    position: 'Primar al comunei Măureni, județul Caraș-Severin',
+    position_type: 'mayor',
+    crime: 'Trafic de influență',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Timișoara a anunțat la 8 martie 2024 trimiterea în judecată a lui Filimon Brian, aflat la data comunicatului în funcția de primar al comunei Măureni, pentru că ar fi pretins în anul 2019 un procent de 5% din valoarea unui contract de modernizare de drumuri, din care ar fi primit 100.000 lei. Nu am identificat, până la 4 aprilie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-04-04',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12474',
+      },
+      {
+        label: 'Primăria Măureni',
+        kind: 'official',
+        url: 'https://www.comunamaureni.ro/membru-primarie/brian-filimon/',
+      },
+    ],
+  },
+  {
+    name: 'Bocșe Raul Florin',
+    party: 'PNL',
+    position: 'Fost primar al comunei Câmpani, județul Bihor',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite, în formă continuată',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Oradea a anunțat la 9 octombrie 2024 trimiterea în judecată a lui Bocșe Raul Florin, la data faptelor primar al comunei Câmpani, pentru plăți nelegale efectuate în perioada 2016-2019, prin care ar fi fost virați peste 1,43 milioane lei în conturile proprii și ale altor angajați ai primăriei. Nu am identificat, până la 4 aprilie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
+    verified_at: '2026-04-04',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12699',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/fostul-primar-al-comunei-bihorene-campani-judecat-pentru-abuz-in-serviciu-este-acuzat-ca-ar-fi-virat-ilegal-14-milioane-de-lei-in-conturile-proprii-si-ale-altor-angajati-din-primarie.html',
+      },
+      {
+        label: 'Crișana',
+        kind: 'press',
+        url: 'https://crisana.ro/stiri/politica-4/mizez-pe-sprijinul-financiar-si-logistic-al-colegilor-din-consiliul-judetean-bihor-si-guvernul-rom-acirc-niei-100262.html',
       },
     ],
   },
