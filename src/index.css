@@ -557,7 +557,7 @@ button {
 }
 
 .filter-chip:hover {
-  background-color: var(--color-parchment-dark);
+  background-color: var(--color-rule-light);
   border-color: var(--color-rule);
 }
 
@@ -841,7 +841,7 @@ button {
 }
 
 .party-ranking-item--link:hover {
-  background-color: var(--color-parchment-dark);
+  background-color: var(--color-rule-light);
 }
 
 .party-ranking-item[data-dimmed="true"] {
