@@ -3844,6 +3844,102 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Sorin Bala\u0219i',
+    party: 'PSD',
+    position: 'Fost primar al comunei Crizbav, jude\u021bul Bra\u0219ov',
+    position_type: 'mayor',
+    crime:
+      'Folosire sau prezentare de documente false pentru fonduri europene; participa\u021bie improprie la abuz \u00een serviciu',
+    sentence:
+      '2 ani \u0219i 6 luni \u00eenchisoare cu suspendare; ulterior trimis din nou \u00een judecat\u0103 \u00eentr-un dosar separat',
+    sentence_years: 2.5,
+    conviction_year: 2021,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Bra\u0219ov l-a condamnat definitiv la 5 mai 2021 la 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare pentru folosirea sau prezentarea cu rea-credin\u021b\u0103 de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene. Ulterior, DNA Bra\u0219ov a anun\u021bat la 6 octombrie 2025 trimiterea sa \u00een judecat\u0103 \u00eentr-un dosar separat privind participa\u021bie improprie la abuz \u00een serviciu legat\u0103 de contractul de \u00eenchiriere a paji\u0219tii comunale. Am p\u0103strat statutul general de convicted deoarece condamnarea definitiv\u0103 din 2021 este mai puternic\u0103 dec\u00e2t noul stadiu procesual.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10439',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13097',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_brasov/primarie/crizbav/1',
+      },
+    ],
+  },
+  {
+    name: 'Sik\u00f3 Imre',
+    party: 'UDMR',
+    position: 'Fost primar al comunei Belin, jude\u021bul Covasna',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare de documente false pentru fonduri europene',
+    sentence:
+      '2 ani \u00eenchisoare cu suspendare \u0219i amend\u0103 penal\u0103; proces \u00eencetat definitiv ca urmare a prescrip\u021biei',
+    sentence_years: 2,
+    conviction_year: 2022,
+    status: 'prescribed',
+    details:
+      'DNA Bra\u0219ov l-a trimis \u00een judecat\u0103 la 2 noiembrie 2018 pentru ob\u021binerea pe nedrept, \u00een perioada 2010-2013, a unor fonduri APIA de peste 181.000 lei. Curtea de Apel Bra\u0219ov l-a condamnat definitiv la 13 ianuarie 2022 la 2 ani de \u00eenchisoare cu suspendare, amend\u0103 penal\u0103 \u0219i 60 de zile de munc\u0103 \u00een folosul comunit\u0103\u021bii, dar aceea\u0219i instan\u021b\u0103 a admis ulterior contesta\u021bia \u00een anulare, iar actualizarea DNA din 13 martie 2023 consemneaz\u0103 \u00eencetarea definitiv\u0103 a procesului penal ca urmare a prescrip\u021biei.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11048',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=9131',
+      },
+      {
+        label: 'CovasnaMedia',
+        kind: 'press',
+        url: 'https://covasnamedia.ro/actualitate/primar-covasnean-trimis-in-judecata-de-dna',
+      },
+    ],
+  },
+  {
+    name: 'Gavril Lupu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Hangu, jude\u021bul Neam\u021b',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare de documente false pentru fonduri europene',
+    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2022,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Bac\u0103u l-a condamnat definitiv la 19 aprilie 2022 la 1 an \u0219i 6 luni de \u00eenchisoare cu suspendare pentru folosirea sau prezentarea cu rea-credin\u021b\u0103 de documente ori declara\u021bii false, inexacte sau incomplete care au dus la ob\u021binerea pe nedrept de fonduri europene. DNA Bac\u0103u ar\u0103tase c\u0103, \u00een perioada 2009-2010, acesta a depus la APIA documente nereale pentru suprafe\u021be mai mari dec\u00e2t cele utilizate efectiv, cauz\u00e2nd ob\u021binerea nelegal\u0103 a peste un milion de lei pentru comuna Hangu.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11238',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=9131',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_neamt/primarie/hangu/7',
+      },
+    ],
+  },
 ];
 
 /**
@@ -3985,6 +4081,9 @@ export const countyOverrides = {
   'Iulian Dumitrescu': 'Prahova',
   'Aur Sandu': 'Vrancea',
   'Mihai Barbu': 'Vaslui',
+  'Sorin Bala\u0219i': 'Bra\u0219ov',
+  'Sik\u00f3 Imre': 'Covasna',
+  'Gavril Lupu': 'Neam\u021b',
   'Lucreția Cadar': 'Mureș',
   'Filimon Brian': 'Caraș-Severin',
   'Bocșe Raul Florin': 'Bihor',
