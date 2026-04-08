@@ -9,6 +9,26 @@ export const metadataOverrides = {
 export const politicianOverrides = {
   'Daniel Tudorache': {
     replace_sources: true,
+    case_name: 'Dosarul diamantelor',
+    execution_type: 'Cu suspendare',
+    institutions: [
+      { name: 'DNA', role: 'Trimitere în judecată și comunicare oficială' },
+      { name: 'ÎCCJ', role: 'Apel și recurs în casație' },
+    ],
+    timeline: [
+      {
+        date: '2025',
+        label: 'Condamnare definitivă în apel',
+        note:
+          'În apel, ÎCCJ i-a redus pedeapsa de la 3 ani și 6 luni cu executare la 3 ani cu suspendare.',
+      },
+      {
+        date: 'ianuarie 2026',
+        label: 'Recurs în casație respins',
+        note:
+          'ÎCCJ a respins recursul în casație și a menținut soluția definitivă din dosarul diamantelor.',
+      },
+    ],
     details:
       'Condamnat definitiv în dosarul diamantelor pentru complicitate la trafic de influență. În apel, ÎCCJ i-a redus pedeapsa de la 3 ani și 6 luni cu executare la 3 ani cu suspendare, iar în ianuarie 2026 i-a respins și recursul în casație.',
     verified_at: '2026-03-22',
@@ -37,6 +57,25 @@ export const politicianOverrides = {
   },
   'Marian-Daniel Vanghelie': {
     replace_sources: true,
+    case_name: 'Dosarul mitei de 30 milioane de euro',
+    institutions: [
+      { name: 'DNA', role: 'Trimitere în judecată și comunicare oficială' },
+      { name: 'Curtea de Apel București', role: 'Soluția definitivă din 2025' },
+    ],
+    timeline: [
+      {
+        date: '2021',
+        label: 'Condamnare în primă instanță',
+        note:
+          'A primit 11 ani și 8 luni în dosarul de luare de mită, înainte de soluția definitivă de prescripție.',
+      },
+      {
+        date: 'martie 2025',
+        label: 'Soluție definitivă',
+        note:
+          'Pentru luare de mită instanța a constatat prescripția, iar pentru abuz în serviciu și spălare de bani a dispus achitarea.',
+      },
+    ],
     conviction_year: 2021,
     details:
       'În martie 2025, Curtea de Apel București a închis definitiv dosarul în care primise în primă instanță 11 ani și 8 luni: pentru luare de mită instanța a constatat prescripția, iar pentru abuz în serviciu și spălare de bani a dispus achitarea.',
@@ -106,6 +145,18 @@ export const politicianOverrides = {
 
   'Vlad Voiculescu': {
     replace_sources: true,
+    case_name: 'Dosarul achiziției de vaccinuri anti-COVID',
+    institutions: [
+      { name: 'DNA', role: 'Urmărire penală și comunicare oficială' },
+    ],
+    timeline: [
+      {
+        date: 'decembrie 2023',
+        label: 'Urmărire penală',
+        note:
+          'DNA a anunțat urmărirea penală în dosarul achiziției de vaccinuri anti-COVID.',
+      },
+    ],
     verified_at: '2026-03-30',
     sources: [
       {
@@ -130,6 +181,10 @@ export const politicianOverrides = {
 
   'Clotilde Armand': {
     replace_sources: true,
+    institutions: [
+      { name: 'ANI', role: 'Constatare și comunicat oficial' },
+      { name: 'DNA', role: 'Trimitere în judecată pentru conflict de interese' },
+    ],
     verified_at: '2026-03-30',
     sources: [
       {
@@ -163,6 +218,24 @@ export const politicianOverrides = {
     sentence_years: 5.33,
     conviction_year: 2016,
     status: 'convicted',
+    institutions: [
+      { name: 'DNA', role: 'Trimitere în judecată' },
+      { name: 'ÎCCJ', role: 'Condamnare definitivă' },
+    ],
+    timeline: [
+      {
+        date: 'iulie 2014',
+        label: 'Trimitere în judecată',
+        note:
+          'DNA l-a trimis în judecată pentru trafic de influență și instigare la fals în înscrisuri sub semnătură privată.',
+      },
+      {
+        date: '10 noiembrie 2016',
+        label: 'Condamnare definitivă',
+        note:
+          'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 5 ani și 4 luni închisoare.',
+      },
+    ],
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 10 noiembrie 2016 la 5 ani și 4 luni închisoare pentru trafic de influență și instigare la fals în înscrisuri sub semnătură privată, după ce DNA îl trimisese în judecată în iulie 2014.',
     verified_at: '2026-03-30',
@@ -182,8 +255,27 @@ export const politicianOverrides = {
 
   'Titus Corl\u0103\u021bean': {
     replace_sources: true,
+    case_name: 'Dosarul votului din diaspora',
     sentence: 'Cauză clasată (2018)',
     status: 'closed',
+    institutions: [
+      { name: 'DNA', role: 'Cerere de încuviințare și soluție de clasare' },
+      { name: 'Senatul României', role: 'A respins cererea de urmărire penală' },
+    ],
+    timeline: [
+      {
+        date: '2016',
+        label: 'Cerere de încuviințare a urmăririi penale',
+        note:
+          'DNA a cerut Senatului încuviințarea urmăririi penale în dosarul votului din diaspora, însă solicitarea a fost respinsă.',
+      },
+      {
+        date: '20 noiembrie 2018',
+        label: 'Clasare',
+        note:
+          'DNA a consemnat clasarea cauzei, inclusiv pentru lipsa condiției legale necesare după votul Senatului.',
+      },
+    ],
     details:
       'DNA a cerut în 2016 încuviințarea urmăririi penale în dosarul votului din diaspora, însă Senatul a respins solicitarea. Prin actualizarea oficială din 20 noiembrie 2018, DNA a consemnat clasarea cauzei, inclusiv pentru lipsa condiției legale necesare punerii în mișcare a acțiunii penale după votul Senatului.',
     verified_at: '2026-03-30',

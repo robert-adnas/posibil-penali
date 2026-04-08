@@ -84,6 +84,9 @@ function normalizeSource(source) {
     label: raw.label || inferSourceLabel(raw.url),
     kind: raw.kind || inferSourceKind(raw.url),
     url: raw.url,
+    description: raw.description,
+    source_type: raw.source_type,
+    published_at: raw.published_at,
   };
 }
 
