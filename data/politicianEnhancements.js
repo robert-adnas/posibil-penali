@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-04',
+  last_updated: '2026-04-08',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -3499,6 +3499,99 @@ export const politicianAdditions = [
         label: 'Crișana',
         kind: 'press',
         url: 'https://crisana.ro/stiri/politica-4/mizez-pe-sprijinul-financiar-si-logistic-al-colegilor-din-consiliul-judetean-bihor-si-guvernul-rom-acirc-niei-100262.html',
+      },
+    ],
+  },
+  {
+    name: 'Márk Endre Dezső',
+    party: 'UDMR',
+    position: 'Primar al municipiului Reghin, județul Mureș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite pentru altul',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Târgu Mureș a anunțat la 9 septembrie 2025 trimiterea în judecată a lui Márk Endre Dezső, la data faptelor primar al municipiului Reghin, pentru că ar fi semnat și aprobat în mod nelegal un contract de asistență juridică de 6.000 lei și ar fi dispus ulterior plata acestuia din bugetul primăriei. Rechizitoriul a fost trimis Tribunalului Mureș. Nu am identificat, până la 8 aprilie 2026, o soluție definitivă ulterioară.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13001',
+      },
+      {
+        label: 'Gândul',
+        kind: 'press',
+        url: 'https://www.gandul.ro/actualitate/primarul-municipiului-reghin-trimis-in-judecata-de-dna-pentru-abuz-in-serviciu-inspectorul-contabil-acuzat-de-complicitate-20629273',
+      },
+      {
+        label: 'UDMR Mureș',
+        kind: 'official',
+        url: 'https://www.facebook.com/udmrmures/posts/24551783515199672/',
+      },
+    ],
+  },
+  {
+    name: 'Gálfi Árpád',
+    party: 'Independent',
+    position: 'Fost primar al municipiului Odorheiu Secuiesc, județul Harghita',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Trimis în judecată',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Târgu Mureș a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Gálfi Árpád, la data faptelor primar al municipiului Odorheiu Secuiesc, pentru cinci infracțiuni de abuz în serviciu legate de încheierea în anul 2019 a unor contracte de asistență juridică fără hotărâri ale consiliului local și fără respectarea controlului financiar preventiv. Dosarul a fost trimis spre judecare Tribunalului Harghita. Nu am identificat, până la 8 aprilie 2026, o soluție definitivă ulterioară.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12877',
+      },
+      {
+        label: 'Contează',
+        kind: 'press',
+        url: 'https://conteaza.ro/2025/04/02/dna-l-a-trimis-in-judecata-pe-fostul-primar-din-odorheiu-secuiesc-galfi-arpad-pentru-abuz-in-serviciu/',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/rezultate-alegeri-locale-2024-in-odorheiu-secuiesc-galfi-arpad-candidat-independent.html',
+      },
+    ],
+  },
+  {
+    name: 'Alexandru-Răzvan Cuc',
+    party: 'PSD',
+    position: 'Fost ministru al Transporturilor',
+    position_type: 'minister',
+    crime: 'Complicitate la dare de mită',
+    sentence: 'Trimis în judecată; arestat preventiv la declanșarea cauzei',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anunțat la 16 decembrie 2025 punerea în mișcare a acțiunii penale, reținerea și apoi arestarea preventivă a lui Alexandru-Răzvan Cuc în dosarul privind promisiunea unei mite reprezentând 6% dintr-un contract al Registrului Auto Român. Potrivit relatărilor din 5 februarie 2026, care citează comunicatul DNA și înregistrarea dosarului la Tribunalul București, acesta a fost trimis în judecată în aceeași cauză. Nu am identificat o pagină DNA separată, ușor regăsibilă, pentru comunicatul privind trimiterea în judecată, așa că statutul este ancorat pe actualizarea procedurală consemnată în presa care citează DNA și portalul instanțelor.',
+    verified_at: '2026-04-08',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13415',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/razvan-cuc-fost-ministru-psd-al-transporturilor-trimis-in-judecata-de-dna-in-dosarul-mitei-de-la-rar-3618071',
+      },
+      {
+        label: 'Economica.net',
+        kind: 'press',
+        url: 'https://www.economica.net/perchezitii-dna-la-fostul-ministru-al-transporturilor-razvan-cuc-si-la-un-om-de-afaceri-dosarul-investigheaza-dare-de-mita-si-complicitate-la-dare-de-mita_897273.html',
       },
     ],
   },
