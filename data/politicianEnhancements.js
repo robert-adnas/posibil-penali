@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-08',
+  last_updated: '2026-04-09',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -4032,6 +4032,230 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Grigore Marin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Produlești, județul Dâmbovița',
+    position_type: 'mayor',
+    crime: 'Luare de mită; fals material în înscrisuri oficiale; uz de fals; abuz în serviciu',
+    sentence: '4 ani și 1 lună închisoare',
+    sentence_years: 4.08,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Ploiești l-a condamnat definitiv la 17 octombrie 2014 la 4 ani și 1 lună de închisoare pentru luare de mită, fals material în înscrisuri oficiale, uz de fals și abuz în serviciu în formă continuată. DNA reținuse că, în calitate de primar al comunei Produlești, ar fi pretins și primit mită pentru deblocarea unor plăți și ar fi folosit documente false în legătură cu execuția unor lucrări publice.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5452',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3420',
+      },
+      {
+        label: 'BURSA',
+        kind: 'press',
+        url: 'https://www.bursa.ro/primarul-unei-comune-din-dambovita-a-impuscat-un-tanar-in-urma-unui-scandal-81991314',
+      },
+    ],
+  },
+  {
+    name: 'Petre Zamfir',
+    party: 'PSD',
+    position: 'Fost primar al comunei Crăcăoani, județul Neamț',
+    position_type: 'mayor',
+    crime: 'Folosire sau prezentare de documente false pentru fonduri europene; omisiunea furnizării de date pentru obținerea de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'După o achitare în primă instanță la Tribunalul Neamț, Curtea de Apel Bacău l-a condamnat definitiv la 16 noiembrie 2020 la 2 ani de închisoare cu suspendare pentru folosirea sau prezentarea cu rea-credință de documente ori declarații false și omisiunea de a furniza date pentru obținerea pe nedrept de fonduri europene. Hotărârea definitivă a inclus și obligarea la plata despăgubirilor civile către AFIR.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10127',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9216',
+      },
+      {
+        label: 'TVMNeamț',
+        kind: 'press',
+        url: 'https://tvmneamt.ro/perchezitii-la-locuinta-familiei-fostului-primar-de-cracaoani-petre-zamfir/',
+      },
+    ],
+  },
+  {
+    name: 'Costel Zamfir',
+    party: 'Independent',
+    position: 'Fost primar al comunei Bradu, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu; fals intelectual; uz de fals',
+    sentence: '5 ani închisoare',
+    sentence_years: 5,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'ÎCCJ l-a condamnat definitiv la 22 ianuarie 2014 la 5 ani de închisoare în dosarul retrocedărilor ilegale de terenuri de la Bradu. Ulterior, DNA Pitești l-a trimis din nou în judecată în ianuarie 2019 într-un dosar separat privind alte 161 de acte materiale de abuz în serviciu legate de fond funciar; am păstrat statutul general de convicted deoarece condamnarea definitivă din 2014 este mai puternică decât stadiul ulterior al noii cauze. L-am trecut la Independent deoarece nu am confirmat din surse suficient de solide afilierea sa politică exactă din perioada mandatului.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4596',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9216',
+      },
+      {
+        label: 'Curierul Zilei',
+        kind: 'press',
+        url: 'https://curier.ro/2022/07/08/primarul-zamfir-9-ani-de-inchisoare/',
+      },
+    ],
+  },
+  {
+    name: 'Costel Vieriu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Grindu, județul Ialomița',
+    position_type: 'mayor',
+    crime: 'Trafic de influență în formă continuată',
+    sentence: '3 ani închisoare cu suspendare în primă instanță',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'first_instance',
+    details:
+      'DNA a anunțat la 14 ianuarie 2019 sesizarea Tribunalului Ialomița cu acordul de recunoaștere a vinovăției, care prevedea 3 ani de închisoare cu suspendare și interzicerea unor drepturi. Relatările din 7 februarie 2019 arată că Tribunalul Ialomița a admis acordul și a dispus și 120 de zile de muncă în folosul comunității. Nu am identificat, până la 9 aprilie 2026, o actualizare oficială ulterioară care să indice o soluție definitivă diferită, așa că păstrez statutul de first_instance.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9216',
+      },
+      {
+        label: 'Money.ro',
+        kind: 'press',
+        url: 'https://www.money.ro/fostul-primar-condamnat-pentru-trafic-de-influenta-obligat-sa-dea-cu-matura-timp-de-120-de-zile/',
+      },
+      {
+        label: 'Info Ialomița',
+        kind: 'press',
+        url: 'https://infoialomita.ro/flagrant-dna-primarul-psd-din-grindu-a-fost-prins-cand-lua-spaga/',
+      },
+    ],
+  },
+  {
+    name: 'Rizea Florian',
+    party: 'PSD',
+    position: 'Fost primar al comunei Țițești, județul Argeș',
+    position_type: 'mayor',
+    crime:
+      'Instigare la folosire sau prezentare de documente false pentru fonduri europene; abuz în serviciu într-un dosar separat',
+    sentence:
+      '3 ani închisoare cu suspendare; achitat definitiv într-un alt dosar',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Pitești l-a condamnat definitiv la 18 octombrie 2018 la 3 ani de închisoare cu suspendare pentru instigare la folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea pe nedrept de fonduri europene, în dosarul APIA privind izlazul comunal din Țițești. Într-o cauză separată, dosarul de consultanță al CJ Argeș, ÎCCJ a dispus la 24 aprilie 2023 achitarea sa definitivă pentru abuz în serviciu, actualizare consemnată de DNA la 5 februarie 2024. Am păstrat statutul general de convicted deoarece condamnarea definitivă din 2018 este mai puternică decât soluția favorabilă din dosarul distinct.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9126',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7628',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-social-democrati-care-trag-spre-pdl-au-fost-pusi-la-zid-4414/',
+      },
+    ],
+  },
+  {
+    name: 'Cioran Lucian',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mozăceni, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a trimis în judecată în noiembrie 2015 în dosarul privind contractele de consultanță atribuite de autorități locale argeșene firmei European Project Consulting. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, reținând că faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/candidatul-psd-de-la-mozaceni-a-pierdut-la-50-de-voturi-29841/',
+      },
+    ],
+  },
+  {
+    name: 'Tudose Elisaveta',
+    party: 'PSD',
+    position: 'Fost primar al comunei Coșești, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitată definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești a trimis-o în judecată în noiembrie 2015 în dosarul contractelor de consultanță derulate în județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/si-totusi-cea-mai-longeviva-primarita-din-arges-nu-mai-candideaza-pentru-un-nou-mandat-24398/',
+      },
+    ],
+  },
 ];
 
 /**
@@ -4176,6 +4400,13 @@ export const countyOverrides = {
   'Sorin Bala\u0219i': 'Bra\u0219ov',
   'Sik\u00f3 Imre': 'Covasna',
   'Gavril Lupu': 'Neam\u021b',
+  'Grigore Marin': 'Dâmbovița',
+  'Petre Zamfir': 'Neamț',
+  'Costel Zamfir': 'Argeș',
+  'Costel Vieriu': 'Ialomița',
+  'Rizea Florian': 'Argeș',
+  'Cioran Lucian': 'Argeș',
+  'Tudose Elisaveta': 'Argeș',
   'Lucreția Cadar': 'Mureș',
   'Filimon Brian': 'Caraș-Severin',
   'Bocșe Raul Florin': 'Bihor',
