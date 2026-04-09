@@ -4256,6 +4256,99 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Marian Ibric',
+    party: 'PSD',
+    position: 'Primar al comunei Leordeni, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță derulate în județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Consiliul Județean Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/web/leordeni/primar-mandat-2020-2024',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Matei',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mihăești, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Ziarul din Muscel',
+        kind: 'press',
+        url: 'https://www.ziaruldinmuscel.ro/fostul-primar-gheorghe-matei-a-fost-reales-presedinte-la-psd-mihaesti/',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru Voicu',
+    party: 'PSD',
+    position: 'Primar al comunei Micești, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Comuna Micești',
+        kind: 'official',
+        url: 'https://comunamicesti.ro/componenta/',
+      },
+    ],
+  },
 ];
 
 /**
@@ -4407,6 +4500,9 @@ export const countyOverrides = {
   'Rizea Florian': 'Argeș',
   'Cioran Lucian': 'Argeș',
   'Tudose Elisaveta': 'Argeș',
+  'Marian Ibric': 'Argeș',
+  'Gheorghe Matei': 'Argeș',
+  'Dumitru Voicu': 'Argeș',
   'Lucreția Cadar': 'Mureș',
   'Filimon Brian': 'Caraș-Severin',
   'Bocșe Raul Florin': 'Bihor',
