@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useMemo, useEffect, useRef, useCallback } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
@@ -6,6 +6,7 @@ import { useAnalytics } from '../hooks/useAnalytics';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { SavedViews } from '../components/SavedViews';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -30,6 +31,16 @@ const STATUS_FILTERS = [
   { key: 'acquitted', label: 'Achitați' },
 ];
 
+const SORT_OPTIONS = [
+  { key: 'name', label: 'Nume A–Z' },
+  { key: 'position', label: 'Funcție' },
+  { key: 'sentence', label: 'Pedeapsă' },
+];
+
+function normalizeParam(value) {
+  return value ? value : null;
+}
+
 function stripDiacritics(str) {
   return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
@@ -47,49 +58,85 @@ function highlight(text, query) {
   );
 }
 
+function buildSavedViewName(query, activeStatus, sortBy) {
+  const parts = [];
+
+  if (query) parts.push(`Căutare: ${query}`);
+  if (activeStatus) {
+    parts.push(STATUS_FILTERS.find((entry) => entry.key === activeStatus)?.label || activeStatus);
+  }
+  if (sortBy) {
+    parts.push(SORT_OPTIONS.find((entry) => entry.key === sortBy)?.label || sortBy);
+  }
+
+  return parts.join(' · ') || 'Lista completă';
+}
+
 export function ListaPage() {
   const { allData } = useData();
   const { track } = useAnalytics();
   const [searchParams, setSearchParams] = useSearchParams();
-  const [query, setQueryState] = useState(() => searchParams.get('q') || '');
-  const [activeStatus, setActiveStatus] = useState(null);
-  const [sortBy, setSortBy] = useState(null);
   const searchRef = useRef(null);
+  const query = searchParams.get('q') || '';
+  const rawActiveStatus = normalizeParam(searchParams.get('status'));
+  const rawSortBy = normalizeParam(searchParams.get('sort'));
+  const sortBy = SORT_OPTIONS.some((entry) => entry.key === rawSortBy) ? rawSortBy : null;
 
-  function setQuery(value) {
-    setQueryState(value);
-    setSearchParams(value ? { q: value } : {}, { replace: true });
-  }
+  const updateSearchParams = useCallback((updates) => {
+    const next = new URLSearchParams(searchParams);
+
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value) next.set(key, value);
+      else next.delete(key);
+    });
+
+    next.sort();
+    setSearchParams(next, { replace: true });
+  }, [searchParams, setSearchParams]);
+
+  const setQuery = useCallback((value) => {
+    updateSearchParams({ q: value || null });
+  }, [updateSearchParams]);
 
   const queryFiltered = useMemo(() => {
     const q = stripDiacritics(query.trim().toLowerCase());
     if (!q) return allData;
-    return allData.filter((p) =>
-      stripDiacritics(p.name.toLowerCase()).includes(q) ||
-      stripDiacritics(p.party.toLowerCase()).includes(q) ||
-      stripDiacritics((p.position || '').toLowerCase()).includes(q) ||
-      stripDiacritics((p.crime || '').toLowerCase()).includes(q)
+    return allData.filter((politician) =>
+      stripDiacritics(politician.name.toLowerCase()).includes(q) ||
+      stripDiacritics(politician.party.toLowerCase()).includes(q) ||
+      stripDiacritics((politician.position || '').toLowerCase()).includes(q) ||
+      stripDiacritics((politician.crime || '').toLowerCase()).includes(q)
     );
   }, [allData, query]);
 
   const countByStatus = useMemo(() => {
     const counts = {};
-    queryFiltered.forEach((p) => {
-      counts[p.status] = (counts[p.status] || 0) + 1;
+    queryFiltered.forEach((politician) => {
+      counts[politician.status] = (counts[politician.status] || 0) + 1;
     });
     return counts;
   }, [queryFiltered]);
 
+  const visibleStatuses = useMemo(
+    () => new Set(Object.keys(countByStatus)),
+    [countByStatus]
+  );
+
+  const activeStatus = rawActiveStatus && visibleStatuses.has(rawActiveStatus)
+    ? rawActiveStatus
+    : null;
+
   const results = useMemo(() => {
     const filtered = activeStatus
-      ? queryFiltered.filter((p) => p.status === activeStatus)
+      ? queryFiltered.filter((politician) => politician.status === activeStatus)
       : queryFiltered;
 
     if (sortBy === 'name') {
-      return [...filtered].sort((a, b) => a.name.localeCompare(b.name, 'ro'));
+      return [...filtered].sort((left, right) => left.name.localeCompare(right.name, 'ro'));
     }
+
     if (sortBy === 'position') {
-      const POSITION_RANK = {
+      const positionRank = {
         prime_minister: 0,
         minister: 1,
         senator: 2,
@@ -101,62 +148,66 @@ export function ListaPage() {
         local_official: 8,
         other: 9,
       };
-      return [...filtered].sort((a, b) => {
-        const rankA = POSITION_RANK[a.position_type] ?? 99;
-        const rankB = POSITION_RANK[b.position_type] ?? 99;
-        if (rankA !== rankB) return rankA - rankB;
-        return a.name.localeCompare(b.name, 'ro');
+
+      return [...filtered].sort((left, right) => {
+        const rankLeft = positionRank[left.position_type] ?? 99;
+        const rankRight = positionRank[right.position_type] ?? 99;
+        if (rankLeft !== rankRight) return rankLeft - rankRight;
+        return left.name.localeCompare(right.name, 'ro');
       });
     }
+
     if (sortBy === 'sentence') {
-      return [...filtered].sort((a, b) => {
-        const aY = a.sentence_years ?? 0;
-        const bY = b.sentence_years ?? 0;
-        if (aY > 0 && bY > 0) return bY - aY;
-        if (aY > 0) return -1;
-        if (bY > 0) return 1;
-        return a.name.localeCompare(b.name, 'ro');
+      return [...filtered].sort((left, right) => {
+        const leftYears = left.sentence_years ?? 0;
+        const rightYears = right.sentence_years ?? 0;
+        if (leftYears > 0 && rightYears > 0) return rightYears - leftYears;
+        if (leftYears > 0) return -1;
+        if (rightYears > 0) return 1;
+        return left.name.localeCompare(right.name, 'ro');
       });
     }
-    return [...filtered].sort((a, b) => {
-      const rankA = STATUS_RANK[a.status] ?? 99;
-      const rankB = STATUS_RANK[b.status] ?? 99;
-      if (rankA !== rankB) return rankA - rankB;
-      return a.name.localeCompare(b.name, 'ro');
+
+    return [...filtered].sort((left, right) => {
+      const rankLeft = STATUS_RANK[left.status] ?? 99;
+      const rankRight = STATUS_RANK[right.status] ?? 99;
+      if (rankLeft !== rankRight) return rankLeft - rankRight;
+      return left.name.localeCompare(right.name, 'ro');
     });
-  }, [queryFiltered, activeStatus, sortBy]);
-
-  const visibleStatuses = useMemo(
-    () => new Set(Object.keys(countByStatus)),
-    [countByStatus]
-  );
-
+  }, [activeStatus, queryFiltered, sortBy]);
 
   useEffect(() => {
-    if (activeStatus && !visibleStatuses.has(activeStatus)) {
-      setActiveStatus(null);
-    }
-  }, [activeStatus, visibleStatuses]);
+    const trimmedQuery = query.trim();
+    if (trimmedQuery.length < 3) return undefined;
 
-  useEffect(() => {
-    const q = query.trim();
-    if (q.length < 3) return;
-    const timer = setTimeout(() => track('Search', { query: q }), 1000);
+    const timer = setTimeout(() => track('Search', { query: trimmedQuery }), 1000);
     return () => clearTimeout(timer);
-  }, [query]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [query, track]);
 
   useEffect(() => {
-    function handleKey(e) {
-      if (e.key !== '/') return;
-      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
-      e.preventDefault();
+    function handleKey(event) {
+      if (event.key !== '/') return;
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(event.target.tagName)) return;
+      event.preventDefault();
       searchRef.current?.focus();
     }
+
     document.addEventListener('keydown', handleKey);
     return () => document.removeEventListener('keydown', handleKey);
   }, []);
 
-  const activeFilterLabel = STATUS_FILTERS.find((f) => f.key === activeStatus)?.label;
+  const activeFilterLabel = STATUS_FILTERS.find((entry) => entry.key === activeStatus)?.label;
+  const currentSearch = useMemo(() => {
+    const next = new URLSearchParams(searchParams);
+    next.sort();
+    const value = next.toString();
+    return value ? `?${value}` : '';
+  }, [searchParams]);
+  const savedViewName = useMemo(
+    () => buildSavedViewName(query.trim(), activeStatus, sortBy),
+    [query, activeStatus, sortBy]
+  );
+
   useSEO({
     title: activeStatus
       ? `${activeFilterLabel} (${results.length}) — Lista politicienilor | Politicieni Corupți`
@@ -165,7 +216,7 @@ export function ListaPage() {
     url: `${BASE_URL}/lista`,
   });
 
-  const q = query.trim();
+  const trimmedQuery = query.trim();
 
   return (
     <div className="app-shell">
@@ -197,7 +248,7 @@ export function ListaPage() {
               type="search"
               placeholder="Caută după nume, partid, funcție sau faptă…"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(event) => setQuery(event.target.value)}
               autoComplete="off"
               spellCheck={false}
             />
@@ -213,17 +264,17 @@ export function ListaPage() {
           </div>
 
           <div className="lista-tabs">
-            {STATUS_FILTERS.filter((f) => !f.key || visibleStatuses.has(f.key)).map((f) => (
+            {STATUS_FILTERS.filter((entry) => !entry.key || visibleStatuses.has(entry.key)).map((entry) => (
               <button
-                key={String(f.key)}
-                className={`lista-tab${activeStatus === f.key ? ' lista-tab--active' : ''}`}
-                data-status={f.key || undefined}
-                onClick={() => setActiveStatus(f.key)}
+                key={String(entry.key)}
+                className={`lista-tab${activeStatus === entry.key ? ' lista-tab--active' : ''}`}
+                data-status={entry.key || undefined}
+                onClick={() => updateSearchParams({ status: entry.key })}
               >
-                {f.key && <span className="lista-tab-dot" />}
-                {f.label}
-                {f.key && countByStatus[f.key] && (
-                  <span className="lista-tab-count">{countByStatus[f.key]}</span>
+                {entry.key && <span className="lista-tab-dot" />}
+                {entry.label}
+                {entry.key && countByStatus[entry.key] && (
+                  <span className="lista-tab-count">{countByStatus[entry.key]}</span>
                 )}
               </button>
             ))}
@@ -236,29 +287,35 @@ export function ListaPage() {
                 : results.length === 0
                 ? 'Niciun rezultat'
                 : `${results.length} din ${allData.length}`}
-              {q && results.length > 0 && (
-                <span className="lista-count-query"> pentru „{q}"</span>
+              {trimmedQuery && results.length > 0 && (
+                <span className="lista-count-query"> pentru „{trimmedQuery}”</span>
               )}
             </p>
             {results.length > 1 && (
               <div className="lista-sort">
                 <span className="lista-sort-label">Sortează</span>
-                {[
-                  { key: 'name',     label: 'Nume A–Z' },
-                  { key: 'position', label: 'Funcție' },
-                  { key: 'sentence', label: 'Pedeapsă' },
-                ].map((opt) => (
+                {SORT_OPTIONS.map((option) => (
                   <button
-                    key={opt.key}
-                    className={`lista-sort-btn${sortBy === opt.key ? ' lista-sort-btn--active' : ''}`}
-                    onClick={() => setSortBy(sortBy === opt.key ? null : opt.key)}
+                    key={option.key}
+                    className={`lista-sort-btn${sortBy === option.key ? ' lista-sort-btn--active' : ''}`}
+                    onClick={() => updateSearchParams({ sort: sortBy === option.key ? null : option.key })}
                   >
-                    {opt.label}
+                    {option.label}
                   </button>
                 ))}
               </div>
             )}
           </div>
+
+          <SavedViews
+            storageKey="saved-list-views"
+            currentPathname="/lista"
+            currentSearch={currentSearch}
+            defaultName={savedViewName}
+            saveLabel="Salvează căutarea"
+            heading="Căutări salvate"
+            emptyHint="Copiază sau salvează combinațiile de căutare pe care le folosești des."
+          />
         </div>
       </div>
 
@@ -269,34 +326,37 @@ export function ListaPage() {
               <p className="lista-empty-title">Niciun politician găsit</p>
               <p className="lista-empty-sub">
                 Încearcă un alt termen sau{' '}
-                <button className="lista-empty-reset" onClick={() => { setQuery(''); setActiveStatus(null); }}>
+                <button
+                  className="lista-empty-reset"
+                  onClick={() => setSearchParams({}, { replace: true })}
+                >
                   resetează filtrele
                 </button>
               </p>
             </div>
           ) : (
             <ul className="lista-list">
-              {results.map((p) => (
+              {results.map((politician) => (
                 <li
-                  key={p.name}
+                  key={politician.name}
                   className="lista-item"
-                  data-status={p.status}
+                  data-status={politician.status}
                 >
                   <Link
-                    to={`/politician/${nameToSlug(p.name)}`}
-                    state={{ from: `/lista${searchParams.toString() ? `?${searchParams.toString()}` : ''}`, fromLabel: 'Lista politicienilor' }}
+                    to={`/politician/${nameToSlug(politician.name)}`}
+                    state={{ from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' }}
                     className="lista-item-link"
                   >
                     <span className="lista-item-dot" />
-                    <span className="lista-item-name">{highlight(p.name, q)}</span>
-                    <span className="lista-item-party">{highlight(p.party, q)}</span>
+                    <span className="lista-item-name">{highlight(politician.name, trimmedQuery)}</span>
+                    <span className="lista-item-party">{highlight(politician.party, trimmedQuery)}</span>
                     <span className="lista-item-position">
-                      {POSITION_LABELS[p.position_type] || p.position_type}
+                      {POSITION_LABELS[politician.position_type] || politician.position_type}
                     </span>
                     <span className="lista-item-status">
-                      {STATUS_LABELS[p.status] || p.status}
-                      {p.sentence_years > 0 && (
-                        <span className="lista-item-sentence">{formatYears(p.sentence_years)}</span>
+                      {STATUS_LABELS[politician.status] || politician.status}
+                      {politician.sentence_years > 0 && (
+                        <span className="lista-item-sentence">{formatYears(politician.sentence_years)}</span>
                       )}
                     </span>
                   </Link>
@@ -312,6 +372,7 @@ export function ListaPage() {
           <div className="app-footer-rule" />
           <nav className="app-footer-nav">
             <Link to="/" className="app-footer-nav-link">Arhivă</Link>
+            <Link to="/actualizari" className="app-footer-nav-link">Modificări recente</Link>
             <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
             <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>
             <Link to="/contact" className="app-footer-nav-link">Contact & Corecții</Link>

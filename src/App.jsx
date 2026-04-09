@@ -8,6 +8,7 @@ const Metodologie     = lazy(() => import('./pages/Metodologie').then((m) => ({ 
 const AvizLegal       = lazy(() => import('./pages/AvizLegal').then((m) => ({ default: m.AvizLegal })));
 const Contact         = lazy(() => import('./pages/Contact').then((m) => ({ default: m.Contact })));
 const Confidentialitate = lazy(() => import('./pages/Confidentialitate').then((m) => ({ default: m.Confidentialitate })));
+const RecentUpdates = lazy(() => import('./pages/RecentUpdates').then((m) => ({ default: m.RecentUpdates })));
 const PoliticianPage  = lazy(() => import('./pages/PoliticianPage').then((m) => ({ default: m.PoliticianPage })));
 const GlosarPage      = lazy(() => import('./pages/GlosarPage').then((m) => ({ default: m.GlosarPage })));
 const ListaPage       = lazy(() => import('./pages/Lista').then((m) => ({ default: m.ListaPage })));
@@ -38,6 +39,7 @@ function App() {
         <Suspense fallback={<PageFallback />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/actualizari" element={<RecentUpdates />} />
             <Route path="/politician/:slug" element={<PoliticianPage />} />
             <Route path="/glosar" element={<GlosarPage />} />
             <Route path="/lista" element={<ListaPage />} />

@@ -20,7 +20,7 @@ export function PrejudiciuBanner({ stats }) {
   return (
     <div className="prejudiciu-banner">
       <div className="prejudiciu-banner-inner">
-        <span className="prejudiciu-label">Prejudiciu total documentat</span>
+        <span className="prejudiciu-label">Prejudiciu total</span>
         <span className="prejudiciu-value">{formatPrejudiciu(stats.totalPrejudiciu)}</span>
         <button
           className="prejudiciu-info-btn"

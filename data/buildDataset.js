@@ -4,6 +4,7 @@ import {
   politicianOverrides,
   countyOverrides,
 } from './politicianEnhancements.js';
+import { manualChangeEntries } from './changeLog.js';
 
 const HOST_LABELS = {
   'agerpres.ro': 'AGERPRES',
@@ -140,6 +141,56 @@ function applyCounty(politician) {
   return politician;
 }
 
+function buildChangeLog(baseData, politicians) {
+  const baseByName = new Map(baseData.politicians.map((politician) => [politician.name, politician]));
+
+  const derivedEntries = politicians.flatMap((politician) => {
+    if (!politician.verified_at) return [];
+
+    const before = baseByName.get(politician.name);
+
+    if (!before) {
+      return [{
+        date: politician.verified_at,
+        politician: politician.name,
+        kind: 'entry_added',
+      }];
+    }
+
+    if (before.status !== politician.status) {
+      return [{
+        date: politician.verified_at,
+        politician: politician.name,
+        kind: 'status_change',
+        status_from: before.status,
+        status_to: politician.status,
+        title: 'Statusul afișat în arhivă a fost actualizat',
+      }];
+    }
+
+    return [];
+  });
+
+  return [...derivedEntries, ...manualChangeEntries]
+    .map((entry, index) => {
+      const politician = politicians.find((candidate) => candidate.name === entry.politician);
+      if (!politician) return null;
+
+      return {
+        id: entry.id || `${entry.date}:${entry.kind}:${politician.name}:${index}`,
+        ...entry,
+        source_url: entry.source_url || politician?.sources?.[0]?.url || politician?.source_url || null,
+        politician,
+      };
+    })
+    .filter(Boolean)
+    .sort((left, right) => {
+      const dateDelta = new Date(right.date).getTime() - new Date(left.date).getTime();
+      if (dateDelta !== 0) return dateDelta;
+      return left.politician.name.localeCompare(right.politician.name, 'ro');
+    });
+}
+
 export function buildDataset(baseData) {
   const basePoliticians = baseData.politicians
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
@@ -151,11 +202,14 @@ export function buildDataset(baseData) {
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
     .map(applyCounty);
 
+  const politicians = [...basePoliticians, ...additions];
+
   return {
     metadata: {
       ...baseData.metadata,
       ...metadataOverrides,
     },
-    politicians: [...basePoliticians, ...additions],
+    politicians,
+    changeLog: buildChangeLog(baseData, politicians),
   };
 }

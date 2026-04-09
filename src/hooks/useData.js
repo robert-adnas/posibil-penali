@@ -3,10 +3,12 @@ import rawData from '../../data/politicians.json';
 import { buildDataset } from '../../data/buildDataset.js';
 import { nameToSlug } from '../utils/slug.js';
 import { parsePrejudiciuEur } from '../utils/parsePrejudiciu.js';
+import { createDefaultFilters } from '../utils/filterParams.js';
 
 const dataset = buildDataset(rawData);
 const allData = dataset.politicians;
 const metadata = dataset.metadata;
+const changeLog = dataset.changeLog;
 
 function matchesFilters(politician, filters, excludeKey = null) {
   if (excludeKey !== 'party' && filters.party && politician.party !== filters.party) return false;
@@ -32,13 +34,10 @@ function toSortedCounts(data, key) {
     .map(([value, count]) => ({ value, count }));
 }
 
-export function useData() {
-  const [filters, setFilters] = useState({
-    party: null,
-    positionType: null,
-    status: null,
-    yearRange: [null, null],
-  });
+export function useData(options = {}) {
+  const [internalFilters, setInternalFilters] = useState(() => createDefaultFilters());
+  const filters = options.filters ?? internalFilters;
+  const setFilters = options.setFilters ?? setInternalFilters;
 
   const parties = useMemo(() => {
     return toSortedCounts(
@@ -84,6 +83,7 @@ export function useData() {
 
   return {
     metadata,
+    changeLog,
     allData,
     filteredData,
     filters,

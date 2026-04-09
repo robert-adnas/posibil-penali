@@ -125,9 +125,9 @@ export function Metodologie() {
         </p>
       </Section>
 
-      <Section title="Prejudiciu total documentat" id="prejudiciu">
+      <Section title="Prejudiciu total" id="prejudiciu">
         <p>
-          Suma afișată pe pagina principală ca „Prejudiciu total documentat" este calculată automat
+          Suma afișată pe pagina principală ca „Prejudiciu total" este calculată automat
           prin extragerea doar a valorilor monetare legate explicit de un prejudiciu sau de o pagubă
           documentată. Sunt incluse și formulările care descriu direct plăți, alocări sau încasări
           nelegale de fonduri publice ori europene, atunci când textul indică limpede o pierdere

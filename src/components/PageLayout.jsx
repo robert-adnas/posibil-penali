@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ThemeToggle } from './ThemeToggle';
 
 const NAV_LINKS = [
+  { to: '/actualizari', label: 'Modificari recente' },
   { to: '/metodologie', label: 'Metodologie' },
   { to: '/aviz-legal', label: 'Aviz legal' },
   { to: '/contact', label: 'Contact & Corecții' },

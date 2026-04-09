@@ -18,7 +18,7 @@ const publicDir = join(root, 'public');
 
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
-const { politicians, metadata } = buildDataset(rawData);
+const { politicians, metadata, changeLog } = buildDataset(rawData);
 const template = readFileSync(join(distDir, 'index.html'), 'utf8');
 
 const BASE_URL = 'https://politicieni-corupti.ro';
@@ -59,6 +59,7 @@ const STATUS_LABELS = {
 
 const SITE_LINKS = [
   { href: '/', label: 'Arhiv\u0103' },
+  { href: '/actualizari', label: 'Modific\u0103ri recente' },
   { href: '/lista', label: 'Lista complet\u0103' },
   { href: '/glosar', label: 'Glosar juridic' },
   { href: '/metodologie', label: 'Metodologie' },
@@ -106,6 +107,16 @@ function byStatusThenName(items) {
     const rightRank = STATUS_ORDER.indexOf(right.status);
 
     if (leftRank !== rightRank) return leftRank - rightRank;
+    return left.name.localeCompare(right.name, 'ro');
+  });
+}
+
+function byRecentVerification(items) {
+  return [...items].sort((left, right) => {
+    const leftTime = new Date(left.verified_at || 0).getTime();
+    const rightTime = new Date(right.verified_at || 0).getTime();
+
+    if (leftTime !== rightTime) return rightTime - leftTime;
     return left.name.localeCompare(right.name, 'ro');
   });
 }
@@ -248,6 +259,14 @@ const topParties = Object.entries(
 const featuredPoliticians = byStatusThenName(
   politicians.filter((politician) => politician.status !== 'acquitted')
 ).slice(0, 18);
+const recentChanges = changeLog.slice(0, 12);
+const changedKeys = new Set(
+  changeLog.map((entry) => `${nameToSlug(entry.politician.name)}:${entry.date}`)
+);
+const recentlyVerified = byRecentVerification(
+  politicians.filter((politician) => politician.verified_at)
+    .filter((politician) => !changedKeys.has(`${nameToSlug(politician.name)}:${politician.verified_at}`))
+).slice(0, 24);
 
 const homeRootContent = `
   <div class="app-shell">
@@ -288,6 +307,20 @@ const homeRootContent = `
               )
             )}
             <p style="margin-top:1rem;"><a href="/lista">Continu\u0103 cu lista complet\u0103 \u2192</a></p>
+          `
+        )}
+        ${renderSection(
+          'Ce s-a schimbat recent',
+          `
+            ${renderBulletList(
+              recentChanges.slice(0, 6).map((entry) => `
+                <li>
+                  <a href="/politician/${nameToSlug(entry.politician.name)}">${escapeHtml(entry.politician.name)}</a>
+                  <span> - ${escapeHtml(entry.title)}</span>
+                </li>
+              `)
+            )}
+            <p style="margin-top:1rem;"><a href="/actualizari">Vezi toate modificarile \u2192</a></p>
           `
         )}
       </div>
@@ -339,6 +372,25 @@ const listJsonLd = {
       position: index + 1,
       url: `${BASE_URL}/politician/${nameToSlug(politician.name)}`,
       name: politician.name,
+    })),
+  },
+};
+
+const updatesJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Modificari recente',
+  url: `${BASE_URL}/actualizari`,
+  description:
+    'Modificari consemnate si fise reverificate recent in arhiva Politicieni Corupti.',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: recentChanges.length,
+    itemListElement: recentChanges.slice(0, 20).map((entry, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: `${BASE_URL}/politician/${nameToSlug(entry.politician.name)}`,
+      name: entry.politician.name,
     })),
   },
 };
@@ -421,6 +473,54 @@ renderPage({
   canonical: `${BASE_URL}/lista`,
   jsonLd: listJsonLd,
   rootContent: listRootContent,
+});
+count += 1;
+
+renderPage({
+  path: 'actualizari',
+  title: 'Modificari recente | Politicieni Corup\u021bi',
+  description:
+    'Vezi separat modificarile consemnate in arhiva si fisele doar reverificate editorial.',
+  canonical: `${BASE_URL}/actualizari`,
+  jsonLd: updatesJsonLd,
+  rootContent: `
+    <div class="app-shell">
+      <main class="app-section">
+        <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+          <p class="app-kicker">Verific\u0103ri editoriale</p>
+          <h1 class="app-title">Modificari recente</h1>
+          <p class="app-intro">
+            Aici vezi separat modificarile consemnate in arhiva si fisele doar reverificate editorial.
+          </p>
+          <p style="max-width:64rem;line-height:1.7;margin:1rem 0 0;color:var(--color-text-muted);">
+            Ultima actualizare global\u0103 a arhivei: ${escapeHtml(lastUpdatedText)}.
+          </p>
+          ${renderSiteNav('/actualizari')}
+          ${renderSection(
+            renderBulletList(
+              recentChanges.map((entry) => `
+                <li>
+                  <a href="/politician/${nameToSlug(entry.politician.name)}">${escapeHtml(entry.politician.name)}</a>
+                  <span> - ${escapeHtml(entry.title)}</span>
+                </li>
+              `)
+            )
+          )}
+          ${renderSection(
+            'Fise reverificate fara alte schimbari majore',
+            renderBulletList(
+              recentlyVerified.map((politician) => `
+                <li>
+                  <a href="/politician/${nameToSlug(politician.name)}">${escapeHtml(politician.name)}</a>
+                  <span> - verificat la ${escapeHtml(formatDateRo(politician.verified_at))}</span>
+                </li>
+              `)
+            )
+          )}
+        </div>
+      </main>
+    </div>
+  `,
 });
 count += 1;
 

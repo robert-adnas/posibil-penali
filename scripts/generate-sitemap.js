@@ -28,6 +28,7 @@ const lastMod = metadata.last_updated || new Date().toISOString().slice(0, 10);
 
 const staticPages = [
   { path: '/',                  changefreq: 'weekly',  priority: '1.0' },
+  { path: '/actualizari',       changefreq: 'weekly',  priority: '0.8' },
   { path: '/lista',             changefreq: 'weekly',  priority: '0.9' },
   { path: '/glosar',            changefreq: 'monthly', priority: '0.8' },
   { path: '/metodologie',       changefreq: 'monthly', priority: '0.6' },
