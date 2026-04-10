@@ -378,7 +378,10 @@ export const politicianOverrides = {
     ],
   },
   'Liviu Dragnea': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 21722.4,
+    prejudiciu_text:
+      'În dosarul DGASPC Teleorman, DNA a consemnat despăgubiri civile totale de 108.612 lei; din această sumă, 34.339 lei fuseseră deja achitați de o altă inculpată la momentul hotărârii definitive.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
@@ -393,7 +396,10 @@ export const politicianOverrides = {
     ],
   },
   'Elena Udrea': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 1623360,
+    prejudiciu_text:
+      'În dosarul Gala Bute, DNA a consemnat obligația de plată a sumei de 8.116.800 lei cu titlu de despăgubiri civile către Autoritatea Națională pentru Turism.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
@@ -461,7 +467,10 @@ export const politicianOverrides = {
     ],
   },
   'Monica Iacob-Ridzi': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 547386.656,
+    prejudiciu_text:
+      'DNA a consemnat în dosarul „2 Mai” despăgubiri civile de 2.736.933,28 lei către Ministerul Tineretului și Sportului.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
@@ -715,6 +724,83 @@ export const politicianOverrides = {
         url: 'https://www.dna.ro/comunicat.xhtml?id=10238',
       },
     ],
+  },
+  'Petre Zamfir': {
+    prejudiciu_eur: 262747.456,
+    prejudiciu_text:
+      'Comunicatul DNA din 30 martie 2021 indică obligația de plată a sumei de 1.313.737,28 lei către AFIR cu titlu de despăgubiri civile.',
+    verified_at: '2026-04-10',
+  },
+  'Vasile Andreaș': {
+    prejudiciu_eur: 275620.8,
+    prejudiciu_text:
+      'Comunicatul DNA din 31 mai 2022 indică un total de 1.378.104 lei reprezentând impozite și accesorii locale scutite nelegal.',
+    verified_at: '2026-04-10',
+  },
+  'Fabian Laurențiu Costel Drocan': {
+    prejudiciu_eur: 22256.474,
+    prejudiciu_text:
+      'Comunicatul DNA din 17 octombrie 2019 indică obligația de plată a sumei de 111.282,37 lei către APIA Mehedinți, reprezentând prejudiciul cauzat prin încasarea necuvenită a sprijinului acordat.',
+    verified_at: '2026-04-10',
+  },
+  'Gheorghe Vișovan': {
+    prejudiciu_eur: 726089.2,
+    prejudiciu_text:
+      'Comunicatul DNA din 28 februarie 2017 indică un prejudiciu de 3.630.446 lei în dosarul proiectului european de la Moisei.',
+    verified_at: '2026-04-10',
+  },
+  'Ștefan Ionescu': {
+    prejudiciu_eur: 132108.23,
+    prejudiciu_text:
+      'Comunicatul DNA din 22 septembrie 2022 indică despăgubiri civile de 660.541,15 lei către APIA Ialomița.',
+    verified_at: '2026-04-10',
+  },
+  'Ion Năftănilă': {
+    prejudiciu_eur: 92547.58,
+    prejudiciu_text:
+      'Comunicatul DNA din 27 iunie 2024 indică un prejudiciu de 462.737,90 lei, sumă deja achitată integral de partea responsabilă civilmente înainte de hotărârea definitivă.',
+    verified_at: '2026-04-10',
+  },
+  'Băran Aurică': {
+    prejudiciu_eur: 267826.478,
+    prejudiciu_text:
+      'Comunicatul DNA din 9 iulie 2020 indică obligația de plată a sumei de 1.339.132,39 lei către APIA Timiș.',
+    verified_at: '2026-04-10',
+  },
+  'Adrian Nicolae Domocoș': {
+    prejudiciu_eur: 52058,
+    prejudiciu_text:
+      'Comunicatul DNA din 10 octombrie 2018 indică o sumă totală de 260.290 lei reprezentând prejudiciul reținut în dosarul de la Beiuș, chiar dacă aceasta fusese recuperată integral înainte de soluția definitivă.',
+    verified_at: '2026-04-10',
+  },
+  'Ovidiu Nemeș': {
+    prejudiciu_eur: 3953.4,
+    prejudiciu_text:
+      'Comunicatul DNA din 5 mai 2020 indică despăgubiri civile de 19.767 lei către municipiul Sighetu Marmației.',
+    verified_at: '2026-04-10',
+  },
+  'Sorin Balași': {
+    prejudiciu_eur: 123833.624,
+    prejudiciu_text:
+      'Comunicatul DNA din 5 mai 2021 indică obligația de plată a sumei de 619.168,12 lei către APIA Brașov.',
+    verified_at: '2026-04-10',
+  },
+  'Vasile Aleca': {
+    prejudiciu_eur: 365366.748,
+    prejudiciu_text:
+      'Comunicatul DNA din 20 iunie 2017 indică obligația de plată a sumei de 1.826.833,74 lei către APIA București, reprezentând sprijin financiar încasat nelegal în anul 2010.',
+    verified_at: '2026-04-10',
+  },
+  'Marian Oprișan': {
+    prejudiciu_eur: 2175000,
+    prejudiciu_text:
+      'Comunicatul DNA din 6 iunie 2005 indica un prejudiciu estimat la aproximativ 1,5 milioane euro în dauna ministerului, 600.000 euro în dauna Consiliului Județean Vrancea și 75.000 euro în dauna bugetului Guvernului.',
+    verified_at: '2026-04-10',
+  },
+  'Robert Sorin Negoiță': {
+    prejudiciu_text:
+      'Comunicatul DNA din 10 august 2022 indică pentru întregul dosar al contractului de salubrizare Rosal un prejudiciu total de 578.446.818 lei în dauna Sectorului 3; suma este prezentată public ca prejudiciu al dosarului, nu ca individualizare exclusivă pentru Robert Sorin Negoiță.',
+    verified_at: '2026-04-10',
   },
   'Neculai Ontanu': {
     sentence: '3 ani închisoare cu suspendare',
@@ -1291,9 +1377,12 @@ export const politicianOverrides = {
     sentence: 'Achitat definitiv (2022)',
     sentence_years: null,
     conviction_year: null,
+    prejudiciu_eur: 584963.52,
+    prejudiciu_text:
+      'Comunicatul DNA din 10 octombrie 2013 indică în dosarul finanțării cluburilor sportive o pagubă de 2.924.817,60 lei.',
     details:
       'Trimis \u00een judecat\u0103 de DNA \u00een dosarul finan\u021b\u0103rii cluburilor sportive. Prin decizia penal\u0103 nr. 942 din 22 septembrie 2022, Curtea de Apel Gala\u021bi a dispus achitarea sa definitiv\u0103.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
