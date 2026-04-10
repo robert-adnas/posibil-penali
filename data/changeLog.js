@@ -1,5 +1,23 @@
 export const manualChangeEntries = [
   {
+    date: '2026-04-10',
+    politician: 'Mihai Barbu',
+    kind: 'details_update',
+    title: 'Valoarea de 3 milioane de euro nu mai este tratată ca prejudiciu public',
+    summary:
+      'Fișa explică acum că suma de aproximativ 3.000.000 euro din comunicatul DNA descrie valoarea despăgubirilor urmărite în dosar, nu un prejudiciu public individualizat oficial în sarcina lui Mihai Barbu.',
+    source_url: 'https://www.dna.ro/comunicat.xhtml?id=13238',
+  },
+  {
+    date: '2026-04-10',
+    politician: 'Vlad Voiculescu',
+    kind: 'details_update',
+    title: 'Prejudiciul total al dosarului a fost separat de suma imputat\u0103 individual',
+    summary:
+      'Fi\u0219a explic\u0103 acum c\u0103 suma de 1.005.498.687 euro plus TVA provine din comunicatul DNA despre \u00eentregul dosar al vaccinurilor, nu dintr-o individualizare public\u0103 a sumei imputate doar lui Vlad Voiculescu.',
+    source_url: 'https://www.dna.ro/comunicat.xhtml?id=12292',
+  },
+  {
     date: '2026-03-22',
     politician: 'Daniel Tudorache',
     kind: 'details_update',

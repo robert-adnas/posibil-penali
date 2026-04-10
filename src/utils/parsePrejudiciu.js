@@ -43,6 +43,13 @@ const DIACRITIC_MAP = {
 };
 
 export function parsePrejudiciuEur(politician) {
+  if (!politician || typeof politician !== 'object') return 0;
+
+  if (Object.prototype.hasOwnProperty.call(politician, 'prejudiciu_eur')) {
+    const explicitAmount = Number(politician.prejudiciu_eur);
+    if (Number.isFinite(explicitAmount) && explicitAmount >= 0) return explicitAmount;
+  }
+
   const crimeAmount = extractPrejudiciuAmounts(politician.crime || '');
   if (crimeAmount > 0) return crimeAmount;
   return extractPrejudiciuAmounts(politician.details || '');

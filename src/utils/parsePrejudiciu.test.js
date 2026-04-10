@@ -91,3 +91,23 @@ test('parses singular millions and large lei prejudices', () => {
     1_000_000_000
   );
 });
+
+test('prefers explicit audited amounts over parsed text', () => {
+  assert.equal(
+    parsePrejudiciuEur({
+      prejudiciu_eur: 60_482_615,
+      crime: 'FraudÄƒ la privatizare (ICA - prejudiciu â‚¬60M)',
+      details: '',
+    }),
+    60_482_615
+  );
+
+  assert.equal(
+    parsePrejudiciuEur({
+      prejudiciu_eur: 0,
+      crime: '',
+      details: 'Dosarul vizeazÄƒ despÄƒgubiri de aproximativ 3.000.000 euro.',
+    }),
+    0
+  );
+});

@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-09',
+  last_updated: '2026-04-10',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -145,24 +145,57 @@ export const politicianOverrides = {
 
   'Vlad Voiculescu': {
     replace_sources: true,
-    case_name: 'Dosarul achiziției de vaccinuri anti-COVID',
+    case_name: 'Dosarul achizi\u021biei de vaccinuri anti-COVID',
+    prejudiciu_text:
+      'DNA a indicat \u00een comunicatul din 23 noiembrie 2023 un prejudiciu total de 1.005.498.687 euro, plus TVA, pentru \u00eentregul dosar; \u00een comunicatul privind Vlad Voiculescu nu este individualizat\u0103 public o sum\u0103 exact\u0103 imputat\u0103 doar lui.',
     institutions: [
-      { name: 'DNA', role: 'Urmărire penală și comunicare oficială' },
+      { name: 'DNA', role: 'Urm\u0103rire penal\u0103 \u0219i comunicare oficial\u0103' },
     ],
     timeline: [
       {
-        date: 'decembrie 2023',
-        label: 'Urmărire penală',
+        date: '21 septembrie 2021',
+        label: 'Dosar in rem',
         note:
-          'DNA a anunțat urmărirea penală în dosarul achiziției de vaccinuri anti-COVID.',
+          'DNA a confirmat deschiderea dosarului penal privind modalitatea de achizi\u021bie a vaccinurilor anti-COVID, f\u0103r\u0103 a indica atunci vreun suspect.',
+      },
+      {
+        date: '23 noiembrie 2023',
+        label: 'Cerere de urm\u0103rire penal\u0103',
+        note:
+          'DNA a cerut aprob\u0103rile constitu\u021bionale pentru urm\u0103rirea penal\u0103 a trei fo\u0219ti demnitari \u0219i a indicat pentru \u00eentregul dosar un prejudiciu total de 1.005.498.687 euro, plus TVA.',
+      },
+      {
+        date: '8 decembrie 2023',
+        label: 'Urm\u0103rire penal\u0103',
+        note:
+          'DNA a anun\u021bat continuarea urm\u0103ririi penale fa\u021b\u0103 de Vlad Voiculescu pentru dou\u0103 fapte de abuz \u00een serviciu \u0219i complicitate la abuz \u00een serviciu.',
+      },
+      {
+        date: '10 aprilie 2026',
+        label: 'Verificare',
+        note:
+          'Nu am identificat, p\u00e2n\u0103 la 10 aprilie 2026, un comunicat oficial ulterior privind trimiterea \u00een judecat\u0103, clasarea sau o solu\u021bie de instan\u021b\u0103 publicat\u0103 pentru Vlad Voiculescu \u00een acest dosar.',
       },
     ],
-    verified_at: '2026-03-30',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10541',
+        description: 'Deschiderea dosarului in rem privind achizi\u021bia vaccinurilor anti-COVID',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12292',
+        description: 'Comunicatul care indic\u0103 prejudiciul total al \u00eentregului dosar: 1.005.498.687 euro plus TVA',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12301',
+        description: 'Comunicatul privind continuarea urm\u0103ririi penale fa\u021b\u0103 de Vlad Voiculescu',
       },
     ],
   },
@@ -202,7 +235,10 @@ export const politicianOverrides = {
 
   'Borboly Csaba': {
     replace_sources: true,
-    verified_at: '2026-03-30',
+    prejudiciu_eur: 976771.192,
+    prejudiciu_text:
+      'Comunicatul DNA din 7 iunie 2013 indică un prejudiciu de 4.883.855,96 lei, prezentat și ca echivalent de 1.138.428 euro.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
@@ -367,12 +403,20 @@ export const politicianOverrides = {
     ],
   },
   'Dan Voiculescu': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 60482615,
+    prejudiciu_text:
+      'În dosarul ICA, DNA a indicat un prejudiciu total de 60.482.615 euro.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5173',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5424',
       },
     ],
   },
@@ -442,12 +486,20 @@ export const politicianOverrides = {
     ],
   },
   'Nicu\u0219or Constantinescu': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 6410305.17,
+    prejudiciu_text:
+      'Comunicatul DNA din 14 noiembrie 2014 indică, în dosarul perdelelor forestiere, un prejudiciu de 30.782.039 lei în dauna Consiliului Județean Constanța și 1.269.486,85 lei în dauna statului.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9583',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=5508',
       },
     ],
   },
@@ -525,12 +577,20 @@ export const politicianOverrides = {
     ],
   },
   'Radu Maz\u0103re': {
-    verified_at: '2026-03-22',
+    prejudiciu_eur: 114000000,
+    prejudiciu_text:
+      'DNA indică în dosarul retrocedărilor ilegale un prejudiciu de 114 milioane euro.',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9349',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3893',
       },
     ],
   },
@@ -549,14 +609,110 @@ export const politicianOverrides = {
   },
   'Constantin Nicolescu': {
     conviction_year: 2019,
+    prejudiciu_eur: 1141049.95,
+    prejudiciu_text:
+      'În componenta PHARE a dosarului, DNA a indicat public 880.249,95 euro și încă 260.800 euro încasați pe nedrept, fără să rezulte din comunicatele publice un total consolidat unic pentru toate componentele cauzei.',
     details:
       'Condamnat definitiv de ÎCCJ în martie 2019 la 7 ani și 8 luni de închisoare pentru luare de mită și folosirea de documente false pentru obținerea de fonduri europene.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-04-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9407',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6000',
+      },
+    ],
+  },
+  'Dorin Florea': {
+    prejudiciu_eur: 1410600,
+    prejudiciu_text:
+      'Comunicatul DNA din 2 iunie 2016 indică un prejudiciu total de 7.053.000 lei în dosarul ASA 2013.',
+    verified_at: '2026-04-10',
+  },
+  'Dragoș Chitic': {
+    prejudiciu_eur: 217834,
+    prejudiciu_text:
+      'Comunicatul DNA din 20 martie 2018 indică un prejudiciu de 1.089.170 lei în dauna municipiului Piatra Neamț.',
+    verified_at: '2026-04-10',
+  },
+  'Mircea Minea': {
+    prejudiciu_eur: 8999990.6,
+    prejudiciu_text:
+      'Comunicatul DNA din 10 mai 2023 indică un prejudiciu total de 44.999.953 lei în dosarul privind finanțarea clubului Concordia Chiajna și închirierea bazelor sportive.',
+    verified_at: '2026-04-10',
+  },
+  'Mihai Barbu': {
+    prejudiciu_eur: 0,
+    prejudiciu_text:
+      'Comunicatul DNA din 6 noiembrie 2025 descrie un dosar legat de obținerea unor despăgubiri de aproximativ 3.000.000 euro, nu un prejudiciu public individualizat oficial în sarcina lui Mihai Barbu.',
+    details:
+      'DNA Iași a dispus la 6 noiembrie 2025 punerea în mișcare a acțiunii penale și controlul judiciar față de Mihai Barbu, susținând că și-ar fi folosit influența politică pentru facilitarea unor intervenții legate de un dosar de despăgubiri de aproximativ 3.000.000 euro. Această sumă este descrisă în comunicatul DNA ca valoarea despăgubirilor urmărite, nu ca un prejudiciu public individualizat oficial în sarcina lui. La 17 februarie 2026, Tribunalul Vaslui a respins definitiv plângerea formulată împotriva ordonanței DNA din 22 decembrie 2025 de prelungire a controlului judiciar. Nu am identificat, până la 10 aprilie 2026, o trimitere în judecată sau o soluție finală oficială în cauză.',
+    verified_at: '2026-04-10',
+  },
+  'Vasile Olaru': {
+    replace_sources: true,
+    prejudiciu_eur: 187197.2,
+    prejudiciu_text:
+      'Comunicatul DNA din 22 mai 2014 indică o pagubă de 935.986 lei, prezentată și ca echivalent de 263.154 euro.',
+    verified_at: '2026-04-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4900',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8200',
+      },
+    ],
+  },
+  'Ioan Jors': {
+    prejudiciu_eur: 11187.578,
+    prejudiciu_text:
+      'Comunicatul DNA din 5 decembrie 2012 indică o sumă încasată nelegal de 55.937,89 lei, prezentată și ca echivalent de aproximativ 13.201 euro.',
+    verified_at: '2026-04-10',
+  },
+  'Vasile Vieru': {
+    prejudiciu_eur: 100821.12,
+    prejudiciu_text:
+      'Comunicatul DNA din 14 ianuarie 2013 indică o plată nelegală de 504.105,60 lei, prezentată și ca echivalent de aproximativ 149.068,69 euro.',
+    verified_at: '2026-04-10',
+  },
+  'Mirela-Florența Matichescu': {
+    prejudiciu_eur: 167151.452,
+    prejudiciu_text:
+      'Comunicatul DNA din 6 mai 2025 indică un prejudiciu de 835.757,26 lei.',
+    verified_at: '2026-04-10',
+  },
+  'Bocșe Raul Florin': {
+    prejudiciu_eur: 287102.6,
+    prejudiciu_text:
+      'Comunicatul DNA din 9 octombrie 2024 indică un prejudiciu de 1.435.513 lei în dauna comunei Câmpani.',
+    verified_at: '2026-04-10',
+  },
+  'Vasile Iliuță': {
+    replace_sources: true,
+    prejudiciu_eur: 116416.6,
+    prejudiciu_text:
+      'Comunicatul DNA din 19 iunie 2024 indică un prejudiciu de 582.083 lei în dosarul contractelor de pază.',
+    verified_at: '2026-04-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12606',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10238',
       },
     ],
   },
