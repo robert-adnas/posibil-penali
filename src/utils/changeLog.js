@@ -35,8 +35,7 @@ export function buildChangeSummary(entry) {
   }
 
   if (entry.kind === 'entry_added') {
-    const statusLabel = STATUS_LABELS[entry.politician.status] || entry.politician.status;
-    return `Profilul a fost ad\u0103ugat \u00een arhiv\u0103 cu statusul "${statusLabel}".`;
+    return '';
   }
 
   return '';
