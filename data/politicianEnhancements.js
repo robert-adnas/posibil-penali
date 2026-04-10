@@ -4505,6 +4505,99 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Marin Ion',
+    party: 'PSD',
+    position: 'Primar al comunei Stoenești, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'PSD Argeș',
+        kind: 'official',
+        url: 'https://psdarges.ro/primarul-marin-ion-ales-presedinte-al-psd-stoenesti/',
+      },
+    ],
+  },
+  {
+    name: 'Vișan Ionel Dragoș',
+    party: 'PSD',
+    position: 'Primar al comunei Cotmeana, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/web/cotmeana/primar',
+      },
+    ],
+  },
+  {
+    name: 'Poștoacă Damian-Ion',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mioarele, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Criterii.ro',
+        kind: 'press',
+        url: 'https://criterii.ro/arges/alegeri-arges-2016-psd-cel-mai-bun-rezultat-din-ultimii-20-de-ani-vezi-toti-primarii/',
+      },
+    ],
+  },
 ];
 
 /**
@@ -4659,6 +4752,9 @@ export const countyOverrides = {
   'Marian Ibric': 'Argeș',
   'Gheorghe Matei': 'Argeș',
   'Dumitru Voicu': 'Argeș',
+  'Marin Ion': 'Argeș',
+  'Vișan Ionel Dragoș': 'Argeș',
+  'Poștoacă Damian-Ion': 'Argeș',
   'Lucreția Cadar': 'Mureș',
   'Filimon Brian': 'Caraș-Severin',
   'Bocșe Raul Florin': 'Bihor',
