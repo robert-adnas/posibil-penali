@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-10',
+  last_updated: '2026-04-14',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -4687,6 +4687,114 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Constantin Iatagan',
+    party: 'PSD',
+    position: 'Primar al comunei Șuici, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Primăria Șuici',
+        kind: 'official',
+        url: 'https://primariasuici.ro/primaria/conducerea/',
+      },
+      {
+        label: 'Politikia',
+        kind: 'press',
+        url: 'https://politikia.ro/politica/psd-arges-constantin-iatagan-primar-suici-dintre-oameni-pentru-oameni/',
+      },
+    ],
+  },
+  {
+    name: 'Niculaie Dochinoiu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Vedea, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea. L-am păstrat la PSD pe baza profilului său oficial recent din perioada mandatului 2020-2024 și a rezultatelor locale din 2024.',
+    verified_at: '2026-04-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/web/vedea/primar-mandat-2020-2024',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_arges/primarie/vedea/21',
+      },
+    ],
+  },
+  {
+    name: 'Sevastian Pupăză-Roșu',
+    party: 'PSD',
+    position: 'Primar al comunei Stolnici, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
+    verified_at: '2026-04-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/web/stolnici/prezentare',
+      },
+      {
+        label: 'Observator de Argeș',
+        kind: 'press',
+        url: 'https://www.observatordearges.ro/organizatia-psd-din-stolnici-si-a-ales-conducerea.html',
+      },
+    ],
+  },
 ];
 
 /**
@@ -4844,6 +4952,9 @@ export const countyOverrides = {
   'Marin Ion': 'Argeș',
   'Vișan Ionel Dragoș': 'Argeș',
   'Poștoacă Damian-Ion': 'Argeș',
+  'Constantin Iatagan': 'Argeș',
+  'Niculaie Dochinoiu': 'Argeș',
+  'Sevastian Pupăză-Roșu': 'Argeș',
   'Lucreția Cadar': 'Mureș',
   'Filimon Brian': 'Caraș-Severin',
   'Bocșe Raul Florin': 'Bihor',
