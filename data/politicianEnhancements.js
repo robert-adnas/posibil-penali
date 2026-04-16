@@ -6,6 +6,15 @@ export const metadataOverrides = {
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
 
+const ARGES_CONSULTANCY_ACQUITTAL_DETAILS =
+  'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.';
+
+const ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015 =
+  'DNA Pitești l-a vizat inițial în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.';
+
+const VASILE_NICA_AUDIT_DETAILS =
+  'DNA a consemnat condamnarea sa definitivă la 7 decembrie 2015 într-un dosar distinct instrumentat de Serviciul Teritorial Pitești. Într-o cauză separată privind contractele de consultanță din județul Argeș, DNA a actualizat ulterior soluția definitivă de achitare pronunțată la 24 aprilie 2023; pentru consistența bazei, intrarea rămâne clasificată drept convicted deoarece există o condamnare definitivă distinctă în intervalul 2010-2026.';
+
 export const politicianOverrides = {
   'Daniel Tudorache': {
     replace_sources: true,
@@ -1435,6 +1444,198 @@ export const politicianOverrides = {
         label: 'Gazeta de Sud',
         kind: 'press',
         url: 'https://www.gds.ro/Actualitate/2025-10-06/diana-sosoaca-inculpata-oficial-pentru-11-infractiuni/',
+      },
+    ],
+  },
+  'Vasile Nică': {
+    party: 'PSD',
+    details: VASILE_NICA_AUDIT_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-valea_danului-arges.html',
+      },
+    ],
+  },
+  'Gheorghe Cernătescu': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Bitpress',
+        kind: 'press',
+        url: 'https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/',
+      },
+    ],
+  },
+  'Gheorghe Pătrașcu': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/presiune-dna-pe-armata-primarilor-psd-2230/',
+      },
+    ],
+  },
+  'Nicolae Radu': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Bitpress',
+        kind: 'press',
+        url: 'https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/',
+      },
+    ],
+  },
+  'Simion Emil': {
+    party: 'PDL',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Bitpress',
+        kind: 'press',
+        url: 'https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/',
+      },
+    ],
+  },
+  'Popa Ion': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Enciclopedia României',
+        kind: 'profile',
+        url: 'https://enciclopediaromaniei.ro/wiki/Comuna_St%C3%A2lpeni',
+      },
+    ],
+  },
+  'Ștefan Ion': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Enciclopedia României',
+        kind: 'profile',
+        url: 'https://www.enciclopediaromaniei.ro/wiki/Comuna_Budeasa',
+      },
+    ],
+  },
+  'Ivan Vasile Bebe': {
+    party: 'PNL',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-babana-arges.html',
+      },
+    ],
+  },
+  'Berevoianu Corneliu': {
+    party: 'PDL',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-nucsoara-arges.html',
+      },
+    ],
+  },
+  'Bălășoiu Aurel': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-rociu-arges.html',
+      },
+    ],
+  },
+  'Ene Florea': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-mosoaia-arges.html',
+      },
+    ],
+  },
+  'Bădulescu Ion': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Enciclopedia României',
+        kind: 'profile',
+        url: 'https://www.enciclopediaromaniei.ro/wiki/Comuna_Mor%C4%83re%C5%9Fti',
+      },
+    ],
+  },
+  'Dincuță Daniel': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-corbeni-arges.html',
+      },
+    ],
+  },
+  'Langer Nicolae': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-salatrucu-arges.html',
+      },
+    ],
+  },
+  'Țucă Gheorghe': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Gândul',
+        kind: 'press',
+        url: 'https://www.gandul.ro/actualitate/dupa-o-acuzatie-de-delapidare-edilul-din-cocuarges-revine-cu-una-noua-gheorghe-tuca-filmat-in-timp-ce-era-debransat-de-furnizorul-de-energie-20312029',
+      },
+    ],
+  },
+  'Ungurenuș Mihai': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-corbi-arges.html',
       },
     ],
   },

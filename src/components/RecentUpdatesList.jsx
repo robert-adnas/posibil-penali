@@ -27,7 +27,7 @@ export function RecentUpdatesList({
             <div className="updates-item-main">
               <span className="updates-item-name">{politician.name}</span>
               <span className="updates-item-meta">
-                {politician.party} · {POSITION_LABELS[politician.position_type] || politician.position_type}
+                {politician.party}{' · '}{POSITION_LABELS[politician.position_type] || politician.position_type}
               </span>
             </div>
 

@@ -216,13 +216,16 @@ export function HomePage() {
             <div className="app-footer-copy">
               <p>Fiecare persoana inclusa are cel putin o sursa oficiala, completata unde este util cu presa de referinta.</p>
               <p>Proiect non-profit, open-source. Lista nu este exhaustiva. Verifica intotdeauna sursele originale si data ultimei verificari.</p>
-              <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.75rem', flexWrap: 'wrap' }}>
-                <button onClick={downloadJSON} className="app-footer-nav-link" style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
-                  v Date JSON
-                </button>
-                <button onClick={downloadCSV} className="app-footer-nav-link" style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
-                  v Date CSV
-                </button>
+              <div className="app-footer-data">
+                <span className="app-footer-data-label">Open data</span>
+                <div className="app-footer-downloads">
+                  <button onClick={downloadJSON} className="app-footer-download">
+                    Descarca JSON
+                  </button>
+                  <button onClick={downloadCSV} className="app-footer-download">
+                    Descarca CSV
+                  </button>
+                </div>
               </div>
             </div>
 

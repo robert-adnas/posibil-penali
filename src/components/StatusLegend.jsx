@@ -4,37 +4,44 @@ const STATUSES = [
   {
     key: 'convicted',
     label: 'Condamnat definitiv',
-    description: 'Hotărâre judecătorească definitivă și irevocabilă. Vinovăția a fost stabilită prin toate căile de atac.',
+    description:
+      'Hotărâre judecătorească definitivă și irevocabilă. Vinovăția a fost stabilită prin toate căile de atac.',
   },
   {
     key: 'first_instance',
     label: 'Condamnat în primă instanță',
-    description: 'Există o sentință de condamnare, dar aceasta nu este definitivă și poate fi schimbată în apel. Vinovăția nu este stabilită definitiv.',
+    description:
+      'Există o sentință de condamnare, dar aceasta nu este definitivă și poate fi schimbată în apel. Vinovăția nu este stabilită definitiv.',
   },
   {
     key: 'indicted',
     label: 'Trimis în judecată',
-    description: 'Rechizitoriu emis de procuror. Urmează procesul în instanță. Vinovăția nu a fost stabilită.',
+    description:
+      'Rechizitoriu emis de procuror. Urmează procesul în instanță. Vinovăția nu a fost stabilită.',
   },
   {
     key: 'investigated',
     label: 'Cercetat penal',
-    description: 'Sub urmărire penală, dar nu a fost trimis încă în judecată. Prezumția de nevinovăție se aplică deplin.',
+    description:
+      'Sub urmărire penală, dar nu a fost trimis încă în judecată. Prezumția de nevinovăție se aplică deplin.',
   },
   {
     key: 'prescribed',
     label: 'Prescris',
-    description: 'Termenul legal pentru urmărire penală a expirat. Nu mai poate fi judecat pentru această faptă.',
+    description:
+      'Termenul legal pentru urmărire penală a expirat. Nu mai poate fi judecat pentru această faptă.',
   },
   {
     key: 'closed',
     label: 'Clasat',
-    description: 'Parchetul a clasat cauza sau aceasta a fost închisă fără trimitere în judecată. Nu există condamnare definitivă.',
+    description:
+      'Parchetul a clasat cauza sau aceasta a fost închisă fără trimitere în judecată. Nu există condamnare definitivă.',
   },
   {
     key: 'acquitted',
     label: 'Achitat',
-    description: 'Instanța a pronunțat achitarea. Nu există vinovăție stabilită de nicio instanță.',
+    description:
+      'Instanța a pronunțat achitarea. Nu există vinovăție stabilită de nicio instanță.',
   },
 ];
 
@@ -50,8 +57,8 @@ export function StatusLegend() {
           aria-expanded={open}
         >
           <span className="status-legend-toggle-dots" aria-hidden="true">
-            {STATUSES.map((s) => (
-              <span key={s.key} className="status-legend-dot" data-status={s.key} />
+            {STATUSES.map((status) => (
+              <span key={status.key} className="status-legend-dot" data-status={status.key} />
             ))}
           </span>
           <span className="status-legend-toggle-label">Ghid statusuri juridice</span>
@@ -71,13 +78,13 @@ export function StatusLegend() {
 
         {open && (
           <div className="status-legend-grid">
-            {STATUSES.map((s) => (
-              <div key={s.key} className="status-legend-item" data-status={s.key}>
+            {STATUSES.map((status) => (
+              <div key={status.key} className="status-legend-item" data-status={status.key}>
                 <div className="status-legend-item-header">
                   <span className="status-legend-item-dot" />
-                  <span className="status-legend-item-label">{s.label}</span>
+                  <span className="status-legend-item-label">{status.label}</span>
                 </div>
-                <p className="status-legend-item-desc">{s.description}</p>
+                <p className="status-legend-item-desc">{status.description}</p>
               </div>
             ))}
             <p className="status-legend-notice">
