@@ -45,7 +45,7 @@ export function RecentUpdates() {
   useSEO({
     title: 'Modificari recente | Politicieni Corupti',
     description:
-      'Vezi separat schimbarile din arhiva si fisele doar reverificate editorial.',
+      'Vezi separat schimbarile din arhiva si profilurile doar reverificate editorial.',
     url: `${BASE_URL}/actualizari`,
   });
 
@@ -60,10 +60,10 @@ export function RecentUpdates() {
         <ul className="updates-page-note-list">
           <li>
             <strong>Schimbarile din arhiva</strong> arata schimbarile efective din arhiva:
-            fise noi, statusuri actualizate, detalii sau surse completate.
+            profiluri adaugate, statusuri actualizate, detalii sau surse completate.
           </li>
           <li>
-            <strong>Fisele reverificate</strong> sunt profiluri verificate din nou, fara o
+            <strong>Profilurile reverificate</strong> sunt profiluri verificate din nou, fara o
             schimbare editoriala majora afisata in jurnal.
           </li>
         </ul>
@@ -83,7 +83,7 @@ export function RecentUpdates() {
       />
 
       <ProgressiveUpdatesSection
-        title="Fise reverificate fara alte schimbari majore"
+        title="Profiluri reverificate fara alte schimbari majore"
         groups={groupedVerifications}
         emptyText="Nu exista reverificari suplimentare in aceasta perioada."
         renderGroup={(group) => (

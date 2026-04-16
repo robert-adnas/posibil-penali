@@ -145,6 +145,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/partid/partidul-pentru-odorheiu-secuiesc</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/status/convicted</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -1202,7 +1208,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/soos-zoltan</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1400,7 +1406,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/galfi-arpad</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1664,6 +1670,30 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/ungurenus-mihai</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/secareanu-dumitru</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/cristescu-alexandru-adrian</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/pepenel-nicolae-cornel</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/tarba-sever</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

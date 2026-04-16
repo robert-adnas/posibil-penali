@@ -2,7 +2,7 @@ import { STATUS_LABELS } from './constants';
 import { nameToSlug } from './slug';
 
 export const CHANGE_KIND_LABELS = {
-  entry_added: 'Fi\u0219\u0103 nou\u0103',
+  entry_added: 'Ad\u0103ugat \u00een arhiv\u0103',
   status_change: 'Status schimbat',
   details_update: 'Detalii completate',
   sources_update: 'Surse completate',

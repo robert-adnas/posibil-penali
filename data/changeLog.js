@@ -5,7 +5,7 @@ export const manualChangeEntries = [
     kind: 'details_update',
     title: 'Valoarea de 3 milioane de euro nu mai este tratată ca prejudiciu public',
     summary:
-      'Fișa explică acum că suma de aproximativ 3.000.000 euro din comunicatul DNA descrie valoarea despăgubirilor urmărite în dosar, nu un prejudiciu public individualizat oficial în sarcina lui Mihai Barbu.',
+      'Profilul explică acum că suma de aproximativ 3.000.000 euro din comunicatul DNA descrie valoarea despăgubirilor urmărite în dosar, nu un prejudiciu public individualizat oficial în sarcina lui Mihai Barbu.',
     source_url: 'https://www.dna.ro/comunicat.xhtml?id=13238',
   },
   {
@@ -14,7 +14,7 @@ export const manualChangeEntries = [
     kind: 'details_update',
     title: 'Prejudiciul total al dosarului a fost separat de suma imputat\u0103 individual',
     summary:
-      'Fi\u0219a explic\u0103 acum c\u0103 suma de 1.005.498.687 euro plus TVA provine din comunicatul DNA despre \u00eentregul dosar al vaccinurilor, nu dintr-o individualizare public\u0103 a sumei imputate doar lui Vlad Voiculescu.',
+      'Profilul explic\u0103 acum c\u0103 suma de 1.005.498.687 euro plus TVA provine din comunicatul DNA despre \u00eentregul dosar al vaccinurilor, nu dintr-o individualizare public\u0103 a sumei imputate doar lui Vlad Voiculescu.',
     source_url: 'https://www.dna.ro/comunicat.xhtml?id=12292',
   },
   {
@@ -23,7 +23,7 @@ export const manualChangeEntries = [
     kind: 'details_update',
     title: 'Cronologia dosarului a fost completată',
     summary:
-      'Fișa explică acum reducerea pedepsei în apel și respingerea recursului în casație din ianuarie 2026.',
+      'Profilul explică acum reducerea pedepsei în apel și respingerea recursului în casație din ianuarie 2026.',
     source_url: 'https://www.dna.ro/comunicat.xhtml?id=13033',
   },
   {
@@ -32,7 +32,7 @@ export const manualChangeEntries = [
     kind: 'details_update',
     title: 'Soluția definitivă din 2025 este explicată mai clar',
     summary:
-      'Am detaliat în aceeași fișă cum s-a ajuns la prescripție pentru luarea de mită și la achitare pentru celelalte capete.',
+      'Am detaliat în același profil cum s-a ajuns la prescripție pentru luarea de mită și la achitare pentru celelalte capete.',
     source_url:
       'https://agerpres.ro/justitie/2025/03/19/dupa-zece-ani-de-procese-marian-vanghelie-scapa-de-condamnarea-de-11-ani-in-dosarul-mitei-de-30-mili--1432399',
   },
@@ -40,7 +40,7 @@ export const manualChangeEntries = [
     date: '2026-03-30',
     politician: 'Clotilde Armand',
     kind: 'sources_update',
-    title: 'Fișa a primit surse oficiale și instituții relevante',
+    title: 'Au fost adăugate surse oficiale și instituții relevante',
     summary:
       'Pagina include acum comunicatul ANI, trimiterea în judecată și instituțiile-cheie pentru a face cazul mai ușor de verificat.',
     source_url:

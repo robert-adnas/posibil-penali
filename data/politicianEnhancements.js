@@ -1639,6 +1639,74 @@ export const politicianOverrides = {
       },
     ],
   },
+  'Soós Zoltán': {
+    party: 'UDMR',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2021/07/04/este-sau-nu-soos-zoltan-membru-udmr-raspunsul-primarului/',
+      },
+      {
+        label: 'PS News',
+        kind: 'press',
+        url: 'https://psnews.ro/targu-mures-alegerile-locale-sub-influenta-udmr-ce-sanse-au-psd-si-pnl/',
+      },
+    ],
+  },
+  'Gálfi Árpád': {
+    party: 'Partidul pentru Odorheiu Secuiesc',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Informația Harghitei',
+        kind: 'press',
+        url: 'https://informatiahr.ro/partidul-pentru-odorheiu-secuiesc/',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/alegeri-locale-2024-rezultate-oficiale-partiale-korodi-attila-castiga-un-nou-mandat-la-primaria-miercurea-ciuc-2822325',
+      },
+    ],
+  },
+  'Secăreanu Dumitru': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Ziarul Profit',
+        kind: 'press',
+        url: 'https://www.ziarulprofit.ro/soc-la-dambovicioara-independentul-avram-marian-vicentiu-a-castigat-primaria-secareanu-pleaca/',
+      },
+    ],
+  },
+  'Cristescu Alexandru-Adrian': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-malureni-arges.html',
+      },
+    ],
+  },
+  'Pepenel Nicolae-Cornel': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-bughea_de_sus-arges.html',
+      },
+    ],
+  },
 };
 
 export const politicianAdditions = [
@@ -5417,6 +5485,110 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Sec\u0103reanu Dumitru',
+    party: 'Independent',
+    position: 'Fost primar al comunei D\u00e2mbovicioara, jude\u021bul Arge\u0219',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+    ],
+  },
+  {
+    name: 'Cristescu Alexandru-Adrian',
+    party: 'Independent',
+    position: 'Fost primar al comunei M\u0103lureni, jude\u021bul Arge\u0219',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+    ],
+  },
+  {
+    name: 'Pepenel Nicolae-Cornel',
+    party: 'Independent',
+    position: 'Fost primar al comunei Bughea de Sus, jude\u021bul Arge\u0219',
+    position_type: 'mayor',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+    ],
+  },
+  {
+    name: 'Tarb\u0103 Sever',
+    party: 'Independent',
+    position: 'Fost viceprimar al comunei Dragoslavele, jude\u021bul Arge\u0219',
+    position_type: 'local_official',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
+    verified_at: '2026-04-16',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+    ],
+  },
 ];
 
 /**
@@ -5574,6 +5746,10 @@ export const countyOverrides = {
   'Langer Nicolae': 'Arge\u0219',
   '\u021auc\u0103 Gheorghe': 'Arge\u0219',
   'Ungurenu\u0219 Mihai': 'Arge\u0219',
+  'Sec\u0103reanu Dumitru': 'Arge\u0219',
+  'Cristescu Alexandru-Adrian': 'Arge\u0219',
+  'Pepenel Nicolae-Cornel': 'Arge\u0219',
+  'Tarb\u0103 Sever': 'Arge\u0219',
   'Sorin Bala\u0219i': 'Bra\u0219ov',
   'Sik\u00f3 Imre': 'Covasna',
   'Gavril Lupu': 'Neam\u021b',
