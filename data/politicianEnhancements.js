@@ -5409,7 +5409,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Langer Nicolae',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei S\u0103l\u0103trucu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -5418,8 +5418,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
+    verified_at: '2026-04-19',
     sources: [
       {
         label: 'DNA',
@@ -5431,11 +5431,17 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
       },
+      {
+        label: 'PSD Arge\u0219',
+        kind: 'official',
+        url: 'https://psdarges.ro/lista-primari/',
+        description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
+      },
     ],
   },
   {
     name: '\u021auc\u0103 Gheorghe',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Cocu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -5444,8 +5450,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
+    verified_at: '2026-04-19',
     sources: [
       {
         label: 'DNA',
@@ -5456,6 +5462,12 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'PSD Arge\u0219',
+        kind: 'official',
+        url: 'https://psdarges.ro/lista-primari/',
+        description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
     ],
   },
@@ -5487,7 +5499,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sec\u0103reanu Dumitru',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei D\u00e2mbovicioara, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -5496,8 +5508,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza surselor oficiale PSD Arge\u0219, inclusiv articolul din aprilie 2024 care \u00eel men\u021bioneaz\u0103 ca primar al comunei D\u00e2mbovicioara \u0219i pre\u0219edinte al organiza\u021biei locale PSD.',
+    verified_at: '2026-04-19',
     sources: [
       {
         label: 'DNA',
@@ -5508,6 +5520,12 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'PSD Arge\u0219',
+        kind: 'official',
+        url: 'https://psdarges.ro/ieri-seara-s-au-desfasurat-adunarile-generale-de-alegeri-ale-organizatiilor-locale-psd-din-comunele-dragoslavele-si-dambovicioara/',
+        description: 'Articolul oficial PSD Arge\u0219 care \u00eel men\u021bioneaz\u0103 pe Dumitru Sec\u0103reanu ca primar al D\u00e2mbovicioarei \u0219i pre\u0219edinte al PSD D\u00e2mbovicioara',
       },
     ],
   },
@@ -5830,7 +5848,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Stoican Gheorghe',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Arefu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -5839,7 +5857,7 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated.',
+      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
     verified_at: '2026-04-19',
     sources: [
       {
@@ -5851,6 +5869,12 @@ export const politicianAdditions = [
         label: 'Prim\u0103ria Arefu',
         kind: 'official',
         url: 'https://primaria-arefu.ro/primaria/conducerea/',
+      },
+      {
+        label: 'PSD Arge\u0219',
+        kind: 'official',
+        url: 'https://psdarges.ro/lista-primari/',
+        description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
     ],
   },
@@ -5908,7 +5932,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Lupu Sorin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Priboieni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -5917,7 +5941,7 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated.',
+      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
     verified_at: '2026-04-19',
     sources: [
       {
@@ -5929,6 +5953,12 @@ export const politicianAdditions = [
         label: 'CJ Arge\u0219',
         kind: 'official',
         url: 'https://www.cjarges.ro/web/priboieni/primar',
+      },
+      {
+        label: 'PSD Arge\u0219',
+        kind: 'official',
+        url: 'https://psdarges.ro/lista-primari/',
+        description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
     ],
   },
