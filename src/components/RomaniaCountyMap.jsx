@@ -315,7 +315,7 @@ export function RomaniaCountyMap({ data, allData }) {
 
             <div className="county-map-focus-stats">
               <span>{formatCaseCount(activeCounty.totalCount)} in arhiva</span>
-              <span>{formatCaseCount(activeCounty.filteredConvicted)} condamnati acum</span>
+              <span>{formatCaseCount(activeCounty.filteredConvicted)} condamnati</span>
               <Link to={activeCounty.href} className="county-map-focus-link">
                 Vezi judetul {'->'}
               </Link>
