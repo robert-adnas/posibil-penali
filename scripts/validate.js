@@ -2,12 +2,14 @@
 
 import process from 'node:process';
 import { readFileSync } from 'fs';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname, join } from 'path';
 import { buildDataset } from '../data/buildDataset.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(__dirname, '..', 'data', 'politicians.json');
+const geographyModulePath = pathToFileURL(join(__dirname, '..', 'src', 'utils', 'geography.js')).href;
+const { GEOGRAPHY_BASES, getCounty } = await import(geographyModulePath);
 
 const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'prescribed', 'closed', 'acquitted'];
 const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy', 'mayor', 'county_council_president', 'member_european_parliament', 'secretary_of_state', 'local_official', 'other'];
@@ -125,6 +127,27 @@ try {
         `${prefix} conviction_year ${politician.conviction_year} is outside the supported range ${YEAR_RANGE.min}-${YEAR_RANGE.max}`
       );
     }
+
+    const derivedCounty = getCounty(politician);
+    if (politician.geography) {
+      if (!politician.geography.county) {
+        error(`${prefix} geography is missing county`);
+      }
+
+      if (!GEOGRAPHY_BASES.includes(politician.geography.basis)) {
+        error(`${prefix} invalid geography.basis "${politician.geography.basis}"`);
+      }
+
+      if (politician.county && politician.geography.county !== politician.county) {
+        error(
+          `${prefix} legacy county "${politician.county}" does not match geography.county "${politician.geography.county}"`
+        );
+      }
+    }
+
+    if (derivedCounty && !politician.geography) {
+      warn(`${prefix} has county "${derivedCounty}" but no geography object`);
+    }
   });
 
   console.log('\n--- Summary ---');
@@ -149,6 +172,14 @@ try {
     byPosition[politician.position_type] = (byPosition[politician.position_type] || 0) + 1;
   });
   console.log('By position:', byPosition);
+
+  const byGeographyBasis = {};
+  politicians.forEach((politician) => {
+    if (!politician.geography?.basis) return;
+    byGeographyBasis[politician.geography.basis] =
+      (byGeographyBasis[politician.geography.basis] || 0) + 1;
+  });
+  console.log('By geography basis:', byGeographyBasis);
 
   if (errors > 0) {
     console.log('\nValidation FAILED.');

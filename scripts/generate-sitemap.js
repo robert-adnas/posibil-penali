@@ -7,6 +7,7 @@ const root = join(__dirname, '..');
 
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
+const { getCounty } = await import(pathToFileURL(join(root, 'src/utils/geography.js')).href);
 const { politicians, metadata } = buildDataset(rawData);
 
 function nameToSlug(name) {
@@ -83,7 +84,8 @@ const statusEntries = STATUS_ORDER
 // Build county pages
 const countyGroups = {};
 politicians.forEach((p) => {
-  if (p.county) countyGroups[p.county] = (countyGroups[p.county] || 0) + 1;
+  const county = getCounty(p);
+  if (county) countyGroups[county] = (countyGroups[county] || 0) + 1;
 });
 const countyEntries = Object.entries(countyGroups)
   .sort((a, b) => b[1] - a[1])

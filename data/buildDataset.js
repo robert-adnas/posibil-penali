@@ -5,6 +5,7 @@ import {
   countyOverrides,
 } from './politicianEnhancements.js';
 import { manualChangeEntries } from './changeLog.js';
+import { normalizeGeography } from '../src/utils/geography.js';
 
 const HOST_LABELS = {
   'agerpres.ro': 'AGERPRES',
@@ -134,11 +135,17 @@ function mergePolitician(basePolitician, override = {}) {
   return merged;
 }
 
-function applyCounty(politician) {
-  if (politician.county) return politician;
-  const county = countyOverrides[politician.name];
-  if (county) return { ...politician, county };
-  return politician;
+function applyGeography(politician) {
+  const geography = normalizeGeography(politician, countyOverrides[politician.name]);
+  if (!geography) return politician;
+
+  return {
+    ...politician,
+    geography,
+    // Keep the top-level county for backwards compatibility while the app
+    // gradually migrates to politician.geography.county.
+    county: geography.county,
+  };
 }
 
 function buildChangeLog(baseData, politicians) {
@@ -194,13 +201,13 @@ function buildChangeLog(baseData, politicians) {
 export function buildDataset(baseData) {
   const basePoliticians = baseData.politicians
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
-    .map(applyCounty);
+    .map(applyGeography);
 
   const existingNames = new Set(basePoliticians.map((politician) => politician.name));
   const additions = politicianAdditions
     .filter((politician) => !existingNames.has(politician.name))
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
-    .map(applyCounty);
+    .map(applyGeography);
 
   const politicians = [...basePoliticians, ...additions];
 

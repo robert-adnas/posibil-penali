@@ -1,6 +1,7 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { HemicycleChart } from '../components/HemicycleChart';
+import { RomaniaCountyMap } from '../components/RomaniaCountyMap';
 import { Filters } from '../components/Filters';
 import { StatsBar, PrejudiciuBanner } from '../components/StatsBar';
 import { DetailPanel } from '../components/DetailPanel';
@@ -40,6 +41,9 @@ export function HomePage() {
 
   const [selectedPolitician, setSelectedPolitician] = useState(null);
   const [homeQuery, setHomeQuery] = useState('');
+  const [primaryView, setPrimaryView] = useState(
+    () => localStorage.getItem('home-primary-view') || 'hemicycle'
+  );
   const [disclaimerDismissed, setDisclaimerDismissed] = useState(
     () => localStorage.getItem('disclaimer-dismissed') === '1'
   );
@@ -54,11 +58,21 @@ export function HomePage() {
 
   useSEO();
 
+  useEffect(() => {
+    localStorage.setItem('home-primary-view', primaryView);
+  }, [primaryView]);
+
   function handleHomeSearch(event) {
     event.preventDefault();
     const query = homeQuery.trim();
     if (query) track('Homepage Search', { query });
     navigate(query ? `/lista?q=${encodeURIComponent(query)}` : '/lista');
+  }
+
+  function handlePrimaryViewChange(nextView) {
+    if (nextView === primaryView) return;
+    setPrimaryView(nextView);
+    track('Homepage Primary View Changed', { view: nextView });
   }
 
   const convictionYears = allData
@@ -182,7 +196,48 @@ export function HomePage() {
         <div className="app-inner">
           <div className="main-grid">
             <div className="main-grid-chart">
-              <HemicycleChart data={filteredData} onSelect={setSelectedPolitician} />
+              <section className="visualization-panel" aria-label="Vizualizare principala a arhivei">
+                <div className="visualization-panel-header">
+                  <div>
+                    <span className="app-kicker">Vizualizare principala</span>
+                    <h2 className="visualization-panel-title">
+                      {primaryView === 'map' ? 'Harta cazurilor pe judete' : 'Hemiciclul cazurilor'}
+                    </h2>
+                    <p className="visualization-panel-copy">
+                      Comuta intre o lectura geografica si una politica a aceleiasi arhive filtrate.
+                    </p>
+                  </div>
+
+                  <div className="visualization-toggle" aria-label="Tip de vizualizare">
+                    <button
+                      type="button"
+                      aria-pressed={primaryView === 'hemicycle'}
+                      className={`visualization-toggle-btn${
+                        primaryView === 'hemicycle' ? ' visualization-toggle-btn--active' : ''
+                      }`}
+                      onClick={() => handlePrimaryViewChange('hemicycle')}
+                    >
+                      Hemiciclu
+                    </button>
+                    <button
+                      type="button"
+                      aria-pressed={primaryView === 'map'}
+                      className={`visualization-toggle-btn${
+                        primaryView === 'map' ? ' visualization-toggle-btn--active' : ''
+                      }`}
+                      onClick={() => handlePrimaryViewChange('map')}
+                    >
+                      Harta
+                    </button>
+                  </div>
+                </div>
+
+                {primaryView === 'map' ? (
+                  <RomaniaCountyMap data={filteredData} allData={allData} />
+                ) : (
+                  <HemicycleChart data={filteredData} onSelect={setSelectedPolitician} />
+                )}
+              </section>
             </div>
 
             <aside className="main-grid-sidebar">

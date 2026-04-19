@@ -4,6 +4,8 @@ import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
+import { getCounty } from '../utils/geography';
+import { getRomaniaCountyNameBySlug } from '../utils/romaniaCountyMap';
 import { ThemeToggle } from '../components/ThemeToggle';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
@@ -21,47 +23,71 @@ const STATUS_RANK = {
 export function JudetPage() {
   const { slug } = useParams();
   const { allData } = useData();
+  const fallbackCounty = getRomaniaCountyNameBySlug(slug);
 
   const { county, politicians } = useMemo(() => {
-    const match = allData.find((p) => p.county && nameToSlug(p.county) === slug);
-    if (!match) return { county: null, politicians: [] };
-    const countyName = match.county;
+    const match = allData.find((politician) => {
+      const countyName = getCounty(politician);
+      return countyName && nameToSlug(countyName) === slug;
+    });
+
+    if (!match) {
+      return fallbackCounty
+        ? { county: fallbackCounty, politicians: [] }
+        : { county: null, politicians: [] };
+    }
+
+    const countyName = getCounty(match);
     const list = allData
-      .filter((p) => p.county === countyName)
-      .sort((a, b) => {
-        const rankA = STATUS_RANK[a.status] ?? 99;
-        const rankB = STATUS_RANK[b.status] ?? 99;
+      .filter((politician) => getCounty(politician) === countyName)
+      .sort((left, right) => {
+        const rankA = STATUS_RANK[left.status] ?? 99;
+        const rankB = STATUS_RANK[right.status] ?? 99;
         if (rankA !== rankB) return rankA - rankB;
-        return a.name.localeCompare(b.name, 'ro');
+        return left.name.localeCompare(right.name, 'ro');
       });
+
     return { county: countyName, politicians: list };
-  }, [allData, slug]);
+  }, [allData, fallbackCounty, slug]);
+
+  const isKnownCounty = Boolean(county);
+  const isEmptyCounty = isKnownCounty && politicians.length === 0;
 
   const stats = useMemo(() => {
-    const convicted = politicians.filter((p) => p.status === 'convicted');
-    const totalYears = convicted.reduce((sum, p) => sum + (p.sentence_years || 0), 0);
+    const convicted = politicians.filter((politician) => politician.status === 'convicted');
+    const totalYears = convicted.reduce((sum, politician) => sum + (politician.sentence_years || 0), 0);
     const partyCounts = {};
-    politicians.forEach((p) => {
-      partyCounts[p.party] = (partyCounts[p.party] || 0) + 1;
+
+    politicians.forEach((politician) => {
+      partyCounts[politician.party] = (partyCounts[politician.party] || 0) + 1;
     });
+
     const topParties = Object.entries(partyCounts).sort((a, b) => b[1] - a[1]);
     return { convicted: convicted.length, totalYears, topParties };
   }, [politicians]);
 
   const title = county
-    ? `Politicieni cu dosare penale din ${county} | Politicieni Corupți`
+    ? isEmptyCounty
+      ? `Momentan fără politicieni asociați din ${county} | Politicieni Corupți`
+      : `Politicieni cu dosare penale din ${county} | Politicieni Corupți`
     : 'Județ negăsit | Politicieni Corupți';
+
   const description = county
-    ? `${politicians.length} politicieni cu dosare penale din județul ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
+    ? isEmptyCounty
+      ? `Momentan nu avem politicieni asociați în arhivă cu județul ${county}. Pagina rămâne disponibilă pentru completări viitoare.`
+      : `${politicians.length} politicieni cu dosare penale din județul ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
     : 'Județul nu a fost găsit în baza de date.';
 
   const allCounties = useMemo(() => {
     const counts = {};
-    allData.forEach((p) => {
-      if (p.county && p.county !== county) {
-        counts[p.county] = (counts[p.county] || 0) + 1;
+
+    allData.forEach((politician) => {
+      const countyName = getCounty(politician);
+      if (countyName && countyName !== county) {
+        counts[countyName] = (counts[countyName] || 0) + 1;
       }
     });
+
     return Object.entries(counts).sort((a, b) => b[1] - a[1]);
   }, [allData, county]);
 
@@ -100,7 +126,9 @@ export function JudetPage() {
 
           <h1 className="app-title">Județul {county}</h1>
           <p className="app-subtitle">
-            {politicians.length} politicieni cu dosare penale
+            {isEmptyCounty
+              ? 'Momentan fără politicieni asociați în arhivă'
+              : `${politicians.length} politicieni cu dosare penale`}
           </p>
           <div className="app-rule" />
         </div>
@@ -108,65 +136,92 @@ export function JudetPage() {
 
       <main className="app-section app-main">
         <div className="app-inner">
-          <div className="partid-stats">
-            <div className="partid-stat">
-              <span className="partid-stat-value">{politicians.length}</span>
-              <span className="partid-stat-label">total cazuri</span>
-            </div>
-            <div className="partid-stat">
-              <span className="partid-stat-value partid-stat-value--accent">{stats.convicted}</span>
-              <span className="partid-stat-label">condamnați definitiv</span>
-            </div>
-            {stats.totalYears > 0 && (
-              <div className="partid-stat">
-                <span className="partid-stat-value partid-stat-value--tabular">{formatYears(stats.totalYears)}</span>
-                <span className="partid-stat-label">ani de închisoare</span>
+          {!isEmptyCounty ? (
+            <>
+              <div className="partid-stats">
+                <div className="partid-stat">
+                  <span className="partid-stat-value">{politicians.length}</span>
+                  <span className="partid-stat-label">total cazuri</span>
+                </div>
+                <div className="partid-stat">
+                  <span className="partid-stat-value partid-stat-value--accent">{stats.convicted}</span>
+                  <span className="partid-stat-label">condamnați definitiv</span>
+                </div>
+                {stats.totalYears > 0 && (
+                  <div className="partid-stat">
+                    <span className="partid-stat-value partid-stat-value--tabular">{formatYears(stats.totalYears)}</span>
+                    <span className="partid-stat-label">ani de închisoare</span>
+                  </div>
+                )}
               </div>
-            )}
-          </div>
 
-          {stats.topParties.length > 1 && (
-            <div className="partid-status-breakdown">
-              {stats.topParties.map(([partyName, count]) => (
-                <Link
-                  key={partyName}
-                  to={`/partid/${nameToSlug(partyName)}`}
-                  className="partid-status-tag"
-                >
-                  {partyName}: {count}
-                </Link>
-              ))}
+              {stats.topParties.length > 1 && (
+                <div className="partid-status-breakdown">
+                  {stats.topParties.map(([partyName, count]) => (
+                    <Link
+                      key={partyName}
+                      to={`/partid/${nameToSlug(partyName)}`}
+                      className="partid-status-tag"
+                    >
+                      {partyName}: {count}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              <ul className="lista-list">
+                {politicians.map((politician) => (
+                  <li key={politician.name} className="lista-item" data-status={politician.status}>
+                    <Link
+                      to={`/politician/${nameToSlug(politician.name)}`}
+                      state={{ from: `/judet/${slug}`, fromLabel: `Județul ${county}` }}
+                      className="lista-item-link"
+                    >
+                      <span className="lista-item-dot" />
+                      <span className="lista-item-name">{politician.name}</span>
+                      <span className="lista-item-party">{politician.party}</span>
+                      <span className="lista-item-position">
+                        {POSITION_LABELS[politician.position_type] || politician.position_type}
+                      </span>
+                      <span className="lista-item-status">
+                        {STATUS_LABELS[politician.status] || politician.status}
+                        {politician.sentence_years > 0 && (
+                          <span className="lista-item-sentence">{formatYears(politician.sentence_years)}</span>
+                        )}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : (
+            <div
+              style={{
+                maxWidth: '46rem',
+                padding: '1.25rem 0 1.75rem',
+                borderTop: '1px solid var(--color-rule)',
+              }}
+            >
+              <p style={{ margin: 0, color: 'var(--color-text)', lineHeight: 1.7 }}>
+                Momentan nu avem niciun politician asociat public cu județul <strong>{county}</strong> în arhivă.
+              </p>
+              <p style={{ margin: '0.85rem 0 0', color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
+                Pagina rămâne disponibilă pentru completări viitoare. Adăugăm un județ doar când există o legătură
+                publică și verificabilă, cum ar fi funcția exercitată acolo, circumscripția reprezentată sau o altă
+                asociere geografică relevantă.
+              </p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
+                <Link to="/metodologie" className="app-intro-link">Cum atribuim județele →</Link>
+                <Link to="/lista" className="app-intro-link">Vezi toată arhiva →</Link>
+              </div>
             </div>
           )}
 
-          <ul className="lista-list">
-            {politicians.map((p) => (
-              <li key={p.name} className="lista-item" data-status={p.status}>
-                <Link
-                  to={`/politician/${nameToSlug(p.name)}`}
-                  state={{ from: `/judet/${slug}`, fromLabel: `Județul ${county}` }}
-                  className="lista-item-link"
-                >
-                  <span className="lista-item-dot" />
-                  <span className="lista-item-name">{p.name}</span>
-                  <span className="lista-item-party">{p.party}</span>
-                  <span className="lista-item-position">
-                    {POSITION_LABELS[p.position_type] || p.position_type}
-                  </span>
-                  <span className="lista-item-status">
-                    {STATUS_LABELS[p.status] || p.status}
-                    {p.sentence_years > 0 && (
-                      <span className="lista-item-sentence">{formatYears(p.sentence_years)}</span>
-                    )}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-
           {allCounties.length > 0 && (
             <div className="partid-other-parties">
-              <h2 className="partid-other-title">Alte județe</h2>
+              <h2 className="partid-other-title">
+                {isEmptyCounty ? 'Județe deja populate în arhivă' : 'Alte județe'}
+              </h2>
               <div className="partid-other-list">
                 {allCounties.map(([name, count]) => (
                   <Link

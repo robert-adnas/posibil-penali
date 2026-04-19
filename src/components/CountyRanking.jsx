@@ -1,13 +1,14 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { nameToSlug } from '../utils/slug';
+import { getCounty, getCountySlug } from '../utils/geography';
 
 export function CountyRanking({ data }) {
   const counties = useMemo(() => {
     const counts = {};
     data.forEach((p) => {
-      if (p.county) {
-        counts[p.county] = (counts[p.county] || 0) + 1;
+      const county = getCounty(p);
+      if (county) {
+        counts[county] = (counts[county] || 0) + 1;
       }
     });
     return Object.entries(counts).sort((a, b) => b[1] - a[1]);
@@ -22,7 +23,7 @@ export function CountyRanking({ data }) {
         {counties.map(([name, count]) => (
           <Link
             key={name}
-            to={`/judet/${nameToSlug(name)}`}
+            to={`/judet/${getCountySlug({ county: name })}`}
             className="county-ranking-link"
           >
             <span className="county-ranking-name">{name}</span>

@@ -18,6 +18,7 @@ const publicDir = join(root, 'public');
 
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
+const { getCounty } = await import(pathToFileURL(join(root, 'src/utils/geography.js')).href);
 const { politicians, metadata, changeLog } = buildDataset(rawData);
 const template = readFileSync(join(distDir, 'index.html'), 'utf8');
 
@@ -725,9 +726,10 @@ for (const status of STATUS_ORDER) {
 // ── County pages ────────────────────────────────────────
 const countyGroups = {};
 politicians.forEach((politician) => {
-  if (!politician.county) return;
-  if (!countyGroups[politician.county]) countyGroups[politician.county] = [];
-  countyGroups[politician.county].push(politician);
+  const county = getCounty(politician);
+  if (!county) return;
+  if (!countyGroups[county]) countyGroups[county] = [];
+  countyGroups[county].push(politician);
 });
 
 for (const [county, members] of Object.entries(countyGroups).sort((a, b) => a[0].localeCompare(b[0], 'ro'))) {

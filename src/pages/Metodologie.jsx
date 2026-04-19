@@ -74,6 +74,26 @@ export function Metodologie() {
         </p>
       </Section>
 
+      <Section title="Judetul din profil si din harta">
+        <p>
+          Judetul afisat nu inseamna automat localitatea de nastere sau domiciliul persoanei.
+          Pentru navigarea pe judete si pentru harta folosim o legatura geografica relevanta public,
+          documentata editorial acolo unde exista o asociere defensabila.
+        </p>
+        <p>Ordinea de preferinta este:</p>
+        <ul>
+          <li><strong>office</strong> - functia publica relevanta a fost exercitata in acel judet</li>
+          <li><strong>constituency</strong> - persoana a reprezentat acel judet ca deputat sau senator</li>
+          <li><strong>political_base</strong> - figura nationala cu o baza politica locala clara</li>
+          <li><strong>case_location</strong> - judetul este relevant prin locul public al spetei, doar daca lipsesc legaturi institutionale mai bune</li>
+          <li><strong>hometown</strong> - localitatea de origine sau domiciliul public, folosita doar ca ultima rezerva</li>
+        </ul>
+        <p>
+          Daca nu exista o asociere suficient de clara, nu fortam un judet. Unele figuri nationale
+          pot ramane fara o legatura geografica afisata pana cand exista o baza publica mai solida.
+        </p>
+      </Section>
+
       <Section title="Categorii de status juridic">
         <p>
           Fiecare intrare poartă unul dintre următoarele statusuri, care reflectă stadiul procesului

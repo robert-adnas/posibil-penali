@@ -6,6 +6,10 @@ import { useAnalytics } from '../hooks/useAnalytics';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
 import { ThemeToggle } from '../components/ThemeToggle';
+import {
+  getCounty,
+  getCountySlug,
+} from '../utils/geography';
 import { nameToSlug } from '../utils/slug';
 import { parsePrejudiciuEur } from '../utils/parsePrejudiciu';
 
@@ -438,6 +442,8 @@ export function PoliticianPage() {
   const backLabel = location.state?.fromLabel || 'Lista politicienilor';
 
   const [copied, setCopied] = useState(false);
+  const county = getCounty(politician);
+  const countySlug = getCountySlug(politician);
 
   function handleShare() {
     const url = window.location.href;
@@ -503,11 +509,11 @@ export function PoliticianPage() {
   }, [politician, allData]);
 
   const sameCountyMatches = useMemo(() => {
-    if (!politician?.county) return [];
+    if (!county) return [];
     return allData
-      .filter((entry) => entry.county === politician.county && entry.name !== politician.name)
+      .filter((entry) => getCounty(entry) === county && entry.name !== politician.name)
       .sort(sortRelatedPoliticians);
-  }, [politician, allData]);
+  }, [county, politician, allData]);
 
   const sameRoleMatches = useMemo(() => {
     if (!politician?.position_type) return [];
@@ -600,11 +606,11 @@ export function PoliticianPage() {
             </Link>
             <span className="detail-panel-separator">·</span>
             <span>{POSITION_LABELS[politician.position_type] || politician.position_type}</span>
-            {politician.county && (
+            {county && countySlug && (
               <>
                 <span className="detail-panel-separator">·</span>
-                <Link to={`/judet/${nameToSlug(politician.county)}`} className="pol-page-meta-link">
-                  {politician.county}
+                <Link to={`/judet/${countySlug}`} className="pol-page-meta-link">
+                  {county}
                 </Link>
               </>
             )}
