@@ -76,24 +76,26 @@ export function StatusLegend() {
           </svg>
         </button>
 
-        {open && (
-          <div className="status-legend-grid">
-            {STATUSES.map((status) => (
-              <div key={status.key} className="status-legend-item" data-status={status.key}>
-                <div className="status-legend-item-header">
-                  <span className="status-legend-item-dot" />
-                  <span className="status-legend-item-label">{status.label}</span>
+        <div className="status-legend-panel" data-open={open ? 'true' : 'false'}>
+          <div className="status-legend-panel-inner">
+            <div className="status-legend-grid">
+              {STATUSES.map((status) => (
+                <div key={status.key} className="status-legend-item" data-status={status.key}>
+                  <div className="status-legend-item-header">
+                    <span className="status-legend-item-dot" />
+                    <span className="status-legend-item-label">{status.label}</span>
+                  </div>
+                  <p className="status-legend-item-desc">{status.description}</p>
                 </div>
-                <p className="status-legend-item-desc">{status.description}</p>
-              </div>
-            ))}
-            <p className="status-legend-notice">
-              Prezumția de nevinovăție (Art. 23 Constituție, Art. 48 Carta UE) se aplică tuturor
-              persoanelor fără condamnare definitivă. Includerea în această bază de date nu
-              echivalează cu stabilirea vinovăției.
-            </p>
+              ))}
+              <p className="status-legend-notice">
+                Prezumția de nevinovăție (Art. 23 Constituție, Art. 48 Carta UE) se aplică tuturor
+                persoanelor fără condamnare definitivă. Includerea în această bază de date nu
+                echivalează cu stabilirea vinovăției.
+              </p>
+            </div>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

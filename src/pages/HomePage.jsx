@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { HemicycleChart } from '../components/HemicycleChart';
 import { RomaniaCountyMap } from '../components/RomaniaCountyMap';
 import { Filters } from '../components/Filters';
-import { StatsBar, PrejudiciuBanner } from '../components/StatsBar';
+import { StatsDateline } from '../components/StatsBar';
 import { DetailPanel } from '../components/DetailPanel';
 import { PartyRanking } from '../components/PartyRanking';
 import { CountyRanking } from '../components/CountyRanking';
@@ -109,49 +109,38 @@ export function HomePage() {
             <ThemeToggle />
           </div>
 
-          <h1 className="app-title">Politicieni Corupti</h1>
-          <p className="app-subtitle">Condamnati, cercetati, judecati si achitati</p>
-          <div className="app-rule" />
+          <h1 className="app-title animate-fade-up">Politicieni Corupti</h1>
+          <p className="app-subtitle animate-fade-up" style={{ animationDelay: '50ms' }}>Condamnati, cercetati, judecati si achitati</p>
+          <div className="app-rule animate-fade-up" style={{ animationDelay: '80ms' }} />
+
+          <div className="animate-fade-up" style={{ animationDelay: '130ms' }}>
+            <StatsDateline stats={stats} />
+          </div>
 
           {!disclaimerDismissed && (
-            <div className="app-disclaimer">
-              <svg className="app-disclaimer-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+            <div className="app-disclaimer animate-fade-up" style={{ animationDelay: '180ms' }} role="note">
+              <svg className="app-disclaimer-icon" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                 <circle cx="8" cy="8" r="6.5" />
                 <path d="M8 5v3.5M8 10.5v.5" strokeLinecap="round" />
               </svg>
-              <p>
-                <strong>Nu toti politicienii inclusi sunt condamnati.</strong>{' '}
-                Titlul are caracter descriptiv. Fiecare persoana are un status juridic explicit
-                (condamnat, trimis in judecata, cercetat, achitat). Prezumtia de nevinovatie se
-                aplica tuturor persoanelor fara condamnare definitiva.{' '}
-                <Link to="/glosar" className="app-intro-link">Ce inseamna fiecare status {'->'}</Link>
-              </p>
+              <span>
+                <strong>Nu toti sunt condamnati definitiv</strong>{' — '}
+                prezumtia de nevinovatie se aplica.{' '}
+                <Link to="/glosar" className="app-intro-link">Glosar {'->'}</Link>
+              </span>
               <button
                 className="app-disclaimer-close"
                 onClick={dismissDisclaimer}
                 aria-label="Inchide notificarea"
               >
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M3 3l8 8M11 3l-8 8" strokeLinecap="round" />
                 </svg>
               </button>
             </div>
           )}
 
-          <div className="app-intro-row">
-            <p className="app-intro">
-              Baza de date independenta cu politicieni romani implicati in dosare penale -
-              de la condamnari definitive la cercetari in curs.{' '}
-              <Link to="/metodologie" className="app-intro-link" style={{ whiteSpace: 'nowrap' }}>
-                Cum functioneaza {'->'}
-              </Link>
-            </p>
-            <StatsBar stats={stats} />
-          </div>
-
-          <PrejudiciuBanner stats={stats} />
-
-          <form className="home-search-form" onSubmit={handleHomeSearch}>
+          <form className="home-search-form animate-fade-up" style={{ animationDelay: '220ms' }} onSubmit={handleHomeSearch}>
             <div className="home-search-wrap">
               <svg className="home-search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <circle cx="6.5" cy="6.5" r="4.5" />
@@ -203,9 +192,6 @@ export function HomePage() {
                     <h2 className="visualization-panel-title">
                       {primaryView === 'map' ? 'Harta cazurilor pe judete' : 'Hemiciclul cazurilor'}
                     </h2>
-                    <p className="visualization-panel-copy">
-                      Comuta intre o lectura geografica si una politica a aceleiasi arhive filtrate.
-                    </p>
                   </div>
 
                   <div className="visualization-toggle" aria-label="Tip de vizualizare">
