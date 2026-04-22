@@ -93,3 +93,14 @@ export const ROMANIA_COUNTY_PATHS = {
   maramures: 'path19977',
   'satu-mare': 'path19975',
 };
+
+export const ROMANIA_COUNTY_MARKERS = {
+  bucuresti: {
+    cx: 772,
+    cy: 782,
+    r: 14,
+    label: 'BUC',
+    labelX: 808,
+    labelY: 786,
+  },
+};

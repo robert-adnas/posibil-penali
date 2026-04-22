@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { getCounty, getCountySlug } from '../utils/geography';
 import {
+  ROMANIA_COUNTY_MARKERS,
   ROMANIA_COUNTY_PATHS,
   ROMANIA_MAP_HEIGHT,
   ROMANIA_MAP_WIDTH,
@@ -36,6 +37,69 @@ function getCountyLevel(count, maxCount) {
   if (ratio >= 0.36) return 3;
   if (ratio >= 0.18) return 2;
   return 1;
+}
+
+function applyCountyShapeAttributes(shape, county, activeCountySlug, topFilteredCount) {
+  if (!county) {
+    shape.setAttribute('data-county-state', 'empty');
+    shape.setAttribute('aria-hidden', 'true');
+    return;
+  }
+
+  const state = county.filteredCount > 0 ? 'active' : 'archived';
+  shape.setAttribute('data-county-state', state);
+  shape.setAttribute(
+    'data-county-level',
+    state === 'active' ? String(getCountyLevel(county.filteredCount, topFilteredCount)) : '0'
+  );
+  shape.setAttribute('data-county-active', county.slug === activeCountySlug ? 'true' : 'false');
+  shape.setAttribute('tabindex', '0');
+  shape.setAttribute('role', 'link');
+  shape.setAttribute(
+    'aria-label',
+    `${county.county}: ${formatCaseCount(county.filteredCount)} in filtrele curente, ${formatCaseCount(county.totalCount)} in arhiva.`
+  );
+}
+
+function appendCountyMarker(doc, svg, slug, marker, county, activeCountySlug, topFilteredCount) {
+  if (!county) return;
+
+  const namespace = 'http://www.w3.org/2000/svg';
+  const group = doc.createElementNS(namespace, 'g');
+  group.setAttribute('data-county-marker-slug', slug);
+
+  const circle = doc.createElementNS(namespace, 'circle');
+  circle.setAttribute('class', 'county-map-region');
+  circle.setAttribute('data-county-slug', slug);
+  circle.setAttribute('cx', String(marker.cx));
+  circle.setAttribute('cy', String(marker.cy));
+  circle.setAttribute('r', String(marker.r));
+  applyCountyShapeAttributes(circle, county, activeCountySlug, topFilteredCount);
+  group.appendChild(circle);
+
+  const label = doc.createElementNS(namespace, 'text');
+  label.setAttribute('class', 'county-map-label');
+  label.setAttribute('data-county-label-slug', slug);
+  label.setAttribute('data-county-active', slug === activeCountySlug ? 'true' : 'false');
+  label.setAttribute('data-county-has-results', county.filteredCount > 0 ? 'true' : 'false');
+  label.setAttribute('x', String(marker.labelX));
+  label.setAttribute('y', String(marker.labelY));
+  label.setAttribute('text-anchor', 'middle');
+  label.textContent = marker.label;
+  group.appendChild(label);
+
+  if (county.filteredCount > 0) {
+    const count = doc.createElementNS(namespace, 'text');
+    count.setAttribute('class', 'county-map-count-text');
+    count.setAttribute('x', String(marker.cx));
+    count.setAttribute('y', String(marker.cy + 4));
+    count.setAttribute('text-anchor', 'middle');
+    count.setAttribute('pointer-events', 'none');
+    count.textContent = String(county.filteredCount);
+    group.appendChild(count);
+  }
+
+  svg.appendChild(group);
 }
 
 function buildCountMap(items) {
@@ -114,26 +178,11 @@ function buildInteractiveMapMarkup(svgSource, counties, activeCountySlug, topFil
     path.removeAttribute('style');
     path.setAttribute('class', 'county-map-region');
     path.setAttribute('data-county-slug', slug);
+    applyCountyShapeAttributes(path, county, activeCountySlug, topFilteredCount);
+  });
 
-    if (!county) {
-      path.setAttribute('data-county-state', 'empty');
-      path.setAttribute('aria-hidden', 'true');
-      return;
-    }
-
-    const state = county.filteredCount > 0 ? 'active' : 'archived';
-    path.setAttribute('data-county-state', state);
-    path.setAttribute(
-      'data-county-level',
-      state === 'active' ? String(getCountyLevel(county.filteredCount, topFilteredCount)) : '0'
-    );
-    path.setAttribute('data-county-active', slug === activeCountySlug ? 'true' : 'false');
-    path.setAttribute('tabindex', '0');
-    path.setAttribute('role', 'link');
-    path.setAttribute(
-      'aria-label',
-      `${county.county}: ${formatCaseCount(county.filteredCount)} in filtrele curente, ${formatCaseCount(county.totalCount)} in arhiva.`
-    );
+  Object.entries(ROMANIA_COUNTY_MARKERS).forEach(([slug, marker]) => {
+    appendCountyMarker(doc, svg, slug, marker, countyBySlug.get(slug), activeCountySlug, topFilteredCount);
   });
 
   svg.querySelectorAll('path').forEach((path) => {
@@ -185,6 +234,7 @@ export function RomaniaCountyMap({ data, allData }) {
           county: total.county,
           href: `/judet/${total.slug}`,
           pathId: ROMANIA_COUNTY_PATHS[total.slug] || null,
+          marker: ROMANIA_COUNTY_MARKERS[total.slug] || null,
           totalCount: total.total,
           filteredCount: filtered.total,
           filteredConvicted: filtered.convicted,
@@ -194,7 +244,7 @@ export function RomaniaCountyMap({ data, allData }) {
   }, [filteredCountMap, totalCountMap]);
 
   const mapCounties = useMemo(
-    () => counties.filter((county) => county.pathId),
+    () => counties.filter((county) => county.pathId || county.marker),
     [counties]
   );
 
@@ -212,7 +262,7 @@ export function RomaniaCountyMap({ data, allData }) {
     return buildInteractiveMapMarkup(
       svgSource,
       mapCounties,
-      activeCounty?.pathId ? activeCounty.slug : null,
+      activeCounty?.pathId || activeCounty?.marker ? activeCounty.slug : null,
       topFilteredCount
     );
   }, [activeCounty, mapCounties, svgSource, topFilteredCount]);
@@ -265,14 +315,14 @@ export function RomaniaCountyMap({ data, allData }) {
   return (
     <div className="county-map-shell">
       <div className="county-map-mobile-note">
-        Pe mobil poti glisa harta pe orizontala si poti atinge un judet pentru pagina lui.
+        Pe mobil poti glisa harta pe orizontala si poti atinge un judet sau Bucuresti pentru pagina lui.
       </div>
 
       <div className="county-map-scroll">
         <div
           className="county-map-stage"
           role="group"
-          aria-label={`Harta Romaniei cu ${activeCounties} judete active in filtrele curente.`}
+          aria-label={`Harta Romaniei cu ${activeCounties} zone geografice active in filtrele curente.`}
           onMouseOver={handleStageMouseOver}
           onMouseLeave={() => setActiveCountySlug(null)}
           onFocusCapture={handleStageFocus}
@@ -333,7 +383,7 @@ export function RomaniaCountyMap({ data, allData }) {
                 <span>{formatCaseCount(activeCounty.filteredConvicted)} condamnați</span>
               </div>
               <Link to={activeCounty.href} className="county-map-focus-link">
-                Pagina județului {'->'}
+                Pagina zonei {'->'}
               </Link>
             </div>
           </div>

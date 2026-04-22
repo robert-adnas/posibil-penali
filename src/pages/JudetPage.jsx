@@ -52,6 +52,9 @@ export function JudetPage() {
 
   const isKnownCounty = Boolean(county);
   const isEmptyCounty = isKnownCounty && politicians.length === 0;
+  const locationPrefix = county === 'București' ? 'Municipiul' : 'Județul';
+  const locationType = county === 'București' ? 'Municipiu' : 'Județ';
+  const locationNoun = county === 'București' ? 'municipiul' : 'județul';
 
   const stats = useMemo(() => {
     const convicted = politicians.filter((politician) => politician.status === 'convicted');
@@ -74,8 +77,8 @@ export function JudetPage() {
 
   const description = county
     ? isEmptyCounty
-      ? `Momentan nu avem politicieni asociați în arhivă cu județul ${county}. Pagina rămâne disponibilă pentru completări viitoare.`
-      : `${politicians.length} politicieni cu dosare penale din județul ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
+      ? `Momentan nu avem politicieni asociați în arhivă cu ${locationNoun} ${county}. Pagina rămâne disponibilă pentru completări viitoare.`
+      : `${politicians.length} politicieni cu dosare penale din ${locationNoun} ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
     : 'Județul nu a fost găsit în baza de date.';
 
   const allCounties = useMemo(() => {
@@ -120,11 +123,11 @@ export function JudetPage() {
               ← Politicieni Corupți
             </Link>
             <span className="app-kicker-separator">—</span>
-            <span className="app-kicker-meta">Județ</span>
+            <span className="app-kicker-meta">{locationType}</span>
             <ThemeToggle />
           </div>
 
-          <h1 className="app-title">Județul {county}</h1>
+          <h1 className="app-title">{locationPrefix} {county}</h1>
           <p className="app-subtitle">
             {isEmptyCounty
               ? 'Momentan fără politicieni asociați în arhivă'
@@ -174,7 +177,7 @@ export function JudetPage() {
                   <li key={politician.name} className="lista-item" data-status={politician.status}>
                     <Link
                       to={`/politician/${nameToSlug(politician.name)}`}
-                      state={{ from: `/judet/${slug}`, fromLabel: `Județul ${county}` }}
+                      state={{ from: `/judet/${slug}`, fromLabel: `${locationPrefix} ${county}` }}
                       className="lista-item-link"
                     >
                       <span className="lista-item-dot" />
@@ -203,7 +206,7 @@ export function JudetPage() {
               }}
             >
               <p style={{ margin: 0, color: 'var(--color-text)', lineHeight: 1.7 }}>
-                Momentan nu avem niciun politician asociat public cu județul <strong>{county}</strong> în arhivă.
+                Momentan nu avem niciun politician asociat public cu {locationNoun} <strong>{county}</strong> în arhivă.
               </p>
               <p style={{ margin: '0.85rem 0 0', color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
                 Pagina rămâne disponibilă pentru completări viitoare. Adăugăm un județ doar când există o legătură
