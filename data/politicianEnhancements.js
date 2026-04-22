@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-19',
+  last_updated: '2026-04-22',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -6135,6 +6135,318 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Marius Florinel Nicolaescu',
+    party: 'PSD',
+    position: 'Vicepre\u0219edinte al Consiliului Jude\u021bean Arge\u0219',
+    position_type: 'local_official',
+    crime:
+      'Folosirea de informa\u021bii nedestinate publicit\u0103\u021bii pentru ob\u021binerea de foloase necuvenite; complicitate la abuz \u00een serviciu',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Pite\u0219ti a anun\u021bat la 8 aprilie 2026 trimiterea sa \u00een judecat\u0103, \u00een stare de libertate, \u00een dosarul privind achizi\u021bia unor locuin\u021be protejate de c\u0103tre D.G.A.S.P.C. Arge\u0219. Procurorii sus\u021bin c\u0103, \u00een calitate de vicepre\u0219edinte al Consiliului Jude\u021bean Arge\u0219, ar fi comunicat informa\u021bii nepublice \u0219i ar fi sprijinit o achizi\u021bie public\u0103 viciat\u0103, cu un prejudiciu estimat de 316.000 lei \u0219i un folos necuvenit de peste 1,14 milioane lei pentru societatea v\u00e2nz\u0103toare.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13665',
+      },
+      {
+        label: 'Consiliul Jude\u021bean Arge\u0219',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/mandat-2024-2028',
+      },
+      {
+        label: 'Profil Marius Nicolaescu',
+        kind: 'profile',
+        url: 'https://mariusnicolaescu.ro/',
+      },
+    ],
+  },
+  {
+    name: 'Vintil\u0103 Marin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Poiana Mare, jude\u021bul Dolj',
+    position_type: 'mayor',
+    crime:
+      'Abuz \u00een serviciu; tentativ\u0103 la ob\u021binerea ilegal\u0103 de fonduri; fals material \u00een \u00eenscrisuri oficiale',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Craiova a anun\u021bat la 9 aprilie 2026 trimiterea sa \u00een judecat\u0103 pentru fapte din perioada \u00een care era primar al comunei Poiana Mare. Dosarul prive\u0219te dou\u0103 contracte de lucr\u0103ri pentru drumuri locale, \u00een care procurorii sus\u021bin c\u0103 ar fi fost folosite \u00eenscrisuri false pentru ob\u021binerea sau justificarea unor pl\u0103\u021bi, cu p\u0103r\u021bi civile MDLPA \u0219i UAT Poiana Mare.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+      {
+        label: 'Prim\u0103ria Poiana Mare',
+        kind: 'official',
+        url: 'https://www.poianamare.ro/lista-consilieri-37',
+      },
+    ],
+  },
+  {
+    name: 'Cristian-Nicolae Ologu',
+    party: 'PSD',
+    position: 'Fost viceprimar al comunei Poiana Mare, jude\u021bul Dolj',
+    position_type: 'local_official',
+    crime:
+      'Abuz \u00een serviciu; tentativ\u0103 la ob\u021binerea ilegal\u0103 de fonduri; fals material \u00een \u00eenscrisuri oficiale',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Craiova a anun\u021bat la 9 aprilie 2026 trimiterea sa \u00een judecat\u0103 pentru fapte din perioada \u00een care era viceprimar al comunei Poiana Mare. Rechizitoriul men\u021bioneaz\u0103 semnarea unor documente de lucr\u0103ri care ar fi atestat lucr\u0103ri neexecutate efectiv \u00een dou\u0103 proiecte de drumuri locale.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+      {
+        label: 'Prim\u0103ria Poiana Mare',
+        kind: 'official',
+        url: 'https://poianamare.ro/nr.-..-854',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/poiana-mare/',
+      },
+    ],
+  },
+  {
+    name: 'Mihai-Sandu Ni\u021b\u0103',
+    party: 'PSD',
+    position: 'Fost prefect al jude\u021bului Ilfov; fost consilier jude\u021bean',
+    position_type: 'other',
+    crime: 'Abuz \u00een serviciu',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anun\u021bat la 7 ianuarie 2022 trimiterea sa \u00een judecat\u0103 pentru abuz \u00een serviciu. Procurorii sus\u021bin c\u0103, la 1 noiembrie 2019, \u00een calitate de prefect al jude\u021bului Ilfov, ar fi emis un ordin privind constatarea dreptului de proprietate asupra unui imobil din comuna Dobroe\u0219ti pe baza unei documenta\u021bii oficiale false \u0219i incomplete.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10787',
+      },
+      {
+        label: 'Jurnalul de Ilfov',
+        kind: 'press',
+        url: 'https://jurnaluldeilfov.ro/mihai-sandu-nita-este-noul-prefect-al-judetului-ilfov/',
+      },
+    ],
+  },
+  {
+    name: 'Adrian Viorel Nicolaescu',
+    party: 'PNL',
+    position: 'Fost prefect al jude\u021bului Constan\u021ba',
+    position_type: 'other',
+    crime: 'Abuz \u00een serviciu cu consecin\u021be deosebit de grave',
+    sentence: '4 ani \u00eenchisoare',
+    sentence_years: 4,
+    conviction_year: 2025,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea definitiv\u0103 pronun\u021bat\u0103 de Curtea de Apel Constan\u021ba la 30 aprilie 2025: 4 ani de \u00eenchisoare pentru abuz \u00een serviciu cu consecin\u021be deosebit de grave. Dosarul prive\u0219te refuzul \u0219i blocarea emiterii unor titluri de proprietate pentru 19 hectare de teren de pe malul lacului Siutghiol, \u00een perioada mandatului s\u0103u de prefect.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13067',
+      },
+      {
+        label: 'PNL Constan\u021ba',
+        kind: 'profile',
+        url: 'https://pnlconstanta.ro/istoric-prefecti/',
+      },
+    ],
+  },
+  {
+    name: 'George Laz\u0103r',
+    party: 'PNL',
+    position: 'Secretar de stat \u00een Ministerul Energiei; pre\u0219edinte PNL Neam\u021b',
+    position_type: 'secretary_of_state',
+    crime:
+      'Folosirea influen\u021bei sau autorit\u0103\u021bii \u00een scopul ob\u021binerii de foloase necuvenite',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Bac\u0103u a anun\u021bat la 29 iulie 2024 trimiterea sa \u00een judecat\u0103, sus\u021bin\u00e2nd c\u0103, \u00een septembrie 2022, ca secretar de stat \u0219i pre\u0219edinte al unei organiza\u021bii jude\u021bene de partid, \u0219i-ar fi folosit influen\u021ba asupra conducerii Romsilva pentru men\u021binerea unei persoane \u00een func\u021bia de director al Direc\u021biei Silvice Neam\u021b.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12645',
+      },
+      {
+        label: 'Focus Energetic',
+        kind: 'press',
+        url: 'https://www.focus-energetic.ro/presedintele-pnl-neamt-numit-secretar-de-stat-la-ministerul-energiei-79583.html',
+      },
+    ],
+  },
+  {
+    name: 'Constantin-Flavius Nedelcea',
+    party: 'PSD',
+    position:
+      'Fost secretar de stat \u00een Ministerul Economiei; fost vicepre\u0219edinte al Consiliului Jude\u021bean Cara\u0219-Severin',
+    position_type: 'secretary_of_state',
+    crime: 'Instigare la abuz \u00een serviciu',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA Timi\u0219oara a anun\u021bat la 17 decembrie 2025 trimiterea sa \u00een judecat\u0103 pentru instigare la abuz \u00een serviciu. Procurorii sus\u021bin c\u0103, \u00een perioada octombrie 2024 - ianuarie 2025, ar fi determinat mutarea temporar\u0103 a unei persoane din conducerea Comisariatului Jude\u021bean pentru Protec\u021bia Consumatorilor Cara\u0219-Severin, \u00een alt scop dec\u00e2t interesul institu\u021biei.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13417',
+      },
+      {
+        label: 'InfoCS',
+        kind: 'press',
+        url: 'https://www.infocs.ro/video-flavius-nedelcea-a-fost-ales-in-functia-de-vicepresedinte-al-cj/',
+      },
+    ],
+  },
+  {
+    name: 'Niculae Havrile\u021b',
+    party: 'PNL',
+    position:
+      'Fost secretar de stat \u00een Ministerul Economiei, Energiei \u0219i Mediului de Afaceri; fost pre\u0219edinte ANRE',
+    position_type: 'secretary_of_state',
+    crime: 'Ob\u021binere de foloase necuvenite de c\u0103tre o persoan\u0103 cu atribu\u021bii de supraveghere sau control',
+    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anun\u021bat la 10 septembrie 2024 trimiterea sa \u00een judecat\u0103 pentru fapte legate de perioada ulterioar\u0103 mandatului de pre\u0219edinte ANRE \u0219i de mandatul de secretar de stat. Procurorii sus\u021bin c\u0103 ar fi \u00eendeplinit \u00eens\u0103rcin\u0103ri pentru trei operatori economici priva\u021bi din energie \u00een intervalul de interdic\u021bie prev\u0103zut de lege, ob\u021bin\u00e2nd foloase necuvenite de 1.195.599 lei.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12660',
+      },
+      {
+        label: 'Aspen Institute Romania',
+        kind: 'profile',
+        url: 'https://aspeninstitute.ro/people/niculae-havrilet/',
+      },
+    ],
+  },
+  {
+    name: 'Ionel Minea',
+    party: 'PSD',
+    position: 'Fost secretar de stat \u00een Ministerul Transporturilor',
+    position_type: 'secretary_of_state',
+    crime: 'Participa\u021bie improprie la abuz \u00een serviciu; participa\u021bie improprie la fals intelectual',
+    sentence: 'Trimis \u00een judecat\u0103; prim\u0103 instan\u021b\u0103: \u00eencetare prin prescrip\u021bie, nedefinitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anun\u021bat la 7 ianuarie 2022 trimiterea sa \u00een judecat\u0103 pentru c\u0103, dup\u0103 ce ar fi fost surprins conduc\u00e2nd cu 201 km/h pe autostrada A2 \u00een 2019, l-ar fi determinat pe \u0219eful s\u0103u de cabinet s\u0103 \u00ee\u0219i asume contraven\u021bia. \u00cen decembrie 2025, Tribunalul Ilfov a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei, dar presa a consemnat c\u0103 solu\u021bia nu era definitiv\u0103; am p\u0103strat statusul de trimis \u00een judecat\u0103 p\u00e2n\u0103 la o solu\u021bie definitiv\u0103.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10787',
+      },
+      {
+        label: 'Ziarul Financiar',
+        kind: 'press',
+        url: 'https://www.zf.ro/politica/premierul-tudose-l-a-numit-pe-ionel-minea-secretar-de-stat-in-ministerul-transporturilor-16729258',
+      },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/fostul-secretar-de-stat-de-la-transporturi-care-si-a-pus-seful-de-cabinet-sa-si-asume-o-amenda-in-locul-sau-a-scapat-de-proces-din-cauza-prescrierii-angajatul-care-l-a-acoperit-si-a-recunoscut-vina-2134699',
+      },
+    ],
+  },
+  {
+    name: 'Ionel Arsene',
+    party: 'PSD',
+    position: 'Fost pre\u0219edinte al Consiliului Jude\u021bean Neam\u021b; fost deputat',
+    position_type: 'county_council_president',
+    crime: 'Trafic de influen\u021b\u0103',
+    sentence: '6 ani \u0219i 8 luni \u00eenchisoare',
+    sentence_years: 6.67,
+    conviction_year: 2023,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea sa definitiv\u0103 din 10 martie 2023 la 6 ani \u0219i 8 luni de \u00eenchisoare pentru dou\u0103 infrac\u021biuni de trafic de influen\u021b\u0103, cu confiscarea sumelor de 80.000 euro \u0219i 80.000 lei. Anterior, DNA Bac\u0103u \u00eel trimisese \u00een judecat\u0103 \u00een 2018 pentru fapte legate de interven\u021bii promise pe l\u00e2ng\u0103 ANI \u0219i un primar din jude\u021bul Neam\u021b.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12001',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8897',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2023/03/10/presedintele-cj-neamt-ionel-arsene-condamnat-definitiv-la-6-ani-si-8-luni-de-inchisoare--1073747',
+      },
+    ],
+  },
+  {
+    name: 'Corneliu-Mugurel Cozmanciuc',
+    party: 'PNL',
+    position: 'Fost deputat de Neam\u021b; fost pre\u0219edinte PNL Neam\u021b',
+    position_type: 'deputy',
+    crime: 'Trafic de influen\u021b\u0103',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Bac\u0103u l-a trimis \u00een judecat\u0103 la 23 februarie 2021 pentru trafic de influen\u021b\u0103 \u00een dosarul privind presupuse interven\u021bii pentru numirea conducerii Administra\u021biei Na\u021bionale Apele Rom\u00e2ne. Prin actualizarea oficial\u0103 din 20 februarie 2023, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea definitiv\u0103 a inculpa\u021bilor deoarece faptele nu exist\u0103.',
+    verified_at: '2026-04-22',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10237',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/deputatul-pnl-corneliu-cozmanciuc-achitat-definitiv-pentru-trafic-de-influenta-in-dosarul-dna-privind-numirea-sefului-la-apele-romane-2227937',
+      },
+    ],
+  },
 ];
 
 /**
@@ -6157,6 +6469,7 @@ export const countyOverrides = {
   'Mircea Cosma': 'Prahova',
   'Victor Mocanu': 'Buzău',
   'Dumitru Buzatu': 'Vaslui',
+  'Ionel Arsene': 'Neam\u021b',
 
   // ── Mayors ────────────────────────────────────────────
   'Radu Mazăre': 'Constanța',
@@ -6183,6 +6496,7 @@ export const countyOverrides = {
   'Gheorghe Percea': 'Caraș-Severin',
   'Gheorghe Vișovan': 'Maramureș',
   'Ovidiu Nemeș': 'Maramureș',
+  'Vintil\u0103 Marin': 'Dolj',
 
   // ── Senators / Deputies with known constituency ───────
   'Viorel Ilie': 'Bacău',
@@ -6214,6 +6528,7 @@ export const countyOverrides = {
   'Diniță Ion': 'Brașov',
   'Adrian Gurzău': 'Cluj',
   'Mircea Drăghici': 'Argeș',
+  'Corneliu-Mugurel Cozmanciuc': 'Neam\u021b',
 
   // ── Ministers / national officials with clear local ties ─
   'Liviu Dragnea': 'Teleorman',
@@ -6222,6 +6537,12 @@ export const countyOverrides = {
   'Costel Alexe': 'Iași',
   'Sorin Frunzăverde': 'Caraș-Severin',
   'Valerian Vreme': 'Bacău',
+  'Mihai-Sandu Ni\u021b\u0103': 'Ilfov',
+  'Adrian Viorel Nicolaescu': 'Constan\u021ba',
+  'George Laz\u0103r': 'Neam\u021b',
+  'Constantin-Flavius Nedelcea': 'Cara\u0219-Severin',
+  'Niculae Havrile\u021b': 'Mure\u0219',
+  'Ionel Minea': 'Bucure\u0219ti',
 
   // ���─ Local officials from additions ────────────���───────
   'Ion Năftănilă': 'Argeș',
@@ -6317,6 +6638,8 @@ export const countyOverrides = {
   'Georgescu Liviu': 'D\u00e2mbovi\u021ba',
   'Nicolae Ilie': 'Buz\u0103u',
   'Hane\u0219 Gheorghe': 'Mehedin\u021bi',
+  'Marius Florinel Nicolaescu': 'Arge\u0219',
+  'Cristian-Nicolae Ologu': 'Dolj',
   'Sorin Bala\u0219i': 'Bra\u0219ov',
   'Sik\u00f3 Imre': 'Covasna',
   'Gavril Lupu': 'Neam\u021b',

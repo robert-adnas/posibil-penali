@@ -895,9 +895,7 @@ button {
 
 .county-map-region[data-county-active="true"],
 .county-map-region:focus-visible {
-  stroke: var(--color-accent);
-  stroke-width: 2.8;
-  filter: brightness(0.96);
+  filter: brightness(0.88) saturate(1.15);
   outline: none;
 }
 
@@ -1064,13 +1062,12 @@ button {
   color: var(--color-ink);
   font-size: 12px;
   text-decoration: none;
-  transition: border-color 0.16s ease, transform 0.16s ease;
+  transition: background 0.16s ease, transform 0.16s ease;
 }
 
 .county-map-chip:hover,
 .county-map-chip:focus-visible {
-  background: color-mix(in srgb, var(--color-ink) 5%, transparent);
-  border-color: var(--color-rule);
+  background: color-mix(in srgb, var(--color-ink) 6%, transparent);
   transform: translateY(-1px);
 }
 
@@ -1197,9 +1194,7 @@ button {
 
 [data-theme="dark"] .county-map-region[data-county-active="true"],
 [data-theme="dark"] .county-map-region:focus-visible {
-  stroke: var(--color-accent);
-  stroke-width: 2.8;
-  filter: brightness(1.06);
+  filter: brightness(1.12) saturate(1.15);
 }
 
 [data-theme="dark"] .county-map-region[data-county-active="true"][data-county-state="archived"],
