@@ -298,36 +298,46 @@ export function RomaniaCountyMap({ data, allData }) {
         </div>
       </div>
 
+      <div className="county-map-legend" aria-hidden="true">
+        <span className="county-map-legend-label">Mai puțini</span>
+        <div className="county-map-legend-swatches">
+          {[1, 2, 3, 4, 5].map((level) => (
+            <span key={level} className="county-map-legend-swatch" data-level={String(level)} />
+          ))}
+        </div>
+        <span className="county-map-legend-label">Mai mulți</span>
+      </div>
+
       <div className="county-map-bottom">
         {activeCounty && (
-          <div className="county-map-focus" data-active={activeCounty.filteredCount > 0 ? 'true' : 'false'}>
+          <div
+            key={activeCounty.slug}
+            className="county-map-focus"
+            data-active={activeCounty.filteredCount > 0 ? 'true' : 'false'}
+          >
             <div>
               <span className="county-map-kicker">
-                {activeCounty.filteredCount > 0 ? 'Judet activ in filtre' : 'Judet disponibil in arhiva'}
+                {activeCounty.filteredCount > 0 ? 'Activ în filtre' : 'În arhivă'}
               </span>
               <h3 className="county-map-focus-title">{activeCounty.county}</h3>
               <p className="county-map-focus-copy">
                 {activeCounty.filteredCount > 0
-                  ? `${formatCaseCount(activeCounty.filteredCount)} apar in rezultatele curente.`
-                  : 'Nu are rezultate in filtrele curente, dar ramane disponibil in arhiva completa.'}
+                  ? `${formatCaseCount(activeCounty.filteredCount)} apar în rezultatele curente.`
+                  : 'Nu apare în filtrele curente, dar există în arhiva completă.'}
               </p>
             </div>
 
-            <div className="county-map-focus-stats">
-              <span>{formatCaseCount(activeCounty.totalCount)} in arhiva</span>
-              <span>{formatCaseCount(activeCounty.filteredConvicted)} condamnati</span>
+            <div className="county-map-focus-bottom">
+              <div className="county-map-focus-stats">
+                <span>{formatCaseCount(activeCounty.totalCount)} în arhivă</span>
+                <span>{formatCaseCount(activeCounty.filteredConvicted)} condamnați</span>
+              </div>
               <Link to={activeCounty.href} className="county-map-focus-link">
-                Vezi judetul {'->'}
+                Pagina județului {'->'}
               </Link>
             </div>
           </div>
         )}
-
-        <div className="county-map-notes">
-          <span>Nuanta si numarul urmeaza filtrele curente</span>
-          <span>Conturul accentuat arata judetul selectat</span>
-          <span>Click pe judet pentru pagina lui</span>
-        </div>
       </div>
 
       {ranking.length > 0 && (
