@@ -596,7 +596,7 @@ export function PoliticianPage() {
             data-status={politician.status}
           >
             <div className="pol-page-accent" />
-            <h1 className="pol-page-name">{politician.name}</h1>
+            <h1 className="pol-page-name" style={{ viewTransitionName: 'pol-name' }}>{politician.name}</h1>
           </div>
 
           <div className="pol-page-meta">

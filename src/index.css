@@ -4361,6 +4361,75 @@ button {
   -webkit-backdrop-filter: blur(12px);
 }
 
+/* ─── View Transitions ─────────────────────────────────────────────────── */
+
+@supports (view-transition-name: none) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes vt-fade-out {
+      to { opacity: 0; }
+    }
+    @keyframes vt-fade-in {
+      from { opacity: 0; }
+    }
+
+    ::view-transition-old(root) {
+      animation: 200ms ease-out both vt-fade-out;
+    }
+    ::view-transition-new(root) {
+      animation: 280ms ease-out both vt-fade-in;
+      animation-delay: 80ms;
+    }
+
+    ::view-transition-group(pol-name) {
+      animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+      animation-duration: 420ms;
+    }
+    ::view-transition-old(pol-name) {
+      animation: 280ms cubic-bezier(0.16, 1, 0.3, 1) both vt-fade-out;
+    }
+    ::view-transition-new(pol-name) {
+      animation: 380ms cubic-bezier(0.16, 1, 0.3, 1) both vt-fade-in;
+      animation-delay: 60ms;
+    }
+  }
+}
+
+/* ─── Scroll-driven editorial reveals ──────────────────────────────────── */
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .visualization-panel {
+      animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 28%;
+    }
+
+    .party-ranking-item {
+      animation: fadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+
+    .county-ranking {
+      animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 25%;
+    }
+
+    .updates-preview-section {
+      animation: fadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 20%;
+    }
+
+    .change-log-item {
+      animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 38%;
+    }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

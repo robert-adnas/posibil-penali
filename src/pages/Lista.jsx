@@ -1,5 +1,6 @@
-import { useMemo, useEffect, useRef, useCallback } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { useMemo, useEffect, useRef, useCallback, useState } from 'react';
+import { flushSync } from 'react-dom';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { useAnalytics } from '../hooks/useAnalytics';
@@ -76,6 +77,8 @@ export function ListaPage() {
   const { allData } = useData();
   const { track } = useAnalytics();
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [vtSlug, setVtSlug] = useState(null);
   const searchRef = useRef(null);
   const query = searchParams.get('q') || '';
   const rawActiveStatus = normalizeParam(searchParams.get('status'));
@@ -218,6 +221,20 @@ export function ListaPage() {
 
   const trimmedQuery = query.trim();
 
+  function handleNavigate(e, slug) {
+    e.preventDefault();
+    const to = `/politician/${slug}`;
+    const state = { from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' };
+    if (!document.startViewTransition) {
+      navigate(to, { state });
+      return;
+    }
+    flushSync(() => setVtSlug(slug));
+    document.startViewTransition(() => {
+      flushSync(() => navigate(to, { state }));
+    });
+  }
+
   return (
     <div className="app-shell">
       <header className="app-section app-header">
@@ -348,9 +365,13 @@ export function ListaPage() {
                     to={`/politician/${nameToSlug(politician.name)}`}
                     state={{ from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' }}
                     className="lista-item-link"
+                    onClick={(e) => handleNavigate(e, nameToSlug(politician.name))}
                   >
                     <span className="lista-item-dot" />
-                    <span className="lista-item-name">{highlight(politician.name, trimmedQuery)}</span>
+                    <span
+                      className="lista-item-name"
+                      style={vtSlug === nameToSlug(politician.name) ? { viewTransitionName: 'pol-name' } : undefined}
+                    >{highlight(politician.name, trimmedQuery)}</span>
                     <span className="lista-item-party">{highlight(politician.party, trimmedQuery)}</span>
                     <span className="lista-item-position">
                       {POSITION_LABELS[politician.position_type] || politician.position_type}
