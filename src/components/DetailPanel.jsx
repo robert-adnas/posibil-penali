@@ -115,6 +115,13 @@ export function DetailPanel({ politician, onClose }) {
             </span>
           </div>
 
+          {politician.sentence && (
+            <div className="detail-panel-verdict">
+              <div className="detail-panel-verdict-number">{politician.sentence}</div>
+              <div className="detail-panel-verdict-label">Pedeapsă</div>
+            </div>
+          )}
+
           <div className="detail-panel-divider" />
 
           <Section label="Status juridic">
@@ -124,32 +131,20 @@ export function DetailPanel({ politician, onClose }) {
             </span>
           </Section>
 
-          {formattedVerifiedAt && (
-            <Section label="Ultima verificare">
-              <p className="detail-panel-copy detail-panel-copy--muted">{formattedVerifiedAt}</p>
-            </Section>
-          )}
-
           <Section label="Faptă">
             <p className="detail-panel-copy detail-panel-copy--crime">{politician.crime}</p>
           </Section>
 
-          {(politician.sentence || politician.conviction_year) && (
-            <div className="detail-panel-keyfacts">
-              {politician.sentence && (
-                <div>
-                  <SectionLabel>Pedeapsă</SectionLabel>
-                  <p className="detail-panel-keyfact-value detail-panel-keyfact-value--accent">{politician.sentence}</p>
-                </div>
-              )}
+          {politician.conviction_year && (
+            <Section label="Anul condamnării">
+              <p className="detail-panel-keyfact-value detail-panel-keyfact-value--tabular">{politician.conviction_year}</p>
+            </Section>
+          )}
 
-              {politician.conviction_year && (
-                <div>
-                  <SectionLabel>Anul condamnării</SectionLabel>
-                  <p className="detail-panel-keyfact-value detail-panel-keyfact-value--tabular">{politician.conviction_year}</p>
-                </div>
-              )}
-            </div>
+          {formattedVerifiedAt && (
+            <Section label="Ultima verificare">
+              <p className="detail-panel-copy detail-panel-copy--muted">{formattedVerifiedAt}</p>
+            </Section>
           )}
 
           {politician.position && (

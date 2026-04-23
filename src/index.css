@@ -21,9 +21,9 @@
   --color-ink-light: #ddd7cc;
   --color-ink-muted: #b5ad9f;
   --color-ink-faint: #918779;
-  --color-rule: #3a3530;
-  --color-rule-light: #2a2622;
-  --color-accent: #e07d45;
+  --color-rule: #4d4742;
+  --color-rule-light: #38332e;
+  --color-accent: #c23a1a;
 }
 
 [data-theme="dark"] ::selection {
@@ -118,6 +118,7 @@ body {
   color: var(--color-ink);
   background: var(--color-parchment);
   -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
 }
 
 a {
@@ -1137,7 +1138,7 @@ button {
 [data-theme="dark"] .county-map-stage-wash {
   background:
     radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.04), transparent 34%),
-    linear-gradient(135deg, transparent 0%, rgba(224, 125, 69, 0.04) 100%);
+    linear-gradient(135deg, transparent 0%, rgba(194, 58, 26, 0.04) 100%);
 }
 
 [data-theme="dark"] .county-map-label {
@@ -1397,8 +1398,8 @@ button {
 }
 
 .party-ranking-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   flex-shrink: 0;
   border-radius: 999px;
   background: var(--party-color);
@@ -1636,8 +1637,8 @@ button {
 }
 
 .detail-panel-status-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   flex-shrink: 0;
   border-radius: 999px;
   background: var(--status-color);
@@ -1681,6 +1682,31 @@ button {
 
 .detail-panel-keyfact-value--tabular {
   font-variant-numeric: tabular-nums;
+}
+
+.detail-panel-verdict {
+  margin: 1rem 0 1.25rem;
+  padding: 0.875rem 1.25rem;
+  background: color-mix(in srgb, var(--color-accent) 7%, transparent);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.detail-panel-verdict-number {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-accent);
+}
+
+.detail-panel-verdict-label {
+  margin-top: 0.3rem;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
 }
 
 .detail-panel-source-list {
@@ -1886,8 +1912,8 @@ button {
 }
 
 .status-legend-item-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   flex-shrink: 0;
   background: var(--status-color, var(--color-ink-faint));
   border-radius: 999px;
@@ -2398,6 +2424,10 @@ button {
     font-size: 1.875rem;
   }
 
+  .detail-panel-verdict-number {
+    font-size: 3rem;
+  }
+
   .detail-panel-keyfact-value {
     font-size: 1.25rem;
   }
@@ -2778,8 +2808,8 @@ button {
 }
 
 .lista-tab-dot {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: currentColor;
   flex-shrink: 0;
@@ -2921,6 +2951,10 @@ button {
 
 .lista-item:hover { opacity: 1 !important; }
 
+.lista-item[data-status="convicted"] .lista-item-link {
+  box-shadow: inset 2px 0 0 rgba(239, 68, 68, 0.35);
+}
+
 .lista-item-name {
   font-size: 0.9rem;
   font-weight: 500;
@@ -2965,10 +2999,10 @@ button {
 }
 
 .lista-item-sentence {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--color-accent);
-  opacity: 0.85;
   text-transform: none;
   font-variant-numeric: tabular-nums;
 }
@@ -4323,4 +4357,15 @@ button {
     );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
