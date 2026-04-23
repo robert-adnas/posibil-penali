@@ -266,7 +266,7 @@ export function HemicycleChart({ data, onSelect }) {
 
     bubbleGroups.append('circle')
       .attr('class', 'bubble-hit')
-      .attr('r', (datum) => Math.max(datum.r + (isMobile ? 10 : 4), datum.r))
+      .attr('r', (datum) => Math.max(datum.r + (isMobile ? 18 : 4), datum.r))
       .attr('fill', 'rgba(0, 0, 0, 0)');
 
     const statusStyles = {

@@ -294,8 +294,8 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
+  width: 32px;
+  height: 32px;
   padding: 0;
   margin-left: 0.125rem;
   background: none;
@@ -452,7 +452,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding-block: 0.25rem;
+  padding-block: 0.5rem;
+  min-height: 44px;
   color: var(--color-ink-muted);
   font-size: 12px;
 }
@@ -536,7 +537,7 @@ button {
   align-items: center;
   gap: 0.25rem;
   padding: 0.375rem 0.5rem;
-  min-height: 28px;
+  min-height: 36px;
   border: 1px solid var(--color-rule-light);
   border-radius: 0.25rem;
   color: var(--color-ink-muted);
@@ -591,6 +592,7 @@ button {
 }
 
 .filter-reset {
+  padding: 0.5rem 0.25rem;
   color: var(--color-accent);
   font-size: 11px;
   text-decoration: underline;
@@ -741,7 +743,7 @@ button {
   transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
 }
 
-.visualization-toggle-btn:hover {
+.visualization-toggle-btn:hover:not(.visualization-toggle-btn--active) {
   color: var(--color-ink);
 }
 
@@ -898,6 +900,10 @@ button {
 .county-map-region:focus-visible {
   filter: brightness(0.88) saturate(1.15);
   outline: none;
+}
+
+.county-map-region:active {
+  filter: brightness(0.82) saturate(1.25);
 }
 
 .county-map-region[data-county-active="true"][data-county-state="archived"],
@@ -1057,7 +1063,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.55rem 0.75rem;
+  padding: 0.65rem 0.75rem;
+  min-height: 44px;
   border: 1px solid color-mix(in srgb, var(--color-rule) 72%, transparent);
   background: transparent;
   color: var(--color-ink);
@@ -1682,31 +1689,6 @@ button {
 
 .detail-panel-keyfact-value--tabular {
   font-variant-numeric: tabular-nums;
-}
-
-.detail-panel-verdict {
-  margin: 1rem 0 1.25rem;
-  padding: 0.875rem 1.25rem;
-  background: color-mix(in srgb, var(--color-accent) 7%, transparent);
-  border-left: 3px solid var(--color-accent);
-  border-radius: 0 0.25rem 0.25rem 0;
-}
-
-.detail-panel-verdict-number {
-  font-family: var(--font-display);
-  font-size: 2.25rem;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--color-accent);
-}
-
-.detail-panel-verdict-label {
-  margin-top: 0.3rem;
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--color-ink-faint);
 }
 
 .detail-panel-source-list {
@@ -2424,10 +2406,6 @@ button {
     font-size: 1.875rem;
   }
 
-  .detail-panel-verdict-number {
-    font-size: 3rem;
-  }
-
   .detail-panel-keyfact-value {
     font-size: 1.25rem;
   }
@@ -2738,7 +2716,9 @@ button {
 
 .lista-search-clear {
   position: absolute;
-  right: 0.75rem;
+  right: 0;
+  padding: 0 0.875rem;
+  min-height: 44px;
   color: var(--color-ink-faint);
   display: flex;
   align-items: center;
@@ -2772,11 +2752,33 @@ button {
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding-bottom: 2px; 
+  padding-bottom: 2px;
+  padding-right: 2.5rem;
 }
 
 .lista-tabs::-webkit-scrollbar {
   display: none;
+}
+
+.lista-tabs-wrap {
+  position: relative;
+}
+
+.lista-tabs-wrap::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 2px;
+  width: 3rem;
+  background: linear-gradient(to right, transparent, var(--color-parchment) 80%);
+  pointer-events: none;
+}
+
+@media (min-width: 640px) {
+  .lista-tabs-wrap::after {
+    display: none;
+  }
 }
 
 .lista-tab {
@@ -2784,6 +2786,7 @@ button {
   align-items: center;
   gap: 0.35rem;
   padding: 0.3rem 0.75rem;
+  min-height: 36px;
   border-radius: 999px;
   border: 1px solid var(--color-rule);
   background: transparent;
@@ -2950,10 +2953,6 @@ button {
 .lista-item[data-status="acquitted"] { opacity: 0.72; }
 
 .lista-item:hover { opacity: 1 !important; }
-
-.lista-item[data-status="convicted"] .lista-item-link {
-  box-shadow: inset 2px 0 0 rgba(239, 68, 68, 0.35);
-}
 
 .lista-item-name {
   font-size: 0.9rem;

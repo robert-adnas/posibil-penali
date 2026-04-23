@@ -263,21 +263,23 @@ export function ListaPage() {
             )}
           </div>
 
-          <div className="lista-tabs">
-            {STATUS_FILTERS.filter((entry) => !entry.key || visibleStatuses.has(entry.key)).map((entry) => (
-              <button
-                key={String(entry.key)}
-                className={`lista-tab${activeStatus === entry.key ? ' lista-tab--active' : ''}`}
-                data-status={entry.key || undefined}
-                onClick={() => updateSearchParams({ status: entry.key })}
-              >
-                {entry.key && <span className="lista-tab-dot" />}
-                {entry.label}
-                {entry.key && countByStatus[entry.key] && (
-                  <span className="lista-tab-count">{countByStatus[entry.key]}</span>
-                )}
-              </button>
-            ))}
+          <div className="lista-tabs-wrap">
+            <div className="lista-tabs">
+              {STATUS_FILTERS.filter((entry) => !entry.key || visibleStatuses.has(entry.key)).map((entry) => (
+                <button
+                  key={String(entry.key)}
+                  className={`lista-tab${activeStatus === entry.key ? ' lista-tab--active' : ''}`}
+                  data-status={entry.key || undefined}
+                  onClick={() => updateSearchParams({ status: entry.key })}
+                >
+                  {entry.key && <span className="lista-tab-dot" />}
+                  {entry.label}
+                  {entry.key && countByStatus[entry.key] && (
+                    <span className="lista-tab-count">{countByStatus[entry.key]}</span>
+                  )}
+                </button>
+              ))}
+            </div>
           </div>
 
           <div className="lista-toolbar">

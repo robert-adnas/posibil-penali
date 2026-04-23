@@ -98,10 +98,7 @@ export function PartidPage() {
             <ThemeToggle />
           </div>
 
-          <div data-party-token={getPartyToken(party)} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <div className="pol-page-accent" />
-            <h1 className="app-title" style={{ margin: 0 }}>{party}</h1>
-          </div>
+          <h1 className="app-title">{party}</h1>
 
           <p className="app-subtitle">
             {politicians.length} politicieni cu dosare penale
