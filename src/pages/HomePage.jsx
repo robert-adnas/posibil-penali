@@ -97,20 +97,20 @@ export function HomePage() {
   return (
     <div className="app-shell">
       <a href="#main-content" className="skip-nav">
-        Sari la continut
+        Sari la conținut
       </a>
 
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
-            <span className="app-kicker">Arhiva independenta</span>
-            <span className="app-kicker-separator">-</span>
-            <span className="app-kicker-meta">Romania, {coverageStartYear}-{coverageEndYear}</span>
+            <span className="app-kicker">Arhivă independentă</span>
+            <span className="app-kicker-separator">—</span>
+            <span className="app-kicker-meta">România, {coverageStartYear}–{coverageEndYear}</span>
             <ThemeToggle />
           </div>
 
-          <h1 className="app-title animate-fade-up">Politicieni Corupti</h1>
-          <p className="app-subtitle animate-fade-up" style={{ animationDelay: '50ms' }}>Condamnati, cercetati, judecati si achitati</p>
+          <h1 className="app-title animate-fade-up">Politicieni Corupți</h1>
+          <p className="app-subtitle animate-fade-up" style={{ animationDelay: '50ms' }}>Condamnați, cercetați, judecați și achitați</p>
           <div className="app-rule animate-fade-up" style={{ animationDelay: '80ms' }} />
 
           <div className="animate-fade-up" style={{ animationDelay: '130ms' }}>
@@ -124,14 +124,14 @@ export function HomePage() {
                 <path d="M8 5v3.5M8 10.5v.5" strokeLinecap="round" />
               </svg>
               <span>
-                <strong>Nu toti sunt condamnati definitiv</strong>{' — '}
-                prezumtia de nevinovatie se aplica.{' '}
-                <Link to="/glosar" className="app-intro-link">Glosar {'->'}</Link>
+                <strong>Nu toți sunt condamnați definitiv</strong>{' — '}
+                prezumția de nevinovăție se aplică.{' '}
+                <Link to="/glosar" className="app-intro-link">Glosar →</Link>
               </span>
               <button
                 className="app-disclaimer-close"
                 onClick={dismissDisclaimer}
-                aria-label="Inchide notificarea"
+                aria-label="Închide notificarea"
               >
                 <svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M3 3l8 8M11 3l-8 8" strokeLinecap="round" />
@@ -149,18 +149,18 @@ export function HomePage() {
               <input
                 className="home-search-input"
                 type="search"
-                placeholder={`Cauta dintre cei ${allData.length} politicieni...`}
+                placeholder={`Caută dintre cei ${allData.length} politicieni...`}
                 value={homeQuery}
                 onChange={(event) => setHomeQuery(event.target.value)}
                 autoComplete="off"
                 spellCheck={false}
               />
               <button type="submit" className="home-search-btn">
-                Cauta
+                Caută
               </button>
             </div>
             <Link to="/lista" className="home-search-browse">
-              sau rasfoieste lista completa {'->'}
+              sau răsfoiește lista completă →
             </Link>
           </form>
         </div>
@@ -239,13 +239,13 @@ export function HomePage() {
           <div className="updates-preview-header">
             <div>
               <span className="app-kicker">Ce s-a schimbat recent</span>
-              <h2 className="updates-preview-title">Ultimele modificari din arhiva</h2>
+              <h2 className="updates-preview-title">Ultimele modificări din arhivă</h2>
             </div>
             <Link to="/actualizari" className="app-intro-link">
-              Vezi toate modificarile {'->'}
+              Vezi toate modificările →
             </Link>
           </div>
-          <ChangeLogList items={recentChanges} from="/" fromLabel="Arhiva" />
+          <ChangeLogList items={recentChanges} from="/" fromLabel="Arhivă" />
         </div>
       </section>
 
@@ -255,29 +255,29 @@ export function HomePage() {
 
           <div className="app-footer-grid">
             <div className="app-footer-copy">
-              <p>Fiecare persoana inclusa are cel putin o sursa oficiala, completata unde este util cu presa de referinta.</p>
-              <p>Proiect non-profit, open-source. Lista nu este exhaustiva. Verifica intotdeauna sursele originale si data ultimei verificari.</p>
+              <p>Fiecare persoană inclusă are cel puțin o sursă oficială, completată unde este util cu presa de referință.</p>
+              <p>Proiect non-profit, open-source. Lista nu este exhaustivă. Verifică întotdeauna sursele originale și data ultimei verificări.</p>
               <div className="app-footer-data">
                 <span className="app-footer-data-label">Open data</span>
                 <div className="app-footer-downloads">
                   <button onClick={downloadJSON} className="app-footer-download">
-                    Descarca JSON
+                    Descarcă JSON
                   </button>
                   <button onClick={downloadCSV} className="app-footer-download">
-                    Descarca CSV
+                    Descarcă CSV
                   </button>
                 </div>
               </div>
             </div>
 
             <nav className="app-footer-nav">
-              <Link to="/lista" className="app-footer-nav-link">Toti politicienii ({allData.length})</Link>
-              <Link to="/actualizari" className="app-footer-nav-link">Modificarile recente</Link>
+              <Link to="/lista" className="app-footer-nav-link">Toți politicienii ({allData.length})</Link>
+              <Link to="/actualizari" className="app-footer-nav-link">Modificările recente</Link>
               <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
               <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>
               <Link to="/aviz-legal" className="app-footer-nav-link">Aviz legal</Link>
-              <Link to="/contact" className="app-footer-nav-link">Contact & Corectii</Link>
-              <Link to="/confidentialitate" className="app-footer-nav-link">Confidentialitate</Link>
+              <Link to="/contact" className="app-footer-nav-link">Contact & Corecții</Link>
+              <Link to="/confidentialitate" className="app-footer-nav-link">Confidențialitate</Link>
             </nav>
           </div>
 

@@ -40,66 +40,66 @@ export function RecentUpdates() {
 
   const formattedLastUpdated = metadata?.last_updated
     ? formatUpdateDate(metadata.last_updated)
-    : 'necunoscuta';
+    : 'necunoscută';
 
   useSEO({
-    title: 'Modificari recente | Politicieni Corupti',
+    title: 'Modificări recente | Politicieni Corupți',
     description:
-      'Vezi separat schimbarile din arhiva si profilurile doar reverificate editorial.',
+      'Vezi separat schimbările din arhivă și profilurile doar reverificate editorial.',
     url: `${BASE_URL}/actualizari`,
   });
 
   return (
-    <PageLayout title="Modificari recente" kicker="Istoric editorial">
+    <PageLayout title="Modificări recente" kicker="Istoric editorial">
       <p className="page-intro-note">
-        Ultima actualizare globala a arhivei: {formattedLastUpdated}
+        Ultima actualizare globală a arhivei: {formattedLastUpdated}
       </p>
 
       <div className="updates-page-note" role="note">
-        <strong className="updates-page-note-title">Cum se citeste</strong>
+        <strong className="updates-page-note-title">Cum se citește</strong>
         <ul className="updates-page-note-list">
           <li>
-            <strong>Schimbarile din arhiva</strong> arata schimbarile efective din arhiva:
-            profiluri adaugate, statusuri actualizate, detalii sau surse completate.
+            <strong>Schimbările din arhivă</strong> arată schimbările efective din arhivă:
+            profiluri adăugate, statusuri actualizate, detalii sau surse completate.
           </li>
           <li>
-            <strong>Profilurile reverificate</strong> sunt profiluri verificate din nou, fara o
-            schimbare editoriala majora afisata in jurnal.
+            <strong>Profilurile reverificate</strong> sunt profiluri verificate din nou, fără o
+            schimbare editorială majoră afișată în jurnal.
           </li>
         </ul>
       </div>
 
       <ProgressiveUpdatesSection
-        title="Schimbari din arhiva"
+        title="Schimbări din arhivă"
         groups={groupedChanges}
-        emptyText="Nu exista schimbari in aceasta perioada."
+        emptyText="Nu există schimbări în această perioadă."
         renderGroup={(group) => (
           <ChangeLogList
             items={group.entries}
             from="/actualizari"
-            fromLabel="Modificari recente"
+            fromLabel="Modificări recente"
           />
         )}
       />
 
       <ProgressiveUpdatesSection
-        title="Profiluri reverificate fara alte schimbari majore"
+        title="Profiluri reverificate fără alte schimbări majore"
         groups={groupedVerifications}
-        emptyText="Nu exista reverificari suplimentare in aceasta perioada."
+        emptyText="Nu există reverificări suplimentare în această perioadă."
         renderGroup={(group) => (
           <RecentUpdatesList
             items={group.politicians}
             from="/actualizari"
-            fromLabel="Modificari recente"
+            fromLabel="Modificări recente"
             showDate={false}
-            emptyText="Nu exista reverificari suplimentare in aceasta perioada."
+            emptyText="Nu există reverificări suplimentare în această perioadă."
           />
         )}
       />
 
       <div className="method-footer-links">
-        <Link to="/lista" className="method-footer-link">Lista completa {'->'}</Link>
-        <Link to="/contact" className="method-footer-link">Semnaleaza o corectie {'->'}</Link>
+        <Link to="/lista" className="method-footer-link">Lista completă →</Link>
+        <Link to="/contact" className="method-footer-link">Semnalează o corecție →</Link>
       </div>
     </PageLayout>
   );
@@ -168,10 +168,10 @@ function ProgressiveUpdatesSection({ title, groups, emptyText, renderGroup }) {
                 setVisibleCount((previous) => Math.min(previous + LOAD_MORE_STEP, groups.length));
               }}
             >
-              Afiseaza mai multe
+              Afișează mai multe
             </button>
             <span className="updates-load-more-meta">
-              Inca {remainingGroups} {remainingGroups === 1 ? 'grup de zi' : 'grupuri de zile'}
+              Încă {remainingGroups} {remainingGroups === 1 ? 'grup de zi' : 'grupuri de zile'}
             </span>
             <div ref={sentinelRef} className="updates-load-sentinel" aria-hidden="true" />
           </div>
@@ -183,8 +183,8 @@ function ProgressiveUpdatesSection({ title, groups, emptyText, renderGroup }) {
 
 function getGroupCountLabel(group) {
   if ('entries' in group) {
-    return `${group.entries.length} ${group.entries.length === 1 ? 'modificare' : 'modificari'}`;
+    return `${group.entries.length} ${group.entries.length === 1 ? 'modificare' : 'modificări'}`;
   }
 
-  return `${group.politicians.length} ${group.politicians.length === 1 ? 'fisa' : 'fise'}`;
+  return `${group.politicians.length} ${group.politicians.length === 1 ? 'fișă' : 'fișe'}`;
 }

@@ -4373,11 +4373,10 @@ button {
     }
 
     ::view-transition-old(root) {
-      animation: 200ms ease-out both vt-fade-out;
+      animation: 220ms ease-out both vt-fade-out;
     }
     ::view-transition-new(root) {
-      animation: 280ms ease-out both vt-fade-in;
-      animation-delay: 80ms;
+      animation: 220ms ease-out both vt-fade-in;
     }
 
     ::view-transition-group(pol-name) {

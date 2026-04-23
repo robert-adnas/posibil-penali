@@ -222,6 +222,7 @@ export function ListaPage() {
   const trimmedQuery = query.trim();
 
   function handleNavigate(e, slug) {
+    if (e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();
     const to = `/politician/${slug}`;
     const state = { from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' };
@@ -355,22 +356,24 @@ export function ListaPage() {
             </div>
           ) : (
             <ul className="lista-list">
-              {results.map((politician) => (
+              {results.map((politician) => {
+                const slug = nameToSlug(politician.name);
+                return (
                 <li
                   key={politician.name}
                   className="lista-item"
                   data-status={politician.status}
                 >
                   <Link
-                    to={`/politician/${nameToSlug(politician.name)}`}
+                    to={`/politician/${slug}`}
                     state={{ from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' }}
                     className="lista-item-link"
-                    onClick={(e) => handleNavigate(e, nameToSlug(politician.name))}
+                    onClick={(e) => handleNavigate(e, slug)}
                   >
                     <span className="lista-item-dot" />
                     <span
                       className="lista-item-name"
-                      style={vtSlug === nameToSlug(politician.name) ? { viewTransitionName: 'pol-name' } : undefined}
+                      style={vtSlug === slug ? { viewTransitionName: 'pol-name' } : undefined}
                     >{highlight(politician.name, trimmedQuery)}</span>
                     <span className="lista-item-party">{highlight(politician.party, trimmedQuery)}</span>
                     <span className="lista-item-position">
@@ -384,7 +387,8 @@ export function ListaPage() {
                     </span>
                   </Link>
                 </li>
-              ))}
+                );
+              })}
             </ul>
           )}
         </div>
