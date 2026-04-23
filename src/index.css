@@ -208,7 +208,7 @@ button {
 
 .app-header {
   padding-top: 1.25rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .app-kicker-row {
@@ -255,7 +255,7 @@ button {
 .app-rule {
   width: 100%;
   height: 1px;
-  margin-top: 0.625rem;
+  margin-top: 1.125rem;
   background: color-mix(in srgb, var(--color-ink) 38%, transparent);
 }
 
@@ -313,7 +313,7 @@ button {
 }
 
 .stats-dateline {
-  margin-top: 0.75rem;
+  margin-top: 1.125rem;
 }
 
 .stats-dateline-list {
@@ -604,7 +604,7 @@ button {
 }
 
 .app-main {
-  padding-block: 1.25rem;
+  padding-block: 1.75rem;
 }
 
 .main-grid {
@@ -701,7 +701,7 @@ button {
 .visualization-panel {
   display: flex;
   flex-direction: column;
-  gap: 0.875rem;
+  gap: 1.25rem;
 }
 
 .visualization-panel-header {
@@ -1765,7 +1765,7 @@ button {
   font-size: 11px;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .app-footer-nav {
@@ -2329,7 +2329,7 @@ button {
 
   .app-header {
     padding-top: 2rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .app-kicker {
@@ -2377,7 +2377,7 @@ button {
   }
 
   .app-main {
-    padding-block: 1.5rem;
+    padding-block: 2rem;
   }
 
   .hemicycle-shell {
@@ -2502,7 +2502,7 @@ button {
   }
 
   .app-main {
-    padding-block: 2rem;
+    padding-block: 2.5rem;
   }
 
   .main-grid {
@@ -2580,7 +2580,7 @@ button {
 }
 
 .home-search-form {
-  margin-top: 1.25rem;
+  margin-top: 1.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -3822,8 +3822,9 @@ button {
 /* Recent updates */
 
 .updates-preview-section {
-  padding-top: 0;
-  padding-bottom: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid var(--color-rule-light);
 }
 
 .updates-preview-header {
@@ -3831,6 +3832,7 @@ button {
   flex-direction: column;
   gap: 0.75rem;
   align-items: flex-start;
+  margin-bottom: 1.5rem;
 }
 
 .updates-preview-title {
@@ -4037,6 +4039,7 @@ button {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    margin-bottom: 1.75rem;
   }
 
   .updates-item-link {

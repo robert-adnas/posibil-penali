@@ -39,7 +39,7 @@ export function PartyRanking({ data }) {
 
       {hasMixedStatuses && (
         <p className="party-ranking-note">
-          Numărul principal reprezintă persoane din selecția curentă, nu doar condamnări definitive.
+          Totalul include toate statusurile juridice, nu exclusiv condamnările definitive.
         </p>
       )}
 

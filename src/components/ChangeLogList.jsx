@@ -7,7 +7,7 @@ export function ChangeLogList({
   items,
   from,
   fromLabel,
-  emptyText = 'Nu există încă modificări consemnate în jurnalul editorial.',
+  emptyText = 'Nicio modificare înregistrată momentan.',
 }) {
   if (!items.length) {
     return <p className="updates-empty">{emptyText}</p>;

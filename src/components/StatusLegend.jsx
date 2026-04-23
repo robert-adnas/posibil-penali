@@ -5,43 +5,43 @@ const STATUSES = [
     key: 'convicted',
     label: 'Condamnat definitiv',
     description:
-      'Hotărâre judecătorească definitivă și irevocabilă. Vinovăția a fost stabilită prin toate căile de atac.',
+      'Condamnat prin hotărâre definitivă, după epuizarea tuturor căilor de atac.',
   },
   {
     key: 'first_instance',
     label: 'Condamnat în primă instanță',
     description:
-      'Există o sentință de condamnare, dar aceasta nu este definitivă și poate fi schimbată în apel. Vinovăția nu este stabilită definitiv.',
+      'Condamnat de prima instanță, dar sentința poate fi modificată în apel — procesul continuă.',
   },
   {
     key: 'indicted',
     label: 'Trimis în judecată',
     description:
-      'Rechizitoriu emis de procuror. Urmează procesul în instanță. Vinovăția nu a fost stabilită.',
+      'Procurorul a finalizat urmărirea penală și a trimis dosarul spre judecată. Procesul nu a început.',
   },
   {
     key: 'investigated',
     label: 'Cercetat penal',
     description:
-      'Sub urmărire penală, dar nu a fost trimis încă în judecată. Prezumția de nevinovăție se aplică deplin.',
+      'Urmărit penal de procurori. Dosarul nu a ajuns încă în instanță.',
   },
   {
     key: 'prescribed',
     label: 'Prescris',
     description:
-      'Termenul legal pentru urmărire penală a expirat. Nu mai poate fi judecat pentru această faptă.',
+      'Termenul de urmărire penală a expirat. Nu mai poate fi judecat pentru această faptă.',
   },
   {
     key: 'closed',
     label: 'Clasat',
     description:
-      'Parchetul a clasat cauza sau aceasta a fost închisă fără trimitere în judecată. Nu există condamnare definitivă.',
+      'Dosarul a fost închis de parchet fără trimitere în instanță.',
   },
   {
     key: 'acquitted',
     label: 'Achitat',
     description:
-      'Instanța a pronunțat achitarea. Nu există vinovăție stabilită de nicio instanță.',
+      'Instanța l-a achitat. Nu s-a stabilit nicio vinovăție.',
   },
 ];
 
@@ -61,7 +61,7 @@ export function StatusLegend() {
               <span key={status.key} className="status-legend-dot" data-status={status.key} />
             ))}
           </span>
-          <span className="status-legend-toggle-label">Ghid statusuri juridice</span>
+          <span className="status-legend-toggle-label">Ce înseamnă fiecare status?</span>
           <svg
             className={`status-legend-chevron${open ? ' is-open' : ''}`}
             width="12"
