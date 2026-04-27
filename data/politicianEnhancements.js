@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-22',
+  last_updated: '2026-04-27',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -6451,6 +6451,310 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Adrian Mladin',
+    party: 'UNPR',
+    position: 'Fost primar al comunei Jilava, județul Ilfov',
+    position_type: 'mayor',
+    crime: 'Luare de mită; constituire grup infracțional organizat; spălare de bani',
+    sentence: '5 ani și 10 luni închisoare',
+    sentence_years: 5.83,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, într-un dosar privind promisiuni de intervenții, eliberarea de documente și operațiuni imobiliare legate de terenuri din Jilava și Snagov.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7606',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/social/primarii-din-snagov-si-jilava-retinuti-pentru-coruptie-9080981',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/iccj-primarul-snagovului-ramane-in-arest-preventiv_146168.html',
+      },
+    ],
+  },
+  {
+    name: 'Apostol Mușat',
+    party: 'PDL',
+    position: 'Fost primar al comunei Snagov, județul Ilfov',
+    position_type: 'mayor',
+    crime: 'Trafic de influență; asociere pentru săvârșirea de infracțiuni',
+    sentence: '4 ani închisoare',
+    sentence_years: 4,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, în același dosar privind intervenții promise și operațiuni imobiliare din zona Snagov-Jilava.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7606',
+      },
+      {
+        label: 'GSP',
+        kind: 'press',
+        url: 'https://www.gsp.ro/gsp-special/anchetele-gazetei/update-primarul-din-snagov-apostol-musat-pdl-acuzat-de-trafic-de-influenta-la-iccj-328977.html',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Roman',
+    party: 'UNPR',
+    position: 'Fost vicepreședinte al Consiliului Județean Ilfov',
+    position_type: 'local_official',
+    crime: 'Trafic de influență; asociere pentru săvârșirea de infracțiuni',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, în dosarul în care au fost condamnați și foștii primari din Jilava și Snagov.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7606',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/iccj-primarul-snagovului-ramane-in-arest-preventiv_146168.html',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Băzăvan',
+    party: 'PDL',
+    position: 'Fost primar al comunei Malovăț, județul Mehedinți',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în iunie 2021 pentru abuz în serviciu legat de contracte și plăți ale primăriei. Prin actualizarea oficială din 13 octombrie 2023, DNA a consemnat încetarea definitivă a procesului penal ca urmare a prescripției.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10471',
+      },
+      {
+        label: 'Sursa Zilei',
+        kind: 'press',
+        url: 'https://www.sursazilei.ro/mehedin%C5%A3i-primarul-din-malov%C4%83%C5%A3-re%C5%A3inut-dup%C4%83-ce-a-fost-prins-primind-mit%C4%83-20-000-de-euro/',
+      },
+    ],
+  },
+  {
+    name: 'Cătălin-Iulian Martinuș',
+    party: 'PNL',
+    position: 'Fost primar al comunei Dobrovăț, județul Iași',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu; folosire sau prezentare de documente false pentru fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în 2015 într-un dosar privind fonduri europene și lucrări publice din comuna Dobrovăț. Prin actualizarea oficială din 7 aprilie 2023, DNA a consemnat încetarea procesului penal ca urmare a prescripției.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6818',
+      },
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/politic-intern/iasi-alti-22-de-membri-pnl-vor-candida-pe-listele-psd-la-alegerile-locale-intre-acestia-un-primar-si-patru-viceprimari-1922405921282024041321567546',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Ostanschi',
+    party: 'PSD',
+    position: 'Fost primar al comunei Stulpicani, județul Suceava',
+    position_type: 'mayor',
+    crime: 'Complicitate la folosire sau prezentare de documente false pentru fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 134 din 10 februarie 2022 la 2 ani de închisoare cu suspendare, într-un dosar privind cereri APIA și documente folosite pentru obținerea nelegală de fonduri.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11063',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9315',
+      },
+      {
+        label: 'Monitorul de Suceava',
+        kind: 'press',
+        url: 'https://www.monitorulsv.ro/victorie-categorica-a-pnl-la-votul-pentru-consiliul-judetean-suceava_509a59/',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Moroșan',
+    party: 'PSD',
+    position: 'Fost primar al comunei Valea Moldovei, județul Suceava',
+    position_type: 'mayor',
+    crime: 'Complicitate la folosire sau prezentare de documente false pentru fonduri europene; folosirea funcției pentru favorizarea unor persoane',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în 2019 în dosarul APIA din județul Suceava. Prin actualizarea oficială din 4 februarie 2025, DNA a consemnat că, pentru Constantin Moroșan, Curtea de Apel Suceava a dispus achitarea definitivă deoarece faptele nu există.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9315',
+      },
+      {
+        label: 'SuceavaLive',
+        kind: 'press',
+        url: 'https://suceavalive.ro/primarul-constantin-morosan-dupa-20-de-ani-de-psd-va-candida-din-partea-pnl-la-alegerile-locale/',
+      },
+    ],
+  },
+  {
+    name: 'Neculai Ionescu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Homocea, județul Vrancea',
+    position_type: 'mayor',
+    crime: 'Tentativă la folosire sau prezentare de documente false pentru fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2022,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în iulie 2021 într-un dosar privind documente depuse la APIA pentru obținerea de fonduri. Prin actualizarea oficială din 23 decembrie 2022, DNA a consemnat încetarea procesului penal ca urmare a prescripției.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10471',
+      },
+      {
+        label: 'Ziarul de Vrancea',
+        kind: 'press',
+        url: 'https://www.ziaruldevrancea.ro/actualitatea/ultimele-stiri/fostul-primar-al-homocei-neculai-ionescu-consilier-local-psd-in-functie-este-trimis-in-judecata-de-dna',
+      },
+    ],
+  },
+  {
+    name: 'Eugen Antica',
+    party: 'PDL',
+    position: 'Fost primar al comunei Prăjești, județul Bacău',
+    position_type: 'mayor',
+    crime: 'Luare de mită; efectuarea de operațiuni financiare incompatibile cu funcția',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2017,
+    status: 'convicted',
+    details:
+      'DNA Bacău l-a trimis în judecată în 2015 pentru luare de mită și operațiuni financiare incompatibile cu funcția de primar. Prin comunicarea oficială din februarie 2017, DNA a consemnat condamnarea definitivă la 3 ani de închisoare.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6551',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8063',
+      },
+      {
+        label: 'Onești Online',
+        kind: 'press',
+        url: 'https://www.onestionline.ro/politica/alegeri2012/alegeri_2012_locale.htm',
+      },
+    ],
+  },
+  {
+    name: 'Păun Baba',
+    party: 'PSD',
+    position: 'Fost primar al comunei Șopotu Nou, județul Caraș-Severin',
+    position_type: 'mayor',
+    crime: 'Luare de mită în formă continuată',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA Timișoara l-a trimis în judecată în septembrie 2021 într-un dosar privind foloase pretinse în legătură cu un contract finanțat din fonduri nerambursabile. Prin actualizarea oficială din 9 februarie 2024, DNA a consemnat achitarea definitivă a fostului primar.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10544',
+      },
+      {
+        label: 'Reșița.ro',
+        kind: 'press',
+        url: 'https://resita.ro/primar-achitat-dupa-ce-fusese-condamnat-de-prima-instanta-la-sase-ani-de-inchisoare/',
+      },
+    ],
+  },
+  {
+    name: 'Laurențiu Neghină',
+    party: 'PDL',
+    position: 'Fost primar al municipiului Onești, județul Bacău',
+    position_type: 'mayor',
+    crime: 'Cumpărare de influență',
+    sentence: '8 luni închisoare cu suspendare',
+    sentence_years: 0.67,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea definitivă din 18 decembrie 2013 pentru cumpărare de influență, într-un dosar privind intervenții promise la examenul de bacalaureat. Comunicatul oficial îl menționează sub numele Neghină Victor-Laurențiu.',
+    verified_at: '2026-04-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
+      },
+      {
+        label: 'Realitatea',
+        kind: 'press',
+        url: 'https://www.realitatea.net/stiri/politica/primarul-onestiului-laurentiu-neghina-pdl-ales-in-2012-incompatibil_5dcc91c0406af85273cc06bf',
+      },
+    ],
+  },
 ];
 
 /**
@@ -6702,4 +7006,15 @@ export const countyOverrides = {
   'Andrei Volosevici': 'Prahova',
   'Teodor Neamțu': 'Sibiu',
   'Vasile Iliuță': 'Călărași',
+  'Adrian Mladin': 'Ilfov',
+  'Apostol Mușat': 'Ilfov',
+  'Gheorghe Roman': 'Ilfov',
+  'Gheorghe Băzăvan': 'Mehedinți',
+  'Cătălin-Iulian Martinuș': 'Iași',
+  'Vasile Ostanschi': 'Suceava',
+  'Constantin Moroșan': 'Suceava',
+  'Neculai Ionescu': 'Vrancea',
+  'Eugen Antica': 'Bacău',
+  'Păun Baba': 'Caraș-Severin',
+  'Laurențiu Neghină': 'Bacău',
 };

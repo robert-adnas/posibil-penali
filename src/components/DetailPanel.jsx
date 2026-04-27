@@ -145,7 +145,7 @@ export function DetailPanel({ politician, onClose }) {
 
               {politician.conviction_year && (
                 <div>
-                  <SectionLabel>Anul condamnării</SectionLabel>
+                  <SectionLabel>{politician.status === 'convicted' ? 'Anul condamnării' : 'An reper'}</SectionLabel>
                   <p className="detail-panel-keyfact-value detail-panel-keyfact-value--tabular">{politician.conviction_year}</p>
                 </div>
               )}

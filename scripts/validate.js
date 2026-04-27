@@ -20,6 +20,7 @@ const KNOWN_PARTIES = [
   'PC',
   'PD',
   'UDMR',
+  'UNPR',
   'AUR',
   'PP-DD',
   'PMP',
