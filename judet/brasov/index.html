@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)" />
     <meta
       name="description"
-      content="8 politicieni cu dosare penale din județul Brașov: 7 condamnați definitiv, 28 ani de închisoare."
+      content="9 politicieni cu dosare penale din județul Brașov: 8 condamnați definitiv, 29 ani de închisoare."
     />
     <meta
       name="keywords"
@@ -24,7 +24,7 @@
     />
     <meta
       property="og:description"
-      content="8 politicieni cu dosare penale din județul Brașov: 7 condamnați definitiv, 28 ani de închisoare."
+      content="9 politicieni cu dosare penale din județul Brașov: 8 condamnați definitiv, 29 ani de închisoare."
     />
     <meta property="og:url" content="https://politicieni-corupti.ro/judet/brasov" />
     <meta property="og:image" content="https://politicieni-corupti.ro/og-image.png" />
@@ -42,12 +42,154 @@
     />
     <meta
       name="twitter:description"
-      content="8 politicieni cu dosare penale din județul Brașov: 7 condamnați definitiv, 28 ani de închisoare."
+      content="9 politicieni cu dosare penale din județul Brașov: 8 condamnați definitiv, 29 ani de închisoare."
     />
     <meta name="twitter:image" content="https://politicieni-corupti.ro/og-image.png" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -115,20 +257,12 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-CquXc9ii.js"></script>
+    <script type="module" crossorigin src="/assets/index-Nj_8ZhUa.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
     <link rel="stylesheet" crossorigin href="/assets/index-CheBPPZU.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Politicieni cu dosare penale din Brașov","url":"https://politicieni-corupti.ro/judet/brasov","description":"8 politicieni cu dosare penale din județul Brașov: 7 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":8,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/aristotel-cancescu","name":"Aristotel Căncescu"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/constantin-nita","name":"Constantin Niță"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/dinita-ion","name":"Diniță Ion"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/dorin-lazar-maior","name":"Dorin Lazăr Maior"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/sorin-balasi","name":"Sorin Balași"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/vasile-andreas","name":"Vasile Andreaș"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/victor-babiuc","name":"Victor Babiuc"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/todorica-constantin-serban","name":"Todorică-Constantin Șerban"}]}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Politicieni cu dosare penale din Brașov","url":"https://politicieni-corupti.ro/judet/brasov","description":"9 politicieni cu dosare penale din județul Brașov: 8 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/aristotel-cancescu","name":"Aristotel Căncescu"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/constantin-nita","name":"Constantin Niță"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/dinita-ion","name":"Diniță Ion"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/dorin-lazar-maior","name":"Dorin Lazăr Maior"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/gheorghe-lupu","name":"Gheorghe Lupu"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/sorin-balasi","name":"Sorin Balași"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/vasile-andreas","name":"Vasile Andreaș"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/victor-babiuc","name":"Victor Babiuc"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/todorica-constantin-serban","name":"Todorică-Constantin Șerban"}]}}</script>
 </head>
   <body>
-    <script>
-      // Apply saved theme or system preference before first paint
-      (function () {
-        var t = localStorage.getItem('theme');
-        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', t);
-      })();
-    </script>
     <div id="root" data-prerendered="true">
       <div class="app-shell">
         <main class="app-section">
@@ -140,7 +274,7 @@
             </nav>
             <p class="app-kicker">Județ</p>
             <h1 class="app-title">Județul Brașov</h1>
-            <p class="app-intro">8 politicieni cu dosare penale: 7 condamnați definitiv, 28 ani de închisoare.</p>
+            <p class="app-intro">9 politicieni cu dosare penale: 8 condamnați definitiv, 29 ani de închisoare.</p>
             
     <nav aria-label="Navigare principală" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
       <a href="/">Arhivă</a><a href="/actualizari">Modificări recente</a><a href="/lista">Lista completă</a><a href="/glosar">Glosar juridic</a><a href="/metodologie">Metodologie</a><a href="/contact">Contact</a>
@@ -149,12 +283,12 @@
             
     <section style="margin-top:2rem;">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Distribuție pe partide</h2>
-      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD</a> — 4</li><li><a href="/partid/pnl">PNL</a> — 2</li><li><a href="/partid/pd">PD</a> — 1</li><li><a href="/partid/pc">PC</a> — 1</li></ul>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD</a> — 4</li><li><a href="/partid/pnl">PNL</a> — 2</li><li><a href="/partid/pd">PD</a> — 1</li><li><a href="/partid/pc">PC</a> — 1</li><li><a href="/partid/pdl">PDL</a> — 1</li></ul>
     </section>
   
             
     <section style="margin-top:2rem;">
-      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni din Brașov (8)</h2>
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni din Brașov (9)</h2>
       <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
     <li>
       <a href="/politician/aristotel-cancescu">Aristotel Căncescu</a>
@@ -174,6 +308,11 @@
     <li>
       <a href="/politician/dorin-lazar-maior">Dorin Lazăr Maior</a>
       <span> - Condamnat definitiv, PSD, Deputat, Complicitate la cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-lupu">Gheorghe Lupu</a>
+      <span> - Condamnat definitiv, PDL, Primar, Abuz în serviciu; uz de fals</span>
     </li>
   
     <li>
@@ -201,7 +340,7 @@
             
     <section style="margin-top:2rem;">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Alte județe</h2>
-      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/judet/arges">Argeș (55)</a></li><li><a href="/judet/neamt">Neamț (12)</a></li><li><a href="/judet/iasi">Iași (11)</a></li><li><a href="/judet/prahova">Prahova (10)</a></li><li><a href="/judet/mures">Mureș (9)</a></li><li><a href="/judet/caras-severin">Caraș-Severin (9)</a></li><li><a href="/judet/constanta">Constanța (9)</a></li><li><a href="/judet/botosani">Botoșani (9)</a></li><li><a href="/judet/bacau">Bacău (8)</a></li><li><a href="/judet/ilfov">Ilfov (8)</a></li><li><a href="/judet/bucuresti">București (7)</a></li><li><a href="/judet/buzau">Buzău (6)</a></li><li><a href="/judet/vaslui">Vaslui (6)</a></li><li><a href="/judet/calarasi">Călărași (5)</a></li><li><a href="/judet/mehedinti">Mehedinți (5)</a></li></ul>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/judet/arges">Argeș (55)</a></li><li><a href="/judet/neamt">Neamț (12)</a></li><li><a href="/judet/iasi">Iași (12)</a></li><li><a href="/judet/prahova">Prahova (10)</a></li><li><a href="/judet/caras-severin">Caraș-Severin (10)</a></li><li><a href="/judet/mures">Mureș (9)</a></li><li><a href="/judet/constanta">Constanța (9)</a></li><li><a href="/judet/botosani">Botoșani (9)</a></li><li><a href="/judet/bacau">Bacău (8)</a></li><li><a href="/judet/ilfov">Ilfov (8)</a></li><li><a href="/judet/bucuresti">București (7)</a></li><li><a href="/judet/buzau">Buzău (6)</a></li><li><a href="/judet/vaslui">Vaslui (6)</a></li><li><a href="/judet/vrancea">Vrancea (5)</a></li><li><a href="/judet/calarasi">Călărași (5)</a></li></ul>
     </section>
   
           </div>

@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)" />
     <meta
       name="description"
-      content="56 politicieni PNL cu dosare penale: 25 condamnați definitiv, 91 ani de închisoare."
+      content="57 politicieni PNL cu dosare penale: 26 condamnați definitiv, 94 ani de închisoare."
     />
     <meta
       name="keywords"
@@ -24,7 +24,7 @@
     />
     <meta
       property="og:description"
-      content="56 politicieni PNL cu dosare penale: 25 condamnați definitiv, 91 ani de închisoare."
+      content="57 politicieni PNL cu dosare penale: 26 condamnați definitiv, 94 ani de închisoare."
     />
     <meta property="og:url" content="https://politicieni-corupti.ro/partid/pnl" />
     <meta property="og:image" content="https://politicieni-corupti.ro/og-image.png" />
@@ -42,12 +42,154 @@
     />
     <meta
       name="twitter:description"
-      content="56 politicieni PNL cu dosare penale: 25 condamnați definitiv, 91 ani de închisoare."
+      content="57 politicieni PNL cu dosare penale: 26 condamnați definitiv, 94 ani de închisoare."
     />
     <meta name="twitter:image" content="https://politicieni-corupti.ro/og-image.png" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -115,20 +257,12 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-CquXc9ii.js"></script>
+    <script type="module" crossorigin src="/assets/index-Nj_8ZhUa.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
     <link rel="stylesheet" crossorigin href="/assets/index-CheBPPZU.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"PNL — Politicieni cu dosare penale","url":"https://politicieni-corupti.ro/partid/pnl","description":"56 politicieni PNL cu dosare penale: 25 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":56,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/adrian-nicolae-domocos","name":"Adrian Nicolae Domocoș"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/adrian-viorel-nicolaescu","name":"Adrian Viorel Nicolaescu"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/aristotel-cancescu","name":"Aristotel Căncescu"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/corneliu-dobritoiu","name":"Corneliu Dobrițoiu"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/cristian-marius-minca","name":"Cristian Marius Mincă"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/decebal-traian-remes","name":"Decebal Traian Remeș"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/dumitru-draghici","name":"Dumitru Drăghici"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/emilian-francu","name":"Emilian Frâncu"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/florin-turcanu","name":"Florin Țurcanu"},{"@type":"ListItem","position":10,"url":"https://politicieni-corupti.ro/politician/gabriel-sandu","name":"Gabriel Sandu"},{"@type":"ListItem","position":11,"url":"https://politicieni-corupti.ro/politician/gheorghe-percea","name":"Gheorghe Percea"},{"@type":"ListItem","position":12,"url":"https://politicieni-corupti.ro/politician/gigi-becali","name":"Gigi Becali"},{"@type":"ListItem","position":13,"url":"https://politicieni-corupti.ro/politician/horea-uioreanu","name":"Horea Uioreanu"},{"@type":"ListItem","position":14,"url":"https://politicieni-corupti.ro/politician/iulian-miliare","name":"Iulian Miliare"},{"@type":"ListItem","position":15,"url":"https://politicieni-corupti.ro/politician/marian-cristinel-bigiu","name":"Marian Cristinel Bîgiu"},{"@type":"ListItem","position":16,"url":"https://politicieni-corupti.ro/politician/mihai-banu","name":"Mihai Banu"},{"@type":"ListItem","position":17,"url":"https://politicieni-corupti.ro/politician/ovidiu-nemes","name":"Ovidiu Nemeș"},{"@type":"ListItem","position":18,"url":"https://politicieni-corupti.ro/politician/relu-fenechiu","name":"Relu Fenechiu"},{"@type":"ListItem","position":19,"url":"https://politicieni-corupti.ro/politician/romeo-stavarache","name":"Romeo Stavarache"},{"@type":"ListItem","position":20,"url":"https://politicieni-corupti.ro/politician/sandu-costel","name":"Sandu Costel"}]}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"PNL — Politicieni cu dosare penale","url":"https://politicieni-corupti.ro/partid/pnl","description":"57 politicieni PNL cu dosare penale: 26 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":57,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/adrian-nicolae-domocos","name":"Adrian Nicolae Domocoș"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/adrian-viorel-nicolaescu","name":"Adrian Viorel Nicolaescu"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/aristotel-cancescu","name":"Aristotel Căncescu"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/corneliu-dobritoiu","name":"Corneliu Dobrițoiu"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/cristian-marius-minca","name":"Cristian Marius Mincă"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/decebal-traian-remes","name":"Decebal Traian Remeș"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/dumitru-draghici","name":"Dumitru Drăghici"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/emilian-francu","name":"Emilian Frâncu"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/florin-turcanu","name":"Florin Țurcanu"},{"@type":"ListItem","position":10,"url":"https://politicieni-corupti.ro/politician/gabriel-sandu","name":"Gabriel Sandu"},{"@type":"ListItem","position":11,"url":"https://politicieni-corupti.ro/politician/gheorghe-percea","name":"Gheorghe Percea"},{"@type":"ListItem","position":12,"url":"https://politicieni-corupti.ro/politician/gigi-becali","name":"Gigi Becali"},{"@type":"ListItem","position":13,"url":"https://politicieni-corupti.ro/politician/horea-uioreanu","name":"Horea Uioreanu"},{"@type":"ListItem","position":14,"url":"https://politicieni-corupti.ro/politician/iulian-miliare","name":"Iulian Miliare"},{"@type":"ListItem","position":15,"url":"https://politicieni-corupti.ro/politician/liviu-spataru","name":"Liviu Spătaru"},{"@type":"ListItem","position":16,"url":"https://politicieni-corupti.ro/politician/marian-cristinel-bigiu","name":"Marian Cristinel Bîgiu"},{"@type":"ListItem","position":17,"url":"https://politicieni-corupti.ro/politician/mihai-banu","name":"Mihai Banu"},{"@type":"ListItem","position":18,"url":"https://politicieni-corupti.ro/politician/ovidiu-nemes","name":"Ovidiu Nemeș"},{"@type":"ListItem","position":19,"url":"https://politicieni-corupti.ro/politician/relu-fenechiu","name":"Relu Fenechiu"},{"@type":"ListItem","position":20,"url":"https://politicieni-corupti.ro/politician/romeo-stavarache","name":"Romeo Stavarache"}]}}</script>
 </head>
   <body>
-    <script>
-      // Apply saved theme or system preference before first paint
-      (function () {
-        var t = localStorage.getItem('theme');
-        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', t);
-      })();
-    </script>
     <div id="root" data-prerendered="true">
       <div class="app-shell">
         <main class="app-section">
@@ -140,7 +274,7 @@
             </nav>
             <p class="app-kicker">Partid</p>
             <h1 class="app-title">PNL</h1>
-            <p class="app-intro">56 politicieni cu dosare penale: 25 condamnați definitiv, 91 ani de închisoare.</p>
+            <p class="app-intro">57 politicieni cu dosare penale: 26 condamnați definitiv, 94 ani de închisoare.</p>
             
     <nav aria-label="Navigare principală" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
       <a href="/">Arhivă</a><a href="/actualizari">Modificări recente</a><a href="/lista">Lista completă</a><a href="/glosar">Glosar juridic</a><a href="/metodologie">Metodologie</a><a href="/contact">Contact</a>
@@ -148,7 +282,7 @@
   
             
     <section style="margin-top:2rem;">
-      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni PNL documentați (56)</h2>
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni PNL documentați (57)</h2>
       <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
     <li>
       <a href="/politician/adrian-nicolae-domocos">Adrian Nicolae Domocoș</a>
@@ -218,6 +352,11 @@
     <li>
       <a href="/politician/iulian-miliare">Iulian Miliare</a>
       <span> - Condamnat definitiv, PNL, Primar, Folosire sau prezentare cu rea-credință de documente false pentru obținerea de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/liviu-spataru">Liviu Spătaru</a>
+      <span> - Condamnat definitiv, PNL, Primar, Luare de mită; abuz în serviciu</span>
     </li>
   
     <li>
@@ -435,7 +574,7 @@
             
     <section style="margin-top:2rem;">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Alte partide</h2>
-      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD (119)</a></li><li><a href="/partid/pdl">PDL (30)</a></li><li><a href="/partid/independent">Independent (18)</a></li><li><a href="/partid/udmr">UDMR (7)</a></li><li><a href="/partid/pc">PC (5)</a></li><li><a href="/partid/aur">AUR (4)</a></li><li><a href="/partid/pntcd">PNȚCD (2)</a></li><li><a href="/partid/pp-dd">PP-DD (2)</a></li><li><a href="/partid/usr">USR (2)</a></li><li><a href="/partid/prm">PRM (2)</a></li><li><a href="/partid/pmp">PMP (2)</a></li><li><a href="/partid/unpr">UNPR (2)</a></li><li><a href="/partid/pd">PD (1)</a></li><li><a href="/partid/pusl">PUSL (1)</a></li><li><a href="/partid/sos-romania">SOS Romania (1)</a></li><li><a href="/partid/bucuresti-2020">București 2020 (1)</a></li><li><a href="/partid/partidul-pentru-odorheiu-secuiesc">Partidul pentru Odorheiu Secuiesc (1)</a></li></ul>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD (123)</a></li><li><a href="/partid/pdl">PDL (31)</a></li><li><a href="/partid/independent">Independent (18)</a></li><li><a href="/partid/udmr">UDMR (7)</a></li><li><a href="/partid/pc">PC (5)</a></li><li><a href="/partid/aur">AUR (4)</a></li><li><a href="/partid/pntcd">PNȚCD (2)</a></li><li><a href="/partid/pp-dd">PP-DD (2)</a></li><li><a href="/partid/usr">USR (2)</a></li><li><a href="/partid/prm">PRM (2)</a></li><li><a href="/partid/pmp">PMP (2)</a></li><li><a href="/partid/unpr">UNPR (2)</a></li><li><a href="/partid/pd">PD (1)</a></li><li><a href="/partid/pusl">PUSL (1)</a></li><li><a href="/partid/sos-romania">SOS Romania (1)</a></li><li><a href="/partid/bucuresti-2020">București 2020 (1)</a></li><li><a href="/partid/partidul-pentru-odorheiu-secuiesc">Partidul pentru Odorheiu Secuiesc (1)</a></li></ul>
     </section>
   
           </div>

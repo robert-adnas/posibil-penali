@@ -49,6 +49,148 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/site.webmanifest" />
 
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -115,19 +257,11 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-CquXc9ii.js"></script>
+    <script type="module" crossorigin src="/assets/index-Nj_8ZhUa.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
     <link rel="stylesheet" crossorigin href="/assets/index-CheBPPZU.css">
   </head>
   <body>
-    <script>
-      // Apply saved theme or system preference before first paint
-      (function () {
-        var t = localStorage.getItem('theme');
-        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', t);
-      })();
-    </script>
     <div id="root" data-prerendered="true">
   <div class="app-shell">
     <main class="app-section">
@@ -139,8 +273,8 @@
           cercetați penal, prescriși, clasați sau achitați în cauze de corupție și abuz.
         </p>
         <p style="max-width:64rem;line-height:1.7;margin:1rem 0 0;color:var(--color-text-muted);">
-          Actualizat la 27 aprilie 2026. Arhiva include 256 profiluri publice,
-          122 condamnări definitive și 64 cazuri active aflate în anchetă
+          Actualizat la 29 aprilie 2026. Arhiva include 262 profiluri publice,
+          128 condamnări definitive și 64 cazuri active aflate în anchetă
           sau judecată.
         </p>
         
@@ -151,13 +285,13 @@
         
     <section style="margin-top:2rem;">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Acces rapid</h2>
-      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/lista">Vezi lista completă a celor 256 politicieni din arhivă</a></li><li><a href="/glosar">Înțelege diferența dintre condamnat, trimis în judecată, cercetat sau achitat</a></li><li><a href="/metodologie">Vezi criteriile editoriale, sursele și procesul de verificare</a></li></ul>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/lista">Vezi lista completă a celor 262 politicieni din arhivă</a></li><li><a href="/glosar">Înțelege diferența dintre condamnat, trimis în judecată, cercetat sau achitat</a></li><li><a href="/metodologie">Vezi criteriile editoriale, sursele și procesul de verificare</a></li></ul>
     </section>
   
         
     <section style="margin-top:2rem;">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Partide cu cele mai multe cazuri documentate</h2>
-      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li>PSD - 119 profiluri</li><li>PNL - 56 profiluri</li><li>PDL - 30 profiluri</li><li>Independent - 18 profiluri</li><li>UDMR - 7 profiluri</li><li>PC - 5 profiluri</li><li>AUR - 4 profiluri</li><li>PNȚCD - 2 profiluri</li></ul>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li>PSD - 123 profiluri</li><li>PNL - 57 profiluri</li><li>PDL - 31 profiluri</li><li>Independent - 18 profiluri</li><li>UDMR - 7 profiluri</li><li>PC - 5 profiluri</li><li>AUR - 4 profiluri</li><li>PNȚCD - 2 profiluri</li></ul>
     </section>
   
         
@@ -241,6 +375,11 @@
     </li>
   
     <li>
+      <a href="/politician/constantin-mihutescu">Constantin Mihuțescu</a>
+      <span> - Condamnat definitiv, PSD, Primar, Instigare la abuz în serviciu</span>
+    </li>
+  
+    <li>
       <a href="/politician/constantin-nicolescu">Constantin Nicolescu</a>
       <span> - Condamnat definitiv, PSD, Președinte CJ, Fraudă fonduri PHARE/UE; luare de mită (€900K + prejudiciu €1.2M)</span>
     </li>
@@ -248,11 +387,6 @@
     <li>
       <a href="/politician/constantin-nita">Constantin Niță</a>
       <span> - Condamnat definitiv, PSD, Ministru, Trafic de influență</span>
-    </li>
-  
-    <li>
-      <a href="/politician/corneliu-dobritoiu">Corneliu Dobrițoiu</a>
-      <span> - Condamnat definitiv, PNL, Ministru, Abuz în serviciu</span>
     </li>
   </ul>
             <p style="margin-top:1rem;"><a href="/lista">Continuă cu lista completă →</a></p>
@@ -265,32 +399,32 @@
       
             <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
                 <li>
-                  <a href="/politician/adrian-mladin">Adrian Mladin</a>
+                  <a href="/politician/constantin-mihutescu">Constantin Mihuțescu</a>
                   <span> - undefined</span>
                 </li>
               
                 <li>
-                  <a href="/politician/apostol-musat">Apostol Mușat</a>
+                  <a href="/politician/dorin-mircea-malii">Dorin Mircea Malii</a>
                   <span> - undefined</span>
                 </li>
               
                 <li>
-                  <a href="/politician/catalin-iulian-martinus">Cătălin-Iulian Martinuș</a>
+                  <a href="/politician/gheorghe-lupu">Gheorghe Lupu</a>
                   <span> - undefined</span>
                 </li>
               
                 <li>
-                  <a href="/politician/constantin-morosan">Constantin Moroșan</a>
+                  <a href="/politician/liviu-spataru">Liviu Spătaru</a>
                   <span> - undefined</span>
                 </li>
               
                 <li>
-                  <a href="/politician/eugen-antica">Eugen Antica</a>
+                  <a href="/politician/vasile-zbirciog">Vasile Zbîrciog</a>
                   <span> - undefined</span>
                 </li>
               
                 <li>
-                  <a href="/politician/gheorghe-bazavan">Gheorghe Băzăvan</a>
+                  <a href="/politician/vitalie-stanciu">Vitalie Stanciu</a>
                   <span> - undefined</span>
                 </li>
               </ul>
