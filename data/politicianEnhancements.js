@@ -531,16 +531,6 @@ export const politicianOverrides = {
       },
     ],
   },
-  'Aristotel C\u0103ncescu': {
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11086',
-      },
-    ],
-  },
   'Horea Uioreanu': {
     verified_at: '2026-03-22',
     sources: [
@@ -950,21 +940,6 @@ export const politicianOverrides = {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10582',
-      },
-    ],
-  },
-  'Mircea Dr\u0103ghici': {
-    sentence: '6 ani închisoare cu executare',
-    sentence_years: 6,
-    conviction_year: 2022,
-    details:
-      'Condamnat definitiv în octombrie 2022 la 6 ani de închisoare pentru utilizarea subvențiilor partidului în alte scopuri decât cele legale și delapidare, după ce a folosit bani din subvenția PSD pentru un imobil personal.',
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=11615',
       },
     ],
   },
@@ -1758,17 +1733,12 @@ export const politicianAdditions = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'http://www.cdep.ro/pls/parlam/structura.mp?idm=48&cam=1&leg=2000',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?idm=48&cam=1&leg=2000',
       },
       {
         label: 'România Curată',
         kind: 'press',
         url: 'https://www.romaniacurata.ro/sentinta-definitiva-5-ani-de-inchisoare-vasile-duta-trafic-de-influenta/',
-      },
-      {
-        label: 'România Liberă',
-        kind: 'press',
-        url: 'https://romanialibera.ro/special/fostul-senator-vasile-duta-condamnat-definitiv-la-cinci-ani-de-inchisoare-185572/',
       },
     ],
   },
@@ -2548,9 +2518,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=4562',
       },
       {
-        label: 'Stiripesurse',
+        label: 'Radio România Reșița',
         kind: 'press',
-        url: 'https://www.stiripesurse.ro/primar-condamnat-la-inchisoare_940370.html',
+        url: 'https://www.radioresita.ro/actualitate/primarul-comunei-gradinari-condamnat-la-un-an-de-inchisoare-cu-executare',
       },
     ],
   },
@@ -3019,14 +2989,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12105',
       },
       {
-        label: 'Portal Just - Curtea de Apel Constan\u021ba',
-        kind: 'official',
-        url: 'https://portal.just.ro/36/Documents/ANUNTURI_SEDINTE/PENAL/_lista%20sedinte%202026/Lista%20ds%20352_.pdf',
-      },
-      {
         label: 'Ziua de Constan\u021ba',
         kind: 'press',
-        url: 'https://www.ziuaconstanta.ro/stiri/justitie/verdict-astazi-in-dosarul-de-coruptie-al-fostului-primar-din-mangalia-cristian-radu-931027.html',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/achitare-pe-linie-cristian-radu-si-intreaga-conducere-a-primariei-mangalia-declarati-nevinovati-in-dosarul-dna-931035.html',
       },
     ],
   },
@@ -3961,7 +3926,7 @@ export const politicianAdditions = [
       {
         label: 'DCNews',
         kind: 'press',
-        url: 'https://www.dcnews.ro/fostul-ministru-al-comunicatiilor-valerian-vreme-a-demisionat-din-pdl_339703.html',
+        url: 'https://www.dcnews.ro/fostul-ministru-valerian-vreme-a-demisionat-din-pdl_309165.html',
       },
     ],
   },
@@ -4166,9 +4131,9 @@ export const politicianAdditions = [
         url: 'https://conteaza.ro/2025/04/02/dna-l-a-trimis-in-judecata-pe-fostul-primar-din-odorheiu-secuiesc-galfi-arpad-pentru-abuz-in-serviciu/',
       },
       {
-        label: 'G4Media',
+        label: 'Informația Harghitei',
         kind: 'press',
-        url: 'https://www.g4media.ro/rezultate-alegeri-locale-2024-in-odorheiu-secuiesc-galfi-arpad-candidat-independent.html',
+        url: 'https://informatiahr.ro/partidul-pentru-odorheiu-secuiesc/',
       },
     ],
   },
@@ -6583,7 +6548,7 @@ export const politicianAdditions = [
       {
         label: 'News.ro',
         kind: 'press',
-        url: 'https://www.news.ro/politic-intern/iasi-alti-22-de-membri-pnl-vor-candida-pe-listele-psd-la-alegerile-locale-intre-acestia-un-primar-si-patru-viceprimari-1922405921282024041321567546',
+        url: 'https://www.news.ro/politic-intern/primarii-a-doua-comune-iesene-dar-si-un-viceprimar-membri-ai-pnl-vor-candida-pe-listele-psd-la-alegerile-locale-1922405001212024030821509579',
       },
     ],
   },
@@ -6667,7 +6632,7 @@ export const politicianAdditions = [
       {
         label: 'Ziarul de Vrancea',
         kind: 'press',
-        url: 'https://www.ziaruldevrancea.ro/actualitatea/ultimele-stiri/fostul-primar-al-homocei-neculai-ionescu-consilier-local-psd-in-functie-este-trimis-in-judecata-de-dna',
+        url: 'https://www.ziaruldevrancea.ro/actualitatea/stiri-locale/fostul-primar-de-la-homocea-neculai-ionescu-trimis-in-judecata-de-dna-intr-un-nou-dosar',
       },
     ],
   },
@@ -6749,9 +6714,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
       },
       {
-        label: 'Realitatea',
+        label: 'România Liberă',
         kind: 'press',
-        url: 'https://www.realitatea.net/stiri/politica/primarul-onestiului-laurentiu-neghina-pdl-ales-in-2012-incompatibil_5dcc91c0406af85273cc06bf',
+        url: 'https://romanialibera.ro/special/rezultate-alegeri-bacau-rocada-intre-usl-si-pdl-la-primariile-onesti-si-targu-ocna-267083/',
       },
     ],
   },

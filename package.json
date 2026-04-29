@@ -10,6 +10,7 @@
     "build": "node scripts/generate-sitemap.js && vite build && node scripts/prerender.js",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
+    "check:sources": "node scripts/check-source-links.js",
     "og-image": "node scripts/generate-og-image.js",
     "og-politicians": "node scripts/generate-og-politicians.js",
     "deploy": "npm run build && gh-pages -d dist",
