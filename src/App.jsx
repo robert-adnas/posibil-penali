@@ -19,15 +19,13 @@ const NotFound        = lazy(() => import('./pages/NotFound').then((m) => ({ def
 
 function PageFallback() {
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        background: 'var(--color-parchment)',
-      }}
-    />
+    <div className="app-loading-shell" aria-busy="true" aria-live="polite">
+      <div className="app-loading-card">
+        <p className="app-kicker">Se incarca arhiva</p>
+        <h1 className="app-title">Politicieni Corupti</h1>
+        <div className="app-loading-line" />
+      </div>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-27',
+  last_updated: '2026-04-29',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -6755,6 +6755,167 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Liviu Spătaru',
+    party: 'PNL',
+    position: 'Fost primar al municipiului Reșița, județul Caraș-Severin',
+    position_type: 'mayor',
+    crime: 'Luare de mită; abuz în serviciu',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 438 din 28 martie 2014 a Curții de Apel Craiova, într-un dosar privind foloase necuvenite și contracte atribuite de serviciul public al Consiliului Local Reșița.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4780',
+      },
+      {
+        label: 'Evenimentul Zilei',
+        kind: 'press',
+        url: 'https://evz.ro/primarul-resitei-cercetat-de-dna-435669.html',
+      },
+    ],
+  },
+  {
+    name: 'Vitalie Stanciu',
+    party: 'PSD',
+    position: 'Fost primar al orașului Balș, județul Olt',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu; fals intelectual',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 761 din 5 iunie 2014 a Curții de Apel Craiova, într-un dosar privind documente folosite pentru obținerea nelegală de fonduri SAPARD.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4992',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/stiri/dna/primar-pesedist-din-olt-trimis-in-judecata-pentru-abuz-in-serviciu-1140003',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Zbîrciog',
+    party: 'PSD',
+    position: 'Primar al comunei Străoane, județul Vrancea',
+    position_type: 'mayor',
+    crime: 'Cumpărare de influență',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 225/A din 19 martie 2014 a Curții de Apel Galați, într-un dosar privind cumpărare de influență legată de examenul de bacalaureat.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4762',
+      },
+      {
+        label: 'Monitorul de Vrancea',
+        kind: 'press',
+        url: 'https://www.monitoruldevrancea.ro/2020/09/10/straoane-primarul-vasile-zbirciog-vom-continua-lupta-pentru-modernizarea-si-dezvoltarea-comunei-noastre/',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Mihuțescu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Baia de Fier, județul Gorj',
+    position_type: 'mayor',
+    crime: 'Instigare la abuz în serviciu',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 363 din 10 noiembrie 2011 a completului de 5 judecători al ÎCCJ, în dosarul în care a fost condamnat și Dan Ilie Morega.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2776',
+      },
+      {
+        label: 'Pandurul',
+        kind: 'press',
+        url: 'https://www.pandurul.ro/articol/mihutescu-invins-de-psd-in-alegerile-locale_32840.html',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Lupu',
+    party: 'PDL',
+    position: 'Fost primar al orașului Zărnești, județul Brașov',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu; uz de fals',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 2160 din 20 iunie 2012 a ÎCCJ, într-un dosar privind abuz în serviciu, uz de fals și prejudicii către Primăria Zărnești.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3399',
+      },
+      {
+        label: 'România Curată',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/partidul-ecologist-sustine-un-candidat-care-vrea-sa-inlesneasca-constructiile-in-parcul-national-piatra-craiului/',
+      },
+    ],
+  },
+  {
+    name: 'Dorin Mircea Malii',
+    party: 'PSD',
+    position: 'Primar al comunei Șipote, județul Iași; fost viceprimar',
+    position_type: 'mayor',
+    crime: 'Complicitate la folosire sau prezentare de documente false pentru fonduri europene; fals intelectual',
+    sentence: '1 an și 5 luni închisoare cu suspendare',
+    sentence_years: 1.42,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 477 din 17 iunie 2016 a Curții de Apel Iași, într-un dosar privind documente false depuse pentru un proiect al comunei Șipote.',
+    verified_at: '2026-04-29',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7532',
+      },
+      {
+        label: 'Inițiativa pentru o Justiție Curată',
+        kind: 'press',
+        url: 'https://justitiecurata.ro/primar-cu-ghinion-proaspat-alesului-din-sipote-condamnarea-cu-suspendare-i-a-tras-scaunul-de-sub-sezut/',
+      },
+    ],
+  },
 ];
 
 /**
@@ -7017,4 +7178,10 @@ export const countyOverrides = {
   'Eugen Antica': 'Bacău',
   'Păun Baba': 'Caraș-Severin',
   'Laurențiu Neghină': 'Bacău',
+  'Liviu Spătaru': 'Caraș-Severin',
+  'Vitalie Stanciu': 'Olt',
+  'Vasile Zbîrciog': 'Vrancea',
+  'Constantin Mihuțescu': 'Gorj',
+  'Gheorghe Lupu': 'Brașov',
+  'Dorin Mircea Malii': 'Iași',
 };
