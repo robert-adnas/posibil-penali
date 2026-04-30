@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-29',
+  last_updated: '2026-04-30',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -110,6 +110,11 @@ export const politicianOverrides = {
   'Cătălin Voicu': {
     replace_sources: true,
     verified_at: '2026-03-21',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 42 București.',
+    },
     sources: [
       {
         label: 'Senatul României',
@@ -187,6 +192,11 @@ export const politicianOverrides = {
       },
     ],
     verified_at: '2026-04-10',
+    geography: {
+      county: 'București',
+      basis: 'political_base',
+      note: 'Președinte al filialei USR București.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -422,6 +432,11 @@ export const politicianOverrides = {
     prejudiciu_text:
       'În dosarul ICA, DNA a indicat un prejudiciu total de 60.482.615 euro.',
     verified_at: '2026-04-10',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senator ales în București; se folosește circumscripția parlamentară.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -822,6 +837,11 @@ export const politicianOverrides = {
     details:
       'Condamnat definitiv în mai 2016 la 1 an cu suspendare pentru participație improprie la abuz în serviciu și fals intelectual, în dosarul locuințelor de serviciu din MApN.',
     verified_at: '2026-03-22',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senator ales în București; se folosește circumscripția parlamentară.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -892,6 +912,11 @@ export const politicianOverrides = {
   },
   'Sebastian Vl\u0103descu': {
     verified_at: '2026-03-22',
+    geography: {
+      county: 'București',
+      basis: 'political_base',
+      note: 'Figură națională cu activitate politică și profesională publică legată de București.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -945,6 +970,11 @@ export const politicianOverrides = {
   },
   'Adrian Severin': {
     verified_at: '2026-03-22',
+    geography: {
+      county: 'București',
+      basis: 'hometown',
+      note: 'Nu există o circumscripție mai clară în datele curente; se folosește originea publică din București ca ultimă rezervă.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -1072,6 +1102,11 @@ export const politicianOverrides = {
     details:
       'Condamnat definitiv la 5 ani în 2020 pentru trafic de influență. În martie 2023, Curtea de Apel București a confirmat definitiv încetarea procesului penal și anularea condamnării ca urmare a prescrierii faptelor.',
     verified_at: '2026-03-22',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Deputat ales în București; se folosește circumscripția parlamentară.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -1143,6 +1178,11 @@ export const politicianOverrides = {
     details:
       'Condamnat definitiv \u00een martie 2014 \u00een dosarul transferurilor de fotbali\u0219ti, pentru evaziune fiscal\u0103. DNA a comunicat condamnarea la 3 ani \u0219i 8 luni de \u00eenchisoare prin decizia Cur\u021bii de Apel Bucure\u0219ti.',
     verified_at: '2026-03-22',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 3 Argeș; circumscripția parlamentară are prioritate față de locul de origine.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -1203,6 +1243,11 @@ export const politicianOverrides = {
   },
   'Sorin Panti\u0219': {
     verified_at: '2026-03-22',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'hometown',
+      note: 'Figură națională fără circumscripție mai clară în datele curente; se folosește originea publică din Reșița.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -1391,6 +1436,11 @@ export const politicianOverrides = {
     details:
       'Condamnat definitiv de \u00ceCCJ \u00een iunie 2013 \u00een dosarul Valiza, dup\u0103 ce DNA a sus\u021binut c\u0103 a promis sume de bani juc\u0103torilor Universit\u0103\u021bii Cluj pentru un rezultat favorabil Stelei. Aceast\u0103 fi\u0219\u0103 re\u021bine condamnarea definitiv\u0103 comunicat\u0103 oficial de DNA \u00een cauza Valiza.',
     verified_at: '2026-03-22',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Deputat ales într-un colegiu din București; se folosește circumscripția parlamentară.',
+    },
     sources: [
       {
         label: 'DNA',
@@ -1888,6 +1938,11 @@ export const politicianAdditions = [
     party: 'PDL',
     position: 'Europarlamentar (2007-2009); pre\u0219edinte ANSVSA',
     position_type: 'member_european_parliament',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Cauza DNA și funcția publică vizau structuri naționale și Direcția Sanitar-Veterinară București.',
+    },
     crime: 'Trafic de influen\u021b\u0103; luare de mit\u0103; constituire de grup infrac\u021bional organizat; instigare la luare de mit\u0103',
     sentence: '8 ani \u0219i 6 luni \u00eenchisoare cu executare',
     sentence_years: 8.5,
@@ -6333,6 +6388,11 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Fost secretar de stat \u00een Ministerul Transporturilor',
     position_type: 'secretary_of_state',
+    geography: {
+      county: 'București',
+      basis: 'political_base',
+      note: 'Candidat pe lista PSD București înainte de numirea ca secretar de stat.',
+    },
     crime: 'Participa\u021bie improprie la abuz \u00een serviciu; participa\u021bie improprie la fals intelectual',
     sentence: 'Trimis \u00een judecat\u0103; prim\u0103 instan\u021b\u0103: \u00eencetare prin prescrip\u021bie, nedefinitiv',
     sentence_years: null,
@@ -6878,6 +6938,470 @@ export const politicianAdditions = [
         label: 'Inițiativa pentru o Justiție Curată',
         kind: 'press',
         url: 'https://justitiecurata.ro/primar-cu-ghinion-proaspat-alesului-din-sipote-condamnarea-cu-suspendare-i-a-tras-scaunul-de-sub-sezut/',
+      },
+    ],
+  },
+  {
+    name: 'Victor Ponta',
+    party: 'PSD',
+    position: 'Fost prim-ministru al României; fost deputat de Gorj',
+    position_type: 'prime_minister',
+    geography: {
+      county: 'Gorj',
+      basis: 'constituency',
+      note: 'A reprezentat județul Gorj în Camera Deputaților în perioada dosarului; mandatul nou din 2024 este în Dâmbovița, dar această fișă folosește circumscripția istorică relevantă cauzei.',
+    },
+    crime: 'Fals în înscrisuri sub semnătură privată; complicitate la evaziune fiscală; spălarea banilor',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul Turceni-Rovinari în 2015. La 28 decembrie 2023, un complet de cinci judecători al ÎCCJ a dispus achitarea definitivă.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6675',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2023/12/28/victor-ponta-achitat-definitiv-in-dosarul-rovinari---turceni--1225581',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/alegeri-parlamentare-in-gorj-ponta-vrea-al-treilea-mandat-de-deputat-in-gorj-candideaza-si-fostul-sef-al-spitalului-universitar-10256132',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/parlamentare2024-ponta-cap-de-lista-la-camera-deputatilor-in-psd-dambovita-m-am-saturat-sa-fiu-fostul.html',
+      },
+    ],
+  },
+  {
+    name: 'Toni Greblă',
+    party: 'PSD',
+    position: 'Fost senator de Gorj; fost judecător la Curtea Constituțională',
+    position_type: 'senator',
+    geography: {
+      county: 'Gorj',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 20 Gorj.',
+    },
+    crime:
+      'Trafic de influență; efectuare de operațiuni financiare incompatibile; constituire de grup infracțional organizat; fals în declarații',
+    sentence: 'Achitat definitiv (2019)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în 2015. ÎCCJ l-a achitat definitiv în 2019 în dosarul privind acuzațiile de trafic de influență, fals în declarații și grup infracțional organizat.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6660',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/final-in-procesul-secretarului-general-al-guvernului-achitat-in-prima-instanta-toni-grebla-asteapta-decizia-finala-1151886',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=ACE143D7-7865-4D18-90F9-7B7135E59294',
+      },
+    ],
+  },
+  {
+    name: 'Theodor-Cătălin Nicolescu',
+    party: 'PNL',
+    position: 'Fost deputat de Argeș; fost vicepreședinte ANRP',
+    position_type: 'deputy',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Deputat ales în județul Argeș; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    sentence: '8 ani închisoare cu executare',
+    sentence_years: 8,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA l-a trimis în judecată în dosarul ANRP în 2015. În 2019, ÎCCJ l-a condamnat definitiv la 8 ani de închisoare pentru luare de mită; pentru acuzația de abuz în serviciu a fost achitat.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6190',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/verdicte-in-dosarul-anrp-horia-georgescu-si-ingrid-mocanu-achitati-definitiv-theodor-nicolescu-condamnat-la-8-ani-de-inchisoare-1197936',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/rezultate-alegeri-parlamentare-2012-arges-10380069',
+      },
+    ],
+  },
+  {
+    name: 'Sebastian Ghiță',
+    party: 'PSD',
+    position: 'Fost deputat de Prahova',
+    position_type: 'deputy',
+    geography: {
+      county: 'Prahova',
+      basis: 'constituency',
+      note: 'Deputat ales în Prahova; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Trafic de influență; instigare la fals în înscrisuri sub semnătură privată',
+    sentence: 'Dosar restituit definitiv la DNA în camera preliminară (2025)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA l-a trimis în judecată în 2022 în dosarul „Taxă pentru contracte IT”. În septembrie 2025, Curtea de Apel Ploiești a dispus definitiv restituirea cauzei la DNA, astfel că profilul este urmărit ca dosar aflat din nou în fază de anchetă/procedură prealabilă.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11536',
+      },
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/fugarul-sebastian-ghita-mai-scapa-de-un-dosar-cazul-taxa-pentru-contracte-it-a-fost-restituit-la-dna-decizia-este-definitiva-fostul-deputat-era-acuzat-ca-a-primit-comisioane-de.html',
+      },
+      {
+        label: 'Antena 3',
+        kind: 'press',
+        url: 'https://www.antena3.ro/politica/romania-tv-intra-in-parlament-omul-de-afaceri-sebastian-ghita-ales-deputat-de-prahova-195675.html',
+      },
+    ],
+  },
+  {
+    name: 'Markó Attila-Gábor',
+    party: 'UDMR',
+    position: 'Fost deputat de Covasna; fost subsecretar de stat',
+    position_type: 'deputy',
+    geography: {
+      county: 'Covasna',
+      basis: 'constituency',
+      note: 'Deputat ales în județul Covasna, colegiul Sfântu Gheorghe.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave',
+    sentence: '3 ani închisoare cu suspendarea condiționată a executării pedepsei',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea definitivă pronunțată de Curtea de Apel Ploiești la 26 noiembrie 2014 în dosarul retrocedării Colegiului „Székely Mikó” din Sfântu Gheorghe.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5666',
+      },
+      {
+        label: 'Mesagerul de Covasna',
+        kind: 'press',
+        url: 'https://mesageruldecovasna.ro/fostul-subsecretar-de-stat-marko-attila-a-castigat-mandatul-de-deputat-la-sfantu-gheorghe/',
+      },
+    ],
+  },
+  {
+    name: 'Călin Popescu-Tăriceanu',
+    party: 'PNL',
+    position: 'Fost prim-ministru al României; fost președinte al Senatului',
+    position_type: 'prime_minister',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 42 București; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Luare de mită',
+    sentence: 'Achitat definitiv (2025)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a pus în mișcare acțiunea penală în 2021 într-un dosar privind o presupusă mită de 800.000 USD. La 2 iunie 2025, ÎCCJ a respins apelul DNA și a menținut achitarea definitivă.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'G4Media',
+        kind: 'press',
+        url: 'https://www.g4media.ro/tariceanu-a-fost-trimis-in-judecata-de-dna-in-dosarul-mitei-de-800-000-de-dolari.html',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/amphtml/stiri/actualitate/justitie/fostul-premier-calin-popescu-tariceanu-achitat-definitiv-in-dosarul-in-care-a-fost-acuzat-ca-a-luat-mita-800-000-de-dolari-3267789',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/fisasenator.aspx?parlamentarid=522afea4-b00c-44ec-802f-be592c406a5c',
+      },
+    ],
+  },
+  {
+    name: 'Ludovic Orban',
+    party: 'PNL',
+    position: 'Fost prim-ministru al României; fost deputat de București',
+    position_type: 'prime_minister',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Dosarul privea campania pentru Primăria Capitalei; Orban a fost deputat ales în București în legislaturile relevante.',
+    },
+    crime: 'Folosirea influenței în scopul obținerii de foloase necuvenite',
+    sentence: 'Achitat definitiv (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în 2016, susținând că ar fi cerut bani pentru promovarea campaniei la Primăria Capitalei. ÎCCJ a respins apelul DNA și a menținut achitarea definitivă în martie 2018.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=e0d59a9b-6d02-46d1-a748-18a7a0b93cf1',
+      },
+      {
+        label: 'Rador',
+        kind: 'press',
+        url: 'https://www.rador.ro/2018/03/05/presedintele-pnl-ludovic-orban-a-fost-achitat-definitiv-de-inalta-curte-de-casatie-si-justitie/',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/documentare/2020/12/22/presedintele-pnl-ludovic-orban-ales-presedinte-al-camerei-deputatilor-fisa-biografica--631942',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Blaga',
+    party: 'PDL',
+    position: 'Fost senator; fost ministru al Internelor',
+    position_type: 'senator',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Pentru perioada faptelor anchetate, era senator ales în București; mandatul din 2024 este în Timiș.',
+    },
+    crime: 'Complicitate la trafic de influență',
+    sentence: 'Achitat definitiv (2022)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a acuzat că ar fi primit 700.000 euro în perioada 2011-2012, în legătură cu atribuirea unor contracte publice. ÎCCJ a menținut definitiv achitarea în iunie 2022.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2972FF7A-D452-4AAC-86BC-AF263DD5A32B',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/amphtml/stiri/actualitate/justitie/vasile-blaga-a-fost-achitat-definitiv-intr-un-dosar-de-trafic-de-influenta-1990383',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7882',
+      },
+    ],
+  },
+  {
+    name: 'Ion Ariton',
+    party: 'PDL',
+    position: 'Fost ministru al Economiei; fost senator de Sibiu',
+    position_type: 'minister',
+    geography: {
+      county: 'Sibiu',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 34 Sibiu; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Participație improprie la abuz în serviciu; folosirea influenței în scopul obținerii de foloase necuvenite',
+    sentence: 'Achitat definitiv (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'Trimis în judecată în dosarul „Gala Bute”, fiind acuzat că ar fi determinat companii din subordinea Ministerului Economiei să sponsorizeze evenimentul. Achitarea sa a rămas definitivă la ÎCCJ în iunie 2018.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=98D72C53-DA2E-44E8-8376-3A90C08E835B',
+      },
+      {
+        label: 'Turnul Sfatului',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2018/06/05/ariton-achitat-definitiv-dosarul-gala-bute-elena-udrea-primit-sase-ani-cu-executare-105904/',
+      },
+      {
+        label: 'Mesagerul de Sibiu',
+        kind: 'press',
+        url: 'https://mesageruldesibiu.ro/ariton-judecata/',
+      },
+    ],
+  },
+  {
+    name: 'Olosz Gergely',
+    party: 'UDMR',
+    position: 'Fost senator de Covasna; fost președinte ANRE',
+    position_type: 'senator',
+    geography: {
+      county: 'Covasna',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 15 Covasna.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a consemnat condamnarea definitivă pronunțată de ÎCCJ la 20 decembrie 2018, într-un dosar privind trafic de influență legat de contracte pentru firme private.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9241',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c2769f04-595a-4b7c-b1a4-5cc2a4e9ce93',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/fostul-senator-udmr-olosz-gergely-a-fost-condamnat-definitiv-la-3-ani-de-inchisoare-cu-executare-decizia-este-definitiva-17793375',
+      },
+    ],
+  },
+  {
+    name: 'Cristian Poteraș',
+    party: 'PDL',
+    position: 'Fost primar al Sectorului 6 București',
+    position_type: 'mayor',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al Sectorului 6 București.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '8 ani închisoare cu executare',
+    sentence_years: 8,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a consemnat condamnarea definitivă pronunțată de Curtea de Apel București în 2015, într-un dosar privind emiterea ilegală a unor titluri de proprietate pentru terenuri intravilane din București.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6348',
+      },
+      {
+        label: 'TVR Info',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/tribunalul-bucure-ti-fostul-primar-al-sectorului-6-cristian-poteras-eliberat-condi-ionat-decizia-este-definitiva_863000/',
+      },
+    ],
+  },
+  {
+    name: 'Cătălin Florin Teodorescu',
+    party: 'PDL',
+    position: 'Fost deputat de Argeș; fost membru în comisii ANRP',
+    position_type: 'deputy',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Deputat ales în județul Argeș; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Abuz în serviciu dacă funcționarul public a obținut un folos necuvenit pentru sine sau pentru altul',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată într-un dosar ANRP privind despăgubiri supraevaluate. Actualizarea DNA din 2024 consemnează achitarea definitivă dispusă de ÎCCJ prin decizia penală nr. 166/A din 27 aprilie 2023.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7596',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/rezultate-alegeri-parlamentare-2012-arges-10380069',
+      },
+    ],
+  },
+  {
+    name: 'Mircia Muntean',
+    party: 'PNL',
+    position: 'Fost primar al municipiului Deva; fost deputat de Hunedoara',
+    position_type: 'mayor',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al municipiului Deva.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: '4 ani închisoare cu suspendare',
+    sentence_years: 4,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Condamnat definitiv în 2013 pentru abuz în serviciu într-un dosar privind tranzacții ilegale cu terenuri. Ulterior, pedeapsa a fost contopită cu o condamnare pentru conducere sub influența alcoolului, rezultând o pedeapsă totală de 6 ani cu executare; fișa reține aici condamnarea de integritate publică.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'Portal Legislativ',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/179527',
+      },
+      {
+        label: 'Radio România Reșița',
+        kind: 'press',
+        url: 'https://www.radioresita.ro/actualitate/primar-condamnat-pentru-abuz-serviciu',
+      },
+      {
+        label: 'Rador',
+        kind: 'press',
+        url: 'https://www.rador.ro/2017/04/24/primarul-municipiului-deva-mircia-muntean-a-fost-condamnat-definitiv-la-6-ani-de-inchisoare/',
       },
     ],
   },
