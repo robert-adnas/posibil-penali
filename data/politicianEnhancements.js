@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-04-30',
+  last_updated: '2026-05-02',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -1312,11 +1312,6 @@ export const politicianOverrides = {
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5703',
       },
-      {
-        label: 'Brașov Metropolitan',
-        kind: 'press',
-        url: 'https://brasovmetropolitan.ro/2013/06/aristotel-cancescu-a-castigat-un-nou-mandat-de-presedinte-al-pnl-brasov/',
-      },
     ],
   },
   'Tudor Pendiuc': {
@@ -1797,15 +1792,26 @@ export const politicianAdditions = [
     party: 'UDMR',
     position: 'Senator; fost președinte ANRE',
     position_type: 'senator',
+    geography: {
+      county: 'Covasna',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 15 Covasna.',
+    },
     crime: 'Trafic de influență',
     sentence: '3 ani închisoare cu executare',
     sentence_years: 3,
     conviction_year: 2018,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'Condamnat definitiv de ÎCCJ în decembrie 2018 pentru trafic de influență, după ce procurorii au susținut că și-a folosit influența în favoarea unor firme interesate de contracte din energie.',
-    verified_at: '2026-03-21',
+      'DNA a consemnat condamnarea definitivă pronunțată de ÎCCJ la 20 decembrie 2018, într-un dosar privind trafic de influență legat de contracte pentru firme private.',
+    verified_at: '2026-04-30',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9241',
+      },
       {
         label: 'Senatul României',
         kind: 'official',
@@ -3025,7 +3031,7 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'Trimis \u00een judecat\u0103 de DNA la 18 decembrie 2025 \u00een dosarul privind presupuse mite de aproximativ 645.000 euro \u0219i sp\u0103lare de bani \u00een leg\u0103tur\u0103 cu emiterea unor documente urbanistice \u0219i alte demersuri administrative. Separat, \u00een dosarul mai vechi privind contractele de asisten\u021b\u0103 juridic\u0103 ale Prim\u0103riei Mangalia, Curtea de Apel Constan\u021ba a pronun\u021bat la 13 martie 2026 o solu\u021bie de achitare pe fond pentru Cristian Radu \u0219i ceilal\u021bi inculpa\u021bi; statusul general r\u0103m\u00e2ne totu\u0219i indicted din cauza cauzei distincte trimise \u00een judecat\u0103 de DNA \u00een decembrie 2025.',
+      'Trimis \u00een judecat\u0103 de DNA la 18 decembrie 2025 \u00een dosarul privind presupuse mite de aproximativ 645.000 euro \u0219i sp\u0103lare de bani \u00een leg\u0103tur\u0103 cu emiterea unor documente urbanistice \u0219i alte demersuri administrative.',
     verified_at: '2026-03-30',
     sources: [
       {
@@ -3042,11 +3048,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12105',
-      },
-      {
-        label: 'Ziua de Constan\u021ba',
-        kind: 'press',
-        url: 'https://www.ziuaconstanta.ro/stiri/justitie/achitare-pe-linie-cristian-radu-si-intreaga-conducere-a-primariei-mangalia-declarati-nevinovati-in-dosarul-dna-931035.html',
       },
     ],
   },
@@ -3724,7 +3725,7 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'După punerea în mișcare a acțiunii penale și controlul judiciar dispuse la 1 februarie 2024, DNA a extins acuzațiile la 30 iulie 2024 și l-a trimis în judecată la 9 decembrie 2024 în dosarul privind pretinse mite, trafic de influență și folosirea unor operațiuni financiare incompatibile cu funcția de președinte al Consiliului Județean Prahova. Potrivit relatărilor din 6 februarie 2026, dosarul se afla încă în camera preliminară la Curtea de Apel București, cu termen nou stabilit pentru 18 martie 2026.',
+      'După punerea în mișcare a acțiunii penale și controlul judiciar dispuse la 1 februarie 2024, DNA a extins acuzațiile la 30 iulie 2024 și l-a trimis în judecată la 9 decembrie 2024 în dosarul privind pretinse mite, trafic de influență și folosirea unor operațiuni financiare incompatibile cu funcția de președinte al Consiliului Județean Prahova.',
     verified_at: '2026-03-30',
     sources: [
       {
@@ -3736,11 +3737,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12647',
-      },
-      {
-        label: 'Ziarul Prahova',
-        kind: 'press',
-        url: 'https://ziarulprahova.ro/2026/02/o-noua-amanare-in-dosarul-privind-inceperea-procesului-lui-iulian-dumitrescu/',
       },
     ],
   },
@@ -3777,18 +3773,13 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Constanța a anunțat la 6 mai 2025 trimiterea în judecată a deputatei Mirela-Florența Matichescu în dosarul privind acordarea pretins nelegală și discriminatorie, în anul 2018, a unei finanțări nerambursabile pentru o asociație sportivă de fotbal, cu un prejudiciu indicat de 835.757,26 lei. La 3 decembrie 2025, Înalta Curte a constatat legalitatea sesizării instanței și a administrării probelor, permițând începerea judecății. Nu am identificat, până la 30 martie 2026, o soluție definitivă ulterioară.',
+      'DNA Constanța a anunțat la 6 mai 2025 trimiterea în judecată a deputatei Mirela-Florența Matichescu în dosarul privind acordarea pretins nelegală și discriminatorie, în anul 2018, a unei finanțări nerambursabile pentru o asociație sportivă de fotbal, cu un prejudiciu indicat de 835.757,26 lei.',
     verified_at: '2026-03-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12896',
-      },
-      {
-        label: 'Ziua de Constanța',
-        kind: 'press',
-        url: 'https://www.ziuaconstanta.ro/stiri/justitie/oficial-incepe-procesul-in-care-deputata-psd-constanta-mirela-matichescu-este-acuzata-de-abuz-in-serviciu-minuta-919994.html',
       },
     ],
   },
@@ -5006,11 +4997,6 @@ export const politicianAdditions = [
         label: 'Primăria Șuici',
         kind: 'official',
         url: 'https://primariasuici.ro/primaria/conducerea/',
-      },
-      {
-        label: 'Politikia',
-        kind: 'press',
-        url: 'https://politikia.ro/politica/psd-arges-constantin-iatagan-primar-suici-dintre-oameni-pentru-oameni/',
       },
     ],
   },
@@ -7269,43 +7255,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Olosz Gergely',
-    party: 'UDMR',
-    position: 'Fost senator de Covasna; fost președinte ANRE',
-    position_type: 'senator',
-    geography: {
-      county: 'Covasna',
-      basis: 'constituency',
-      note: 'Senator ales în Circumscripția electorală nr. 15 Covasna.',
-    },
-    crime: 'Trafic de influență',
-    sentence: '3 ani închisoare cu executare',
-    sentence_years: 3,
-    conviction_year: 2018,
-    status: 'convicted',
-    execution_type: 'Cu executare',
-    details:
-      'DNA a consemnat condamnarea definitivă pronunțată de ÎCCJ la 20 decembrie 2018, într-un dosar privind trafic de influență legat de contracte pentru firme private.',
-    verified_at: '2026-04-30',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=9241',
-      },
-      {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c2769f04-595a-4b7c-b1a4-5cc2a4e9ce93',
-      },
-      {
-        label: 'Mediafax',
-        kind: 'press',
-        url: 'https://www.mediafax.ro/politic/fostul-senator-udmr-olosz-gergely-a-fost-condamnat-definitiv-la-3-ani-de-inchisoare-cu-executare-decizia-este-definitiva-17793375',
-      },
-    ],
-  },
-  {
     name: 'Cristian Poteraș',
     party: 'PDL',
     position: 'Fost primar al Sectorului 6 București',
@@ -7369,39 +7318,255 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Mircia Muntean',
+    name: 'Paul Păcuraru',
     party: 'PNL',
-    position: 'Fost primar al municipiului Deva; fost deputat de Hunedoara',
-    position_type: 'mayor',
+    position: 'Fost ministru al Muncii; fost senator de Galați',
+    position_type: 'minister',
     geography: {
-      county: 'Hunedoara',
-      basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al municipiului Deva.',
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 18 Galați; se folosește circumscripția parlamentară.',
     },
-    crime: 'Abuz în serviciu',
-    sentence: '4 ani închisoare cu suspendare',
-    sentence_years: 4,
-    conviction_year: 2013,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
+    crime: 'Luare de mită',
+    sentence: 'Achitat definitiv (2011)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
     details:
-      'Condamnat definitiv în 2013 pentru abuz în serviciu într-un dosar privind tranzacții ilegale cu terenuri. Ulterior, pedeapsa a fost contopită cu o condamnare pentru conducere sub influența alcoolului, rezultând o pedeapsă totală de 6 ani cu executare; fișa reține aici condamnarea de integritate publică.',
+      'DNA l-a trimis în judecată în decembrie 2008 pentru luare de mită, în legătură cu numirea conducerii ITM Gorj și contracte ale unor companii energetice. ÎCCJ a dispus achitarea definitivă în decembrie 2011.',
     verified_at: '2026-04-30',
     sources: [
       {
-        label: 'Portal Legislativ',
+        label: 'DNA',
         kind: 'official',
-        url: 'https://legislatie.just.ro/Public/DetaliiDocument/179527',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1128',
       },
       {
-        label: 'Radio România Reșița',
-        kind: 'press',
-        url: 'https://www.radioresita.ro/actualitate/primar-condamnat-pentru-abuz-serviciu',
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2F4C69CA-7139-4E5B-A827-AB9E9518C362',
       },
       {
-        label: 'Rador',
+        label: 'Mediafax',
         kind: 'press',
-        url: 'https://www.rador.ro/2017/04/24/primarul-municipiului-deva-mircia-muntean-a-fost-condamnat-definitiv-la-6-ani-de-inchisoare/',
+        url: 'https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988',
+      },
+    ],
+  },
+  {
+    name: 'Dan Ilie Morega',
+    party: 'PNL',
+    position: 'Fost deputat de Gorj; fost lider PNL Gorj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Gorj',
+      basis: 'constituency',
+      note: 'Deputat ales în Gorj și lider politic județean; cazul privea companii energetice din Gorj.',
+    },
+    crime: 'Dare de mită',
+    sentence: 'Achitat definitiv (2011)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în decembrie 2008 pentru dare de mită, în același dosar cu Paul Păcuraru. ÎCCJ a respins recursul DNA și a menținut achitarea definitivă în decembrie 2011.',
+    verified_at: '2026-04-30',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1128',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/deputatul-dan-ilie-morega-a-fost-numit-sef-la-unpr-gorj-8876152',
+      },
+    ],
+  },
+  {
+    name: 'Ovidiu Ioan Silaghi',
+    party: 'PNL',
+    position: 'Fost ministru al Transporturilor; fost deputat de Satu Mare',
+    position_type: 'minister',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'constituency',
+      note: 'Deputat ales în Satu Mare și lider politic local; se folosește baza parlamentară și politică.',
+    },
+    crime: 'Trafic de influență',
+    sentence: 'Cauză clasată (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'DNA a cerut în 2013 urmărirea penală pentru trafic de influență, în legătură cu presupuse intervenții la CNADNR și suma de 200.000 euro. Actualizarea DNA din 23 mai 2018 consemnează clasarea cauzei, întrucât nu au rezultat probe că o persoană a săvârșit presupusele fapte penale.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4511',
+      },
+    ],
+  },
+  {
+    name: 'Sevil Shhaideh',
+    party: 'PSD',
+    position: 'Fost viceprim-ministru; fost ministru al Dezvoltării',
+    position_type: 'minister',
+    geography: {
+      county: 'Teleorman',
+      basis: 'case_location',
+      note: 'Dosarul Belina a vizat transferul unor bunuri către județul Teleorman; nu există o circumscripție parlamentară proprie mai relevantă.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitată definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a trimis-o în judecată în dosarul Belina pentru abuz în serviciu legat de transferul Insulei Belina și al Brațului Pavel către județul Teleorman. Curtea de Apel București a dispus achitarea definitivă în februarie 2023.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-ministru-al-dezvoltarii-sevil-shhaideh-a-fost-achitata-definitiv-pentru-acuzatiile-de-abuz-in-serviciu-in-dosarul-belina-id174136.html',
+      },
+    ],
+  },
+  {
+    name: 'Adrian Ionuț Gâdea',
+    party: 'PSD',
+    position: 'Fost președinte al Consiliului Județean Teleorman',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Teleorman.',
+    },
+    crime: 'Complicitate la abuz în serviciu; participație improprie la abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul Belina pentru acte legate de transferul și închirierea Insulei Belina și a Brațului Pavel. Curtea de Apel București a menținut achitarea și pentru Adrian Ionuț Gâdea în februarie 2023.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-ministru-al-dezvoltarii-sevil-shhaideh-a-fost-achitata-definitiv-pentru-acuzatiile-de-abuz-in-serviciu-in-dosarul-belina-id174136.html',
+      },
+    ],
+  },
+  {
+    name: 'Rovana Plumb',
+    party: 'PSD',
+    position: 'Fost ministru; fost deputat de Dâmbovița; fost europarlamentar',
+    position_type: 'minister',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'constituency',
+      note: 'Mandatele parlamentare relevante recente au fost obținute în Dâmbovița; se folosește circumscripția politică.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    sentence: 'Cauză clasată după respingerea cererii de urmărire penală',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'În dosarul Belina, DNA a solicitat încuviințarea urmăririi penale pentru Rovana Plumb, însă Camera Deputaților a respins cererea, iar DNA a consemnat clasarea față de aceasta.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/38595',
+      },
+      {
+        label: 'AGERPRES via Comisarul.ro',
+        kind: 'press',
+        url: 'https://www.comisarul.ro/articol/profil-de-parlamentar-rovana-plumb-deputat-psd-dam_862662.html',
+      },
+    ],
+  },
+  {
+    name: 'Adriean Videanu',
+    party: 'PDL',
+    position: 'Fost ministru al Economiei; fost primar general al Capitalei',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'A deținut funcția de primar general al municipiului București; pentru fișă se folosește funcția locală cea mai clară.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat; participație improprie la delapidare',
+    sentence: 'Achitat definitiv (2024)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'În dosarul Romgaz-Interagro, fostul ministru al Economiei Adriean Videanu a fost acuzat de DIICOT de constituire a unui grup infracțional organizat și participație improprie la delapidare. ÎCCJ a dispus achitarea definitivă în mai 2024.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'Primăria Municipiului București',
+        kind: 'official',
+        url: 'https://doc.pmb.ro/monitorul_oficial/2006/aug_2006/august_bis.pdf',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/ioan-niculae-si-adriean-videanu-au-fost-achitati-definitiv-de-iccj-id193730.html',
+      },
+    ],
+  },
+  {
+    name: 'Ana-Maria Pătru',
+    party: 'Independent',
+    position: 'Fost președinte al Autorității Electorale Permanente',
+    position_type: 'secretary_of_state',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția relevantă a fost la Autoritatea Electorală Permanentă, instituție centrală cu sediul în București.',
+    },
+    crime: 'Trafic de influență; spălare a banilor',
+    sentence: 'Achitată definitiv (2020)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a trimis-o în judecată în dosarul privind presupuse contracte AEP și sume totalizând 275.000 euro. Actualizarea oficială a DNA consemnează achitarea definitivă dispusă de Curtea de Apel București la 7 octombrie 2020.',
+    verified_at: '2026-05-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7939',
       },
     ],
   },
