@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-02',
+  last_updated: '2026-05-03',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -1453,11 +1453,6 @@ export const politicianOverrides = {
       {
         label: 'Parlamentul European',
         kind: 'official',
-        url: 'https://www.europarl.europa.eu/doceo/document/PV-10-2025-10-09_EN.html',
-      },
-      {
-        label: 'Parlamentul European',
-        kind: 'official',
         url: 'https://www.europarl.europa.eu/doceo/document/JURI-OJ-2026-03-23-1_EN.pdf',
       },
       {
@@ -2234,11 +2229,6 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6697',
-      },
-      {
-        label: 'Parlamentul European',
-        kind: 'official',
-        url: 'https://www.europarl.europa.eu/meps/en/197647/DAN-STEFAN_MOTREANU/cv',
       },
     ],
   },
@@ -7502,11 +7492,6 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
       },
       {
-        label: 'Parlamentul European',
-        kind: 'official',
-        url: 'https://www.europarl.europa.eu/meps/en/38595',
-      },
-      {
         label: 'AGERPRES via Comisarul.ro',
         kind: 'press',
         url: 'https://www.comisarul.ro/articol/profil-de-parlamentar-rovana-plumb-deputat-psd-dam_862662.html',
@@ -7567,6 +7552,388 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7939',
+      },
+    ],
+  },
+  {
+    name: 'Gabriel Oprea',
+    party: 'UNPR',
+    position: 'Fost viceprim-ministru; fost ministru al Afacerilor Interne; fost senator de București',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 42 București; dosarul DIPI a vizat exercitarea funcției de ministru de Interne.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în mai 2016 în dosarul DIPI, pentru abuz în serviciu privind folosirea fondurilor operative pentru achiziția unui autoturism destinat folosinței ministrului. Actualizarea DNA din 22 iunie 2023 consemnează achitarea definitivă, întrucât faptele nu sunt prevăzute de legea penală.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7383',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1985D876-858A-4060-B1AF-E8F78BFB7150',
+      },
+    ],
+  },
+  {
+    name: 'Florian Bodog',
+    party: 'PSD',
+    position: 'Fost ministru al Sănătății; fost senator de Bihor',
+    position_type: 'minister',
+    geography: {
+      county: 'Bihor',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 05 Bihor în mai multe legislaturi.',
+    },
+    crime: 'Abuz în serviciu; fals intelectual; fals în înscrisuri sub semnătură privată',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în august 2021 în dosarul privind presupusa angajare fictivă a unei consiliere la Ministerul Sănătății. Înalta Curte a dispus achitarea definitivă în februarie 2026.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10526',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0d1387b3-1962-4d1d-bf45-a580db37da50',
+      },
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/social/fostul-ministru-sanatatii-florian-bodog-achitat-definitiv-dosarul-trimis-judecata-abuz-serviciu-decizia-pronuntata-complet-cinci-judecatori-iccj-au-argumentele-instantei-1922403702002026021722332231',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Bănicioiu',
+    party: 'PSD',
+    position: 'Fost ministru al Sănătății; fost ministru al Tineretului și Sporturilor; fost deputat',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Dosarul DNA privea influență asupra conducerii unor spitale publice din București și Ilfov; se folosește București ca loc principal al cauzei și al instituțiilor centrale.',
+    },
+    crime: 'Trafic de influență; luare de mită',
+    sentence: 'Achitat definitiv (2025)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în decembrie 2021 pentru trafic de influență și luare de mită, în legătură cu presupuse sume primite de la oameni de afaceri care aveau contracte cu spitale publice. Actualizarea DNA din 28 ianuarie 2026 consemnează achitarea definitivă dispusă de ÎCCJ la 13 octombrie 2025.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10714',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2025/10/13/nicolae-banicioiu-achitat-definitiv-intr-un-dosar-de-coruptie-el-scapa-si-de-plata-sumei-de-1-3-mili--1493100',
+      },
+    ],
+  },
+  {
+    name: 'Iulian-Claudiu Manda',
+    party: 'PSD',
+    position: 'Europarlamentar; fost senator de Dolj; fost președinte PSD Dolj',
+    position_type: 'member_european_parliament',
+    geography: {
+      county: 'Dolj',
+      basis: 'political_base',
+      note: 'Dosarul DNA viza folosirea influenței ca președinte al organizației județene Dolj a unui partid; a fost și senator de Dolj.',
+    },
+    crime: 'Folosirea influenței ori autorității unei funcții de conducere într-un partid',
+    sentence: 'Proces încetat prin prescripție (2024)',
+    sentence_years: 0,
+    conviction_year: 2024,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în aprilie 2021 pentru folosirea influenței ca lider județean de partid în legătură cu AJPIS Dolj și beneficiari de ajutor social din Bratovoești. Actualizarea DNA din 27 mai 2024 consemnează încetarea definitivă a procesului penal ca urmare a prescripției.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10331',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=244DD5C3-8F96-4F23-8C7A-7B1C83A9A828',
+      },
+    ],
+  },
+  {
+    name: 'Cosmin Șandru',
+    party: 'PNL',
+    position: 'Fost deputat de Timiș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Timiș',
+      basis: 'constituency',
+      note: 'Deputat de Timiș; cauza DNA privea un presupus aranjament politic legat de votul la moțiunea de cenzură din 2021.',
+    },
+    crime: 'Dare de mită',
+    sentence: 'Achitat definitiv (2024)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în decembrie 2021 pentru dare de mită, într-un dosar privind presupusa promisiune de numiri în funcții publice pentru absența unui parlamentar de la votul unei moțiuni de cenzură. Actualizarea DNA din 21 februarie 2025 consemnează achitarea definitivă dispusă de ÎCCJ la 4 noiembrie 2024.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10743',
+      },
+      {
+        label: 'Radio România Timișoara',
+        kind: 'press',
+        url: 'https://www.radiotimisoara.ro/administratie-politica/politica/deputatul-de-timis-cosmin-sandru-urmarit-pentru-dare-de-mita-se-autosuspenda-din-pnl-270118.html',
+      },
+    ],
+  },
+  {
+    name: 'László Borbély',
+    party: 'UDMR',
+    position: 'Fost ministru al Mediului; fost deputat de Mureș',
+    position_type: 'minister',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Deputat UDMR ales în județul Mureș și lider politic județean; cazul DNA a fost legat de perioada mandatului de ministru.',
+    },
+    crime: 'Trafic de influență; fals în declarații de avere',
+    sentence: 'Cerere de urmărire penală respinsă de Parlament',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'DNA a sesizat în 2012 procedura pentru obținerea cererii necesare urmăririi penale față de László Borbély, fost ministru al Mediului, pentru trafic de influență și fals în declarații. Camera Deputaților a respins cererile de încuviințare, inclusiv solicitarea reluată în 2015, astfel că nu a existat trimitere în judecată.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=3116',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/politica/deputatii-resping-urmarirea-penala-pentru-doi-fosti-ministri-id39988.html',
+      },
+      {
+        label: 'Economica.net',
+        kind: 'press',
+        url: 'https://www.economica.net/camera-deputatilor-a-respins-cererea-de-incuviintare-a-inceperii-urmaririi-penale-a-lui-laszlo-borbely_97744.html',
+      },
+    ],
+  },
+  {
+    name: 'Petre Tobă',
+    party: 'Independent',
+    position: 'Fost ministru al Afacerilor Interne; fost șef al Poliției Române',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de ministru al Afacerilor Interne, instituție centrală cu sediul în București.',
+    },
+    crime: 'Favorizarea făptuitorului',
+    sentence: 'Cauză clasată (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'DNA a dispus în septembrie 2016 efectuarea urmăririi penale față de Petre Tobă, fost ministru al Afacerilor Interne, pentru favorizarea făptuitorului în legătură cu dosarul DIPI. În noiembrie 2018, DNA a comunicat clasarea cauzei, pe motiv că fapta nu există.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7679',
+      },
+      {
+        label: 'Realitatea.net',
+        kind: 'press',
+        url: 'https://www.realitatea.net/stiri/actual/de-ce-a-inchis-dna-dosarul-fostului-ministru-petre-toba_5dcc9272406af85273d757d5',
+      },
+    ],
+  },
+  {
+    name: 'Valeriu Zgonea',
+    party: 'PSD',
+    position: 'Fost președinte al Camerei Deputaților; fost deputat de Dolj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Dolj',
+      basis: 'constituency',
+      note: 'Deputat ales în Dolj; dosarul DNA a vizat perioada în care era președinte al Camerei Deputaților.',
+    },
+    crime: 'Trafic de influență',
+    sentence: 'Achitat definitiv (2022)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în ianuarie 2018 pentru trafic de influență, în legătură cu presupuse foloase de 62.143 lei și numirea unei persoane într-o funcție publică. Actualizarea DNA din 25 martie 2022 consemnează achitarea definitivă dispusă de Curtea de Apel București, întrucât fapta nu există.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8612',
+      },
+    ],
+  },
+  {
+    name: 'Mihnea Costoiu',
+    party: 'PSD',
+    position: 'Fost ministru delegat pentru Învățământ Superior; fost senator de Gorj',
+    position_type: 'minister',
+    geography: {
+      county: 'Gorj',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 20 Gorj; dosarul privea Baza Cutezătorii din București, dar baza parlamentară relevantă este Gorj.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: 'Proces încetat prin prescripție (2023)',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în martie 2018 în dosarul Baza Cutezătorii, privind semnarea unui act adițional la un contract de locațiune. Actualizarea DNA din 5 februarie 2024 consemnează încetarea definitivă a procesului penal prin prescripție și confiscarea sumei de 267.577 euro.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8745',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2CC51EF1-3996-49C4-834F-31AA6872DDF2',
+      },
+    ],
+  },
+  {
+    name: 'Lia Olguța Vasilescu',
+    party: 'PSD',
+    position: 'Primar al municipiului Craiova; fost ministru al Muncii',
+    position_type: 'mayor',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția locală principală este cea de primar al municipiului Craiova, județul Dolj.',
+    },
+    crime: 'Luare de mită; folosirea influenței; spălare a banilor',
+    sentence: 'Cauză clasată; dosar închis definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'DNA a dispus în 2016 punerea în mișcare a acțiunii penale și reținerea pentru acuzații legate de sponsorizări, campania electorală din 2012 și reabilitarea unor fațade din Craiova. După restituirea dosarului la DNA, presa locală a consemnat clasarea din 2020, iar în 2023 plângerile împotriva soluției de clasare au fost respinse definitiv.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7260',
+      },
+      {
+        label: 'Gazeta de Sud',
+        kind: 'press',
+        url: 'https://www.gds.ro/eveniment/2020-12-30/de-ce-a-clasat-dna-dosarul-de-coruptie-al-olgutei-vasilescu/',
+      },
+      {
+        label: 'Sursa Zilei',
+        kind: 'press',
+        url: 'https://www.sursazilei.ro/tribunalul-bucuresti-i-a-inchis-definitiv-dosarul-de-coruptie-al-primarului-craiovei-lia-olguta-vasilescu/',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Oltean',
+    party: 'PDL',
+    position: 'Fost deputat de Bistrița-Năsăud; fost lider PDL',
+    position_type: 'deputy',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'political_base',
+      note: 'A fost lider al organizației județene Bistrița-Năsăud și deputat cu bază politică în acest județ.',
+    },
+    crime: 'Trafic de influență; complicitate la abuz în serviciu',
+    sentence: 'Cauză închisă după restituirea dosarului la DNA',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'DNA l-a vizat în dosare privind folosirea influenței politice și despăgubiri ANRP. În dosarul ANRP, cauza a fost restituită definitiv la DNA în 2017 pentru neregularitatea rechizitoriului, iar presa a relatat ulterior că dosarul lui Ioan Oltean a fost închis prin clasare.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6898',
+      },
+      {
+        label: 'Jurnalul',
+        kind: 'press',
+        url: 'https://jurnalul.ro/stiri/justitie/iccj-unul-dintre-dosarele-anrp-in-care-este-inculpat-ioan-oltean-restituit-definitiv-la-dna-737451.html',
+      },
+      {
+        label: 'Gândul',
+        kind: 'press',
+        url: 'https://www.gandul.ro/actualitate/achitat-definitiv-fostul-deputat-ioan-oltean-acuza-dna-de-tortura-psihica-si-cere-statului-roman-despagubiri-de-400-000-e-20157994',
+      },
+    ],
+  },
+  {
+    name: 'Mihai Tănăsescu',
+    party: 'PSD',
+    position: 'Fost ministru al Finanțelor Publice',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de ministru al Finanțelor Publice, instituție centrală cu sediul în București.',
+    },
+    crime: 'Abuz în serviciu; luare de mită; trafic de influență; spălare a banilor',
+    sentence: 'Cauză clasată (2018)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    details:
+      'În dosarul Microsoft, DNA a cerut în 2014 începerea urmăririi penale față de Mihai Tănăsescu, fost ministru al Finanțelor. Comunicatul DNA din 2018 consemnează soluții de clasare pentru acuzațiile de luare de mită și spălare a banilor reținute în legătură cu acest dosar.',
+    verified_at: '2026-05-03',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
       },
     ],
   },
