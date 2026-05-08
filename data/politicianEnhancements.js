@@ -1722,6 +1722,289 @@ export const politicianOverrides = {
       },
     ],
   },
+  'Tarbă Mihai Gheorghe': {
+    party: 'PSD',
+    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015,
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-dragoslavele-arges.html',
+      },
+    ],
+  },
+  'Ciobanu Marcel': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-uda-arges.html',
+      },
+    ],
+  },
+  'Șerban Niculae': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-maracineni-arges.html',
+      },
+    ],
+  },
+  'Smădu Nicolae': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-domnesti-arges.html',
+      },
+    ],
+  },
+  'Diaconu Nicolae': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-curtea_de_arges-arges.html',
+      },
+    ],
+  },
+  'Dumitrescu Mihail': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Biroul Electoral Central',
+        kind: 'official',
+        url: 'https://www.scribd.com/document/710717305/Alegeri-locale-2008',
+      },
+    ],
+  },
+  'Popa Iulian': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Observatorul Prahovean',
+        kind: 'press',
+        url: 'https://www.observatorulph.ro/alegeri-locale-2012/14976-alegeri-locale-2012-prahova-lista-candidailor-confirmai-de-partide',
+      },
+    ],
+  },
+  'Manole Vasile': {
+    party: 'PNȚCD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Biroul Electoral Central',
+        kind: 'official',
+        url: 'https://www.scribd.com/document/710717305/Alegeri-locale-2008',
+      },
+    ],
+  },
+  'Niculae Florin': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Protecția Animalelor',
+        kind: 'profile',
+        url: 'https://www.protectiaanimalelor.org/primari/scrie-primarului-comunei-vidra-jud-ilfov/',
+      },
+    ],
+  },
+  'Georgescu Liviu': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'România Liberă',
+        kind: 'press',
+        url: 'https://romanialibera.ro/special/rl-investigatii/primarul-care-a-furat-10-400-de-lei-de-la-copii--condamnat-la-doi-ani-si-opt-luni-inchisoare-485636/',
+      },
+    ],
+  },
+  'Nicolae Ilie': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Știri de Buzău',
+        kind: 'press',
+        url: 'https://stiridebuzau.ro/fostul-primar-din-cochirleanca-ilie-nicolae-a-fost-trimis-in-judecata-de-dna-pentru-o-frauda-de-358-498-de-lei/',
+      },
+    ],
+  },
+  'Haneș Gheorghe': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-gogosu-mehedinti.html',
+      },
+    ],
+  },
+  'Baciu Vasile': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-horia-neamt.html',
+      },
+    ],
+  },
+  'Pârvulescu Constantin': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Edupedu',
+        kind: 'press',
+        url: 'https://www.edupedu.ro/candidatura-de-la-titularizare-a-unui-profesor-de-educatie-fizica-invalidata-pentru-ca-fusese-condamnat-in-2012-la-7-ani-de-inchisoare-dupa-ce-a-fost-declarat-incompatibil-de-inspectoratul-scolar-gorj/',
+      },
+    ],
+  },
+  'Preda Vasile': {
+    party: 'PNL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-varasti-giurgiu.html',
+      },
+    ],
+  },
+  'Hada Ovidiu-Marius': {
+    party: 'PNL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/primarul-hunedoarei-sustine-ca-este-nevinovat-in-noul-dosar-in-care-a-fost-trimis-in-judecata-9789814',
+      },
+    ],
+  },
+  'Slabu Otonel': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-popricani-iasi.html',
+      },
+    ],
+  },
+  'Botezatu Gelu': {
+    party: 'PSD',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    execution_type: null,
+    details:
+      'Radio Iași a publicat un update potrivit căruia, prin hotărârea nr. 318 din 29 aprilie 2026, Înalta Curte de Casație și Justiție a admis recursul în casație și a dispus achitarea definitivă în dosarul privind fonduri europene.',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Radio Iași',
+        kind: 'press',
+        url: 'https://www.radioiasi.ro/stiri/regional/update-bacau-achitare-definitiva-la-inalta-curte-de-casatie-si-justitie-fostul-viceprimar-din-barsanesti-gelu-botezatu-exonerat-de-acuzatiile-privind-fonduri-europene/',
+      },
+    ],
+  },
+  'Dunărințu Ionel Rafael': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Stiripesurse.ro',
+        kind: 'press',
+        url: 'https://www.stiripesurse.ro/primar-trimis-in-judecata-pentru-fapte-de-coruptie_1142079.html',
+      },
+    ],
+  },
+  'Leonte Ioan': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-gorban-iasi.html',
+      },
+    ],
+  },
+  'Gherghișan Sterian': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-vacareni-tulcea.html',
+      },
+    ],
+  },
+  'Corleciuc Ovidiu': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Știri Botoșani',
+        kind: 'press',
+        url: 'https://stiri.botosani.ro/stiri/actualitate/primarul-psd-care-a-facut-o-avere-cu-pasunea-comunala-din-vorniceni.html',
+      },
+    ],
+  },
+  'Kis Hajnalka': {
+    party: 'PDL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Biroul Electoral Central',
+        kind: 'official',
+        url: 'https://www.scribd.com/document/710717305/Alegeri-locale-2008',
+      },
+    ],
+  },
+  'Gliga Daniel-Gabriel': {
+    party: 'PNL',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Punctul',
+        kind: 'press',
+        url: 'https://www.punctul.ro/daniel-gliga-pnl-vrea-sa-schimbe-viitorul-reghinului/',
+      },
+    ],
+  },
+  'Iuhas Viorel': {
+    party: 'PSD',
+    verified_at: '2026-05-08',
+    sources: [
+      {
+        label: 'Bihoreanul',
+        kind: 'press',
+        url: 'https://www.ebihoreanul.ro/stiri/fostul-viceprimar-din-beius-bagat-in-inchisoare-119946.html',
+      },
+    ],
+  },
 };
 
 export const politicianAdditions = [
