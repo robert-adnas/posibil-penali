@@ -17,10 +17,10 @@ Prezumția de nevinovăție se aplică tuturor persoanelor fără condamnare def
 - Durata pedepsei, acolo unde există condamnare
 - Surse oficiale sau jurnalistice verificabile pentru fiecare caz
 
-JudeÈ›ul afiÈ™at nu Ã®nseamnÄƒ automat localitatea de origine. Este o legÄƒturÄƒ geograficÄƒ
-relevantÄƒ public, stabilitÄƒ editorial prin reguli precum funcÈ›ia exercitatÄƒ Ã®n judeÈ›,
-circumscripÈ›ia reprezentatÄƒ, baza politicÄƒ localÄƒ clarÄƒ sau, doar ca ultimÄƒ rezervÄƒ,
-originea publicÄƒ.
+Județul afișat nu înseamnă automat localitatea de origine. Este o legătură geografică
+relevantă public, stabilită editorial prin reguli precum funcția exercitată în județ,
+circumscripția reprezentată, baza politică locală clară sau, doar ca ultimă rezervă,
+originea publică.
 
 ## Surse
 
