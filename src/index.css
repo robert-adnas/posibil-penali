@@ -698,6 +698,76 @@ button {
   font-variant-numeric: tabular-nums;
 }
 
+.hemicycle-drill-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-rule-light);
+}
+
+.hemicycle-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-ink-muted);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.hemicycle-back-btn:hover,
+.hemicycle-back-btn:focus-visible {
+  color: var(--color-ink);
+  border-color: var(--color-ink-muted);
+  background: var(--color-rule-light);
+  outline: none;
+}
+
+.hemicycle-drill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--color-ink);
+}
+
+.hemicycle-drill-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: var(--party-color, var(--color-ink-faint));
+}
+
+.hemicycle-drill-name {
+  font-weight: 600;
+}
+
+.hemicycle-drill-count {
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.hemicycle-party-label:focus-visible {
+  outline: none;
+}
+
+.party-bubble-node:focus-visible {
+  outline: none;
+}
+
 .visualization-panel {
   display: flex;
   flex-direction: column;
