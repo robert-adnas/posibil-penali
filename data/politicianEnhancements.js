@@ -4896,7 +4896,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Costel Zamfir',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Bradu, județul Argeș',
     position_type: 'mayor',
     crime: 'Abuz în serviciu; fals intelectual; uz de fals',
@@ -4905,8 +4905,8 @@ export const politicianAdditions = [
     conviction_year: 2014,
     status: 'convicted',
     details:
-      'ÎCCJ l-a condamnat definitiv la 22 ianuarie 2014 la 5 ani de închisoare în dosarul retrocedărilor ilegale de terenuri de la Bradu. Ulterior, DNA Pitești l-a trimis din nou în judecată în ianuarie 2019 într-un dosar separat privind alte 161 de acte materiale de abuz în serviciu legate de fond funciar; am păstrat statutul general de convicted deoarece condamnarea definitivă din 2014 este mai puternică decât stadiul ulterior al noii cauze. L-am trecut la Independent deoarece nu am confirmat din surse suficient de solide afilierea sa politică exactă din perioada mandatului.',
-    verified_at: '2026-04-09',
+      'ÎCCJ l-a condamnat definitiv la 22 ianuarie 2014 la 5 ani de închisoare în dosarul retrocedărilor ilegale de terenuri de la Bradu. Ulterior, DNA Pitești l-a trimis din nou în judecată în ianuarie 2019 într-un dosar separat privind alte 161 de acte materiale de abuz în serviciu legate de fond funciar; am păstrat statutul general de convicted deoarece condamnarea definitivă din 2014 este mai puternică decât stadiul ulterior al noii cauze. Presa îl identifică drept fost primar PSD al comunei Bradu, afiliere folosită pentru perioada mandatului.',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
@@ -4922,6 +4922,11 @@ export const politicianAdditions = [
         label: 'Curierul Zilei',
         kind: 'press',
         url: 'https://curier.ro/2022/07/08/primarul-zamfir-9-ani-de-inchisoare/',
+      },
+      {
+        label: 'Curentul',
+        kind: 'press',
+        url: 'https://curentul.info/actualitate/argesul-lui-pendiuc-la-mana-dna-ului/',
       },
     ],
   },
@@ -9076,7 +9081,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Dan Nicolae Robert',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost viceprimar al municipiului Hunedoara',
     position_type: 'local_official',
     geography: {
@@ -9092,12 +9097,17 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'ICCJ l-a condamnat definitiv la 7 mai 2015, alături de alți inculpați din administrația municipiului Hunedoara, pentru abuz în serviciu și complicitate la conflict de interese.',
-    verified_at: '2026-05-06',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6295',
+      },
+      {
+        label: 'Curentul',
+        kind: 'press',
+        url: 'https://www.curentul.info/actualitate/fostul-primar-al-hunedoarei-ovidius-hada-a-fost-condamnat-la-cinci-ani-de-inchisoare-cu-executare/',
       },
     ],
   },
@@ -9292,7 +9302,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Băiculescu Vasile',
-    party: 'Independent',
+    party: 'Partida Romilor Pro-Europa',
     position: 'Primar al comunei Brăhășești, județul Galați',
     position_type: 'mayor',
     geography: {
@@ -9308,12 +9318,17 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Curtea de Apel Galați l-a condamnat definitiv la 9 martie 2016 pentru două infracțiuni de luare de mită, una în formă continuată, în legătură cu funcția de primar al comunei Brăhășești.',
-    verified_at: '2026-05-07',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7293',
+      },
+      {
+        label: 'România Liberă',
+        kind: 'press',
+        url: 'https://romanialibera.ro/special/pnl-si-pd-l-au-castigat-jumatate-din-fieful-psd-127509/',
       },
     ],
   },
@@ -9373,7 +9388,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Lupei Constantin',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Consilier local al comunei Gorban, județul Iași',
     position_type: 'local_official',
     geography: {
@@ -9389,12 +9404,17 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 14 decembrie 2018 pentru fapte legate de obținerea pe nedrept de fonduri europene și fals intelectual.',
-    verified_at: '2026-05-07',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
+      },
+      {
+        label: 'Ziarul de Iași',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/patronul-vascar-executat-pentru-un-tun-imobiliar-la-gorban--174166.html',
       },
     ],
   },
@@ -9562,7 +9582,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Lucaș Laurian Iulian',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost viceprimar și consilier local al municipiului Bacău',
     position_type: 'local_official',
     geography: {
@@ -9578,12 +9598,17 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 6 noiembrie 2014 pentru complicitate la luare de mită în formă continuată, în legătură cu activitatea din administrația municipiului Bacău.',
-    verified_at: '2026-05-08',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5543',
+      },
+      {
+        label: 'Ziarul de Bacău',
+        kind: 'press',
+        url: 'https://ziaruldebacau.ro/furtuna-pentru-unii-picatura-pentru-dumnezeu/',
       },
     ],
   },
@@ -9832,7 +9857,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Anculia Romică Pavel',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Director al APIA Caraș-Severin',
     position_type: 'local_official',
     geography: {
@@ -9848,18 +9873,23 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 ianuarie 2015 pentru complicitate la luare de mită, trafic de influență și instigare la fals în înscrisuri sub semnătură privată, toate în formă continuată.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5957',
       },
+      {
+        label: 'România Curată',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/cercetat-de-dna-seful-apia-caras-severin-a-demisionat-din-pdl/',
+      },
     ],
   },
   {
     name: 'Ghiță Valentin',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Socol, județul Caraș-Severin',
     position_type: 'mayor',
     geography: {
@@ -9875,18 +9905,23 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 ianuarie 2015 pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5957',
       },
+      {
+        label: 'Jurnalul',
+        kind: 'press',
+        url: 'https://jurnalul.ro/stiri/observator/primarii-din-socol-si-otelu-rosu-au-fost-retinuti-de-procurorii-dna-timisoara-pentru-luare-de-mita-624374.html',
+      },
     ],
   },
   {
     name: 'Iancu Simion Simi',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al orașului Oțelu Roșu, județul Caraș-Severin',
     position_type: 'mayor',
     geography: {
@@ -9902,18 +9937,23 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 ianuarie 2015 pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5957',
       },
+      {
+        label: 'Jurnalul',
+        kind: 'press',
+        url: 'https://jurnalul.ro/stiri/observator/primarii-din-socol-si-otelu-rosu-au-fost-retinuti-de-procurorii-dna-timisoara-pentru-luare-de-mita-624374.html',
+      },
     ],
   },
   {
     name: 'Chiriță Viorel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei I.C. Brătianu, județul Tulcea',
     position_type: 'mayor',
     geography: {
@@ -9929,12 +9969,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Constanța l-a condamnat definitiv la 2 decembrie 2015 pentru conflict de interese, cu suspendarea condiționată a executării pedepsei.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7019',
+      },
+      {
+        label: 'Enciclopedia Primăriilor',
+        kind: 'press',
+        url: 'https://www.enciclopedia.biz/ro/2529_primaria-ic-bratianu_tulcea.html',
       },
     ],
   },
@@ -10183,7 +10228,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Mitrofan Mihai',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Arsura, județul Vaslui',
     position_type: 'mayor',
     geography: {
@@ -10199,12 +10244,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Iași l-a condamnat definitiv la 20 martie 2020 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9804',
+      },
+      {
+        label: 'România Liberă',
+        kind: 'press',
+        url: 'https://romanialibera.ro/special/pesedistul-mitrofan-din-arsura--ajuns-edil-datorita-votului-unui-liberal-262131/',
       },
     ],
   },
@@ -10291,7 +10341,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Buciumeanu Ilie',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Tărtășești, județul Dâmbovița',
     position_type: 'mayor',
     geography: {
@@ -10307,18 +10357,23 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 2 octombrie 2020 pentru complicitate la abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-10',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10059',
       },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/tartasesti-trotuare-ca-n-povesti-835265',
+      },
     ],
   },
   {
     name: 'Urdea Iustin Nicolae',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Primar al comunei Limanu, județul Constanța',
     position_type: 'mayor',
     geography: {
@@ -10336,6 +10391,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
+      },
+      {
+        label: 'Ziua de Constanța',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/politic/dosarul-primarului-pnl-urdea-si-al-secretarului-voicu-din-limanu-in-apel-la-curtea-de-apel-constanta-811796.html',
       },
     ],
   },
@@ -10364,7 +10424,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Hurdugaci Emanoil',
-    party: 'Independent',
+    party: 'PRM',
     position: 'Primar al comunei Chiheru de Jos, județul Mureș',
     position_type: 'mayor',
     geography: {
@@ -10383,11 +10443,16 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
       },
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2011/11/21/primarul-prm-din-chiheru-de-jos-vrea-sa-retraga-comuna-din-parcul-national-defileul-muresului/',
+      },
     ],
   },
   {
     name: 'Bîlea Constantin',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Oarja, județul Argeș',
     position_type: 'mayor',
     geography: {
@@ -10408,6 +10473,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+      },
+      {
+        label: 'Argeș Plus',
+        kind: 'press',
+        url: 'https://argesplus.ro/pdl-arges-si-a-ales-noua-conducere/',
       },
     ],
   },
@@ -10439,7 +10509,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gherghescu Lucian',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Viceprimar al comunei Oarja, județul Argeș',
     position_type: 'local_official',
     geography: {
@@ -10460,6 +10530,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+      },
+      {
+        label: 'Ziar Obiectiv',
+        kind: 'press',
+        url: 'https://ziarobiectiv.ro/migratia-primarilor-argeseni-schimbarile-politice-in-administratia-publica-din-arges-dupa-aplicarea-oug-552014/',
       },
     ],
   },
@@ -10534,7 +10609,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sterea Costică',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Tansa, județul Iași',
     position_type: 'mayor',
     geography: {
@@ -10552,6 +10627,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+      {
+        label: 'Revista 22',
+        kind: 'press',
+        url: 'https://revista22.ro/actualitate-interna/procurorii-dna-iasi-au-trimis-in-judecata-8-persoane-acuzate-de-coruptie',
       },
     ],
   },
@@ -10580,7 +10660,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Buculei Doina',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Plugari, județul Iași',
     position_type: 'mayor',
     geography: {
@@ -10598,6 +10678,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+      {
+        label: 'Primăria Plugari',
+        kind: 'official',
+        url: 'https://primariaplugari.ro/assets/hotarari/2023/STATUTUL-COMUNEI-PLUGARI.pdf',
       },
     ],
   },
@@ -10672,7 +10757,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Coțofanu Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Șipote, județul Iași',
     position_type: 'mayor',
     geography: {
@@ -10690,6 +10775,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3520',
+      },
+      {
+        label: 'Jurnal Virtual',
+        kind: 'press',
+        url: 'https://jurnalvirtual.ro/2010/10/06/lista-delegatilor-pesedisti-ieseni-la-congresul-de-la-bucuresti/',
       },
     ],
   },

@@ -38,6 +38,7 @@ const KNOWN_PARTIES = [
   'Bucure\u0219ti 2020',
   'Independent',
   'Rom\u00e2nia Socialist\u0103',
+  'Partida Romilor Pro-Europa',
   'Partidul pentru Odorheiu Secuiesc',
 ];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];
