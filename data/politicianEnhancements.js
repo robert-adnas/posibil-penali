@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-09',
+  last_updated: '2026-05-10',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -10313,6 +10313,429 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10059',
+      },
+    ],
+  },
+  {
+    name: 'Urdea Iustin Nicolae',
+    party: 'Independent',
+    position: 'Primar al comunei Limanu, județul Constanța',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Limanu, județul Constanța.',
+    },
+    crime: 'Abuz în serviciu; fraudă cu fonduri europene',
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul proiectului PHARE de la Limanu, iar actualizarea oficială din 17 aprilie 2024 consemnează achitarea definitivă dispusă de Curtea de Apel Constanța.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
+      },
+    ],
+  },
+  {
+    name: 'Voicu Bogdan',
+    party: 'Independent',
+    position: 'Secretar al Primăriei comunei Limanu, județul Constanța',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de secretar al Primăriei comunei Limanu, județul Constanța.',
+    },
+    crime: 'Complicitate la abuz în serviciu; complicitate la fraudă cu fonduri europene',
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul proiectului PHARE de la Limanu, iar actualizarea oficială din 17 aprilie 2024 consemnează achitarea definitivă dispusă de Curtea de Apel Constanța.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
+      },
+    ],
+  },
+  {
+    name: 'Hurdugaci Emanoil',
+    party: 'Independent',
+    position: 'Primar al comunei Chiheru de Jos, județul Mureș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Chiheru de Jos, județul Mureș.',
+    },
+    crime: 'Instigare la fraudă cu fonduri europene; obținere ilegală de fonduri; spălare a banilor',
+    status: 'indicted',
+    details:
+      'DNA Târgu Mureș a dispus trimiterea sa în judecată pentru acuzații legate de obținerea pe nedrept de fonduri europene, obținere ilegală de fonduri și spălare a banilor.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
+      },
+    ],
+  },
+  {
+    name: 'Bîlea Constantin',
+    party: 'Independent',
+    position: 'Primar al comunei Oarja, județul Argeș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Oarja, județul Argeș.',
+    },
+    crime: 'Abuz în serviciu; complicitate la fals',
+    sentence: 'Proces încetat prin prescripție',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    details:
+      'DNA Pitești l-a trimis în judecată în dosarul achizițiilor din comuna Oarja, iar actualizarea oficială din 15 aprilie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+      },
+    ],
+  },
+  {
+    name: 'Sima Iulia Mihaela',
+    party: 'Independent',
+    position: 'Director al Școlii Gimnaziale Dumitru Rădulescu Oarja, județul Argeș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de director al școlii gimnaziale din comuna Oarja, județul Argeș.',
+    },
+    crime: 'Abuz în serviciu; complicitate la fals',
+    sentence: 'Proces încetat prin prescripție',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    details:
+      'DNA Pitești a trimis-o în judecată în dosarul achizițiilor din comuna Oarja, iar actualizarea oficială din 15 aprilie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+      },
+    ],
+  },
+  {
+    name: 'Gherghescu Lucian',
+    party: 'Independent',
+    position: 'Viceprimar al comunei Oarja, județul Argeș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de viceprimar al comunei Oarja, județul Argeș.',
+    },
+    crime: 'Complicitate la abuz în serviciu; fals intelectual; uz de fals',
+    sentence: 'Proces încetat prin prescripție',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    details:
+      'DNA Pitești l-a trimis în judecată în dosarul achizițiilor din comuna Oarja, iar actualizarea oficială din 15 aprilie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+      },
+    ],
+  },
+  {
+    name: 'Vereș Mihail',
+    party: 'Independent',
+    position: 'Secretar al comunei Zagra, județul Bistrița-Năsăud',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de secretar al comunei Zagra, județul Bistrița-Năsăud.',
+    },
+    crime: 'Fraudă cu fonduri europene; instigare la fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Cluj a dispus trimiterea sa în judecată pentru folosirea de documente nereale în relația cu APIA și instigare la fals intelectual.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9216',
+      },
+    ],
+  },
+  {
+    name: 'Bălăi Ovidiu Lazăr',
+    party: 'Independent',
+    position: 'Agent agricol în Primăria comunei Zagra, județul Bistrița-Năsăud',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de agent agricol în Primăria comunei Zagra, județul Bistrița-Năsăud.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Cluj a dispus trimiterea sa în judecată pentru complicitate la folosirea de documente nereale în relația cu APIA și fals intelectual.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9216',
+      },
+    ],
+  },
+  {
+    name: 'Căluian Cristina',
+    party: 'Independent',
+    position: 'Secretar al Primăriei comunei Mircea Vodă, județul Constanța',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de secretar al Primăriei comunei Mircea Vodă, județul Constanța.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; fals material',
+    status: 'indicted',
+    details:
+      'DNA Constanța a dispus trimiterea sa în judecată pentru complicitate la tentativă de fraudă cu fonduri europene și fals material în înscrisuri oficiale.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Sterea Costică',
+    party: 'Independent',
+    position: 'Primar al comunei Tansa, județul Iași',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Tansa, județul Iași.',
+    },
+    crime: 'Fraudă cu fonduri europene; înșelăciune',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată pentru acuzații legate de folosirea de documente false în proiectul de alimentare cu apă din comuna Tansa.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Panainte Vasile',
+    party: 'Independent',
+    position: 'Secretar al Consiliului Local Tansa, județul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de secretar al Consiliului Local Tansa, județul Iași.',
+    },
+    crime: 'Fraudă cu fonduri europene; înșelăciune',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată pentru acuzații legate de folosirea de documente false în proiectul de alimentare cu apă din comuna Tansa.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Buculei Doina',
+    party: 'Independent',
+    position: 'Fost primar al comunei Plugari, județul Iași',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Plugari, județul Iași.',
+    },
+    crime: 'Fraudă cu fonduri europene; înșelăciune',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată pentru folosirea de documente false sau inexacte în vederea obținerii de fonduri europene și înșelăciune.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Șerb Gheorghe',
+    party: 'Independent',
+    position: 'Primar al comunei Laslea, județul Sibiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Laslea, județul Sibiu.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Jeleriu Gheorghe',
+    party: 'Independent',
+    position: 'Viceprimar al comunei Laslea, județul Sibiu',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de viceprimar al comunei Laslea, județul Sibiu.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Dudaș Lucian Marius',
+    party: 'Independent',
+    position: 'Secretar al Primăriei comunei Laslea, județul Sibiu',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de secretar al Primăriei comunei Laslea, județul Sibiu.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+    ],
+  },
+  {
+    name: 'Coțofanu Constantin',
+    party: 'Independent',
+    position: 'Fost primar al comunei Șipote, județul Iași',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de primar al comunei Șipote, județul Iași.',
+    },
+    crime: 'Fraudă cu fonduri europene; înșelăciune; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată pentru acuzații legate de documente false folosite într-un proiect de consolidare și modernizare din comuna Șipote.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3520',
+      },
+    ],
+  },
+  {
+    name: 'Ciobanu Maria',
+    party: 'Independent',
+    position: 'Contabil șef în Primăria comunei Șipote, județul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de contabil șef în Primăria comunei Șipote, județul Iași.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la fals',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată ca membru al comisiei de recepție în dosarul proiectului din comuna Șipote.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3520',
+      },
+    ],
+  },
+  {
+    name: 'Sufragiu Maria',
+    party: 'Independent',
+    position: 'Tehnician constructor în Primăria comunei Șipote, județul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția relevantă a fost cea de tehnician constructor în Primăria comunei Șipote, județul Iași.',
+    },
+    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la fals',
+    status: 'indicted',
+    details:
+      'DNA Iași a dispus trimiterea sa în judecată ca membru al comisiei de recepție în dosarul proiectului din comuna Șipote.',
+    verified_at: '2026-05-10',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3520',
       },
     ],
   },
