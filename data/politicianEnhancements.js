@@ -11371,6 +11371,511 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'R\u00e2mbu Cosmina',
+    party: 'Independent',
+    position:
+      'Consilier \u00een Direc\u021bia Proiecte \u0219i Dezvoltare Durabil\u0103 din cadrul Consiliului Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost \u00een cadrul Consiliului Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: '\u021aoptea Oana Elena',
+    party: 'Independent',
+    position:
+      'Consilier \u00een Direc\u021bia Proiecte \u0219i Dezvoltare Durabil\u0103 din cadrul Consiliului Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost \u00een cadrul Consiliului Jude\u021bean Ia\u0219i; DNA o men\u021bioneaz\u0103 ca \u021aoptea, fost\u0103 Hanganu.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Ra\u021b\u0103-H\u0103p\u0103le\u021b Irina Mihaela',
+    party: 'Independent',
+    position:
+      'Consilier \u00een Direc\u021bia Proiecte \u0219i Dezvoltare Durabil\u0103 din cadrul Consiliului Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost \u00een cadrul Consiliului Jude\u021bean Ia\u0219i, ca membru al comisiei de recep\u021bie.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Ilie Neculai',
+    party: 'Independent',
+    position: 'Reprezentant al SC Laser Co SRL',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'case_location',
+      note:
+        'Dosarul prive\u0219te contractul de servicii \u00eencheiat cu Consiliul Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Complicitate la fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Chiril\u0103 Victor',
+    party: 'Independent',
+    position: 'Fost vicepre\u0219edinte al Consiliului Jude\u021bean Ia\u0219i; consilier jude\u021bean',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de vicepre\u0219edinte \u0219i consilier jude\u021bean \u00een Consiliul Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Complicitate la abuz \u00een serviciu; complicitate la fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'C\u0103u\u0219 Lumini\u021ba',
+    party: 'Independent',
+    position: 'Membru al comisiei de recep\u021bie pentru Consiliul Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'case_location',
+      note:
+        'Dosarul prive\u0219te recep\u021bia materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Abuz \u00een serviciu',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a inclus-o \u00een cauza transmis\u0103 instan\u021bei \u00een decembrie 2015, men\u021bion\u00e2nd \u0219i un acord de recunoa\u0219tere pentru fals intelectual.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Hordil\u0103 Doini\u021ba Paula',
+    party: 'Independent',
+    position: 'Membru al comisiei de recep\u021bie pentru Consiliul Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'case_location',
+      note:
+        'Dosarul prive\u0219te recep\u021bia materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Lupu Daniela Maricela',
+    party: 'Independent',
+    position:
+      'Membru al comisiei de recep\u021bie \u0219i gestionar al Magaziei Centrale a Consiliului Jude\u021bean Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost \u00een cadrul Consiliului Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Ia\u0219i a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghi\u021b\u0103 Constantin',
+    party: 'Independent',
+    position: 'Primar al comunei Podari, jude\u021bul Dolj',
+    position_type: 'mayor',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 a fost cea de primar al comunei Podari.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Prodileanu Petre',
+    party: 'Independent',
+    position: 'Viceprimar al comunei Podari, jude\u021bul Dolj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 a fost cea de viceprimar al comunei Podari.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Stan Mioara',
+    party: 'Independent',
+    position: 'Secretar la Prim\u0103ria comunei Podari, jude\u021bul Dolj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 a fost cea de secretar \u00een Prim\u0103ria comunei Podari.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Craiova a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Vl\u0103du\u021bi Mariana',
+    party: 'Independent',
+    position: 'Arhitect \u0219ef la Prim\u0103ria comunei Podari, jude\u021bul Dolj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 a fost cea de arhitect \u0219ef \u00een Prim\u0103ria comunei Podari.',
+    },
+    crime: 'Abuz \u00een serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Craiova a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'B\u0103b\u0103l\u0103u Costinel',
+    party: 'Independent',
+    position: '\u0218ef serviciu taxe \u0219i impozite \u00een Prim\u0103ria comunei Podari, jude\u021bul Dolj',
+    position_type: 'other',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de \u0219ef serviciu taxe \u0219i impozite \u00een Prim\u0103ria comunei Podari.',
+    },
+    crime: 'Instigare la abuz \u00een serviciu; \u00een\u0219el\u0103ciune; instigare la fals; uz de fals',
+    status: 'indicted',
+    details:
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Pisic\u0103 Radu Cristian',
+    party: 'Independent',
+    position: 'Inginer la o societate comercial\u0103',
+    position_type: 'other',
+    geography: {
+      county: 'Dolj',
+      basis: 'case_location',
+      note: 'Dosarul prive\u0219te restituirea unui teren intravilan din comuna Podari.',
+    },
+    crime: 'Instigare la fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
+    status: 'indicted',
+    details:
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Albu Iulian Alexandru',
+    party: 'Independent',
+    position: 'Arhitect la o societate comercial\u0103',
+    position_type: 'other',
+    geography: {
+      county: 'Dolj',
+      basis: 'case_location',
+      note: 'Dosarul prive\u0219te restituirea unui teren intravilan din comuna Podari.',
+    },
+    crime: 'Fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
+    status: 'indicted',
+    details:
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Ciobanu Ortan\u021ba',
+    party: 'Independent',
+    position: 'Director executiv adjunct \u00een Casa Jude\u021bean\u0103 de Asigur\u0103ri de S\u0103n\u0103tate Olt',
+    position_type: 'other',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de director executiv adjunct \u00een Casa Jude\u021bean\u0103 de Asigur\u0103ri de S\u0103n\u0103tate Olt.',
+    },
+    crime: 'Luare de mit\u0103; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
+    status: 'indicted',
+    details:
+      'DNA Craiova a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 pentru fapte legate de examenul unei \u0219coli postliceale sanitare din Slatina.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Petre Viorel',
+    party: 'Independent',
+    position: '\u0218ef birou \u00een Brigada Poli\u021biei Rutiere Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de \u0219ef birou \u00een Brigada Poli\u021biei Rutiere Bucure\u0219ti.',
+    },
+    crime: 'Trafic de influen\u021b\u0103; fals material \u00een \u00eenscrisuri oficiale',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 pentru primirea unei sume de bani \u0219i falsificarea registrului pentru permise re\u021binute.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Lovin Stela',
+    party: 'Independent',
+    position:
+      'Director financiar \u00een Institutul Na\u021bional de Recuperare, Medicin\u0103 Fizic\u0103 \u0219i Balneoclimatologie Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de director financiar \u00een institutul na\u021bional din Bucure\u0219ti.',
+    },
+    crime: 'Abuz \u00een serviciu',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul unor pl\u0103\u021bi pretins nelegale ale institutului.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Elisabeta',
+    party: 'Independent',
+    position:
+      '\u0218ef serviciu contabilitate \u00een Institutul Na\u021bional de Recuperare, Medicin\u0103 Fizic\u0103 \u0219i Balneoclimatologie Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de \u0219ef serviciu contabilitate \u00een institutul na\u021bional din Bucure\u0219ti.',
+    },
+    crime: 'Complicitate la abuz \u00een serviciu',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul unor pl\u0103\u021bi pretins nelegale ale institutului.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Jucan Petru',
+    party: 'Independent',
+    position: '\u0218ef al Serviciului Rutier din cadrul IPJ Suceava',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de \u0219ef al Serviciului Rutier din cadrul IPJ Suceava.',
+    },
+    crime:
+      'Instigare la abuz \u00een serviciu; instigare la fals; fals intelectual; inducerea \u00een eroare a organelor judiciare',
+    status: 'indicted',
+    details:
+      'DNA Suceava l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul privind interven\u021bii asupra unor documente \u0219i cercet\u0103ri rutiere.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Stratu Ioan',
+    party: 'Independent',
+    position: 'Agent de poli\u021bie \u00een Serviciul Rutier din cadrul IPJ Suceava',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 a fost cea de agent de poli\u021bie \u00een Serviciul Rutier din cadrul IPJ Suceava.',
+    },
+    crime: 'Abuz \u00een serviciu',
+    status: 'indicted',
+    details:
+      'DNA Suceava l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul privind interven\u021bii asupra unor documente \u0219i cercet\u0103ri rutiere.',
+    verified_at: '2026-05-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
 ];
 
 /**
