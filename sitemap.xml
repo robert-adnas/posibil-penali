@@ -109,6 +109,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/partid/pd</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/partid/pp-dd</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,12 +128,6 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/partid/pmp</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/partid/pd</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1724,7 +1724,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/tarba-sever</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1736,7 +1736,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/luca-ion</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1826,7 +1826,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/furtuna-gheorghe</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2216,7 +2216,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/crinuta-dumitrean</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2282,7 +2282,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/sergiu-claudiu-maior</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2336,31 +2336,31 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/diaconu-gabriel-marian</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/bleoca-ioan</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/anghelina-ioan</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/zaharia-vasile</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/dragan-constantin</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2384,7 +2384,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/scorobete-ion</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2528,7 +2528,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/goga-nicolae</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2618,7 +2618,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/miu-vasile</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2654,7 +2654,7 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/musat-neculai</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2750,13 +2750,13 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/serb-gheorghe</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/jeleriu-gheorghe</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
