@@ -5869,7 +5869,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Tarb\u0103 Sever',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost viceprimar al comunei Dragoslavele, jude\u021bul Arge\u0219',
     position_type: 'local_official',
     crime: 'Abuz \u00een serviciu',
@@ -5878,8 +5878,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea.',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
@@ -5890,6 +5890,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -5921,7 +5926,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Luca Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost viceprimar al comunei Stoene\u0219ti, jude\u021bul Arge\u0219',
     position_type: 'local_official',
     crime: 'Abuz \u00een serviciu',
@@ -5930,8 +5935,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a trimis \u00een judecat\u0103 \u00een noiembrie 2015 dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219, iar \u00een actualizarea oficial\u0103 din 5 februarie 2024 a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a partidului, iar pagina oficial\u0103 recent\u0103 \u00eel indic\u0103 \u00een administra\u021bia local\u0103 drept consilier local.',
-    verified_at: '2026-04-19',
+      'DNA a trimis \u00een judecat\u0103 \u00een noiembrie 2015 dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219, iar \u00een actualizarea oficial\u0103 din 5 februarie 2024 a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Apartenen\u021ba la PSD este confirmat\u0103 de presa local\u0103 \u00een lista ale\u0219ilor locali PSD din Arge\u0219 viza\u021bi de dosare de integritate.',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
@@ -5942,6 +5947,11 @@ export const politicianAdditions = [
         label: 'CJ Arge\u0219',
         kind: 'official',
         url: 'https://www.cjarges.ro/en/web/stoenesti/luca-ion',
+      },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primari-si-viceprimari-psd-cu-probleme-16390/',
       },
     ],
   },
@@ -6318,7 +6328,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Furtun\u0103 Gheorghe',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Deleni, jude\u021bul Ia\u0219i',
     position_type: 'mayor',
     crime: 'Folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
@@ -6328,12 +6338,17 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'DNA Ia\u0219i a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 24 ianuarie 2013 condamnarea sa la 6 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru ob\u021binerea pe nedrept de fonduri europene.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3851',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -8258,7 +8273,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Crinuța Dumitrean',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost președinte al Autorității Naționale pentru Restituirea Proprietăților',
     position_type: 'secretary_of_state',
     geography: {
@@ -8273,12 +8288,17 @@ export const politicianAdditions = [
     status: 'prescribed',
     details:
       'DNA a trimis-o în judecată în dosarul despăgubirilor ANRP pentru aprobarea unui raport de evaluare supraevaluat. Actualizarea DNA din 27 ianuarie 2023 consemnează încetarea procesului penal prin prescripție și obligații civile stabilite în solidar în dosar.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/crinuta-dumitrean-pdl-a-fost-numita-de-boc-la-conducerea-anrp-4973563',
       },
     ],
   },
@@ -8544,7 +8564,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sergiu-Claudiu Maior',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost viceprimar al municipiului Târgu Mureș',
     position_type: 'local_official',
     geography: {
@@ -8559,12 +8579,17 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată într-un dosar privind exercitarea atribuțiilor de viceprimar după o interdicție ANI. Actualizarea DNA din 8 iulie 2022 consemnează achitarea definitivă.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8387',
+      },
+      {
+        label: 'Radio Târgu Mureș',
+        kind: 'press',
+        url: 'https://www.radiomures.ro/stiri/claudiu_maior_revine_in_func_ia_de_viceprimar_al_municipiului_tirgu_mure__1.html',
       },
     ],
   },
@@ -8784,7 +8809,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Diaconu Gabriel Marian',
-    party: 'Independent',
+    party: 'PD',
     position: 'Fost viceprimar al municipiului Slatina',
     position_type: 'local_official',
     geography: {
@@ -8800,18 +8825,23 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'Curtea de Apel Craiova l-a condamnat definitiv la 7 decembrie 2012 pentru abuz în serviciu contra intereselor publice, în formă continuată, într-un dosar în care partea civilă era Consiliul Local Slatina.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3727',
       },
+      {
+        label: 'Curentul',
+        kind: 'press',
+        url: 'https://www.curentul.info/politic/tineretul-democrat-vrea-functii-de-conducere/',
+      },
     ],
   },
   {
     name: 'Bleoca Ioan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost viceprimar al comunei Șeica Mare',
     position_type: 'local_official',
     geography: {
@@ -8827,18 +8857,23 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Alba Iulia l-a condamnat definitiv la 23 februarie 2012 pentru fapte legate de folosirea documentelor false sau inexacte pentru obținerea de fonduri europene, schimbarea destinației fondurilor și fals intelectual.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2995',
       },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+      },
     ],
   },
   {
     name: 'Anghelină Ioan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost primar al comunei Șeica Mare',
     position_type: 'mayor',
     geography: {
@@ -8854,18 +8889,23 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Alba Iulia l-a condamnat definitiv la 23 februarie 2012 pentru instigare la folosirea documentelor false sau inexacte pentru obținerea de fonduri europene, instigare la schimbarea destinației fondurilor și fals intelectual.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2995',
       },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+      },
     ],
   },
   {
     name: 'Zaharia Vasile',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost viceprimar al comunei Cernica',
     position_type: 'local_official',
     geography: {
@@ -8881,18 +8921,23 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'ICCJ l-a condamnat definitiv la 26 septembrie 2013 pentru fals material în înscrisuri oficiale și asociere pentru săvârșirea de infracțiuni, în același dosar în care a fost vizat fostul director OCPI Călărași Ion Năbârgeac.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4355',
       },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+      },
     ],
   },
   {
     name: 'Drăgan Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Viceprimar al comunei Ucea',
     position_type: 'local_official',
     geography: {
@@ -8908,12 +8953,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Brașov l-a condamnat definitiv la 24 mai 2011 pentru folosirea sau prezentarea de documente false ori inexacte pentru obținerea de fonduri europene și schimbarea destinației fondurilor.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2432',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -9000,7 +9050,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Scorobete Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost viceprimar al comunei Zăvoi',
     position_type: 'local_official',
     geography: {
@@ -9016,12 +9066,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'ICCJ l-a condamnat definitiv la 22 aprilie 2014 pentru complicitate la luare de mită în dosarul fostului primar al comunei Zăvoi, Antonie Bunei.',
-    verified_at: '2026-05-05',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4867',
+      },
+      {
+        label: 'Express de Banat',
+        kind: 'press',
+        url: 'https://expressdebanat.ro/news-alert-ion-scorobete-fost-primar-si-candidat-psd-la-consiliul-judetean-a-fost-trimis-in-judecata-de-dna-pentru-a-doua-oara/',
       },
     ],
   },
@@ -9668,7 +9723,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Goga Nicolae',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Viceprimar al comunei Apold, județul Mureș',
     position_type: 'local_official',
     geography: {
@@ -9684,12 +9739,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 29 aprilie 2015 pentru complicitate la folosirea de declarații false sau inexacte pentru obținerea pe nedrept de fonduri europene și conflict de interese.',
-    verified_at: '2026-05-08',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6279',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -10093,7 +10153,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Miu Vasile',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Viceprimar al comunei Sălătrucel, județul Vâlcea',
     position_type: 'local_official',
     geography: {
@@ -10109,12 +10169,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Pitești l-a condamnat definitiv la 25 mai 2018 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și complicitate la conflict de interese.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -10260,7 +10325,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Mușat Neculai',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Viceprimar al comunei Ion Neculce, județul Iași',
     position_type: 'local_official',
     geography: {
@@ -10276,12 +10341,17 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Iași l-a condamnat definitiv la 24 mai 2018 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și uz de fals.',
-    verified_at: '2026-05-09',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8846',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -10688,7 +10758,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Șerb Gheorghe',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Laslea, județul Sibiu',
     position_type: 'mayor',
     geography: {
@@ -10700,18 +10770,28 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
-    verified_at: '2026-05-10',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
       },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+      },
+      {
+        label: 'Turnul Sfatului',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2012/05/02/alegeri-locale-lista-candidatilor-usl-si-pdl-la-primariile-din-judet-14699',
+      },
     ],
   },
   {
     name: 'Jeleriu Gheorghe',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Viceprimar al comunei Laslea, județul Sibiu',
     position_type: 'local_official',
     geography: {
@@ -10723,12 +10803,22 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
-    verified_at: '2026-05-10',
+    verified_at: '2026-05-11',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+      },
+      {
+        label: 'Consiliul Județean Sibiu',
+        kind: 'official',
+        url: 'https://www.cjsibiu.ro/wp-content/uploads/2016/09/Brosura-Alegeri-locale-2016.pdf',
       },
     ],
   },
@@ -11219,7 +11309,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Grosu Mircea Sevastian',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Viceprimar al municipiului Drobeta Turnu Severin',
     position_type: 'local_official',
     geography: {
@@ -11241,6 +11331,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7291',
+      },
+      {
+        label: 'România Curată',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/face-dna-dosare-politice-suprematia-psd-este-proportionala-cu-dominatia-sa-asupra-administratiei-locale/',
       },
     ],
   },
@@ -11350,7 +11445,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Băloi Ion',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Viceprimar și referent agricol în Primăria comunei Padeș, județul Gorj',
     position_type: 'local_official',
     geography: {
@@ -11368,6 +11463,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12610',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -11472,7 +11572,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Chiril\u0103 Victor',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost vicepre\u0219edinte al Consiliului Jude\u021bean Ia\u0219i; consilier jude\u021bean',
     position_type: 'local_official',
     geography: {
@@ -11491,6 +11591,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/regional/digi24-iasi/psd-preia-controlul-in-cj-iasi-liberalul-victor-chirila-a-fost-demis-din-functia-de-vicepresedinte-214477',
       },
     ],
   },
@@ -11569,7 +11674,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gheorghi\u021b\u0103 Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Podari, jude\u021bul Dolj',
     position_type: 'mayor',
     geography: {
@@ -11587,6 +11692,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+      {
+        label: 'Portal Info',
+        kind: 'press',
+        url: 'https://www.portal-info.ro/primarii/primaria-podari-dolj.html',
       },
     ],
   },
