@@ -34,6 +34,24 @@ const PASCANI_AGROCOMPLEX_SOURCES = [
   },
 ];
 
+const PASCANI_COUNCIL_PARTY_SOURCE = {
+  label: 'RegieLive',
+  kind: 'press',
+  url: 'https://regielive.net/proiecte/finante/fundamentarea-cheltuielilor-publice-la-primaria-pascani-108571.html',
+};
+
+const PASCANI_RUSU_PARTY_SOURCE = {
+  label: '9am / NewsIn',
+  kind: 'press',
+  url: 'https://www.9am.ro/stiri-revista-presei/Politica/114106/Excluderi-la-PD-L-Pascani-in-urma-rezultatului-slab-de-la-alegerile-parlamentare.html',
+};
+
+const PASCANI_SIMION_VALIDATION_SOURCE = {
+  label: 'Primăria Pașcani',
+  kind: 'official',
+  url: 'https://www.primariapascani.ro/dm_pascani/portal.nsf/308AC2F099EFC75DC22586010028BCAD/%24FILE/HCL-62-68.pdf',
+};
+
 const PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS =
   'DNA a consemnat că, prin decizia penală nr. 119 din 4 iulie 2018, ÎCCJ a dispus achitarea definitivă în dosarul Agrocomplex Lunca Pașcani, întrucât faptele reținute nu sunt prevăzute de legea penală.';
 
@@ -124,7 +142,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Bucovanu Irina',
-    party: 'Independent',
+    party: 'PRM',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -132,11 +150,11 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Dumea Eronim-Eduard',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -144,7 +162,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Huțanu Georgeta',
@@ -160,7 +178,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Simion Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -168,7 +186,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Sofian Dorina',
@@ -184,7 +202,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Toma Viorel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -192,7 +210,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Bodoașcă Mihai',
@@ -256,7 +274,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Centea Liliana',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -264,7 +282,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Cojocaru Constantin',
@@ -280,7 +298,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Ioniță Ioan',
-    party: 'Independent',
+    party: 'PD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -288,11 +306,11 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Pleșca Vasile',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -300,11 +318,11 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Răuț Dănuț',
-    party: 'Independent',
+    party: 'PRM',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -312,11 +330,11 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Rusu Leonard',
-    party: 'Independent',
+    party: 'PD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -324,11 +342,11 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_RUSU_PARTY_SOURCE],
   },
   {
     name: 'Sîrbu Daniel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -336,7 +354,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
   {
     name: 'Baba Iulia',
@@ -428,7 +446,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Tabarcea Ionela-Laura',
-    party: 'Independent',
+    party: 'PRM',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -436,7 +454,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
 ];
 
@@ -8259,7 +8277,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ana-Maria Pătru',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost președinte al Autorității Electorale Permanente',
     position_type: 'secretary_of_state',
     geography: {
@@ -8280,6 +8298,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7939',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/sotul-sefei-aep-a-incercat-sa-fuga-cu-documente-612729',
       },
     ],
   },
@@ -8729,7 +8752,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sergiu Diacomatu',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost vicepreședinte ANRP',
     position_type: 'secretary_of_state',
     geography: {
@@ -8750,6 +8773,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
+      },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/sergiu-diacomatu-fost-membru-pmp-a-fost-validat-in-functia-de-presedinte-pnl-sector-1-1620774',
       },
     ],
   },
@@ -8937,7 +8965,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Stere Sponte',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost director al Oficiului de Cadastru și Publicitate Imobiliară Constanța',
     position_type: 'local_official',
     geography: {
@@ -8958,6 +8986,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5738',
+      },
+      {
+        label: 'Ziua de Constanța',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/social/stere-sponte-ex-viceprimar-de-navodari-actual-sef-al-ocpi-252934.html',
       },
     ],
   },
