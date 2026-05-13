@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-12',
+  last_updated: '2026-05-13',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -12441,6 +12441,297 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+    ],
+  },
+  {
+    name: 'Pașca Eugenia',
+    party: 'Independent',
+    position: 'Inspector superior impozite și taxe al comunei Câmpani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Câmpani, județul Bihor.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    status: 'indicted',
+    details:
+      'DNA Oradea a trimis-o în judecată în octombrie 2024, alături de fostul primar Bocșe Raul Florin, în dosarul plăților pretins nelegale din Primăria Câmpani.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12699',
+      },
+    ],
+  },
+  {
+    name: 'Coroiu Jenica Dorina',
+    party: 'Independent',
+    position: 'Inspector superior - contabil al comunei Câmpani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Câmpani, județul Bihor.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: '3 ani închisoare cu suspendare, prin acord de recunoaștere trimis instanței',
+    sentence_years: 3,
+    status: 'indicted',
+    details:
+      'DNA Oradea a anunțat în octombrie 2024 acordul de recunoaștere a vinovăției și trimiterea dosarului la Tribunalul Bihor în cauza plăților pretins nelegale din Primăria Câmpani.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12699',
+      },
+    ],
+  },
+  {
+    name: 'Batîr Rareș',
+    party: 'Independent',
+    position: 'Administrator public al comunei Ungureni',
+    position_type: 'local_official',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Ungureni, județul Botoșani.',
+    },
+    crime: 'Luare de mită; folosirea de informații nedestinate publicității',
+    status: 'indicted',
+    details:
+      'DNA Suceava l-a trimis în judecată în ianuarie 2026 în dosarul privind pretinse mite și furnizarea de informații pentru favorizarea unei societăți la o licitație din comuna Ungureni.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13456',
+      },
+    ],
+  },
+  {
+    name: 'Piștea Ciprian-Octavian',
+    party: 'Independent',
+    position:
+      'Administrator public al municipiului Bacău; coordonator al activității de implementare a proiectelor din fonduri europene',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Bacău, județul Bacău.',
+    },
+    crime:
+      'Instigare la tentativă de obținere nelegală de fonduri europene; fals în înscrisuri sub semnătură privată',
+    status: 'indicted',
+    details:
+      'DNA Bacău l-a trimis în judecată în aprilie 2026 în dosarul proiectului de management al traficului din municipiul Bacău, privind documente pretins false folosite pentru modificarea proiectului tehnic.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Constantin-Adrian',
+    party: 'Independent',
+    position:
+      'Director al Agenției de Dezvoltare Locală Bacău din cadrul Primăriei municipiului Bacău; manager de proiect',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Bacău, județul Bacău.',
+    },
+    crime:
+      'Tentativă la folosirea de documente false pentru obținerea sau reținerea pe nedrept de fonduri europene; fals în înscrisuri sub semnătură privată',
+    status: 'indicted',
+    details:
+      'DNA Bacău l-a trimis în judecată în aprilie 2026 în dosarul proiectului de management al traficului din municipiul Bacău, reținând că ar fi semnat și înaintat dispoziții de șantier cu date pretins necorespunzătoare adevărului.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+    ],
+  },
+  {
+    name: 'Petre Vlad-Andrei',
+    party: 'Independent',
+    position: 'Arhitect-șef al municipiului Zalău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sălaj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Zalău, județul Sălaj.',
+    },
+    crime: 'Abuz în serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Cluj l-a trimis în judecată în aprilie 2026 pentru emiterea a două adrese oficiale pretins nelegale în calitate de arhitect-șef al municipiului Zalău.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+    ],
+  },
+  {
+    name: 'Câmpulungeanu Petruș',
+    party: 'PSD',
+    position: 'Primar al comunei Pantelimon',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Pantelimon, județul Ilfov.',
+    },
+    crime: 'Instigare la abuz în serviciu, în forma participației improprii',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată în noiembrie 2020 pentru două infracțiuni de instigare la abuz în serviciu în legătură cu documente de fond funciar emise în perioada 2004-2007.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10048',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/psd/primari/fostul-primar-psd-din-pantelimon-trimis-in-judecata-pentru-instigare-la-abuz-in-servicu-1641588',
+      },
+    ],
+  },
+  {
+    name: 'Olteanu Aristide',
+    party: 'Independent',
+    position: 'Secretar al comunei Pantelimon',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Pantelimon, județul Ilfov.',
+    },
+    crime: 'Instigare la abuz în serviciu, în forma participației improprii',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată în noiembrie 2020 în dosarul documentelor de fond funciar din comuna Pantelimon, reținând 61 de acte materiale.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10048',
+      },
+    ],
+  },
+  {
+    name: 'Tusac Mihai Claudiu',
+    party: 'PSD',
+    position: 'Primar al municipiului Mangalia',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Mangalia, județul Constanța.',
+    },
+    crime: 'Conflict de interese, în formă continuată',
+    sentence: '1 an închisoare cu suspendare; consecințe penale încetate ulterior prin dezincriminare',
+    sentence_years: 1,
+    conviction_year: 2017,
+    status: 'closed',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat condamnarea definitivă din 15 mai 2017 pentru conflict de interese, iar actualizarea oficială din octombrie 2018 arată că instanța a constatat dezincriminarea și încetarea consecințelor penale.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8222',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/primarul-mangaliei-detine-un-apartament-la-bruxelles-si-peste-740-000-de-euro-in-conturi_122176.html',
+      },
+    ],
+  },
+  {
+    name: 'Lupulescu Livițuc',
+    party: 'PNL',
+    position: 'Primar al comunei Lunca Cernii de Jos',
+    position_type: 'mayor',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Lunca Cernii de Jos, județul Hunedoara.',
+    },
+    crime:
+      'Dare de mită; folosire sau prezentare de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    details:
+      'DNA Alba Iulia l-a trimis în judecată în 2022 în dosarul APIA Lunca Cernii de Jos, iar actualizarea oficială din 25 noiembrie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11711',
+      },
+      {
+        label: 'Mesagerul Hunedorean',
+        kind: 'press',
+        url: 'https://www.mesagerulhunedorean.ro/lunca-cernii-de-jos-merge-mai-departe-cu-aceeasi-echipa-administrativa/',
+      },
+    ],
+  },
+  {
+    name: 'Zepa Daniel',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Lunca Cernii de Jos',
+    position_type: 'local_official',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Lunca Cernii de Jos, județul Hunedoara.',
+    },
+    crime:
+      'Dare de mită; folosire sau prezentare de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    details:
+      'DNA Alba Iulia l-a trimis în judecată în 2022 în dosarul APIA Lunca Cernii de Jos, iar actualizarea oficială din 25 noiembrie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
+    verified_at: '2026-05-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11711',
+      },
+      {
+        label: 'Mesagerul Hunedorean',
+        kind: 'press',
+        url: 'https://www.mesagerulhunedorean.ro/lunca-cernii-de-jos-merge-mai-departe-cu-aceeasi-echipa-administrativa/',
       },
     ],
   },
