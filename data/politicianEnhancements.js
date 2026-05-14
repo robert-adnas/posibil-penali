@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-13',
+  last_updated: '2026-05-14',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -12732,6 +12732,506 @@ export const politicianAdditions = [
         label: 'Mesagerul Hunedorean',
         kind: 'press',
         url: 'https://www.mesagerulhunedorean.ro/lunca-cernii-de-jos-merge-mai-departe-cu-aceeasi-echipa-administrativa/',
+      },
+    ],
+  },
+  {
+    name: 'Ciuhandu Gheorghe-Coriolan',
+    party: 'PNȚCD',
+    position: 'Primar al municipiului Timișoara',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara din bugetul local.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/gheorghe-ciuhandu-renunta-la-candidatura-primariei-timisoara_178752.html',
+      },
+    ],
+  },
+  {
+    name: 'Cojocari Ioan',
+    party: 'Independent',
+    position: 'Secretar al Consiliului Local Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit',
+    sentence: 'Proces penal încetat prin prescripție după condamnarea definitivă inițială la 3 ani cu suspendare',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat condamnarea definitivă inițială din noiembrie 2019, iar actualizarea oficială din aprilie 2023 arată că procesul penal a încetat prin prescripție.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+    ],
+  },
+  {
+    name: 'Haracicu Smaranda Maria',
+    party: 'Independent',
+    position: 'Director al Direcției Economice din cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara a condamnat-o definitiv în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara din bugetul local.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+    ],
+  },
+  {
+    name: 'Mihalache Violeta-Teodora',
+    party: 'Independent',
+    position: 'Director al Direcției Comunicare din cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara a condamnat-o definitiv în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara din bugetul local.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru Delia-Ileana',
+    party: 'Independent',
+    position: 'Consilier juridic în cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6674',
+      },
+    ],
+  },
+  {
+    name: 'Orza Adrian Romiță',
+    party: 'PNȚCD',
+    position: 'Viceprimar al municipiului Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'DCNews',
+        kind: 'press',
+        url: 'https://www.dcnews.ro/gheorghe-ciuhandu-renunta-la-candidatura-primariei-timisoara_178752.html',
+      },
+    ],
+  },
+  {
+    name: 'Staia Martin',
+    party: 'Independent',
+    position: 'Șef Serviciu Administrare Baze Sportive din cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+      },
+    ],
+  },
+  {
+    name: 'Munteanu Mirel Florin',
+    party: 'Independent',
+    position: 'Economist în cadrul Direcției Economice a Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+      },
+    ],
+  },
+  {
+    name: 'Pintilie Alina',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+      },
+    ],
+  },
+  {
+    name: 'Dimitriu Mariana',
+    party: 'Independent',
+    position: 'Economist în cadrul Direcției Economice a Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+      },
+    ],
+  },
+  {
+    name: 'Miuț Nicușor Constantin',
+    party: 'Independent',
+    position: 'Director al Direcției Patrimoniu din cadrul Primăriei Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+      },
+    ],
+  },
+  {
+    name: 'Moldovan-Verdeș Doina-Adriana',
+    party: 'Independent',
+    position: 'Șef Serviciu Impozite și Taxe Locale din cadrul Primăriei Reghin',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Reghin, județul Mureș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '3 luni închisoare cu suspendare',
+    sentence_years: 0.25,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Târgu Mureș a condamnat-o definitiv în august 2021 în dosarul repartizării unor locuințe ANL pentru tineri în municipiul Reghin.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
+      },
+    ],
+  },
+  {
+    name: 'Badiu Ovidiu-Vasile',
+    party: 'Independent',
+    position: 'Consilier juridic în cadrul Primăriei Reghin',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Reghin, județul Mureș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '1 an închisoare cu suspendare și amendă penală',
+    sentence_years: 1,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Târgu Mureș l-a condamnat definitiv în august 2021 în dosarul repartizării unor locuințe ANL pentru tineri în municipiul Reghin.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
+      },
+    ],
+  },
+  {
+    name: 'Nagy Andras',
+    party: 'UDMR',
+    position: 'Viceprimar al municipiului Reghin; fost primar al municipiului Reghin',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Reghin, județul Mureș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: 'Proces penal încetat prin prescripție după condamnarea definitivă inițială la 6 luni cu suspendare',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat condamnarea definitivă inițială din august 2021, iar actualizarea oficială din martie 2023 arată că procesul penal a încetat prin prescripție.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
+      },
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2021/03/29/nagy-andras-de-la-primar-la-consilier-pentru-dezvoltarea-reghinului/',
+      },
+    ],
+  },
+  {
+    name: 'Saghin Virgil',
+    party: 'PNL',
+    position: 'Primar al comunei Vatra Moldoviței',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Vatra Moldoviței, județul Suceava.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA Iași l-a trimis în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
+      },
+      {
+        label: 'Monitorul de Suceava',
+        kind: 'press',
+        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
+      },
+      {
+        label: 'VIVA FM',
+        kind: 'press',
+        url: 'https://vivafm.ro/stire/2026/03/04/primarul-comunei-vatra-moldovitei-condamnat-la-3-ani-de-inchisoare-cu-executare/',
+      },
+    ],
+  },
+  {
+    name: 'Niga Gabriel',
+    party: 'PNL',
+    position: 'Viceprimar cu atribuții de primar al comunei Vatra Moldoviței',
+    position_type: 'local_official',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Vatra Moldoviței, județul Suceava.',
+    },
+    crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA Iași l-a trimis în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
+      },
+      {
+        label: 'Monitorul de Suceava',
+        kind: 'press',
+        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
+      },
+      {
+        label: 'News Romania',
+        kind: 'press',
+        url: 'https://newsromania.net/justitie/fata-si-pensionarul-animalului-politic-din-pnl-de-la-apele-romane/',
+      },
+    ],
+  },
+  {
+    name: 'Boca Ana',
+    party: 'Independent',
+    position: 'Secretar general al comunei Vatra Moldoviței',
+    position_type: 'local_official',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Vatra Moldoviței, județul Suceava.',
+    },
+    crime:
+      'Abuz în serviciu cu obținere de folos necuvenit; complicitate la abuz în serviciu cu obținere de folos necuvenit',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA Iași a trimis-o în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
+    verified_at: '2026-05-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
+      },
+      {
+        label: 'Monitorul de Suceava',
+        kind: 'press',
+        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
       },
     ],
   },
