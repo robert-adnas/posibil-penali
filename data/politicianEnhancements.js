@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-14',
+  last_updated: '2026-05-15',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -14,6 +14,79 @@ const ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015 =
 
 const VASILE_NICA_AUDIT_DETAILS =
   'DNA a consemnat condamnarea sa definitivă la 7 decembrie 2015 într-un dosar distinct instrumentat de Serviciul Teritorial Pitești. Într-o cauză separată privind contractele de consultanță din județul Argeș, DNA a actualizat ulterior soluția definitivă de achitare pronunțată la 24 aprilie 2023; pentru consistența bazei, intrarea rămâne clasificată drept convicted deoarece există o condamnare definitivă distinctă în intervalul 2010-2026.';
+
+const SALCEA_EXAM_GEOGRAPHY = {
+  county: 'Suceava',
+  basis: 'office',
+  note: 'Funcția publică relevantă ori cauza viza orașul Salcea, județul Suceava.',
+};
+
+const SALCEA_EXAM_SOURCES = [
+  {
+    label: 'DNA',
+    kind: 'official',
+    url: 'https://www.dna.ro/comunicat.xhtml?id=12406',
+  },
+  {
+    label: 'DNA',
+    kind: 'official',
+    url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
+  },
+];
+
+const SALCEA_LUNGU_PARTY_SOURCE = {
+  label: 'Jurnal FM',
+  kind: 'press',
+  url: 'https://jurnalfm.ro/surpriza-la-salcea-unde-a-fost-ales-un-primar-tanar-provenit-de-la-un-partid-mic/',
+};
+
+const SALCEA_GIZA_PARTY_SOURCE = {
+  label: 'Monitorul de Suceava',
+  kind: 'press',
+  url: 'https://m.monitorulsv.ro/Politic-local/2014-02-13/Viceprimar-nou-in-Salcea',
+};
+
+const SAMBATA_DE_SUS_GEOGRAPHY = {
+  county: 'Brașov',
+  basis: 'case_location',
+  note: 'Cauza viza UAT Sâmbăta de Sus, județul Brașov.',
+};
+
+const SAMBATA_DE_SUS_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=11303',
+};
+
+const DOMASNEA_APIA_GEOGRAPHY = {
+  county: 'Caraș-Severin',
+  basis: 'case_location',
+  note: 'Cauza APIA viza comuna Domașnea, județul Caraș-Severin.',
+};
+
+const DOMASNEA_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=8844',
+};
+
+const DOMASNEA_LORINT_PARTY_SOURCE = {
+  label: 'PressAlert',
+  kind: 'press',
+  url: 'https://www.pressalert.ro/2016/11/primarul-bataus-din-banat-trimis-judecata-intr-un-dosar-de-frauda-cu-fonduri-europene-vezi-cum-obtinut-pe-nedrept-peste-jumatate-de-milion-de-lei/',
+};
+
+const GORBAN_APIA_GEOGRAPHY = {
+  county: 'Iași',
+  basis: 'case_location',
+  note: 'Cauza APIA viza comuna Gorban, județul Iași.',
+};
+
+const GORBAN_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
+};
 
 const PASCANI_AGROCOMPLEX_GEOGRAPHY = {
   county: 'Iași',
@@ -13234,6 +13307,199 @@ export const politicianAdditions = [
         url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
       },
     ],
+  },
+  {
+    name: 'Lungu Ilie',
+    party: 'PNL',
+    position: 'Primar al orașului Salcea',
+    position_type: 'mayor',
+    geography: SALCEA_EXAM_GEOGRAPHY,
+    crime: 'Cumpărare de influență și dare de mită, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2023,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Suceava l-a condamnat definitiv în aprilie 2023 în dosarul fraudării tezelor fiului său la Evaluarea Națională.',
+    verified_at: '2026-05-15',
+    sources: [...SALCEA_EXAM_SOURCES, SALCEA_LUNGU_PARTY_SOURCE],
+  },
+  {
+    name: 'Zettel Nicoleta',
+    party: 'Independent',
+    position: 'Director al Școlii Gimnaziale „Cristofor Simionescu” Plopeni',
+    position_type: 'local_official',
+    geography: SALCEA_EXAM_GEOGRAPHY,
+    crime: 'Luare de mită și complicitate la sustragerea sau distrugerea de înscrisuri',
+    sentence: '2 ani și 4 luni închisoare cu suspendare',
+    sentence_years: 2.33,
+    conviction_year: 2023,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Suceava a condamnat-o definitiv în aprilie 2023 în dosarul fraudării tezelor de la Evaluarea Națională din Salcea.',
+    verified_at: '2026-05-15',
+    sources: SALCEA_EXAM_SOURCES,
+  },
+  {
+    name: 'Gîză Mihai',
+    party: 'PSD',
+    position: 'Consilier local al orașului Salcea; profesor de matematică la Școala Gimnazială „Cristofor Simionescu” Plopeni',
+    position_type: 'local_official',
+    geography: SALCEA_EXAM_GEOGRAPHY,
+    crime:
+      'Trafic de influență, complicitate la dare de mită și instigare la sustragerea sau distrugerea de înscrisuri în formă continuată',
+    sentence: '2 ani și 10 luni închisoare cu suspendare',
+    sentence_years: 2.83,
+    conviction_year: 2023,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Suceava l-a condamnat definitiv în aprilie 2023 în dosarul fraudării tezelor de la Evaluarea Națională din Salcea.',
+    verified_at: '2026-05-15',
+    sources: [...SALCEA_EXAM_SOURCES, SALCEA_GIZA_PARTY_SOURCE],
+  },
+  {
+    name: 'Folea Adriana Simona',
+    party: 'Independent',
+    position: 'Contabil în cadrul Primăriei Comunei Sâmbăta de Sus',
+    position_type: 'local_official',
+    geography: SAMBATA_DE_SUS_GEOGRAPHY,
+    crime: 'Abuz în serviciu cu obținerea unui avantaj patrimonial sau nepatrimonial, în formă continuată',
+    sentence: '2 ani și 8 luni închisoare cu suspendare',
+    sentence_years: 2.67,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Brașov a condamnat-o definitiv în mai 2022 în dosarul prejudicierii UAT Sâmbăta de Sus prin neplata impozitului pe clădiri.',
+    verified_at: '2026-05-15',
+    sources: [SAMBATA_DE_SUS_DNA_SOURCE],
+  },
+  {
+    name: 'Andreaș Elena',
+    party: 'Independent',
+    position: 'Administrator al SC Florirex SRL',
+    position_type: 'other',
+    geography: SAMBATA_DE_SUS_GEOGRAPHY,
+    crime: 'Complicitate la abuz în serviciu cu obținerea unui avantaj patrimonial sau nepatrimonial, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Brașov a condamnat-o definitiv în mai 2022 în dosarul prejudicierii UAT Sâmbăta de Sus prin neplata impozitului pe clădiri.',
+    verified_at: '2026-05-15',
+    sources: [SAMBATA_DE_SUS_DNA_SOURCE],
+  },
+  {
+    name: 'Antinie Andreea',
+    party: 'Independent',
+    position: 'Administrator al SC Antada Com SRL',
+    position_type: 'other',
+    geography: SAMBATA_DE_SUS_GEOGRAPHY,
+    crime: 'Complicitate la abuz în serviciu cu obținerea unui avantaj patrimonial sau nepatrimonial, în formă continuată',
+    sentence: '2 ani și 9 luni închisoare cu suspendare',
+    sentence_years: 2.75,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Brașov a condamnat-o definitiv în mai 2022 în dosarul prejudicierii UAT Sâmbăta de Sus prin neplata impozitului pe clădiri.',
+    verified_at: '2026-05-15',
+    sources: [SAMBATA_DE_SUS_DNA_SOURCE],
+  },
+  {
+    name: 'Lorinț Petru',
+    party: 'PSD',
+    position: 'Primar al comunei Domașnea',
+    position_type: 'mayor',
+    geography: DOMASNEA_APIA_GEOGRAPHY,
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente false ori inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată; fals intelectual; uz de fals',
+    sentence: '2 ani și 9 luni închisoare cu suspendare',
+    sentence_years: 2.75,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în aprilie 2018 în dosarul APIA privind pajiștile alpine ale comunei Domașnea.',
+    verified_at: '2026-05-15',
+    sources: [DOMASNEA_DNA_SOURCE, DOMASNEA_LORINT_PARTY_SOURCE],
+  },
+  {
+    name: 'Benghia Zărie',
+    party: 'Independent',
+    position: 'Persoană fizică implicată în dosarul APIA Domașnea',
+    position_type: 'other',
+    geography: DOMASNEA_APIA_GEOGRAPHY,
+    crime:
+      'Complicitate la folosire sau prezentare cu rea-credință de documente false ori inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în aprilie 2018 în dosarul APIA privind pajiștile alpine ale comunei Domașnea.',
+    verified_at: '2026-05-15',
+    sources: [DOMASNEA_DNA_SOURCE],
+  },
+  {
+    name: 'Românu Ioan',
+    party: 'Independent',
+    position: 'Persoană fizică implicată în dosarul APIA Domașnea',
+    position_type: 'other',
+    geography: DOMASNEA_APIA_GEOGRAPHY,
+    crime:
+      'Complicitate la folosire sau prezentare cu rea-credință de documente false ori inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în aprilie 2018 în dosarul APIA privind pajiștile alpine ale comunei Domașnea.',
+    verified_at: '2026-05-15',
+    sources: [DOMASNEA_DNA_SOURCE],
+  },
+  {
+    name: 'Cloșan Cornelia',
+    party: 'Independent',
+    position: 'Bibliotecar la Primăria Domașnea',
+    position_type: 'local_official',
+    geography: DOMASNEA_APIA_GEOGRAPHY,
+    crime:
+      'Fals în înscrisuri sub semnătură privată și participație improprie la fals în înscrisuri sub semnătură privată, în formă continuată',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara a condamnat-o definitiv în aprilie 2018 în dosarul APIA privind pajiștile alpine ale comunei Domașnea.',
+    verified_at: '2026-05-15',
+    sources: [DOMASNEA_DNA_SOURCE],
+  },
+  {
+    name: 'Barbălată Romică',
+    party: 'Independent',
+    position: 'Asociat și administrator al SC Agroind Gorban SRL',
+    position_type: 'other',
+    geography: GORBAN_APIA_GEOGRAPHY,
+    crime:
+      'Folosire sau prezentare de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; spălare de bani',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv în decembrie 2018 în dosarul APIA Gorban.',
+    verified_at: '2026-05-15',
+    sources: [GORBAN_DNA_SOURCE],
   },
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
