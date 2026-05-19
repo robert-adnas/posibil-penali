@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-15',
+  last_updated: '2026-05-19',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -86,6 +86,74 @@ const GORBAN_DNA_SOURCE = {
   label: 'DNA',
   kind: 'official',
   url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
+};
+
+const ECONOMAT_SECTOR_5_GEOGRAPHY = {
+  county: 'București',
+  basis: 'case_location',
+  note:
+    'Cauza viza achiziții publice derulate prin societăți și instituții din subordinea autorităților locale ale Sectorului 5.',
+};
+
+const ECONOMAT_SECTOR_5_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13737',
+};
+
+const MADR_FITOSANITAR_GEOGRAPHY = {
+  county: 'București',
+  basis: 'office',
+  note:
+    'Funcția publică relevantă era în cadrul Ministerului Agriculturii și/sau al Autorității Naționale Fitosanitare, instituții centrale cu sediul în București.',
+};
+
+const MADR_FITOSANITAR_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13735',
+};
+
+const ADRIAN_PINTEA_PARTY_SOURCE = {
+  label: 'DeFapt.ro',
+  kind: 'press',
+  url: 'https://defapt.ro/justitie/dna-cerceteaza-psd-pintea-ministerul-agriculturii',
+};
+
+const SARBI_ISCTR_GEOGRAPHY = {
+  county: 'Bihor',
+  basis: 'office',
+  note: 'Funcția publică relevantă era cea de viceprimar al comunei Sârbi, județul Bihor.',
+};
+
+const SARBI_ISCTR_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12507',
+};
+
+const SARBI_PARTY_SOURCE = {
+  label: 'Primăria Sârbi',
+  kind: 'official',
+  url: 'https://comunasarbi.ro/componenta-consiliului-local/',
+};
+
+const CONSTANTA_SECRETAR_CONTEST_GEOGRAPHY = {
+  county: 'Constanța',
+  basis: 'office',
+  note: 'Funcția publică relevantă era în cadrul Primăriei municipiului Constanța.',
+};
+
+const CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12611',
+};
+
+const CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12331',
 };
 
 const PASCANI_AGROCOMPLEX_GEOGRAPHY = {
@@ -13500,6 +13568,205 @@ export const politicianAdditions = [
       'Înalta Curte de Casație și Justiție l-a condamnat definitiv în decembrie 2018 în dosarul APIA Gorban.',
     verified_at: '2026-05-15',
     sources: [GORBAN_DNA_SOURCE],
+  },
+  {
+    name: 'Petre Marian-Leonard',
+    party: 'Independent',
+    position: 'Director general al S.C. Economat Sector 5 S.R.L.',
+    position_type: 'other',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime:
+      'Constituire a unui grup infracțional organizat; abuz în serviciu cu consecințe deosebit de grave; complicitate și participație improprie la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 5 mai 2026 în dosarul achizițiilor pretins supraevaluate derulate prin S.C. Economat Sector 5 S.R.L., cu un prejudiciu estimat de peste 120 milioane lei.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Rămulescu Floricica-Carmen',
+    party: 'Independent',
+    position: 'Director achiziții în cadrul S.C. Economat Sector 5 S.R.L.',
+    position_type: 'other',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime:
+      'Complicitate la abuz în serviciu cu consecințe deosebit de grave, în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o în judecată la 5 mai 2026 în dosarul Economat Sector 5, reținând că ar fi sprijinit achiziții publice la prețuri pretins supraevaluate.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Dabija Georgeta',
+    party: 'Independent',
+    position: 'Cenzor al S.C. Economat Sector 5 S.R.L.',
+    position_type: 'other',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o în judecată la 5 mai 2026 în dosarul Economat Sector 5, reținând omisiuni de verificare și semnalare a neregulilor privind plățile și achizițiile.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Lupașcu Marian',
+    party: 'Independent',
+    position: 'Director general al S.C. Amenajare Edilitară și Salubrizare S.A.',
+    position_type: 'other',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave, în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, pentru achiziții pretins supraevaluate derulate prin societatea municipală pe care o conducea.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Zidărescu Loredana Ionela',
+    party: 'Independent',
+    position:
+      'Șef Serviciu Achiziții, ulterior director Investiții și Achiziții în cadrul S.C. Amenajare Edilitară și Salubrizare S.A.',
+    position_type: 'other',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime:
+      'Complicitate la abuz în serviciu cu consecințe deosebit de grave, în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o în judecată la 5 mai 2026 în dosarul Economat Sector 5, susținând că ar fi întocmit documentații care creau aparența unor proceduri de achiziție directă offline.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Antonescu Vincențiu-Daniel',
+    party: 'Independent',
+    position: 'Director general al Administrației Domeniului Public Sector 5',
+    position_type: 'local_official',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Lăzărescu Paul-Alexandru',
+    party: 'Independent',
+    position: 'Director general al Administrației Piețelor Sector 5',
+    position_type: 'local_official',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Stoica Mariana',
+    party: 'Independent',
+    position: 'Director general al Centrului Cultural și de Tineret „Ștefan Iordache”',
+    position_type: 'local_official',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA a trimis-o în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Sălăvăstru Valerian',
+    party: 'Independent',
+    position: 'Director general al Direcției de Impozite și Taxe Locale Sector 5',
+    position_type: 'local_official',
+    geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
+    verified_at: '2026-05-19',
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+  },
+  {
+    name: 'Pintea Adrian',
+    party: 'PSD',
+    position: 'Secretar de stat în Ministerul Agriculturii și Dezvoltării Rurale',
+    position_type: 'secretary_of_state',
+    geography: MADR_FITOSANITAR_GEOGRAPHY,
+    crime:
+      'Instigare la abuz în serviciu cu obținere de foloase necuvenite pentru altul, în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus în mai 2026 punerea în mișcare a acțiunii penale, susținând că ar fi determinat transferul pretins nelegal al unei persoane de la Camera Deputaților la Autoritatea Națională Fitosanitară și apoi la OJF Botoșani.',
+    verified_at: '2026-05-19',
+    sources: [MADR_FITOSANITAR_DNA_SOURCE, ADRIAN_PINTEA_PARTY_SOURCE],
+  },
+  {
+    name: 'Șoldea Romeo',
+    party: 'Independent',
+    position: 'Director general al Autorității Naționale Fitosanitare',
+    position_type: 'other',
+    geography: MADR_FITOSANITAR_GEOGRAPHY,
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite pentru altul, în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA Suceava a dispus în mai 2026 punerea în mișcare a acțiunii penale, susținând că ar fi aprobat transferul și mutarea pretins nelegală a unui funcționar public în cadrul Autorității Naționale Fitosanitare.',
+    verified_at: '2026-05-19',
+    sources: [MADR_FITOSANITAR_DNA_SOURCE],
+  },
+  {
+    name: 'Popovici Florin Mădălin',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Sârbi',
+    position_type: 'local_official',
+    geography: SARBI_ISCTR_GEOGRAPHY,
+    crime:
+      'Complicitate la dare de mită; efectuare de operațiuni financiare incompatibile cu funcția publică',
+    status: 'indicted',
+    details:
+      'DNA Cluj l-a trimis în judecată în martie 2024 în dosarul ISCTR privind divulgarea de informații despre controale rutiere și protejarea unor operatori de transport.',
+    verified_at: '2026-05-19',
+    sources: [SARBI_ISCTR_DNA_SOURCE, SARBI_PARTY_SOURCE],
+  },
+  {
+    name: 'Bobeș Laura',
+    party: 'Independent',
+    position: 'Șef al Serviciului Resurse Umane din cadrul Primăriei Constanța',
+    position_type: 'local_official',
+    geography: CONSTANTA_SECRETAR_CONTEST_GEOGRAPHY,
+    crime:
+      'Folosirea de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații',
+    sentence: '1 an închisoare cu amânarea aplicării pedepsei',
+    sentence_years: 1,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Amânarea aplicării pedepsei',
+    details:
+      'Tribunalul Constanța a admis definitiv, prin neapelare în aprilie 2024, acordul de recunoaștere a vinovăției în dosarul concursului pentru funcția de secretar general al municipiului Constanța.',
+    verified_at: '2026-05-19',
+    sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
+  },
+  {
+    name: 'Călin Viorela Mirabela',
+    party: 'Independent',
+    position:
+      'Funcționar public delegat în funcția de secretar al Primăriei municipiului Constanța',
+    position_type: 'local_official',
+    geography: CONSTANTA_SECRETAR_CONTEST_GEOGRAPHY,
+    crime:
+      'Complicitate la folosirea de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații',
+    sentence: '1 an închisoare cu amânarea aplicării pedepsei',
+    sentence_years: 1,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Amânarea aplicării pedepsei',
+    details:
+      'Tribunalul Constanța a admis definitiv, prin neapelare în aprilie 2024, acordul de recunoaștere a vinovăției în dosarul concursului pentru funcția de secretar general al municipiului Constanța.',
+    verified_at: '2026-05-19',
+    sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
   },
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
