@@ -101,6 +101,12 @@ const ECONOMAT_SECTOR_5_DNA_SOURCE = {
   url: 'https://www.dna.ro/comunicat.xhtml?id=13737',
 };
 
+const ECONOMAT_SECTOR_5_PSDI_SOURCE = {
+  label: 'Tribunalul București',
+  kind: 'official',
+  url: 'https://tribunalulbucuresti.ro/images/articole/politice-partide/poz-186_martie_2019.pdf',
+};
+
 const MADR_FITOSANITAR_GEOGRAPHY = {
   county: 'București',
   basis: 'office',
@@ -13571,7 +13577,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Petre Marian-Leonard',
-    party: 'Independent',
+    party: 'PSDI',
     position: 'Director general al S.C. Economat Sector 5 S.R.L.',
     position_type: 'other',
     geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
@@ -13581,7 +13587,7 @@ export const politicianAdditions = [
     details:
       'DNA l-a trimis în judecată la 5 mai 2026 în dosarul achizițiilor pretins supraevaluate derulate prin S.C. Economat Sector 5 S.R.L., cu un prejudiciu estimat de peste 120 milioane lei.',
     verified_at: '2026-05-19',
-    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE, ECONOMAT_SECTOR_5_PSDI_SOURCE],
   },
   {
     name: 'Rămulescu Floricica-Carmen',
@@ -13625,7 +13631,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Zidărescu Loredana Ionela',
-    party: 'Independent',
+    party: 'PSDI',
     position:
       'Șef Serviciu Achiziții, ulterior director Investiții și Achiziții în cadrul S.C. Amenajare Edilitară și Salubrizare S.A.',
     position_type: 'other',
@@ -13636,7 +13642,7 @@ export const politicianAdditions = [
     details:
       'DNA a trimis-o în judecată la 5 mai 2026 în dosarul Economat Sector 5, susținând că ar fi întocmit documentații care creau aparența unor proceduri de achiziție directă offline.',
     verified_at: '2026-05-19',
-    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE, ECONOMAT_SECTOR_5_PSDI_SOURCE],
   },
   {
     name: 'Antonescu Vincențiu-Daniel',
