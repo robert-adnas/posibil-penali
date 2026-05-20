@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-19',
+  last_updated: '2026-05-20',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -161,6 +161,157 @@ const CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE = {
   kind: 'official',
   url: 'https://www.dna.ro/comunicat.xhtml?id=12331',
 };
+
+const MEDIAS_GOSCOM_GEOGRAPHY = {
+  county: 'Sibiu',
+  basis: 'office',
+  note: 'Funcția publică relevantă era în cadrul Consiliului Local al municipiului Mediaș, județul Sibiu.',
+};
+
+const MEDIAS_GOSCOM_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=5265',
+};
+
+const MEDIAS_GOSCOM_PARTY_SOURCE = {
+  label: 'Monitorul de Mediaș',
+  kind: 'press',
+  url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+};
+
+const MEDIAS_GOSCOM_ACQUITTAL_DETAILS =
+  'DNA i-a trimis în judecată în septembrie 2014 în dosarul Gospodăria Comunală Mediaș. Prin actualizarea oficială din 4 iunie 2018, DNA a consemnat că, prin decizia penală nr. 419 din 18 mai 2018, Curtea de Apel Alba a dispus achitarea definitivă, întrucât faptele nu sunt prevăzute de legea penală.';
+
+const MEDIAS_GOSCOM_STANDARD_CRIME =
+  'Abuz în serviciu cu consecințe deosebit de grave';
+
+const MEDIAS_GOSCOM_TWO_COUNTS_CRIME =
+  'Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave';
+
+const MEDIAS_GOSCOM_COUNCIL_RECORDS = [
+  {
+    name: 'Balazs Bela Atila',
+    party: 'UDMR',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Ciulea Ioan Vasile',
+    party: 'PP-DD',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Grozav Eugen',
+    party: 'PSD',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Knall Helmuth Iulius',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Lăzăroiu Ioan',
+    party: 'PP-DD',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Manta Anca Maria',
+    party: 'PSD',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Moraru Eugen',
+    party: 'PSD',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Neag Florin',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Nicorici Constantin Gheorghe',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Petrescu George Stelian',
+    party: 'PNL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Popa Ioan',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Sas Ilarie',
+    party: 'PNL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Taropa Floarea',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Toma Cosmin Lucian',
+    party: 'PNL',
+    crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+  },
+  {
+    name: 'Ciolpan Vasile',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+  },
+  {
+    name: 'Nagy Pavel',
+    party: 'PNL',
+    crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+  },
+  {
+    name: 'Pătrui Eleonora',
+    party: 'PDL',
+    crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+  },
+  {
+    name: 'Lața Ilie',
+    party: 'PSD',
+    crime:
+      'Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese',
+  },
+  {
+    name: 'Plopeanu Teodor',
+    party: 'PSD',
+    crime:
+      'Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese',
+  },
+  {
+    name: 'Marian Victor Cristian',
+    party: 'PDL',
+    crime:
+      'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit',
+  },
+  {
+    name: 'Orosz Csaba',
+    party: 'UDMR',
+    crime:
+      'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit',
+  },
+].map((record) => ({
+  ...record,
+  position: 'Consilier local în Consiliul Local al municipiului Mediaș',
+  position_type: 'local_official',
+  geography: MEDIAS_GOSCOM_GEOGRAPHY,
+  sentence: 'Achitat definitiv (2018)',
+  sentence_years: null,
+  conviction_year: null,
+  status: 'acquitted',
+  details: MEDIAS_GOSCOM_ACQUITTAL_DETAILS,
+  verified_at: '2026-05-20',
+  sources: [MEDIAS_GOSCOM_DNA_SOURCE, MEDIAS_GOSCOM_PARTY_SOURCE],
+}));
 
 const PASCANI_AGROCOMPLEX_GEOGRAPHY = {
   county: 'Iași',
@@ -13774,6 +13925,7 @@ export const politicianAdditions = [
     verified_at: '2026-05-19',
     sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
   },
+  ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
 
