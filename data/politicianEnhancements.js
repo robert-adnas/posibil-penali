@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-20',
+  last_updated: '2026-05-21',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -160,6 +160,24 @@ const CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE = {
   label: 'DNA',
   kind: 'official',
   url: 'https://www.dna.ro/comunicat.xhtml?id=12331',
+};
+
+const ANI_DEC_2024_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-3/',
+};
+
+const ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-4/',
+};
+
+const ANI_APR_2025_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/',
 };
 
 const MEDIAS_GOSCOM_GEOGRAPHY = {
@@ -13924,6 +13942,294 @@ export const politicianAdditions = [
       'Tribunalul Constanța a admis definitiv, prin neapelare în aprilie 2024, acordul de recunoaștere a vinovăției în dosarul concursului pentru funcția de secretar general al municipiului Constanța.',
     verified_at: '2026-05-19',
     sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
+  },
+  {
+    name: 'Morega Costel Cosmin',
+    party: 'PSD',
+    position: 'Primar al municipiului Motru, județul Gorj',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2024 un conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ privind indicii de folosire a funcției pentru favorizarea unor persoane, după semnarea unor autorizații de construire în 2022 și 2024.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al municipiului Motru, județul Gorj.',
+    },
+    sources: [
+      ANI_DEC_2024_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Motru',
+        kind: 'official',
+        url: 'https://primariamotru.ro/primaria/primar/',
+      },
+    ],
+  },
+  {
+    name: 'Strîmbu Florin',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Rădăuți-Prut, județul Botoșani',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, a participat la deliberarea și adoptarea unor hotărâri privind concesionarea unui teren pe care ulterior l-a contractat cu Primăria Rădăuți-Prut.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Rădăuți-Prut, județul Botoșani.',
+    },
+    sources: [
+      ANI_DEC_2024_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/1',
+      },
+    ],
+  },
+  {
+    name: 'Fugaru Ion',
+    party: 'PUSL',
+    position: 'Fost consilier local al orașului Târgu Cărbunești, județul Gorj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, societatea la care fiul său deținea funcții și calități a încheiat contracte de furnizare cu Primăria Târgu Cărbunești și cu spitalul local.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Târgu Cărbunești, județul Gorj.',
+    },
+    sources: [
+      ANI_DEC_2024_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_gorj/consiliul-local/targu-carbunesti/1',
+      },
+    ],
+  },
+  {
+    name: 'Deaconescu Marian-Viorel',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Fărcaș, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind organigrama aparatului primarului, după care a exercitat o funcție contractuală de execuție în acel aparat.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Fărcaș, județul Dolj.',
+    },
+    sources: [
+      ANI_DEC_2024_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/farcas/',
+      },
+    ],
+  },
+  {
+    name: 'Gogoi Ion',
+    party: 'PSD',
+    position: 'Consilier local al municipiului Roșiorii de Vede, județul Teleorman',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2025 că, în perioada 2 noiembrie 2022 - 24 aprilie 2024, a exercitat simultan calitatea de membru titular în Consiliul de administrație al Spitalului Municipal Caritas Roșiorii de Vede și funcții în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Roșiorii de Vede, județul Teleorman.',
+    },
+    sources: [
+      ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Roșiorii de Vede',
+        kind: 'official',
+        url: 'https://www.primariarosioriidevede.ro/ro/component/content/article/10-all/650-consiliul-local-2024-2028?Itemid=101',
+      },
+    ],
+  },
+  {
+    name: 'Lupulescu Ciprian',
+    party: 'USR',
+    position: 'Consilier local al orașului Lipova, județul Arad',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2025 că, în perioada 28 ianuarie 2021 - 9 martie 2022, a exercitat simultan funcții în Consiliul de administrație al Spitalului Orășenesc Lipova și în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Lipova, județul Arad.',
+    },
+    sources: [
+      ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/lipova/4',
+      },
+    ],
+  },
+  {
+    name: 'Chelaru Larisa Mihaela',
+    party: 'PSD',
+    position: 'Consilier local al orașului Târgu Frumos, județul Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2025 că, în mandatul de consilier local, a participat la deliberarea și adoptarea unei hotărâri privind desemnarea reprezentanților în comisia de interviu a unui concurs de recrutare, concurs la care ulterior a participat și a fost declarată admisă.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Târgu Frumos, județul Iași.',
+    },
+    sources: [
+      ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/targu-frumos/',
+      },
+    ],
+  },
+  {
+    name: 'Rusu Sorin-Ilie',
+    party: 'PNL',
+    position: 'Consilier local al comunei Mișca, județul Arad',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2025 că, în mandatul de consilier local, a participat la adoptarea unor hotărâri privind închirierea unor terenuri ale comunei Mișca, după care a încheiat contracte de închiriere și a obținut venituri APIA de 64.582,29 lei.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
+    },
+    sources: [
+      ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Comuna Mișca',
+        kind: 'official',
+        url: 'https://misca.ro/2024/11/27/componenta-consiliului-local/',
+      },
+    ],
+  },
+  {
+    name: 'Măcrineanu Ana Cornelia',
+    party: 'PNL',
+    position: 'Primar al comunei Viziru, județul Brăila',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate; conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2025 că s-a aflat în incompatibilitate în perioada 8 iulie 2021 - 3 mai 2022, iar anterior constatase și un conflict de interese administrativ legat de emiterea unei dispoziții prin care a beneficiat de o sumă acordată unor angajați ai aparatului de specialitate.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Viziru, județul Brăila.',
+    },
+    sources: [
+      ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Pro Brăila',
+        kind: 'press',
+        url: 'https://probr.ro/pnl-braila-are-incepand-de-astazi-doi-deputati-prin-venirea-deputatului-george-paladi-iar-doi-primari-alesi-pe-listele-psd-au-anuntat-ca-vor-candida-din-partea-liberalilor-in-2024/',
+      },
+    ],
+  },
+  {
+    name: 'Bobârnat Radu',
+    party: 'PNL',
+    position: 'Consilier local al municipiului Huși, județul Vaslui',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2025 că, în două intervale din 2024, a exercitat simultan calitatea de membru în Consiliul de administrație al Spitalului Municipal Dimitrie Castroian Huși și calitatea de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Huși, județul Vaslui.',
+    },
+    sources: [
+      ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Vremea Nouă',
+        kind: 'press',
+        url: 'https://www.vremeanoua.ro/social-democratii-de-la-husi-si-au-completat-cu-supleanti-mandatele-din-noul-consiliu-local/',
+      },
+    ],
+  },
+  {
+    name: 'Damian Constantin',
+    party: 'PSD',
+    position: 'Consilier local al comunei Agăș, județul Bacău',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2025 că, în mandatul de consilier local, Primăria Agăș a încheiat două contracte cu societatea comercială în care persoana evaluată deține calitatea de asociat unic și administrator.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Agăș, județul Bacău.',
+    },
+    sources: [
+      ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_bacau/consiliul-local/agas/',
+      },
+    ],
+  },
+  {
+    name: 'Pușcă Vasile',
+    party: 'PNL',
+    position: 'Consilier local și fost primar al comunei Valea Lungă, județul Alba',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2025 că, în mandatul de consilier local, a inițiat și a participat la adoptarea unei hotărâri privind denunțarea unui contract de asistență juridică, hotărâre care putea produce un folos material pentru sine.',
+    verified_at: '2026-05-21',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Valea Lungă, județul Alba.',
+    },
+    sources: [
+      ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/valea-lunga/',
+      },
+    ],
   },
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
