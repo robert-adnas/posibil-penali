@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-21',
+  last_updated: '2026-05-22',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -178,6 +178,30 @@ const ANI_APR_2025_LOCAL_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/',
+};
+
+const ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-11-persoane/',
+};
+
+const ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-4/',
+};
+
+const ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/',
 };
 
 const MEDIAS_GOSCOM_GEOGRAPHY = {
@@ -14228,6 +14252,389 @@ export const politicianAdditions = [
         label: 'Ziare.com',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/valea-lunga/',
+      },
+    ],
+  },
+  {
+    name: 'Miclău Cristian',
+    party: 'PNL',
+    position: 'Fost primar al orașului Băile Herculane, județul Caraș-Severin',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2025 Parchetul de pe lângă Tribunalul Caraș-Severin, susținând că, în mandatul de primar, ar fi inițiat și susținut acte prin care orașul nu și-a exercitat dreptul de preempțiune asupra unui imobil monument istoric cumpărat ulterior de părinții săi.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al orașului Băile Herculane, județul Caraș-Severin.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Băile-Herculane',
+        kind: 'official',
+        url: 'https://primaria.baile-herculane.ro/administratie/primaria/',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2025/12/10/fost-primar-din-baile-herculane-reclamat-la-parchet-pentru-ca-si-a-favorizat-parintii-in-afaceri-imo--1510621',
+      },
+    ],
+  },
+  {
+    name: 'Popa Gabriel',
+    party: 'PNL',
+    position: 'Primar al comunei Albeștii de Argeș, județul Argeș',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, ar fi emis trei acte administrative prin care primăria a achiziționat servicii de găzduire pentru site-ul său personal, în valoare de 1.500 lei.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Albeștii de Argeș, județul Argeș.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/web/albestii-de-arges/prezentare',
+      },
+      {
+        label: 'Ziarul Argeșul',
+        kind: 'press',
+        url: 'https://ziarulargesul.ro/rezultate-finale-harta-alegerilor-in-arges/',
+      },
+    ],
+  },
+  {
+    name: 'Botu Daniela',
+    party: 'USR',
+    position: 'Consilier local al comunei Sadova, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 18 decembrie 2024 - 26 septembrie 2025, ar fi exercitat simultan funcția de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Sadova.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier local al comunei Sadova, județul Dolj.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Sadova',
+        kind: 'official',
+        url: 'https://www.primariasadova.ro/autoritatile-publice-locale/consiliul-local/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_dolj/consiliul-local/sadova/1',
+      },
+    ],
+  },
+  {
+    name: 'Márton János',
+    party: 'UDMR',
+    position: 'Fost consilier local al comunei Zagon, județul Covasna',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, ar fi exercitat simultan funcția de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Zagon.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Zagon, județul Covasna.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Comuna Zagon',
+        kind: 'official',
+        url: 'https://comunazagon.info/index.php/hu/helyi-tanacs/a-helyi-tanacs-osszetetele',
+      },
+    ],
+  },
+  {
+    name: 'Enescu Răzvan',
+    party: 'USR',
+    position:
+      'Reprezentant al Consiliului Local Ploiești în Consiliul de administrație al Spitalului de Pediatrie Ploiești',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în perioada 27 iulie 2024 - 21 februarie 2025, ar fi exercitat simultan calitatea de membru în Consiliul de administrație al Spitalului de Pediatrie Ploiești și o funcție de conducere în cadrul unui partid politic - filiala Prahova.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local al municipiului Ploiești, județul Prahova.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Ploiești',
+        kind: 'official',
+        url: 'https://ploiesti.ro/administratie/consiliul-local/consilieri-locali/',
+      },
+    ],
+  },
+  {
+    name: 'Petruț Țiculescu Silvian-Cătălin',
+    party: 'PNL',
+    position:
+      'Reprezentant al Consiliului Local Târgu Lăpuș în Consiliul de administrație al Spitalului Orășenesc Târgu Lăpuș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în perioada 22 decembrie 2022 - 22 decembrie 2025, ar fi exercitat simultan calitatea de membru în Consiliul de administrație al spitalului și funcția de membru în biroul politic local al PNL Târgu Lăpuș.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local al orașului Târgu Lăpuș, județul Maramureș.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Maramureș NonStop',
+        kind: 'press',
+        url: 'https://maramuresnonstop.ro/doi-maramureseni-vizati-de-ani-pentru-incompatibilitate-gabriel-stetco-pnl-pe-lista-agentiei/',
+      },
+    ],
+  },
+  {
+    name: 'Ștețco Gabriel Bogdan',
+    party: 'PNL',
+    position:
+      'Reprezentant al Consiliului Județean Maramureș în Consiliul de administrație al Spitalului Județean de Urgență Baia Mare',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în perioada 28 mai 2021 - 30 august 2023, ar fi exercitat simultan calitatea de membru titular în Consiliul de administrație al spitalului și funcția de președinte al organizației de tineret a unui partid politic din județul Maramureș.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Județean Maramureș.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Consiliul Județean Maramureș',
+        kind: 'official',
+        url: 'https://www.cjmaramures.ro/judetul-maramures/turism/hotararea-nr-124-din-24-04-2025',
+      },
+      {
+        label: 'Gazeta de Maramureș',
+        kind: 'press',
+        url: 'https://www.gazetademaramures.ro/judetul-maramures-da-un-secretar-de-stat-in-ministerul-economiei-28143',
+      },
+    ],
+  },
+  {
+    name: 'Ilea Sorin',
+    party: 'PSD',
+    position:
+      'Reprezentant al Consiliului Local Hunedoara în Consiliul de administrație al Spitalului Municipal Dr. Alexandru Simionescu Hunedoara',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, începând cu 19 august 2022, ar fi exercitat simultan funcția de membru în Consiliul de administrație al spitalului și o funcție de conducere într-o organizație locală a unui partid politic.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local al municipiului Hunedoara, județul Hunedoara.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Hunedoara',
+        kind: 'official',
+        url: 'https://www.primariahunedoara.ro/ro/pagina/consiliul-local/componenta-consiliului-local',
+      },
+      {
+        label: 'Spitalul Municipal Hunedoara',
+        kind: 'official',
+        url: 'https://www.sphd.ro/conducere',
+      },
+    ],
+  },
+  {
+    name: 'Oltean Dorel',
+    party: 'PMP',
+    position:
+      'Fost reprezentant al Consiliului Local Năsăud în Consiliul de administrație al Spitalului Orășenesc Dr. George Trifon Năsăud',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în perioada 25 noiembrie 2021 - 18 martie 2024, ar fi deținut simultan calitatea de membru supleant în Consiliul de administrație al spitalului și o funcție de conducere într-o organizație locală a unui partid politic.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local al orașului Năsăud, județul Bistrița-Năsăud.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Spitalul Năsăud',
+        kind: 'official',
+        url: 'https://spitalnasaud.ro/?page_id=4121',
+      },
+      {
+        label: 'Gazeta de Bistrița',
+        kind: 'press',
+        url: 'https://gazetadebistrita.ro/dorel-oltean-a-lasat-alde-pentru-pmp-mare-parte-din-organizatia-locala-nasaudeana-il-urmeaza/',
+      },
+    ],
+  },
+  {
+    name: 'Simionescu Radu-Alexandru',
+    party: 'PNL',
+    position:
+      'Fost membru în Consiliul de administrație al Spitalului de Pediatrie Ploiești',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2026 că, în perioada 28 februarie 2024 - 27 noiembrie 2024, ar fi exercitat simultan calitatea de membru în Consiliul de administrație al Spitalului de Pediatrie Ploiești și funcții de conducere în structuri politice locale, județene și naționale.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Spitalul de Pediatrie Ploiești, județul Prahova.',
+    },
+    sources: [
+      ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Telegrama',
+        kind: 'press',
+        url: 'https://telegrama.ro/article/fost-consilier-local-din-ploiesti-declarat-incompatibil-de-ani',
+      },
+    ],
+  },
+  {
+    name: 'Furtună Dan Gabriel',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Tătăranu, județul Vrancea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2026 că, în mandatul 2020-2024, societatea comercială pe care o administra și care fusese înființată de Consiliul Local Tătăranu ar fi încheiat două contracte de prestări servicii cu UAT Comuna Tătăranu, în valoare totală de 2.222.197,28 lei.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Tătăranu, județul Vrancea.',
+    },
+    sources: [
+      ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/cat-costa-o-zi-la-coasa-in-2023-la-claca-pe-filiera-de-partid-cu-bani-de-la-bugetul-de-stat-2457345',
+      },
+    ],
+  },
+  {
+    name: 'Dudilă Marius',
+    party: 'PSD',
+    position:
+      'Administrator public al orașului Luduș și fost membru titular în Consiliul de administrație al Spitalului Orășenesc Dr. Valer Russu Luduș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2026 că, în perioada 31 ianuarie 2023 - 14 iulie 2025, ar fi deținut simultan funcția de membru în Consiliul de administrație al spitalului și funcția de secretar executiv al organizației PSD Luduș.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de administrator public al orașului Luduș, județul Mureș.',
+    },
+    sources: [
+      ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Spitalul Orășenesc Luduș',
+        kind: 'official',
+        url: 'https://spital-ludus.ro/organizare/consiliul-de-administratie/',
+      },
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2022/11/14/cristian-moldovan-psd-promite-continuarea-reformelor-in-ludus/',
+      },
+    ],
+  },
+  {
+    name: 'Drăniceanu Daniel',
+    party: 'PSD',
+    position: 'Fost consilier local al municipiului Tulcea, județul Tulcea',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în mandatul 2020-2024, ar fi participat la adoptarea a două hotărâri ale Consiliului Local Tulcea privind finanțarea prin PNRR a reabilitării energetice a unor blocuri administrate de o asociație al cărei președinte era.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tulcea, județul Tulcea.',
+    },
+    sources: [
+      ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Tulcea',
+        kind: 'official',
+        url: 'https://www.primariatulcea.ro/declaratii-de-avere-si-interese-3/',
+      },
+      {
+        label: 'InfoTulcea',
+        kind: 'press',
+        url: 'https://infotulcea.ro/simulare-grafica-structura-consiliului-local-tulcea/',
+      },
+    ],
+  },
+  {
+    name: 'Grama Eduard',
+    party: 'PSD',
+    position: 'Membru în Consiliul de administrație al Spitalului de Pneumoftiziologie Călărași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2026 că, în perioada 16 septembrie 2022 - 14 iunie 2023, ar fi deținut simultan calitatea de membru în Consiliul de administrație al Spitalului de Pneumoftiziologie Călărași și funcția de vicepreședinte în Biroul permanent județean al unui partid politic.',
+    verified_at: '2026-05-22',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului de Pneumoftiziologie Călărași.',
+    },
+    sources: [
+      ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'CălărașiPress',
+        kind: 'press',
+        url: 'https://calarasipress.ro/video-eduard-grama-il-catalogheaza-pe-vasile-iliuta-drept-cel-mai-vanat-politician/',
       },
     ],
   },
