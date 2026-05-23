@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-22',
+  last_updated: '2026-05-23',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -203,6 +203,325 @@ const ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE = {
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/',
 };
+
+const ANI_DEC_2025_AGERPRES_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/comunicate/2025/12/10/comunicat-de-presa---agentia-nationala-de-integritate--1510612',
+};
+
+const ANI_MAY_2026_AGERPRES_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/comunicate/2026/05/04/comunicat-de-presa---agentia-nationala-de-integritate--1552410',
+};
+
+const DOGARU_TATIANA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/dobresti/9',
+};
+
+const HANTASCU_FLORIN_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/zamostea/',
+};
+
+const ALBU_IOAN_AUGUSTIN_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_sibiu/consiliul-local/rasinari/',
+};
+
+const RUS_DAN_DORUL_PARTY_SOURCE = {
+  label: 'Zi de Zi',
+  kind: 'press',
+  url: 'https://www.zi-de-zi.ro/2023/12/13/sediu-nou-pentru-aur-reghin/',
+};
+
+const ANI_DEC_2025_ADDITIONAL_RECORDS = [
+  {
+    name: 'Serea St\u0103nica',
+    party: 'Independent',
+    position: 'Func\u021bionar public in cadrul Prim\u0103riei Comunei M\u0103ic\u0103ne\u0219ti, jude\u021bul Vrancea',
+    position_type: 'local_official',
+    crime: 'Folosirea func\u021biei pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat in decembrie 2025 Parchetul de pe l\u00e2ng\u0103 Tribunalul Vrancea, sus\u021bin\u00e2nd c\u0103 ar fi semnat documente care au stat la baza unor achizi\u021bii directe c\u0103tre o societate administrat\u0103 de so\u021bul s\u0103u.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Prim\u0103riei Comunei M\u0103ic\u0103ne\u0219ti, jude\u021bul Vrancea.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Dogaru Tatiana Mioara',
+    party: 'PSD',
+    position: 'Consilier local in Consiliul Local al comunei Dobre\u0219ti, jude\u021bul Arge\u0219',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, de\u0219i avea un interes personal, a participat la deliberarea \u0219i adoptarea hot\u0103r\u00e2rii prin care cabinetul medical individual la care lucra era scutit de taxe \u0219i impozite.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Arge\u0219',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local al comunei Dobre\u0219ti, jude\u021bul Arge\u0219.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      ANI_DEC_2025_AGERPRES_SOURCE,
+      DOGARU_TATIANA_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'H\u0103n\u021b\u0103scu Florin',
+    party: 'PNL',
+    position: 'Consilier local in Consiliul Local al comunei Zamostea, jude\u021bul Suceava',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103 a participat la deliberarea \u0219i votul asupra unei hot\u0103r\u00e2ri privind asisten\u021ba juridic\u0103 pentru Comisia de Fond Funciar Zamostea, in contextul in care so\u021bia sa figura ca mandatar al unuia dintre reclaman\u021bi.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local al comunei Zamostea, jude\u021bul Suceava.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      ANI_DEC_2025_AGERPRES_SOURCE,
+      HANTASCU_FLORIN_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Is\u0103rescu Lumini\u021ba',
+    party: 'Independent',
+    position: 'Fost agent \u0219ef de poli\u021bie in cadrul Poli\u021biei Municipiului Dr\u0103g\u0103\u0219ani, jude\u021bul V\u00e2lcea',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 7 septembrie 2021 - 25 septembrie 2022, ar fi exercitat simultan func\u021bia public\u0103 cu statut special de organ de cercetare al poli\u021biei judiciare \u0219i o func\u021bie in sistemul privat.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Poli\u021biei Municipiului Dr\u0103g\u0103\u0219ani, jude\u021bul V\u00e2lcea.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Albu Sorin',
+    party: 'Independent',
+    position: 'Agent \u0219ef de poli\u021bie in cadrul Inspectoratului de Poli\u021bie Jude\u021bean Ilfov',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 15 februarie 2022 - 2 iunie 2025, ar fi exercitat simultan func\u021bia public\u0103 cu statut special \u0219i o alt\u0103 func\u021bie in sistemul privat.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Inspectoratului de Poli\u021bie Jude\u021bean Ilfov.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Albulescu Gabriel',
+    party: 'Independent',
+    position: 'Agent de poli\u021bie in cadrul Poli\u021biei Municipiului Mangalia, jude\u021bul Constan\u021ba',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 11 februarie 2020 - 28 martie 2025, ar fi de\u021binut simultan func\u021bia public\u0103 cu statut special de organ de cercetare penal\u0103 al poli\u021biei judiciare \u0219i calitatea de persoan\u0103 fizic\u0103 autorizat\u0103 in propriul PFA.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Poli\u021biei Municipiului Mangalia, jude\u021bul Constan\u021ba.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Albu Ioan-Augustin',
+    party: 'PSD',
+    position:
+      'Func\u021bionar public in Direc\u021bia Sanitar\u0103 Veterinar\u0103 \u0219i pentru Siguran\u021ba Alimentelor Sibiu; candidat la Consiliul Local R\u0103\u0219inari',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in timpul exercit\u0103rii func\u021biei publice, a candidat la alegerile locale din 2024 pentru func\u021bia de consilier local f\u0103r\u0103 suspendarea raportului de serviciu pe durata campaniei electorale.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul DSVSA Sibiu; candidatura local\u0103 era pentru Consiliul Local R\u0103\u0219inari, jude\u021bul Sibiu.',
+    },
+    sources: [
+      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
+      ANI_DEC_2025_AGERPRES_SOURCE,
+      ALBU_IOAN_AUGUSTIN_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Pavel Daniel-Mihai',
+    party: 'Independent',
+    position:
+      'Consilier in Ministerul Investi\u021biilor \u0219i Proiectelor Europene; pre\u0219edinte \u0219i vicepre\u0219edinte A.N.D.I.S.',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 20 ianuarie 2025 - 20 octombrie 2025, ar fi exercitat simultan func\u021bia public\u0103 de consilier in MIPE \u0219i func\u021bii de conducere in Agen\u021bia Na\u021bional\u0103 pentru Dezvoltarea Infrastructurii in S\u0103n\u0103tate.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul MIPE \u0219i A.N.D.I.S., institu\u021bii centrale cu sediul in Bucure\u0219ti.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Dunca Felicia Ancu\u021ba',
+    party: 'Independent',
+    position: 'Consilier juridic in cadrul Prim\u0103riei Sectorului 1 Bucure\u0219ti',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 2 iunie 2021 - 16 mai 2022, ar fi exercitat simultan func\u021bia public\u0103 \u0219i o func\u021bie in sectorul privat, cu atribu\u021bii legate direct sau indirect de cele exercitate ca func\u021bionar public.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Prim\u0103riei Sectorului 1 Bucure\u0219ti.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Dobre Daniel Eugen',
+    party: 'Independent',
+    position:
+      'Func\u021bionar public in Consiliul Jude\u021bean Ilfov \u0219i fost func\u021bionar public in Prim\u0103ria Comunei Mogo\u0219oaia',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2025 c\u0103, in perioada 25 ianuarie 2022 - 15 iunie 2023, ar fi de\u021binut simultan func\u021bia public\u0103 in aparatul primarului comunei Mogo\u0219oaia \u0219i func\u021bia de administrator public al aceleia\u0219i comune.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021biile publice relevante erau in Consiliul Jude\u021bean Ilfov \u0219i Prim\u0103ria Comunei Mogo\u0219oaia, jude\u021bul Ilfov.',
+    },
+    sources: [ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE, ANI_DEC_2025_AGERPRES_SOURCE],
+  },
+];
+
+const ANI_MAY_2026_ADDITIONAL_RECORDS = [
+  {
+    name: 'Ad\u0103sc\u0103li\u021b\u0103 Adelina',
+    party: 'Independent',
+    position: 'Fost director medical interimar al Spitalului Municipal Olteni\u021ba, jude\u021bul C\u0103l\u0103ra\u0219i',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 c\u0103, in perioada 1 martie - 20 iunie 2023, ar fi exercitat simultan func\u021bia de director medical interimar al spitalului \u0219i func\u021bia de administrator al propriului cabinet medical.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'C\u0103l\u0103ra\u0219i',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Spitalului Municipal Olteni\u021ba, jude\u021bul C\u0103l\u0103ra\u0219i.',
+    },
+    sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Rus Dan Dorul',
+    party: 'AUR',
+    position:
+      'Fost reprezentant al Consiliului Local Reghin in Consiliul de administra\u021bie al Spitalului Municipal Dr. Eugen Nicoar\u0103 Reghin',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 c\u0103, in perioada 25 noiembrie 2020 - 27 octombrie 2023, ar fi exercitat simultan calitatea de membru permanent in consiliul de administra\u021bie al spitalului \u0219i o func\u021bie interimar\u0103 de conducere intr-un partid politic din filiala Mure\u0219.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era legat\u0103 de Consiliul Local Reghin \u0219i Spitalul Municipal Dr. Eugen Nicoar\u0103 Reghin, jude\u021bul Mure\u0219.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      ANI_MAY_2026_AGERPRES_SOURCE,
+      RUS_DAN_DORUL_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Petre Adina Mihaela',
+    party: 'Independent',
+    position:
+      'Fost \u0219ef al Biroului de Colectare \u0219i Executare Silit\u0103 din Serviciul Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 c\u0103, in perioada 7 martie 2022 - 10 aprilie 2024, ar fi fost in raport ierarhic direct cu so\u021bul s\u0103u, func\u021bionar public de execu\u021bie in cadrul aceluia\u0219i birou.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Serviciului Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti, jude\u021bul Prahova.',
+    },
+    sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Petre Ion',
+    party: 'Independent',
+    position:
+      'Inspector in Biroul de Colectare \u0219i Executare Silit\u0103 din Serviciul Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 c\u0103, in perioada 7 martie 2022 - 10 aprilie 2024, ar fi fost in raport ierarhic direct de subordonare fa\u021b\u0103 de so\u021bia sa, \u0219ef al Biroului de colectare \u0219i executare silit\u0103.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Serviciului Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti, jude\u021bul Prahova.',
+    },
+    sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+  {
+    name: 'Ioana Neagoe',
+    party: 'Independent',
+    position: 'Fost func\u021bionar public de execu\u021bie in cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 c\u0103, in perioada 5 ianuarie - 2 mai 2023, ar fi exercitat simultan func\u021bia public\u0103 \u0219i o func\u021bie in sectorul privat, cu atribu\u021bii legate direct sau indirect de cele de func\u021bionar public.',
+    verified_at: '2026-05-23',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea.',
+    },
+    sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+];
 
 const MEDIAS_GOSCOM_GEOGRAPHY = {
   county: 'Sibiu',
@@ -14638,6 +14957,8 @@ export const politicianAdditions = [
       },
     ],
   },
+  ...ANI_DEC_2025_ADDITIONAL_RECORDS,
+  ...ANI_MAY_2026_ADDITIONAL_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
