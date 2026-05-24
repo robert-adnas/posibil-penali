@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-23',
+  last_updated: '2026-05-24',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -239,6 +239,285 @@ const RUS_DAN_DORUL_PARTY_SOURCE = {
   kind: 'press',
   url: 'https://www.zi-de-zi.ro/2023/12/13/sediu-nou-pentru-aur-reghin/',
 };
+
+const ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-13-alesi-locali-2/',
+};
+
+const BREASTA_VIZITIU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_dolj/primarie/breasta/',
+};
+
+const NUFARU_SOLOMENCU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_tulcea/primarie/nufaru/',
+};
+
+const CHIUIESTI_MIHUT_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_cluj/primarie/chiuiesti/',
+};
+
+const SARMIZEGETUSA_HIBAIS_PARTY_SOURCE = {
+  label: 'Comuna Sarmizegetusa',
+  kind: 'official',
+  url: 'https://comuna-sarmizegetusa.ro/wp-content/uploads/2024/10/sentinta-validare-consilieri-locali-2024-2028.pdf',
+};
+
+const CARTA_CANDULETIU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_sibiu/primarie/carta/',
+};
+
+const CELARU_COUNCIL_PARTY_SOURCE = {
+  label: 'Primăria Celaru',
+  kind: 'official',
+  url: 'https://www.primariacelarudolj.ro/consilieri/',
+};
+
+const NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE = {
+  label: 'Primăria Nicolae Bălcescu',
+  kind: 'official',
+  url: 'https://www.primarianicolaebalcescu.ro/despre-institutie/consiliul-local/',
+};
+
+const COCORA_LUNGU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/cocora/',
+};
+
+const PODENII_NOI_COUNCIL_PARTY_SOURCE = {
+  label: 'Primăria Podenii Noi',
+  kind: 'official',
+  url: 'https://primariapodeniinoi.ro/componenta-consiliului-local/',
+};
+
+const RADAUTI_PRUT_COUNCIL_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/2',
+};
+
+const RODNA_COUNCIL_PARTY_SOURCE = {
+  label: 'Comuna Rodna',
+  kind: 'official',
+  url: 'https://comunarodna.ro/consiliul-local-rodna/rapoarte-de-activitate-ale-consiliului-local.html',
+};
+
+const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Vizitiu Ion',
+    party: 'PSD',
+    position: 'Primar al comunei Breasta, județul Dolj',
+    position_type: 'mayor',
+    crime: 'Avere nejustificată; fals în declarații (sesizare parchet)',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 o diferență nejustificată de 114.540 lei între averea dobândită și veniturile realizate în mandatul de primar 2016-2020 și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind venituri din jocuri de noroc nedeclarate.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Breasta, județul Dolj.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, BREASTA_VIZITIU_PARTY_SOURCE],
+  },
+  {
+    name: 'Solomencu Ciprian',
+    party: 'PSD',
+    position: 'Primar al comunei Nufăru, județul Tulcea',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de primar început în 2020, ar fi încheiat două acte juridice care au produs un folos material pentru soția sa, constând în încasarea de subvenții în calitate de persoană fizică autorizată.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Nufăru, județul Tulcea.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, NUFARU_SOLOMENCU_PARTY_SOURCE],
+  },
+  {
+    name: 'Mihuț Gavril',
+    party: 'PNL',
+    position: 'Primar al comunei Chiuiești, județul Cluj',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de primar început în 2020, ar fi emis acte administrative care au produs un folos material pentru fiul său, prin achiziții directe ale primăriei de la societatea acestuia în valoare de 14.440,03 lei.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Chiuiești, județul Cluj.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CHIUIESTI_MIHUT_PARTY_SOURCE],
+  },
+  {
+    name: 'Hibais Leontin Dorin',
+    party: 'PNL',
+    position: 'Primar și fost viceprimar al comunei Sarmizegetusa, județul Hunedoara',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în perioada exercitării mandatului de viceprimar, societatea comercială în care soția sa era asociat unic și administrator ar fi încheiat două contracte de prestări servicii, de 6.664 lei, cu Școala Gimnazială Sarmizegetusa.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă este legată de comuna Sarmizegetusa, județul Hunedoara.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, SARMIZEGETUSA_HIBAIS_PARTY_SOURCE],
+  },
+  {
+    name: 'Cândulețiu Daniel',
+    party: 'PNL',
+    position: 'Primar al comunei Cârța, județul Sibiu',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în perioada 22 octombrie 2020 - 2 noiembrie 2021, ar fi exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Cârța, județul Sibiu.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CARTA_CANDULETIU_PARTY_SOURCE],
+  },
+  {
+    name: 'Mincan Marin',
+    party: 'PNL',
+    position: 'Consilier local al comunei Celaru, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în perioada 30 iunie 2016 - 31 decembrie 2022, Primăria Celaru și Consiliul Local Celaru ar fi încheiat achiziții directe de 622.587,71 lei cu societatea comercială în cadrul căreia persoana evaluată deținea funcția de director.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Celaru, județul Dolj.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CELARU_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Popescu Ionuț-Gabriel',
+    party: 'PSD',
+    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la adoptarea unor hotărâri privind prelungirea contractelor de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, persoana evaluată fiind beneficiar direct.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Nicolae Bălcescu, județul Călărași.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Teodorescu Sergiu',
+    party: 'PSD',
+    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la adoptarea unei hotărâri privind prelungirea unor contracte de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, tatăl său fiind beneficiar direct.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Nicolae Bălcescu, județul Călărași.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Lungu Victor',
+    party: 'PNL',
+    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local, ar fi participat la adoptarea unei hotărâri privind inițierea procedurii de închiriere a unor terenuri comunale, iar ulterior atât persoana evaluată, cât și fratele său au încheiat contracte de închiriere cu comuna.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE],
+  },
+  {
+    name: 'Mareș Florin',
+    party: 'PNL',
+    position: 'Consilier local al comunei Podenii Noi, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, societatea comercială a soției sale ar fi încheiat un contract de prestări servicii și un act adițional cu Școala Gimnazială Comuna Podenii Noi, entitate aflată în subordinea UAT Podenii Noi.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Podenii Noi, județul Prahova.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, PODENII_NOI_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Hrițcușoru Fănică',
+    party: 'PNL',
+    position: 'Consilier local al comunei Rădăuți-Prut, județul Botoșani',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în calitate de consilier local, ar fi participat la adoptarea hotărârii din 31 martie 2021 privind prelungirea unor contracte de concesiune, iar ulterior a încheiat un act adițional la contractul său de concesiune din 2016.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Rădăuți-Prut, județul Botoșani.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, RADAUTI_PRUT_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Culcă Istrate',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Rodna, județul Bistrița-Năsăud',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local 2016-2020, societatea comercială în cadrul căreia soția sa deținea funcția de director economic ar fi încheiat cu Primăria Rodna un contract de prestări servicii în baza căruia a încasat 21.420 lei.',
+    verified_at: '2026-05-24',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Rodna, județul Bistrița-Năsăud.',
+    },
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, RODNA_COUNCIL_PARTY_SOURCE],
+  },
+];
 
 const ANI_DEC_2025_ADDITIONAL_RECORDS = [
   {
@@ -14959,6 +15238,7 @@ export const politicianAdditions = [
   },
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
+  ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
