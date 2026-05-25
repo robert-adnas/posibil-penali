@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-24',
+  last_updated: '2026-05-25',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -244,6 +244,90 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-13-alesi-locali-2/',
+};
+
+const ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-16-alesi-locali/',
+};
+
+const ANI_MAY_2022_AGERPRES_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/justitie/2022/05/17/ani-16-alesi-locali-in-stare-de-incompatibilitate-sau-conflict-de-interese--919211',
+};
+
+const CIOCANESTI_PAVEL_PARTY_SOURCE = {
+  label: 'Primaria Ciocanesti',
+  kind: 'official',
+  url: 'https://primaria-ciocanesti.ro/index.php/despre-institutie/legislatie/54-despre-comuna/date-geografice/161-date-geografice',
+};
+
+const MILCOVUL_COUNCIL_PARTY_SOURCE = {
+  label: 'Primaria Milcovul',
+  kind: 'official',
+  url: 'https://www.primariamilcovul.ro/conducere',
+};
+
+const AMARA_DANIEL_MIHAI_PARTY_SOURCE = {
+  label: 'Independent',
+  kind: 'press',
+  url: 'https://www.independentonline.ro/?articles_page=228&cele_mai_citite=%25253Fpagina%25253D5&news_page=349',
+};
+
+const TOMUS_DOREL_PARTY_SOURCE = {
+  label: 'Consiliul Judetean Alba',
+  kind: 'official',
+  url: 'https://www.staging.cjalba.ro/wp-content/uploads/2019/03/PH28.03.2019.pdf',
+};
+
+const CARANSEBES_DRAGOMIR_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/caransebes/',
+};
+
+const MOLDOVA_NOUA_CARPIAN_PARTY_SOURCE = {
+  label: 'Reper24',
+  kind: 'press',
+  url: 'https://arhiva.reper24.ro/lupta-intensa-pentru-primaria-moldova-noua-vezi-listele-complete-pentru-primarie-si-consiliu-local/',
+};
+
+const BARCA_TURCULEANU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/barca/19',
+};
+
+const RODNA_BOLDIS_PARTY_SOURCE = {
+  label: 'Comuna Rodna',
+  kind: 'official',
+  url: 'https://comunarodna.ro/consiliul-local-rodna/rapoarte-de-activitate-ale-consiliului-local.html',
+};
+
+const HODAC_FARCAS_PARTY_SOURCE = {
+  label: 'Zi de Zi',
+  kind: 'press',
+  url: 'https://www.zi-de-zi.ro/2021/01/14/conducerea-comunei-hodac-in-formula-completa-ioan-feier-ales-viceprimar/',
+};
+
+const COCORA_TOADER_PARTY_SOURCE = {
+  label: 'Comuna Cocora',
+  kind: 'official',
+  url: 'https://comunacocora.ro/componenta_cl.html',
+};
+
+const HALCHIU_DRUGAN_NECULA_PARTY_SOURCE = {
+  label: 'Stirile ProTV',
+  kind: 'press',
+  url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+};
+
+const TECUCI_MARTIN_PARTY_SOURCE = {
+  label: 'Primaria Tecuci',
+  kind: 'official',
+  url: 'https://primariatecuci.ro/wp-content/uploads/2025/09/Statutul-Municipiului-Tecuci.pdf',
 };
 
 const BREASTA_VIZITIU_PARTY_SOURCE = {
@@ -516,6 +600,230 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Rodna, județul Bistrița-Năsăud.',
     },
     sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, RODNA_COUNCIL_PARTY_SOURCE],
+  },
+];
+
+const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Pavel Petre',
+    party: 'PNL',
+    position: 'Fost primar al comunei Ciocănești, județul Călărași',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în perioada 28 iunie 2016 - 15 octombrie 2020, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Ciocănești, județul Călărași.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, CIOCANESTI_PAVEL_PARTY_SOURCE],
+  },
+  {
+    name: 'Cernica Costică',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Milcovul, județul Vrancea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în perioada 3 noiembrie 2020 - 15 februarie 2021, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Milcovul, județul Vrancea.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, MILCOVUL_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Mihai Daniel Ionuț',
+    party: 'PSD',
+    position: 'Fost viceprimar al orașului Amara, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în perioada 30 iulie - 28 noiembrie 2019, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al orașului Amara, județul Ialomița.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, AMARA_DANIEL_MIHAI_PARTY_SOURCE],
+  },
+  {
+    name: 'Tomuș Dorel',
+    party: 'PSD',
+    position: 'Fost consilier județean în Consiliul Județean Alba',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în perioada 9 iulie 2018 - 28 martie 2019, a deținut simultan mandatul de consilier județean și funcția de director general sau director general adjunct într-o societate comercială cu acționar unic Ministerul Economiei.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de consilier județean în Consiliul Județean Alba.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, TOMUS_DOREL_PARTY_SOURCE],
+  },
+  {
+    name: 'Dragomir Cristian Eugen',
+    party: 'PNL',
+    position: 'Consilier local al municipiului Caransebeș, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind darea în folosință gratuită a unui teren către clubul sportiv în cadrul căruia deținea o funcție contractuală și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii privind folosirea funcției pentru favorizarea unor persoane.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Caransebeș, județul Caraș-Severin.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, CARANSEBES_DRAGOMIR_PARTY_SOURCE],
+  },
+  {
+    name: 'Cârpian Ion',
+    party: 'UNPR',
+    position: 'Fost consilier local al orașului Moldova Nouă, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea a două hotărâri ale Consiliului Local Moldova Nouă privind activitatea Ocolului Silvic Moldova Nouă, în timp ce deținea funcții de șef district și șef ocol în cadrul acelui ocol.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Moldova Nouă, județul Caraș-Severin.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, MOLDOVA_NOUA_CARPIAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Turculeanu Constantin',
+    party: 'PSD',
+    position: 'Consilier local al comunei Bârca, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, societatea comercială administrată de fiul său a încheiat un contract de prestări servicii cu Primăria comunei Bârca.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Bârca, județul Dolj.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, BARCA_TURCULEANU_PARTY_SOURCE],
+  },
+  {
+    name: 'Boldiș Cornelia Alexandra',
+    party: 'USR',
+    position: 'Consilier local al comunei Rodna, județul Bistrița-Năsăud',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind taxe speciale în comuna Rodna, inclusiv taxa pentru terenul sintetic de la plata căreia erau exceptați sportivii legitimați la cluburi locale, deși soțul său era legitimat la un club sportiv din comună.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Rodna, județul Bistrița-Năsăud.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, RODNA_BOLDIS_PARTY_SOURCE],
+  },
+  {
+    name: 'Fărcaș Nicolae',
+    party: 'PSD',
+    position: 'Consilier local al comunei Hodac, județul Mureș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la acte administrative privind atribuirea directă a pășunilor proprietate privată ale comunei Hodac, care puteau produce folos material pentru fiul său, și a sesizat Parchetul de pe lângă ÎCCJ.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hodac, județul Mureș.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HODAC_FARCAS_PARTY_SOURCE],
+  },
+  {
+    name: 'Toader Vasile',
+    party: 'PSD',
+    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul 2020-2024 de consilier local, a participat la adoptarea unei hotărâri privind închirierea pajiștilor comunale, după care a încheiat cu Primăria Cocora un contract de închiriere pentru o pajiște comunală; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, COCORA_TOADER_PARTY_SOURCE],
+  },
+  {
+    name: 'Drugan Petru',
+    party: 'PNL',
+    position: 'Consilier local al comunei Hălchiu, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor suprafețe de pășune proprietate privată a comunei Hălchiu, iar ulterior primăria a încheiat un contract de închiriere cu tatăl său.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hălchiu, județul Brașov.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HALCHIU_DRUGAN_NECULA_PARTY_SOURCE],
+  },
+  {
+    name: 'Necula Samoilă',
+    party: 'UNPR',
+    position: 'Fost consilier local al comunei Hălchiu, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor pășuni comunale, iar ulterior primăria a încheiat un contract de închiriere cu o întreprindere individuală al cărei titular era fiul său.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hălchiu, județul Brașov.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HALCHIU_DRUGAN_NECULA_PARTY_SOURCE],
+  },
+  {
+    name: 'Martin Mihai Cristinel',
+    party: 'PSD',
+    position: 'Fost consilier local al municipiului Tecuci, județul Galați',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în perioada 2020-2021, a exercitat simultan mandatul de consilier local și calitatea de administrator în consiliul de administrație al unei societăți comerciale de interes local.',
+    verified_at: '2026-05-25',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tecuci, județul Galați.',
+    },
+    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, TECUCI_MARTIN_PARTY_SOURCE],
   },
 ];
 
@@ -15238,6 +15546,7 @@ export const politicianAdditions = [
   },
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
+  ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
