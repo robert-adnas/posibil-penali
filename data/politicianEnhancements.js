@@ -4128,13 +4128,13 @@ export const politicianOverrides = {
     ],
   },
   'Leonte Ioan': {
-    party: 'PDL',
+    party: 'PNL',
     verified_at: '2026-05-08',
     sources: [
       {
-        label: 'Portal Info',
-        kind: 'profile',
-        url: 'https://www.portal-info.ro/primarii/primaria-gorban-iasi.html',
+        label: '7 Iași',
+        kind: 'press',
+        url: 'https://www.7iasi.ro/cum-ii-scapa-statul-pe-condamnatii-din-dosarele-dna-de-plata-prejudiciului-cazul-unui-fost-primar-pnl-din-judetul-iasi/',
       },
     ],
   },
@@ -5722,7 +5722,7 @@ export const politicianAdditions = [
   },
   {
     name: 'So\u00f3s Zolt\u00e1n',
-    party: 'Independent',
+    party: 'UDMR',
     position: 'Primar al municipiului T\u00e2rgu Mure\u0219',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
@@ -6616,7 +6616,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gálfi Árpád',
-    party: 'Independent',
+    party: 'Partidul pentru Odorheiu Secuiesc',
     position: 'Fost primar al municipiului Odorheiu Secuiesc, județul Harghita',
     position_type: 'mayor',
     crime: 'Abuz în serviciu',
@@ -7541,7 +7541,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Vasile Nic\u0103',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Valea Danului, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
@@ -7572,7 +7572,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gheorghe Cern\u0103tescu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Cuca, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7598,7 +7598,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gheorghe P\u0103tra\u0219cu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Lunca Corbului, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7624,7 +7624,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Nicolae Radu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Negra\u0219i, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7650,7 +7650,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Simion Emil',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost primar al comunei Br\u0103dule\u021b, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7676,7 +7676,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Popa Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei St\u00e2lpeni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7702,7 +7702,7 @@ export const politicianAdditions = [
   },
   {
     name: '\u0218tefan Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Budeasa, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7728,7 +7728,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ivan Vasile Bebe',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost primar al comunei B\u0103bana, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7754,7 +7754,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Berevoianu Corneliu',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost primar al comunei Nuc\u0219oara, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7780,7 +7780,7 @@ export const politicianAdditions = [
   },
   {
     name: 'B\u0103l\u0103\u0219oiu Aurel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Rociu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7806,7 +7806,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ene Florea',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Mo\u0219oaia, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7832,7 +7832,7 @@ export const politicianAdditions = [
   },
   {
     name: 'B\u0103dulescu Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Mor\u0103re\u0219ti, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7858,7 +7858,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Dincu\u021b\u0103 Daniel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Corbeni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -7948,7 +7948,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ungurenu\u0219 Mihai',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Corbi, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8006,7 +8006,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Cristescu Alexandru-Adrian',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei M\u0103lureni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8032,7 +8032,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Pepenel Nicolae-Cornel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Bughea de Sus, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8089,7 +8089,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Tarb\u0103 Mihai Gheorghe',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Dragoslavele, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8198,7 +8198,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ciobanu Marcel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Uda, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8224,7 +8224,7 @@ export const politicianAdditions = [
   },
   {
     name: '\u0218erban Niculae',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei M\u0103r\u0103cineni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8250,7 +8250,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sm\u0103du Nicolae',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Domne\u0219ti, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8365,7 +8365,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Diaconu Nicolae',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al municipiului Curtea de Arge\u0219, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8391,7 +8391,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Dumitrescu Mihail',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Meri\u0219ani, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
@@ -8475,7 +8475,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Popa Iulian',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost primar al comunei Sec\u0103ria, jude\u021bul Prahova',
     position_type: 'mayor',
     crime: 'Instigare la folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
@@ -8496,7 +8496,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Manole Vasile',
-    party: 'Independent',
+    party: 'PNȚCD',
     position: 'Fost primar al comunei Fr\u0103sinet, jude\u021bul C\u0103l\u0103ra\u0219i',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
@@ -8543,7 +8543,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Niculae Florin',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost primar al comunei Vidra, jude\u021bul Ilfov',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
@@ -8564,7 +8564,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Georgescu Liviu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Corn\u0103\u021belu, jude\u021bul D\u00e2mbovi\u021ba',
     position_type: 'mayor',
     crime: 'Instigare la folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
@@ -8585,7 +8585,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Nicolae Ilie',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al comunei Cochirleanca, jude\u021bul Buz\u0103u',
     position_type: 'mayor',
     crime: 'Complicitate la ob\u021binerea pe nedrept de fonduri europene; abuz \u00een serviciu; conflict de interese; inducere \u00een eroare a organelor judiciare',
@@ -8606,7 +8606,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Hane\u0219 Gheorghe',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Fost primar al comunei Gogo\u0219u, jude\u021bul Mehedin\u021bi',
     position_type: 'mayor',
     crime: 'Complicitate la folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
@@ -10988,7 +10988,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Baciu Vasile',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Horia, județul Neamț',
     position_type: 'mayor',
     geography: {
@@ -11229,7 +11229,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Pârvulescu Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Fărcășești',
     position_type: 'mayor',
     geography: {
@@ -11288,7 +11288,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Preda Vasile',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Primar al comunei Vărăști, județul Giurgiu',
     position_type: 'mayor',
     geography: {
@@ -11315,7 +11315,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Hada Ovidiu-Marius',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost primar al municipiului Hunedoara',
     position_type: 'mayor',
     geography: {
@@ -11428,7 +11428,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Slabu Otonel',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Popricani, județul Iași',
     position_type: 'mayor',
     geography: {
@@ -11509,7 +11509,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Botezatu Gelu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Bârsănești, județul Bacău',
     position_type: 'mayor',
     geography: {
@@ -11536,7 +11536,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Dunărințu Ionel Rafael',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost primar al orașului Baia de Aramă, județul Mehedinți',
     position_type: 'mayor',
     geography: {
@@ -11622,7 +11622,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Leonte Ioan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Primar al comunei Gorban, județul Iași',
     position_type: 'mayor',
     geography: {
@@ -11708,7 +11708,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gherghișan Sterian',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Văcăreni, județul Tulcea',
     position_type: 'mayor',
     geography: {
@@ -11735,7 +11735,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Corleciuc Ovidiu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar al comunei Vorniceni, județul Botoșani',
     position_type: 'mayor',
     geography: {
@@ -11762,7 +11762,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Kis Hajnalka',
-    party: 'Independent',
+    party: 'PDL',
     position: 'Primar al comunei Berveni, județul Satu Mare',
     position_type: 'mayor',
     geography: {
@@ -11789,7 +11789,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Gliga Daniel-Gabriel',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Primar al municipiului Reghin, județul Mureș',
     position_type: 'mayor',
     geography: {
@@ -12069,7 +12069,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Iuhas Viorel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Viceprimar al municipiului Beiuș, județul Bihor',
     position_type: 'local_official',
     geography: {
