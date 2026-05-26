@@ -240,6 +240,42 @@ const DUNCA_FELICIA_PARTY_SOURCE = {
   url: 'https://www.g4media.ro/clotilde-armand-despre-cum-isi-impart-functiile-pnl-si-psd-consiliera-personala-a-lui-dan-tudorache-a-fost-numita-in-conducerea-autoritatii-competente-de-reglementarea-operatiunilor-petroliere-offs.html',
 };
 
+const OPRESCU_PSD_SOURCE = {
+  label: 'Mediafax',
+  kind: 'press',
+  url: 'https://www.mediafax.ro/politic/biografie-oprescu-fost-lider-psd-si-candidat-independent-care-dorea-sa-ajunga-la-palatul-cotroceni-14702184',
+};
+
+const TARGU_MURES_FARCAS_PARTY_SOURCE = {
+  label: 'Zi de Zi',
+  kind: 'press',
+  url: 'https://www.zi-de-zi.ro/2016/09/20/batalia-pentru-consiliile-de-administratie-scolilor-aproape-de-final/',
+};
+
+const PRODILEANU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/podari/4',
+};
+
+const PISTEA_PARTY_SOURCE = {
+  label: 'Ziarul de Bacău',
+  kind: 'press',
+  url: 'https://ziaruldebacau.ro/ciprian-pistea-este-noul-manager-public-al-municipiului-bacau-ce-directii-va-avea-in-subordine/',
+};
+
+const SOLDEA_PSD_SUPPORT_SOURCE = {
+  label: 'Cotidianul',
+  kind: 'press',
+  url: 'https://www.cotidianul.ro/cele-doua-agentii-de-la-agricultura-conduse-de-oameni-cu-probleme-in-justitie/',
+};
+
+const PSDI_2019_EUROPARLAMENTARE_SOURCE = {
+  label: 'Ziarul de Iași',
+  kind: 'press',
+  url: 'https://www.ziaruldeiasi.ro/stiri/lista-partidelor-si-candidatilor-din-romania-la-alegerile-europarlamentare--220085.html',
+};
+
 const RUS_DAN_DORUL_PARTY_SOURCE = {
   label: 'Zi de Zi',
   kind: 'press',
@@ -448,6 +484,66 @@ const PERIETI_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/perieti/',
+};
+
+const AUR_CIRLIGEA_ANI_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/justitie/2018/07/09/ani-20-alesi-locali-in-incompatibilitate-si-conflict-de-interese-administrativ--141812',
+};
+
+const AUR_CIRLIGEA_PARTY_SOURCE = {
+  label: 'ProBrăila',
+  kind: 'press',
+  url: 'https://probr.ro/din-ce-comisii-permanente-vor-face-parte-cei-5-deputati-de-braila/',
+};
+
+const AUR_LASCA_CONVICTION_SOURCE = {
+  label: 'Știrile ProTV',
+  kind: 'press',
+  url: 'https://stirileprotv.ro/stiri/actualitate/deputatul-mihai-lasca-ex-aur-condamnat-definitiv-la-2-ani-de-inchisoare-cu-suspendare-dupa-ce-a-batut-in-trafic-un-sofer.html',
+};
+
+const AUR_FOCSA_INVESTIGATION_SOURCE = {
+  label: 'TVR Info',
+  kind: 'press',
+  url: 'https://tvrinfo.ro/deputatul-dumitru-focsa-are-dosar-penal-si-ordin-de-restrictie-dupa-ce-si-a-batut-sotia-politicianul-nu-e-la-prima-abatere/',
+};
+
+const AUR_FOCSA_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/focsa-dumitru-viorel-declaratie-de-presa-nu-uitati-de-romanii-din-ucraina/',
+};
+
+const AUR_CIUBUC_INVESTIGATION_SOURCE = {
+  label: 'Realitatea',
+  kind: 'press',
+  url: 'https://www.realitatea.net/stiri/actual/un-fost-deputat-aur-sa-ales-cu-dosar-penal-motivul-este-ireal_6685463174f6882f9001f782',
+};
+
+const AUR_CIUBUC_TVR_SOURCE = {
+  label: 'TVR Info',
+  kind: 'press',
+  url: 'https://tvrinfo.ro/deputatul-ciprian-ciubuc-cercetat-penal-pentru-ca-oile-sale-au-mancat-lucerna-si-trifoiul-unui-vecin/',
+};
+
+const AUR_CIUBUC_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://aurnews.ro/2021/07/12/ciprian-ciubuc-aur-felicitari-maia-sandu-aur-moldova-nu-abandoneaza-cauza-nationala-incepe-campania-pentru-alegerile-locale-din-2023/',
+};
+
+const AUR_SIMION_VOTER_CORRUPTION_SOURCE = {
+  label: 'Digi24',
+  kind: 'press',
+  url: 'https://www.digi24.ro/stiri/actualitate/politica/procurorii-din-ialomita-il-ancheteaza-pe-george-simion-pentru-coruperea-alegatorilor-surse-ar-fi-vorba-de-caravanele-medicale-ale-aur-2642441',
+};
+
+const AUR_SIMION_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/george-simion/',
 };
 
 const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
@@ -1105,6 +1201,97 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
   },
 ];
 
+const AUR_FOCUSED_ADDITIONAL_RECORDS = [
+  {
+    name: 'Florin Eugen C\u00eerligea',
+    party: 'AUR',
+    position: 'Deputat de Br\u0103ila (AUR); fost consilier jude\u021bean Br\u0103ila',
+    position_type: 'deputy',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2018 c\u0103, \u00een mandatul de consilier jude\u021bean Br\u0103ila, societatea la care de\u021binea func\u021bii de conducere ar fi avut rela\u021bii contractuale cu o institu\u021bie aflat\u0103 \u00een subordinea Consiliului Jude\u021bean Br\u0103ila; ulterior a fost ales deputat AUR de Br\u0103ila.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een Consiliul Jude\u021bean Br\u0103ila, iar mandatul parlamentar este tot \u00een jude\u021bul Br\u0103ila.',
+    },
+    sources: [AUR_CIRLIGEA_ANI_SOURCE, AUR_CIRLIGEA_PARTY_SOURCE],
+  },
+  {
+    name: 'Mihai Ioan Lasca',
+    party: 'AUR',
+    position: 'Fost deputat de Bihor ales pe listele AUR',
+    position_type: 'deputy',
+    crime: 'Lovire sau alte violen\u021be',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2021,
+    status: 'convicted',
+    details:
+      'Presa a relatat c\u0103 Mihai Ioan Lasca, intrat \u00een Parlament pe listele AUR, a fost condamnat definitiv \u00een 2021 la 2 ani \u00eenchisoare cu suspendare dup\u0103 ce a b\u0103tut un \u0219ofer \u00een trafic.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Bihor',
+      basis: 'constituency',
+      note: 'Deputat ales \u00een circumscrip\u021bia Bihor pe listele AUR.',
+    },
+    sources: [AUR_LASCA_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Dumitru-Viorel Foc\u0219a',
+    party: 'AUR',
+    position: 'Fost deputat de Constan\u021ba ales pe listele AUR',
+    position_type: 'deputy',
+    crime: 'Violen\u021b\u0103 \u00een familie',
+    status: 'investigated',
+    details:
+      'TVR Info a relatat c\u0103 Dumitru-Viorel Foc\u0219a avea dosar penal \u0219i ordin de restric\u021bie dup\u0103 ce so\u021bia sa l-a reclamat pentru agresiune; politicianul fusese ales deputat AUR de Constan\u021ba.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'constituency',
+      note: 'Deputat ales \u00een circumscrip\u021bia Constan\u021ba pe listele AUR.',
+    },
+    sources: [AUR_FOCSA_INVESTIGATION_SOURCE, AUR_FOCSA_PARTY_SOURCE],
+  },
+  {
+    name: 'Ciprian Ciubuc',
+    party: 'AUR',
+    position: 'Fost deputat ales pe listele AUR',
+    position_type: 'deputy',
+    crime: 'Distrugere',
+    status: 'investigated',
+    details:
+      'TVR Info \u0219i Realitatea au relatat c\u0103 fostul deputat AUR Ciprian Ciubuc era cercetat penal pentru distrugere dup\u0103 ce o turm\u0103 de oi ar fi produs pagube pe o cultur\u0103 de lucern\u0103 \u0219i trifoi din jude\u021bul Neam\u021b.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'case_location',
+      note: 'Cazul relatat prive\u0219te o cultur\u0103 agricol\u0103 din jude\u021bul Neam\u021b.',
+    },
+    sources: [AUR_CIUBUC_TVR_SOURCE, AUR_CIUBUC_INVESTIGATION_SOURCE, AUR_CIUBUC_PARTY_SOURCE],
+  },
+  {
+    name: 'George Simion',
+    party: 'AUR',
+    position: 'Pre\u0219edinte AUR; deputat',
+    position_type: 'deputy',
+    crime: 'Coruperea aleg\u0103torilor',
+    status: 'investigated',
+    details:
+      'Digi24 a relatat c\u0103 procurorii din Ialomi\u021ba \u00eel anchetau pe George Simion pentru coruperea aleg\u0103torilor, \u00eentr-un dosar despre caravanele medicale ale AUR; partidul \u00eel prezint\u0103 oficial ca pre\u0219edinte AUR.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Ialomi\u021ba',
+      basis: 'case_location',
+      note: 'Dosarul relatat era instrumentat de procurori din jude\u021bul Ialomi\u021ba.',
+    },
+    sources: [AUR_SIMION_VOTER_CORRUPTION_SOURCE, AUR_SIMION_PARTY_SOURCE],
+  },
+];
+
 const ANI_DEC_2025_ADDITIONAL_RECORDS = [
   {
     name: 'Serea St\u0103nica',
@@ -1658,7 +1845,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Agache Nina',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -1666,7 +1853,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Bucovanu Irina',
@@ -1694,7 +1881,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Huțanu Georgeta',
-    party: 'Independent',
+    party: 'PD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -1702,7 +1889,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Simion Constantin',
@@ -1718,7 +1905,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Sofian Dorina',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -1726,7 +1913,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Toma Viorel',
@@ -1790,7 +1977,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Apostol Nicolae',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -1798,7 +1985,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Centea Liliana',
@@ -3993,7 +4180,7 @@ export const politicianOverrides = {
 export const politicianAdditions = [
   {
     name: 'Sorin Oprescu',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Primar general al Bucureștiului (2008-2015); fost senator PSD',
     position_type: 'mayor',
     crime: 'Luare de mită; constituire grup infracțional organizat; abuz în serviciu',
@@ -4020,6 +4207,7 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/judecatorii-au-respins-cererea-lui-sorin-oprescu-de-anulare-a-condamnarii-de-10-ani-inchisoare-2222851',
       },
+      OPRESCU_PSD_SOURCE,
     ],
   },
   {
@@ -10697,7 +10885,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ioan Fărcaș',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost funcționar/consilier local implicat în dosarul FCM Târgu Mureș',
     position_type: 'local_official',
     geography: {
@@ -10719,6 +10907,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6969',
       },
+      TARGU_MURES_FARCAS_PARTY_SOURCE,
     ],
   },
   {
@@ -13700,7 +13889,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Prodileanu Petre',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Viceprimar al comunei Podari, jude\u021bul Dolj',
     position_type: 'local_official',
     geography: {
@@ -13719,6 +13908,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
       },
+      PRODILEANU_PARTY_SOURCE,
     ],
   },
   {
@@ -14057,7 +14247,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Piștea Ciprian-Octavian',
-    party: 'Independent',
+    party: 'PNL',
     position:
       'Administrator public al municipiului Bacău; coordonator al activității de implementare a proiectelor din fonduri europene',
     position_type: 'local_official',
@@ -14078,6 +14268,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
       },
+      PISTEA_PARTY_SOURCE,
     ],
   },
   {
@@ -15039,7 +15230,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Antonescu Vincențiu-Daniel',
-    party: 'Independent',
+    party: 'PSDI',
     position: 'Director general al Administrației Domeniului Public Sector 5',
     position_type: 'local_official',
     geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
@@ -15048,11 +15239,11 @@ export const politicianAdditions = [
     details:
       'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
     verified_at: '2026-05-19',
-    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE, PSDI_2019_EUROPARLAMENTARE_SOURCE],
   },
   {
     name: 'Lăzărescu Paul-Alexandru',
-    party: 'Independent',
+    party: 'PSDI',
     position: 'Director general al Administrației Piețelor Sector 5',
     position_type: 'local_official',
     geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
@@ -15061,7 +15252,7 @@ export const politicianAdditions = [
     details:
       'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
     verified_at: '2026-05-19',
-    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE, PSDI_2019_EUROPARLAMENTARE_SOURCE],
   },
   {
     name: 'Stoica Mariana',
@@ -15105,7 +15296,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Șoldea Romeo',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director general al Autorității Naționale Fitosanitare',
     position_type: 'other',
     geography: MADR_FITOSANITAR_GEOGRAPHY,
@@ -15114,7 +15305,7 @@ export const politicianAdditions = [
     details:
       'DNA Suceava a dispus în mai 2026 punerea în mișcare a acțiunii penale, susținând că ar fi aprobat transferul și mutarea pretins nelegală a unui funcționar public în cadrul Autorității Naționale Fitosanitare.',
     verified_at: '2026-05-19',
-    sources: [MADR_FITOSANITAR_DNA_SOURCE],
+    sources: [MADR_FITOSANITAR_DNA_SOURCE, SOLDEA_PSD_SUPPORT_SOURCE],
   },
   {
     name: 'Popovici Florin Mădălin',
@@ -15843,6 +16034,7 @@ export const politicianAdditions = [
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
+  ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
