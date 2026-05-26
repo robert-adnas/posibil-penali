@@ -276,6 +276,24 @@ const PSDI_2019_EUROPARLAMENTARE_SOURCE = {
   url: 'https://www.ziaruldeiasi.ro/stiri/lista-partidelor-si-candidatilor-din-romania-la-alegerile-europarlamentare--220085.html',
 };
 
+const DRAGOS_BOGDAN_PNL_SOURCE = {
+  label: 'Buletin de București',
+  kind: 'press',
+  url: 'https://buletin.de/bucuresti/viceprimarii-sectorului-2-i-dragos-bogdan-liberalul-implicat-in-scandalul-despagubirilor-supraevaluate-de-la-anrp/',
+};
+
+const STEFAN_CONSTANTIN_PSD_SOURCE = {
+  label: 'Ziarul de Iași',
+  kind: 'press',
+  url: 'https://www.ziaruldeiasi.ro/stiri/lista-in-premiera-candidatii-la-cele-98-de-primarii-din-judetul-iasi--121197.html',
+};
+
+const SALAVASTRU_UNPR_SOURCE = {
+  label: 'Mediafax',
+  kind: 'press',
+  url: 'https://www.mediafax.ro/politic/nepoata-fostului-sef-al-sri-radu-timofte-s-a-inscris-in-unpr-6076626',
+};
+
 const RUS_DAN_DORUL_PARTY_SOURCE = {
   label: 'Zi de Zi',
   kind: 'press',
@@ -525,7 +543,7 @@ const AUR_CIUBUC_INVESTIGATION_SOURCE = {
 const AUR_CIUBUC_TVR_SOURCE = {
   label: 'TVR Info',
   kind: 'press',
-  url: 'https://tvrinfo.ro/deputatul-ciprian-ciubuc-cercetat-penal-pentru-ca-oile-sale-au-mancat-lucerna-si-trifoiul-unui-vecin/',
+  url: 'https://tvrinfo.ro/deputatul-neafiliat-ciprian-ciubuc-urmarit-penal-pentru-distrugere-el-si-ar-fi-dus-turma-de-oi-pe-tarlaua-de-lucerna-a-unui-vecin-provocand-pagube-de-5-000-de-lei/',
 };
 
 const AUR_CIUBUC_PARTY_SOURCE = {
@@ -543,7 +561,7 @@ const AUR_SIMION_VOTER_CORRUPTION_SOURCE = {
 const AUR_SIMION_PARTY_SOURCE = {
   label: 'AUR',
   kind: 'official',
-  url: 'https://partidulaur.ro/george-simion/',
+  url: 'https://partidulaur.ro/george-simion-presedinte-aur-suntem-dispusi-sa-intram-la-guvernare-sa-reparam-si-sa-corectam-erorile-guvernarii-bolojan/',
 };
 
 const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
@@ -10563,7 +10581,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Dragoș Bogdan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Fost membru al Comisiei Centrale pentru Stabilirea Despăgubirilor',
     position_type: 'other',
     geography: {
@@ -10585,6 +10603,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
       },
+      DRAGOS_BOGDAN_PNL_SOURCE,
     ],
   },
   {
@@ -12544,7 +12563,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ștefan Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local al comunei Ion Neculce, județul Iași',
     position_type: 'local_official',
     geography: {
@@ -12567,6 +12586,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8846',
       },
+      STEFAN_CONSTANTIN_PSD_SOURCE,
     ],
   },
   {
@@ -15269,7 +15289,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Sălăvăstru Valerian',
-    party: 'Independent',
+    party: 'UNPR',
     position: 'Director general al Direcției de Impozite și Taxe Locale Sector 5',
     position_type: 'local_official',
     geography: ECONOMAT_SECTOR_5_GEOGRAPHY,
@@ -15278,7 +15298,7 @@ export const politicianAdditions = [
     details:
       'DNA l-a trimis în judecată la 5 mai 2026 în dosarul Economat Sector 5, legat de achiziții publice pretins supraevaluate realizate prin entități ale administrației locale.',
     verified_at: '2026-05-19',
-    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE],
+    sources: [ECONOMAT_SECTOR_5_DNA_SOURCE, SALAVASTRU_UNPR_SOURCE],
   },
   {
     name: 'Pintea Adrian',
