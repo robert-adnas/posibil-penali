@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-25',
+  last_updated: '2026-05-26',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -400,6 +400,54 @@ const RODNA_COUNCIL_PARTY_SOURCE = {
   label: 'Comuna Rodna',
   kind: 'official',
   url: 'https://comunarodna.ro/consiliul-local-rodna/rapoarte-de-activitate-ale-consiliului-local.html',
+};
+
+const ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-13-alesi-locali/',
+};
+
+const PODOLENI_2020_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/podoleni/',
+};
+
+const RADOMIRESTI_2020_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_olt/consiliul-local/radomiresti/21',
+};
+
+const DANESTI_COUNCIL_PARTY_SOURCE = {
+  label: 'Comuna Dănești',
+  kind: 'official',
+  url: 'https://www.comunadanesti.ro/consiliul-local/componenta/',
+};
+
+const BUMBESTI_JIU_2020_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_gorj/consiliul-local/bumbesti-jiu/2',
+};
+
+const CORBENI_2020_PARTY_SOURCE = {
+  label: 'Consiliul Județean Argeș',
+  kind: 'official',
+  url: 'https://www.cjarges.ro/documents/45853/959771/PV%2Bconstituire%2B26.10.2020.pdf/a2613be0-79a7-4426-9d0a-ba1342a41c3b',
+};
+
+const PADINA_2020_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/consiliul-local/padina/21',
+};
+
+const PERIETI_2020_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/perieti/',
 };
 
 const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
@@ -830,6 +878,230 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tecuci, județul Galați.',
     },
     sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, TECUCI_MARTIN_PARTY_SOURCE],
+  },
+];
+
+const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Mihai Dumitru-Daniel',
+    party: 'PSD',
+    position: 'Consilier local al comunei Podoleni, județul Neamț',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la avizarea și adoptarea unor hotărâri privind scutiri de taxe și închirierea directă de terenuri comunale, deși actele produceau foloase pentru întreprinderea sa ori pentru entități ale tatălui său.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Podoleni, județul Neamț.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PODOLENI_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Mândrilaș Mihai',
+    party: 'PSD',
+    position: 'Consilier local al comunei Podoleni, județul Neamț',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la avizarea și adoptarea unei hotărâri prin care au fost exceptați de la plata unei taxe agenți economici, inclusiv întreprinderea individuală al cărei titular era.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Podoleni, județul Neamț.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PODOLENI_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Grasu Adrian-Nicolae',
+    party: 'PSD',
+    position: 'Consilier local al comunei Podoleni, județul Neamț',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat în anul 2022 la emiterea și adoptarea unor acte administrative care au produs un folos material pentru soția sa, titular al unei întreprinderi individuale.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Podoleni, județul Neamț.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PODOLENI_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Achim Ionel',
+    party: 'PSD',
+    position: 'Consilier local al comunei Radomirești, județul Olt',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada deținerii mandatului 2020-prezent, societatea la care era asociat unic și administrator unic ar fi încheiat două contracte de furnizare cu Primăria Radomirești, în valoare totală de 49.580 lei.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Radomirești, județul Olt.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, RADOMIRESTI_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'David-Stanciu Marian',
+    party: 'PNL',
+    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 un conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, susținând că ar fi participat la adoptarea unei hotărâri privind închirierea de terenuri, iar ulterior soția și fratele său au încheiat contracte cu comuna.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE],
+  },
+  {
+    name: 'Necula Valentin',
+    party: 'PNL',
+    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la deliberarea și adoptarea a două hotărâri în baza cărora a încheiat cu Comuna Cocora contracte de închiriere pentru terenuri din domeniul privat al comunei.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE],
+  },
+  {
+    name: 'Ștefănescu Mihail',
+    party: 'PNL',
+    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position_type: 'local_official',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ, susținând că ar fi participat la deliberarea și adoptarea unor hotărâri pe baza cărora el, soția sa și societatea pe care o administra au încheiat contracte de închiriere de terenuri cu primăria.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Nicolae Bălcescu, județul Călărași.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Paliță Daniel',
+    party: 'PSD',
+    position: 'Consilier local al comunei Dănești, județul Gorj',
+    position_type: 'local_official',
+    crime: 'Infracțiune asimilată faptelor de corupție',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2023 DNA, susținând că, în exercitarea atribuțiilor de consilier local, ar fi aprobat bugetul comunei Dănești prin care s-au alocat 40.000 lei pentru reabilitarea unui monument, lucrare efectuată de societatea la care era asociat și administrator.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Dănești, județul Gorj.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, DANESTI_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Dădălău Dumitru',
+    party: 'PNL',
+    position: 'Consilier local al orașului Bumbești-Jiu, județul Gorj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 1 octombrie 2020 - 31 ianuarie 2022, ar fi exercitat simultan mandatul de consilier local și funcția de director general al unei societăți pe acțiuni, filială a unei companii naționale.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Bumbești-Jiu, județul Gorj.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, BUMBESTI_JIU_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Bostan Ștefan',
+    party: 'USR',
+    position: 'Consilier local al comunei Corbeni, județul Argeș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la deliberarea și adoptarea hotărârii privind închirierea unor terenuri comunale disponibile către o asociație în care avea calitatea de membru.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Corbeni, județul Argeș.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, CORBENI_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Dan Jan',
+    party: 'PNL',
+    position: 'Consilier local al comunei Padina, județul Buzău',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatele 2016-2020 și 2020-prezent, societatea la care era asociat și director, iar soția sa asociat și administrator, ar fi încheiat cu Primăria Padina 30 de contracte de furnizare prin achiziție directă.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Padina, județul Buzău.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PADINA_2020_PARTY_SOURCE],
+  },
+  {
+    name: 'Agiu Marian',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local 2020-2021, ar fi participat la adoptarea unei hotărâri prin care s-au prelungit contracte de închiriere pentru terenuri comunale și s-a modificat taxa anuală de închiriere, ulterior încheind un act adițional cu comuna.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Nicolae Bălcescu, județul Călărași.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Merlea Sile-Adrian',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Perieți, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada exercitării mandatului de consilier local, ar fi participat la adoptarea bugetului comunei Perieți pentru anul 2021, prin care s-au alocat bani școlii gimnaziale în cadrul căreia deținea funcția de director.',
+    verified_at: '2026-05-26',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Perieți, județul Ialomița.',
+    },
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PERIETI_2020_PARTY_SOURCE],
   },
 ];
 
@@ -15570,6 +15842,7 @@ export const politicianAdditions = [
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
