@@ -648,6 +648,108 @@ const AUR_SIMION_PARTY_SOURCE = {
   url: 'https://partidulaur.ro/george-simion-presedinte-aur-suntem-dispusi-sa-intram-la-guvernare-sa-reparam-si-sa-corectam-erorile-guvernarii-bolojan/',
 };
 
+const AUR_BOSUTAR_INVESTIGATION_SOURCE = {
+  label: 'G4Media',
+  kind: 'press',
+  url: 'https://www.g4media.ro/un-politician-ales-deputat-in-noul-parlament-pus-sub-control-judiciar-dupa-ce-a-instigat-la-aruncarea-in-aer-a-sediului-prefecturii-din-bistrita-nasaud.html',
+};
+
+const AUR_CREFELEAN_INVESTIGATION_SOURCE = {
+  label: 'G4Media',
+  kind: 'press',
+  url: 'https://www.g4media.ro/parchetul-general-confirma-urmarirea-penala-impotriva-unui-membru-aur-sef-de-cabinet-al-unei-deputate-prins-in-flagrant-cand-ar-fi-primit-1-500-de-lei-mita-el-a-fost-exclus-din-partid.html',
+};
+
+const AUR_IAGARU_CONVICTION_SOURCE = {
+  label: 'PressHub',
+  kind: 'press',
+  url: 'https://www.presshub.ro/candidatura-unui-condamnat-penal-la-o-primarie-din-olt-a-fost-respinsa-avea-sustinerea-aur-reporter24-322632/',
+};
+
+const AUR_CAPALNASAN_CASE_SOURCE = {
+  label: 'Stiripesurse',
+  kind: 'press',
+  url: 'https://www.stiripesurse.ro/un-candidat-aur-la-primarie-este-condamnat-pentru-delapidare-alte-trei-persoane-il-acuza-de-inselaciune_3377443.html',
+};
+
+const AUR_CAPALNASAN_PARTY_SOURCE = {
+  label: 'Comuna Birchis',
+  kind: 'official',
+  url: 'https://www.comunabirchis.ro/storage/1241/Proces-verbal-%C3%AEncheiat-ast%C4%83zi%2C-8-mai-2024-privind-constatarea-r%C4%83m%C3%A2nerii-definitive-a-candidaturilor-la-alegerile-pentru-autorit%C4%83%C8%9Bile-administra%C8%9Biei-publice-locale-din-09.06.2024.PDF',
+};
+
+const AUR_MOSOIU_CONVICTION_SOURCE = {
+  label: 'Gazeta de Sud',
+  kind: 'press',
+  url: 'https://www.gds.ro/Local/2015-07-31/comuna-dragutesti-ramas-fara-primar/',
+};
+
+const AUR_MOSOIU_PARTY_SOURCE = {
+  label: 'Radio Infinit',
+  kind: 'press',
+  url: 'https://radioinfinit.ro/2024/10/24/mosoiu-nu-mai-am-pretentii-la-functia-de-primar/',
+};
+
+const AUR_IURES_INVESTIGATION_SOURCE = {
+  label: 'G4Media',
+  kind: 'press',
+  url: 'https://www.g4media.ro/fost-ofiter-dga-si-membru-aur-cornel-iures-dosar-penal-pentru-ca-si-ar-fi-batut-sotia.html',
+};
+
+const AUR_CATALAN_INVESTIGATION_SOURCE = {
+  label: 'Gazeta Dambovitei',
+  kind: 'press',
+  url: 'https://www.gazetadambovitei.ro/actual/ancheta/adrian-catalan-consilier-local-aur-la-titu-vizat-de-un-ordin-de-protectie-pentru-agresiune-sexuala-asupra-unor-copii/',
+};
+
+const AUR_VLAD_VIRGIL_INVESTIGATION_SOURCE = {
+  label: 'Ziua de Constanta',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/stiri/justitie/consilierul-aur-virgil-vlad-din-comuna-oltina-si-sefa-serviciului-social-din-primarie-retinuti-pentru-24-de-ore-de-procurorii-diicot-846328.html',
+};
+
+const AUR_PAC_PROTECTION_ORDER_SOURCE = {
+  label: 'TurdaNews',
+  kind: 'press',
+  url: 'https://turdanews.net/un-consilier-local-aur-din-baisoara-a-primit-ordin-de-protectie/',
+};
+
+const AUR_DUNGACIU_CASE_SOURCE = {
+  label: 'Stirile ProTV',
+  kind: 'press',
+  url: 'https://stirileprotv.ro/stiri/actualitate/curtea-de-apel-bucuresti-respinge-contestatia-lui-dan-dungaciu-in-dosarul-in-care-este-judecat-pentru-abuz-in-serviciu.html',
+};
+
+const AUR_DUNGACIU_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/dan-dungaciu-prim-vicepresedinte-aur-umilinta-romaniei-la-chisinau-de-27-martie-absente-oficiale-si-un-esec-diplomatic-de-proportii/',
+};
+
+const AUR_TONITA_CONVICTION_SOURCE = {
+  label: 'Puterea',
+  kind: 'press',
+  url: 'https://www.puterea.ro/un-controversat-personaj-din-anturajul-lui-george-simion-este-consilier-al-presedintelui-anpc-cristian-popescu-piedone/',
+};
+
+const AUR_TONITA_PARTY_SOURCE = {
+  label: 'PS News',
+  kind: 'press',
+  url: 'https://psnews.ro/alegeri-parlamentare-2024-galati-candidatii-aur-la-camera-deputatilor-si-senat/',
+};
+
+const AUR_GEAMANU_CASE_SOURCE = {
+  label: 'Gorjeanul',
+  kind: 'press',
+  url: 'https://www.gorjeanul.ro/in-numele-afdpr-gorj-dublul-inculpat-geamanu-alaturi-de-odrasla-la-dezvelirea-monumentului-fostilor-detinuti-politici/',
+};
+
+const AUR_GEAMANU_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/stefan-geamanu-senator-aur-inchiderea-centralelor-pe-carbune-este-o-condamnare-la-frig-si-saracie-dictata-de-bruxelles-nu-putem-gira-distrugerea-sistemului-energetic-national/',
+};
+
 const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Vizitiu Ion',
@@ -1391,6 +1493,223 @@ const AUR_FOCUSED_ADDITIONAL_RECORDS = [
       note: 'Dosarul relatat era instrumentat de procurori din jude\u021bul Ialomi\u021ba.',
     },
     sources: [AUR_SIMION_VOTER_CORRUPTION_SOURCE, AUR_SIMION_PARTY_SOURCE],
+  },
+];
+
+const AUR_SECOND_PASS_ADDITIONAL_RECORDS = [
+  {
+    name: 'Tiberiu Bo\u0219utar',
+    party: 'AUR',
+    position: 'Deputat AUR de Bistri\u021ba-N\u0103s\u0103ud; coordonator AUR Bistri\u021ba-N\u0103s\u0103ud',
+    position_type: 'deputy',
+    crime: 'Instigare public\u0103',
+    status: 'investigated',
+    details:
+      'G4Media a relatat c\u0103 Tiberiu Bo\u0219utar, coordonatorul filialei AUR Bistri\u021ba-N\u0103s\u0103ud ales deputat \u00een 2024, a fost pus sub control judiciar dup\u0103 ce ar fi instigat public la aruncarea \u00een aer a sediului Prefecturii Bistri\u021ba-N\u0103s\u0103ud.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Bistri\u021ba-N\u0103s\u0103ud',
+      basis: 'case_location',
+      note: 'Cazul relatat prive\u0219te sediul Prefecturii Bistri\u021ba-N\u0103s\u0103ud, iar mandatul parlamentar este \u00een aceea\u0219i circumscrip\u021bie.',
+    },
+    sources: [AUR_BOSUTAR_INVESTIGATION_SOURCE],
+  },
+  {
+    name: 'Bogdan Crefelean',
+    party: 'AUR',
+    position: 'Fost membru AUR; fost \u0219ef de cabinet al unei deputate AUR',
+    position_type: 'other',
+    crime: 'Trafic de influen\u021b\u0103',
+    status: 'investigated',
+    details:
+      'G4Media a relatat c\u0103 Parchetul General a confirmat urm\u0103rirea penal\u0103 a lui Bogdan Crefelean, membru AUR \u0219i \u0219ef de cabinet al unei deputate AUR, prins \u00een flagrant c\u00e2nd ar fi primit 1.500 lei invoc\u00e2nd influen\u021b\u0103 asupra unor poli\u021bi\u0219ti locali; articolul consemneaz\u0103 c\u0103 partidul l-a exclus.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Ilfov',
+      basis: 'case_location',
+      note: 'Flagrantul relatat a avut loc \u00een Bragadiru, jude\u021bul Ilfov.',
+    },
+    sources: [AUR_CREFELEAN_INVESTIGATION_SOURCE],
+  },
+  {
+    name: 'Ionu\u021b Bogdan Iag\u0103ru',
+    party: 'AUR',
+    position: 'Candidat sus\u021binut de AUR la Prim\u0103ria Valea Mare; candidat pe lista AUR pentru consiliul local',
+    position_type: 'other',
+    crime: 'Contraband\u0103 cu \u021big\u0103ri',
+    sentence: '1 an \u0219i 2 luni \u00eenchisoare cu suspendare',
+    sentence_years: 1.17,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'PressHub/Reporter24 a relatat c\u0103 instan\u021ba i-a respins candidatura la Prim\u0103ria Valea Mare, jude\u021bul Olt, dup\u0103 o condamnare definitiv\u0103 din 2014 la 1 an \u0219i 2 luni \u00eenchisoare cu suspendare pentru implicarea \u00eentr-o re\u021bea de trafic de \u021big\u0103ri; articolul precizeaz\u0103 c\u0103 avea sus\u021binerea AUR \u0219i figura pe lista AUR pentru consiliul local.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Olt',
+      basis: 'political_base',
+      note: 'Candidatura sus\u021binut\u0103 de AUR era pentru Prim\u0103ria Valea Mare, jude\u021bul Olt.',
+    },
+    sources: [AUR_IAGARU_CONVICTION_SOURCE],
+  },
+  {
+    name: 'C\u0103p\u0103lna\u0219an F\u0103nic\u0103',
+    party: 'AUR',
+    position: 'Candidat AUR la Prim\u0103ria Birchi\u0219, jude\u021bul Arad',
+    position_type: 'other',
+    crime: 'Delapidare',
+    sentence: '2 ani \u0219i 6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 2.5,
+    conviction_year: 2021,
+    status: 'first_instance',
+    details:
+      'Presa a relatat c\u0103 F\u0103nic\u0103 C\u0103p\u0103lna\u0219an, candidat AUR la Prim\u0103ria Birchi\u0219, fusese condamnat de Judec\u0103toria Lipova la 2 ani \u0219i 6 luni \u00eenchisoare cu suspendare pentru delapidare; procesul-verbal publicat de comuna Birchi\u0219 \u00eel listeaz\u0103 drept candidat AUR la localele din 2024.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Arad',
+      basis: 'political_base',
+      note: 'Candidatura AUR era pentru Prim\u0103ria Birchi\u0219, jude\u021bul Arad.',
+    },
+    sources: [AUR_CAPALNASAN_CASE_SOURCE, AUR_CAPALNASAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Vasile Mo\u0219oiu',
+    party: 'AUR',
+    position: 'Consilier local AUR \u00een Dr\u0103gu\u021be\u0219ti; fost primar al comunei Dr\u0103gu\u021be\u0219ti',
+    position_type: 'mayor',
+    crime: 'Conflict de interese',
+    sentence: '1 an \u00eenchisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2015,
+    status: 'convicted',
+    details:
+      'Gazeta de Sud a relatat c\u0103 fostul primar al comunei Dr\u0103gu\u021be\u0219ti, Vasile Mo\u0219oiu, a fost condamnat definitiv \u00een 2015 la 1 an \u00eenchisoare cu suspendare pentru conflict de interese; Radio Infinit l-a prezentat ulterior ca ales local AUR \u00een Dr\u0103gu\u021be\u0219ti.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Func\u021bia de primar \u0219i mandatul local AUR sunt legate de comuna Dr\u0103gu\u021be\u0219ti, jude\u021bul Gorj.',
+    },
+    sources: [AUR_MOSOIU_CONVICTION_SOURCE, AUR_MOSOIU_PARTY_SOURCE],
+  },
+  {
+    name: 'Cornel Iure\u0219',
+    party: 'AUR',
+    position: 'Fost purt\u0103tor de cuv\u00e2nt AUR Timi\u0219; fost ofi\u021ber DGA',
+    position_type: 'other',
+    crime: 'Violen\u021b\u0103 \u00een familie',
+    status: 'investigated',
+    details:
+      'G4Media a relatat c\u0103 fostul ofi\u021ber DGA \u0219i membru AUR Cornel Iure\u0219 avea dosar penal dup\u0103 ce so\u021bia sa l-a reclamat pentru agresiune; articolul noteaz\u0103 c\u0103 fusese purt\u0103tor de cuv\u00e2nt al AUR Timi\u0219.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'political_base',
+      note: 'Rolul politic men\u021bionat \u00een surs\u0103 este legat de organiza\u021bia AUR Timi\u0219.',
+    },
+    sources: [AUR_IURES_INVESTIGATION_SOURCE],
+  },
+  {
+    name: 'Adrian Catalan',
+    party: 'AUR',
+    position: 'Consilier local AUR la Titu',
+    position_type: 'local_official',
+    crime: 'Agresiune sexual\u0103',
+    status: 'investigated',
+    details:
+      'Presa local\u0103 a relatat c\u0103 Adrian Catalan, consilier local AUR la Titu, era vizat de un ordin de protec\u021bie provizoriu emis \u00eentr-un caz privind acuza\u021bii de agresiune sexual\u0103 asupra unor minori; articolul noteaz\u0103 \u0219i reac\u021bia organiza\u021biei AUR D\u00e2mbovi\u021ba.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'D\u00e2mbovi\u021ba',
+      basis: 'office',
+      note: 'Mandatul local men\u021bionat \u00een surs\u0103 este \u00een ora\u0219ul Titu, jude\u021bul D\u00e2mbovi\u021ba.',
+    },
+    sources: [AUR_CATALAN_INVESTIGATION_SOURCE],
+  },
+  {
+    name: 'Vlad Virgil',
+    party: 'AUR',
+    position: 'Consilier local AUR \u00een comuna Oltina',
+    position_type: 'local_official',
+    crime: 'Trafic de persoane; grup infrac\u021bional organizat',
+    status: 'investigated',
+    details:
+      'Ziua de Constan\u021ba a relatat c\u0103 Virgil Vlad, consilier local AUR \u00een comuna Oltina, a fost re\u021binut de DIICOT \u00eentr-un dosar privind constituirea unui grup infrac\u021bional organizat, trafic de persoane, abuz \u00een serviciu, fals intelectual \u0219i sp\u0103lare de bani.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Mandatul local men\u021bionat \u00een surs\u0103 este \u00een comuna Oltina, jude\u021bul Constan\u021ba.',
+    },
+    sources: [AUR_VLAD_VIRGIL_INVESTIGATION_SOURCE],
+  },
+  {
+    name: 'P\u00e2c Flavius Ioan',
+    party: 'AUR',
+    position: 'Consilier local AUR \u00een B\u0103i\u0219oara',
+    position_type: 'local_official',
+    crime: 'Violen\u021b\u0103 domestic\u0103',
+    status: 'investigated',
+    details:
+      'TurdaNews a relatat c\u0103 P\u00e2c Flavius Ioan, consilier local AUR \u00een B\u0103i\u0219oara, a primit ordin de protec\u021bie emis de Judec\u0103toria Cluj-Napoca, \u00eentr-un caz de violen\u021b\u0103 domestic\u0103; fi\u0219a re\u021bine natura de ordin de protec\u021bie, nu o condamnare penal\u0103.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Mandatul local men\u021bionat \u00een surs\u0103 este \u00een comuna B\u0103i\u0219oara, jude\u021bul Cluj.',
+    },
+    sources: [AUR_PAC_PROTECTION_ORDER_SOURCE],
+  },
+  {
+    name: 'Dan Dungaciu',
+    party: 'AUR',
+    position: 'Prim-vicepre\u0219edinte AUR; fost director ISPRI',
+    position_type: 'other',
+    crime: 'Abuz \u00een serviciu',
+    status: 'indicted',
+    details:
+      '\u0218tirile ProTV a relatat c\u0103 Dan Dungaciu este judecat pentru abuz \u00een serviciu \u00eentr-un dosar legat de perioada \u00een care a condus Institutul de \u0218tiin\u021be Politice \u0219i Rela\u021bii Interna\u021bionale; AUR \u00eel prezint\u0103 oficial ca prim-vicepre\u0219edinte al partidului.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'case_location',
+      note: 'Dosarul este judecat la instan\u021be din Bucure\u0219ti, iar institu\u021bia vizat\u0103 este ISPRI.',
+    },
+    sources: [AUR_DUNGACIU_CASE_SOURCE, AUR_DUNGACIU_PARTY_SOURCE],
+  },
+  {
+    name: 'Marian Toni\u021b\u0103',
+    party: 'AUR',
+    position: 'Candidat AUR la Camera Deputa\u021bilor \u00een Gala\u021bi; fost primar al comunei B\u0103l\u0103\u0219e\u0219ti',
+    position_type: 'mayor',
+    crime: 'Conducere sub influen\u021ba alcoolului',
+    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2018,
+    status: 'convicted',
+    details:
+      'Puterea a relatat c\u0103 Marian Toni\u021b\u0103, fost primar al comunei B\u0103l\u0103\u0219e\u0219ti, a primit \u00een 2018 o condamnare de 1 an \u0219i 6 luni \u00eenchisoare cu suspendare pentru conducere sub influen\u021ba alcoolului; PS News l-a listat \u00eentre candida\u021bii AUR Gala\u021bi la Camera Deputa\u021bilor \u00een 2024.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Gala\u021bi',
+      basis: 'political_base',
+      note: 'Candidatura AUR la Camera Deputa\u021bilor a fost \u00een jude\u021bul Gala\u021bi, iar fostul mandat de primar era \u00een B\u0103l\u0103\u0219e\u0219ti, Gala\u021bi.',
+    },
+    sources: [AUR_TONITA_CONVICTION_SOURCE, AUR_TONITA_PARTY_SOURCE],
+  },
+  {
+    name: '\u0218tefan Geam\u0103nu',
+    party: 'AUR',
+    position: 'Senator AUR pentru diaspora',
+    position_type: 'senator',
+    crime: 'Evaziune fiscal\u0103',
+    sentence: '2 ani \u0219i 6 luni \u00eenchisoare cu suspendare \u00een prim\u0103 instan\u021b\u0103',
+    sentence_years: 2.5,
+    conviction_year: 2016,
+    status: 'first_instance',
+    details:
+      'Gorjeanul a relatat c\u0103 \u0218tefan Geam\u0103nu a fost condamnat \u00een prim\u0103 instan\u021b\u0103 la 2 ani \u0219i 6 luni \u00eenchisoare cu suspendare \u00eentr-un dosar de evaziune fiscal\u0103; AUR \u00eel prezint\u0103 oficial ca senator AUR.',
+    verified_at: '2026-05-27',
+    sources: [AUR_GEAMANU_CASE_SOURCE, AUR_GEAMANU_PARTY_SOURCE],
   },
 ];
 
@@ -16384,6 +16703,7 @@ export const politicianAdditions = [
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
+  ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
