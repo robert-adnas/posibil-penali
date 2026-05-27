@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-26',
+  last_updated: '2026-05-27',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -204,6 +204,12 @@ const ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE = {
   url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/',
 };
 
+const ANI_APR_2023_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-14-alesi-locali/',
+};
+
 const ANI_DEC_2025_AGERPRES_SOURCE = {
   label: 'AGERPRES',
   kind: 'press',
@@ -238,6 +244,84 @@ const DUNCA_FELICIA_PARTY_SOURCE = {
   label: 'G4Media',
   kind: 'press',
   url: 'https://www.g4media.ro/clotilde-armand-despre-cum-isi-impart-functiile-pnl-si-psd-consiliera-personala-a-lui-dan-tudorache-a-fost-numita-in-conducerea-autoritatii-competente-de-reglementarea-operatiunilor-petroliere-offs.html',
+};
+
+const PROTEASA_PARTY_SOURCE = {
+  label: 'Ziua de Vest',
+  kind: 'press',
+  url: 'https://www.ziuadevest.ro/alexandru-proteasa-propunerea-pnl-pentru-functia-de-vicepresedinte-a-consiliului-judetean-timis/',
+};
+
+const DOSARU_ALDE_PARTY_SOURCE = {
+  label: 'Ziarul Prahova',
+  kind: 'press',
+  url: 'https://dev.ziarulprahova.ro/2020/10/sedinta-de-constituire-a-noului-consiliu-judetean-prahova-tinuta-sub-acoperire-la-ploiesti/',
+};
+
+const CARAS_SEVERIN_ANI_PARTY_SOURCE = {
+  label: 'Resita.ro',
+  kind: 'press',
+  url: 'https://resita.ro/primari-pnl-si-psd-infractori-parchetul-sesizat-de-ani/',
+};
+
+const DRAGUSENI_VINTILA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_galati/primarie/draguseni/1',
+};
+
+const SALCIOARA_STOICA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_ialomita/primarie/salcioara/20',
+};
+
+const TOMSANI_PEARCU_PARTY_SOURCE = {
+  label: 'Tribuna Vâlceană',
+  kind: 'press',
+  url: 'https://www.tribunavalceana.ro/la-tomsani-investitiile-de-modernizare-a-infrastructurii-rutiere-si-de-introducere-a-utilitatilor-vor-fi-o-prioritate-pentru-liberalul-andrei-nicolae/',
+};
+
+const DANESTI_RUSU_PARTY_SOURCE = {
+  label: 'Comuna Dănești',
+  kind: 'official',
+  url: 'https://www.comunadanesti.ro/consiliul-local/componenta/page/18/',
+};
+
+const TIMISOARA_LULCIUC_PARTY_SOURCE = {
+  label: 'Știri de Timișoara',
+  kind: 'press',
+  url: 'https://stiridetimisoara.ro/consilierul-local-adrian-lulciuc-seful-regionalei-de-posta-timis_6977.html',
+};
+
+const MANGALIA_STAN_PARTY_SOURCE = {
+  label: 'Ziua Constanța',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/stiri/justitie/consilierul-local-linica-stan-de-la-mangalia-pierde-procesul-cu-agentia-nationala-de-integritate-decizia-nu-este-definitiva-856636.html',
+};
+
+const BACAU_DINU_PARTY_SOURCE = {
+  label: 'Știri Bacău',
+  kind: 'press',
+  url: 'https://stiribc.ro/2020/09/29/lucian-stanciu-viziteu-este-noul-primar-al-municipiului-bacau/',
+};
+
+const MOGOSOAIA_PREDESEL_PARTY_SOURCE = {
+  label: 'Jurnalul de Ilfov',
+  kind: 'press',
+  url: 'https://jurnaluldeilfov.ro/paul-mihai-nicu-precup-si-consilierii-locali-din-mogosoaia-au-depus-juramantul-de-credinta/',
+};
+
+const HODAC_FEIER_PARTY_SOURCE = {
+  label: 'Zi de Zi',
+  kind: 'press',
+  url: 'https://www.zi-de-zi.ro/2021/01/14/conducerea-comunei-hodac-in-formula-completa-ioan-feier-ales-viceprimar/',
+};
+
+const GRINDU_TRISCA_PARTY_SOURCE = {
+  label: 'Primăria Grindu',
+  kind: 'official',
+  url: 'https://www.comunagrindutl.ro/?p=consiliul_local',
 };
 
 const OPRESCU_PSD_SOURCE = {
@@ -1594,6 +1678,250 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea.',
     },
     sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+];
+
+const ANI_APR_2023_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Proteasa Alexandru Constantin',
+    party: 'PNL',
+    position:
+      'Vicepreședinte al Consiliului Județean Timiș și fost consilier local al comunei Moșnița Nouă',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2023 că, în perioada mandatului de consilier local al comunei Moșnița Nouă, a participat la deliberarea și adoptarea unei hotărâri privind PUZ pentru terenul unei societăți în care avea calitatea de asociat unic și administrator.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Moșnița Nouă și Consiliul Județean Timiș.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, PROTEASA_PARTY_SOURCE],
+  },
+  {
+    name: 'Dosaru Elena Iuliana',
+    party: 'ALDE',
+    position: 'Consilier județean în Consiliul Județean Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2023 că, în perioada 19 noiembrie 2020 - 16 martie 2022, ar fi exercitat simultan mandatul de consilier județean și funcția de director general al Serviciului Județean de Pază Prahova.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DOSARU_ALDE_PARTY_SOURCE],
+  },
+  {
+    name: 'Vlasici Marian',
+    party: 'PNL',
+    position: 'Primar al comunei Lupac, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime:
+      'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane; fals în declarații',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ și a sesizat Parchetul pentru indicii privind folosirea funcției pentru favorizarea unei rude și fals în declarații, în legătură cu acte privind o societate comercială și contracte cu primăria.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Lupac, județul Caraș-Severin.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, CARAS_SEVERIN_ANI_PARTY_SOURCE],
+  },
+  {
+    name: 'Vintilă Dumitru',
+    party: 'PSD',
+    position: 'Primar al comunei Drăgușeni, județul Galați',
+    position_type: 'local_official',
+    crime:
+      'Incompatibilitate; conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate și conflict administrativ și a sesizat Parchetul, arătând că în mandatul de primar ar fi participat la acte administrative prin care au fost achiziționate servicii de la o întreprindere individuală a fiului său.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Drăgușeni, județul Galați.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DRAGUSENI_VINTILA_PARTY_SOURCE],
+  },
+  {
+    name: 'Boambeș Daniel',
+    party: 'PSD',
+    position: 'Primar al comunei Constantin Daicoviciu, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ și a sesizat Parchetul, susținând că în exercitarea mandatului de primar ar fi semnat acte care au produs un folos patrimonial pentru o rudă de gradul I.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Constantin Daicoviciu, județul Caraș-Severin.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, CARAS_SEVERIN_ANI_PARTY_SOURCE],
+  },
+  {
+    name: 'Stoica Gabriel',
+    party: 'PNL',
+    position: 'Primar al comunei Sălcioara, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Slobozia, susținând că, în mandatul 2016-2020, ar fi semnat acte administrative prin care o rudă apropiată a fost angajată în aparatul de specialitate al primarului.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Sălcioara, județul Ialomița.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, SALCIOARA_STOICA_PARTY_SOURCE],
+  },
+  {
+    name: 'Pearcu Dumitru',
+    party: 'PSD',
+    position: 'Fost primar al comunei Tomșani, județul Vâlcea',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2023 că, în mandatul de primar, a semnat acte administrative legate de un proiect finanțat din fonduri publice în care avea un interes personal.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Tomșani, județul Vâlcea.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, TOMSANI_PEARCU_PARTY_SOURCE],
+  },
+  {
+    name: 'Rusu Emilian',
+    party: 'PNL',
+    position: 'Fost primar al comunei Dănești, județul Gorj',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ deoarece, în mandatul de primar, ar fi semnat un contract de concesiune cu o asociație de crescători de animale în cadrul căreia avea un interes personal.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria Comunei Dănești, județul Gorj.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DANESTI_RUSU_PARTY_SOURCE],
+  },
+  {
+    name: 'Lulciuc Adrian Răzvan',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al municipiului Timișoara',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2023 că, în perioada 14 decembrie 2018 - 10 decembrie 2020, ar fi exercitat simultan mandatul de consilier local și funcția de director general adjunct la Compania Națională Poșta Română.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Timișoara, județul Timiș.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, TIMISOARA_LULCIUC_PARTY_SOURCE],
+  },
+  {
+    name: 'Stan Linica',
+    party: 'PNL',
+    position: 'Fost consilier local al municipiului Mangalia, județul Constanța',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ deoarece ar fi participat la adoptarea unei hotărâri privind prelungirea unui contract de închiriere pentru un spațiu comercial deținut de o societate în care soțul său avea calitatea de asociat unic și administrator.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Mangalia, județul Constanța.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, MANGALIA_STAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Dinu Ioana Raluca',
+    party: 'PSD',
+    position: 'Consilier local în Consiliul Local al municipiului Bacău',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2023 că, în perioada 24 noiembrie 2020 - 13 mai 2022, ar fi exercitat simultan mandatul de consilier local și funcția de manager interimar al Spitalului Județean de Urgență Bacău.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Bacău și Spitalul Județean de Urgență Bacău.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, BACAU_DINU_PARTY_SOURCE],
+  },
+  {
+    name: 'Predeșel Nicolae',
+    party: 'PNL',
+    position: 'Consilier local al comunei Mogoșoaia, județul Ilfov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ deoarece, în mandatul 2016-2020, ar fi participat la deliberarea și adoptarea unei hotărâri a consiliului local care a produs un folos patrimonial pentru o societate comercială cu legături de interes personal.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mogoșoaia, județul Ilfov.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, MOGOSOAIA_PREDESEL_PARTY_SOURCE],
+  },
+  {
+    name: 'Feier Ioan',
+    party: 'PMP',
+    position: 'Consilier local al comunei Hodac, județul Mureș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ deoarece, în mandatul de consilier local, ar fi participat la deliberarea și adoptarea unei hotărâri privind concesionarea unei suprafețe de pășune către o asociație în care avea un interes personal.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hodac, județul Mureș.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, HODAC_FEIER_PARTY_SOURCE],
+  },
+  {
+    name: 'Trișca Ionel',
+    party: 'PSD',
+    position: 'Consilier local al comunei Grindu, județul Tulcea',
+    position_type: 'local_official',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Tulcea, susținând că ar fi participat la adoptarea unei hotărâri prin care soția sa a fost desemnată membru al consiliului de administrație al școlii gimnaziale din comună.',
+    verified_at: '2026-05-27',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Grindu, județul Tulcea.',
+    },
+    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, GRINDU_TRISCA_PARTY_SOURCE],
   },
 ];
 
@@ -16051,6 +16379,7 @@ export const politicianAdditions = [
   },
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
+  ...ANI_APR_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
