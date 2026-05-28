@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-27',
+  last_updated: '2026-05-28',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -586,6 +586,96 @@ const PERIETI_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/perieti/',
+};
+
+const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
+};
+
+const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-3/',
+};
+
+const TUDORA_DORIN_PARTY_SOURCE = {
+  label: 'Observatorul Prahovean',
+  kind: 'press',
+  url: 'https://www.observatorulph.ro/administratie/2595713-dorin-tudora-pnl-si-a-dat-demisia-din-consiliul-judetean-prahova-a-fost-numit-director-general-la-conpet',
+};
+
+const BRADEA_GRIGORE_PARTY_SOURCE = {
+  label: 'Gazeta de Bistrita',
+  kind: 'press',
+  url: 'https://gazetadebistrita.ro/grigore-bradea-nu-mai-este-primarul-comunei-chiuza/',
+};
+
+const GHINDAOANI_ANTOCHI_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/ghindaoani/19',
+};
+
+const SCUNDU_BLEJAN_PARTY_SOURCE = {
+  label: 'Eveniment Valcean',
+  kind: 'press',
+  url: 'https://evenimentvalcean.ro/psd-scundu-incepe-o-noua-etapa-sub-conducerea-primarului-mihaita-george-blejan/',
+};
+
+const MIRCESTI_ANTOANE_PARTY_SOURCE = {
+  label: 'Primaria Mircesti',
+  kind: 'official',
+  url: 'https://mircesti.ro/hcl-2021/',
+};
+
+const STRAMTURA_IAGAR_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_maramures/consiliul-local/stramtura/',
+};
+
+const HARABAGIU_PSD_SOURCE = {
+  label: 'Ziarul de Iasi',
+  kind: 'press',
+  url: 'https://www.ziaruldeiasi.ro/stiri/fostul-viceprimar-gabriel-harabagiu-cercetat-pentru-conflict-de-interese-a-fost-sesizat-parchetul--331626.html',
+};
+
+const OSVATH_UDMR_SOURCE = {
+  label: 'UDMR',
+  kind: 'official',
+  url: 'https://udmr.ro/profil/osvath-csaba',
+};
+
+const BUSTENI_COUNCIL_SOURCE = {
+  label: 'Orasul Busteni',
+  kind: 'official',
+  url: 'https://orasul-busteni.ro/wp-content/files/lista_CL.pdf',
+};
+
+const HAIDUC_USR_SOURCE = {
+  label: 'USR',
+  kind: 'official',
+  url: 'https://next.usr.ro/stiri/usr-sapte-candidati-la-alegerile-locale-din-11-iunie',
+};
+
+const COLTEA_PNL_SOURCE = {
+  label: 'NewsBV',
+  kind: 'press',
+  url: 'https://newsbv.ro/consilier-local-cu-atributii-de-viceprimar-la-crizbav-conflict-de-interese/',
+};
+
+const HARLAU_RUGINA_PNL_SOURCE = {
+  label: 'BIT24',
+  kind: 'press',
+  url: 'https://bit24.ro/ales-local-din-harlau-sanctionat-pentru-conflict-de-interese/',
+};
+
+const STRUGARI_DOSPINESCU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/strugari/',
 };
 
 const AUR_CIRLIGEA_ANI_SOURCE = {
@@ -1402,6 +1492,250 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Perieți, județul Ialomița.',
     },
     sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PERIETI_2020_PARTY_SOURCE],
+  },
+];
+
+const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Tudora Dorin',
+    party: 'PNL',
+    position: 'Fost consilier județean în cadrul Consiliului Județean Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 15 octombrie 2020 - 15 februarie 2021, a deținut simultan mandatul de consilier județean și funcții de conducere la o societate cu capital integral de stat.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, TUDORA_DORIN_PARTY_SOURCE],
+  },
+  {
+    name: 'Bradea Grigore',
+    party: 'PSD',
+    position: 'Primar al comunei Chiuza, județul Bistrița-Năsăud',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 15 iunie 2016 - 18 iulie 2023, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Chiuza, județul Bistrița-Năsăud.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, BRADEA_GRIGORE_PARTY_SOURCE],
+  },
+  {
+    name: 'Antochi Adrian',
+    party: 'PSD',
+    position: 'Primar al comunei Ghindăoani, județul Neamț',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de primar, ar fi propus și susținut înființarea unui post contractual de consilier al primarului, post pe care l-a ocupat ulterior.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Ghindăoani, județul Neamț.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, GHINDAOANI_ANTOCHI_PARTY_SOURCE],
+  },
+  {
+    name: 'Blejan Mihăiță-George',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Scundu, județul Vâlcea',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de viceprimar, a participat la adoptarea unei hotărâri privind modificarea organigramei și statului de funcții al primăriei, act care a stat la baza angajării tatălui său.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Scundu, județul Vâlcea.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, SCUNDU_BLEJAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Martin Eugen',
+    party: 'PNL',
+    position: 'Fost consilier local al municipiului Tecuci, județul Galați',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii prin care a fost numit administrator/director general al unei societăți din subordinea Consiliului Local Tecuci.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tecuci, județul Galați.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, TECUCI_MARTIN_PARTY_SOURCE],
+  },
+  {
+    name: 'Antoane Cristian',
+    party: 'USR',
+    position: 'Fost consilier local al comunei Mircești, județul Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind înființarea unui post contractual în aparatul de specialitate al primarului, post pe care l-a ocupat ulterior.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mircești, județul Iași.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, MIRCESTI_ANTOANE_PARTY_SOURCE],
+  },
+  {
+    name: 'Iagăr Cosma',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Strâmtura, județul Maramureș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 24 octombrie - 1 decembrie 2020, a exercitat simultan funcția de consilier local și o funcție contractuală de asistent personal în Primăria Comunei Strâmtura.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Strâmtura, județul Maramureș.',
+    },
+    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, STRAMTURA_IAGAR_PARTY_SOURCE],
+  },
+];
+
+const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Harabagiu Gabriel Vasile',
+    party: 'PSD',
+    position: 'Fost viceprimar al municipiului Iași și fost consilier local al municipiului Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 un conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând că, în mandatul de viceprimar, a semnat acte adiționale la un contract între Primăria Iași și o societate în care erau angajați socrii săi.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al municipiului Iași.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, HARABAGIU_PSD_SOURCE],
+  },
+  {
+    name: 'Osváth Csaba',
+    party: 'UDMR',
+    position: 'Primar al comunei Acățari, județul Mureș',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea funcției de primar, ar fi semnat contracte ale primăriei cu două asociații în care avea roluri sau calități.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Acățari, județul Mureș.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, OSVATH_UDMR_SOURCE],
+  },
+  {
+    name: 'Haiduc Gheorghe',
+    party: 'USR',
+    position: 'Consilier local al orașului Bușteni, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în perioada 26 octombrie 2020 - 22 octombrie 2021, a exercitat simultan funcția de consilier local și activitatea de voluntar în Serviciul Voluntar pentru Situații de Urgență Bușteni.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Bușteni, județul Prahova.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, BUSTENI_COUNCIL_SOURCE, HAIDUC_USR_SOURCE],
+  },
+  {
+    name: 'Gherasă Radu',
+    party: 'PNL',
+    position: 'Consilier local al comunei Rădăuți-Prut, județul Botoșani',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind inițierea procedurii de concesiune directă a unei pășuni comunale, iar ulterior a încheiat contractul de concesiune cu primăria.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Rădăuți-Prut, județul Botoșani.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, RADAUTI_PRUT_COUNCIL_PARTY_SOURCE],
+  },
+  {
+    name: 'Colțea Gheorghe',
+    party: 'PNL',
+    position: 'Consilier local al comunei Crizbav cu atribuții de viceprimar, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în calitate de consilier local, a inițiat și a votat o hotărâre privind modernizarea și asfaltarea unui drum de exploatare care deservește un imobil pe care îl deține.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Crizbav, județul Brașov.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, COLTEA_PNL_SOURCE],
+  },
+  {
+    name: 'Rugină Maria Tereza',
+    party: 'PNL',
+    position: 'Consilier local al orașului Hârlău, județul Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind desemnarea reprezentanților Consiliului Local Hârlău într-o comisie de interviu, iar ulterior a participat la concurs și a fost declarată promovată.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Hârlău, județul Iași.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, HARLAU_RUGINA_PNL_SOURCE],
+  },
+  {
+    name: 'Dospinescu Sorin Narcis',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Strugari, județul Bacău',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul de consilier local 2016-2020, a exercitat simultan și o funcție contractuală în aparatul de specialitate al primarului comunei Strugari.',
+    verified_at: '2026-05-28',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Strugari, județul Bacău.',
+    },
+    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, STRUGARI_DOSPINESCU_PARTY_SOURCE],
   },
 ];
 
@@ -16702,6 +17036,8 @@ export const politicianAdditions = [
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
