@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-28',
+  last_updated: '2026-05-29',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -592,6 +592,12 @@ const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
+};
+
+const ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali/',
 };
 
 const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE = {
@@ -1614,6 +1620,297 @@ const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Strâmtura, județul Maramureș.',
     },
     sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, STRAMTURA_IAGAR_PARTY_SOURCE],
+  },
+];
+
+const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
+  {
+    name: 'Cotețiu Andrei',
+    party: 'PNL',
+    position: 'Consilier județean în Consiliul Județean Timiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 27 octombrie 2020 - 25 martie 2021, a exercitat simultan funcția de consilier județean și calitatea de membru în consiliul de administrație și administrator al unei societăți al cărei acționar unic era Consiliul Local Timișoara.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Timiș.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Consiliul Județean Timiș',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/infocjt/document.php?c=7qbzd6r2&d=43417&r=5',
+      },
+    ],
+  },
+  {
+    name: 'Dima Ionuț-Lucian',
+    party: 'PSD',
+    position: 'Primar al comunei Coteana, județul Olt',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-2024, ar fi emis o dispoziție prin care și-a majorat indemnizația lunară de primar.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Coteana, județul Olt.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Radio România Oltenia Craiova',
+        kind: 'press',
+        url: 'https://www.radiocraiova.ro/stiri/olt-primarul-psd-din-comuna-coteana-castigat-cel-de-al-cincelea-mandat/',
+      },
+    ],
+  },
+  {
+    name: 'Oanea Ioan',
+    party: 'PSD',
+    position: 'Primar al comunei Ocna Șugatag, județul Maramureș',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 29 septembrie - 27 octombrie 2020, deși raportul de serviciu era suspendat de drept după alegerea ca primar, ar fi continuat să exercite atribuții de funcționar public.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Ocna Șugatag, județul Maramureș.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Ocna Șugatag',
+        kind: 'official',
+        url: 'https://primariaocnasugatag.ro/autoritate-publica-locala/primar/',
+      },
+    ],
+  },
+  {
+    name: 'Sărăor Elena Adriana',
+    party: 'PNL',
+    position: 'Primar al comunei Fârliug, județul Caraș-Severin',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Reșița în decembrie 2023, reținând indicii că, în calitate de primar, ar fi îndeplinit acte prin care o societate administrată de cumnatul său a livrat produse către primărie în valoare de 11.137 lei.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Fârliug, județul Caraș-Severin.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Gazeta de Caraș-Severin',
+        kind: 'press',
+        url: 'https://www.gazetadecarasseverin.ro/elena-adrian-saraor-un-primar-adevarat-pentru-comuna-farliug/',
+      },
+    ],
+  },
+  {
+    name: 'Horescu Petrișor',
+    party: 'PRM',
+    position: 'Viceprimar al comunei Domașnea, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 16 mai - 20 decembrie 2022, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Domașnea, județul Caraș-Severin.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Caon.ro',
+        kind: 'press',
+        url: 'https://caon.ro/alegeri-locale-2020-in-caras-severin/petre-iles-primar-cu-9-voturi-peste-cel-de-la-usr-in-domasnea-2390951/',
+      },
+    ],
+  },
+  {
+    name: 'Timofciuc Răzvan',
+    party: 'USR',
+    position: 'Fost consilier local al municipiului Iași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate; conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 incompatibilitate pentru perioada 15 iunie - 6 septembrie 2021, când a fost simultan membru în Consiliul de administrație al Spitalului Clinic de Recuperare Iași și vicepreședinte al unei organizații politice locale, precum și conflict administrativ legat de votarea unui reprezentant într-un consiliu de administrație școlar.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Iași.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/politic-intern/liderul-usr-iasi-razvan-timofciuc-declarat-incompatibil-de-ani-1922404918422023121421429684',
+      },
+    ],
+  },
+  {
+    name: 'Slivneanu Valentin',
+    party: 'PNL',
+    position: 'Viceprimar al orașului Berești, județul Galați',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de viceprimar, a exercitat simultan activitate comercială prin PFA și calitatea de administrator al unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al orașului Berești, județul Galați.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/beresti/',
+      },
+    ],
+  },
+  {
+    name: 'Tanasă Constantin',
+    party: 'PSD',
+    position: 'Consilier local al orașului Dolhasca, județul Suceava',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri prin care bugetul local a alocat 40.000 lei unei activități al cărei manager de proiect era persoana evaluată.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Dolhasca, județul Suceava.',
+    },
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/dolhasca/',
+      },
+    ],
+  },
+  {
+    name: 'Blagan Eleonor',
+    party: 'PNL',
+    position: 'Primar al comunei Băneasa, județul Constanța',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada 20 septembrie 2023 - 5 decembrie 2024, a exercitat simultan funcția de viceprimar/primar și calitatea de membru în Consiliul de administrație al Casei Județene de Asigurări de Sănătate Constanța.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Băneasa, județul Constanța.',
+    },
+    sources: [
+      ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Băneasa',
+        kind: 'official',
+        url: 'https://www.primaria-baneasa.ro/membru-primarie/eleonor-blagan/',
+      },
+    ],
+  },
+  {
+    name: 'Faur Florentin',
+    party: 'PNL',
+    position: 'Primar al comunei Husasău de Tinca, județul Bihor',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada 13 noiembrie 2020 - 11 aprilie 2024, a exercitat simultan funcția de viceprimar și calitatea de titular al unei PFA care a încasat 38.760 lei din contracte cu Administrația Națională Apele Române.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Husasău de Tinca, județul Bihor.',
+    },
+    sources: [
+      ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'e-PNL',
+        kind: 'official',
+        url: 'https://www.e-pnl.ro/florentin-faur',
+      },
+    ],
+  },
+  {
+    name: 'Cerba Cristian',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Gottlob, județul Timiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în mandatul 2020-2024, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Gottlob, județul Timiș.',
+    },
+    sources: [
+      ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/gottlob/',
+      },
+    ],
+  },
+  {
+    name: 'Cupu Lucian',
+    party: 'PNL',
+    position: 'Fost consilier local al municipiului Făgăraș, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada 14 septembrie 2021 - 18 septembrie 2023, a exercitat simultan funcția de consilier local și calitatea de membru în consiliul de administrație al unei societăți comerciale de interes județean.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Făgăraș, județul Brașov.',
+    },
+    sources: [
+      ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Brasov.net',
+        kind: 'press',
+        url: 'https://www.brasov.net/fagarasean-fost-consilier-local-reclamat-pentru-conflict-de-interese-administrativ/',
+      },
+    ],
   },
 ];
 
@@ -17037,6 +17334,7 @@ export const politicianAdditions = [
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS,
   ...ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
