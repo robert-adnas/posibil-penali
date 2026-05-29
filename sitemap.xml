@@ -49,13 +49,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/independent</loc>
+    <loc>https://politicieni-corupti.ro/partid/psd</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/psd</loc>
+    <loc>https://politicieni-corupti.ro/partid/independent</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -121,13 +121,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/pp-dd</loc>
+    <loc>https://politicieni-corupti.ro/partid/pmp</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/pmp</loc>
+    <loc>https://politicieni-corupti.ro/partid/pp-dd</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
