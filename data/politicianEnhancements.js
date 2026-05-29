@@ -606,6 +606,12 @@ const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE = {
   url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-3/',
 };
 
+const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-12-alesi-locali/',
+};
+
 const TUDORA_DORIN_PARTY_SOURCE = {
   label: 'Observatorul Prahovean',
   kind: 'press',
@@ -682,6 +688,78 @@ const STRUGARI_DOSPINESCU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/strugari/',
+};
+
+const TOPOLOV_PNL_SOURCE = {
+  label: 'PNL Constanta',
+  kind: 'official',
+  url: 'https://pnlconstanta.ro/consiliul-judetean-constanta/',
+};
+
+const BLAGA_LUCIAN_PNL_SOURCE = {
+  label: 'JustNews',
+  kind: 'press',
+  url: 'https://justnews.ro/un-consilier-judetean-liberal-din-timis-proaspat-demisionat-a-pierdut-procesul-de-integritate-cu-ani/',
+};
+
+const BOBIC_NARCIS_PSD_SOURCE = {
+  label: 'PressAlert',
+  kind: 'press',
+  url: 'https://www.pressalert.ro/2016/07/schimbare-componenta-cj-timis-pesedistul-tiuch-renuntat-la-mandat-cine-i-luat-locul/',
+};
+
+const SASU_VASILE_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_botosani/primarie/durnesti/1',
+};
+
+const CURTEA_ARGES_POPESCU_PSD_SOURCE = {
+  label: 'Arges Expres',
+  kind: 'press',
+  url: 'https://argesexpres.ro/index.php/administratie/36271-la-curtea-de-arges-au-fost-validati-17-consilieri-locali',
+};
+
+const ONESTI_PANFIL_INDEPENDENT_SOURCE = {
+  label: 'Onesti Online',
+  kind: 'press',
+  url: 'https://www.onestionline.ro/politica/administratie2020/administratia2020.htm',
+};
+
+const SULINA_HUBATI_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_tulcea/consiliul-local/sulina/',
+};
+
+const HUEDIN_COZEA_PNL_SOURCE = {
+  label: 'Primaria Huedin',
+  kind: 'official',
+  url: 'https://primariahuedin.ro/wp-content/uploads/2020/12/H.C.L.-nr.59-validare-mandat-de-consilier-local-ales-iunie-2016.pdf',
+};
+
+const FOROTIC_MUNEA_PSD_SOURCE = {
+  label: 'Primaria Forotic',
+  kind: 'official',
+  url: 'https://comunaforotic.ro/despre-institutie/consiliul-local/componenta-consiliului-local/',
+};
+
+const IC_BRATIANU_POPA_PNL_SOURCE = {
+  label: 'Ziua Constanta',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/stiri/eveniment/popa-cristina-din-comuna-ic-bratianu-judetul-tulcea-gasita-incompatibila-de-ani-816584.html',
+};
+
+const SONA_BIRO_UDMR_SOURCE = {
+  label: 'Alba24',
+  kind: 'press',
+  url: 'https://alba24.ro/consilier-local-din-sona-gasit-in-stare-de-incompatibilitate-de-ani-firma-la-care-era-administrator-contracte-cu-primaria-982502.html',
+};
+
+const MISCA_DUMBRAVA_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/primarie/misca/18',
 };
 
 const AUR_CIRLIGEA_ANI_SOURCE = {
@@ -2117,6 +2195,213 @@ const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Strugari, județul Bacău.',
     },
     sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, STRUGARI_DOSPINESCU_PARTY_SOURCE],
+  },
+];
+
+const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Topolov Gianina Ionela',
+    party: 'PNL',
+    position: 'Consilier județean în cadrul Consiliului Județean Constanța',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier județean, societatea comercială în care deținea calitatea de asociat a încheiat trei acorduri-cadru de servicii cu două instituții aflate în subordinea Consiliului Județean Constanța.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Constanța.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, TOPOLOV_PNL_SOURCE],
+  },
+  {
+    name: 'Blaga Lucian',
+    party: 'PNL',
+    position: 'Consilier județean în cadrul Consiliului Județean Timiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în perioada 8 iunie 2017 - 25 martie 2021, a exercitat simultan funcția de consilier județean și calitatea de membru în Consiliul de Administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Timiș.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, BLAGA_LUCIAN_PNL_SOURCE],
+  },
+  {
+    name: 'Bobic Narcis Sabin',
+    party: 'PSD',
+    position: 'Fost consilier județean în cadrul Consiliului Județean Timiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în perioada 27 noiembrie 2018 - 24 octombrie 2020, a exercitat simultan funcția de consilier județean și calitatea de membru/administrator în consiliul de administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Timiș.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, BOBIC_NARCIS_PSD_SOURCE],
+  },
+  {
+    name: 'Sasu Vasile',
+    party: 'PNL',
+    position: 'Primar al comunei Durnești, județul Botoșani',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă ÎCCJ în iunie 2023, reținând indicii că, în mandatul de primar, ar fi emis o dispoziție de încadrare într-o funcție contractuală din aparatul de specialitate al primarului pentru soția fiului său.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Durnești, județul Botoșani.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SASU_VASILE_PNL_SOURCE],
+  },
+  {
+    name: 'Popescu Marius Viorel',
+    party: 'PSD',
+    position: 'Consilier local al municipiului Curtea de Argeș, județul Argeș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în perioada 6 decembrie 2017 - 8 mai 2020, a exercitat simultan funcția de manager interimar al Spitalului Municipal Curtea de Argeș și funcția de consilier local.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Curtea de Argeș, județul Argeș.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, CURTEA_ARGES_POPESCU_PSD_SOURCE],
+  },
+  {
+    name: 'Panfil Gelu Ionuț',
+    party: 'Independent',
+    position: 'Fost consilier local al municipiului Onești, județul Bacău',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, a participat la deliberarea și adoptarea unor hotărâri privind Spitalul Municipal „Sf. Ierarh Dr. Luca” Onești, unde deținea calitatea de membru în consiliul de administrație.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Onești, județul Bacău.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, ONESTI_PANFIL_INDEPENDENT_SOURCE],
+  },
+  {
+    name: 'Hubati Tudor',
+    party: 'PSD',
+    position: 'Consilier local al orașului Sulina, județul Tulcea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, începând cu 7 noiembrie 2017, a deținut simultan funcția de consilier local și funcția de director general adjunct într-o regie autonomă aflată sub autoritatea consiliului județean.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Sulina, județul Tulcea.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SULINA_HUBATI_PSD_SOURCE],
+  },
+  {
+    name: 'Cozea Marinela Corina',
+    party: 'PNL',
+    position: 'Fost consilier local al orașului Huedin, județul Cluj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în perioada 21 decembrie 2017 - 24 octombrie 2020, a exercitat simultan funcția de consilier local și funcții de administrator provizoriu/neexecutiv în consiliul de administrație al unei societăți aflate sub autoritatea consiliului județean.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Huedin, județul Cluj.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, HUEDIN_COZEA_PNL_SOURCE],
+  },
+  {
+    name: 'Munea Nelu Simion',
+    party: 'PSD',
+    position: 'Consilier local al comunei Forotic, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind închirierea pajiștilor comunale, iar ulterior soția sa a primit spre închiriere o suprafață de pajiște.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Forotic, județul Caraș-Severin.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, FOROTIC_MUNEA_PSD_SOURCE],
+  },
+  {
+    name: 'Popa Cristina',
+    party: 'PNL',
+    position: 'Consilier local al comunei I.C. Brătianu, județul Tulcea',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri privind acordarea de teren arabil personalului de specialitate din serviciile publice comunale, iar persoana evaluată figura între beneficiari.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei I.C. Brătianu, județul Tulcea.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, IC_BRATIANU_POPA_PNL_SOURCE],
+  },
+  {
+    name: 'Biro Levente Mihai',
+    party: 'UDMR',
+    position: 'Consilier local al comunei Șona, județul Alba',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în perioada 2020-2022, societatea la care deținea calitatea de asociat unic și administrator a desfășurat operațiuni comerciale cu Primăria Comunei Șona.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Șona, județul Alba.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SONA_BIRO_UDMR_SOURCE],
+  },
+  {
+    name: 'Dumbravă Petru',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Mișca, județul Arad',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind închirierea pășunii comunale, iar ulterior a încheiat un contract de închiriere pășune cu Primăria Comunei Mișca.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
+    },
+    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, MISCA_DUMBRAVA_PNL_SOURCE],
   },
 ];
 
@@ -17649,6 +17934,7 @@ export const politicianAdditions = [
   ...ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS,
   ...ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
   ...AUR_BIG_SEARCH_ADDITIONAL_RECORDS,
