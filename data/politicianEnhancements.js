@@ -846,6 +846,90 @@ const AUR_GEAMANU_PARTY_SOURCE = {
   url: 'https://partidulaur.ro/stefan-geamanu-senator-aur-inchiderea-centralelor-pe-carbune-este-o-condamnare-la-frig-si-saracie-dictata-de-bruxelles-nu-putem-gira-distrugerea-sistemului-energetic-national/',
 };
 
+const AUR_TARZIU_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/claudiu-tarziu-aur-suntem-gardienii-suveranitatii-libertatii-familiei-si-economiei-nationale/',
+};
+
+const AUR_LULEA_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/marius-lulea-prim-vicepresedinte-aur-suntem-obligati-sa-intretinem-o-administratie-stufoasa-o-birocratie-inutila-care-tine-romania-sechestrata-in-saracie/',
+};
+
+const AUR_PAUNESCU_PARLIAMENT_SOURCE = {
+  label: 'Senatul Romaniei',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0D9385DE-0338-47F9-A85D-49BFC8632384',
+};
+
+const AUR_NEACSU_ANI_SOURCE = {
+  label: 'Monitorul de Cluj',
+  kind: 'press',
+  url: 'https://www.monitorulcj.ro/politica-administratie/101651-consilier-din-primaria-cluj-napoca-gasit-incompatibil-de-ani',
+};
+
+const AUR_NEGOESCU_PROTECTION_ORDER_SOURCE = {
+  label: 'B1TV',
+  kind: 'press',
+  url: 'https://www.b1tv.ro/politica/tarziu-e-convins-ca-deputatii-aur-n-au-legatura-cu-violentele-de-la-proteste-intrebat-daca-e-mandru-de-colegul-sau-care-a-avut-interdictie-sa-se-apropie-de-fiica-minora-nu-intram-in-bucata-1565271.html',
+};
+
+const AUR_NICU_VIOREL_DNA_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://m.ziare.com/stiri-timisoara/stiri-actualitate/primarul-nicu-viorel-candidat-aur-la-primaria-sacalaz-cercetat-de-dna-timisoara-pentru-abuz-in-serviciu-in-cadrul-unui-dosar-disjuns-de-parchetul-european-8979766',
+};
+
+const AUR_MURAD_ELECTORAL_BRIBERY_SOURCE = {
+  label: 'Newsweek Romania',
+  kind: 'press',
+  url: 'https://newsweek.ro/actualitate/mohammad-murad-dosar-penal-pentru-mita-electorala-candideaza-la-mangalia',
+};
+
+const AUR_MURAD_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/wp-content/uploads/2025/10/D.-Mohammad-Murad-participarea-angajatilor-la-profit-1.pdf',
+};
+
+const AUR_JURAVLEA_CONVICTION_SOURCE = {
+  label: 'Articulat',
+  kind: 'press',
+  url: 'https://www.articulat.ro/2024/11/20/gheorghe-juravlea-pierdere-mandat',
+};
+
+const AUR_RINGO_DAMUREANU_CONVICTION_SOURCE = {
+  label: 'B1TV',
+  kind: 'press',
+  url: 'https://www.b1tv.ro/politica/cine-este-ringo-damureanu-condamnat-cu-amenda-penala-pentru-lovire-deputatul-aur-a-participat-la-consultarile-cu-klaus-iohannis-354250.html',
+};
+
+const AUR_RINGO_DAMUREANU_PARTY_SOURCE = {
+  label: 'AUR',
+  kind: 'official',
+  url: 'https://partidulaur.ro/ringo-damureanu-intrebare-catre-m-a-i-a-constatat-politia-vreo-fapta-penala-la-data-de-28-mai-2010-in-urma-apelului-doamnei-boara-mioara-la-serviciul-unic-112/',
+};
+
+const AUR_DRAGOS_STEFAN_CASE_SOURCE = {
+  label: 'Bacau.net',
+  kind: 'press',
+  url: 'https://www.bacau.net/cosmin-necula-si-dragos-stefan-au-fost-achitati-pentru-abuz-in-serviciu/',
+};
+
+const AUR_DRAGOS_STEFAN_PARTY_SOURCE = {
+  label: 'Bacau.net',
+  kind: 'press',
+  url: 'https://www.bacau.net/dragos-stefan-prezentat-oficial-candidat-aur-pentru-primaria-bacau/',
+};
+
+const AUR_BEC_PROTESTS_SOURCE = {
+  label: 'Gandul',
+  kind: 'press',
+  url: 'https://www.gandul.ro/justitie/cinci-deputati-aur-prezenti-la-violentele-din-fata-bec-chemati-la-parchet-george-simion-acuza-un-sistem-corupt-si-politie-politica-20454569',
+};
+
 const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Vizitiu Ion',
@@ -2341,6 +2425,235 @@ const AUR_SECOND_PASS_ADDITIONAL_RECORDS = [
       'Gorjeanul a relatat c\u0103 \u0218tefan Geam\u0103nu a fost condamnat \u00een prim\u0103 instan\u021b\u0103 la 2 ani \u0219i 6 luni \u00eenchisoare cu suspendare \u00eentr-un dosar de evaziune fiscal\u0103; AUR \u00eel prezint\u0103 oficial ca senator AUR.',
     verified_at: '2026-05-27',
     sources: [AUR_GEAMANU_CASE_SOURCE, AUR_GEAMANU_PARTY_SOURCE],
+  },
+];
+
+const AUR_BIG_SEARCH_ADDITIONAL_RECORDS = [
+  {
+    name: 'Claudiu Târziu',
+    party: 'AUR',
+    position: 'Lider AUR; fost senator AUR; candidat AUR la Parlamentul European',
+    position_type: 'senator',
+    crime: 'Coruperea alegătorilor',
+    status: 'investigated',
+    details:
+      'Digi24 a relatat că Poliția Ialomița a cerut Parlamentului date privind calitatea lui George Simion, Claudiu Târziu, Marius Lulea și Silviu Titus Păunescu într-un dosar penal privind coruperea alegătorilor, legat de caravanele medicale AUR; AUR îl prezenta oficial pe Târziu ca senator și lider al partidului.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Ialomița',
+      basis: 'case_location',
+      note: 'Solicitarea relatată provenea de la Poliția Ialomița, într-un dosar înregistrat la Parchetul Slobozia.',
+    },
+    sources: [AUR_SIMION_VOTER_CORRUPTION_SOURCE, AUR_TARZIU_PARTY_SOURCE],
+  },
+  {
+    name: 'Marius Lulea',
+    party: 'AUR',
+    position: 'Prim-vicepreședinte AUR',
+    position_type: 'other',
+    crime: 'Coruperea alegătorilor',
+    status: 'investigated',
+    details:
+      'Digi24 a relatat că Poliția Ialomița a cerut Parlamentului date privind calitatea lui George Simion, Claudiu Târziu, Marius Lulea și Silviu Titus Păunescu într-un dosar penal privind coruperea alegătorilor, legat de caravanele medicale AUR; AUR îl prezintă oficial pe Lulea ca prim-vicepreședinte al partidului.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Ialomița',
+      basis: 'case_location',
+      note: 'Solicitarea relatată provenea de la Poliția Ialomița, într-un dosar înregistrat la Parchetul Slobozia.',
+    },
+    sources: [AUR_SIMION_VOTER_CORRUPTION_SOURCE, AUR_LULEA_PARTY_SOURCE],
+  },
+  {
+    name: 'Silviu-Titus Păunescu',
+    party: 'AUR',
+    position: 'Deputat AUR',
+    position_type: 'deputy',
+    crime: 'Coruperea alegătorilor',
+    status: 'investigated',
+    details:
+      'Digi24 a relatat că Poliția Ialomița a cerut Parlamentului date privind calitatea lui George Simion, Claudiu Târziu, Marius Lulea și Silviu Titus Păunescu într-un dosar penal privind coruperea alegătorilor, legat de caravanele medicale AUR; fișa oficială parlamentară îl listează ca deputat al Alianței pentru Unirea Românilor.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Ialomița',
+      basis: 'case_location',
+      note: 'Solicitarea relatată provenea de la Poliția Ialomița, într-un dosar înregistrat la Parchetul Slobozia.',
+    },
+    sources: [AUR_SIMION_VOTER_CORRUPTION_SOURCE, AUR_PAUNESCU_PARLIAMENT_SOURCE],
+  },
+  {
+    name: 'Mihai Gabriel Neacșu',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Județean Cluj; funcționar public în Primăria Cluj-Napoca',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'Monitorul de Cluj a relatat că ANI l-a găsit pe Mihai Gabriel Neacșu în incompatibilitate pentru perioada 28 august - 26 septembrie 2020, deoarece a candidat la Consiliul Județean Cluj din partea AUR fără să se suspende din funcția publică deținută la Primăria Cluj-Napoca.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică și candidatura menționate de sursă sunt legate de județul Cluj.',
+    },
+    sources: [AUR_NEACSU_ANI_SOURCE],
+  },
+  {
+    name: 'Mihai-Bogdan Negoescu',
+    party: 'AUR',
+    position: 'Deputat AUR de Timiș; lider AUR Timiș',
+    position_type: 'deputy',
+    crime: 'Violență domestică / ordin de protecție',
+    status: 'investigated',
+    details:
+      'B1TV a relatat că Mihai-Bogdan Negoescu, deputat AUR de Timiș, fusese împiedicat printr-o decizie judecătorească din 2023 să se apropie la mai puțin de 200 de metri de fiica sa minoră, după un ordin de restricție obținut la Judecătoria Timișoara.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'case_location',
+      note: 'Ordinul de restricție relatat era legat de Judecătoria Timișoara, iar mandatul parlamentar este în județul Timiș.',
+    },
+    sources: [AUR_NEGOESCU_PROTECTION_ORDER_SOURCE],
+  },
+  {
+    name: 'Nicu Viorel',
+    party: 'AUR',
+    position: 'Candidat AUR la Primăria Săcălaz; fost primar al comunei Săcălaz',
+    position_type: 'mayor',
+    crime: 'Abuz în serviciu',
+    status: 'investigated',
+    details:
+      'Ziare.com, preluând Ziua de Vest, a relatat că fostul primar Nicu Viorel, candidat AUR la Primăria Săcălaz, era cercetat de DNA Timișoara pentru abuz în serviciu într-un dosar disjuns de Parchetul European privind folosirea banilor publici în perioada mandatului său local.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția și candidatura relatate sunt legate de comuna Săcălaz, județul Timiș.',
+    },
+    sources: [AUR_NICU_VIOREL_DNA_SOURCE],
+  },
+  {
+    name: 'Mohammad Murad',
+    party: 'AUR',
+    position: 'Deputat AUR; fost candidat la Primăria Mangalia',
+    position_type: 'deputy',
+    crime: 'Coruperea alegătorilor / mită electorală',
+    status: 'investigated',
+    details:
+      'Newsweek România a relatat că polițiștii din Mangalia au deschis dosar penal pentru coruperea alegătorilor după apariția unor imagini în care Mohammad Murad, candidat la Primăria Mangalia, ar fi oferit pachete electorale; documente AUR ulterioare îl listează ca deputat AUR.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'case_location',
+      note: 'Dosarul relatat era legat de campania pentru Primăria Mangalia, județul Constanța.',
+    },
+    sources: [AUR_MURAD_ELECTORAL_BRIBERY_SOURCE, AUR_MURAD_PARTY_SOURCE],
+  },
+  {
+    name: 'Gheorghe Juravlea',
+    party: 'AUR',
+    position: 'Candidat AUR ales în Consiliul Local Giarmata',
+    position_type: 'local_official',
+    crime: 'Viol; perversiuni sexuale; lipsire de libertate',
+    sentence: '6 ani închisoare',
+    sentence_years: 6,
+    status: 'convicted',
+    details:
+      'Articulat a relatat că Gheorghe Juravlea, condamnat anterior la 6 ani de închisoare pentru viol în grup, perversiuni sexuale și lipsire de libertate, a fost ales pe listele AUR în Consiliul Local Giarmata, dar instanța i-a invalidat definitiv mandatul.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'political_base',
+      note: 'Candidatura și mandatul invalidat erau pentru Consiliul Local Giarmata, județul Timiș.',
+    },
+    sources: [AUR_JURAVLEA_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Ringo Dămureanu',
+    party: 'AUR',
+    position: 'Fost deputat AUR de Dolj',
+    position_type: 'deputy',
+    crime: 'Lovire',
+    sentence: 'Amendă penală',
+    status: 'convicted',
+    details:
+      'B1TV a relatat că deputatul AUR Ringo Dămureanu avea o amendă penală pentru lovire, într-un caz petrecut înainte de mandatul parlamentar; pagina AUR îl prezenta ulterior în activitatea parlamentară a partidului.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Dolj',
+      basis: 'case_location',
+      note: 'Incidentul relatat era legat de Craiova, iar mandatul parlamentar AUR a fost în județul Dolj.',
+    },
+    sources: [AUR_RINGO_DAMUREANU_CONVICTION_SOURCE, AUR_RINGO_DAMUREANU_PARTY_SOURCE],
+  },
+  {
+    name: 'Dragoș Ștefan',
+    party: 'AUR',
+    position: 'Viceprimar AUR al municipiului Bacău; fost candidat AUR la Primăria Bacău',
+    position_type: 'local_official',
+    crime: 'Abuz în serviciu',
+    sentence: '3 ani închisoare cu suspendare în primă instanță; achitat definitiv în apel',
+    sentence_years: 3,
+    status: 'acquitted',
+    details:
+      'Bacau.net a relatat că fostul viceprimar Dragoș Ștefan a fost trimis în judecată de DNA pentru abuz în serviciu, condamnat în primă instanță la 3 ani cu suspendare și achitat ulterior de Curtea de Apel Bacău; aceeași publicație l-a prezentat ca candidat AUR la Primăria Bacău.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcțiile publice și candidatura AUR menționate sunt în municipiul Bacău.',
+    },
+    sources: [AUR_DRAGOS_STEFAN_CASE_SOURCE, AUR_DRAGOS_STEFAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Răzvan Biro',
+    party: 'AUR',
+    position: 'Deputat AUR de Mureș',
+    position_type: 'deputy',
+    crime: 'Instigare publică / violențe la proteste',
+    status: 'investigated',
+    details:
+      'Gândul a relatat că deputatul AUR Răzvan Biro a fost audiat la Parchetul General după protestele violente de la sediul Biroului Electoral Central; fișa reține citarea/audierea în cauza privind violențele de la BEC, nu o condamnare.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Ancheta relatată privea protestele de la sediul Biroului Electoral Central din București.',
+    },
+    sources: [AUR_BEC_PROTESTS_SOURCE],
+  },
+  {
+    name: 'Tiberiu Claudiu Barstan',
+    party: 'AUR',
+    position: 'Deputat AUR',
+    position_type: 'deputy',
+    crime: 'Instigare publică / violențe la proteste',
+    status: 'investigated',
+    details:
+      'Gândul a relatat că deputatul AUR Tiberiu Claudiu Barstan a fost audiat ca martor la Parchetul General după ce a postat o filmare din timpul protestelor violente de la sediul BEC; fișa reține citarea/audierea în cauza privind violențele, nu o condamnare.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Ancheta relatată privea protestele de la sediul Biroului Electoral Central din București.',
+    },
+    sources: [AUR_BEC_PROTESTS_SOURCE],
+  },
+  {
+    name: 'Daniel-Cătălin Ciornei',
+    party: 'AUR',
+    position: 'Deputat AUR',
+    position_type: 'deputy',
+    crime: 'Instigare publică / violențe la proteste',
+    status: 'investigated',
+    details:
+      'Gândul a relatat că deputatul AUR Daniel-Cătălin Ciornei s-a numărat printre parlamentarii AUR audiați la Parchetul General după protestele violente de la sediul BEC; fișa reține citarea/audierea în cauza privind violențele, nu o condamnare.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Ancheta relatată privea protestele de la sediul Biroului Electoral Central din București.',
+    },
+    sources: [AUR_BEC_PROTESTS_SOURCE],
   },
 ];
 
@@ -17338,6 +17651,7 @@ export const politicianAdditions = [
   ...ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
+  ...AUR_BIG_SEARCH_ADDITIONAL_RECORDS,
   ...MEDIAS_GOSCOM_COUNCIL_RECORDS,
   ...PASCANI_AGROCOMPLEX_RECORDS,
 ];
