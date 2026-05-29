@@ -834,6 +834,12 @@ const ANI_OCT_2021_FIVE_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3186&PID=20',
 };
 
+const BOTA_IOAN_DUMITRU_PSD_SOURCE = {
+  label: 'Mesagerul de Sibiu',
+  kind: 'press',
+  url: 'https://mesageruldesibiu.ro/fotoliu-cu-greutate-ioan-bota-sef-peste-sase-judete/',
+};
+
 const ANI_OCT_2021_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
@@ -1012,6 +1018,18 @@ const ONESTI_PANFIL_INDEPENDENT_SOURCE = {
   label: 'Onesti Online',
   kind: 'press',
   url: 'https://www.onestionline.ro/politica/administratie2020/administratia2020.htm',
+};
+
+const ONESTI_PANFIL_PSD_SOURCE = {
+  label: 'JustNews',
+  kind: 'press',
+  url: 'https://justnews.ro/un-consilier-judetean-psd-din-bacau-a-pierdut-procesul-cu-ani-care-il-gasise-in-conflict-de-interese-administrativ-pe-cand-era-consilier-local-la-onesti/',
+};
+
+const RATB_ADRIAN_SORIN_MIHAI_PSD_SOURCE = {
+  label: 'Digi24',
+  kind: 'press',
+  url: 'https://www.digi24.ro/stiri/economie/companii/cum-a-ajuns-stb-o-gaura-neagra-sufocata-de-numiri-politice-sindicat-si-masuri-populiste-1809995',
 };
 
 const SULINA_HUBATI_PSD_SOURCE = {
@@ -2574,7 +2592,7 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Panfil Gelu Ionuț',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost consilier local al municipiului Onești, județul Bacău',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
@@ -2587,7 +2605,11 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Onești, județul Bacău.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, ONESTI_PANFIL_INDEPENDENT_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      ONESTI_PANFIL_INDEPENDENT_SOURCE,
+      ONESTI_PANFIL_PSD_SOURCE,
+    ],
   },
   {
     name: 'Hubati Tudor',
@@ -2730,7 +2752,7 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Deac Ioan',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Secretar general al comunei Bogdan Vodă, județul Maramureș',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
@@ -2743,7 +2765,14 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de secretar general al comunei Bogdan Vodă, județul Maramureș.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_SIX_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_maramures/consiliul-local/bogdan-voda/',
+      },
+    ],
   },
   {
     name: 'Stan Maria Țuțina',
@@ -2781,7 +2810,7 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Duță Maria-Mihaela',
-    party: 'Independent',
+    party: 'PMP',
     position: 'Fost director executiv al Agenției pentru Protecția Mediului Prahova',
     position_type: 'other',
     crime: 'Conflict de interese administrativ',
@@ -2794,11 +2823,18 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de director executiv al Agenției pentru Protecția Mediului Prahova.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_FIVE_SOURCE,
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/alegeri-parlamentare-2016/alegeri-parlamentare-2016-listele-de-candidati-din-judetul-prahova-623255',
+      },
+    ],
   },
   {
     name: 'Drogeanu Aurelian',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Șef al Secției de Drumuri Naționale Constanța din cadrul DRDP Constanța',
     position_type: 'other',
     crime: 'Avere nejustificată',
@@ -2811,7 +2847,14 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era în cadrul DRDP Constanța.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_TEN_SOURCE,
+      {
+        label: 'Replica Online',
+        kind: 'press',
+        url: 'https://www.replicaonline.ro/jaf-drdp-constanta-a-atribuit-contracte-propriilor-angajati-iar-neaga-a-musamalizat-tot-257011',
+      },
+    ],
   },
   {
     name: 'Kiss Csaba',
@@ -3070,7 +3113,7 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Orășanu Romică',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Secretar general în cadrul Primăriei comunei Dudești, județul Brăila',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
@@ -3083,7 +3126,14 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de secretar general al comunei Dudești, județul Brăila.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_THREE_2023_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_THREE_2023_SOURCE,
+      {
+        label: 'Ziarul Comunitatea',
+        kind: 'press',
+        url: 'https://ziarulcomunitatea.ro/secretarul-general-orasanu-de-la-primaria-dudesti-declarat-incompatibil-de-catre-ani/',
+      },
+    ],
   },
   {
     name: 'Musta Virgil Filaret',
@@ -3328,7 +3378,7 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Mihalte Sandu-Ioan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Inspector șef al Gărzii Forestiere Brașov; fost șef al Ocolului Silvic Bucegi - Piatra Craiului Ciucaș R.A.',
     position_type: 'other',
     crime: 'Avere nejustificată',
@@ -3341,7 +3391,14 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de inspector șef al Gărzii Forestiere Brașov.',
     },
-    sources: [ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE],
+    sources: [
+      ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Argumentul.ro',
+        kind: 'press',
+        url: 'https://argumentul.ro/single.php?id=2104',
+      },
+    ],
   },
   {
     name: 'Bungău Codruța Emilia',
@@ -4207,7 +4264,7 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
   },
   {
     name: 'Boța Ioan Dumitru',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director executiv în cadrul Agenției Județene pentru Plăți și Inspecție Socială Sibiu',
     position_type: 'other',
     crime: 'Incompatibilitate',
@@ -4220,7 +4277,7 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era în cadrul Agenției Județene pentru Plăți și Inspecție Socială Sibiu.',
     },
-    sources: [ANI_OCT_2021_FIVE_PUBLIC_PERSONS_ARCHIVE_SOURCE],
+    sources: [ANI_OCT_2021_FIVE_PUBLIC_PERSONS_ARCHIVE_SOURCE, BOTA_IOAN_DUMITRU_PSD_SOURCE],
   },
   {
     name: 'Misaroși Ioana Carmen',
@@ -4360,7 +4417,7 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
   },
   {
     name: 'Adrian Sorin Mihail',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost director general al Regiei Autonome de Transport București',
     position_type: 'other',
     crime: 'Conflict de interese; sesizare Parchet',
@@ -4373,7 +4430,7 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de director general al Regiei Autonome de Transport București, actuala STB.',
     },
-    sources: [ANI_MAY_2021_FOUR_PUBLIC_PERSONS_ARCHIVE_SOURCE],
+    sources: [ANI_MAY_2021_FOUR_PUBLIC_PERSONS_ARCHIVE_SOURCE, RATB_ADRIAN_SORIN_MIHAI_PSD_SOURCE],
   },
   {
     name: 'Chirea Sorin Dan',
@@ -5986,7 +6043,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
   },
   {
     name: 'Cojocaru Constantin',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
@@ -5994,7 +6051,7 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
     verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Ioniță Ioan',
@@ -15142,7 +15199,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Popasavu Ioan',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Consilier în Consiliul Local al comunei Ucea',
     position_type: 'local_official',
     geography: {
@@ -15164,6 +15221,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2432',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -15783,7 +15845,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Koss Gabriela',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Secretar al UAT municipiul Reghin, județul Mureș',
     position_type: 'local_official',
     geography: {
@@ -15805,6 +15867,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
+      },
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2016/09/28/cine-va-supraveghea-respectarea-legalitatii-scrutinului-electoral-din-mures/',
       },
     ],
   },
@@ -15955,7 +16022,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Ștefan Marian',
-    party: 'Independent',
+    party: 'PNL',
     position: 'Viceprimar al comunei Braniștea, județul Dâmbovița',
     position_type: 'local_official',
     geography: {
@@ -15977,6 +16044,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5156',
+      },
+      {
+        label: 'VotCorect',
+        kind: 'press',
+        url: 'https://votcorect.ro/liste-candidati/?judet=dambovita',
       },
     ],
   },
