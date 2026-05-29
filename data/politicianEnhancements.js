@@ -612,6 +612,72 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE = {
   url: 'https://integritate.eu/incidente-de-integritate-12-alesi-locali/',
 };
 
+const ANI_PUBLIC_OFFICIALS_SIX_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_PUBLIC_OFFICIALS_FIVE_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-privind-incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_PUBLIC_OFFICIALS_TEN_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/',
+};
+
+const ANI_PUBLIC_OFFICIALS_FOUR_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-6/',
+};
+
+const ANI_PUBLIC_OFFICIALS_THREE_2024_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010-4/',
+};
+
+const ANI_PUBLIC_OFFICIALS_THREE_2023_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_PUBLIC_OFFICIALS_FIVE_2021_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/',
+};
+
+const ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-3/',
+};
+
+const ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
 const TUDORA_DORIN_PARTY_SOURCE = {
   label: 'Observatorul Prahovean',
   kind: 'press',
@@ -2402,6 +2468,811 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
     },
     sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, MISCA_DUMBRAVA_PNL_SOURCE],
+  },
+];
+
+const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
+  {
+    name: 'Dinu Daniela',
+    party: 'Independent',
+    position: 'Secretar general al comunei Albești, județul Constanța',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada 2021-2022, în exercitarea funcției publice de conducere, a contrasemnat pentru legalitate acte administrative prin care a fost desemnată președinte al unor comisii de concurs și ulterior remunerată pentru aceste activități.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Albești, județul Constanța.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+  },
+  {
+    name: 'Munteanu Mirela',
+    party: 'Independent',
+    position: 'Secretar general al comunei Pădureni, județul Vaslui',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, la 31 ianuarie 2023, în exercitarea funcției publice de conducere, a contrasemnat un act administrativ prin care a fost desemnată secretar al unei comisii de concurs și al unei comisii de soluționare a contestațiilor, activități pentru care a încasat venituri.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Pădureni, județul Vaslui.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+  },
+  {
+    name: 'Deac Ioan',
+    party: 'Independent',
+    position: 'Secretar general al comunei Bogdan Vodă, județul Maramureș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în exercitarea funcției publice, având un interes personal de natură patrimonială, a refuzat să contrasemneze pentru legalitate o hotărâre a consiliului local privind adjudecarea proprietății imobiliare aparținând unei societăți în care deținea calitatea de membru cooperator.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Bogdan Vodă, județul Maramureș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+  },
+  {
+    name: 'Stan Maria Țuțina',
+    party: 'Independent',
+    position: 'Personal contractual de conducere în aparatul de specialitate al primarului comunei Comana, județul Giurgiu',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 5 noiembrie 2020 - 29 iulie 2022, după ce societăți la care deținea calități de asociat sau administrator au încheiat contracte cu Primăria comunei Comana.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în aparatul de specialitate al primarului comunei Comana, județul Giurgiu.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+  },
+  {
+    name: 'Nicola Mihaela',
+    party: 'Independent',
+    position: 'Fost auditor superior în cadrul Agenției Naționale de Administrare Fiscală',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 martie - 4 august 2021, întrucât a deținut simultan funcția publică de auditor superior în ANAF și funcția de director economic la o societate al cărei acționar unic era o societate cu capital de stat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Agenției Naționale de Administrare Fiscală.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_SIX_SOURCE],
+  },
+  {
+    name: 'Duță Maria-Mihaela',
+    party: 'Independent',
+    position: 'Fost director executiv al Agenției pentru Protecția Mediului Prahova',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în exercitarea funcției publice de conducere de director executiv al Agenției pentru Protecția Mediului Prahova, a semnat pentru sine o decizie care i-a adus un beneficiu material.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de director executiv al Agenției pentru Protecția Mediului Prahova.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE],
+  },
+  {
+    name: 'Drogeanu Aurelian',
+    party: 'Independent',
+    position: 'Șef al Secției de Drumuri Naționale Constanța din cadrul DRDP Constanța',
+    position_type: 'other',
+    crime: 'Avere nejustificată',
+    status: 'investigated',
+    details:
+      'ANI a constatat o diferență nejustificată de 165.957 lei între averea dobândită și veniturile realizate împreună cu familia în perioada exercitării funcției publice de conducere.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul DRDP Constanța.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Kiss Csaba',
+    party: 'Independent',
+    position: 'Fost funcționar public cu statut special în cadrul Direcției Generale de Poliție a Municipiului București',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate pentru perioada 16 decembrie 2011 - 1 februarie 2021, când ar fi exercitat simultan funcția publică cu statut special și alte funcții în sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Generale de Poliție a Municipiului București.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Sandu Doina Zizi',
+    party: 'Independent',
+    position: 'Manager al Spitalului de Psihiatrie „Elisabeta Doamna” Galați',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în calitate de manager al spitalului, a aprobat și semnat documente care au stat la baza schimbării funcției și mutării soțului său în altă structură a aceleiași unități.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de manager al Spitalului de Psihiatrie „Elisabeta Doamna” Galați.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Lotoroșanu Lucian',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul DGASPC Caraș-Severin',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 8 septembrie 2020 - 2 iunie 2022, întrucât ar fi exercitat simultan funcția publică din DGASPC Caraș-Severin și alte funcții în sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul DGASPC Caraș-Severin.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Alexeev Georgică',
+    party: 'Independent',
+    position: 'Fost director al Penitenciarului Timișoara',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în exercitarea funcției publice de conducere cu statut special, a participat la luarea unor decizii privind o societate comercială al cărei asociat unic era creditorul unui împrumut declarat în propria declarație de avere.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de director al Penitenciarului Timișoara.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Tănase George Șerban',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul IPJ Argeș',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 11 februarie 2020 - 12 octombrie 2022, când ar fi deținut simultan calitatea de organ de cercetare penală al poliției judiciare și funcția de asociat și administrator al unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Argeș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Vasile Anca Maria Cătălina',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul Primăriei comunei Manasia, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 18 ianuarie 2021 - 19 decembrie 2022, întrucât, în calitate de funcționar public în Primăria comunei Manasia, s-a aflat în raporturi ierarhice directe cu tatăl său, secretar general al comunei.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Manasia, județul Ialomița.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Tomi Lucian Ioan',
+    party: 'Independent',
+    position: 'Fost funcționar public în cadrul Primăriei comunei Chinteni, județul Cluj',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea atribuțiilor de serviciu, ar fi semnat autorizații de construire bazate pe documentații tehnice elaborate de societăți în care soția sa avea calități de asociat și administrator.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Chinteni, județul Cluj.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Popescu Sebastian',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul IGPR - Brigada de Combatere a Criminalității Organizate București',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate și a sesizat comisia de disciplină, reținând că în perioada 11 februarie 2020 - 29 aprilie 2021 ar fi deținut simultan calitatea de organ de cercetare penală al poliției judiciare și calitatea de persoană fizică autorizată.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul IGPR - Brigada de Combatere a Criminalității Organizate București.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Condrat Florin',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul Inspectoratului de Poliție Județean Covasna',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 11 februarie 2020 - 26 mai 2021, când ar fi deținut simultan calitatea de organ de cercetare penală al poliției judiciare și funcția de administrator în cadrul unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Covasna.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
+  },
+  {
+    name: 'Preda Mircea-Gabriel',
+    party: 'Independent',
+    position: 'Fost manager al Spitalului Clinic de Obstetrică Ginecologie „Dr. Ioan Aurel Sbârcea” Brașov',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 aprilie 2019 - 9 octombrie 2023, întrucât a exercitat simultan funcția de manager al spitalului și activitatea de medic primar într-un cabinet medical privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de manager al spitalului din Brașov.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FOUR_SOURCE],
+  },
+  {
+    name: 'Dubei Liviu',
+    party: 'Independent',
+    position: 'Director medical în cadrul Spitalului Municipal „Dr. Cosma și Damian” Rădăuți',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada exercitării funcției de director medical, soția sa a deținut funcția de șef secție în același spital, iar persoana evaluată a întocmit sau semnat documente referitoare la evaluarea performanțelor profesionale individuale ale acesteia.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Spitalul Municipal „Dr. Cosma și Damian” Rădăuți, județul Suceava.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FOUR_SOURCE],
+  },
+  {
+    name: 'Cioc Mariana',
+    party: 'Independent',
+    position: 'Secretar general al comunei Goiești, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în calitate de secretar general al comunei Goiești, a avizat pentru legalitate o dispoziție privind organizarea unui examen de promovare și constituirea comisiilor, fiind ulterior desemnată secretar al comisiilor și remunerată.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Goiești, județul Dolj.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FOUR_SOURCE],
+  },
+  {
+    name: 'Nancy Loghin',
+    party: 'Independent',
+    position: 'Secretar general al comunei Sinești, județul Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada 2020-2023, în exercitarea funcției publice de conducere, a contrasemnat pentru legalitate cinci dispoziții prin care a fost desemnată președinte al unor comisii de concurs și ulterior remunerată.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Sinești, județul Iași.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_THREE_2024_SOURCE],
+  },
+  {
+    name: 'Marcu Silvia Teodora',
+    party: 'Independent',
+    position: 'Secretar general al comunei Coteana, județul Olt',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în anul 2022, în exercitarea funcției publice de conducere, a contrasemnat dispoziția primarului privind constituirea unei comisii de concurs în care a fost desemnată președinte și ulterior remunerată.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Coteana, județul Olt.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_THREE_2024_SOURCE],
+  },
+  {
+    name: 'Ion Robert Florin',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul Inspectoratului de Poliție Județean Argeș',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate pentru intervalele 27 august - 3 octombrie 2022 și 19 noiembrie 2022 - 3 ianuarie 2023, când ar fi exercitat simultan funcția publică cu statut special și o altă funcție remunerată în sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Argeș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_THREE_2023_SOURCE],
+  },
+  {
+    name: 'Orășanu Romică',
+    party: 'Independent',
+    position: 'Secretar general în cadrul Primăriei comunei Dudești, județul Brăila',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 27 ianuarie - 28 februarie 2023, când raportul de serviciu din funcția de secretar general era suspendat, iar persoana evaluată exercita funcția de consilier personal în cabinetul primarului comunei Dudești.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Dudești, județul Brăila.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_THREE_2023_SOURCE],
+  },
+  {
+    name: 'Musta Virgil Filaret',
+    party: 'Independent',
+    position: 'Șef al Secției Boli Infecțioase II din Spitalul Clinic de Boli Infecțioase și Pneumoftiziologie „Dr. Victor Babeș” Timișoara',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict de interese administrativ după ce o societate în care persoana evaluată și membri ai familiei dețineau calități profesionale sau societare a încheiat contracte de prestări servicii medicale cu spitalul unde acesta era șef de secție.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Spitalul „Dr. Victor Babeș” Timișoara.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_2021_SOURCE],
+  },
+  {
+    name: 'Sauer Maria',
+    party: 'Independent',
+    position: 'Director al Stațiunii de Cercetare Dezvoltare pentru Creșterea Ovinelor și Caprinelor Caransebeș',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 22 iulie 2019 - 28 iulie 2021, întrucât a deținut funcția de director al stațiunii de cercetare și calitatea de membru în consiliul de administrație, în timp ce soțul său avea calități de administrator sau asociat în societăți cu obiect de activitate similar.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Stațiunea de Cercetare Dezvoltare pentru Creșterea Ovinelor și Caprinelor Caransebeș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_2021_SOURCE],
+  },
+  {
+    name: 'Lifa Sabin',
+    party: 'Independent',
+    position: 'Fost director executiv adjunct în cadrul DSVSA Timiș',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în exercitarea funcției de director executiv adjunct al DSVSA Timiș, a aprobat deconturi justificative pentru o societate în cadrul căreia fiul său era angajat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Timiș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_2021_SOURCE],
+  },
+  {
+    name: 'Dumitrescu Andrei',
+    party: 'Independent',
+    position: 'Comandant detașament la Unitatea Specială 72 Jandarmi Protecție Instituțională „Anghel Saligny” Cernavodă',
+    position_type: 'other',
+    crime: 'Fals în declarații',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă ÎCCJ privind indicii de fals în declarații, reținând că nu ar fi declarat venituri realizate din jocuri de noroc în declarațiile de avere depuse în perioada exercitării funcției publice.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la unitatea de jandarmi din Cernavodă, județul Constanța.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_2021_SOURCE],
+  },
+];
+
+const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
+  {
+    name: 'Baciu Mariana',
+    party: 'Independent',
+    position: 'Secretar general al comunei Zagon, județul Covasna',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 21 ianuarie - 20 mai 2021, întrucât a exercitat simultan funcția publică de conducere de secretar general al comunei Zagon și funcția de membru în consiliul de administrație al Școlii Gimnaziale „Mikes Kelemen” din comuna Zagon.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Zagon, județul Covasna.',
+    },
+    sources: [ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Vasilică Gheorghiță Liviu',
+    party: 'Independent',
+    position: 'Fost secretar al comunei Șirețel, județul Iași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 23 aprilie 2019 - 18 martie 2021, întrucât a exercitat simultan funcția publică de secretar al comunei Șirețel și funcția de casier în cadrul aceleiași instituții publice.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar al comunei Șirețel, județul Iași.',
+    },
+    sources: [ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Acatrinei Laura',
+    party: 'Independent',
+    position: 'Inspector în cadrul Direcției de Sănătate Publică a Județului Botoșani',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 2 iulie 2020 - 11 august 2021, întrucât a deținut simultan funcția de inspector în cadrul DSP Botoșani și funcția de medic primar epidemiolog în cadrul Spitalului Municipal Dorohoi.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției de Sănătate Publică a Județului Botoșani.',
+    },
+    sources: [ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Zlate Gina Elena',
+    party: 'Independent',
+    position: 'Fost funcționar public în cadrul Primăriei municipiului Giurgiu',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 2 iulie 2019 - 31 martie 2020, întrucât a deținut simultan funcția de consilier în cadrul Biroului Buget al Primăriei municipiului Giurgiu și alte funcții în domeniul economic în sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei municipiului Giurgiu.',
+    },
+    sources: [ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Marinescu Bogdan Dragoș',
+    party: 'Independent',
+    position: 'Fost director în cadrul Ministerului Investițiilor și Proiectelor Europene',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 27 iulie - 31 octombrie 2023, întrucât a exercitat simultan funcția publică de conducere de director în cadrul MIPE și funcția de administrator al unei societăți comerciale care a încheiat contracte de consultanță cu mai multe UAT-uri.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Investițiilor și Proiectelor Europene.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Murgeanu Gabriela',
+    party: 'Independent',
+    position: 'Funcționar public de conducere în cadrul Ministerului Transporturilor și Infrastructurii',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 16 aprilie 2018 - 15 aprilie 2022, întrucât, simultan cu funcția publică de conducere, a exercitat și funcția de membru în consiliul de administrație al unei societăți reglementate de Legea nr. 31/1990.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Transporturilor și Infrastructurii.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Boltinescu Gabriel-Tiberiu',
+    party: 'Independent',
+    position: 'Fost funcționar public cu statut special în cadrul Inspectoratului de Poliție Județean Brașov',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 11 februarie 2020 - 14 septembrie 2022, întrucât, simultan cu calitatea de organ de cercetare penală al poliției judiciare, a deținut și funcția de administrator al unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Brașov.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Georgescu Monica Elena',
+    party: 'Independent',
+    position: 'Fost funcționar public în cadrul DSVSA Călărași',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 19 ianuarie - 1 iunie 2022, întrucât a deținut simultan funcția publică de consilier juridic în cadrul DSVSA Călărași și funcția contractuală de consilier juridic în cadrul unei societăți reglementate de Legea nr. 31/1990.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Călărași.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Pintilie Elena-Camelia',
+    party: 'Independent',
+    position: 'Fost funcționar public în cadrul Inspectoratului de Stat în Construcții',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 6 februarie 2023 - 6 februarie 2025, întrucât a deținut simultan calitatea de funcționar public și funcția de consilier în cadrul Ministerului Afacerilor Externe.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Stat în Construcții.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Tănase Cristina',
+    party: 'Independent',
+    position: 'Director al Direcției Control și Digitalizare din cadrul Consiliului Național al Audiovizualului',
+    position_type: 'other',
+    crime: 'Sesizare DNA pentru infracțiune asimilată infracțiunilor de corupție',
+    status: 'investigated',
+    details:
+      'ANI a sesizat DNA privind indicii că, în perioada în care exercita temporar funcția de director al Direcției Control și Digitalizare, a întocmit și semnat bibliografia aferentă concursului pentru ocuparea funcției, concurs la care a participat și în urma căruia a fost numită director.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Consiliului Național al Audiovizualului.',
+    },
+    sources: [ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Mihalte Sandu-Ioan',
+    party: 'Independent',
+    position: 'Inspector șef al Gărzii Forestiere Brașov; fost șef al Ocolului Silvic Bucegi - Piatra Craiului Ciucaș R.A.',
+    position_type: 'other',
+    crime: 'Avere nejustificată',
+    status: 'investigated',
+    details:
+      'ANI a constatat o diferență nejustificată de 68.000 euro între averea dobândită și veniturile realizate împreună cu familia în perioada exercitării funcției de conducere de șef al Ocolului Silvic Bucegi - Piatra Craiului Ciucaș R.A.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de inspector șef al Gărzii Forestiere Brașov.',
+    },
+    sources: [ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Bungău Codruța Emilia',
+    party: 'Independent',
+    position: 'Fost manager al Spitalului Orășenesc Deta',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 9 mai 2019 - 31 mai 2021, întrucât a exercitat simultan funcția de manager al Spitalului Orășenesc Deta și funcția de medic primar în cadrul unei societăți comerciale și al unui cabinet medical individual.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de manager al Spitalului Orășenesc Deta, județul Timiș.',
+    },
+    sources: [ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Bucur Lucian Cornel',
+    party: 'Independent',
+    position: 'Secretar al municipiului Reșița, județul Caraș-Severin',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada exercitării funcției publice, a avizat o serie de dispoziții ale primarului municipiului Reșița prin care i-au fost atribuite funcții sau calități pentru care a obținut venituri.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar al municipiului Reșița, județul Caraș-Severin.',
+    },
+    sources: [ANI_FEB_2023_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Bolborea Veronel Florin',
+    party: 'Independent',
+    position: 'Director executiv în cadrul DSVSA Olt',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane; fals în declarații',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând indicii privind folosirea funcției pentru favorizarea unor persoane și fals în declarații în legătură cu acte semnate pentru o societate la care tatăl său deținea calități societare.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Olt.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Amzoi Elena',
+    party: 'Independent',
+    position: 'Director executiv al DGASPC Caraș-Severin',
+    position_type: 'other',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă ÎCCJ privind indicii că, în perioada detașării la DGASPC Caraș-Severin, a participat la realizarea unui control tematic și ulterior a semnat raportul privind reorganizarea direcției, situație care putea produce un folos patrimonial pentru sine.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de director executiv al DGASPC Caraș-Severin.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Mărgărit Lăcrămioara',
+    party: 'Independent',
+    position: 'Șef serviciu în cadrul AIMMAIPE Ploiești',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada delegării în funcția publică de director executiv al AIMMAIPE, a semnat documente pentru concursuri de promovare și ocupare a unei funcții publice de conducere care puteau crea un beneficiu pentru aceasta.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul AIMMAIPE Ploiești, județul Prahova.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Podină Dorina Florica',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul Primăriei comunei Botiz, județul Satu Mare',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate în perioada 9 iunie 2015 - 4 februarie 2020, întrucât a exercitat simultan funcția publică de consilier juridic în cadrul Primăriei comunei Botiz și calitatea de angajat cu contract individual de muncă în sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Botiz, județul Satu Mare.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Albu Marius',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul AJOFM Botoșani',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea atribuțiilor de control din cadrul AJOFM Botoșani, a desfășurat controale și a semnat documente referitoare la societăți în legătură cu soția sa sau cu venituri proprii din sectorul privat.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Agenției Județene pentru Ocuparea Forței de Muncă Botoșani.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Cosma Gabriel',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul Penitenciarului Oradea',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate începând cu 1 octombrie 2016, întrucât a exercitat simultan funcția publică de medic în cadrul Penitenciarului Oradea și funcția de administrator al unei societăți comerciale.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Penitenciarului Oradea, județul Bihor.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Matei Adrian-Robert',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul Inspectoratului General al Poliției Române',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat incompatibilitate pentru intervalele 11 mai - 30 iunie 2020 și 13 iulie - 1 august 2021, întrucât a deținut și exercitat simultan funcția publică cu statut special din cadrul IGPR și o funcție contractuală.',
+    verified_at: '2026-05-29',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului General al Poliției Române.',
+    },
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
   },
 ];
 
@@ -17935,6 +18806,8 @@ export const politicianAdditions = [
   ...ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS,
   ...ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS,
+  ...ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS,
   ...AUR_FOCUSED_ADDITIONAL_RECORDS,
   ...AUR_SECOND_PASS_ADDITIONAL_RECORDS,
   ...AUR_BIG_SEARCH_ADDITIONAL_RECORDS,
