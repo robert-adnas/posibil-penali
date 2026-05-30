@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-29',
+  last_updated: '2026-05-30',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -222,6 +222,24 @@ const ANI_MAY_2026_AGERPRES_SOURCE = {
   url: 'https://agerpres.ro/comunicate/2026/05/04/comunicat-de-presa---agentia-nationala-de-integritate--1552410',
 };
 
+const ANI_JAN_2026_BIG_DATA_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-3-persoane-autosesizari-sistem-big-data/',
+};
+
+const ANI_DEC_2025_BIG_DATA_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/',
+};
+
+const ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/',
+};
+
 const DOGARU_TATIANA_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
@@ -382,6 +400,114 @@ const RUS_DAN_DORUL_PARTY_SOURCE = {
   label: 'Zi de Zi',
   kind: 'press',
   url: 'https://www.zi-de-zi.ro/2023/12/13/sediu-nou-pentru-aur-reghin/',
+};
+
+const TOKOS_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_brasov/primarie/augustin/',
+};
+
+const DEVESEL_DANIELA_PNL_SOURCE = {
+  label: 'Ziarul de Prahova',
+  kind: 'press',
+  url: 'https://www.zdp.ro/maneciu-primarul-si-membrii-noului-consiliu-local-au-depus-juramantul-pentru-mandatul-2024-2028.html',
+};
+
+const PASATA_ADAM_PNL_SOURCE = {
+  label: 'Primăria Stejaru',
+  kind: 'official',
+  url: 'https://primaria-stejaru.ro/consilier-local/adam-pasata/',
+};
+
+const GOIDAN_CRISTIAN_PMP_SOURCE = {
+  label: 'Gazeta de Prahova',
+  kind: 'press',
+  url: 'https://gazetaph.ro/rezultate-alegeri-locale-prahova-2020/',
+};
+
+const CHIMIGERIU_BARBURA_PNL_SOURCE = {
+  label: 'PressAlert',
+  kind: 'press',
+  url: 'https://www.pressalert.ro/2025/12/incompatibilitati-la-spitalele-din-vestul-tarii-ani-a-identificat-functii-politice-detinute-de-membrii-ca-din-resita-si-sebis/',
+};
+
+const BOTEA_VIOREL_PMP_SOURCE = {
+  label: 'ProBrăila',
+  kind: 'press',
+  url: 'https://probr.ro/viorel-botea-s-a-aflat-in-incompatibilitate-in-perioada-in-care-a-fost-membru-al-ca-la-spitalul-judetean-si-presedinte-al-pmp-braila/',
+};
+
+const DONDAS_ADRIANA_PSD_SOURCE = {
+  label: 'NewsPașcani',
+  kind: 'press',
+  url: 'https://newspascani.com/psd-pascani-isi-alege-maine-noua-conducere-dragos-ionescu-si-mihai-buhaiescu-in-cursa-pentru-sefia-organizatiei/',
+};
+
+const ANDREESCU_COSTEL_USR_SOURCE = {
+  label: 'Observatorul Prahovean',
+  kind: 'press',
+  url: 'https://www.observatorulph.ro/administratie/2587906-componenta-aga-la-societatile-din-subordinea-consiliului-local-ploiesti',
+};
+
+const BECIU_ELISABETA_PSD_SOURCE = {
+  label: 'Obiectiv Ialomița',
+  kind: 'press',
+  url: 'https://obiectiv.net/ialomita-a-fost-constituit-consiliul-judetean-mandatul-2020-2024-62816.html/',
+};
+
+const GAVRIL_MIHAI_LIVIU_PSD_SOURCE = {
+  label: 'Primăria Iași',
+  kind: 'official',
+  url: 'https://www.primaria-iasi.ro/dm_iasi/portal.nsf/pagini/comisii%2Bde%2Bspecialitate-00001A7E?Open=&Start=1',
+};
+
+const BRATU_NICOLAE_PSD_SOURCE = {
+  label: 'Primăria Ștefești',
+  kind: 'official',
+  url: 'https://primariastefesti.ro/consilier-local/nicolae-bratu/',
+};
+
+const VASILIU_VLAD_PNL_SOURCE = {
+  label: 'Știri Botoșani',
+  kind: 'press',
+  url: 'https://stiri.botosani.ro/stiri/politica/medicul-valerian-andries-a-renuntat-la-conducerea-organizatiei-pnl-dorohoi.html',
+};
+
+const NASTASE_IONUT_DRAGOS_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_olt/consiliul-local/caracal/9',
+};
+
+const TOMA_BROASCA_PMP_SOURCE = {
+  label: 'Jurnal Brăila',
+  kind: 'press',
+  url: 'https://jurnalbr.ro/politica/ani-a-decis-viorel-botea-si-virginia-toma-broasca-declarati-incompatibili-ce-functii-au-cumulat-ilegal/',
+};
+
+const CAMPEANU_ADRIANA_PNL_SOURCE = {
+  label: 'Radio Constanța',
+  kind: 'press',
+  url: 'https://www.radioconstanta.ro/2022/06/25/constanta-consilierul-local-adriana-arghirescu-este-noul-presedintele-al-organizatiei-de-femei-a-partidului-national-liberal/',
+};
+
+const GALATANU_IONEL_PNL_SOURCE = {
+  label: 'Comuna Odobești',
+  kind: 'official',
+  url: 'https://www.comuna-odobesti.ro/primaria/consiliul-local/componenta',
+};
+
+const PLESA_IOAN_DANUT_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_cluj/consiliul-local/margau/6',
+};
+
+const STAN_EMIL_ALECU_PSD_SOURCE = {
+  label: 'Zi de Zi',
+  kind: 'press',
+  url: 'https://www.zi-de-zi.ro/2020/10/24/ludusul-are-primar-si-consiliu-local-constituit/',
 };
 
 const ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE = {
@@ -5374,6 +5500,542 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea.',
     },
     sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+];
+
+const ANI_2025_2026_ADDITIONAL_RECORDS = [
+  {
+    name: 'Jugănaru Victor Antoniu',
+    party: 'PNL',
+    position:
+      'Membru titular în Consiliul de administrație al Institutului de Urgențe pentru Boli Cardiovasculare „Prof. Dr. C.C. Iliescu”',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în ianuarie 2026 că, în perioada 9 decembrie 2022 - 15 noiembrie 2025, ar fi exercitat simultan calitatea de membru titular în consiliul de administrație al institutului și funcții în organele de conducere ale PNL, inclusiv vicepreședinte al Departamentului pentru Politici în Sănătate în cadrul PNL Sector 3.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Institutului de Urgențe pentru Boli Cardiovasculare „Prof. Dr. C.C. Iliescu”, București.',
+    },
+    sources: [ANI_JAN_2026_BIG_DATA_SOURCE],
+  },
+  {
+    name: 'Hățăgan Olimpiu-Sorin',
+    party: 'PNL',
+    position:
+      'Fost membru supleant în Consiliul de administrație al Spitalului Orășenesc „Dr. Valer Russu” Luduș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în ianuarie 2026 că, în perioada 17 mai 2023 - 27 august 2025, ar fi exercitat simultan funcția de membru supleant în consiliul de administrație al spitalului și funcția de președinte al Organizației PNL Luduș.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Orășenesc „Dr. Valer Russu” Luduș, județul Mureș.',
+    },
+    sources: [ANI_JAN_2026_BIG_DATA_SOURCE],
+  },
+  {
+    name: 'Romocean Paula Ana',
+    party: 'USR',
+    position: 'Membru titular în Consiliul de administrație al Spitalului Clinic Municipal de Urgență Timișoara',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în ianuarie 2026 că, în perioada 27 iunie 2021 - 22 mai 2023, ar fi exercitat simultan calitatea de membru titular în consiliul de administrație al spitalului și funcția de membru în Biroul Local Timișoara al USR.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Clinic Municipal de Urgență Timișoara.',
+    },
+    sources: [ANI_JAN_2026_BIG_DATA_SOURCE],
+  },
+  {
+    name: 'Nicula Monica',
+    party: 'Independent',
+    position: 'Fost expert în cadrul Primăriei Municipiului București',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând că ar fi participat la întocmirea unei autorizații de construire și a unui certificat de urbanism în favoarea unor societăți în care soțul său avea calitatea de asociat unic și administrator.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Municipiului București.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Căprărin Marian Daniel',
+    party: 'Independent',
+    position: 'Fost funcționar public de conducere în cadrul Ministerului Transporturilor și Infrastructurii',
+    position_type: 'other',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada exercitării funcției publice, ar fi avizat trei împuterniciri prin care a fost numit administrator provizoriu al CN APDF SA, i-a fost prelungit mandatul și a fost stabilită remunerația administratorilor provizorii.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Transporturilor și Infrastructurii, instituție centrală cu sediul în București.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Necula Lucia-Alina',
+    party: 'Independent',
+    position: 'Fost funcționar public parlamentar în cadrul Autorității Electorale Permanente',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 1 aprilie 2021 - 28 august 2022, ar fi desfășurat activități de consultanță juridică în sectorul privat aflate în legătură directă cu atribuțiile funcției publice deținute.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Autorității Electorale Permanente.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Dicu Cosmin Aurel',
+    party: 'Independent',
+    position: 'Funcționar public cu statut special în cadrul Inspectoratului de Poliție Județean Ilfov',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 10 mai 2021 - 30 octombrie 2022, ar fi deținut simultan funcția publică cu statut special și o funcție în sectorul privat incompatibilă cu calitatea de organ de cercetare penală al poliției judiciare.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Ilfov.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Ceară Olimpia',
+    party: 'Independent',
+    position: 'Fost șef de post la Inspectoratul de Poliție Județean Constanța',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 11 februarie 2020 - 23 februarie 2022, ar fi deținut simultan funcția publică cu statut special și o funcție în sectorul privat incompatibilă cu calitatea de organ de cercetare penală al poliției judiciare.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Constanța.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Gavril Mihai Liviu',
+    party: 'PSD',
+    position:
+      'Fost membru în Consiliul de administrație al Spitalului Clinic de Recuperare Iași și consilier local în Consiliul Local Iași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 26 februarie 2021 - 28 februarie 2022, ar fi exercitat simultan funcția de membru în Consiliul de administrație al Spitalului Clinic de Recuperare Iași, ca reprezentant al Consiliului Local Iași, și funcția de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local Iași și Spitalul Clinic de Recuperare Iași.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE, GAVRIL_MIHAI_LIVIU_PSD_SOURCE],
+  },
+  {
+    name: 'Gavrilă Mariana',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul Primăriei comunei Plosca, județul Teleorman',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 2020-2024, ar fi fost în raport de subordonare ierarhică directă față de soțul său, viceprimarul comunei Plosca, ca urmare a exercitării unei funcții publice în aparatul de specialitate al primarului.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Plosca, județul Teleorman.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Tokoș Gabriela-Lavinia',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al comunei Augustin, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2025 că, în exercitarea mandatului de consilier local, ar fi participat la adoptarea unei hotărâri privind bugetul și lista de investiții ale comunei Augustin, prin care s-a aprobat și cota de finanțare pentru un proiect în cadrul căruia erau angajate și remunerate atât persoana evaluată, cât și nora sa.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Augustin, județul Brașov.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FOUR_SOURCE, TOKOS_PNL_SOURCE],
+  },
+  {
+    name: 'Devesel Daniela',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Măneciu, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada noiembrie 2020 - aprilie 2025, ar fi exercitat simultan funcția de viceprimar și calitatea de angajat cu contract individual de muncă în sectorul privat, realizând venituri salariale de 18.776 lei.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Măneciu, județul Prahova.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, DEVESEL_DANIELA_PNL_SOURCE],
+  },
+  {
+    name: 'Pașata Adam',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Stejaru, județul Tulcea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 15 ianuarie 2021 - 11 august 2025, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică autorizată în cadrul propriului PFA.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Stejaru, județul Tulcea.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, PASATA_ADAM_PNL_SOURCE],
+  },
+  {
+    name: 'Goidan Cristian',
+    party: 'PMP',
+    position: 'Fost viceprimar al comunei Drăgănești, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada exercitării mandatului 2020-2024, ar fi exercitat simultan funcția de viceprimar și activități remunerate în mediul privat.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Drăgănești, județul Prahova.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, GOIDAN_CRISTIAN_PMP_SOURCE],
+  },
+  {
+    name: 'Chimigeriu Ovidiu Cristian',
+    party: 'PNL',
+    position: 'Membru în Consiliul de administrație al Spitalului Județean de Urgență Reșița',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada deținerii funcției de membru în Consiliul de administrație al Spitalului Județean de Urgență Reșița, ar fi exercitat și funcția de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Județean de Urgență Reșița.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, CHIMIGERIU_BARBURA_PNL_SOURCE],
+  },
+  {
+    name: 'Barbura Maurieana-Liliana',
+    party: 'PNL',
+    position:
+      'Membru în Consiliul de administrație al Spitalului de Boli Cronice Sebiș și fost membru supleant reprezentant al Consiliului Local Sebiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 25 noiembrie 2020 - 8 martie 2024, ar fi exercitat simultan calitatea de membru supleant în consiliul de administrație al spitalului și funcția de vicepreședinte al Consiliului Executiv Județean în cadrul unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Local Sebiș și Spitalul de Boli Cronice Sebiș, județul Arad.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, CHIMIGERIU_BARBURA_PNL_SOURCE],
+  },
+  {
+    name: 'Botea Viorel',
+    party: 'PMP',
+    position:
+      'Fost membru titular în Consiliul de administrație al Spitalului Clinic Județean de Urgență Brăila, reprezentant al Consiliului Județean Brăila',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 28 aprilie 2021 - 19 octombrie 2023, ar fi exercitat simultan calitatea de membru titular al consiliului de administrație al spitalului și funcții în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Județean Brăila și Spitalul Clinic Județean de Urgență Brăila.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, BOTEA_VIOREL_PMP_SOURCE],
+  },
+  {
+    name: 'Dondaș Adriana',
+    party: 'PSD',
+    position: 'Fost membru în Consiliul de administrație al Spitalului Municipal de Urgență Pașcani',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 23 septembrie 2023 - 30 ianuarie 2025, ar fi exercitat simultan funcția de membru în consiliul de administrație al spitalului și calitatea de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Municipal de Urgență Pașcani, județul Iași.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, DONDAS_ADRIANA_PSD_SOURCE],
+  },
+  {
+    name: 'Andreescu Costel',
+    party: 'USR',
+    position: 'Fost membru supleant în Consiliul de administrație al Spitalului Municipal Ploiești',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 22 decembrie 2022 - 28 noiembrie 2024, ar fi exercitat simultan calitatea de membru supleant în consiliul de administrație al Spitalului Municipal Ploiești și funcția de vicepreședinte al unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Municipal Ploiești, județul Prahova.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, ANDREESCU_COSTEL_USR_SOURCE],
+  },
+  {
+    name: 'Beciu Elisabeta',
+    party: 'PSD',
+    position:
+      'Fost membru supleant în Consiliul de administrație al Spitalului Județean de Urgență Slobozia și consilier județean Ialomița',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 17 noiembrie 2020 - 19 noiembrie 2024, ar fi exercitat simultan calitatea de membru supleant în consiliul de administrație al spitalului și diverse funcții în organele de conducere, administrare și control ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era legată de Consiliul Județean Ialomița și Spitalul Județean de Urgență Slobozia.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, BECIU_ELISABETA_PSD_SOURCE],
+  },
+  {
+    name: 'Cijevschi Ion',
+    party: 'Independent',
+    position: 'Fost șef secție clinică oftalmologie în cadrul Spitalului Clinic Căi Ferate Iași',
+    position_type: 'other',
+    crime: 'Avere nejustificată',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în februarie 2026 Comisia de cercetare a averilor de pe lângă Curtea de Apel Iași, după constatarea unei diferențe nejustificate de 2.515.331 lei între averea dobândită și veniturile realizate împreună cu familia în perioada exercitării funcției publice.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Spitalului Clinic Căi Ferate Iași.',
+    },
+    sources: [ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Trandafir Alexandru Viorel',
+    party: 'Independent',
+    position: 'Secretar general al comunei Balaciu, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, la 31 martie 2021, în calitate de secretar general al comunei, ar fi avizat pentru legalitate dispoziția primarului prin care a fost nominalizat membru al unei echipe de implementare a unui proiect finanțat din fonduri europene, realizând ulterior venituri aferente acelei activități.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al comunei Balaciu, județul Ialomița.',
+    },
+    sources: [ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Pleșa Ioan Dănuț',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al comunei Mărgău, județul Cluj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada exercitării mandatului de consilier local, UAT Mărgău ar fi încheiat contracte comerciale de prestări servicii și furnizare de produse cu societatea comercială în care persoana evaluată deține calitatea de asociat unic și administrator.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mărgău, județul Cluj.',
+    },
+    sources: [ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE, PLESA_IOAN_DANUT_PNL_SOURCE],
+  },
+  {
+    name: 'Stan Emil-Alecu',
+    party: 'PSD',
+    position: 'Fost membru supleant în Consiliul de administrație al Spitalului Orășenesc Dr. Valer Russu Luduș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada 10 noiembrie 2022 - 31 ianuarie 2023, ar fi exercitat simultan calitatea de membru supleant în consiliul de administrație al spitalului și o funcție de conducere într-o organizație locală a unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Orășenesc Dr. Valer Russu Luduș, județul Mureș.',
+    },
+    sources: [ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE, STAN_EMIL_ALECU_PSD_SOURCE],
+  },
+  {
+    name: 'Hărăbor Valentina',
+    party: 'Independent',
+    position: 'Șef serviciu în cadrul Consiliului Județean Vrancea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, în perioada 1 februarie 2020 - 1 martie 2023, ar fi exercitat simultan funcția publică și o altă funcție în sistemul privat, atribuțiile din sectorul privat fiind în legătură directă sau indirectă cu atribuțiile exercitate ca funcționar public.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Consiliului Județean Vrancea.',
+    },
+    sources: [ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Bratu Nicolae',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Ștefești, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că se află în stare de incompatibilitate deoarece, simultan cu exercitarea funcției de viceprimar, a desfășurat în mandatul 2020-2024 și în mandatul actual activități remunerate în mediul privat.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Ștefești, județul Prahova.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, BRATU_NICOLAE_PSD_SOURCE],
+  },
+  {
+    name: 'Vasiliu Vlad',
+    party: 'PNL',
+    position: 'Membru în Consiliul de administrație al Spitalului Municipal Dorohoi',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada deținerii funcției de membru în Consiliul de administrație al Spitalului Municipal Dorohoi, ar fi exercitat și funcția de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Municipal Dorohoi, județul Botoșani.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, VASILIU_VLAD_PNL_SOURCE],
+  },
+  {
+    name: 'Năstase Ionuț-Dragoș',
+    party: 'PSD',
+    position: 'Fost membru în Consiliul de administrație al Spitalului Municipal Caracal',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 27 decembrie 2022 - 28 iunie 2023, ar fi exercitat simultan funcția de membru în Consiliul de administrație al Spitalului Municipal Caracal și funcția de membru în organele de conducere ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Municipal Caracal, județul Olt.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, NASTASE_IONUT_DRAGOS_PSD_SOURCE],
+  },
+  {
+    name: 'Toma Broasca Virginia Geanina',
+    party: 'PMP',
+    position: 'Fost membru supleant în Consiliul de administrație al Spitalului de Pneumoftiziologie Brăila',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 21 decembrie 2022 - 26 septembrie 2024, ar fi exercitat simultan calitatea de membru supleant în consiliul de administrație al spitalului și funcțiile de președinte, respectiv vicepreședinte în organisme ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului de Pneumoftiziologie Brăila.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, TOMA_BROASCA_PMP_SOURCE],
+  },
+  {
+    name: 'Câmpeanu Adriana Teodora',
+    party: 'PNL',
+    position: 'Fost membru în Consiliul de administrație al Spitalului Clinic de Boli Infecțioase Constanța',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în perioada 19 iunie 2021 - 5 martie 2025, ar fi exercitat simultan calitatea de membru supleant în Consiliul de administrație al Spitalului Clinic de Boli Infecțioase Constanța și diverse funcții în organele de conducere, administrare și control ale unui partid politic.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de administrație al Spitalului Clinic de Boli Infecțioase Constanța.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, CAMPEANU_ADRIANA_PNL_SOURCE],
+  },
+  {
+    name: 'Gălățanu Ionel',
+    party: 'PNL',
+    position: 'Funcționar public în cadrul AJPIS Bacău și consilier local în Consiliul Local Odobești',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că a exercitat simultan funcția publică de referent în cadrul AJPIS Bacău, mandatul de consilier local al comunei Odobești și o funcție în organele de conducere ale unui partid politic, în perioade care s-au suprapus între 2022 și 2024.',
+    verified_at: '2026-05-30',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcțiile publice relevante erau la AJPIS Bacău și în Consiliul Local al comunei Odobești, județul Bacău.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, GALATANU_IONEL_PNL_SOURCE],
   },
 ];
 
@@ -20090,6 +20752,7 @@ export const politicianAdditions = [
   },
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
+  ...ANI_2025_2026_ADDITIONAL_RECORDS,
   ...ANI_APR_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
