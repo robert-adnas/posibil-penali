@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { FooterSupportLink } from './FooterSupportLink';
 import { ThemeToggle } from './ThemeToggle';
 
 const NAV_LINKS = [
@@ -49,6 +50,7 @@ export function PageLayout({ children, title, kicker }) {
           <div className="app-footer-grid">
             <div className="app-footer-copy">
               <p>Fiecare persoană inclusă are cel puțin o sursă oficială. Lista nu este exhaustivă. Verificați întotdeauna sursele originale.</p>
+              <FooterSupportLink />
             </div>
 
             <nav className="app-footer-nav">

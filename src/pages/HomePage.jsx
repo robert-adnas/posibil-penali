@@ -9,6 +9,7 @@ import { PartyRanking } from '../components/PartyRanking';
 import { CountyRanking } from '../components/CountyRanking';
 import { StatusLegend } from '../components/StatusLegend';
 import { ChangeLogList } from '../components/ChangeLogList';
+import { FooterSupportLink } from '../components/FooterSupportLink';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { useAnalytics } from '../hooks/useAnalytics';
 import { useData } from '../hooks/useData';
@@ -268,6 +269,7 @@ export function HomePage() {
                   </button>
                 </div>
               </div>
+              <FooterSupportLink />
             </div>
 
             <nav className="app-footer-nav">
