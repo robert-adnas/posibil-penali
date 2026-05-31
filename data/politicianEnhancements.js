@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-30',
+  last_updated: '2026-05-31',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -208,6 +208,18 @@ const ANI_APR_2023_LOCAL_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-14-alesi-locali/',
+};
+
+const ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali/',
+};
+
+const ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali/',
 };
 
 const ANI_DEC_2025_AGERPRES_SOURCE = {
@@ -5500,6 +5512,278 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea.',
     },
     sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+];
+
+const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Stanciu Cristian',
+    party: 'PSD',
+    position: 'Consilier județean în cadrul Consiliului Județean Iași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2024 că, în perioada 15 iunie 2018 - 27 ianuarie 2021, ar fi exercitat simultan calitatea de membru titular în Consiliul de administrație al Spitalului Clinic de Urgență pentru Copii „Sf. Maria” Iași și funcția de vicepreședinte într-un partid politic.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de consilier județean în cadrul Consiliului Județean Iași.',
+    },
+    sources: [
+      ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Instituția Prefectului - Județul Iași',
+        kind: 'official',
+        url: 'https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2024/05/ANEXA-2-CJ-LA-PROCES-VERBAL-RAMANERE-DEFINITIVA-CANDIDATURI.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Rotaru Gheorghe',
+    party: 'PSD',
+    position: 'Primar al comunei Țibana, județul Iași',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2024 că, în exercitarea atribuțiilor de primar, ar fi emis o dispoziție pentru întreprinderea familială reprezentată de soția sa și în care era membru unul dintre fiii săi.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Țibana, județul Iași.',
+    },
+    sources: [
+      ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Țibana',
+        kind: 'official',
+        url: 'https://www.primariatibana.ro/data/_editor/files/Documents/CONSILIERI_LOCALI.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Novac Vasile',
+    party: 'PSD',
+    position: 'Primar al comunei Ivănești, județul Vaslui',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2024 că, începând cu luna octombrie 2020, ar fi exercitat simultan funcția de primar și activități remunerate în cadrul unei societăți.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Ivănești, județul Vaslui.',
+    },
+    sources: [
+      ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vaslui/primarie/ivanesti/',
+      },
+    ],
+  },
+  {
+    name: 'Gherman Vasile-Vlăduț',
+    party: 'PSD',
+    position: 'Primar al comunei Slatina, județul Suceava',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2024 că, în exercitarea atribuțiilor de primar, ar fi semnat un contract de furnizare produse cu societatea comercială în care fratele său era asociat și administrator.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Slatina, județul Suceava.',
+    },
+    sources: [
+      ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_suceava/primarie/slatina/2',
+      },
+    ],
+  },
+  {
+    name: 'Vatamanu Ionel',
+    party: 'PSD',
+    position: 'Primar al orașului Târgu Frumos, județul Iași',
+    position_type: 'mayor',
+    crime: 'Fals în declarații; sesizare fiscală',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind mențiuni neconcordante din declarațiile de avere depuse în perioada 2015-2017 și a solicitat verificări fiscale.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Târgu Frumos, județul Iași.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'NewsPascani.com',
+        kind: 'press',
+        url: 'https://newspascani.com/ionel-vatamanu-a-castigat-un-nou-mandat-la-primaria-targu-frumos/',
+      },
+    ],
+  },
+  {
+    name: 'Manole Nicolae-Marius',
+    party: 'PSD',
+    position: 'Primar al comunei Aninoasa, județul Argeș; fost consilier județean în C.J. Argeș',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatele de consilier județean 2016-2020 și 2020-2024, societatea administrată de soția sa ar fi încheiat contracte și acte adiționale cu instituții aflate sub autoritatea Consiliului Județean Argeș.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Aninoasa, județul Argeș, iar cauza vizează și mandatul de consilier județean în C.J. Argeș.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Consiliul Județean Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/documents/10865/1410647/PH%2B17.08.2021.pdf/7230e963-fa5c-47da-9952-bdd24dbfc6e0',
+      },
+    ],
+  },
+  {
+    name: 'Butum Ioan Eusebiu',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Șercaia, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, începând cu 22 ianuarie 2019, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriei întreprinderi individuale.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Șercaia, județul Brașov.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Șercaia',
+        kind: 'official',
+        url: 'https://www.primaria-sercaia.ro/wp-content/uploads/2022/02/STATUTUL_COMUNEI_SERCAIA.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Simion Ionuț Stelian',
+    party: 'PSD',
+    position: 'Consilier local al comunei Muntenii de Sus, județul Vaslui',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul de consilier local, ar fi participat la adoptarea unei hotărâri prin care s-au alocat 45.000 lei clubului sportiv în cadrul căruia era legitimat.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Muntenii de Sus, județul Vaslui.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/muntenii-de-sus/',
+      },
+    ],
+  },
+  {
+    name: 'Kutasi Dezső',
+    party: 'UDMR',
+    position: 'Consilier local al comunei Neaua, județul Mureș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul 2016-2020, ar fi votat pentru o hotărâre privind acordarea unei cotizații către o asociație în care deținea funcția de evaluator proiecte.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Neaua, județul Mureș.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Neaua',
+        kind: 'official',
+        url: 'https://neaua.ro/download/9x6OUqw6Y0vmk7xHWDZbVBhWEGl8eanTpoi86TfS.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Matei Paul Vlad',
+    party: 'Independent',
+    position: 'Consilier local al comunei Hălchiu, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ și a sesizat Parchetul de pe lângă ÎCCJ după ce, în mai 2019, ar fi participat la adoptarea unei hotărâri privind închirierea unor pășuni, în baza căreia o asociație reprezentată de tatăl său a primit subvenții APIA.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hălchiu, județul Brașov.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Hălchiu',
+        kind: 'official',
+        url: 'https://primariahalchiu.ro/componenta-consiliului-local/',
+      },
+      {
+        label: 'Brașov Metropolitan',
+        kind: 'press',
+        url: 'https://brasovmetropolitan.ro/2019/07/usr-brasov-a-recrutat-doi-consilieri-locali-care-vor-sa-candideze-si-la-primarie/',
+      },
+    ],
+  },
+  {
+    name: 'Feier Emil-Călin',
+    party: 'PSD',
+    position: 'Consilier local al comunei Hodac, județul Mureș',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict administrativ și a sesizat Parchetul de pe lângă ÎCCJ, susținând că ar fi luat parte la emiterea și adoptarea unor acte administrative care au produs folos patrimonial pentru o asociație din care făcea parte împreună cu fiul său.',
+    verified_at: '2026-05-31',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Hodac, județul Mureș.',
+    },
+    sources: [
+      ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Hodac',
+        kind: 'official',
+        url: 'https://www.hodac.ro/consiliul-local/',
+      },
+    ],
   },
 ];
 
@@ -20752,6 +21036,7 @@ export const politicianAdditions = [
   },
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
+  ...ANI_2022_2024_LOCAL_OFFICIALS_RECORDS,
   ...ANI_2025_2026_ADDITIONAL_RECORDS,
   ...ANI_APR_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
