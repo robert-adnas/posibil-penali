@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-05-31',
+  last_updated: '2026-06-01',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -220,6 +220,18 @@ const ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali/',
+};
+
+const ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-2/',
+};
+
+const ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3193&PID=20&currentPage=6',
 };
 
 const ANI_DEC_2025_AGERPRES_SOURCE = {
@@ -610,6 +622,72 @@ const TECUCI_MARTIN_PARTY_SOURCE = {
   label: 'Primaria Tecuci',
   kind: 'official',
   url: 'https://primariatecuci.ro/wp-content/uploads/2025/09/Statutul-Municipiului-Tecuci.pdf',
+};
+
+const AVRAM_IANCU_HELER_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_alba/primarie/avram-iancu/14',
+};
+
+const BRANESTI_PREDA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/primarie/branesti/',
+};
+
+const POGANA_VEZETEU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/pogana/',
+};
+
+const TARGU_BUJOR_ANDONE_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/targu-bujor/',
+};
+
+const SALATRUCEL_PREOTESCU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_valcea/consiliul-local/salatrucel/',
+};
+
+const FLORESTI_MARGHIOLESCU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_prahova/consiliul-local/floresti/12',
+};
+
+const VANATORI_HULEA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/vanatori/',
+};
+
+const PUIESTI_BALAN_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/puiesti/10',
+};
+
+const AGIGEA_NITA_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_constanta/primarie/agigea/',
+};
+
+const POPESTI_LUPU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_iasi/primarie/popesti/',
+};
+
+const CRISTIAN_COJOCARU_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_brasov/primarie/cristian/19',
 };
 
 const BREASTA_VIZITIU_PARTY_SOURCE = {
@@ -1880,6 +1958,197 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tecuci, județul Galați.',
     },
     sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, TECUCI_MARTIN_PARTY_SOURCE],
+  },
+];
+
+const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
+  {
+    name: 'Heler Sandu',
+    party: 'PNL',
+    position: 'Primar al comunei Avram Iancu, județul Alba',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în exercitarea atribuțiilor de primar, ar fi semnat mai multe documente care au produs un folos patrimonial acestuia.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Avram Iancu, județul Alba.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, AVRAM_IANCU_HELER_PARTY_SOURCE],
+  },
+  {
+    name: 'Preda Ion',
+    party: 'PSD',
+    position: 'Fost primar al comunei Brănești, județul Dâmbovița; ulterior consilier local',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în perioada exercitării mandatului de primar, ar fi semnat o dispoziție prin care soția sa a fost scutită de restituirea unor venituri salariale încasate necuvenit.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Brănești, județul Dâmbovița.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, BRANESTI_PREDA_PARTY_SOURCE],
+  },
+  {
+    name: 'Vezeteu Ioan',
+    party: 'ALDE',
+    position:
+      'Viceprimar al comunei Pogana, județul Vaslui și funcționar public în Primăria Comunei Voinești',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că ar fi candidat și apoi ar fi exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Voinești.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Pogana, județul Vaslui.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, POGANA_VEZETEU_PARTY_SOURCE],
+  },
+  {
+    name: 'Andone Ion',
+    party: 'PSD',
+    position: 'Primar al orașului Târgu Bujor, județul Galați; fost viceprimar',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că ar fi candidat și apoi ar fi exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Târgu Bujor.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Târgu Bujor, județul Galați.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, TARGU_BUJOR_ANDONE_PARTY_SOURCE],
+  },
+  {
+    name: 'Preoțescu Marian',
+    party: 'PNL',
+    position: 'Consilier local al comunei Sălătrucel, județul Vâlcea',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, începând cu 23 octombrie 2020, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Sălătrucel.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Sălătrucel, județul Vâlcea.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, SALATRUCEL_PREOTESCU_PARTY_SOURCE],
+  },
+  {
+    name: 'Marghiolescu Lucia-Nicoleta',
+    party: 'Partida Romilor Pro-Europa',
+    position: 'Consilier local al comunei Florești, județul Prahova',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în perioada 15 iunie - 12 septembrie 2021, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală la cancelaria prefectului din județul Prahova.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Florești, județul Prahova.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, FLORESTI_MARGHIOLESCU_PARTY_SOURCE],
+  },
+  {
+    name: 'Hulea Ecaterina',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Vânători, județul Galați',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul 2016-2020, ar fi încheiat cu Primăria Comunei Vânători, prin propriul PFA, două contracte de prestări servicii și un act adițional în valoare totală de 30.000 lei.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Vânători, județul Galați.',
+    },
+    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, VANATORI_HULEA_PARTY_SOURCE],
+  },
+  {
+    name: 'Niță Marius Daniel',
+    party: 'PER',
+    position: 'Fost viceprimar al comunei Agigea, județul Constanța',
+    position_type: 'local_official',
+    crime: 'Fals în declarații',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ, susținând că nu ar fi menționat în declarațiile de avere depuse în 2018 și 2019 un imobil aflat în proprietate comună și apoi înstrăinarea acestuia.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Agigea, județul Constanța.',
+    },
+    sources: [ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE, AGIGEA_NITA_PARTY_SOURCE],
+  },
+  {
+    name: 'Bălan Viorel',
+    party: 'ALDE',
+    position: 'Consilier local al comunei Puiești, județul Vaslui',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2023 că, în perioada 1 august 2022 - 31 ianuarie 2023, ar fi deținut simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în aparatul de specialitate al Consiliului Local Puiești.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Puiești, județul Vaslui.',
+    },
+    sources: [ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE, PUIESTI_BALAN_PARTY_SOURCE],
+  },
+  {
+    name: 'Lupu Vasile',
+    party: 'PNL',
+    position: 'Primar al comunei Popești, județul Iași',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că, în mandatul de primar 2016-2020, ar fi încheiat cu Primăria Popești un contract de vânzare-cumpărare prin care a dobândit imobile în suprafață totală de 3.000 mp.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Popești, județul Iași.',
+    },
+    sources: [ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE, POPESTI_LUPU_PARTY_SOURCE],
+  },
+  {
+    name: 'Cojocaru Gicu',
+    party: 'PNL',
+    position: 'Primar al comunei Cristian, județul Brașov',
+    position_type: 'mayor',
+    crime: 'Conflict de interese; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că ar fi încheiat în nume propriu un contract de asistență juridică, iar ulterior, ca primar, ar fi semnat și aprobat contracte ale comunei cu același cabinet de avocatură.',
+    verified_at: '2026-06-01',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Cristian, județul Brașov.',
+    },
+    sources: [ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE, CRISTIAN_COJOCARU_PARTY_SOURCE],
   },
 ];
 
@@ -21040,6 +21309,7 @@ export const politicianAdditions = [
   ...ANI_2025_2026_ADDITIONAL_RECORDS,
   ...ANI_APR_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS,
+  ...ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS,
   ...ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS,
   ...ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS,
