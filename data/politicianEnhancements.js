@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-01',
+  last_updated: '2026-06-02',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -256,6 +256,12 @@ const ANI_DEC_2025_BIG_DATA_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/',
+};
+
+const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010/',
 };
 
 const ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE = {
@@ -6833,6 +6839,273 @@ const ANI_APR_2023_LOCAL_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Grindu, județul Tulcea.',
     },
     sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, GRINDU_TRISCA_PARTY_SOURCE],
+  },
+];
+
+const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
+  {
+    name: 'Duma Ovidiu Marius',
+    party: 'PNL',
+    position: 'Primar al orașului Ardud, județul Satu Mare',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatele de primar 2016-2020 și 2020-2024, ar fi emis ori semnat acte administrative care au produs folos patrimonial pentru fiica sa și pentru o asociație în care deținea calitatea de membru.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Ardud, județul Satu Mare.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_satu-mare/primarie/ardud/',
+      },
+    ],
+  },
+  {
+    name: 'Popa Sorin Vasile',
+    party: 'PSD',
+    position: 'Fost primar al comunei Micăsasa, județul Sibiu',
+    position_type: 'mayor',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea atribuțiilor de primar, ar fi semnat contracte de închiriere a unor pajiști din domeniul public al comunei cu rude și afini.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Micăsasa, județul Sibiu.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/primarie/micasasa/',
+      },
+    ],
+  },
+  {
+    name: 'Pachițac Dumitru Cătălin',
+    party: 'PMP',
+    position: 'Viceprimar al comunei Dumești, județul Iași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul în decembrie 2022, arătând că, în mandatul 2020-2024, ar fi încheiat contracte de închiriere a unor pajiști comunale care au produs foloase materiale pentru soția și mama sa.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Dumești, județul Iași.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/dumesti/',
+      },
+    ],
+  },
+  {
+    name: 'Olaru Valentin George',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Bara, județul Timiș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, începând cu 20 noiembrie 2020, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Bara, județul Timiș.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/bara/',
+      },
+    ],
+  },
+  {
+    name: 'Pentea Florian',
+    party: 'Pro Romania',
+    position: 'Fost viceprimar al comunei Hidișelu de Sus, județul Bihor',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatul 2016-2020, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Hidișelu de Sus, județul Bihor.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/hidiselu-de-sus/',
+      },
+    ],
+  },
+  {
+    name: 'Iliescu Pintea Aurelian',
+    party: 'USR',
+    position: 'Consilier local în Consiliul Local al municipiului Satu Mare',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatul de consilier local, societatea comercială în care deținea calitatea de asociat ar fi încheiat contracte de prestări servicii cu entități aflate sub autoritatea Consiliului Local Satu Mare.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Satu Mare.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_satu-mare/consiliul-local/satu-mare/',
+      },
+    ],
+  },
+  {
+    name: 'Nicola-Olteanu Ionuț-Vasile',
+    party: 'PSD',
+    position: 'Consilier local în Consiliul Local al comunei Lipovu, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi luat parte la adoptarea unei hotărâri privind înființarea unor funcții de execuție, în contextul în care soția sa a ocupat ulterior unul dintre posturile scoase la concurs.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Lipovu, județul Dolj.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/lipovu/',
+      },
+    ],
+  },
+  {
+    name: 'Badea Dumitru',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al comunei Troianul, județul Teleorman',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la adoptarea unor hotărâri privind bugetul local, în care erau incluse și salariile pentru asistenți personali, context în care soția sa deținea o funcție contractuală în primărie.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Troianul, județul Teleorman.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_teleorman/consiliul-local/troianul/',
+      },
+    ],
+  },
+  {
+    name: 'Balașei Iulian',
+    party: 'Pro Romania',
+    position: 'Consilier local al comunei Frumușica, județul Botoșani',
+    position_type: 'local_official',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane; incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, susținând că, în mandatul de consilier local 2016-2020, ar fi participat la adoptarea unei hotărâri legate de un proiect POCU din care tatăl său a beneficiat ulterior de o subvenție; ANI consemnase anterior și incompatibilitatea sa.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Frumușica, județul Botoșani.',
+    },
+    sources: [
+      ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/frumusica/',
+      },
+    ],
+  },
+  {
+    name: 'Dohi Francisk',
+    party: 'PCM-MPP',
+    position: 'Viceprimar al comunei Ciumești, județul Satu Mare',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în mandatul de viceprimar 2020-2024, ar fi înregistrat venituri din activități independente prin intermediul propriei întreprinderi familiale.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Ciumești, județul Satu Mare.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Ciumești',
+        kind: 'official',
+        url: 'https://primariaciumesti.ro/consiliul-local/consilieri-locali/',
+      },
+    ],
+  },
+  {
+    name: 'Herescu Emil',
+    party: 'Pro Romania',
+    position: 'Fost viceprimar al comunei Buciumeni, județul Galați',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2026 că, în timpul exercitării funcției de viceprimar, ar fi desfășurat în perioada 23 martie - 8 decembrie 2023 activități remunerate prin intermediul întreprinderii familiale în care figura ca reprezentant.',
+    verified_at: '2026-06-02',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Buciumeni, județul Galați.',
+    },
+    sources: [
+      ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/buciumeni/',
+      },
+    ],
   },
 ];
 
@@ -21319,6 +21592,7 @@ export const politicianAdditions = [
   ...ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS,
   ...ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS,
   ...ANI_ARCHIVE_PUBLIC_OFFICIALS_RECORDS,
+  ...ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS,
   ...ANI_ARCHIVE_PUBLIC_SERVANTS_RECORDS,
   ...ANI_ARCHIVE_ADDITIONAL_PUBLIC_SERVANTS_RECORDS,
   ...ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS,
