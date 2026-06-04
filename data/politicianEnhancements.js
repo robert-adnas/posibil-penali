@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-02',
+  last_updated: '2026-06-04',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -202,6 +202,24 @@ const ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/',
+};
+
+const DNA_APR_2026_BULLETIN_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+};
+
+const DNA_APR_2026_ARR_EXAM_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13664',
+};
+
+const DNA_APR_2026_BN_ROADS_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13692',
 };
 
 const ANI_APR_2023_LOCAL_OFFICIALS_SOURCE = {
@@ -5787,6 +5805,280 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea.',
     },
     sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
+  },
+];
+
+const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
+  {
+    name: 'Stoian Adrian',
+    party: 'Independent',
+    position: 'Consilier superior in cadrul Primariei Orasului Novaci, judetul Gorj',
+    position_type: 'local_official',
+    crime: 'Folosirea informatiilor obtinute in exercitarea atributiilor de serviciu',
+    status: 'investigated',
+    details:
+      'ANI a anuntat in aprilie 2026 ca a sesizat DNA cu privire la indicii potrivit carora, in perioada 2018-2025, ar fi utilizat informatii obtinute in exercitarea atributiilor de serviciu pentru incheierea a 30 de contracte, in valoare de aproximativ 2,06 milioane lei, intre Primaria Novaci si societati comerciale administrate de acesta.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Primariei Orasului Novaci, judetul Gorj.',
+    },
+    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Rotar Izabella-Cristina',
+    party: 'Independent',
+    position: 'Director general in cadrul S.C. Administrarea Domeniului Public S.A. Gherla',
+    position_type: 'local_official',
+    crime: 'Folosirea functiei pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a anuntat in aprilie 2026 ca a sesizat Parchetul de pe langa Curtea de Apel Cluj, retinand indicii ca ar fi participat la adoptarea hotararii Consiliului de Administratie prin care a fost numita director general al societatii, cu incalcarea regulilor de guvernanta corporativa.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul societatii Administrarea Domeniului Public S.A. Gherla, judetul Cluj.',
+    },
+    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Radu Florentina Georgeta',
+    party: 'Independent',
+    position:
+      'Director executiv al Directiei pentru Sanatate din cadrul Administratiei pentru Sanatate si Educatie a Municipiului Timisoara',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2026 ca, la 28 decembrie 2023, ar fi semnat dispozitia prin care si-a aprobat propriul transfer de la Directia de Sanatate Publica Timis la Administratia pentru Sanatate si Educatie a Municipiului Timisoara.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Administratiei pentru Sanatate si Educatie a Municipiului Timisoara.',
+    },
+    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Gîrtone Ligia Mihaela',
+    party: 'Independent',
+    position: 'Functionar public in cadrul Primariei Comunei Moraresti, judetul Arges',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2026 ca, la 22 octombrie 2022, ar fi avizat pentru legalitate dispozitia prin care a fost numita intr-o functie publica de executie in aparatul de specialitate al primarului comunei Moraresti si i-au fost delegate atributii de secretar general.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Primariei Comunei Moraresti, judetul Arges.',
+    },
+    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Ciorba Zita Monica',
+    party: 'Independent',
+    position: 'Fost functionar public in cadrul Directiei de Sanatate Publica Salaj',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2026 ca, in perioada 15 ianuarie 2018 - 15 martie 2023, ar fi detinut simultan functia publica si activitati private in domeniul financiar-contabil, legate direct sau indirect de atributiile sale de functionar public.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Sălaj',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Directiei de Sanatate Publica Salaj.',
+    },
+    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Folescu Cornel-Vasile',
+    party: 'Independent',
+    position:
+      'Fost director general al S.C. SECOM S.A.; director implementare proiecte in cadrul DRDP Craiova',
+    position_type: 'other',
+    crime: 'Abuz in serviciu cu obtinere de foloase necuvenite',
+    sentence: 'Trimis in judecata de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA a anuntat in aprilie 2026 trimiterea sa in judecata in dosarul achizitiilor de servicii de telefonie si date mobile ale S.C. SECOM S.A.; societatea s-a constituit parte civila fata de acesta cu suma de 1.371.669,1 lei.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'Functia publica relevanta era la S.C. SECOM S.A., societate publica locala din Drobeta-Turnu Severin, judetul Mehedinti.',
+    },
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Bidilici Adrian',
+    party: 'Independent',
+    position: 'Director executiv al Directiei Generale de Asistenta Sociala si Protectia Copilului Mehedinti',
+    position_type: 'local_official',
+    crime: 'Abuz in serviciu cu obtinere de foloase necuvenite',
+    sentence: 'Trimis in judecata de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA a anuntat in aprilie 2026 trimiterea sa in judecata, retinand ca in perioada 25 ianuarie 2021 - 31 octombrie 2023 ar fi realizat achizitii publice de telefonie si date mobile cu costuri nejustificat de mari, iar D.G.A.S.P.C. Mehedinti s-a constituit parte civila cu suma de 1.252.712,24 lei.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul D.G.A.S.P.C. Mehedinti.',
+    },
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Moldovan Grigore Florin',
+    party: 'Independent',
+    position:
+      'Administrator public al judetului Bistrita-Nasaud si reprezentant al UAT Bistrita-Nasaud',
+    position_type: 'local_official',
+    crime: 'Abuz in serviciu; luare de mita',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si retinerea sa pentru doua infractiuni de abuz in serviciu si luare de mita in forma continuata, in cauza privind lucrari derulate la nivelul Consiliului Judetean Bistrita-Nasaud.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Functia publica relevanta era la nivelul UAT judetul Bistrita-Nasaud.',
+    },
+    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+  },
+  {
+    name: 'Ceclan Oprea Ciprian',
+    party: 'Independent',
+    position:
+      'Director executiv al Directiei investitii si drumuri judetene din cadrul Consiliului Judetean Bistrita-Nasaud',
+    position_type: 'local_official',
+    crime: 'Complicitate la abuz in serviciu',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si retinerea sa pentru complicitate la abuz in serviciu, in dosarul privind lucrari aflate in derulare la Consiliul Judetean Bistrita-Nasaud.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Consiliului Judetean Bistrita-Nasaud.',
+    },
+    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+  },
+  {
+    name: 'Poienar Victor',
+    party: 'Independent',
+    position:
+      'Sef al Serviciului administrare drumuri judetene din cadrul Consiliului Judetean Bistrita-Nasaud',
+    position_type: 'local_official',
+    crime: 'Complicitate la abuz in serviciu',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si retinerea sa pentru complicitate la abuz in serviciu in cauza privind lucrari publice la nivelul Consiliului Judetean Bistrita-Nasaud.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Consiliului Judetean Bistrita-Nasaud.',
+    },
+    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+  },
+  {
+    name: 'Botiș Rodica',
+    party: 'Independent',
+    position:
+      'Inginer in cadrul Serviciului administrare drumuri judetene din cadrul Consiliului Judetean Bistrita-Nasaud',
+    position_type: 'local_official',
+    crime: 'Complicitate la abuz in serviciu',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si control judiciar pentru complicitate la abuz in serviciu, in dosarul privind lucrari publice la nivelul Consiliului Judetean Bistrita-Nasaud.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Consiliului Judetean Bistrita-Nasaud.',
+    },
+    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+  },
+  {
+    name: 'Văclaș Gelu',
+    party: 'Independent',
+    position: 'Sef al parcului auto si sofer in cadrul Consiliului Judetean Bistrita-Nasaud',
+    position_type: 'local_official',
+    crime: 'Delapidare; participatie improprie la abuz in serviciu',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si control judiciar pentru delapidare in forma continuata si participatie improprie la abuz in serviciu, sub forma instigarii.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul Consiliului Judetean Bistrita-Nasaud.',
+    },
+    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+  },
+  {
+    name: 'Anton Cristian',
+    party: 'Independent',
+    position: 'Director general al Autoritatii Rutiere Romane',
+    position_type: 'other',
+    crime: 'Luare de mita; folosirea de informatii nedestinate publicitatii; grup infractional organizat',
+    status: 'investigated',
+    details:
+      'DNA Cluj a anuntat in aprilie 2026 punerea in miscare a actiunii penale si retinerea sa pentru fapte legate de fraudarea examenelor pentru certificatele de pregatire profesionala organizate in cadrul Autoritatii Rutiere Romane.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Functia publica relevanta era cea de director general al Autoritatii Rutiere Romane, institutie centrala.',
+    },
+    sources: [DNA_APR_2026_ARR_EXAM_SOURCE],
+  },
+  {
+    name: 'Popescu Mihai Cornel',
+    party: 'Independent',
+    position:
+      'Inspector-sef al Inspectiei de Stat pentru Controlul Cazanelor, Recipientelor sub Presiune si Instalatiilor de Ridicat Constanta',
+    position_type: 'other',
+    crime: 'Luare de mita; folosirea de informatii nedestinate publicitatii',
+    sentence: 'Acord de recunoastere trimis instantei',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanta a anuntat in aprilie 2026 sesizarea instantei cu acord de recunoastere a vinovatiei pentru fapte din perioada 29 octombrie 2025 - 28 ianuarie 2026, privind sume primite pentru indeplinirea atributiilor de serviciu si acces la informatii confidentiale despre examene.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Functia publica relevanta era in cadrul I.S.C.I.R. Constanta.',
+    },
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Carataș George Adrian',
+    party: 'Independent',
+    position:
+      'Inspector in cadrul Companiei Nationale pentru Controlul Cazanelor, Instalatiilor de Ridicat si Recipientelor sub Presiune S.A.',
+    position_type: 'other',
+    crime: 'Luare de mita',
+    sentence: 'Acord de recunoastere trimis instantei',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanta a anuntat in aprilie 2026 sesizarea instantei cu acord de recunoastere a vinovatiei, retinand ca in perioada 22 septembrie - 17 decembrie 2025 ar fi primit bunuri in valoare totala de 2.102,57 lei pentru rapoarte de inspectie favorabile.',
+    verified_at: '2026-06-04',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Functia publica relevanta era exercitata in judetul Constanta.',
+    },
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
   },
 ];
 
@@ -21576,6 +21868,7 @@ export const politicianAdditions = [
       },
     ],
   },
+  ...AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS,
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
   ...ANI_2022_2024_LOCAL_OFFICIALS_RECORDS,
