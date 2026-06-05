@@ -5808,6 +5808,296 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
   },
 ];
 
+const ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-5/',
+};
+
+const ANI_NOV_2022_EIGHT_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
+};
+
+const ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010-2/',
+};
+
+const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
+  {
+    name: 'Ilie \u0218tefan',
+    party: 'PNL',
+    position: 'Primar al municipiului Tulcea, jude\u021bul Tulcea',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de primar al municipiului Tulcea, ar fi participat la decizii si ar fi emis autorizatii de construire si certificate de urbanism pentru o societate comerciala de la care a cumparat ulterior un imobil.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Functia publica relevanta era Primaria municipiului Tulcea, judetul Tulcea.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/agentia-nationala-de-integritate/stefan-ilie-primar-pnl-municipiul-tulcea-integritate-1878195',
+      },
+    ],
+  },
+  {
+    name: 'Cioba C\u0103t\u0103lin-Zaharie',
+    party: 'PSD',
+    position: 'Consilier local al comunei Beica de Jos, jude\u021bul Mure\u0219',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat in 2021 si 2022 la adoptarea a doua hotarari privind inchirierea unor terenuri catre o asociatie in al carei Consiliu Director era membru.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Beica de Jos, judetul Mures.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Zi de Zi',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2020/10/22/maria-moldovan-reinvestita-oficial-primar-la-beica/',
+      },
+    ],
+  },
+  {
+    name: 'U\u0219vat Ioan-Marius',
+    party: 'PSD',
+    position: 'Consilier local al comunei Remetea, jude\u021bul Bihor',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari din 28 aprilie 2021 privind atribuirea directa a unui teren al comunei Remetea catre o asociatie in care era membru in Comitetul director.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Remetea, judetul Bihor.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Bihoreanul',
+        kind: 'press',
+        url: 'https://www.ebihoreanul.ro/stiri/un-consilier-local-din-bihor-proaspat-reales-pe-9-iunie-nu-isi-va-putea-exercita-mandatul-astfel-obtinut-ani-l-a-gasit-in-conflict-de-interes-187253.html',
+      },
+    ],
+  },
+  {
+    name: 'Lup Iosif',
+    party: 'PNL',
+    position: 'Consilier local al comunei Vadu Mo\u021bilor, jude\u021bul Alba',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea a sapte hotarari ale Consiliului Local Vadu Motilor in favoarea societatii comerciale la care era angajat.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Vadu Motilor, judetul Alba.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/vadu-motilor/14',
+      },
+    ],
+  },
+  {
+    name: 'Laba Vasile',
+    party: 'PSD',
+    position: 'Primar al comunei Bistri\u021ba B\u00e2rg\u0103ului, jude\u021bul Bistri\u021ba-N\u0103s\u0103ud',
+    position_type: 'mayor',
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 o diferenta nejustificata de 101.120 lei si 37.370 euro intre averea dobandita si veniturile realizate impreuna cu familia in perioada exercitarii functiei publice.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Bistri\u021ba-N\u0103s\u0103ud',
+      basis: 'office',
+      note: 'Functia publica relevanta era Primaria comunei Bistrita Bargaului, judetul Bistrita-Nasaud.',
+    },
+    sources: [
+      ANI_NOV_2022_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Info Bistrita',
+        kind: 'press',
+        url: 'https://www.infobistrita.ro/psd-incepe-anuntarea-candidatilor-vasile-laba-pentru-un-nou-mandat-la-primaria-bistrita-bargaului',
+      },
+    ],
+  },
+  {
+    name: 'Iordache Adrian',
+    party: 'PSD',
+    position: 'Consilier jude\u021bean in cadrul Consiliului Jude\u021bean Olt',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 ca, in mandatele de consilier judetean 2016-2020 si 2020-prezent, societatea la care era asociat si administrator ar fi incheiat doua contracte de prestari servicii cu DGASPC Olt, institutie subordonata Consiliului Judetean Olt; ANI a sesizat si Parchetul pentru indicii de fals in declaratii.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Judetean Olt.',
+    },
+    sources: [
+      ANI_NOV_2022_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Consiliul Judetean Olt',
+        kind: 'official',
+        url: 'https://cjolt.ro/consiliul-judetean/consilieri-judeteni/',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Vasile',
+    party: 'PSD',
+    position: 'Primar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 ca, in mandatul 2016-2020, ar fi aprobat alocarea unor sume de bani catre asociatia sportiva al carei membru fondator era, semnand 18 acte materiale in valoare totala de 297.000 lei; ANI a sesizat si Parchetul.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note: 'Functia publica relevanta era Primaria comunei Tudor Vladimirescu, judetul Braila.',
+    },
+    sources: [
+      ANI_NOV_2022_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Realitatea de Braila',
+        kind: 'press',
+        url: 'https://realitateadebraila.net/primarul-psd-din-comuna-braileana-tudor-vladimirescu-constantin-vasile-aflat-in-conflict-de-interese-de-natura-administrativa/',
+      },
+    ],
+  },
+  {
+    name: 'Bobu Constantin',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Ipote\u0219ti, jude\u021bul Suceava',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 ca, in perioada exercitarii atributiilor de primar din 16 iulie 2019 pana la 2 noiembrie 2020, ar fi semnat trei certificate de urbanism si trei autorizatii de construire in favoarea unei societati comerciale fata de care avea un interes personal; ANI a sesizat si Parchetul.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Functia publica relevanta era Primaria comunei Ipotesti, judetul Suceava.',
+    },
+    sources: [
+      ANI_NOV_2022_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primaria Ipotesti',
+        kind: 'official',
+        url: 'https://primariaipotesti.ro/wp-content/uploads/2025/09/2016355_Bobu-L.-Constantin-1.pdf',
+      },
+      {
+        label: 'Monitorul de Suceava',
+        kind: 'press',
+        url: 'https://v3.monitorulsv.ro/Ultima-ora-local/2019-07-18/Primarul-comunei-Ipotesti-Sorin-Augustin-Tofan-si-a-pierdut-mandatul-pentru-o-situatie-de-incompatibilitate',
+      },
+    ],
+  },
+  {
+    name: 'Bratu Marcel Nicolae',
+    party: 'PSD',
+    position: 'Consilier local al comunei Nicolae B\u0103lcescu, jude\u021bul C\u0103l\u0103ra\u0219i',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, nu ar fi anuntat la inceputul sedintelor Consiliului Local interesul personal la adoptarea unor hotarari din 2021-2022 privind prelungirea contractelor de inchiriere si redistribuirea unor terenuri ale comunei.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'C\u0103l\u0103ra\u0219i',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Nicolae Balcescu, judetul Calarasi.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primaria Nicolae Balcescu',
+        kind: 'official',
+        url: 'https://www.primarianicolaebalcescu.ro/despre-institutie/conducere/lista-persoanelor-din-conducere/consiliul-local-2/',
+      },
+    ],
+  },
+  {
+    name: 'B\u0103l\u0103\u0219anu Constantin Corneliu',
+    party: 'PNL',
+    position: 'Primar al comunei Frumu\u0219ica, jude\u021bul Boto\u0219ani',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de primar, ar fi semnat in 2021 un contract de asistenta juridica cu acelasi cabinet de avocatura cu care incheiase in 2020, ca persoana fizica, un alt contract de asistenta juridica.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Boto\u0219ani',
+      basis: 'office',
+      note: 'Functia publica relevanta era Primaria comunei Frumusica, judetul Botosani.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/primarie/frumusica/',
+      },
+    ],
+  },
+  {
+    name: 'Avasilc\u0103i Ionu\u021b',
+    party: 'PNL',
+    position: 'Consilier local al comunei Grum\u0103ze\u0219ti, jude\u021bul Neam\u021b',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea unei hotarari care putea produce un folos material pentru societatea comerciala in care detinea functia de administrator si calitatea de asociat unic.',
+    verified_at: '2026-06-05',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Grumazesti, judetul Neamt.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/grumazesti/',
+      },
+    ],
+  },
+];
+
 const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   {
     name: 'Stoian Adrian',
@@ -21868,6 +22158,7 @@ export const politicianAdditions = [
       },
     ],
   },
+  ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS,
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
