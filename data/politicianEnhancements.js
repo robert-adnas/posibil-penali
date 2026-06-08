@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-04',
+  last_updated: '2026-06-08',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -6095,6 +6095,245 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/grumazesti/',
       },
     ],
+  },
+];
+
+const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
+  {
+    name: 'Ga\u021bu Eugen Remus',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Ungheni \u0219i consilier local al comunei Ungheni, jude\u021bul Ia\u0219i',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari privind inchirierea directa a unor terenuri publice ale comunei Ungheni, apoi a incheiat un contract de inchiriere folosit pentru cererea unica de plata APIA Iasi, obtinand subventii de 18.540,78 lei.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: 'Functia publica relevanta era in comuna Ungheni, judetul Iasi.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'WikiPress',
+        kind: 'press',
+        url: 'https://wikipress.ro/viceprimarul-din-ungheni-vrea-sa-scape-de-ani/',
+      },
+    ],
+  },
+  {
+    name: 'Tulcan Petru',
+    party: 'PSD',
+    position: 'Consilier local al comunei Apateu, jude\u021bul Arad',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea func\u021biei pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unor hotarari privind inchirierea terenurilor din domeniul privat al comunei Apateu, in urma carora sotia sa a incheiat doua acte aditionale la un contract de inchiriere; ANI a sesizat si Parchetul.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Apateu, judetul Arad.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/apateu/1',
+      },
+    ],
+  },
+  {
+    name: 'Radu Mariana',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Filipeni, jude\u021bul Bac\u0103u',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari prin care un post vacant din Primaria Filipeni a fost transformat intr-un post pe care ulterior l-a ocupat prin concurs; ANI mentionase anterior si incompatibilitatea sa.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Filipeni, judetul Bacau.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/filipeni/',
+      },
+    ],
+  },
+  {
+    name: 'Vucu Ionel Paul',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei B\u00e2rzava, jude\u021bul Arad',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in mandatul de consilier local 2020-2022, societatea in care persoana evaluata avea calitatea de asociat unic, iar tatal sau era asociat unic si administrator, ar fi incheiat contracte de vanzare-cumparare cu o entitate aflata in subordinea Consiliului Local Barzava.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Barzava, judetul Arad.',
+    },
+    sources: [
+      ANI_JUN_2024_EIGHT_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/primarie/barzava/',
+      },
+    ],
+  },
+  {
+    name: 'Menan Samir',
+    party: 'PNL',
+    position: 'Consilier local al municipiului Medgidia, jude\u021bul Constan\u021ba',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea mai multor hotarari ale Consiliului Local Medgidia care puteau produce un folos pentru o asociatie in care detinea functia de vicepresedinte.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al municipiului Medgidia, judetul Constanta.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/medgidia/',
+      },
+    ],
+  },
+  {
+    name: 'Nica Adrian Cornel',
+    party: 'PNL',
+    position: 'Consilier local al comunei Apateu, jude\u021bul Arad',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; folosirea func\u021biei pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari privind inchirierea unor terenuri ale comunei Apateu, fara sa anunte interesul personal; ulterior au fost incheiate doua acte aditionale la contractul sau de inchiriere, iar ANI a sesizat Parchetul.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Apateu, judetul Arad.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/apateu/1',
+      },
+    ],
+  },
+  {
+    name: 'Nicoar\u0103 Oana Maria',
+    party: 'USR',
+    position: 'Fost consilier local al comunei V\u0103c\u0103reni, jude\u021bul Tulcea',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea unei hotarari prin care au fost modificate organigrama si statul de functii ale UAT Vacareni, iar functia rezultata a fost ocupata ulterior de persoana evaluata prin concurs.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Functia publica relevanta era in Consiliul Local al comunei Vacareni, judetul Tulcea.',
+    },
+    sources: [
+      ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_tulcea/consiliul-local/vacareni/',
+      },
+    ],
+  },
+  {
+    name: 'Dale Voichi\u021ba Mariana',
+    party: 'Independent',
+    position: 'Secretar general al ora\u0219ului \u0218tei, jude\u021bul Bihor',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in exercitarea functiei publice de conducere, ar fi contrasemnat un act administrativ care i-a produs un folos material.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Functia publica relevanta era cea de secretar general al orasului Stei, judetul Bihor.',
+    },
+    sources: [ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Ani\u021bescu Petrache',
+    party: 'Independent',
+    position: 'Secretar general al comunei Balta, jude\u021bul Mehedin\u021bi',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in exercitarea functiei publice de conducere, ar fi solicitat eliberarea unei autorizatii de functionare pentru entitatea economica pe care o administra, autorizatie semnata ulterior si de persoana evaluata ca secretar general, pe baza careia entitatea a beneficiat de un ajutor AFIR de 95.319 lei.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Mehedin\u021bi',
+      basis: 'office',
+      note: 'Functia publica relevanta era cea de secretar general al comunei Balta, judetul Mehedinti.',
+    },
+    sources: [ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'R\u0103ileanu Melania',
+    party: 'Independent',
+    position: 'Secretar general al comunei Pr\u0103jeni, jude\u021bul Boto\u0219ani',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in exercitarea functiei publice de conducere, ar fi contrasemnat un act administrativ care i-a produs un folos material.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Boto\u0219ani',
+      basis: 'office',
+      note: 'Functia publica relevanta era cea de secretar general al comunei Prajeni, judetul Botosani.',
+    },
+    sources: [ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE],
+  },
+  {
+    name: 'Groza Ligia-Daniela',
+    party: 'Independent',
+    position: 'Fost secretar general al comunei Blandiana, jude\u021bul Alba',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in aprilie 2024 ca, in exercitarea functiei publice de conducere, ar fi contrasemnat un act administrativ care i-a produs un folos material.',
+    verified_at: '2026-06-08',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Functia publica relevanta era cea de secretar general al comunei Blandiana, judetul Alba.',
+    },
+    sources: [ANI_APR_2024_ELEVEN_PUBLIC_OFFICIALS_SOURCE],
   },
 ];
 
@@ -22159,6 +22398,7 @@ export const politicianAdditions = [
     ],
   },
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
+  ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS,
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
   ...ANI_MAY_2026_ADDITIONAL_RECORDS,
