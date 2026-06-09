@@ -918,6 +918,12 @@ const ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE = {
   url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/',
 };
 
+const AMZOI_PSD_CANDIDACY_SOURCE = {
+  label: 'Reper24',
+  kind: 'press',
+  url: 'https://reper24.ro/drept-la-replica/',
+};
+
 const ANI_FEB_2024_TWO_PUBLIC_OFFICIALS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
@@ -964,6 +970,12 @@ const ANI_AUG_2022_MEDICAL_MANAGERS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3358&PID=20',
+};
+
+const MIRON_BRAD_PSD_PARTY_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_hunedoara/consiliul-local/brad/6',
 };
 
 const ANI_JAN_2021_FOUR_PUBLIC_SERVANTS_ARCHIVE_SOURCE = {
@@ -3884,7 +3896,7 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Amzoi Elena',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director executiv al DGASPC Caraș-Severin',
     position_type: 'other',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
@@ -3897,7 +3909,7 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de director executiv al DGASPC Caraș-Severin.',
     },
-    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE],
+    sources: [ANI_AUG_2022_PUBLIC_OFFICIALS_SOURCE, AMZOI_PSD_CANDIDACY_SOURCE],
   },
   {
     name: 'Mărgărit Lăcrămioara',
@@ -4176,7 +4188,7 @@ const ANI_ARCHIVE_PUBLIC_OFFICIALS_RECORDS = [
   },
   {
     name: 'Miron Lucian Ștefan',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director medical al Spitalului Județean de Urgență Deva',
     position_type: 'other',
     crime: 'Incompatibilitate',
@@ -4189,7 +4201,7 @@ const ANI_ARCHIVE_PUBLIC_OFFICIALS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de director medical al Spitalului Județean de Urgență Deva.',
     },
-    sources: [ANI_AUG_2022_MEDICAL_MANAGERS_ARCHIVE_SOURCE],
+    sources: [ANI_AUG_2022_MEDICAL_MANAGERS_ARCHIVE_SOURCE, MIRON_BRAD_PSD_PARTY_SOURCE],
   },
 ];
 
@@ -4678,7 +4690,7 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
   },
   {
     name: 'Rizea Marinel',
-    party: 'Independent',
+    party: 'UNPR',
     position: 'Director general al Direcției Generale Regionale a Finanțelor Publice Ploiești',
     position_type: 'other',
     crime: 'Avere nejustificată',
@@ -4691,7 +4703,14 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
       basis: 'office',
       note: 'Funcția publică relevantă era cea de director general al Direcției Generale Regionale a Finanțelor Publice Ploiești.',
     },
-    sources: [ANI_DEC_2021_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE],
+    sources: [
+      ANI_DEC_2021_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      {
+        label: 'Stiripesurse.ro',
+        kind: 'press',
+        url: 'https://www.stiripesurse.ro/unpr-revendica-ministerul-finantelor_921071.html',
+      },
+    ],
   },
   {
     name: 'Boța Ioan Dumitru',
@@ -5894,7 +5913,7 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
   },
   {
     name: 'Ro\u0219u Gheorghe Cristinel',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Fost inginer \u0219ef \u00een cadrul SN Nuclearelectrica S.A. - Sucursala Cernavod\u0103',
     position_type: 'other',
     crime: 'Folosirea func\u021biei pentru favorizarea unor persoane; fals \u00een declara\u021bii; infrac\u021biuni asimilate corup\u021biei',
@@ -5907,7 +5926,14 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era la Sucursala Cernavoda a SN Nuclearelectrica, judetul Constanta.',
     },
-    sources: [ANI_FEB_2025_THREE_PUBLIC_OFFICIALS_SOURCE],
+    sources: [
+      ANI_FEB_2025_THREE_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Cernavodă',
+        kind: 'official',
+        url: 'https://primaria-cernavoda.ro/consiliu-local/comisiile-de-specialitate-ale-consiliului-local/',
+      },
+    ],
   },
   {
     name: 'Ivanciu Nicolaie',
@@ -6753,6 +6779,21 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES = {
     kind: 'press',
     url: 'https://newsbv.ro/rocada-de-liberali-la-functia-de-viceprimar/',
   },
+  filimonPnlParty: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_neamt/primarie/razboieni/2',
+  },
+  cealeraPnlParty: {
+    label: 'Ziua de Constanța',
+    kind: 'press',
+    url: 'https://www.ziuaconstanta.ro/stiri/actualitate/ionut-cealera-reales-in-fruntea-serviciului-de-ambulanta-judetean-constanta-776028.html',
+  },
+  badescuPsdParty: {
+    label: 'Ziua de Constanța',
+    kind: 'press',
+    url: 'https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/lista-candidatilor-la-consiliul-judetean-constanta-din-partea-psd-constanta-855013.html',
+  },
 };
 
 const makeAutomatedJun2026DeepDiveRecord = ({
@@ -6788,11 +6829,13 @@ const makeAutomatedJun2026DeepDiveRecord = ({
 const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   {
     name: 'Filimon Iosif Ciprian',
+    party: 'PNL',
     position: 'Funcționar public în cadrul Primăriei Comunei Tupilați, județul Neamț',
     positionType: 'local_official',
     crime: 'Incompatibilitate',
     county: 'Neamț',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
+    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.filimonPnlParty],
   },
   {
     name: 'Drăgan Nicolae',
@@ -6982,10 +7025,12 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   },
   {
     name: 'Bădescu Laurențiu',
+    party: 'PSD',
     position: 'Fost manager general al Serviciului de Ambulanță Județean Constanța',
     crime: 'Conflict de interese administrativ; sesizare Parchet',
     county: 'Constanța',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.aniMedicalManagers2022,
+    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.badescuPsdParty],
   },
   {
     name: 'Neacșu Mihai Gabriel',
@@ -7157,10 +7202,12 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   },
   {
     name: 'Cealera Ionuț',
+    party: 'PNL',
     position: 'Fost manager general interimar al Serviciului de Ambulanță Județean Constanța',
     crime: 'Incompatibilitate',
     county: 'Constanța',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani4PublicOfficials2025,
+    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.cealeraPnlParty],
   },
   {
     name: 'Tufă Mihalcea Alin-Gabriel',
@@ -7218,7 +7265,7 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   },
   {
     name: 'Rotar Izabella-Cristina',
-    party: 'Independent',
+    party: 'UDMR',
     position: 'Director general in cadrul S.C. Administrarea Domeniului Public S.A. Gherla',
     position_type: 'local_official',
     crime: 'Folosirea functiei pentru favorizarea unor persoane',
@@ -7231,7 +7278,14 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era in cadrul societatii Administrarea Domeniului Public S.A. Gherla, judetul Cluj.',
     },
-    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
+    sources: [
+      ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE,
+      {
+        label: 'Gherla INFO',
+        kind: 'press',
+        url: 'https://gherlainfo.ro/investirea-primarului-la-gherla-consilierii-au-depus-juramantul-video/',
+      },
+    ],
   },
   {
     name: 'Radu Florentina Georgeta',
@@ -7287,7 +7341,7 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   },
   {
     name: 'Folescu Cornel-Vasile',
-    party: 'Independent',
+    party: 'PNL',
     position:
       'Fost director general al S.C. SECOM S.A.; director implementare proiecte in cadrul DRDP Craiova',
     position_type: 'other',
@@ -7303,11 +7357,18 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era la S.C. SECOM S.A., societate publica locala din Drobeta-Turnu Severin, judetul Mehedinti.',
     },
-    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+    sources: [
+      DNA_APR_2026_BULLETIN_SOURCE,
+      {
+        label: 'Alba24',
+        kind: 'press',
+        url: 'https://alba24.ro/procurorii-dna-alba-iulia-au-trimis-in-judecata-un-fost-deputat-si-un-director-tun-de-peste-1-milion-de-lei-cu-smartphone-uri-1130215.html',
+      },
+    ],
   },
   {
     name: 'Bidilici Adrian',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director executiv al Directiei Generale de Asistenta Sociala si Protectia Copilului Mehedinti',
     position_type: 'local_official',
     crime: 'Abuz in serviciu cu obtinere de foloase necuvenite',
@@ -7322,7 +7383,14 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era in cadrul D.G.A.S.P.C. Mehedinti.',
     },
-    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+    sources: [
+      DNA_APR_2026_BULLETIN_SOURCE,
+      {
+        label: 'Jurnalul Olteniei',
+        kind: 'press',
+        url: 'https://www.jurnalulolteniei.ro/2017/09/25/baieti-buni-psd-mehedinti-l-a-facut-mare-pe-chirila-urmeaza-bidilici/',
+      },
+    ],
   },
   {
     name: 'Moldovan Grigore Florin',
@@ -7344,7 +7412,7 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   },
   {
     name: 'Ceclan Oprea Ciprian',
-    party: 'Independent',
+    party: 'PSD',
     position:
       'Director executiv al Directiei investitii si drumuri judetene din cadrul Consiliului Judetean Bistrita-Nasaud',
     position_type: 'local_official',
@@ -7358,7 +7426,14 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era in cadrul Consiliului Judetean Bistrita-Nasaud.',
     },
-    sources: [DNA_APR_2026_BN_ROADS_SOURCE],
+    sources: [
+      DNA_APR_2026_BN_ROADS_SOURCE,
+      {
+        label: 'Mesager24',
+        kind: 'press',
+        url: 'https://mesager24.ro/psd-bistrita-nasaud-si-a-stabilit-candidatii-pentru-alegerile-parlamentare-din-6-decembrie/',
+      },
+    ],
   },
   {
     name: 'Poienar Victor',
@@ -7415,7 +7490,7 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   },
   {
     name: 'Anton Cristian',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Director general al Autoritatii Rutiere Romane',
     position_type: 'other',
     crime: 'Luare de mita; folosirea de informatii nedestinate publicitatii; grup infractional organizat',
@@ -7428,7 +7503,14 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
       basis: 'office',
       note: 'Functia publica relevanta era cea de director general al Autoritatii Rutiere Romane, institutie centrala.',
     },
-    sources: [DNA_APR_2026_ARR_EXAM_SOURCE],
+    sources: [
+      DNA_APR_2026_ARR_EXAM_SOURCE,
+      {
+        label: 'Euronews România',
+        kind: 'press',
+        url: 'https://www.euronews.ro/articole/perchezitii-dna-la-autoritatea-rutiera-romana-intr-un-dosar-de-coruptie-seful-arr',
+      },
+    ],
   },
   {
     name: 'Popescu Mihai Cornel',
@@ -7691,7 +7773,7 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Matei Paul Vlad',
-    party: 'Independent',
+    party: 'USR',
     position: 'Consilier local al comunei Hălchiu, județul Brașov',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
@@ -19165,7 +19247,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Grigore Marian',
-    party: 'Independent',
+    party: 'PMP',
     position: 'Secretar al Primăriei comunei Braniștea, județul Dâmbovița',
     position_type: 'local_official',
     geography: {
@@ -19187,6 +19269,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5156',
+      },
+      {
+        label: 'VotCorect',
+        kind: 'press',
+        url: 'https://votcorect.ro/liste-candidati/?judet=dambovita',
       },
     ],
   },
@@ -19627,7 +19714,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Cernea Elena',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Secretar al Primăriei comunei Sălătrucel, județul Vâlcea',
     position_type: 'local_official',
     geography: {
@@ -19650,11 +19737,12 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
       },
+      SALATRUCEL_PREOTESCU_PARTY_SOURCE,
     ],
   },
   {
     name: 'Mesia Ion',
-    party: 'Independent',
+    party: 'PSD',
     position: 'Contabil-casier al Primăriei comunei Sălătrucel, județul Vâlcea',
     position_type: 'local_official',
     geography: {
@@ -19677,6 +19765,7 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
       },
+      SALATRUCEL_PREOTESCU_PARTY_SOURCE,
     ],
   },
   {
