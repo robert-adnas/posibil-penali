@@ -1,9 +1,12 @@
 import { useMemo, useState } from 'react';
 import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
+import { DATA_SCOPE } from '../utils/politicalScope';
+import { ArchiveScopeToggle } from './ArchiveScopeToggle';
 
-export function Filters({ filters, setFilters, parties, positionTypes, statuses, total }) {
+export function Filters({ filters, setFilters, parties, positionTypes, statuses, total, scopeTotals }) {
   const [expanded, setExpanded] = useState(false);
+  const isExtendedScope = filters.scope === DATA_SCOPE.ALL;
 
   const activeFilters = useMemo(() => {
     const items = [];
@@ -29,7 +32,8 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
     return items;
   }, [filters.party, filters.positionType, filters.status]);
 
-  const hasFilters = activeFilters.length > 0;
+  const hasFieldFilters = activeFilters.length > 0;
+  const hasFilters = hasFieldFilters || isExtendedScope;
 
   const updateFilter = (key, value) => {
     setFilters((prev) => ({
@@ -46,7 +50,20 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
   };
 
   const clearAll = () => {
-    setFilters({ party: null, positionType: null, status: null, yearRange: [null, null] });
+    setFilters({
+      party: null,
+      positionType: null,
+      status: null,
+      scope: DATA_SCOPE.POLITICAL,
+      yearRange: [null, null],
+    });
+  };
+
+  const updateScope = (includeExtendedArchive) => {
+    setFilters((prev) => ({
+      ...prev,
+      scope: includeExtendedArchive ? DATA_SCOPE.ALL : DATA_SCOPE.POLITICAL,
+    }));
   };
 
   return (
@@ -76,7 +93,16 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
         <span className="filter-mobile-total">{total} rezultate</span>
       </div>
 
-      {hasFilters && (
+      <div className="filter-scope-strip">
+        <ArchiveScopeToggle
+          checked={isExtendedScope}
+          onChange={updateScope}
+          allTotal={scopeTotals?.[DATA_SCOPE.ALL] || 0}
+          politicalTotal={scopeTotals?.[DATA_SCOPE.POLITICAL] || 0}
+        />
+      </div>
+
+      {hasFieldFilters && (
         <div className="filter-mobile-active" aria-label="Filtre active">
           {activeFilters.map((filter) => (
             <button

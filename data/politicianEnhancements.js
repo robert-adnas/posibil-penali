@@ -6023,7 +6023,7 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
   {
     name: 'Costea R\u0103zvan-Dumitru',
     party: 'Independent',
-    position: 'Agent de poli\u021bie la Centrul de Formare \u0219i Perfec\u021bionare a Poli\u021bi\u0219tilor \"Nicolae Golescu\" Slatina',
+    position: 'Agent de poli\u021bie la Centrul de Formare \u0219i Perfec\u021bionare a Poli\u021bi\u0219tilor "Nicolae Golescu" Slatina',
     position_type: 'other',
     crime: 'Fals \u00een declara\u021bii',
     status: 'investigated',
@@ -6033,7 +6033,7 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
     geography: {
       county: 'Olt',
       basis: 'office',
-      note: 'Functia publica relevanta era la Centrul de Formare si Perfectionare a Politistilor \"Nicolae Golescu\" Slatina, judetul Olt.',
+      note: 'Functia publica relevanta era la Centrul de Formare si Perfectionare a Politistilor "Nicolae Golescu" Slatina, judetul Olt.',
     },
     sources: [ANI_DEC_2024_FOUR_PUBLIC_OFFICIALS_SOURCE],
   },
@@ -6057,7 +6057,7 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
   {
     name: 'Stroe Vasilica Felicia',
     party: 'Independent',
-    position: 'Director al Colegiului Tehnologic \"Viaceslav Harnaj\" Bucure\u0219ti',
+    position: 'Director al Colegiului Tehnologic "Viaceslav Harnaj" Bucure\u0219ti',
     position_type: 'other',
     crime: 'Folosirea func\u021biei pentru favorizarea unor persoane',
     status: 'investigated',
@@ -6067,7 +6067,7 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
     geography: {
       county: 'Bucure\u0219ti',
       basis: 'office',
-      note: 'Functia publica relevanta era la Colegiul Tehnologic \"Viaceslav Harnaj\" Bucuresti.',
+      note: 'Functia publica relevanta era la Colegiul Tehnologic "Viaceslav Harnaj" Bucuresti.',
     },
     sources: [ANI_SEP_2024_TWO_PUBLIC_OFFICIALS_SOURCE],
   },

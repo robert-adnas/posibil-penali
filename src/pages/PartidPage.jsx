@@ -1,10 +1,11 @@
 import { useMemo } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
-import { getPartyToken } from '../utils/partyColors';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
+import { createDefaultFilters, getScopeSearch, readScopeFromSearchParams } from '../utils/filterParams';
+import { DATA_SCOPE } from '../utils/politicalScope';
 import { ThemeToggle } from '../components/ThemeToggle';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
@@ -21,22 +22,30 @@ const STATUS_RANK = {
 
 export function PartidPage() {
   const { slug } = useParams();
-  const { allData } = useData();
+  const [searchParams] = useSearchParams();
+  const scope = readScopeFromSearchParams(searchParams);
+  const filters = useMemo(() => ({
+    ...createDefaultFilters(),
+    scope,
+  }), [scope]);
+  const { scopeData } = useData({ filters });
+  const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
+  const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
 
   const { party, politicians } = useMemo(() => {
-    const match = allData.find((p) => nameToSlug(p.party) === slug);
+    const match = scopeData.find((p) => nameToSlug(p.party) === slug);
     if (!match) return { party: null, politicians: [] };
     const partyName = match.party;
-    const list = allData
+    const list = scopeData
       .filter((p) => p.party === partyName)
       .sort((a, b) => {
         const rankA = STATUS_RANK[a.status] ?? 99;
         const rankB = STATUS_RANK[b.status] ?? 99;
         if (rankA !== rankB) return rankA - rankB;
         return a.name.localeCompare(b.name, 'ro');
-      });
+    });
     return { party: partyName, politicians: list };
-  }, [allData, slug]);
+  }, [scopeData, slug]);
 
   const stats = useMemo(() => {
     const convicted = politicians.filter((p) => p.status === 'convicted');
@@ -52,18 +61,18 @@ export function PartidPage() {
     ? `${party} — Politicieni cu dosare penale | Politicieni Corupți`
     : 'Partid negăsit | Politicieni Corupți';
   const description = party
-    ? `${politicians.length} politicieni ${party} cu dosare penale: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
+    ? `${politicians.length} ${peopleLabel} ${party} cu dosare penale: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
     : 'Partidul nu a fost găsit în baza de date.';
 
   const allParties = useMemo(() => {
     const counts = {};
-    allData.forEach((p) => {
+    scopeData.forEach((p) => {
       counts[p.party] = (counts[p.party] || 0) + 1;
     });
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
       .filter(([name]) => name !== party);
-  }, [allData, party]);
+  }, [scopeData, party]);
 
   useSEO({ title, description, url: `${BASE_URL}/partid/${slug}` });
 
@@ -78,7 +87,7 @@ export function PartidPage() {
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem' }}>
               Nu am găsit niciun partid cu acest identificator în baza de date.
             </p>
-            <Link to="/" className="app-intro-link">← Înapoi la arhivă</Link>
+            <Link to={`/${scopeSearch}`} className="app-intro-link">← Înapoi la arhivă</Link>
           </div>
         </div>
       </div>
@@ -90,7 +99,7 @@ export function PartidPage() {
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
-            <Link to="/" className="app-kicker" style={{ textDecoration: 'none' }}>
+            <Link to={`/${scopeSearch}`} className="app-kicker" style={{ textDecoration: 'none' }}>
               ← Politicieni Corupți
             </Link>
             <span className="app-kicker-separator">—</span>
@@ -101,7 +110,7 @@ export function PartidPage() {
           <h1 className="app-title">{party}</h1>
 
           <p className="app-subtitle">
-            {politicians.length} politicieni cu dosare penale
+            {politicians.length} {peopleLabel} cu dosare penale
           </p>
           <div className="app-rule" />
         </div>
@@ -133,7 +142,7 @@ export function PartidPage() {
                 .map(([status, count]) => (
                   <Link
                     key={status}
-                    to={`/status/${status}`}
+                    to={`/status/${status}${scopeSearch}`}
                     className="partid-status-tag"
                     data-status={status}
                   >
@@ -149,7 +158,7 @@ export function PartidPage() {
               <li key={p.name} className="lista-item" data-status={p.status}>
                 <Link
                   to={`/politician/${nameToSlug(p.name)}`}
-                  state={{ from: `/partid/${slug}`, fromLabel: party }}
+                  state={{ from: `/partid/${slug}${scopeSearch}`, fromLabel: party }}
                   className="lista-item-link"
                 >
                   <span className="lista-item-dot" />
@@ -175,7 +184,7 @@ export function PartidPage() {
                 {allParties.map(([name, count]) => (
                   <Link
                     key={name}
-                    to={`/partid/${nameToSlug(name)}`}
+                    to={`/partid/${nameToSlug(name)}${scopeSearch}`}
                     className="partid-other-link"
                   >
                     {name} ({count})
@@ -191,8 +200,8 @@ export function PartidPage() {
         <div className="app-inner">
           <div className="app-footer-rule" />
           <nav className="app-footer-nav">
-            <Link to="/" className="app-footer-nav-link">Arhivă</Link>
-            <Link to="/lista" className="app-footer-nav-link">Lista completă</Link>
+            <Link to={`/${scopeSearch}`} className="app-footer-nav-link">Arhivă</Link>
+            <Link to={`/lista${scopeSearch}`} className="app-footer-nav-link">Lista completă</Link>
             <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>
             <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
             <Link to="/contact" className="app-footer-nav-link">Contact & Corecții</Link>

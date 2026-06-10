@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formatPrejudiciu } from '../utils/parsePrejudiciu.js';
 
-export function StatsDateline({ stats }) {
+export function StatsDateline({ stats, totalLabel = 'politicieni' }) {
   const [open, setOpen] = useState(false);
   const hasPrejudiciu = stats.totalPrejudiciu && stats.totalPrejudiciu > 0;
 
   return (
     <div className="stats-dateline">
       <ul className="stats-dateline-list">
-        <Stat value={stats.total} label="politicieni" />
+        <Stat value={stats.total} label={totalLabel} />
         <Stat value={stats.convicted} label="condamnați" accent />
         <Stat value={stats.totalPrisonYears} label="ani de pușcărie" />
         {hasPrejudiciu && (

@@ -194,7 +194,7 @@ function buildInteractiveMapMarkup(svgSource, counties, activeCountySlug, topFil
   return new window.XMLSerializer().serializeToString(svg);
 }
 
-export function RomaniaCountyMap({ data, allData }) {
+export function RomaniaCountyMap({ data, allData, scopeSearch = '' }) {
   const navigate = useNavigate();
   const [svgSource, setSvgSource] = useState('');
   const [activeCountySlug, setActiveCountySlug] = useState(null);
@@ -232,7 +232,7 @@ export function RomaniaCountyMap({ data, allData }) {
         return {
           slug: total.slug,
           county: total.county,
-          href: `/judet/${total.slug}`,
+          href: `/judet/${total.slug}${scopeSearch}`,
           pathId: ROMANIA_COUNTY_PATHS[total.slug] || null,
           marker: ROMANIA_COUNTY_MARKERS[total.slug] || null,
           totalCount: total.total,
@@ -241,7 +241,7 @@ export function RomaniaCountyMap({ data, allData }) {
         };
       })
       .sort((left, right) => left.county.localeCompare(right.county, 'ro'));
-  }, [filteredCountMap, totalCountMap]);
+  }, [filteredCountMap, scopeSearch, totalCountMap]);
 
   const mapCounties = useMemo(
     () => counties.filter((county) => county.pathId || county.marker),
@@ -299,7 +299,7 @@ export function RomaniaCountyMap({ data, allData }) {
     if (!slug) return;
 
     event.preventDefault();
-    navigate(`/judet/${slug}`);
+    navigate(`/judet/${slug}${scopeSearch}`);
   }
 
   function handleStageKeyDown(event) {
@@ -308,7 +308,7 @@ export function RomaniaCountyMap({ data, allData }) {
 
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
-      navigate(`/judet/${slug}`);
+      navigate(`/judet/${slug}${scopeSearch}`);
     }
   }
 

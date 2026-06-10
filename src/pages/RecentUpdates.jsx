@@ -109,12 +109,9 @@ function ProgressiveUpdatesSection({ title, groups, emptyText, renderGroup }) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_GROUPS);
   const sentinelRef = useRef(null);
 
-  useEffect(() => {
-    setVisibleCount(INITIAL_VISIBLE_GROUPS);
-  }, [groups]);
-
-  const visibleGroups = groups.slice(0, visibleCount);
-  const hasMore = visibleCount < groups.length;
+  const safeVisibleCount = Math.min(visibleCount, groups.length);
+  const visibleGroups = groups.slice(0, safeVisibleCount);
+  const hasMore = safeVisibleCount < groups.length;
 
   useEffect(() => {
     if (!hasMore) return undefined;
@@ -134,7 +131,7 @@ function ProgressiveUpdatesSection({ title, groups, emptyText, renderGroup }) {
     return () => observer.disconnect();
   }, [groups.length, hasMore]);
 
-  const remainingGroups = Math.max(0, groups.length - visibleCount);
+  const remainingGroups = Math.max(0, groups.length - safeVisibleCount);
 
   return (
     <section className="page-section updates-section">

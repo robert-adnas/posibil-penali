@@ -4,7 +4,7 @@ import { getPartyToken } from '../utils/partyColors';
 import { nameToSlug } from '../utils/slug';
 import { formatYears } from '../utils/constants';
 
-export function PartyRanking({ data }) {
+export function PartyRanking({ data, scopeSearch = '' }) {
   const rankings = useMemo(() => {
     const partyStats = {};
 
@@ -51,7 +51,7 @@ export function PartyRanking({ data }) {
           return (
             <Link
               key={ranking.party}
-              to={`/partid/${nameToSlug(ranking.party)}`}
+              to={`/partid/${nameToSlug(ranking.party)}${scopeSearch}`}
               className="party-ranking-item party-ranking-item--link"
               data-party-token={getPartyToken(ranking.party)}
             >

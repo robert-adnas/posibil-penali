@@ -63,5 +63,5 @@ export function useSEO({ title, description, url, image, noindex = false } = {})
       setMeta('meta[name="twitter:description"]', 'content', DEFAULT_DESCRIPTION);
       setMeta('meta[name="twitter:image"]', 'content', DEFAULT_IMAGE);
     };
-  }, [title, description, url, image]);
+  }, [title, description, url, image, noindex]);
 }

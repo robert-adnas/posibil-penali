@@ -8,6 +8,9 @@ import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { SavedViews } from '../components/SavedViews';
+import { ArchiveScopeToggle } from '../components/ArchiveScopeToggle';
+import { createDefaultFilters, readScopeFromSearchParams } from '../utils/filterParams';
+import { DATA_SCOPE } from '../utils/politicalScope';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -59,9 +62,10 @@ function highlight(text, query) {
   );
 }
 
-function buildSavedViewName(query, activeStatus, sortBy) {
+function buildSavedViewName(query, activeStatus, sortBy, scope) {
   const parts = [];
 
+  if (scope === DATA_SCOPE.ALL) parts.push('Arhiva extinsă');
   if (query) parts.push(`Căutare: ${query}`);
   if (activeStatus) {
     parts.push(STATUS_FILTERS.find((entry) => entry.key === activeStatus)?.label || activeStatus);
@@ -74,9 +78,14 @@ function buildSavedViewName(query, activeStatus, sortBy) {
 }
 
 export function ListaPage() {
-  const { allData } = useData();
-  const { track } = useAnalytics();
   const [searchParams, setSearchParams] = useSearchParams();
+  const scope = readScopeFromSearchParams(searchParams);
+  const filters = useMemo(() => ({
+    ...createDefaultFilters(),
+    scope,
+  }), [scope]);
+  const { scopeData, scopeTotals } = useData({ filters });
+  const { track } = useAnalytics();
   const navigate = useNavigate();
   const [vtSlug, setVtSlug] = useState(null);
   const searchRef = useRef(null);
@@ -84,6 +93,9 @@ export function ListaPage() {
   const rawActiveStatus = normalizeParam(searchParams.get('status'));
   const rawSortBy = normalizeParam(searchParams.get('sort'));
   const sortBy = SORT_OPTIONS.some((entry) => entry.key === rawSortBy) ? rawSortBy : null;
+  const isExtendedScope = scope === DATA_SCOPE.ALL;
+  const scopeNoun = isExtendedScope ? 'persoane' : 'politicieni';
+  const listTitle = isExtendedScope ? 'Arhiva extinsă' : 'Lista politicienilor';
 
   const updateSearchParams = useCallback((updates) => {
     const next = new URLSearchParams(searchParams);
@@ -101,16 +113,20 @@ export function ListaPage() {
     updateSearchParams({ q: value || null });
   }, [updateSearchParams]);
 
+  const setScope = useCallback((includeExtendedArchive) => {
+    updateSearchParams({ scope: includeExtendedArchive ? DATA_SCOPE.ALL : null });
+  }, [updateSearchParams]);
+
   const queryFiltered = useMemo(() => {
     const q = stripDiacritics(query.trim().toLowerCase());
-    if (!q) return allData;
-    return allData.filter((politician) =>
+    if (!q) return scopeData;
+    return scopeData.filter((politician) =>
       stripDiacritics(politician.name.toLowerCase()).includes(q) ||
       stripDiacritics(politician.party.toLowerCase()).includes(q) ||
       stripDiacritics((politician.position || '').toLowerCase()).includes(q) ||
       stripDiacritics((politician.crime || '').toLowerCase()).includes(q)
     );
-  }, [allData, query]);
+  }, [scopeData, query]);
 
   const countByStatus = useMemo(() => {
     const counts = {};
@@ -207,15 +223,15 @@ export function ListaPage() {
     return value ? `?${value}` : '';
   }, [searchParams]);
   const savedViewName = useMemo(
-    () => buildSavedViewName(query.trim(), activeStatus, sortBy),
-    [query, activeStatus, sortBy]
+    () => buildSavedViewName(query.trim(), activeStatus, sortBy, scope),
+    [query, activeStatus, sortBy, scope]
   );
 
   useSEO({
     title: activeStatus
-      ? `${activeFilterLabel} (${results.length}) — Lista politicienilor | Politicieni Corupți`
-      : 'Lista politicienilor — Arhivă completă | Politicieni Corupți',
-    description: `Toți cei ${allData.length} politicieni din arhivă: condamnați, trimiși în judecată sau cercetați penal. Caută după nume, partid sau faptă.`,
+      ? `${activeFilterLabel} (${results.length}) — ${listTitle} | Politicieni Corupți`
+      : `${listTitle} — Arhivă completă | Politicieni Corupți`,
+    description: `Toți cei ${scopeData.length} ${scopeNoun} din arhivă: condamnați, trimiși în judecată sau cercetați penal. Caută după nume, partid sau faptă.`,
     url: `${BASE_URL}/lista`,
   });
 
@@ -225,7 +241,7 @@ export function ListaPage() {
     if (e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();
     const to = `/politician/${slug}`;
-    const state = { from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' };
+    const state = { from: `/lista${currentSearch}`, fromLabel: listTitle };
     if (!document.startViewTransition) {
       navigate(to, { state });
       return;
@@ -248,7 +264,7 @@ export function ListaPage() {
             <span className="app-kicker-meta">Arhivă completă</span>
             <ThemeToggle />
           </div>
-          <h1 className="app-title">Lista politicienilor</h1>
+          <h1 className="app-title">{listTitle}</h1>
           <div className="app-rule" />
         </div>
       </header>
@@ -281,6 +297,15 @@ export function ListaPage() {
             )}
           </div>
 
+          <div className="lista-scope-row">
+            <ArchiveScopeToggle
+              checked={isExtendedScope}
+              onChange={setScope}
+              allTotal={scopeTotals[DATA_SCOPE.ALL]}
+              politicalTotal={scopeTotals[DATA_SCOPE.POLITICAL]}
+            />
+          </div>
+
           <div className="lista-tabs-wrap">
             <div className="lista-tabs">
               {STATUS_FILTERS.filter((entry) => !entry.key || visibleStatuses.has(entry.key)).map((entry) => (
@@ -302,11 +327,11 @@ export function ListaPage() {
 
           <div className="lista-toolbar">
             <p className="lista-count">
-              {results.length === allData.length
-                ? `${allData.length} politicieni`
+              {results.length === scopeData.length
+                ? `${scopeData.length} ${scopeNoun}`
                 : results.length === 0
                 ? 'Niciun rezultat'
-                : `${results.length} din ${allData.length}`}
+                : `${results.length} din ${scopeData.length}`}
               {trimmedQuery && results.length > 0 && (
                 <span className="lista-count-query"> pentru „{trimmedQuery}”</span>
               )}
@@ -366,7 +391,7 @@ export function ListaPage() {
                 >
                   <Link
                     to={`/politician/${slug}`}
-                    state={{ from: `/lista${currentSearch}`, fromLabel: 'Lista politicienilor' }}
+                    state={{ from: `/lista${currentSearch}`, fromLabel: listTitle }}
                     className="lista-item-link"
                     onClick={(e) => handleNavigate(e, slug)}
                   >

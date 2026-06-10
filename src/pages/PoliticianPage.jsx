@@ -549,7 +549,6 @@ export function PoliticianPage() {
 
   const sources = Array.isArray(politician.sources) ? politician.sources : [];
   const sourceSummary = getSourceSummary(sources);
-  const caseName = getCaseName(politician);
   const institutions = getInstitutions(politician, sources);
   const sameParty = samePartyMatches.slice(0, 6);
   const sameCounty = sameCountyMatches.slice(0, 6);

@@ -1,9 +1,11 @@
 import { useMemo } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
+import { createDefaultFilters, getScopeSearch, readScopeFromSearchParams } from '../utils/filterParams';
+import { DATA_SCOPE } from '../utils/politicalScope';
 import { getCounty } from '../utils/geography';
 import { getRomaniaCountyNameBySlug } from '../utils/romaniaCountyMap';
 import { ThemeToggle } from '../components/ThemeToggle';
@@ -22,11 +24,19 @@ const STATUS_RANK = {
 
 export function JudetPage() {
   const { slug } = useParams();
-  const { allData } = useData();
+  const [searchParams] = useSearchParams();
+  const scope = readScopeFromSearchParams(searchParams);
+  const filters = useMemo(() => ({
+    ...createDefaultFilters(),
+    scope,
+  }), [scope]);
+  const { scopeData } = useData({ filters });
+  const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
+  const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
   const fallbackCounty = getRomaniaCountyNameBySlug(slug);
 
   const { county, politicians } = useMemo(() => {
-    const match = allData.find((politician) => {
+    const match = scopeData.find((politician) => {
       const countyName = getCounty(politician);
       return countyName && nameToSlug(countyName) === slug;
     });
@@ -38,7 +48,7 @@ export function JudetPage() {
     }
 
     const countyName = getCounty(match);
-    const list = allData
+    const list = scopeData
       .filter((politician) => getCounty(politician) === countyName)
       .sort((left, right) => {
         const rankA = STATUS_RANK[left.status] ?? 99;
@@ -48,7 +58,7 @@ export function JudetPage() {
       });
 
     return { county: countyName, politicians: list };
-  }, [allData, fallbackCounty, slug]);
+  }, [scopeData, fallbackCounty, slug]);
 
   const isKnownCounty = Boolean(county);
   const isEmptyCounty = isKnownCounty && politicians.length === 0;
@@ -77,14 +87,14 @@ export function JudetPage() {
 
   const description = county
     ? isEmptyCounty
-      ? `Momentan nu avem politicieni asociați în arhivă cu ${locationNoun} ${county}. Pagina rămâne disponibilă pentru completări viitoare.`
-      : `${politicians.length} politicieni cu dosare penale din ${locationNoun} ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
+      ? `Momentan nu avem ${peopleLabel} asociați în arhivă cu ${locationNoun} ${county}. Pagina rămâne disponibilă pentru completări viitoare.`
+      : `${politicians.length} ${peopleLabel} cu dosare penale din ${locationNoun} ${county}: ${stats.convicted} condamnați definitiv, ${formatYears(stats.totalYears)} de închisoare.`
     : 'Județul nu a fost găsit în baza de date.';
 
   const allCounties = useMemo(() => {
     const counts = {};
 
-    allData.forEach((politician) => {
+    scopeData.forEach((politician) => {
       const countyName = getCounty(politician);
       if (countyName && countyName !== county) {
         counts[countyName] = (counts[countyName] || 0) + 1;
@@ -92,7 +102,7 @@ export function JudetPage() {
     });
 
     return Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  }, [allData, county]);
+  }, [scopeData, county]);
 
   useSEO({ title, description, url: `${BASE_URL}/judet/${slug}` });
 
@@ -107,7 +117,7 @@ export function JudetPage() {
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem' }}>
               Nu am găsit niciun județ cu acest identificator în baza de date.
             </p>
-            <Link to="/" className="app-intro-link">← Înapoi la arhivă</Link>
+            <Link to={`/${scopeSearch}`} className="app-intro-link">← Înapoi la arhivă</Link>
           </div>
         </div>
       </div>
@@ -119,7 +129,7 @@ export function JudetPage() {
       <header className="app-section app-header">
         <div className="app-inner">
           <div className="app-kicker-row">
-            <Link to="/" className="app-kicker" style={{ textDecoration: 'none' }}>
+            <Link to={`/${scopeSearch}`} className="app-kicker" style={{ textDecoration: 'none' }}>
               ← Politicieni Corupți
             </Link>
             <span className="app-kicker-separator">—</span>
@@ -130,8 +140,8 @@ export function JudetPage() {
           <h1 className="app-title">{locationPrefix} {county}</h1>
           <p className="app-subtitle">
             {isEmptyCounty
-              ? 'Momentan fără politicieni asociați în arhivă'
-              : `${politicians.length} politicieni cu dosare penale`}
+              ? `Momentan fără ${peopleLabel} asociați în arhivă`
+              : `${politicians.length} ${peopleLabel} cu dosare penale`}
           </p>
           <div className="app-rule" />
         </div>
@@ -163,7 +173,7 @@ export function JudetPage() {
                   {stats.topParties.map(([partyName, count]) => (
                     <Link
                       key={partyName}
-                      to={`/partid/${nameToSlug(partyName)}`}
+                      to={`/partid/${nameToSlug(partyName)}${scopeSearch}`}
                       className="partid-status-tag"
                     >
                       {partyName}: {count}
@@ -177,7 +187,7 @@ export function JudetPage() {
                   <li key={politician.name} className="lista-item" data-status={politician.status}>
                     <Link
                       to={`/politician/${nameToSlug(politician.name)}`}
-                      state={{ from: `/judet/${slug}`, fromLabel: `${locationPrefix} ${county}` }}
+                      state={{ from: `/judet/${slug}${scopeSearch}`, fromLabel: `${locationPrefix} ${county}` }}
                       className="lista-item-link"
                     >
                       <span className="lista-item-dot" />
@@ -215,7 +225,7 @@ export function JudetPage() {
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
                 <Link to="/metodologie" className="app-intro-link">Cum atribuim județele →</Link>
-                <Link to="/lista" className="app-intro-link">Vezi toată arhiva →</Link>
+                <Link to={`/lista${scopeSearch}`} className="app-intro-link">Vezi toată arhiva →</Link>
               </div>
             </div>
           )}
@@ -229,7 +239,7 @@ export function JudetPage() {
                 {allCounties.map(([name, count]) => (
                   <Link
                     key={name}
-                    to={`/judet/${nameToSlug(name)}`}
+                    to={`/judet/${nameToSlug(name)}${scopeSearch}`}
                     className="partid-other-link"
                   >
                     {name} ({count})
@@ -245,8 +255,8 @@ export function JudetPage() {
         <div className="app-inner">
           <div className="app-footer-rule" />
           <nav className="app-footer-nav">
-            <Link to="/" className="app-footer-nav-link">Arhivă</Link>
-            <Link to="/lista" className="app-footer-nav-link">Lista completă</Link>
+            <Link to={`/${scopeSearch}`} className="app-footer-nav-link">Arhivă</Link>
+            <Link to={`/lista${scopeSearch}`} className="app-footer-nav-link">Lista completă</Link>
             <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>
             <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
             <Link to="/contact" className="app-footer-nav-link">Contact & Corecții</Link>

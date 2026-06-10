@@ -17,8 +17,10 @@ import { useSEO } from '../hooks/useSEO';
 import { downloadJSON, downloadCSV } from '../utils/download';
 import {
   applyFiltersToSearchParams,
+  getScopeSearch,
   readFiltersFromSearchParams,
 } from '../utils/filterParams';
+import { DATA_SCOPE } from '../utils/politicalScope';
 
 export function HomePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -33,7 +35,8 @@ export function HomePage() {
     metadata,
     changeLog,
     filteredData,
-    allData,
+    scopeData,
+    scopeTotals,
     parties,
     positionTypes,
     statuses,
@@ -59,6 +62,13 @@ export function HomePage() {
 
   useSEO();
 
+  const scopeSearch = useMemo(() => getScopeSearch(filters.scope), [filters.scope]);
+  const listPath = `/lista${scopeSearch}`;
+  const scopeNoun = filters.scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
+  const footerListLabel = filters.scope === DATA_SCOPE.ALL
+    ? `Toată arhiva (${scopeTotals[DATA_SCOPE.ALL]})`
+    : `Toți politicienii (${scopeTotals[DATA_SCOPE.POLITICAL]})`;
+
   useEffect(() => {
     localStorage.setItem('home-primary-view', primaryView);
   }, [primaryView]);
@@ -67,7 +77,13 @@ export function HomePage() {
     event.preventDefault();
     const query = homeQuery.trim();
     if (query) track('Homepage Search', { query });
-    navigate(query ? `/lista?q=${encodeURIComponent(query)}` : '/lista');
+
+    const next = new URLSearchParams();
+    if (query) next.set('q', query);
+    if (filters.scope === DATA_SCOPE.ALL) next.set('scope', DATA_SCOPE.ALL);
+
+    const search = next.toString();
+    navigate(search ? `/lista?${search}` : '/lista');
   }
 
   function handlePrimaryViewChange(nextView) {
@@ -76,7 +92,7 @@ export function HomePage() {
     track('Homepage Primary View Changed', { view: nextView });
   }
 
-  const convictionYears = allData
+  const convictionYears = scopeData
     .map((politician) => politician.conviction_year)
     .filter((year) => Number.isFinite(year));
 
@@ -115,7 +131,7 @@ export function HomePage() {
           <div className="app-rule animate-fade-up" style={{ animationDelay: '80ms' }} />
 
           <div className="animate-fade-up" style={{ animationDelay: '130ms' }}>
-            <StatsDateline stats={stats} />
+            <StatsDateline stats={stats} totalLabel={scopeNoun} />
           </div>
 
           {!disclaimerDismissed && (
@@ -150,7 +166,7 @@ export function HomePage() {
               <input
                 className="home-search-input"
                 type="search"
-                placeholder={`Caută dintre cei ${allData.length} politicieni...`}
+                placeholder={`Caută dintre cei ${scopeData.length} ${scopeNoun}...`}
                 value={homeQuery}
                 onChange={(event) => setHomeQuery(event.target.value)}
                 autoComplete="off"
@@ -160,7 +176,7 @@ export function HomePage() {
                 Caută
               </button>
             </div>
-            <Link to="/lista" className="home-search-browse">
+            <Link to={listPath} className="home-search-browse">
               sau răsfoiește lista completă →
             </Link>
           </form>
@@ -178,6 +194,7 @@ export function HomePage() {
             positionTypes={positionTypes}
             statuses={statuses}
             total={filteredData.length}
+            scopeTotals={scopeTotals}
           />
         </div>
       </div>
@@ -220,7 +237,7 @@ export function HomePage() {
                 </div>
 
                 {primaryView === 'map' ? (
-                  <RomaniaCountyMap data={filteredData} allData={allData} />
+                  <RomaniaCountyMap data={filteredData} allData={scopeData} scopeSearch={scopeSearch} />
                 ) : (
                   <HemicycleChart data={filteredData} onSelect={setSelectedPolitician} />
                 )}
@@ -228,8 +245,8 @@ export function HomePage() {
             </div>
 
             <aside className="main-grid-sidebar">
-              <PartyRanking data={filteredData} />
-              <CountyRanking data={filteredData} />
+              <PartyRanking data={filteredData} scopeSearch={scopeSearch} />
+              <CountyRanking data={filteredData} scopeSearch={scopeSearch} />
             </aside>
           </div>
         </div>
@@ -273,7 +290,7 @@ export function HomePage() {
             </div>
 
             <nav className="app-footer-nav">
-              <Link to="/lista" className="app-footer-nav-link">Toți politicienii ({allData.length})</Link>
+              <Link to={listPath} className="app-footer-nav-link">{footerListLabel}</Link>
               <Link to="/actualizari" className="app-footer-nav-link">Modificările recente</Link>
               <Link to="/glosar" className="app-footer-nav-link">Glosar juridic</Link>
               <Link to="/metodologie" className="app-footer-nav-link">Metodologie</Link>

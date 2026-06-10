@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer';
+import process from 'node:process';
 import { readFileSync, mkdirSync } from 'fs';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname, join } from 'path';

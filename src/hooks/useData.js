@@ -3,7 +3,8 @@ import rawData from '../../data/politicians.json';
 import { buildDataset } from '../../data/buildDataset.js';
 import { nameToSlug } from '../utils/slug.js';
 import { parsePrejudiciuEur } from '../utils/parsePrejudiciu.js';
-import { createDefaultFilters } from '../utils/filterParams.js';
+import { createDefaultFilters, normalizeFilters } from '../utils/filterParams.js';
+import { DATA_SCOPE, isPoliticalActor, matchesDataScope } from '../utils/politicalScope.js';
 
 const dataset = buildDataset(rawData);
 const allData = dataset.politicians;
@@ -11,6 +12,7 @@ const metadata = dataset.metadata;
 const changeLog = dataset.changeLog;
 
 function matchesFilters(politician, filters, excludeKey = null) {
+  if (excludeKey !== 'scope' && !matchesDataScope(politician, filters.scope)) return false;
   if (excludeKey !== 'party' && filters.party && politician.party !== filters.party) return false;
   if (excludeKey !== 'positionType' && filters.positionType && politician.position_type !== filters.positionType) return false;
   if (excludeKey !== 'status' && filters.status && politician.status !== filters.status) return false;
@@ -36,8 +38,23 @@ function toSortedCounts(data, key) {
 
 export function useData(options = {}) {
   const [internalFilters, setInternalFilters] = useState(() => createDefaultFilters());
-  const filters = options.filters ?? internalFilters;
+  const filters = useMemo(
+    () => normalizeFilters(options.filters ?? internalFilters),
+    [options.filters, internalFilters]
+  );
   const setFilters = options.setFilters ?? setInternalFilters;
+
+  const politicalData = useMemo(() => allData.filter(isPoliticalActor), []);
+
+  const scopeData = useMemo(() => {
+    return allData.filter((politician) => matchesDataScope(politician, filters.scope));
+  }, [filters.scope]);
+
+  const scopeTotals = useMemo(() => ({
+    [DATA_SCOPE.POLITICAL]: politicalData.length,
+    [DATA_SCOPE.ALL]: allData.length,
+    excluded: allData.length - politicalData.length,
+  }), [politicalData]);
 
   const parties = useMemo(() => {
     return toSortedCounts(
@@ -93,5 +110,8 @@ export function useData(options = {}) {
     statuses,
     stats,
     findBySlug,
+    politicalData,
+    scopeData,
+    scopeTotals,
   };
 }
