@@ -4,6 +4,7 @@
 	'use strict';
 
 	window.goatcounter = window.goatcounter || {}
+	var goatcounter = window.goatcounter
 
 	// Load settings from data-goatcounter-settings.
 	var s = document.querySelector('script[data-goatcounter]')
@@ -252,7 +253,7 @@
 			if (!('visibilityState' in document) || document.visibilityState === 'visible')
 				goatcounter.count()
 			else {
-				var f = function(e) {
+				var f = function() {
 					if (document.visibilityState !== 'visible')
 						return
 					document.removeEventListener('visibilitychange', f)
