@@ -166,7 +166,10 @@ button {
 [data-party-token="pdl"] { --party-color: #f97316; }
 [data-party-token="pc"] { --party-color: #14b8a6; }
 [data-party-token="pd"] { --party-color: #3b82f6; }
+[data-party-token="png"] { --party-color: #f59e0b; }
 [data-party-token="udmr"] { --party-color: #22c55e; }
+[data-party-token="udttmr"] { --party-color: #0891b2; }
+[data-party-token="usl"] { --party-color: #7c3aed; }
 [data-party-token="aur"] { --party-color: #d4a017; }
 [data-party-token="ppdd"] { --party-color: #8b5cf6; }
 [data-party-token="pmp"] { --party-color: #a855f7; }
@@ -1366,7 +1369,10 @@ button {
 .tooltip[data-party-token="pdl"] { --tooltip-party-color: #f97316; }
 .tooltip[data-party-token="pc"] { --tooltip-party-color: #14b8a6; }
 .tooltip[data-party-token="pd"] { --tooltip-party-color: #60a5fa; }
+.tooltip[data-party-token="png"] { --tooltip-party-color: #fbbf24; }
 .tooltip[data-party-token="udmr"] { --tooltip-party-color: #4ade80; }
+.tooltip[data-party-token="udttmr"] { --tooltip-party-color: #22d3ee; }
+.tooltip[data-party-token="usl"] { --tooltip-party-color: #a78bfa; }
 .tooltip[data-party-token="aur"] { --tooltip-party-color: #f0c24d; }
 .tooltip[data-party-token="ppdd"] { --tooltip-party-color: #a78bfa; }
 .tooltip[data-party-token="pmp"] { --tooltip-party-color: #c084fc; }
