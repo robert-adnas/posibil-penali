@@ -4,14 +4,25 @@ import { formatPrejudiciu } from '../utils/parsePrejudiciu.js';
 
 export function StatsDateline({ stats, totalLabel = 'politicieni' }) {
   const [open, setOpen] = useState(false);
-  const hasPrejudiciu = stats.totalPrejudiciu && stats.totalPrejudiciu > 0;
+  const hasPrejudiciu = stats.totalPrejudiciu > 0;
+  const hasConvictionStats = stats.convicted > 0 || stats.totalPrisonYears > 0;
+  const showNoDefinitiveConvictions = stats.total > 0 && !hasConvictionStats;
 
   return (
     <div className="stats-dateline">
       <ul className="stats-dateline-list">
         <Stat value={stats.total} label={totalLabel} />
-        <Stat value={stats.convicted} label="condamnați" accent />
-        <Stat value={stats.totalPrisonYears} label="ani de pușcărie" />
+        {hasConvictionStats && (
+          <>
+            <Stat value={stats.convicted} label="condamnați" accent />
+            {stats.totalPrisonYears > 0 && (
+              <Stat value={stats.totalPrisonYears} label="ani de pușcărie" />
+            )}
+          </>
+        )}
+        {showNoDefinitiveConvictions && (
+          <Stat value="0" label="condamnări definitive" muted />
+        )}
         {hasPrejudiciu && (
           <li className="stats-dateline-item stats-dateline-item--prejudiciu">
             <span className="stats-dateline-value stats-dateline-value--accent">
@@ -53,9 +64,9 @@ export function StatsDateline({ stats, totalLabel = 'politicieni' }) {
   );
 }
 
-function Stat({ value, label, accent }) {
+function Stat({ value, label, accent, muted }) {
   return (
-    <li className="stats-dateline-item">
+    <li className={`stats-dateline-item${muted ? ' stats-dateline-item--muted' : ''}`}>
       <span className={`stats-dateline-value${accent ? ' stats-dateline-value--accent' : ''}`}>
         {value}
       </span>

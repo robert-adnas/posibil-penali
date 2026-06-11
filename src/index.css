@@ -349,6 +349,10 @@ button {
   gap: 0.375rem;
 }
 
+.stats-dateline-item--muted .stats-dateline-value {
+  color: var(--color-ink-muted);
+}
+
 .stats-dateline-value {
   color: var(--color-ink);
   font-family: var(--font-display);
@@ -921,6 +925,82 @@ button {
   background: var(--color-ink);
   color: var(--color-parchment);
   transform: translateY(-1px);
+}
+
+.home-empty-state {
+  display: grid;
+  gap: 0.85rem;
+  min-height: 18rem;
+  align-content: center;
+  padding-block: 2rem;
+  border-block: 1px solid var(--color-rule-light);
+}
+
+.home-empty-title {
+  max-width: 42rem;
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 2.8vw, 2rem);
+  line-height: 1.05;
+}
+
+.home-empty-copy {
+  max-width: 38rem;
+  margin: 0;
+  color: var(--color-ink-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.home-empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 0.25rem;
+}
+
+.home-empty-action {
+  min-height: 40px;
+  padding: 0.65rem 0.95rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--color-ink-muted);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.home-empty-action:hover,
+.home-empty-action:focus-visible {
+  border-color: var(--color-ink-muted);
+  background: color-mix(in srgb, var(--color-ink) 5%, transparent);
+  color: var(--color-ink);
+  outline: none;
+}
+
+.home-empty-action--primary {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: var(--color-parchment);
+}
+
+.home-empty-action--primary:hover,
+.home-empty-action--primary:focus-visible {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.home-empty-link {
+  color: var(--color-accent);
+  font-size: 0.86rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .county-map-shell {
@@ -3208,10 +3288,19 @@ button {
   color: var(--color-ink-muted);
 }
 
+.lista-empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
 .lista-empty-reset {
   color: var(--color-accent);
   text-decoration: underline;
   font-size: inherit;
+  text-underline-offset: 3px;
 }
 
 @media (min-width: 600px) {

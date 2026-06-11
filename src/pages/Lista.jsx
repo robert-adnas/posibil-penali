@@ -236,6 +236,9 @@ export function ListaPage() {
   });
 
   const trimmedQuery = query.trim();
+  const emptyStateCopy = isExtendedScope
+    ? 'Încearcă un alt termen sau resetează filtrele pentru a reveni la arhiva completă.'
+    : 'Încearcă un alt termen, include arhiva extinsă sau resetează filtrele.';
 
   function handleNavigate(e, slug) {
     if (e.ctrlKey || e.metaKey || e.shiftKey) return;
@@ -368,16 +371,28 @@ export function ListaPage() {
         <div className="app-inner">
           {results.length === 0 ? (
             <div className="lista-empty">
-              <p className="lista-empty-title">Niciun politician găsit</p>
+              <p className="lista-empty-title">Niciun rezultat de afișat</p>
               <p className="lista-empty-sub">
-                Încearcă un alt termen sau{' '}
+                {emptyStateCopy}
+              </p>
+              <div className="lista-empty-actions">
+                {!isExtendedScope && (
+                  <button
+                    type="button"
+                    className="lista-empty-reset"
+                    onClick={() => updateSearchParams({ scope: DATA_SCOPE.ALL })}
+                  >
+                    include arhiva extinsă
+                  </button>
+                )}
                 <button
+                  type="button"
                   className="lista-empty-reset"
                   onClick={() => setSearchParams({}, { replace: true })}
                 >
                   resetează filtrele
                 </button>
-              </p>
+              </div>
             </div>
           ) : (
             <ul className="lista-list">

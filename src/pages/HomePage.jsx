@@ -65,6 +65,9 @@ export function HomePage() {
   const scopeSearch = useMemo(() => getScopeSearch(filters.scope), [filters.scope]);
   const listPath = `/lista${scopeSearch}`;
   const scopeNoun = filters.scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
+  const hasEmptyResults = filteredData.length === 0;
+  const hasFieldFilters = Boolean(filters.party || filters.positionType || filters.status);
+  const isExtendedScope = filters.scope === DATA_SCOPE.ALL;
   const footerListLabel = filters.scope === DATA_SCOPE.ALL
     ? `Toată arhiva (${scopeTotals[DATA_SCOPE.ALL]})`
     : `Toți politicienii (${scopeTotals[DATA_SCOPE.POLITICAL]})`;
@@ -91,6 +94,23 @@ export function HomePage() {
     setPrimaryView(nextView);
     track('Homepage Primary View Changed', { view: nextView });
   }
+
+  const clearFieldFilters = useCallback(() => {
+    setFilters((prev) => ({
+      ...prev,
+      party: null,
+      positionType: null,
+      status: null,
+      yearRange: [null, null],
+    }));
+  }, [setFilters]);
+
+  const includeExtendedArchive = useCallback(() => {
+    setFilters((prev) => ({
+      ...prev,
+      scope: DATA_SCOPE.ALL,
+    }));
+  }, [setFilters]);
 
   const convictionYears = scopeData
     .map((politician) => politician.conviction_year)
@@ -201,54 +221,81 @@ export function HomePage() {
 
       <main id="main-content" className="app-section app-main">
         <div className="app-inner">
-          <div className="main-grid">
-            <div className="main-grid-chart">
-              <section className="visualization-panel" aria-label="Vizualizare principala a arhivei">
-                <div className="visualization-panel-header">
-                  <div>
-                    <span className="app-kicker">Vizualizare principala</span>
-                    <h2 className="visualization-panel-title">
-                      {primaryView === 'map' ? 'Harta cazurilor pe judete' : 'Hemiciclul cazurilor'}
-                    </h2>
-                  </div>
-
-                  <div className="visualization-toggle" aria-label="Tip de vizualizare">
-                    <button
-                      type="button"
-                      aria-pressed={primaryView === 'hemicycle'}
-                      className={`visualization-toggle-btn${
-                        primaryView === 'hemicycle' ? ' visualization-toggle-btn--active' : ''
-                      }`}
-                      onClick={() => handlePrimaryViewChange('hemicycle')}
-                    >
-                      Hemiciclu
-                    </button>
-                    <button
-                      type="button"
-                      aria-pressed={primaryView === 'map'}
-                      className={`visualization-toggle-btn${
-                        primaryView === 'map' ? ' visualization-toggle-btn--active' : ''
-                      }`}
-                      onClick={() => handlePrimaryViewChange('map')}
-                    >
-                      Harta
-                    </button>
-                  </div>
-                </div>
-
-                {primaryView === 'map' ? (
-                  <RomaniaCountyMap data={filteredData} allData={scopeData} scopeSearch={scopeSearch} />
-                ) : (
-                  <HemicycleChart data={filteredData} onSelect={setSelectedPolitician} />
+          {hasEmptyResults ? (
+            <div className="home-empty-state" role="status" aria-live="polite">
+              <span className="app-kicker">Niciun rezultat</span>
+              <h2 className="home-empty-title">Nu există rezultate pentru filtrele selectate.</h2>
+              <p className="home-empty-copy">
+                {isExtendedScope
+                  ? 'Elimină unul dintre filtre pentru a reveni la o combinație cu rezultate.'
+                  : 'Elimină un filtru sau include arhiva extinsă pentru persoanele care nu sunt în lista principală.'}
+              </p>
+              <div className="home-empty-actions">
+                {hasFieldFilters && (
+                  <button type="button" className="home-empty-action home-empty-action--primary" onClick={clearFieldFilters}>
+                    Elimină filtrele
+                  </button>
                 )}
-              </section>
+                {!isExtendedScope && (
+                  <button type="button" className="home-empty-action" onClick={includeExtendedArchive}>
+                    Include arhiva extinsă
+                  </button>
+                )}
+                <Link to={listPath} className="home-empty-link">
+                  Deschide lista completă →
+                </Link>
+              </div>
             </div>
+          ) : (
+            <div className="main-grid">
+              <div className="main-grid-chart">
+                <section className="visualization-panel" aria-label="Vizualizare principala a arhivei">
+                  <div className="visualization-panel-header">
+                    <div>
+                      <span className="app-kicker">Vizualizare principala</span>
+                      <h2 className="visualization-panel-title">
+                        {primaryView === 'map' ? 'Harta cazurilor pe judete' : 'Hemiciclul cazurilor'}
+                      </h2>
+                    </div>
 
-            <aside className="main-grid-sidebar">
-              <PartyRanking data={filteredData} scopeSearch={scopeSearch} />
-              <CountyRanking data={filteredData} scopeSearch={scopeSearch} />
-            </aside>
-          </div>
+                    <div className="visualization-toggle" aria-label="Tip de vizualizare">
+                      <button
+                        type="button"
+                        aria-pressed={primaryView === 'hemicycle'}
+                        className={`visualization-toggle-btn${
+                          primaryView === 'hemicycle' ? ' visualization-toggle-btn--active' : ''
+                        }`}
+                        onClick={() => handlePrimaryViewChange('hemicycle')}
+                      >
+                        Hemiciclu
+                      </button>
+                      <button
+                        type="button"
+                        aria-pressed={primaryView === 'map'}
+                        className={`visualization-toggle-btn${
+                          primaryView === 'map' ? ' visualization-toggle-btn--active' : ''
+                        }`}
+                        onClick={() => handlePrimaryViewChange('map')}
+                      >
+                        Harta
+                      </button>
+                    </div>
+                  </div>
+
+                  {primaryView === 'map' ? (
+                    <RomaniaCountyMap data={filteredData} allData={scopeData} scopeSearch={scopeSearch} />
+                  ) : (
+                    <HemicycleChart data={filteredData} onSelect={setSelectedPolitician} />
+                  )}
+                </section>
+              </div>
+
+              <aside className="main-grid-sidebar">
+                <PartyRanking data={filteredData} scopeSearch={scopeSearch} />
+                <CountyRanking data={filteredData} scopeSearch={scopeSearch} />
+              </aside>
+            </div>
+          )}
         </div>
       </main>
 
