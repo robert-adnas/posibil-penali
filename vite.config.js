@@ -7,5 +7,10 @@ export default defineConfig({
   base: '/',
   build: {
     chunkSizeWarningLimit: 3200,
+    rolldownOptions: {
+      checks: {
+        pluginTimings: false,
+      },
+    },
   },
 })

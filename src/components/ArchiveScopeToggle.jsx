@@ -8,8 +8,9 @@ export function ArchiveScopeToggle({
   className = '',
 }) {
   const countId = useId();
-  const total = checked ? allTotal : politicalTotal;
-  const noun = checked ? 'persoane' : 'politicieni';
+  const scopeSummary = checked
+    ? `Acum afișăm arhiva completă (${allTotal})`
+    : `Acum afișăm lista principală (${politicalTotal})`;
 
   return (
     <label className={`archive-scope-toggle${className ? ` ${className}` : ''}`}>
@@ -26,7 +27,7 @@ export function ArchiveScopeToggle({
           Include funcționari și alte persoane din dosare
         </span>
         <span id={countId} className="archive-scope-count">
-          {total} {noun}
+          {scopeSummary}
         </span>
       </span>
     </label>
