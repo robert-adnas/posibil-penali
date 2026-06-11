@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-10',
+  last_updated: '2026-06-11',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -72459,6 +72459,337 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Zagrean Marius-Ioan indică județul Valcea, funcția \"Cursant\", instituția \"Unitate militara (Ministerul Apararii Nationale)\", decizia 143 și condamnarea din 21/05/2012."
+      }
+    ]
+  },
+  {
+    "name": "Chițescu Bogdan Ștefan",
+    "party": "Independent",
+    "position": "Fost director general al S.C. CONVERSMIN S.A. București",
+    "position_type": "other",
+    "geography": {
+      "county": "București",
+      "basis": "office",
+      "note": "Funcția publică relevantă era în cadrul S.C. CONVERSMIN S.A. București."
+    },
+    "crime": "Folosirea funcției pentru favorizarea unor persoane; sesizare parchet",
+    "status": "investigated",
+    "details": "ANI a anunțat în iunie 2026 că a sesizat Parchetul de pe lângă Judecătoria Sectorului 1, reținând indicii că, în perioada în care era director general CONVERSMIN, ar fi solicitat decontarea unor lucrări către Remin S.A., societate la care era administrator special.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      }
+    ]
+  },
+  {
+    "name": "Popescu Marius",
+    "party": "PSD",
+    "position": "Consilier local al comunei Mălureni, județul Argeș",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Argeș",
+      "basis": "office",
+      "note": "Funcția publică relevantă era în Consiliul Local al comunei Mălureni, județul Argeș."
+    },
+    "crime": "Conflict de interese administrativ",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în mandatul 2020-2024, ar fi participat la deliberarea și adoptarea a două hotărâri ale Consiliului Local Mălureni care au produs un folos material pentru societatea comercială al cărei angajat era.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_arges/consiliul-local/malureni/"
+      }
+    ]
+  },
+  {
+    "name": "Lungu Petrișor Adi",
+    "party": "Independent",
+    "position": "Secretar general al comunei Fârțănești, județul Galați",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Galați",
+      "basis": "office",
+      "note": "Funcția publică relevantă era cea de secretar general al comunei Fârțănești, județul Galați."
+    },
+    "crime": "Conflict de interese administrativ",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în exercitarea funcției de secretar general, ar fi semnat acte administrative și ar fi participat la întocmirea actelor prin care Primăria Fârțănești achiziționa de la persoana evaluată un imobil situat în comună.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      }
+    ]
+  },
+  {
+    "name": "Niță Dorin-Stelian",
+    "party": "Independent",
+    "position": "Manager al Spitalului Municipal Calafat, județul Dolj",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Dolj",
+      "basis": "office",
+      "note": "Funcția publică relevantă era cea de manager al Spitalului Municipal Calafat, județul Dolj."
+    },
+    "crime": "Conflict de interese administrativ",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în calitate de manager al Spitalului Municipal Calafat, ar fi emis o decizie privind preluarea de către soția sa a atribuțiilor de medic șef secție Pediatrie și ar fi aprobat documente legate de activitatea acesteia.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      }
+    ]
+  },
+  {
+    "name": "Matei Cristian-Octavian",
+    "party": "PNL",
+    "position": "Primar al municipiului Turda, județul Cluj",
+    "position_type": "mayor",
+    "geography": {
+      "county": "Cluj",
+      "basis": "office",
+      "note": "Funcția publică relevantă era cea de primar al municipiului Turda, județul Cluj."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în mandatul de primar exercitat între 14 octombrie 2020 și 31 decembrie 2024, ar fi desfășurat ca persoană fizică activități în baza unui contract de asociere, obținând venituri de 10.003 lei.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_cluj/primarie/turda/"
+      }
+    ]
+  },
+  {
+    "name": "Mocanu Viorel",
+    "party": "PSD",
+    "position": "Fost reprezentant al Consiliului Județean Buzău în Consiliul de Administrație al Spitalului Județean de Urgență Buzău",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Buzău",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Consiliul de Administrație al Spitalului Județean de Urgență Buzău."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 17 decembrie 2020 - 28 noiembrie 2024, ar fi exercitat simultan calitatea de membru în consiliul de administrație al spitalului și o funcție în organele de conducere ale unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/consiliul-judetean/"
+      }
+    ]
+  },
+  {
+    "name": "Toma Nicoleta",
+    "party": "PSD",
+    "position": "Reprezentant în Consiliul de Administrație al Spitalului Județean de Urgență Slobozia",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Ialomița",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Consiliul de Administrație al Spitalului Județean de Urgență Slobozia, județul Ialomița."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 17 noiembrie 2020 - 29 octombrie 2024, ar fi exercitat simultan calitatea de membru în consiliul de administrație al spitalului și mai multe funcții în organele de conducere ale unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-judetean/"
+      }
+    ]
+  },
+  {
+    "name": "Iuga Nicolae",
+    "party": "Pro Romania",
+    "position": "Fost reprezentant al Consiliului Local al municipiului Sighetu Marmației în Consiliul de Administrație al Spitalului Municipal Sighetu Marmației",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Maramureș",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Spitalul Municipal Sighetu Marmației, județul Maramureș."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 4 aprilie - 21 octombrie 2024, ar fi exercitat simultan calitatea de membru în consiliul de administrație al spitalului și o funcție în organele de conducere ale unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_maramures/consiliul-local/sighetu-marmatiei/"
+      }
+    ]
+  },
+  {
+    "name": "Schiau Gull Alin Ciprian",
+    "party": "PNL",
+    "position": "Fost reprezentant al Consiliului Local Agnita în Consiliul de Administrație al Spitalului Orășenesc Agnita",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Sibiu",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Spitalul Orășenesc Agnita, județul Sibiu."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 9 iunie 2021 - 27 noiembrie 2024, ar fi exercitat simultan calitatea de membru în consiliul de administrație al spitalului și funcții de conducere în organismele unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/consiliul-local/agnita/"
+      }
+    ]
+  },
+  {
+    "name": "Frusina Nicolae Vlad",
+    "party": "PNL",
+    "position": "Fost reprezentant al Consiliului Local al municipiului Ploiești în Consiliul de Administrație al Spitalului Municipal Ploiești",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Prahova",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Spitalul Municipal Ploiești, județul Prahova."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada deținerii calității de membru în consiliul de administrație al Spitalului Municipal Ploiești, ar fi exercitat și o funcție în organele de conducere ale unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_prahova/consiliul-local/ploiesti/"
+      }
+    ]
+  },
+  {
+    "name": "Andronache Nicolae Tudor",
+    "party": "PSD",
+    "position": "Reprezentant al Consiliului Local al municipiului Onești în Consiliul de Administrație al Spitalului Municipal Sfântul Ierarh Dr. Luca Onești",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Bacău",
+      "basis": "office",
+      "note": "Funcția publică relevantă era legată de Spitalul Municipal Sfântul Ierarh Dr. Luca Onești, județul Bacău."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada deținerii calității de membru în consiliul de administrație al spitalului din Onești, ar fi exercitat simultan o funcție în organele de conducere ale unui partid politic.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Ziare.com",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/onesti/"
+      }
+    ]
+  },
+  {
+    "name": "Bîrsășteanu Florică",
+    "party": "PSD",
+    "position": "Fost șef Laborator Radiologie și Imagistică Medicală la Spitalul Clinic Județean de Urgență Pius Brînzeu Timișoara; fost deputat",
+    "position_type": "other",
+    "geography": {
+      "county": "Timiș",
+      "basis": "office",
+      "note": "Funcția publică relevantă era în cadrul Spitalului Clinic Județean de Urgență Pius Brînzeu Timișoara."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 8 martie - 13 iunie 2023, ar fi exercitat simultan funcția de medic șef Laborator Radiologie și Imagistică Medicală și calitatea de administrator al propriei societăți ce oferă servicii în domeniul imagisticii medicale.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      },
+      {
+        "label": "Wikipedia",
+        "kind": "profile",
+        "url": "https://it.wikipedia.org/wiki/Elezioni_locali_in_Romania_del_2016"
+      }
+    ]
+  },
+  {
+    "name": "Gali Izabella",
+    "party": "Independent",
+    "position": "Funcționar public în cadrul Administrației Județene a Finanțelor Publice Arad - DGRFP Timișoara",
+    "position_type": "local_official",
+    "geography": {
+      "county": "Arad",
+      "basis": "office",
+      "note": "Funcția publică relevantă era în cadrul Administrației Județene a Finanțelor Publice Arad."
+    },
+    "crime": "Incompatibilitate",
+    "status": "investigated",
+    "details": "ANI a constatat în iunie 2026 că, în perioada 21 aprilie 2017 - 21 octombrie 2025, ar fi exercitat simultan funcția publică de consilier și calitatea de administrator ori membru în Consiliul de Administrație al S.C. CET Hidrocarburi S.A. Arad.",
+    "verified_at": "2026-06-11",
+    "sources": [
+      {
+        "label": "ANI",
+        "kind": "official",
+        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
       }
     ]
   },
