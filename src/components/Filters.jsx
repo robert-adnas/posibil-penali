@@ -4,8 +4,80 @@ import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
 import { DATA_SCOPE } from '../utils/politicalScope';
 import { ArchiveScopeToggle } from './ArchiveScopeToggle';
 
+const VISIBLE_FILTER_COUNTS = {
+  party: 8,
+  positionType: 6,
+  status: 5,
+};
+
+function getVisibleItems(items, visibleCount, isActive) {
+  if (items.length <= visibleCount) return items;
+
+  const visibleItems = items.slice(0, visibleCount);
+  const activeIndex = items.findIndex(isActive);
+
+  if (activeIndex >= visibleCount) {
+    return [...visibleItems, items[activeIndex]];
+  }
+
+  return visibleItems;
+}
+
+function FilterChipRow({
+  rowKey,
+  label,
+  items,
+  visibleCount,
+  expanded,
+  onToggle,
+  isActive,
+  renderChip,
+  mobileHiddenLabel = false,
+  toolbarEnd = null,
+}) {
+  const visibleItems = expanded ? items : getVisibleItems(items, visibleCount, isActive);
+  const hiddenCount = Math.max(items.length - visibleItems.length, 0);
+  const canCollapse = items.length > visibleCount;
+  const showToggle = expanded ? canCollapse : hiddenCount > 0;
+  const chipsId = `filter-chips-${rowKey}`;
+
+  return (
+    <div className="filter-row" data-filter-row={rowKey} data-expanded={expanded}>
+      <span className={`filter-section-label${mobileHiddenLabel ? ' filter-section-label--mobile-hidden' : ''}`}>
+        {label}
+      </span>
+
+      <div className="filter-row-body">
+        <div id={chipsId} className="filter-chips">
+          {visibleItems.map(renderChip)}
+
+          {showToggle && (
+            <button
+              type="button"
+              className="filter-chip filter-chip--more"
+              onClick={onToggle}
+              aria-controls={chipsId}
+              aria-expanded={expanded}
+              aria-label={
+                expanded
+                  ? `Restrange filtrele pentru ${label}`
+                  : `Afiseaza ${hiddenCount} filtre in plus pentru ${label}`
+              }
+            >
+              {expanded ? 'Mai putine' : `... ${hiddenCount}`}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {toolbarEnd}
+    </div>
+  );
+}
+
 export function Filters({ filters, setFilters, parties, positionTypes, statuses, total, scopeTotals }) {
   const [expanded, setExpanded] = useState(false);
+  const [expandedRows, setExpandedRows] = useState({});
   const isExtendedScope = filters.scope === DATA_SCOPE.ALL;
 
   const activeFilters = useMemo(() => {
@@ -50,6 +122,7 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
   };
 
   const clearAll = () => {
+    setExpandedRows({});
     setFilters({
       party: null,
       positionType: null,
@@ -63,6 +136,13 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
     setFilters((prev) => ({
       ...prev,
       scope: includeExtendedArchive ? DATA_SCOPE.ALL : DATA_SCOPE.POLITICAL,
+    }));
+  };
+
+  const toggleRow = (rowKey) => {
+    setExpandedRows((prev) => ({
+      ...prev,
+      [rowKey]: !prev[rowKey],
     }));
   };
 
@@ -124,85 +204,96 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
 
       <div className="filter-content" data-expanded={expanded}>
         <div className="filter-groups">
-          <div className="filter-row">
-            <span className="filter-section-label filter-section-label--mobile-hidden">Partid</span>
+          <FilterChipRow
+            rowKey="party"
+            label="Partid"
+            items={parties}
+            visibleCount={VISIBLE_FILTER_COUNTS.party}
+            expanded={Boolean(expandedRows.party)}
+            onToggle={() => toggleRow('party')}
+            isActive={({ party }) => filters.party === party}
+            mobileHiddenLabel
+            renderChip={({ party, count }) => {
+              const isActive = filters.party === party;
+              const isDimmed = Boolean(filters.party && !isActive);
 
-            <div className="filter-chips">
-              {parties.map(({ party, count }) => {
-                const isActive = filters.party === party;
-                const isDimmed = Boolean(filters.party && !isActive);
-
-                return (
-                  <button
-                    key={party}
-                    type="button"
-                    onClick={() => updateFilter('party', party)}
-                    className={`filter-chip filter-chip--party${isActive ? ' is-active' : ''}`}
-                    data-party-token={getPartyToken(party)}
-                    data-dimmed={isDimmed}
-                  >
-                    <span className="filter-chip-dot" />
-                    <span>{party}</span>
-                    <span className="filter-chip-count">{count}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="filter-row">
-            <span className="filter-section-label">Funcție</span>
-
-            <div className="filter-chips">
-              {positionTypes.map(({ type, count }) => {
-                const isActive = filters.positionType === type;
-
-                return (
-                  <button
-                    key={type}
-                    type="button"
-                    onClick={() => updateFilter('positionType', type)}
-                    className={`filter-chip filter-chip--neutral${isActive ? ' is-active' : ''}`}
-                  >
-                    <span>{POSITION_LABELS[type] || type}</span>
-                    <span className="filter-chip-count">{count}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="filter-row">
-            <span className="filter-section-label">Status</span>
-
-            <div className="filter-chips">
-              {statuses.map(({ status, count }) => {
-                const isActive = filters.status === status;
-
-                return (
-                  <button
-                    key={status}
-                    type="button"
-                    onClick={() => updateFilter('status', status)}
-                    className={`filter-chip filter-chip--neutral${isActive ? ' is-active' : ''}`}
-                  >
-                    <span>{STATUS_LABELS[status] || status}</span>
-                    <span className="filter-chip-count">{count}</span>
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="filter-toolbar-end">
-              {hasFilters && (
-                <button type="button" onClick={clearAll} className="filter-reset">
-                  Resetează
+              return (
+                <button
+                  key={party}
+                  type="button"
+                  onClick={() => updateFilter('party', party)}
+                  className={`filter-chip filter-chip--party${isActive ? ' is-active' : ''}`}
+                  data-party-token={getPartyToken(party)}
+                  data-dimmed={isDimmed}
+                >
+                  <span className="filter-chip-dot" />
+                  <span className="filter-chip-label">{party}</span>
+                  <span className="filter-chip-count">{count}</span>
                 </button>
-              )}
+              );
+            }}
+          />
 
-              <span className="filter-count-desktop">{total} rezultate</span>
-            </div>
-          </div>
+          <FilterChipRow
+            rowKey="positionType"
+            label="Funcție"
+            items={positionTypes}
+            visibleCount={VISIBLE_FILTER_COUNTS.positionType}
+            expanded={Boolean(expandedRows.positionType)}
+            onToggle={() => toggleRow('positionType')}
+            isActive={({ type }) => filters.positionType === type}
+            renderChip={({ type, count }) => {
+              const isActive = filters.positionType === type;
+
+              return (
+                <button
+                  key={type}
+                  type="button"
+                  onClick={() => updateFilter('positionType', type)}
+                  className={`filter-chip filter-chip--neutral${isActive ? ' is-active' : ''}`}
+                >
+                  <span className="filter-chip-label">{POSITION_LABELS[type] || type}</span>
+                  <span className="filter-chip-count">{count}</span>
+                </button>
+              );
+            }}
+          />
+
+          <FilterChipRow
+            rowKey="status"
+            label="Status"
+            items={statuses}
+            visibleCount={VISIBLE_FILTER_COUNTS.status}
+            expanded={Boolean(expandedRows.status)}
+            onToggle={() => toggleRow('status')}
+            isActive={({ status }) => filters.status === status}
+            renderChip={({ status, count }) => {
+              const isActive = filters.status === status;
+
+              return (
+                <button
+                  key={status}
+                  type="button"
+                  onClick={() => updateFilter('status', status)}
+                  className={`filter-chip filter-chip--neutral${isActive ? ' is-active' : ''}`}
+                >
+                  <span className="filter-chip-label">{STATUS_LABELS[status] || status}</span>
+                  <span className="filter-chip-count">{count}</span>
+                </button>
+              );
+            }}
+            toolbarEnd={(
+              <div className="filter-toolbar-end">
+                {hasFilters && (
+                  <button type="button" onClick={clearAll} className="filter-reset">
+                    Resetează
+                  </button>
+                )}
+
+                <span className="filter-count-desktop">{total} rezultate</span>
+              </div>
+            )}
+          />
         </div>
       </div>
     </div>
