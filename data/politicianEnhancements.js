@@ -6826,6 +6826,268 @@ const makeAutomatedJun2026DeepDiveRecord = ({
   sources: [source, ...extraSources],
 });
 
+const ANI_JUL_2024_FIVE_PUBLIC_OFFICIALS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010-2/',
+};
+
+const BRANDUSAN_FLORIN_USR_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_salaj/consiliul-local/sag/',
+};
+
+const STURZU_VIVI_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/popesti/',
+};
+
+const GAVRILA_MIHAI_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_teleorman/consiliul-local/plosca/',
+};
+
+const FORIKA_ISTVAN_UDMR_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_harghita/consiliul-local/voslabeni/',
+};
+
+const ENACHE_VALENTIN_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arges/consiliul-judetean/',
+};
+
+const MOLDOVAN_MARIA_PSD_SOURCE = {
+  label: 'Wikipedia',
+  kind: 'reference',
+  url: 'https://en.wikipedia.org/wiki/Beica_de_Jos',
+};
+
+const STANCIU_VALERIU_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/amara/',
+};
+
+const GROZA_IONEL_PSD_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/carcea/',
+};
+
+const DOMINIC_FRITZ_USR_SOURCE = {
+  label: 'Wikipedia',
+  kind: 'reference',
+  url: 'https://en.wikipedia.org/wiki/Dominic_Fritz',
+};
+
+const MOCANU_NECULAI_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_brasov/consiliul-local/rasnov/',
+};
+
+const CRISAN_GHEORGHE_DUMITRU_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/vadu-motilor/',
+};
+
+const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
+  {
+    name: 'Brândușan Florin',
+    party: 'USR',
+    position: 'Consilier local al comunei Sâg, județul Sălaj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 17 martie 2021 - 17 martie 2025, ar fi exercitat simultan mandatul de consilier local și calitatea de comerciant persoană fizică în cadrul propriului PFA.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Sălaj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Sâg, județul Sălaj.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE, BRANDUSAN_FLORIN_USR_SOURCE],
+  },
+  {
+    name: 'Sturzu Vivi',
+    party: 'PNL',
+    position: 'Consilier local al comunei Popești, județul Iași',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în perioada 17 martie 2023 - 17 martie 2025, ar fi exercitat simultan mandatul de consilier local și funcția de administrator al unei societăți comerciale.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Popești, județul Iași.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE, STURZU_VIVI_PNL_SOURCE],
+  },
+  {
+    name: 'Gavrilă Mihai',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Plosca, județul Teleorman',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în septembrie 2025 că, în mandatul 2020-2024, s-ar fi aflat în raport de subordonare ierarhică directă față de soția sa, funcționar public în aparatul de specialitate al primarului.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Plosca, județul Teleorman.',
+    },
+    sources: [ANI_SEP_2025_PUBLIC_OFFICIALS_SOURCE, GAVRILA_MIHAI_PSD_SOURCE],
+  },
+  {
+    name: 'Forika Istvan',
+    party: 'UDMR',
+    position: 'Fost viceprimar al comunei Voșlăbeni, județul Harghita',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, ar fi desfășurat activități economice prin intermediul unei întreprinderi familiale în care figura ca reprezentant.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Voșlăbeni, județul Harghita.',
+    },
+    sources: [ANI_DEC_2025_BIG_DATA_SOURCE, FORIKA_ISTVAN_UDMR_SOURCE],
+  },
+  {
+    name: 'Enache Valentin Viorel',
+    party: 'PSD',
+    position: 'Consilier județean în cadrul Consiliului Județean Argeș',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2025 că, începând cu 1 februarie 2024, ar fi exercitat simultan mandatul de consilier județean și o funcție de conducere la o societate aflată sub autoritatea Consiliului Județean Argeș.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Argeș.',
+    },
+    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE, ENACHE_VALENTIN_PSD_SOURCE],
+  },
+  {
+    name: 'Moldovan Maria',
+    party: 'PSD',
+    position: 'Primar al comunei Beica de Jos, județul Mureș',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2024 că, în mandatul de primar început în 2020, ar fi semnat documente care au dus la aprobarea încheierii unor acte adiționale la un contract între comună și o asociație în care deținea calitatea de membru.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Beica de Jos, județul Mureș.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, MOLDOVAN_MARIA_PSD_SOURCE],
+  },
+  {
+    name: 'Stanciu Valeriu',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local al orașului Amara, județul Ialomița',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2024 că, în perioada 25 mai 2021 - 19 mai 2022, ar fi exercitat simultan mandatul de consilier local și funcția de președinte al Adunării Generale a Acționarilor la o societate comercială de interes local.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Amara, județul Ialomița.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, STANCIU_VALERIU_PSD_SOURCE],
+  },
+  {
+    name: 'Groza Ionel Aurelian',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local al comunei Cârcea, județul Dolj',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2024 că, în perioada 22 octombrie 2020 - 2 august 2023, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Cârcea.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Cârcea, județul Dolj.',
+    },
+    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, GROZA_IONEL_PSD_SOURCE],
+  },
+  {
+    name: 'Dominic Fritz',
+    party: 'USR',
+    position: 'Primar al municipiului Timișoara, județul Timiș',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2024 că, după ce contractase un împrumut în campania electorală de la o persoană fizică, în exercitarea mandatului de primar ar fi întocmit un act administrativ în folosul societății reprezentate de acea persoană.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al municipiului Timișoara, județul Timiș.',
+    },
+    sources: [ANI_JUL_2024_FIVE_PUBLIC_OFFICIALS_SOURCE, DOMINIC_FRITZ_USR_SOURCE],
+  },
+  {
+    name: 'Mocanu Neculai',
+    party: 'PNL',
+    position: 'Consilier local în cadrul Consiliului Local Râșnov, județul Brașov',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2024 că, în mandatul de consilier local, ar fi participat la deliberarea și aprobarea a 13 hotărâri ale Consiliului Local în favoarea unei societăți în care deținea calitatea de asociat și funcția contractuală de inspector.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Râșnov, județul Brașov.',
+    },
+    sources: [ANI_JUL_2024_FIVE_PUBLIC_OFFICIALS_SOURCE, MOCANU_NECULAI_PNL_SOURCE],
+  },
+  {
+    name: 'Crișan Gheorghe Dumitru',
+    party: 'PNL',
+    position: 'Consilier local în cadrul Consiliului Local al comunei Vadu Moților, județul Alba',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2024 că, în mandatul de consilier local, ar fi participat la deliberarea și adoptarea a 7 hotărâri ale Consiliului Local Vadu Moților în favoarea societății comerciale în care era angajat.',
+    verified_at: '2026-06-12',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Vadu Moților, județul Alba.',
+    },
+    sources: [ANI_JUL_2024_FIVE_PUBLIC_OFFICIALS_SOURCE, CRISAN_GHEORGHE_DUMITRU_PNL_SOURCE],
+  },
+];
+
 const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   {
     name: 'Filimon Iosif Ciprian',
@@ -24688,6 +24950,7 @@ export const politicianAdditions = [
       },
     ],
   },
+  ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS,
