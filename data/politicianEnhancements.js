@@ -7507,6 +7507,292 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   },
 ].map(makeAutomatedJun2026DeepDiveRecord);
 
+const AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES = {
+  aniJun2024FourPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-2/',
+  },
+  aniOct2023EightPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/',
+  },
+  aniNov2022SixPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-2/',
+  },
+  aniJun2023TwelvePublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/',
+  },
+  aniDec2022EightPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/',
+  },
+  aniFeb2023TwoPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-3/',
+  },
+  aniMar2023TwoPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-2/',
+  },
+  aniOct2022FourPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010/',
+  },
+  aniFeb2024ThreePublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010/',
+  },
+  clotildeArmandReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://en.wikipedia.org/wiki/Clotilde_Armand',
+  },
+  nicusorDanReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://en.wikipedia.org/wiki/Nicu%C8%99or_Dan',
+  },
+  nicaElectionReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://it.wikipedia.org/wiki/Elezioni_locali_in_Romania_del_2020',
+  },
+  carpSenateReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://it.wikipedia.org/wiki/Senatori_della_Legislatura_2020-2024_della_Romania',
+  },
+  mateiElectionReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://it.wikipedia.org/wiki/Elezioni_locali_in_Romania_del_2020',
+  },
+  piedoneReference: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://en.wikipedia.org/wiki/Cristian_Popescu_Piedone',
+  },
+};
+
+const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Agapie Grigore',
+    party: 'Independent',
+    position: 'P\u0103durar \u00een cadrul Ocolului Silvic Pipirig, jude\u021bul Neam\u021b',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 ca, in perioada 28 februarie 2019 - 31 mai 2022, ar fi exercitat simultan functia publica si calitatea de administrator al unei societati comerciale.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Ocolului Silvic Pipirig, jude\u021bul Neam\u021b.',
+    },
+    sources: [AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniJun2024FourPublicOfficials],
+  },
+  {
+    name: 'Izvoran Alin-Ion',
+    party: 'Independent',
+    position: 'Director \u00een cadrul Oficiului Na\u021bional pentru Achizi\u021bii Centralizate',
+    position_type: 'other',
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 o diferenta nejustificata de 182.982 lei intre averea dobandita si veniturile realizate in perioada exercitarii functiilor publice.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Oficiului Na\u021bional pentru Achizi\u021bii Centralizate.',
+    },
+    sources: [AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniJun2024FourPublicOfficials],
+  },
+  {
+    name: 'Ni\u021b\u0103 Teodor',
+    party: 'Independent',
+    position: 'Manager al Teatrului Dramatic Fani Tardini Gala\u021bi',
+    position_type: 'other',
+    crime: 'Incompatibilitate; conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in octombrie 2023 incompatibilitate si conflict de interese administrativ in legatura cu exercitarea mandatului de manager al teatrului.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Gala\u021bi',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era la Teatrul Dramatic Fani Tardini Gala\u021bi.',
+    },
+    sources: [AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniOct2023EightPublicOfficials],
+  },
+  {
+    name: 'Amarandei Mihai',
+    party: 'Independent',
+    position: 'Fost consilier personal \u00een cadrul cabinetului ministrului Agriculturii \u0219i Dezvolt\u0103rii Rurale',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 ca ar fi exercitat simultan functia din cabinetul ministrului si functii de administrator sau director in sectorul privat.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een cabinetul ministrului Agriculturii \u0219i Dezvolt\u0103rii Rurale.',
+    },
+    sources: [AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniNov2022SixPublicOfficials],
+  },
+  {
+    name: 'Jujan Constantin',
+    party: 'Independent',
+    position: 'Director general interimar al Societ\u0103\u021bii Na\u021bionale a S\u0103rii S.A.',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 ca ar fi exercitat simultan functia de director general interimar si functia de administrator la o societate comerciala.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era la Societatea Na\u021bional\u0103 a S\u0103rii S.A.',
+    },
+    sources: [AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniNov2022SixPublicOfficials],
+  },
+  {
+    name: 'Carp Gheorghe',
+    party: 'PNL',
+    position: 'Fost senator \u0219i manager al Spitalului Clinic Jude\u021bean de Urgen\u021b\u0103 Oradea',
+    position_type: 'senator',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2023 conflict de interese administrativ legat de exercitarea functiei de manager al spitalului.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een Oradea, jude\u021bul Bihor.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniJun2023TwelvePublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.carpSenateReference,
+    ],
+  },
+  {
+    name: 'Armand Clotilde Marie Brigitte',
+    party: 'USR',
+    position: 'Primar al Sectorului 1 Bucure\u0219ti',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a anuntat in noiembrie 2022 ca a sesizat Parchetul si a constatat conflict de interese administrativ privind acte emise in exercitarea mandatului de primar.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era Prim\u0103ria Sectorului 1 Bucure\u0219ti.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniDec2022EightPublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.clotildeArmandReference,
+    ],
+  },
+  {
+    name: 'Dan Nicu\u0219or Daniel',
+    party: 'Independent',
+    position: 'Primar general al municipiului Bucure\u0219ti',
+    position_type: 'mayor',
+    crime: 'Incompatibilitate; conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a anuntat in februarie 2023 constatari privind incompatibilitate, conflict de interese administrativ si indicii referitoare la folosirea functiei pentru favorizarea unor persoane.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era Prim\u0103ria Municipiului Bucure\u0219ti.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniFeb2023TwoPublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.nicusorDanReference,
+    ],
+  },
+  {
+    name: 'Nica Alin Adrian',
+    party: 'PNL',
+    position: 'Pre\u0219edinte al Consiliului Jude\u021bean Timi\u0219 \u0219i fost primar al comunei Dude\u0219tii Noi',
+    position_type: 'county_council_president',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in martie 2023 conflict de interese administrativ in legatura cu acte emise in exercitarea functiilor publice locale.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note: 'Func\u021biile publice relevante erau \u00een jude\u021bul Timi\u0219.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniMar2023TwoPublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.nicaElectionReference,
+    ],
+  },
+  {
+    name: 'Matei Cristian Octavian',
+    party: 'PNL',
+    position: 'Primar al municipiului Turda, jude\u021bul Cluj',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in octombrie 2022 conflict de interese administrativ legat de acte emise in exercitarea mandatului de primar.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era Prim\u0103ria municipiului Turda, jude\u021bul Cluj.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniOct2022FourPublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.mateiElectionReference,
+    ],
+  },
+  {
+    name: 'Popescu Cristian Victor Piedone',
+    party: 'PUSL',
+    position: 'Fost primar al Sectorului 5 Bucure\u0219ti',
+    position_type: 'mayor',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2024 conflict de interese administrativ in legatura cu atributii exercitate ca primar al Sectorului 5.',
+    verified_at: '2026-06-13',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era Prim\u0103ria Sectorului 5 Bucure\u0219ti.',
+    },
+    sources: [
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniFeb2024ThreePublicOfficials,
+      AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.piedoneReference,
+    ],
+  },
+];
+
 const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
   {
     name: 'Stoian Adrian',
@@ -24954,6 +25240,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS,
+  ...AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS,
   ...AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS,
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
