@@ -73343,6 +73343,304 @@ export const politicianAdditions = [
       }
     ]
   },
+  {
+    name: 'Dumitru Viorel',
+    party: 'PSD',
+    position: 'Fost viceprimar al comunei Munteni-Buz\u0103u, jude\u021bul Ialomi\u021ba, \u0219i consilier local al comunei Munteni-Buz\u0103u',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ialomi\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar \u0219i consilier local al comunei Munteni-Buz\u0103u, jude\u021bul Ialomi\u021ba.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2023 ca, in perioada 21 iunie 2016 - 21 iunie 2022, a exercitat simultan functia de viceprimar si calitatea de comerciant persoana fizica prin propria intreprindere individuala.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/munteni-buzau/',
+      },
+    ],
+  },
+  {
+    name: 'Pintilie Constantin Cristian',
+    party: 'Pro Romania',
+    position: 'Consilier local in cadrul Consiliului Local Buhu\u0219i, jude\u021bul Bac\u0103u',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Buhu\u0219i, jude\u021bul Bac\u0103u.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2023 ca societatea in cadrul careia detinea 50% din partile sociale si calitatea de administrator a incheiat 38 de contracte, in valoare de 145.100,3 lei, cu institutii din subordinea Consiliului Local Buhu\u0219i.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/buhusi/',
+      },
+    ],
+  },
+  {
+    name: 'Chira Dorel Iosif',
+    party: 'PMP',
+    position: 'Consilier local in cadrul Consiliului Local Avram Iancu, jude\u021bul Alba',
+    position_type: 'local_official',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Avram Iancu, jude\u021bul Alba.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in decembrie 2023 ca a participat la discutarea unei hotarari privind modificarea contractului de inchiriere pentru o asociatie in care detinea functia de presedinte.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/avram-iancu/',
+      },
+    ],
+  },
+  {
+    name: 'Deaconu Alexandru-\u0218tefan',
+    party: 'ALDE',
+    position: 'Fost consilier local in cadrul Prim\u0103riei Sectorului 1 Bucure\u0219ti',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in cadrul Prim\u0103riei Sectorului 1 Bucure\u0219ti.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat ca, in perioada 2016-2020, a detinut simultan calitatea de membru in Consiliul de administratie al Spitalului Clinic de Urgente Oftalmologice Bucuresti si functia de secretar coordonator al filialei ALDE Sector 1.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-16-alesi-locali/',
+      },
+    ],
+  },
+  {
+    name: '\u0218tefan Ilie',
+    party: 'PNL',
+    position: 'Primar al municipiului Tulcea, jude\u021bul Tulcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de primar al municipiului Tulcea, jude\u021bul Tulcea.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iunie 2024 conflict de interese administrativ in legatura cu emiterea unor acte administrative in exercitarea mandatului de primar.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-5/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_tulcea/primarie/tulcea/',
+      },
+    ],
+  },
+  {
+    name: 'Pricope Nicolae',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Podoleni, jude\u021bul Neam\u021b, \u0219i fost consilier local in Consiliul Local Podoleni',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Podoleni \u0219i Prim\u0103ria comunei Podoleni, jude\u021bul Neam\u021b.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in august 2024 ca, in mandatul 2020-2024, desi avea un interes personal, a participat la adoptarea unei hotarari a Consiliului Local Podoleni care a adus beneficii sotiei si mamei sale.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-3/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/podoleni/',
+      },
+    ],
+  },
+  {
+    name: 'C\u0103lescu Mihaela Maria',
+    party: 'PNL',
+    position: 'Consilier jude\u021bean in cadrul Consiliului Jude\u021bean Timi\u0219',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Jude\u021bean Timi\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2024 ca a exercitat simultan mandatul de consilier judetean si functii de conducere sau administrare in regii autonome si societati de interes local ori national cu sediul in Timisoara.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-judetean/',
+      },
+    ],
+  },
+  {
+    name: 'Dedu C\u0103t\u0103lin',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Petre\u0219ti, jude\u021bul D\u00e2mbovi\u021ba',
+    position_type: 'local_official',
+    geography: {
+      county: 'D\u00e2mbovi\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al comunei Petre\u0219ti, jude\u021bul D\u00e2mbovi\u021ba.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2024 ca, in perioada 13 noiembrie 2020 - 16 iunie 2022, a exercitat simultan functia de viceprimar si calitatea de comerciant persoana fizica.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/consiliul-local/petresti/',
+      },
+    ],
+  },
+  {
+    name: 'Drugu\u0219 Daniela',
+    party: 'Independent',
+    position: 'Director general administrativ in cadrul Universit\u0103\u021bii de Medicin\u0103 \u0219i Farmacie Gr. T. Popa Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era la Universitatea de Medicin\u0103 \u0219i Farmacie Gr. T. Popa Ia\u0219i.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a comunicat in septembrie 2025 ca instanta a constatat caracterul nejustificat al sumei de 2.186.162,85 lei si a dispus confiscarea acesteia; sentinta nu era definitiva la data comunicatului.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/comunicat-privind-dispunerea-confiscarii-unor-sume-nejustificate-in-cuantum-total-de-4-871-871168-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Fritz Dominic Samuel',
+    party: 'USR',
+    position: 'Primar al municipiului Timi\u0219oara, jude\u021bul Timi\u0219',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de primar al municipiului Timi\u0219oara, jude\u021bul Timi\u0219.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iulie 2024 ca, dupa contractarea unui imprumut in campania electorala, ar fi intocmit in mandatul de primar un act administrativ in folosul societatii reprezentate de creditor.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_timis/primarie/timisoara/',
+      },
+    ],
+  },
+  {
+    name: 'Trifan Cristian-Gheorghe',
+    party: 'PSD',
+    position: 'Consilier local in cadrul Consiliului Local S\u00e2nnicolau Rom\u00e2n, jude\u021bul Bihor',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local S\u00e2nnicolau Rom\u00e2n, jude\u021bul Bihor.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in iulie 2024 ca, desi avea un interes personal, a participat la adoptarea unei hotarari privind raportul de evaluare pentru cinci imobile din comuna S\u00e2nnicolau Rom\u00e2n.',
+    verified_at: '2026-06-14',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_bihor/consiliul-local/sannicolau-roman/',
+      },
+    ],
+  },
 ];
 
 /**
