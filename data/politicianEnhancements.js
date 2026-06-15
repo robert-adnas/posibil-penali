@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-11',
+  last_updated: '2026-06-15',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -7789,6 +7789,219 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
     sources: [
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniFeb2024ThreePublicOfficials,
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.piedoneReference,
+    ],
+  },
+];
+
+const AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES = {
+  aniFeb2022EighteenPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/',
+  },
+  aniNov2023FourLocalOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-2/',
+  },
+  aniNov2023UnjustifiedWealth: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-4-048-566-lei/',
+  },
+  aniSep2023IonitaWealth: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/avere-nejustificata-alexandru-catalin-ionita-fost-director-general-al-directiei-generale-anticoruptie-ministerul-afacerilor-interne/',
+  },
+  ziareBuhusiCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'reference',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/buhusi/',
+  },
+  ziareCuzaVodaCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'reference',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_calarasi/consiliul-local/cuza-voda/',
+  },
+  ziareGropeniCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'reference',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_braila/consiliul-local/gropeni/',
+  },
+  ziareCorbeancaMayor2020: {
+    label: 'Ziare.com',
+    kind: 'reference',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/primarie/corbeanca/',
+  },
+  ziareBucsaniCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'reference',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/consiliul-local/bucsani/',
+  },
+  localElectionReference2020: {
+    label: 'Wikipedia',
+    kind: 'reference',
+    url: 'https://it.wikipedia.org/wiki/Elezioni_locali_in_Romania_del_2020',
+  },
+};
+
+const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Buzdugan Dumitru Florin',
+    party: 'PNL',
+    position: 'Fost consilier local in cadrul C.L. al orașului Buhuși, județul Bacău',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2022 conflict de interese administrativ dupa ce, in mandatul 2016-2020, a participat la deliberarea si adoptarea unei hotarari privind prelungirea contractului de inchiriere al unei societati in care detinea functie de administrator si calitate de asociat.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Buhuși, județul Bacău.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniFeb2022EighteenPublicOfficials,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareBuhusiCouncil2020,
+    ],
+  },
+  {
+    name: 'Toma Gheorghe',
+    party: 'PNL',
+    position: 'Consilier local în cadrul C.L. al comunei Cuza Vodă, județul Călărași',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2022 conflict de interese administrativ, retinand ca a participat la deliberarea si adoptarea hotararii privind impozitele si taxele locale pentru anul 2021, desi detinea impreuna cu sotia teren extravilan pe raza comunei.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Cuza Vodă, județul Călărași.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniFeb2022EighteenPublicOfficials,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareCuzaVodaCouncil2020,
+    ],
+  },
+  {
+    name: 'Mitu Ionel',
+    party: 'PNL',
+    position: 'Fost consilier local în cadrul C.L. al comunei Gropeni, județul Brăila',
+    position_type: 'local_official',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2022 ca s-a aflat in incompatibilitate in perioada 30 iulie 2019 - 27 octombrie 2020, deoarece a exercitat simultan mandatul de consilier local si calitatea de angajat in aparatul de specialitate al primarului comunei Gropeni.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Gropeni, județul Brăila.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniFeb2022EighteenPublicOfficials,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareGropeniCouncil2020,
+    ],
+  },
+  {
+    name: 'Malinche Stan',
+    party: 'PNL',
+    position: 'Primar al comunei Gropeni, județul Brăila',
+    position_type: 'mayor',
+    crime: 'Sesizare Parchet; conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul in noiembrie 2023 pentru indicii privind falsul in declaratii, mentionand si constatarea anterioara a unui conflict de interese administrativ legat de acte privind o societate in care detinea functie de conducere.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era Primăria comunei Gropeni, județul Brăila.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023FourLocalOfficials,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareGropeniCouncil2020,
+    ],
+  },
+  {
+    name: 'Anton Valeriu',
+    party: 'PMP',
+    position: 'Primar al comunei Corbeanca, județul Ilfov',
+    position_type: 'mayor',
+    crime: 'Avere nejustificata',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2023 o diferenta nejustificata de 3.061.855 lei intre averea dobandita si veniturile realizate impreuna cu familia, in perioada exercitarii functiei publice, si a sesizat Curtea de Apel Bucuresti.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era Primăria comunei Corbeanca, județul Ilfov.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023UnjustifiedWealth,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareCorbeancaMayor2020,
+    ],
+  },
+  {
+    name: 'Sîrbuleț Mariana',
+    party: 'PSD',
+    position: 'Consilier local în cadrul C.L. al comunei Bucșani, județul Dâmbovița',
+    position_type: 'local_official',
+    crime: 'Avere nejustificata',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2023 o diferenta nejustificata de 216.137 lei intre averea dobandita si veniturile realizate impreuna cu familia in mandatul 2016-2020 de consilier local si a sesizat Curtea de Apel Ploiesti.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Bucșani, județul Dâmbovița.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023UnjustifiedWealth,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareBucsaniCouncil2020,
+    ],
+  },
+  {
+    name: 'Ioniță Alexandru Cătălin',
+    party: 'Independent',
+    position: 'Fost director general al Direcției Generale Anticorupție din cadrul Ministerului Afacerilor Interne',
+    position_type: 'other',
+    crime: 'Avere nejustificata',
+    status: 'investigated',
+    details:
+      'ANI a constatat in septembrie 2023 o diferenta nejustificata de 1.157.736 lei intre averea dobandita si veniturile realizate impreuna cu familia in perioada exercitarii functiei publice si a sesizat Curtea de Apel Bucuresti.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Direcția Generală Anticorupție din cadrul Ministerului Afacerilor Interne.',
+    },
+    sources: [AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniSep2023IonitaWealth],
+  },
+  {
+    name: 'Antal Árpád András',
+    party: 'UDMR',
+    position: 'Primar al municipiului Sfântu Gheorghe, județul Covasna',
+    position_type: 'mayor',
+    crime: 'Sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul in noiembrie 2023 cu privire la indicii de folosire a functiei pentru favorizarea unor persoane, retinand acte prin care s-ar fi obtinut un folos patrimonial pentru sine.',
+    verified_at: '2026-06-15',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era Primăria municipiului Sfântu Gheorghe, județul Covasna.',
+    },
+    sources: [
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023FourLocalOfficials,
+      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.localElectionReference2020,
     ],
   },
 ];
@@ -25241,6 +25454,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS,
   ...AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS,
   ...AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS,
   ...ANI_DEC_2025_ADDITIONAL_RECORDS,
