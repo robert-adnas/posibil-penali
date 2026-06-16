@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-15',
+  last_updated: '2026-06-16',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -10226,6 +10226,335 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     verified_at: '2026-05-12',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
   },
+];
+
+const AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES = {
+  aniElevenPublicOfficials: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/',
+  },
+  aniPopestiLeordeni: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/',
+  },
+  prahovaCountyCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_prahova/consiliul-judetean/',
+  },
+  cosmestiCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/cosmesti/',
+  },
+  corabiaCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_olt/consiliul-local/corabia/',
+  },
+  dumbravaMehedintiCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_mehedinti/consiliul-local/dumbrava/',
+  },
+  sfantuGheorgheCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_covasna/consiliul-local/sfantu-gheorghe/',
+  },
+  apateuCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/apateu/',
+  },
+  brosteniCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/brosteni/',
+  },
+  miscaCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/misca/',
+  },
+  prigorCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/prigor/',
+  },
+  braestiCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/braesti/',
+  },
+  popestiLeordeniCouncil2020: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/',
+  },
+};
+
+const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
+  {
+    name: 'Lupea Ioana Mădălina',
+    party: 'Pro Romania',
+    position: 'Consilier județean în cadrul Consiliului Județean Prahova',
+    position_type: 'local_official',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, începând cu 15 iunie 2021, ar fi exercitat simultan mandatul de consilier județean și o funcție contractuală de conducere într-o societate de interes național cu sediul în Ploiești.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.prahovaCountyCouncil2020,
+    ],
+  },
+  {
+    name: 'Bîrlădeanu Emil Constantin',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Cosmești, județul Galați, și fost consilier local',
+    position_type: 'local_official',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Primăria și Consiliul Local Cosmești, județul Galați.',
+    },
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatul local, ar fi participat la hotărâri prin care bugetul local aloca bani unui club sportiv în care era director, iar fiul său avea o funcție contractuală; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.cosmestiCouncil2020,
+    ],
+  },
+  {
+    name: 'Safta Mihaela',
+    party: 'USR',
+    position: 'Consilier local în Consiliul Local al orașului Corabia, județul Olt',
+    position_type: 'local_official',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Corabia, județul Olt.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la ședința privind impozitele și taxele locale pentru 2022 fără să anunțe interesul personal legat de o clădire nerezidențială deținută ca persoană fizică.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.corabiaCouncil2020,
+    ],
+  },
+  {
+    name: 'Vlăduț Elena',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al comunei Dumbrava, județul Mehedinți',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Dumbrava, județul Mehedinți.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, începând cu 29 octombrie 2020, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Dumbrava.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.dumbravaMehedintiCouncil2020,
+    ],
+  },
+  {
+    name: 'Vajna Laszlo',
+    party: 'UDMR',
+    position: 'Consilier local în Consiliul Local al municipiului Sfântu Gheorghe, județul Covasna',
+    position_type: 'local_official',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al municipiului Sfântu Gheorghe, județul Covasna.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatele de consilier local 2016-2020 și 2020-2024, ar fi participat la deliberarea și aprobarea a 15 hotărâri privind două societăți comerciale în care soția sa deținea funcții și calități.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.sfantuGheorgheCouncil2020,
+    ],
+  },
+  {
+    name: 'Belei Dan Ioan',
+    party: 'PNL',
+    position: 'Consilier local în Consiliul Local al comunei Apateu, județul Arad',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Apateu, județul Arad.',
+    },
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în mandatul de consilier local 2020-2024, ar fi participat la hotărâri privind închirierea pajiștilor comunei Apateu, după care a încheiat acte adiționale la propriul contract de închiriere; ANI a sesizat Parchetul de pe lângă Judecătoria Chișineu Criș.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.apateuCouncil2020,
+    ],
+  },
+  {
+    name: 'Hlihor Marcel',
+    party: 'ALDE',
+    position: 'Fost consilier local în Consiliul Local al orașului Broșteni, județul Suceava',
+    position_type: 'local_official',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al orașului Broșteni, județul Suceava.',
+    },
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în calitate de consilier local, ar fi participat la hotărâri privind rezilierea unor contracte de închiriere pășuni legate de o asociație în care era membru fondator.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.brosteniCouncil2020,
+    ],
+  },
+  {
+    name: 'Șimîndan Petru',
+    party: 'PMP',
+    position: 'Fost consilier local în Consiliul Local al comunei Mișca, județul Arad',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la hotărârea din 28 februarie 2020 privind închirierea pășunii comunale, iar ulterior primăria a încheiat cu acesta un contract de închiriere pășune.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.miscaCouncil2020,
+    ],
+  },
+  {
+    name: 'Boldea Grigore Iosif',
+    party: 'PMP',
+    position: 'Fost consilier local în Consiliul Local al comunei Prigor, județul Caraș-Severin',
+    position_type: 'local_official',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Prigor, județul Caraș-Severin.',
+    },
+    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că ar fi participat la adoptarea hotărârii prin care s-a înființat postul de consilier personal al primarului, post pe care a fost ulterior numit; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.prigorCouncil2020,
+    ],
+  },
+  {
+    name: 'Sorinel Gavriluță',
+    party: 'PSD',
+    position: 'Fost consilier local în Consiliul Local al comunei Brăești, județul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local al comunei Brăești, județul Iași.',
+    },
+    crime: 'Conflict de interese administrativ; incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 că ar fi participat la adoptarea unei hotărâri privind modificarea organigramei și înființarea unui post, pe care ulterior l-a ocupat prin concurs; ANI a reținut și incompatibilitatea pentru exercitarea simultană a mandatului și a unei funcții contractuale în primărie.',
+    verified_at: '2026-06-16',
+    sources: [
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
+      AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.braestiCouncil2020,
+    ],
+  },
+];
+
+const AUTOMATED_JUN_16_2026_POPESTI_LEORDENI_RECORDS = [
+  {
+    name: 'Ion Alexandru',
+    party: 'PNL',
+  },
+  {
+    name: 'Stan Florin-Radu-Virgil',
+    party: 'Pro Romania',
+  },
+  {
+    name: 'Șerban Ionuț',
+    party: 'Pro Romania',
+  },
+  {
+    name: 'Mitran Constantin',
+    party: 'Pro Romania',
+  },
+  {
+    name: 'Oncuță Elena',
+    party: 'Pro Romania',
+  },
+  {
+    name: 'Târțău Valeriu-Marian',
+    party: 'PNL',
+  },
+  {
+    name: 'Cazacu Silviu',
+    party: 'Pro Romania',
+  },
+  {
+    name: 'Lorin Nicolae-Ionuț',
+    party: 'Pro Romania',
+  },
+].map((record) => ({
+  ...record,
+  position: 'Consilier local în Consiliul Local al orașului Popești-Leordeni, județul Ilfov',
+  position_type: 'local_official',
+  geography: {
+    county: 'Ilfov',
+    basis: 'office',
+    note: 'Funcția publică relevantă era în Consiliul Local al orașului Popești-Leordeni, județul Ilfov.',
+  },
+  crime: 'Conflict de interese administrativ',
+  status: 'investigated',
+  details:
+    'ANI a constatat în decembrie 2022 că, în calitate de consilier local, a participat la adoptarea hotărârii din 28 septembrie 2021 privind respingerea proiectului de încetare a mandatelor celor 8 consilieri locali, deși se afla pe lista persoanelor vizate.',
+  verified_at: '2026-06-16',
+  sources: [
+    AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniPopestiLeordeni,
+    AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.popestiLeordeniCouncil2020,
+  ],
+}));
+
+const AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS = [
+  ...AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS,
+  ...AUTOMATED_JUN_16_2026_POPESTI_LEORDENI_RECORDS,
 ];
 
 export const politicianOverrides = {
@@ -25449,6 +25778,7 @@ export const politicianAdditions = [
       },
     ],
   },
+  ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
