@@ -74185,6 +74185,342 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Grebl\u0103 Toni',
+    party: 'PUSL',
+    position: 'Fost pre\u0219edinte al Autorit\u0103\u021bii Electorale Permanente',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era conducerea Autorit\u0103\u021bii Electorale Permanente, institu\u021bie central\u0103 cu sediul in Bucure\u0219ti.',
+    },
+    crime: 'Conflict de interese administrativ \u0219i incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in mai 2026 ca, in calitate de pre\u0219edinte AEP, a semnat trei ordine care i-au majorat veniturile salariale \u0219i c\u0103 a exercitat simultan func\u021bia de pre\u0219edinte AEP \u0219i cea de pre\u0219edinte al Sec\u021biei de drept privat a Consiliului Legislativ.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Toni_Grebl%C4%83',
+      },
+    ],
+  },
+  {
+    name: 'Scurtu Ion',
+    party: 'ALDE',
+    position: 'Consilier local in cadrul Consiliului Local Puie\u0219ti, jude\u021bul Vaslui',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Puie\u0219ti, jude\u021bul Vaslui.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2024 c\u0103, intre 1 ianuarie 2021 \u0219i 1 februarie 2023, a exercitat simultan func\u021bia de consilier local \u0219i calitatea de angajat cu contract individual de munc\u0103 in aparatul de specialitate al primarului comunei Puie\u0219ti.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/puiesti/',
+      },
+    ],
+  },
+  {
+    name: 'Precup Paul Mihai Nicu',
+    party: 'PNL',
+    position: 'Primar al comunei Mogo\u0219oaia, jude\u021bul Ilfov',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de primar al comunei Mogo\u0219oaia, jude\u021bul Ilfov.',
+    },
+    crime: 'Sesizare parchet; folosirea func\u021biei pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul in februarie 2023 cu privire la indicii c\u0103, in calitate de primar, a ini\u021biat \u0219i semnat documente privind schimbarea regimului unor terenuri din Sectorul Zero, demers care ar fi creat un avantaj patrimonial pentru fiul acestuia.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_ilfov/primarie/mogosoaia/',
+      },
+    ],
+  },
+  {
+    name: 'Mihaiu Dumitru',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila',
+    position_type: 'local_official',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2023 c\u0103, in mandatul de consilier local 2016-2020, a participat la adoptarea hot\u0103r\u00e2rii prin care Consiliul Local Tudor Vladimirescu a alocat 60.000 lei unei asocia\u021bii in care de\u021binea calitatea de membru fondator \u0219i func\u021bia de pre\u0219edinte.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_braila/consiliul-local/tudor-vladimirescu/',
+      },
+    ],
+  },
+  {
+    name: '\u0218tef\u0103nescu George Adrian',
+    party: 'PNL',
+    position: 'Viceprimar al ora\u0219ului Pope\u0219ti-Leordeni, jude\u021bul Ilfov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al ora\u0219ului Pope\u0219ti-Leordeni, jude\u021bul Ilfov.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2023 c\u0103, in calitate de consilier local, a participat la adoptarea unor hot\u0103r\u00e2ri privind incetarea mandatelor unor consilieri \u0219i aprobarea unui PUZ pentru terenul unei societ\u0103\u021bi in care de\u021binea calitatea de asociat unic \u0219i administrator.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/',
+      },
+    ],
+  },
+  {
+    name: 'Ciotoianu Marian',
+    party: 'Pro Romania',
+    position: 'Consilier local in cadrul Consiliului Local Pope\u0219ti-Leordeni, jude\u021bul Ilfov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Pope\u0219ti-Leordeni, jude\u021bul Ilfov.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2023 c\u0103 a participat la adoptarea unei hot\u0103r\u00e2ri privind respingerea proiectului de incetare a mandatelor unor consilieri locali, de\u0219i se afla pe lista consilierilor ale c\u0103ror mandate fuseser\u0103 declarate incetate de drept.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/',
+      },
+    ],
+  },
+  {
+    name: 'Diaconu Sabin',
+    party: 'PSD',
+    position: 'Consilier local in cadrul Consiliului Local Cru\u0219e\u021b, jude\u021bul Gorj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Cru\u0219e\u021b, jude\u021bul Gorj.',
+    },
+    crime: 'Conflict de interese administrativ \u0219i sesizare Camera de Conturi',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2023 c\u0103 a participat la adoptarea unei hot\u0103r\u00e2ri privind prelungirea unor contracte de loca\u021biune pentru imobile din domeniul privat al comunei, dup\u0103 care Prim\u0103ria Cru\u0219e\u021b a incheiat acte adi\u021bionale cu trei afini ai persoanei evaluate.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_gorj/consiliul-local/cruset/',
+      },
+    ],
+  },
+  {
+    name: 'Hortea Vasile Dorin',
+    party: 'PNL',
+    position: 'Consilier local in cadrul Consiliului Local Ro\u0219ia, jude\u021bul Bihor',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Ro\u0219ia, jude\u021bul Bihor.',
+    },
+    crime: 'Conflict de interese administrativ \u0219i sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat in februarie 2023 c\u0103 a participat la deliberarea \u0219i adoptarea mai multor hot\u0103r\u00e2ri ale Consiliului Local Ro\u0219ia privind Ocolul Silvic Codrii Beiu\u0219ului, unde de\u021binea func\u021bia de \u0219ef district, \u0219i a sesizat organele de urm\u0103rire penal\u0103 pentru indicii de folosire a func\u021biei.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/rosia/',
+      },
+    ],
+  },
+  {
+    name: 'Alexe Costel',
+    party: 'PNL',
+    position: 'Pre\u0219edinte al Consiliului Jude\u021bean Ia\u0219i \u0219i fost ministru al mediului, apelor \u0219i p\u0103durilor',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 curent\u0103 era cea de pre\u0219edinte al Consiliului Jude\u021bean Ia\u0219i.',
+    },
+    crime: 'Sesizare parchet; fals in declara\u021bii',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul in noiembrie 2023 cu privire la indicii c\u0103, in declara\u021biile de avere depuse in 2020, nu a declarat un imprumut de 107.600 lei reprezent\u00e2nd creditarea unei societ\u0103\u021bi in care so\u021bia de\u021binea calitatea de asociat \u0219i administrator.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-2/',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Costel_Alexe',
+      },
+    ],
+  },
+  {
+    name: 'Lupei Dan',
+    party: 'PSD',
+    position: 'Consilier local in cadrul Consiliului Local R\u0103zboieni, jude\u021bul Neam\u021b',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local R\u0103zboieni, jude\u021bul Neam\u021b.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 c\u0103, incep\u00e2nd cu 19 octombrie 2020, a de\u021binut simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in aparatul de specialitate al primarului; de asemenea, intre 1 ianuarie \u0219i 15 martie 2021 a de\u021binut \u0219i o func\u021bie contractual\u0103 in compartimentul achizi\u021bii publice.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/razboieni/',
+      },
+    ],
+  },
+  {
+    name: 'P\u0103unic\u0103 Adriana',
+    party: 'Bucure\u0219ti 2020',
+    position: 'Consilier local in cadrul Consiliului Local Sector 3 Bucure\u0219ti',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Sector 3 Bucure\u0219ti.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 c\u0103, intre 30 ianuarie \u0219i 30 iulie 2020, a exercitat simultan calitatea de membru al Consiliului de administra\u021bie al Spitalului Clinic de Boli Infec\u021bioase \u0219i Tropicale Dr. Victor Babe\u0219 \u0219i func\u021bia de secretar executiv intr-un organ de conducere al unui partid politic.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bucuresti/consiliul-local/sectorul-3/',
+      },
+    ],
+  },
+  {
+    name: 'Soare Vasile',
+    party: 'PSD',
+    position: 'Fost consilier local in cadrul Consiliului Local Vr\u00e2ncioaia, jude\u021bul Vrancea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Vr\u00e2ncioaia, jude\u021bul Vrancea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat in noiembrie 2022 c\u0103, intre 23 octombrie \u0219i 14 decembrie 2020, a exercitat simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in cadrul Prim\u0103riei Vr\u00e2ncioaia.',
+    verified_at: '2026-06-17',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vrancea/consiliul-local/vrancioaia/',
+      },
+    ],
+  },
 ];
 
 /**
