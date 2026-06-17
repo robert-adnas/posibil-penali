@@ -1,5 +1,5 @@
-import { POSITION_LABELS, STATUS_LABELS } from './constants';
-import { DATA_SCOPE, DEFAULT_DATA_SCOPE, normalizeDataScope } from './politicalScope';
+import { POSITION_LABELS, STATUS_LABELS } from './constants.js';
+import { DATA_SCOPE, DEFAULT_DATA_SCOPE, normalizeDataScope } from './politicalScope.js';
 
 const FILTER_PARAM_KEYS = {
   party: 'party',
@@ -57,6 +57,19 @@ export function applyFiltersToSearchParams(baseSearchParams, filters) {
   if (filters.status) next.set(FILTER_PARAM_KEYS.status, filters.status);
   if (normalizeDataScope(filters.scope) === DATA_SCOPE.ALL) {
     next.set(FILTER_PARAM_KEYS.scope, DATA_SCOPE.ALL);
+  }
+
+  next.sort();
+  return next;
+}
+
+export function applyScopeToSearchParams(baseSearchParams, includeExtendedArchive) {
+  const next = new URLSearchParams(baseSearchParams);
+
+  if (includeExtendedArchive) {
+    next.set(FILTER_PARAM_KEYS.scope, DATA_SCOPE.ALL);
+  } else {
+    next.delete(FILTER_PARAM_KEYS.scope);
   }
 
   next.sort();

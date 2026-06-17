@@ -1,14 +1,20 @@
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
-import { createDefaultFilters, getScopeSearch, readScopeFromSearchParams } from '../utils/filterParams';
+import {
+  applyScopeToSearchParams,
+  createDefaultFilters,
+  getScopeSearch,
+  readScopeFromSearchParams,
+} from '../utils/filterParams';
 import { DATA_SCOPE } from '../utils/politicalScope';
-import { getCounty } from '../utils/geography';
+import { getCounty, getCountySlug, matchesCountySlug } from '../utils/geography';
 import { getRomaniaCountyNameBySlug } from '../utils/romaniaCountyMap';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { ArchiveScopeToggle } from '../components/ArchiveScopeToggle';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -24,22 +30,25 @@ const STATUS_RANK = {
 
 export function JudetPage() {
   const { slug } = useParams();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const scope = readScopeFromSearchParams(searchParams);
   const filters = useMemo(() => ({
     ...createDefaultFilters(),
     scope,
   }), [scope]);
-  const { scopeData } = useData({ filters });
+  const { scopeData, scopeTotals } = useData({ filters });
   const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
   const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
+  const isExtendedScope = scope === DATA_SCOPE.ALL;
   const fallbackCounty = getRomaniaCountyNameBySlug(slug);
 
+  const setScope = useCallback((includeExtendedArchive) => {
+    const next = applyScopeToSearchParams(searchParams, includeExtendedArchive);
+    setSearchParams(next, { replace: true });
+  }, [searchParams, setSearchParams]);
+
   const { county, politicians } = useMemo(() => {
-    const match = scopeData.find((politician) => {
-      const countyName = getCounty(politician);
-      return countyName && nameToSlug(countyName) === slug;
-    });
+    const match = scopeData.find((politician) => matchesCountySlug(politician, slug));
 
     if (!match) {
       return fallbackCounty
@@ -47,9 +56,9 @@ export function JudetPage() {
         : { county: null, politicians: [] };
     }
 
-    const countyName = getCounty(match);
+    const countyName = fallbackCounty || getCounty(match);
     const list = scopeData
-      .filter((politician) => getCounty(politician) === countyName)
+      .filter((politician) => matchesCountySlug(politician, slug))
       .sort((left, right) => {
         const rankA = STATUS_RANK[left.status] ?? 99;
         const rankB = STATUS_RANK[right.status] ?? 99;
@@ -96,13 +105,15 @@ export function JudetPage() {
 
     scopeData.forEach((politician) => {
       const countyName = getCounty(politician);
-      if (countyName && countyName !== county) {
-        counts[countyName] = (counts[countyName] || 0) + 1;
+      const countySlug = getCountySlug(politician);
+      if (countyName && countySlug && countySlug !== slug) {
+        const displayName = getRomaniaCountyNameBySlug(countySlug) || countyName;
+        counts[displayName] = (counts[displayName] || 0) + 1;
       }
     });
 
     return Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  }, [scopeData, county]);
+  }, [scopeData, slug]);
 
   useSEO({ title, description, url: `${BASE_URL}/judet/${slug}` });
 
@@ -149,6 +160,15 @@ export function JudetPage() {
 
       <main className="app-section app-main">
         <div className="app-inner">
+          <div className="aggregate-scope-row">
+            <ArchiveScopeToggle
+              checked={isExtendedScope}
+              onChange={setScope}
+              allTotal={scopeTotals[DATA_SCOPE.ALL]}
+              politicalTotal={scopeTotals[DATA_SCOPE.POLITICAL]}
+            />
+          </div>
+
           {!isEmptyCounty ? (
             <>
               <div className="partid-stats">

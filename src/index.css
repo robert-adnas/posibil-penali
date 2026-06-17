@@ -746,6 +746,12 @@ button {
   padding-block: 1.75rem;
 }
 
+.aggregate-scope-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
 .main-grid {
   display: flex;
   flex-direction: column;

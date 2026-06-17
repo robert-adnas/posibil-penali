@@ -48,6 +48,11 @@ export function getCountySlug(politician) {
   return county ? nameToSlug(county) : null;
 }
 
+export function matchesCountySlug(politician, countySlug) {
+  const normalizedCountySlug = countySlug ? nameToSlug(countySlug) : null;
+  return Boolean(normalizedCountySlug && getCountySlug(politician) === normalizedCountySlug);
+}
+
 export function getGeographyBasis(politician) {
   return politician?.geography?.basis || null;
 }

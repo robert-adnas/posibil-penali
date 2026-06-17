@@ -1,12 +1,18 @@
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
 import { POSITION_LABELS, STATUS_LABELS, formatYears } from '../utils/constants';
-import { createDefaultFilters, getScopeSearch, readScopeFromSearchParams } from '../utils/filterParams';
+import {
+  applyScopeToSearchParams,
+  createDefaultFilters,
+  getScopeSearch,
+  readScopeFromSearchParams,
+} from '../utils/filterParams';
 import { DATA_SCOPE } from '../utils/politicalScope';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { ArchiveScopeToggle } from '../components/ArchiveScopeToggle';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
 
@@ -22,15 +28,21 @@ const STATUS_DESCRIPTIONS = {
 
 export function StatusPage() {
   const { statusKey } = useParams();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const scope = readScopeFromSearchParams(searchParams);
   const filters = useMemo(() => ({
     ...createDefaultFilters(),
     scope,
   }), [scope]);
-  const { scopeData } = useData({ filters });
+  const { scopeData, scopeTotals } = useData({ filters });
   const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
   const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
+  const isExtendedScope = scope === DATA_SCOPE.ALL;
+
+  const setScope = useCallback((includeExtendedArchive) => {
+    const next = applyScopeToSearchParams(searchParams, includeExtendedArchive);
+    setSearchParams(next, { replace: true });
+  }, [searchParams, setSearchParams]);
 
   const statusLabel = STATUS_LABELS[statusKey];
 
@@ -109,6 +121,15 @@ export function StatusPage() {
 
       <main className="app-section app-main">
         <div className="app-inner">
+          <div className="aggregate-scope-row">
+            <ArchiveScopeToggle
+              checked={isExtendedScope}
+              onChange={setScope}
+              allTotal={scopeTotals[DATA_SCOPE.ALL]}
+              politicalTotal={scopeTotals[DATA_SCOPE.POLITICAL]}
+            />
+          </div>
+
           <div className="partid-stats">
             <div className="partid-stat">
               <span className="partid-stat-value">{politicians.length}</span>
