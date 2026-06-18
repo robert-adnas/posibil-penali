@@ -74857,6 +74857,286 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Cantea Liviuța',
+    party: 'PNL',
+    position: 'Reprezentant al Consiliului Județean Iași în Consiliul de Administrație al Maternității Cuza Vodă Iași',
+    position_type: 'other',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de Administrație al Maternității Cuza Vodă Iași.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2026 că, începând cu 22 februarie 2022, a exercitat simultan calitatea de membru în Consiliul de Administrație al Maternității Cuza Vodă Iași și o funcție în organele de conducere ale unui partid politic.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Dezvăluirea',
+        kind: 'press',
+        url: 'https://www.dezvaluirea.ro/politician-pnl-din-iasi-descoperit-in-incompatibilitate-de-ani/',
+      },
+    ],
+  },
+  {
+    name: 'Botezatu Aurica',
+    party: 'PSD',
+    position: 'Reprezentant al Consiliului Local Marghita în Consiliul de Administrație al Spitalului Municipal Dr. Pop Mircea',
+    position_type: 'other',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de Administrație al Spitalului Municipal Dr. Pop Mircea Marghita, județul Bihor.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2026 că, între 24 noiembrie 2022 și 28 noiembrie 2024, a exercitat simultan calitatea de membru în Consiliul de Administrație al Spitalului Municipal Dr. Pop Mircea Marghita și o funcție în organele de conducere ale unui partid politic.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Spitalul Municipal Marghita - declarație de interese',
+        kind: 'official',
+        url: 'https://www.spitalulmarghita.ro/documente/Declaratie%20de%20interese%20Botezatu%20Auricaxx.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Stăncioiu Gabriela Doina',
+    party: 'România Socialistă',
+    position: 'Consilier superior în cadrul Ministerului Finanțelor',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Finanțelor, instituție centrală cu sediul în București.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2026 că, între 1 iulie 2023 și 1 iulie 2024, a exercitat funcția de consilier superior în Ministerul Finanțelor și funcția de președinte al Organizației de Femei din cadrul unui partid politic.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-11-persoane/',
+      },
+      {
+        label: 'Justnews',
+        kind: 'press',
+        url: 'https://justnews.ro/o-angajata-de-la-finante-care-era-si-sefa-organizatiei-de-femei-a-unui-partid-politic-obtine-suspendarea-procesului-sau-de-incompatibilitate-pana-la-pronuntarea-cjue/',
+      },
+    ],
+  },
+  {
+    name: 'Lazăr Paul-Iulian',
+    party: 'PNL',
+    position: 'Primar al comunei Muntenii de Jos, județul Vaslui',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Muntenii de Jos, județul Vaslui.',
+    },
+    crime: 'Sesizare parchet; folosirea funcției și fals în declarații',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în noiembrie 2023 Parchetul cu privire la indicii că, în calitate de primar, a inițiat și semnat acte care i-au produs venituri și acte în beneficiul soției sale, precum și la posibile omisiuni din declarațiile de avere și interese.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/primarie/muntenii-de-jos/',
+      },
+    ],
+  },
+  {
+    name: 'Fartușnic Cornelia',
+    party: 'ALDE',
+    position: 'Consilier local în cadrul Consiliului Local Rădăuți-Prut, județul Botoșani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Rădăuți-Prut, județul Botoșani.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2023 că a participat la adoptarea unor hotărâri în baza cărora Primăria Rădăuți-Prut i-a concesionat în anul 2021 o suprafață de teren din proprietatea privată a comunei.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-13-alesi-locali-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/',
+      },
+    ],
+  },
+  {
+    name: 'Feier Emil',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local Hodac, județul Mureș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Hodac, județul Mureș.',
+    },
+    crime: 'Conflict de interese administrativ și sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2022 că, în mandatul 2016-2020, a participat la emiterea și adoptarea unor acte care au produs foloase unei asociații în care era membru fondator și fiul său era președinte; ANI a sesizat și Parchetul.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali/',
+      },
+      {
+        label: 'Primăria Hodac - declarație de interese',
+        kind: 'official',
+        url: 'https://www.hodac.ro/wp-content/uploads/2025/07/Feier-Emil-Calin-declaratie-interese.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Glodeanu Maria Marinela',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local Șirineasa, județul Vâlcea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Șirineasa, județul Vâlcea.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020, a participat la deliberarea și adoptarea unei hotărâri privind plata redevenței către primărie de către o asociație condusă de unchiul său.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-16-alesi-locali/',
+      },
+      {
+        label: 'Primăria Șirineasa - declarație de interese',
+        kind: 'official',
+        url: 'https://primariasirineasa.ro/upload/declaratii_interese/2017/Glodeanu%20Maria%20Marilena.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Martin Cristinel Mihai',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local Tecuci, județul Galați',
+    position_type: 'local_official',
+    geography: {
+      county: 'Galați',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Tecuci, județul Galați.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2022 că a participat la adoptarea unei hotărâri privind numirea administratorului unei societăți, fiind numit două zile mai târziu administrator și director general al acelei societăți.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-16-alesi-locali/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/tecuci/',
+      },
+    ],
+  },
+  {
+    name: 'Bogdan Iulian',
+    party: 'PNL',
+    position: 'Fost consilier local în cadrul Consiliului Local Măicănești, județul Vrancea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Măicănești, județul Vrancea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, între 31 mai și 29 octombrie 2021, a exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Măicănești.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vrancea/consiliul-local/maicanesti/',
+      },
+    ],
+  },
+  {
+    name: 'Mureșan Vasile',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local Bobota, județul Sălaj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sălaj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Bobota, județul Sălaj.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2022 că, între 22 iunie 2016 și 31 august 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în aparatul de specialitate al primarului comunei Bobota.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_salaj/consiliul-local/bobota/',
+      },
+    ],
+  },
 ];
 
 /**
