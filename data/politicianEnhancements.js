@@ -74521,6 +74521,342 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Asaftei Ion',
+    party: 'ALDE',
+    position: 'Fost membru în Consiliul de Administrație al Spitalului de Psihiatrie Sf. Nicolae Roman, județul Neamț',
+    position_type: 'other',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul de Administrație al Spitalului de Psihiatrie Sf. Nicolae Roman, județul Neamț.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, între 17 martie 2021 și 21 decembrie 2022, a exercitat simultan calitatea de membru în consiliul de administrație al spitalului și funcții de conducere în organismele unui partid politic.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-judetean/',
+      },
+    ],
+  },
+  {
+    name: 'Marton Janos',
+    party: 'UDMR',
+    position: 'Fost consilier local în cadrul Consiliului Local Zagon, județul Covasna',
+    position_type: 'local_official',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Zagon, județul Covasna.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, între 21 octombrie 2020 și 21 octombrie 2024, a exercitat simultan mandatul de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Zagon.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_covasna/consiliul-local/zagon/',
+      },
+    ],
+  },
+  {
+    name: 'Borz Ciprian-Sandu',
+    party: 'ALDE',
+    position: 'Fost viceprimar al comunei Uileacu de Beiuș, județul Bihor',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Uileacu de Beiuș, județul Bihor.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriului PFA.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/uileacu-de-beius/',
+      },
+    ],
+  },
+  {
+    name: 'Balaj Toader',
+    party: 'AUR',
+    position: 'Consilier local în cadrul Consiliului Local Racșa, județul Satu Mare',
+    position_type: 'local_official',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Racșa, județul Satu Mare.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2024 că a participat la adoptarea unor hotărâri privind protocoale de colaborare între comuna Racșa și o asociație în care fiul său deținea calitatea de membru.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_satu-mare/consiliul-local/racsa/',
+      },
+    ],
+  },
+  {
+    name: 'Butacu Simona Valentina',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local Sector 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Sector 6 București.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în ianuarie 2023 că, între 1 noiembrie 2016 și 3 august 2020, a exercitat simultan calitatea de membru al Consiliului de Administrație al Spitalului Clinic de Obstetrică-Ginecologie Prof. Dr. Panait Sîrbu și funcția de vicepreședinte într-un organ de conducere al unui partid politic.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-2/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bucuresti/consiliul-local/sectorul-6/',
+      },
+    ],
+  },
+  {
+    name: 'Pop Simion',
+    party: 'PNL',
+    position: 'Primar al comunei Secaș, județul Timiș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Secaș, județul Timiș.',
+    },
+    crime: 'Sesizare parchet; conflict de interese',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în martie 2022 Parchetul de pe lângă Judecătoria Lugoj după ce a constatat indicii că, în calitate de primar, a emis acte privind terenuri deținute de el și soția sa și a inițiat o hotărâre privind închirierea pășunilor comunei.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/primarie/secas/',
+      },
+    ],
+  },
+  {
+    name: 'Biserică Nicu',
+    party: 'ALDE',
+    position: 'Primar al comunei Gura Ialomiței, județul Ialomița, și fost viceprimar',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar și fost viceprimar al comunei Gura Ialomiței, județul Ialomița.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, între 27 noiembrie și 31 decembrie 2020, a exercitat simultan funcția de viceprimar și calitatea de angajat cu contract individual de muncă în cadrul unei societăți comerciale.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/primarie/gura-ialomitei/',
+      },
+    ],
+  },
+  {
+    name: 'Chirciu Gheorghe',
+    party: 'PNL',
+    position: 'Consilier local în cadrul Consiliului Local Oltina, județul Constanța, și fost primar',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcțiile publice relevante erau în comuna Oltina, județul Constanța.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, în perioada exercitării mandatului de primar, a semnat acte administrative care i-au produs un folos material, obținând subvenții APIA în valoare totală de 51.030 lei.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/oltina/',
+      },
+    ],
+  },
+  {
+    name: 'Opriș Constantin',
+    party: 'PMP',
+    position: 'Consilier local în cadrul Consiliului Local Vernești, județul Buzău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Vernești, județul Buzău.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, în două perioade din anul 2020, a exercitat simultan mandatul de consilier local și funcția de consilier la Cancelaria Prefectului din cadrul Instituției Prefectului Buzău.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/consiliul-local/vernesti/',
+      },
+    ],
+  },
+  {
+    name: 'Doru Ionel',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local Berești-Tazlău, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Berești-Tazlău, județul Bacău.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, între 22 iunie 2016 și 14 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în cadrul Primăriei Berești-Tazlău.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/beresti-tazlau/',
+      },
+    ],
+  },
+  {
+    name: 'Grigoraș Constantin Neculai',
+    party: 'PSD',
+    position: 'Fost consilier local în cadrul Consiliului Local Ciurea, județul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Ciurea, județul Iași.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2022 că, în mandatul 2016-2020, societatea administrată și deținută de soția sa a prestat servicii pentru comuna Ciurea, emițând șapte facturi în valoare totală de 289.975,17 lei.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/ciurea/',
+      },
+    ],
+  },
+  {
+    name: 'Neacșu Gheorghe Lucian',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local Muntenii de Sus, județul Vaslui',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Muntenii de Sus, județul Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2022 că, în mandatul 2016-2020, a participat la deliberarea unei hotărâri prin care s-au alocat 45.000 lei unui club sportiv cu care avea o relație de angajament.',
+    verified_at: '2026-06-18',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/muntenii-de-sus/',
+      },
+    ],
+  },
 ];
 
 /**
