@@ -75954,6 +75954,378 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'M\u0103rginean Cristina Oana',
+    party: 'Independent',
+    position:
+      '\u0218ef al Sec\u021biei Clinice Pediatrie din cadrul Spitalului Clinic Jude\u021bean de Urgen\u021b\u0103 T\u00e2rgu Mure\u0219',
+    position_type: 'other',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului Clinic Jude\u021bean de Urgen\u021b\u0103 T\u00e2rgu Mure\u0219, jude\u021bul Mure\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2019 c\u0103, \u00eencep\u00e2nd cu 1 august 2016, a exercitat simultan func\u021bia de \u0219ef de sec\u021bie \u0219i alte func\u021bii ori activit\u0103\u021bi de manager \u00een cadrul Universit\u0103\u021bii de Medicin\u0103 \u0219i Farmacie T\u00e2rgu Mure\u0219.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2886&currentPage=33',
+      },
+    ],
+  },
+  {
+    name: 'Goglea Ionel',
+    party: 'Independent',
+    position:
+      'Persoan\u0103 cu func\u021bie de conducere \u00een cadrul Universit\u0103\u021bii Valahia din T\u00e2rgovi\u0219te',
+    position_type: 'other',
+    geography: {
+      county: 'D\u00e2mbovi\u021ba',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Universit\u0103\u021bii Valahia din T\u00e2rgovi\u0219te, jude\u021bul D\u00e2mbovi\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2019 o diferen\u021b\u0103 nejustificat\u0103 de 663.940 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel T\u00e2rgovi\u0219te.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2882&currentPage=34',
+      },
+    ],
+  },
+  {
+    name: 'Bondoc Titu-Daniel',
+    party: 'Independent',
+    position:
+      'Fost pre\u0219edinte-director general al Casei Jude\u021bene de Asigur\u0103ri de S\u0103n\u0103tate Gorj',
+    position_type: 'other',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Casa Jude\u021bean\u0103 de Asigur\u0103ri de S\u0103n\u0103tate Gorj.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2019 c\u0103, \u00een perioada 11 noiembrie 2015 - 27 iunie 2016, institu\u021bia condus\u0103 de acesta a stabilit rela\u021bii contractuale cu o societate \u00een care mama so\u021biei sale era asociat unic \u0219i administrator.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2827&currentPage=40',
+      },
+    ],
+  },
+  {
+    name: 'Constantinescu Mihai',
+    party: 'Independent',
+    position: '\u0218ef Serviciu Audit Public \u00een cadrul Ministerului S\u0103n\u0103t\u0103\u021bii',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Ministerului S\u0103n\u0103t\u0103\u021bii, institu\u021bie central\u0103 cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2018 c\u0103, \u00een perioada 6 iunie 2017 - 5 ianuarie 2018, a exercitat simultan func\u021bia de \u0219ef al Serviciului Audit Public \u0219i func\u021bia de manager al unui proiect al Ministerului S\u0103n\u0103t\u0103\u021bii.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2809&currentPage=42',
+      },
+    ],
+  },
+  {
+    name: 'Voicu Mariana',
+    party: 'Independent',
+    position:
+      'Fost director executiv \u0219i \u0219ef serviciu \u00een cadrul Agen\u021biei Jude\u021bene pentru Ocuparea For\u021bei de Munc\u0103 Vrancea',
+    position_type: 'other',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note:
+        'Func\u021biile relevante erau \u00een cadrul Agen\u021biei Jude\u021bene pentru Ocuparea For\u021bei de Munc\u0103 Vrancea.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2018 c\u0103, \u00een calitate de director executiv, a semnat decizia de nominalizare a echipei unui proiect \u00een care era inclus\u0103 ca expert \u0219i a semnat ori aprobat ulterior 26 de acte at\u00e2t ca angajat al proiectului, c\u00e2t \u0219i ca director executiv.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2797&currentPage=43',
+      },
+    ],
+  },
+  {
+    name: 'Podrumaru Anca-Mihaela',
+    party: 'Independent',
+    position: 'Director \u00een cadrul Ministerului Economiei',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Ministerului Economiei, institu\u021bie central\u0103 cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2018 c\u0103 a semnat un ordin prin care a fost desemnat\u0103 manager al proiectului DaNuBioValNet, apoi a semnat \u0219i aprobat, ca angajat \u0219i manager de proiect, propriile pontaje pentru lunile aprilie-iunie 2017.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2789&currentPage=44',
+      },
+    ],
+  },
+  {
+    name: 'Cremene C\u0103lin-Vasile',
+    party: 'Independent',
+    position:
+      'Agent \u0219ef adjunct la Sectorul Poli\u021biei de Frontier\u0103 Halmeu',
+    position_type: 'other',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Sectorul Poli\u021biei de Frontier\u0103 Halmeu, jude\u021bul Satu Mare.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2018 o diferen\u021b\u0103 nejustificat\u0103 de 102.024,60 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Oradea.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2755&currentPage=46',
+      },
+    ],
+  },
+  {
+    name: 'David Loredana',
+    party: 'Independent',
+    position:
+      'Agent principal de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Vaslui',
+    position_type: 'other',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Vaslui.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2018, pentru aceasta \u0219i so\u021bul s\u0103u, o diferen\u021b\u0103 nejustificat\u0103 de 147.322,30 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biilor publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Ia\u0219i.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2749&currentPage=46',
+      },
+    ],
+  },
+  {
+    name: 'David Eduard Vasile',
+    party: 'Independent',
+    position:
+      'Agent \u0219ef de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Vaslui',
+    position_type: 'other',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Vaslui.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2018, pentru acesta \u0219i so\u021bia sa, o diferen\u021b\u0103 nejustificat\u0103 de 147.322,30 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biilor publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Ia\u0219i.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2749&currentPage=46',
+      },
+    ],
+  },
+  {
+    name: 'Fene\u0219an Mihnea Ion',
+    party: 'Independent',
+    position:
+      'Fost inspector vamal \u00een cadrul Direc\u021biei Regionale Accize \u0219i Opera\u021biuni Vamale Timi\u0219oara',
+    position_type: 'other',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Direc\u021biei Regionale Accize \u0219i Opera\u021biuni Vamale Timi\u0219oara, jude\u021bul Timi\u0219.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2018 o diferen\u021b\u0103 nejustificat\u0103 de 188.920 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Timi\u0219oara.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2739&currentPage=48',
+      },
+    ],
+  },
+  {
+    name: 'Drago\u0219 Florin Adrian',
+    party: 'Independent',
+    position:
+      'Fost agent \u0219ef de poli\u021bie \u00een cadrul serviciului de permise \u0219i \u00eenmatricul\u0103ri Arad',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul serviciului public comunitar pentru permise \u0219i \u00eenmatricul\u0103ri al jude\u021bului Arad.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een decembrie 2017 o diferen\u021b\u0103 nejustificat\u0103 de 330.329,14 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Timi\u0219oara.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2673&currentPage=51',
+      },
+    ],
+  },
+  {
+    name: 'Zotoi Virgiliu Bogdan',
+    party: 'Independent',
+    position:
+      'Ofi\u021ber de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Br\u0103ila',
+    position_type: 'other',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Br\u0103ila.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2017 o diferen\u021b\u0103 nejustificat\u0103 de 135.988 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Gala\u021bi.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2663&currentPage=53',
+      },
+    ],
+  },
+  {
+    name: 'Rista Diana-Manuela',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Prim\u0103riei Ora\u0219ului Lipova',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Prim\u0103riei Ora\u0219ului Lipova, jude\u021bul Arad.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2017 o diferen\u021b\u0103 nejustificat\u0103 de 291.665,36 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Timi\u0219oara.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2642&currentPage=55',
+      },
+    ],
+  },
+  {
+    name: '\u0218aramet Aurel',
+    party: 'Independent',
+    position:
+      'Fost director \u00een cadrul Fondului Na\u021bional de Garantare a Creditelor pentru \u00centreprinderile Mici \u0219i Mijlocii',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Fondul Na\u021bional de Garantare a Creditelor pentru \u00centreprinderile Mici \u0219i Mijlocii, cu sediul central \u00een Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2017 o diferen\u021b\u0103 nejustificat\u0103 de 4.868.494 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei de director, \u00eentre 20 decembrie 2004 \u0219i 6 noiembrie 2013, \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2634&currentPage=56',
+      },
+    ],
+  },
+  {
+    name: 'Lucan Mihai',
+    party: 'Independent',
+    position:
+      'Fost medic \u0219ef al Sec\u021biei Clinice Urologie II din cadrul Institutului Clinic de Urologie \u0219i Transplant Renal Cluj-Napoca',
+    position_type: 'other',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Institutului Clinic de Urologie \u0219i Transplant Renal Cluj-Napoca, jude\u021bul Cluj.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2018 c\u0103, \u00een perioada 26 iunie 2012 - 30 decembrie 2016, o societate \u00een care acesta \u0219i so\u021bia erau asocia\u021bi, iar fiul administrator, a avut rela\u021bii contractuale cu institutul public \u00een care de\u021binea func\u021bii de conducere.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2728&currentPage=50',
+      },
+    ],
+  },
 ];
 
 /**
