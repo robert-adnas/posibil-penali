@@ -75602,6 +75602,358 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Szafta Andras',
+    party: 'Independent',
+    position: 'Consilier local \u00een cadrul Consiliului Local B\u0103ile Tu\u0219nad, jude\u021bul Harghita',
+    position_type: 'local_official',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local B\u0103ile Tu\u0219nad, jude\u021bul Harghita.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2025 c\u0103, \u00een timpul mandatului, societatea administrat\u0103 \u0219i de\u021binut\u0103 de so\u021bia sa a \u00eencheiat cu UAT B\u0103ile Tu\u0219nad un contract de consultan\u021b\u0103 de 12.742,48 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-privind-primele-rezultate-ale-analizei-automate-a-declaratiilor-de-avere-si-de-interese/',
+      },
+      {
+        label: 'Autoritatea Electoral\u0103 Permanent\u0103',
+        kind: 'official',
+        url: 'https://finantarepartide.ro/wp-content/uploads/2025/04/Independent-Szafta-Andras.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Zsigmond Ambrus',
+    party: 'Independent',
+    position: 'Consilier local \u00een cadrul Consiliului Local Br\u00e2ncovene\u0219ti, jude\u021bul Mure\u0219',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Br\u00e2ncovene\u0219ti, jude\u021bul Mure\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2025 c\u0103 dou\u0103 societ\u0103\u021bi \u00een care era asociat \u0219i administrator au \u00eencheiat 20 de contracte cu UAT Br\u00e2ncovene\u0219ti, \u00een valoare de 861.617,30 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-privind-primele-rezultate-ale-analizei-automate-a-declaratiilor-de-avere-si-de-interese/',
+      },
+      {
+        label: 'Autoritatea Electoral\u0103 Permanent\u0103',
+        kind: 'official',
+        url: 'https://finantarepartide.ro/wp-content/uploads/2025/04/Independent-Zsigmond-Ambrus.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Negru\u021b Costel',
+    party: 'PSD',
+    position: 'Fost consilier local \u00een cadrul Consiliului Local Corod, jude\u021bul Gala\u021bi',
+    position_type: 'local_official',
+    geography: {
+      county: 'Gala\u021bi',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Corod, jude\u021bul Gala\u021bi.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2025 c\u0103 societatea administrat\u0103 \u0219i de\u021binut\u0103 de fiul s\u0103u a \u00eencheiat trei contracte cu UAT Corod, \u00een valoare de 184.717,70 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-privind-primele-rezultate-ale-analizei-automate-a-declaratiilor-de-avere-si-de-interese/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/corod/',
+      },
+    ],
+  },
+  {
+    name: 'Ruscovan Ioan',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Rona de Sus, jude\u021bul Maramure\u0219, \u0219i fost consilier local',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'office',
+      note: 'Func\u021biile relevante erau \u00een comuna Rona de Sus, jude\u021bul Maramure\u0219.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2023 o diferen\u021b\u0103 nejustificat\u0103 de 770.574 lei \u00eentre averea dob\u00e2ndit\u0103 \u00eempreun\u0103 cu familia \u0219i veniturile realizate \u00een mandatul de consilier local 2016-2020.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-4-048-566-lei/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_maramures/consiliul-local/rona-de-sus/',
+      },
+    ],
+  },
+  {
+    name: 'Mazilu Gabriela-Cristina',
+    party: 'Independent',
+    position: 'Judec\u0103tor \u00een cadrul Tribunalului Bucure\u0219ti \u0219i fost judec\u0103tor la Judec\u0103toria Sectorului 4',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021biile publice relevante erau la Tribunalul Bucure\u0219ti \u0219i Judec\u0103toria Sectorului 4.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2023 o diferen\u021b\u0103 nejustificat\u0103 de 30.388.515 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/avere-nejustificata-in-cuantum-total-de-31-602-501-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Nicore\u0219teanu Ionu\u021b-Victor',
+    party: 'Independent',
+    position: 'Func\u021bionar public cu statut special \u00een cadrul Direc\u021biei Generale de Poli\u021bie a Municipiului Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Direc\u021biei Generale de Poli\u021bie a Municipiului Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2023 o diferen\u021b\u0103 nejustificat\u0103 de 1.213.986 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/avere-nejustificata-in-cuantum-total-de-31-602-501-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Dancu Constantin',
+    party: 'Independent',
+    position: 'Fost inspector \u0219ef al Inspectoratului de Poli\u021bie Jude\u021bean Constan\u021ba',
+    position_type: 'other',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era conducerea Inspectoratului de Poli\u021bie Jude\u021bean Constan\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 344.132 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Constan\u021ba.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Lefter Ion Doinel',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Poli\u021biei Locale Sector 2 Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Poli\u021biei Locale Sector 2 Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 445.632,30 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Anghel M\u0103d\u0103lina-Maria',
+    party: 'Independent',
+    position: 'Ofi\u021ber \u00een cadrul Direc\u021biei Generale Anticorup\u021bie a Ministerului Afacerilor Interne',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een structura central\u0103 a Direc\u021biei Generale Anticorup\u021bie, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2022 o diferen\u021b\u0103 nejustificat\u0103 de 189.000 lei \u0219i 282.762,20 euro \u00eentre avere \u0219i veniturile realizate \u00eempreun\u0103 cu familia.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-aprox-487-000-euro-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Petrescu Adriana',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Consiliului Jude\u021bean V\u00e2lcea',
+    position_type: 'other',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Consiliului Jude\u021bean V\u00e2lcea.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2022 o diferen\u021b\u0103 nejustificat\u0103 de 507.723 lei \u00eentre averea dob\u00e2ndit\u0103 \u00eempreun\u0103 cu familia \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-aprox-487-000-euro-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Macaveiu Mihai-Ion',
+    party: 'PSD',
+    position: 'Fost consilier local \u00een cadrul Consiliului Local Media\u0219, jude\u021bul Sibiu',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Media\u0219, jude\u021bul Sibiu.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2022 c\u0103, \u00eentre 1 decembrie 2018 \u0219i 24 martie 2019, a exercitat simultan mandatul de consilier local \u0219i atribu\u021biile de director \u00eentr-o societate de interes na\u021bional.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/consiliul-local/medias/',
+      },
+    ],
+  },
+  {
+    name: 'Mor\u0103ra\u0219 Dana-Maria',
+    party: 'PSD',
+    position: 'Fost consilier local \u00een cadrul Consiliului Local Media\u0219, jude\u021bul Sibiu',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Media\u0219, jude\u021bul Sibiu.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2022 c\u0103, \u00eentre 12 iunie 2019 \u0219i 18 august 2020, a exercitat simultan mandatul de consilier local \u0219i atribu\u021biile de director adjunct \u00eentr-o societate de interes na\u021bional.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/consiliul-local/medias/',
+      },
+    ],
+  },
+  {
+    name: 'Epure Gheorghe Doru',
+    party: 'Independent',
+    position: 'Consilier \u00een cadrul G\u0103rzii Forestiere R\u00e2mnicu V\u00e2lcea',
+    position_type: 'other',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul G\u0103rzii Forestiere R\u00e2mnicu V\u00e2lcea.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 314.486,76 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Craiova.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+    ],
+  },
+  {
+    name: 'Ghinea Valeria',
+    party: 'Independent',
+    position: 'Fost comisar la Garda Na\u021bional\u0103 de Mediu - Comisariatul Jude\u021bean Constan\u021ba',
+    position_type: 'other',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Comisariatului Jude\u021bean Constan\u021ba al G\u0103rzii Na\u021bionale de Mediu.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 205.262 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Constan\u021ba.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+    ],
+  },
 ];
 
 /**
