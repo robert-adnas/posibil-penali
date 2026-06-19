@@ -75137,6 +75137,471 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Gheorghe Mihai Marius',
+    party: 'Independent',
+    position: 'Func\u021bionar public cu statut special \u00een cadrul Inspectoratului General al Poli\u021biei Rom\u00e2ne',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een structura central\u0103 a Inspectoratului General al Poli\u021biei Rom\u00e2ne, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een august 2022 Parchetul de pe l\u00e2ng\u0103 \u00cenalta Curte de Casa\u021bie \u0219i Justi\u021bie privind indicii de fals \u00een declara\u021bii, dup\u0103 ce a constatat venituri, bunuri \u0219i datorii nedeclarate.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Berechet Nicolae Cristian',
+    party: 'Independent',
+    position: 'Func\u021bionar public cu statut special \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Sibiu',
+    position_type: 'other',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Sibiu.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een august 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru nedeclararea unor venituri din premii \u0219i jocuri de noroc de 20.528 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Rodina Felician',
+    party: 'Independent',
+    position: 'Agent principal de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Cara\u0219-Severin',
+    position_type: 'other',
+    geography: {
+      county: 'Cara\u0219-Severin',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Cara\u0219-Severin.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een august 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru nedeclararea unor venituri din jocuri de noroc de 14.714 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Cismaru Nicolae',
+    party: 'Independent',
+    position: 'Fost func\u021bionar public cu statut special \u00een cadrul Poli\u021biei Transporturi Feroviare Curtici',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Poli\u021bia Transporturi Feroviare Curtici, jude\u021bul Arad.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een august 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru nedeclararea unor venituri din profesii libere, dividende \u0219i jocuri de noroc.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Hop\u0219a Adrian Florin',
+    party: 'PNL',
+    position: 'Consilier jude\u021bean \u00een cadrul Consiliului Jude\u021bean Neam\u021b',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Consiliului Jude\u021bean Neam\u021b.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een august 2022 Parchetul privind indicii de fals \u00een declara\u021bii. \u00cen mandatul jude\u021bean relevant pentru evaluare, acesta era liderul consilierilor PNL din Consiliul Jude\u021bean Neam\u021b.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
+      },
+      {
+        label: 'Mesagerul de Neam\u021b',
+        kind: 'press',
+        url: 'https://mesagerulneamt.ro/2021/05/rocada-la-sefia-rar-neamt-adrian-ciobanu-consilier-local-ia-locul-lui-florin-hopsa-consilier-judetean/',
+      },
+    ],
+  },
+  {
+    name: 'Decean Ciprian',
+    party: 'Independent',
+    position: 'Func\u021bionar public cu statut special \u00een cadrul Brig\u0103zii de Combatere a Criminalit\u0103\u021bii Organizate Alba Iulia',
+    position_type: 'other',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Brig\u0103zii de Combatere a Criminalit\u0103\u021bii Organizate Alba Iulia.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 111.593 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Alba Iulia.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Butur Gheorghe',
+    party: 'Independent',
+    position: 'Agent de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Cluj - Poli\u021bia Municipiului Gherla',
+    position_type: 'other',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Poli\u021bia Municipiului Gherla, jude\u021bul Cluj.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 454.614 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Cluj.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/',
+      },
+    ],
+  },
+  {
+    name: 'Diaconu Ionu\u021b-Andrei',
+    party: 'Independent',
+    position: 'Inspector de poli\u021bie \u00een cadrul serviciului de permise \u0219i \u00eenmatricul\u0103ri Sibiu',
+    position_type: 'other',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul serviciului de permise \u0219i \u00eenmatricul\u0103ri Sibiu.',
+    },
+    crime: 'Avere nejustificat\u0103 \u0219i fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 144.000 lei \u0219i a sesizat Parchetul pentru venituri din jocuri de noroc \u0219i premii nedeclarate de 338.226 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-345-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'Iva\u0219cu Mihai Ionu\u021b',
+    party: 'Independent',
+    position: 'Agent de poli\u021bie \u00een cadrul Poli\u021biei Municipiului Br\u0103ila',
+    position_type: 'other',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Poli\u021biei Municipiului Br\u0103ila.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een aprilie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc \u0219i premii nedeclarate de 7.718 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-345-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'Hongu Mihai',
+    party: 'Independent',
+    position: 'Fost agent de poli\u021bie \u00een cadrul Poli\u021biei Sta\u021biunii T\u00e2rgu Ocna',
+    position_type: 'other',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Poli\u021bia Sta\u021biunii T\u00e2rgu Ocna, jude\u021bul Bac\u0103u.',
+    },
+    crime: 'Avere nejustificat\u0103 \u0219i fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 92.897 lei \u0219i a sesizat Parchetul privind indicii de fals \u00een declara\u021bii.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'Scor\u021ban Cristinel-Corneliu',
+    party: 'Independent',
+    position: 'Subcomisar de poli\u021bie \u00een cadrul Inspectoratului General al Poli\u021biei Rom\u00e2ne',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een structura central\u0103 a Inspectoratului General al Poli\u021biei Rom\u00e2ne, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een aprilie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 72.771 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'Oprea Adrian',
+    party: 'Independent',
+    position: 'Fost comandant de pluton \u00een cadrul Inspectoratului de Jandarmi Jude\u021bean Constan\u021ba',
+    position_type: 'other',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Jandarmi Jude\u021bean Constan\u021ba.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een aprilie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 42.110 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'Velici Richard-Cosmin',
+    party: 'Independent',
+    position: 'Poli\u021bist \u00een cadrul Direc\u021biei Generale de Poli\u021bie a Municipiului Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Direc\u021biei Generale de Poli\u021bie a Municipiului Bucure\u0219ti.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een aprilie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 44.086 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/',
+      },
+    ],
+  },
+  {
+    name: 'B\u0103rdan Sorin',
+    party: 'Independent',
+    position: 'Poli\u021bist \u00een cadrul Inspectoratului Teritorial al Poli\u021biei de Frontier\u0103 Oradea',
+    position_type: 'other',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Inspectoratul Teritorial al Poli\u021biei de Frontier\u0103 Oradea, jude\u021bul Bihor.',
+    },
+    crime: 'Avere nejustificat\u0103 \u0219i fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 99.104 lei \u0219i a sesizat Parchetul pentru omiterea unor autoturisme de\u021binute sau \u00eenstr\u0103inate.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Patrianu Daniel',
+    party: 'Independent',
+    position: '\u0218ef serviciu \u00een cadrul Direc\u021biei Generale Afaceri Europene, Schengen \u0219i Rela\u021bii Interna\u021bionale a Ministerului Afacerilor Interne',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00eentr-o structur\u0103 central\u0103 a Ministerului Afacerilor Interne, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een februarie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 142.617 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Nicola Silviu-Costinel',
+    party: 'Independent',
+    position: 'Inspector de poli\u021bie \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Sibiu',
+    position_type: 'other',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Sibiu.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een februarie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 40.724 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Epure Eliodor-Ion',
+    party: 'Independent',
+    position: 'Agent \u0219ef de poli\u021bie \u00een cadrul Forma\u021biunii Rutiere a Poli\u021biei ora\u0219ului Pantelimon',
+    position_type: 'other',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Poli\u021bia ora\u0219ului Pantelimon, jude\u021bul Ilfov.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een februarie 2022 Parchetul pentru venituri nedeclarate de 35.604 lei \u0219i omiterea unor func\u021bii de\u021binute \u00een dou\u0103 societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Bogdan Ion',
+    party: 'Independent',
+    position: 'Fost director al Centrului de Formare Ini\u021bial\u0103 \u0219i Continu\u0103 din cadrul Ministerului Afacerilor Interne',
+    position_type: 'other',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Centrul de Formare Ini\u021bial\u0103 \u0219i Continu\u0103 din Or\u0103\u0219tie, jude\u021bul Hunedoara.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een februarie 2022 Parchetul de pe l\u00e2ng\u0103 Judec\u0103toria Or\u0103\u0219tie privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 13.211 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Flori\u0219tean Adrian',
+    party: 'Independent',
+    position: 'Agent de poli\u021bie \u00een cadrul Inspectoratului Teritorial al Poli\u021biei de Frontier\u0103 Sighetu Marma\u021biei',
+    position_type: 'other',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era la Inspectoratul Teritorial al Poli\u021biei de Frontier\u0103 Sighetu Marma\u021biei, jude\u021bul Maramure\u0219.',
+    },
+    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat \u00een februarie 2022 Parchetul privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 3.160 lei.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
+      },
+    ],
+  },
+  {
+    name: 'Manea Daniel',
+    party: 'Independent',
+    position: 'Director executiv al Direc\u021biei Administrarea Domeniului Public \u0219i Privat din cadrul Prim\u0103riei Ora\u0219ului Eforie',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Prim\u0103riei Ora\u0219ului Eforie, jude\u021bul Constan\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2022 o diferen\u021b\u0103 nejustificat\u0103 de 1.337.528 lei \u00eentre avere \u0219i venituri \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Constan\u021ba.',
+    verified_at: '2026-06-19',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+    ],
+  },
 ];
 
 /**
