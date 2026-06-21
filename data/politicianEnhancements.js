@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-16',
+  last_updated: '2026-06-21',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -76323,6 +76323,329 @@ export const politicianAdditions = [
         label: 'ANI',
         kind: 'official',
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2728&currentPage=50',
+      },
+    ],
+  },
+  {
+    name: 'Antip Gabriel',
+    party: 'Independent',
+    position:
+      'Poli\u021bist \u00een cadrul Inspectoratului General al Poli\u021biei de Frontier\u0103 - Garda de Coast\u0103',
+    position_type: 'other',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul G\u0103rzii de Coast\u0103, structur\u0103 cu sediul \u00een jude\u021bul Constan\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een decembrie 2016 o diferen\u021b\u0103 nejustificat\u0103 de 510.562 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Constan\u021ba.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=12&NewsId=2375&PID=20&Year=2016',
+      },
+    ],
+  },
+  {
+    name: 'Antip Colea',
+    party: 'Independent',
+    position: 'Comisar \u0219ef de poli\u021bie \u00een cadrul G\u0103rzii de Coast\u0103',
+    position_type: 'other',
+    geography: {
+      county: 'Constan\u021ba',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul G\u0103rzii de Coast\u0103, structur\u0103 cu sediul \u00een jude\u021bul Constan\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een decembrie 2016 o diferen\u021b\u0103 nejustificat\u0103 de 196.136,72 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Constan\u021ba.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=12&NewsId=2375&PID=20&Year=2016',
+      },
+    ],
+  },
+  {
+    name: 'Iura\u0219cu Marius Cristian',
+    party: 'Independent',
+    position:
+      'Fost director general al Regiei Autonome a Distribu\u021biei \u0219i Exploat\u0103rii Filmelor Rom\u00e2niaFilm',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Regia Autonom\u0103 a Distribu\u021biei \u0219i Exploat\u0103rii Filmelor Rom\u00e2niaFilm Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2016 o diferen\u021b\u0103 nejustificat\u0103 de 322.382 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bia \u00een perioada 2009-2013 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=3&NewsId=2153&PID=20&Year=2016',
+      },
+    ],
+  },
+  {
+    name: 'Marin C\u0103t\u0103lin Iulian',
+    party: 'Independent',
+    position:
+      'Fost director general al S.C. Administrarea Domeniului Public Bucure\u0219ti S.A.',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la societatea public\u0103 Administrarea Domeniului Public Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2016 o diferen\u021b\u0103 nejustificat\u0103 de 226.485,88 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada 23 iulie-17 decembrie 2012 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2305&PID=20&currentPage=26',
+      },
+    ],
+  },
+  {
+    name: 'Diaconu-Ro\u0219u Iuliea',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Tribunalului Prahova',
+    position_type: 'other',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Tribunalului Prahova.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2021 o diferen\u021b\u0103 nejustificat\u0103 de 80.503,85 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Ploie\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3093&PID=20',
+      },
+    ],
+  },
+  {
+    name: 'Florentina Costache',
+    party: 'Independent',
+    position:
+      'Fost director adjunct al Direc\u021biei Generale Rela\u021bii Financiare Externe din cadrul Ministerului Transporturilor',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een administra\u021bia central\u0103 a Ministerului Transporturilor din Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2015 o diferen\u021b\u0103 nejustificat\u0103 de 722.230,92 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu familia \u00een perioada 2000-2012 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1989&PID=20&currentPage=103',
+      },
+    ],
+  },
+  {
+    name: 'Dinuc\u0103 Gheorghe',
+    party: 'Independent',
+    position:
+      'Director adjunct \u00een cadrul Inspectoratului Teritorial de Regim Silvic \u0219i de V\u00e2n\u0103toare R\u00e2mnicu V\u00e2lcea',
+    position_type: 'other',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul inspectoratului teritorial din R\u00e2mnicu V\u00e2lcea, jude\u021bul V\u00e2lcea.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2014 o diferen\u021b\u0103 nejustificat\u0103 de 879.755,35 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada ianuarie 2005-decembrie 2011 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Craiova.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1518&PID=20&currentPage=157',
+      },
+    ],
+  },
+  {
+    name: 'Covic Adrian-Constantin',
+    party: 'Independent',
+    position:
+      '\u0218ef al Sec\u021biei Clinice de Nefrologie din cadrul Spitalului Clinic Dr. C.I. Parhon Ia\u0219i',
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului Clinic Dr. C.I. Parhon din Ia\u0219i.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2014 o diferen\u021b\u0103 nejustificat\u0103 de 1.657.753 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bia \u00een perioada 2003-2011 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Ia\u0219i.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1582&PID=20&currentPage=53',
+      },
+    ],
+  },
+  {
+    name: 'Ilie\u0219i Toader',
+    party: 'Independent',
+    position:
+      'Fost agent \u0219ef \u00een cadrul Inspectoratului Jude\u021bean al Poli\u021biei de Frontier\u0103 Suceava - Punctul de Frontier\u0103 Siret',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Punctul de Frontier\u0103 Siret, jude\u021bul Suceava.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een februarie 2014 o diferen\u021b\u0103 nejustificat\u0103 de 155.216,61 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu familia \u00een perioada 2004-2010 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Ia\u0219i.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1432&PID=20&currentPage=164',
+      },
+    ],
+  },
+  {
+    name: 'Apostol Oana Maria Cristina',
+    party: 'Independent',
+    position:
+      'Fost expert parlamentar \u00een cadrul Direc\u021biei Proceduri Parlamentare, Sintez\u0103 \u0219i Eviden\u021b\u0103 Legislativ\u0103 a Senatului Rom\u00e2niei',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een aparatul Senatului Rom\u00e2niei din Bucure\u0219ti.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2014 o diferen\u021b\u0103 nejustificat\u0103 de 85.165,60 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bul \u00een perioada martie 2008-iulie 2011 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1618&PID=20&currentPage=51',
+      },
+    ],
+  },
+  {
+    name: 'Lupu Florin Constantin',
+    party: 'Independent',
+    position:
+      'Agent \u0219ef \u00een cadrul Serviciului Poli\u021biei de Frontier\u0103 Siret - Inspectoratul Jude\u021bean al Poli\u021biei de Frontier\u0103 Suceava',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Serviciul Poli\u021biei de Frontier\u0103 Siret, jude\u021bul Suceava.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2014 o diferen\u021b\u0103 nejustificat\u0103 de 206.618 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada 2004-2010 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Suceava.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1547&PID=20&currentPage=54',
+      },
+    ],
+  },
+  {
+    name: 'R\u0103dulescu Daniel',
+    party: 'Independent',
+    position:
+      'Fost director executiv adjunct \u00een cadrul Direc\u021biei Generale a Finan\u021belor Publice Ialomi\u021ba',
+    position_type: 'other',
+    geography: {
+      county: 'Ialomi\u021ba',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Direc\u021biei Generale a Finan\u021belor Publice Ialomi\u021ba.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een decembrie 2013 o diferen\u021b\u0103 nejustificat\u0103 de 481.454 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu familia \u00een perioada fiscal\u0103 2000-2011 \u0219i a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1419&PID=20&currentPage=60',
+      },
+    ],
+  },
+  {
+    name: 'Iamandi Mircea',
+    party: 'Independent',
+    position:
+      'Agent \u0219ef principal \u00een cadrul Direc\u021biei Regim Permise de Conducere \u0219i \u00cenmatriculare a Vehiculelor',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'case_location',
+      note:
+        'Cauza a fost instrumentat\u0103 de autorit\u0103\u021bile judiciare competente din Bucure\u0219ti, iar func\u021bia era \u00een cadrul direc\u021biei centrale.',
+    },
+    crime: 'Avere nejustificat\u0103 \u0219i fals \u00een declara\u021bii',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2014 o diferen\u021b\u0103 nejustificat\u0103 de 222.150 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu familia \u00een perioada 2005-2007. ANI a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Bucure\u0219ti \u0219i Parchetul de pe l\u00e2ng\u0103 Judec\u0103toria Sectorului 4 privind posibile fapte de fals \u00een declara\u021bii.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1512&PID=20&currentPage=159',
       },
     ],
   },
