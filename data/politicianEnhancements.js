@@ -76649,6 +76649,472 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Negrea Constantin',
+    party: 'Independent',
+    position: 'Fost director executiv al APIA - Centrul Jude\u021bean Gorj',
+    position_type: 'other',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul APIA - Centrul Jude\u021bean Gorj.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 15 noiembrie 2013 - 6 martie 2015, a exercitat simultan func\u021bia de director executiv al APIA Gorj \u0219i calitatea de expert tehnic judiciar \u00een agricultur\u0103, activitate aflat\u0103 \u00een leg\u0103tur\u0103 cu atribu\u021biile func\u021biei publice.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2354',
+      },
+    ],
+  },
+  {
+    name: 'Neagoe Maria',
+    party: 'Independent',
+    position:
+      'Fost consilier superior \u00een cadrul Direc\u021biei de S\u0103n\u0103tate Public\u0103 Jude\u021bene Timi\u0219',
+    position_type: 'other',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei de S\u0103n\u0103tate Public\u0103 Jude\u021bene Timi\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 22 septembrie 2014 - 19 august 2016, a de\u021binut simultan func\u021bia de consilier superior la DSP Timi\u0219 \u0219i func\u021bia de medic specialist \u00eentr-un spital public.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2353',
+      },
+    ],
+  },
+  {
+    name: 'Anton Petru Mure\u0219an',
+    party: 'Independent',
+    position: '\u0218ef serviciu \u00een cadrul Inspectoratului Teritorial de Munc\u0103 Maramure\u0219',
+    position_type: 'other',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Inspectoratului Teritorial de Munc\u0103 Maramure\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een anii 2007, 2008 \u0219i 2011-2013, a desf\u0103\u0219urat activit\u0103\u021bi remunerate de lector pentru o societate privat\u0103, activit\u0103\u021bi aflate \u00een leg\u0103tur\u0103 direct\u0103 cu atribu\u021biile sale de inspector de munc\u0103.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2345',
+      },
+    ],
+  },
+  {
+    name: 'T\u0103ut Ioan-Liviu',
+    party: 'Independent',
+    position:
+      'Fost rector \u00eemputernicit al Academiei de Poli\u021bie \u201eAlexandru Ioan Cuza\u201d',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Academia de Poli\u021bie \u201eAlexandru Ioan Cuza\u201d din Bucure\u0219ti.',
+    },
+    crime: 'Conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a anun\u021bat \u00een noiembrie 2016 c\u0103 a sesizat parchetul dup\u0103 ce, \u00een exercitarea atribu\u021biilor de rector, a semnat \u0219i aprobat documente ale unui proiect \u00een care era \u0219i expert pe termen lung, ob\u021bin\u00e2nd venituri de 25.257 lei.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2344',
+      },
+    ],
+  },
+  {
+    name: 'Popescu Constantin Valentin',
+    party: 'Independent',
+    position:
+      'Director general al Direc\u021biei Generale de Asisten\u021b\u0103 \u0219i Protec\u021bie Social\u0103 Mehedin\u021bi',
+    position_type: 'other',
+    geography: {
+      county: 'Mehedin\u021bi',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Generale de Asisten\u021b\u0103 \u0219i Protec\u021bie Social\u0103 Mehedin\u021bi.',
+    },
+    crime: 'Conflict de interese administrativ \u0219i penal',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103 a aprobat o cesiune de crean\u021b\u0103 \u0219i pl\u0103\u021bi de 136.393,58 lei c\u0103tre o societate la care era asociat, iar tat\u0103l s\u0103u era asociat \u0219i administrator; agen\u021bia a indicat at\u00e2t conflict administrativ, c\u00e2t \u0219i indicii penale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2341',
+      },
+    ],
+  },
+  {
+    name: 'Bru\u021b Ovidiu',
+    party: 'Independent',
+    position: 'Fost director al S.C. ECO Lipova S.R.L.',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note:
+        'Societatea public\u0103 relevant\u0103 a fost \u00eenfiin\u021bat\u0103 de Consiliul Local al ora\u0219ului Lipova, jude\u021bul Arad.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103 societatea public\u0103 pe care o conducea a \u00eencheiat achizi\u021bii cu o firm\u0103 la care acesta era asociat \u0219i administrator, precum \u0219i cu \u00eentreprinderea individual\u0103 a so\u021biei sale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2327',
+      },
+    ],
+  },
+  {
+    name: 'Pricop Cristian Florinel',
+    party: 'Independent',
+    position:
+      'Medic \u0219ef al Sec\u021biei Ortopedie-Traumatologie din cadrul Spitalului Jude\u021bean de Urgen\u021b\u0103 Br\u0103ila',
+    position_type: 'other',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului Jude\u021bean de Urgen\u021b\u0103 Br\u0103ila.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 1 decembrie 2014 - 17 septembrie 2015, a de\u021binut simultan func\u021bia de medic \u0219ef de sec\u021bie \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2326',
+      },
+    ],
+  },
+  {
+    name: 'Ciochin\u0103 Vasile',
+    party: 'Independent',
+    position:
+      'Director al Direc\u021biei Administrarea Pie\u021belor, Parc\u0103rilor \u0219i Cimitirelor din Prim\u0103ria B\u00e2rlad',
+    position_type: 'other',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei municipiului B\u00e2rlad, jude\u021bul Vaslui.',
+    },
+    crime: 'Conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a sesizat parchetul \u00een noiembrie 2016 dup\u0103 ce a constatat c\u0103 a aprobat achizi\u021bii de 131.468,64 lei de la o societate la care lucrase ca contabil \u0219i a semnat documentele pentru plata facturilor.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2324',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Mihai Titus',
+    party: 'Independent',
+    position: 'Fost expert parlamentar \u00een cadrul Senatului Rom\u00e2niei',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Senatului Rom\u00e2niei, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 25 octombrie 2006 - 1 ianuarie 2011, a de\u021binut simultan calitatea de func\u021bionar public parlamentar \u0219i func\u021bii de administrator la dou\u0103 societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2323',
+      },
+    ],
+  },
+  {
+    name: 'Du\u021bulescu Augustin-Mihail',
+    party: 'Independent',
+    position:
+      'Fost director financiar \u0219i achizi\u021bii \u00een cadrul Companiei Na\u021bionale Aeroporturi Bucure\u0219ti S.A.',
+    position_type: 'other',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Companiei Na\u021bionale Aeroporturi Bucure\u0219ti, cu sediul \u00een Otopeni, jude\u021bul Ilfov.',
+    },
+    crime: 'Conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe l\u00e2ng\u0103 Judec\u0103toria Buftea \u00een octombrie 2016 dup\u0103 ce a constatat c\u0103 a semnat un contract de servicii aeroportuare cu o societate la care de\u021binea func\u021bia de administrator.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2320',
+      },
+    ],
+  },
+  {
+    name: 'Coro\u0219 Marius-Florin',
+    party: 'Independent',
+    position:
+      '\u0218ef al Sec\u021biei Clinice Chirurgie General\u0103 I din cadrul Spitalului Clinic Jude\u021bean Mure\u0219',
+    position_type: 'other',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului Clinic Jude\u021bean Mure\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2016 c\u0103, \u00een perioada 15 octombrie 2008 - 31 martie 2015, a de\u021binut simultan func\u021bia de \u0219ef de sec\u021bie \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2318',
+      },
+    ],
+  },
+  {
+    name: 'Stoenescu R\u0103zvan Ilie',
+    party: 'Independent',
+    position:
+      'Fost \u0219ef al Serviciului Verificare Tehnic\u0103 din sucursala teritorial\u0103 Pite\u0219ti a C.N.C.I.R.',
+    position_type: 'other',
+    geography: {
+      county: 'Arge\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul sucursalei teritoriale Pite\u0219ti, jude\u021bul Arge\u0219.',
+    },
+    crime: 'Infrac\u021biuni asimilate corup\u021biei',
+    status: 'investigated',
+    details:
+      'ANI a sesizat DNA \u00een octombrie 2016 cu privire la indicii c\u0103 informa\u021bii ob\u021binute prin func\u021bia de conducere ar fi putut fi folosite pentru contracte \u00eentre compania public\u0103 \u0219i o societate administrat\u0103 de tat\u0103l s\u0103u.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2317',
+      },
+    ],
+  },
+  {
+    name: 'Martin Mircea-Adrian',
+    party: 'Independent',
+    position:
+      'Director executiv al Direc\u021biei Sanitare Veterinare \u0219i pentru Siguran\u021ba Alimentelor S\u0103laj',
+    position_type: 'other',
+    geography: {
+      county: 'S\u0103laj',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul DSVSA S\u0103laj.',
+    },
+    crime: 'Conflict de interese administrativ \u0219i penal',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2016 c\u0103 a semnat poli\u021be de asigurare \u0219i documentele aferente cu entit\u0103\u021bi \u00een care so\u021bia sa avea func\u021bii de conducere sau calitatea de asociat, pl\u0103\u021bile totaliz\u00e2nd aproximativ 143.773 lei.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2312',
+      },
+    ],
+  },
+  {
+    name: 'Hobeanu Dumitru',
+    party: 'Independent',
+    position: 'Fost pre\u0219edinte-director general al Casei de Asigur\u0103ri de S\u0103n\u0103tate V\u00e2lcea',
+    position_type: 'other',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Casei de Asigur\u0103ri de S\u0103n\u0103tate V\u00e2lcea.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2016 c\u0103 a semnat un contract de furnizare de servicii medicale cu cabinetul so\u021biei sale \u0219i a aprobat ulterior raportul de control privind acela\u0219i cabinet, care \u00eencasase 158.536,6 lei de la casa jude\u021bean\u0103.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2311',
+      },
+    ],
+  },
+  {
+    name: '\u0218tefan Cristina',
+    party: 'Independent',
+    position:
+      'Fost director executiv adjunct \u00een cadrul Direc\u021biei Generale a Finan\u021belor Publice a Municipiului Bucure\u0219ti',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Generale a Finan\u021belor Publice a Municipiului Bucure\u0219ti.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een octombrie 2016 c\u0103, \u00een perioada 15 februarie 2010 - 3 octombrie 2013, a desf\u0103\u0219urat activit\u0103\u021bi remunerate prin conven\u021bii civile \u0219i contracte de munc\u0103 aflate \u00een leg\u0103tur\u0103 cu atribu\u021biile func\u021biei publice.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2311',
+      },
+    ],
+  },
+  {
+    name: 'Marc Florin Iulian',
+    party: 'Independent',
+    position:
+      'Agent \u0219ef principal \u0219i \u0219ef al Postului de Poli\u021bie Or\u0103\u0219tioara de Sus',
+    position_type: 'other',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era la Postul de Poli\u021bie Or\u0103\u0219tioara de Sus, jude\u021bul Hunedoara.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2016 o diferen\u021b\u0103 nejustificat\u0103 de 278.145,36 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor a Cur\u021bii de Apel Alba Iulia.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2300',
+      },
+    ],
+  },
+  {
+    name: 'Baz Iulia Ioana',
+    party: 'Independent',
+    position:
+      'Fost director \u00een Direc\u021bia Management Financiar AM POS CCE din Ministerul Fondurilor Europene',
+    position_type: 'other',
+    geography: {
+      county: 'Bucure\u0219ti',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Ministerului Fondurilor Europene, cu sediul \u00een Bucure\u0219ti.',
+    },
+    crime: 'Infrac\u021biuni asimilate corup\u021biei \u0219i conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a sesizat DNA \u00een septembrie 2016 dup\u0103 ce a identificat indicii c\u0103 a verificat achizi\u021bii \u0219i a participat la proceduri privind societ\u0103\u021bi cu care avusese raporturi de munc\u0103 sau de administrare \u00een ultimii cinci ani.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2298',
+      },
+    ],
+  },
+  {
+    name: 'St\u00eencel Toader Dan',
+    party: 'Independent',
+    position: 'Fost consilier superior \u00een cadrul Prim\u0103riei municipiului Satu Mare',
+    position_type: 'other',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei municipiului Satu Mare.',
+    },
+    crime: 'Conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a sesizat parchetul \u00een august 2016 dup\u0103 ce a constatat c\u0103, \u00een perioada 2009-2013, a votat \u00een comisii de evaluare care au desemnat c\u00e2\u0219tig\u0103toare o societate la care era ac\u021bionar, pentru contracte de peste 13,2 milioane lei f\u0103r\u0103 TVA.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2281',
+      },
+    ],
+  },
+  {
+    name: 'Quint Felicia',
+    party: 'Independent',
+    position:
+      'Fost \u0219ef al Sec\u021biei Oftalmologie din cadrul Spitalului Jude\u021bean de Urgen\u021b\u0103 Re\u0219i\u021ba',
+    position_type: 'other',
+    geography: {
+      county: 'Cara\u0219-Severin',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului Jude\u021bean de Urgen\u021b\u0103 Re\u0219i\u021ba, jude\u021bul Cara\u0219-Severin.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2016 c\u0103, \u00een perioada 1 octombrie 2008 - 7 ianuarie 2015, a de\u021binut simultan func\u021bia de \u0219ef al Sec\u021biei Oftalmologie \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-21',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2302',
+      },
+    ],
+  },
 ];
 
 /**
