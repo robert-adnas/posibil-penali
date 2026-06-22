@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-21',
+  last_updated: '2026-06-22',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -77112,6 +77112,282 @@ export const politicianAdditions = [
         label: 'ANI',
         kind: 'official',
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2302',
+      },
+    ],
+  },
+  {
+    name: 'P\u0103v\u0103lu\u021b\u0103 Cristina',
+    party: 'Independent',
+    position:
+      'Director general al Direc\u021biei Generale de Asisten\u021b\u0103 Social\u0103 \u0219i Protec\u021bia Copilului Neam\u021b',
+    position_type: 'other',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Generale de Asisten\u021b\u0103 Social\u0103 \u0219i Protec\u021bia Copilului Neam\u021b.',
+    },
+    crime: 'Incompatibilitate \u0219i conflict de interese penal',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2015 c\u0103 a de\u021binut simultan func\u021bia de director general al DGASPC Neam\u021b \u0219i calitatea de membru \u00een consiliul de administra\u021bie al unei societ\u0103\u021bi de interes local. \u00cen iulie 2017, agen\u021bia a sesizat parchetul cu privire la indicii de conflict de interese penal legate de un contract \u00een valoare de 98.788 lei.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2059',
+      },
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2586',
+      },
+    ],
+  },
+  {
+    name: 'Parasca Constantin Cristian',
+    party: 'Independent',
+    position:
+      'Director \u00een cadrul Direc\u021biei Generale Regionale a Finan\u021belor Publice Cluj-Napoca',
+    position_type: 'other',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Generale Regionale a Finan\u021belor Publice Cluj-Napoca.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2015 c\u0103, \u00eencep\u00e2nd cu 6 noiembrie 2012, a de\u021binut simultan func\u021bia public\u0103 de director \u0219i calitatea de administrator, membru al consiliului de administra\u021bie al unei societ\u0103\u021bi cu capital majoritar de stat.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2059',
+      },
+    ],
+  },
+  {
+    name: 'Filip Georgeta',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Prim\u0103riei comunei Deleni',
+    position_type: 'other',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei comunei Deleni, jude\u021bul Vaslui.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een ianuarie 2016 c\u0103, \u00een perioada 31 martie 2009 - 31 decembrie 2013, a exercitat simultan func\u021bia public\u0103 \u0219i activit\u0103\u021bi specifice func\u021biei de administrator financiar la \u0218coala Gimnazial\u0103 nr. 1 Deleni.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2089',
+      },
+    ],
+  },
+  {
+    name: 'Cenea Mariana',
+    party: 'Independent',
+    position:
+      'Func\u021bionar public cu statut special \u00een cadrul Inspectoratului General al Poli\u021biei de Frontier\u0103 Timi\u0219oara',
+    position_type: 'other',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Inspectoratului General al Poli\u021biei de Frontier\u0103 Timi\u0219oara.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een martie 2019 c\u0103, \u00eencep\u00e2nd cu 11 iunie 2014, a exercitat simultan calitatea de func\u021bionar public cu statut special, ofi\u021ber psiholog, \u0219i func\u021bia de psiholog \u00een cadrul unui cabinet individual.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2836',
+      },
+    ],
+  },
+  {
+    name: 'Ritzinger Adrian Bernhard',
+    party: 'Independent',
+    position:
+      'Director executiv al Agen\u021biei Jude\u021bene pentru Pl\u0103\u021bi \u0219i Inspec\u021bie Social\u0103 Br\u0103ila',
+    position_type: 'other',
+    geography: {
+      county: 'Br\u0103ila',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Agen\u021biei Jude\u021bene pentru Pl\u0103\u021bi \u0219i Inspec\u021bie Social\u0103 Br\u0103ila.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2019 c\u0103, \u00een perioada 6 iunie - 28 octombrie 2016, a emis 17 decizii \u00een calitate de director executiv \u0219i pre\u0219edinte al comisiei jude\u021bene de autorizare a furnizorilor de formare profesional\u0103, cre\u00e2nd un avantaj patrimonial so\u021biei sale.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2850',
+      },
+    ],
+  },
+  {
+    name: 'Lungu Marian',
+    party: 'Independent',
+    position:
+      'Fost consilier superior \u00een cadrul ANAF Gala\u021bi \u0219i func\u021bionar public \u00een cadrul Prim\u0103riei Foc\u0219ani',
+    position_type: 'other',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 local\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei municipiului Foc\u0219ani, jude\u021bul Vrancea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2019 c\u0103, \u00een perioada 15 noiembrie 2016 - 15 mai 2017, a exercitat simultan func\u021bia public\u0103 de consilier superior \u00een cadrul ANAF - DGRFP Gala\u021bi \u0219i func\u021bia contractual\u0103 de director \u00een cadrul Prim\u0103riei municipiului Foc\u0219ani.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2850',
+      },
+    ],
+  },
+  {
+    name: 'Reka Semmel',
+    party: 'Independent',
+    position:
+      '\u0218ef al Laboratorului de Recuperare Medicin\u0103 Fizic\u0103 \u0219i Balneologie din cadrul Spitalului de Recuperare Cardiovascular\u0103 Covasna',
+    position_type: 'other',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note:
+        'Func\u021bia relevant\u0103 era \u00een cadrul Spitalului de Recuperare Cardiovascular\u0103 din ora\u0219ul Covasna, jude\u021bul Covasna.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2019 c\u0103, \u00een perioada 22 noiembrie 2016 - 31 decembrie 2017, a exercitat simultan func\u021bia de \u0219ef de laborator \u00een cadrul spitalului \u0219i calitatea de administrator al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2851',
+      },
+    ],
+  },
+  {
+    name: 'Ciripan Jean Valeriu',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Prim\u0103riei municipiului Slobozia',
+    position_type: 'other',
+    geography: {
+      county: 'Ialomi\u021ba',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei municipiului Slobozia, jude\u021bul Ialomi\u021ba.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2019 c\u0103, \u00een perioada 2007-2017, a desf\u0103\u0219urat activit\u0103\u021bi remunerate de expert judiciar aflate \u00een leg\u0103tur\u0103 cu atribu\u021biile func\u021biei publice de referent de specialitate \u00een compartimentul Patrimoniu.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2839',
+      },
+    ],
+  },
+  {
+    name: 'Lungu Romeo Daniel',
+    party: 'Independent',
+    position:
+      'Fost director executiv al Direc\u021biei Jude\u021bene pentru Sport \u0219i Tineret Buz\u0103u',
+    position_type: 'other',
+    geography: {
+      county: 'Buz\u0103u',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Jude\u021bene pentru Sport \u0219i Tineret Buz\u0103u.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2019 c\u0103, \u00een perioada 1 aprilie 2013 - 20 aprilie 2016, a de\u021binut simultan func\u021bia public\u0103 de conducere de director executiv \u0219i calitatea de membru \u00een consiliul de administra\u021bie al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2839',
+      },
+    ],
+  },
+  {
+    name: 'Ghinea Ionel',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Prim\u0103riei comunei Vr\u00e2ncioaia',
+    position_type: 'other',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei comunei Vr\u00e2ncioaia, jude\u021bul Vrancea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2019 c\u0103, \u00eencep\u00e2nd cu 1 octombrie 2011, a exercitat simultan func\u021bia public\u0103 de contabil \u00een cadrul prim\u0103riei \u0219i func\u021bia de contabil-\u0219ef \u00een cadrul \u0218colii Gimnaziale \u201eNicolae Jechianu\u201d Vr\u00e2ncioaia.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2857',
+      },
+    ],
+  },
+  {
+    name: 'Dr\u0103gan Dorina',
+    party: 'Independent',
+    position: 'Func\u021bionar public \u00een cadrul Prim\u0103riei comunei Boldu',
+    position_type: 'other',
+    geography: {
+      county: 'Buz\u0103u',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei comunei Boldu, jude\u021bul Buz\u0103u.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iunie 2019 c\u0103, \u00een perioada 1 octombrie 2011 - 11 ianuarie 2019, a exercitat simultan func\u021bia public\u0103 de consilier \u00een cadrul prim\u0103riei \u0219i o func\u021bie contractual\u0103 \u00een cadrul \u0218colii Gimnaziale Boldu.',
+    verified_at: '2026-06-22',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2857',
       },
     ],
   },
