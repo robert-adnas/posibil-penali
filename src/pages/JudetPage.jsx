@@ -10,7 +10,7 @@ import {
   getScopeSearch,
   readScopeFromSearchParams,
 } from '../utils/filterParams';
-import { DATA_SCOPE } from '../utils/politicalScope';
+import { countDataScopes, DATA_SCOPE } from '../utils/politicalScope';
 import { getCounty, getCountySlug, matchesCountySlug } from '../utils/geography';
 import { getRomaniaCountyNameBySlug } from '../utils/romaniaCountyMap';
 import { ThemeToggle } from '../components/ThemeToggle';
@@ -36,11 +36,15 @@ export function JudetPage() {
     ...createDefaultFilters(),
     scope,
   }), [scope]);
-  const { scopeData, scopeTotals } = useData({ filters });
+  const { allData, scopeData } = useData({ filters });
   const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
   const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
   const isExtendedScope = scope === DATA_SCOPE.ALL;
   const fallbackCounty = getRomaniaCountyNameBySlug(slug);
+  const contextScopeTotals = useMemo(
+    () => countDataScopes(allData, (politician) => matchesCountySlug(politician, slug)),
+    [allData, slug]
+  );
 
   const setScope = useCallback((includeExtendedArchive) => {
     const next = applyScopeToSearchParams(searchParams, includeExtendedArchive);
@@ -164,8 +168,8 @@ export function JudetPage() {
             <ArchiveScopeToggle
               checked={isExtendedScope}
               onChange={setScope}
-              allTotal={scopeTotals[DATA_SCOPE.ALL]}
-              politicalTotal={scopeTotals[DATA_SCOPE.POLITICAL]}
+              allTotal={contextScopeTotals[DATA_SCOPE.ALL]}
+              politicalTotal={contextScopeTotals[DATA_SCOPE.POLITICAL]}
             />
           </div>
 

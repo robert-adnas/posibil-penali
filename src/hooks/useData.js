@@ -4,7 +4,11 @@ import { buildDataset } from '../../data/buildDataset.js';
 import { nameToSlug } from '../utils/slug.js';
 import { parsePrejudiciuEur } from '../utils/parsePrejudiciu.js';
 import { createDefaultFilters, normalizeFilters } from '../utils/filterParams.js';
-import { DATA_SCOPE, isPoliticalActor, matchesDataScope } from '../utils/politicalScope.js';
+import {
+  countDataScopes,
+  isPoliticalActor,
+  matchesDataScope,
+} from '../utils/politicalScope.js';
 
 const dataset = buildDataset(rawData);
 const allData = dataset.politicians;
@@ -50,11 +54,7 @@ export function useData(options = {}) {
     return allData.filter((politician) => matchesDataScope(politician, filters.scope));
   }, [filters.scope]);
 
-  const scopeTotals = useMemo(() => ({
-    [DATA_SCOPE.POLITICAL]: politicalData.length,
-    [DATA_SCOPE.ALL]: allData.length,
-    excluded: allData.length - politicalData.length,
-  }), [politicalData]);
+  const scopeTotals = useMemo(() => countDataScopes(allData), []);
 
   const parties = useMemo(() => {
     return toSortedCounts(

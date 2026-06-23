@@ -10,7 +10,7 @@ import {
   getScopeSearch,
   readScopeFromSearchParams,
 } from '../utils/filterParams';
-import { DATA_SCOPE } from '../utils/politicalScope';
+import { countDataScopes, DATA_SCOPE } from '../utils/politicalScope';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { ArchiveScopeToggle } from '../components/ArchiveScopeToggle';
 
@@ -34,10 +34,14 @@ export function StatusPage() {
     ...createDefaultFilters(),
     scope,
   }), [scope]);
-  const { scopeData, scopeTotals } = useData({ filters });
+  const { allData, scopeData } = useData({ filters });
   const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
   const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
   const isExtendedScope = scope === DATA_SCOPE.ALL;
+  const contextScopeTotals = useMemo(
+    () => countDataScopes(allData, (politician) => politician.status === statusKey),
+    [allData, statusKey]
+  );
 
   const setScope = useCallback((includeExtendedArchive) => {
     const next = applyScopeToSearchParams(searchParams, includeExtendedArchive);
@@ -125,8 +129,8 @@ export function StatusPage() {
             <ArchiveScopeToggle
               checked={isExtendedScope}
               onChange={setScope}
-              allTotal={scopeTotals[DATA_SCOPE.ALL]}
-              politicalTotal={scopeTotals[DATA_SCOPE.POLITICAL]}
+              allTotal={contextScopeTotals[DATA_SCOPE.ALL]}
+              politicalTotal={contextScopeTotals[DATA_SCOPE.POLITICAL]}
             />
           </div>
 

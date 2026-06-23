@@ -89,6 +89,24 @@ export function isPoliticalActor(person) {
   return PARTY_ROLE_PATTERNS.some((pattern) => pattern.test(roleText));
 }
 
+export function countDataScopes(data, predicate = () => true) {
+  let all = 0;
+  let political = 0;
+
+  data.forEach((person) => {
+    if (!predicate(person)) return;
+
+    all += 1;
+    if (isPoliticalActor(person)) political += 1;
+  });
+
+  return {
+    [DATA_SCOPE.POLITICAL]: political,
+    [DATA_SCOPE.ALL]: all,
+    excluded: all - political,
+  };
+}
+
 export function matchesDataScope(person, scope) {
   return isExtendedDataScope(scope) || isPoliticalActor(person);
 }
