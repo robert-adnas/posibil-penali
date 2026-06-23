@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-22',
+  last_updated: '2026-06-23',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -77388,6 +77388,250 @@ export const politicianAdditions = [
         label: 'ANI',
         kind: 'official',
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2857',
+      },
+    ],
+  },
+  {
+    name: 'Popescu Adrian',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local \u0219i Consiliul Jude\u021bean Bac\u0103u (2024); fost vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 evaluat\u0103 de ANI era cea de vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een aprilie 2022 c\u0103, \u00een mandatul 2016-2020, a exercitat simultan func\u021bia de vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u \u0219i calitatea de membru al Consiliului de Administra\u021bie al Registrului Auto Rom\u00e2n.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3185',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Tanas\u0103 Carmen',
+    party: 'AUR',
+    position:
+      'Candidat\u0103 AUR la Consiliul Local Bode\u0219ti (2024); func\u021bionar public \u00een cadrul Prim\u0103riei T\u00e2rgu Neam\u021b',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neam\u021b',
+      basis: 'office',
+      note:
+        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Prim\u0103riei ora\u0219ului T\u00e2rgu Neam\u021b, jude\u021bul Neam\u021b.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een ianuarie 2021 c\u0103, \u00een perioada \u00een care era director \u00een cadrul Agen\u021biei Na\u021bionale pentru Resurse Minerale, a semnat ordine privind deta\u0219area so\u021bului s\u0103u de la o societate comercial\u0103 la institu\u021bia public\u0103.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3037',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Varodi Ioan',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local C\u00e2mpia Turzii (2024); fost consilier local',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note:
+        'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al municipiului C\u00e2mpia Turzii, jude\u021bul Cluj.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een septembrie 2020 c\u0103, \u00eencep\u00e2nd cu 28 noiembrie 2017, a exercitat simultan func\u021bia de consilier local \u0219i calitatea de administrator, membru al consiliului de administra\u021bie al unei societ\u0103\u021bi al c\u0103rei ac\u021bionar unic era Consiliul Jude\u021bean Cluj.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3004',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Mare\u0219 Cosmin-R\u0103zvan',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local Deva (2024); fost viceprimar \u0219i consilier local',
+    position_type: 'local_official',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note:
+        'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al municipiului Deva, jude\u021bul Hunedoara.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een august 2019 c\u0103, \u00een mandatul de consilier local 2016-2020, a participat la deliberarea \u0219i adoptarea a patru hot\u0103r\u00e2ri prin care municipiul Deva a acordat Asocia\u021biei Fotbal Club Autobergamo finan\u021b\u0103ri nerambursabile de 500.000 \u0219i 450.000 lei; ulterior, a f\u0103cut parte dintr-o delega\u021bie a asocia\u021biei la Madrid.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2870',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-si-conflict-de-interese-administrativ-4-alesi-locali-19087978',
+      },
+    ],
+  },
+  {
+    name: 'Dr\u0103ghia Dorel',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local C\u0103line\u0219ti (2024); fost consilier local',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arge\u0219',
+      basis: 'office',
+      note:
+        'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al comunei C\u0103line\u0219ti, jude\u021bul Arge\u0219.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een iulie 2017 c\u0103, \u00eencep\u00e2nd cu 21 iunie 2012, a exercitat simultan calitatea de consilier local \u0219i func\u021bia contractual\u0103 de asistent personal \u00een cadrul Prim\u0103riei comunei C\u0103line\u0219ti.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2585',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Cr\u0103ciun Dumitru',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Goruia (2024); fost primar al comunei',
+    position_type: 'mayor',
+    geography: {
+      county: 'Cara\u0219-Severin',
+      basis: 'office',
+      note:
+        'Func\u021bia evaluat\u0103 de ANI era cea de primar al comunei Goruia, jude\u021bul Cara\u0219-Severin.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 20 iunie 2012 - 4 martie 2016, a de\u021binut simultan func\u021bia de primar, func\u021bia de cenzor al unei societ\u0103\u021bi comerciale \u0219i calitatea de comerciant persoan\u0103 fizic\u0103 autorizat\u0103.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2355',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Birin Ion',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local V\u00e2lcele (2024); fost primar \u0219i consilier local',
+    position_type: 'mayor',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note:
+        'Func\u021biile evaluate de ANI erau cele de primar \u0219i consilier local al comunei V\u00e2lcele, jude\u021bul Olt.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 27 ianuarie 2010 - 24 iunie 2012, a de\u021binut simultan func\u021bia de primar \u0219i func\u021bia de manager de proiect, ob\u021bin\u00e2nd venituri de 108.732 lei.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2352',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Predica Ioan',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local Mioveni (2024); fost consilier jude\u021bean Arge\u0219 \u0219i inspector-\u0219ef',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arge\u0219',
+      basis: 'office',
+      note:
+        'Mandatul \u0219i func\u021bia evaluate de ANI erau \u00een cadrul Consiliului Jude\u021bean Arge\u0219 \u0219i al Unit\u0103\u021bii de Administrare Arge\u0219.',
+    },
+    crime: 'Avere nejustificat\u0103',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een mai 2015 o diferen\u021b\u0103 nejustificat\u0103 de 95.272 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bia sa \u00een perioada 21 iunie 2008 - 31 decembrie 2010 \u0219i a sesizat Comisia de cercetare a averilor a Cur\u021bii de Apel Pite\u0219ti.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=1941',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
     ],
   },
