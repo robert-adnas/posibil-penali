@@ -10558,6 +10558,84 @@ const AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS = [
 ];
 
 export const politicianOverrides = {
+  'Petru Toadere': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local C\u0103l\u0103\u021bele (2024); fost primar al comunei C\u0103l\u0103\u021bele',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  'Botea Viorel': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Camera Deputa\u021bilor \u00een Br\u0103ila (2024); fost reprezentant al Consiliului Jude\u021bean Br\u0103ila \u00een conducerea spitalului jude\u021bean',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi parlamentare 2024',
+        kind: 'official',
+        url: 'https://parlamentare2024.bec.ro/wp-content/uploads/2024/11/Candidati_CD.xlsx',
+      },
+    ],
+  },
+  'Horescu Petri\u0219or': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local Doma\u0219nea (2024); viceprimar al comunei Doma\u0219nea',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  'Pachi\u021bac Dumitru C\u0103t\u0103lin': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local Dume\u0219ti (2024); viceprimar al comunei Dume\u0219ti',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  '\u0218erban Ionu\u021b': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local Pope\u0219ti-Leordeni (2024); fost consilier local',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  'Mitran Constantin': {
+    party: 'AUR',
+    position:
+      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local Pope\u0219ti-Leordeni (2024); fost consilier local',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
   'Daniel Tudorache': {
     replace_sources: true,
     case_name: 'Dosarul diamantelor',
@@ -77632,6 +77710,340 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Ardelean Petru',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Vadu Izei (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local al comunei Vadu Izei, jude\u021bul Maramure\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Ardelean Petru a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Chiriac Constantin',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Jijila (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Tulcea',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local Jijila, jude\u021bul Tulcea; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Trafic de influen\u021b\u0103',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 21 noiembrie 2014: Chiriac Constantin a fost condamnat la 2 ani de \u00eenchisoare cu suspendare pentru trafic de influen\u021b\u0103, dup\u0103 ce a pretins 2.000 de euro pentru a interveni pe l\u00e2ng\u0103 examinatori auto.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5674',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Marina Ioan',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Rona de Jos (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local al comunei Rona de Jos, jude\u021bul Maramure\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Marina Ioan a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Muntean Ioan',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local \u0218tiuca (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timi\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local \u0218tiuca, jude\u021bul Timi\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Tentativ\u0103 de fraud\u0103 cu fonduri europene',
+    sentence: '2 ani \u0219i 6 luni \u00eenchisoare cu executare',
+    sentence_years: 2.5,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat c\u0103 decizia definitiv\u0103 din 12 mai 2011 a stabilit executarea unei pedepse de 2 ani \u0219i 6 luni de \u00eenchisoare pentru tentativ\u0103 la folosirea de documente false sau inexacte \u00een vederea ob\u021binerii pe nedrept de fonduri europene.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2396',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Ni\u021b\u0103 Ion',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Sf\u00e2ntu Gheorghe (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ialomi\u021ba',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local Sf\u00e2ntu Gheorghe, jude\u021bul Ialomi\u021ba; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Complicitate la abuz \u00een serviciu cu consecin\u021be deosebit de grave',
+    sentence: '2 ani \u0219i 6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 2.5,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 24 mai 2013: Ni\u021b\u0103 Ion, reprezentant al unei societ\u0103\u021bi comerciale, a fost condamnat la 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare pentru complicitate la abuz \u00een serviciu cu consecin\u021be deosebit de grave.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4119',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Popa Gheorghi\u021b\u0103',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Tite\u0219ti (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local Tite\u0219ti, jude\u021bul V\u00e2lcea; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 14 mai 2010: Popa Gheorghi\u021b\u0103 a fost condamnat la 2 ani de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1926',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'R\u0103descu Bogdan',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Boteni (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arge\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local Boteni, jude\u021bul Arge\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '2 ani \u00eenchisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 decizia definitiv\u0103 din 7 ianuarie 2013 l-a condamnat pe R\u0103descu Bogdan la 2 ani de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103; hot\u0103r\u00e2rea a contopit pedeapsa cu o condamnare pentru conducere sub influen\u021ba alcoolului.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3882',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Rednic Vasile',
+    party: 'AUR',
+    position: 'Candidat AUR la Consiliul Local Petrova (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura AUR din 2024 era pentru Consiliul Local Petrova, jude\u021bul Maramure\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Rednic Vasile a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        kind: 'press',
+        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+      },
+    ],
+  },
+  {
+    name: 'Cristea Cristian Traian',
+    party: 'AUR',
+    position:
+      'Candidat AUR la Consiliul Local Avram Iancu (2020); fost viceprimar al comunei Avram Iancu',
+    position_type: 'local_official',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note:
+        'Func\u021bia evaluat\u0103 de ANI era cea de viceprimar al comunei Avram Iancu, jude\u021bul Alba.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat \u00een noiembrie 2020 c\u0103, \u00een perioada 23 iunie 2016 - 19 august 2020, a exercitat simultan func\u021bia de viceprimar al comunei Avram Iancu \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale.',
+    verified_at: '2026-06-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3027&PID=20',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Alba 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AB.xls',
       },
     ],
   },
