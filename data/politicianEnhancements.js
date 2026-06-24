@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-23',
+  last_updated: '2026-06-24',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -78044,6 +78044,344 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale Alba 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AB.xls',
+      },
+    ],
+  },
+  {
+    name: 'Floroiu Laurențiu Constantin',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat, trafic de influență și dare de mită',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Floroiu Laurențiu Constantin a primit 3 ani de închisoare pentru constituire a unui grup infracțional organizat, trafic de influență și dare de mită.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Nicolae',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Anghel Nicolae a primit 3 ani de închisoare pentru constituire a unui grup infracțional organizat.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Tudoroiu Constantin Izabel',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime:
+      'Constituire a unui grup infracțional organizat, fals material în înscrisuri oficiale, trafic de influență și complicitate la trafic de influență',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Tudoroiu Constantin Izabel a primit 3 ani de închisoare pentru constituire a unui grup infracțional organizat, fals material, trafic de influență și complicitate la trafic de influență.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Boroiu-Badea Florin',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat',
+    sentence: '3 ani și 6 luni închisoare',
+    sentence_years: 3.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Boroiu-Badea Florin a primit 3 ani și 6 luni de închisoare pentru constituire a unui grup infracțional organizat.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Dumitrescu Eduard Constantin',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime:
+      'Constituire a unui grup infracțional organizat, trafic de influență, fals material în înscrisuri oficiale și dare de mită',
+    sentence: '2 ani închisoare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Dumitrescu Eduard Constantin a primit 2 ani de închisoare pentru constituire a unui grup infracțional organizat, trafic de influență, fals material și dare de mită.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Stoica Florin',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '1 an și 6 luni închisoare',
+    sentence_years: 1.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Stoica Florin a primit 1 an și 6 luni de închisoare pentru cumpărare de influență.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Stancu Marian',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Stancu Marian a primit 1 an și 6 luni de închisoare cu suspendare pentru cumpărare de influență.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Bădulici Doina',
+    party: 'Independent',
+    position: 'Inculpată în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Complicitate la luare de mită și trafic de influență',
+    sentence: '1 an și 9 luni închisoare cu suspendare',
+    sentence_years: 1.75,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Bădulici Doina a primit 1 an și 9 luni de închisoare cu suspendare pentru complicitate la luare de mită și trafic de influență.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Ene Florin Aurelian',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat',
+    sentence: '4 ani închisoare cu suspendare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Ene Florin Aurelian a primit 4 ani de închisoare cu suspendare pentru constituire a unui grup infracțional organizat.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Dinculescu Marin',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat',
+    sentence: '4 ani închisoare cu suspendare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Dinculescu Marin a primit 4 ani de închisoare cu suspendare pentru constituire a unui grup infracțional organizat.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Epure Marius',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Epure Marius a primit 3 ani de închisoare cu suspendare pentru constituire a unui grup infracțional organizat.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Silveanu Florian Mircea',
+    party: 'Independent',
+    position: 'Inculpat în dosarul permiselor auto din Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'case_location',
+      note:
+        'Cauza DNA viza rețeaua legată de S.P.C.R.P.C.I.V. Argeș și obținerea frauduloasă a permiselor auto.',
+    },
+    crime: 'Constituire a unui grup infracțional organizat și trafic de influență',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 aprilie 2014 în dosarul permiselor auto din Argeș: Silveanu Florian Mircea a primit 2 ani de închisoare cu suspendare pentru constituire a unui grup infracțional organizat și trafic de influență.',
+    verified_at: '2026-06-24',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
       },
     ],
   },
