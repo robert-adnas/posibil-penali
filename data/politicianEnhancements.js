@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-24',
+  last_updated: '2026-06-25',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -10556,6 +10556,137 @@ const AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS = [
   ...AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS,
   ...AUTOMATED_JUN_16_2026_POPESTI_LEORDENI_RECORDS,
 ];
+
+const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES = {
+  becLocal2024: {
+    label: 'BEC - candidaturi locale 2024',
+    kind: 'official',
+    url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+  },
+  hartaCoruptiei: {
+    label: 'Romania Curata - Harta coruptiei',
+    kind: 'press',
+    url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+  },
+};
+
+const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
+  ["Suciu Ioan", "PMP", "Arad", "Consiliul Local Apateu", "local_official", "3134", 10, true, 2012, "29/03/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Sarpe Ionel Petrisor", "PSD", "Arge\u0219", "Consiliul Local Bradu", "local_official", "1927", 24, true, 2010, "21/06/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Darie Irinel", "PNL", "Bac\u0103u", "Consiliul Local ora\u0219ul Com\u0103ne\u015fti", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Galatanu Costica", "PMP", "Bac\u0103u", "Consiliul Local Orbeni", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Ichim Ion", "PNL", "Bac\u0103u", "Consiliul Local Parava", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Maxim Valentin", "PSD", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "2669", 8, true, 2011, "08/09/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Olaru Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local M\u0103n\u0103stirea Ca\u015fin", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Rusu Romel", "PNL", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "3620", 8, true, 2012, "19/10/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Tataru Vasile", "PNL", "Bac\u0103u", "Consiliul Local Lipova", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Toma Marian Gelu", "PSD", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "2669", 8, true, 2011, "08/09/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Savu Mihai Christian", "PSD", "Bra\u0219ov", "Consiliul Local Ucea", "local_official", "2432", 12, true, 2011, "24/05/2011", "Persoana fara calitate speciala", "Nu este cazul", true],
+  ["Dinu Marian", "PSD", "Buz\u0103u", "Consiliul Local Ulmeni", "local_official", "3174", 48, true, 2012, "10/04/2012", "Reprezentant", "Societate comerciala", false],
+  ["Maris Vasile", "PMP", "Cluj", "Consiliul Local M\u0103guri-R\u0103c\u0103t\u0103u", "local_official", "5728", 5, true, 2014, "18/12/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Dedu Dumitru", "PSD", "Constan\u021ba", "Consiliul Jude\u021bean Constan\u021ba", "local_official", "4477", 18, true, 2013, "20/11/2013", "Persoana fara calitate speciala", "Nu este cazul", true],
+  ["Popescu Elena", "PNL", "Dolj", "Consiliul Local Castranova", "local_official", "5154", 33, true, 2014, "08/07/2014", "Persoana fara calitate speciala", "Nu este cazul", true],
+  ["Coman Valentin", "PSD", "Gala\u021bi", "Consiliul Local Dr\u0103g\u0103ne\u015fti", "local_official", "5004", 36, true, 2014, "15/05/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Zaharia Ion", "USR", "Ialomi\u021ba", "Consiliul Local Gura Ialomi\u0163ei", "local_official", "4119", 42, false, 2013, "24/05/2013", "Reprezentant", "Societate comerciala", false],
+  ["Apetrei Consela", "PSD", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "5675", 29, true, 2014, "19/11/2014", "Angajat", "Societate comerciala", true],
+  ["Catargiu Dumitru", "PNL", "Ia\u0219i", "Consiliul Local ora\u0219ul H\u00e2rl\u0103u", "local_official", "4973", 48, true, 2014, "28/05/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Rusu Doina", "PSD", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "5675", 30, true, 2014, "19/11/2014", "Angajat", "Societate comerciala", true],
+  ["Nicolae Marin", "PNL", "Ilfov", "Consiliul Local Petr\u0103chioaia", "local_official", "3272", 36, false, 2012, "16/05/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Balea Ioan", "PSD", "Maramure\u0219", "Consiliul Local Once\u015fti", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Borca Vasile", "PSD", "Maramure\u0219", "Consiliul Local B\u00e2rsana", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Bosca Ioan Daniel", "PNL", "Maramure\u0219", "Consiliul Local Rona De Jos", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Chira Maria", "PSD", "Maramure\u0219", "Consiliul Local L\u0103pu\u015f", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Coman Vasile", "PSD", "Maramure\u0219", "Consiliul Local Moisei", "local_official", "2361", 24, false, 2011, "27/04/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Danci Maria", "PUSL", "Maramure\u0219", "Consiliul Local S\u0103cel", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Hodor Ioan", "PNL", "Maramure\u0219", "Consiliul Local B\u00e2rsana", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Iuga Mariana", "USR", "Maramure\u0219", "Consiliul Local ora\u0219ul S\u0103li\u015ftea De Sus", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Nan Ioan", "PNL", "Maramure\u0219", "Consiliul Local \u015eieu", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Petreus Ioan", "USR", "Maramure\u0219", "Consiliul Local Botiza", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Pop Lucian", "USR", "Maramure\u0219", "Consiliul Local Recea", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Roman Ioan Marian", "PNL", "Maramure\u0219", "Consiliul Local C\u00e2mpulung La Tisa", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Moldovan Ioan", "PSD", "Mure\u0219", "Consiliul Local municipiul T\u00e2rn\u0103veni", "local_official", "3987", 12, true, 2013, "18/03/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Pal Imre", "UDMR", "Mure\u0219", "Consiliul Local ora\u0219ul Ludu\u015f", "local_official", "5680", 24, true, 2014, "19/11/2014", "Persoana fara calitate speciala", "Nu este cazul", true],
+  ["Chirila Alexandru Teodor", "PNL", "Neam\u021b", "Consiliul Local Poiana Teiului", "local_official", "5532", 6, true, 2014, "21/10/2014", "Reprezentant", "Societate comerciala", false],
+  ["Ciobanu Petrica", "PUSL", "Neam\u021b", "Consiliul Local municipiul Roman", "local_official", "3066", 4, true, 2012, "12/03/2012", "Reprezentant", "Societate comerciala", false],
+  ["Predut Marius-Marinel", "PSD", "Olt", "Consiliul Local ora\u0219ul Piatra-Olt", "local_official", "5110", 16, true, 2014, "30/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Pirvan Ion", "PSD", "Prahova", "Consiliul Local B\u0103l\u0163e\u015fti", "local_official", "4356", 12, true, 2013, "26/09/2013", "Sofer", "Societate comerciala", false],
+  ["Stoica Niculae", "PNL", "Prahova", "Consiliul Local Gherghi\u0163a", "local_official", "2830", 36, false, 2011, "29/11/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Gabri Gabor Sandor", "PSD", "Satu Mare", "Consiliul Local Porumbe\u015fti", "local_official", "3771", 78, false, 2012, "14/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Olah Nicolae", "PNL", "Satu Mare", "Consiliul Local Porumbe\u015fti", "local_official", "3771", 54, false, 2012, "14/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Savu Ion", "PNL", "Satu Mare", "Consiliul Local Bixad", "local_official", "4766", 45, false, 2014, "21/03/2014", "Om de afaceri", "Societate comerciala", false],
+  ["Stanca Toma-Stefan", "PNL", "Sibiu", "Consiliul Local Tili\u015fca", "local_official", "5029", 6, true, 2014, "21/05/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Olaru Florin Costica", "PSD", "Suceava", "Consiliul Local municipiul Suceava", "local_official", "4080", 18, true, 2013, "29/04/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Dumitrescu Gheorghe", "PSD", "V\u00e2lcea", "Consiliul Local ora\u0219ul Brezoi", "local_official", "3969", 48, true, 2013, "13/03/2013", "Asociat", "Societate comerciala", false],
+  ["Cirnu Marin", "PNL", "Vrancea", "Consiliul Local Pope\u015fti", "local_official", "2054", 36, true, 2010, "24/11/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
+];
+
+function formatAutomatedSentence(months, suspended) {
+  const years = Math.floor(months / 12);
+  const remainingMonths = months % 12;
+  const parts = [];
+
+  if (years > 0) parts.push(`${years} ${years === 1 ? 'an' : 'ani'}`);
+  if (remainingMonths > 0) {
+    parts.push(`${remainingMonths} ${remainingMonths === 1 ? 'lun\u0103' : 'luni'}`);
+  }
+
+  return `${parts.join(' \u0219i ')} \u00eenchisoare ${suspended ? 'cu suspendare' : 'cu executare'}`;
+}
+
+const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS =
+  AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS.map(([
+    name,
+    party,
+    county,
+    candidateTarget,
+    positionType,
+    dnaId,
+    sentenceMonths,
+    suspended,
+    convictionYear,
+    convictionDate,
+    sourceRole,
+    sourceInstitution,
+    euFunds,
+  ]) => ({
+    name,
+    party,
+    position: `Candidat ${party} la ${candidateTarget} (2024)`,
+    position_type: positionType,
+    geography: {
+      county,
+      basis: 'political_base',
+      note:
+        `Candidatura din registrul oficial BEC 2024 era pentru ${candidateTarget}, jude\u021bul ${county}.`,
+    },
+    crime: euFunds
+      ? 'Fapte de corup\u021bie legate de fonduri europene'
+      : 'Fapte de corup\u021bie / infrac\u021biuni asimilate corup\u021biei',
+    sentence: formatAutomatedSentence(sentenceMonths, suspended),
+    sentence_years: Number((sentenceMonths / 12).toFixed(2)),
+    conviction_year: convictionYear,
+    status: 'convicted',
+    execution_type: suspended ? 'Cu suspendare' : 'Cu executare',
+    details:
+      `Potrivit datelor DNA indexate \u00een Harta corup\u021biei, condamnarea definitiv\u0103 a fost pronun\u021bat\u0103 la ${convictionDate}. ` +
+      `Func\u021bia consemnat\u0103 \u00een sursa de condamnare: ${sourceRole} \u00een ${sourceInstitution}. ` +
+      `Registrul oficial BEC 2024 listeaz\u0103 acela\u0219i nume drept candidat ${party} la ${candidateTarget}.`,
+    verified_at: '2026-06-25',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
+      },
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
+        description:
+          `Randul CSV pentru ${name} indica judetul ${county}, pedeapsa de ${sentenceMonths} luni ` +
+          `si condamnarea din ${convictionDate}.`,
+      },
+    ],
+  }));
 
 export const politicianOverrides = {
   'Petru Toadere': {
@@ -25857,6 +25988,7 @@ export const politicianAdditions = [
     ],
   },
   ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
