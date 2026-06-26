@@ -10688,6 +10688,287 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS =
     ],
   }));
 
+const AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES = {
+  ani3165: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3165',
+  },
+  ani3178: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3178',
+  },
+  ani3183: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3183',
+  },
+  ani3184: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3184',
+  },
+  ani3185: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3185',
+  },
+  ani3186: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3186',
+  },
+  ani3193: {
+    label: 'ANI',
+    kind: 'official',
+    url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3193',
+  },
+  grozaParty: {
+    label: 'Primaria Moneasa',
+    kind: 'official',
+    url: 'https://primariamoneasa.ro/wp-content/uploads/2022/07/DI-GROZA-RAUL-GICU.pdf',
+  },
+  taraParty: {
+    label: 'Primaria Rau Sadului',
+    kind: 'official',
+    url: 'https://riusadului.ro/consiliul-local/componenta-consiliului-local/',
+  },
+  zahariaParty: {
+    label: 'Vasluianul',
+    kind: 'press',
+    url: 'https://vasluianul.ro/fostul-primar-al-comunei-stanilesti-a-pierdut-procesul-cu-ani-nu-va-putea-candida-in-2024/',
+  },
+  ionMarianParty: {
+    label: 'Canal Sud',
+    kind: 'press',
+    url: 'https://canalsud.ro/consilier-local-psd-din-belciugatele-declarat-incompatibil-definitiv-locul-sau-ocupat-de-un-coleg-de-partid/',
+  },
+  raiciuParty: {
+    label: 'Primaria Municipiului Bucuresti',
+    kind: 'official',
+    url: 'https://www2.pmb.ro/institutii/cgmb/componenta/consilieri/consilieri.php',
+  },
+};
+
+const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Zaharia Liviu',
+    party: 'PNL',
+    position: 'Fost primar al comunei Stănilești, județul Vaslui',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Stănilești, județul Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în calitate de primar, a emis acte administrative care au produs un avantaj patrimonial pentru sine și pentru fiul său.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3165,
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.zahariaParty,
+    ],
+  },
+  {
+    name: 'Groza Raul Gicu',
+    party: 'Pro Romania',
+    position: 'Viceprimar al comunei Moneasa, județul Arad',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de viceprimar al comunei Moneasa, județul Arad.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în perioada 22 iunie 2016 - 29 octombrie 2020, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3165,
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.grozaParty,
+    ],
+  },
+  {
+    name: 'Tara Florian Vasile',
+    party: 'PNL',
+    position: 'Fost primar al comunei Râu Sadului, județul Sibiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Râu Sadului, județul Sibiu.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în mandatul 2016-2020, a exercitat simultan funcția de primar și calitatea de administrator al unei societăți comerciale.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3178,
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.taraParty,
+    ],
+  },
+  {
+    name: 'Ion Marian',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local Belciugatele, județul Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul Local Belciugatele, județul Călărași.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în perioada 27 octombrie 2020 - 22 martie 2021, a exercitat simultan funcția de consilier local și funcția de șef al Serviciului Voluntar pentru Situații de Urgență.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3178,
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ionMarianParty,
+    ],
+  },
+  {
+    name: 'Taifas Marian',
+    party: 'PSD',
+    position: 'Primar al comunei Horia, județul Tulcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Horia, județul Tulcea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în perioada exercitării mandatului de primar, a deținut și exercitat simultan calități incompatibile cu funcția publică.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3183,
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+    ],
+  },
+  {
+    name: 'Badea Valeria',
+    party: 'Independent',
+    position: 'Fost manager al Spitalului Clinic de Obstetrică Ginecologie "Dr. Ioan Aurel Sbarcea" Brașov',
+    position_type: 'other',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul spitalului clinic din Brașov.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 o stare de incompatibilitate în legătură cu exercitarea funcției de manager al unității sanitare.',
+    verified_at: '2026-06-26',
+    sources: [AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3184],
+  },
+  {
+    name: 'Raiciu Anca Daniela',
+    party: 'PSD',
+    position: 'Consilier general în Consiliul General al Municipiului București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Consiliul General al Municipiului București.',
+    },
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2022 conflict de interese administrativ și a sesizat Parchetul în legătură cu indicii privind folosirea funcției pentru favorizarea unor persoane.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3185,
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.raiciuParty,
+    ],
+  },
+  {
+    name: 'Dumitriu Monica-Loredana',
+    party: 'Independent',
+    position: 'Director adjunct în Direcția supervizare sistem din cadrul Agenției Naționale pentru Achiziții Publice',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Agenției Naționale pentru Achiziții Publice, instituție centrală cu sediul în București.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2022 o stare de incompatibilitate în legătură cu exercitarea unei funcții de conducere în cadrul ANAP.',
+    verified_at: '2026-06-26',
+    sources: [AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3186],
+  },
+  {
+    name: 'Ionac Mihai Edmond',
+    party: 'Independent',
+    position: 'Șef secție Chirurgie Vasculară în cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara',
+    position_type: 'other',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Spitalului Clinic Județean de Urgență Timișoara, județul Timiș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2022 un conflict de interese administrativ în legătură cu exercitarea funcției de șef de secție în unitatea sanitară.',
+    verified_at: '2026-06-26',
+    sources: [AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3186],
+  },
+  {
+    name: 'Raclariu Alexandrina',
+    party: 'PNL',
+    position: 'Primar al comunei Crăcăoani, județul Neamț',
+    position_type: 'mayor',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Crăcăoani, județul Neamț.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2021 că, în calitate de primar, a semnat dispoziția privind numirea fiului său în funcția de administrator public al comunei și contractul de management aferent.',
+    verified_at: '2026-06-26',
+    sources: [
+      AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3193,
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+    ],
+  },
+  {
+    name: 'Petrovan Ioan',
+    party: 'PNL',
+    position: 'Viceprimar și fost consilier local al comunei Șieu, județul Maramureș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în administrația locală a comunei Șieu, județul Maramureș.',
+    },
+    crime: 'Incompatibilitate; conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2022 incompatibilitate și conflict de interese administrativ în legătură cu exercitarea mandatului de consilier local și ulterior a funcției de viceprimar.',
+    verified_at: '2026-06-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+    ],
+  },
+];
+
 export const politicianOverrides = {
   'Petru Toadere': {
     party: 'AUR',
@@ -25989,6 +26270,7 @@ export const politicianAdditions = [
   },
   ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
+  ...AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
