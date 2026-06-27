@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-25',
+  last_updated: '2026-06-27',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -10968,6 +10968,83 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
 ];
+
+const AUTOMATED_JUN_27_2026_MORE_PEOPLE_SOURCES = {
+  hartaCoruptiei: {
+    label: 'Romania Curata - Harta coruptiei',
+    kind: 'press',
+    url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+  },
+};
+
+const AUTOMATED_JUN_27_2026_PUBLIC_OFFICIAL_ROWS = [
+  ['Anghelina Florian', 'Arges', 'Inspector', 'Inspectoratul teritorial de munca (MMFPS)', '4705', 24, true, 2014, '04/03/2014', false],
+  ['Avram Adrian', 'Bucuresti', 'Agent politie', 'Politie (MAI)', '3483', 24, true, 2012, '03/07/2012', false],
+  ['Borpan Eugenia', 'Maramures', 'Cadru didactic', 'Cadru didactic (MECS)', '5140', 12, true, 2014, '25/06/2014', false],
+  ['Capraru Adrian', 'Valcea', 'Sef serviciu', 'Directia generala a finantelor publice', '3969', 24, true, 2013, '13/03/2013', false],
+  ['Casuneanu Adrian', 'Suceava', 'Comisar', 'Garda nationala de mediu', '4080', 30, true, 2013, '29/04/2013', false],
+  ['Cimpoaie Adrian', 'Constanta', 'Inspector', 'Directia generala a finantelor publice', '3942', 36, true, 2013, '28/02/2013', false],
+  ['Ciugudean Adrian', 'Alba', 'Agent politie', 'Politie (MAI)', '3558', 36, true, 2012, '26/09/2012', false],
+  ['Cotea Florin', 'Bucuresti', 'Ofiter politie', 'Politie (MAI)', '4879', 36, true, 2014, '30/04/2014', false],
+  ['Dumitrescu Adrian Cornel', 'Bucuresti', 'Agent politie', 'Politie (MAI)', '3483', 11, false, 2012, '03/07/2012', false],
+  ['Dumitrescu Alexandru', 'Arges', 'Inspector', 'Agentia nationala a medicamentului si dispozitivelor medicale', '4641', 36, true, 2014, '30/01/2014', false],
+  ['Dumitru Amelian', 'Arges', 'Inspector', 'Inspectoratul de stat in constructii (Ministerul Transporturilor)', '4519', 24, false, 2013, '04/12/2013', false],
+  ['Enan Aifer', 'Bucuresti', 'Ofiter', 'Serviciul roman de informatii', '4149', 42, true, 2013, '07/06/2013', false],
+  ['Filip Alexandru Bogdan', 'Ilfov', 'Inspector', 'Directia generala a finantelor publice', '4710', 24, true, 2014, '24/02/2014', false],
+  ['Floricica Adrian', 'Bucuresti', 'Ofiter politie', 'Politie (MAI)', '4368', 12, true, 2013, '01/10/2013', false],
+  ['Garaiman Alexandru', 'Arges', 'Ofiter politie', 'Politie (MAI)', '4999', 72, false, 2014, '05/06/2014', false],
+];
+
+const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_JUN_27_2026_PUBLIC_OFFICIAL_ROWS.map(([
+    name,
+    county,
+    sourceRole,
+    sourceInstitution,
+    dnaId,
+    sentenceMonths,
+    suspended,
+    convictionYear,
+    convictionDate,
+    euFunds,
+  ]) => ({
+    name,
+    party: 'Independent',
+    position: `${sourceRole} in ${sourceInstitution}`,
+    position_type: 'other',
+    geography: {
+      county,
+      basis: 'case_location',
+      note:
+        `Registrul Harta coruptiei localizeaza condamnarea in judetul ${county}; functia consemnata era ${sourceRole} in ${sourceInstitution}.`,
+    },
+    crime: euFunds
+      ? 'Fapte de coruptie legate de fonduri europene'
+      : 'Fapte de coruptie / infractiuni asimilate coruptiei',
+    sentence: formatAutomatedSentence(sentenceMonths, suspended),
+    sentence_years: Number((sentenceMonths / 12).toFixed(2)),
+    conviction_year: convictionYear,
+    status: 'convicted',
+    execution_type: suspended ? 'Cu suspendare' : 'Cu executare',
+    details:
+      `Potrivit datelor DNA indexate in Harta coruptiei, condamnarea definitiva a fost pronuntata la ${convictionDate}. ` +
+      `Functia consemnata in sursa de condamnare: ${sourceRole} in ${sourceInstitution}. ` +
+      'Nu am identificat o afiliere politica pentru functia publica respectiva, astfel ca inregistrarea este marcata Independent.',
+    verified_at: '2026-06-27',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
+      },
+      {
+        ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_SOURCES.hartaCoruptiei,
+        description:
+          `Randul CSV pentru ${name} indica judetul ${county}, pedeapsa de ${sentenceMonths} luni ` +
+          `si condamnarea din ${convictionDate}.`,
+      },
+    ],
+  }));
 
 export const politicianOverrides = {
   'Petru Toadere': {
@@ -26271,6 +26348,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
