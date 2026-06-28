@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-27',
+  last_updated: '2026-06-28',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -78874,6 +78874,468 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4857',
+      },
+    ],
+  },
+  {
+    name: 'Popa Ionu\u021b',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local As\u0103u (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local As\u0103u, jude\u021bul Bac\u0103u.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '8 luni \u00eenchisoare cu suspendare condi\u021bionat\u0103',
+    sentence_years: 0.67,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 14 noiembrie 2013: Popa Ionu\u021b a primit 8 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Bac\u0103u.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Bac\u0103u 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Ungureanu Viorel',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local S\u0103uce\u0219ti (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local S\u0103uce\u0219ti, jude\u021bul Bac\u0103u.',
+    },
+    crime: 'Complicitate la luare de mit\u0103',
+    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu executare',
+    sentence_years: 1.5,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 29 martie 2011: Ungureanu Viorel, instructor auto, a primit 1 an \u0219i 6 luni de \u00eenchisoare \u00een regim de deten\u021bie pentru complicitate la luare de mit\u0103.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2290',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Bac\u0103u 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Maftei C\u0103t\u0103lin',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local \u0218tefan cel Mare (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bac\u0103u',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local \u0218tefan cel Mare, jude\u021bul Bac\u0103u.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '8 luni \u00eenchisoare cu suspendare condi\u021bionat\u0103',
+    sentence_years: 0.67,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 14 noiembrie 2013: Maftei C\u0103t\u0103lin a primit 8 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Bac\u0103u.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Bac\u0103u 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Moldovan Marinela',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Apahida (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cluj',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Apahida, jude\u021bul Cluj.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103; fals material \u00een \u00eenscrisuri oficiale',
+    sentence: '2 ani \u0219i 4 luni \u00eenchisoare cu suspendare sub supraveghere',
+    sentence_years: 2.33,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 18 decembrie 2014: Moldovan Marinela a primit 2 ani \u0219i 4 luni de \u00eenchisoare cu suspendare sub supraveghere pentru cump\u0103rare de influen\u021b\u0103 \u0219i fals material \u00een \u00eenscrisuri oficiale, \u00een form\u0103 continuat\u0103.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5728',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Cluj 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CJ.xls',
+      },
+    ],
+  },
+  {
+    name: 'Schinteie Ion',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local C\u0103rbunari (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cara\u0219-Severin',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local C\u0103rbunari, jude\u021bul Cara\u0219-Severin.',
+    },
+    crime: 'Dare de mit\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare condi\u021bionat\u0103',
+    sentence_years: 0.5,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 9 aprilie 2013: Schinteie Ion a primit 6 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru dare de mit\u0103 \u00een dosarul PTF Naid\u0103\u0219.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4053',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Cara\u0219-Severin 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls',
+      },
+    ],
+  },
+  {
+    name: 'Grozav Maria',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Marga (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cara\u0219-Severin',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Marga, jude\u021bul Cara\u0219-Severin.',
+    },
+    crime: 'Complicitate la dare de mit\u0103',
+    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 22 aprilie 2014: Grozav Maria a primit 1 an \u0219i 6 luni de \u00eenchisoare cu suspendare pentru complicitate la dare de mit\u0103, \u00een dosarul instrumentat de Serviciul Teritorial Timi\u0219oara.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4867',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Cara\u0219-Severin 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls',
+      },
+    ],
+  },
+  {
+    name: 'Avram Ionel',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local \u0218endreni (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Gala\u021bi',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local \u0218endreni, jude\u021bul Gala\u021bi.',
+    },
+    crime: 'Complicitate la trafic de influen\u021b\u0103',
+    sentence: '10 luni \u00eenchisoare cu executare',
+    sentence_years: 0.83,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 septembrie 2013: Avram Ionel a primit 10 luni de \u00eenchisoare \u00een regim de deten\u021bie pentru complicitate la trafic de influen\u021b\u0103.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4357',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Gala\u021bi 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/GL.xls',
+      },
+    ],
+  },
+  {
+    name: 'Marin Constantin',
+    party: 'PSD',
+    position: 'Candidat PSD la Prim\u0103ria Roata de Jos (2020)',
+    position_type: 'mayor',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru func\u021bia de primar al comunei Roata de Jos, jude\u021bul Giurgiu.',
+    },
+    crime: '\u0218antaj',
+    sentence: '5 luni \u00eenchisoare cu suspendare sub supraveghere',
+    sentence_years: 0.42,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 12 decembrie 2013: Marin Constantin a primit 5 luni de \u00eenchisoare cu suspendare sub supraveghere pentru \u0219antaj \u00een form\u0103 continuat\u0103, \u00een acela\u0219i dosar cu fostul deputat Dan P\u0103sat.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4516',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Giurgiu 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/GR.xls',
+      },
+    ],
+  },
+  {
+    name: 'St\u0103nescu Ferdinand',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local Grajduri (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local Grajduri, jude\u021bul Ia\u0219i.',
+    },
+    crime: 'Complicitate la evaziune fiscal\u0103',
+    sentence: '5 ani \u00eenchisoare',
+    sentence_years: 5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 28 mai 2014: St\u0103nescu Ferdinand a primit 5 ani de \u00eenchisoare pentru complicitate la evaziune fiscal\u0103 \u00een form\u0103 continuat\u0103.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4973',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Ia\u0219i 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls',
+      },
+    ],
+  },
+  {
+    name: 'Michnea Gheorghe',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Sighetu Marma\u021biei (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020, prin Alian\u021ba Electoral\u0103 Coali\u021bia pentru Maramure\u0219, era pentru Consiliul Local Sighetu Marma\u021biei.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Michnea Gheorghe a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Maramure\u0219 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Iuga Grigore',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local S\u0103li\u0219tea de Sus (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020, prin Alian\u021ba Electoral\u0103 Coali\u021bia pentru Maramure\u0219, era pentru Consiliul Local S\u0103li\u0219tea de Sus.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Iuga Grigore a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Maramure\u0219 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Caia Ioan-Sorin',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local Rozavlea (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramure\u0219',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local Rozavlea, jude\u021bul Maramure\u0219.',
+    },
+    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    sentence: '6 luni \u00eenchisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Caia Ioan-Sorin a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Maramure\u0219 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Timaru Vasile',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Tei\u0219ani (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Prahova',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Tei\u0219ani, jude\u021bul Prahova.',
+    },
+    crime: 'M\u0103rturie mincinoas\u0103',
+    sentence: '1 an \u00eenchisoare cu suspendare condi\u021bionat\u0103',
+    sentence_years: 1,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 26 septembrie 2013: Timaru Vasile a primit 1 an de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru m\u0103rturie mincinoas\u0103.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4356',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Prahova 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/PH.xls',
+      },
+    ],
+  },
+  {
+    name: 'Savin Doric\u0103',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local P\u0103ule\u0219ti (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vrancea',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local P\u0103ule\u0219ti, jude\u021bul Vrancea.',
+    },
+    crime: 'Infrac\u021biune conex\u0103 dosarului de fraud\u0103 cu fonduri europene',
+    sentence: 'Amend\u0103 penal\u0103 de 1.000 lei cu suspendare condi\u021bionat\u0103',
+    sentence_years: 0,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Amend\u0103 penal\u0103',
+    details:
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 aprilie 2013: Savin Doric\u0103, func\u021bionar public la Prim\u0103ria Foc\u0219ani, a primit amend\u0103 penal\u0103 de 1.000 lei cu suspendare condi\u021bionat\u0103 \u00een dosarul privind ob\u021binerea pe nedrept de fonduri europene.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4062',
+      },
+      {
+        label: 'BEC \u2013 candidaturi locale Vrancea 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VN.xls',
       },
     ],
   },
