@@ -79339,6 +79339,831 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Barbu Marian',
+    party: 'PUSL',
+    position: 'Candidat PUSL la Consiliul Local Buzoești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'political_base',
+      note:
+        'Candidatura PUSL din 2020 era pentru Consiliul Local Buzoești, județul Argeș.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '2 ani închisoare cu suspendare condiționată',
+    sentence_years: 2,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 13 octombrie 2011: Barbu Marian a primit 2 ani de închisoare cu suspendare condiționată pentru cumpărare de influență.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2714',
+      },
+      {
+        label: 'BEC – candidaturi locale Argeș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls',
+      },
+    ],
+  },
+  {
+    name: 'Năftănăilă Ion',
+    party: 'PSD',
+    position: 'Candidat PSD la Primăria Albeștii de Muscel (2020)',
+    position_type: 'mayor',
+    geography: {
+      county: 'Argeș',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru funcția de primar al comunei Albeștii de Muscel, județul Argeș.',
+    },
+    crime: 'Folosire de documente false pentru fonduri europene; schimbarea destinației fondurilor europene; conflict de interese',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 28 noiembrie 2014: Năftănăilă Ion, primarul comunei Albeștii de Muscel la data faptelor, a primit 3 ani de închisoare cu suspendare sub supraveghere.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5665',
+      },
+      {
+        label: 'BEC – candidaturi locale Argeș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls',
+      },
+    ],
+  },
+  {
+    name: 'Pandelea Valerică',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Recea (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Recea, județul Argeș.',
+    },
+    crime: 'Abuz în serviciu în vederea obținerii unui avantaj patrimonial; dare de mită',
+    sentence: '3 ani și 2 luni închisoare',
+    sentence_years: 3.17,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 21 iunie 2010: Pandelea Valerică a primit 3 ani și 2 luni de închisoare pentru abuz în serviciu în vederea obținerii unui avantaj patrimonial și dare de mită.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1927',
+      },
+      {
+        label: 'BEC – candidaturi locale Argeș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls',
+      },
+    ],
+  },
+  {
+    name: 'Boghiu Sorinel',
+    party: 'USR',
+    position: 'Candidat USR la Consiliul Local Podu Turcului (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'political_base',
+      note:
+        'Candidatura USR din 2020 era pentru Consiliul Local Podu Turcului, județul Bacău.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '8 luni închisoare cu suspendare condiționată',
+    sentence_years: 0.67,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 noiembrie 2013: Boghiu Sorinel a primit 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Bacău.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
+      },
+      {
+        label: 'BEC – candidaturi locale Bacău 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Ciocan Gabriela',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Brusturoasa (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Brusturoasa, județul Bacău.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '8 luni închisoare cu suspendare condiționată',
+    sentence_years: 0.67,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 19 octombrie 2012: Ciocan Gabriela a primit 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență într-un dosar privind examenul de bacalaureat.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3620',
+      },
+      {
+        label: 'BEC – candidaturi locale Bacău 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Micu Ion',
+    party: 'PSD',
+    position: 'Candidat PSD la Primăria Racova (2020)',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bacău',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru funcția de primar al comunei Racova, județul Bacău.',
+    },
+    crime: 'Fals intelectual; complicitate la tentativă de folosire de documente false pentru fonduri europene',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 3 octombrie 2014: Micu Ion, viceprimar al comunei Racova la data faptelor, a primit 1 an și 6 luni de închisoare cu suspendare.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5374',
+      },
+      {
+        label: 'BEC – candidaturi locale Bacău 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+      },
+    ],
+  },
+  {
+    name: 'Coman Gheorghe',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Cătina (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Buzău',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Cătina, județul Buzău.',
+    },
+    crime: 'Folosirea influenței ori autorității într-un partid pentru obținerea de foloase necuvenite',
+    sentence: '1 an închisoare',
+    sentence_years: 1,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 28 aprilie 2014: Coman Gheorghe, fost deputat și președinte al organizației județene Buzău a unui partid, a primit 1 an de închisoare.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4873',
+      },
+      {
+        label: 'BEC – candidaturi locale Buzău 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BZ.xls',
+      },
+    ],
+  },
+  {
+    name: 'Rașit Beinur',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Adamclisi (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constanța',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Adamclisi, județul Constanța.',
+    },
+    crime: 'Folosire de documente false pentru fonduri europene; utilizarea subvențiilor în alte scopuri; fals și uz de fals',
+    sentence: '1 an și 10 luni închisoare cu suspendare condiționată',
+    sentence_years: 1.83,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 1 septembrie 2011: Rașit Beinur, viceprimar al comunei Adamclisi, a primit 1 an și 10 luni de închisoare cu suspendare condiționată.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2635',
+      },
+      {
+        label: 'BEC – candidaturi locale Constanța 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CT.xls',
+      },
+    ],
+  },
+  {
+    name: 'Voicu Florinel',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Produlești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Produlești, județul Dâmbovița.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 11 aprilie 2013: Voicu Florinel, primarul comunei Văcărești la data faptelor, a primit 3 ani de închisoare pentru luare de mită.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4054',
+      },
+      {
+        label: 'BEC – candidaturi locale Dâmbovița 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/DB.xls',
+      },
+    ],
+  },
+  {
+    name: 'Mihuțescu Constantin',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Bumbești-Pițic (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Gorj',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Bumbești-Pițic, județul Gorj.',
+    },
+    crime: 'Instigare la abuz în serviciu contra intereselor publice',
+    sentence: '1 an închisoare cu suspendare sub supraveghere',
+    sentence_years: 1,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 10 noiembrie 2011: Mihuțescu Constantin, primar al comunei Baia de Fier la data faptelor, a primit 1 an de închisoare cu suspendare sub supraveghere.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2776',
+      },
+      {
+        label: 'BEC – candidaturi locale Gorj 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/GJ.xls',
+      },
+    ],
+  },
+  {
+    name: 'Csáka Pál',
+    party: 'UDMR',
+    position: 'Candidat UDMR la Consiliul Local Merești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Harghita',
+      basis: 'political_base',
+      note:
+        'Candidatura UDMR din 2020 era pentru Consiliul Local Merești, județul Harghita.',
+    },
+    crime: 'Complicitate la fals intelectual',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 20 noiembrie 2014: Csáka Pál a primit 6 luni de închisoare cu suspendare pentru complicitate la fals intelectual.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5682',
+      },
+      {
+        label: 'BEC – candidaturi locale Harghita 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/HR.xls',
+      },
+    ],
+  },
+  {
+    name: 'Stoian Florea',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Manasia (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ialomița',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Manasia, județul Ialomița.',
+    },
+    crime: 'Înșelăciune',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 16 mai 2012: Stoian Florea, reprezentant al unei societăți comerciale, a primit 3 ani de închisoare cu suspendare sub supraveghere pentru înșelăciune.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3273',
+      },
+      {
+        label: 'BEC – candidaturi locale Ialomița 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IL.xls',
+      },
+    ],
+  },
+  {
+    name: 'Thuma Hubert-Petru-Ștefan',
+    party: 'PNL',
+    position: 'Candidat PNL la președinția Consiliului Județean Ilfov (2020)',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Ilfov',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru funcția de președinte al Consiliului Județean Ilfov.',
+    },
+    crime: 'Folosirea influenței sau autorității într-un partid pentru obținerea de foloase necuvenite',
+    sentence: '6 luni închisoare cu suspendare condiționată',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 13 octombrie 2014: Thuma Hubert-Petru-Ștefan, vicepreședinte al unei filiale de partid la data faptelor, a primit 6 luni de închisoare cu suspendare condiționată.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5448',
+      },
+      {
+        label: 'BEC – candidaturi locale Ilfov 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IF.xls',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Cristian',
+    party: 'PNȚCD',
+    position: 'Candidat PNȚCD la Consiliul Județean Maramureș (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'political_base',
+      note:
+        'Candidatura PNȚCD din 2020, prin Alianța Electorală Coaliția pentru Maramureș, era pentru Consiliul Județean Maramureș.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice cu consecințe deosebit de grave',
+    sentence: '2 ani și 6 luni închisoare',
+    sentence_years: 2.5,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 17 martie 2010: Anghel Cristian, primar al municipiului Baia Mare, a primit 2 ani și 6 luni de închisoare pentru abuz în serviciu contra intereselor publice.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1915',
+      },
+      {
+        label: 'BEC – candidaturi locale Maramureș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Bledea Marius-Daniel',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Vadu Izei (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Vadu Izei, județul Maramureș.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Bledea Marius-Daniel a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC – candidaturi locale Maramureș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Dunca Ileana',
+    party: 'USR',
+    position: 'Candidat USR la Consiliul Local Șieu (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'political_base',
+      note:
+        'Candidatura USR din 2020 era pentru Consiliul Local Șieu, județul Maramureș.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Dunca Ileana a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC – candidaturi locale Maramureș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Șandor Marin-Ioan',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Ocna Șugatag (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Ocna Șugatag, județul Maramureș.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Șandor Marin-Ioan a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
+      },
+      {
+        label: 'BEC – candidaturi locale Maramureș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Boancaș Rodica',
+    party: 'PNL',
+    position: 'Candidat PNL la Primăria Periam (2020)',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru funcția de primar al comunei Periam, județul Timiș.',
+    },
+    crime: 'Instigare la folosire de documente false pentru fonduri europene; fals în înscrisuri sub semnătură privată',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 11 iunie 2014: Boancaș Rodica, primar al comunei Periam la data faptelor, a primit 2 ani de închisoare cu suspendare.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5026',
+      },
+      {
+        label: 'BEC – candidaturi locale Timiș 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/TM.xls',
+      },
+    ],
+  },
+  {
+    name: 'Duțoiu Adrian',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local Horia (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Tulcea',
+      basis: 'political_base',
+      note:
+        'Candidatura PNL din 2020 era pentru Consiliul Local Horia, județul Tulcea.',
+    },
+    crime: 'Abuz în serviciu; schimbarea destinației fondurilor europene',
+    sentence: '2 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 2,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 1 septembrie 2011: Duțoiu Adrian, primar al comunei Horia la data faptelor, a primit 2 ani de închisoare cu suspendare sub supraveghere.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2636',
+      },
+      {
+        label: 'BEC – candidaturi locale Tulcea 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/TL.xls',
+      },
+    ],
+  },
+  {
+    name: 'Lăzăroiu Maria',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Frâncești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Frâncești, județul Vâlcea.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '2 ani închisoare cu suspendare condiționată',
+    sentence_years: 2,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 14 mai 2010: Lăzăroiu Maria a primit 2 ani de închisoare cu suspendare condiționată pentru cumpărare de influență.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1926',
+      },
+      {
+        label: 'BEC – candidaturi locale Vâlcea 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VL.xls',
+      },
+    ],
+  },
+  {
+    name: 'Nicolaescu Daniel',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Frâncești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Frâncești, județul Vâlcea.',
+    },
+    crime: 'Luare de mită; fals intelectual; uz de fals; tentativă la abuz în serviciu',
+    sentence: '3 ani închisoare',
+    sentence_years: 3,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 20 aprilie 2011: Nicolaescu Daniel, primar al comunei Frâncești, a primit 3 ani de închisoare.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2356',
+      },
+      {
+        label: 'BEC – candidaturi locale Vâlcea 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VL.xls',
+      },
+    ],
+  },
+  {
+    name: 'Cozma Ioan',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Crețești (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vaslui',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru Consiliul Local Crețești, județul Vaslui.',
+    },
+    crime: 'Folosire de documente false pentru fonduri europene; abuz în serviciu; fals intelectual',
+    sentence: '2 ani închisoare cu suspendare condiționată',
+    sentence_years: 2,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 12 noiembrie 2012: Cozma Ioan, primarul orașului Negrești, a primit 2 ani de închisoare cu suspendare condiționată.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3688',
+      },
+      {
+        label: 'BEC – candidaturi locale Vaslui 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VS.xls',
+      },
+    ],
+  },
+  {
+    name: 'Zbîrciog Vasile',
+    party: 'PSD',
+    position: 'Candidat PSD la Primăria Străoane (2020)',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'political_base',
+      note:
+        'Candidatura PSD din 2020 era pentru funcția de primar al comunei Străoane, județul Vrancea.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 19 martie 2014: Zbîrciog Vasile, fost primar al comunei Străoane, a primit 1 an de închisoare cu suspendare pentru două infracțiuni concurente de cumpărare de influență.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4762',
+      },
+      {
+        label: 'BEC – candidaturi locale Vrancea 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VN.xls',
+      },
+    ],
+  },
+  {
+    name: 'Obrejan Radu-Iulian',
+    party: 'PUSL',
+    position: 'Candidat PUSL la Consiliul Local Turda (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cluj',
+      basis: 'political_base',
+      note:
+        'Candidatura PUSL din 2020 era pentru Consiliul Local Turda, județul Cluj.',
+    },
+    crime: 'Cumpărare de influență; trafic de influență; complicitate la dare de mită',
+    sentence: '1 an și 4 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 1.33,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 13 ianuarie 2014: Obrejan Radu-Iulian a primit 1 an și 4 luni de închisoare cu suspendare sub supraveghere.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4605',
+      },
+      {
+        label: 'BEC – candidaturi locale Cluj 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CJ.xls',
+      },
+    ],
+  },
+  {
+    name: 'Radu Daniela',
+    party: 'PMP',
+    position: 'Candidat PMP la Consiliul Local Agigea (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Constanța',
+      basis: 'political_base',
+      note:
+        'Candidatura PMP din 2020 era pentru Consiliul Local Agigea, județul Constanța.',
+    },
+    crime: 'Evaziune fiscală; complicitate la evaziune fiscală',
+    sentence: '5 ani și 6 luni închisoare',
+    sentence_years: 5.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 17 decembrie 2014: Radu Daniela, asociat și administrator al unei societăți din Agigea, a primit 5 ani și 6 luni de închisoare.',
+    verified_at: '2026-06-28',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5731',
+      },
+      {
+        label: 'BEC – candidaturi locale Constanța 2020',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CT.xls',
+      },
+    ],
+  },
 ];
 
 /**
