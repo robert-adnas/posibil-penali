@@ -10570,6 +10570,31 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES = {
   },
 };
 
+const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_SOURCES = {
+  becLocal2020: {
+    label: 'BEC - candidaturi locale 2020',
+    kind: 'official',
+    url: 'https://locale2020.bec.ro/candidati/',
+  },
+  hartaCoruptiei: {
+    label: 'Romania Curata - Harta coruptiei',
+    kind: 'press',
+    url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+  },
+};
+
+const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS = [
+  ["Matei Constantin-Robert", "Independent", "Arge\u0219", "Consiliul Local B\u0103bana", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls", "4999", 54, false, 2014, "05/06/2014", "Administrator", "Societate comerciala", false],
+  ["Neghin\u0103 Victor-Lauren\u021biu", "PMP", "Bac\u0103u", "Prim\u0103ria municipiului One\u0219ti", "mayor", "https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Juncu Mihai", "ALDE", "Bac\u0103u", "Consiliul Local Odobe\u0219ti", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls", "3951", 40, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Istrati Igori", "PER", "Ia\u0219i", "Prim\u0103ria Miroslava", "mayor", "https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls", "3571", 48, false, 2012, "04/10/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Mari\u0219 Maria", "PER", "Maramure\u0219", "Consiliul Local Dragomire\u0219ti", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Muntean Iacob-Petru", "ALDE", "Maramure\u0219", "Consiliul Local Poienile Izei", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Belea Simion", "PER", "Maramure\u0219", "Consiliul Local Poienile Izei", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Sas Daniel-Gabriel", "ALDE", "Maramure\u0219", "Consiliul Local \u0218ieu", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["C\u0103lin Vasile", "ALDE", "Timi\u0219", "Consiliul Local Jimbolia", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/TM.xls", "3946", 60, false, 2013, "27/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+];
+
 const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
   ["Suciu Ioan", "PMP", "Arad", "Consiliul Local Apateu", "local_official", "3134", 10, true, 2012, "29/03/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Sarpe Ionel Petrisor", "PSD", "Arge\u0219", "Consiliul Local Bradu", "local_official", "1927", 24, true, 2010, "21/06/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
@@ -10644,6 +10669,9 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
   ["Florea Dorel", "PSD", "Mure\u0219", "Consiliul Local R\u00e2ciu", "local_official", "4860", 6, true, 2014, "14/04/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
   ["Florian Liviu", "PNL", "Maramure\u0219", "Consiliul Local Copalnic-M\u0103n\u0103\u0219tur", "local_official", "4766", 42, false, 2014, "21/03/2014", "Om de afaceri", "Societate comerciala", false, "2026-06-30"],
   ["Gheorghe Adriana", "PMP", "Cara\u0219-Severin", "Consiliul Local Ciudanovi\u021ba", "local_official", "5028", 48, true, 2014, "10/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Niculae Constantin", "SOS Romania", "C\u0103l\u0103ra\u0219i", "Consiliul Jude\u021bean C\u0103l\u0103ra\u0219i", "local_official", "4355", 48, false, 2013, "26/09/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Zvori\u0219teanu Vasile", "For\u021ba Dreptei", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "4555", 48, false, 2013, "06/12/2013", "Persoana fara calitate speciala", "Nu este cazul", true, "2026-06-30"],
+  ["Ulici Maria", "For\u021ba Dreptei", "Maramure\u0219", "Consiliul Local C\u0103line\u0219ti", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
 ];
 
 function formatAutomatedSentence(months, suspended) {
@@ -10658,6 +10686,66 @@ function formatAutomatedSentence(months, suspended) {
 
   return `${parts.join(' \u0219i ')} \u00eenchisoare ${suspended ? 'cu suspendare' : 'cu executare'}`;
 }
+
+const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
+  AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS.map(([
+    name,
+    party,
+    county,
+    candidateTarget,
+    positionType,
+    becCountyUrl,
+    dnaId,
+    sentenceMonths,
+    suspended,
+    convictionYear,
+    convictionDate,
+    sourceRole,
+    sourceInstitution,
+    euFunds,
+  ]) => {
+    const partyPhrase = party === 'Independent' ? 'independent' : party;
+
+    return {
+      name,
+      party,
+      position: `Candidat ${partyPhrase} la ${candidateTarget} (2020)`,
+      position_type: positionType,
+      geography: {
+        county,
+        basis: 'political_base',
+        note:
+          `Candidatura din registrul oficial BEC 2020 era pentru ${candidateTarget}, jude\u021bul ${county}.`,
+      },
+      crime: euFunds
+        ? 'Fapte de corup\u021bie legate de fonduri europene'
+        : 'Fapte de corup\u021bie / infrac\u021biuni asimilate corup\u021biei',
+      sentence: formatAutomatedSentence(sentenceMonths, suspended),
+      sentence_years: Number((sentenceMonths / 12).toFixed(2)),
+      conviction_year: convictionYear,
+      status: 'convicted',
+      execution_type: suspended ? 'Cu suspendare' : 'Cu executare',
+      details:
+        `Potrivit datelor DNA indexate \u00een Harta corup\u021biei, condamnarea definitiv\u0103 a fost pronun\u021bat\u0103 la ${convictionDate}. ` +
+        `Func\u021bia consemnat\u0103 \u00een sursa de condamnare: ${sourceRole} \u00een ${sourceInstitution}. ` +
+        `Registrul oficial BEC 2020 listeaz\u0103 acela\u0219i nume drept candidat ${partyPhrase} la ${candidateTarget}.`,
+      verified_at: '2026-06-30',
+      sources: [
+        {
+          label: 'BEC - candidaturi locale 2020',
+          kind: 'official',
+          url: becCountyUrl,
+        },
+        {
+          label: 'DNA - comunicat',
+          kind: 'official',
+          url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
+        },
+        AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_SOURCES.hartaCoruptiei,
+        AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_SOURCES.becLocal2020,
+      ],
+    };
+  });
 
 const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS =
   AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS.map(([
@@ -26379,6 +26467,7 @@ export const politicianAdditions = [
     ],
   },
   ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS,
