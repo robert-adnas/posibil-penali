@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-28',
+  last_updated: '2026-06-30',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -10618,6 +10618,32 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
   ["Olaru Florin Costica", "PSD", "Suceava", "Consiliul Local municipiul Suceava", "local_official", "4080", 18, true, 2013, "29/04/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Dumitrescu Gheorghe", "PSD", "V\u00e2lcea", "Consiliul Local ora\u0219ul Brezoi", "local_official", "3969", 48, true, 2013, "13/03/2013", "Asociat", "Societate comerciala", false],
   ["Cirnu Marin", "PNL", "Vrancea", "Consiliul Local Pope\u015fti", "local_official", "2054", 36, true, 2010, "24/11/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
+  ["Agachi Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local Poduri", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Albert Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local Livezi", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Alexandru Nicu", "PSD", "Buz\u0103u", "Consiliul Local Bl\u0103jani", "local_official", "1893", 24, false, 2010, "07/05/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Arhire Ioan", "PSD", "Constan\u021ba", "Consiliul Local Cump\u0103na", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Berbece Marin", "PSD", "Olt", "Consiliul Local Oboga", "local_official", "1927", 24, true, 2010, "21/06/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Bica Adrian", "PMP", "Dolj", "Consiliul Local Leu", "local_official", "1924", 24, false, 2010, "23/03/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Buzatu Nicolae", "PSD", "Ia\u0219i", "Consiliul Local Todire\u0219ti", "local_official", "5080", 24, false, 2014, "18/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Chirita Aurelian", "PNL", "Olt", "Consiliul Local Vulture\u0219ti", "local_official", "2054", 24, true, 2010, "24/11/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Ciubotaru Gheorghe", "PMP", "Bac\u0103u", "Consiliul Local Racova", "local_official", "4816", 36, true, 2014, "16/04/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Ciurar Traian", "PSD", "Mure\u0219", "Consiliul Local municipiul Sighi\u0219oara", "local_official", "3774", 24, true, 2012, "12/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Cocos Ion", "PSD", "V\u00e2lcea", "Consiliul Local Berisl\u0103ve\u0219ti", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Coman Melania", "USR", "Mure\u0219", "Consiliul Local municipiul T\u00e2rn\u0103veni", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Coman Stelian", "USR", "Dolj", "Consiliul Local Bratovoe\u0219ti", "local_official", "4356", 12, true, 2013, "26/09/2013", "Sofer", "Societate comerciala", false, "2026-06-30"],
+  ["Costache Iulian", "PSD", "Prahova", "Consiliul Local C\u0103rbune\u0219ti", "local_official", "2714", 24, true, 2011, "13/10/2011", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Costea Mihai", "USR", "V\u00e2lcea", "Consiliul Local D\u0103e\u0219ti", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Costin Alexandru", "PSD", "Bistri\u021ba-N\u0103s\u0103ud", "Consiliul Local Negrile\u0219ti", "local_official", "5728", 6, true, 2014, "18/12/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Covaci Gheorghe Vasile", "AUR", "Bra\u0219ov", "Consiliul Local Budila", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Cristescu Mihai", "PNL", "Cara\u0219-Severin", "Consiliul Local Cornea", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Dan Tudor", "PNL", "Teleorman", "Consiliul Local Beciu", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Dina Nicolae", "AUR", "Arge\u0219", "Consiliul Local Priboieni", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Dita Ion", "PNL", "Olt", "Consiliul Local Corbu", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Dragota Marian", "PNL", "Dolj", "Consiliul Local V\u00e2rtop", "local_official", "5153", 84, false, 2014, "07/07/2014", "Asociat", "Societate comerciala", false, "2026-06-30"],
+  ["Dumitrescu Mariana", "AUR", "Mehedin\u021bi", "Consiliul Local Butoie\u0219ti", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Florea Dorel", "PSD", "Mure\u0219", "Consiliul Local R\u00e2ciu", "local_official", "4860", 6, true, 2014, "14/04/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
+  ["Florian Liviu", "PNL", "Maramure\u0219", "Consiliul Local Copalnic-M\u0103n\u0103\u0219tur", "local_official", "4766", 42, false, 2014, "21/03/2014", "Om de afaceri", "Societate comerciala", false, "2026-06-30"],
+  ["Gheorghe Adriana", "PMP", "Cara\u0219-Severin", "Consiliul Local Ciudanovi\u021ba", "local_official", "5028", 48, true, 2014, "10/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
 ];
 
 function formatAutomatedSentence(months, suspended) {
@@ -10648,6 +10674,7 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS =
     sourceRole,
     sourceInstitution,
     euFunds,
+    verifiedAt = '2026-06-25',
   ]) => ({
     name,
     party,
@@ -10671,7 +10698,7 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS =
       `Potrivit datelor DNA indexate \u00een Harta corup\u021biei, condamnarea definitiv\u0103 a fost pronun\u021bat\u0103 la ${convictionDate}. ` +
       `Func\u021bia consemnat\u0103 \u00een sursa de condamnare: ${sourceRole} \u00een ${sourceInstitution}. ` +
       `Registrul oficial BEC 2024 listeaz\u0103 acela\u0219i nume drept candidat ${party} la ${candidateTarget}.`,
-    verified_at: '2026-06-25',
+    verified_at: verifiedAt,
     sources: [
       {
         label: 'DNA',
@@ -14788,15 +14815,21 @@ export const politicianAdditions = [
     party: 'PNL',
     position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi (jude\u021bul Boto\u0219ani)',
     position_type: 'mayor',
-    crime: 'Luare de mit\u0103',
-    sentence: 'Acord de recunoa\u0219tere nevalidat definitiv',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'investigated',
+    crime: 'Luare de mit\u0103; abuz \u00een serviciu',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
     details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Relat\u0103ri din 13 martie 2026 indic\u0103 faptul c\u0103 a \u00eencheiat un acord de recunoa\u0219tere a vinov\u0103\u021biei \u0219i a acceptat o pedeaps\u0103 de 3 ani de \u00eenchisoare cu suspendare, \u00eens\u0103 validarea judec\u0103toreasc\u0103 \u0219i solu\u021bia definitiv\u0103 nu erau \u00eenc\u0103 public confirmate p\u00e2n\u0103 la 30 martie 2026.',
-    verified_at: '2026-03-30',
+      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Prin sentin\u021ba penal\u0103 nr. 82 din 5 mai 2026, definitiv\u0103 prin neapelare la 26 mai 2026, Tribunalul Boto\u0219ani a admis acordul de recunoa\u0219tere \u0219i l-a condamnat la 3 ani de \u00eenchisoare cu suspendare pentru luare de mit\u0103 \u0219i abuz \u00een serviciu.',
+    verified_at: '2026-06-30',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13809',
+      },
       {
         label: 'DNA',
         kind: 'official',
