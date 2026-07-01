@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-06-30',
+  last_updated: '2026-07-01',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -80283,6 +80283,611 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Constanța 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CT.xls',
+      },
+    ],
+  },
+  {
+    name: 'Silviu Constantin Gheorghe',
+    party: 'PNL',
+    position: 'Primar al orașului Otopeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Otopeni, județul Ilfov.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în noiembrie 2022 trimiterea în judecată, în stare de arest la domiciliu, a primarului orașului Otopeni într-un dosar privind plăți nelegale pentru lucrări de infrastructură.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11581',
+      },
+      {
+        label: 'Primăria Otopeni',
+        kind: 'official',
+        url: 'https://www.otopeniro.ro/pagina/oficialii-orasului-42',
+      },
+      {
+        label: 'Gândul',
+        kind: 'press',
+        url: 'https://www.gandul.ro/stiri/alegeri-locale-2024-romania-cine-a-castigat-si-va-fi-noul-primar-din-otopeni-20228074',
+      },
+    ],
+  },
+  {
+    name: 'Dinu Iancu-Sălăjanu',
+    party: 'PNL',
+    position: 'Președinte al Consiliului Județean Sălaj',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Sălaj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de președinte al Consiliului Județean Sălaj.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în aprilie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru două infracțiuni de abuz în serviciu legate de proceduri de achiziție publică ale Consiliului Județean Sălaj.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13693',
+      },
+      {
+        label: 'Consiliul Județean Sălaj',
+        kind: 'official',
+        url: 'https://cjsj.ro/date/pdfuri/CV/CV_Dinu_Iancu-Salajanu.pdf',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/politic/2026/04/23/salaj-dinu-iancu-salajanu-s-a-autosuspendat-din-functia-de-presedinte-al-filialei-judetene-a-pnl--1549332',
+      },
+    ],
+  },
+  {
+    name: 'Violeta Cătălina Ionescu',
+    party: 'PMP',
+    position: 'Primar al comunei Olteni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Olteni, județul Teleorman.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în decembrie 2025 punerea în mișcare a acțiunii penale și control judiciar pentru două infracțiuni de abuz în serviciu privind ajutoare sociale și activități de achiziții publice în perioada 2024-2025.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13349',
+      },
+      {
+        label: 'Antena 3',
+        kind: 'press',
+        url: 'https://www.antena3.ro/actualitate/politica/rezultate-alegeri-locale-2017-teleorman-pmp-a-castigat-primaria-olteni-423375.html',
+      },
+    ],
+  },
+  {
+    name: 'Ion Horia Horăscu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Prundeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Prundeni, județul Vâlcea.',
+    },
+    crime: 'Luare de mită; abuz în serviciu; deturnare de fonduri; fals intelectual; uz de fals',
+    sentence: '6 ani închisoare cu executare',
+    sentence_years: 6,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Presa a consemnat condamnarea definitivă din iulie 2022 la 6 ani de închisoare cu executare pentru mai multe infracțiuni de corupție comise în mandatele de primar; DNA a comunicat ulterior trimiterea sa în judecată într-un dosar separat.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'Știripesurse',
+        kind: 'press',
+        url: 'https://www.stiripesurse.ro/fostul-primar-din-comuna-valceana-prundeni-ion-horascu-condamnat-definitiv-la-6-ani-de-inchisoare-intr-un-dosar-cu-6-capete-de-acuzare_2468510.html',
+      },
+      {
+        label: 'Gazeta de Sud',
+        kind: 'press',
+        url: 'https://www.gds.ro/Local/2017-11-23/primarul-psd-din-prundeni-arestat-pentru-cinci-infractiuni/',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12474',
+      },
+    ],
+  },
+  {
+    name: 'Petru Nistor',
+    party: 'PNL',
+    position: 'Primar al comunei Mălini',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Mălini, județul Suceava.',
+    },
+    crime: 'Complicitate la folosire de documente false pentru fonduri europene; folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în octombrie 2017 punerea în mișcare a acțiunii penale și control judiciar într-un dosar privind documente depuse pentru obținerea de fonduri APIA și folosirea funcției de primar pentru favorizarea unei persoane.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8461',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/stiri/dna/un-primar-traseist-cu-dosar-la-dna-pentru-fraude-cu-fonduri-europene-a-castigat-deja-alegerile-este-singurul-candidat-din-comuna-1626261',
+      },
+    ],
+  },
+  {
+    name: 'Gelu Pecheanu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Drânceni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Drânceni, județul Vaslui.',
+    },
+    crime: 'Folosire de documente false pentru fonduri europene; fals intelectual',
+    sentence: '2 ani și 6 luni închisoare cu suspendare',
+    sentence_years: 2.5,
+    conviction_year: 2023,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2019 pentru documente false într-un proiect finanțat din fonduri europene, iar presa a consemnat condamnarea definitivă la 2 ani și 6 luni de închisoare cu suspendare.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9651',
+      },
+      {
+        label: 'Ziarul de Iași',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/un-primar-condamnat-la-iasi-pentru-coruptie-cere-inapoi-banii-confiscati-de-procurori--371868.html',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/vaslui/primarul-care-a-concesionat-terenurile-comunei-1902510.html',
+      },
+    ],
+  },
+  {
+    name: 'Petre Popescu',
+    party: 'PNL',
+    position: 'Fost primar al comunei Boișoara',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Boișoara, județul Vâlcea.',
+    },
+    crime: 'Luare de mită; fals în înscrisuri sub semnătură privată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat trimiterea în judecată pentru luare de mită și fals în legătură cu atribuirea unor contracte publice, iar presa locală a consemnat condamnarea definitivă din februarie 2015 la 3 ani de închisoare cu suspendare.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2299',
+      },
+      {
+        label: 'Săptămâna',
+        kind: 'press',
+        url: 'https://saptamana.net/articol/11611-fost-si-actual-primar-la-boisoara-valcea-trimisi-in-judecata-de-dna-pentru-retrocedarea-unei-paduri',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/primarul-liberal-din-valcea-arestat-preventiv-pentru-coruptie-a-fost-suspendat-din-pnl-9435221',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Pruteanu',
+    party: 'PDL',
+    position: 'Fost președinte al Consiliului Județean Neamț',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de președinte al Consiliului Județean Neamț.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    sentence: '2 ani și 6 luni închisoare cu suspendare',
+    sentence_years: 2.5,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat trimiterea în judecată în dosarul finanțării FC Ceahlăul, iar Curtea de Apel Bacău a menținut definitiv condamnarea la 2 ani și 6 luni de închisoare cu suspendare.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9194',
+      },
+      {
+        label: 'Atacul.ro',
+        kind: 'press',
+        url: 'https://atacul.ro/2021/04/15/sentinta-definitiva-in-dosarul-finantarii-ilegale/',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/politic/presedintele-cj-neamt-vasile-pruteanu-pdl-trece-la-pnl-si-candideaza-din-partea-usl.html',
+      },
+    ],
+  },
+  {
+    name: 'Ana Monda',
+    party: 'PDL',
+    position: 'Fost viceprimar al municipiului Piatra-Neamț',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de viceprimar al municipiului Piatra-Neamț.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat trimiterea în judecată în dosarul finanțării FC Ceahlăul, iar Curtea de Apel Bacău a menținut definitiv o pedeapsă de 3 ani de închisoare cu suspendare.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9194',
+      },
+      {
+        label: 'Atacul.ro',
+        kind: 'press',
+        url: 'https://atacul.ro/2021/04/15/sentinta-definitiva-in-dosarul-finantarii-ilegale/',
+      },
+      {
+        label: 'DRUPO Neamț',
+        kind: 'official',
+        url: 'https://druponeamt.ro/wp-content/uploads/2020/03/CV-european-ANA-MONDA.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Tiron Maftei',
+    party: 'PNL',
+    position: 'Fost primar al comunei Frumosu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Frumosu, județul Suceava.',
+    },
+    crime: 'Folosire de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: '4 ani închisoare cu suspendare',
+    sentence_years: 4,
+    conviction_year: 2020,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din martie 2020 la 4 ani de închisoare cu suspendare într-un dosar privind documente false depuse pentru un proiect finanțat din fonduri europene.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9782',
+      },
+      {
+        label: 'SuceavaLive',
+        kind: 'press',
+        url: 'https://suceavalive.ro/pnl-si-psd-frumosu-n-au-inteles-ca-razboiul-s-incheiat/',
+      },
+    ],
+  },
+  {
+    name: 'Alin-Bănică Stanciu',
+    party: 'PNL',
+    position: 'Fost primar al comunei Izvoarele',
+    position_type: 'mayor',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Izvoarele, județul Giurgiu.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din aprilie 2015 la 3 ani de închisoare cu suspendare pentru trafic de influență, cu confiscarea sumei de 50.000 euro.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6278',
+      },
+      {
+        label: 'Giurgiu Tribune',
+        kind: 'press',
+        url: 'https://giurgiu-tribune.ro/stanciu-alin-banica-castiga-procesul-cu-psd-giurgiu/',
+      },
+    ],
+  },
+  {
+    name: 'Cătălin George Muntean',
+    party: 'PNL',
+    position: 'Fost primar al municipiului Codlea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al municipiului Codlea, județul Brașov.',
+    },
+    crime: 'Dare de mită',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind sume plătite pentru poziții eligibile pe listele electorale ale PNL Brașov.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+      },
+    ],
+  },
+  {
+    name: 'Dragoș Romulus Crăciun',
+    party: 'PNL',
+    position: 'Fost consilier județean Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier județean în Consiliul Județean Brașov.',
+    },
+    crime: 'Dare de mită',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind bani plătiți pentru poziții eligibile pe listele electorale ale PNL Brașov.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Bună Ziua Brașov',
+        kind: 'press',
+        url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+      },
+    ],
+  },
+  {
+    name: 'Valentin Olimpiu Șoneriu',
+    party: 'PNL',
+    position: 'Fost consilier județean Brașov; fost secretar de stat în Ministerul Agriculturii',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Dosarul DNA îl viza în calitate de consilier județean Brașov.',
+    },
+    crime: 'Dare de mită',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind sume plătite pentru poziții eligibile pe listele electorale ale PNL Brașov.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'MADR',
+        kind: 'official',
+        url: 'https://old.madr.ro/pages/prezentare1ea0.html?lang=2&pers=4',
+      },
+      {
+        label: 'Agrointel',
+        kind: 'press',
+        url: 'https://agrointel.ro/19070/valentin-soneriu-pnl-a-demisionat-din-pozitia-de-secretar-de-stat-in-madr-vezi-ce-alti-liberali-au-parasit-functii-importante',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Ungureanu',
+    party: 'PNL',
+    position: 'Fost consilier județean Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier județean în Consiliul Județean Brașov.',
+    },
+    crime: 'Dare de mită',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind bani plătiți pentru poziții eligibile pe listele electorale ale PNL Brașov.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Bună Ziua Brașov',
+        kind: 'press',
+        url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+      },
+    ],
+  },
+  {
+    name: 'Gavril Matei',
+    party: 'PNL',
+    position: 'Fost consilier județean Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier județean în Consiliul Județean Brașov.',
+    },
+    crime: 'Dare de mită; complicitate la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte și liste electorale.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Gândul',
+        kind: 'press',
+        url: 'https://www.gandul.ro/stiri/sefa-directiei-pentru-protectia-copilului-brasov-si-un-consilier-judetean-liberal-retinuti-de-dna-tribunalul-brasov-a-respins-arestarea-preventiva-ceruta-de-procurori-12022847',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Claudiu Cornea',
+    party: 'PNL',
+    position: 'Fost consilier județean Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier județean în Consiliul Județean Brașov.',
+    },
+    crime: 'Dare de mită; complicitate la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte publice și poziții electorale.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Bună Ziua Brașov',
+        kind: 'press',
+        url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+      },
+    ],
+  },
+  {
+    name: 'Cristinel Paltin',
+    party: 'PNL',
+    position: 'Primar al comunei Șercaia',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Șercaia, județul Brașov.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice încheiate de Primăria Șercaia.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Iancu Boeriu',
+    party: 'PNL',
+    position: 'Primar al comunei Jibert',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Jibert, județul Brașov.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice semnate la Primăria Jibert.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'BEC 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista_moc.pdf',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
       },
     ],
   },
