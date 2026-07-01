@@ -80891,6 +80891,517 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Sebastian Grapă',
+    party: 'PNL',
+    position: 'Fost senator de Brașov și fost consilier județean Brașov',
+    position_type: 'senator',
+    geography: {
+      county: 'Brașov',
+      basis: 'political_base',
+      note: 'Mandatul parlamentar și dosarul DNA sunt legate de circumscripția și administrația județeană Brașov.',
+    },
+    crime: 'Dare de mită; complicitate la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații legate de plata unor sume pentru poziții eligibile pe listele electorale ale PNL Brașov și de contracte publice.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/Legis/Lista.aspx?cod=18830',
+      },
+      {
+        label: 'Libertatea',
+        kind: 'press',
+        url: 'https://www.libertatea.ro/stiri/fiica-fostului-senator-sebastian-grapa-batuta-in-plina-zi-in-centrul-brasovului-de-un-barbat-beat-copila-are-mana-rupta-fotovideo-2284573',
+      },
+    ],
+  },
+  {
+    name: 'Adrian Sabin Neag',
+    party: 'PSD',
+    position: 'Fost consilier județean Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de consilier județean în Consiliul Județean Brașov.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de complicitate la abuz în serviciu legate de contracte publice ale Consiliului Județean Brașov.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'NewsBV',
+        kind: 'press',
+        url: 'https://newsbv.ro/ministerul-educatiei-a-cumparat-fara-licitatie-15-milioane-de-masti-pentru-elevi-de-la-o-firma-administrata-de-un-fost-consilier-psd-din-brasov/',
+      },
+    ],
+  },
+  {
+    name: 'Cosmin Ioan Leancu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Beclean',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Beclean, județul Brașov.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de complicitate la abuz în serviciu privind contracte publice locale.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
+      },
+      {
+        label: 'PSD Brașov',
+        kind: 'official',
+        url: 'https://psdbrasov.ro/candidati/',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_brasov/primarie/beclean/3',
+      },
+    ],
+  },
+  {
+    name: 'Sorin Hognogi',
+    party: 'PNL',
+    position: 'Primar al comunei Spermezeu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Spermezeu, județul Bistrița-Năsăud.',
+    },
+    crime: 'Instigare la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în ianuarie 2023 trimiterea în judecată, în stare de libertate, a primarului comunei Spermezeu într-un dosar privind documente APIA false sau inexacte și fonduri obținute necuvenit.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11709',
+      },
+      {
+        label: 'PressHUB',
+        kind: 'press',
+        url: 'https://www.presshub.ro/vicepresedintele-pnl-bistrita-nasaud-sorin-hognogi-sunt-cercetat-de-dna-250673/',
+      },
+      {
+        label: 'Bistrița Express',
+        kind: 'press',
+        url: 'https://bistritaexpress.ro/2024/01/11/ce-anunt-legat-de-candidatura-a-facut-un-primar-din-bistrita-nasaud-trimis-in-judecata-de-dna-pentrr-fapte-de-coruptie/',
+      },
+    ],
+  },
+  {
+    name: 'Traian Stanciu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Ungra',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Ungra, județul Brașov.',
+    },
+    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 28 martie 2024: fostul primar al comunei Ungra a primit 2 ani de închisoare cu suspendare într-un dosar privind fonduri APIA obținute pe baza unor documente false.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12554',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/brasov/traian-stanciu-ungra-cel-mai-longeviv-primar-1704964.html',
+      },
+    ],
+  },
+  {
+    name: 'Romeo Vulpe',
+    party: 'PSD',
+    position: 'Fost primar al comunei Tănăsoaia',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Tănăsoaia, județul Vrancea.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2020,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 7 decembrie 2020: fostul primar al comunei Tănăsoaia a primit 3 ani de închisoare cu suspendare pentru folosirea de documente false în vederea obținerii de fonduri europene.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10194',
+      },
+      {
+        label: 'Monitorul de Vrancea',
+        kind: 'press',
+        url: 'https://www.monitoruldevrancea.ro/2020/09/11/foto-romeo-vulpe-primarul-de-cinci-stele-de-la-tanasoaia/',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/focsani/primarul-de-la-tanasoaia-isi-construieste-pensiune-1515382.html',
+      },
+    ],
+  },
+  {
+    name: 'Ion Gheorgheci',
+    party: 'PSD',
+    position: 'Primar al comunei Godeanu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Godeanu, județul Mehedinți.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene; fals intelectual; fals în înscrisuri sub semnătură privată; uz de fals',
+    sentence: '2 ani și 10 luni închisoare cu suspendare',
+    sentence_years: 2.83,
+    conviction_year: 2017,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă a primarului comunei Godeanu la 2 ani și 10 luni de închisoare cu suspendare și interdicția de a ocupa funcția de primar timp de 5 ani, într-un dosar privind fonduri APIA.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8028',
+      },
+      {
+        label: 'Primăria Godeanu',
+        kind: 'official',
+        url: 'https://www.comunagodeanumh.ro/membru-primarie/ion-gheorgheci/',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-mehedinti.html',
+      },
+    ],
+  },
+  {
+    name: 'Ion Spîrleanu',
+    party: 'PSD',
+    position: 'Primar al comunei Crețeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Crețeni, județul Vâlcea.',
+    },
+    crime: 'Tentativă la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din 21 iulie 2021: primarul comunei Crețeni a primit 1 an și 6 luni de închisoare cu suspendare pentru tentativa de obținere a unei finanțări nerambursabile pe baza unor hotărâri de consiliu local false.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10511',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-valcea.html',
+      },
+      {
+        label: 'Săptămâna în Oltenia',
+        kind: 'press',
+        url: 'https://saptamana.net/articol/10048-rezultate-alegeri-2016-31-de-localitati-din-valcea-si-au-ales-primari-noi',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Viorel Melen',
+    party: 'Independent',
+    position: 'Fost primar al comunei Brodina',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Brodina, județul Suceava.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă inițială din 24 martie 2021, iar actualizarea din 13 martie 2023 a menținut condamnarea la 3 ani de închisoare pentru folosire sau prezentare cu rea-credință de documente false pentru fonduri europene.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10349',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/suceava/video-prefectul-sinescu-si-primarul-melen-au-fost-1602213.html',
+      },
+      {
+        label: 'Dinu Zară',
+        kind: 'press',
+        url: 'https://www.dinuzara.com/2012/05/lista-completa-candidatilor-la.html',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Chiriac',
+    party: 'PNL',
+    position: 'Primar al orașului Broșteni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Broșteni, județul Suceava.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene; instigare la folosirea de documente false',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în mai 2019 trimiterea în judecată a primarului orașului Broșteni într-un dosar privind documente false depuse la APIA pentru subvenții pe suprafață.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9513',
+      },
+      {
+        label: 'Crai Nou',
+        kind: 'press',
+        url: 'https://www.crainou.ro/2019/04/02/primarul-pnl-al-orasului-brosteni-nicolae-chiriac-repus-in-functie-de-tribunalul-suceava/',
+      },
+      {
+        label: 'Suceava News',
+        kind: 'press',
+        url: 'https://suceavanews.ro/200638/administratie/portret-de-candidat-nicolae-chiriac-candidatul-pnl-la-primaria-brosteni/',
+      },
+    ],
+  },
+  {
+    name: 'Virgil-Remo Mateescu',
+    party: 'PSD',
+    position: 'Fost primar al comunei Corbeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Corbeni, județul Argeș.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene, cu consecințe deosebit de grave',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în ianuarie 2023 trimiterea în judecată a fostului primar al comunei Corbeni într-un dosar privind obținerea nelegală de fonduri europene cu consecințe deosebit de grave.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11709',
+      },
+      {
+        label: 'Argeș Expres',
+        kind: 'press',
+        url: 'https://www.argesexpres.ro/index.php/politic/9670-psd-a-facut-liniste-in-arges-75-primari-din-102-posibili',
+      },
+      {
+        label: 'Observator de Argeș',
+        kind: 'press',
+        url: 'https://www.observatordearges.ro/rezultate-alegeri-locale.html',
+      },
+    ],
+  },
+  {
+    name: 'Ion Șerban',
+    party: 'PSD',
+    position: 'Fost primar al comunei Hoghiz',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Hoghiz, județul Brașov.',
+    },
+    crime: 'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2019 trimiterea în judecată a primarului comunei Hoghiz într-un dosar privind documente folosite la APIA pentru sprijin financiar pe suprafață.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9465',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+      },
+    ],
+  },
+  {
+    name: 'Iordache Cazacu',
+    party: 'PSD',
+    position: 'Primar al comunei Fitionești',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Fitionești, județul Vrancea.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în august 2017 trimiterea în judecată a primarului comunei Fitionești într-un dosar privind cereri de rambursare și documente justificative falsificate pentru fonduri europene.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8312',
+      },
+      {
+        label: 'Monitorul de Vrancea',
+        kind: 'press',
+        url: 'https://www.monitoruldevrancea.ro/2020/09/02/video-fitionesti-candidatul-psd-iordache-cazacu-in-fata-celui-de-al-patrulea-mandat-de-primar/',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-vrancea.html',
+      },
+    ],
+  },
+  {
+    name: 'Dimitrie Nechita',
+    party: 'PSD',
+    position: 'Fost primar al comunei Costuleni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Costuleni, județul Iași.',
+    },
+    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    sentence: 'Proces penal încetat definitiv ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2026,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat trimiterea în judecată în mai 2019, iar actualizarea din iunie 2026 consemnează decizia definitivă a Curții de Apel Iași de încetare a procesului penal ca urmare a prescripției, cu despăgubiri civile stabilite pentru campania APIA 2009.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9513',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/costuleni/',
+      },
+      {
+        label: 'Viața Liberă',
+        kind: 'press',
+        url: 'https://www.viata-libera.ro/pdf/2004/06_iunie/vlg_15_iun.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru Harabagiu',
+    party: 'PNL',
+    position: 'Fost primar al comunei Costuleni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Costuleni, județul Iași.',
+    },
+    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    sentence: 'Proces penal încetat definitiv ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2026,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat trimiterea în judecată în mai 2019, iar actualizarea din iunie 2026 consemnează decizia definitivă a Curții de Apel Iași de încetare a procesului penal ca urmare a prescripției, cu despăgubiri civile stabilite pentru campaniile APIA 2009 și 2010.',
+    verified_at: '2026-07-01',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9513',
+      },
+      {
+        label: 'Ziarul de Iași',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/primarii-comunelor-din-judetul-iasi-mai-saraci-decat-contracandidatii--128265.html',
+      },
+      {
+        label: 'News Pașcani',
+        kind: 'press',
+        url: 'https://newspascani.com/lista-finala-a-noilor-primari-din-judetul-iasi/',
+      },
+    ],
+  },
 ];
 
 /**
