@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-01',
+  last_updated: '2026-07-02',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -81399,6 +81399,329 @@ export const politicianAdditions = [
         label: 'News Pașcani',
         kind: 'press',
         url: 'https://newspascani.com/lista-finala-a-noilor-primari-din-judetul-iasi/',
+      },
+    ],
+  },
+  {
+    name: 'Alexandru Lucian Igrișan',
+    party: 'PSD',
+    position: 'Primar al orașului Zărnești',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Zărnești, județul Brașov.',
+    },
+    crime: 'Tentativă la folosirea sau prezentarea de documente ori declarații false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în sinteza cauzelor finalizate în noiembrie 2022 trimiterea în judecată a lui Igrișan Alexandru Lucian, la data faptei viceprimar al orașului Zărnești și ulterior primar al aceluiași oraș, într-un dosar privind documente false depuse pentru finanțarea unui centru de informare turistică.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11635',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_brasov/primarie/zarnesti/',
+      },
+    ],
+  },
+  {
+    name: 'Ilie Gherman',
+    party: 'PSD',
+    position: 'Fost primar al comunei Slatina',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Slatina, județul Suceava.',
+    },
+    crime: 'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în sinteza cauzelor finalizate în octombrie 2019 trimiterea în judecată a fostului primar al comunei Slatina într-un dosar privind documente false sau inexacte depuse la APIA pentru obținerea de fonduri.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9651',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-suceava.html',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Raica',
+    party: 'PSD',
+    position: 'Primar al comunei Râmeț',
+    position_type: 'mayor',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Râmeț, județul Alba.',
+    },
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în decembrie 2020 trimiterea în judecată a primarului și fostului viceprimar al comunei Râmeț într-un dosar privind documente false sau inexacte depuse pentru obținerea de fonduri europene.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10171',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Costel Morărescu',
+    party: 'UNPR',
+    position: 'Primar al comunei Filipeștii de Pădure',
+    position_type: 'mayor',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Filipeștii de Pădure, județul Prahova.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în sinteza cauzelor finalizate în aprilie 2018 trimiterea în judecată a primarului comunei Filipeștii de Pădure pentru abuz în serviciu în formă continuată, într-un dosar privind finanțări nerambursabile acordate de la bugetul local unei asociații sportive.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8616',
+      },
+      {
+        label: 'Pro TV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-prahova.html',
+      },
+    ],
+  },
+  {
+    name: 'Titu Neague',
+    party: 'PSD',
+    position: 'Fost primar al comunei Bărăganu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Bărăganu, județul Constanța.',
+    },
+    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; complicitate la fals în înscrisuri sub semnătură privată',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în sinteza cauzelor finalizate în mai 2018 trimiterea în judecată a lui Neague Titu, administrator în fapt al unei societăți și primar al comunei Bărăganu la data faptelor, într-un dosar privind documente folosite pentru obținerea de fonduri europene.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8541',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Ion Aliman',
+    party: 'PSD',
+    position: 'Fost primar al comunei Deveselu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Deveselu, județul Olt.',
+    },
+    crime: 'Luare de mită',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în octombrie 2018 trimiterea în judecată a primarului comunei Deveselu pentru luare de mită, într-un dosar privind lucrări de modernizare a drumurilor comunale.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9118',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_olt/primarie/deveselu/',
+      },
+    ],
+  },
+  {
+    name: 'Petru Ungur',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mărgău',
+    position_type: 'mayor',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Mărgău, județul Cluj.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în mai 2022 trimiterea în judecată a fostului primar al comunei Mărgău pentru abuz în serviciu în formă continuată, într-un dosar privind un contract de refacere a lucrărilor afectate de fenomene hidrometeorologice.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11277',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_cluj/primarie/margau/',
+      },
+    ],
+  },
+  {
+    name: 'Ion-Robert Rotea',
+    party: 'PSD',
+    position: 'Primar al comunei Vitomirești',
+    position_type: 'mayor',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Vitomirești, județul Olt.',
+    },
+    crime: 'Abuz în serviciu; fals material; complicitate la obținerea ilegală de fonduri; luare de mită; instigare la spălare a banilor',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în mai 2022 punerea în mișcare a acțiunii penale și reținerea primarului comunei Vitomirești într-un dosar privind achiziții publice, fonduri și plăți nelegale.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11256',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_olt/primarie/vitomiresti/',
+      },
+    ],
+  },
+  {
+    name: 'Marian Țaga',
+    party: 'PNL',
+    position: 'Primar al comunei Vedea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Vedea, județul Giurgiu.',
+    },
+    crime: 'Folosire sau prezentare de documente false pentru fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în februarie 2023 trimiterea în judecată a primarului comunei Vedea într-un dosar privind documente false sau inexacte folosite pentru obținerea de fonduri europene.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11891',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_giurgiu/primarie/vedea/',
+      },
+    ],
+  },
+  {
+    name: 'Alexandru Șerban',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Vedea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de viceprimar al comunei Vedea, județul Giurgiu.',
+    },
+    crime: 'Complicitate la folosirea sau prezentarea de documente false pentru fonduri europene; complicitate la fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în februarie 2023 trimiterea în judecată a viceprimarului comunei Vedea într-un dosar privind documente false sau inexacte folosite pentru obținerea de fonduri europene.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11891',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_giurgiu/consiliul-local/vedea/',
+      },
+    ],
+  },
+  {
+    name: 'Gheorghe Claudiu Doroftei',
+    party: 'PSD',
+    position: 'Primar al comunei Bălușeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Bălușeni, județul Botoșani.',
+    },
+    crime: 'Abuz în serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în martie 2023 trimiterea în judecată a primarului comunei Bălușeni pentru abuz în serviciu și fals intelectual, într-un dosar privind plata drepturilor salariale pentru un director de complex sportiv.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11968',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_botosani/primarie/baluseni/',
       },
     ],
   },
