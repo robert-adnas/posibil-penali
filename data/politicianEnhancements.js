@@ -10687,6 +10687,351 @@ function formatAutomatedSentence(months, suspended) {
   return `${parts.join(' \u0219i ')} \u00eenchisoare ${suspended ? 'cu suspendare' : 'cu executare'}`;
 }
 
+const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Buzdea Ion',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Poiana Teiului',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Poiana Teiului, județul Neamț.',
+    },
+    crime: 'Șantaj; acces fără drept la un sistem informatic',
+    status: 'indicted',
+    details:
+      'DNA Bacău l-a trimis în judecată în iulie 2022, sub control judiciar, pentru șantaj în formă continuată și acces fără drept la un sistem informatic. Pagina oficială a Primăriei Poiana Teiului pentru comisiile consiliului local îl listează pe Buzdea Ion ca membru PSD.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 11325',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11325',
+      },
+      {
+        label: 'Primăria Poiana Teiului - comisii de specialitate',
+        kind: 'official',
+        url: 'https://poianateiului.ro/despre-primarie/conducere/consiliul-local/comisii-de-specialitate/',
+      },
+    ],
+  },
+  {
+    name: 'Boricean Nistor',
+    party: 'PNL',
+    position: 'Primar al comunei Măieruș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Măieruș, județul Brașov.',
+    },
+    crime: 'Abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA Brașov l-a trimis în judecată pentru abuz în serviciu în formă continuată într-un dosar privind lucrări de apă și canalizare în localitatea Arini. Rezultatele electorale locale din 2024 îl listează drept candidat PNL la Primăria Măieruș.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 10650',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10650',
+      },
+      {
+        label: 'Ziare.com - rezultate locale 2024 Măieruș',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_brasov/primarie/maierus/',
+      },
+    ],
+  },
+  {
+    name: 'Bacinschi Decebal-Gabriel',
+    party: 'PSD',
+    position: 'Fost primar al municipiului Focșani',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în municipiul Focșani, județul Vrancea.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Galați l-a condamnat definitiv în decembrie 2021 la 3 ani închisoare cu suspendare pentru abuz în serviciu. HotNews îl identifică drept fost primar PSD al Focșaniului.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 10852',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10852',
+      },
+      {
+        label: 'HotNews - fostul primar PSD al Focșaniului',
+        kind: 'press',
+        url: 'https://hotnews.ro/fostul-primar-psd-al-focsaniului-decebal-bacinschi-trimis-n-judecata-pentru-abuz-n-serviciu-309292',
+      },
+    ],
+  },
+  {
+    name: 'Condu Ștefan',
+    party: 'PNL',
+    position: 'Fost primar al comunei Dobroești',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Dobroești, județul Ilfov.',
+    },
+    crime: 'Instigare la abuz în serviciu; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA l-a trimis în judecată în 2021 pentru instigare la abuz în serviciu și fals intelectual în formă continuată, în legătură cu acte privind un imobil din Dobroești. Fișierul AEP/FinantarePartide.ro pentru contribuțiile locale 2020 îl listează pe Condu Ștefan la Partidul Național Liberal pentru Primăria Dobroești.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 10787',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10787',
+      },
+      {
+        label: 'FinantarePartide.ro - contribuții locale 2020',
+        kind: 'official',
+        url: 'https://finantarepartide.ro/wp-content/uploads/2020/09/CENTRALIZARE-CONTRIBUTII-04.09.2020.xlsx',
+      },
+      {
+        label: 'Ziare.com - candidați Consiliul Local Dobroești 2020',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/dobroesti/',
+      },
+    ],
+  },
+  {
+    name: 'Puchin Marin',
+    party: 'USL',
+    position: 'Fost primar al comunei Lăcusteni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Lăcusteni, județul Vâlcea.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente false pentru obținerea pe nedrept de fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA Pitești l-a trimis în judecată în aprilie 2021 pentru folosirea de documente false într-un proiect finanțat din fonduri europene pentru apă, canalizare și epurare. BEC 2012 îl listează drept primar ales al comunei Lăcusteni din partea Uniunii Social Liberale.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 10358',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10358',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Dima Vasile',
+    party: 'USL',
+    position: 'Fost primar al comunei Răstoaca',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Răstoaca, județul Vrancea.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în 2018 într-un dosar privind fonduri APIA și atribuții de serviciu. Actualizarea DNA din februarie 2024 consemnează că decizia definitivă din aprilie 2023 a dispus achitarea pentru unele acuzații și încetarea procesului penal prin prescripție pentru abuz în serviciu. BEC 2012 îl listează drept primar USL al comunei Răstoaca.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 8704',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8704',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Ciaușu Angelica',
+    party: 'PNL',
+    position: 'Fost viceprimar al comunei Costuleni',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Costuleni, județul Iași.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2026,
+    status: 'prescribed',
+    details:
+      'DNA Iași a trimis-o în judecată în 2019 pentru documente false depuse la APIA în perioada 2008-2010, iar actualizarea oficială din iunie 2026 consemnează încetarea definitivă a procesului penal ca urmare a prescripției. Documentul oficial al comunei Costuleni o listează viceprimar PNL în mandatul 2008-2012.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 9513',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9513',
+      },
+      {
+        label: 'Comuna Costuleni - statut, anexa 6b',
+        kind: 'official',
+        url: 'https://www.comunacostuleni.ro/ari_afisare_document.php?document=42852',
+      },
+    ],
+  },
+  {
+    name: 'Marian Elena',
+    party: 'PNL',
+    position: 'Primar al comunei Brateiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Brateiu, județul Sibiu.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2024,
+    status: 'prescribed',
+    details:
+      'DNA Alba Iulia a trimis-o în judecată în 2020 pentru documente false depuse la APIA, iar actualizarea oficială din februarie 2025 consemnează decizia definitivă din noiembrie 2024 de încetare a procesului penal prin prescripție. Comunicatul PNL Sibiu relatat de presa locală arată că Marian Elena era membru PNL Sibiu înainte de autosuspendarea din decembrie 2022.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - comunicat 9771',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9771',
+      },
+      {
+        label: 'Sibiu Independent - comunicat PNL Sibiu',
+        kind: 'press',
+        url: 'https://sibiuindependent.ro/2023/11/10/primarul-din-brateiu-marian-elena-nu-mai-detine-in-acest-moment-nicio-calitate-de-membru-sau-de-conducere-in-cadrul-pnl-sibiu-c-p/',
+      },
+    ],
+  },
+  {
+    name: 'Lazăr Sorin Constantin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Strunga; fost senator',
+    position_type: 'mayor',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Strunga, județul Iași.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv în octombrie 2016 la 1 an închisoare cu suspendare pentru trei infracțiuni de abuz în serviciu, două în formă continuată. Senatul României îl listează pe Lazăr Sorin-Constantin ca senator PSD.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 7849',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7849',
+      },
+      {
+        label: 'Senatul României - listă legislativă',
+        kind: 'official',
+        url: 'https://www.senat.ro/Legis/Lista.aspx?cod=19655',
+      },
+    ],
+  },
+  {
+    name: 'Drugă Nicușor',
+    party: 'PDL',
+    position: 'Fost primar al comunei Corbu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Corbu, județul Harghita.',
+    },
+    crime:
+      'Complicitate la folosire sau prezentare de documente false pentru obținerea pe nedrept de fonduri europene; fals intelectual',
+    sentence: '2 ani și 8 luni închisoare cu suspendare',
+    sentence_years: 2.67,
+    conviction_year: 2017,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Târgu Mureș l-a condamnat definitiv în februarie 2017 la 2 ani și 8 luni închisoare cu suspendare pentru complicitate la obținerea nelegală de fonduri europene și fals intelectual. BEC 2012 îl listează drept primar ales al comunei Corbu din partea PDL.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 8087',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8087',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista_moc.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Miclea Aurel',
+    party: 'PDL',
+    position: 'Fost primar al comunei Bozovici',
+    position_type: 'mayor',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Bozovici, județul Caraș-Severin.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2017,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în noiembrie 2017 la 3 ani închisoare cu suspendare pentru luare de mită. Datele electorale BEC 2008 îl listează ca primar ales al comunei Bozovici din partea PDL.',
+    verified_at: '2026-07-02',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 8564',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8564',
+      },
+      {
+        label: 'BEC - primari aleși 2008',
+        kind: 'official',
+        url: 'https://beclocale2008.roaep.ro/documm/locale_2008/Pales_moc1.pdf',
+      },
+    ],
+  },
+];
+
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
   AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS.map(([
     name,
@@ -26471,6 +26816,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
