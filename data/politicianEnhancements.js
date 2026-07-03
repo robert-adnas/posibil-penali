@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-02',
+  last_updated: '2026-07-03',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -11030,6 +11030,346 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
       },
     ],
   },
+];
+
+const AUTOMATED_JUL_03_2026_HARTA_SOURCE = {
+  label: 'Romania Curata - Harta coruptiei CSV',
+  kind: 'press',
+  url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+};
+
+const AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE = {
+  label: 'BEC - primari alesi 2012',
+  kind: 'official',
+  url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista.pdf',
+};
+
+const AUTOMATED_JUL_03_2026_BEC_2020_SOURCES = {
+  bucuresti: {
+    label: 'BEC - candidaturi locale 2020 Bucuresti',
+    kind: 'official',
+    url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/B.xls',
+  },
+  bihor: {
+    label: 'BEC - candidaturi locale 2020 Bihor',
+    kind: 'official',
+    url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BH.xls',
+  },
+  botosani: {
+    label: 'BEC - candidaturi locale 2020 Botosani',
+    kind: 'official',
+    url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BT.xls',
+  },
+  iasi: {
+    label: 'BEC - candidaturi locale 2020 Iasi',
+    kind: 'official',
+    url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls',
+  },
+};
+
+const AUTOMATED_JUL_03_2026_BEC_CANDIDATE_RECORDS = [
+  [
+    'Petre Alexandru',
+    'PMP',
+    'Bucure\u0219ti',
+    'Consiliul Local Bucure\u0219ti Sectorul 1',
+    'local_official',
+    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
+    '5173',
+    36,
+    true,
+    2014,
+    'Complicitate la stabilirea cu inten\u021bie a unei valori diminuate a bunurilor publice',
+  ],
+  [
+    'Staicu Marian',
+    'PRM',
+    'Bucure\u0219ti',
+    'Consiliul Local Bucure\u0219ti Sectorul 6',
+    'local_official',
+    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
+    '5307',
+    36,
+    true,
+    2014,
+    'Cump\u0103rare de influen\u021b\u0103; complicitate la dare de mit\u0103; fals \u00een \u00eenscrisuri',
+  ],
+  [
+    'Stan Daniela',
+    'PSD',
+    'Bucure\u0219ti',
+    'Consiliul Local Bucure\u0219ti Sectorul 3',
+    'local_official',
+    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
+    '4128',
+    84,
+    false,
+    2013,
+    'Participa\u021bie improprie la \u00een\u0219el\u0103ciune cu consecin\u021be deosebit de grave',
+  ],
+].map(([
+  name,
+  party,
+  county,
+  candidateTarget,
+  positionType,
+  becSource,
+  dnaId,
+  sentenceMonths,
+  suspended,
+  convictionYear,
+  crime,
+]) => ({
+  name,
+  party,
+  position: `Candidat ${party} la ${candidateTarget} (2020)`,
+  position_type: positionType,
+  geography: {
+    county,
+    basis: 'political_base',
+    note: `Candidatura din registrul oficial BEC 2020 era pentru ${candidateTarget}.`,
+  },
+  crime,
+  sentence: formatAutomatedSentence(sentenceMonths, suspended),
+  sentence_years: Number((sentenceMonths / 12).toFixed(2)),
+  conviction_year: convictionYear,
+  status: 'convicted',
+  execution_type: suspended ? 'Cu suspendare' : 'Cu executare',
+  details:
+    `Comunicatul DNA consemneaz\u0103 hot\u0103r\u00e2rea definitiv\u0103 \u0219i pedeapsa de ${formatAutomatedSentence(sentenceMonths, suspended)}. Registrul oficial BEC 2020 listeaz\u0103 candidatura politic\u0103 ${party} pentru ${candidateTarget}.`,
+  verified_at: '2026-07-03',
+  sources: [
+    {
+      label: `DNA - hot\u0103r\u00e2re definitiv\u0103 ${dnaId}`,
+      kind: 'official',
+      url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
+    },
+    becSource,
+    AUTOMATED_JUL_03_2026_HARTA_SOURCE,
+  ],
+}));
+
+const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
+  {
+    name: 'Curcudel Elena',
+    party: 'USL',
+    position: 'Fost primar al comunei Mironeasa',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Mironeasa, jude\u021bul Ia\u0219i.',
+    },
+    crime: 'Instigare la fals intelectual; fals intelectual',
+    sentence: '1 an \u0219i 4 luni \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei',
+    sentence_years: 1.33,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Am\u00e2nare',
+    details:
+      'Curtea de Apel Ia\u0219i a stabilit definitiv, \u00een iunie 2018, pedeapsa de 1 an \u0219i 4 luni \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei pentru fapte de fals intelectual. BEC 2012 o listeaz\u0103 ca primar ales al comunei Mironeasa din partea USL.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - hot\u0103r\u00e2re definitiv\u0103 8891',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8891',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
+    ],
+  },
+  {
+    name: 'Rus Mircea',
+    party: 'USL',
+    position: 'Fost primar al comunei Band',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mure\u0219',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Band, jude\u021bul Mure\u0219.',
+    },
+    crime: 'Luare de mit\u0103; sp\u0103lare de bani',
+    sentence: 'Proces penal \u00eencetat ca urmare a prescrip\u021biei',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    execution_type: 'Prescrip\u021bie',
+    details:
+      'DNA a consemnat c\u0103, prin decizia penal\u0103 nr. 426 din 5 iulie 2023, Curtea de Apel T\u00e2rgu Mure\u0219 a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei \u0219i confiscarea sumei de 435.000 lei. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei Band din partea USL.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 8362',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8362',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
+    ],
+  },
+  {
+    name: 'Gheorghe Nicolae',
+    party: 'PC',
+    position: 'Fost primar al comunei Boi\u0219oara',
+    position_type: 'mayor',
+    geography: {
+      county: 'V\u00e2lcea',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Boi\u0219oara, jude\u021bul V\u00e2lcea.',
+    },
+    crime: 'Tentativ\u0103 la folosirea de documente false pentru fonduri europene',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a consemnat achitarea definitiv\u0103 \u00een aprilie 2020 \u00een dosarul privind documente pentru fonduri europene. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei Boi\u0219oara din partea PC.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 8266',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8266',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
+    ],
+  },
+  {
+    name: 'Apostol Constantin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Bal\u0219',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Bal\u0219, jude\u021bul Ia\u0219i.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene',
+    sentence: 'Proces penal \u00eencetat ca urmare a prescrip\u021biei',
+    sentence_years: 0,
+    conviction_year: 2024,
+    status: 'prescribed',
+    execution_type: 'Prescrip\u021bie',
+    details:
+      'DNA a consemnat c\u0103, prin decizia penal\u0103 nr. 1025 din 19 decembrie 2024, Curtea de Apel Ia\u0219i a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei. Registrul oficial BEC 2020 listeaz\u0103 candidatura sa PSD la Consiliul Local Bal\u0219.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 10577',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10577',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.iasi,
+    ],
+  },
+  {
+    name: 'Kelemen Zoltan',
+    party: 'UDMR',
+    position: 'Fost primar al comunei Ro\u0219iori',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Ro\u0219iori, jude\u021bul Bihor.',
+    },
+    crime: 'Tentativ\u0103 la folosirea de documente false pentru fonduri europene',
+    sentence: 'Proces penal \u00eencetat ca urmare a prescrip\u021biei',
+    sentence_years: 0,
+    conviction_year: 2025,
+    status: 'prescribed',
+    execution_type: 'Prescrip\u021bie',
+    details:
+      'DNA a consemnat c\u0103 Tribunalul Bihor a dispus \u00eencetarea procesului penal, definitiv\u0103 prin neapelare \u00een august 2025, ca urmare a prescrip\u021biei. BEC 2020 \u00eel listeaz\u0103 drept candidat UDMR la Prim\u0103ria Ro\u0219iori.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 10785',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10785',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bihor,
+    ],
+  },
+  {
+    name: 'Kiss Iosif',
+    party: 'UDMR',
+    position: 'Fost primar al comunei T\u0103rlungeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bra\u0219ov',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna T\u0103rlungeni, jude\u021bul Bra\u0219ov.',
+    },
+    crime: 'Instigare la folosirea de documente false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA Bra\u0219ov l-a trimis \u00een judecat\u0103 \u00een martie 2022 pentru instigare la folosirea de documente false \u00een leg\u0103tur\u0103 cu fonduri europene. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei T\u0103rlungeni din partea UDMR.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 11038',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11038',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
+    ],
+  },
+  {
+    name: 'Hali\u021b\u0103 Gheorghe',
+    party: 'USL',
+    position: 'Fost primar al comunei Siminicea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Siminicea, jude\u021bul Suceava.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA Suceava l-a trimis \u00een judecat\u0103 \u00een martie 2023 pentru complicitate la folosirea de documente false \u00een leg\u0103tur\u0103 cu fonduri europene. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei Siminicea din partea USL.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - comunicat 11910',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11910',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
+    ],
+  },
+  {
+    name: 'Oloeriu Dan',
+    party: 'PNL',
+    position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi',
+    position_type: 'mayor',
+    geography: {
+      county: 'Boto\u0219ani',
+      basis: 'office',
+      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een ora\u0219ul Fl\u0103m\u00e2nzi, jude\u021bul Boto\u0219ani.',
+    },
+    crime: 'Luare de mit\u0103; abuz \u00een serviciu',
+    sentence: '3 ani \u00eenchisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a consemnat c\u0103 Tribunalul Boto\u0219ani a admis acordul de recunoa\u0219tere a vinov\u0103\u021biei \u0219i l-a condamnat definitiv, prin neapelare \u00een mai 2026, la 3 ani \u00eenchisoare cu suspendare. BEC 2020 \u00eel listeaz\u0103 drept candidat PNL la Prim\u0103ria Fl\u0103m\u00e2nzi.',
+    verified_at: '2026-07-03',
+    sources: [
+      {
+        label: 'DNA - hot\u0103r\u00e2re definitiv\u0103 13809',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13809',
+      },
+      AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.botosani,
+    ],
+  },
+];
+
+const AUTOMATED_JUL_03_2026_MORE_PEOPLE_RECORDS = [
+  ...AUTOMATED_JUL_03_2026_BEC_CANDIDATE_RECORDS,
+  ...AUTOMATED_JUL_03_2026_MANUAL_RECORDS,
 ];
 
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
@@ -26817,6 +27157,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_03_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
