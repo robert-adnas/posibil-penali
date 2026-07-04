@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-03',
+  last_updated: '2026-07-04',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -11370,6 +11370,371 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
 const AUTOMATED_JUL_03_2026_MORE_PEOPLE_RECORDS = [
   ...AUTOMATED_JUL_03_2026_BEC_CANDIDATE_RECORDS,
   ...AUTOMATED_JUL_03_2026_MANUAL_RECORDS,
+];
+
+const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Horăscu Ion',
+    party: 'PSD',
+    position: 'Fost primar al comunei Prundeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Prundeni, județul Vâlcea.',
+    },
+    crime:
+      'Abuz în serviciu; spălare a banilor; folosire de documente false pentru obținerea de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2024,
+    status: 'prescribed',
+    execution_type: 'Prescripție',
+    details:
+      'DNA a consemnat trimiterea în judecată în dosarul proiectului „Drumul vinului vâlcean”, iar actualizarea oficială din februarie 2024 arată încetarea definitivă a procesului penal prin prescripție și obligații civile stabilite în solidar. BEC 2012 îl listează ca primar ales al comunei Prundeni din partea PSD.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 10528',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10528',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista_moc.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Rădeanu Constantin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Frumușica',
+    position_type: 'mayor',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Frumușica, județul Botoșani.',
+    },
+    crime: 'Instigare la folosirea de documente false pentru obținerea de fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA Suceava a comunicat trimiterea în judecată în 2017 a primarului comunei Frumușica pentru instigare la folosirea de documente false în legătură cu subvenții APIA. Rezultatele locale 2016 îl listează candidat PSD la Primăria Frumușica.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 8266',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8266',
+      },
+      {
+        label: 'Pro TV - rezultate locale Botoșani 2016',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-botosani.html',
+      },
+    ],
+  },
+  {
+    name: 'Pelivan Tănase',
+    party: 'PDL',
+    position: 'Fost primar al comunei Mihai Bravu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Mihai Bravu, județul Tulcea.',
+    },
+    crime:
+      'Complicitate la folosirea de documente false pentru fonduri europene; fals în înscrisuri; abuz în serviciu',
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat trimiterea în judecată pentru contracte și înscrisuri privind terenuri comunale folosite la obținerea nelegală de subvenții APIA. BEC 2008 îl listează ca primar ales al comunei Mihai Bravu din partea PDL.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 7875',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7875',
+      },
+      {
+        label: 'BEC - primari aleși 2008',
+        kind: 'official',
+        url: 'https://beclocale2008.roaep.ro/documm/locale_2008/Pales_moc123.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Zoltan Andras',
+    party: 'UDMR',
+    position: 'Primar al comunei Plăieșii de Jos',
+    position_type: 'mayor',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Plăieșii de Jos, județul Harghita.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru obținerea de fonduri europene',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    execution_type: 'Prescripție',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2016 pentru documente false folosite în legătură cu terenuri și subvenții APIA, iar actualizarea oficială din februarie 2024 consemnează încetarea procesului penal prin prescripție. Profilul UDMR îl listează pe András Zoltán pentru Plăieșii de Jos.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 7875',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7875',
+      },
+      {
+        label: 'UDMR',
+        kind: 'official',
+        url: 'https://udmr.ro/profil/andras-zoltan',
+      },
+    ],
+  },
+  {
+    name: 'Troacă Mihăiță Gabriel',
+    party: 'PSD',
+    position: 'Fost primar al comunei Padeș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Gorj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Padeș, județul Gorj.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru obținerea de fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2017 a primarului comunei Padeș într-un dosar privind documente false folosite la APIA. Presa locală îl identifică drept edil PSD al comunei Padeș.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 8266',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8266',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/targu-jiu/primar-psd-condamnat-la-sase-ani-de-inchisoare-2065722.html',
+      },
+    ],
+  },
+  {
+    name: 'Stan Viorel Adrian',
+    party: 'USL',
+    position: 'Fost primar al orașului Techirghiol',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în orașul Techirghiol, județul Constanța.',
+    },
+    crime: 'Luare de mită',
+    sentence: '2 ani și 8 luni închisoare',
+    sentence_years: 2.67,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a comunicat condamnarea definitivă din mai 2016 la 2 ani și 8 luni de închisoare pentru luare de mită. BEC 2012 îl listează ca primar ales al orașului Techirghiol din partea USL.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 7527',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7527',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Matei Nicolae',
+    party: 'PSD',
+    position: 'Fost primar al orașului Năvodari',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în orașul Năvodari, județul Constanța.',
+    },
+    crime: 'Abuz în serviciu; conflict de interese',
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat trimiterea în judecată în dosarul privind patrimoniul Taberei de copii Năvodari și hotărâri ale administrației locale. BEC 2012 îl listează ca primar ales al orașului Năvodari din partea PSD.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 8371',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8371',
+      },
+      {
+        label: 'BEC - primari aleși 2012',
+        kind: 'official',
+        url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Cazacu Iordache',
+    party: 'PSD',
+    position: 'Primar al comunei Fitionești',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al comunei Fitionești, județul Vrancea.',
+    },
+    crime: 'Folosire de documente false pentru obținerea de fonduri europene; fals intelectual',
+    status: 'indicted',
+    details:
+      'DNA Galați a comunicat trimiterea în judecată în 2017 pentru documente justificative falsificate depuse în cadrul unui proiect finanțat din fonduri nerambursabile. Rezultatele locale 2016 îl listează candidat PSD la Primăria Fitionești.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 8312',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8312',
+      },
+      {
+        label: 'Pro TV - rezultate locale Vrancea 2016',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-vrancea.html',
+      },
+    ],
+  },
+  {
+    name: 'Negoiță Liviu Cristian',
+    party: 'PNL',
+    position: 'Primar al orașului Cernavodă',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Cernavodă, județul Constanța.',
+    },
+    crime: 'Abuz în serviciu',
+    sentence: 'Achitat definitiv',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a comunicat inițial condamnarea definitivă din ianuarie 2026 la 4 ani închisoare, însă actualizarea oficială din 15 iunie 2026 consemnează decizia ÎCCJ din 27 mai 2026 de achitare definitivă întrucât fapta nu este prevăzută de legea penală. Presa locală îl identifică drept primar liberal al Cernavodei.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 13648',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13648',
+      },
+      {
+        label: 'Dobrogea Live',
+        kind: 'press',
+        url: 'https://dobrogealive.ro/inalta-curte-a-decis-primarul-liberal-din-cernavoda-liviu-cristian-negoita-achitat-acesta-va-fi-eliberat-din-inchisoare/',
+      },
+    ],
+  },
+  {
+    name: 'Oprea Vlad Gheorghe',
+    party: 'PNL',
+    position: 'Primar al orașului Sinaia',
+    position_type: 'mayor',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă este cea de primar al orașului Sinaia, județul Prahova.',
+    },
+    crime:
+      'Luare de mită; trafic de influență; fals în declarațiile de avere; abuz în serviciu; spălarea banilor',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în ianuarie 2025 punerea în mișcare a acțiunii penale și controlul judiciar pe cauțiune într-un dosar privind presupuse fapte de corupție și declarații de avere. Încheierea de validare a mandatului local 2020 îl menționează drept candidat PNL ales primar al orașului Sinaia.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - comunicat 12774',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12774',
+      },
+      {
+        label: 'Primăria Sinaia - validare primar 2020',
+        kind: 'official',
+        url: 'https://www.primaria-sinaia.ro/wp-content/uploads/2020/10/Incheiere-Judecatorie-validare-primar.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Luca Mircea Traian',
+    party: 'PDL',
+    position: 'Fost primar al comunei Ghioroc',
+    position_type: 'mayor',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Ghioroc, județul Arad.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în decembrie 2018 la 3 ani de închisoare cu suspendare pentru luare de mită și a dispus confiscarea unei suprafețe de teren. BEC 2008 îl listează ca primar ales al comunei Ghioroc din partea PDL.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 9247',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9247',
+      },
+      {
+        label: 'BEC - primari aleși 2008',
+        kind: 'official',
+        url: 'https://beclocale2008.roaep.ro/documm/locale_2008/Pales_moc123.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Jurj Vasile Marin',
+    party: 'PSD',
+    position: 'Fost primar al comunei Arieșeni',
+    position_type: 'mayor',
+    geography: {
+      county: 'Alba',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în comuna Arieșeni, județul Alba.',
+    },
+    crime: 'Folosire de documente false pentru obținerea de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2023,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Alba l-a condamnat definitiv în octombrie 2023 la 2 ani de închisoare cu suspendare pentru folosirea de documente false în vederea obținerii de fonduri europene. Presa locală consemnează trecerea primarului de la PNL la PSD înaintea dosarului.',
+    verified_at: '2026-07-04',
+    sources: [
+      {
+        label: 'DNA - hotărâre definitivă 12381',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12381',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/stiri/coruptie/aventurile-penale-ale-unui-primar-trimis-in-judecata-pentru-frauda-din-fonduri-europene-candideaza-senin-pentru-un-nou-mandat-1627004',
+      },
+    ],
+  },
 ];
 
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
@@ -27158,6 +27523,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_03_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
