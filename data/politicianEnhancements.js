@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-04',
+  last_updated: '2026-07-05',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -11736,6 +11736,80 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
 ];
+
+const AUTOMATED_JUL_05_2026_BEC_2024_CANDIDATE_ROWS = [
+  ['Dan Maria', 'PNL', 'Alba', 'Consiliul Local oras Baia de Aries', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Florea Nicolae', 'PNL', 'Alba', 'Consiliul Local Galda de Jos', 'local_official', '4902', 24, true, 2014, '06/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Vlad Ioan', 'PNL', 'Alba', 'Consiliul Local Lupsa', 'local_official', '2432', 12, true, 2011, '24/05/2011', 'Persoana fara calitate speciala', 'Nu este cazul', true],
+  ['Varga Mircea', 'PNL', 'Alba', 'Consiliul Local Sibot', 'local_official', '1934', 60, false, 2010, '25/05/2010', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Albu Elena', 'AUR', 'Alba', 'Consiliul Local Vintu de Jos', 'local_official', '4816', 12, true, 2014, '16/04/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Rus Maria', 'PUSL', 'Arad', 'Consiliul Local municipiul Arad', 'local_official', '4439', 4, true, 2013, '17/10/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Oprea Gheorghe', 'PNL', 'Arad', 'Consiliul Local Chisindia', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Ciobanu Dumitru', 'PSD', 'Arad', 'Consiliul Local Semlac', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Ion Costel', 'PNL', 'Arad', 'Consiliul Local Zadareni', 'local_official', '4897', 24, true, 2014, '09/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Popescu Liviu', 'PNL', 'Arge\u0219', 'Consiliul Local Bascov', 'local_official', '2162', 18, true, 2011, '12/01/2011', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Enache Ion', 'USR', 'Arge\u0219', 'Consiliul Local Babana', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Anghel Ion', 'AUR', 'Arge\u0219', 'Consiliul Local Babana', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Vasile Elena', 'AUR', 'Arge\u0219', 'Consiliul Local Bogati', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Tudor Niculina', 'PMP', 'Arge\u0219', 'Consiliul Local Bogati', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Ionescu Ion', 'PSD', 'Arge\u0219', 'Consiliul Local Bradulet', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Florea Alexandru', 'PUSL', 'Arge\u0219', 'Consiliul Local Buzoesti', 'local_official', '3620', 8, true, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Tanase Vasile', 'PSD', 'Arge\u0219', 'Consiliul Local Cepari', 'local_official', '4645', 5, true, 2014, '31/01/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Gheorghe Maria', 'USR', 'Arge\u0219', 'Consiliul Local Izvoru', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Dinca Maria', 'PSD', 'Arge\u0219', 'Consiliul Local Maracineni', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Serban Vasile', 'PNL', 'Arge\u0219', 'Consiliul Local Merisani', 'local_official', '4079', 24, true, 2013, '29/04/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Constantin Nicolae', 'PSD', 'Arge\u0219', 'Consiliul Local Mioarele', 'local_official', '4128', 84, false, 2013, '27/05/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+];
+
+const AUTOMATED_JUL_05_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_JUL_05_2026_BEC_2024_CANDIDATE_ROWS.map(([
+    name,
+    party,
+    county,
+    candidateTarget,
+    positionType,
+    dnaId,
+    sentenceMonths,
+    suspended,
+    convictionYear,
+    convictionDate,
+    sourceRole,
+    sourceInstitution,
+    euFunds,
+  ]) => ({
+    name,
+    party,
+    position: `Candidat ${party} la ${candidateTarget} (2024)`,
+    position_type: positionType,
+    geography: {
+      county,
+      basis: 'political_base',
+      note:
+        `Candidatura din registrul oficial BEC 2024 era pentru ${candidateTarget}, judetul ${county}.`,
+    },
+    crime: euFunds
+      ? 'Fapte de coruptie legate de fonduri europene'
+      : 'Fapte de coruptie / infractiuni asimilate coruptiei',
+    sentence: formatAutomatedSentence(sentenceMonths, suspended),
+    sentence_years: Number((sentenceMonths / 12).toFixed(2)),
+    conviction_year: convictionYear,
+    status: 'convicted',
+    execution_type: suspended ? 'Cu suspendare' : 'Cu executare',
+    details:
+      `Potrivit datelor DNA indexate in Harta coruptiei, condamnarea definitiva a fost pronuntata la ${convictionDate}. ` +
+      `Functia consemnata in sursa de condamnare: ${sourceRole} in ${sourceInstitution}. ` +
+      `Registrul oficial BEC 2024 listeaza candidatura ${party} la ${candidateTarget}.`,
+    verified_at: '2026-07-05',
+    sources: [
+      {
+        label: `DNA - hotarare definitiva ${dnaId}`,
+        kind: 'official',
+        url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
+      },
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
+    ],
+  }));
 
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
   AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS.map(([
@@ -27524,6 +27598,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_03_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_05_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
