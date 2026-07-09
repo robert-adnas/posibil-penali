@@ -13237,6 +13237,15 @@ const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
   ["Zapucioiu Ionel", "Arges", "4197", 18, true, 2013, "01/07/2013", true],
   ["Zegrean Adrian Ioan", "Timis", "4439", 40, false, 2013, "17/10/2013", false],
   ["Zlate Gheorghe", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
+  ["Cherciu (Fosta Vrinceanu) Liliana", "Bacau", "2669", 8, true, 2011, "08/09/2011", false],
+  ["Ciobotaru (Fosta Mosnegutu) Adriana-Cristina", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Danila (Fosta Gociu) Dorica", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Mangalagiu (Fosta Cristinoiu) Tania", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Mocanu (Fosta David) Mihaela", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Silion (Fosta Musat) Florentina", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Stoica (Kaiser) Costica", "Timis", "3946", 60, false, 2013, "27/02/2013", false],
+  ["Tudor (Fosta Bordeianu) Mihaela", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
+  ["Tuluc (Lungu) Tatiana Daniela", "Bucuresti", "4645", 5, true, 2014, "31/01/2014", false],
 ];
 
 const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
