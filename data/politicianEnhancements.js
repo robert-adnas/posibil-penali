@@ -13246,6 +13246,7 @@ const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
   ["Stoica (Kaiser) Costica", "Timis", "3946", 60, false, 2013, "27/02/2013", false],
   ["Tudor (Fosta Bordeianu) Mihaela", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
   ["Tuluc (Lungu) Tatiana Daniela", "Bucuresti", "4645", 5, true, 2014, "31/01/2014", false],
+  ["Constantin Misu", "Bucuresti", "4827", 24, true, 2014, "31/01/2014", false, "Constantin(Fost Lider Misu)"],
 ];
 
 const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
@@ -13258,6 +13259,7 @@ const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
     convictionYear,
     convictionDate,
     euFunds,
+    sourceName = name,
   ]) => ({
     name,
     party: 'Independent',
@@ -13290,7 +13292,7 @@ const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
       {
         ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
         description:
-          `Randul CSV pentru ${name} indica judetul ${county}, pedeapsa de ${sentenceMonths} luni ` +
+          `Randul CSV pentru ${sourceName} indica judetul ${county}, pedeapsa de ${sentenceMonths} luni ` +
           `si condamnarea din ${convictionDate}.`,
       },
     ],
