@@ -13298,6 +13298,75 @@ const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
     ],
   }));
 
+const AUTOMATED_JUL_09_2026_HARTA_SHORT_SENTENCE_RECORDS = [
+  {
+    name: 'Buruiana Iordan',
+    party: 'Independent',
+    position: 'Persoana fara calitate speciala in sursa condamnarii DNA',
+    position_type: 'other',
+    geography: {
+      county: 'Galati',
+      basis: 'case_location',
+      note:
+        'Registrul Harta coruptiei localizeaza condamnarea in judetul Galati; sursa nu consemneaza o functie publica sau politica speciala.',
+    },
+    crime: 'Fals in inscrisuri sub semnatura privata',
+    sentence: '15 zile inchisoare cu suspendare',
+    sentence_years: 0.04,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Potrivit comunicatului DNA, condamnarea definitiva a fost pronuntata la 30 ianuarie 2012, cu o pedeapsa de 15 zile de inchisoare cu suspendare. Harta coruptiei listeaza aceeasi cauza cu pedeapsa 0.04, care corespunde unei fractii de an, astfel ca inregistrarea este tratata separat de mapperul pe luni.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA - hotarare definitiva 2950',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2950',
+      },
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
+        description:
+          'Randul CSV pentru Buruiana Iordan indica judetul Galati, pedeapsa 0.04 si condamnarea din 30/01/2012.',
+      },
+    ],
+  },
+  {
+    name: 'Petrea Alexandru',
+    party: 'Independent',
+    position: 'Persoana fara calitate speciala in sursa condamnarii DNA',
+    position_type: 'other',
+    geography: {
+      county: 'Galati',
+      basis: 'case_location',
+      note:
+        'Registrul Harta coruptiei localizeaza condamnarea in judetul Galati; sursa nu consemneaza o functie publica sau politica speciala.',
+    },
+    crime: 'Fals in inscrisuri sub semnatura privata',
+    sentence: '15 zile inchisoare cu suspendare',
+    sentence_years: 0.04,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Potrivit comunicatului DNA, condamnarea definitiva a fost pronuntata la 30 ianuarie 2012, cu o pedeapsa de 15 zile de inchisoare cu suspendare. Harta coruptiei listeaza aceeasi cauza cu pedeapsa 0.04, care corespunde unei fractii de an, astfel ca inregistrarea este tratata separat de mapperul pe luni.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA - hotarare definitiva 2950',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2950',
+      },
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
+        description:
+          'Randul CSV pentru Petrea Alexandru indica judetul Galati, pedeapsa 0.04 si condamnarea din 30/01/2012.',
+      },
+    ],
+  },
+];
+
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
   AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS.map(([
     name,
@@ -29092,6 +29161,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUL_07_2026_HARTA_NO_SPECIAL_ROLE_RECORDS,
   ...AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_RECORDS,
   ...AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS,
+  ...AUTOMATED_JUL_09_2026_HARTA_SHORT_SENTENCE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
