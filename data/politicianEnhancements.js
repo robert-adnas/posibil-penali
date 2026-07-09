@@ -13367,6 +13367,379 @@ const AUTOMATED_JUL_09_2026_HARTA_SHORT_SENTENCE_RECORDS = [
   },
 ];
 
+const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
+  {
+    name: 'Ciprian Ciucu',
+    party: 'PNL',
+    position: 'Primar al Sectorului 6 București la data faptelor',
+    position_type: 'mayor',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al Sectorului 6 București.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 18 iunie 2026 punerea în mișcare a acțiunii penale și controlul judiciar față de Ciprian Ciucu, la data faptelor primar al Sectorului 6 București, într-un dosar privind foloase necuvenite constând în servicii de publicitate și consultanță electorală.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13821',
+      },
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+        description:
+          'Fișierul BEC 2024 îl listează pe Ciucu Ciprian drept candidat PNL pentru Primăria Sectorului 6 București.',
+      },
+    ],
+  },
+  {
+    name: 'Viorel-Daniel Chirvasă',
+    party: 'PSD',
+    position: 'Consilier local în cadrul Consiliului Local Sector 1 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al Sectorului 1 București.',
+    },
+    crime: 'Mărturie mincinoasă',
+    sentence: 'Achitat definitiv (2023)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în 2018 în dosarul A.D.P. Sector 1, iar hotărârea definitivă consemnată de DNA a dispus achitarea pentru infracțiunea reținută, întrucât fapta nu este prevăzută de legea penală.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8713',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11886',
+      },
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+        description:
+          'Fișierul BEC 2024 îl listează pe Chirvasă Viorel-Daniel drept candidat PSD pentru Consiliul Local Sector 1 București.',
+      },
+    ],
+  },
+  {
+    name: 'Alin-Silviu Trășculescu',
+    party: 'PDL',
+    position: 'Fost deputat de Vrancea și fost președinte al organizației județene Vrancea a PDL',
+    position_type: 'deputy',
+    geography: {
+      county: 'Vrancea',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Vrancea.',
+    },
+    crime: 'Trafic de influență; instigare la spălare de bani; instigare la fals în înscrisuri sub semnătură privată',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în martie 2016 la 3 ani de închisoare pentru trafic de influență, instigare la spălare de bani și instigare la fals în înscrisuri sub semnătură privată.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7246',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Alin_Tr%C4%83%C8%99culescu',
+      },
+    ],
+  },
+  {
+    name: 'Dorinel Ursărescu',
+    party: 'PNL',
+    position: 'Fost deputat de Neamț și fost președinte al organizației județene Neamț a PNL',
+    position_type: 'deputy',
+    geography: {
+      county: 'Neamț',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Neamț.',
+    },
+    crime: 'Folosirea influenței sau autorității în scopul obținerii de foloase necuvenite; cumpărare de influență',
+    sentence: '2 ani și 4 luni închisoare cu suspendare',
+    sentence_years: 2.33,
+    conviction_year: 2020,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA consemnează două hotărâri definitive: în 2017 a primit 1 an de închisoare cu suspendare pentru folosirea influenței politice, iar în 2020 a primit 2 ani și 4 luni cu suspendare pentru cumpărare de influență într-un dosar conex celui al lui Mihai Banu.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8300',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9924',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Dorinel_Urs%C4%83rescu',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Ostaficiuc',
+    party: 'PDL',
+    position: 'Fost președinte al Consiliului Județean Timiș',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Timiș.',
+    },
+    crime: 'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în ianuarie 2018, în dosarul privind finanțarea clubului Politehnica Timișoara din fonduri ale Consiliului Județean Timiș.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8665',
+      },
+    ],
+  },
+  {
+    name: 'Ioan-Petrișor Nădăștean',
+    party: 'Independent',
+    position: 'Fost secretar al județului Timiș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de secretar al județului Timiș.',
+    },
+    crime: 'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în aceeași hotărâre cu Constantin Ostaficiuc, în dosarul privind finanțarea clubului Politehnica Timișoara.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8665',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Octavian Boșcodeală',
+    party: 'PSD',
+    position: 'Fost primar al municipiului Buzău',
+    position_type: 'mayor',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al municipiului Buzău.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    sentence: 'Proces încetat definitiv ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2019,
+    status: 'prescribed',
+    details:
+      'DNA l-a trimis în judecată în 2014, iar actualizarea oficială din 2020 consemnează că, prin decizia penală nr. 1160 din 12 decembrie 2019, Curtea de Apel Ploiești a dispus încetarea procesului penal ca urmare a prescripției speciale.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4930',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Constantin_Bo%C8%99codeal%C4%83',
+      },
+    ],
+  },
+  {
+    name: 'Alin Simota',
+    party: 'PNL',
+    position: 'Fost consilier județean Hunedoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier județean în Hunedoara.',
+    },
+    crime: 'Complicitate la folosire de documente false pentru obținerea pe nedrept de fonduri europene',
+    sentence: 'Proces încetat definitiv ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA a anunțat trimiterea în judecată în 2018 într-un dosar privind fonduri europene pentru Spitalul Județean de Urgență Deva. Actualizarea DNA din 2024 consemnează încetarea definitivă a procesului penal, ca urmare a prescripției răspunderii penale.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9100',
+      },
+      {
+        label: 'Wikipedia',
+        kind: 'profile',
+        url: 'https://ro.wikipedia.org/wiki/Alin_Simota',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Gavrilescu',
+    party: 'PUSL',
+    position: 'Fost primar al comunei Călinești, județul Argeș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Călinești, județul Argeș.',
+    },
+    crime: 'Abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit',
+    status: 'indicted',
+    details:
+      'DNA Pitești a comunicat în noiembrie 2019 trimiterea sa în judecată într-un dosar privind lucrări pentru o bază sportivă multifuncțională din comuna Călinești și un prejudiciu indicat de 113.514 lei.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9651',
+      },
+      {
+        ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+        description:
+          'Fișierul BEC 2024 îl listează pe Gavrilescu Nicolae drept candidat PUSL pentru Consiliul Local Călinești, județul Argeș.',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Tănasă',
+    party: 'Independent',
+    position: 'Fost șef al Serviciului Resurse Umane, Relații cu Publicul și Administrativ din cadrul A.B.A. Siret',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Administrației Bazinale de Apă Siret, cu sediul în Bacău.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2022 în dosarul numirilor de la A.B.A. Siret, iar actualizarea din 15 iunie 2026 consemnează achitarea definitivă dispusă de Curtea de Apel Bacău.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10749',
+      },
+    ],
+  },
+  {
+    name: 'Marius Andrei Rîznic',
+    party: 'Independent',
+    position: 'Fost șef al Sistemului Hidrotehnic Independent Pașcani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în Sistemul Hidrotehnic Independent Pașcani, județul Iași.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2022 în dosarul numirilor de la A.B.A. Siret, iar actualizarea din 15 iunie 2026 consemnează achitarea definitivă dispusă de Curtea de Apel Bacău.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10749',
+      },
+    ],
+  },
+  {
+    name: 'Virgil Valentin Dorobanțu',
+    party: 'Independent',
+    position: 'Director executiv în cadrul APIA - Centrul Județean Ialomița',
+    position_type: 'local_official',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul APIA - Centrul Județean Ialomița.',
+    },
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    status: 'investigated',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Slobozia cu privire la indicii de folosire a funcției pentru favorizarea unor persoane, reținând că, după numirea sa ca director executiv, ar fi delegat soției atribuții de control într-un compartiment subordonat direct.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+    ],
+  },
+  {
+    name: 'Daniel Vasile Crăciun',
+    party: 'Independent',
+    position: 'Auditor în cadrul Agenției Naționale de Administrare Fiscală',
+    position_type: 'other',
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat că, în perioada 17 mai 2021 - 4 mai 2022, a exercitat simultan funcția publică de auditor în cadrul ANAF și funcția contractuală de auditor intern într-o societate, cu atribuții private aflate în legătură directă sau indirectă cu atribuțiile de funcționar public.',
+    verified_at: '2026-07-09',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/',
+      },
+    ],
+  },
+];
+
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
   AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS.map(([
     name,
@@ -29162,6 +29535,7 @@ export const politicianAdditions = [
   ...AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_RECORDS,
   ...AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_RECORDS,
   ...AUTOMATED_JUL_09_2026_HARTA_SHORT_SENTENCE_RECORDS,
+  ...AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS,
   ...AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS,
   ...AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS,
