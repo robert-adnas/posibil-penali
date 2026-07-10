@@ -16410,6 +16410,36 @@ const AUTOMATED_JUL_10_2026_CALANGIU_PNL_SOURCE = {
   url: 'https://adevarul.ro/stiri-locale/craiova/fostul-viceprimar-al-craiovei-arestat-pentru-1615837.html',
 };
 
+const AUTOMATED_JUL_10_2026_SUICI_FUNDS_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=8840',
+};
+
+const AUTOMATED_JUL_10_2026_TORMAC_FUNDS_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=7176',
+};
+
+const AUTOMATED_JUL_10_2026_CORBU_FUNDS_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=8087',
+};
+
+const AUTOMATED_JUL_10_2026_PADES_APIA_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12610',
+};
+
+const AUTOMATED_JUL_10_2026_BAIA_MARE_URBANISM_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=6347',
+};
+
 const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Robu Nicolae',
@@ -16908,7 +16938,251 @@ const AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Marinescu Cățeluța',
+    party: 'Independent',
+    position: 'Fost secretar al Primăriei comunei Șuici',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Șuici, județul Argeș.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '1 an și 4 luni închisoare cu suspendare',
+    sentence_years: 1.33,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Pitești a condamnat-o definitiv în mai 2018 în dosarul fondurilor europene de la Primăria Șuici.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SUICI_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Stătică Ion',
+    party: 'Independent',
+    position: 'Fost inginer în cadrul Primăriei comunei Șuici',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Șuici, județul Argeș.',
+    },
+    crime:
+      'Complicitate la folosire sau prezentare cu rea-credință de documente ori declarații false pentru fonduri europene; fals intelectual',
+    sentence: '1 an și 7 luni închisoare cu suspendare',
+    sentence_years: 1.58,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Pitești l-a condamnat definitiv în mai 2018 în dosarul fondurilor europene de la Primăria Șuici.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SUICI_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Mecu Maria',
+    party: 'Independent',
+    position: 'Fost contabil în cadrul Primăriei comunei Șuici',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei comunei Șuici, județul Argeș.',
+    },
+    crime:
+      'Complicitate la folosire sau prezentare cu rea-credință de documente ori declarații false pentru fonduri europene; schimbarea destinației fondurilor europene',
+    sentence: '1 an și 1 lună închisoare cu suspendare',
+    sentence_years: 1.08,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Pitești a condamnat-o definitiv în mai 2018 în dosarul fondurilor europene de la Primăria Șuici.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SUICI_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Băran Carmina-Diana',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul fondurilor europene de la Tormac',
+    position_type: 'other',
+    geography: {
+      county: 'Timiș',
+      basis: 'case_location',
+      note: 'Cauza DNA a vizat fonduri europene obținute în legătură cu comuna Tormac, județul Timiș.',
+    },
+    crime:
+      'Complicitate la folosire sau prezentare cu rea-credință de documente ori declarații false pentru fonduri europene; complicitate la fals în înscrisuri sub semnătură privată',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel Timișoara a condamnat-o definitiv în februarie 2016 în dosarul fondurilor europene legat de comuna Tormac.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_TORMAC_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Sibinszki Vasile Iosif',
+    party: 'Independent',
+    position: 'Fost consilier superior în cadrul APIA - Centrul Local Deta',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la APIA - Centrul Local Deta, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '2 ani și 6 luni închisoare cu suspendare',
+    sentence_years: 2.5,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv în februarie 2016 în dosarul fondurilor europene legat de comuna Tormac.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_TORMAC_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Cozan Emil',
+    party: 'Independent',
+    position: 'Fost președinte al Asociației Crescătorilor de Bovine și Ovine Văleanca',
+    position_type: 'other',
+    geography: {
+      county: 'Harghita',
+      basis: 'case_location',
+      note: 'Cauza DNA a vizat comuna Corbu, județul Harghita, și Asociația Crescătorilor de Bovine și Ovine Văleanca.',
+    },
+    crime:
+      'Folosire sau prezentare de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '2 ani și 4 luni închisoare cu suspendare',
+    sentence_years: 2.33,
+    conviction_year: 2017,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Târgu Mureș l-a condamnat definitiv în februarie 2017 în dosarul fondurilor europene de la Corbu.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_CORBU_FUNDS_DNA_SOURCE],
+  },
+  {
+    name: 'Paulescu-Buican Nistor',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul APIA Padeș - Mehedinți',
+    position_type: 'other',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'case_location',
+      note: 'Executarea muncii în folosul comunității a fost stabilită în comunele Obârșia-Cloșani sau Bala, județul Mehedinți.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova l-a condamnat definitiv în aprilie 2024 în dosarul privind documente false pentru subvenții APIA.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_PADES_APIA_DNA_SOURCE],
+  },
+  {
+    name: 'Nicolescu Ilie-Claudiu',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul APIA Padeș',
+    position_type: 'other',
+    geography: {
+      county: 'Gorj',
+      basis: 'case_location',
+      note: 'Executarea muncii în folosul comunității a fost stabilită la Școala Gimnazială Padeș sau Liceul Tehnologic Tismana, județul Gorj.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova l-a condamnat definitiv în aprilie 2024 în dosarul privind documente false pentru subvenții APIA.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_PADES_APIA_DNA_SOURCE],
+  },
+  {
+    name: 'Băloi Cosmin',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul APIA Padeș - Mehedinți',
+    position_type: 'other',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'case_location',
+      note: 'Executarea muncii în folosul comunității a fost stabilită la Primăria orașului Baia de Aramă sau Primăria comunei Isverna, județul Mehedinți.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova l-a condamnat definitiv în aprilie 2024 în dosarul privind documente false pentru subvenții APIA.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_PADES_APIA_DNA_SOURCE],
+  },
+  {
+    name: 'Ordeanu Adrian',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul APIA Padeș - Mehedinți',
+    position_type: 'other',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'case_location',
+      note: 'Executarea muncii în folosul comunității a fost stabilită la Primăria orașului Baia de Aramă sau Primăria comunei Isverna, județul Mehedinți.',
+    },
+    crime:
+      'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova l-a condamnat definitiv în aprilie 2024 în dosarul privind documente false pentru subvenții APIA.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_PADES_APIA_DNA_SOURCE],
+  },
+  {
+    name: 'Streuți Titus Mircea',
+    party: 'Independent',
+    position: 'Fost consilier superior la Primăria Municipiului Baia Mare',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Primăria Municipiului Baia Mare, județul Maramureș.',
+    },
+    crime: 'Complicitate la luare de mită',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Cluj l-a condamnat definitiv în mai 2015 pentru complicitate la luare de mită în dosarul urbanistic de la Baia Mare.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_BAIA_MARE_URBANISM_DNA_SOURCE],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS,
   {
