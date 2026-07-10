@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-09',
+  last_updated: '2026-07-10',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -16296,7 +16296,335 @@ export const politicianOverrides = {
   },
 };
 
+const AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=9688',
+};
+
+const AUTOMATED_JUL_10_2026_ROBU_PARTY_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/Legis/Lista.aspx?cod=16419',
+};
+
+const AUTOMATED_JUL_10_2026_DIACONU_PARTY_SOURCE = {
+  label: 'Radio România Timișoara',
+  kind: 'press',
+  url: 'https://www.radiotimisoara.ro/administratie-politica/politica/dan-diaconu-a-demisionat-de-la-sefia-pnl-timisoara-240476.html',
+};
+
+const AUTOMATED_JUL_10_2026_STOIA_PARTY_SOURCE = {
+  label: 'deBanat',
+  kind: 'press',
+  url: 'https://debanat.ro/stiri-despre/traian-stoia',
+};
+
+const AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=10656',
+};
+
+const AUTOMATED_JUL_10_2026_MIUTESCU_CDEP_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=188&leg=2020',
+};
+
+const AUTOMATED_JUL_10_2026_ARGES_PNL_PROTV_SOURCE = {
+  label: 'Știrile ProTV',
+  kind: 'press',
+  url: 'https://stirileprotv.ro/justitie/lider-pnl-cercetat-pentru-coruptie-dna-cere-acordul-camrei-deputatilor-pentru-efectuarea-unei-perchezitii.html',
+};
+
+const AUTOMATED_JUL_10_2026_MITROFAN_PNL_SOURCE = {
+  label: 'Profit.ro',
+  kind: 'press',
+  url: 'https://www.profit.ro/stiri/politic/ultima-ora-adrian-miutescu-presedintele-pnl-arges-urmarit-penal-de-dna-20464592',
+};
+
+const AUTOMATED_JUL_10_2026_PIRVULESCU_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=10760',
+};
+
+const AUTOMATED_JUL_10_2026_PIRVULESCU_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=b085ef9f-c0af-476f-b21f-c6478fffee18',
+};
+
+const AUTOMATED_JUL_10_2026_PIRVULESCU_PARTY_SOURCE = {
+  label: 'Radio România Actualități',
+  kind: 'press',
+  url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-senator-liberal-eugen-pirvulescu-a-fost-achitat-de-iccj-id220549.html',
+};
+
+const AUTOMATED_JUL_10_2026_FAGADAU_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=10158',
+};
+
+const AUTOMATED_JUL_10_2026_FAGADAU_CONSTANTA_SOURCE = {
+  label: 'Primăria Municipiului Constanța',
+  kind: 'official',
+  url: 'https://primaria-constanta.ro/pagina-pmc/despre-institutie/consiliul-local/alesii-locali/mandatul-2016-2020/',
+};
+
+const AUTOMATED_JUL_10_2026_FAGADAU_FINAL_SOURCE = {
+  label: 'Dobrogea Live',
+  kind: 'press',
+  url: 'https://dobrogealive.ro/decebal-fagadau-achitat-definitiv-instanta-a-pastrat-sechestrul-pe-bunuri-ce-trebuie-sa-faca-primaria-si-consiliul-local-constanta/',
+};
+
+const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Robu Nicolae',
+    party: 'PNL',
+    position: 'Fost primar al municipiului Timișoara; fost senator PNL',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Cauza DNA și funcția publică relevantă vizau municipiul Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează că decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara a dispus achitarea definitivă, întrucât fapta nu este prevăzută de legea penală.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE, AUTOMATED_JUL_10_2026_ROBU_PARTY_SOURCE],
+  },
+  {
+    name: 'Diaconu Dan Aurel',
+    party: 'PNL',
+    position: 'Fost viceprimar al municipiului Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează achitarea definitivă prin decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_DIACONU_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Stoia Traian Constantin',
+    party: 'PSD',
+    position: 'Fost viceprimar al municipiului Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează achitarea definitivă prin decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_STOIA_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Vîrlea Simona',
+    party: 'Independent',
+    position: 'Funcționar în cadrul Primăriei Municipiului Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Municipiului Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'Actualizarea oficială DNA din 5 mai 2026 consemnează că decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara a dispus achitarea definitivă în dosarul vânzării de imobile din Timișoara.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE],
+  },
+  {
+    name: 'Iova Gabriela',
+    party: 'Independent',
+    position: 'Funcționar în cadrul Primăriei Municipiului Timișoara',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Municipiului Timișoara, județul Timiș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'Actualizarea oficială DNA din 5 mai 2026 consemnează că decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara a dispus achitarea definitivă în dosarul vânzării de imobile din Timișoara.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE],
+  },
+  {
+    name: 'Gheorghe Adrian Miuțescu',
+    party: 'PNL',
+    position: 'Fost deputat de Argeș; fost președinte al organizației județene PNL Argeș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Argeș.',
+    },
+    crime:
+      'Folosirea influenței sau autorității funcției de conducere într-un partid în scopul obținerii de foloase necuvenite',
+    status: 'investigated',
+    details:
+      'DNA Pitești a comunicat la 12 noiembrie 2021 efectuarea în continuare a urmăririi penale pentru opt infracțiuni privind folosirea influenței politice în numiri la instituții publice.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_MIUTESCU_CDEP_SOURCE,
+      AUTOMATED_JUL_10_2026_ARGES_PNL_PROTV_SOURCE,
+    ],
+  },
+  {
+    name: 'Tofan Gelu',
+    party: 'PNL',
+    position: 'Fost viceprimar al municipiului Pitești; președinte al organizației PNL Pitești',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Pitești, județul Argeș.',
+    },
+    crime:
+      'Folosirea influenței sau autorității funcției de conducere într-un partid în scopul obținerii de foloase necuvenite',
+    status: 'investigated',
+    details:
+      'DNA Pitești a comunicat la 12 noiembrie 2021 efectuarea în continuare a urmăririi penale în dosarul privind folosirea influenței politice pentru numiri în funcții publice.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_ARGES_PNL_PROTV_SOURCE,
+    ],
+  },
+  {
+    name: 'Mitrofan Cristian',
+    party: 'PNL',
+    position: 'Fost vicepreședinte al organizației județene PNL Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'political_base',
+      note: 'Organizația politică relevantă era filiala județeană PNL Argeș.',
+    },
+    crime:
+      'Folosirea influenței sau autorității funcției de conducere într-un partid în scopul obținerii de foloase necuvenite',
+    status: 'investigated',
+    details:
+      'DNA Pitești a comunicat la 12 noiembrie 2021 efectuarea în continuare a urmăririi penale în dosarul privind folosirea influenței politice pentru numiri în funcții publice.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_MITROFAN_PNL_SOURCE,
+    ],
+  },
+  {
+    name: 'Chiru Ovidiu',
+    party: 'Independent',
+    position: 'Comisar superior la Comisariatul Județean pentru Protecția Consumatorului Argeș',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Comisariatul Județean pentru Protecția Consumatorului Argeș.',
+    },
+    crime:
+      'Instigare la folosirea influenței sau autorității funcției de conducere într-un partid în scopul obținerii de foloase necuvenite',
+    status: 'investigated',
+    details:
+      'DNA Pitești a comunicat la 12 noiembrie 2021 efectuarea în continuare a urmăririi penale pentru instigare în dosarul privind folosirea influenței politice pentru numiri în funcții publice.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_ARGES_PNL_PROTV_SOURCE,
+    ],
+  },
+  {
+    name: 'Eugen Pîrvulescu',
+    party: 'PNL',
+    position: 'Fost senator de Teleorman; fost președinte PNL Teleorman',
+    position_type: 'senator',
+    geography: {
+      county: 'Teleorman',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Teleorman.',
+    },
+    crime:
+      'Folosirea influenței sau autorității funcției de conducere într-un partid; divulgarea informațiilor secrete de serviciu sau nepublice',
+    sentence: 'Achitat definitiv pentru folosirea influenței; proces încetat prin prescripție pentru divulgare (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a consemnat actualizarea din 22 mai 2026: ÎCCJ a dispus achitarea pentru infracțiunea de folosire a influenței, întrucât fapta nu este prevăzută de legea penală, și încetarea procesului pentru divulgarea informațiilor ca urmare a prescripției.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_PIRVULESCU_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_PIRVULESCU_SENATE_SOURCE,
+      AUTOMATED_JUL_10_2026_PIRVULESCU_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Decebal Făgădău',
+    party: 'PSD',
+    position: 'Fost primar al municipiului Constanța; fost viceprimar cu atribuții de primar',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă și cauza DNA au vizat municipiul Constanța, județul Constanța.',
+    },
+    crime: 'Abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit',
+    sentence: 'Achitat definitiv (2024)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată în decembrie 2020 în dosarul vânzării a trei terenuri din domeniul privat al municipiului Constanța. Presa locală a consemnat achitarea definitivă pronunțată de Curtea de Apel Constanța la 13 august 2024.',
+    verified_at: '2026-07-10',
+    sources: [
+      AUTOMATED_JUL_10_2026_FAGADAU_DNA_SOURCE,
+      AUTOMATED_JUL_10_2026_FAGADAU_CONSTANTA_SOURCE,
+      AUTOMATED_JUL_10_2026_FAGADAU_FINAL_SOURCE,
+    ],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS,
   {
     name: 'Sorin Oprescu',
     party: 'PSD',
