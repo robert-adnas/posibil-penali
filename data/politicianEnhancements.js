@@ -16380,6 +16380,36 @@ const AUTOMATED_JUL_10_2026_FAGADAU_FINAL_SOURCE = {
   url: 'https://dobrogealive.ro/decebal-fagadau-achitat-definitiv-instanta-a-pastrat-sechestrul-pe-bunuri-ce-trebuie-sa-faca-primaria-si-consiliul-local-constanta/',
 };
 
+const AUTOMATED_JUL_10_2026_HORVATH_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=9481',
+};
+
+const AUTOMATED_JUL_10_2026_HORVATH_UDMR_SOURCE = {
+  label: 'UDMR',
+  kind: 'official',
+  url: 'https://udmr.ro/profil/horvath-anna',
+};
+
+const AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=6348',
+};
+
+const AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=8987',
+};
+
+const AUTOMATED_JUL_10_2026_CALANGIU_PNL_SOURCE = {
+  label: 'Adevărul',
+  kind: 'press',
+  url: 'https://adevarul.ro/stiri-locale/craiova/fostul-viceprimar-al-craiovei-arestat-pentru-1615837.html',
+};
+
 const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Robu Nicolae',
@@ -16623,7 +16653,263 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Horvath Anna',
+    party: 'UDMR',
+    position: 'Fost viceprimar al municipiului Cluj-Napoca',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Cluj-Napoca, județul Cluj.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte de Casație și Justiție a condamnat-o definitiv în mai 2019 la 2 ani închisoare cu suspendare pentru trafic de influență, în cauza privind exercitarea funcției de viceprimar al municipiului Cluj-Napoca.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_HORVATH_DNA_SOURCE, AUTOMATED_JUL_10_2026_HORVATH_UDMR_SOURCE],
+  },
+  {
+    name: 'Fodor Zsolt',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul fostului viceprimar al municipiului Cluj-Napoca',
+    position_type: 'other',
+    geography: {
+      county: 'Cluj',
+      basis: 'case_location',
+      note: 'Cauza DNA a vizat fapte legate de municipiul Cluj-Napoca, județul Cluj.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv în mai 2019 la 1 an și 6 luni închisoare cu suspendare pentru cumpărare de influență în dosarul fostului viceprimar Horvath Anna.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_HORVATH_DNA_SOURCE],
+  },
+  {
+    name: 'Gheorghe Floricică',
+    party: 'Independent',
+    position: 'Fost secretar al Primăriei Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '5 ani închisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în mai 2015 la 5 ani închisoare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Boncea Petre',
+    party: 'Independent',
+    position: 'Fost referent în Serviciul cadastru, date urbane și fond funciar al Primăriei Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '5 ani închisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în mai 2015 la 5 ani închisoare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Dumitru Vultur',
+    party: 'Independent',
+    position: 'Fost director executiv adjunct al Direcției Tehnice din Primăria Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '5 ani închisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în mai 2015 la 5 ani închisoare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Moise Daniel',
+    party: 'Independent',
+    position: 'Fost șef al Biroului evidența activităților agrare din Primăria Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Abuz în serviciu contra intereselor publice, în formă continuată',
+    sentence: '3 ani și 6 luni închisoare cu executare',
+    sentence_years: 3.5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în mai 2015 la 3 ani și 6 luni închisoare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Popescu Cristina',
+    party: 'Independent',
+    position: 'Fost șef serviciu în Serviciul cadastru, date urbane și fond funciar al Primăriei Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Complicitate la abuz în serviciu contra intereselor publice; fals intelectual',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel București a condamnat-o definitiv în mai 2015 la 3 ani închisoare cu suspendare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Piftor Dorina',
+    party: 'Independent',
+    position: 'Fost consilier în Serviciul cadastru, date urbane și fond funciar al Primăriei Sectorului 6 București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 6 București.',
+    },
+    crime: 'Complicitate la abuz în serviciu contra intereselor publice; fals intelectual',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel București a condamnat-o definitiv în mai 2015 la 3 ani închisoare cu suspendare în dosarul retrocedărilor ilegale de terenuri din Sectorul 6 București.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_SECTOR6_RETROCEDARI_DNA_SOURCE],
+  },
+  {
+    name: 'Calangiu Cristina Mariana',
+    party: 'PNL',
+    position: 'Fost viceprimar al municipiului Craiova',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Craiova, județul Dolj.',
+    },
+    crime: 'Trafic de influență în formă continuată',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova a condamnat-o definitiv în iulie 2018 la 2 ani închisoare cu suspendare pentru trafic de influență. Presa locală a consemnat calitatea sa de fost președinte PNL Craiova și membru PNL până în mai 2014.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE, AUTOMATED_JUL_10_2026_CALANGIU_PNL_SOURCE],
+  },
+  {
+    name: 'Munteanu Ioana',
+    party: 'Independent',
+    position: 'Persoană fizică în dosarul angajărilor și pensionărilor medicale din Craiova',
+    position_type: 'other',
+    geography: {
+      county: 'Dolj',
+      basis: 'case_location',
+      note: 'Cauza DNA a vizat fapte privind angajări și pensionări medicale în municipiul Craiova și instituții din județul Dolj.',
+    },
+    crime: 'Trafic de influență în formă continuată; complicitate la luare de mită; dare de mită',
+    sentence: '3 ani și 20 zile închisoare cu executare',
+    sentence_years: 3.05,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel Craiova a condamnat-o definitiv în iulie 2018 la 3 ani și 20 zile închisoare în dosarul privind angajări și pensionări medicale.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE],
+  },
+  {
+    name: 'Smarandache Radu',
+    party: 'Independent',
+    position: 'Fost șef serviciu în cadrul D.G.A.S.P.C. Dolj',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Generale de Asistență și Protecția Copilului Dolj.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova l-a condamnat definitiv în iulie 2018 la 3 ani închisoare cu suspendare pentru luare de mită în formă continuată.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE],
+  },
+  {
+    name: 'Țenea Rodica',
+    party: 'Independent',
+    position: 'Fost consilier juridic în Direcția Juridică a Primăriei municipiului Craiova',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dolj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Juridice a Primăriei municipiului Craiova, județul Dolj.',
+    },
+    crime: 'Trafic de influență în formă continuată',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Craiova a condamnat-o definitiv în iulie 2018 la 3 ani închisoare cu suspendare pentru trafic de influență în formă continuată.',
+    verified_at: '2026-07-10',
+    sources: [AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS,
   {
     name: 'Sorin Oprescu',
