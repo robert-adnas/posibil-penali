@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-10',
+  last_updated: '2026-07-11',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -85675,6 +85675,350 @@ export const politicianAdditions = [
         label: 'Ziare.com',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_botosani/primarie/baluseni/',
+      },
+    ],
+  },
+  {
+    name: 'Gabriel Plăiașu',
+    party: 'PNL',
+    position: 'Fost deputat de Dâmbovița',
+    position_type: 'deputy',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'constituency',
+      note: 'Deputat ales în Circumscripția electorală nr. 16 Dâmbovița; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Instigare la folosirea sau prezentarea de documente false, inexacte sau incomplete pentru fonduri europene',
+    status: 'indicted',
+    details:
+      'DNA Ploiești a comunicat în ianuarie 2023 trimiterea în judecată a deputatului Gabriel Plăiașu într-un dosar APIA privind obținerea pe nedrept de fonduri europene în perioada 2010-2011.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11709',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=228&leg=2020&pag=1',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Silvian Ciupercă',
+    party: 'PSD',
+    position: 'Fost președinte al Consiliului Județean Ialomița',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Ialomița.',
+    },
+    crime: 'Folosirea influenței ori autorității; abuz în serviciu; instigare la fals',
+    status: 'acquitted',
+    details:
+      'DNA a comunicat trimiterea în judecată în 2015, iar actualizarea oficială din 2021 consemnează achitarea definitivă pentru infracțiunile reținute, întrucât faptele nu există ori nu sunt prevăzute de legea penală.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10531',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6493',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=41&leg=2000',
+      },
+    ],
+  },
+  {
+    name: 'Dan Radu Rușanu',
+    party: 'PNL',
+    position: 'Fost senator și deputat de Hunedoara; fost președinte ASF',
+    position_type: 'senator',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 22 Hunedoara, colegiul 3.',
+    },
+    crime: 'Folosirea influenței; favorizarea făptuitorului; constituirea unui grup infracțional organizat',
+    status: 'acquitted',
+    details:
+      'DNA a trimis dosarul ASF-Carpatica în judecată în 2014. În 2017, DNA a consemnat decizia definitivă prin care ÎCCJ a dispus achitarea lui Radu Dan Rușanu pentru infracțiunile reținute.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8307',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=e1eea02c-b08a-42ca-9571-509351a58cbf',
+      },
+    ],
+  },
+  {
+    name: 'Mihail Vlasov',
+    party: 'PNL',
+    position: 'Fost deputat de Iași; fost președinte al Camerei de Comerț și Industrie a României',
+    position_type: 'deputy',
+    geography: {
+      county: 'Iași',
+      basis: 'constituency',
+      note: 'Deputat ales în Circumscripția electorală nr. 24 Iași.',
+    },
+    crime: 'Folosirea influenței ori autorității; delapidare; fals în înscrisuri sub semnătură privată',
+    sentence: '8 ani închisoare cu executare',
+    sentence_years: 8,
+    conviction_year: 2020,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'DNA a consemnat condamnarea definitivă din 3 noiembrie 2020 la 8 ani de închisoare, cu despăgubiri stabilite pentru CCIR și Romexpo. Profilul parlamentar îl leagă de mandatul de deputat PNL de Iași.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10115',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=370&leg=2004&pag=1&par=&prn=0',
+      },
+    ],
+  },
+  {
+    name: 'Dan Nica',
+    party: 'PSD',
+    position: 'Fost ministru al Comunicațiilor; europarlamentar',
+    position_type: 'minister',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'A fost deputat ales în Galați și președinte al Organizației Județene PSD Galați.',
+    },
+    crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
+    sentence: 'Cauză clasată ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2018,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat în 2018 clasarea cauzei față de Dan Nica pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=250&leg=2012&pag=0',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/ro/124784/DAN_NICA/home',
+      },
+    ],
+  },
+  {
+    name: 'Silvia-Adriana Țicău',
+    party: 'PSD',
+    position: 'Fost ministru al Comunicațiilor; fost europarlamentar',
+    position_type: 'minister',
+    geography: {
+      county: 'Galați',
+      basis: 'political_base',
+      note: 'Activitatea politică publică relevantă a fost legată de Galați și de mandatele europene PSD.',
+    },
+    crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
+    sentence: 'Cauză clasată ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2018,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat în 2018 clasarea cauzei față de Silvia-Adriana Țicău pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/36281/SILVIA-ADRIANA_TICAU/history/7',
+      },
+      {
+        label: 'Libertatea',
+        kind: 'press',
+        url: 'https://www.libertatea.ro/stiri/cei-mai-activi-europarlamentari-ar-putea-ramane-acasa-din-toamna-afla-ce-lenesi-au-sanse-sa-ajunga-din-nou-la-bruxelles-986456',
+      },
+    ],
+  },
+  {
+    name: 'Alexandru Athanasiu',
+    party: 'PSD',
+    position: 'Fost ministru al Educației; fost senator de Bihor',
+    position_type: 'minister',
+    geography: {
+      county: 'Bihor',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 5 Bihor.',
+    },
+    crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
+    sentence: 'Cauză clasată ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2018,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat în 2018 clasarea cauzei față de Alexandru Athanasiu pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1F84BF89-FE54-4BC8-A708-83937EF8D1AC',
+      },
+    ],
+  },
+  {
+    name: 'Ecaterina Andronescu',
+    party: 'PSD',
+    position: 'Fost ministru al Educației; fost senator și deputat de București',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Deputat ales în Circumscripția electorală nr. 42 București.',
+    },
+    crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
+    sentence: 'Cauză clasată ca urmare a prescripției răspunderii penale',
+    sentence_years: 0,
+    conviction_year: 2018,
+    status: 'prescribed',
+    details:
+      'DNA a comunicat în 2018 clasarea cauzei față de Ecaterina Andronescu pentru abuz în serviciu în dosarul Microsoft, deoarece faptele erau prescrise.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=8&leg=2000',
+      },
+    ],
+  },
+  {
+    name: 'Daniel Funeriu',
+    party: 'PDL',
+    position: 'Fost ministru al Educației; fost europarlamentar',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de ministru al Educației, instituție centrală cu sediul în București.',
+    },
+    crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
+    status: 'closed',
+    details:
+      'DNA a comunicat în 2018 soluția clasării față de Daniel Funeriu în dosarul Microsoft, întrucât actul analizat nu era de natură să producă efecte juridice.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/steno/steno2015.stenograma?idl=&idm=1.147&ids=7041',
+      },
+    ],
+  },
+  {
+    name: 'Andrei Chiliman',
+    party: 'PNL',
+    position: 'Fost primar al Sectorului 1 București',
+    position_type: 'mayor',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al Sectorului 1 București.',
+    },
+    crime: 'Constituirea unui grup infracțional organizat; complicitate la trafic de influență',
+    status: 'closed',
+    details:
+      'DNA a comunicat punerea în mișcare a acțiunii penale în 2015, iar actualizarea oficială din 18 ianuarie 2021 consemnează clasarea cauzei pentru lipsa faptelor ori lipsa probelor certe și suficiente.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6432',
+      },
+      {
+        label: 'PNL Sector 1',
+        kind: 'official',
+        url: 'https://www.pnlsector1.ro/comunicat13',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Ioan Moloț',
+    party: 'PNL',
+    position: 'Fost președinte al Consiliului Județean Hunedoara',
+    position_type: 'county_council_president',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Hunedoara.',
+    },
+    crime: 'Trafic de influență; luare de mită; folosirea influenței; spălare de bani; conflict de interese',
+    status: 'closed',
+    details:
+      'DNA a comunicat în decembrie 2014 punerea în mișcare a acțiunii penale și reținerea fostului președinte al CJ Hunedoara. Presa locală și juridică a relatat ulterior clasarea dosarului de corupție în 2022.',
+    verified_at: '2026-07-11',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5597',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/presedintele-si-vicepresedintele-consiliului-judetean-hunedoara-retinuti-pentru-fapte-de-coruptie-13699408',
+      },
+      {
+        label: 'Ziarul Hunedoreanului',
+        kind: 'press',
+        url: 'https://zhd.ro/eveniment/mircea-molot-nevinovat-in-dosarul-in-care-a-fost-anchetat-de-dna-in-2014-ce-s-a-intamplat-cu/',
       },
     ],
   },
