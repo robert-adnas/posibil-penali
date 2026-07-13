@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-11',
+  last_updated: '2026-07-13',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -17181,7 +17181,286 @@ const AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Râșnoveanu Mihaela-Delia',
+    party: 'Independent',
+    position: 'Fost manager al Spitalului Clinic Județean de Urgență Brăila',
+    position_type: 'other',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică vizată era cea de manager al Spitalului Clinic Județean de Urgență Brăila.',
+    },
+    crime: 'Abuz în serviciu; folosirea funcției pentru favorizarea unei persoane',
+    status: 'indicted',
+    details:
+      'DNA Galați a comunicat în iunie 2026 trimiterea în judecată a fostului manager al Spitalului Clinic Județean de Urgență Brăila într-un dosar privind contracte de muncă încheiate ori prelungite nelegal.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13842',
+      },
+    ],
+  },
+  {
+    name: 'Morth Izabella-Mihaela',
+    party: 'Independent',
+    position: 'Arhitect-șef al municipiului Baia Mare',
+    position_type: 'other',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      note: 'Funcția publică vizată era cea de arhitect-șef al municipiului Baia Mare, județul Maramureș.',
+    },
+    crime: 'Abuz în serviciu asimilat infracțiunilor de corupție; luare de mită',
+    status: 'indicted',
+    details:
+      'DNA Cluj - Biroul teritorial Baia Mare a comunicat în iunie 2026 trimiterea în judecată a arhitectului-șef al municipiului Baia Mare într-un dosar privind certificate de urbanism, autorizații de construire și foloase necuvenite.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13841',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Petre-Daniel',
+    party: 'Independent',
+    position: 'Ofițer de poliție în cadrul Inspectoratului de Poliție Județean Buzău',
+    position_type: 'other',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Poliției municipiului Buzău, județul Buzău.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în iunie 2026 arestarea preventivă a ofițerului de poliție după un flagrant într-un dosar privind sume pretinse și primite pentru facilitarea unui denunț.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13826',
+      },
+    ],
+  },
+  {
+    name: 'Georgescu Iulian Alexandru',
+    party: 'Independent',
+    position: 'Ofițer de poliție în cadrul IPJ Olt - Serviciul de Investigare a Criminalității Economice',
+    position_type: 'other',
+    geography: {
+      county: 'Olt',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Inspectoratului de Poliție Județean Olt.',
+    },
+    crime: 'Trafic de influență',
+    status: 'indicted',
+    details:
+      'DNA Craiova a comunicat în iunie 2026 trimiterea în judecată a ofițerului de poliție într-un dosar privind pretinderea și primirea unor sume de bani pentru intervenții promise într-un dosar penal.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13825',
+      },
+    ],
+  },
+  {
+    name: 'Roșu Marcel',
+    party: 'Independent',
+    position: 'Director executiv al DSVSA Arad',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Arad.',
+    },
+    crime: 'Abuz în serviciu cu obținerea pentru altul a unui folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA Timișoara a comunicat în iunie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru directorul executiv al DSVSA Arad într-un dosar privind plăți către o societate concesionară de servicii sanitar-veterinare.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13822',
+      },
+    ],
+  },
+  {
+    name: 'Cioban Gheorghe',
+    party: 'Independent',
+    position: 'Director executiv adjunct al DSVSA Arad',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Arad.',
+    },
+    crime: 'Complicitate la abuz în serviciu; abuz în serviciu; luare de mită',
+    status: 'investigated',
+    details:
+      'DNA Timișoara a comunicat în iunie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru directorul executiv adjunct al DSVSA Arad în același dosar privind plăți nelegale și foloase necuvenite.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13822',
+      },
+    ],
+  },
+  {
+    name: 'Paven Marin-Casian',
+    party: 'Independent',
+    position: 'Medic veterinar în cadrul DSVSA Arad',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Arad.',
+    },
+    crime: 'Complicitate la abuz în serviciu; luare de mită',
+    status: 'investigated',
+    details:
+      'DNA Timișoara a comunicat în iunie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru medicul veterinar din cadrul DSVSA Arad în dosarul plăților către o societate concesionară.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13822',
+      },
+    ],
+  },
+  {
+    name: 'Ardelean Ancuța-Maria',
+    party: 'Independent',
+    position: 'Șef serviciu - Laborator Sanitar Veterinar și pentru Siguranța Alimentelor în cadrul DSVSA Arad',
+    position_type: 'other',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică vizată era în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Arad.',
+    },
+    crime: 'Complicitate la abuz în serviciu',
+    status: 'investigated',
+    details:
+      'DNA Timișoara a comunicat în iunie 2026 punerea în mișcare a acțiunii penale față de șefa laboratorului DSVSA Arad în același dosar privind plăți nelegale către o societate concesionară.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13822',
+      },
+    ],
+  },
+  {
+    name: 'Sorin Gheorghe Buta',
+    party: 'PDL',
+    position: 'Fost deputat de Argeș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Deputat ales în Circumscripția electorală nr. 3 Argeș; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Operațiuni financiare ca acte de comerț incompatibile cu funcția',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat condamnarea definitivă din februarie 2015 a fostului deputat Sorin Gheorghe Buta, iar profilul Camerei Deputaților îl leagă de grupul PDL și de circumscripția Argeș.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6143',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=57&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Ioan-Codruț Șereș',
+    party: 'PC',
+    position: 'Fost ministru al Economiei; fost senator de Maramureș',
+    position_type: 'minister',
+    geography: {
+      county: 'Maramureș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost de senator de Maramureș.',
+    },
+    crime: 'Trădare prin transmitere de secrete; aderare la grup infracțional organizat',
+    sentence: '4 ani și 8 luni închisoare cu executare',
+    sentence_years: 4.67,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Presa centrală a relatat condamnarea definitivă la 4 ani și 8 luni în dosarul privatizărilor strategice. Sursele parlamentare și biografice publice îl leagă de Partidul Conservator și de mandatul de senator de Maramureș.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=38386E2E-0D2B-452C-BD9D-4386151A90B8',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-ministru-al-economiei-codrut-seres-a-fost-condamnat-definitiv-la-4-ani-si-8-luni-de-inchisoare-cu-executare.html',
+      },
+    ],
+  },
+  {
+    name: 'Simineanu Florin',
+    party: 'Independent',
+    position: 'Ofițer de poliție în cadrul IPJ Constanța - Serviciul de Investigare a Infracționalității de Mediu',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului de Poliție Județean Constanța.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA a comunicat în iunie 2026 condamnarea definitivă a ofițerului de poliție din cadrul IPJ Constanța la 3 ani de închisoare cu suspendare pentru luare de mită.',
+    verified_at: '2026-07-13',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13807',
+      },
+    ],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS,
