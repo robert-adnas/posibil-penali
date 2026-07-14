@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-13',
+  last_updated: '2026-07-14',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -17459,7 +17459,320 @@ const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
-export const politicianAdditions = [
+const AUTOMATED_JUL_14_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Rei Narcisa-Marinela',
+    party: 'Independent',
+    position: 'Profesor de limba și literatura română la Colegiul Tehnic „Regele Ferdinand” din Rădăuți',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Colegiul Tehnic „Regele Ferdinand” din Rădăuți, județul Suceava.',
+    },
+    crime: 'Trafic de influență; complicitate la fals material în înscrisuri oficiale',
+    sentence: 'Acord de recunoaștere transmis instanței: 3 ani închisoare cu suspendare',
+    status: 'indicted',
+    details:
+      'DNA Suceava a comunicat în iulie 2026 sesizarea instanței cu acordul de recunoaștere a vinovăției, într-un dosar privind sume și foloase pretinse pentru acte de studii false.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13842',
+      },
+    ],
+  },
+  {
+    name: 'Vlad Cristina',
+    party: 'Independent',
+    position: 'Consilier superior în cadrul ANAF - DGRFP Cluj-Napoca - AJFP Cluj',
+    position_type: 'other',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Administrației Județene a Finanțelor Publice Cluj.',
+    },
+    crime: 'Operațiuni comerciale ori financiare incompatibile cu atribuțiile de control',
+    sentence: 'Acord de recunoaștere transmis instanței: 1 an și o lună închisoare cu suspendare',
+    status: 'indicted',
+    details:
+      'DNA Cluj a comunicat în iulie 2026 sesizarea instanței cu acordul de recunoaștere a vinovăției pentru 22 de acte materiale privind activități incompatibile cu atribuțiile de supraveghere, control sau reorganizare.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13842',
+      },
+    ],
+  },
+  {
+    name: 'Mihăilă Sergiu',
+    party: 'Independent',
+    position: 'Inspector de specialitate în gospodărirea apelor la ABA Siret - SGA Vrancea',
+    position_type: 'other',
+    geography: {
+      county: 'Vrancea',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Sistemului de Gospodărire a Apelor Vrancea.',
+    },
+    crime: 'Luare de mită; folosire ori divulgare de informații nedestinate publicității',
+    sentence: 'Acord de recunoaștere transmis instanței: 2 ani și 3 luni închisoare cu suspendare',
+    status: 'indicted',
+    details:
+      'DNA Galați a comunicat în iulie 2026 sesizarea instanței cu acordul de recunoaștere a vinovăției într-un dosar privind bani primiți și informații transmise despre controale planificate la balastiere.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13842',
+      },
+    ],
+  },
+  {
+    name: 'Păune Lavinia-Daniela',
+    party: 'Independent',
+    position: 'Consilier relații în cadrul Direcției Planificare Bugetară, Contabilitate și Salarizare din MAE',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Afacerilor Externe, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave; fals intelectual; uz de fals',
+    sentence: 'Acord de recunoaștere transmis instanței: 3 ani și o lună închisoare',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în iunie 2026 sesizarea instanței cu acordul de recunoaștere a vinovăției într-un dosar privind state de plată și borderouri salariale falsificate, cu un prejudiciu reținut de peste 8,4 milioane lei.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13824',
+      },
+    ],
+  },
+  {
+    name: 'Dobrescu Mihaela',
+    party: 'Independent',
+    position: 'Inspector de muncă în cadrul Inspectoratului Teritorial de Muncă Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Inspectoratului Teritorial de Muncă Constanța.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA Constanța a comunicat în iunie 2026 punerea în mișcare a acțiunii penale și reținerea sa după un flagrant privind suma de 20.000 lei pretinsă și primită în legătură cu un control de muncă.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13775',
+      },
+    ],
+  },
+  {
+    name: 'Dragomirescu Bogdan-Eduard',
+    party: 'Independent',
+    position: 'Fost șef al Serviciului Corp Control din cadrul Autorității Naționale pentru Protecția Consumatorilor',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'case_location',
+      note: 'Cauza DNA viza intervenții asupra unui control desfășurat în stațiunea Mamaia, județul Constanța.',
+    },
+    crime: 'Instigare la abuz în serviciu; trafic de influență',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în iunie 2026 punerea în mișcare a acțiunii penale și controlul judiciar într-un dosar privind bani primiți pentru influențarea unui control ANPC la un club din Mamaia.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13788',
+      },
+    ],
+  },
+  {
+    name: 'Vlad Gheorghiță',
+    party: 'Independent',
+    position: 'Șef al Statului Major al Apărării din cadrul Ministerului Apărării Naționale',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Ministerului Apărării Naționale, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la uzurparea funcției, dacă funcționarul public a obținut un folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în iunie 2026 că procurorii militari i-au adus la cunoștință calitatea de suspect într-un dosar privind suplimentarea unor locuri bugetate la UNEFS București.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13765',
+      },
+    ],
+  },
+  {
+    name: 'Sîrbu Cătălin-George',
+    party: 'Independent',
+    position: 'Ofițer de poliție judiciară în cadrul Poliției Sectorului 3 - SICE',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Poliției Sectorului 3 București.',
+    },
+    crime: 'Luare de mită; trafic de influență',
+    status: 'investigated',
+    details:
+      'DNA a comunicat în mai 2026 arestarea preventivă într-un dosar privind pretinderea și primirea sumei de 50.000 lei pentru acte de urmărire penală favorabile și influențarea altor acte dintr-un dosar.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13764',
+      },
+    ],
+  },
+  {
+    name: 'Niculin-Rujoiu Marian',
+    party: 'Independent',
+    position: 'Agent de poliție la Poliția Municipiului Câmpulung - Biroul Ordine Publică',
+    position_type: 'other',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Poliției Municipiului Câmpulung, județul Argeș.',
+    },
+    crime: 'Trafic de influență',
+    status: 'investigated',
+    details:
+      'DNA Pitești a comunicat în mai 2026 arestarea preventivă într-un dosar privind bani pretinși pentru influențarea aprobării mutării unui polițist între inspectorate județene.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13760',
+      },
+    ],
+  },
+  {
+    name: 'Suliman Diner',
+    party: 'Independent',
+    position: 'Inspector vamal în cadrul Biroului Vamal de Frontieră Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Biroului Vamal de Frontieră Constanța.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA Constanța a comunicat în mai 2026 reținerea și apoi arestarea preventivă într-un dosar privind sume primite pentru formalități vamale la Biroul Vamal de Frontieră Constanța.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13738',
+      },
+    ],
+  },
+  {
+    name: 'Vîlsan Bogdan',
+    party: 'Independent',
+    position: 'Inspector vamal în cadrul Biroului Vamal de Frontieră Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Biroului Vamal de Frontieră Constanța.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA Constanța a comunicat în mai 2026 reținerea și apoi arestarea preventivă într-un dosar privind sume pretinse sau primite pentru operațiuni de vămuire.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13738',
+      },
+    ],
+  },
+  {
+    name: 'Dimitriu Andrei-Petru',
+    party: 'Independent',
+    position: 'Inspector superior în cadrul ANAF - Direcția Generală Antifraudă Fiscală',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Direcției Generale Antifraudă Fiscală - Direcția Control Antifraudă 1.',
+    },
+    crime: 'Trafic de influență',
+    sentence: 'Acord de recunoaștere transmis instanței: 3 ani închisoare cu suspendare',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în mai 2026 sesizarea instanței cu acordul de recunoaștere a vinovăției într-un dosar privind bani primiți pentru influențarea unor controale antifraudă fiscală.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13734',
+      },
+    ],
+  },
+  {
+    name: 'Chelariu Claudiu Daniel',
+    party: 'PSD',
+    position: 'Primar al comunei Mihălășeni, județul Botoșani',
+    position_type: 'mayor',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de primar al comunei Mihălășeni, județul Botoșani.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    status: 'indicted',
+    details:
+      'DNA Suceava a comunicat în iunie 2026 trimiterea în judecată a primarului comunei Mihălășeni într-un dosar privind 550.000 lei pretinși și 500.000 lei primiți în legătură cu plăți pentru lucrări publice. Sursa e-PNL îl listează ca primar PSD al comunei.',
+    verified_at: '2026-07-14',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13772',
+      },
+      {
+        label: 'e-PNL',
+        kind: 'official',
+        url: 'https://www.e-pnl.ro/38241-mihalaseni.html',
+      },
+    ],
+  },
+];
+
+ export const politicianAdditions = [
+  ...AUTOMATED_JUL_14_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS,
