@@ -3055,23 +3055,6 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
     ],
   },
   {
-    name: 'Hubati Tudor',
-    party: 'PSD',
-    position: 'Consilier local al orașului Sulina, județul Tulcea',
-    position_type: 'local_official',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat în iunie 2023 că, începând cu 7 noiembrie 2017, a deținut simultan funcția de consilier local și funcția de director general adjunct într-o regie autonomă aflată sub autoritatea consiliului județean.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'Tulcea',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în Consiliul Local al orașului Sulina, județul Tulcea.',
-    },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SULINA_HUBATI_PSD_SOURCE],
-  },
-  {
     name: 'Cozea Marinela Corina',
     party: 'PNL',
     position: 'Fost consilier local al orașului Huedin, județul Cluj',
