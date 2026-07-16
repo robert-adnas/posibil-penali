@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-15',
+  last_updated: '2026-07-16',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -19014,7 +19014,526 @@ const AUTOMATED_JUL_15_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Monica Maria Iacob Ridzi',
+    party: 'PDL',
+    position: 'Fost ministru al Tineretului și Sportului; fost deputat de Hunedoara',
+    position_type: 'minister',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'constituency',
+      note: 'A fost deputat ales în circumscripția Hunedoara; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Abuz în serviciu; fals intelectual; infracțiuni informatice',
+    sentence: '5 ani închisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'ÎCCJ a condamnat-o definitiv în februarie 2015 la 5 ani de închisoare în dosarul privind cheltuielile Ministerului Tineretului pentru Ziua Tineretului. Profilul parlamentar o leagă de mandatul PDL de Hunedoara; reabilitarea consemnată ulterior nu schimbă existența condamnării definitive istorice.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/2024/06/05/instanta-suprema-dispune-reabilitarea-fostului-ministru-monica-iacob-ridzi-condamnata-in-dosarul-2-m--1306716',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/monica-iacob-ridzi-merge-la-inchisoare-id67510.html',
+      },
+    ],
+  },
+  {
+    name: 'Sorin-Ștefan Roșca-Stănescu',
+    party: 'PNL',
+    position: 'Fost senator de Dâmbovița',
+    position_type: 'senator',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 16 Dâmbovița, colegiul 2.',
+    },
+    crime: 'Utilizare de informații privilegiate; constituire a unui grup infracțional organizat',
+    sentence: '2 ani și 4 luni închisoare cu executare',
+    sentence_years: 2.33,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în octombrie 2014 în dosarul Rompetrol. Profilul oficial al Senatului îl indică senator PNL de Dâmbovița în legislatura 2012-2016.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=97a067a8-3fc7-447a-9559-5f944c7456cb',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/condamnari-in-dosarul-rompetrol-sorin-rosca-stanescu-2-ani-si-4-luni-de-inchisoare-cu-executare-sorin-pantis-2-ani-si-8-luni-13369575',
+      },
+    ],
+  },
+  {
+    name: 'Alin Silviu Trășculescu',
+    party: 'PDL',
+    position: 'Fost deputat de Vrancea',
+    position_type: 'deputy',
+    geography: {
+      county: 'Vrancea',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Vrancea; profilul Camerei îl listează la PDL.',
+    },
+    crime: 'Trafic de influență; instigare la fals; instigare la spălare de bani',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv în martie 2016 la 3 ani de închisoare cu executare în dosarul de corupție instrumentat de DNA. Profilul Camerei Deputaților îl leagă de mandatul PDL de Vrancea.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=233&idm=304&leg=2008&pag=1&prn=1',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/tag/alin%20trasculescu',
+      },
+    ],
+  },
+  {
+    name: 'Virgil Pop',
+    party: 'PNL',
+    position: 'Fost deputat de Cluj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Cluj',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Cluj; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Trafic de influență; fals în înscrisuri sub semnătură privată; spălare de bani',
+    sentence: '5 ani închisoare cu executare',
+    sentence_years: 5,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în martie 2012 la 5 ani de închisoare pentru fapte de corupție. Profilul Camerei Deputaților îl indică deputat PNL în legislatura 2008-2012.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=239&leg=2008',
+      },
+      {
+        label: 'Știrile ProTV',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/actualitate/deputatul-virgil-pop-condamnat-definitiv-la-cinci-ani-de-inchisoare-ridicat-din-hotelul-bucuresti.html',
+      },
+    ],
+  },
+  {
+    name: 'Anghel Stanciu',
+    party: 'PSD',
+    position: 'Fost deputat de Iași',
+    position_type: 'deputy',
+    geography: {
+      county: 'Iași',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Iași; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în noiembrie 2015 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea unor rude la biroul parlamentar. Profilul Camerei îl indică deputat PSD de Iași.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=340&leg=2012',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/stiri/justitie/deputatul-psd-anghel-stanciu-condamnat-definitiv-la-6-luni-inchisoare-cu-suspendare-1395450',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Vasilescu',
+    party: 'PSD',
+    position: 'Fost deputat de Dolj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Dolj',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Dolj; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '2 ani închisoare cu executare',
+    sentence_years: 2,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în decembrie 2013 la 2 ani de închisoare cu executare pentru trafic de influență. Profilul Camerei Deputaților îl indică deputat PSD de Dolj.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=397&leg=2012&pag=1&prn=1',
+      },
+      {
+        label: 'Jurnalul',
+        kind: 'press',
+        url: 'https://jurnalul.ro/stiri/observator/deputatul-nicolae-vasilescu-condamnat-definitiv-la-doi-ani-inchisoare-cu-executare-657097.html',
+      },
+    ],
+  },
+  {
+    name: 'Aurel Nechita',
+    party: 'PSD',
+    position: 'Fost deputat de Galați',
+    position_type: 'deputy',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Galați; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a comunicat că ÎCCJ a menținut definitiv constatarea de incompatibilitate pentru exercitarea simultană a mandatului de deputat și a funcției de decan al Facultății de Medicină și Farmacie din cadrul Universității „Dunărea de Jos” din Galați. Profilul Camerei îl indică deputat PSD.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=146&leg=2004',
+      },
+      {
+        label: 'Curs de Guvernare',
+        kind: 'press',
+        url: 'https://cursdeguvernare.ro/ani-cere-camerei-revocarea-din-functie-a-deputatului-aurel-nechita-pentru-incompatibilitate-decisa-in-instanta.html',
+      },
+    ],
+  },
+  {
+    name: 'Șerban Alexandru Brădișteanu',
+    party: 'PSD',
+    position: 'Fost senator de Vâlcea',
+    position_type: 'senator',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'constituency',
+      note: 'Senator ales în circumscripția Vâlcea; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Favorizarea făptuitorului',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în martie 2015 la 1 an de închisoare cu suspendare în dosarul favorizării lui Adrian Năstase. Profilul oficial al Senatului îl indică senator PSD de Vâlcea.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=4F0504FA-BB61-4594-90B3-BD8A5B734AAA',
+      },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/serban-bradisteanu-condamnat-la-inchisoare-cu-suspendare-id68085.html',
+      },
+    ],
+  },
+  {
+    name: 'Mircea Diaconu',
+    party: 'PNL',
+    position: 'Fost senator de Argeș; fost ministru al Culturii',
+    position_type: 'minister',
+    geography: {
+      county: 'Argeș',
+      basis: 'constituency',
+      note: 'Senator ales în Circumscripția electorală nr. 3 Argeș, colegiul 1.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ÎCCJ a respins definitiv în iunie 2012 contestația privind raportul ANI și a menținut starea de incompatibilitate pentru cumularea mandatului de senator cu funcția de director-manager al Teatrului Nottara. Profilul Senatului îl indică senator PNL de Argeș.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=fcc87457-a53c-4a9b-9330-20ed614a936f',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/mircea-diaconu-nu-poate-fi-ministru-a-fost-declarat-definitiv-incompatibil-9760774',
+      },
+    ],
+  },
+  {
+    name: 'Dorel-Gheorghe Căprar',
+    party: 'PSD',
+    position: 'Fost deputat de Arad',
+    position_type: 'deputy',
+    geography: {
+      county: 'Arad',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Arad; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Folosirea influenței ori autorității; dosar de corupție DRDP Timișoara',
+    status: 'indicted',
+    details:
+      'Presa a relatat că DNA Timișoara i-a adus la cunoștință calitatea de inculpat în decembrie 2019, iar dosarul privind presupuse fapte de corupție de la DRDP Timișoara a vizat inclusiv foști parlamentari PSD. Profilul Camerei Deputaților îl indică deputat PSD de Arad.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=56&leg=2012',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/social/deputatul-psd-dorel-caprar-inculpat-in-dosarul-spagilor-din-banat-lista-lunga-de-infractiuni-18674081',
+      },
+      {
+        label: 'LuJu',
+        kind: 'press',
+        url: 'https://m.luju.ro/dna-inghesuita-in-camera-preliminara-parchetul-anticoruptie-s-a-facut-din-nou-de-toata-bafta-dosarul-in-care-dna-a-trimis-in-judecata-patru-fosti-parlamentari-psd-alaturi-de-alti-noua-inculpati-nu-poate-trece-de-tribunalul-arad-constata-neregularitatea-re',
+      },
+    ],
+  },
+  {
+    name: 'Marian Neacșu',
+    party: 'PSD',
+    position: 'Fost deputat de Ialomița',
+    position_type: 'deputy',
+    geography: {
+      county: 'Ialomița',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Ialomița; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în februarie 2016 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiicei la biroul parlamentar. Profilul Camerei Deputaților îl indică deputat PSD de Ialomița.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=244&leg=2012',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-interne/evenimente/liderul-deputatilor-psd-marian-neacsu-a-fost-1689889.html',
+      },
+    ],
+  },
+  {
+    name: 'Florin-Costin Pâslaru',
+    party: 'PSD',
+    position: 'Fost deputat de Galați',
+    position_type: 'deputy',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'Deputat ales în circumscripția Galați; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în iulie 2016 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiului la cabinetul parlamentar. Profilul Camerei Deputaților îl indică deputat PSD de Galați.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://cdep.ro/pls/parlam/structura.mp?cam=2&idl=1&idm=283&leg=2012&pag=1&par=12707&prn=1',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/galati/deputatul-florin-paslaru-a-fost-condamnat-1722908.html',
+      },
+    ],
+  },
+  {
+    name: 'Vasile Ghiorghe Gliga',
+    party: 'PSD',
+    position: 'Fost deputat de Mureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Deputat PSD de Mureș; se folosește circumscripția parlamentară.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în iunie 2015 la 1 an de închisoare cu suspendare pentru conflict de interese, după angajarea soției la biroul parlamentar.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/steno/steno2015.stenograma?idl=1&idm=1&ids=7270',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/deputatul-vasile-gliga-condamnat-definitiv-la-inchisoare-cu-suspendare-pentru-conflict-de-interese-14521743',
+      },
+    ],
+  },
+  {
+    name: 'Oana Niculescu Mizil',
+    party: 'PSD',
+    position: 'Fost deputat de București',
+    position_type: 'deputy',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Fost deputat PSD; activitatea parlamentară relevantă este legată de București.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ a condamnat-o definitiv în octombrie 2016 la 1 an de închisoare cu suspendare pentru conflict de interese, după angajarea mamei la biroul parlamentar.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=202&leg=2008&pag=1',
+      },
+      {
+        label: 'News.ro',
+        kind: 'press',
+        url: 'https://www.news.ro/justitie/fostul-deputat-oana-niculescu-mizil-condamnata-definitiv-la-un-an-de-inchisoare-cu-suspendare-pentru-conflict-de-interese-1922403624422016101115606528',
+      },
+    ],
+  },
+  {
+    name: 'Sorin-Constantin Lazăr',
+    party: 'PSD',
+    position: 'Fost senator de Iași',
+    position_type: 'senator',
+    geography: {
+      county: 'Iași',
+      basis: 'constituency',
+      note: 'Senator PSD; cauza de conflict de interese a vizat biroul parlamentar din Iași.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în mai 2014 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiului la cabinetul parlamentar. Profilul Senatului confirmă mandatul de senator.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1bf405e5-601b-4f58-9f68-89d4b37f47d6',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/sorin-lazar-primul-senator-condamnat-definitiv-pentru-conflict-de-interese-241717',
+      },
+    ],
+  },
+  {
+    name: 'Marius Ovidiu Isăilă',
+    party: 'PSD',
+    position: 'Fost senator de Dâmbovița',
+    position_type: 'senator',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'constituency',
+      note: 'Senator ales în circumscripția Dâmbovița; presa a consemnat mandatul inițial PSD.',
+    },
+    crime: 'Trafic de influență; instigare la fals în înscrisuri sub semnătură privată',
+    sentence: '5 ani și 4 luni închisoare cu executare',
+    sentence_years: 5.33,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în noiembrie 2016 la 5 ani și 4 luni de închisoare cu executare pentru trafic de influență și instigare la fals. Deși profilul curent al Senatului îl listează fără apartenență la finalul mandatului, presa consemnează că a fost ales senator PSD de Dâmbovița.',
+    verified_at: '2026-07-16',
+    sources: [
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=ec370652-d2ec-4854-95e1-61b739ae2e01',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/marius-isaila-a-fost-trimis-in-judecata-fostul-senator-psd-este-acuzat-ca-a-vrut-sa-dea-mita-fostului-ministru-al-apararii-3528665',
+      },
+      {
+        label: 'Europa FM',
+        kind: 'press',
+        url: 'https://www.europafm.ro/senatorul-marius-isaila-condamnat-definitiv-la-5-ani-si-4-luni-de-inchisoare/',
+      },
+    ],
+  },
+];
+
  export const politicianAdditions = [
+  ...AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_15_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_14_2026_DNA_FOLLOWUP_RECORDS,
   ...AUTOMATED_JUL_14_2026_DNA_CONVICTION_RECORDS,
