@@ -19532,7 +19532,270 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const DNA_MAR_2026_CONSTANTA_CUSTOMS_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13608',
+};
+
+const DNA_JAN_2026_IASI_UAT_CONVICTION_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13645',
+};
+
+const DNA_MAR_2026_DGAPMFP_CONVICTION_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13750',
+};
+
+const DNA_MAR_2026_ANAF_BUCHAREST_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13657',
+};
+
+const DNA_APR_2026_DGASPC_ARGES_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13665',
+};
+
+const AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Parfenie Octavian-Lică',
+    party: 'Independent',
+    position: 'Șef al Biroului Vamal de Frontieră Constanța Sud',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Biroul Vamal de Frontieră Constanța Sud.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 6 martie 2026 punerea în mișcare a acțiunii penale pentru fapte de mită legate de formalități vamale din Portul Constanța, iar Tribunalul București a dispus arestarea preventivă pentru 30 de zile.',
+    verified_at: '2026-07-16',
+    sources: [DNA_MAR_2026_CONSTANTA_CUSTOMS_SOURCE],
+  },
+  {
+    name: 'Gudu Christian',
+    party: 'Independent',
+    position: 'Adjunct al șefului Biroului Vamal de Frontieră Constanța Sud',
+    position_type: 'other',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Biroul Vamal de Frontieră Constanța Sud.',
+    },
+    crime: 'Complicitate la luare de mită în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 6 martie 2026 punerea în mișcare a acțiunii penale, susținând că ar fi sprijinit două acte materiale din dosarul mitei pentru formalități vamale; instanța a dispus control judiciar pentru 60 de zile.',
+    verified_at: '2026-07-16',
+    sources: [DNA_MAR_2026_CONSTANTA_CUSTOMS_SOURCE],
+  },
+  {
+    name: 'Ghergheșanu Gabriel',
+    party: 'Independent',
+    position: 'Funcționar public în cadrul U.A.T. Municipiul Iași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul U.A.T. Municipiul Iași.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Iași a admis acordul de recunoaștere a vinovăției prin decizia penală nr. 8 din 13 ianuarie 2026 și l-a condamnat definitiv pentru complicitate la abuz în serviciu.',
+    verified_at: '2026-07-16',
+    sources: [DNA_JAN_2026_IASI_UAT_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Cristea Cristina-Luminița',
+    party: 'Independent',
+    position:
+      'Șef al Compartimentului de resurse umane din cadrul Direcției Generale de Arhitectură Peisagistică și Monumente de For Public',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul unei direcții generale din București.',
+    },
+    crime:
+      'Complicitate la abuz în serviciu; complicitate la folosirea de informații nedestinate publicității; instigare la fals',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2026,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel București a admis acordul de recunoaștere a vinovăției prin decizia penală nr. 485/A din 20 martie 2026 și a condamnat-o definitiv în dosarul privind Direcția Generală de Arhitectură Peisagistică și Monumente de For Public.',
+    verified_at: '2026-07-16',
+    sources: [DNA_MAR_2026_DGAPMFP_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Topan Octavian-Ciprian',
+    party: 'Independent',
+    position: 'Șef Serviciu Juridic 2 în cadrul D.G.R.F.P. București',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.G.R.F.P. București - A.N.A.F.',
+    },
+    crime: 'Luare de mită; trafic de influență',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 30 martie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru 60 de zile, într-un dosar privind pretinse sume primite sau pretinse în legătură cu poziții ale A.N.A.F. în proceduri de insolvență.',
+    verified_at: '2026-07-16',
+    sources: [DNA_MAR_2026_ANAF_BUCHAREST_SOURCE],
+  },
+  {
+    name: 'Popovici Tatiana',
+    party: 'Independent',
+    position:
+      'Director executiv juridic în cadrul D.G.R.F.P. București; șef Serviciu Juridic Sector 6',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.G.R.F.P. București - A.N.A.F.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 30 martie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru 60 de zile, susținând că ar fi primit bani în același context al demersurilor A.N.A.F. dintr-o procedură de insolvență.',
+    verified_at: '2026-07-16',
+    sources: [DNA_MAR_2026_ANAF_BUCHAREST_SOURCE],
+  },
+  {
+    name: 'Eftime Tatiana',
+    party: 'Independent',
+    position: 'Director general al Direcției Generale de Asistență Socială și Protecția Copilului Argeș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.G.A.S.P.C. Argeș.',
+    },
+    crime: 'Folosirea de informații nedestinate publicității; abuz în serviciu',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Pitești a anunțat la 8 aprilie 2026 trimiterea sa în judecată în dosarul achiziției unor imobile pentru locuințe protejate și centru respiro, reținând comunicarea unor informații nepublice și o achiziție pretins viciată.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_DGASPC_ARGES_SOURCE],
+  },
+  {
+    name: 'Gogoașe Adela',
+    party: 'Independent',
+    position:
+      'Director general adjunct al Direcției Generale de Asistență Socială și Protecția Copilului Argeș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.G.A.S.P.C. Argeș.',
+    },
+    crime: 'Folosirea de informații nedestinate publicității; complicitate la abuz în serviciu',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Pitești a anunțat la 8 aprilie 2026 trimiterea sa în judecată în același dosar D.G.A.S.P.C. Argeș, privind informații nepublice și sprijinirea unei achiziții publice presupus prejudiciabile.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_DGASPC_ARGES_SOURCE],
+  },
+  {
+    name: 'Neagu Adrian',
+    party: 'Independent',
+    position: 'Arhitect-șef al orașului Ștefănești; membru al comisiei de recepție',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în orașul Ștefănești, județul Argeș.',
+    },
+    crime: 'Fals intelectual; folosirea funcției pentru favorizarea unor persoane',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Pitești a anunțat la 8 aprilie 2026 trimiterea sa în judecată în dosarul D.G.A.S.P.C. Argeș, pentru două infracțiuni de fals intelectual în formă continuată și folosirea funcției pentru favorizarea unor persoane.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_DGASPC_ARGES_SOURCE],
+  },
+  {
+    name: 'Matis Geza',
+    party: 'Independent',
+    position:
+      'Șef al Unității Fiscale Municipale Târgu Secuiesc din cadrul A.J.F.P. Covasna',
+    position_type: 'other',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la U.F.M. Târgu Secuiesc din cadrul A.J.F.P. Covasna.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Brașov a anunțat în buletinul din 9 aprilie 2026 trimiterea sa în judecată, susținând că ar fi aprobat o cerere de amnistie fiscală și ar fi emis o decizie prin care un contribuabil a beneficiat de anularea unor obligații fiscale.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Foof Ervin',
+    party: 'Independent',
+    position: 'Inspector fiscal în cadrul A.J.F.P. Covasna',
+    position_type: 'other',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul A.J.F.P. Covasna.',
+    },
+    crime: 'Complicitate la fals în declarații în formă continuată',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Brașov a anunțat în buletinul din 9 aprilie 2026 trimiterea sa în judecată în dosarul privind declarații fiscale pretins neadevărate depuse pentru accesarea facilităților de amnistie fiscală.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Garai Iuliu',
+    party: 'Independent',
+    position: 'Inspector fiscal în cadrul A.J.F.P. Covasna',
+    position_type: 'other',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul A.J.F.P. Covasna.',
+    },
+    crime: 'Complicitate la fals în declarații în formă continuată',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Brașov a anunțat în buletinul din 9 aprilie 2026 trimiterea sa în judecată în dosarul privind declarații fiscale pretins neadevărate depuse pentru accesarea facilităților de amnistie fiscală.',
+    verified_at: '2026-07-16',
+    sources: [DNA_APR_2026_BULLETIN_SOURCE],
+  },
+];
+
  export const politicianAdditions = [
+  ...AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_15_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_14_2026_DNA_FOLLOWUP_RECORDS,
