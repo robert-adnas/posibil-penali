@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-16',
+  last_updated: '2026-07-17',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -19562,6 +19562,242 @@ const DNA_APR_2026_DGASPC_ARGES_SOURCE = {
   url: 'https://www.dna.ro/comunicat.xhtml?id=13665',
 };
 
+const DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12764',
+};
+
+const DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12606',
+};
+
+const BEC_2020_BACAU_CANDIDATES_SOURCE = {
+  label: 'BEC - candidaturi locale 2020 Bacău',
+  kind: 'official',
+  url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
+};
+
+const BEC_2020_CALARASI_CANDIDATES_SOURCE = {
+  label: 'BEC - candidaturi locale 2020 Călărași',
+  kind: 'official',
+  url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CL.xls',
+};
+
+const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Diaconu Eusebiu-Iancu',
+    party: 'Pro Romania',
+    position: 'Consilier local în cadrul Consiliului Local al Municipiului Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de consilier local al municipiului Bacău.',
+    },
+    crime: 'Instigare la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată în dosarul achizițiilor supraevaluate derulate prin Căminul pentru Persoane Vârstnice Bacău și Școala Gimnazială „Constantin Platon”. BEC 2020 îl listează drept candidat Pro Romania la Consiliul Local Bacău.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE, BEC_2020_BACAU_CANDIDATES_SOURCE],
+  },
+  {
+    name: 'Ilie Diana',
+    party: 'Independent',
+    position: 'Șef serviciu în cadrul Primăriei Municipiului Bacău; administrator al unor societăți comerciale',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei Municipiului Bacău.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată, reținând sprijinirea achizițiilor supraevaluate prin societățile furnizoare din dosarul U.A.T. Bacău.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Dimofte Magda',
+    party: 'Independent',
+    position: 'Director al Căminului pentru Persoane Vârstnice Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Căminului pentru Persoane Vârstnice Bacău.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată pentru patru acte materiale legate de achiziții supraevaluate la Căminul pentru Persoane Vârstnice Bacău.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Bostan Sorin',
+    party: 'Independent',
+    position: 'Director al Școlii Gimnaziale „Constantin Platon” Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Școlii Gimnaziale „Constantin Platon” Bacău.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată pentru două acte materiale privind achiziții supraevaluate efectuate de școala pe care o conducea.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Ghervase Andreea Monica',
+    party: 'Independent',
+    position: 'Responsabil achiziții în cadrul Căminului pentru Persoane Vârstnice Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Căminului pentru Persoane Vârstnice Bacău.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată, reținând că ar fi sprijinit întocmirea documentelor de achiziție pentru bunuri supraevaluate.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Tanțoș Iulian Mihai',
+    party: 'Independent',
+    position: 'Consilier administrație publică și responsabil achiziții la Căminul pentru Persoane Vârstnice Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Căminului pentru Persoane Vârstnice Bacău.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată, reținând acuzații privind sprijinirea achizițiilor supraevaluate ale Căminului pentru Persoane Vârstnice Bacău.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Ceaușu Mărioara-Cornelia',
+    party: 'Independent',
+    position: 'Administrator al Grădiniței cu program prelungit nr. 33 din cadrul Școlii Gimnaziale „Constantin Platon” Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în structura Școlii Gimnaziale „Constantin Platon” Bacău.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată pentru două acte materiale de complicitate la abuz în serviciu în dosarul achizițiilor supraevaluate.',
+    verified_at: '2026-07-17',
+    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE],
+  },
+  {
+    name: 'Tudor Simina Iulia',
+    party: 'Independent',
+    position: 'Consilier achiziții publice în cadrul Consiliului Județean Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Consiliului Județean Călărași.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite; fals intelectual',
+    sentence: 'Trimisă în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată în dosarul contractelor de pază ale Consiliului Județean Călărași, reținând sprijinirea atribuirii unor contracte către o societate fără licență.',
+    verified_at: '2026-07-17',
+    sources: [DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE],
+  },
+  {
+    name: 'Dima Gabriel',
+    party: 'Independent',
+    position: 'Consilier achiziții publice în cadrul Consiliului Județean Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Consiliului Județean Călărași.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu obținere de foloase necuvenite; fals intelectual',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată în dosarul contractelor de pază ale Consiliului Județean Călărași, pentru acuzații similare celor reținute față de celălalt consilier de achiziții publice.',
+    verified_at: '2026-07-17',
+    sources: [DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE],
+  },
+  {
+    name: 'Beștea Mihăiță Constantin',
+    party: 'PSD',
+    position: 'Vicepreședinte al Consiliului Județean Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de vicepreședinte al Consiliului Județean Călărași.',
+    },
+    crime: 'Uzurparea funcției asimilată infracțiunilor de corupție; favorizarea făptuitorului',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată în dosarul contractelor de pază ale Consiliului Județean Călărași. BEC 2020 îl listează drept candidat PSD pentru Consiliul Județean Călărași.',
+    verified_at: '2026-07-17',
+    sources: [DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE, BEC_2020_CALARASI_CANDIDATES_SOURCE],
+  },
+  {
+    name: 'Paraschiv Aurel',
+    party: 'Independent',
+    position: 'Secretar general al Consiliului Județean Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de secretar general al Consiliului Județean Călărași.',
+    },
+    crime: 'Complicitate la uzurparea funcției asimilată infracțiunilor de corupție; favorizarea făptuitorului',
+    sentence: 'Trimis în judecată de DNA',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată, reținând acuzații legate de documentele transmise în numele Consiliului Județean Călărași în dosarul contractelor de pază.',
+    verified_at: '2026-07-17',
+    sources: [DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE],
+  },
+];
+
 const AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS = [
   {
     name: 'Parfenie Octavian-Lică',
@@ -19795,6 +20031,7 @@ const AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS = [
 ];
 
  export const politicianAdditions = [
+  ...AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_15_2026_MORE_PEOPLE_RECORDS,
