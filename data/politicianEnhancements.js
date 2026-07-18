@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-17',
+  last_updated: '2026-07-18',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -19586,6 +19586,326 @@ const BEC_2020_CALARASI_CANDIDATES_SOURCE = {
   url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CL.xls',
 };
 
+const DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13456',
+};
+
+const DNA_DEC_2021_ARSVOM_NEACSA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=10744',
+};
+
+const DNA_MAR_2025_FEB_2025_BULLETIN_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12828',
+};
+
+const AUTOMATED_JUL_18_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Anghel Andrei',
+    party: 'Independent',
+    position: 'Notar public',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note:
+        'Cauza viza documente notariale referitoare la un imobil din municipiul București.',
+    },
+    crime: 'Abuz în serviciu cu obținerea unui folos necuvenit',
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul privind rectificarea și completarea unor acte pentru un imobil din București.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Coșoreanu Iulian-Ilie',
+    party: 'Independent',
+    position: 'Executor judecătoresc',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note:
+        'Cauza viza un imobil din municipiul București și teren aflat în proprietatea municipiului București.',
+    },
+    crime:
+      'Instigare la abuz în serviciu cu obținerea unui folos necuvenit; instigare la abuz în serviciu în participație improprie',
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul privind înscrierea unor suprafețe pretins nereale în cartea funciară a unui imobil din București.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Stanciu Cristinel',
+    party: 'Independent',
+    position:
+      'Comisar-șef de poliție în cadrul IPJ Buzău; ulterior director adjunct al Centrului de Cooperare Polițienească Internațională',
+    position_type: 'other',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note:
+        'Funcția publică menționată la data faptelor era în cadrul Inspectoratului Județean de Poliție Buzău.',
+    },
+    crime:
+      'Instigare la acces ilegal la un sistem informatic; instigare la divulgarea informațiilor secrete de serviciu sau nepublice; instigare la tentativă la permiterea accesului la informații nedestinate publicității',
+    status: 'indicted',
+    details:
+      'DNA a comunicat în ianuarie 2026 trimiterea sa în judecată într-un dosar privind accesări bancare neautorizate și folosirea unor informații protejate în interesul societăților deținute de familie.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Luntraru Simona Elena',
+    party: 'Independent',
+    position:
+      'Consilier achiziții publice în cadrul Primăriei municipiului Bacău; responsabil achiziții publice în proiectul Cinema Orizont',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei municipiului Bacău.',
+    },
+    crime: 'Abuz în serviciu cu obținerea unui folos necuvenit',
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul achizițiilor pentru proiectul „Crearea unei infrastructuri suport de incubare a afacerilor HUB pentru tineret - Cinema Orizont”.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Munteanu Dan',
+    party: 'Independent',
+    position:
+      'Inspector de specialitate în cadrul Primăriei municipiului Bacău; responsabil tehnic în proiectul Cinema Orizont',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei municipiului Bacău.',
+    },
+    crime: 'Abuz în serviciu cu obținerea unui folos necuvenit',
+    status: 'indicted',
+    details:
+      'DNA Bacău a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul achizițiilor pentru proiectul „Crearea unei infrastructuri suport de incubare a afacerilor HUB pentru tineret - Cinema Orizont”.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Pavel Romica',
+    party: 'Independent',
+    position: 'Referent la Primăria orașului Ianca',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul Primăriei orașului Ianca, județul Brăila.',
+    },
+    crime:
+      'Luare de mită; fals intelectual; fals material în înscrisuri oficiale',
+    status: 'indicted',
+    details:
+      'DNA Galați a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul adeverințelor de vechime pretins false eliberate la Primăria orașului Ianca.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Bărlădeanu Emil',
+    party: 'Independent',
+    position: 'Soldat gradat profesionist în cadrul unei unități militare M.Ap.N.',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'case_location',
+      note: 'Dosarul privind proiectul AFIR a fost trimis spre judecare la Tribunalul Tulcea.',
+    },
+    crime:
+      'Obținere pe nedrept de fonduri europene; schimbare nelegală a destinației fondurilor europene',
+    status: 'indicted',
+    details:
+      'Procurorii militari DNA au comunicat în ianuarie 2026 trimiterea sa în judecată într-un dosar privind documente pretins false folosite într-un proiect de instalare a tinerilor fermieri.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Litrin Elisabeta',
+    party: 'Independent',
+    position: 'Expert în cadrul AFIR - Oficiile județene Tulcea și Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'case_location',
+      note:
+        'Dosarul a fost trimis la Tribunalul Tulcea; comunicatul indică experți OJFIR Tulcea și OJFIR Constanța fără individualizarea oficiului pentru fiecare inculpat.',
+    },
+    crime:
+      'Fals intelectual; complicitate la obținere pe nedrept de fonduri europene',
+    status: 'indicted',
+    details:
+      'Procurorii militari DNA au comunicat în ianuarie 2026 trimiterea sa în judecată, alături de alți experți AFIR, pentru acuzații legate de rapoarte de control într-un proiect finanțat din fonduri europene.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Ilie Tudorița',
+    party: 'Independent',
+    position: 'Expert în cadrul AFIR - Oficiile județene Tulcea și Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'case_location',
+      note:
+        'Dosarul a fost trimis la Tribunalul Tulcea; comunicatul indică experți OJFIR Tulcea și OJFIR Constanța fără individualizarea oficiului pentru fiecare inculpat.',
+    },
+    crime:
+      'Fals intelectual; complicitate la obținere pe nedrept de fonduri europene',
+    status: 'indicted',
+    details:
+      'Procurorii militari DNA au comunicat în ianuarie 2026 trimiterea sa în judecată, alături de alți experți AFIR, pentru acuzații legate de rapoarte de control într-un proiect finanțat din fonduri europene.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Anghel Iordan',
+    party: 'Independent',
+    position: 'Expert în cadrul AFIR - Oficiile județene Tulcea și Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'case_location',
+      note:
+        'Dosarul a fost trimis la Tribunalul Tulcea; comunicatul indică experți OJFIR Tulcea și OJFIR Constanța fără individualizarea oficiului pentru fiecare inculpat.',
+    },
+    crime:
+      'Fals intelectual; complicitate la obținere pe nedrept de fonduri europene',
+    status: 'indicted',
+    details:
+      'Procurorii militari DNA au comunicat în ianuarie 2026 trimiterea sa în judecată, alături de alți experți AFIR, pentru acuzații legate de rapoarte de control într-un proiect finanțat din fonduri europene.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Galbur Dan-Cristian',
+    party: 'Independent',
+    position: 'Expert în cadrul AFIR - Oficiile județene Tulcea și Constanța',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'case_location',
+      note:
+        'Dosarul a fost trimis la Tribunalul Tulcea; comunicatul indică experți OJFIR Tulcea și OJFIR Constanța fără individualizarea oficiului pentru fiecare inculpat.',
+    },
+    crime:
+      'Fals intelectual; complicitate la obținere pe nedrept de fonduri europene',
+    status: 'indicted',
+    details:
+      'Procurorii militari DNA au comunicat în ianuarie 2026 trimiterea sa în judecată, alături de alți experți AFIR, pentru acuzații legate de rapoarte de control într-un proiect finanțat din fonduri europene.',
+    verified_at: '2026-07-18',
+    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Neacșa Petre',
+    party: 'Independent',
+    position: 'Director al Direcției economice din cadrul Ministerului Transporturilor și Infrastructurii',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note:
+        'Funcția publică relevantă era în cadrul Ministerului Transporturilor și Infrastructurii, instituție centrală cu sediul în București.',
+    },
+    crime: 'Luare de mită',
+    status: 'indicted',
+    details:
+      'DNA Constanța a comunicat în decembrie 2021 trimiterea sa în judecată, sub control judiciar, în dosarul achizițiilor de nave și drage fluviale gestionate prin structuri ale Ministerului Transporturilor.',
+    verified_at: '2026-07-18',
+    sources: [DNA_DEC_2021_ARSVOM_NEACSA_SOURCE, DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Nechita Constantin',
+    party: 'Independent',
+    position: 'Angajat al Direcției Generale de Asistență Socială și Protecția Copilului Vaslui',
+    position_type: 'other',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.G.A.S.P.C. Vaslui.',
+    },
+    crime: 'Trafic de influență',
+    status: 'indicted',
+    details:
+      'DNA Iași a comunicat în martie 2025 trimiterea sa în judecată în dosarul privind sume pretinse pentru influență asupra unor funcționari din D.G.A.S.P.C. Vaslui și alte instituții publice.',
+    verified_at: '2026-07-18',
+    sources: [DNA_MAR_2025_FEB_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Mehedințu Felicia-Gabriela',
+    party: 'Independent',
+    position: 'Director executiv al Direcției pentru Agricultură Județene Caraș-Severin',
+    position_type: 'other',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.A.J. Caraș-Severin.',
+    },
+    crime: 'Abuz în serviciu; delapidare; fals intelectual',
+    sentence: 'Acord de recunoaștere transmis instanței: 3 ani închisoare cu suspendare',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Timișoara a comunicat în martie 2025 sesizarea instanței cu acordul de recunoaștere a vinovăției în dosarul Direcției pentru Agricultură Județene Caraș-Severin.',
+    verified_at: '2026-07-18',
+    sources: [DNA_MAR_2025_FEB_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Șandru Petru',
+    party: 'Independent',
+    position: 'Referent în cadrul Direcției pentru Agricultură Județene Caraș-Severin',
+    position_type: 'other',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.A.J. Caraș-Severin.',
+    },
+    crime: 'Complicitate la abuz în serviciu; complicitate la delapidare; fals intelectual',
+    sentence: 'Acord de recunoaștere transmis instanței: 2 ani și 9 luni închisoare cu suspendare',
+    sentence_years: null,
+    status: 'indicted',
+    details:
+      'DNA Timișoara a comunicat în martie 2025 sesizarea instanței cu acordul de recunoaștere a vinovăției în același dosar privind Direcția pentru Agricultură Județeană Caraș-Severin.',
+    verified_at: '2026-07-18',
+    sources: [DNA_MAR_2025_FEB_2025_BULLETIN_SOURCE],
+  },
+  {
+    name: 'Lupșa Lenuța Florentina',
+    party: 'Independent',
+    position: 'Consilier în cadrul Direcției pentru Agricultură Județene Caraș-Severin',
+    position_type: 'other',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul D.A.J. Caraș-Severin.',
+    },
+    crime: 'Delapidare; fals intelectual',
+    sentence: '1 an și 10 luni închisoare cu suspendare',
+    sentence_years: 1.83,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'DNA Timișoara a consemnat în martie 2025 că Tribunalul Caraș-Severin a admis acordul de recunoaștere a vinovăției, definitiv prin neapelare la 7 decembrie 2022, în dosarul D.A.J. Caraș-Severin.',
+    verified_at: '2026-07-18',
+    sources: [DNA_MAR_2025_FEB_2025_BULLETIN_SOURCE],
+  },
+];
+
 const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Diaconu Eusebiu-Iancu',
@@ -20031,6 +20351,7 @@ const AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS = [
 ];
 
  export const politicianAdditions = [
+  ...AUTOMATED_JUL_18_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS,
