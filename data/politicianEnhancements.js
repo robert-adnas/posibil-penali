@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-18',
+  last_updated: '2026-07-19',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -20350,7 +20350,517 @@ const AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS = [
   },
 ];
 
- export const politicianAdditions = [
+const ANI_OCT_2015_PARLIAMENTARY_CONFLICTS_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98',
+};
+
+const ANI_OCT_2015_PARLIAMENTARY_CONFLICTS_MIRROR_SOURCE = {
+  label: 'ZIUA de Constanța',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/informatii/agentia-nationala-de-integritate/comunicat-de-presa-ani-conflict-de-interese-administrativ-si-penal-32-fosti-sau-actuali-parlamentari-31-deputati-si-1-senator-568375.html',
+};
+
+const ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES = [
+  ANI_OCT_2015_PARLIAMENTARY_CONFLICTS_SOURCE,
+  ANI_OCT_2015_PARLIAMENTARY_CONFLICTS_MIRROR_SOURCE,
+];
+
+const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Mădălin-Ștefan Voicu',
+    party: 'PSD',
+    position: 'Fost deputat de Constanța',
+    position_type: 'deputy',
+    geography: {
+      county: 'Constanța',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat ales în circumscripția Constanța.',
+    },
+    crime: 'Trafic de influență; fals în declarații; spălare de bani',
+    status: 'indicted',
+    details:
+      'DNA a anunțat în iulie 2016 trimiterea sa în judecată în dosarul Asociației Partida Romilor „Pro Europa”, reținând acuzații de trafic de influență, fals în declarații, spălare de bani și folosirea influenței politice pentru foloase necuvenite.',
+    verified_at: '2026-07-19',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7592',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=403&leg=2012',
+      },
+    ],
+  },
+  {
+    name: 'Nicolae Păun',
+    party: 'Partida Romilor Pro-Europa',
+    position: 'Fost deputat; președinte al Asociației Partida Romilor Pro-Europa',
+    position_type: 'deputy',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'Camera Deputaților listează Asociația Partida Romilor „Pro-Europa” cu Păun Nicolae în circumscripția Galați.',
+    },
+    crime:
+      'Folosire de documente false pentru fonduri europene; deturnare de fonduri; spălare de bani; cumpărare de influență',
+    status: 'indicted',
+    details:
+      'DNA a anunțat în iulie 2016 trimiterea sa în judecată, sub control judiciar, în dosarul Asociației Partida Romilor „Pro Europa”, cu acuzații legate de obținerea și folosirea nelegală a fondurilor europene și cumpărare de influență.',
+    verified_at: '2026-07-19',
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7592',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.fp?cam=2&idp=55&leg=2008',
+      },
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=281&leg=2012&pag=1&par=8661&prn=0',
+      },
+    ],
+  },
+  {
+    name: 'Aledin Amet',
+    party: 'UDTTMR',
+    position: 'Fost deputat de Constanța',
+    position_type: 'deputy',
+    geography: {
+      county: 'Constanța',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat UDTTMR de Constanța.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 1.143 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=5&leg=2008&pag=0',
+      },
+    ],
+  },
+  {
+    name: 'William Gabriel Brînză',
+    party: 'PDL',
+    position: 'Fost deputat de Diaspora',
+    position_type: 'deputy',
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept consilier la biroul parlamentar, cu venituri salariale totale de 23.393 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=279&leg=2004&pag=0',
+      },
+    ],
+  },
+  {
+    name: 'Mihăiță Calimente',
+    party: 'PNL',
+    position: 'Fost deputat de Arad',
+    position_type: 'deputy',
+    geography: {
+      county: 'Arad',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat PNL ales în circumscripția Arad.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul drept referent la biroul parlamentar, cu venituri salariale totale de 33.258 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=58&leg=2008&pag=0',
+      },
+    ],
+  },
+  {
+    name: 'Viorel-Vasile Buda',
+    party: 'PNL',
+    position: 'Fost deputat de Satu Mare',
+    position_type: 'deputy',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează în circumscripția Satu Mare în legislatura 2008-2012.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiica drept consilier la biroul parlamentar, cu venituri salariale totale de 19.517 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=32&leg=2008&poz=1',
+      },
+    ],
+  },
+  {
+    name: 'Petru Călian',
+    party: 'PDL',
+    position: 'Fost deputat de Cluj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Cluj',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PDL în circumscripția Cluj.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 61.512 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=13&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Liviu-Bogdan Ciucă',
+    party: 'PC',
+    position: 'Fost deputat de Galați',
+    position_type: 'deputy',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat ales în circumscripția Galați.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat sora drept referent la biroul parlamentar, cu venituri salariale totale de 40.956 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=76&leg=2008&pag=1&par=12795&prn=0',
+      },
+    ],
+  },
+  {
+    name: 'Radu Eugeniu Coclici',
+    party: 'PSD',
+    position: 'Fost deputat de Alba',
+    position_type: 'deputy',
+    geography: {
+      county: 'Alba',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat PSD în circumscripția Alba.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat mama drept consilier la biroul parlamentar, cu venituri salariale totale de 32.576 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=3&idm=78&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Cătălin Croitoru',
+    party: 'PDL',
+    position: 'Fost deputat de București; ulterior senator',
+    position_type: 'deputy',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează în circumscripția București în legislatura 2008-2012.',
+    },
+    crime: 'Conflict de interese administrativ și penal',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că și-a angajat fiul și nora la biroul parlamentar, cu venituri de 55.038 lei și 37.399 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=83&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Iulian Iancu',
+    party: 'PSD',
+    position: 'Fost deputat de Bacău',
+    position_type: 'deputy',
+    geography: {
+      county: 'Bacău',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat ales în circumscripția Bacău.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept subinginer la biroul parlamentar, cu venituri salariale totale de 23.460 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=142&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'George Ionescu',
+    party: 'PDL',
+    position: 'Fost deputat de Prahova',
+    position_type: 'deputy',
+    geography: {
+      county: 'Prahova',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat ales în circumscripția Prahova.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul drept referent la biroul parlamentar, cu venituri salariale totale de 35.991 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=146&leg=2008&pag=1&par=12820&prn=0',
+      },
+    ],
+  },
+  {
+    name: 'Kelemen Atilla-Béla-László',
+    party: 'UDMR',
+    position: 'Fost deputat de Mureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat UDMR în circumscripția Mureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept referent la biroul parlamentar, cu venituri salariale totale de 27.248 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=27&idl=22992931764&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Ion Mocioalcă',
+    party: 'PSD',
+    position: 'Fost deputat de Caraș-Severin',
+    position_type: 'deputy',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PSD în circumscripția Caraș-Severin.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiica drept consilier la biroul parlamentar, cu venituri salariale totale de 892 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=11&leg=2008&poz=1',
+      },
+    ],
+  },
+  {
+    name: 'Iuliu Nosa',
+    party: 'PSD',
+    position: 'Fost deputat de Sălaj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Sălaj',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PSD în circumscripția Sălaj.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul drept consilier la biroul parlamentar, cu venituri salariale totale de 35.971 lei și indemnizație pentru creșterea copilului.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=202&leg=2016&pag=1',
+      },
+    ],
+  },
+  {
+    name: 'Laurențiu Nistor',
+    party: 'PSD',
+    position: 'Fost deputat de Hunedoara',
+    position_type: 'deputy',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PSD în circumscripția Hunedoara.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiica și ginerele drept experți la biroul parlamentar, cu venituri de 34.171 lei și 45.771 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=22&idl=3&leg=2008&poz=1',
+      },
+    ],
+  },
+  {
+    name: 'Daniel Vasile Oajdea',
+    party: 'PDL',
+    position: 'Fost deputat de Iași',
+    position_type: 'deputy',
+    geography: {
+      county: 'Iași',
+      basis: 'constituency',
+      note: 'Profilul Camerei Deputaților îl indică deputat PDL ales în circumscripția Iași.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 32.970 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=209&leg=2008',
+      },
+    ],
+  },
+  {
+    name: 'Corneliu Olar',
+    party: 'PDL',
+    position: 'Fost deputat de Alba',
+    position_type: 'deputy',
+    geography: {
+      county: 'Alba',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PDL în circumscripția Alba.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiica drept referent la biroul parlamentar, cu venituri salariale totale de 29.139 lei.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=210&leg=2008&pag=1&par=17009&prn=0',
+      },
+    ],
+  },
+  {
+    name: 'Sorin Ștefan Zamfirescu',
+    party: 'PDL',
+    position: 'Fost deputat de Vâlcea',
+    position_type: 'deputy',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PDL în circumscripția Vâlcea.',
+    },
+    crime: 'Conflict de interese administrativ și penal',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că fiul său a avut trei contracte cu biroul parlamentar, cu venituri totale de 28.893 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=39&leg=2008&poz=1',
+      },
+    ],
+  },
+  {
+    name: 'Dan-Radu Zătreanu',
+    party: 'PDL',
+    position: 'Fost deputat de București',
+    position_type: 'deputy',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Camera Deputaților îl listează deputat PDL în circumscripția București.',
+    },
+    crime: 'Conflict de interese administrativ și penal',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că și-a angajat fiica drept consilier la biroul parlamentar, cu venituri de 3.249 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal.',
+    verified_at: '2026-07-19',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=41&leg=2008',
+      },
+    ],
+  },
+];
+
+export const politicianAdditions = [
+  ...AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_18_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_16_2026_SECOND_MORE_PEOPLE_RECORDS,
