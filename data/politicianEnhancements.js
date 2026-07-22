@@ -1050,6 +1050,12 @@ const ANI_JUL_2020_SIX_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2997&PID=20',
 };
 
+const ANI_JUL_2020_SIX_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE = {
+  label: 'News.ro',
+  kind: 'press',
+  url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-si-conflict-de-interese-administrativ-6-persoane-prevazute-de-legea-nr-176-2010-19424258',
+};
+
 const ANI_JUN_2020_TEN_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
@@ -1062,10 +1068,22 @@ const ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2988&PID=20',
 };
 
+const ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE = {
+  label: 'News.ro',
+  kind: 'press',
+  url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-conflict-de-interese-administrativ-si-sesizare-parchet-7-persoane-prevazute-de-legea-nr-176-2010-19379362',
+};
+
 const ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2950&PID=20',
+};
+
+const ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE = {
+  label: 'News.ro',
+  kind: 'press',
+  url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-persoane-prevazute-de-legea-nr-176-2010-19263372',
 };
 
 const ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
@@ -1168,6 +1186,12 @@ const ANI_FEB_2021_SIX_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3040&PID=20',
+};
+
+const PALEA_EMANUEL_PSD_SOURCE = {
+  label: 'Ziarul de Investigații',
+  kind: 'press',
+  url: 'https://zin.ro/01/02/2021/administratie/cum-a-incurcat-functia-cu-politica-un-consilier-parlamentar-al-autoritatii-electorale-permanente/',
 };
 
 const TITEA_PSD_SOURCE = {
@@ -21856,6 +21880,178 @@ const AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS = [
   }),
 ];
 
+const buildJul22AniArchivePublicPersonRecord = ({
+  name,
+  party = 'Independent',
+  position,
+  position_type = 'other',
+  county,
+  basis = 'office',
+  note,
+  crime = 'Incompatibilitate',
+  details,
+  sources,
+}) => ({
+  name,
+  party,
+  position,
+  position_type,
+  geography: {
+    county,
+    basis,
+    note,
+  },
+  crime,
+  status: 'investigated',
+  details,
+  verified_at: '2026-07-22',
+  sources,
+});
+
+const AUTOMATED_JUL_22_2026_FOURTH_MORE_PEOPLE_RECORDS = [
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Enache Eugenia',
+    position:
+      'Funcționar public în cadrul Direcției Sanitare Veterinare și pentru Siguranța Alimentelor Argeș',
+    county: 'Argeș',
+    note: 'Funcția publică relevantă era în cadrul DSVSA Argeș.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 3 noiembrie 2015 - 26 iunie 2019, întrucât a exercitat simultan funcția publică de șef birou economic și administrativ la DSVSA Argeș și calitatea de expert contabil tehnic judiciar la Biroul Local de Expertize Tehnice și Contabile Argeș.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Mișcu Dumitru',
+    position: 'Funcționar public cu statut special la Poliția Orașului Cernavodă',
+    county: 'Constanța',
+    note: 'Funcția publică relevantă era în cadrul Poliției Orașului Cernavodă, județul Constanța.',
+    details:
+      'ANI a constatat incompatibilitate începând cu 11 aprilie 2018, întrucât a exercitat simultan calitatea de agent de poliție cu atribuții de polițist rutier și calitatea de instructor auto în cadrul unei societăți comerciale.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Vlad Silviu Laurențiu',
+    position:
+      'Funcționar public cu statut special în cadrul Postului de Poliție comunal Limanu',
+    county: 'Constanța',
+    note: 'Funcția publică relevantă era în cadrul Postului de Poliție comunal Limanu, județul Constanța.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 9 ianuarie - 1 decembrie 2017, întrucât, având calitatea de funcționar public cu statut special, a desfășurat activități remunerate ca instructor auto într-o societate comercială.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Boicu Viorel',
+    position: 'Funcționar public în cadrul Primăriei Comunei Fundu Moldovei',
+    position_type: 'local_official',
+    county: 'Suceava',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Fundu Moldovei, județul Suceava.',
+    details:
+      'ANI a constatat incompatibilitate începând cu 1 ianuarie 2011, întrucât a exercitat simultan calitatea de funcționar public în compartimentul urbanism și administrativ și activități private ca persoană fizică autorizată în cadastru, geodezie și cartografie, respectiv expert tehnic judiciar.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Pițiche Emil',
+    position: 'Funcționar public în cadrul Primăriei Comunei Gângiova',
+    position_type: 'local_official',
+    county: 'Dolj',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Gângiova, județul Dolj.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 ianuarie 2008 - 18 noiembrie 2019, întrucât, având calitatea de funcționar public, a desfășurat activități remunerate ca contabil în cadrul unui cabinet medical individual.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Hantea Ioana',
+    position: 'Fost funcționar public în cadrul Primăriei Comunei Braloștița',
+    position_type: 'local_official',
+    county: 'Dolj',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Braloștița, județul Dolj.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 6 mai 2016 - 4 octombrie 2017, întrucât, în calitate de funcționar public, s-a aflat în raporturi ierarhice directe cu fiica sa, care ocupa o funcție publică în cadrul aceleiași primării.',
+    sources: [
+      ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Peltecu Gheorghe',
+    position:
+      'Fost manager al Spitalului Clinic de Obstetrică și Ginecologie Filantropia București',
+    county: 'București',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Clinic de Obstetrică și Ginecologie Filantropia București.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 aprilie 2014 - 30 decembrie 2017, întrucât a exercitat simultan funcția de manager al spitalului și funcția de medic ginecolog, persoană contractuală cu contract individual de muncă, la o societate comercială.',
+    sources: [
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Lazăr Octavian Fulger',
+    position:
+      'Șef de secție în cadrul Spitalului Clinic Județean de Urgență Pius Brânzeu Timișoara',
+    county: 'Timiș',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Clinic Județean de Urgență Pius Brânzeu Timișoara.',
+    crime: 'Conflict de interese administrativ',
+    details:
+      'ANI a constatat conflict de interese administrativ deoarece, în perioada exercitării funcției de șef de secție, a deținut părți sociale la două societăți care au stabilit relații cu caracter patrimonial cu Spitalul Clinic Județean de Urgență Pius Brânzeu Timișoara.',
+    sources: [
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Călinoiu Ion Mădălin',
+    position: 'Farmacist șef secție în cadrul Spitalului Județean de Urgență Târgu-Jiu',
+    county: 'Gorj',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Județean de Urgență Târgu-Jiu, județul Gorj.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 22 noiembrie 2016 - 23 ianuarie 2018, întrucât a exercitat simultan funcția de farmacist șef secție și calitatea de administrator în cadrul unei societăți comerciale.',
+    sources: [
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_JUN_2020_SEVEN_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Marinaș Tudorița',
+    position:
+      'Șef Secție Cardiologie Medicină Internă în cadrul Spitalului Municipal Caracal',
+    county: 'Olt',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Municipal Caracal, județul Olt.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 22 noiembrie 2016 - 15 aprilie 2020, întrucât a deținut simultan funcția de șef Secție Cardiologie Medicină Internă și funcția de administrator în cadrul unei societăți comerciale.',
+    sources: [
+      ANI_JUL_2020_SIX_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_JUL_2020_SIX_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+    ],
+  }),
+  buildJul22AniArchivePublicPersonRecord({
+    name: 'Palea Emanuel',
+    party: 'PSD',
+    position:
+      'Fost director și consilier parlamentar în cadrul Filialei Sud-Muntenia a Autorității Electorale Permanente',
+    county: 'Dâmbovița',
+    basis: 'political_base',
+    note: 'Ziarul de Investigații a consemnat candidatura PSD la Primăria Băleni, județul Dâmbovița, și rolul de președinte interimar PSD Băleni.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 iulie - 5 noiembrie 2020, întrucât a deținut simultan funcția de consilier parlamentar la Filiala Sud-Muntenia a Autorității Electorale Permanente și calitatea de membru al unui partid politic.',
+    sources: [ANI_FEB_2021_SIX_PUBLIC_PERSONS_ARCHIVE_SOURCE, PALEA_EMANUEL_PSD_SOURCE],
+  }),
+];
+
 const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
   {
     name: 'Florin-Vasile Cîțu',
@@ -22046,6 +22242,7 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
 ];
 
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_22_2026_FOURTH_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_MORE_PEOPLE_RECORDS,
