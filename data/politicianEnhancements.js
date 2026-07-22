@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-19',
+  last_updated: '2026-07-22',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -20859,7 +20859,1033 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const CDEP_2008_DAMBOVITA_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=16&leg=2008',
+};
+
+const CDEP_2008_MARAMURES_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=26&leg=2008',
+};
+
+const CDEP_2008_VASLUI_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=40&leg=2008',
+};
+
+const CDEP_2008_BRASOV_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=8&leg=2008',
+};
+
+const CDEP_2008_CLUJ_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=13&leg=2008',
+};
+
+const CDEP_2008_MURES_SOURCE = {
+  label: 'Camera Deputaților',
+  kind: 'official',
+  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=28&leg=2008',
+};
+
+const GHEORGHE_FIRCZAK_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=B8928521-EF2F-4E25-9F9B-3D7B196351F1',
+};
+
+const GHEORGHE_FIRCZAK_PARTY_SOURCE = {
+  label: 'Portal Legislativ',
+  kind: 'official',
+  url: 'https://legislatie.just.ro/Public/DetaliiDocument/29283',
+};
+
+const MIRON_IGNAT_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=F7BDB087-ED56-4CE3-A9E6-50A54A6F112C',
+};
+
+const MIRON_IGNAT_AGERPRES_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/viata-parlamentara/2018/08/16/comunitatea-rusilor-lipoveni-din-romania-deputatul-miron-ignat-a-fost-un-foarte-bun-diplomat-si-stra--161628',
+};
+
+const MATE_ANDRAS_HOTNEWS_SOURCE = {
+  label: 'HotNews',
+  kind: 'press',
+  url: 'https://hotnews.ro/deputatul-udmr-mate-andras-levente-condamnat-definitiv-la-6-luni-nchisoare-cu-suspendare-531632',
+};
+
+const MATE_ANDRAS_UDMR_SOURCE = {
+  label: 'UDMR',
+  kind: 'official',
+  url: 'https://udmr.ro/profil/mate-andras-levente',
+};
+
+const KEREKES_KAROLY_RADOR_SOURCE = {
+  label: 'RADOR',
+  kind: 'press',
+  url: 'https://www.rador.ro/2015/02/10/sentinte-definitive-ale-inaltei-curti-de-casatie-si-justitie-in-dosarele-a-doi-deputati-udmr-acuzati-de-conflict-de-interese/',
+};
+
+const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Gheorghe Ana',
+    party: 'PSD',
+    position: 'Fost deputat de Dâmbovița',
+    position_type: 'deputy',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Dâmbovița.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat cumnata drept șef cabinet la biroul parlamentar, cu venituri salariale totale de 9.691 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_DAMBOVITA_SOURCE,
+    ],
+  },
+  {
+    name: 'Ștefan-Vasile Béres',
+    party: 'UDMR',
+    position: 'Fost deputat de Maramureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Maramureș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Maramureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat sora drept consilier și fiul drept referent la biroul parlamentar, cu venituri salariale totale de 37.646 lei, respectiv 26.203 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_MARAMURES_SOURCE,
+    ],
+  },
+  {
+    name: 'Viorel Cărare',
+    party: 'PDL',
+    position: 'Fost deputat de Vaslui',
+    position_type: 'deputy',
+    geography: {
+      county: 'Vaslui',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ și penal',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția și cumnatul la biroul parlamentar, cu venituri totale de 31.933 lei și 12.768 lei; pentru angajarea soției, ANI a sesizat Parchetul de pe lângă ÎCCJ.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_VASLUI_SOURCE,
+    ],
+  },
+  {
+    name: 'Gheorghe Gabor',
+    party: 'PNL',
+    position: 'Fost deputat de Brașov',
+    position_type: 'deputy',
+    geography: {
+      county: 'Brașov',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Brașov.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul și soția drept consilieri la biroul parlamentar, cu venituri salariale totale de 19.265 lei și 21.911 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_BRASOV_SOURCE,
+    ],
+  },
+  {
+    name: 'Gheorghe Firczak',
+    party: 'Uniunea Culturală a Rutenilor din România',
+    position: 'Fost deputat al minorității rutene',
+    position_type: 'deputy',
+    geography: {
+      county: 'Hunedoara',
+      basis: 'political_base',
+      note: 'Organizația politică reprezentată are sediul public în Deva, județul Hunedoara; mandatul a reprezentat minoritatea ruteană la nivel național.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în calitate de deputat, și-a angajat fiul drept consilier la biroul parlamentar prin contract individual de muncă, cu venituri salariale totale de 62.580 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      GHEORGHE_FIRCZAK_SENATE_SOURCE,
+      GHEORGHE_FIRCZAK_PARTY_SOURCE,
+    ],
+  },
+  {
+    name: 'Mircia Giurgiu',
+    party: 'PDL',
+    position: 'Fost deputat de Cluj',
+    position_type: 'deputy',
+    geography: {
+      county: 'Cluj',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Cluj.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept șofer la biroul parlamentar, cu venituri salariale totale de 13.975 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_CLUJ_SOURCE,
+    ],
+  },
+  {
+    name: 'Miron Ignat',
+    party: 'Comunitatea Rușilor Lipoveni din România',
+    position: 'Fost deputat al minorității rușilor lipoveni',
+    position_type: 'deputy',
+    geography: {
+      county: 'Constanța',
+      basis: 'hometown',
+      note: 'Sursele biografice publice indică nașterea în Ghindărești, județul Constanța; mandatul a reprezentat minoritatea rușilor lipoveni la nivel național.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că și-a angajat cumnata drept consilier la biroul parlamentar, cu venituri salariale totale de 35.899 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      MIRON_IGNAT_SENATE_SOURCE,
+      MIRON_IGNAT_AGERPRES_SOURCE,
+    ],
+  },
+  {
+    name: 'Pavel Horj',
+    party: 'PNL',
+    position: 'Fost deputat de Maramureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Maramureș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Maramureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 26.515 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_MARAMURES_SOURCE,
+    ],
+  },
+  {
+    name: 'Doru Brașoan Leșe',
+    party: 'PNL',
+    position: 'Fost deputat de Maramureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Maramureș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Maramureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept consilier la biroul parlamentar, cu venituri salariale totale de 92.443 lei.',
+    verified_at: '2026-07-20',
+    sources: [
+      ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
+      CDEP_2008_MARAMURES_SOURCE,
+    ],
+  },
+  {
+    name: 'Máté András-Levente',
+    party: 'UDMR',
+    position: 'Fost deputat de Cluj; fost lider al grupului UDMR din Camera Deputaților',
+    position_type: 'deputy',
+    geography: {
+      county: 'Cluj',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Cluj.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte l-a condamnat definitiv în februarie 2015 la 6 luni de închisoare cu suspendare pentru conflict de interese, după ce și-a angajat soția la biroul parlamentar din Cluj, în perioada martie 2010-ianuarie 2011.',
+    verified_at: '2026-07-20',
+    sources: [
+      MATE_ANDRAS_UDMR_SOURCE,
+      MATE_ANDRAS_HOTNEWS_SOURCE,
+      CDEP_2008_CLUJ_SOURCE,
+    ],
+  },
+  {
+    name: 'Kerekes Károly',
+    party: 'UDMR',
+    position: 'Fost deputat de Mureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția Mureș.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte l-a condamnat definitiv în februarie 2015 la 1 an și 6 luni de închisoare cu suspendare pentru conflict de interese, într-un dosar privind angajarea fiului și soției la biroul parlamentar.',
+    verified_at: '2026-07-20',
+    sources: [
+      KEREKES_KAROLY_RADOR_SOURCE,
+      CDEP_2008_MURES_SOURCE,
+    ],
+  },
+];
+
+const FLORIN_CITU_VACCINE_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12298',
+};
+
+const FLORIN_CITU_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=9FE9FBD1-55FD-4BDD-B971-1EB9C55FD32B',
+};
+
+const IOANA_MIHALA_VACCINE_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12302',
+};
+
+const IOANA_MIHALA_USR_SOURCE = {
+  label: 'AGERPRES',
+  kind: 'press',
+  url: 'https://agerpres.ro/politic/2021/01/27/alianta-usr-plus-a-facut-noi-propuneri-pentru-functii-de-secretari-de-stat-si-pentru-conducerile-uno--650688',
+};
+
+const SERGIU_ANDON_ANI_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=17&PID=20&currentPage=114',
+};
+
+const SERGIU_ANDON_SANCTION_SOURCE = {
+  label: 'HotNews',
+  kind: 'press',
+  url: 'https://hotnews.ro/ani-cere-revocarea-din-functie-a-deputatilor-sergiu-andon-si-florin-costin-paslaru-640185',
+};
+
+const NELU_TATARU_DNA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/faces/comunicat.xhtml?id=12700',
+};
+
+const NELU_TATARU_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=4793091b-68e3-4677-9d37-e163b0b5342e',
+};
+
+const SONIA_DRAGHICI_CONVICTION_SOURCE = {
+  label: 'Bihoreanul',
+  kind: 'press',
+  url: 'https://www.ebihoreanul.ro/stiri/deputata-psd-sonia-draghici-condamnata-definitiv-la-inchisoare-cu-suspendare-pentru-ca-si-a-angajat-fiul-la-biroul-parlamentar-127491.html',
+};
+
+const SONIA_DRAGHICI_ANI_SOURCE = {
+  label: 'Bihoreanul',
+  kind: 'press',
+  url: 'https://www.ebihoreanul.ro/stiri/ani-propune-parchetului-cercetarea-deputatului-sonia-draghici-pentru-ca-si-a-angajat-baiatul-in-biroul-parlamentar-96949.html',
+};
+
+const MIHAI_RADAN_CONVICTION_SOURCE = {
+  label: 'Comisarul',
+  kind: 'press',
+  url: 'https://www.comisarul.ro/articol/fostul-deputat-mihai-radan-condamnat-definitiv-la-_375554.html',
+};
+
+const STELICA_STRUGARU_FIRST_INSTANCE_SOURCE = {
+  label: 'Darabaneni.ro',
+  kind: 'press',
+  url: 'https://www.darabaneni.ro/social/tul-darabanean-stelica-iacob-strugaru-condamnat-pentru-con/',
+};
+
+const IOAN_CINDREA_CONVICTION_SOURCE = {
+  label: 'Turnul Sfatului',
+  kind: 'press',
+  url: 'https://www.turnulsfatului.ro/2015/09/22/cindrea-prin-propunerea-angajarii-sotiei-mele-am-incercat-sa-eficientizez-activitatea-de-la-biroul-de-deputat-35889/',
+};
+
+const AKOS_MORA_INTEGRITY_SOURCE = {
+  label: 'România Curată',
+  kind: 'press',
+  url: 'https://www.romaniacurata.ro/eligibili-desi-au-probleme-de-integritate-22-de-candidati-depistati-de-ani-ca-incompatibili-sau-in-conflict-de-interese/',
+};
+
+const ANI_MAR_2014_PARLIAMENTARY_INCOMPATIBILITY_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1514&PID=20&currentPage=57',
+};
+
+const BEC_2012_PARLIAMENTARY_RESULTS_SOURCE = {
+  label: 'Biroul Electoral Central / Monitorul Oficial',
+  kind: 'official',
+  url: 'https://legislatie.just.ro/Public/FormaPrintabila/00000G3BKKOLST4D79S25B5TTYZLYMWL',
+};
+
+const STELA_FIRU_SENATE_SOURCE = {
+  label: 'Senatul României',
+  kind: 'official',
+  url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c9f23bc1-a9d5-4773-aa91-6946a813e3c9',
+};
+
+const AUTOMATED_JUL_21_2026_PARLIAMENTARY_INCOMPATIBILITY_DETAILS =
+  'ANI a comunicat la 12 martie 2014 că a constatat încălcarea regimului juridic al incompatibilităților pentru 32 de parlamentari, după exercitarea simultană a mandatului de deputat sau senator și a unor funcții ori calități incompatibile.';
+
+const buildJul21ParliamentaryIncompatibilityRecord = ({
+  name,
+  party,
+  county,
+  mandate,
+  partyLabel,
+  crime = 'Incompatibilitate',
+  details = AUTOMATED_JUL_21_2026_PARLIAMENTARY_INCOMPATIBILITY_DETAILS,
+}) => ({
+  name,
+  party,
+  position: `Fost ${mandate === 'senator' ? 'senator' : 'deputat'} de ${county}`,
+  position_type: mandate,
+  geography: {
+    county,
+    basis: 'constituency',
+    note: `Procesul-verbal BEC pentru alegerile parlamentare din 2012 îl listează în circumscripția ${county}, pe lista ${partyLabel}.`,
+  },
+  crime,
+  status: 'investigated',
+  details,
+  verified_at: '2026-07-21',
+  sources: [
+    ANI_MAR_2014_PARLIAMENTARY_INCOMPATIBILITY_SOURCE,
+    BEC_2012_PARLIAMENTARY_RESULTS_SOURCE,
+  ],
+});
+
+const AUTOMATED_JUL_21_2026_MORE_PEOPLE_RECORDS = [
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Florin Ciurariu',
+    party: 'PNL',
+    county: 'Vaslui',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Cornel-George Comșa',
+    party: 'PP-DD',
+    county: 'Alba',
+    mandate: 'deputy',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Dorel Covaci',
+    party: 'PSD',
+    county: 'Timiș',
+    mandate: 'deputy',
+    partyLabel: 'USL / PSD',
+    crime: 'Incompatibilitate; posibil fals în declarații',
+    details:
+      'ANI a comunicat la 12 martie 2014 că Dorel Covaci a fost inclus între parlamentarii pentru care a constatat incompatibilitatea și a indicat și posibila săvârșire a infracțiunii de fals în declarații.',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ștefan-Petru Dalca',
+    party: 'PP-DD',
+    county: 'Arad',
+    mandate: 'deputy',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Anton Doboș',
+    party: 'PNL',
+    county: 'Iași',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+    crime: 'Incompatibilitate; posibil fals în declarații',
+    details:
+      'ANI a comunicat la 12 martie 2014 că Anton Doboș a fost inclus între parlamentarii pentru care a constatat incompatibilitatea și a indicat și posibila săvârșire a infracțiunii de fals în declarații.',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Traian Dobrinescu',
+    party: 'PNL',
+    county: 'Vâlcea',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Constantin-Cosmin Enea',
+    party: 'PNL',
+    county: 'Dolj',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ioan Mihăilă',
+    party: 'PNȚCD',
+    county: 'București',
+    mandate: 'deputy',
+    partyLabel: 'ARD / PNȚCD',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Zsolt Molnár',
+    party: 'UDMR',
+    county: 'Timiș',
+    mandate: 'deputy',
+    partyLabel: 'UDMR',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ion Ochi',
+    party: 'PSD',
+    county: 'Brașov',
+    mandate: 'deputy',
+    partyLabel: 'USL / PSD',
+    crime: 'Incompatibilitate; posibil fals în declarații',
+    details:
+      'ANI a comunicat la 12 martie 2014 că Ion Ochi a fost inclus între parlamentarii pentru care a constatat incompatibilitatea și a indicat și posibila săvârșire a infracțiunii de fals în declarații.',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Nechita-Adrian Oros',
+    party: 'PNL',
+    county: 'Cluj',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Cătălin-Marian Rădulescu',
+    party: 'PSD',
+    county: 'Argeș',
+    mandate: 'deputy',
+    partyLabel: 'USL / PSD',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ioan-Sorin Roman',
+    party: 'PSD',
+    county: 'Bihor',
+    mandate: 'deputy',
+    partyLabel: 'USL / PSD',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Petre Roman',
+    party: 'PNL',
+    county: 'Brașov',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ioan Tămâian',
+    party: 'PNL',
+    county: 'Sibiu',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Ioan-Viorel Teodorescu',
+    party: 'PNL',
+    county: 'Giurgiu',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Daniel-Cătălin Zamfir',
+    party: 'PNL',
+    county: 'Brașov',
+    mandate: 'deputy',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul21ParliamentaryIncompatibilityRecord({
+    name: 'Liviu-Titus Pașca',
+    party: 'PNL',
+    county: 'Maramureș',
+    mandate: 'senator',
+    partyLabel: 'USL / PNL',
+  }),
+];
+
+const AUTOMATED_JUL_22_2026_PARLIAMENTARY_INCOMPATIBILITY_DETAILS =
+  'ANI a comunicat la 12 martie 2014 că persoana a fost inclusă pe lista celor 32 de parlamentari pentru care a constatat încălcarea regimului juridic al incompatibilităților.';
+
+const buildJul22ParliamentaryIncompatibilityRecord = ({
+  name,
+  party,
+  county,
+  mandate,
+  partyLabel,
+  crime = 'Incompatibilitate',
+  details = AUTOMATED_JUL_22_2026_PARLIAMENTARY_INCOMPATIBILITY_DETAILS,
+}) => ({
+  name,
+  party,
+  position: `Fost ${mandate === 'senator' ? 'senator' : 'deputat'} de ${county}`,
+  position_type: mandate,
+  geography: {
+    county,
+    basis: 'constituency',
+    note: `Procesul-verbal BEC pentru alegerile parlamentare din 2012 îl listează în circumscripția ${county}, pe lista ${partyLabel}.`,
+  },
+  crime,
+  status: 'investigated',
+  details,
+  verified_at: '2026-07-22',
+  sources: [
+    ANI_MAR_2014_PARLIAMENTARY_INCOMPATIBILITY_SOURCE,
+    BEC_2012_PARLIAMENTARY_RESULTS_SOURCE,
+  ],
+});
+
+const AUTOMATED_JUL_22_2026_MORE_PEOPLE_RECORDS = [
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Ioan Moldovan',
+    party: 'PP-DD',
+    county: 'Cluj',
+    mandate: 'deputy',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Ion Șcheau',
+    party: 'PP-DD',
+    county: 'Arad',
+    mandate: 'deputy',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Miron-Alexandru Smărăndache',
+    party: 'PP-DD',
+    county: 'Bacău',
+    mandate: 'deputy',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Dumitru-Marcel Bujor',
+    party: 'PP-DD',
+    county: 'Bacău',
+    mandate: 'senator',
+    partyLabel: 'PP-DD',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Petru Ehegartner',
+    party: 'PNL',
+    county: 'Timiș',
+    mandate: 'senator',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Sorin Ilieșiu',
+    party: 'PNL',
+    county: 'Sibiu',
+    mandate: 'senator',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'László-Attila Klárik',
+    party: 'UDMR',
+    county: 'Covasna',
+    mandate: 'senator',
+    partyLabel: 'UDMR',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Mihai Niță',
+    party: 'PC',
+    county: 'Olt',
+    mandate: 'senator',
+    partyLabel: 'USL / PC',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Matei Suciu',
+    party: 'PSD',
+    county: 'Timiș',
+    mandate: 'senator',
+    partyLabel: 'USL / PSD',
+    crime: 'Incompatibilitate; posibil fals în declarații',
+    details:
+      'ANI a comunicat la 12 martie 2014 că Matei Suciu a fost inclus între parlamentarii pentru care a constatat incompatibilitatea și a indicat și posibila săvârșire a infracțiunii de fals în declarații.',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Ștefan-Liviu Tomoiagă',
+    party: 'PNL',
+    county: 'Călărași',
+    mandate: 'senator',
+    partyLabel: 'USL / PNL',
+  }),
+  buildJul22ParliamentaryIncompatibilityRecord({
+    name: 'Ionuț-Elie Zisu',
+    party: 'PNL',
+    county: 'Argeș',
+    mandate: 'senator',
+    partyLabel: 'USL / PNL',
+  }),
+];
+
+const buildJul22AniNov2020PublicPersonRecord = ({
+  name,
+  party = 'Independent',
+  position,
+  position_type = 'other',
+  county,
+  basis = 'office',
+  note,
+  crime = 'Incompatibilitate',
+  details,
+  sources = [ANI_NOV_2020_SEVENTEEN_PUBLIC_PERSONS_ARCHIVE_SOURCE],
+}) => ({
+  name,
+  party,
+  position,
+  position_type,
+  geography: {
+    county,
+    basis,
+    note,
+  },
+  crime,
+  status: 'investigated',
+  details,
+  verified_at: '2026-07-22',
+  sources,
+});
+
+const AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS = [
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Judeu Eliza Noemi',
+    position: 'Manager al Teatrului Municipal Bacovia Bacău',
+    county: 'Bacău',
+    note: 'Funcția publică relevantă era la Teatrul Municipal Bacovia din Bacău.',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Bacău, reținând că, în calitate de manager și manager interimar al teatrului, a încheiat trei contracte de prestări servicii de publicitate cu o societate în cadrul căreia soțul său era angajat și ulterior director programe.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Senchetru Dorin',
+    position: 'Inspector șef adjunct în cadrul Inspectoratului Teritorial de Muncă Brașov',
+    county: 'Brașov',
+    note: 'Funcția publică relevantă era în cadrul Inspectoratului Teritorial de Muncă Brașov.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 2017-2018, întrucât a exercitat simultan funcția publică de conducere de inspector șef adjunct și calitatea de expert tehnic judiciar în specialitatea protecția muncii.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Șerban Cristinel',
+    position: 'Agent de poliție în cadrul DGPMB - Secția 9 Poliție',
+    county: 'București',
+    note: 'Funcția publică relevantă era în cadrul Direcției Generale de Poliție a Municipiului București.',
+    details:
+      'ANI a constatat incompatibilitate pentru exercitarea simultană a statutului special de agent de poliție și a unor raporturi de muncă în cadrul a două societăți comerciale, în intervale din perioada 2016-2019.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Ghodsi Mahboob Alam Mohammad',
+    position:
+      'Medic șef al Laboratorului de Radiologie și Imagistică Medicală din cadrul Spitalului Județean de Urgență Vaslui',
+    county: 'Vaslui',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Județean de Urgență Vaslui.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 18 mai 2017 - 24 octombrie 2019, întrucât a deținut simultan funcția de medic șef de laborator și calitatea de administrator al unei societăți de asistență medicală specializată.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Stroe Marilena',
+    position:
+      'Fost șef al Secției Psihiatrie II Acuți din cadrul Spitalului Orășenesc de Psihiatrie Voila',
+    county: 'Prahova',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Orășenesc de Psihiatrie Voila, județul Prahova.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 22 noiembrie 2016 - 17 ianuarie 2018, întrucât a exercitat simultan funcția de șef secție și medic primar și calitatea de administrator al unei societăți comerciale.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Ignat Simonica',
+    position:
+      'Fost șef birou RUNOS și fost manager interimar al Spitalului Clinic de Boli Infecțioase Cluj',
+    county: 'Cluj',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Clinic de Boli Infecțioase Cluj.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 20 octombrie 2017 - 17 octombrie 2018, întrucât a exercitat simultan funcția de manager interimar al spitalului și calitatea de membru în consiliul director al C.A.R. Optim IFN Cluj.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Stela Firu',
+    party: 'PNL',
+    position:
+      'Fost senator PNL de Mehedinți; manager al Spitalului General Căi Ferate Drobeta-Turnu Severin',
+    position_type: 'senator',
+    county: 'Mehedinți',
+    basis: 'constituency',
+    note: 'Senatul României o listează ca senator PNL ales în circumscripția electorală Mehedinți.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 august 2016 - 11 februarie 2020, indicând exercitarea simultană a funcției de manager al Spitalului General Căi Ferate Drobeta-Turnu Severin, a mandatului de consilier județean Mehedinți și a unor calități profesionale sau comerciale incompatibile.',
+    sources: [
+      ANI_NOV_2020_SEVENTEEN_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      STELA_FIRU_SENATE_SOURCE,
+    ],
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Polinschi Mihai',
+    position:
+      'Director medical și fost manager general interimar al Serviciului de Ambulanță Județean Galați',
+    county: 'Galați',
+    note: 'Funcția publică relevantă era în cadrul Serviciului de Ambulanță Județean Galați.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 17 noiembrie 2015 - 3 iulie 2019, întrucât a exercitat simultan funcția de manager general interimar și calitatea de membru în consiliul de administrație al Spitalului Clinic de Boli Infecțioase Sf. Cuv. Parascheva Galați.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Tănase Ionel',
+    position: 'Funcționar public în cadrul Primăriei comunei Dumitrești',
+    position_type: 'local_official',
+    county: 'Vrancea',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Dumitrești, județul Vrancea.',
+    details:
+      'ANI a constatat incompatibilitate începând cu 23 noiembrie 2016, întrucât a exercitat simultan funcția publică de inspector în cadrul Primăriei Dumitrești și funcția contractuală de administrator financiar-contabil la Școala Gimnazială Regina Maria Vintileasca.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Păușan Răzvan Ioan',
+    position: 'Funcționar public în cadrul Primăriei comunei Gârbău',
+    position_type: 'local_official',
+    county: 'Cluj',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Gârbău, județul Cluj.',
+    details:
+      'ANI a constatat incompatibilitate începând cu 15 septembrie 2016, întrucât a exercitat simultan funcția publică de inspector urbanism în cadrul Primăriei Gârbău și o funcție de inginer sau proiectant într-o societate comercială.',
+  }),
+  buildJul22AniNov2020PublicPersonRecord({
+    name: 'Șlincu Marian',
+    position: 'Funcționar public în cadrul Consiliului Județean Suceava',
+    position_type: 'local_official',
+    county: 'Suceava',
+    note: 'Funcția publică relevantă era în cadrul Consiliului Județean Suceava.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 30 aprilie 2013 - 4 martie 2020, întrucât a exercitat simultan funcția publică de consilier în domeniul cadastru și urbanism, calitatea de expert tehnic judiciar și o funcție de inginer topograf în cadrul unei societăți comerciale.',
+  }),
+];
+
+const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Florin-Vasile Cîțu',
+    party: 'PNL',
+    position: 'Fost prim-ministru; fost senator de București',
+    position_type: 'prime_minister',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Senatul îl listează ca senator ales în circumscripția București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 6 decembrie 2023 efectuarea în continuare a urmăririi penale față de Florin-Vasile Cîțu în dosarul achiziției de vaccinuri anti-COVID-19, pentru două infracțiuni de complicitate la abuz în serviciu cu consecințe deosebit de grave.',
+    verified_at: '2026-07-20',
+    sources: [FLORIN_CITU_VACCINE_DNA_SOURCE, FLORIN_CITU_SENATE_SOURCE],
+  },
+  {
+    name: 'Ioana Mihăilă',
+    party: 'USR',
+    position: 'Fost ministru al Sănătății',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era cea de ministru al Sănătății, instituție centrală cu sediul în București.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 8 decembrie 2023 efectuarea în continuare a urmăririi penale față de Ioana Mihăilă, la data faptei ministru al Sănătății, în dosarul achiziției de vaccinuri anti-COVID-19.',
+    verified_at: '2026-07-20',
+    sources: [IOANA_MIHALA_VACCINE_DNA_SOURCE, IOANA_MIHALA_USR_SOURCE],
+  },
+  {
+    name: 'Sergiu Andon',
+    party: 'PC',
+    position: 'Fost deputat de București',
+    position_type: 'deputy',
+    geography: {
+      county: 'București',
+      basis: 'constituency',
+      note: 'Mandatul parlamentar relevant a fost în circumscripția București.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iunie 2009 starea de incompatibilitate, reținând că, în calitate de deputat, a acordat asistență juridică într-o cauză penală privind o infracțiune prevăzută de Legea nr. 78/2000. Ulterior, presa a relatat solicitarea ANI de aplicare a sancțiunii după rămânerea definitivă a constatării.',
+    verified_at: '2026-07-20',
+    sources: [SERGIU_ANDON_ANI_SOURCE, SERGIU_ANDON_SANCTION_SOURCE],
+  },
+  {
+    name: 'Nelu Tătaru',
+    party: 'PNL',
+    position: 'Fost ministru al Sănătății; senator de Vaslui',
+    position_type: 'minister',
+    geography: {
+      county: 'Vaslui',
+      basis: 'constituency',
+      note: 'Senatul îl listează ca senator PNL ales în circumscripția electorală Vaslui.',
+    },
+    crime: 'Luare de mită în formă continuată',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 10 octombrie 2024 efectuarea în continuare a urmăririi penale față de Nelu Tătaru, medic specialist și deputat în Parlamentul României, pentru luare de mită în formă continuată, indicând 57 de acte materiale.',
+    verified_at: '2026-07-20',
+    sources: [NELU_TATARU_DNA_SOURCE, NELU_TATARU_SENATE_SOURCE],
+  },
+  {
+    name: 'Sonia-Maria Drăghici',
+    party: 'PSD',
+    position: 'Fost deputat de Bihor',
+    position_type: 'deputy',
+    geography: {
+      county: 'Bihor',
+      basis: 'constituency',
+      note: 'Cauza a vizat biroul parlamentar al deputatei PSD de Bihor.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Sesizarea ANI a vizat angajarea fiului la biroul parlamentar. În iunie 2016, ÎCCJ a dispus definitiv condamnarea sa la 6 luni de închisoare cu suspendare pentru conflict de interese.',
+    verified_at: '2026-07-20',
+    sources: [SONIA_DRAGHICI_ANI_SOURCE, SONIA_DRAGHICI_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Mihai Radan',
+    party: 'Uniunea Croaților din România',
+    position: 'Fost deputat al minorității croate; fost primar al comunei Carașova',
+    position_type: 'deputy',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'constituency',
+      note: 'Cauza a vizat biroul parlamentar din circumscripția electorală Caraș-Severin.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'ÎCCJ l-a condamnat definitiv în februarie 2015 la 1 an de închisoare cu suspendare pentru conflict de interese, după sesizarea ANI privind angajarea fiului, nurorii și soției în relație cu biroul parlamentar.',
+    verified_at: '2026-07-20',
+    sources: [MIHAI_RADAN_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Stelică Iacob Strugaru',
+    party: 'PDL',
+    position: 'Fost deputat de Botoșani',
+    position_type: 'deputy',
+    geography: {
+      county: 'Botoșani',
+      basis: 'constituency',
+      note: 'Cauza a vizat biroul parlamentar din circumscripția electorală Botoșani.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an închisoare cu suspendare în primă instanță',
+    sentence_years: 1,
+    conviction_year: 2014,
+    status: 'first_instance',
+    execution_type: 'Cu suspendare',
+    details:
+      'Presa locală a relatat condamnarea în primă instanță la 1 an de închisoare cu suspendare pentru conflict de interese, după sesizarea ANI privind angajarea fiului la biroul parlamentar. Nu am identificat în această verificare o soluție definitivă oficială.',
+    verified_at: '2026-07-20',
+    sources: [STELICA_STRUGARU_FIRST_INSTANCE_SOURCE],
+  },
+  {
+    name: 'Ioan Cindrea',
+    party: 'PSD',
+    position: 'Fost deputat de Sibiu; fost președinte al Consiliului Județean Sibiu',
+    position_type: 'deputy',
+    geography: {
+      county: 'Sibiu',
+      basis: 'constituency',
+      note: 'Cauza a vizat biroul parlamentar din circumscripția electorală Sibiu.',
+    },
+    crime: 'Conflict de interese',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'După sesizarea ANI privind angajarea soției la biroul parlamentar, Ioan Cindrea a fost condamnat definitiv în 2015 la 1 an de închisoare cu suspendare pentru conflict de interese.',
+    verified_at: '2026-07-20',
+    sources: [IOAN_CINDREA_CONVICTION_SOURCE],
+  },
+  {
+    name: 'Akos Mora',
+    party: 'PNL',
+    position: 'Fost senator de Mureș; fost consilier județean Mureș',
+    position_type: 'senator',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Candidatura parlamentară și cazul de integritate au avut baza politică în județul Mureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'România Curată a consemnat, pe baza constatărilor ANI, că în perioada 2008-2011 o firmă la care Akos Mora era asociat și director a încheiat contracte cu unități aflate sub autoritatea Consiliului Județean Mureș și cu alte instituții din județ.',
+    verified_at: '2026-07-20',
+    sources: [AKOS_MORA_INTEGRITY_SOURCE],
+  },
+  {
+    name: 'Vasile Gliga',
+    party: 'PSD',
+    position: 'Fost deputat de Mureș',
+    position_type: 'deputy',
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Cazul ANI a vizat biroul parlamentar din circumscripția electorală Mureș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'România Curată a consemnat, pe baza constatărilor ANI, că deputatul Vasile Gliga și-a angajat soția la biroul parlamentar din circumscripția în care a fost ales, aceasta încasând venituri salariale totale de 27.095 lei.',
+    verified_at: '2026-07-20',
+    sources: [AKOS_MORA_INTEGRITY_SOURCE],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_22_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_21_2026_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS,
+  ...AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_18_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS,
