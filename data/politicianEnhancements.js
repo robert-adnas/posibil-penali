@@ -1068,6 +1068,36 @@ const ANI_FEB_2020_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2950&PID=20',
 };
 
+const ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=2960&PID=20',
+};
+
+const ANI_FEB_2020_NINE_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE = {
+  label: 'News.ro',
+  kind: 'press',
+  url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-si-conflict-de-interese-administrativ-persoane-prevazute-de-legea-nr-176-2010-19282011',
+};
+
+const HEGEDUS_FERENC_UDMR_SOURCE = {
+  label: 'Dan Tănasă',
+  kind: 'press',
+  url: 'https://www.dantanasa.ro/ani-primarul-udmr-al-comunei-moacsa-incompatibil/',
+};
+
+const CIOTEA_VASILE_PNL_SOURCE = {
+  label: 'Ziare.com',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/cabesti/5',
+};
+
+const ENACHE_VASILE_ALDE_SOURCE = {
+  label: 'ZCH',
+  kind: 'press',
+  url: 'https://zch.ro/inalta-curte-loveste-in-consiliul-local-girov/',
+};
+
 const ANI_MAY_2022_TWELVE_PUBLIC_PERSONS_ARCHIVE_SOURCE = {
   label: 'ANI',
   kind: 'official',
@@ -21691,6 +21721,141 @@ const AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS = [
   }),
 ];
 
+const buildJul22AniFeb2020PublicPersonRecord = ({
+  name,
+  party = 'Independent',
+  position,
+  position_type = 'other',
+  county,
+  basis = 'office',
+  note,
+  crime = 'Incompatibilitate',
+  details,
+  sources = [
+    ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+    ANI_FEB_2020_NINE_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+  ],
+}) => ({
+  name,
+  party,
+  position,
+  position_type,
+  geography: {
+    county,
+    basis,
+    note,
+  },
+  crime,
+  status: 'investigated',
+  details,
+  verified_at: '2026-07-22',
+  sources,
+});
+
+const AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS = [
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Hegedus Ferenc',
+    party: 'UDMR',
+    position:
+      'Consilier local în cadrul Consiliului Local al Municipiului Târgu Secuiesc',
+    position_type: 'local_official',
+    county: 'Covasna',
+    note: 'Funcția publică relevantă era în Consiliul Local al municipiului Târgu Secuiesc, județul Covasna.',
+    details:
+      'ANI a constatat incompatibilitate în mandatul de consilier local 2016-2020, întrucât trei societăți în care persoana evaluată, soția și copiii săi dețineau calități sau funcții au încheiat contracte comerciale de prestări servicii cu Primăria Municipiului Târgu Secuiesc.',
+    sources: [
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+      HEGEDUS_FERENC_UDMR_SOURCE,
+    ],
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Ciotea Vasile',
+    party: 'PNL',
+    position: 'Consilier local în cadrul Consiliului Local al Comunei Căbești',
+    position_type: 'local_official',
+    county: 'Bihor',
+    note: 'Funcția publică relevantă era în Consiliul Local al comunei Căbești, județul Bihor.',
+    details:
+      'ANI a constatat incompatibilitate deoarece, în perioada exercitării mandatului de consilier local, societatea la care soția persoanei evaluate era asociat unic și administrator a încasat 42.286,43 lei în baza unui contract cu Primăria Comunei Căbești.',
+    sources: [
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+      CIOTEA_VASILE_PNL_SOURCE,
+    ],
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Enache Vasile',
+    party: 'ALDE',
+    position: 'Consilier local în cadrul Consiliului Local al Comunei Girov',
+    position_type: 'local_official',
+    county: 'Neamț',
+    note: 'Funcția publică relevantă era în Consiliul Local al comunei Girov, județul Neamț.',
+    crime: 'Conflict de interese administrativ',
+    details:
+      'ANI a constatat conflict de interese administrativ deoarece, în calitate de consilier local, a participat la deliberarea și adoptarea a două hotărâri din 26 ianuarie 2018 și 28 februarie 2019 prin care s-a aprobat atribuirea unor suprafețe de pășune persoanei evaluate.',
+    sources: [
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE,
+      ANI_FEB_2020_NINE_PUBLIC_PERSONS_NEWS_MIRROR_SOURCE,
+      ENACHE_VASILE_ALDE_SOURCE,
+    ],
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Știca Cristian Francisc',
+    position: 'Director financiar-contabil în cadrul Spitalului Municipal Orșova',
+    county: 'Mehedinți',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Municipal Orșova, județul Mehedinți.',
+    crime: 'Conflict de interese administrativ',
+    details:
+      'ANI a constatat conflict de interese administrativ pentru perioada martie 2017 - ianuarie 2019, întrucât o societate în care mama persoanei evaluate era asociat și administrator a furnizat produse și a încheiat contracte de lucrări sau servicii cu Spitalul Municipal Orșova, în valoare de aproximativ 280.111,47 lei.',
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Gheucă-Solovăstru Laura',
+    position:
+      'Șef al Secției Clinice Dermato-venerologie din cadrul Spitalului Clinic Județean de Urgență Sf. Spiridon Iași',
+    county: 'Iași',
+    note: 'Funcția publică relevantă era în cadrul Spitalului Clinic Județean de Urgență Sf. Spiridon Iași.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 22 noiembrie 2016 - 3 iulie 2017, întrucât a deținut funcția de șef secție Dermato-venerologie simultan cu calitatea de asociat și funcția de administrator în patru societăți comerciale.',
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Munteanu Dumitru',
+    position: 'Fost funcționar public în cadrul Primăriei Sectorului 5 București',
+    position_type: 'local_official',
+    county: 'București',
+    note: 'Funcția publică relevantă era în cadrul Primăriei Sectorului 5 București.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 1 august 2018 - 18 februarie 2019, întrucât a deținut simultan calitatea de funcționar public în cadrul Primăriei Sectorului 5 București și funcția de director într-o societate.',
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Huțanu Georgeta Doina',
+    position: 'Funcționar public în cadrul Consiliului Județean Botoșani',
+    position_type: 'local_official',
+    county: 'Botoșani',
+    note: 'Funcția publică relevantă era în cadrul Consiliului Județean Botoșani.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 2008-2019, întrucât a exercitat simultan funcția publică de consilier la Serviciul urbanism și amenajarea teritoriului din cadrul Consiliului Județean Botoșani și calitatea de expert tehnic judiciar.',
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Stadoleanu Ioan Daniel',
+    position: 'Funcționar public în cadrul Primăriei Municipiului Galați',
+    position_type: 'local_official',
+    county: 'Galați',
+    note: 'Funcția publică relevantă era în cadrul Primăriei Municipiului Galați.',
+    details:
+      'ANI a constatat incompatibilitate începând cu 16 septembrie 2013, întrucât a exercitat simultan funcția publică de director executiv al Direcției Impozite, Taxe și Alte Venituri Locale din cadrul Primăriei Municipiului Galați și calitatea de expert contabil sau expert contabil judiciar.',
+  }),
+  buildJul22AniFeb2020PublicPersonRecord({
+    name: 'Pascu Valentina',
+    position: 'Funcționar public în cadrul Primăriei Comunei Sihlea',
+    position_type: 'local_official',
+    county: 'Vrancea',
+    note: 'Funcția publică relevantă era în cadrul Primăriei comunei Sihlea, județul Vrancea.',
+    details:
+      'ANI a constatat incompatibilitate în perioada 14 noiembrie 2011 - 29 noiembrie 2017, întrucât a exercitat simultan funcția de referent în compartimentul financiar-contabil al Primăriei Sihlea și funcția contractuală de administrator financiar-contabil la Școala Gimnazială Principele Șerban Ghica și Principesa Aristița Ghica Sihlea.',
+  }),
+];
+
 const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
   {
     name: 'Florin-Vasile Cîțu',
@@ -21881,6 +22046,7 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
 ];
 
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_21_2026_MORE_PEOPLE_RECORDS,
