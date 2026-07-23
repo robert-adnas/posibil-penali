@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-22',
+  last_updated: '2026-07-23',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -91096,6 +91096,398 @@ export const politicianAdditions = [
         label: 'Ziarul Hunedoreanului',
         kind: 'press',
         url: 'https://zhd.ro/eveniment/mircea-molot-nevinovat-in-dosarul-in-care-a-fost-anchetat-de-dna-in-2014-ce-s-a-intamplat-cu/',
+      },
+    ],
+  },
+  {
+    name: 'Stelian Traian',
+    party: 'PSD',
+    position: 'Primar al orașului Căzănești, județul Ialomița',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ialomița',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al orașului Căzănești, județul Ialomița.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la deliberarea și adoptarea unor hotărâri ale Consiliului Local Căzănești care au dus la contracte de închiriere ori transmiterea unui drept de concesiune în favoarea unor rude.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/primarie/cazanesti/',
+      },
+    ],
+  },
+  {
+    name: 'Snae Florin',
+    party: 'PSD',
+    position: 'Primar al comunei Rușețu, județul Buzău',
+    position_type: 'mayor',
+    geography: {
+      county: 'Buzău',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Rușețu, județul Buzău.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de primar 2016-2020, a emis dispoziția prin care soția sa a fost desemnată personal tehnic auxiliar la biroul electoral de circumscripție comunală Rușețu.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/primarie/rusetu/',
+      },
+    ],
+  },
+  {
+    name: 'Tătar Ioan',
+    party: 'PNL',
+    position: 'Primar al comunei Bixad, județul Satu Mare',
+    position_type: 'mayor',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Bixad, județul Satu Mare.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatele de primar 2016-2020 și 2020-2024, a emis dispoziții de numire, mutare și delegare de atribuții pentru fiica sa, funcționar public în cadrul Primăriei Bixad.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_satu-mare/primarie/bixad/',
+      },
+    ],
+  },
+  {
+    name: 'Tătar Nistor',
+    party: 'PSD',
+    position: 'Fost primar al municipiului Rădăuți, județul Suceava',
+    position_type: 'mayor',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al municipiului Rădăuți, județul Suceava.',
+    },
+    crime: 'Conflict de interese administrativ; sesizare Camera de Conturi',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de primar al municipiului Rădăuți, a încheiat un contract de lucrări cu o societate la care era angajat cu contract suspendat pe durata mandatului, producând foloase materiale pentru sine.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/primarie/radauti/',
+      },
+    ],
+  },
+  {
+    name: 'Morgociu Ioan',
+    party: 'PNL',
+    position: 'Viceprimar al comunei Șepreuș, județul Arad',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al comunei Șepreuș, județul Arad.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri privind actualizarea chiriilor pentru pășunea comunală, deși avea interes personal printr-o asociație al cărei membru fondator era.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/sepreus/',
+      },
+    ],
+  },
+  {
+    name: 'Ivanciu Ovidiu-Adrian',
+    party: 'PSD',
+    position: 'Viceprimar al comunei Răchitoasa, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al comunei Răchitoasa, județul Bacău.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în calitate de consilier local în mandatul 2016-2020, a participat la adoptarea hotărârii privind achiziționarea a două terenuri de la fratele său, fără consemnarea interesului personal.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/rachitoasa/11',
+      },
+    ],
+  },
+  {
+    name: 'Misăilă Ioan-Cătălin',
+    party: 'ALDE',
+    position: 'Consilier local al municipiului Piatra Neamț, județul Neamț',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Piatra Neamț, județul Neamț.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că a votat o hotărâre a Consiliului Local Piatra Neamț privind chiria unui teren închiriat ulterior unei societăți la care el și soția sa aveau interese.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Realitatea Media',
+        kind: 'press',
+        url: 'https://www.realitateamedia.ro/catalin-misaila-este-noul-viceprimar-interimar-al-municipiului-piatra-neamt/',
+      },
+    ],
+  },
+  {
+    name: 'Tunsu Anișoara',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Cristești, județul Botoșani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Cristești, județul Botoșani.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în perioada 23 iunie 2016 - 16 octombrie 2020, a exercitat simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cristești.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/cristesti/',
+      },
+    ],
+  },
+  {
+    name: 'Geaboc-Bădic Rodica-Mihaela',
+    party: 'PMP',
+    position: 'Fost consilier local al municipiului Onești, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Onești, județul Bacău.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la deliberări și hotărâri ale Consiliului Local Onești privind activitatea unei societăți administrate de soțul său.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/primarie/helegiu/19',
+      },
+    ],
+  },
+  {
+    name: 'Gherasim Constantin',
+    party: 'PMP',
+    position: 'Fost consilier local al municipiului Bacău, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Bacău, județul Bacău.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2018, o societate la care era asociat, iar soția sa asociat și administrator, a încheiat un contract de furnizare produse cu municipiul Bacău.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-judetean/1',
+      },
+    ],
+  },
+  {
+    name: 'Dobra Cristian',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Ghiroda, județul Timiș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Ghiroda, județul Timiș.',
+    },
+    crime: 'Conflict de interese; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a sesizat în iulie 2021 Parchetul de pe lângă Judecătoria Timișoara, susținând că a participat la avizarea și adoptarea unei hotărâri privind concesionarea unui teren către Aeroportul Internațional Timișoara, instituție la care deținea funcții sindicale și contractuale.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/ghiroda/',
+      },
+    ],
+  },
+  {
+    name: 'Pușcașu Stelian',
+    party: 'PNL',
+    position: 'Fost consilier local al comunei Hudești, județul Botoșani',
+    position_type: 'local_official',
+    geography: {
+      county: 'Botoșani',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Hudești, județul Botoșani.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în perioada 1 august 2016 - 15 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat în aparatul de specialitate al primarului.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/hudesti/2',
+      },
+    ],
+  },
+  {
+    name: 'Diaconu Rădița',
+    party: 'PSD',
+    position: 'Consilier local al comunei Cobia, județul Dâmbovița',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Cobia, județul Dâmbovița.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că se afla în incompatibilitate începând cu 27 iunie 2016, deoarece exercita simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cobia.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/consiliul-local/cobia/',
+      },
+    ],
+  },
+  {
+    name: 'Almășan Liviu',
+    party: 'Pro Romania',
+    position: 'Consilier local al orașului Oravița, județul Caraș-Severin',
+    position_type: 'local_official',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al orașului Oravița, județul Caraș-Severin.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, două societăți la care era asociat au emis facturi pentru produse furnizate către UAT Oravița și instituții din subordine.',
+    verified_at: '2026-07-23',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/oravita/',
       },
     ],
   },
