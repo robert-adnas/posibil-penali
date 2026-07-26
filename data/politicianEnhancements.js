@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-23',
+  last_updated: '2026-07-26',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -91488,6 +91488,314 @@ export const politicianAdditions = [
         label: 'Ziare.com',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/oravita/',
+      },
+    ],
+  },
+  {
+    name: 'Crețu Ovidiu Teodor',
+    party: 'PSD',
+    position: 'Fost primar al municipiului Bistrița, județul Bistrița-Năsăud',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bistrița-Năsăud',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al municipiului Bistrița, județul Bistrița-Năsăud.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în exercitarea mandatului de primar 2016-2020, a semnat ordonanțări de plată și facturi pentru o societate la care figura ca acționar și din care a realizat venituri din dividende.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Portal Info',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-bistrita-bistrita-nasaud.html',
+      },
+    ],
+  },
+  {
+    name: 'Pîrvulescu Virgil',
+    party: 'PNL',
+    position: 'Viceprimar al municipiului Râmnicu Vâlcea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Râmnicu Vâlcea, județul Vâlcea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, după alegerea ca membru al Consiliului Local Râmnicu Vâlcea pentru mandatul 2020-2024, a exercitat simultan și calitatea de funcționar public în perioada 29 septembrie - 26 octombrie 2020.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Ziarul de Vâlcea',
+        kind: 'press',
+        url: 'https://ziaruldevalcea.ro/2020/03/virgil-pirvulescu-sunt-oficial-din-aceasta-seara-candidatul-pnl-pentru-primaria-ramnicului/',
+      },
+    ],
+  },
+  {
+    name: 'Băhnăreanu Mihai',
+    party: 'PNL',
+    position: 'Consilier local al comunei Tătărăni, județul Vaslui; fost primar al comunei',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost în administrația locală a comunei Tătărăni, județul Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în mandatul de primar 2016-2020, a inițiat și susținut o hotărâre locală prin care soția sa a fost numită referent superior în aparatul de specialitate al primarului; ANI a sesizat și Parchetul.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Vremea Nouă',
+        kind: 'press',
+        url: 'https://www.vremeanoua.ro/primarul-de-la-tatarani-mihai-bahnareanu-dare-de-seama-in-fata-alegatorilor/',
+      },
+    ],
+  },
+  {
+    name: 'Grigoruț Alexandru',
+    party: 'PMP',
+    position: 'Consilier local al orașului Dolhasca, județul Suceava',
+    position_type: 'local_official',
+    geography: {
+      county: 'Suceava',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al orașului Dolhasca, județul Suceava.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că se afla în incompatibilitate începând cu 27 octombrie 2020, deoarece exercita simultan mandatul de consilier local și o funcție contractuală într-un serviciu din aparatul de specialitate al primarului.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/dolhasca/7',
+      },
+    ],
+  },
+  {
+    name: 'Stoica Ion',
+    party: 'PUSL',
+    position: 'Consilier local al comunei Filipeștii de Pădure, județul Prahova',
+    position_type: 'local_official',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Filipeștii de Pădure, județul Prahova.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în perioada 27 octombrie 2020 - 18 iunie 2021, a exercitat simultan mandatul de consilier local și funcția de director general într-o societate înființată de Consiliul Județean Prahova.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Prahova News',
+        kind: 'press',
+        url: 'https://prahova-news.ro/stire/la-filipestii-de-padure-a-fost-constituit-noul-consiliu-local-totodata-si-noul-primar-ciprian-morarescu-a-depus-juramantul--11344',
+      },
+    ],
+  },
+  {
+    name: 'Păunoiu Constantin Cristian',
+    party: 'PSD',
+    position: 'Fost consilier local al orașului Băbeni, județul Vâlcea',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al orașului Băbeni, județul Vâlcea.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local, a participat la adoptarea hotărârii din 28 noiembrie 2019 prin care a fost creată funcția de administrator public, funcție în care a fost numit ulterior.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_valcea/consiliul-local/babeni/21',
+      },
+    ],
+  },
+  {
+    name: 'Belu Florian',
+    party: 'PSD',
+    position: 'Consilier local al comunei Unirea, județul Călărași; fost primar al comunei',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost în administrația locală a comunei Unirea, județul Călărași.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în calitate de consilier local, a participat la adoptarea unei hotărâri din 22 martie 2021 privind închirierea prin atribuire directă a pajiștilor comunei, iar în baza acesteia a încheiat un contract cu primăria.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'CălărașiPress',
+        kind: 'press',
+        url: 'https://calarasipress.ro/primarul-comunei-unirea-belu-florian-continua-dezvoltarea-localitatii/',
+      },
+    ],
+  },
+  {
+    name: 'Răduț Cristinel Danielus',
+    party: 'Pro Romania',
+    position: 'Consilier local al comunei Constantin Daicoviciu, județul Caraș-Severin',
+    position_type: 'local_official',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Constantin Daicoviciu, județul Caraș-Severin.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri prin care un teren din Prisaca a fost dat în administrarea DGASPC Caraș-Severin pentru un imobil destinat centrului în care deținea o funcție contractuală de conducere.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/constantin-daicoviciu/3',
+      },
+    ],
+  },
+  {
+    name: 'Ursu Titinel',
+    party: 'PNL',
+    position: 'Consilier local al comunei Fălciu, județul Vaslui',
+    position_type: 'local_official',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Fălciu, județul Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea hotărârii privind concesionarea unui teren extravilan de 27,10 ha, adjudecat ulterior de societatea la care era administrator unic și asociat împreună cu fratele său.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Vremea Nouă',
+        kind: 'press',
+        url: 'https://www.vremeanoua.ro/titinel-ursu-candidatul-pnl-la-primaria-falciu-eu-nu-ma-lupt-doar-cu-primarul-moraru-ma-lupt-cu-un-intreg-sistem-mafiot/',
+      },
+    ],
+  },
+  {
+    name: 'Stoican Alin Iulian',
+    party: 'Pro Romania',
+    position: 'Consilier local al comunei Dragodana, județul Dâmbovița; fost funcționar public în Primăria Dragodana',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Dragodana, județul Dâmbovița.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în octombrie 2021 că, în perioada 21 octombrie - 24 decembrie 2020, a deținut simultan funcția publică de execuție în Primăria Dragodana și mandatul de consilier local al comunei.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
+      },
+      {
+        label: 'Politica Broaștei',
+        kind: 'press',
+        url: 'https://www.politica-broastei.ro/continua-prezentarea-candidatilor-pro-romania-dambovita-ep-3-declaratii-adrian-tutuianu/',
+      },
+    ],
+  },
+  {
+    name: 'Vîrlan Georgeta Luminița',
+    party: 'PSD',
+    position: 'Fost consilier local al municipiului Piatra-Neamț, județul Neamț',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Piatra-Neamț, județul Neamț.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în aprilie 2021 că, în calitate de ales local, a votat două hotărâri privind proiecte cu finanțare nerambursabilă de la bugetul local, urmate de contracte cu o asociație cu care avea o relație de angajament.',
+    verified_at: '2026-07-26',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3061&PID=20&currentPage=20',
+      },
+      {
+        label: 'Vestea.net',
+        kind: 'press',
+        url: 'https://vestea.net/emilia-arcan-despre-numirea-luminitei-virlan-ca-presedinte-psd-piatra-neamt-apel-la-unitate/',
       },
     ],
   },
