@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-26',
+  last_updated: '2026-07-28',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -91796,6 +91796,510 @@ export const politicianAdditions = [
         label: 'Vestea.net',
         kind: 'press',
         url: 'https://vestea.net/emilia-arcan-despre-numirea-luminitei-virlan-ca-presedinte-psd-piatra-neamt-apel-la-unitate/',
+      },
+    ],
+  },
+  {
+    name: 'Porge Florin Ioan',
+    party: 'PNL',
+    position: 'Primar al orașului Vașcău, județul Bihor',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al orașului Vașcău, județul Bihor.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2018 că, în mandatul de primar 2012-2016, a emis o dispoziție prin care soția sa a fost numită manager de proiect într-un proiect al Primăriei Vașcău, obținând venituri de 15.859 lei.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=2783&PID=20',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Magheru Cristin',
+    party: 'PSD',
+    position: 'Primar al comunei Cîrța, județul Sibiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Cîrța, județul Sibiu.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2018 că, în perioada 26 iunie 2012 - 15 iunie 2018, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică, titular al unei întreprinderi individuale.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=2783&PID=20',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Camburi Constantin',
+    party: 'PNL',
+    position: 'Primar al comunei Beidaud, județul Tulcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Beidaud, județul Tulcea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2019 că a deținut simultan funcția de primar și calitatea de persoană fizică autorizată, iar în 2017 a cumulat funcția de primar cu funcții într-o societate comercială.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2822&PID=20&currentPage=40',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Coste Teodor',
+    party: 'PNL',
+    position: 'Primar al comunei Tinca, județul Bihor',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Tinca, județul Bihor.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2019 că, în mandatul 2012-2016, a exercitat simultan funcția de primar și pe cea de administrator într-o societate comercială.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2822&PID=20&currentPage=40',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Savu Luchian',
+    party: 'PNL',
+    position: 'Primar al comunei Șandra, județul Timiș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Șandra, județul Timiș.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în februarie 2019 că, în mandatul 2012-2016, a exercitat simultan funcția de primar și calitatea de membru al Consiliului de Administrație al Școlii Gimnaziale Șandra.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2822&PID=20&currentPage=40',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Gogoașă Marian-Emil',
+    party: 'PMP',
+    position: 'Primar al comunei Valea Teilor, județul Tulcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Valea Teilor, județul Tulcea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2017 că, în perioada 1 iunie 2015 - 4 mai 2016, a deținut simultan funcția de primar și calitatea de angajat cu contract individual de muncă la S.C. Poiana cu Tei S.R.L.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2608&PID=20&currentPage=57',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Vlăduți Constantin',
+    party: 'PSD',
+    position: 'Primar al comunei Bălăcița, județul Mehedinți',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Bălăcița, județul Mehedinți.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2019 că, în exercitarea mandatului de primar, a emis o dispoziție privind constituirea echipei unui proiect de drumuri județene din care făcea parte și soția sa.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2849&PID=20&currentPage=37',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Lungu Bordea Petru',
+    party: 'PSD',
+    position: 'Primar al comunei Pîngărați, județul Neamț',
+    position_type: 'mayor',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Pîngărați, județul Neamț.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în martie 2018 că a întocmit, semnat și aprobat contracte între comuna Pîngărați și o asociație în care fiul său era membru fondator, asociație care a încasat subvenții APIA.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2734&PID=20&currentPage=48',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Sandu Ion',
+    party: 'PNL',
+    position: 'Primar al comunei Perișani, județul Vâlcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Perișani, județul Vâlcea.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2018 că, în perioada 15 octombrie 2012 - 30 iunie 2014, a deținut simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Școlii Profesionale Comuna Perișani.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2788&PID=20&currentPage=16',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Moțica Ana Lenuța',
+    party: 'PNL',
+    position: 'Primar al comunei Gurahonț, județul Arad',
+    position_type: 'mayor',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Gurahonț, județul Arad.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2018 că, în perioada 4 septembrie 2012 - 9 aprilie 2014, a exercitat simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Liceului "Ioan Buteanu" Gurahonț.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2788&PID=20&currentPage=16',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Tănase Constantin',
+    party: 'PSD',
+    position: 'Primar al comunei Joița, județul Giurgiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Joița, județul Giurgiu.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în mai 2020 că, în exercitarea mandatului de primar, a emis și semnat o dispoziție prin care a fost acordat sporul de dispozitiv de 25% la propria indemnizație.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2984&PID=20&currentPage=10',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Rebegea Mihai',
+    party: 'PSD',
+    position: 'Primar al comunei Codăești, județul Vaslui',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vaslui',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Codăești, județul Vaslui.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în august 2020 că, în calitate de primar, a semnat prelungirea unei autorizații de construire și certificatul de atestare a edificării unei construcții emise pe numele său.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3004&PID=20&currentPage=25',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Janos Deszke',
+    party: 'UDMR',
+    position: 'Primar al comunei Moacșa, județul Covasna',
+    position_type: 'mayor',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Moacșa, județul Covasna.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'investigated',
+    details:
+      'ANI a constatat în noiembrie 2020 că, în mandatul 2016-2020, a exercitat simultan funcția de primar al comunei Moacșa și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3027&PID=20&currentPage=8',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Bocănel Marian',
+    party: 'PSD',
+    position: 'Primar al comunei Dudești, județul Brăila',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brăila',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Dudești, județul Brăila.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în noiembrie 2020 că, în exercitarea mandatului de primar, a aprobat și semnat 80 de acte administrative care au produs un folos material pentru societatea soției sale.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3027&PID=20&currentPage=8',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Pavel Teodor',
+    party: 'PSD',
+    position: 'Primar al orașului Recaș, județul Timiș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al orașului Recaș, județul Timiș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2018 că, în mandatul 2016-2020, a semnat un contract și documente pentru închirierea fără licitație publică a unui teren de la primărie către societatea soției sale.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2816&PID=20&currentPage=41',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Jivan Tiberiu Ionel',
+    party: 'PNL',
+    position: 'Primar al comunei Bucovăț, județul Timiș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Timiș',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Bucovăț, județul Timiș.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în decembrie 2018 că, în mandatul de primar 2012-2016, a emis trei acte administrative care au produs un folos material pentru fiul său, în cuantum de 8.121 lei.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2816&PID=20&currentPage=41',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Vișa Ionel',
+    party: 'PNL',
+    position: 'Primar al comunei Nocrich, județul Sibiu',
+    position_type: 'mayor',
+    geography: {
+      county: 'Sibiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Nocrich, județul Sibiu.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2019 că, în mandatul 2016-2020, a încheiat un contract individual de muncă privind numirea fiicei sale ca și consilier personal și a emis o dispoziție de numire a acesteia într-un proiect finanțat din fonduri comunitare.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2859&PID=20&currentPage=35',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Voicu Lică',
+    party: 'PNL',
+    position: 'Primar al comunei Independența, județul Călărași',
+    position_type: 'mayor',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Independența, județul Călărași.',
+    },
+    crime: 'Conflict de interese administrativ',
+    status: 'investigated',
+    details:
+      'ANI a constatat în iulie 2020 că, în calitate de primar, a semnat trei contracte de închiriere pentru terenuri adiacente unor spații comerciale, încheiate cu o întreprindere individuală reprezentată de soția sa.',
+    verified_at: '2026-07-28',
+    sources: [
+      {
+        label: 'ANI',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2997&PID=20&currentPage=26',
+      },
+      {
+        label: 'BEC 2016',
+        kind: 'official',
+        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
     ],
   },
