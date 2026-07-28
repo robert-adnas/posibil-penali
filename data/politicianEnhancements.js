@@ -22241,7 +22241,337 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const DNA_JUL_2026_UZINA_ARMAMENT_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13870',
+};
+
+const DNA_JUL_2026_GIURGIU_POLICE_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13869',
+};
+
+const DNA_CFR_FINAL_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12117',
+};
+
+const DNA_ANRP_FINAL_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
+};
+
+const DNA_BICA_FINAL_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=8883',
+};
+
+const AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS = [
+  {
+    name: 'Rafiu Mihai',
+    party: 'Independent',
+    position: 'Director general al S.C. Uzina Mecanică București S.A.',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul S.C. Uzina Mecanică București S.A.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 24 iulie 2026 punerea în mișcare a acțiunii penale și reținerea sa, susținând că, în calitate de director general al Uzinei Mecanice București, ar fi primit 48.000 lei în 12 tranșe în legătură cu atribuții de achiziții, contractare și aprobare a plăților.',
+    verified_at: '2026-07-28',
+    sources: [DNA_JUL_2026_UZINA_ARMAMENT_SOURCE],
+  },
+  {
+    name: 'Pîrvu Tiberiu Alexandru',
+    party: 'Independent',
+    position: 'Director general al S.C. Uzina Mecanică Plopeni S.A.',
+    position_type: 'other',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în orașul Plopeni, județul Prahova.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 24 iulie 2026 punerea în mișcare a acțiunii penale și reținerea sa, susținând că, în calitate de director general al Uzinei Mecanice Plopeni, ar fi primit 25.900 lei în trei tranșe în legătură cu aprobarea comenzilor și plăților.',
+    verified_at: '2026-07-28',
+    sources: [DNA_JUL_2026_UZINA_ARMAMENT_SOURCE],
+  },
+  {
+    name: 'Sorescu Liliana',
+    party: 'Independent',
+    position: 'Director comercial al S.C. Uzina Mecanică Plopeni S.A.',
+    position_type: 'other',
+    geography: {
+      county: 'Prahova',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în orașul Plopeni, județul Prahova.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 24 iulie 2026 punerea în mișcare a acțiunii penale și reținerea sa, susținând că, în calitate de director comercial al Uzinei Mecanice Plopeni, ar fi pretins și primit 24.250 lei, precum și 3.800 USD ori echivalentul în lei într-o situație distinctă.',
+    verified_at: '2026-07-28',
+    sources: [DNA_JUL_2026_UZINA_ARMAMENT_SOURCE],
+  },
+  {
+    name: 'Barbu Ștefan-Claudiu',
+    party: 'Independent',
+    position: 'Șef al Secției de Poliție Rurală nr. 6 Mihăilești, județul Giurgiu',
+    position_type: 'other',
+    geography: {
+      county: 'Giurgiu',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Secția de Poliție Rurală nr. 6 Mihăilești.',
+    },
+    crime: 'Luare de mită',
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 23 iulie 2026 punerea în mișcare a acțiunii penale și arestarea preventivă, susținând că ofițerul ar fi pretins sau primit bani și contracte de prestări servicii pentru societatea administrată de fratele său în schimbul protejării unor transporturi legate de un parc fotovoltaic.',
+    verified_at: '2026-07-28',
+    sources: [DNA_JUL_2026_GIURGIU_POLICE_SOURCE],
+  },
+  {
+    name: 'Sebastian-Teodor Gheorghe Vlădescu',
+    party: 'Independent',
+    position: 'Fost ministru al finanțelor publice',
+    position_type: 'minister',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Ministerul Finanțelor Publice, instituție centrală cu sediul în București.',
+    },
+    crime: 'Luare de mită',
+    sentence: 'Proces penal încetat prin prescripție după o condamnare definitivă la 7 ani și 4 luni închisoare',
+    sentence_years: 7.33,
+    conviction_year: 2026,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat condamnarea sa din 2023 la 7 ani și 4 luni în dosarul mitei pentru contractele de reabilitare feroviară, iar actualizarea din 29 ianuarie 2026 arată că ÎCCJ a dispus încetarea procesului penal ca urmare a prescripției, menținând confiscarea specială și sechestrul.',
+    verified_at: '2026-07-28',
+    sources: [DNA_CFR_FINAL_SOURCE],
+  },
+  {
+    name: 'Mircea-Ionuț Costea',
+    party: 'Independent',
+    position: 'Fost președinte EximBank; fost angajat în Ministerul Finanțelor',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcțiile publice relevante au vizat instituții centrale și o bancă de stat cu sediul în București.',
+    },
+    crime: 'Complicitate la luare de mită',
+    sentence: 'Proces penal încetat prin prescripție după o condamnare definitivă la 6 ani închisoare',
+    sentence_years: 6,
+    conviction_year: 2026,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat condamnarea sa din 2023 la 6 ani închisoare, iar actualizarea din 29 ianuarie 2026 arată că ÎCCJ a dispus încetarea procesului penal ca urmare a prescripției, menținând confiscarea specială și sechestrul.',
+    verified_at: '2026-07-28',
+    sources: [DNA_CFR_FINAL_SOURCE],
+  },
+  {
+    name: 'Constantin Dascălu',
+    party: 'Independent',
+    position: 'Fost secretar de stat în Ministerul Transporturilor',
+    position_type: 'secretary_of_state',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Ministerul Transporturilor, instituție centrală cu sediul în București.',
+    },
+    crime: 'Luare de mită',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat în decizia definitivă din 5 mai 2023 încetarea procesului penal pentru faptele reținute ca urmare a prescripției și confiscarea specială a sumei de 1.114.000 euro.',
+    verified_at: '2026-07-28',
+    sources: [DNA_CFR_FINAL_SOURCE],
+  },
+  {
+    name: 'Cristian-Alexandru Boureanu',
+    party: 'PDL',
+    position: 'Fost deputat',
+    position_type: 'deputy',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era de deputat în Parlamentul României.',
+    },
+    crime: 'Trafic de influență',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA a consemnat în decizia definitivă din 5 mai 2023 încetarea procesului penal ca urmare a prescripției și confiscarea specială a sumei de 2.111.799,71 euro. Comunicatul de trimitere în judecată îl descria ca parlamentar și vicepreședinte al unui partid aflat la guvernare; în perioada relevantă era asociat PDL.',
+    verified_at: '2026-07-28',
+    sources: [DNA_CFR_FINAL_SOURCE],
+  },
+  {
+    name: 'Alina Mihaela Bica',
+    party: 'Independent',
+    position: 'Fost secretar de stat în Ministerul Justiției; fost procuror-șef DIICOT',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcțiile publice relevante au fost în instituții centrale cu sediul în București.',
+    },
+    crime: 'Favorizarea făptuitorului',
+    sentence: '4 ani închisoare',
+    sentence_years: 4,
+    conviction_year: 2018,
+    status: 'convicted',
+    details:
+      'DNA a consemnat condamnarea definitivă din 26 iunie 2018 la 4 ani închisoare pentru favorizarea făptuitorului. În dosarul ANRP separat, actualizarea oficială din 27 ianuarie 2023 a consemnat achitarea sa pentru acuzațiile reținute acolo.',
+    verified_at: '2026-07-28',
+    sources: [DNA_BICA_FINAL_SOURCE, DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Sergiu-Ionuț Diacomatu',
+    party: 'Independent',
+    position: 'Fost vicepreședinte ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era la Autoritatea Națională pentru Restituirea Proprietăților.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a inclus în dosarul ANRP al despăgubirilor, iar actualizarea oficială din 27 ianuarie 2023 arată că ÎCCJ a dispus încetarea procesului penal ca urmare a prescripției.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Dragoș George Bogdan',
+    party: 'Independent',
+    position: 'Fost membru al Comisiei Centrale pentru Stabilirea Despăgubirilor din cadrul ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details:
+      'DNA l-a inclus în dosarul ANRP al despăgubirilor, iar actualizarea oficială din 27 ianuarie 2023 consemnează achitarea definitivă pentru acuzațiile penale reținute.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Emil Nuțiu',
+    party: 'Independent',
+    position: 'Evaluator în dosarul ANRP al despăgubirilor',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Dosarul oficial a vizat decizii ale ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details:
+      'DNA l-a trimis în judecată ca evaluator în dosarul ANRP, iar actualizarea oficială din 27 ianuarie 2023 consemnează achitarea definitivă pentru acuzațiile penale reținute.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Stelian Gheorghe',
+    party: 'Independent',
+    position: 'Om de afaceri; beneficiar al despăgubirii în dosarul ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Dosarul oficial a vizat decizii ale ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a inclus în dosarul ANRP ca beneficiar al despăgubirii, iar actualizarea oficială din 27 ianuarie 2023 arată că ÎCCJ a dispus încetarea procesului penal ca urmare a prescripției.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Ionuț Florentin Mihăilescu',
+    party: 'Independent',
+    position: 'Fost consilier în cadrul ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția publică relevantă era în cadrul ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details:
+      'DNA l-a inclus în dosarul ANRP al despăgubirilor, iar actualizarea oficială din 27 ianuarie 2023 consemnează achitarea definitivă pentru acuzațiile penale reținute.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Alin Cocoș',
+    party: 'Independent',
+    position: 'Om de afaceri menționat în dosarul ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Dosarul oficial a vizat decizii ale ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details:
+      'DNA l-a inclus în dosarul ANRP al despăgubirilor, iar actualizarea oficială din 27 ianuarie 2023 consemnează achitarea definitivă pentru acuzațiile penale reținute.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+  {
+    name: 'Dorin Cocoș',
+    party: 'Independent',
+    position: 'Om de afaceri menționat în dosarul ANRP',
+    position_type: 'other',
+    geography: {
+      county: 'București',
+      basis: 'case_location',
+      note: 'Dosarul oficial a vizat decizii ale ANRP, instituție centrală cu sediul în București.',
+    },
+    crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
+    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2023,
+    status: 'prescribed',
+    details:
+      'DNA l-a inclus în dosarul ANRP al despăgubirilor, iar actualizarea oficială din 27 ianuarie 2023 arată că ÎCCJ a dispus încetarea procesului penal ca urmare a prescripției și menținerea confiscării speciale.',
+    verified_at: '2026-07-28',
+    sources: [DNA_ANRP_FINAL_SOURCE],
+  },
+];
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_FOURTH_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_SECOND_MORE_PEOPLE_RECORDS,
