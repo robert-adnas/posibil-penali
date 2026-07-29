@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-28',
+  last_updated: '2026-07-29',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -22570,7 +22570,294 @@ const AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS = [
   },
 ];
 
+const DNA_MAY_2025_ABA_JIU_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12910',
+};
+
+const DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12919',
+};
+
+const DNA_JUL_2025_BRASOV_HOSPITAL_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12934',
+};
+
+const DNA_APR_2025_DSP_OLT_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12873',
+};
+
+const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
+  {
+    name: '\u0218erban R\u0103zvan Nicolae',
+    status: 'indicted',
+    position: 'Director al Administratiei Bazinale de Apa Jiu',
+    county: 'Dolj',
+    crime: 'Abuz in serviciu; omisiunea sesizarii organelor judiciare',
+    details:
+      'DNA Craiova a comunicat in mai 2025 trimiterea in judecata in dosarul ABA Jiu, privind atribuirea folosintei Baltii Jdegla si neluarea masurilor legale pentru oprirea unor lucrari in aria naturala protejata. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_MAY_2025_ABA_JIU_SOURCE,
+  },
+  {
+    name: 'Stanca Iulian',
+    status: 'indicted',
+    position: 'Sef al Serviciului Inspectie din cadrul Administratiei Bazinale de Apa Jiu',
+    county: 'Dolj',
+    crime:
+      'Abuz in serviciu; luare de mita; folosirea de informatii nedestinate publicitatii; fals intelectual; omisiunea sesizarii organelor judiciare',
+    details:
+      'DNA Craiova a comunicat in mai 2025 trimiterea in judecata sub control judiciar in dosarul ABA Jiu, pentru controale la operatori din albia Jiului, foloase necuvenite si informatii divulgate despre controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_MAY_2025_ABA_JIU_SOURCE,
+  },
+  {
+    name: 'Ciupitu-Turceanu Lauren\u021biu-Mihai',
+    status: 'indicted',
+    position: 'Inspector in cadrul Administratiei Bazinale de Apa Jiu - Serviciul Inspectia Bazinala a Apelor',
+    county: 'Dolj',
+    crime: 'Abuz in serviciu; fals intelectual; omisiunea sesizarii organelor judiciare',
+    details:
+      'DNA Craiova a comunicat in mai 2025 trimiterea in judecata in dosarul ABA Jiu, retinand ca inspectorul ar fi participat la controale fara aplicarea sanctiunilor legale si ar fi consemnat date nereale in inscrisuri oficiale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_MAY_2025_ABA_JIU_SOURCE,
+  },
+  {
+    name: 'S\u00eerbu Ilie-Lucian',
+    status: 'investigated',
+    position: 'Inspector-sef teritorial in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata; participatie improprie la abuz in serviciu',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale si retinerea in dosarul ISCTR Timisoara, privind sume si bunuri primite pentru protectia unor transportatori fata de controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Gherman Dan-Nicolae',
+    status: 'investigated',
+    position: 'Coordonator judetean Timis in cadrul ISCTR - Inspectoratul Teritorial nr. 5',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata; folosirea de informatii nedestinate publicitatii; fals intelectual',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale si retinerea in dosarul ISCTR Timisoara, privind protectie fata de controale si divulgarea unor controale tematice. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Rogobete Danel-Vasile',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata; fals intelectual',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale si retinerea in dosarul ISCTR Timisoara, privind bani si bunuri pretinse ori primite de inspectori rutieri pentru neaplicarea unor sanctiuni. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Mereu George-Marian',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Rodean Emilian-Ioan',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Gherman Octavian',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'David Gabriel-Constantin',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Foga\u0219 Alin-Sebastian',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Lupa Alin-Petri\u0219or',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Dan Daniel-Maximilian',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Toma Vlad-Romeo',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 efectuarea in continuare a urmaririi penale fata de suspectul din dosarul ISCTR Timisoara, privind bani pretinsi ori primiti la controale rutiere. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Mih\u0103escu Constantin',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 efectuarea in continuare a urmaririi penale fata de suspectul din dosarul ISCTR Timisoara, privind bani pretinsi ori primiti la controale rutiere. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Stoian C\u0103t\u0103lin-Aris',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 efectuarea in continuare a urmaririi penale fata de suspectul din dosarul ISCTR Timisoara, privind bani pretinsi ori primiti la controale rutiere. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Popa Ionu\u021b-Marius',
+    status: 'investigated',
+    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
+    county: 'Timi\u0219',
+    crime: 'Luare de mita',
+    details:
+      'DNA Timisoara a comunicat in iunie 2025 efectuarea in continuare a urmaririi penale fata de suspectul din dosarul ISCTR Timisoara, privind bani pretinsi ori primiti la controale rutiere. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
+  },
+  {
+    name: 'Barra Floare',
+    status: 'indicted',
+    position: 'Director financiar contabil al Spitalului Clinic Judetean de Urgenta Brasov',
+    county: 'Bra\u0219ov',
+    crime: 'Abuz in serviciu; cumparare de influenta',
+    details:
+      'DNA Brasov a comunicat in iulie 2025 trimiterea in judecata sub control judiciar in dosarul serviciilor de catering de la Spitalul Clinic Judetean de Urgenta Brasov. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_BRASOV_HOSPITAL_SOURCE,
+  },
+  {
+    name: 'Stoica Ovidiu Mihnea',
+    status: 'indicted',
+    position: 'Sef al Serviciului achizitii publice aprovizionare si contractare al Spitalului Clinic Judetean de Urgenta Brasov',
+    county: 'Bra\u0219ov',
+    crime: 'Abuz in serviciu; folosirea de informatii nedestinate publicitatii',
+    details:
+      'DNA Brasov a comunicat in iulie 2025 trimiterea in judecata sub control judiciar in dosarul serviciilor de catering si al unor achizitii medicale de la Spitalul Clinic Judetean de Urgenta Brasov. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_BRASOV_HOSPITAL_SOURCE,
+  },
+  {
+    name: 'Ioni\u021b\u0103 Elena',
+    status: 'indicted',
+    position: 'Director executiv al Directiei de Sanatate Publica Olt',
+    county: 'Olt',
+    crime: 'Abuz in serviciu; luare de mita; fals material in inscrisuri oficiale',
+    details:
+      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata sub control judiciar in dosarul DSP Olt privind foloase necuvenite, salarii platite nelegal si inscrisuri oficiale falsificate. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_APR_2025_DSP_OLT_SOURCE,
+  },
+  {
+    name: 'Madan Marinela Rodica',
+    status: 'indicted',
+    position: 'Coordonator al Departamentului Supraveghere in Sanatate Publica din cadrul DSP Olt',
+    county: 'Olt',
+    crime: 'Complicitate la abuz in serviciu; fals material in inscrisuri oficiale',
+    details:
+      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata sub control judiciar in dosarul DSP Olt, retinand semnarea unor foi colective de prezenta si fise de evaluare care ar fi atestat nereal prezenta la serviciu. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_APR_2025_DSP_OLT_SOURCE,
+  },
+  {
+    name: 'Odagiu Iuliana Alina',
+    status: 'indicted',
+    position: 'Asistent medical in cadrul Directiei de Sanatate Publica Olt',
+    county: 'Olt',
+    crime: 'Complicitate la abuz in serviciu; dare de mita; fals material in inscrisuri oficiale',
+    details:
+      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata sub control judiciar in dosarul DSP Olt, privind incasarea necuvenita a salariului si servicii de infrumusetare oferite unui functionar public. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_APR_2025_DSP_OLT_SOURCE,
+  },
+  {
+    name: 'Odagiu Alexandru Alin',
+    status: 'indicted',
+    position: 'Consilier in cadrul Directiei de Sanatate Publica Olt',
+    county: 'Olt',
+    crime: 'Instigare la fals material in inscrisuri oficiale',
+    details:
+      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata in stare de libertate in dosarul DSP Olt, privind instigarea la intocmirea unei cereri de concediu in numele altei persoane. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_APR_2025_DSP_OLT_SOURCE,
+  },
+  {
+    name: 'Constantin Maria Cristina',
+    status: 'indicted',
+    position: 'Functionar in cadrul Directiei de Sanatate Publica Olt',
+    county: 'Olt',
+    crime: 'Fals material in inscrisuri oficiale; instigare la fals material in inscrisuri oficiale',
+    details:
+      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata in stare de libertate in dosarul DSP Olt, privind intocmirea si inregistrarea unei cereri de concediu neconforme. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_APR_2025_DSP_OLT_SOURCE,
+  },
+];
+
+const AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS.map((row) => ({
+    name: row.name,
+    party: 'Independent',
+    position: row.position,
+    position_type: 'other',
+    geography: {
+      county: row.county,
+      basis: 'office',
+      note: `Functia publica relevanta era: ${row.position}.`,
+    },
+    crime: row.crime,
+    status: row.status,
+    details: row.details,
+    verified_at: '2026-07-29',
+    sources: [row.source],
+  }));
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_FOURTH_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS,
