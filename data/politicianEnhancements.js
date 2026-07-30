@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-29',
+  last_updated: '2026-07-30',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -22594,6 +22594,160 @@ const DNA_APR_2025_DSP_OLT_SOURCE = {
   url: 'https://www.dna.ro/comunicat.xhtml?id=12873',
 };
 
+const DNA_JUL_2025_VAMA_BUCURESTI_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12935',
+};
+
+const DNA_JUL_2025_DGAPMFP_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12942',
+};
+
+const AUTOMATED_JUL_30_2026_MORE_PEOPLE_ROWS = [
+  {
+    name: 'Petrof Paul',
+    status: 'indicted',
+    position: 'Director al Directiei Regionale Vamale Bucuresti',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita; favorizarea faptuitorului',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul Directiei Regionale Vamale Bucuresti, retinand fapte legate de pretinderea unor foloase pentru obtinerea unor autorizatii si de divulgarea unor informatii dintr-un dosar penal. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Teianu Nicolae-\u0218tefan',
+    status: 'indicted',
+    position: 'Functionar in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul controalelor vamale din Bucuresti si Ilfov, privind sume si foloase pretinse ori primite pentru finalizarea controalelor intr-un mod favorabil unor oameni de afaceri. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Stamatescu R\u0103zvan-Cosmin',
+    status: 'indicted',
+    position: 'Sef birou in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Trafic de influenta; favorizarea faptuitorului; folosirea de informatii nedestinate publicitatii',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul Autoritatii Vamale Romane, retinand promisiuni si foloase pentru presupusa influenta asupra unor politisti de frontiera si divulgarea unor informatii dintr-un dosar penal. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Marin Marius',
+    status: 'indicted',
+    position: 'Functionar in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul controalelor vamale din Bucuresti si Ilfov, privind sume si foloase primite pentru neintocmirea unor sesizari penale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Vulcan Marian-Vladimir',
+    status: 'indicted',
+    position: 'Functionar in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul controalelor vamale din Bucuresti si Ilfov, privind sume si foloase pretinse ori primite pentru finalizarea favorabila a controalelor. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Urluceanu Ion',
+    status: 'indicted',
+    position: 'Functionar in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul controalelor vamale din Bucuresti si Ilfov, retinand primirea unor sume si foloase pentru neintocmirea de sesizari penale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Gheorghe Demetrius',
+    status: 'indicted',
+    position: 'Functionar in cadrul Autoritatii Vamale Romane',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita in forma continuata; conducerea unui vehicul sub influenta alcoolului',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul controalelor vamale, privind foloase pretinse ori primite in contextul controalelor derulate in Bucuresti si Ilfov si o fapta rutiera distincta pe raza municipiului Giurgiu. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
+  },
+  {
+    name: 'Picu Emanuel Victor',
+    status: 'indicted',
+    position:
+      'Director general al Directiei Generale de Arhitectura Peisagistica si Monumente de For Public din cadrul Primariei municipiului Bucuresti',
+    county: 'Bucure\u0219ti',
+    crime: 'Abuz in serviciu; folosirea de informatii nedestinate publicitatii; fals intelectual',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul concursurilor de angajare din cadrul DGAPMFP, institutie aflata in subordinea Primariei Capitalei, retinand simularea unor concursuri pentru angajarea unor persoane agreate. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_DGAPMFP_SOURCE,
+  },
+  {
+    name: '\u021aoanc\u0103 Valentina',
+    status: 'indicted',
+    position: 'Angajata in cadrul Directiei Generale de Arhitectura Peisagistica si Monumente de For Public',
+    county: 'Bucure\u0219ti',
+    crime: 'Fals intelectual',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul concursurilor de angajare din cadrul DGAPMFP, retinand trei infractiuni de fals intelectual, dintre care una in forma continuata. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_DGAPMFP_SOURCE,
+  },
+  {
+    name: 'V\u00eerlan George Marius',
+    status: 'indicted',
+    position: 'Jurist in cadrul Directiei Generale de Arhitectura Peisagistica si Monumente de For Public',
+    county: 'Bucure\u0219ti',
+    crime: 'Fals intelectual in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 trimiterea in judecata in dosarul concursurilor de angajare din cadrul DGAPMFP, retinand fals intelectual in forma continuata in legatura cu procedurile simulate de recrutare. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_DGAPMFP_SOURCE,
+  },
+  {
+    name: 'Gu\u021banu Mihai',
+    status: 'indicted',
+    position: 'Sef serviciu in cadrul Directiei Generale de Arhitectura Peisagistica si Monumente de For Public',
+    county: 'Bucure\u0219ti',
+    crime: 'Fals intelectual',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul concursurilor DGAPMFP, retinand trei infractiuni de fals intelectual, dintre care doua in forma continuata. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_DGAPMFP_SOURCE,
+  },
+  {
+    name: 'Radu Cristina Nicoleta',
+    status: 'indicted',
+    position: 'Sef resurse umane in cadrul Directiei Generale de Arhitectura Peisagistica si Monumente de For Public',
+    county: 'Bucure\u0219ti',
+    crime: 'Fals intelectual in forma continuata',
+    details:
+      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul concursurilor DGAPMFP, retinand fals intelectual in forma continuata. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: DNA_JUL_2025_DGAPMFP_SOURCE,
+  },
+];
+
+const AUTOMATED_JUL_30_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_JUL_30_2026_MORE_PEOPLE_ROWS.map((row) => ({
+    name: row.name,
+    party: 'Independent',
+    position: row.position,
+    position_type: 'other',
+    geography: {
+      county: row.county,
+      basis: 'office',
+      note: `Functia publica relevanta era: ${row.position}.`,
+    },
+    crime: row.crime,
+    status: row.status,
+    details: row.details,
+    verified_at: '2026-07-30',
+    sources: [row.source],
+  }));
+
 const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
   {
     name: '\u0218erban R\u0103zvan Nicolae',
@@ -22857,6 +23011,7 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_30_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_22_2026_FOURTH_MORE_PEOPLE_RECORDS,
