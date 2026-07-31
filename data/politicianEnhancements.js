@@ -10637,7 +10637,9 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
   ["Sarpe Ionel Petrisor", "PSD", "Arge\u0219", "Consiliul Local Bradu", "local_official", "1927", 24, true, 2010, "21/06/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Darie Irinel", "PNL", "Bac\u0103u", "Consiliul Local ora\u0219ul Com\u0103ne\u015fti", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Galatanu Costica", "PMP", "Bac\u0103u", "Consiliul Local Orbeni", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Ichim Ion", "PNL", "Bac\u0103u", "Consiliul Local Parava", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
+  // Identity review 2026-07-31: do not associate the Parava candidate named
+  // Ichim Ion with DNA record 4487 without an independent identity marker.
+  // An exact name and county match does not establish that they are the same person.
   ["Maxim Valentin", "PSD", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "2669", 8, true, 2011, "08/09/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Olaru Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local M\u0103n\u0103stirea Ca\u015fin", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Rusu Romel", "PNL", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "3620", 8, true, 2012, "19/10/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
