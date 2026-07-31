@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-30',
+  last_updated: '2026-07-31',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -23010,7 +23010,246 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS =
     sources: [row.source],
   }));
 
+const AUTOMATED_JUL_31_2026_ANI_SOURCE = {
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-incidente-de-integritate-13-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const AUTOMATED_JUL_31_2026_PARTY_SOURCES = {
+  pleteaPsd: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_vaslui/primarie/ibanesti/',
+  },
+  sauciucPnl: {
+    label: 'Primaria Siret',
+    kind: 'official',
+    url: 'https://siretromania.ro/web/componenta-consiliu/',
+  },
+  raducanuPsd: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_dambovita/consiliul-local/targoviste/',
+  },
+  teleaPnl: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_salaj/consiliul-local/jibou/',
+  },
+  ilincaPsd: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-judetean/19',
+  },
+  gligaPnl: {
+    label: 'Primaria Cluj-Napoca',
+    kind: 'official',
+    url: 'https://primariaclujnapoca.ro/consiliu-local/consilier-local/gliga-florin-valentin/',
+  },
+  bolocanPnl: {
+    label: 'Primaria Ploiesti',
+    kind: 'official',
+    url: 'https://ploiesti.ro/administratie/consiliul-local/consilieri-locali/',
+  },
+  ezaruPsd: {
+    label: 'Primaria Breaza',
+    kind: 'official',
+    url: 'https://primariabreaza.ro/componenta-cl/',
+  },
+  rogozeaPsd: {
+    label: 'Primaria Drajna',
+    kind: 'official',
+    url: 'https://www.primaria-drajna.ro/consiliul-local/consilieri/',
+  },
+  lunguPnl: {
+    label: 'Obiectiv Vocea Brailei',
+    kind: 'press',
+    url: 'https://obiectivbr.ro/content/administra%C8%9Bia-chiriac-un-nou-%C3%AEnceput',
+  },
+  schinteePnl: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_mehedinti/consiliul-judetean/',
+  },
+  marinFd: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_teleorman/consiliul-local/olteni/',
+  },
+  sutaPsd: {
+    label: 'Ziare.com',
+    kind: 'press',
+    url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_teleorman/primarie/frasinet/',
+  },
+};
+
+const AUTOMATED_JUL_31_2026_MORE_PEOPLE_ROWS = [
+  {
+    name: 'Pletea Benone',
+    party: 'PSD',
+    position: 'Fost primar al comunei Ibanesti, judetul Vaslui',
+    position_type: 'mayor',
+    county: 'Vaslui',
+    crime: 'Folosirea functiei pentru favorizarea unor persoane; conflict de interese administrativ; incompatibilitate',
+    details:
+      'ANI a comunicat la 31 iulie 2026 ca a sesizat Parchetul de pe langa Judecatoria Barlad si a constatat conflict de interese administrativ si incompatibilitate, retinand ca in mandatul 2020-2024 ar fi emis trei dispozitii care i-au produs venituri de aproximativ 60.238 lei ca manager de proiect ori membru in echipe de implementare.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.pleteaPsd,
+  },
+  {
+    name: 'Sauciuc Dan Vasile',
+    party: 'PNL',
+    position: 'Viceprimar al orasului Siret, judetul Suceava',
+    position_type: 'local_official',
+    county: 'Suceava',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, incepand cu 3 noiembrie 2020, ar fi desfasurat simultan cu functia de viceprimar mai multe activitati remunerate, inclusiv activitate medicala si functii in structuri profesionale ale medicilor stomatologi.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.sauciucPnl,
+  },
+  {
+    name: 'R\u0103ducanu Tudoric\u0103',
+    party: 'PSD',
+    position: 'Fost consilier local in Consiliul Local al municipiului Targoviste, judetul Dambovita',
+    position_type: 'local_official',
+    county: 'D\u00e2mbovi\u021ba',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in mandatul 2020-2024 de consilier local, societatea comerciala in care detinea calitatea de asociat si administrator ar fi incheiat contracte de furnizare produse in valoare totala de 98.532,14 lei cu doua directii aflate sub autoritatea Consiliului Local Targoviste.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.raducanuPsd,
+  },
+  {
+    name: 'Telea Mure\u0219an Valentin',
+    party: 'PNL',
+    position: 'Reprezentant al Consiliului Local Jibou in Consiliul de Administratie al Spitalului Orasenesc Jibou, judetul Salaj',
+    position_type: 'local_official',
+    county: 'S\u0103laj',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 1 iulie 2021 - 20 decembrie 2024, ar fi exercitat simultan calitatea de membru in Consiliul de Administratie al Spitalului Orasenesc Jibou, functia de consilier local si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.teleaPnl,
+  },
+  {
+    name: 'Ilinca Adinel Ionel',
+    party: 'PSD',
+    position: 'Reprezentant al Consiliului Judetean Dolj in Consiliul de Administratie al Spitalului de Pneumoftiziologie Leamna, judetul Dolj',
+    position_type: 'local_official',
+    county: 'Dolj',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 16 septembrie 2022 - 16 decembrie 2024, ar fi exercitat simultan calitatea de membru in Consiliul de Administratie al Spitalului de Pneumoftiziologie Leamna si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.ilincaPsd,
+  },
+  {
+    name: 'Gliga Florin-Valentin',
+    party: 'PNL',
+    position: 'Consilier local al municipiului Cluj-Napoca; reprezentant in Consiliul de Administratie al Spitalului Clinic Municipal Cluj-Napoca',
+    position_type: 'local_official',
+    county: 'Cluj',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, incepand cu anul 2021, ar fi exercitat simultan calitatea de membru in Consiliul de Administratie al Spitalului Clinic Municipal Cluj-Napoca si mai multe functii in organele de conducere, administrare si control ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.gligaPnl,
+  },
+  {
+    name: 'Bolocan Iulian',
+    party: 'PNL',
+    position: 'Consilier local al municipiului Ploiesti; reprezentant in consiliile de administratie ale Spitalului Municipal Ploiesti si Spitalului de Pediatrie Ploiesti',
+    position_type: 'local_official',
+    county: 'Prahova',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioadele 26 noiembrie 2020 - 28 noiembrie 2024 si 29 iulie 2021 - prezent, ar fi exercitat simultan calitatea de membru in consiliile de administratie ale spitalelor municipale din Ploiesti si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.bolocanPnl,
+  },
+  {
+    name: 'Ezaru Ciprian',
+    party: 'PSD',
+    position: 'Reprezentant al Consiliului Local Breaza in Consiliul de Administratie al Spitalului de Boli Pulmonare Breaza, judetul Prahova',
+    position_type: 'local_official',
+    county: 'Prahova',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 26 noiembrie 2020 - 25 iulie 2024, ar fi exercitat simultan calitatea de membru in Consiliul de Administratie al Spitalului de Boli Pulmonare Breaza si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.ezaruPsd,
+  },
+  {
+    name: 'Rogozea Gabriel-Nicolae',
+    party: 'PSD',
+    position: 'Reprezentant al Consiliului Local Drajna in Consiliul de Administratie al Spitalului de Pneumoftiziologie Drajna, judetul Prahova',
+    position_type: 'local_official',
+    county: 'Prahova',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, incepand cu 7 mai 2023, ar fi detinut simultan calitatea de membru in Consiliul de Administratie al Spitalului de Pneumoftiziologie Drajna si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.rogozeaPsd,
+  },
+  {
+    name: 'Lungu D\u0103nu\u021b',
+    party: 'PNL',
+    position: 'Consilier judetean Braila; reprezentant in Consiliul de Administratie al Spitalului Judetean de Urgenta Braila',
+    position_type: 'local_official',
+    county: 'Br\u0103ila',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 28 decembrie 2022 - 14 noiembrie 2024, ar fi exercitat simultan calitatea de membru supleant in Consiliul de Administratie al Spitalului Judetean de Urgenta Braila si o functie in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.lunguPnl,
+  },
+  {
+    name: 'Schintee Cornel M\u0103d\u0103lin',
+    party: 'PNL',
+    position: 'Functionar public in cadrul Inspectoratului Teritorial de Munca Mehedinti',
+    position_type: 'other',
+    county: 'Mehedin\u021bi',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 10 mai - 10 iunie 2024, ar fi participat ca candidat la campania electorala pentru alegerile locale din 9 iunie 2024 fara suspendarea raportului de serviciu pe durata campaniei si pana in ziua ulterioara alegerilor.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.schinteePnl,
+  },
+  {
+    name: 'Marin Nicu',
+    party: 'For\u021ba Dreptei',
+    position: 'Fost consilier local in Consiliul Local al comunei Olteni, judetul Teleorman',
+    position_type: 'local_official',
+    county: 'Teleorman',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 15 octombrie 2024 - 14 aprilie 2025, ar fi exercitat simultan functia de ales local in mandatul 2024-2028 si o functie contractuala in aparatul de specialitate al primarului comunei Olteni.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.marinFd,
+  },
+  {
+    name: '\u0218u\u021b\u0103 Oprea',
+    party: 'PSD',
+    position: 'Director al Scolii Gimnaziale Frasinet, judetul Teleorman',
+    position_type: 'other',
+    county: 'Teleorman',
+    crime: 'Incompatibilitate',
+    details:
+      'ANI a constatat la 31 iulie 2026 ca, in perioada 3 septembrie 2023 - 21 iunie 2024, ar fi exercitat simultan functia de director al Scolii Gimnaziale Frasinet si alte functii in organele de conducere ale unui partid politic.',
+    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.sutaPsd,
+  },
+];
+
+const AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_JUL_31_2026_MORE_PEOPLE_ROWS.map((row) => ({
+    name: row.name,
+    party: row.party,
+    position: row.position,
+    position_type: row.position_type,
+    geography: {
+      county: row.county,
+      basis: 'office',
+      note: `Functia publica relevanta era: ${row.position}.`,
+    },
+    crime: row.crime,
+    status: 'investigated',
+    details: row.details,
+    verified_at: '2026-07-31',
+    sources: [AUTOMATED_JUL_31_2026_ANI_SOURCE, row.partySource].filter(Boolean),
+  }));
+
 export const politicianAdditions = [
+  ...AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_30_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS,
