@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-07-31',
+  last_updated: '2026-08-01',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -23250,7 +23250,269 @@ const AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS =
     sources: [AUTOMATED_JUL_31_2026_ANI_SOURCE, row.partySource].filter(Boolean),
   }));
 
+const AUTOMATED_AUG_01_2026_DNA_DEC_2025_BULLETIN_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13456',
+};
+
+const AUTOMATED_AUG_01_2026_DNA_ONJN_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13890',
+};
+
+const AUTOMATED_AUG_01_2026_DNA_SECTOR_5_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13538',
+};
+
+const AUTOMATED_AUG_01_2026_DNA_SECTOR_3_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13536',
+};
+
+const AUTOMATED_AUG_01_2026_DNA_SALAJ_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=13693',
+};
+
+const AUTOMATED_AUG_01_2026_PARTY_SOURCES = {
+  ivanachePnl: {
+    label: 'BotosaniNews.ro',
+    kind: 'press',
+    url: 'https://www.botosaninews.ro/631966/administratie/rezultate-finale-la-alegerile-pentru-primar-vezi-scorurile-exacte-si-integrale-pe-fiecare-municipiu-oras-sau-comuna-din-botosani-si-pe-fiecare-candidat/',
+  },
+};
+
+const AUTOMATED_AUG_01_2026_MORE_PEOPLE_ROWS = [
+  {
+    name: 'Anghel Constantin Adrian',
+    party: 'Independent',
+    position:
+      'Director al Agentiei de Dezvoltare Locala Bacau din cadrul Primariei municipiului Bacau',
+    position_type: 'other',
+    county: 'Bac\u0103u',
+    crime: 'Abuz in serviciu daca functionarul public a obtinut pentru sine ori pentru altul un folos necuvenit',
+    status: 'indicted',
+    details:
+      'DNA Bacau a comunicat la 8 ianuarie 2026 trimiterea in judecata in dosarul proiectului Cinema Orizont, retinand ca responsabili din Primaria Bacau ar fi subestimat si fragmentat achizitii pentru atribuirea directa a unor echipamente. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_DEC_2025_BULLETIN_SOURCE,
+  },
+  {
+    name: 'Ivanache Ilie',
+    party: 'PNL',
+    position: 'Fost primar al comunei Ungureni, judetul Botosani',
+    position_type: 'mayor',
+    county: 'Boto\u0219ani',
+    crime:
+      'Luare de mita; folosirea sau permiterea accesului la informatii nedestinate publicitatii',
+    status: 'indicted',
+    details:
+      'DNA Suceava a comunicat la 8 ianuarie 2026 trimiterea in judecata sub control judiciar, retinand ca, in perioada august-octombrie 2024, ar fi pretins 20.000 euro si ar fi primit 5.000 euro pentru favorizarea unei societati la o licitatie publica.',
+    source: AUTOMATED_AUG_01_2026_DNA_DEC_2025_BULLETIN_SOURCE,
+    partySource: AUTOMATED_AUG_01_2026_PARTY_SOURCES.ivanachePnl,
+  },
+  {
+    name: 'C\u00e2rlogea Iulian Constantin',
+    party: 'Independent',
+    position: 'Administrator public al Primariei Sectorului 5',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime: 'Complicitate la trafic de influenta',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 7 februarie 2026 punerea in miscare a actiunii penale si retinerea pentru 24 de ore, retinand ca ar fi insistat pe langa un director din Politia Locala Sector 5 pentru finalizarea cu celeritate a receptiei lucrarilor unui imobil. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_5_SOURCE,
+  },
+  {
+    name: 'Ba\u0219ca Robert-Mihai',
+    party: 'Independent',
+    position: 'Arhitect-sef al Primariei Sectorului 5',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime: 'Trafic de influenta',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 7 februarie 2026 punerea in miscare a actiunii penale si retinerea pentru 24 de ore, retinand ca ar fi urmat sa intervina pentru urgentarea receptiei si emiterea documentelor de atestare a edificarii unui imobil din Sectorul 5. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_5_SOURCE,
+  },
+  {
+    name: 'Chioran Florin',
+    party: 'Independent',
+    position:
+      'Director general adjunct al Directiei Generale de Politie Locala Sector 5',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita; instigare la fals intelectual',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 7 februarie 2026 punerea in miscare a actiunii penale si retinerea pentru 24 de ore, in dosarul privind demersuri pentru urgentarea receptiei unui imobil si documente administrative aferente Sectorului 5. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_5_SOURCE,
+  },
+  {
+    name: 'Olaru C\u0103t\u0103lin',
+    party: 'Independent',
+    position:
+      'Sef al Serviciului Disciplina in Constructii din cadrul Directiei Generale de Politie Locala Sector 5',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime: 'Fals intelectual',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 7 februarie 2026 punerea in miscare a actiunii penale si control judiciar pentru 60 de zile, in dosarul privind documente administrative pentru receptia si atestarea edificarii unui imobil din Sectorul 5. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_5_SOURCE,
+  },
+  {
+    name: 'U\u0219urelu Tania-Gabriela',
+    party: 'Independent',
+    position:
+      'Director al Directiei Intretinere si Reparatii Drumuri din cadrul Primariei Sectorului 3',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime:
+      'Complicitate la abuz in serviciu daca functionarul public a obtinut pentru sine sau pentru altul un folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 6 februarie 2026 efectuarea in continuare a urmaririi penale, retinand ca ar fi sprijinit lucrari de construire si asfaltare dispuse in Sectorul 3 fara documentatia legala necesara. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_3_SOURCE,
+  },
+  {
+    name: 'P\u0103tru Gheorghe',
+    party: 'Independent',
+    position:
+      'Director adjunct al Directiei Intretinere si Reparatii Drumuri din cadrul Primariei Sectorului 3',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime:
+      'Complicitate la abuz in serviciu daca functionarul public a obtinut pentru sine sau pentru altul un folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 6 februarie 2026 efectuarea in continuare a urmaririi penale, retinand ca ar fi sprijinit lucrari de construire si asfaltare dispuse in Sectorul 3 fara documentatia legala necesara. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_3_SOURCE,
+  },
+  {
+    name: 'Chelza Dana-Florinela',
+    party: 'Independent',
+    position:
+      'Sef al Serviciului Ridicari Topografice si Avize din cadrul Directiei Intretinere si Reparatii Drumuri, Primaria Sectorului 3',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime:
+      'Complicitate la abuz in serviciu daca functionarul public a obtinut pentru sine sau pentru altul un folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 6 februarie 2026 efectuarea in continuare a urmaririi penale, retinand ca ar fi sprijinit lucrari de construire si asfaltare dispuse in Sectorul 3 fara documentatia legala necesara. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_3_SOURCE,
+  },
+  {
+    name: 'Petre Adrian-Nicolae',
+    party: 'Independent',
+    position:
+      'Functionar in cadrul Directiei Intretinere si Reparatii Drumuri din cadrul Primariei Sectorului 3',
+    position_type: 'local_official',
+    county: 'Bucure\u0219ti',
+    crime:
+      'Complicitate la abuz in serviciu daca functionarul public a obtinut pentru sine sau pentru altul un folos necuvenit',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 6 februarie 2026 efectuarea in continuare a urmaririi penale, retinand ca ar fi sprijinit lucrari de construire si asfaltare dispuse in Sectorul 3 fara documentatia legala necesara. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SECTOR_3_SOURCE,
+  },
+  {
+    name: 'Ghilea Ioana Lavinia',
+    party: 'Independent',
+    position:
+      'Director executiv al Directiei Investitii si Programe Publice din cadrul Consiliului Judetean Salaj',
+    position_type: 'local_official',
+    county: 'S\u0103laj',
+    crime: 'Luare de mita',
+    status: 'investigated',
+    details:
+      'DNA Cluj a comunicat la 23 aprilie 2026 punerea in miscare a actiunii penale si control judiciar pentru 60 de zile, retinand ca ar fi primit cel putin 5.000 euro si alte foloase in legatura cu proceduri si contracte derulate de Consiliul Judetean Salaj. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SALAJ_SOURCE,
+  },
+  {
+    name: 'Mate Jozsef',
+    party: 'Independent',
+    position:
+      'Sef al Serviciului Administrativ din cadrul Directiei Patrimoniu a Consiliului Judetean Salaj',
+    position_type: 'local_official',
+    county: 'S\u0103laj',
+    crime: 'Luare de mita; complicitate la dare de mita',
+    status: 'investigated',
+    details:
+      'DNA Cluj a comunicat la 23 aprilie 2026 punerea in miscare a actiunii penale si control judiciar pentru 60 de zile, retinand ca ar fi pretins materiale de constructii legate de atributiile privind renovari si reparatii ale cladirilor Consiliului Judetean Salaj. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_SALAJ_SOURCE,
+  },
+  {
+    name: 'Badea Ana-Maria',
+    party: 'Independent',
+    position:
+      'Director general adjunct al Directiei Generale de Autorizare Jocuri de Noroc din cadrul ONJN',
+    position_type: 'other',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 30 iulie 2026 punerea in miscare a actiunii penale si retinerea pentru 24 de ore, retinand ca ar fi primit 2.500 euro in legatura cu solutionarea favorabila a unor cereri si demersuri administrative ale operatorilor de jocuri de noroc. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_ONJN_SOURCE,
+  },
+  {
+    name: 'Blaga Radu-Andrei',
+    party: 'Independent',
+    position:
+      'Inspector in cadrul Directiei Generale de Supraveghere si Control din cadrul ONJN',
+    position_type: 'other',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 30 iulie 2026 punerea in miscare a actiunii penale si control judiciar pentru 60 de zile, retinand sase infractiuni de luare de mita, dintre care una in forma continuata, in dosarul ONJN. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_ONJN_SOURCE,
+  },
+  {
+    name: 'Br\u0103tan Radu-Constantin',
+    party: 'Independent',
+    position:
+      'Inspector in cadrul Directiei Generale de Supraveghere si Control din cadrul ONJN',
+    position_type: 'other',
+    county: 'Bucure\u0219ti',
+    crime: 'Luare de mita',
+    status: 'investigated',
+    details:
+      'DNA a comunicat la 30 iulie 2026 punerea in miscare a actiunii penale si control judiciar pentru 60 de zile, retinand sase infractiuni de luare de mita, dintre care una in forma continuata, in dosarul ONJN. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+    source: AUTOMATED_AUG_01_2026_DNA_ONJN_SOURCE,
+  },
+];
+
+const AUTOMATED_AUG_01_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_AUG_01_2026_MORE_PEOPLE_ROWS.map((row) => ({
+    name: row.name,
+    party: row.party,
+    position: row.position,
+    position_type: row.position_type,
+    ...(row.county
+      ? {
+          geography: {
+            county: row.county,
+            basis: 'office',
+            note: `Functia publica relevanta era: ${row.position}.`,
+          },
+        }
+      : {}),
+    crime: row.crime,
+    status: row.status,
+    details: row.details,
+    verified_at: '2026-08-01',
+    sources: [row.source, row.partySource].filter(Boolean),
+  }));
+
 export const politicianAdditions = [
+  ...AUTOMATED_AUG_01_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_30_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_29_2026_MORE_PEOPLE_RECORDS,
