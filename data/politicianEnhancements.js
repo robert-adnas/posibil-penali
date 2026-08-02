@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-08-01',
+  last_updated: '2026-08-02',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -23511,7 +23511,113 @@ const AUTOMATED_AUG_01_2026_MORE_PEOPLE_RECORDS =
     sources: [row.source, row.partySource].filter(Boolean),
   }));
 
+const AUTOMATED_AUG_02_2026_DNA_IASI_TRAFFIC_POLICE_SOURCE = {
+  label: 'DNA',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=10360',
+};
+
+const AUTOMATED_AUG_02_2026_IASI_TRAFFIC_POLICE_DETAILS =
+  'DNA Iasi a comunicat la 5 mai 2021 trimiterea in judecata in dosarul Politiei Rutiere Iasi; procurorii au retinut ca, in perioada 2019-2020, cei 14 lucratori ar fi pretins si primit bani si produse alimentare pentru protejarea unor conducatori auto si aplicarea unor sanctiuni contraventionale mai blande. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.';
+
+const AUTOMATED_AUG_02_2026_MORE_PEOPLE_ROWS = [
+  {
+    name: 'Ciobanu Gheorghi\u021b\u0103',
+    position: 'Sef al Biroului Rutier Iasi - Politia Municipiului Iasi',
+    crime: 'Luare de mita in forma continuata',
+    details:
+      'DNA Iasi a comunicat la 5 mai 2021 trimiterea in judecata a sefului Biroului Rutier Iasi in dosarul Politiei Rutiere Iasi, pentru luare de mita in forma continuata, retinand noua acte materiale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+  },
+  {
+    name: 'Baraba\u0219 Nicolae Robert',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Ciochin\u0103 Bogdan Gabriel',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'D\u0103moc Gabriel',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Andrei Liviu',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Lohan Cristinel C\u0103t\u0103lin',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Todera\u0219cu Constantin Bogdan',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Crengani\u0219 Felix Nelu',
+    position:
+      'Agent de politie si coordonator al Atelierului Confectionari Placute de Inmatriculare Iasi din cadrul D.P.C.R.I.V.',
+    crime: 'Luare de mita in forma continuata; trafic de influenta',
+    details:
+      'DNA Iasi a comunicat la 5 mai 2021 trimiterea in judecata in dosarul Politiei Rutiere Iasi, retinand luare de mita in forma continuata si doua infractiuni de trafic de influenta legate de eliberarea unor placute de inmatriculare fara procedura legala si de interventii promise pentru promovarea probei practice auto. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
+  },
+  {
+    name: 'Andrici Robert',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Crivoi Doru Ionu\u021b',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'E\u021bcu Paul',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'Landea Ionu\u021b Lucian',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: 'P\u0103ule\u021b Dan Constantin',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+  {
+    name: '\u0218tef\u0103nuc\u0103 Adrian',
+    position: 'Agent de politie rutiera in cadrul Politiei Rutiere Iasi',
+    crime: 'Luare de mita in forma continuata',
+  },
+];
+
+const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
+  AUTOMATED_AUG_02_2026_MORE_PEOPLE_ROWS.map((row) => ({
+    name: row.name,
+    party: 'Independent',
+    position: row.position,
+    position_type: 'other',
+    geography: {
+      county: 'Ia\u0219i',
+      basis: 'office',
+      note: `Functia publica relevanta era: ${row.position}.`,
+    },
+    crime: row.crime,
+    status: 'indicted',
+    details: row.details ?? AUTOMATED_AUG_02_2026_IASI_TRAFFIC_POLICE_DETAILS,
+    verified_at: '2026-08-02',
+    sources: [AUTOMATED_AUG_02_2026_DNA_IASI_TRAFFIC_POLICE_SOURCE],
+  }));
+
 export const politicianAdditions = [
+  ...AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_AUG_01_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_30_2026_MORE_PEOPLE_RECORDS,
