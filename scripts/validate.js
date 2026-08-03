@@ -12,9 +12,10 @@ const geographyModulePath = pathToFileURL(join(__dirname, '..', 'src', 'utils', 
 const { GEOGRAPHY_BASES, getCounty } = await import(geographyModulePath);
 
 const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'integrity', 'prescribed', 'closed', 'acquitted'];
-const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy', 'mayor', 'county_council_president', 'member_european_parliament', 'secretary_of_state', 'local_official', 'other'];
+const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy', 'mp', 'mayor', 'county_council_president', 'member_european_parliament', 'secretary_of_state', 'local_official', 'other'];
 const KNOWN_PARTIES = [
   'PSD',
+  'PDSR',
   'PNL',
   'PDL',
   'PC',
@@ -38,6 +39,7 @@ const KNOWN_PARTIES = [
   'PSDI',
   'PNCR',
   'PUSL',
+  'PNRR',
   'Bucure\u0219ti 2020',
   'Independent',
   'Rom\u00e2nia Socialist\u0103',

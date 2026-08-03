@@ -162,6 +162,7 @@ export function ListaPage() {
         minister: 1,
         senator: 2,
         deputy: 3,
+        mp: 3,
         county_council_president: 4,
         member_european_parliament: 5,
         mayor: 6,

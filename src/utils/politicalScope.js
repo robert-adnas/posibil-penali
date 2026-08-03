@@ -10,6 +10,7 @@ const POLITICAL_POSITION_TYPES = new Set([
   'minister',
   'senator',
   'deputy',
+  'mp',
   'member_european_parliament',
   'county_council_president',
   'mayor',
@@ -46,6 +47,7 @@ const LOCAL_POLITICAL_PATTERNS = [
 ];
 
 const PARTY_ROLE_PATTERNS = [
+  /\bfost\s+membru\b.*\bcfsn\b/,
   new RegExp(`\\bpresedinte(?:\\s+interimar)?(?:\\s+al)?\\s+(?:filialei|filiala|organizatiei).*\\b(?:${PARTY_AFFILIATION_PATTERN})\\b`),
   /\bpresedinte\s+filiala\s+partid\b/,
   new RegExp(`\\b(?:prim[-\\s])?vicepresedinte\\b.*\\b(?:filiala|${PARTY_AFFILIATION_PATTERN})\\b`),

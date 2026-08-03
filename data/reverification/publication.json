@@ -2,985 +2,61 @@
   "schema_version": 1,
   "updated_at": "2026-08-03",
   "holds": {
-    "Monica Iacob-Ridzi": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "rehabilitation_2024_finality_not_verified"
-      ],
-      "profile_id": "RV-0011"
-    },
-    "Gabriel Sandu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_cases_microsoft3_and_meter_net_outcomes_not_verified"
-      ],
-      "profile_id": "RV-0014"
-    },
-    "Gheorghe Bunea Stancu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "single_source"
-      ],
-      "profile_id": "RV-0028"
-    },
-    "Gheorghe Ștefan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-0034"
-    },
-    "Gigi Becali": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0041"
-    },
-    "Gheorghe Coman": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-0045"
-    },
-    "Cătălin Marian Rădulescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0050"
-    },
-    "Ovidiu Marius Isailă": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-0052"
-    },
-    "Borboly Csaba": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0053"
-    },
-    "Titus Corlățean": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0055"
-    },
-    "Viorel Ilie": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0056"
-    },
-    "Costel Alexe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0067"
-    },
-    "Niculae Bădălău": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0068"
-    },
-    "Cristian Popescu Piedone": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-0069"
-    },
-    "Varujan Vosganian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0070"
-    },
-    "Diana Iovanovici-Șoșoacă": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0072"
-    },
-    "Clotilde Armand": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0073"
-    },
-    "Vlad Voiculescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0074"
-    },
-    "Ciobanu Gheorghiță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0075"
-    },
-    "Barabaș Nicolae Robert": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0076"
-    },
-    "Ciochină Bogdan Gabriel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0077"
-    },
-    "Dămoc Gabriel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0078"
-    },
-    "Andrei Liviu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0079"
-    },
-    "Lohan Cristinel Cătălin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0080"
-    },
-    "Toderașcu Constantin Bogdan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0081"
-    },
-    "Crenganiș Felix Nelu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0082"
-    },
-    "Andrici Robert": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0083"
-    },
-    "Crivoi Doru Ionuț": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0084"
-    },
-    "Ețcu Paul": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0085"
-    },
-    "Landea Ionuț Lucian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0086"
-    },
-    "Păuleț Dan Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0087"
-    },
-    "Ștefănucă Adrian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0088"
-    },
-    "Ivanache Ilie": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0090"
-    },
-    "Cârlogea Iulian Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0091"
-    },
-    "Bașca Robert-Mihai": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0092"
-    },
-    "Chioran Florin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0093"
-    },
-    "Olaru Cătălin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0094"
-    },
-    "Ușurelu Tania-Gabriela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0095"
-    },
-    "Pătru Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0096"
-    },
-    "Chelza Dana-Florinela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0097"
-    },
-    "Petre Adrian-Nicolae": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0098"
-    },
-    "Ghilea Ioana Lavinia": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0099"
-    },
-    "Mate Jozsef": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0100"
-    },
-    "Badea Ana-Maria": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0101"
-    },
-    "Blaga Radu-Andrei": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0102"
-    },
-    "Brătan Radu-Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0103"
-    },
-    "Pletea Benone": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0104"
-    },
-    "Sauciuc Dan Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0105"
-    },
-    "Răducanu Tudorică": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0106"
-    },
-    "Telea Mureșan Valentin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0107"
-    },
-    "Ilinca Adinel Ionel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0108"
-    },
-    "Gliga Florin-Valentin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0109"
-    },
-    "Bolocan Iulian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0110"
-    },
-    "Ezaru Ciprian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0111"
-    },
-    "Rogozea Gabriel-Nicolae": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0112"
-    },
-    "Lungu Dănuț": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0113"
-    },
-    "Marin Nicu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0114"
-    },
-    "Șuță Oprea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0115"
-    },
-    "Petrof Paul": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0116"
-    },
-    "Teianu Nicolae-Ștefan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0117"
-    },
-    "Stamatescu Răzvan-Cosmin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0118"
-    },
-    "Vulcan Marian-Vladimir": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0120"
-    },
-    "Urluceanu Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0121"
-    },
-    "Gheorghe Demetrius": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0122"
-    },
-    "Picu Emanuel Victor": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0123"
-    },
-    "Țoancă Valentina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0124"
-    },
-    "Vîrlan George Marius": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0125"
-    },
-    "Guțanu Mihai": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0126"
-    },
-    "Radu Cristina Nicoleta": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0127"
-    },
-    "Șerban Răzvan Nicolae": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0128"
-    },
-    "Stanca Iulian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0129"
-    },
-    "Ciupitu-Turceanu Laurențiu-Mihai": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0130"
-    },
-    "Sîrbu Ilie-Lucian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0131"
-    },
-    "Rogobete Danel-Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0133"
-    },
-    "Mereu George-Marian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0134"
-    },
-    "Rodean Emilian-Ioan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0135"
-    },
-    "Gherman Octavian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0136"
-    },
-    "Fogaș Alin-Sebastian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0138"
-    },
-    "Lupa Alin-Petrișor": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0139"
-    },
-    "Dan Daniel-Maximilian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0140"
-    },
-    "Toma Vlad-Romeo": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0141"
-    },
-    "Mihăescu Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0142"
-    },
-    "Stoian Cătălin-Aris": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0143"
-    },
-    "Barra Floare": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0145"
-    },
-    "Stoica Ovidiu Mihnea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0146"
-    },
-    "Ioniță Elena": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0147"
-    },
-    "Madan Marinela Rodica": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0148"
-    },
-    "Odagiu Iuliana Alina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0149"
-    },
-    "Odagiu Alexandru Alin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0150"
-    },
-    "Rafiu Mihai": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0152"
-    },
-    "Pîrvu Tiberiu Alexandru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0153"
-    },
-    "Sorescu Liliana": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0154"
-    },
-    "Barbu Ștefan-Claudiu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0155"
-    },
-    "Sebastian-Teodor Gheorghe Vlădescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0156"
-    },
-    "Mircea-Ionuț Costea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0157"
-    },
-    "Constantin Dascălu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0158"
-    },
-    "Cristian-Alexandru Boureanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0159"
-    },
-    "Sergiu-Ionuț Diacomatu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "single_source"
-      ],
-      "profile_id": "RV-0161"
-    },
-    "Dragoș George Bogdan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "single_source"
-      ],
-      "profile_id": "RV-0162"
-    },
-    "Emil Nuțiu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0163"
-    },
-    "Stelian Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0164"
-    },
-    "Ionuț Florentin Mihăilescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0165"
-    },
-    "Alin Cocoș": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0166"
-    },
-    "Dorin Cocoș": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0167"
-    },
-    "Enache Eugenia": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0168"
-    },
     "Mișcu Dumitru": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0169"
-    },
-    "Vlad Silviu Laurențiu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0170"
-    },
-    "Boicu Viorel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0171"
-    },
-    "Pițiche Emil": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0172"
     },
     "Hantea Ioana": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "insufficient_current_evidence"
       ],
       "profile_id": "RV-0173"
-    },
-    "Peltecu Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0174"
-    },
-    "Lazăr Octavian Fulger": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0175"
     },
     "Călinoiu Ion Mădălin": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "insufficient_current_evidence"
       ],
       "profile_id": "RV-0176"
-    },
-    "Marinaș Tudorița": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0177"
     },
     "Palea Emanuel": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "insufficient_current_evidence"
       ],
       "profile_id": "RV-0178"
     },
     "Hegedus Ferenc": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0179"
     },
     "Ciotea Vasile": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0180"
     },
     "Enache Vasile": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0181"
-    },
-    "Știca Cristian Francisc": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0182"
-    },
-    "Gheucă-Solovăstru Laura": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0183"
     },
     "Munteanu Dumitru": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_legal_status"
+        "identity_uncertainty"
       ],
       "profile_id": "RV-0184"
-    },
-    "Stadoleanu Ioan Daniel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0186"
-    },
-    "Pascu Valentina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0187"
-    },
-    "Judeu Eliza Noemi": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0188"
-    },
-    "Senchetru Dorin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0189"
-    },
-    "Șerban Cristinel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0190"
-    },
-    "Ghodsi Mahboob Alam Mohammad": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0191"
-    },
-    "Stroe Marilena": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0192"
-    },
-    "Ignat Simonica": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status",
-        "single_source"
-      ],
-      "profile_id": "RV-0193"
     },
     "Stela Firu": {
       "held_at": "2026-08-03",
@@ -1177,14 +253,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-0220"
-    },
-    "Cătălin-Marian Rădulescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0221"
     },
     "Ioan-Sorin Roman": {
       "held_at": "2026-08-03",
@@ -1857,13 +925,6 @@
         "possible_name_collision"
       ],
       "profile_id": "RV-0322"
-    },
-    "Marius Ovidiu Isăilă": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-0323"
     },
     "Hofman Marius": {
       "held_at": "2026-08-03",
@@ -3188,14 +2249,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-0549"
-    },
-    "Ilie Ivanache": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0550"
     },
     "Ioan Filip": {
       "held_at": "2026-08-03",
@@ -5431,83 +4484,6 @@
       ],
       "profile_id": "RV-1265"
     },
-    "Constantinescu Ion Marian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1269"
-    },
-    "Matei Nicolae Marius": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1295"
-    },
-    "Rusu Ovidiu Marius": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1323"
-    },
-    "Baias Adrian Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1400"
-    },
-    "Calcan Radu-Cristian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1506"
-    },
-    "Catalin Liviu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1523"
-    },
-    "Ciociu Bogdan Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1547"
-    },
-    "Constantin Toma Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1573"
-    },
-    "Contac Liviu Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1577"
-    },
-    "Dinu Ioana": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1625"
-    },
-    "Dobra Ion Bogdan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-1629"
-    },
     "Nemes Stefan Gheorghe": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -6290,14 +5266,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2418"
-    },
-    "Popescu Cristian Victor Piedone": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2419"
     },
     "Buzdugan Dumitru Florin": {
       "held_at": "2026-08-03",
@@ -9464,14 +8432,6 @@
       ],
       "profile_id": "RV-4333"
     },
-    "Alexe Costel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision",
-        "active_legal_status"
-      ],
-      "profile_id": "RV-4334"
-    },
     "Lupei Dan": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -10509,13 +9469,6 @@
       ],
       "profile_id": "RV-4500"
     },
-    "Coman Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "possible_name_collision"
-      ],
-      "profile_id": "RV-4501"
-    },
     "Rașit Beinur": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -11122,26 +10075,61 @@
       ],
       "profile_id": "RV-4618"
     },
+    "Buzdugan Vasile": {
+      "held_at": "2026-08-03",
+      "reasons": [
+        "Posibilă identitate cu actualul consilier local USR Alin Buzdugan din Roman, însă sursele publice consultate nu oferă un identificator direct care să lege fără echivoc persoana condamnată Vasile-Alin Buzdugan de alesul local; profil ascuns pentru evitarea atribuirii greșite a condamnării."
+      ],
+      "profile_id": "RV-1258"
+    },
+    "Moisil Leontin": {
+      "held_at": "2026-08-03",
+      "reasons": [
+        "Ascuns preventiv: DNA condamna un Leontin Moisil, reprezentant al unei firme din comuna Sant, iar sursele electorale si locale documenteaza un Cornel-Leontin Moisil, fost primar si candidat PPUSL in aceeasi comuna. Coincidenta de localitate si numele rar sugereaza o posibila identitate, dar sursele gasite nu leaga explicit condamnarea de numele complet al fostului primar; este necesar un document cu identificatori comuni inainte de publicare."
+      ],
+      "profile_id": "RV-1299"
+    },
+    "Costel Alexe": {
+      "held_at": "2026-08-03",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0067"
+    },
+    "Clotilde Armand": {
+      "held_at": "2026-08-03",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0073"
+    },
+    "Vlad Voiculescu": {
+      "held_at": "2026-08-03",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0074"
+    },
     "Dan Voiculescu": {
       "held_at": "2026-08-03",
       "reasons": [
-        "active_revision_2026_outcome_not_yet_verified"
+        "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0004"
     },
-    "George Copos": {
+    "Borboly Csaba": {
       "held_at": "2026-08-03",
       "reasons": [
-        "rehabilitation_2023_finality_not_verified"
+        "awaiting_current_court_decision"
       ],
-      "profile_id": "RV-0008"
+      "profile_id": "RV-0053"
     },
-    "Zsolt Nagy": {
+    "Viorel Ilie": {
       "held_at": "2026-08-03",
       "reasons": [
-        "rehabilitation_2024_finality_not_verified"
+        "insufficient_current_evidence"
       ],
-      "profile_id": "RV-0013"
+      "profile_id": "RV-0056"
     }
   }
 }

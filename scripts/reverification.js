@@ -33,6 +33,11 @@ const SAFETY_HOLD_FLAGS = new Set([
   'active_legal_status',
   'single_source',
 ]);
+const VALID_POST_REVIEW_HOLD_REASONS = new Set([
+  'awaiting_current_court_decision',
+  'insufficient_current_evidence',
+  'identity_uncertainty',
+]);
 
 function today() {
   return new Date().toISOString().slice(0, 10);
@@ -481,8 +486,14 @@ function checkRegistry() {
       return;
     }
     trackedCurrentNames.add(normalizeName(currentProfile.name));
-    if (publicationReview.holds[currentProfile.name]) {
-      errors.push(`${review.profile_id} este reverificat, dar a ramas ascuns editorial.`);
+    const postReviewHold = publicationReview.holds[currentProfile.name];
+    if (
+      postReviewHold &&
+      !postReviewHold.reasons.every((reason) => VALID_POST_REVIEW_HOLD_REASONS.has(reason))
+    ) {
+      errors.push(
+        `${review.profile_id} este reverificat, dar are un hold editorial fara motiv post-review valid.`
+      );
     }
     if (profileHash(currentProfile) !== review.reviewed_snapshot_hash) {
       errors.push(`${review.profile_id} s-a modificat dupa reverificare: ${currentProfile.name}.`);

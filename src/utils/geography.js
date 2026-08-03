@@ -23,6 +23,7 @@ const POSITION_TYPE_TO_BASIS = {
   county_council_president: 'office',
   local_official: 'office',
   deputy: 'constituency',
+  mp: 'constituency',
   senator: 'constituency',
   minister: 'political_base',
   prime_minister: 'political_base',

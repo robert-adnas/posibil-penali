@@ -3,6 +3,7 @@ export const POSITION_LABELS = {
   minister: 'Ministru',
   senator: 'Senator',
   deputy: 'Deputat',
+  mp: 'Parlamentar',
   mayor: 'Primar',
   county_council_president: 'Președinte CJ',
   member_european_parliament: 'Europarlamentar',
