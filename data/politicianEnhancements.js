@@ -23069,11 +23069,6 @@ const AUTOMATED_JUL_31_2026_PARTY_SOURCES = {
     kind: 'press',
     url: 'https://obiectivbr.ro/content/administra%C8%9Bia-chiriac-un-nou-%C3%AEnceput',
   },
-  schinteePnl: {
-    label: 'Ziare.com',
-    kind: 'press',
-    url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_mehedinti/consiliul-judetean/',
-  },
   marinFd: {
     label: 'Ziare.com',
     kind: 'press',
@@ -23196,17 +23191,6 @@ const AUTOMATED_JUL_31_2026_MORE_PEOPLE_ROWS = [
     details:
       'ANI a constatat la 31 iulie 2026 ca, in perioada 28 decembrie 2022 - 14 noiembrie 2024, ar fi exercitat simultan calitatea de membru supleant in Consiliul de Administratie al Spitalului Judetean de Urgenta Braila si o functie in organele de conducere ale unui partid politic.',
     partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.lunguPnl,
-  },
-  {
-    name: 'Schintee Cornel M\u0103d\u0103lin',
-    party: 'PNL',
-    position: 'Functionar public in cadrul Inspectoratului Teritorial de Munca Mehedinti',
-    position_type: 'other',
-    county: 'Mehedin\u021bi',
-    crime: 'Incompatibilitate',
-    details:
-      'ANI a constatat la 31 iulie 2026 ca, in perioada 10 mai - 10 iunie 2024, ar fi participat ca candidat la campania electorala pentru alegerile locale din 9 iunie 2024 fara suspendarea raportului de serviciu pe durata campaniei si pana in ziua ulterioara alegerilor.',
-    partySource: AUTOMATED_JUL_31_2026_PARTY_SOURCES.schinteePnl,
   },
   {
     name: 'Marin Nicu',
