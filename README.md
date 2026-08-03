@@ -31,3 +31,8 @@ Lista nu este exhaustivă. Verificați întotdeauna sursele originale.
 ## Contribuții
 
 Dacă observați o eroare sau doriți să adăugați un caz, deschideți un [Issue](https://github.com/robert-adnas/posibil-penali/issues) sau trimiteți un Pull Request.
+
+## Reverificare editorială
+
+Reverificarea integrală a profilurilor este urmărită separat de câmpul istoric `verified_at`.
+Protocolul, comenzile și regulile de audit sunt documentate în [REVERIFICATION.md](./REVERIFICATION.md).

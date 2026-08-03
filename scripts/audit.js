@@ -39,11 +39,14 @@ function findLikelyDuplicates(politicians) {
 
       if (left.position_type !== right.position_type) continue;
 
-      const leftTokens = nameTokens(left.name);
+      const leftTokens = new Set(nameTokens(left.name));
       const rightTokens = new Set(nameTokens(right.name));
-      const overlap = leftTokens.filter((token) => rightTokens.has(token)).length;
+      const overlap = [...leftTokens].filter((token) => rightTokens.has(token)).length;
+      const smallerSize = Math.min(leftTokens.size, rightTokens.size);
+      const largerSize = Math.max(leftTokens.size, rightTokens.size);
+      const isNearMatch = overlap >= 2 && overlap === smallerSize && overlap / largerSize >= 0.66;
 
-      if (overlap >= 2) {
+      if (isNearMatch) {
         duplicates.push({
           left: left.name,
           right: right.name,
@@ -59,7 +62,8 @@ function findLikelyDuplicates(politicians) {
 
 try {
   const raw = JSON.parse(readFileSync(dataPath, 'utf8'));
-  const politicians = buildDataset(raw).politicians;
+  const includeUnpublished = process.argv.includes('--editorial');
+  const politicians = buildDataset(raw, { includeUnpublished }).politicians;
 
   const noOfficial = politicians.filter((politician) => !hasOfficialSource(politician));
   const singleSource = politicians.filter((politician) => (politician.sources || []).length === 1);
@@ -68,7 +72,9 @@ try {
     .sort((left, right) => (left.verified_at || '').localeCompare(right.verified_at || ''));
   const likelyDuplicates = findLikelyDuplicates(politicians);
 
-  console.log(`Audit for ${politicians.length} merged entries\n`);
+  console.log(
+    `Audit for ${politicians.length} ${includeUnpublished ? 'editorial' : 'published'} merged entries\n`
+  );
   console.log(`No official sources: ${noOfficial.length}`);
   console.log(`Single-source entries: ${singleSource.length}`);
   console.log(`Active-status entries: ${active.length}`);

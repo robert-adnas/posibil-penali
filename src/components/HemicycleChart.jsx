@@ -551,6 +551,7 @@ export function HemicycleChart({ data, onSelect }) {
         first_instance: { fillOpacity: 0.55, strokeWidth: 1.25, strokeOpacity: 0.6, usePartyStroke: true,  dasharray: null },
         indicted:       { fillOpacity: 0.35, strokeWidth: 1,    strokeOpacity: 0.5, usePartyStroke: false, dasharray: null },
         investigated:   { fillOpacity: 0.2,  strokeWidth: 1,    strokeOpacity: 0.5, usePartyStroke: false, dasharray: '3,2' },
+        integrity:      { fillOpacity: 0.25, strokeWidth: 1,    strokeOpacity: 0.55,usePartyStroke: false, dasharray: '4,2' },
         prescribed:     { fillOpacity: 0.15, strokeWidth: 0.75, strokeOpacity: 0.35,usePartyStroke: false, dasharray: '2,2' },
         closed:         { fillOpacity: 0.12, strokeWidth: 1,    strokeOpacity: 0.4, usePartyStroke: false, dasharray: '1,2' },
         acquitted:      { fillOpacity: 0.12, strokeWidth: 1.25, strokeOpacity: 0.5, usePartyStroke: false, dasharray: null },

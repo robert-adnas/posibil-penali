@@ -1,9 +1,9 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-08-02',
+  last_updated: '2026-08-03',
   notes:
-    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
+    'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat penal), integrity (incident administrativ de integritate constatat de ANI), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
 
 const ARGES_CONSULTANCY_ACQUITTAL_DETAILS =
@@ -1555,9 +1555,16 @@ const AUR_PAUNESCU_PARLIAMENT_SOURCE = {
 };
 
 const AUR_NEACSU_ANI_SOURCE = {
-  label: 'Monitorul de Cluj',
+  label: 'ANI',
+  kind: 'official',
+  url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/',
+};
+
+const AUR_NEACSU_FINAL_SOURCE = {
+  label: 'Gazeta de Cluj',
   kind: 'press',
-  url: 'https://www.monitorulcj.ro/politica-administratie/101651-consilier-din-primaria-cluj-napoca-gasit-incompatibil-de-ani',
+  url: 'https://gazetadecluj.ro/unul-dintre-sefii-de-la-spatii-verzi-din-primaria-cluj-napoca-declarat-incompatibil/',
+  description: 'Relatare despre soluția definitivă a ÎCCJ privind contestația raportului ANI',
 };
 
 const AUR_NEGOESCU_PROTECTION_ORDER_SOURCE = {
@@ -3490,23 +3497,6 @@ const ANI_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
     sources: [ANI_PUBLIC_OFFICIALS_TEN_SOURCE],
   },
   {
-    name: 'Preda Mircea-Gabriel',
-    party: 'Independent',
-    position: 'Fost manager al Spitalului Clinic de Obstetrică Ginecologie „Dr. Ioan Aurel Sbârcea” Brașov',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat incompatibilitate în perioada 1 aprilie 2019 - 9 octombrie 2023, întrucât a exercitat simultan funcția de manager al spitalului și activitatea de medic primar într-un cabinet medical privat.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'Brașov',
-      basis: 'office',
-      note: 'Funcția publică relevantă era cea de manager al spitalului din Brașov.',
-    },
-    sources: [ANI_PUBLIC_OFFICIALS_FOUR_SOURCE],
-  },
-  {
     name: 'Dubei Liviu',
     party: 'Independent',
     position: 'Director medical în cadrul Spitalului Municipal „Dr. Cosma și Damian” Rădăuți',
@@ -3753,23 +3743,6 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în cadrul Primăriei municipiului Giurgiu.',
     },
     sources: [ANI_FEB_2022_EIGHTEEN_PUBLIC_OFFICIALS_SOURCE],
-  },
-  {
-    name: 'Marinescu Bogdan Dragoș',
-    party: 'Independent',
-    position: 'Fost director în cadrul Ministerului Investițiilor și Proiectelor Europene',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat incompatibilitate în perioada 27 iulie - 31 octombrie 2023, întrucât a exercitat simultan funcția publică de conducere de director în cadrul MIPE și funcția de administrator al unei societăți comerciale care a încheiat contracte de consultanță cu mai multe UAT-uri.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'București',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul Ministerului Investițiilor și Proiectelor Europene.',
-    },
-    sources: [ANI_APR_2025_SIX_PUBLIC_OFFICIALS_SOURCE],
   },
   {
     name: 'Murgeanu Gabriela',
@@ -4036,40 +4009,6 @@ const ANI_MORE_INDEPENDENT_PUBLIC_OFFICIALS_RECORDS = [
 ];
 
 const ANI_ARCHIVE_PUBLIC_OFFICIALS_RECORDS = [
-  {
-    name: 'Dorobanțu Virgil Valentin',
-    party: 'Independent',
-    position: 'Director executiv în cadrul APIA - Centrul Județean Ialomița',
-    position_type: 'other',
-    crime: 'Folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
-    details:
-      'ANI a sesizat Parchetul de pe lângă Judecătoria Slobozia, reținând indicii că, ulterior numirii în funcția de director executiv al APIA Ialomița, a delegat soției sale atribuții de control aferente unui compartiment aflat în subordinea sa directă.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'Ialomița',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul APIA - Centrul Județean Ialomița.',
-    },
-    sources: [ANI_FEB_2024_TWO_PUBLIC_OFFICIALS_ARCHIVE_SOURCE],
-  },
-  {
-    name: 'Crăciun Daniel Vasile',
-    party: 'Independent',
-    position: 'Auditor în cadrul Agenției Naționale de Administrare Fiscală',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat incompatibilitate în perioada 17 mai 2021 - 4 mai 2022, întrucât a exercitat simultan funcția publică de auditor în cadrul ANAF și funcția contractuală de auditor intern în cadrul unei societăți, cu atribuții aflate în legătură directă sau indirectă cu atribuțiile publice.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'București',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul Agenției Naționale de Administrare Fiscală.',
-    },
-    sources: [ANI_FEB_2024_TWO_PUBLIC_OFFICIALS_ARCHIVE_SOURCE],
-  },
   {
     name: 'Goran Mihai',
     party: 'Independent',
@@ -4801,23 +4740,6 @@ const ANI_ARCHIVE_MEDICAL_AND_PUBLIC_SERVANTS_RECORDS = [
     sources: [ANI_OCT_2021_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE],
   },
   {
-    name: 'Vlad Ioan Florin',
-    party: 'Independent',
-    position: 'Funcționar public în cadrul Administrației Județene a Finanțelor Publice Hunedoara',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat incompatibilitate începând cu 21 aprilie 2003, întrucât deținea simultan funcția publică în cadrul AJFP Hunedoara și funcția de expert tehnic judiciar în sectorul privat, activitățile private fiind în legătură directă cu atribuțiile publice.',
-    verified_at: '2026-05-29',
-    geography: {
-      county: 'Hunedoara',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul Administrației Județene a Finanțelor Publice Hunedoara.',
-    },
-    sources: [ANI_OCT_2021_NINE_PUBLIC_PERSONS_ARCHIVE_SOURCE],
-  },
-  {
     name: 'Cîrlig Daniela',
     party: 'Independent',
     position: 'Manager al Spitalului „Dr. Karl Diel” Jimbolia, județul Timiș',
@@ -5155,16 +5077,28 @@ const AUR_SECOND_PASS_ADDITIONAL_RECORDS = [
     position: 'Fost membru AUR; fost \u0219ef de cabinet al unei deputate AUR',
     position_type: 'other',
     crime: 'Trafic de influen\u021b\u0103',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'G4Media a relatat c\u0103 Parchetul General a confirmat urm\u0103rirea penal\u0103 a lui Bogdan Crefelean, membru AUR \u0219i \u0219ef de cabinet al unei deputate AUR, prins \u00een flagrant c\u00e2nd ar fi primit 1.500 lei invoc\u00e2nd influen\u021b\u0103 asupra unor poli\u021bi\u0219ti locali; articolul consemneaz\u0103 c\u0103 partidul l-a exclus.',
-    verified_at: '2026-05-27',
+      'Parchetul General a confirmat în 2023 urmărirea penală pentru trafic de influență. Tribunalul Ilfov l-a condamnat în primă instanță, în iulie 2025, la 1 an și 3 luni de închisoare cu suspendare. La 16 aprilie 2026, Curtea de Apel București a desființat condamnarea, a exclus probele administrate de DGA și a dispus achitarea pe motiv că fapta nu există. Adevărul a precizat că această ultimă hotărâre nu era definitivă și putea fi atacată; profilul rămâne ascuns până la confirmarea soluției finale.',
+    verified_at: '2026-08-03',
     geography: {
       county: 'Ilfov',
       basis: 'case_location',
       note: 'Flagrantul relatat a avut loc \u00een Bragadiru, jude\u021bul Ilfov.',
     },
-    sources: [AUR_CREFELEAN_INVESTIGATION_SOURCE],
+    sources: [
+      AUR_CREFELEAN_INVESTIGATION_SOURCE,
+      {
+        label: 'Adevărul — achitarea din apel și caracterul nedefinitiv relatat',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-interne/societate/cum-a-reusit-un-fost-consilier-parlamentar-aur-sa-2523191.html',
+      },
+      {
+        label: 'Radio România Actualități/Rador — anularea condamnării în apel',
+        kind: 'press',
+        url: 'https://www.rador.ro/2026/04/16/curtea-de-apel-bucuresti-a-anulat-condamnarea-pentru-trafic-de-influenta-stabilita-de-tribunalul-ilfov-in-cazul-lui-bogdan-crefelean/',
+      },
+    ],
   },
   {
     name: 'Ionu\u021b Bogdan Iag\u0103ru',
@@ -5406,16 +5340,16 @@ const AUR_BIG_SEARCH_ADDITIONAL_RECORDS = [
     position: 'Candidat AUR la Consiliul Județean Cluj; funcționar public în Primăria Cluj-Napoca',
     position_type: 'other',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'Monitorul de Cluj a relatat că ANI l-a găsit pe Mihai Gabriel Neacșu în incompatibilitate pentru perioada 28 august - 26 septembrie 2020, deoarece a candidat la Consiliul Județean Cluj din partea AUR fără să se suspende din funcția publică deținută la Primăria Cluj-Napoca.',
-    verified_at: '2026-05-29',
+      'ANI a constatat că s-a aflat în incompatibilitate între 28 august și 26 septembrie 2020, deoarece a candidat la Consiliul Județean Cluj fără să se suspende din funcția publică deținută la Primăria Cluj-Napoca. Potrivit minutei ÎCCJ citate de Gazeta de Cluj, recursul împotriva sentinței Curții de Apel Cluj a fost constatat nul, iar soluția a rămas definitivă. Nu este vorba despre o cercetare penală.',
+    verified_at: '2026-08-03',
     geography: {
       county: 'Cluj',
       basis: 'office',
       note: 'Funcția publică și candidatura menționate de sursă sunt legate de județul Cluj.',
     },
-    sources: [AUR_NEACSU_ANI_SOURCE],
+    sources: [AUR_NEACSU_ANI_SOURCE, AUR_NEACSU_FINAL_SOURCE],
   },
   {
     name: 'Mihai-Bogdan Negoescu',
@@ -5828,24 +5762,6 @@ const ANI_MAY_2026_ADDITIONAL_RECORDS = [
     sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
   },
   {
-    name: 'Petre Ion',
-    party: 'Independent',
-    position:
-      'Inspector în Biroul de Colectare \u0219i Executare Silit\u0103 din Serviciul Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat în mai 2026 c\u0103, în perioada 7 martie 2022 - 10 aprilie 2024, ar fi fost în raport ierarhic direct de subordonare fa\u021b\u0103 de so\u021bia sa, \u0219ef al Biroului de colectare \u0219i executare silit\u0103.',
-    verified_at: '2026-05-23',
-    geography: {
-      county: 'Prahova',
-      basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul Serviciului Fiscal Or\u0103\u0219enesc Sl\u0103nic - DGRFP Ploie\u0219ti, jude\u021bul Prahova.',
-    },
-    sources: [ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE, ANI_MAY_2026_AGERPRES_SOURCE],
-  },
-  {
     name: 'Ioana Neagoe',
     party: 'Independent',
     position: 'Fost func\u021bionar public de execu\u021bie în cadrul Prim\u0103riei Ora\u0219ului B\u0103beni, jude\u021bul V\u00e2lcea',
@@ -6037,23 +5953,6 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
       county: 'Bucure\u0219ti',
       basis: 'office',
       note: 'Functia publica relevanta era in cadrul Directiei Generale de Politie a Municipiului Bucuresti.',
-    },
-    sources: [ANI_DEC_2024_FOUR_PUBLIC_OFFICIALS_SOURCE],
-  },
-  {
-    name: 'P\u0103tra\u0219cu Mihai',
-    party: 'Independent',
-    position: 'Director general al Regiei Autonome Aeroportul Satu Mare',
-    position_type: 'other',
-    crime: 'Folosirea func\u021biei pentru favorizarea unor persoane',
-    status: 'investigated',
-    details:
-      'ANI a sesizat organele de urmarire penala in decembrie 2024, retinand indicii ca, in functia de director general al Aeroportului Satu Mare, s-ar fi desemnat sau mentinut in roluri remunerate in proiecte ale regiei.',
-    verified_at: '2026-06-09',
-    geography: {
-      county: 'Satu Mare',
-      basis: 'office',
-      note: 'Functia publica relevanta era la Regia Autonoma Aeroportul Satu Mare.',
     },
     sources: [ANI_DEC_2024_FOUR_PUBLIC_OFFICIALS_SOURCE],
   },
@@ -7262,13 +7161,6 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani12PublicOfficials2023,
   },
   {
-    name: 'Mihalache Ion Mihai',
-    position: 'Împuternicit adjunct al șefului Inspectoratului de Poliție Județean Olt',
-    crime: 'Conflict de interese administrativ',
-    county: 'Olt',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani12PublicOfficials2023,
-  },
-  {
     name: 'Disăgilă Nicoleta Isabela',
     position: 'Director general în cadrul Primăriei Sectorului 5 București',
     positionType: 'local_official',
@@ -7330,16 +7222,6 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     county: 'Constanța',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.aniMedicalManagers2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.badescuPsdParty],
-  },
-  {
-    name: 'Neacșu Mihai Gabriel',
-    party: 'AUR',
-    position: 'Funcționar public în cadrul Primăriei Municipiului Cluj-Napoca, județul Cluj',
-    positionType: 'local_official',
-    crime: 'Incompatibilitate',
-    county: 'Cluj',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani8PublicOfficials2022,
-    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.neacsuAurParty],
   },
   {
     name: 'Vînătoru Dragoș-Victor',
@@ -7418,20 +7300,6 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani6PublicOfficials2021,
   },
   {
-    name: 'Oprescu Mircea Sorin',
-    position: 'Fost șef secție în cadrul Spitalului Universitar de Urgență București',
-    crime: 'Incompatibilitate',
-    county: 'București',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani2PublicOfficials2023,
-  },
-  {
-    name: 'Mureșan Vasile Adrian',
-    position: 'Medic șef secție Chirurgie Vasculară în cadrul Spitalului Clinic Județean de Urgență Târgu-Mureș',
-    crime: 'Incompatibilitate',
-    county: 'Mureș',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani8PublicOfficials2024,
-  },
-  {
     name: 'Mitroi Ștefan Cristinel',
     position: 'Șef serviciu Financiar-Contabil, Buget în cadrul Direcției Economice a Primăriei Orașului Voluntari, județul Ilfov',
     positionType: 'local_official',
@@ -7444,13 +7312,6 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     position: 'Coordonator al controlului financiar preventiv propriu în cadrul MIPE - Direcția Generală Programe Europene Capital Uman',
     crime: 'Conflict de interese administrativ',
     county: 'București',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani8PublicOfficials2024,
-  },
-  {
-    name: 'Maxim Bogdan-Valentin',
-    position: 'Funcționar public cu statut special în cadrul Inspectoratului de Poliție Județean Sibiu',
-    crime: 'Incompatibilitate',
-    county: 'Sibiu',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani8PublicOfficials2024,
   },
   {
@@ -7534,13 +7395,6 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     crime: 'Sesizare Parchet privind folosirea funcției pentru favorizarea unor persoane',
     county: 'Dolj',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani6PublicOfficials2025,
-  },
-  {
-    name: 'Pătrașcu Dorin Mihai',
-    position: 'Director general în cadrul Regiei Autonome Aeroportul Satu Mare',
-    crime: 'Sesizare Parchet privind folosirea funcției pentru favorizarea unor persoane',
-    county: 'Satu Mare',
-    source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani4PublicOfficials2025Second,
   },
 ].map(makeAutomatedJun2026DeepDiveRecord);
 
@@ -8084,24 +7938,6 @@ const AUTOMATED_JUN_2026_PUBLIC_ADMIN_RECORDS = [
         url: 'https://gherlainfo.ro/investirea-primarului-la-gherla-consilierii-au-depus-juramantul-video/',
       },
     ],
-  },
-  {
-    name: 'Radu Florentina Georgeta',
-    party: 'Independent',
-    position:
-      'Director executiv al Directiei pentru Sanatate din cadrul Administratiei pentru Sanatate si Educatie a Municipiului Timisoara',
-    position_type: 'local_official',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
-    details:
-      'ANI a constatat in aprilie 2026 ca, la 28 decembrie 2023, ar fi semnat dispozitia prin care si-a aprobat propriul transfer de la Directia de Sanatate Publica Timis la Administratia pentru Sanatate si Educatie a Municipiului Timisoara.',
-    verified_at: '2026-06-04',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Functia publica relevanta era in cadrul Administratiei pentru Sanatate si Educatie a Municipiului Timisoara.',
-    },
-    sources: [ANI_APR_2026_PUBLIC_OFFICIALS_SOURCE],
   },
   {
     name: 'Gîrtone Ligia Mihaela',
@@ -10621,7 +10457,9 @@ const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_SOURCES = {
 };
 
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_ROWS = [
-  ["Matei Constantin-Robert", "Independent", "Arge\u0219", "Consiliul Local B\u0103bana", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls", "4999", 54, false, 2014, "05/06/2014", "Administrator", "Societate comerciala", false],
+  // Identity review 2026-08-03: the BEC candidate from Băbana and the REBOB
+  // administrator convicted in DNA case 4995 share an exact name and county,
+  // but no independent identifier establishes that they are the same person.
   ["Neghin\u0103 Victor-Lauren\u021biu", "PMP", "Bac\u0103u", "Prim\u0103ria municipiului One\u0219ti", "mayor", "https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Juncu Mihai", "ALDE", "Bac\u0103u", "Consiliul Local Odobe\u0219ti", "local_official", "https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls", "3951", 40, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Istrati Igori", "PER", "Ia\u0219i", "Prim\u0103ria Miroslava", "mayor", "https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls", "3571", 48, false, 2012, "04/10/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
@@ -12054,14 +11892,6 @@ const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
 
 const AUTOMATED_JUL_07_2026_HARTA_ADDITIONAL_ROWS = [
   ["Mihaila Ioan-Marian", "Timis", "Cadru didactic", "Cadru didactic (MECS)", "4189", 36, true, 2013, "19/06/2013", false],
-  ["Raban Catalin Laurentiu", "Arges", "Ofiter politie", "Politie (MAI)", "4999", 36, true, 2014, "05/06/2014", false],
-  ["Saulea Danut", "Bucuresti", "Expert", "Parlamentul Romaniei", "3946", 36, true, 2013, "27/02/2013", false],
-  ["Spataru Ionel", "Brasov", "Comisar sef politie", "Autoritatea nationala pentru protectia consumatorilor (Ministerul Economiei)", "3324", 60, false, 2012, "07/06/2012", false],
-  ["Tarcea Ioan", "Sibiu", "Sef compartiment", "Inspectoratul teritorial de munca (MMFPS)", "3065", 36, true, 2012, "12/03/2012", false],
-  ["Abur Stefanita Costin", "Bucuresti", "Angajat", "Societate comerciala", "5600", 36, true, 2014, "12/11/2014", true],
-  ["Alexandrescu Ion Adrian", "Bucuresti", "Preot", "Biserica ortodoxa romana", "4822", 30, true, 2013, "16/04/2013", false],
-  ["Balan Lenuta", "Galati", "Economist", "Societate comerciala", "4769", 33, true, 2014, "20/03/2014", false],
-  ["Balanescu Adrian-Dorin", "Neamt", "Reprezentant", "Societate comerciala", "1937", 24, true, 2010, "07/10/2010", true],
   ["Balazs Fulop Maria", "Harghita", "Administrator", "Societate comerciala", "4379", 36, true, 2013, "08/10/2013", true],
   ["Bangau Maricica", "Bacau", "Reprezentant", "Societate comerciala", "5076", 60, false, 2014, "20/06/2014", false],
   ["Banica Cristian Claudiu", "Prahova", "Sofer", "Societate comerciala", "4356", 12, true, 2013, "26/09/2013", false],
@@ -13736,47 +13566,6 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
       },
     ],
   },
-  {
-    name: 'Virgil Valentin Dorobanțu',
-    party: 'Independent',
-    position: 'Director executiv în cadrul APIA - Centrul Județean Ialomița',
-    position_type: 'local_official',
-    geography: {
-      county: 'Ialomița',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul APIA - Centrul Județean Ialomița.',
-    },
-    crime: 'Folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
-    details:
-      'ANI a sesizat Parchetul de pe lângă Judecătoria Slobozia cu privire la indicii de folosire a funcției pentru favorizarea unor persoane, reținând că, după numirea sa ca director executiv, ar fi delegat soției atribuții de control într-un compartiment subordonat direct.',
-    verified_at: '2026-07-09',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/',
-      },
-    ],
-  },
-  {
-    name: 'Daniel Vasile Crăciun',
-    party: 'Independent',
-    position: 'Auditor în cadrul Agenției Naționale de Administrare Fiscală',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat că, în perioada 17 mai 2021 - 4 mai 2022, a exercitat simultan funcția publică de auditor în cadrul ANAF și funcția contractuală de auditor intern într-o societate, cu atribuții private aflate în legătură directă sau indirectă cu atribuțiile de funcționar public.',
-    verified_at: '2026-07-09',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/',
-      },
-    ],
-  },
 ];
 
 const AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS =
@@ -14703,20 +14492,40 @@ export const politicianOverrides = {
     ],
   },
   'Adrian N\u0103stase': {
-    verified_at: '2026-03-22',
+    crime: 'Folosirea influenței politice pentru finanțarea ilegală a campaniei; luare de mită; șantaj',
+    sentence: '2 ani închisoare (Trofeul Calității) și 4 ani închisoare (Zambaccian)',
+    details:
+      'Condamnat definitiv la 2 ani de închisoare în dosarul „Trofeul Calității” la 20 iunie 2012 și la 4 ani de închisoare în dosarul „Zambaccian” la 6 ianuarie 2014. Rezumatul anterior inversa dosarele și pedepsele.',
+    verified_at: '2026-08-03',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3383',
+        description: 'Hotărârea definitivă din dosarul Trofeul Calității (20 iunie 2012)',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4564',
+        description: 'Hotărârea definitivă din dosarul Zambaccian (6 ianuarie 2014)',
       },
     ],
   },
   'Liviu Dragnea': {
+    position:
+      'Fost președinte al Consiliului Județean Teleorman; fost secretar general și președinte PSD; fost deputat și viceprim-ministru',
+    crime:
+      'Folosirea influenței politice în legătură cu referendumul din 2012; instigare la abuz în serviciu',
+    sentence:
+      '2 ani cu suspendare (dosarul referendumului) și 3 ani și 6 luni cu executare (DGASPC Teleorman)',
+    execution_type: 'Cu executare pentru condamnarea definitivă din 2019',
+    details:
+      'Condamnat definitiv la 22 aprilie 2016 la 2 ani de închisoare cu suspendare pentru folosirea influenței ori autorității funcției de conducere într-un partid, în legătură cu referendumul din 2012. Condamnat definitiv separat, la 27 mai 2019, la 3 ani și 6 luni de închisoare cu executare pentru instigare la abuz în serviciu în dosarul angajărilor fictive de la DGASPC Teleorman. Pedepsele provin din două dosare distincte și nu se însumează ca o singură pedeapsă.',
     prejudiciu_eur: 21722.4,
     prejudiciu_text:
       'În dosarul DGASPC Teleorman, DNA a consemnat despăgubiri civile totale de 108.612 lei; din această sumă, 34.339 lei fuseseră deja achitați de o altă inculpată la momentul hotărârii definitive.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-03',
     sources: [
       {
         label: 'DNA',
@@ -14731,23 +14540,58 @@ export const politicianOverrides = {
     ],
   },
   'Elena Udrea': {
+    position:
+      'Fost ministru al Turismului și al Dezvoltării Regionale (2008-2012); fost deputat',
+    crime: 'Luare de mită (3 infracțiuni); abuz în serviciu — dosarul Gala Bute',
+    sentence: '6 ani închisoare cu executare (dosarul Gala Bute)',
+    conviction_year: 2018,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberată condiționat în 2025',
+    details:
+      'Condamnată definitiv la 5 iunie 2018 la 6 ani de închisoare pentru trei infracțiuni de luare de mită și abuz în serviciu în dosarul Gala Bute. Condamnarea a fost confirmată în aprilie 2022 prin respingerea contestației în anulare și a fost pusă în executare după extrădarea din Bulgaria. Tribunalul Prahova a dispus definitiv liberarea condiționată la 17 iulie 2025; aceasta privește executarea pedepsei și nu schimbă statusul condamnării. Separat, procesul penal din dosarul Hidroelectrica a încetat definitiv la 4 iunie 2024 ca urmare a prescripției, fără o condamnare în acel dosar.',
     prejudiciu_eur: 1623360,
     prejudiciu_text:
       'În dosarul Gala Bute, DNA a consemnat obligația de plată a sumei de 8.116.800 lei cu titlu de despăgubiri civile către Autoritatea Națională pentru Turism.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-03',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8867',
       },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2022/09/12/udrea---noua-actiune-de-contestare-a-sentintei-in-dosarul-gala-bute-dna-sustine-ca-procedura-nu-exis--977809',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2024/06/04/udrea-scapa-definitiv-de-acuzatii-in-dosarul-hidroelectrica-privind-mita-de-5-milioane-de-dolari-fap--1306178',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2025/07/17/prahova-elena-udrea-va-fi-liberata-conditionat-decizia-este-definitiva--1469122',
+      },
     ],
   },
   'Dan Voiculescu': {
+    position:
+      'Fost senator de București și fost vicepreședinte al Senatului; fondator al Partidului Conservator',
+    crime: 'Spălare de bani în formă continuată — dosarul privatizării ICA',
+    sentence: '10 ani închisoare cu executare (hotărârea definitivă din 2014)',
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2017',
+    details:
+      'Condamnat definitiv la 8 august 2014 la 10 ani de închisoare pentru spălare de bani în formă continuată în dosarul privatizării Institutului de Cercetări Alimentare. A fost liberat condiționat la 18 iulie 2017. La 4 martie 2026, Tribunalul București a admis în principiu o cerere de revizuire și a stabilit rejudecarea cauzei; profilul rămâne ascuns editorial până la verificarea unei soluții ulterioare. Admiterea în principiu a revizuirii nu este prezentată aici ca achitare sau anulare a condamnării.',
     prejudiciu_eur: 60482615,
     prejudiciu_text:
-      'În dosarul ICA, DNA a indicat un prejudiciu total de 60.482.615 euro.',
-    verified_at: '2026-04-10',
+      'La trimiterea în judecată, DNA a indicat suma de 222.222.264 lei, echivalentul a 60.482.615 euro, compusă din prejudiciul efectiv și folosul nerealizat calculat pentru partea civilă.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
     geography: {
       county: 'București',
       basis: 'constituency',
@@ -14762,93 +14606,332 @@ export const politicianOverrides = {
       {
         label: 'DNA',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5424',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1077',
+      },
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3C280CAC-36A7-412E-A55C-7B763C128262',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/2018/01/01/retrospectiva-2017-numarul-detinutilor-a-scazut-la-circa-23-500-de-la-aproape-27-500-la-sfarsitul-lu--29824',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/03/04/tribunalul-bucuresti-admite-in-principiu-cererea-lui-dan-voiculescu-de-revizuire-si-rejudecare-a-dos--1533922',
       },
     ],
   },
-  'Decebal Traian Reme\u0219': {
-    verified_at: '2026-03-22',
+  'Decebal Traian Remeș': {
+    position:
+      'Fost ministru al Finanțelor (1998-2000), ministru al Agriculturii (2007), deputat și președinte al Consiliului Județean Maramureș',
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare în regim de detenție',
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2014',
+    details:
+      'Condamnat definitiv la 25 februarie 2013 la 3 ani de închisoare în regim de detenție pentru trafic de influență, pentru fapte din perioada mandatului de ministru al Agriculturii. Instanța a dispus confiscarea sumelor de 15.000 euro și 1.500 lei. A fost liberat condiționat în 2014 și a decedat la 14 februarie 2020.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=944',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3926',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/flux-documentare/2020/02/14/a-murit-fostul-ministru-al-agriculturii-decebal-traian-remes-fisa-biografica--449664',
+      },
+    ],
+  },
+  'Ioan Avram Mureșan': {
+    position:
+      'Fost ministru al Reformei și ministru al Agriculturii și Alimentației; fost deputat PNȚCD de Mureș',
+    crime:
+      'Deturnare de fonduri și abuz în serviciu cu consecințe deosebit de grave; complicitate la cumpărare de influență într-un dosar separat',
+    sentence:
+      '7 ani închisoare (hotărârea definitivă din 2012); 3 ani închisoare într-un dosar separat (2013)',
+    sentence_years: 7,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Condamnat definitiv la 28 mai 2012 la 7 ani de închisoare pentru deturnare de fonduri și abuz în serviciu cu consecințe deosebit de grave. Într-un al doilea dosar, condamnat definitiv la 25 februarie 2013 la 3 ani de închisoare în regim de detenție pentru complicitate la cumpărare de influență în formă continuată. Pedepsele provin din dosare distincte și nu sunt prezentate ca un total aritmetic. Intrarea separată „Muresan Ioan”, generată din al doilea dosar, era aceeași persoană și a fost eliminată ca duplicat.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
+    geography: {
+      county: 'Mureș',
+      basis: 'constituency',
+      note: 'Fost deputat ales în circumscripția Mureș; condamnările îl identifică prin funcția de fost ministru.',
+    },
+    sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3268',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3926',
       },
     ],
   },
   'Victor Babiuc': {
-    verified_at: '2026-03-22',
+    position: 'Fost ministru al Apărării Naționale, al Justiției și de Interne; fost deputat',
+    crime: 'Abuz în serviciu contra intereselor publice, în formă calificată — schimburile de terenuri MApN',
+    sentence: '2 ani închisoare în regim de detenție',
+    sentence_years: 2,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2014',
+    details:
+      'Condamnat definitiv la 20 mai 2013 la 2 ani de închisoare în regim de detenție pentru abuz în serviciu contra intereselor publice, în formă calificată, în dosarul schimburilor de terenuri dintre MApN și George Becali. Instanța l-a obligat, în solidar cu George Becali, la plata a 448.378 USD plus dobânda de referință BNR către stat. A fost liberat condiționat la 28 februarie 2014 și a decedat în februarie 2023.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
+    geography: {
+      county: 'Brașov',
+      basis: 'constituency',
+      note: 'Fost deputat ales în circumscripția Brașov; condamnarea îl identifică prin funcția de fost ministru al Apărării Naționale.',
+    },
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4095',
       },
+      {
+        label: 'DNA — trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1992',
+      },
+      {
+        label: 'Digi24 — liberare condiționată',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitiefostul-ministru-al-apararii-victor-babiuc-a-fost-eliberat-207297',
+      },
+      {
+        label: 'Digi24 — deces și repere biografice',
+        kind: 'press',
+        url: 'https://www.digi24.ro/amphtml/stiri/a-murit-victor-babiuc-fostul-ministru-al-apararii-si-al-justitiei-in-guvernarea-cdr-avea-84-de-ani-2264733',
+      },
     ],
   },
   'Relu Fenechiu': {
-    verified_at: '2026-03-22',
+    position: 'Fost ministru al Transporturilor (2012–2013) și fost deputat de Iași',
+    crime: 'Complicitate la abuz în serviciu; trafic de influență; spălare de bani',
+    sentence: '5 ani și 6 luni închisoare, pedeapsă rezultantă',
+    sentence_years: 5.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2017',
+    details:
+      'Condamnat definitiv la 30 ianuarie 2014 la 5 ani de închisoare pentru complicitate la abuz în serviciu contra intereselor publice, în formă calificată și continuată, în dosarul „Transformatorul”, cu despăgubiri civile totale de 5.672.081 lei stabilite în sarcina grupurilor de inculpați. Într-un al doilea dosar, Tribunalul București a validat definitiv la 28 noiembrie 2016 acordul prin care a recunoscut traficul de influență în formă continuată și spălarea banilor, aplicând 3 ani și 10 luni de închisoare și confiscarea a 901.526,38 euro. După contopire, pedeapsa rezultantă a fost de 5 ani și 6 luni. A fost liberat condiționat prin decizie definitivă la 7 august 2017, după aproximativ 3 ani și jumătate de detenție.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
+    geography: {
+      county: 'Iași',
+      basis: 'constituency',
+      note: 'Fost deputat ales în circumscripția Iași; condamnările îl identifică prin funcțiile de deputat și fost ministru.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — dosarul „Transformatorul”',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4618',
+      },
+      {
+        label: 'DNA — acordul de recunoaștere',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7930',
+      },
+      {
+        label: 'Radio România Actualități — liberarea condiționată',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/relu-fenechiu-eliberat-conditionat-dupa-3-ani-si-jumatate-de-inchisoare-id99797.html',
+      },
+      {
+        label: 'Radio România Actualități — revizuire respinsă',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/politica/cererea-de-revizuire-in-dosarul-transformatorul-respinsa-id65081.html',
       },
     ],
   },
   'Miron Mitrea': {
-    verified_at: '2026-03-22',
+    position: 'Fost ministru al Lucrărilor Publice, Transporturilor și Locuinței (2000–2004); fost parlamentar',
+    crime: 'Luare de mită în formă continuată — lucrări la imobilul mamei sale',
+    sentence: '2 ani închisoare în regim de detenție',
+    sentence_years: 2,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2016',
+    details:
+      'Condamnat definitiv de Înalta Curte la 13 februarie 2015 la 2 ani de închisoare pentru luare de mită în formă continuată. Foloasele au constat în lucrări de construcție, amenajare și dotare la imobilul din Voluntari al mamei sale, primite de la Irina Jianu în schimbul numirii și menținerii acesteia la conducerea Inspectoratului de Stat în Construcții. Instanța a dispus confiscarea a 327.928 lei. A fost liberat condiționat la 19 mai 2016, prin decizie definitivă, după aproximativ un an și trei luni de detenție.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
+    geography: {
+      county: 'Vrancea',
+      basis: 'constituency',
+      note: 'Fost parlamentar ales în circumscripția Vrancea; condamnarea îl identifică prin funcția de fost ministru.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — hotărârea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5999',
+      },
+      {
+        label: 'DNA — trimitere în judecată și situația de fapt',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4407',
+      },
+      {
+        label: 'Radio România Actualități — liberarea condiționată',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/miron-mitrea-eliberat-conditionat-din-inchisoare-id84296.html',
       },
     ],
   },
   'Monica Iacob-Ridzi': {
+    position: 'Fost ministru al Tineretului și Sportului (2008–2009); fost deputat de Hunedoara',
+    crime:
+      'Abuz în serviciu în formă calificată; fals intelectual; participație improprie la infracțiuni informatice',
+    sentence: '5 ani închisoare în regim de detenție',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberată condiționat în 2017',
+    details:
+      'Condamnată definitiv de Înalta Curte la 16 februarie 2015 la 5 ani de închisoare pentru abuz în serviciu în formă calificată, fals intelectual în formă continuată și participație improprie la acces fără drept și modificarea ori ștergerea fără drept a datelor informatice, în dosarul „2 Mai”. A fost obligată în solidar cu ceilalți inculpați la plata a 2.736.933,28 lei către Ministerul Tineretului și Sportului. A fost liberată condiționat la 22 noiembrie 2017, după 2 ani și 8 luni. La 4 iunie 2024, Înalta Curte a admis cererea sa de reabilitare judecătorească; minuta publicată prevedea drept de contestație în 10 zile, iar caracterul definitiv al reabilitării nu a putut fi confirmat din evidența publică disponibilă. Intrarea separată „Monica Maria Iacob Ridzi” era aceeași persoană și a fost eliminată ca duplicat.',
     prejudiciu_eur: 547386.656,
     prejudiciu_text:
       'DNA a consemnat în dosarul „2 Mai” despăgubiri civile de 2.736.933,28 lei către Ministerul Tineretului și Sportului.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-03',
+    replace_sources: true,
+    geography: {
+      county: 'Hunedoara',
+      basis: 'constituency',
+      note: 'Fost deputat ales în circumscripția Hunedoara; condamnarea o identifică prin funcția de fost ministru.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — hotărârea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6003',
+      },
+      {
+        label: 'Digi24 — liberarea condiționată',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/monica-iacob-ridzi-eliberata-conditionat-833093',
+      },
+      {
+        label: 'AGERPRES — soluția privind reabilitarea',
+        kind: 'press',
+        url: 'https://agerpres.ro/2024/06/05/instanta-suprema-dispune-reabilitarea-fostului-ministru-monica-iacob-ridzi-condamnata-in-dosarul-2-m--1306716',
+      },
+      {
+        label: 'Camera Deputaților — profil parlamentar',
+        kind: 'official',
+        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0',
       },
     ],
   },
   'Darius V\u00e2lcov': {
-    sentence: '6 ani închisoare',
-    sentence_years: 6,
+    replace_sources: true,
+    position:
+      'Fost primar al Slatinei; fost senator de Olt; fost ministru al Finanțelor',
+    crime: 'Spălarea banilor',
+    sentence: '5 ani închisoare; liberat condiționat în iunie 2026',
+    sentence_years: 5,
     conviction_year: 2023,
+    status: 'convicted',
     details:
-      'Condamnat definitiv de ÎCCJ în mai 2023 la 6 ani de închisoare pentru trafic de influență și spălare de bani în dosarul tablourilor. Anterior a fost primar al Slatinei și ministru de finanțe.',
-    verified_at: '2026-03-22',
+      'Condamnat definitiv de Înalta Curte la 2 mai 2023 la 6 ani de închisoare pentru trafic de influență și spălarea banilor, cu confiscarea a 6,2 milioane lei. La 4 noiembrie 2025, Înalta Curte a constatat prescrisă acuzația de trafic de influență, dar a menținut condamnarea de 5 ani pentru spălarea banilor și confiscarea; acesta este rezultatul juridic actual. Tribunalul Vrancea a dispus definitiv liberarea sa condiționată la 3 iunie 2026. În alte două cauze, a fost achitat definitiv în 2021 pentru instigare la dare și luare de mită, iar în 2023 o condamnare de 6 ani și 6 luni pentru luare de mită a fost desființată ca urmare a prescripției.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Olt',
+      basis: 'political_base',
+      locality: 'Slatina',
+      note: 'Fost primar al municipiului Slatina și senator ales în Olt.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă din 2 mai 2023',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=12126',
+      },
+      {
+        label: 'ÎCCJ — declarația privind decizia din 4 noiembrie 2025',
+        kind: 'official',
+        url: 'https://cdn.g4media.ro/wp-content/uploads/2025/11/Declaratie-de-presa-4-noiembrie-2025.docx-4.pdf',
+      },
+      {
+        label: 'AGERPRES — liberarea condiționată și istoricul soluțiilor',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/06/03/video-vrancea-darius-valcov-a-fost-eliberat-conditionat-din-penitenciar-avea-de-executat-o-pedeapsa---1562641',
+      },
+      {
+        label: 'Senatul României — fișa mandatului',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1a3f2bbd-f43a-4ebf-b032-acad447c6d82',
       },
     ],
   },
   'Nicu\u0219or Constantinescu': {
+    replace_sources: true,
+    position: 'Fost președinte al Consiliului Județean Constanța',
+    position_type: 'county_council_president',
+    role_at_time: 'Președinte al Consiliului Județean Constanța; în dosarul retrocedărilor, consilier municipal la data faptelor',
+    crime:
+      'Abuz în serviciu (mai multe condamnări definitive); constituirea unui grup infracțional organizat (dosar distinct)',
+    sentence: 'Pedeapsă rezultantă de 10 ani de închisoare cu executare',
+    sentence_years: 10,
+    conviction_year: 2019,
+    status: 'convicted',
+    execution_type: 'Cu executare',
     prejudiciu_eur: 6410305.17,
     prejudiciu_text:
       'Comunicatul DNA din 14 noiembrie 2014 indică, în dosarul perdelelor forestiere, un prejudiciu de 30.782.039 lei în dauna Consiliului Județean Constanța și 1.269.486,85 lei în dauna statului.',
-    verified_at: '2026-04-10',
+    details:
+      'Înalta Curte a dispus definitiv, la 11 iulie 2019, pedeapsa rezultantă de 10 ani de închisoare pentru trei infracțiuni continuate de abuz în serviciu, în dosarul cunoscut drept „perdelele forestiere”. Separat, la 7 februarie 2019, aceeași instanță îl condamnase definitiv la 5 ani pentru abuz în serviciu și constituirea unui grup infracțional organizat în dosarul retrocedărilor; această pedeapsă a intrat în contopirea ulterioară. O altă condamnare definitivă de 8 ani, pronunțată în 2021, privește două infracțiuni de abuz în serviciu și două de conflict de interese. Profilul nu prezintă drept condamnări dosarele închise ulterior prin prescripție și nu afirmă situația curentă a detenției, deoarece întreruperea medicală a executării a avut evoluții procedurale recente.',
+    geography: {
+      county: 'Constanța',
+      locality: 'Constanța',
+      level: 'county',
+      basis: 'office',
+    },
+    verified_at: '2026-08-03',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — hotărârea definitivă din dosarul perdelelor forestiere',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9583',
       },
       {
-        label: 'DNA',
+        label: 'DNA — rechizitoriul din dosarul perdelelor forestiere',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=5508',
+      },
+      {
+        label: 'DNA — hotărârea definitivă din dosarul retrocedărilor',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9349',
+      },
+      {
+        label: 'DNA — condamnarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10339',
+      },
+      {
+        label: 'AGERPRES — confirmarea pedepsei definitive de 10 ani',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2019/07/11/iccj-nicusor-constantinescu---condamnat-definitiv-la-10-ani-de-inchisoare--339935',
       },
     ],
   },
@@ -15148,11 +15231,17 @@ export const politicianOverrides = {
     ],
   },
   'Corneliu Dobri\u021boiu': {
-    sentence: '1 an închisoare cu suspendare',
+    replace_sources: true,
+    position: 'Fost ministru al Apărării (mai–decembrie 2012); fost senator de București (2012–2016)',
+    crime:
+      'Participație improprie la abuz în serviciu și la fals intelectual',
+    sentence: '1 an închisoare cu suspendare; termen de încercare 3 ani',
+    sentence_years: 1,
     conviction_year: 2016,
+    status: 'convicted',
     details:
-      'Condamnat definitiv în mai 2016 la 1 an cu suspendare pentru participație improprie la abuz în serviciu și fals intelectual, în dosarul locuințelor de serviciu din MApN.',
-    verified_at: '2026-03-22',
+      'Condamnat definitiv de Înalta Curte la 24 mai 2016 la 1 an de închisoare cu suspendare, cu termen de încercare de 3 ani, pentru participație improprie la abuz în serviciu și la fals intelectual. Cauza privea cumpărarea în regim subvenționat a unei locuințe de serviciu de la MApN, pe baza unor acte false, deși deținuse o altă locuință. Faptele erau anterioare mandatului de ministru. Instanța l-a obligat să plătească MApN 15.846,70 lei; suma fusese consemnată încă din timpul urmăririi penale.',
+    verified_at: '2026-08-03',
     geography: {
       county: 'București',
       basis: 'constituency',
@@ -15160,49 +15249,193 @@ export const politicianOverrides = {
     },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — hotărârea definitivă din 24 mai 2016',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7471',
+      },
+      {
+        label: 'DNA — rechizitoriul privind locuințele MApN',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4280',
+      },
+      {
+        label: 'Senatul României — fișa mandatului 2012–2016',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=47e8f5cb-ca35-476b-9288-f712ccd5fb06',
       },
     ],
   },
   'Gabriel Sandu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    party: 'PDL',
+    position: 'Fost ministru al Comunicațiilor și Societății Informaționale (2008–2010)',
+    crime: 'Trafic de influență în dosarul licențelor Microsoft',
+    sentence: '3 ani închisoare; pedeapsă executată',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Înalta Curte l-a condamnat definitiv la 3 octombrie 2016 la 3 ani de închisoare pentru trafic de influență în dosarul licențelor Microsoft și a dispus confiscarea sumei de 2.196.035 euro. A executat pedeapsa și a ieșit din penitenciar în 2018. Într-o cauză separată privind spălarea aceleiași sume, procesul penal a fost încetat definitiv la 22 mai 2023 ca urmare a prescripției. Dosarul „Microsoft 3”, în care era judecat pentru abuz în serviciu, a fost trimis din nou spre rejudecare printr-o decizie definitivă din 12 decembrie 2023. Separat, în dosarul Poșta Română – proiectul „Meter Net”, a fost trimis în judecată în 2019 pentru trafic de influență și complicitate la abuz în serviciu; nu a fost identificată o soluție finală publică pentru ultimele două cauze până la data verificării.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Prahova',
+      basis: 'political_base',
+      locality: 'Mizil',
+      note: 'Fost lider politic și candidat în județul Prahova; sursele biografice îl identifică drept mizilean.',
+    },
     sources: [
       {
         label: 'DNA',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=9417',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7757',
+      },
+      {
+        label: 'DNA – dosarul Poșta Română',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10969',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2023/05/22/dosar-microsoft-fostul-ministru-gabriel-sandu-scapa-definitiv-de-acuzatia-de-spalare-de-bani---fapte--1111984',
+      },
+      {
+        label: 'Ziarul Prahova',
+        kind: 'press',
+        url: 'https://ziarulprahova.ro/2019/11/prahoveanul-gabriel-sandu-fost-ministru-al-comunicatiilor-in-guvernul-boc-trimis-in-judecata-intr-un-nou-dosar/',
+      },
+      {
+        label: 'Minută ÎCCJ reprodusă de Lumea Justiției',
+        kind: 'press',
+        url: 'https://www.luju.ro/a-doua-rejudecare-in-microsoft-3-completul-de-5-judecatori-iccj-a-desfiintat-sentinta-de-incetare-a-procesului-penal-pe-motiv-de-prescriptie-dispusa-fata-de-fostul-ministru-al-comunicatiilor-gabriel-sandu-si-afaceristii-claudiu-florica-dinu-pescariu-si-ca',
+      },
+      {
+        label: 'Portal Legislativ',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/FormaPrintabila/00000G07F2HGYGOV5JD1OAW7YO4XSDMG',
       },
     ],
   },
   'Tudor Chiuariu': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position:
+      'Fost ministru al Justiției (aprilie–decembrie 2007); fost deputat și senator PNL',
+    crime:
+      'Abuz în serviciu cu consecințe deosebit de grave și obținerea unui avantaj patrimonial pentru altul',
+    sentence:
+      '3 ani și 6 luni închisoare cu suspendare sub supraveghere; termen de încercare 6 ani',
+    sentence_years: 3.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Înalta Curte la 24 ianuarie 2014 la 3 ani și 6 luni de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, în dosarul Poșta Română. În calitate de ministru al Justiției, a avizat HG nr. 377/2007 privind trecerea unui imobil din proprietatea publică în proprietatea privată a statului, deși direcția de specialitate a ministerului se opusese avizării; operațiunea a favorizat Imopost Developments. Într-un dosar separat, al retrocedărilor de păduri, a fost achitat pentru toate acuzațiile; achitarea a rămas definitivă în 2019, iar Înalta Curte a respins în 2021 cererea Parchetului General de revizuire.',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'constituency',
+      note: 'Senator ales în circumscripția electorală Mehedinți.',
+    },
+    verified_at: '2026-08-03',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — rechizitoriul din dosarul Poșta Română',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2082',
+      },
+      {
+        label: 'România Actualități — condamnarea definitivă',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/politica/zsolt-nagy-si-tudor-chiuariu-inchisoare-cu-suspendare-id52765.html',
+      },
+      {
+        label: 'HotNews — minuta și termenul de încercare',
+        kind: 'press',
+        url: 'https://hotnews.ro/sentintele-definitive-in-dosarul-posta-romana-seful-comisiei-juridice-din-senat-tudor-chiuariu-trei-ani-si-jumatate-de-inchisoare-cu-suspendare-fostul-ministru-al-comunicatiilor-nagy-zsolt-pat-575215',
+      },
+      {
+        label: 'G4Media — achitarea definitivă și respingerea revizuirii',
+        kind: 'press',
+        url: 'https://www.g4media.ro/decizie-definitiva-sebastian-ghita-si-tudor-chiuariu-raman-achitati-in-dosarele-in-care-fostul-sef-al-sectiei-speciale-a-retras-apelurile-revizuirea-ceruta-de-parchetul-general-a-fost-respinsa.html',
+      },
+      {
+        label: 'Senatul României — fișa mandatului',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=bc53023b-ab0d-4ccc-a120-9e430c7a8c6e',
       },
     ],
   },
   'Zsolt Nagy': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position: 'Fost ministru al Comunicațiilor și Tehnologiei Informației (2004–2007)',
+    crime:
+      'Abuz în serviciu cu consecințe deosebit de grave; aderare la un grup infracțional organizat cu caracter transnațional',
+    sentence: 'Pedeapsă rezultantă de 5 ani; liberat condiționat în 2017',
+    sentence_years: 5,
+    conviction_year: 2015,
+    status: 'convicted',
+    details:
+      'În dosarul Poșta Română, Înalta Curte l-a condamnat definitiv la 24 ianuarie 2014 la 4 ani de închisoare cu suspendare pentru abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave. În dosarul privatizărilor strategice, a fost condamnat definitiv la 27 ianuarie 2015 la 4 ani cu executare pentru aderare la un grup infracțional organizat cu caracter transnațional. Cele două pedepse au fost contopite în 2015 într-o pedeapsă rezultantă de 5 ani. A fost liberat condiționat printr-o hotărâre definitivă la 4 octombrie 2017, după 2 ani și 9 luni executați. La 13 martie 2024, Înalta Curte a admis reabilitarea judecătorească pentru ambele condamnări; minuta publicată prevedea drept de contestație în 10 zile, iar caracterul definitiv al reabilitării nu a putut fi confirmat din evidențele publice consultate.',
+    verified_at: '2026-08-03',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=2082',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4603',
+      },
+      {
+        label: 'Economica.net',
+        kind: 'press',
+        url: 'https://www.economica.net/seres-4-ani-si-8-luni-de-inchisoare-cu-executare-nagy-4-ani-condamnari-definitive-in-doasrul-privatizarilor-strategice_95209.html',
+      },
+      {
+        label: 'Digi24',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/fost-ministru-condamnat-pentru-tradare-eliberat-conditionat-dupa-doi-ani-si-noua-luni-804811',
+      },
+      {
+        label: 'Minută ÎCCJ reprodusă de JustNews',
+        kind: 'press',
+        url: 'https://justnews.ro/instanta-suprema-decide-reabilitarea-fostului-ministru-al-comunicatiilor-zsolt-nagy/',
       },
     ],
   },
   'Constantin Niță': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position: 'Fost ministru delegat pentru Energie; fost deputat de Brașov',
+    role_at_time: 'Ministru delegat pentru Energie',
+    crime: 'Trafic de influență',
+    sentence: '4 ani închisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2022,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'ÎCCJ l-a condamnat în primă instanță în mai 2017, iar condamnarea definitivă din iunie 2018 a fost ulterior supusă rejudecării după constatarea nelegalității completului de cinci judecători. La 25 noiembrie 2022, ÎCCJ a pronunțat noua soluție definitivă și a menținut pedeapsa de 4 ani cu executare pentru trafic de influență, scăzând cele șase luni executate anterior. Anul relevant al condamnării definitive aflate în vigoare este 2022, nu 2017.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Brașov',
+      basis: 'constituency',
+      note: 'Pagina oficială a Parlamentului îl listează ca deputat PSD de Brașov.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA - trimiterea în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7481',
+      },
+      {
+        label: 'DNA - condamnarea definitivă din 2018, ulterior rejudecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8884',
+      },
+      {
+        label: 'Radio România Iași - soluția definitivă din 25 noiembrie 2022',
+        kind: 'press',
+        url: 'https://www.radioiasi.ro/stiri/national/fostul-ministru-al-energiei-constantin-nita-se-intoarce-la-inchisoare/',
+      },
+      {
+        label: 'Parlamentul României - Constantin Niță',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=60335D0E-F956-4652-8895-CAC300DB5DF6',
       },
     ],
   },
@@ -15217,12 +15450,44 @@ export const politicianOverrides = {
     ],
   },
   'Dan Șova': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position:
+      'Fost ministru pentru Relația cu Parlamentul, Marile Proiecte și Transporturi; fost senator de Olt',
+    crime: 'Trafic de influență — proces încetat prin prescripție',
+    sentence:
+      'Proces penal încetat definitiv prin prescripție în februarie 2026; confiscarea a 100.000 de euro a fost menținută',
+    sentence_years: 0,
+    conviction_year: 2026,
+    status: 'prescribed',
+    execution_type: 'Prescripție',
+    details:
+      'În dosarul CET Govora, Dan Șova a fost judecat pentru trafic de influență. Condamnarea definitivă din martie 2023 la 3 ani cu suspendare a fost casată de ÎCCJ la 17 februarie 2026, iar procesul penal a încetat ca urmare a prescripției; dispoziția de confiscare a 100.000 de euro a rămas în vigoare. Acuzația de complicitate la abuz în serviciu aparținea dosarului separat Rovinari–Turceni, în care Dan Șova a fost achitat definitiv la 28 decembrie 2023.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Olt',
+      basis: 'constituency',
+      note: 'Senatul îl listează ca senator PSD ales în circumscripția Olt în legislatura 2012–2016.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA - trimiterea în judecată în dosarul CET Govora',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7056',
+      },
+      {
+        label: 'AGERPRES - încetarea definitivă prin prescripție în dosarul CET Govora',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/02/17/instanta-suprema-anuleaza-condamnarea-primita-de-dan-sova-in-dosarul-cet-govora--1529013',
+      },
+      {
+        label: 'AGERPRES - achitarea definitivă în dosarul Rovinari–Turceni',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2023/12/28/victor-ponta-achitat-definitiv-in-dosarul-rovinari---turceni--1225581',
+      },
+      {
+        label: 'Senatul României - Dan-Coman Șova',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2459b457-c763-4d45-8426-ae8bd9712a06',
       },
     ],
   },
@@ -15491,9 +15756,17 @@ export const politicianOverrides = {
     ],
   },
   'George Copos': {
+    position: 'Fost viceprim-ministru (2004–2006) și senator de Argeș',
+    crime: 'Evaziune fiscală — dosarul transferurilor de fotbaliști și dosarul „Loteria I”',
+    sentence: '4 ani închisoare, pedeapsă rezultantă',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare; liberat condiționat în 2015',
     details:
-      'Condamnat definitiv \u00een martie 2014 \u00een dosarul transferurilor de fotbali\u0219ti, pentru evaziune fiscal\u0103. DNA a comunicat condamnarea la 3 ani \u0219i 8 luni de \u00eenchisoare prin decizia Cur\u021bii de Apel Bucure\u0219ti.',
-    verified_at: '2026-03-22',
+      'A primit două condamnări definitive pentru evaziune fiscală: 3 ani și 8 luni de închisoare la 4 martie 2014 în dosarul transferurilor de fotbaliști și 4 ani de închisoare la 25 august 2014 în dosarul „Loteria I”. După contopirea pedepselor, a rămas de executat pedeapsa de 4 ani, fără spor. Tribunalul București a dispus definitiv liberarea condiționată la 7 aprilie 2015, după aproximativ un an și o lună de detenție. La 16 februarie 2023, Tribunalul București a admis cererea sa de reabilitare judecătorească pentru ambele condamnări; sursa publică identificată reproduce o soluție care putea fi contestată în 10 zile, iar caracterul ei definitiv nu a putut fi confirmat din evidența publică disponibilă.',
+    verified_at: '2026-08-03',
+    replace_sources: true,
     geography: {
       county: 'Argeș',
       basis: 'constituency',
@@ -15501,25 +15774,70 @@ export const politicianOverrides = {
     },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — dosarul transferurilor',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4705',
+      },
+      {
+        label: 'DNA — dosarul „Loteria I”',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5200',
+      },
+      {
+        label: 'Digi Sport — contopire și liberare condiționată',
+        kind: 'press',
+        url: 'https://www.digisport.ro/fotbal/george-copos-eliberat-conditionat-dupa-ce-a-ispasit-un-an-si-o-luna-din-pedeapsa-decizie-definitiva-162857',
+      },
+      {
+        label: 'ZIUA de Constanța — soluția privind reabilitarea',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/este-oficial-unul-dintre-cei-mai-cunoscuti-afaceristi-din-romania-a-fost-reabilitat-806878.html',
       },
     ],
   },
   'Sorin Frunzăverde': {
     replace_sources: true,
-    verified_at: '2026-03-22',
+    position: 'Fost președinte al Consiliului Județean Caraș-Severin; fost ministru al Apărării',
+    position_type: 'county_council_president',
+    role_at_time:
+      'Președinte al Consiliului Județean Caraș-Severin și vicepreședinte al unui partid politic',
+    crime:
+      'Folosirea influenței ori autorității unei funcții de conducere într-un partid pentru obținerea de foloase necuvenite',
+    sentence: '2 ani închisoare cu suspendare; termen de încercare 4 ani',
+    sentence_years: 2,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    disqualifications:
+      'Interzicerea timp de 5 ani a dreptului de a fi ales și de a ocupa funcții ce implică autoritatea de stat ori conducerea unei persoane juridice de drept public',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv la 25 mai 2016. Cauza privea folosirea influenței politice și administrative între cele două tururi ale alegerilor prezidențiale din 2014, pentru obținerea mai multor voturi pentru candidatul susținut de partid, inclusiv prin condiționarea alocărilor bugetare către primării. Denumirea anterioară „abuz de influență în scop electoral” nu era încadrarea juridică exactă din hotărâre.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Caraș-Severin',
+      basis: 'office',
+      note: 'Cauza privește exercitarea funcției de președinte al Consiliului Județean Caraș-Severin.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA - hotărârea definitivă din 25 mai 2016',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7439',
       },
       {
-        label: 'DNA',
+        label: 'DNA - trimiterea în judecată și descrierea faptelor',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6505',
+      },
+      {
+        label: 'Radio România Actualități - confirmarea soluției definitive',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/politica/sorin-frunzaverde-condamnat-definitiv-id84536.html',
+      },
+      {
+        label: 'AGERPRES - fișă biografică Sorin Frunzăverde',
+        kind: 'profile',
+        url: 'https://agerpres.ro/documentare/2019/11/03/politicianul-sorin-frunzaverde-s-a-stins-din-viata-la-varsta-de-59-de-ani-fisa-biografica--396036',
       },
     ],
   },
@@ -15547,18 +15865,18 @@ export const politicianOverrides = {
       },
     ],
   },
-  'Ioan Avram Mure\u0219an': {
-    verified_at: '2026-03-22',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=3268',
-      },
-    ],
-  },
   'Sorin Panti\u0219': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position: 'Fost ministru al Comunicațiilor (1996–1998)',
+    crime:
+      'Complicitate la stabilirea intenționată a unei valori diminuate în privatizarea ICA; complicitate la manipularea pieței de capital și constituirea unui grup infracțional organizat',
+    sentence: '7 ani închisoare; liberat condiționat în 2018',
+    sentence_years: 7,
+    conviction_year: 2014,
+    status: 'convicted',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv la 8 august 2014 la 7 ani de închisoare în dosarul privatizării Institutului de Cercetări Alimentare (ICA), pentru complicitate la stabilirea intenționată a unei valori diminuate. La 7 octombrie 2014 a primit o a doua condamnare definitivă, de 2 ani și 8 luni, în dosarul Rompetrol, pentru complicitate la manipularea pieței de capital și constituirea unui grup infracțional organizat. Pedepsele au fost contopite, iar mandatul executat a rămas de 7 ani. Judecătoria Ploiești a admis liberarea condiționată la 21 iunie 2018; soluția a devenit definitivă la 27 iunie 2018, când a fost eliberat după aproape patru ani de detenție.',
+    verified_at: '2026-08-03',
     geography: {
       county: 'Caraș-Severin',
       basis: 'hometown',
@@ -15566,19 +15884,53 @@ export const politicianOverrides = {
     },
     sources: [
       {
+        label: 'Portal Legislativ',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/7881',
+      },
+      {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5173',
       },
+      {
+        label: 'Radio România Actualități',
+        kind: 'press',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/condamnari-definitive-cu-executare-in-dosarul-rompetrol-id62888.html',
+      },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/ploiesti/sorin-pantis-fostul-ministru-al-comunicatiilor-1884488.html',
+      },
     ],
   },
   'Stelian Fuia': {
-    verified_at: '2026-03-22',
+    replace_sources: true,
+    position: 'Fost ministru al Agriculturii (februarie–aprilie 2012)',
+    crime: 'Abuz în serviciu cu obținerea unui folos material',
+    sentence: '3 ani închisoare; liberat condiționat în 2018',
+    sentence_years: 3,
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Condamnat definitiv de Înalta Curte la 29 iunie 2016 la 3 ani de închisoare pentru abuz în serviciu cu obținerea unui folos material. Fapta nu a fost comisă în mandatul de ministru, ci în perioada în care conducea Stațiunea de Cercetare și Dezvoltare a Plantelor Medicinale și Aromatice Fundulea: nu a protejat în procedura de executare silită imobile aflate în patrimoniul statului, care au fost scoase ilegal la licitație. Instanța a dispus restituirea imobilelor către stat. Tribunalul Constanța a hotărât definitiv liberarea sa condiționată la 19 februarie 2018.',
+    verified_at: '2026-08-03',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — hotărârea definitivă din 29 iunie 2016',
         kind: 'official',
-        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7574',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7574',
+      },
+      {
+        label: 'Agrointeligența — liberarea condiționată definitivă',
+        kind: 'press',
+        url: 'https://agrointel.ro/92041/decizie-definitiva-fostul-ministru-al-agriculturii-stelian-fuia-eliberat-din-inchisoare',
+      },
+      {
+        label: 'USDA — numirea ca ministru și biografia politică',
+        kind: 'official',
+        url: 'https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=New+Minister+of+Agriculture+appointed+in+Romania_Bucharest_Romania_2-16-2012.pdf',
       },
     ],
   },
@@ -15694,19 +16046,32 @@ export const politicianOverrides = {
   'Cristian Adomni\u021beai': {
     replace_sources: true,
     name: 'Cristian Adomni\u021bei',
+    position: 'Fost președinte al Consiliului Județean Iași; fost deputat și ministru al Educației',
+    position_type: 'county_council_president',
+    role_at_time: 'Președinte al Consiliului Județean Iași',
     status: 'acquitted',
     crime: 'Favorizarea f\u0103ptuitorului; fals intelectual',
     sentence: 'Achitat definitiv (2024)',
     sentence_years: null,
     conviction_year: null,
     details:
-      'Trimis \u00een judecat\u0103 de DNA \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i. Prin decizia penal\u0103 nr. 145 din 8 februarie 2024, Curtea de Apel Gala\u021bi a dispus achitarea sa definitiv\u0103, \u00een timp ce pentru ceilal\u021bi inculpa\u021bi instan\u021ba a constatat intervenirea prescrip\u021biei.',
-    verified_at: '2026-03-22',
+      'DNA l-a trimis în judecată în iulie 2015, pentru fapte imputate perioadei în care conducea Consiliul Județean Iași. Prin decizia penală nr. 145 din 8 februarie 2024, Curtea de Apel Galați l-a achitat definitiv pentru ambele acuzații, reținând, după caz, că fapta nu este prevăzută de legea penală ori că nu există probe că a săvârșit infracțiunea. Soluțiile de prescripție din aceeași hotărâre îi privesc pe alți inculpați, nu pe Cristian Adomniței.',
+    verified_at: '2026-08-03',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      note: 'Faptele imputate și soluția definitivă privesc mandatul său de președinte al Consiliului Județean Iași.',
+    },
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA - rechizitoriu și actualizarea cu achitarea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6506',
+      },
+      {
+        label: 'AGERPRES - achitarea definitivă din 8 februarie 2024',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2024/02/08/fostul-ministru-cristian-adomnitei-scapa-de-inchisoare-in-dosarul-albumul-la-fond-primise-o-condamna--1245807',
       },
     ],
   },
@@ -18755,22 +19120,6 @@ const AUTOMATED_JUL_14_2026_DNA_FOLLOWUP_ROWS = [
     source_id: 13302,
   },
   {
-    name: 'Vieru Sergiu Vasile',
-    status: 'indicted',
-    position: 'Agent de poliție în cadrul Secției de Poliție Crăcăoani - IPJ Neamț',
-    county: 'Neamț',
-    crime: 'Trafic de influență',
-    source_id: 13243,
-  },
-  {
-    name: 'Marin Marius-Eduard',
-    status: 'investigated',
-    position: 'Inspector antifraudă în cadrul ANAF - Direcția Regională Antifraudă Fiscală București',
-    county: 'București',
-    crime: 'Luare de mită',
-    source_id: 13211,
-  },
-  {
     name: 'Istrati Bogdan',
     status: 'investigated',
     position: 'Șef serviciu în cadrul ANAF - Direcția Regională Antifraudă Fiscală București',
@@ -19071,43 +19420,6 @@ const AUTOMATED_JUL_15_2026_MORE_PEOPLE_RECORDS = [
 ];
 
 const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
-  {
-    name: 'Monica Maria Iacob Ridzi',
-    party: 'PDL',
-    position: 'Fost ministru al Tineretului și Sportului; fost deputat de Hunedoara',
-    position_type: 'minister',
-    geography: {
-      county: 'Hunedoara',
-      basis: 'constituency',
-      note: 'A fost deputat ales în circumscripția Hunedoara; se folosește circumscripția parlamentară.',
-    },
-    crime: 'Abuz în serviciu; fals intelectual; infracțiuni informatice',
-    sentence: '5 ani închisoare cu executare',
-    sentence_years: 5,
-    conviction_year: 2015,
-    status: 'convicted',
-    execution_type: 'Cu executare',
-    details:
-      'ÎCCJ a condamnat-o definitiv în februarie 2015 la 5 ani de închisoare în dosarul privind cheltuielile Ministerului Tineretului pentru Ziua Tineretului. Profilul parlamentar o leagă de mandatul PDL de Hunedoara; reabilitarea consemnată ulterior nu schimbă existența condamnării definitive istorice.',
-    verified_at: '2026-07-16',
-    sources: [
-      {
-        label: 'Camera Deputaților',
-        kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0',
-      },
-      {
-        label: 'AGERPRES',
-        kind: 'press',
-        url: 'https://agerpres.ro/2024/06/05/instanta-suprema-dispune-reabilitarea-fostului-ministru-monica-iacob-ridzi-condamnata-in-dosarul-2-m--1306716',
-      },
-      {
-        label: 'Radio România Actualități',
-        kind: 'press',
-        url: 'https://www.romania-actualitati.ro/stiri/romania/monica-iacob-ridzi-merge-la-inchisoare-id67510.html',
-      },
-    ],
-  },
   {
     name: 'Sorin-Ștefan Roșca-Stănescu',
     party: 'PNL',
@@ -19751,24 +20063,6 @@ const AUTOMATED_JUL_18_2026_MORE_PEOPLE_RECORDS = [
     status: 'indicted',
     details:
       'DNA Bacău a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul achizițiilor pentru proiectul „Crearea unei infrastructuri suport de incubare a afacerilor HUB pentru tineret - Cinema Orizont”.',
-    verified_at: '2026-07-18',
-    sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
-  },
-  {
-    name: 'Pavel Romica',
-    party: 'Independent',
-    position: 'Referent la Primăria orașului Ianca',
-    position_type: 'local_official',
-    geography: {
-      county: 'Brăila',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în cadrul Primăriei orașului Ianca, județul Brăila.',
-    },
-    crime:
-      'Luare de mită; fals intelectual; fals material în înscrisuri oficiale',
-    status: 'indicted',
-    details:
-      'DNA Galați a comunicat în ianuarie 2026 trimiterea sa în judecată în dosarul adeverințelor de vechime pretins false eliberate la Primăria orașului Ianca.',
     verified_at: '2026-07-18',
     sources: [DNA_JAN_2026_DEC_2025_BULLETIN_SOURCE],
   },
@@ -21854,15 +22148,6 @@ const AUTOMATED_JUL_22_2026_THIRD_MORE_PEOPLE_RECORDS = [
       'ANI a constatat incompatibilitate în perioada 1 august 2018 - 18 februarie 2019, întrucât a deținut simultan calitatea de funcționar public în cadrul Primăriei Sectorului 5 București și funcția de director într-o societate.',
   }),
   buildJul22AniFeb2020PublicPersonRecord({
-    name: 'Huțanu Georgeta Doina',
-    position: 'Funcționar public în cadrul Consiliului Județean Botoșani',
-    position_type: 'local_official',
-    county: 'Botoșani',
-    note: 'Funcția publică relevantă era în cadrul Consiliului Județean Botoșani.',
-    details:
-      'ANI a constatat incompatibilitate în perioada 2008-2019, întrucât a exercitat simultan funcția publică de consilier la Serviciul urbanism și amenajarea teritoriului din cadrul Consiliului Județean Botoșani și calitatea de expert tehnic judiciar.',
-  }),
-  buildJul22AniFeb2020PublicPersonRecord({
     name: 'Stadoleanu Ioan Daniel',
     position: 'Funcționar public în cadrul Primăriei Municipiului Galați',
     position_type: 'local_official',
@@ -22224,23 +22509,6 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
     verified_at: '2026-07-20',
     sources: [AKOS_MORA_INTEGRITY_SOURCE],
   },
-  {
-    name: 'Vasile Gliga',
-    party: 'PSD',
-    position: 'Fost deputat de Mureș',
-    position_type: 'deputy',
-    geography: {
-      county: 'Mureș',
-      basis: 'constituency',
-      note: 'Cazul ANI a vizat biroul parlamentar din circumscripția electorală Mureș.',
-    },
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
-    details:
-      'România Curată a consemnat, pe baza constatărilor ANI, că deputatul Vasile Gliga și-a angajat soția la biroul parlamentar din circumscripția în care a fost ales, aceasta încasând venituri salariale totale de 27.095 lei.',
-    verified_at: '2026-07-20',
-    sources: [AKOS_MORA_INTEGRITY_SOURCE],
-  },
 ];
 
 const DNA_JUL_2026_UZINA_ARMAMENT_SOURCE = {
@@ -22426,21 +22694,36 @@ const AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS = [
     name: 'Alina Mihaela Bica',
     party: 'Independent',
     position: 'Fost secretar de stat în Ministerul Justiției; fost procuror-șef DIICOT',
-    position_type: 'other',
+    position_type: 'secretary_of_state',
+    role_at_time: 'Procuror-șef al DIICOT',
     geography: {
       county: 'București',
       basis: 'office',
       note: 'Funcțiile publice relevante au fost în instituții centrale cu sediul în București.',
     },
     crime: 'Favorizarea făptuitorului',
-    sentence: '4 ani închisoare',
+    sentence: '4 ani închisoare; pedeapsă considerată executată integral în 2025',
     sentence_years: 4,
-    conviction_year: 2018,
+    conviction_year: 2019,
     status: 'convicted',
+    execution_type: 'Considerată executată integral',
     details:
-      'DNA a consemnat condamnarea definitivă din 26 iunie 2018 la 4 ani închisoare pentru favorizarea făptuitorului. În dosarul ANRP separat, actualizarea oficială din 27 ianuarie 2023 a consemnat achitarea sa pentru acuzațiile reținute acolo.',
-    verified_at: '2026-07-28',
-    sources: [DNA_BICA_FINAL_SOURCE, DNA_ANRP_FINAL_SOURCE],
+      'Înalta Curte a condamnat-o definitiv la 4 ani de închisoare pentru favorizarea făptuitorului la 27 noiembrie 2019, după rejudecarea apelului determinată de problema compunerii completului din 2018. În dosarul ANRP separat, actualizarea oficială din 27 ianuarie 2023 consemnează achitarea sa pentru acuzațiile reținute acolo. La 3 octombrie 2025, Curtea de Apel București a constatat pedeapsa de 4 ani executată integral în Italia și a retras mandatul de executare și mandatul european de arestare; profilul nu afirmă că persoana se află în detenție.',
+    verified_at: '2026-08-03',
+    sources: [
+      DNA_BICA_FINAL_SOURCE,
+      DNA_ANRP_FINAL_SOURCE,
+      {
+        label: 'Digi24 — condamnarea definitivă după rejudecare, 2019',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/alina-bica-ramane-cu-pedeapsa-de-4-ani-de-inchisoare-decizia-este-definitiva-1223223',
+      },
+      {
+        label: 'TVR Info — pedeapsa considerată executată și mandatele retrase, 2025',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/mandatul-european-de-arestare-pentru-alina-bica-retras-de-curtea-de-apel-bucuresti-bica-nu-a-facut-nicio-zi-de-inchisoare-desi-a-fost-condamnata-la-4-ani-cu-executare-ratiuni-juridice/',
+      },
+    ],
   },
   {
     name: 'Sergiu-Ionuț Diacomatu',
@@ -22640,16 +22923,6 @@ const AUTOMATED_JUL_30_2026_MORE_PEOPLE_ROWS = [
     source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
   },
   {
-    name: 'Marin Marius',
-    status: 'indicted',
-    position: 'Functionar in cadrul Autoritatii Vamale Romane',
-    county: 'Bucure\u0219ti',
-    crime: 'Luare de mita in forma continuata',
-    details:
-      'DNA a comunicat in iulie 2025 sesizarea instantei cu acord de recunoastere a vinovatiei in dosarul controalelor vamale din Bucuresti si Ilfov, privind sume si foloase primite pentru neintocmirea unor sesizari penale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: DNA_JUL_2025_VAMA_BUCURESTI_SOURCE,
-  },
-  {
     name: 'Vulcan Marian-Vladimir',
     status: 'indicted',
     position: 'Functionar in cadrul Autoritatii Vamale Romane',
@@ -22793,16 +23066,6 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
     source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
   },
   {
-    name: 'Gherman Dan-Nicolae',
-    status: 'investigated',
-    position: 'Coordonator judetean Timis in cadrul ISCTR - Inspectoratul Teritorial nr. 5',
-    county: 'Timi\u0219',
-    crime: 'Luare de mita in forma continuata; folosirea de informatii nedestinate publicitatii; fals intelectual',
-    details:
-      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale si retinerea in dosarul ISCTR Timisoara, privind protectie fata de controale si divulgarea unor controale tematice. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
-  },
-  {
     name: 'Rogobete Danel-Vasile',
     status: 'investigated',
     position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
@@ -22834,16 +23097,6 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
   },
   {
     name: 'Gherman Octavian',
-    status: 'investigated',
-    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
-    county: 'Timi\u0219',
-    crime: 'Luare de mita in forma continuata',
-    details:
-      'DNA Timisoara a comunicat in iunie 2025 punerea in miscare a actiunii penale in dosarul ISCTR Timisoara, privind bani primiti de inspectori de trafic rutier pentru neaplicarea sanctiunilor la controale. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
-  },
-  {
-    name: 'David Gabriel-Constantin',
     status: 'investigated',
     position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
     county: 'Timi\u0219',
@@ -22913,16 +23166,6 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
     source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
   },
   {
-    name: 'Popa Ionu\u021b-Marius',
-    status: 'investigated',
-    position: 'Inspector de trafic rutier in cadrul ISCTR - Inspectoratul Teritorial nr. 5 Timisoara',
-    county: 'Timi\u0219',
-    crime: 'Luare de mita',
-    details:
-      'DNA Timisoara a comunicat in iunie 2025 efectuarea in continuare a urmaririi penale fata de suspectul din dosarul ISCTR Timisoara, privind bani pretinsi ori primiti la controale rutiere. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: DNA_JUN_2025_ISCTR_TIMISOARA_SOURCE,
-  },
-  {
     name: 'Barra Floare',
     status: 'indicted',
     position: 'Director financiar contabil al Spitalului Clinic Judetean de Urgenta Brasov',
@@ -22980,16 +23223,6 @@ const AUTOMATED_JUL_29_2026_MORE_PEOPLE_ROWS = [
     crime: 'Instigare la fals material in inscrisuri oficiale',
     details:
       'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata in stare de libertate in dosarul DSP Olt, privind instigarea la intocmirea unei cereri de concediu in numele altei persoane. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: DNA_APR_2025_DSP_OLT_SOURCE,
-  },
-  {
-    name: 'Constantin Maria Cristina',
-    status: 'indicted',
-    position: 'Functionar in cadrul Directiei de Sanatate Publica Olt',
-    county: 'Olt',
-    crime: 'Fals material in inscrisuri oficiale; instigare la fals material in inscrisuri oficiale',
-    details:
-      'DNA Craiova a comunicat in aprilie 2025 trimiterea in judecata in stare de libertate in dosarul DSP Olt, privind intocmirea si inregistrarea unei cereri de concediu neconforme. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
     source: DNA_APR_2025_DSP_OLT_SOURCE,
   },
 ];
@@ -23273,19 +23506,6 @@ const AUTOMATED_AUG_01_2026_PARTY_SOURCES = {
 };
 
 const AUTOMATED_AUG_01_2026_MORE_PEOPLE_ROWS = [
-  {
-    name: 'Anghel Constantin Adrian',
-    party: 'Independent',
-    position:
-      'Director al Agentiei de Dezvoltare Locala Bacau din cadrul Primariei municipiului Bacau',
-    position_type: 'other',
-    county: 'Bac\u0103u',
-    crime: 'Abuz in serviciu daca functionarul public a obtinut pentru sine ori pentru altul un folos necuvenit',
-    status: 'indicted',
-    details:
-      'DNA Bacau a comunicat la 8 ianuarie 2026 trimiterea in judecata in dosarul proiectului Cinema Orizont, retinand ca responsabili din Primaria Bacau ar fi subestimat si fragmentat achizitii pentru atribuirea directa a unor echipamente. Sursa oficiala nu consemneaza o afiliere politica; inregistrarea este marcata Independent.',
-    source: AUTOMATED_AUG_01_2026_DNA_DEC_2025_BULLETIN_SOURCE,
-  },
   {
     name: 'Ivanache Ilie',
     party: 'PNL',
@@ -23601,6 +23821,49 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianAdditions = [
+  {
+    name: 'Dănuț Saulea',
+    party: 'PRM',
+    position: 'Fost deputat PRM (legislatura 2000–2004); ulterior expert parlamentar la Senat',
+    position_type: 'deputy',
+    role_at_time: 'Fost deputat și expert parlamentar la Comisia pentru apărare a Senatului',
+    geography: {
+      county: 'Galați',
+      basis: 'political_base',
+      note: 'Activitatea politică parlamentară este asociată circumscripției Galați.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Fost deputat PRM în legislatura 2000–2004 și ulterior expert parlamentar la Senat. DNA l-a trimis în judecată în 2009 pentru trafic de influență, după un flagrant privind tranșe din suma pretinsă pentru o intervenție pe lângă primarul comunei Adunații-Copăceni. Sursele istorice care sintetizează cauza consemnează condamnarea din 2011 la 3 ani de închisoare cu suspendare sub supraveghere. Vechiul profil indica în mod eronat comunicatul DNA 3946, care privește dosarul Electrica Banat și alte persoane.',
+    verified_at: '2026-08-03',
+    sources: [
+      {
+        label: 'Senatul României — inițiativă legislativă din mandatul de deputat PRM',
+        kind: 'official',
+        url: 'https://www.senat.ro/legis/lista.aspx?an_cls=2003&nr_cls=L296',
+      },
+      {
+        label: 'Portal Legislativ — calitatea de deputat în 2001',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocumentAfis/27251',
+      },
+      {
+        label: 'Realitatea — trimiterea în judecată pentru trafic de influență',
+        kind: 'press',
+        url: 'https://www.realitatea.net/stiri/ultimele-stiri/fostul-deputat-danut-saulea-a-fost-trimis-in-judecata-de-dna-pentru-trafic-de-influenta_5dcc91a7406af85273ca4f59',
+      },
+      {
+        label: 'Baza istorică a cauzelor DNA — soluția de condamnare',
+        kind: 'reference',
+        url: 'https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf',
+      },
+    ],
+  },
   ...AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_AUG_01_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUL_31_2026_MORE_PEOPLE_RECORDS,
@@ -23632,14 +23895,14 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Primar general al Bucureștiului (2008-2015); fost senator PSD',
     position_type: 'mayor',
-    crime: 'Luare de mită; constituire grup infracțional organizat; abuz în serviciu',
+    crime: 'Luare de mită; constituirea unui grup infracțional organizat; spălare de bani',
     sentence: '9 ani și 8 luni închisoare',
     sentence_years: 9.67,
     conviction_year: 2022,
     status: 'convicted',
     details:
-      'Condamnat definitiv în mai 2022 în dosarul de corupție de la Primăria Capitalei. În octombrie 2025, Curtea de Apel București i-a redus pedeapsa de la 10 ani și 8 luni la 9 ani și 8 luni.',
-    verified_at: '2026-03-21',
+      'Condamnat definitiv în mai 2022 în dosarul de corupție de la Primăria Capitalei. La 9 octombrie 2025, Curtea de Apel București a constatat dezincriminată infracțiunea de abuz în serviciu, a înlăturat pedeapsa aferentă și a stabilit definitiv o pedeapsă rezultantă de 9 ani și 8 luni pentru infracțiunile rămase. Separat, raportul ANI care a constatat incompatibilitatea sa ca șef de secție la Spitalul Universitar, în perioada 3 ianuarie 2018–15 iunie 2020, a rămas definitiv la 5 iunie 2026. O nouă contestație în anulare privind condamnarea penală este înregistrată la Curtea de Apel București, cu primul termen anunțat pentru 19 octombrie 2026; până la soluționare, profilul nu afirmă un rezultat al acestei căi extraordinare.',
+    verified_at: '2026-08-03',
     sources: [
       {
         label: 'Senatul României',
@@ -23649,7 +23912,7 @@ export const politicianAdditions = [
       {
         label: 'Digi24',
         kind: 'press',
-        url: 'https://www.digi24.ro/video/curtea-de-apel-bucuresti-i-a-scazut-un-an-din-pedeapsa-lui-sorin-oprescu-3448915',
+        url: 'https://www.digi24.ro/stiri/actualitate/curtea-de-apel-se-pronunta-astazi-asupra-cererii-lui-oprescu-de-reducere-a-pedepsei-care-sunt-motivele-invocate-de-catre-fostul-edil-3448647',
       },
       {
         label: 'Digi24',
@@ -23657,6 +23920,21 @@ export const politicianAdditions = [
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/judecatorii-au-respins-cererea-lui-sorin-oprescu-de-anulare-a-condamnarii-de-10-ani-inchisoare-2222851',
       },
       OPRESCU_PSD_SOURCE,
+      {
+        label: 'ANI — raportul de incompatibilitate',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-3/',
+      },
+      {
+        label: 'Capital — soluția definitivă ÎCCJ privind incompatibilitatea',
+        kind: 'press',
+        url: 'https://www.capital.ro/sorin-oprescu-pierde-definitiv-procesul-cu-ani-inalta-curte-a-mentinut-raportul-de-incompatibilitate.html',
+      },
+      {
+        label: 'NewsCenter/Comisarul — contestația în anulare și termenul din 2026',
+        kind: 'press',
+        url: 'https://www.comisarul.ro/articol/tara-in-care-am-ajuns-sa-traimoprescu-incearca-sa-_1630087.html',
+      },
     ],
   },
   {
@@ -34802,29 +35080,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Pisic\u0103 Radu Cristian',
-    party: 'Independent',
-    position: 'Inginer la o societate comercial\u0103',
-    position_type: 'other',
-    geography: {
-      county: 'Dolj',
-      basis: 'case_location',
-      note: 'Dosarul prive\u0219te restituirea unui teren intravilan din comuna Podari.',
-    },
-    crime: 'Instigare la fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
-    status: 'indicted',
-    details:
-      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
-    verified_at: '2026-05-11',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
-      },
-    ],
-  },
-  {
     name: 'Albu Iulian Alexandru',
     party: 'Independent',
     position: 'Arhitect la o societate comercial\u0103',
@@ -35089,31 +35344,6 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
       },
       PISTEA_PARTY_SOURCE,
-    ],
-  },
-  {
-    name: 'Anghel Constantin-Adrian',
-    party: 'Independent',
-    position:
-      'Director al Agenției de Dezvoltare Locală Bacău din cadrul Primăriei municipiului Bacău; manager de proiect',
-    position_type: 'local_official',
-    geography: {
-      county: 'Bacău',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Bacău, județul Bacău.',
-    },
-    crime:
-      'Tentativă la folosirea de documente false pentru obținerea sau reținerea pe nedrept de fonduri europene; fals în înscrisuri sub semnătură privată',
-    status: 'indicted',
-    details:
-      'DNA Bacău l-a trimis în judecată în aprilie 2026 în dosarul proiectului de management al traficului din municipiul Bacău, reținând că ar fi semnat și înaintat dispoziții de șantier cu date pretins necorespunzătoare adevărului.',
-    verified_at: '2026-05-13',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
-      },
     ],
   },
   {
@@ -39072,38 +39302,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Minea Nicolae indică județul Valcea, funcția \"Presedinte consiliu administratie\", instituția \"SC Alutus SA (fost oficiu judetean de turism Valcea)\", decizia 1158 și condamnarea din 06/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Muresan Ioan",
-    "party": "Independent",
-    "position": "Ministru în Guvernul Romaniei",
-    "position_type": "minister",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ministru în Guvernul Romaniei în județul Bucuresti."
-    },
-    "crime": "cumpărare de influență, în formă continuată",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 25 februarie 2013. Condamnarea inculpatului MUREȘAN IOAN la pedeapsa de 3 ani închisoare în regim de detenție pentru complicitate la infracțiunea de cumpărare de influență, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3926"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Muresan Ioan indică județul Bucuresti, funcția \"Ministru\", instituția \"Guvernul Romaniei\", decizia 44 și condamnarea din 25/02/2013."
       }
     ]
   },
@@ -84644,28 +84842,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Chițescu Bogdan Ștefan",
-    "party": "Independent",
-    "position": "Fost director general al S.C. CONVERSMIN S.A. București",
-    "position_type": "other",
-    "geography": {
-      "county": "București",
-      "basis": "office",
-      "note": "Funcția publică relevantă era în cadrul S.C. CONVERSMIN S.A. București."
-    },
-    "crime": "Folosirea funcției pentru favorizarea unor persoane; sesizare parchet",
-    "status": "investigated",
-    "details": "ANI a anunțat în iunie 2026 că a sesizat Parchetul de pe lângă Judecătoria Sectorului 1, reținând indicii că, în perioada în care era director general CONVERSMIN, ar fi solicitat decontarea unor lucrări către Remin S.A., societate la care era administrator special.",
-    "verified_at": "2026-06-11",
-    "sources": [
-      {
-        "label": "ANI",
-        "kind": "official",
-        "url": "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
-      }
-    ]
-  },
-  {
     "name": "Popescu Marius",
     "party": "PSD",
     "position": "Consilier local al comunei Mălureni, județul Argeș",
@@ -86225,29 +86401,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Gheorghe Mihai Marius',
-    party: 'Independent',
-    position: 'Func\u021bionar public cu statut special \u00een cadrul Inspectoratului General al Poli\u021biei Rom\u00e2ne',
-    position_type: 'other',
-    geography: {
-      county: 'Bucure\u0219ti',
-      basis: 'office',
-      note: 'Func\u021bia relevant\u0103 era \u00een structura central\u0103 a Inspectoratului General al Poli\u021biei Rom\u00e2ne, cu sediul \u00een Bucure\u0219ti.',
-    },
-    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
-    status: 'investigated',
-    details:
-      'ANI a sesizat \u00een august 2022 Parchetul de pe l\u00e2ng\u0103 \u00cenalta Curte de Casa\u021bie \u0219i Justi\u021bie privind indicii de fals \u00een declara\u021bii, dup\u0103 ce a constatat venituri, bunuri \u0219i datorii nedeclarate.',
-    verified_at: '2026-06-19',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
-      },
-    ],
-  },
-  {
     name: 'Berechet Nicolae Cristian',
     party: 'Independent',
     position: 'Func\u021bionar public cu statut special \u00een cadrul Inspectoratului de Poli\u021bie Jude\u021bean Sibiu',
@@ -86611,29 +86764,6 @@ export const politicianAdditions = [
     status: 'investigated',
     details:
       'ANI a sesizat \u00een februarie 2022 Parchetul pentru venituri nedeclarate de 35.604 lei \u0219i omiterea unor func\u021bii de\u021binute \u00een dou\u0103 societ\u0103\u021bi comerciale.',
-    verified_at: '2026-06-19',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/',
-      },
-    ],
-  },
-  {
-    name: 'Bogdan Ion',
-    party: 'Independent',
-    position: 'Fost director al Centrului de Formare Ini\u021bial\u0103 \u0219i Continu\u0103 din cadrul Ministerului Afacerilor Interne',
-    position_type: 'other',
-    geography: {
-      county: 'Hunedoara',
-      basis: 'office',
-      note: 'Func\u021bia relevant\u0103 era la Centrul de Formare Ini\u021bial\u0103 \u0219i Continu\u0103 din Or\u0103\u0219tie, jude\u021bul Hunedoara.',
-    },
-    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
-    status: 'investigated',
-    details:
-      'ANI a sesizat \u00een februarie 2022 Parchetul de pe l\u00e2ng\u0103 Judec\u0103toria Or\u0103\u0219tie privind indicii de fals \u00een declara\u021bii, pentru venituri din jocuri de noroc nedeclarate de 13.211 lei.',
     verified_at: '2026-06-19',
     sources: [
       {
@@ -87186,31 +87316,6 @@ export const politicianAdditions = [
         label: 'ANI',
         kind: 'official',
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2789&currentPage=44',
-      },
-    ],
-  },
-  {
-    name: 'Cremene C\u0103lin-Vasile',
-    party: 'Independent',
-    position:
-      'Agent \u0219ef adjunct la Sectorul Poli\u021biei de Frontier\u0103 Halmeu',
-    position_type: 'other',
-    geography: {
-      county: 'Satu Mare',
-      basis: 'office',
-      note:
-        'Func\u021bia relevant\u0103 era la Sectorul Poli\u021biei de Frontier\u0103 Halmeu, jude\u021bul Satu Mare.',
-    },
-    crime: 'Avere nejustificat\u0103',
-    status: 'investigated',
-    details:
-      'ANI a constatat \u00een iunie 2018 o diferen\u021b\u0103 nejustificat\u0103 de 102.024,60 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00een perioada exercit\u0103rii func\u021biei publice \u0219i a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Oradea.',
-    verified_at: '2026-06-19',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2755&currentPage=46',
       },
     ],
   },
@@ -87805,56 +87910,6 @@ export const politicianAdditions = [
         label: 'ANI',
         kind: 'official',
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2345',
-      },
-    ],
-  },
-  {
-    name: 'T\u0103ut Ioan-Liviu',
-    party: 'Independent',
-    position:
-      'Fost rector \u00eemputernicit al Academiei de Poli\u021bie \u201eAlexandru Ioan Cuza\u201d',
-    position_type: 'other',
-    geography: {
-      county: 'Bucure\u0219ti',
-      basis: 'office',
-      note:
-        'Func\u021bia relevant\u0103 era la Academia de Poli\u021bie \u201eAlexandru Ioan Cuza\u201d din Bucure\u0219ti.',
-    },
-    crime: 'Conflict de interese penal',
-    status: 'investigated',
-    details:
-      'ANI a anun\u021bat \u00een noiembrie 2016 c\u0103 a sesizat parchetul dup\u0103 ce, \u00een exercitarea atribu\u021biilor de rector, a semnat \u0219i aprobat documente ale unui proiect \u00een care era \u0219i expert pe termen lung, ob\u021bin\u00e2nd venituri de 25.257 lei.',
-    verified_at: '2026-06-21',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2344',
-      },
-    ],
-  },
-  {
-    name: 'Popescu Constantin Valentin',
-    party: 'Independent',
-    position:
-      'Director general al Direc\u021biei Generale de Asisten\u021b\u0103 \u0219i Protec\u021bie Social\u0103 Mehedin\u021bi',
-    position_type: 'other',
-    geography: {
-      county: 'Mehedin\u021bi',
-      basis: 'office',
-      note:
-        'Func\u021bia public\u0103 relevant\u0103 era \u00een cadrul Direc\u021biei Generale de Asisten\u021b\u0103 \u0219i Protec\u021bie Social\u0103 Mehedin\u021bi.',
-    },
-    crime: 'Conflict de interese administrativ \u0219i penal',
-    status: 'investigated',
-    details:
-      'ANI a constatat \u00een noiembrie 2016 c\u0103 a aprobat o cesiune de crean\u021b\u0103 \u0219i pl\u0103\u021bi de 136.393,58 lei c\u0103tre o societate la care era asociat, iar tat\u0103l s\u0103u era asociat \u0219i administrator; agen\u021bia a indicat at\u00e2t conflict administrativ, c\u00e2t \u0219i indicii penale.',
-    verified_at: '2026-06-21',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2341',
       },
     ],
   },
@@ -93785,7 +93840,7 @@ export const countyOverrides = {
   'Miron Mitrea': 'Vrancea',
   'Monica Iacob-Ridzi': 'Hunedoara',
   'Zsolt Nagy': 'Mure\u0219',
-  'Gabriel Sandu': 'Br\u0103ila',
+  'Gabriel Sandu': 'Prahova',
   'Stelian Fuia': 'C\u0103l\u0103ra\u0219i',
   'Tudor Chiuariu': 'Mehedin\u021bi',
   'Dan \u0218ova': 'Olt',

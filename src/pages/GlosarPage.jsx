@@ -45,6 +45,16 @@ Această fază poate dura luni sau ani și se poate încheia cu: trimitere în j
 Prezumția de nevinovăție se aplică integral. Simpla calitate de suspect sau învinuit nu implică vinovăție.`,
   },
   {
+    key: 'integrity',
+    label: 'Incident de integritate',
+    summary: 'Ce înseamnă o constatare administrativă de integritate?',
+    explanation: `Acest status indică o constatare a Agenției Naționale de Integritate privind o incompatibilitate, un conflict de interese administrativ sau o diferență nejustificată de avere.
+
+Constatarea ANI nu este o acuzație penală și nu înseamnă că persoana este cercetată penal. Raportul poate fi contestat în contencios administrativ; profilul trebuie să precizeze separat dacă a fost contestat și dacă a rămas definitiv.
+
+Dacă ANI a sesizat distinct organele de urmărire penală, acel demers este documentat separat și nu este dedus automat din simpla constatare de integritate.`,
+  },
+  {
     key: 'prescribed',
     label: 'Prescris',
     summary: 'Ce înseamnă prescripție penală în România?',
@@ -80,7 +90,7 @@ export function GlosarPage() {
   useSEO({
     title: 'Glosar juridic — Ce înseamnă condamnat definitiv, trimis în judecată, cercetat | Politicieni Corupți',
     description:
-      'Explică termenii juridici folosiți în dosarele penale ale politicienilor români: condamnat definitiv, condamnat în primă instanță, trimis în judecată, cercetat penal, prescris, clasat, achitat.',
+      'Explică termenii juridici și administrativi folosiți în arhivă: condamnat definitiv, trimis în judecată, cercetat penal, incident de integritate, prescris, clasat și achitat.',
     url: `${BASE_URL}/glosar`,
   });
 

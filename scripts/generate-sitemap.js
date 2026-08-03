@@ -68,7 +68,7 @@ const partyEntries = Object.entries(partyGroups)
 // Build status pages
 const STATUS_ORDER = [
   'convicted', 'first_instance', 'indicted', 'investigated',
-  'prescribed', 'closed', 'acquitted',
+  'integrity', 'prescribed', 'closed', 'acquitted',
 ];
 const statusEntries = STATUS_ORDER
   .filter((status) => politicians.some((p) => p.status === status))

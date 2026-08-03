@@ -21,6 +21,7 @@ const STATUS_DESCRIPTIONS = {
   first_instance: 'Politicieni condamnați în primă instanță — sentința nu este definitivă și poate fi contestată prin apel.',
   indicted: 'Politicieni trimiși în judecată de procuratură — procesul penal este în curs.',
   investigated: 'Politicieni cercetați penal — ancheta este în curs, fără trimitere în judecată.',
+  integrity: 'Persoane cu o constatare administrativă ANI — acest status nu indică o anchetă sau o vinovăție penală.',
   prescribed: 'Cazuri în care instanța a constatat prescripția faptelor — procesul s-a închis fără o sentință pe fond.',
   closed: 'Cazuri clasate sau închise fără trimitere în judecată.',
   acquitted: 'Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune.',

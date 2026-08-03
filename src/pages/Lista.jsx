@@ -19,9 +19,10 @@ const STATUS_RANK = {
   first_instance: 1,
   indicted: 2,
   investigated: 3,
-  prescribed: 4,
-  closed: 5,
-  acquitted: 6,
+  integrity: 4,
+  prescribed: 5,
+  closed: 6,
+  acquitted: 7,
 };
 
 const STATUS_FILTERS = [
@@ -30,6 +31,7 @@ const STATUS_FILTERS = [
   { key: 'first_instance', label: 'Primă instanță' },
   { key: 'indicted', label: 'Trimiși în judecată' },
   { key: 'investigated', label: 'Cercetați' },
+  { key: 'integrity', label: 'Integritate' },
   { key: 'prescribed', label: 'Prescriși' },
   { key: 'closed', label: 'Clasați' },
   { key: 'acquitted', label: 'Achitați' },

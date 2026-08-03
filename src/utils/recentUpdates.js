@@ -3,9 +3,10 @@ const STATUS_RANK = {
   first_instance: 1,
   indicted: 2,
   investigated: 3,
-  prescribed: 4,
-  closed: 5,
-  acquitted: 6,
+  integrity: 4,
+  prescribed: 5,
+  closed: 6,
+  acquitted: 7,
 };
 
 function verifiedTimestamp(value) {

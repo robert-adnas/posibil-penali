@@ -16,6 +16,7 @@ export const STATUS_LABELS = {
   first_instance: 'Condamnat (primă instanță)',
   indicted: 'Trimis în judecată',
   investigated: 'Cercetat penal',
+  integrity: 'Incident de integritate',
   prescribed: 'Prescris',
   closed: 'Clasat',
   acquitted: 'Achitat',

@@ -24,6 +24,11 @@ const STATUS_DEFS = [
     legal: 'Persoana se află sub urmărire penală (urmărire penală în curs), dar nu a fost trimisă încă în judecată. Prezumția de nevinovăție se aplică deplin.',
   },
   {
+    key: 'integrity',
+    label: 'Incident de integritate',
+    legal: 'ANI a constatat administrativ o incompatibilitate, un conflict de interese ori o diferență nejustificată de avere. Nu înseamnă cercetare sau vinovăție penală; eventuala contestare și caracterul definitiv sunt precizate separat în profil.',
+  },
+  {
     key: 'prescribed',
     label: 'Prescris',
     legal: 'Termenul de prescripție a răspunderii penale a expirat. Fapta nu mai poate fi judecată, indiferent de vinovăție. Nu echivalează cu achitarea.',

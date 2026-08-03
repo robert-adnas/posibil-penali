@@ -1,0 +1,1149 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-03",
+  "reviews": [
+    {
+      "profile_id": "RV-0001",
+      "original_name": "Adrian Năstase",
+      "current_name": "Adrian Năstase",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex + verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3383",
+        "https://www.dna.ro/comunicat.xhtml?id=4564"
+      ],
+      "note": "Dosarele si pedepsele erau inversate in rezumat; au fost corectate faptele, descrierea si sursele oficiale.",
+      "reviewed_snapshot_hash": "7e1418f2495434e01c6f4f9c8c574517e76f1e9f9ab6cb308005523536e0ca1e"
+    },
+    {
+      "profile_id": "RV-2748",
+      "original_name": "Mihai Gabriel Neacșu",
+      "current_name": "Mihai Gabriel Neacșu",
+      "decision": "corrected",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex + verificare editoriala",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://gazetadecluj.ro/unul-dintre-sefii-de-la-spatii-verzi-din-primaria-cluj-napoca-declarat-incompatibil/"
+      ],
+      "note": "Profilul a fost consolidat cu dublura RV-2381; statusul fals de cercetare penala a fost inlocuit cu incident de integritate, iar rezultatul definitiv al contestatiei a fost adaugat.",
+      "reviewed_snapshot_hash": "3e387df1fad907237ba5b9a4b4440766ec7b793bcd8a0716db0d7f68c04f0818"
+    },
+    {
+      "profile_id": "RV-2381",
+      "original_name": "Neacșu Mihai Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex + verificare editoriala",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://gazetadecluj.ro/unul-dintre-sefii-de-la-spatii-verzi-din-primaria-cluj-napoca-declarat-incompatibil/"
+      ],
+      "note": "Dublura aceleiasi persoane din RV-2748, generata prin ordinea inversata a numelui; eliminata si consolidata in profilul canonic Mihai Gabriel Neacsu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0002",
+      "original_name": "Liviu Dragnea",
+      "current_name": "Liviu Dragnea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex + verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7368",
+        "https://www.dna.ro/comunicat.xhtml?id=9470"
+      ],
+      "note": "Am inlocuit formularea imprecisa frauda la referendum cu infractiunea exacta din hotararea definitiva, am separat cele doua dosare si am clarificat ca pedepsele nu se insumeaza intr-o singura condamnare.",
+      "reviewed_snapshot_hash": "429c57deabff0126ddc7072bea924d6ca2225f943f3b6299cce91de6d8f19632"
+    },
+    {
+      "profile_id": "RV-0003",
+      "original_name": "Elena Udrea",
+      "current_name": "Elena Udrea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8867",
+        "https://agerpres.ro/justitie/2022/09/12/udrea---noua-actiune-de-contestare-a-sentintei-in-dosarul-gala-bute-dna-sustine-ca-procedura-nu-exis--977809",
+        "https://agerpres.ro/justitie/2024/06/04/udrea-scapa-definitiv-de-acuzatii-in-dosarul-hidroelectrica-privind-mita-de-5-milioane-de-dolari-fap--1306178",
+        "https://agerpres.ro/justitie/2025/07/17/prahova-elena-udrea-va-fi-liberata-conditionat-decizia-este-definitiva--1469122"
+      ],
+      "note": "Corectate infractiunile, cronologia executarii si efectul liberarii conditionate; separat dosarul Hidroelectrica incheiat prin prescriptie.",
+      "reviewed_snapshot_hash": "cccc406d9646d9f1e08a64d8ac9adb5fe18c05a1a43eadb6a1b8ef03884e9f89"
+    },
+    {
+      "profile_id": "RV-0005",
+      "original_name": "Decebal Traian Remeș",
+      "current_name": "Decebal Traian Remeș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3926",
+        "https://agerpres.ro/flux-documentare/2020/02/14/a-murit-fostul-ministru-al-agriculturii-decebal-traian-remes-fisa-biografica--449664"
+      ],
+      "note": "Infractiunea era indicata gresit si sursa trimitea la trimiterea in judecata; adaugate hotararea definitiva, executarea si decesul.",
+      "reviewed_snapshot_hash": "1c8288d2ec3615ea9881fc361ca64f258cee66457cc195aa5908067044645040"
+    },
+    {
+      "profile_id": "RV-2878",
+      "original_name": "Muresan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3926",
+        "https://www.dna.ro/comunicat.xhtml?id=3268"
+      ],
+      "note": "Duplicat al profilului Ioan Avram Muresan; aceeasi functie, aceeasi hotarare DNA si aceeasi persoana.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0006",
+      "original_name": "Ioan Avram Mureșan",
+      "current_name": "Ioan Avram Mureșan",
+      "decision": "corrected",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3268",
+        "https://www.dna.ro/comunicat.xhtml?id=3926"
+      ],
+      "note": "Corectate infractiunile din doua dosare, pedepsele si geografia; duplicatul Muresan Ioan a fost unificat in acest profil.",
+      "reviewed_snapshot_hash": "8cf0071a3b5883f5cb77927cbf096e4046e48ffc6215451a5e314069047898c4"
+    },
+    {
+      "profile_id": "RV-0007",
+      "original_name": "Victor Babiuc",
+      "current_name": "Victor Babiuc",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4095",
+        "https://www.dna.ro/comunicat.xhtml?id=1992",
+        "https://www.digi24.ro/stiri/actualitate/justitiefostul-ministru-al-apararii-victor-babiuc-a-fost-eliberat-207297",
+        "https://www.digi24.ro/amphtml/stiri/a-murit-victor-babiuc-fostul-ministru-al-apararii-si-al-justitiei-in-guvernarea-cdr-avea-84-de-ani-2264733"
+      ],
+      "note": "Identitatea și condamnarea definitivă din 20 mai 2013 sunt confirmate de DNA; fapta, pedeapsa, despăgubirea, liberarea condiționată din 2014 și decesul din 2023 au fost actualizate. Nu au fost identificate evoluții care să desființeze condamnarea.",
+      "reviewed_snapshot_hash": "0faf8bf32e678260b67a040bbba4ff195a1ba4abb142aec8613dc5b763a0310f"
+    },
+    {
+      "profile_id": "RV-0009",
+      "original_name": "Relu Fenechiu",
+      "current_name": "Relu Fenechiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4618",
+        "https://www.dna.ro/comunicat.xhtml?id=7930",
+        "https://www.romania-actualitati.ro/stiri/romania/relu-fenechiu-eliberat-conditionat-dupa-3-ani-si-jumatate-de-inchisoare-id99797.html",
+        "https://www.romania-actualitati.ro/stiri/politica/cererea-de-revizuire-in-dosarul-transformatorul-respinsa-id65081.html"
+      ],
+      "note": "Au fost confirmate identitatea, cele două condamnări definitive, pedeapsa rezultantă de 5 ani și 6 luni și liberarea condiționată definitivă din 2017. Profilul a fost completat cu al doilea dosar, confiscarea și cronologia executării.",
+      "reviewed_snapshot_hash": "58370aa486a3f99356d9a6922da6b10a37cc603d74a27f3200da9c0eacbc3081"
+    },
+    {
+      "profile_id": "RV-0010",
+      "original_name": "Miron Mitrea",
+      "current_name": "Miron Mitrea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5999",
+        "https://www.dna.ro/comunicat.xhtml?id=4407",
+        "https://www.romania-actualitati.ro/stiri/romania/miron-mitrea-eliberat-conditionat-din-inchisoare-id84296.html"
+      ],
+      "note": "Condamnarea definitivă, natura folosului, suma confiscată și liberarea condiționată definitivă au fost confirmate. A fost eliminată valoarea generică de aproximativ 300.000 euro, care nu corespundea exact hotărârii definitive.",
+      "reviewed_snapshot_hash": "60b964ddeee833e5cde3c7a6af50f75252eb73ec5255429c7b97b39ec74e0c05"
+    },
+    {
+      "profile_id": "RV-0308",
+      "original_name": "Monica Maria Iacob Ridzi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6003",
+        "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0"
+      ],
+      "note": "Intrarea Monica Maria Iacob Ridzi este aceeași persoană cu profilul canonic RV-0011 Monica Iacob-Ridzi; a fost eliminată ca duplicat confirmat, iar datele au fost consolidate în profilul canonic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0012",
+      "original_name": "Sorin Pantiș",
+      "current_name": "Sorin Pantiș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex / verificare editoriala",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173",
+        "https://legislatie.just.ro/Public/DetaliiDocument/7881",
+        "https://www.romania-actualitati.ro/stiri/romania/condamnari-definitive-cu-executare-in-dosarul-rompetrol-id62888.html",
+        "https://adevarul.ro/stiri-locale/ploiesti/sorin-pantis-fostul-ministru-al-comunicatiilor-1884488.html"
+      ],
+      "note": "Profil corectat: cele două condamnări definitive din 2014 (ICA și Rompetrol) sunt separate, infracțiunile sunt precizate, iar liberarea condiționată definitivă din 27.06.2018 este inclusă. Nu a fost identificată o hotărâre publică ulterioară de reabilitare.",
+      "reviewed_snapshot_hash": "e767e233cced43da79ab44cf651cbd7e1a5ca604190642d5bfbd3b26d2e4bf68"
+    },
+    {
+      "profile_id": "RV-0015",
+      "original_name": "Stelian Fuia",
+      "current_name": "Stelian Fuia",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7574",
+        "https://agrointel.ro/92041/decizie-definitiva-fostul-ministru-al-agriculturii-stelian-fuia-eliberat-din-inchisoare",
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=New+Minister+of+Agriculture+appointed+in+Romania_Bucharest_Romania_2-16-2012.pdf"
+      ],
+      "note": "Identitate și rol politic confirmate. Infracțiunea a fost corectată la abuz în serviciu, fără delapidare; detaliile precizează că fapta a fost comisă la conducerea Stațiunii Fundulea, nu în mandatul ministerial. Au fost adăugate hotărârea definitivă și liberarea condiționată definitivă din 2018.",
+      "reviewed_snapshot_hash": "d93343a56f416b4f8738fe64c5d799271200fab0bcd5c7c67f9a256fa2feffbb"
+    },
+    {
+      "profile_id": "RV-0016",
+      "original_name": "Corneliu Dobrițoiu",
+      "current_name": "Corneliu Dobrițoiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7471",
+        "https://www.dna.ro/comunicat.xhtml?id=4280",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=47e8f5cb-ca35-476b-9288-f712ccd5fb06"
+      ],
+      "note": "Identitate, partid și mandat confirmate din surse oficiale. Încadrarea a fost completată cu falsul intelectual, termenul de încercare de 3 ani, despăgubirea și precizarea că faptele au precedat mandatul ministerial.",
+      "reviewed_snapshot_hash": "205b20fda9fccecfefc38f7e93162a625561389676968955a402c79a5e9e74b0"
+    },
+    {
+      "profile_id": "RV-0017",
+      "original_name": "Tudor Chiuariu",
+      "current_name": "Tudor Chiuariu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2082",
+        "https://www.romania-actualitati.ro/stiri/politica/zsolt-nagy-si-tudor-chiuariu-inchisoare-cu-suspendare-id52765.html",
+        "https://hotnews.ro/sentintele-definitive-in-dosarul-posta-romana-seful-comisiei-juridice-din-senat-tudor-chiuariu-trei-ani-si-jumatate-de-inchisoare-cu-suspendare-fostul-ministru-al-comunicatiilor-nagy-zsolt-pat-575215",
+        "https://www.g4media.ro/decizie-definitiva-sebastian-ghita-si-tudor-chiuariu-raman-achitati-in-dosarele-in-care-fostul-sef-al-sectiei-speciale-a-retras-apelurile-revizuirea-ceruta-de-parchetul-general-a-fost-respinsa.html",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=bc53023b-ab0d-4ccc-a120-9e430c7a8c6e"
+      ],
+      "note": "Anul condamnării a fost corectat din 2015 în 2014; au fost precizate suspendarea sub supraveghere și termenul de încercare de 6 ani. Profilul separă explicit condamnarea din dosarul Poșta Română de achitarea definitivă din dosarul retrocedărilor de păduri și confirmă circumscripția Mehedinți.",
+      "reviewed_snapshot_hash": "04ba7fe86bba95926268124360b01a5b589dc6707bf85e8c62eb1c05d44c0a35"
+    },
+    {
+      "profile_id": "RV-0018",
+      "original_name": "Darius Vâlcov",
+      "current_name": "Darius Vâlcov",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12126",
+        "https://cdn.g4media.ro/wp-content/uploads/2025/11/Declaratie-de-presa-4-noiembrie-2025.docx-4.pdf",
+        "https://agerpres.ro/justitie/2026/06/03/video-vrancea-darius-valcov-a-fost-eliberat-conditionat-din-penitenciar-avea-de-executat-o-pedeapsa---1562641",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1a3f2bbd-f43a-4ebf-b032-acad447c6d82"
+      ],
+      "note": "Profil actualizat până la 3 iunie 2026: pedeapsa curentă este 5 ani pentru spălarea banilor, după prescrierea traficului de influență în recursul în casație din 2025; a fost adăugată liberarea condiționată definitivă. Sunt separate și cele două alte cauze finalizate prin achitare, respectiv prescripție.",
+      "reviewed_snapshot_hash": "7db96372afd49eda93b73e90e1ef75ec64600815772463b7d82a2fcf645fd6ec"
+    },
+    {
+      "profile_id": "RV-0019",
+      "original_name": "Dan Șova",
+      "current_name": "Dan Șova",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7056",
+        "https://agerpres.ro/justitie/2026/02/17/instanta-suprema-anuleaza-condamnarea-primita-de-dan-sova-in-dosarul-cet-govora--1529013",
+        "https://agerpres.ro/justitie/2023/12/28/victor-ponta-achitat-definitiv-in-dosarul-rovinari---turceni--1225581",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2459b457-c763-4d45-8426-ae8bd9712a06"
+      ],
+      "note": "Identitatea și mandatul PSD/Olt sunt confirmate oficial. Statusul a fost corectat din condamnat în prescris: condamnarea din CET Govora a fost casată definitiv la 17.02.2026, cu încetarea procesului prin prescripție; confiscarea a 100.000 euro rămâne. Dosarul separat Rovinari–Turceni s-a încheiat cu achitare definitivă în 2023.",
+      "reviewed_snapshot_hash": "1d6f953a840e283472bff0f1283a8d01c8e424eab4baf670f76ec05450ec236a"
+    },
+    {
+      "profile_id": "RV-0020",
+      "original_name": "Cristian Adomniței",
+      "current_name": "Cristian Adomniței",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6506",
+        "https://agerpres.ro/justitie/2024/02/08/fostul-ministru-cristian-adomnitei-scapa-de-inchisoare-in-dosarul-albumul-la-fond-primise-o-condamna--1245807"
+      ],
+      "note": "Identitatea și rolul de președinte CJ Iași la data faptelor sunt confirmate. DNA consemnează explicit achitarea definitivă pentru ambele acuzații prin decizia 145/08.02.2024; prescripția din aceeași hotărâre îi privește pe alți inculpați. Profilul a fost clarificat și completat cu o sursă independentă.",
+      "reviewed_snapshot_hash": "74985e78d8b93e64fb8ca41d2f36c2a9cdeeaaee5739b058ecc684aba11e26dd"
+    },
+    {
+      "profile_id": "RV-0021",
+      "original_name": "Constantin Niță",
+      "current_name": "Constantin Niță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=7481",
+        "https://www.dna.ro/comunicat.xhtml?id=8884",
+        "https://www.radioiasi.ro/stiri/national/fostul-ministru-al-energiei-constantin-nita-se-intoarce-la-inchisoare/",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=60335D0E-F956-4652-8895-CAC300DB5DF6"
+      ],
+      "note": "Identitatea, partidul și circumscripția Brașov sunt confirmate. Condamnarea de 4 ani cu executare rămâne valabilă, însă anul 2017 era cel al primei instanțe; după anularea/rejudecarea apelului, soluția definitivă aflată în vigoare a fost pronunțată la 25.11.2022. Cronologia și anul relevant au fost corectate.",
+      "reviewed_snapshot_hash": "1085dd22a701a48f1aa4f6d4212dd4b8446dd9691533367fadcfbe04af23f526"
+    },
+    {
+      "profile_id": "RV-0022",
+      "original_name": "Sorin Frunzăverde",
+      "current_name": "Sorin Frunzăverde",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7439",
+        "https://www.dna.ro/comunicat.xhtml?id=6505",
+        "https://www.romania-actualitati.ro/stiri/politica/sorin-frunzaverde-condamnat-definitiv-id84536.html",
+        "https://agerpres.ro/documentare/2019/11/03/politicianul-sorin-frunzaverde-s-a-stins-din-viata-la-varsta-de-59-de-ani-fisa-biografica--396036"
+      ],
+      "note": "Condamnarea definitivă, pedeapsa și identitatea sunt confirmate. A fost corectată încadrarea generică «abuz de influență în scop electoral» cu denumirea exactă din decizia penală 666/25.05.2016 și a fost trecut rolul relevant de președinte CJ Caraș-Severin, nu doar fosta funcție ministerială.",
+      "reviewed_snapshot_hash": "94603998753aac472849653bd5ff46ab7a3932383587b74b075c5d4dcc594c2a"
+    },
+    {
+      "profile_id": "RV-0023",
+      "original_name": "Nicușor Constantinescu",
+      "current_name": "Nicușor Constantinescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9583",
+        "https://www.dna.ro/comunicat.xhtml?id=9349",
+        "https://www.dna.ro/comunicat.xhtml?id=10339",
+        "https://agerpres.ro/justitie/2019/07/11/iccj-nicusor-constantinescu---condamnat-definitiv-la-10-ani-de-inchisoare--339935"
+      ],
+      "note": "Separate dosarele și infracțiunile: pedeapsa rezultantă de 10 ani din 2019, condamnarea distinctă din dosarul retrocedărilor și condamnarea din 2021; eliminată impresia că grupul infracțional aparține dosarului perdelelor forestiere. Situația actuală a detenției nu este afirmată cât timp incidentele de executare din 2026 au evoluții procedurale recente.",
+      "reviewed_snapshot_hash": "79c2fc867499493ba96e6d40613c49e746c9174d7b4979a89634c44cd256603d"
+    },
+    {
+      "profile_id": "RV-0320",
+      "original_name": "Vasile Ghiorghe Gliga",
+      "current_name": "Vasile Ghiorghe Gliga",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.cdep.ro/ords/pls/steno/steno2015.stenograma?idl=1&idm=1&ids=7270",
+        "https://www.mediafax.ro/politic/deputatul-vasile-gliga-condamnat-definitiv-la-inchisoare-cu-suspendare-pentru-conflict-de-interese-14521743",
+        "https://www.radiomures.ro/stiri/presedintele-psd-mures-vasile-gliga-a-fost-condamnat-definitiv-la-un-an-de-inchisoare-cu-suspendare.html"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "c56c2a4f708015e13ee9539e55c894f3ebbed7c2ad04ede1b2f6e9983c3080ea"
+    },
+    {
+      "profile_id": "RV-0237",
+      "original_name": "Vasile Gliga",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.cdep.ro/ords/pls/steno/steno2015.stenograma?idl=1&idm=1&ids=7270",
+        "https://www.mediafax.ro/politic/deputatul-vasile-gliga-condamnat-definitiv-la-inchisoare-cu-suspendare-pentru-conflict-de-interese-14521743"
+      ],
+      "note": "Profil duplicat al RV-0320, Vasile Ghiorghe Gliga. Numele abreviat, funcția, partidul, circumscripția, soția angajată și suma de 27.095 lei descriu aceeași persoană și același caz; în plus, statutul investigated era depășit de condamnarea definitivă din 2015.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2323",
+      "original_name": "Daniel Vasile Crăciun",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Duplicat inversat al RV-2660. Ambele înregistrări descriu același auditor ANAF, aceeași perioadă de incompatibilitate și aceeași sursă ANI. Persoana nu are funcție ori candidatură politică documentată și este exclusă din domeniul bazei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0370",
+      "original_name": "Vieru Sergiu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13243"
+      ],
+      "note": "Persoana este agent de poliție la IPJ Neamț, fără funcție, mandat sau candidatură politică documentată în sursa DNA. Similaritatea cu numele Vasile Vieru nu este suficientă pentru a le considera aceeași persoană; profilul este eliminat exclusiv ca înregistrare din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0371",
+      "original_name": "Marin Marius-Eduard",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13211"
+      ],
+      "note": "Persoana este inspector antifraudă ANAF, fără funcție, mandat ori candidatură politică documentată de sursa DNA. Numele asemănător Marin Marius nu oferă bază pentru unificare; profilul este eliminat ca înregistrare din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0881",
+      "original_name": "Pisică Radu Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7027"
+      ],
+      "note": "Sursa DNA îl identifică drept inginer la o societate comercială, fără funcție, mandat sau candidatură politică. Similaritatea lexicală cu Radu Cristian nu dovedește identitatea; profilul este eliminat ca înregistrare din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2659",
+      "original_name": "Dorobanțu Virgil Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3578&PID=20",
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Aceeași persoană ca RV-2322, introdusă cu ordinea numelui inversată. Directorul executiv APIA Ialomița nu are rol politic documentat în sursele ANI; ambele copii sunt excluse din domeniul bazei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2660",
+      "original_name": "Crăciun Daniel Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3578&PID=20",
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Aceeași persoană ca RV-2323, introdusă cu ordinea numelui inversată. Auditorul ANAF nu are funcție ori candidatură politică documentată; ambele copii sunt excluse din domeniul bazei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2322",
+      "original_name": "Virgil Valentin Dorobanțu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Duplicat inversat al RV-2659. Ambele profiluri descriu același director executiv APIA Ialomița și aceeași sesizare ANI; sursa nu documentează funcție, mandat ori candidatură politică, astfel că ambele copii sunt excluse.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2372",
+      "original_name": "Mihalache Ion Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Sursa ANI îl identifică drept împuternicit adjunct al șefului IPJ Olt, fără funcție, mandat sau candidatură politică documentată. Similaritatea cu Mihai Ion nu dovedește identitatea; profilul este eliminat ca înregistrare din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2392",
+      "original_name": "Oprescu Mircea Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=A5445568-3F1A-486D-987C-560C22A08762",
+        "https://www.capital.ro/sorin-oprescu-pierde-definitiv-procesul-cu-ani-inalta-curte-a-mentinut-raportul-de-incompatibilitate.html"
+      ],
+      "note": "Profil duplicat al RV-0482, Sorin Oprescu. Numele complet, funcția medicală și raportul ANI sunt atribuite explicit de sursele independente fostului primar general; constatarea de incompatibilitate a fost integrată în profilul canonic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2393",
+      "original_name": "Mureșan Vasile Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Sursa ANI identifică un medic șef de secție la Spitalul Clinic Județean de Urgență Târgu-Mureș, fără funcție, mandat ori candidatură politică documentată. Numele similare nu sunt un temei de unificare; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2396",
+      "original_name": "Maxim Bogdan-Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Sursa ANI descrie un funcționar public cu statut special în cadrul IPJ Sibiu, fără funcție, mandat ori candidatură politică. Similaritatea cu Maxim Valentin nu demonstrează identitatea; profilul este exclus ca înregistrare din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2408",
+      "original_name": "Pătrașcu Dorin Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "Sursa ANI documentează exclusiv funcția managerială la Regia Autonomă Aeroportul Satu Mare, fără mandat, funcție de demnitate publică ori candidatură politică. Similaritatea cu Pătrașcu Mihai nu dovedește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2449",
+      "original_name": "Pătrașcu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "Duplicat abreviat al RV-2408, Pătrașcu Dorin Mihai. Funcția de director general al Aeroportului Satu Mare, instituția, județul, conduita descrisă și sursa ANI coincid. Persoana nu are rol politic documentat, astfel că ambele copii sunt excluse.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2628",
+      "original_name": "Preda Mircea-Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-6/"
+      ],
+      "note": "Sursa ANI documentează exclusiv funcția de manager al unui spital și activitatea medicală privată, fără mandat, funcție de demnitate publică ori candidatură politică. Similaritatea cu Preda Mircea nu dovedește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2643",
+      "original_name": "Marinescu Bogdan Dragoș",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "Sursa ANI îl identifică drept funcționar public de conducere, director în cadrul MIPE, nu demnitar. Nu este documentată o funcție, un mandat ori o candidatură politică; similaritatea cu Dragoș Bogdan nu dovedește identitatea, iar profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2714",
+      "original_name": "Vlad Ioan Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3184&PID=20"
+      ],
+      "note": "Sursa ANI documentează un funcționar public al AJFP Hunedoara și activitatea sa de expert tehnic, fără funcție, mandat ori candidatură politică. Similaritatea cu Vlad Ioan nu dovedește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4360",
+      "original_name": "Gheorghe Mihai Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/"
+      ],
+      "note": "Sursa ANI îl identifică drept funcționar public cu statut special în cadrul IGPR, fără funcție, mandat ori candidatură politică. Similaritatea cu Mihai Marius nu demonstrează identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4377",
+      "original_name": "Bogdan Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "Sursa ANI documentează un fost director al unui centru de formare MAI, fără funcție, mandat ori candidatură politică. Niciuna dintre asemănările de nume nu este susținută ca identitate comună; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4400",
+      "original_name": "Cremene Călin-Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2755&currentPage=46"
+      ],
+      "note": "Sursa ANI identifică un agent șef adjunct al Poliției de Frontieră, fără funcție, mandat ori candidatură politică. Similaritatea cu Călin Vasile nu demonstrează identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4425",
+      "original_name": "Tăut Ioan-Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2344"
+      ],
+      "note": "Sursa ANI documentează funcția profesională de rector împuternicit al Academiei de Poliție, fără mandat, funcție de demnitate publică ori candidatură politică. Omonimia cu Taut Ioan nu dovedește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4426",
+      "original_name": "Popescu Constantin Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2341"
+      ],
+      "note": "Sursa ANI documentează funcția administrativă de director general DGASPC Mehedinți, fără mandat, funcție de demnitate publică ori candidatură politică. Similaritatea cu Popescu Valentin nu dovedește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0089",
+      "original_name": "Anghel Constantin Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13456",
+        "https://www.dna.ro/comunicat.xhtml?id=13667"
+      ],
+      "note": "Aceeași persoană ca RV-0893, cu numele punctuat diferit, însă profilurile provin din două dosare DNA distincte (Cinema Orizont și managementul traficului). Funcția documentată este de director al Agenției de Dezvoltare Locală Bacău, fără mandat ori candidatură politică; ambele profiluri sunt excluse.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0893",
+      "original_name": "Anghel Constantin-Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13667",
+        "https://www.dna.ro/comunicat.xhtml?id=13456"
+      ],
+      "note": "Aceeași persoană ca RV-0089, înregistrată într-un al doilea dosar DNA. Funcția de director al Agenției de Dezvoltare Locală Bacău este administrativă, iar sursele nu documentează mandat, demnitate ori candidatură politică; ambele profiluri sunt excluse.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0119",
+      "original_name": "Marin Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12935"
+      ],
+      "note": "Sursa DNA identifică un funcționar al Autorității Vamale Române, fără funcție, mandat ori candidatură politică. Similaritatea cu Marin Marius-Eduard nu stabilește identitatea comună; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0132",
+      "original_name": "Gherman Dan-Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12919"
+      ],
+      "note": "Sursa DNA documentează funcția tehnică de coordonator județean ISCTR Timiș, fără funcție, mandat ori candidatură politică. Similaritatea cu Gherman Nicolae nu stabilește identitatea comună; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0137",
+      "original_name": "David Gabriel-Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12919"
+      ],
+      "note": "Sursa DNA identifică un inspector de trafic rutier ISCTR Timișoara, fără funcție, mandat ori candidatură politică. Similaritatea cu Constantin Gabriel nu demonstrează identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0144",
+      "original_name": "Popa Ionuț-Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12919"
+      ],
+      "note": "Sursa DNA identifică un inspector de trafic rutier ISCTR Timișoara, fără funcție, mandat ori candidatură politică. Profilul politic Popa Ionuț are altă identitate, alt județ și alt dosar; această înregistrare este exclusă din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0151",
+      "original_name": "Constantin Maria Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12873"
+      ],
+      "note": "Sursa DNA identifică un funcționar al DSP Olt, fără funcție, mandat ori candidatură politică. Similaritatea cu Constantin Maria nu stabilește identitatea comună; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0274",
+      "original_name": "Pavel Romica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13456"
+      ],
+      "note": "Sursa DNA identifică un referent al Primăriei Ianca, funcționar administrativ fără mandat ori candidatură politică. Anculia Romică Pavel este o persoană distinctă; asemănarea parțială a numelui nu justifică unificarea. Profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2430",
+      "original_name": "Radu Florentina Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Sursa ANI documentează o funcție executiv-administrativă în cadrul administrației municipale de sănătate din Timișoara, nu un mandat ori o candidatură politică. Similaritatea cu Radu Georgeta nu stabilește identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4302",
+      "original_name": "Chițescu Bogdan Ștefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/comunicat-incidente-de-integritate-15-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Sursa ANI documentează o funcție managerială la societatea de stat CONVERSMIN, fără mandat, demnitate ori candidatură politică. Similaritatea cu Bogdan Stefan nu demonstrează identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0185",
+      "original_name": "Huțanu Georgeta Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?NewsID=2960&PID=20",
+        "https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-si-conflict-de-interese-administrativ-persoane-prevazute-de-legea-nr-176-2010-19282011"
+      ],
+      "note": "Persoana este funcționar tehnic la Serviciul urbanism al CJ Botoșani, nu consilier județean ales. Huțanu Georgeta din Pașcani are alt județ, partid, funcție și dosar, deci este o persoană distinctă. Profilul nepolitic este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2468",
+      "original_name": "Petre Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://agerpres.ro/comunicate/2026/05/04/comunicat-de-presa---agentia-nationala-de-integritate--1552410"
+      ],
+      "note": "Sursa ANI identifică un inspector fiscal al DGRFP Ploiești, fără funcție, mandat ori candidatură politică. Similaritatea cu Petre Ion Doru nu demonstrează identitatea; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0160",
+      "original_name": "Alina Mihaela Bica",
+      "current_name": "Alina Mihaela Bica",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8883",
+        "https://www.dna.ro/comunicat.xhtml?id=5695",
+        "https://www.digi24.ro/stiri/actualitate/justitie/alina-bica-ramane-cu-pedeapsa-de-4-ani-de-inchisoare-decizia-este-definitiva-1223223",
+        "https://tvrinfo.ro/mandatul-european-de-arestare-pentru-alina-bica-retras-de-curtea-de-apel-bucuresti-bica-nu-a-facut-nicio-zi-de-inchisoare-desi-a-fost-condamnata-la-4-ani-cu-executare-ratiuni-juridice/"
+      ],
+      "note": "Corectate anul condamnării definitive (2019), tipul funcției publice și situația executării: pedeapsa a fost considerată executată integral în 2025, cu retragerea mandatelor.",
+      "reviewed_snapshot_hash": "f281fd67a391aba3acbce6ac392b5c029a161b0c5f99b662a11114bf34ec57f0"
+    },
+    {
+      "profile_id": "RV-0986",
+      "original_name": "Matei Constantin-Robert",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4995",
+        "https://static.anaf.ro/static/1/Ploiesti/20260311093532_anunt_colectiv_nr_22_11032026.pdf"
+      ],
+      "note": "Eliminat preventiv: candidatura BEC din Băbana și condamnarea administratorului REBOB au doar o potrivire de nume și județ, fără identificator independent care să dovedească aceeași persoană; în plus, sursa DNA din profil era indicată greșit ca 4999 în loc de 4995.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1238",
+      "original_name": "Raban Catalin Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4995",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1683"
+      ],
+      "note": "Eliminat din aria editorială: ofițer de poliție al IPJ Argeș, fără funcție sau candidatură politică identificată. Sursa finală corectă pentru dosar este comunicatul DNA 4995, nu 4999.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1239",
+      "original_name": "Saulea Danut",
+      "current_name": "Dănuț Saulea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/27251",
+        "https://www.senat.ro/legis/lista.aspx?an_cls=2003&nr_cls=L296",
+        "https://www.realitatea.net/stiri/ultimele-stiri/fostul-deputat-danut-saulea-a-fost-trimis-in-judecata-de-dna-pentru-trafic-de-influenta_5dcc91a7406af85273ca4f59",
+        "https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Refăcut profilul: nume normalizat, fost deputat PRM în loc de Independent/expert fără rol politic, trafic de influență și condamnare în 2011. Eliminată sursa DNA 3946, care privește dosarul Electrica Banat și nu pe Dănuț Saulea.",
+      "reviewed_snapshot_hash": "28a31bd0696ef8039437f5b95c18003b68a8c3a00263a01359a690532c8cfbda"
+    },
+    {
+      "profile_id": "RV-1240",
+      "original_name": "Spataru Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.curentul.info/actualitate/fostul-sef-al-opc-brasov-ionel-spataru-condamnat-definitiv-la-cinci-ani-de-inchisoare-cu-executare/",
+        "https://www.mediafax.ro/social/fostul-sef-al-opc-brasov-ionel-spataru-condamnat-pentru-luare-de-mita-a-fost-eliberat-conditionat-13545962"
+      ],
+      "note": "Eliminat din aria editorială: șef administrativ al Comisariatului Județean pentru Protecția Consumatorilor Brașov, fără mandat electoral, candidatură sau funcție politică demonstrată. Condamnarea este reală, dar nu justifică includerea într-o bază de politicieni.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1241",
+      "original_name": "Tarcea Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.turnulsfatului.ro/2010/09/15/la-doua-luni-dupa-flagrant-doi-angajati-de-la-itm-trimisi-in-judecata-5017/",
+        "https://mezisoudy.cz/databaze-judikatury/detail-rozhodnuti/1fa31dfe-717c-11ee-8ac4-cced40779481_tarcea"
+      ],
+      "note": "Eliminat din aria editorială: șef de compartiment și funcționar al ITM Sibiu, fără funcție politică, mandat electoral sau candidatură identificată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1242",
+      "original_name": "Abur Stefanita Costin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.mediafax.ro/social/pedepse-intre-6-luni-si-3-ani-cu-suspendare-pentru-frauda-unui-proiect-phare-de-informatizare-a-sistemului-judiciar-13541300/amp",
+        "https://www.national.ro/news/angajati-ai-siemens-romania-acuzati-de-frauda-188067.html/"
+      ],
+      "note": "Eliminat din aria editorială: angajat al unei societăți comerciale private, fără funcție politică, mandat electoral sau candidatură identificată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1243",
+      "original_name": "Alexandrescu Ion Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.ziuaconstanta.ro/stiri/eveniment/trimis-in-judecata-de-procurorii-dna-constanta-preotul-paroh-ion-adrian-alexandrescu-condamnat-definitiv-de-curtea-suprema-490501.html",
+        "https://www.protoieriailfovsud.com/church/biserica-parohiei-chitila-i/"
+      ],
+      "note": "Eliminat din aria editorială: preot paroh, fără mandat electoral, candidatură sau funcție politică identificată. Profilul vechi avea și anul/regimul executării neconforme cu hotărârea definitivă relatată în 2014.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1244",
+      "original_name": "Balan Lenuta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GL"
+      ],
+      "note": "Eliminat din aria editorială: economist într-o societate comercială, fără funcție politică sau candidatură dovedită. Apariția unui nume identic într-o declarație de avere a unui funcționar din Corod nu dovedește identitatea și nici un mandat politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1245",
+      "original_name": "Balanescu Adrian-Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-03",
+      "reviewer": "codex",
+      "evidence": [
+        "https://monitorulneamt.ro/se-cere-clementa-dupa-jonglerii-cu-fonduri-ue/",
+        "https://isc.gov.ro/files/2024/Autorizari/29.03.2024%20DATE%20DESCHISE%20DS.pdf"
+      ],
+      "note": "Eliminat din aria editorială: patron/reprezentant al unei firme de construcții și specialist tehnic autorizat, fără mandat electoral, candidatură sau funcție politică identificată.",
+      "reviewed_snapshot_hash": null
+    }
+  ]
+}

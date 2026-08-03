@@ -5,6 +5,7 @@ import {
   countyOverrides,
 } from './politicianEnhancements.js';
 import { manualChangeEntries } from './changeLog.js';
+import publicationReview from './reverification/publication.json' with { type: 'json' };
 import { normalizeGeography } from '../src/utils/geography.js';
 
 const HOST_LABELS = {
@@ -198,7 +199,7 @@ function buildChangeLog(baseData, politicians) {
     });
 }
 
-export function buildDataset(baseData) {
+export function buildDataset(baseData, options = {}) {
   const basePoliticians = baseData.politicians
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
     .map(applyGeography);
@@ -209,7 +210,10 @@ export function buildDataset(baseData) {
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
     .map(applyGeography);
 
-  const politicians = [...basePoliticians, ...additions];
+  const allPoliticians = [...basePoliticians, ...additions];
+  const politicians = options.includeUnpublished
+    ? allPoliticians
+    : allPoliticians.filter((politician) => !publicationReview.holds[politician.name]);
 
   return {
     metadata: {

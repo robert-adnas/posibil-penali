@@ -26,6 +26,12 @@ const STATUSES = [
       'Urmărit penal de procurori. Dosarul nu a ajuns încă în instanță.',
   },
   {
+    key: 'integrity',
+    label: 'Incident de integritate',
+    description:
+      'ANI a constatat o incompatibilitate, un conflict de interese sau o diferență nejustificată de avere. Nu este un status penal.',
+  },
+  {
     key: 'prescribed',
     label: 'Prescris',
     description:

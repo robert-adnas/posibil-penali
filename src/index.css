@@ -192,6 +192,7 @@ button {
 [data-status="first_instance"] { --status-color: #f97316; }
 [data-status="indicted"] { --status-color: #eab308; }
 [data-status="investigated"] { --status-color: #3b82f6; }
+[data-status="integrity"] { --status-color: #0d9488; }
 [data-status="prescribed"] { --status-color: #6b7280; }
 [data-status="acquitted"] { --status-color: #22c55e; }
 
@@ -3132,6 +3133,8 @@ button {
 .lista-tab[data-status="indicted"] .lista-tab-dot { background: #eab308; opacity: 1; }
 [data-status="investigated"] .lista-tab-dot,
 .lista-tab[data-status="investigated"] .lista-tab-dot { background: #3b82f6; opacity: 1; }
+[data-status="integrity"] .lista-tab-dot,
+.lista-tab[data-status="integrity"] .lista-tab-dot { background: #0d9488; opacity: 1; }
 [data-status="prescribed"] .lista-tab-dot,
 .lista-tab[data-status="prescribed"] .lista-tab-dot { background: #6b7280; opacity: 1; }
 [data-status="acquitted"] .lista-tab-dot,
@@ -3241,6 +3244,7 @@ button {
 [data-status="first_instance"] .lista-item-dot { background: #f97316; }
 [data-status="indicted"] .lista-item-dot { background: #eab308; }
 [data-status="investigated"] .lista-item-dot { background: #3b82f6; }
+[data-status="integrity"] .lista-item-dot { background: #0d9488; }
 [data-status="prescribed"] .lista-item-dot { background: #6b7280; }
 [data-status="acquitted"] .lista-item-dot { background: #22c55e; }
 
@@ -3248,6 +3252,7 @@ button {
 .lista-item[data-status="first_instance"] { opacity: 0.9; }
 .lista-item[data-status="indicted"] { opacity: 0.8; }
 .lista-item[data-status="investigated"] { opacity: 0.75; }
+.lista-item[data-status="integrity"] { opacity: 0.75; }
 .lista-item[data-status="prescribed"] { opacity: 0.72; }
 .lista-item[data-status="acquitted"] { opacity: 0.72; }
 
@@ -3417,6 +3422,7 @@ button {
 [data-status="first_instance"] .pol-page-accent { background: var(--color-status-first-instance); }
 [data-status="indicted"] .pol-page-accent { background: var(--color-status-indicted); }
 [data-status="investigated"] .pol-page-accent { background: var(--color-status-investigated); }
+[data-status="integrity"] .pol-page-accent { background: #0d9488; }
 [data-status="prescribed"] .pol-page-accent { background: var(--color-status-prescribed); }
 [data-status="acquitted"] .pol-page-accent { background: var(--color-status-acquitted); }
 
@@ -3693,6 +3699,7 @@ button {
 [data-status="first_instance"] .pol-page-sidebar-dot { background: #f97316; }
 [data-status="indicted"] .pol-page-sidebar-dot { background: #eab308; }
 [data-status="investigated"] .pol-page-sidebar-dot { background: #3b82f6; }
+[data-status="integrity"] .pol-page-sidebar-dot { background: #0d9488; }
 [data-status="prescribed"] .pol-page-sidebar-dot { background: #6b7280; }
 [data-status="acquitted"] .pol-page-sidebar-dot { background: #22c55e; }
 
@@ -3796,6 +3803,7 @@ button {
 .pol-list-dot[data-status="first_instance"] { background: var(--color-status-first-instance); }
 .pol-list-dot[data-status="indicted"] { background: var(--color-status-indicted); }
 .pol-list-dot[data-status="investigated"] { background: var(--color-status-investigated); }
+.pol-list-dot[data-status="integrity"] { background: #0d9488; }
 .pol-list-dot[data-status="prescribed"] { background: var(--color-status-prescribed); }
 .pol-list-dot[data-status="acquitted"] { background: var(--color-status-acquitted); }
 
@@ -3957,6 +3965,7 @@ button {
 [data-status="first_instance"] .partid-status-dot { background: #d97706; }
 [data-status="indicted"] .partid-status-dot { background: #2563eb; }
 [data-status="investigated"] .partid-status-dot { background: #7c3aed; }
+[data-status="integrity"] .partid-status-dot { background: #0d9488; }
 [data-status="prescribed"] .partid-status-dot { background: var(--color-ink-muted); }
 [data-status="closed"] .partid-status-dot { background: var(--color-ink-faint); }
 [data-status="acquitted"] .partid-status-dot { background: #16a34a; }

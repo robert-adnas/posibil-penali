@@ -11,7 +11,7 @@ const dataPath = join(__dirname, '..', 'data', 'politicians.json');
 const geographyModulePath = pathToFileURL(join(__dirname, '..', 'src', 'utils', 'geography.js')).href;
 const { GEOGRAPHY_BASES, getCounty } = await import(geographyModulePath);
 
-const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'prescribed', 'closed', 'acquitted'];
+const VALID_STATUSES = ['convicted', 'first_instance', 'indicted', 'investigated', 'integrity', 'prescribed', 'closed', 'acquitted'];
 const VALID_POSITION_TYPES = ['prime_minister', 'minister', 'senator', 'deputy', 'mayor', 'county_council_president', 'member_european_parliament', 'secretary_of_state', 'local_official', 'other'];
 const KNOWN_PARTIES = [
   'PSD',
@@ -63,7 +63,7 @@ function warn(message) {
 
 try {
   const raw = readFileSync(dataPath, 'utf-8');
-  const data = buildDataset(JSON.parse(raw));
+  const data = buildDataset(JSON.parse(raw), { includeUnpublished: true });
   const politicians = data.politicians;
 
   console.log(`\nValidating ${politicians.length} entries...\n`);

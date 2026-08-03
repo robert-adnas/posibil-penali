@@ -26,9 +26,10 @@ const STATUS_PRIORITY = {
   first_instance: 1,
   indicted: 2,
   investigated: 3,
-  prescribed: 4,
-  acquitted: 5,
-  closed: 6,
+  integrity: 4,
+  prescribed: 5,
+  acquitted: 6,
+  closed: 7,
 };
 
 const INSTITUTION_HOST_LABELS = {
@@ -233,6 +234,8 @@ function getOutcomeLabel(politician) {
       return 'Proces în curs';
     case 'investigated':
       return 'Cercetare / urmărire în curs';
+    case 'integrity':
+      return 'Constatare administrativă de integritate';
     case 'prescribed':
       return 'Proces închis prin prescripție';
     case 'acquitted':
