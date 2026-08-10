@@ -38,6 +38,7 @@ const KNOWN_PARTIES = [
   'ANC',
   'PSDI',
   'PNCR',
+  'PND',
   'PUSL',
   'PNRR',
   'Bucure\u0219ti 2020',

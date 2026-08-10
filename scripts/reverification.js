@@ -448,15 +448,30 @@ function holdProfile(options) {
   const manifest = loadManifest();
   const manifestProfile = findManifestProfile(manifest, options);
   if (!options.reason) throw new Error('Lipseste --reason.');
+  const politicians = loadPoliticians();
+  const currentProfile = findCurrentProfile(
+    politicians,
+    manifestProfile,
+    null,
+    options.current_name
+  );
+  if (!currentProfile) {
+    throw new Error('Profilul curent nu a fost gasit; pentru un nume corectat foloseste --current-name.');
+  }
   const publicationReview = loadPublicationReview();
-  publicationReview.holds[manifestProfile.name] = {
+  Object.keys(publicationReview.holds).forEach((name) => {
+    if (publicationReview.holds[name].profile_id === manifestProfile.id) {
+      delete publicationReview.holds[name];
+    }
+  });
+  publicationReview.holds[currentProfile.name] = {
     held_at: today(),
     reasons: [options.reason],
     profile_id: manifestProfile.id,
   };
   publicationReview.updated_at = today();
   writeJson(PUBLICATION_PATH, publicationReview);
-  console.log(`Profil ascuns editorial: ${manifestProfile.id} - ${manifestProfile.name}.`);
+  console.log(`Profil ascuns editorial: ${manifestProfile.id} - ${currentProfile.name}.`);
 }
 
 function checkRegistry() {
@@ -502,7 +517,12 @@ function checkRegistry() {
 
   manifest.profiles
     .filter((profile) => !reviewIds.has(profile.id))
-    .forEach((profile) => trackedCurrentNames.add(normalizeName(profile.name)));
+    .forEach((profile) => {
+      const heldCurrentName = Object.entries(publicationReview.holds).find(
+        ([, hold]) => hold.profile_id === profile.id
+      )?.[0];
+      trackedCurrentNames.add(normalizeName(heldCurrentName || profile.name));
+    });
 
   politicians.forEach((politician) => {
     if (!trackedCurrentNames.has(normalizeName(politician.name))) {
@@ -531,7 +551,7 @@ function printHelp() {
   npm run reverify -- status
   npm run reverify -- next [--order dataset]
   npm run reverify -- show --id RV-0001
-  npm run reverify -- hold --id RV-0001 --reason "motiv"
+  npm run reverify -- hold --id RV-0001 [--current-name "Nume corectat"] --reason "motiv"
   npm run reverify -- apply-safety-holds
   npm run reverify -- complete --id RV-0001 --decision corrected \\
     --identity confirmed --legal-status confirmed --scope political \\
