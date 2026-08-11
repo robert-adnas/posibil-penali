@@ -18029,6 +18029,808 @@
       ],
       "note": "ANI identifică persoana ca director medical al Spitalului Municipal Râmnicu Sărat. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2721",
+      "original_name": "Chirea Sorin Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3107&PID=20"
+      ],
+      "note": "ANI identifică persoana exclusiv ca șef al Secției Ginecologie din Spitalul Județean de Urgență Alexandria. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2722",
+      "original_name": "Indrieș Marius Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3093&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul IGPR. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2723",
+      "original_name": "Lăcătușu Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3053&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul AJFP Neamț. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2724",
+      "original_name": "Pop Narcisa Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3049&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost inspector în cadrul Primăriei Cluj-Napoca, funcție publică administrativă, nu mandat ales. Fără candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2725",
+      "original_name": "Pricină Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3049&PID=20"
+      ],
+      "note": "ANI identifică persoana ca șef Serviciu Control în cadrul Ministerului Dezvoltării, funcție administrativă, nu demnitate politică. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2726",
+      "original_name": "Deutsch Petru-Martin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3040&PID=20"
+      ],
+      "note": "ANI identifică persoana exclusiv ca șef de secție în cadrul Institutului de Boli Cardiovasculare Timișoara. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2727",
+      "original_name": "Coteanu Liana Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3040&PID=20"
+      ],
+      "note": "ANI identifică persoana ca inspector social/funcționar public în cadrul ANPIS. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2752",
+      "original_name": "Gheorghe Juravlea",
+      "current_name": "Gheorghe Juravlea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://portal.just.ro/30/SitePages/Dosar.aspx?id_dosar=32500000000655506&id_inst=30#Informa%C5%A3ii_generale",
+        "https://portal.just.ro/325/SitePages/Dosar.aspx?id_dosar=32500000000661222&id_inst=325#Informa%C5%A3ii_generale",
+        "https://www.articulat.ro/2024/11/20/gheorghe-juravlea-pierdere-mandat"
+      ],
+      "note": "Identitatea și statutul politic sunt confirmate prin dosarul de validare a mandatului. Poziția a fost corectată pentru a preciza că mandatul de consilier local a fost invalidat definitiv la 20.11.2024. Condamnarea definitivă de 6 ani este menținută; dosarul ulterior de reabilitare arată o respingere în primă instanță la 28.01.2026. Au fost adăugate două surse oficiale ale instanțelor.",
+      "reviewed_snapshot_hash": "69eab8b9159be83ffdfecf2331e5330a3d146d5415fc6400c35859335a4c84d7"
+    },
+    {
+      "profile_id": "RV-4361",
+      "original_name": "Berechet Nicolae Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul IPJ Sibiu. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4362",
+      "original_name": "Rodina Felician",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/"
+      ],
+      "note": "ANI identifică persoana ca agent principal de poliție în cadrul IPJ Caraș-Severin. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4363",
+      "original_name": "Cismaru Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public cu statut special în cadrul Poliției Transporturi Feroviare Curtici. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4365",
+      "original_name": "Decean Ciprian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul BCCO Alba Iulia. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4366",
+      "original_name": "Butur Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/"
+      ],
+      "note": "ANI identifică persoana ca agent de poliție în cadrul Poliției Municipiului Gherla/IPJ Cluj. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4367",
+      "original_name": "Diaconu Ionuț-Andrei",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-345-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "ANI identifică persoana ca inspector de poliție în cadrul serviciului de permise și înmatriculări Sibiu. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4368",
+      "original_name": "Ivașcu Mihai Ionuț",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-345-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "ANI identifică persoana ca agent de poliție în cadrul Poliției Municipiului Brăila. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4369",
+      "original_name": "Hongu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "ANI identifică persoana ca fost agent de poliție în cadrul Poliției Stațiunii Târgu Ocna. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4370",
+      "original_name": "Scorțan Cristinel-Corneliu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "ANI identifică persoana ca subcomisar de poliție în cadrul IGPR. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4371",
+      "original_name": "Oprea Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "Sursa ANI identifică exact persoana prin funcția de fost comandant de pluton la IJJ Constanța, rezolvând riscul produs de numele comun. Funcția este militară/administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4372",
+      "original_name": "Velici Richard-Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-180-000-lei-si-avere-nejustificata/"
+      ],
+      "note": "ANI identifică persoana ca polițist în cadrul DGPMB. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4373",
+      "original_name": "Bărdan Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca polițist în cadrul ITPF Oradea. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4374",
+      "original_name": "Patrianu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca șef de serviciu într-o direcție tehnică a Ministerului Afacerilor Interne. Este o funcție administrativă, nu demnitate politică; fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4375",
+      "original_name": "Nicola Silviu-Costinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca inspector de poliție în cadrul IPJ Sibiu. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4376",
+      "original_name": "Epure Eliodor-Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca agent șef de poliție în cadrul Formațiunii Rutiere a Poliției orașului Pantelimon. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4378",
+      "original_name": "Floriștean Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-din-jocuri-de-noroc-in-cuantum-total-de-peste-200-000-lei-avere-nejustificata-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca agent de poliție în cadrul ITPF Sighetu Marmației. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4379",
+      "original_name": "Manea Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Sursa ANI identifică exact persoana prin funcția de director executiv al Direcției Administrarea Domeniului Public și Privat din Primăria Eforie, rezolvând riscul numelui comun. Este o funcție administrativă, nu mandat ales; fără candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4384",
+      "original_name": "Mazilu Gabriela-Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/avere-nejustificata-in-cuantum-total-de-31-602-501-lei/"
+      ],
+      "note": "ANI identifică persoana ca judecător la Tribunalul București și fost judecător la Judecătoria Sectorului 4. Funcția de magistrat nu este o funcție politică; fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4385",
+      "original_name": "Nicoreșteanu Ionuț-Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/avere-nejustificata-in-cuantum-total-de-31-602-501-lei/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul DGPMB. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4386",
+      "original_name": "Dancu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/"
+      ],
+      "note": "ANI identifică persoana ca fost inspector șef al IPJ Constanța. Funcția de conducere în poliție nu este una politică; fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4387",
+      "original_name": "Lefter Ion Doinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-13-milioane-lei/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul Poliției Locale Sector 2. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4388",
+      "original_name": "Anghel Mădălina-Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-aprox-487-000-euro-si-sesizare-parchet/"
+      ],
+      "note": "ANI identifică persoana ca ofițer în cadrul Direcției Generale Anticorupție a MAI. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4389",
+      "original_name": "Petrescu Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-total-de-aprox-487-000-euro-si-sesizare-parchet/"
+      ],
+      "note": "Sursa ANI identifică exact persoana ca funcționar public în aparatul Consiliului Județean Vâlcea, nu consilier județean ales, rezolvând riscul numelui comun. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4392",
+      "original_name": "Epure Gheorghe Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca consilier profesional în cadrul Gărzii Forestiere Râmnicu Vâlcea, nu consilier local ales. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4393",
+      "original_name": "Ghinea Valeria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/averi-nejustificate-in-cuantum-de-1-857-27676-lei-aprox-400-000-euro-3-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca fost comisar la Garda Națională de Mediu - Comisariatul Județean Constanța. Este o funcție administrativă de control, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4394",
+      "original_name": "Mărginean Cristina Oana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2886&currentPage=33"
+      ],
+      "note": "ANI identifică persoana ca șef al Secției Clinice Pediatrie din Spitalul Clinic Județean de Urgență Târgu Mureș. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4395",
+      "original_name": "Goglea Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2882&currentPage=34"
+      ],
+      "note": "ANI identifică persoana printr-o funcție de conducere în cadrul Universității Valahia din Târgoviște. Este o funcție academică/administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4396",
+      "original_name": "Bondoc Titu-Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2827&currentPage=40"
+      ],
+      "note": "ANI identifică persoana ca fost președinte-director general al Casei Județene de Asigurări de Sănătate Gorj. Este o funcție administrativă din sistemul de sănătate, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4397",
+      "original_name": "Constantinescu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2809&currentPage=42"
+      ],
+      "note": "Sursa ANI identifică exact persoana ca șef Serviciu Audit Public în Ministerul Sănătății, rezolvând riscul numelui comun. Este o funcție administrativă, nu demnitate politică; fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4398",
+      "original_name": "Voicu Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2797&currentPage=43"
+      ],
+      "note": "Sursa ANI identifică exact persoana ca fost director executiv și șef serviciu la AJOFM Vrancea, rezolvând riscul numelui comun. Sunt funcții administrative, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4399",
+      "original_name": "Podrumaru Anca-Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2789&currentPage=44"
+      ],
+      "note": "ANI identifică persoana ca director în cadrul Ministerului Economiei și manager de proiect, nu ministru, secretar de stat sau alt demnitar. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4401",
+      "original_name": "David Loredana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2749&currentPage=46"
+      ],
+      "note": "ANI identifică persoana ca agent principal de poliție în cadrul IPJ Vaslui. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4402",
+      "original_name": "David Eduard Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2749&currentPage=46"
+      ],
+      "note": "ANI identifică persoana ca agent șef de poliție în cadrul IPJ Vaslui și o tratează distinct în același caz patrimonial de familie. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4403",
+      "original_name": "Feneșan Mihnea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2739&currentPage=48"
+      ],
+      "note": "ANI identifică persoana ca fost inspector vamal în cadrul Direcției Regionale Accize și Operațiuni Vamale Timișoara. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4404",
+      "original_name": "Dragoș Florin Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2673&currentPage=51"
+      ],
+      "note": "ANI identifică persoana ca fost agent șef de poliție în cadrul serviciului de permise și înmatriculări Arad. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4405",
+      "original_name": "Zotoi Virgiliu Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2663&currentPage=53"
+      ],
+      "note": "ANI identifică persoana ca ofițer de poliție în cadrul IPJ Brăila. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4406",
+      "original_name": "Rista Diana-Manuela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2642&currentPage=55"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul Primăriei Orașului Lipova, nu ales local. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4407",
+      "original_name": "Șaramet Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2634&currentPage=56"
+      ],
+      "note": "ANI identifică persoana ca fost director al FNGCIMM. Sursa documentează o funcție administrativă de conducere, nu mandat electoral, candidatură sau rol de partid; profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4408",
+      "original_name": "Lucan Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=2728&currentPage=50"
+      ],
+      "note": "ANI identifică persoana ca fost medic șef al Secției Clinice Urologie II din Institutul Clinic de Urologie și Transplant Renal Cluj-Napoca. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4409",
+      "original_name": "Antip Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=12&NewsId=2375&PID=20&Year=2016"
+      ],
+      "note": "ANI identifică persoana ca polițist în cadrul Inspectoratului General al Poliției de Frontieră - Garda de Coastă. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4410",
+      "original_name": "Antip Colea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=12&NewsId=2375&PID=20&Year=2016"
+      ],
+      "note": "ANI identifică persoana ca comisar șef de poliție în cadrul Gărzii de Coastă. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4411",
+      "original_name": "Iurașcu Marius Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&Month=3&NewsId=2153&PID=20&Year=2016"
+      ],
+      "note": "ANI identifică persoana ca fost director general al Regiei Autonome a Distribuției și Exploatării Filmelor RomâniaFilm. Este o funcție administrativă de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
