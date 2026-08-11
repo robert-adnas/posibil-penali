@@ -16059,6 +16059,422 @@
       ],
       "note": "Profilul existent era ascuns editorial din cauza sursei unice. Am adăugat sursa Digi24 furnizată în sesizare, am precizat infracțiunea și am separat condamnarea din primă instanță din 2013 de hotărârea definitivă din 22 mai 2014.",
       "reviewed_snapshot_hash": "feb64ffa3c76c3351b1ef65784a161e36a1c5124f20fb7a111937fae54f7d1e5"
+    },
+    {
+      "profile_id": "RV-2371",
+      "original_name": "Pețenchea Bogdan-Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: secretar al comunei Cristești, funcție publică administrativă, fără mandat ales, candidatură sau rol de partid documentat. Sesizarea ANI nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2373",
+      "original_name": "Disăgilă Nicoleta Isabela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminată din baza politică: director general în aparatul Primăriei Sectorului 5, fără mandat ales, candidatură sau funcție de partid documentată. Funcția administrativă nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2374",
+      "original_name": "Popa Florența Aura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminată din baza politică: șef serviciu Resurse Umane în aparatul Primăriei Drăgășani, funcție administrativă, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2375",
+      "original_name": "Chiriac Robert Ionuț",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: șef al serviciului juridic și autoritate tutelară din aparatul Primăriei Onești, fără mandat ales, candidatură sau funcție de partid documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2376",
+      "original_name": "Bârsan Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: inspector în compartimentul de contabilitate și taxe al Primăriei Jina, fără mandat ales, candidatură sau rol de partid documentat. Este funcționar administrativ.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2377",
+      "original_name": "Liferie Lenuța",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminată din baza politică: referent în aparatul Primăriei Pardina, fără mandat ales, candidatură sau funcție de partid documentată. Este personal administrativ, nu politician.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2378",
+      "original_name": "Frumușeanu Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminată din baza politică: consilier profesional în administrația fiscală DGRFP/SFO Orșova, nu consilier ales; fără candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2379",
+      "original_name": "Marinescu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: consilier juridic angajat al DSP Vâlcea, fără mandat ales, candidatură sau funcție de partid documentată. Titlul profesional nu desemnează un ales.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2382",
+      "original_name": "Vînătoru Dragoș-Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Eliminat din baza politică: secretar al comunei Argetoaia, funcție publică administrativă, fără mandat ales, candidatură sau funcție de partid documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2383",
+      "original_name": "Costică Andra Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "Eliminată din baza politică: funcționar public în cadrul Penitenciarului Giurgiu, fără mandat ales, candidatură sau rol de partid documentat. Funcția profesională nu este politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2385",
+      "original_name": "Păcurar Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminată din baza politică: medic și șef de secție al ambulatoriului de stomatologie, fără mandat ales, candidatură sau rol de partid documentat. Funcția medicală nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2386",
+      "original_name": "Raicu Filip",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: arhitect-șef în aparatul Primăriei Tulcea, funcție publică tehnică și administrativă, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2387",
+      "original_name": "Vasile Mari",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: funcționar public al Primăriei Dragoș Vodă, fără mandat ales, candidatură sau funcție de partid documentată. Incidentul administrativ ANI nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2388",
+      "original_name": "Filimon Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: fost șef al biroului de impozite și taxe locale din aparatul Primăriei Panciu, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2389",
+      "original_name": "Chiribău Constantin Dudu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: agent de poliție în cadrul IPJ Bacău, fără mandat ales, candidatură sau funcție de partid documentată. Funcția profesională nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2390",
+      "original_name": "Șteau Darius Antonio",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: funcționar cu statut special în Brigada de Combatere a Criminalității Alba-Iulia, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2391",
+      "original_name": "Dobrescu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: fost funcționar public cu statut special în Penitenciarul Satu Mare, fără mandat ales, candidatură sau funcție de partid documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2394",
+      "original_name": "Mitroi Ștefan Cristinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Eliminat din baza politică: șef serviciu financiar-contabil și buget în Direcția Economică a Primăriei Voluntari, funcție administrativă, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2395",
+      "original_name": "Enișor Cristina Magdalena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Eliminată din baza politică: coordonator tehnic al controlului financiar preventiv în MIPE, fără mandat ales, candidatură sau funcție de partid documentată. Funcția administrativă nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2397",
+      "original_name": "Țibenschi Felicia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Eliminată din baza politică: fost funcționar public în Direcția de Asistență Socială Deva, fără mandat ales, candidatură sau funcție de partid documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2398",
+      "original_name": "Popovici Cosmin-Ovidiu Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: funcționar cu statut special în Serviciul de Combatere a Criminalității Organizate Arad, fără mandat ales, candidatură sau rol de partid documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2399",
+      "original_name": "Epuran Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "Eliminat din baza politică: medic cu grad profesional de subcomisar în Spitalul Gerota, fără mandat ales, candidatură sau funcție de partid documentată. Calitatea profesională nu este politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2401",
+      "original_name": "Breban Claudia-Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "Eliminată din baza politică: director executiv al direcției tehnice de dezvoltare și proiecte din CJ Mureș, fără mandat ales, candidatură sau funcție de partid documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2402",
+      "original_name": "Nacu Manuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "Eliminat din baza politică: fost comisar-șef și șef împuternicit al IPJ Vaslui, fără mandat ales, candidatură sau rol de partid documentat. Conducerea profesională a poliției nu este funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2404",
+      "original_name": "Tufă Mihalcea Alin-Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Eliminat din baza politică: agent șef adjunct de poliție în IPJ Argeș, fără mandat ales, candidatură sau funcție de partid documentată. Funcția profesională nu este politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2406",
+      "original_name": "Andriuță Elena-Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "Eliminată din baza politică: medic șef al unui laborator din spitalul județean Constanța, fără mandat ales, candidatură sau rol de partid documentat. Funcția medicală nu justifică profil politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
