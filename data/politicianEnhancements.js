@@ -32327,19 +32327,24 @@ export const politicianAdditions = [
       "basis": "office",
       "note": "Funcția relevantă a fost primar (Primarie) în județul Dâmbovița."
     },
-    "crime": "Fapte de corupție",
+    "crime": "Abuz în serviciu contra intereselor publice în formă calificată",
     "sentence": "3 ani închisoare cu suspendare",
     "sentence_years": 3,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 22 mai 2014. Condamnă pe inculpatul BORIGA GABRIEL FLORIN , primar al municipiului Târgovişte, la o pedeapsă de 3 ani şi închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 5 ani și interzicerea, pe o perioadă de 3 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autorităţile publice sau în funcţii elective publice, de a ocupa o funcţie implicând exerciţiul autorităţii de stat și de a ocupa o funcţie sau de a exercita o profesie ori de a desfăşura o activitate, de care s-a folosit pentru săvârşirea infracțiunii de abuz in serviciu contra intereselor publice în formă calificată.",
-    "verified_at": "2026-06-10",
+    "details": "Judecătoria Târgoviște l-a condamnat în primă instanță, la 29 aprilie 2013, la 3 ani de închisoare cu suspendare pentru abuz în serviciu contra intereselor publice în formă calificată, într-un dosar privind achiziția supraevaluată de echipamente pentru locuri de joacă. La 22 mai 2014, Curtea de Apel Ploiești a respins apelurile și a menținut definitiv pedeapsa, cu un termen de încercare de 5 ani.",
+    "verified_at": "2026-08-11",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4932"
+      },
+      {
+        "label": "Digi24",
+        "kind": "press",
+        "url": "https://www.digi24.ro/stiri/actualitate/justitie/primarul-orasului-targoviste-gabriel-boriga-a-fost-condamnat-la-trei-ani-inchisoare-69614"
       }
     ]
   },

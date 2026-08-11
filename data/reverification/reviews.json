@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -16042,6 +16042,23 @@
       ],
       "note": "Eliminată din baza politică: secretar al comunei Gingiova, funcție publică administrativă, fără mandat ales, candidatură sau rol de partid documentat. Sesizarea ANI nu justifică profil politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0730",
+      "original_name": "Gabriel Florin Boriga",
+      "current_name": "Gabriel Florin Boriga",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex + verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4932",
+        "https://www.digi24.ro/stiri/actualitate/justitie/primarul-orasului-targoviste-gabriel-boriga-a-fost-condamnat-la-trei-ani-inchisoare-69614"
+      ],
+      "note": "Profilul existent era ascuns editorial din cauza sursei unice. Am adăugat sursa Digi24 furnizată în sesizare, am precizat infracțiunea și am separat condamnarea din primă instanță din 2013 de hotărârea definitivă din 22 mai 2014.",
+      "reviewed_snapshot_hash": "feb64ffa3c76c3351b1ef65784a161e36a1c5124f20fb7a111937fae54f7d1e5"
     }
   ]
 }
