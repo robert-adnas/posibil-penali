@@ -16475,6 +16475,1560 @@
       ],
       "note": "Eliminată din baza politică: medic șef al unui laborator din spitalul județean Constanța, fără mandat ales, candidatură sau rol de partid documentat. Funcția medicală nu justifică profil politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2407",
+      "original_name": "Bogheanu Marilena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "ANI identifică persoana exclusiv ca fost director general al ADR Sud-Vest Oltenia, o funcție administrativă. O relatare istorică privind simpla înscriere în PSD nu dovedește mandat electoral, candidatură sau funcție de partid; profilul este eliminat din domeniul politic și statusul sensibil nu se publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2447",
+      "original_name": "Opriș Marius Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca fost inspector vamal la Biroul Vamal de Frontieră Aeroport Baia Mare. Nu există mandat electoral, candidatură sau funcție de partid documentată; profilul este administrativ și este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2448",
+      "original_name": "Gavriș Radu Emilian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca director general adjunct al Direcției Generale de Poliție a Municipiului București și ofițer de poliție judiciară. Funcția este profesională, nu electorală sau de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2450",
+      "original_name": "Costea Răzvan-Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca agent de poliție la Centrul de Formare și Perfecționare a Polițiștilor Nicolae Golescu Slatina. Funcția este profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2451",
+      "original_name": "Dinu Dorel Dorinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca comisar al Gărzii Naționale de Mediu în București. Funcția este una de control administrativ, nu mandat electoral, candidatură sau funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2452",
+      "original_name": "Stroe Vasilica Felicia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca director al Colegiului Tehnologic Viaceslav Harnaj București. Conducerea unei unități de învățământ nu este mandat electoral, candidatură sau funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2453",
+      "original_name": "Vasile Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Manasia, funcție publică administrativă de conducere. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2454",
+      "original_name": "Enache Marcela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Chiscani, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2484",
+      "original_name": "Nicula Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca fost expert în cadrul Primăriei Municipiului București. Este o funcție profesională în aparatul administrativ, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2485",
+      "original_name": "Căprărin Marian Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public de conducere în Ministerul Transporturilor și Infrastructurii. Nu este documentată o funcție de demnitate publică, un mandat electoral, o candidatură sau un rol de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2486",
+      "original_name": "Necula Lucia-Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public parlamentar în cadrul Autorității Electorale Permanente. Aceasta este o categorie profesională de personal, nu un mandat de parlamentar ales; fără candidatură sau rol de partid documentat, profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2487",
+      "original_name": "Dicu Cosmin Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în IPJ Ilfov și organ de cercetare penală al poliției judiciare. Este o funcție profesională, fără mandat, candidatură sau rol de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2488",
+      "original_name": "Ceară Olimpia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca fost șef de post în cadrul IPJ Constanța și organ de cercetare penală al poliției judiciare. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2490",
+      "original_name": "Gavrilă Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în aparatul de specialitate al Primăriei Plosca. Faptul că soțul său era viceprimar nu îi conferă persoanei un mandat sau rol politic; fără candidatură ori funcție de partid documentată, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2501",
+      "original_name": "Cijevschi Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/"
+      ],
+      "note": "ANI identifică persoana ca fost șef al secției clinice de oftalmologie din Spitalul Clinic Căi Ferate Iași. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2502",
+      "original_name": "Trandafir Alexandru Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Balaciu, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2505",
+      "original_name": "Hărăbor Valentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/"
+      ],
+      "note": "ANI identifică persoana ca șef de serviciu și funcționar public în aparatul Consiliului Județean Vrancea, nu consilier județean ales. Fără mandat, candidatură sau rol de partid documentat, profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2612",
+      "original_name": "Dinu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Albești, funcție publică administrativă de conducere. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2613",
+      "original_name": "Munteanu Mirela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Pădureni, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2615",
+      "original_name": "Stan Maria Țuțina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca personal contractual de conducere în aparatul de specialitate al primarului comunei Comana. Este personal administrativ, fără mandat electoral, candidatură sau funcție de partid documentată; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2616",
+      "original_name": "Nicola Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca fost auditor superior în ANAF și director economic. Sunt funcții profesionale/administrative, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2619",
+      "original_name": "Kiss Csaba",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public cu statut special în cadrul Direcției Generale de Poliție a Municipiului București. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2620",
+      "original_name": "Sandu Doina Zizi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca manager al Spitalului de Psihiatrie Elisabeta Doamna Galați. Este o funcție managerială medicală, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2621",
+      "original_name": "Lotoroșanu Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul DGASPC Caraș-Severin. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2622",
+      "original_name": "Alexeev Georgică",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca fost director al Penitenciarului Timișoara și funcționar public de conducere cu statut special. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2623",
+      "original_name": "Tănase George Șerban",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în IPJ Argeș și organ de cercetare penală al poliției judiciare. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2624",
+      "original_name": "Vasile Anca Maria Cătălina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul Primăriei Manasia. Relația de rudenie cu secretarul general al comunei nu îi conferă un rol politic; fără mandat, candidatură sau funcție de partid documentată, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2625",
+      "original_name": "Tomi Lucian Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public în cadrul Primăriei Chinteni. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul administrativ și statusul sensibil asociat sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2626",
+      "original_name": "Popescu Sebastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special și organ de cercetare penală al poliției judiciare în cadrul IGPR-BCCO București. Este o funcție profesională, fără rol politic; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2627",
+      "original_name": "Condrat Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-2/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în IPJ Covasna și organ de cercetare penală al poliției judiciare. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2629",
+      "original_name": "Dubei Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-6/"
+      ],
+      "note": "ANI identifică persoana ca director medical al Spitalului Municipal Dr. Cosma și Damian Rădăuți. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2630",
+      "original_name": "Cioc Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-6/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Goiești, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2631",
+      "original_name": "Nancy Loghin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Sinești, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2632",
+      "original_name": "Marcu Silvia Teodora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010-4/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Coteana, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2633",
+      "original_name": "Ion Robert Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul IPJ Argeș. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2635",
+      "original_name": "Musta Virgil Filaret",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca șef al Secției Boli Infecțioase II din Spitalul Dr. Victor Babeș Timișoara. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2636",
+      "original_name": "Sauer Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca director al Stațiunii de Cercetare Dezvoltare pentru Creșterea Ovinelor și Caprinelor Caransebeș. Este o funcție profesional-managerială, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2637",
+      "original_name": "Lifa Sabin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca fost director executiv adjunct al DSVSA Timiș. Este o funcție administrativă de specialitate, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2638",
+      "original_name": "Dumitrescu Andrei",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca comandant de detașament la o unitate specială de jandarmi. Este o funcție militară/profesională, fără mandat electoral, candidatură sau rol de partid; profilul și statusul sensibil asociat sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2639",
+      "original_name": "Baciu Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Zagon, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2640",
+      "original_name": "Vasilică Gheorghiță Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca fost secretar al comunei Șirețel, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2641",
+      "original_name": "Acatrinei Laura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca inspector DSP Botoșani și medic primar epidemiolog. Sunt funcții profesionale în sănătate publică, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2642",
+      "original_name": "Zlate Gina Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și consilier de specialitate în Biroul Buget al Primăriei Giurgiu, nu consilier local ales. Fără mandat, candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2644",
+      "original_name": "Murgeanu Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public de conducere în Ministerul Transporturilor și Infrastructurii, nu demnitar. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2645",
+      "original_name": "Boltinescu Gabriel-Tiberiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public cu statut special în IPJ Brașov și organ de cercetare penală al poliției judiciare. Este o funcție profesională, fără rol politic; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2646",
+      "original_name": "Georgescu Monica Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public și consilier juridic în cadrul DSVSA Călărași, nu consilier ales. Fără mandat electoral, candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2647",
+      "original_name": "Pintilie Elena-Camelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-5/",
+        "https://isc.gov.ro/files/2025/Declaratii/2%20ISC-Functionari%20publici/Pintilie%20Elena%20Camelia%20DA%20la%20incetare.pdf",
+        "https://isc.gov.ro/files/2023/Legislatie/ORDIN%20224%20DIN%202023.pdf"
+      ],
+      "note": "ANI și documentele oficiale ISC identifică persoana ca funcționar public/consilier juridic de execuție; funcția de consilier la MAE nu este documentată ca demnitate publică sau rol politic. Profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2648",
+      "original_name": "Tănase Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI descrie persoana ca director al unei direcții tehnice din aparatul CNA, numită prin concurs, nu ca membru al Consiliului sau demnitar. Fără mandat, candidatură ori rol de partid, profilul și sesizarea sensibilă sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2650",
+      "original_name": "Bungău Codruța Emilia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca fost manager al Spitalului Orășenesc Deta și medic primar. Sunt funcții medicale/manageriale, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2651",
+      "original_name": "Bucur Lucian Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-3/"
+      ],
+      "note": "ANI identifică persoana ca secretar al municipiului Reșița, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2652",
+      "original_name": "Bolborea Veronel Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca director executiv al DSVSA Olt, funcție administrativă de specialitate. Fără mandat electoral, candidatură sau rol de partid documentat, profilul și acuzațiile sensibile sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2654",
+      "original_name": "Mărgărit Lăcrămioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca șef de serviciu și director executiv delegat al AIMMAIPE Ploiești, funcție publică administrativă. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2655",
+      "original_name": "Podină Dorina Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și consilier juridic în aparatul Primăriei Botiz, nu consilier local ales. Fără mandat, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2656",
+      "original_name": "Albu Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în cadrul AJOFM Botoșani, cu atribuții de control. Fără mandat electoral, candidatură sau rol de partid documentat, profilul și sesizarea sensibilă sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2657",
+      "original_name": "Cosma Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și medic în cadrul Penitenciarului Oradea. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2658",
+      "original_name": "Matei Adrian-Robert",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010/"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul IGPR. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2663",
+      "original_name": "Cobelschi Călin Pavel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3466&PID=20"
+      ],
+      "note": "ANI identifică persoana ca manager al Spitalului Clinic Județean de Urgență Brașov și medic. Sunt funcții medicale/manageriale, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2665",
+      "original_name": "Delie Claudiu Leontin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3411&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul IPJ Hunedoara. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul și statusul sensibil sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2666",
+      "original_name": "Șușca Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3390&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost manager al Spitalului Clinic Județean de Urgență Cluj-Napoca. Este o funcție managerială medicală, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2667",
+      "original_name": "Catargiu Camelia Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3366&PID=20"
+      ],
+      "note": "ANI identifică persoana ca secretar al comunei Pianu, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2668",
+      "original_name": "Poh Florentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3366&PID=20"
+      ],
+      "note": "ANI identifică persoana ca secretar al comunei Beștepe, funcție publică administrativă. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2669",
+      "original_name": "Katsiaounas Georgios",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3358&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost manager interimar al Institutului Național pentru Sănătatea Mamei și Copilului. Este o funcție managerială medicală, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2682",
+      "original_name": "Oltean Daniel Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3037&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul Penitenciarului Miercurea Ciuc. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2683",
+      "original_name": "Ardelean-Oltean Ionuț-Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3037&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public cu statut special în cadrul Penitenciarului Oradea. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2684",
+      "original_name": "Pană Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3014&PID=20"
+      ],
+      "note": "ANI identifică persoana ca director executiv al Centrului Județean Argeș APIA, funcție administrativă de agenție. Fără mandat electoral, candidatură sau rol de partid documentat, profilul și sesizarea sensibilă sunt eliminate din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2685",
+      "original_name": "Drăgan Mircea Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3014&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public/expert în Consiliul Județean Satu Mare și fost director executiv al Direcției Județene pentru Cultură. Sunt funcții administrative, fără mandat, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2686",
+      "original_name": "Vasiloe Iuliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2915&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și inspector de cadastru în aparatul Primăriei Gura Vadului, nu ales local. Fără mandat, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2687",
+      "original_name": "Pop Ovidiu Laurean",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2915&PID=20"
+      ],
+      "note": "ANI identifică persoana ca medic primar/șef de serviciu și membru al consiliului de administrație al spitalului; mandatul menționat este cel din CA, nu unul electoral. Fără candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2688",
+      "original_name": "Ghiță Marinela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2907&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și consilier de specialitate în Direcția de Protecție Socială Râmnicu Vâlcea, nu consilier local ales. Fără mandat, candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2689",
+      "original_name": "Șchiop Bogdan Ionuț",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2907&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și arhitect-șef în aparatul Primăriei Salonta. Este o funcție tehnică administrativă, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2690",
+      "original_name": "Așibreiner Sergiu-Ștefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2892&PID=20"
+      ],
+      "note": "ANI identifică persoana ca agent operativ și funcționar public cu statut special în Penitenciarul Iași. Este o funcție profesională, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2691",
+      "original_name": "Săvescu Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2892&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public de execuție și arhitect în aparatul Primăriei Șelimbăr. Este o funcție tehnică, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2692",
+      "original_name": "Popescu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2891&PID=20"
+      ],
+      "note": "Sursa ANI individualizează persoana ca fost manager general al Serviciului Județean de Ambulanță Constanța. Este o funcție medical-administrativă, fără mandat, candidatură sau rol de partid; profilul este eliminat fără asociere cu alte persoane omonime.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2693",
+      "original_name": "Ceaușescu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2891&PID=20"
+      ],
+      "note": "ANI identifică persoana ca șef al Serviciului Administrativ dintr-un spital. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2694",
+      "original_name": "Andreica Dorel Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2884&PID=20"
+      ],
+      "note": "ANI identifică persoana ca agent de poliție în IPJ Satu Mare și titular al unor funcții administrative în DGASPC Sector 4. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2695",
+      "original_name": "Mirică Alexandra",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2860&PID=20"
+      ],
+      "note": "ANI identifică persoana ca șef administrație adjunct și funcționar public de conducere în AJFP Giurgiu. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2696",
+      "original_name": "Dan Voichița",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2860&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public și consilier de specialitate în APIA Maramureș, nu consilier ales. Fără mandat electoral, candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2697",
+      "original_name": "Marinescu Cristian-Ștefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3028&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public/inspector de execuție în aparatul Primăriei Bujoreni. Este o funcție administrativă, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2698",
+      "original_name": "Mocanu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3020&PID=20"
+      ],
+      "note": "Sursa ANI individualizează această persoană cu nume comun ca fost ofițer de poliție în IPJ Constanța. Funcția este profesională și nu trebuie confundată cu eventuali politicieni omonimi; profilul și statusul sensibil sunt eliminate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2699",
+      "original_name": "Magdalena Niculescu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3015&PID=20"
+      ],
+      "note": "ANI identifică persoana ca secretar general adjunct de minister și funcționar public de conducere/director juridic, nu secretar de stat. Sunt funcții administrative, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2700",
+      "original_name": "Dragomirescu Florinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2997&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost director general al DGASPC Teleorman. Este o funcție administrativă de asistență socială, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2701",
+      "original_name": "Mătășăl Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2997&PID=20"
+      ],
+      "note": "ANI identifică persoana ca șef al Biroului Juridic din Casa Județeană de Pensii Bacău și asistent judiciar. Sunt funcții administrative/juridice, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2702",
+      "original_name": "Moldovan Cristian Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2991&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost inspector antifraudă fiscală în Direcția Regională Antifraudă 5 Deva. Este o funcție profesională de control, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2703",
+      "original_name": "Pârvu Simona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2991&PID=20"
+      ],
+      "note": "ANI identifică persoana ca șef de serviciu la Inspecția Sanitară de Stat și director general INSP, funcții profesionale de conducere în sănătate publică. Fără mandat, candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2704",
+      "original_name": "Stan Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2988&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public de conducere în Ministerul Sănătății și director financiar-contabil la Institutul Ana Aslan. Sunt funcții administrative, fără mandat electoral, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2705",
+      "original_name": "Răducu Silvia Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2988&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în aparatul Primăriei Băbeni. Nu este documentat un mandat electoral, o candidatură sau o funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2706",
+      "original_name": "Tripon Iosefina Viorica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2988&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public/consilier principal cu atribuții financiare în aparatul Primăriei Călățele, nu consilier local ales. Fără mandat, candidatură sau rol de partid, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2707",
+      "original_name": "Mititiuc Luanda Irina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2950&PID=20"
+      ],
+      "note": "ANI identifică persoana ca director medical al Spitalului Clinic C.I. Parhon Iași. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2708",
+      "original_name": "Prelipcean Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2950&PID=20"
+      ],
+      "note": "ANI identifică persoana ca medic șef al Secției Clinice Gastroenterologie I din Spitalul Sf. Spiridon Iași. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2709",
+      "original_name": "Blăjan Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3238&PID=20"
+      ],
+      "note": "ANI identifică persoana exclusiv ca fost șef al Secției de Cardiologie din Spitalul Județean de Urgență Pitești. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2712",
+      "original_name": "Misaroși Ioana Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3186&PID=20"
+      ],
+      "note": "ANI identifică persoana ca manager al Spitalului Municipal Lupeni. Este o funcție administrativă de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2713",
+      "original_name": "Militaru Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3184&PID=20"
+      ],
+      "note": "ANI identifică persoana ca secretar general al comunei Sălcuța, funcție publică administrativă de conducere, nu mandat ales. Fără candidatură sau rol de partid documentat, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2715",
+      "original_name": "Cîrlig Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3184&PID=20"
+      ],
+      "note": "ANI identifică persoana ca manager al Spitalului Dr. Karl Diel Jimbolia. Este o funcție administrativă de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2716",
+      "original_name": "Maghiari Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3165&PID=20"
+      ],
+      "note": "ANI identifică persoana ca fost funcționar public cu statut special/polițist în cadrul IGPR-DGPMB. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2717",
+      "original_name": "Hîrțea Simona-Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3148&PID=20"
+      ],
+      "note": "ANI identifică persoana ca funcționar public în Ministerul Sănătății și fost manager interimar al unor spitale. Sunt funcții administrative, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2718",
+      "original_name": "Smochină Simona Eliza-Sanda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3148&PID=20"
+      ],
+      "note": "ANI identifică persoana exclusiv ca fost manager al Spitalului Municipal Oltenița și medic. Fără mandat electoral, candidatură sau rol de partid documentat, profilul este în afara sferei politice și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2719",
+      "original_name": "Vasile Felicia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3148&PID=20"
+      ],
+      "note": "ANI identifică persoana ca director medical al Spitalului Municipal Râmnicu Sărat. Este o funcție medicală de conducere, fără mandat electoral, candidatură sau rol de partid documentat; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
