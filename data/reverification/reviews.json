@@ -28553,6 +28553,363 @@
       ],
       "note": "DNA o identifica pe Gheorghe Silviea ca martor privat si cesionara a unor drepturi litigioase in tentativa de revendicare frauduloasa, fara functie politica sau publica. Grafia Silviea este consecventa in sursele judiciare si nu trebuie confundata cu functionari omonimi numiti Silvia Gheorghe; profil eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1720",
+      "original_name": "Gheorghe Tatiana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2770",
+        "https://www.dna.ro/comunicat.xhtml?id=2278",
+        "https://muzeulmuresenilor.ro/wp-content/uploads/2023/03/DA-GHEORGHE-TATIANA-2022.pdf"
+      ],
+      "note": "DNA o identifica numai ca participant privat si complice la cumparare de influenta, fara functie publica sau politica. Exista o persoana omonima declaranta ca angajat/consilier la Consiliul Judetean Brasov, dar nicio sursa nu permite legarea ei de dosarul DNA; profilul politic ar produce o asociere nesigura.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1721",
+      "original_name": "Gheorghiu Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4367",
+        "https://www.senat.ro/GrupuriPrietenieAct.aspx?LegislaturaID=5d54ad71-d2b6-4c4a-93be-c96025f2918e&Organizatie=22395821-b9d8-41d9-a51a-8aaa41bbd3b2"
+      ],
+      "note": "DNA il descrie explicit pe condamnat drept persoana fara calitate speciala intr-un dosar APIA Neamt. Exista politicianul omonim Bogdan Gheorghiu, deputat PNL si fost ministru, dar nicio dovada de identitate comuna; asocierea condamnarii cu acesta ar fi o coliziune grava.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1722",
+      "original_name": "Gheorghiu Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://legislatie.just.ro/Public/DetaliiDocument/185456"
+      ],
+      "note": "Numele apare doar intr-o lista foarte ampla de persoane dintr-un dosar de frauda privind pensii, fara identificatori si fara functie publica sau politica. Exista persoane publice cu nume apropiat, inclusiv Elena Maria Gheorghiu, fost consilier de stat, dar nu exista dovada unei identitati comune; profil eliminat pentru a preveni atribuirea eronata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1723",
+      "original_name": "Ghereben Aurica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "Comunicatele DNA identifica persoana ca unul dintre candidatii la examenul de bacalaureat acuzati de cumparare de influenta, nu ca titular al unei functii publice sau politice. Cautarea nominala nu a furnizat o functie politica proprie; profil eliminat ca fiind in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1724",
+      "original_name": "Gherga Avram-Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4867",
+        "https://www.dna.ro/comunicat.xhtml?id=1690"
+      ],
+      "note": "DNA il separa explicit pe Gherga Avram-Ioan de angajatii si alesii Primariei Zavoi si il descrie drept alta persoana care a ajutat la intermedierea mitei. Nu rezulta o functie publica sau politica proprie; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1725",
+      "original_name": "Gherghe Alexandrina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2882",
+        "https://legislatie.just.ro/Public/DetaliiDocument/114710"
+      ],
+      "note": "Sursele judiciare confirma persoana si dosarul penal, dar nu indica nicio functie publica sau politica: Alexandrina Gherghe a fost inculpata alaturi de sotul sau intr-un caz de trafic de influenta privind spatii comerciale. Profil eliminat ca persoana privata, in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1726",
+      "original_name": "Gherghinis Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA il identifica explicit pe Gherghinis Ionel drept candidat la examenul de bacalaureat, condamnat pentru cumparare de influenta. Nu este indicata nicio functie publica sau politica proprie; profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1727",
+      "original_name": "Gherman Claudiu Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3176",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3294",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1288"
+      ],
+      "note": "DNA il identifica explicit drept persoana fara calitate speciala, condamnata intr-un dosar de grup infractional si contrabanda. Nu a fost gasita o functie publica sau politica proprie; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1728",
+      "original_name": "Gherman Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele apare fara identificatori ori functie intr-o lista de sute de persoane dintr-un dosar de frauda privind pensii. Exista mai multe persoane omonime sau cu nume extins in institutii publice, iar legatura cu o identitate politica nu poate fi stabilita; profil eliminat pentru evitarea unei asocieri gresite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1729",
+      "original_name": "Ghiata Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5455"
+      ],
+      "note": "DNA confirma condamnarea lui Mihai Ghiata pentru trafic de influenta, iar sursele concordante il identifica drept membru al criminalitatii informatice, nu ales, candidat sau titular al unei functii publice. Profil eliminat ca persoana privata din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1730",
+      "original_name": "Ghinea Ioan Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079",
+        "https://www.dna.ro/comunicat.xhtml?id=1703",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_brasov/consiliul-local/moieciu/21"
+      ],
+      "note": "DNA il descrie pe Ghinea Ioan Viorel ca beneficiar privat al obtinerii frauduloase a unui permis de conducere in Ungaria, fara functie publica. Exista un candidat local PNL exact omonim in Moieciu, dar nu exista nicio sursa care sa il lege de dosarul DNA din Bihor; profil eliminat pentru evitarea coliziunii.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1731",
+      "original_name": "Ghita Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primaria-ipotesti.ro/ro/content/informatii-de-interes-public/declaratii-de-avere-si-interese/declaratii-de-avere-si-interese-2010"
+      ],
+      "note": "Comunicatul DNA mentioneaza numele comun Ghita Constantin intr-o lista de sute de persoane, fara identificatori ori functie. Exista omonimi in documente publice, inclusiv un secretar de primarie, dar nu exista legatura demonstrata cu dosarul; profil eliminat pentru a evita atribuirea condamnarii unui omonim.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1732",
+      "original_name": "Ghita Delioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele rar Ghita Delioara apare in dosarul colectiv de frauda privind pensii, fara nicio functie publica sau politica indicata. Cautarea nominala nu a identificat o cariera politica sau o candidatura; profil eliminat ca persoana privata din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1733",
+      "original_name": "Ghita Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://il.prefectura.mai.gov.ro/wp-content/uploads/sites/51/2020/11/PV-completare-sectii-votare.pdf"
+      ],
+      "note": "Ghita Ion este un nume foarte comun, mentionat fara identificatori sau functie in lista colectiva DNA. Un document electoral oficial contine un omonim desemnat de PRO Romania, iar alte surse publice contin alti omonimi; fara o legatura probata, profilul a fost eliminat pentru prevenirea atribuirii gresite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1734",
+      "original_name": "Giurca Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5064",
+        "https://www.dna.ro/comunicat.xhtml?id=4334",
+        "https://www.monitorulsv.ro/paul-rusu-avocatul-care-se-visa-deputat-arestat-pentru-ca-a-incercat-sa-mituiasca-un-procuror-cu-5000-de-euro_a0ef71/"
+      ],
+      "note": "DNA il descrie pe Giurca Dumitru drept persoana fara calitate speciala si client al avocatului Paul Rusu; o sursa locala il identifica drept fost politist local. Functia politica din dosar apartinea avocatului Rusu, nu lui Giurca; profil eliminat ca functionar/nepolitician din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1735",
+      "original_name": "Gogica Victor Gigi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "DNA il descrie explicit pe Gogica Victor Gigi drept persoana fara calitate speciala, lider/participant al unei grupari de furt de produse petroliere care mituia politisti. Nicio functie publica sau politica proprie nu este indicata; profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1736",
+      "original_name": "Gogoase Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1926",
+        "https://www.dna.ro/comunicat.xhtml?id=1043"
+      ],
+      "note": "DNA descrie activitatea proprie de trafic de influenta a Mariei Gogoase, fara a-i atribui o functie publica sau politica; functionara publica din acelasi dosar este o alta inculpata. Nu a fost gasita o candidatura sau functie politica a acestei persoane; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1737",
+      "original_name": "Gosman Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2024/11/PV-refacute-26.11.2024.pdf"
+      ],
+      "note": "DNA il identifica pe Gosman Vasile drept candidat la examenul de bacalaureat condamnat pentru cumparare de influenta, fara functie publica. Un document electoral ulterior contine un omonim in Tulcea, dar nu exista legatura de identitate cu dosarul din Bacau; profil eliminat pentru a evita o atribuire nesigura.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1738",
+      "original_name": "Grad Oana Luciana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA o include pe Grad Oana Luciana intre candidatii la examenul de bacalaureat condamnati pentru cumparare de influenta, nu intre cadrele didactice ori functionarii dosarului. Nu a fost identificata o functie politica proprie; profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1739",
+      "original_name": "Grancea Niculina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2969",
+        "https://www.dna.ro/comunicat.xhtml?id=1055",
+        "https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2018/01/Ordin-445.pdf"
+      ],
+      "note": "Hotararea comunicata de DNA consemneaza condamnarea, dar nu ofera identificatori sau o functie pentru Grancea Niculina, iar sinteza trimiterii in judecata nu explica rolul ei. Exista o persoana exact omonima in invatamantul iesean, fara dovada legaturii cu dosarul; nicio identitate politica nu poate fi stabilita, astfel profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1740",
+      "original_name": "Grecu Catalin Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4129",
+        "https://www.dna.ro/comunicat.xhtml?id=2504"
+      ],
+      "note": "DNA confirma condamnarea pentru trafic de influenta si descrie faptele, dar nu atribuie lui Grecu Catalin Nicolae nicio functie publica sau politica; influenta pretinsa viza o alta persoana din Garda Financiara. Cautarea nominala nu a identificat o candidatura sau functie politica proprie, astfel profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
