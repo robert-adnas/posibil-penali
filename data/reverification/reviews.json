@@ -33194,6 +33194,659 @@
       ],
       "note": "Pandele Elena apare în lista beneficiarilor condamnați la 2 ani cu suspendare în dosarul pensiilor false; DNA nu indică rol politic ori mandat public. Profil în afara domeniului politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2001",
+      "original_name": "Pandele Gherghina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include intr-un lot de beneficiari ai unor pensii obtinute fraudulos, fara functie publica sau politica identificabila. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2002",
+      "original_name": "Pandelea Ionut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "Sursa DNA il identifica in dosarul fraudarii examenului de bacalaureat, fara functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2003",
+      "original_name": "Pantelimon Iosif",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079"
+      ],
+      "note": "Hotararea definitiva DNA il condamna pentru cumparare de influenta, fara a consemna vreo functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2004",
+      "original_name": "Pantilimon Stefana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include in lotul de beneficiari ai pensiilor frauduloase si nu indica o functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2005",
+      "original_name": "Papuc Zenovia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include in acelasi dosar colectiv al pensiilor frauduloase, fara rol public sau politic. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2006",
+      "original_name": "Parasca Anton",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5726"
+      ],
+      "note": "Hotararea definitiva DNA priveste complicitatea la evaziune fiscala in activitatea unor societati comerciale; nu este indicata o functie publica sau politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2007",
+      "original_name": "Paraschiv Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://legislatie.just.ro/public/DetaliiDocument/140505"
+      ],
+      "note": "DNA mentioneaza doar numele intr-un lot numeros de beneficiari, fara identificatori politici. O sursa electorala oficiala consemneaza un politician omonim, dar nu exista baza pentru atribuirea condamnarii acestuia; coliziunea de nume este eliminata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2008",
+      "original_name": "Paraschiv Nicusor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "Comunicatul DNA il descrie explicit drept persoana fara calitate speciala, fara functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2009",
+      "original_name": "Paraschiv Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://primariavasilati.ro/despre-institutie/conducere/lista-persoanelor-din-conducere/primar/",
+        "https://www.adincata.ro/informatii-de-interes-public/declaratii-de-avere-si-de-interese/declaratii-de-avere/"
+      ],
+      "note": "Dosarul DNA al pensiilor nu ofera identificatori care sa lege persoana de omonimii cu roluri publice consemnati oficial. Pentru a evita atribuirea gresita a condamnarii, profilul este eliminat ca nume ambiguu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2010",
+      "original_name": "Paraschiva Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include intr-un lot colectiv de beneficiari, fara functie publica sau politica identificabila. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2011",
+      "original_name": "Paretti Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Hotararea DNA il include intre beneficiarii condamnati pentru inselaciune in dosarul pensiilor, fara functie publica sau politica. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2012",
+      "original_name": "Parici Sever",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355"
+      ],
+      "note": "DNA il descrie explicit pe Parici Sever drept persoana fara calitate speciala; functiile politice din dosar apartin altor inculpati. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2013",
+      "original_name": "Parliteanu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotararea definitiva DNA il condamna pentru inselaciune, fara a-i atribui functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2014",
+      "original_name": "Parvanoff Floarea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Sursa DNA consemneaza condamnarea intr-un lot de persoane private si nu identifica niciun rol public sau politic pentru Parvanoff Floarea. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2015",
+      "original_name": "Pascu Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://emol.ro/ionneculce-is/registru-hcl/215589/"
+      ],
+      "note": "DNA foloseste doar numele scurt Pascu Ana intr-un lot numeros, fara identificatori politici. Exista oficial o consiliera Pascu Ana Maria, dar nu exista baza pentru atribuirea condamnarii acesteia; profilul ambiguu este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2016",
+      "original_name": "Pascu Dorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://bn.prefectura.mai.gov.ro/wp-content/uploads/sites/23/2019/05/PV-reprezentanti-partide.pdf"
+      ],
+      "note": "Comunicatul DNA mentioneaza doar numele intr-un lot de beneficiari, fara identificatori. O sursa electorala oficiala consemneaza un Pascu Dorel afiliat ALDE, dar legatura nu poate fi demonstrata; profil eliminat ca posibila coliziune.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2017",
+      "original_name": "Pascu Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA il identifica drept tatal unui candidat la bacalaureat, nu drept titular al unei functii publice sau politice. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2018",
+      "original_name": "Pascu Emilia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Hotararea DNA o include intre beneficiarii condamnati pentru inselaciune si nu indica o functie publica sau politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2019",
+      "original_name": "Pascu Florentina Violeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifica explicit drept candidata la examenul de bacalaureat, fara rol public sau politic. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2021",
+      "original_name": "Paun Alina Magdalena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5154",
+        "https://xn--primria-popeti-leordeni-7tc270e.ro/files/consiliul-local/proiecte-hotarare/2019/20191009.ph49602.pdf"
+      ],
+      "note": "DNA consemneaza condamnarea fara functie publica sau politica si fara identificatori care sa o lege de persoana omonima din aparatul administrativ Popesti-Leordeni. Pentru a evita atribuirea gresita, profilul este eliminat ca nume ambiguu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2022",
+      "original_name": "Paun Elena-Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4596"
+      ],
+      "note": "DNA atribuie functiile politice celorlalti inculpati si nu consemneaza niciun mandat sau rol politic pentru Paun Elena-Cornelia. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2023",
+      "original_name": "Pavel Marcela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Pavel Marcela apare doar intr-un lot numeros de persoane condamnate pentru inselaciune, fara functie publica sau politica identificata. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2024",
+      "original_name": "Pavel Stoian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645"
+      ],
+      "note": "DNA il identifica drept sef de livrare in cadrul Statului Major al Fortelor Terestre, functie profesionala militara, nu mandat politic. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2025",
+      "original_name": "Pentelei Florinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4128"
+      ],
+      "note": "Comunicatul DNA il descrie explicit drept persoana fara calitate speciala si nu indica afiliere sau functie politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2026",
+      "original_name": "Peronescu Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Peronescu Mariana este enumerata intre beneficiarii condamnati in dosarul pensiilor, fara identificatori ori functie politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2027",
+      "original_name": "Persan Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3172"
+      ],
+      "note": "DNA il califica explicit pe Persan Valentin drept persoana fara calitate speciala, condamnat intr-un dosar de santaj si lipsire de libertate. Nu exista rol politic; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2028",
+      "original_name": "Perte Mircea Calin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774",
+        "https://itmbihor.ro/ro/interes-public/alte-informatii-de-interese-public/9declaratii-de-avere-si-interese/show/2021/"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala. Aparitia in declaratii administrative ITM nu dovedeste un mandat politic; profil eliminat din domeniul proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2029",
+      "original_name": "Peter Magdalena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3486"
+      ],
+      "note": "Hotararea definitiva DNA o descrie explicit pe Peter Magdalena drept persoana fara calitate speciala, fara rol public sau politic. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2030",
+      "original_name": "Petkovic Sinisa",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3989"
+      ],
+      "note": "DNA il identifica drept persoana implicata in traficul cu tigari, nu drept titular al unei functii publice sau politice. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2031",
+      "original_name": "Petrache Sica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Petrache Sica este doar enumerata in lotul beneficiarilor condamnati pentru inselaciune, fara identificatori politici. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2032",
+      "original_name": "Petre Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primariasector1.ro/wp-content/uploads/2024/12/Partide-parlamentare-01.12-AN-OR-14.pdf"
+      ],
+      "note": "DNA mentioneaza doar numele Petre Doina intr-un lot foarte numeros, fara identificatori. O sursa electorala oficiala consemneaza o persoana omonima ca reprezentant AUR; condamnarea nu ii poate fi atribuita. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2033",
+      "original_name": "Petre Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://tr.prefectura.mai.gov.ro/wp-content/uploads/sites/24/2025/04/BSV_192.pdf"
+      ],
+      "note": "Comunicatul DNA include numele intr-un lot colectiv fara identificatori, iar Prefectura Teleorman consemneaza un omonim reprezentant AUR. Legatura nu poate fi demonstrata; profil eliminat ca posibila coliziune.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2034",
+      "original_name": "Petre Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Petre Florica este enumerata intre beneficiarii condamnati pentru inselaciune, fara functie publica sau politica. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2035",
+      "original_name": "Petre Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://www.primariacampina.ro/documente/petre-mariana-2/"
+      ],
+      "note": "DNA ofera numai numele intr-un lot numeros; o persoana omonima apare in documentele oficiale ale Primariei Campina, fara dovada ca este aceeasi persoana. Pentru a evita atribuirea gresita, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2036",
+      "original_name": "Petre Stavrula",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Petre Stavrula apare doar in lista beneficiarilor condamnati pentru inselaciune si nu are functie publica sau politica identificabila. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2037",
+      "original_name": "Petre Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.primariamovilita.ro/componenta_cl.html"
+      ],
+      "note": "Sursa DNA nu ofera identificatori, iar o sursa oficiala locala consemneaza un consilier omonim Petre Vasile. Nu exista baza pentru atribuirea condamnarii politicianului; profil eliminat ca nume ambiguu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2038",
+      "original_name": "Petrea Lidia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifica pe Petrea Lidia drept candidata la examenul de bacalaureat, nu titulara unei functii publice sau politice. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2039",
+      "original_name": "Petrescu Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primariasecu.ro/despre-primarie/conducere/consiliul-local/"
+      ],
+      "note": "DNA mentioneaza doar numele scurt intr-un dosar colectiv, in timp ce Primaria Secu confirma o consiliera locala omonima. Fara identificatori comuni, condamnarea nu poate fi atribuita acesteia; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2040",
+      "original_name": "Petrescu Catalin Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.spitaluljudeteanbacau.ro/storage/2025/05/PETRESCU-G.H.E.-CATALIN-OVIDIU-A.pdf"
+      ],
+      "note": "DNA il include intre persoanele condamnate in dosarul creditelor bancare, fara rol politic. Un document public actual contine acelasi nume, dar nu permite o legatura sigura si nu indica un mandat politic; profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2041",
+      "original_name": "Petrescu Ingrid",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Petrescu Ingrid este condamnata in dosarul de inselaciune bancara, iar sursa nu ii atribuie functie publica, mandat sau afiliere politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
