@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-08-20",
   "holds": {
     "Sorin Ștefan Zamfirescu": {
       "held_at": "2026-08-03",
@@ -135,48 +135,6 @@
       ],
       "profile_id": "RV-0539"
     },
-    "Ioan Filip": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0551"
-    },
-    "Robert Sorin Negoiță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0552"
-    },
-    "Neculai Șchiopu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0554"
-    },
-    "Ionuț Voicu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0555"
-    },
-    "Iulian Dumitrescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0556"
-    },
-    "Mihai Barbu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0560"
-    },
     "Lucreția Cadar": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -190,13 +148,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-0569"
-    },
-    "Bocșe Raul Florin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0570"
     },
     "Márk Endre Dezső": {
       "held_at": "2026-08-03",
@@ -218,20 +169,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-0573"
-    },
-    "Florin Serghei Anghel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0577"
-    },
-    "Vasile Iliuță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0581"
     },
     "Costel Vieriu": {
       "held_at": "2026-08-03",
@@ -261,20 +198,6 @@
       ],
       "profile_id": "RV-0630"
     },
-    "Diaconu Nicolae": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0631"
-    },
-    "Dumitrescu Mihail": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0632"
-    },
     "Lupu Sorin": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -288,13 +211,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-0634"
-    },
-    "Haneș Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0641"
     },
     "Marius Florinel Nicolaescu": {
       "held_at": "2026-08-03",
@@ -4362,6 +4278,90 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0549"
+    },
+    "Ioan Filip": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0551"
+    },
+    "Robert Sorin Negoiță": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0552"
+    },
+    "Neculai Șchiopu": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0554"
+    },
+    "Ionuț Voicu": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0555"
+    },
+    "Iulian Dumitrescu": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0556"
+    },
+    "Mihai Barbu": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0560"
+    },
+    "Bocșe Raul Florin": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0570"
+    },
+    "Florin Serghei Anghel": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0577"
+    },
+    "Vasile Iliuță": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0581"
+    },
+    "Diaconu Nicolae": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0631"
+    },
+    "Dumitrescu Mihail": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0632"
+    },
+    "Haneș Gheorghe": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0641"
     }
   }
 }

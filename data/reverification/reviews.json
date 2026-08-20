@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-08-20",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -27841,6 +27841,211 @@
       ],
       "note": "Identitatea și trimiterea în judecată sunt confirmate. Situația preventivă a fost actualizată: după arestul preventiv existent la trimiterea în judecată, în iunie 2026 Eugen Nechita se afla sub control judiciar. Curtea de Apel Suceava a menținut obligațiile de a nu intra în primărie și de a nu exercita funcția. Profilul este ascuns până la soluția pe fond.",
       "reviewed_snapshot_hash": "f461534eaa39d80d4f20528cac34965e3a540d912957b222147425e7e3888718"
+    },
+    {
+      "profile_id": "RV-0551",
+      "original_name": "Ioan Filip",
+      "current_name": "Ioan Filip",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13892",
+        "https://ziarulatitudineadeneamt.ro/2026/08/14/ioan-filip-a-pierdut-procesul-prin-care-incerca-sa-si-recupereze-mandatul-de-primar/"
+      ],
+      "note": "Identitatea și rolul politic sunt confirmate. Actualizat la trimitere în judecată și fost primar după încetarea mandatului.",
+      "reviewed_snapshot_hash": "68072e25f6777809a58cec37033404faa49952680f43af04df727bd47be44876"
+    },
+    {
+      "profile_id": "RV-0552",
+      "original_name": "Robert Sorin Negoiță",
+      "current_name": "Robert Sorin Negoiță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11396",
+        "https://www.dna.ro/comunicat.xhtml?id=13536",
+        "https://agerpres.ro/magyar/2026/02/12/feloldott-k-a-hat-s-gi-fel-gyelet-t-gy-visszat-rhet-hivatal-ba-robert-negoita-bukaresti-harmadik-ker--1527607"
+      ],
+      "note": "Corectată informația despre măsura preventivă: controlul judiciar din dosarul nou a fost revocat definitiv; dosarul din 2022 rămâne clasificat ca trimis în judecată.",
+      "reviewed_snapshot_hash": "bdcbc251370e7f8fec9975b2d831397a60b801cc590f86935fefa137e9c5e7b1"
+    },
+    {
+      "profile_id": "RV-0554",
+      "original_name": "Neculai Șchiopu",
+      "current_name": "Neculai Șchiopu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.eppo.europa.eu/media/news/romania-eppo-conducts-searches-and-seizes-assets-subsidy-fraud-investigation-involving-poverty-2025-05-07_en",
+        "https://www.dna.ro/comunicat.xhtml?id=12875",
+        "https://www.botosaneanul.ro/primar-din-botosani-condamnat-pentru-fapte-de-coruptie-dupa-ce-a-recunoscut-tot"
+      ],
+      "note": "Actualizate funcția de primar și condamnarea nedefinitivă din dosarul EPPO; dosarul DNA pentru luare de mită este prezentat separat.",
+      "reviewed_snapshot_hash": "e76f453f03722b06c60ee5d286b04ec9fd0fd4af770564230e3c828f3915660e"
+    },
+    {
+      "profile_id": "RV-0555",
+      "original_name": "Ionuț Voicu",
+      "current_name": "Ionuț Voicu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12875",
+        "https://www.radioiasi.ro/stiri/regional/dna-suceava-mentine-controlul-judiciar-in-cazul-fostului-secretar-general-al-pnl-botosani-ionut-voicu/"
+      ],
+      "note": "Identitatea, rolul politic și stadiul de inculpat în anchetă sunt confirmate; formularea nu mai prezintă măsura preventivă din februarie 2026 drept neapărat actuală.",
+      "reviewed_snapshot_hash": "756c9fd1902c919209b77296d956540be34ef20d6908ff74b1a235a233b7724b"
+    },
+    {
+      "profile_id": "RV-0556",
+      "original_name": "Iulian Dumitrescu",
+      "current_name": "Iulian Dumitrescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12750",
+        "https://newscenter.ro/2026/07/08/iulian-dumitrescu-fostul-baron-politic-de-prahova-ramane-sub-control-judiciar-curtea-de-apel-bucuresti-i-a-respins-contestatia-dosarul-este-blocat/"
+      ],
+      "note": "Confirmate identitatea, rolul și trimiterea în judecată; adăugată menținerea definitivă a controlului judiciar din 7 iulie 2026.",
+      "reviewed_snapshot_hash": "e6005a2baa72bf8481223ac5a8609b521d1ad476585ecd51f01446d6f9c7eeb5"
+    },
+    {
+      "profile_id": "RV-0560",
+      "original_name": "Mihai Barbu",
+      "current_name": "Mihai Barbu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13238",
+        "https://agerpres.ro/justitie/2026/02/17/vaslui-fostul-presedinte-interimar-al-organizatiei-pnl-mihai-barbu-ramane-sub-control-judiciar--1528781"
+      ],
+      "note": "Confirmate identitatea și ancheta; formularea măsurii preventive a fost limitată la ultima dată public confirmată.",
+      "reviewed_snapshot_hash": "b3cde02b71331f078b764fc5b183d27f0edae2aa52c00ca058367253b6e071da"
+    },
+    {
+      "profile_id": "RV-0570",
+      "original_name": "Bocșe Raul Florin",
+      "current_name": "Bocșe Raul Florin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12699",
+        "https://dnews24.ro/curtea-de-apel-oradea-respinge-contestatia-eugeniei-pasca-si-mentine-legalitatea-trimiterii-in-judecata-in-dosarul-bocse-pasca-privind-prejudicierea-bugetului-primariei-campani-cu-peste-14-mi/"
+      ],
+      "note": "Confirmate identitatea și trimiterea în judecată; adăugată finalizarea definitivă a camerei preliminare.",
+      "reviewed_snapshot_hash": "8d744b3c759e921730cce635660d3c9352d4680401b5fdddd9e50c0babf32a28"
+    },
+    {
+      "profile_id": "RV-0577",
+      "original_name": "Florin Serghei Anghel",
+      "current_name": "Florin Serghei Anghel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6995",
+        "https://www.news.ro/justitie/inalta-curte-desfiinteaza-decizie-curtii-apel-ploiesti-fostul-deputat-psd-andreea-cosma-presedinte-consiliului-judetean-prahova-scapau-acuzatii-coruptie-urmare-prescrierii-dosarul-rejudecat-1922405704142024042221548246"
+      ],
+      "note": "Confirmate identitatea și istoricul procedural; nu a fost identificată o soluție definitivă după trimiterea cauzei spre rejudecare.",
+      "reviewed_snapshot_hash": "f8226482480849a8a54690155cdb2d2f1124623df2e1858e01aaf7fc4638dbdc"
+    },
+    {
+      "profile_id": "RV-0581",
+      "original_name": "Vasile Iliuță",
+      "current_name": "Vasile Iliuță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12606",
+        "https://www.dna.ro/comunicat.xhtml?id=10238"
+      ],
+      "note": "Separat explicit dosarul activ din 2024 de achitarea definitivă din cauza distinctă; data verificării actualizată.",
+      "reviewed_snapshot_hash": "b375207b007d3f40afe2903d57a22edd00529d0f07a24d3e9d2e1140f4722c03"
+    },
+    {
+      "profile_id": "RV-0631",
+      "original_name": "Diaconu Nicolae",
+      "current_name": "Diaconu Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4701",
+        "https://www.cjarges.ro/documents/10865/357788/PV_25.02.2016.pdf/d40269c1-c55c-4de5-8f85-9681df969088"
+      ],
+      "note": "Clarificat că statusul se referă la calitatea de suspect confirmată în 2014, fără a afirma că ancheta este încă activă; eliminată sursa agregatoare slabă.",
+      "reviewed_snapshot_hash": "c6da0a0a54aa5aa848624ed8e6cf4fac76333caff7fd029ce954776b1823bf04"
+    },
+    {
+      "profile_id": "RV-0632",
+      "original_name": "Dumitrescu Mihail",
+      "current_name": "Dumitrescu Mihail",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4701",
+        "https://www.cjarges.ro/en/web/merisani/dumitrescu-mihail"
+      ],
+      "note": "Clarificat caracterul istoric al calității de suspect, actualizat rolul ulterior de consilier local și eliminată atribuirea eronată a unui document Scribd către BEC.",
+      "reviewed_snapshot_hash": "9ecc6f125b9c02f5e832835226b2dbc0677d9ca5ed1810c44b5f4a081a072e5c"
+    },
+    {
+      "profile_id": "RV-0641",
+      "original_name": "Haneș Gheorghe",
+      "current_name": "Haneș Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex / verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10528"
+      ],
+      "note": "Confirmate identitatea și trimiterea în judecată; corectată data comunicatului și eliminată sursa agregatoare nerelevantă.",
+      "reviewed_snapshot_hash": "c644f18c24422fceb8091dc16183dfd6924bd99303b60071bb05e5c5bb4d449c"
     }
   ]
 }
