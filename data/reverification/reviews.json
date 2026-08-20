@@ -30916,6 +30916,659 @@
       ],
       "note": "DNA o identifică între candidații la bacalaureat condamnați pentru cumpărare de influență; nu este consemnată și nici confirmată separat o funcție politică.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1861",
+      "original_name": "Marin Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primariapredeal-sarari.ro/informatii-de-interes-public/declaratii-avere-interese/"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensii și nu indică funcție publică sau politică. Există omonime în administrația locală, dar fără identificatori comuni cu persoana condamnată; profilul este exclus pentru a evita atribuirea greșită a statusului penal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1862",
+      "original_name": "Marin Sidonia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4827",
+        "https://www.dna.ro/comunicat.xhtml?id=1437"
+      ],
+      "note": "Hotărârea definitivă și comunicatul de trimitere în judecată identifică persoana ca participant particular într-un dosar de cumpărare/trafic de influență, fără funcție publică sau politică. Profilul este în afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1863",
+      "original_name": "Marin Suzana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă o enumeră în cauza de fraudare a prestațiilor sociale, fără funcție publică ori mandat politic. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1864",
+      "original_name": "Marineata Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4634",
+        "https://www.pressalert.ro/2012/11/senatorul-pnl-ovidiu-marian-martor-intr-un-dosar-de-trafic-de-influenta-in-care-este-implicata-fina-sa/"
+      ],
+      "note": "Sursele îl identifică drept intermediar particular în dosarul de trafic de influență, fără funcție publică sau politică. Persoanele politice cu numele Marineață găsite în surse sunt alte persoane; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1865",
+      "original_name": "Marinescu Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensii și nu îi atribuie funcție publică sau politică. Profilul este exclus din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1866",
+      "original_name": "Marinescu Grigore",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173"
+      ],
+      "note": "Hotărârea definitivă din cauza privatizării ICA îl menționează ca participant fără funcție publică sau mandat politic. Profilul este exclus din registrul dedicat persoanelor politice.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1867",
+      "original_name": "Marino Gheorghe Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4110"
+      ],
+      "note": "Hotărârea definitivă îl menționează în cauza Becali pentru favorizarea infractorului și fals, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1868",
+      "original_name": "Maris Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "Hotărârea definitivă îl identifică drept candidat la bacalaureat condamnat pentru cumpărare de influență, nu drept persoană cu rol politic sau public. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1869",
+      "original_name": "Maris Ovidiu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728"
+      ],
+      "note": "Hotărârea definitivă îl menționează pentru cumpărare de influență și uz de fals, fără funcție publică sau politică; funcția de consilier județean din cauză aparține altei persoane. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1870",
+      "original_name": "Marton Izabela Andreea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728"
+      ],
+      "note": "Hotărârea definitivă o menționează pentru uz de fals, fără funcție publică sau mandat politic. Profilul este exclus din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1871",
+      "original_name": "Mascagiu Luiza Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4641"
+      ],
+      "note": "Hotărârea definitivă o condamnă pentru mărturie mincinoasă și nu îi atribuie funcție publică, mandat sau rol de partid. Profilul este în afara domeniului politic al registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1872",
+      "original_name": "Matei Ionel Filimon",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3302"
+      ],
+      "note": "DNA îl identifică drept persoană fără calitate specială într-un dosar de înșelăciune cu firme de leasing; sursele îl descriu ca administrator/om de afaceri, fără rol politic confirmat. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1873",
+      "original_name": "Matei Sterea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă îl enumeră între persoanele condamnate pentru înșelăciune în cauza prestațiilor sociale, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1874",
+      "original_name": "Mateiu Eva",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "Hotărârea definitivă o califică explicit drept persoană fără calitate specială în dosarul fraudei bancare și nu indică mandat ori rol politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1875",
+      "original_name": "Matis Horatiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4382"
+      ],
+      "note": "Hotărârea definitivă îl condamnă pentru dare de mită fără a-i atribui funcție publică sau politică. Mențiunea separată de urmaș de erou martir nu constituie rol politic; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1876",
+      "original_name": "Matusa Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă o enumeră în grupul persoanelor condamnate pentru înșelăciune în cauza prestațiilor sociale, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1877",
+      "original_name": "Mazareanu Malin George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5455"
+      ],
+      "note": "Hotărârea definitivă îl condamnă pentru trafic de influență, dar nu indică funcție publică, mandat ori rol de partid; documentarea independentă îl plasează ca persoană privată. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1878",
+      "original_name": "Mazim H Saleh",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2408",
+        "https://www.dna.ro/comunicat.xhtml?id=991"
+      ],
+      "note": "Sursele DNA îl condamnă pentru evaziune fiscală și descriu activități comerciale, fără funcție publică sau politică. Profilul este exclus; URL-ul definitiv corect este comunicatul 2408, nu referința veche 2407.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1879",
+      "original_name": "Medesan Vasile",
+      "current_name": "Medesan Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3485",
+        "https://www.pressalert.ro/2011/09/medesan-s-a-autosuspendat-din-toate-functiile-iar-corescu-suspendata-automat-din-pdl/"
+      ],
+      "note": "Condamnarea definitivă la 2 ani cu executare pentru trafic de influență este confirmată. Documentarea contemporană îl identifică drept președinte PDL Variaș și secretar executiv PDL Timiș; profilul a fost corectat din Independent/persoană fără rol în PDL și lider local de partid.",
+      "reviewed_snapshot_hash": "c0757c4ef378f653c04c3e9193f5a0e62c1c92aaf24d4bce512e61812d743dbc"
+    },
+    {
+      "profile_id": "RV-1880",
+      "original_name": "Mehedinteanu Constantin Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3172",
+        "https://www.dna.ro/comunicat.xhtml?id=1382"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială și îl descrie ca participant particular la șantaj și lipsire de libertate, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1881",
+      "original_name": "Meir Or",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4709",
+        "https://www.dna.ro/comunicat.xhtml?id=1652"
+      ],
+      "note": "DNA îl identifică drept fiul și intermediarul fostului deputat Nati Meir, condamnat pentru complicitate la trafic și cumpărare de influență. Funcția politică aparține tatălui; pentru Meir Or nu este indicat mandat, candidatură sau rol de partid, astfel profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1882",
+      "original_name": "Mencinicopschi Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173",
+        "https://storage1.dms.mpinteractiv.ro/media/1/186/3927/13062519/4/rechizitoriu-voiculescu-watermark-protected.pdf"
+      ],
+      "note": "Sursele îl identifică drept director general ICA și membru PC, dar nu documentează mandat electoral, candidatură ori funcție formală de conducere în partid. Simpla apartenență și funcția profesională nu satisfac criteriul politic al proiectului; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1883",
+      "original_name": "Mengheres Paulina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicarea DNA o include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1884",
+      "original_name": "Merisanu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4305"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială în dosarul de înșelăciune și nu indică rol politic sau public. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1885",
+      "original_name": "Mialca Sandu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2969"
+      ],
+      "note": "Hotărârea definitivă confirmă traficul de influență, dar nu consemnează funcție publică, candidatură, mandat ori rol de partid; sursele îl prezintă ca persoană privată. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1886",
+      "original_name": "Mich Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "Sursa DNA o identifică drept candidat la bacalaureat într-un dosar de cumpărare de influență, fără rol politic sau public. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1887",
+      "original_name": "Mich Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4654"
+      ],
+      "note": "Hotărârea definitivă îl condamnă pentru contrabandă fără a indica funcție publică, candidatură, mandat ori rol de partid. Omonimele din documente publice nu au identificatori comuni; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1888",
+      "original_name": "Miclaus Radu Octavian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă îl enumeră în grupul persoanelor condamnate pentru înșelăciune în cauza prestațiilor sociale, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1889",
+      "original_name": "Micu Calin Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "Sursa DNA îl identifică drept candidat la bacalaureat condamnat în dosarul de corupție de la examen, fără rol politic sau public. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1890",
+      "original_name": "Micu Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1908",
+        "https://ph.prefectura.mai.gov.ro/wp-content/uploads/sites/34/2024/10/BLEJOI-25.10.pdf"
+      ],
+      "note": "DNA confirmă condamnarea unei persoane cu acest nume pentru trafic de influență, fără a indica rol politic. Un consilier local PNL omonim apare în Blejoi în 2024, dar nu există identificatori care să îl lege de cauza DNA din Timiș; profilul este exclus pentru a evita transferul greșit al statusului penal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1891",
+      "original_name": "Mihai Lenuta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primaria-constanta.ro/wp-content/uploads/2026/07/39.-39-proces-verbal-sedinta-din-data-28-05-2009.pdf"
+      ],
+      "note": "DNA include o persoană cu acest nume între beneficiarii particulari ai fraudei privind pensiile, fără rol politic. Consiliera locală AUR Mihai Lenuța din Negru Vodă apare mult mai târziu și în alt județ, fără identificatori comuni; profilul este exclus pentru a evita transferul statusului penal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1892",
+      "original_name": "Mihai Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA indică numai un beneficiar particular al fraudei privind pensiile, fără funcție publică sau politică. Numele este foarte comun și rezultatele electorale apropiate privesc persoane cu alte nume complete; în lipsa identificatorilor, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1893",
+      "original_name": "Mihalache Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă o enumeră între persoanele condamnate pentru înșelăciune în cauza prestațiilor sociale, fără funcție publică, mandat, candidatură ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1894",
+      "original_name": "Mihalca Marian Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA îl enumeră între cumpărătorii de influență din dosarul bacalaureatului, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1895",
+      "original_name": "Mija Eugeniu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4509",
+        "https://www.dna.ro/comunicat.xhtml?id=3086"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială și intermediar într-un dosar de trafic de influență. Relațiile invocate cu decidenți politici nu constituie un rol politic propriu; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1896",
+      "original_name": "Milandru Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3882"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, condamnată pentru trafic de influență și favorizarea infractorului, fără mandat, candidatură ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1897",
+      "original_name": "Milasan Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3586",
+        "https://legislatie.just.ro/Public/DetaliiDocument/117267"
+      ],
+      "note": "Condamnarea pentru trafic de influență și fals este confirmată, iar documentele publice îl indică în contexte profesionale de consultanță, nu într-un mandat ori rol de partid. Profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1898",
+      "original_name": "Milea Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1899",
+      "original_name": "Militaru Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://public.ps2.ro/Administratie%20Publica%20Locala/Proiecte%20CLS2/Arhiva/2019/08%20sedinta%20ordinara%2026.06.2019%20orele%2016.30/03%20ph%20validare%20mandat%20consilier.pdf"
+      ],
+      "note": "DNA indică o persoană privată cu numele Militaru Marian în lotul fraudei privind pensiile. Alesul bucureștean este Marian-Cătălin Militaru, cu nume complet distinct; nu există bază pentru asocierea condamnării. Profilul generic este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1900",
+      "original_name": "Militaru Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA îl include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
