@@ -10016,8 +10016,7 @@ const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_07_2026_HARTA_ADDITIONAL_ROWS = [
-  ["Buzdugan Vasile", "Neamt", "Reprezentant", "Societate comerciala", "5532", 6, false, 2014, "21/10/2014", false],
-  ["Moisil Leontin", "Bistrita-Nasaud", "Reprezentant", "Societate comerciala", "5272", 48, false, 2014, "12/09/2014", true],
+  ["Cornel-Leontin Moisil", "Bistrita-Nasaud", "Reprezentant", "Societate comerciala", "5272", 48, false, 2014, "12/09/2014", true],
 ];
 
 const AUTOMATED_JUL_07_2026_HARTA_ADDITIONAL_RECORDS =
@@ -10128,7 +10127,6 @@ const AUTOMATED_JUL_07_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
-  ["Gagiu Maria", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
   ["Gagiu Mircea", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
   ["Gaita Zoia", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
   ["Galan Mihaela", "Bacau", "3620", 8, true, 2012, "19/10/2012", false],
@@ -11713,6 +11711,46 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Cornel-Leontin Moisil': {
+    replace_sources: true,
+    party: 'PUSL',
+    position:
+      'Fost primar PSD al comunei \u0218an\u021b, jude\u021bul Bistri\u021ba-N\u0103s\u0103ud; ulterior consilier local; candidat PUSL la Consiliul Local \u0218an\u021b \u00een 2020',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bistri\u021ba-N\u0103s\u0103ud',
+      basis: 'office',
+      note:
+        'Func\u021bia politic\u0103 relevant\u0103 a fost cea de primar al comunei \u0218an\u021b; ulterior a fost consilier local.',
+    },
+    crime:
+      'Ob\u021binere pe nedrept de fonduri europene; schimbarea destina\u021biei fondurilor europene; fals \u00een declara\u021bii',
+    sentence: '4 ani \u00eenchisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penal\u0103 nr. 713 din 12 septembrie 2014, Curtea de Apel Cluj l-a condamnat definitiv pe Moisil Leontin la 4 ani de \u00eenchisoare pentru infrac\u021biuni privind fonduri PHARE \u0219i fals \u00een declara\u021bii. Sursele electorale \u0219i documentarea secundar\u0103 a cauzei identific\u0103 persoana drept Cornel-Leontin Moisil, fost primar PSD \u0219i ulterior consilier local al comunei \u0218an\u021b; \u00een 2020 a candidat la consiliul local din partea PUSL.',
+    verified_at: '2026-08-20',
+    sources: [
+      {
+        label: 'DNA \u2014 hot\u0103r\u00e2re definitiv\u0103',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5272',
+      },
+      {
+        label: 'Alegeri locale 2020 \u2014 lista candida\u021bilor',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bistrita-nasaud/consiliul-local/sant/9',
+      },
+      {
+        label: 'FINAL DNA Database',
+        kind: 'press',
+        url: 'https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf',
+      },
+    ],
+  },
   'Eugen Nechita': {
     party: 'PSD',
     position: 'Primar ales PSD al comunei Drăgușeni, județul Botoșani; nu își poate exercita funcția',
@@ -32467,7 +32505,7 @@ export const politicianAdditions = [
   {
     name: 'Hurdugaci Emanoil',
     party: 'PRM',
-    position: 'Primar al comunei Chiheru de Jos, județul Mureș',
+    position: 'Fost primar al comunei Chiheru de Jos, județul Mureș',
     position_type: 'mayor',
     geography: {
       county: 'Mureș',
@@ -32475,10 +32513,13 @@ export const politicianAdditions = [
       note: 'Funcția relevantă a fost cea de primar al comunei Chiheru de Jos, județul Mureș.',
     },
     crime: 'Instigare la fraudă cu fonduri europene; obținere ilegală de fonduri; spălare a banilor',
-    status: 'indicted',
+    sentence: 'Achitat definitiv (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'acquitted',
     details:
-      'DNA Târgu Mureș a dispus trimiterea sa în judecată pentru acuzații legate de obținerea pe nedrept de fonduri europene, obținere ilegală de fonduri și spălare a banilor.',
-    verified_at: '2026-05-10',
+      'DNA Târgu Mureș l-a trimis în judecată într-un dosar privind fonduri europene. Actualizarea oficială publicată de DNA consemnează că, prin decizia penală nr. 168 din 12 martie 2026, Curtea de Apel Alba l-a achitat definitiv în temeiul art. 16 alin. (1) lit. b) din Codul de procedură penală și a respins acțiunea civilă formulată de APIA.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
@@ -32583,7 +32624,7 @@ export const politicianAdditions = [
   {
     name: 'Sterea Costică',
     party: 'PSD',
-    position: 'Primar al comunei Tansa, județul Iași',
+    position: 'Fost primar al comunei Tansa, județul Iași',
     position_type: 'mayor',
     geography: {
       county: 'Iași',
@@ -32593,8 +32634,8 @@ export const politicianAdditions = [
     crime: 'Fraudă cu fonduri europene; înșelăciune',
     status: 'indicted',
     details:
-      'DNA Iași a dispus trimiterea sa în judecată pentru acuzații legate de folosirea de documente false în proiectul de alimentare cu apă din comuna Tansa.',
-    verified_at: '2026-05-10',
+      'DNA Iași a anunțat la 6 iulie 2010 trimiterea sa în judecată pentru acuzații privind folosirea de documente false în proiectul de alimentare cu apă din comuna Tansa și a indicat un prejudiciu total al dosarului de 59.693,60 lei. Comunicatul oficial consultat nu conține o actualizare privind soluția definitivă, iar căutările publice efectuate până la 20 august 2026 nu permit atribuirea sigură a unei hotărâri finale acestei persoane.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
@@ -32621,8 +32662,8 @@ export const politicianAdditions = [
     crime: 'Fraudă cu fonduri europene; înșelăciune',
     status: 'indicted',
     details:
-      'DNA Iași a dispus trimiterea sa în judecată pentru folosirea de documente false sau inexacte în vederea obținerii de fonduri europene și înșelăciune.',
-    verified_at: '2026-05-10',
+      'DNA Iași a anunțat la 6 iulie 2010 trimiterea sa în judecată pentru folosirea de documente false sau inexacte în vederea obținerii de fonduri europene și înșelăciune, indicând un prejudiciu total de 155.756,30 lei. Comunicatul oficial consultat nu conține o actualizare privind soluția definitivă; o sursă secundară menționează disjungerea cauzei sale, fără a documenta însă o soluție finală care să poată fi atribuită sigur până la 20 august 2026.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
@@ -32639,7 +32680,7 @@ export const politicianAdditions = [
   {
     name: 'Șerb Gheorghe',
     party: 'PDL',
-    position: 'Primar al comunei Laslea, județul Sibiu',
+    position: 'Fost primar al comunei Laslea, județul Sibiu',
     position_type: 'mayor',
     geography: {
       county: 'Sibiu',
@@ -32649,8 +32690,8 @@ export const politicianAdditions = [
     crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
     status: 'indicted',
     details:
-      'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
-    verified_at: '2026-05-11',
+      'DNA Alba Iulia a anunțat la 6 iulie 2010 trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA; APIA Sibiu s-a constituit parte civilă cu 22.829,03 lei. Comunicatul oficial consultat nu conține o actualizare privind soluția definitivă, iar rezultatele publice găsite până la 20 august 2026 nu separă suficient de sigur acest dosar de cauzele altor persoane cu același nume.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
@@ -32672,7 +32713,7 @@ export const politicianAdditions = [
   {
     name: 'Jeleriu Gheorghe',
     party: 'PNL',
-    position: 'Viceprimar al comunei Laslea, județul Sibiu',
+    position: 'Fost viceprimar al comunei Laslea; consilier local PNL în mandatul 2016–2020',
     position_type: 'local_official',
     geography: {
       county: 'Sibiu',
@@ -32682,18 +32723,13 @@ export const politicianAdditions = [
     crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
     status: 'indicted',
     details:
-      'DNA Alba Iulia a dispus trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA.',
-    verified_at: '2026-05-11',
+      'DNA Alba Iulia a anunțat la 6 iulie 2010 trimiterea sa în judecată într-un dosar privind un contract de închiriere folosit pentru obținerea de subvenții APIA; APIA Sibiu s-a constituit parte civilă cu 22.829,03 lei. Consiliul Județean Sibiu îl documentează ulterior drept consilier local PNL în Laslea. Comunicatul DNA consultat nu conține o actualizare privind soluția definitivă, iar până la 20 august 2026 nu am identificat o hotărâre oficială care să îi poată fi atribuită fără echivoc.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
-      },
-      {
-        label: 'FINAL DNA Database',
-        kind: 'press',
-        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
       {
         label: 'Consiliul Județean Sibiu',
@@ -32712,12 +32748,20 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția relevantă a fost cea de primar al comunei Șipote, județul Iași.',
     },
-    crime: 'Fraudă cu fonduri europene; înșelăciune; fals intelectual',
-    status: 'indicted',
+    crime: 'Fraudă cu fonduri europene; fals intelectual',
+    sentence: '1 an și 9 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 1.75,
+    conviction_year: 2016,
+    status: 'convicted',
     details:
-      'DNA Iași a dispus trimiterea sa în judecată pentru acuzații legate de documente false folosite într-un proiect de consolidare și modernizare din comuna Șipote.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 477 din 17 iunie 2016, Curtea de Apel Iași l-a condamnat definitiv la 1 an și 9 luni de închisoare cu suspendarea sub supraveghere, cu termen de încercare de 5 ani, pentru folosirea de documente false sau inexacte care a avut ca rezultat obținerea pe nedrept de fonduri europene și fals intelectual. Hotărârea i-a obligat pe inculpați, în solidar, la plata a 22.851,98 lei daune materiale.',
+    verified_at: '2026-08-20',
     sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7532',
+      },
       {
         label: 'DNA',
         kind: 'official',
@@ -33262,15 +33306,23 @@ export const politicianAdditions = [
         'Func\u021bia relevant\u0103 a fost cea de vicepre\u0219edinte \u0219i consilier jude\u021bean \u00een Consiliul Jude\u021bean Ia\u0219i.',
     },
     crime: 'Complicitate la abuz \u00een serviciu; complicitate la fals intelectual',
-    status: 'indicted',
+    sentence: 'Proces finalizat definitiv f\u0103r\u0103 condamnare (2026)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
     details:
-      'DNA Ia\u0219i l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul materialelor de promovare ale Consiliului Jude\u021bean Ia\u0219i.',
-    verified_at: '2026-05-11',
+      'DNA Ia\u0219i l-a trimis \u00een judecat\u0103 \u00een dosarul privind materialele de promovare ale Consiliului Jude\u021bean Ia\u0219i. La 10 iunie 2026, Curtea de Apel Ia\u0219i a respins definitiv at\u00e2t apelul DNA, c\u00e2t \u0219i apelul formulat de Victor Chiril\u0103; presa local\u0103 relateaz\u0103 c\u0103 dosarul s-a \u00eencheiat f\u0103r\u0103 condamn\u0103ri, prin solu\u021bii \u00eentemeiate pe dezincriminare \u0219i/sau prescrip\u021bie. \u00cen lipsa minutei oficiale individualizate \u00een sursele publice consultate, profilul nu atribuie lui Victor Chiril\u0103 unul dintre aceste dou\u0103 temeiuri \u00een mod cert.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
+      },
+      {
+        label: 'AgoraPress',
+        kind: 'press',
+        url: 'https://www.agorapress.ro/punct-final-in-dosarul-albumul-2-dupa-ani-si-ani-de-taraganari-victor-chirila-scapa-de-pedeapsa/',
       },
       {
         label: 'Digi24',
@@ -33282,7 +33334,7 @@ export const politicianAdditions = [
   {
     name: 'Gheorghi\u021b\u0103 Constantin',
     party: 'PSD',
-    position: 'Primar al comunei Podari, jude\u021bul Dolj',
+    position: 'Fost primar al comunei Podari, jude\u021bul Dolj (1990\u20132019)',
     position_type: 'mayor',
     geography: {
       county: 'Dolj',
@@ -33290,10 +33342,13 @@ export const politicianAdditions = [
       note: 'Func\u021bia relevant\u0103 a fost cea de primar al comunei Podari.',
     },
     crime: 'Abuz \u00een serviciu; fals intelectual',
-    status: 'indicted',
+    sentence: 'Proces penal \u00eencetat definitiv ca urmare a decesului (2020)',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
     details:
-      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
-    verified_at: '2026-05-11',
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari. Constantin Gheorghi\u021b\u0103 a decedat la 24 februarie 2019. Prin decizia penal\u0103 nr. 523 din 16 iunie 2020, Curtea de Apel Craiova a dispus definitiv \u00eencetarea procesului penal fa\u021b\u0103 de acesta ca urmare a decesului.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',
@@ -33301,16 +33356,21 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7027',
       },
       {
-        label: 'Portal Info',
+        label: 'Prim\u0103ria Podari',
+        kind: 'official',
+        url: 'https://www.podari.ro/admin/fisiere/documente/buletin_informativ_190220031410.pdf',
+      },
+      {
+        label: 'Adev\u0103rul',
         kind: 'press',
-        url: 'https://www.portal-info.ro/primarii/primaria-podari-dolj.html',
+        url: 'https://adevarul.ro/stiri-locale/craiova/fiul-unui-primar-din-dolj-acuza-ca-tatal-lui-a-1926554.html',
       },
     ],
   },
   {
     name: 'Prodileanu Petre',
     party: 'PSD',
-    position: 'Viceprimar al comunei Podari, jude\u021bul Dolj',
+    position: 'Fost viceprimar al comunei Podari; candidat PSD la Consiliul Local Podari \u00een 2020',
     position_type: 'local_official',
     geography: {
       county: 'Dolj',
@@ -33318,10 +33378,13 @@ export const politicianAdditions = [
       note: 'Func\u021bia relevant\u0103 a fost cea de viceprimar al comunei Podari.',
     },
     crime: 'Abuz \u00een serviciu; fals intelectual',
-    status: 'indicted',
+    sentence: 'Proces penal \u00eencetat definitiv prin prescrip\u021bie; amend\u0103 administrativ\u0103 de 700 lei',
+    sentence_years: 0,
+    conviction_year: 2020,
+    status: 'prescribed',
     details:
-      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari.',
-    verified_at: '2026-05-11',
+      'DNA Craiova l-a trimis \u00een judecat\u0103 \u00een decembrie 2015 \u00een dosarul restituirii unui teren intravilan din comuna Podari. Prin decizia penal\u0103 nr. 523 din 16 iunie 2020, Curtea de Apel Craiova a dispus definitiv \u00eencetarea procesului penal fa\u021b\u0103 de Petre Prodileanu ca urmare a prescrip\u021biei; instan\u021ba i-a aplicat totodat\u0103 o sanc\u021biune administrativ\u0103 de 700 lei pentru abuz \u00een serviciu.',
+    verified_at: '2026-08-20',
     sources: [
       {
         label: 'DNA',

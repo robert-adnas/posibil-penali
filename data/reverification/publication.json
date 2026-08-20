@@ -443,75 +443,12 @@
       ],
       "profile_id": "RV-0824"
     },
-    "Hurdugaci Emanoil": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0832"
-    },
-    "Sterea Costică": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0839"
-    },
-    "Buculei Doina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0841"
-    },
-    "Șerb Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0842"
-    },
-    "Jeleriu Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0843"
-    },
-    "Coțofanu Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0845"
-    },
     "Stan Constantin Cătălin": {
       "held_at": "2026-08-03",
       "reasons": [
         "single_source"
       ],
       "profile_id": "RV-0851"
-    },
-    "Chirilă Victor": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0872"
-    },
-    "Gheorghiță Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0876"
-    },
-    "Prodileanu Petre": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0877"
     },
     "Câmpulungeanu Petruș": {
       "held_at": "2026-08-03",
@@ -2949,20 +2886,6 @@
       ],
       "profile_id": "RV-4618"
     },
-    "Buzdugan Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "Posibilă identitate cu actualul consilier local USR Alin Buzdugan din Roman, însă sursele publice consultate nu oferă un identificator direct care să lege fără echivoc persoana condamnată Vasile-Alin Buzdugan de alesul local; profil ascuns pentru evitarea atribuirii greșite a condamnării."
-      ],
-      "profile_id": "RV-1258"
-    },
-    "Moisil Leontin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "Ascuns preventiv: DNA condamna un Leontin Moisil, reprezentant al unei firme din comuna Sant, iar sursele electorale si locale documenteaza un Cornel-Leontin Moisil, fost primar si candidat PPUSL in aceeasi comuna. Coincidenta de localitate si numele rar sugereaza o posibila identitate, dar sursele gasite nu leaga explicit condamnarea de numele complet al fostului primar; este necesar un document cu identificatori comuni inainte de publicare."
-      ],
-      "profile_id": "RV-1299"
-    },
     "Costel Alexe": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4362,6 +4285,48 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0641"
+    },
+    "Sterea Costică": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0839"
+    },
+    "Buculei Doina": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0841"
+    },
+    "Șerb Gheorghe": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0842"
+    },
+    "Jeleriu Gheorghe": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0843"
+    },
+    "Chirilă Victor": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0872"
+    },
+    "Cornel-Leontin Moisil": {
+      "held_at": "2026-08-20",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-1299"
     }
   }
 }

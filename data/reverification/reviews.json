@@ -28046,6 +28046,213 @@
       ],
       "note": "Confirmate identitatea și trimiterea în judecată; corectată data comunicatului și eliminată sursa agregatoare nerelevantă.",
       "reviewed_snapshot_hash": "c644f18c24422fceb8091dc16183dfd6924bd99303b60071bb05e5c5bb4d449c"
+    },
+    {
+      "profile_id": "RV-0832",
+      "original_name": "Hurdugaci Emanoil",
+      "current_name": "Hurdugaci Emanoil",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6717",
+        "https://www.zi-de-zi.ro/2011/11/21/primarul-prm-din-chiheru-de-jos-vrea-sa-retraga-comuna-din-parcul-national-defileul-muresului/"
+      ],
+      "note": "Achitare definitiva identificata in actualizarea oficiala DNA: decizia penala nr. 168/12.03.2026 a Curtii de Apel Alba; functia reformulata ca istorica.",
+      "reviewed_snapshot_hash": "7914f1e97161cc0054a462ac6c093383ea80ebf681a3bec8a279596a2d3a3dae"
+    },
+    {
+      "profile_id": "RV-0839",
+      "original_name": "Sterea Costică",
+      "current_name": "Sterea Costică",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1700",
+        "https://www.juridice.ro/113184/dna-sinteza-cauzelor-finalizate-in-luna-iunie-2010.html"
+      ],
+      "note": "Trimiterea in judecata din 2010 este confirmata; functia a fost reformulata ca istorica si lipsa unei solutii finale atribuibile sigur este explicitata.",
+      "reviewed_snapshot_hash": "838531eee4fad3ed0e5a08297715392ddb3fa3ab4816e052910bad5e45c73693"
+    },
+    {
+      "profile_id": "RV-0841",
+      "original_name": "Buculei Doina",
+      "current_name": "Buculei Doina",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1700",
+        "https://emol.ro/pluginfile.php/1/local_emol/statut_ro/1764/Statut%20Plugari%20IS.pdf"
+      ],
+      "note": "Identitatea si mandatul 2000-2004 sunt confirmate oficial; trimiterea in judecata este confirmata, dar solutia finala nu este documentata suficient de sigur.",
+      "reviewed_snapshot_hash": "88b6ee7855d291b08fb1006fbf77f14538f36bc09a4acb55b6b6c96229a726bb"
+    },
+    {
+      "profile_id": "RV-0842",
+      "original_name": "Șerb Gheorghe",
+      "current_name": "Șerb Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1700",
+        "https://www.turnulsfatului.ro/2012/05/02/alegeri-locale-lista-candidatilor-usl-si-pdl-la-primariile-din-judet-14699"
+      ],
+      "note": "Identitatea politica si trimiterea in judecata din 2010 sunt confirmate; functia a fost reformulata ca istorica, iar lipsa unei solutii finale sigure este explicitata.",
+      "reviewed_snapshot_hash": "9bd38bae52708b7e847400c45fc1d3457b748d8a09daea310d7bf0d99a12e232"
+    },
+    {
+      "profile_id": "RV-0843",
+      "original_name": "Jeleriu Gheorghe",
+      "current_name": "Jeleriu Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1700",
+        "https://www.cjsibiu.ro/wp-content/uploads/2016/09/Brosura-Alegeri-locale-2016.pdf"
+      ],
+      "note": "Rolurile de viceprimar si ulterior consilier local PNL sunt confirmate; trimiterea in judecata este oficiala, dar solutia finala nu este documentata suficient de sigur.",
+      "reviewed_snapshot_hash": "290b7a2f479d1f646e636104a7407ccbf17e7d6bf0b68e343a16a1b85082f0ee"
+    },
+    {
+      "profile_id": "RV-0845",
+      "original_name": "Coțofanu Constantin",
+      "current_name": "Coțofanu Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7532",
+        "https://www.dna.ro/comunicat.xhtml?id=3520",
+        "https://jurnalvirtual.ro/2010/10/06/lista-delegatilor-pesedisti-ieseni-la-congresul-de-la-bucuresti/"
+      ],
+      "note": "Status corectat de la trimitere in judecata la condamnare definitiva: decizia penala nr. 477/17.06.2016 a Curtii de Apel Iasi, 1 an si 9 luni cu suspendare sub supraveghere.",
+      "reviewed_snapshot_hash": "52d497c9ad0825a66c6039843bfeb5adf67cbb3e902d62630d39593ff1039a9f"
+    },
+    {
+      "profile_id": "RV-0872",
+      "original_name": "Chirilă Victor",
+      "current_name": "Chirilă Victor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7027",
+        "https://www.agorapress.ro/punct-final-in-dosarul-albumul-2-dupa-ani-si-ani-de-taraganari-victor-chirila-scapa-de-pedeapsa/",
+        "https://www.digi24.ro/regional/digi24-iasi/psd-preia-controlul-in-cj-iasi-liberalul-victor-chirila-a-fost-demis-din-functia-de-vicepresedinte-214477"
+      ],
+      "note": "Statusul activ a fost eliminat: procesul s-a incheiat definitiv la 10.06.2026 fara condamnare. Profilul ramane ascuns pana la confirmarea temeiului individual exact.",
+      "reviewed_snapshot_hash": "beb3441dbfa5e767c3e1e009ebf5666e328ee28107f9ff30bf1bc65793771533"
+    },
+    {
+      "profile_id": "RV-0876",
+      "original_name": "Gheorghiță Constantin",
+      "current_name": "Gheorghiță Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7027",
+        "https://www.podari.ro/admin/fisiere/documente/buletin_informativ_190220031410.pdf",
+        "https://adevarul.ro/stiri-locale/craiova/fiul-unui-primar-din-dolj-acuza-ca-tatal-lui-a-1926554.html"
+      ],
+      "note": "Status corectat: procesul penal a incetat definitiv prin deces, decizia nr. 523/16.06.2020; functia a fost reformulata ca istorica.",
+      "reviewed_snapshot_hash": "81457972ddd325bbf92a82bf582b000ad57c130d63fd802ac88c0929cef7e7cb"
+    },
+    {
+      "profile_id": "RV-0877",
+      "original_name": "Prodileanu Petre",
+      "current_name": "Prodileanu Petre",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7027",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/podari/4"
+      ],
+      "note": "Status corectat la prescriptie definitiva prin decizia nr. 523/16.06.2020; consemnata sanctiunea administrativa de 700 lei si rolul politic istoric.",
+      "reviewed_snapshot_hash": "fbb7e5eaf296752325d7271cbded1a94d1e04e00428ae3fb1ae5424ba5a76100"
+    },
+    {
+      "profile_id": "RV-1258",
+      "original_name": "Buzdugan Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5532",
+        "https://onesti.ro/primarie_onesti/sites/default/files/2023-05/2013%2110%21proces%20verbal%20din%2009.10.2013%21proces%20verbal%20din%2009.10.2013.pdf"
+      ],
+      "note": "Eliminat pentru coliziune de identitate si lipsa domeniului politic: comunicatul DNA identifica persoana condamnata drept Buzdugan Vasile-Alin, reprezentant al unei societati comerciale din Neamt; profilul omitea prenumele Alin si putea fi confundat cu politicianul Vasile Buzdugan din Onesti.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1299",
+      "original_name": "Moisil Leontin",
+      "current_name": "Cornel-Leontin Moisil",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5272",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_bistrita-nasaud/consiliul-local/sant/9",
+        "https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Numele a fost completat la Cornel-Leontin Moisil, iar rolul politic a fost recuperat: fost primar PSD si ulterior consilier local in Sant, candidat PUSL in 2020. Condamnarea definitiva de 4 ani ramane confirmata de DNA.",
+      "reviewed_snapshot_hash": "c8c5d90212520879cf64600089b972e327a45736f7625cd808b5fca4ace5a166"
+    },
+    {
+      "profile_id": "RV-1701",
+      "original_name": "Gagiu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Eliminata din registrul politic: comunicatul DNA o include intr-un lot de persoane condamnate pentru inselaciune, fara functie publica, mandat, candidatura sau rol de partid documentat. Condamnarea unei persoane private nu justifica profil politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
