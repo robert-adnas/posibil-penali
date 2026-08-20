@@ -1,4 +1,5 @@
 import {
+  excludedPoliticianNames,
   metadataOverrides,
   politicianAdditions,
   politicianOverrides,
@@ -201,12 +202,16 @@ function buildChangeLog(baseData, politicians) {
 
 export function buildDataset(baseData, options = {}) {
   const basePoliticians = baseData.politicians
+    .filter((politician) => !excludedPoliticianNames.has(politician.name))
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
     .map(applyGeography);
 
   const existingNames = new Set(basePoliticians.map((politician) => politician.name));
   const additions = politicianAdditions
-    .filter((politician) => !existingNames.has(politician.name))
+    .filter(
+      (politician) =>
+        !existingNames.has(politician.name) && !excludedPoliticianNames.has(politician.name)
+    )
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
     .map(applyGeography);
 
