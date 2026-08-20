@@ -10128,15 +10128,6 @@ const AUTOMATED_JUL_07_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
 
 const AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
   ["Ion-Eusebiu Ganea", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
-  ["Iancu Florica", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Iancu Ninel", "Arges", "3941", 24, true, 2013, "26/02/2013", false],
-  ["Ibrahim BachaBasel", "Bucuresti", "4698", 30, false, 2014, "19/02/2014", false],
-  ["Ignatovici Alexandru Dorin", "Bacau", "3620", 8, true, 2012, "19/10/2012", false],
-  ["Ilie Ionel", "Arges", "4180", 36, false, 2013, "27/06/2013", false],
-  ["Ilie Marius", "Bucuresti", "3483", 36, false, 2012, "03/07/2012", false],
-  ["Ilie Paul", "Bucuresti", "3248", 42, false, 2012, "17/04/2012", false],
-  ["Ilie Virgil", "Bucuresti", "3038", 4, true, 2012, "06/03/2012", false],
-  ["Iliescu Ecaterina", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
 ];
 
 const AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
@@ -10188,49 +10179,7 @@ const AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_09_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
-  ["Iliut Victor", "Bihor", "3173", 24, true, 2012, "13/04/2012", false],
-  ["Imreh Ildiko", "Covasna", "4664", 36, true, 2014, "28/01/2014", true],
-  ["Ioanas Lotica", "Gorj", "4065", 84, false, 2013, "24/04/2013", false],
-  ["Ion Migdal", "Bucuresti", "2969", 48, false, 2012, "10/02/2012", false],
-  ["Ionescu Alexandrina", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Ionescu Florin", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Ionica Gheorghe", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Ionita Aurel", "Bucuresti", "5001", 13, false, 2014, "06/06/2014", false],
-  ["Ionita Dumitru", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Ionita Gheorghe", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Ionita Marian", "Bucuresti", "3483", 36, true, 2012, "03/07/2012", false],
-  ["Ionita Marica", "Bucuresti", "3950", 36, false, 2013, "28/02/2013", false],
   ["Ionita Nistor", "Bucuresti", "4768", 48, false, 2014, "20/03/2014", false],
-  ["Ionita Teodor", "Bucuresti", "3950", 36, false, 2013, "28/02/2013", false],
-  ["Ionut Cristiana", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Iordache Alexandrina", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Iordache Dorel", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Iordache Florentina Stefania", "Calarasi", "4355", 36, true, 2013, "26/09/2013", false],
-  ["Iordan Ioan", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Iosif Constanta", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Iosif Valeria", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Iova Georgeta", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Irimia Nicolaie", "Constanta", "5546", 12, true, 2014, "03/11/2014", false],
-  ["Isac Petre", "Arges", "3172", 18, false, 2012, "13/04/2012", false],
-  ["Istrate Adina Georgeta", "Bacau", "3620", 8, true, 2012, "19/10/2012", false],
-  ["Istrate Vasile", "Bacau", "3951", 40, false, 2013, "28/02/2013", false],
-  ["Iuga Emil George", "Maramures", "5140", 6, true, 2014, "25/06/2014", false],
-  ["Ivan Alexandru Razvan", "Brasov", "4764", 24, true, 2014, "18/03/2014", false],
-  ["Ivan Ioana", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Jako Adrian Iosif", "Satu Mare", "3771", 84, false, 2012, "14/12/2012", false],
-  ["Jozsa Jolan", "Harghita", "5541", 6, true, 2014, "30/10/2014", false],
-  ["Juganaru Ion", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Juncanaru Cristina Daniela", "Constanta", "5542", 12, true, 2014, "03/11/2014", false],
-  ["Juncu Gabriel Cosmin", "Bacau", "3951", 24, true, 2013, "28/02/2013", false],
-  ["Kappler Frank Gunther", "Timis", "4069", 48, false, 2013, "26/04/2013", false],
-  ["Kiss Cioaba", "Cluj", "4896", 36, false, 2014, "09/05/2014", false],
-  ["Kurth Edgar", "Arad", "3134", 10, true, 2012, "29/03/2012", false],
-  ["Labau Elena", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Labau Ghiorghe Lache Victoria", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Lacatus Gheorghe", "Cluj", "3774", 24, true, 2012, "12/12/2012", false],
-  ["Lakotos Florin", "Bihor", "4118", 24, true, 2013, "22/05/2013", false],
-  ["Lakotos Ioan", "Cluj", "3774", 24, true, 2012, "12/12/2012", false],
-  ["Lakotos Traian", "Cluj", "3774", 24, true, 2012, "12/12/2012", false],
   ["Lala Gheorghe", "Caras-Severin", "2877", 24, true, 2011, "14/12/2011", true],
   ["Lambadarie Mihai", "Bucuresti", "4071", 30, true, 2013, "29/04/2013", false],
   ["Lascan Ion Dan", "Bacau", "3951", 24, true, 2013, "28/02/2013", false],
@@ -11650,6 +11599,44 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Ionita Nistor': {
+    replace_sources: true,
+    party: 'PSD',
+    position: 'Fost consilier general în Consiliul General al Municipiului București',
+    position_type: 'local_official',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      locality: 'București',
+      note: 'DNA îl identifică explicit drept consilier general în cadrul Consiliului General al Municipiului București.',
+    },
+    crime: 'Trafic de influență (patru infracțiuni)',
+    sentence: '4 ani închisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penală nr. 1004 din 20 martie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Ioniță Nistor la 4 ani de închisoare pentru patru infracțiuni de trafic de influență. Comunicatul DNA privind trimiterea în judecată îl identifică explicit drept consilier general în Consiliul General al Municipiului București, iar documentarea contemporană îl plasează în organizația PSD Sector 2.',
+    verified_at: '2026-08-20',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4768',
+      },
+      {
+        label: 'DNA — trimitere în judecată și funcția publică',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=220',
+      },
+      {
+        label: 'Amos News — comunicat PSD Sector 2',
+        kind: 'press',
+        url: 'https://amosnews.ro/arhiva/archive/200403?page=41',
+      },
+    ],
+  },
   'Ion-Eusebiu Ganea': {
     replace_sources: true,
     party: 'Independent',

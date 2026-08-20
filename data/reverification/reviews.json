@@ -29302,6 +29302,874 @@
       ],
       "note": "Hotararea definitiva DNA il identifica explicit pe Iako Iosif drept persoana fara calitate speciala, condamnata pentru grup infractional organizat si contrabanda calificata. Cautarea nominala nu releva functie politica ori candidatura; profilul este eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1764",
+      "original_name": "Iancu Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA o include doar într-un lot amplu de persoane condamnate în dosarul documentelor false de pensionare și nu indică nicio funcție publică ori politică. Căutarea exactă produce omonime fără legătură demonstrabilă cu persoana condamnată; profilul este exclus pentru a evita atribuirea politică eronată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1765",
+      "original_name": "Iancu Ninel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3941",
+        "https://www.dna.ro/comunicat.xhtml?id=2870"
+      ],
+      "note": "DNA îl identifică drept persoană care urmărea protejarea unor interese comerciale personale și îl condamnă pentru cumpărare de influență; comunicatele nu indică o funcție publică, politică ori o candidatură. Căutarea exactă nu oferă dovada unei apartenențe politice, astfel profilul este în afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1766",
+      "original_name": "Ibrahim BachaBasel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4698"
+      ],
+      "note": "DNA confirmă numele corect Ibrahim Bacha-Basel și condamnarea definitivă pentru evaziune fiscală, fără a consemna vreo funcție publică sau politică. Sursele judiciare îl leagă de administrarea/reprezentarea unor societăți comerciale; nu există dovadă de rol politic, deci profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1767",
+      "original_name": "Ignatovici Alexandru Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Comunicatul DNA îl identifică explicit ca unul dintre candidații la examenul de bacalaureat condamnați pentru cumpărare de influență. Nu este consemnată nicio funcție publică, politică sau candidatură electorală; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1768",
+      "original_name": "Ilie Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4180",
+        "https://www.dna.ro/comunicat.xhtml?id=2443"
+      ],
+      "note": "DNA îl califică explicit pe condamnatul din dosarul Argeș drept persoană fără calitate specială și nu menționează vreo funcție politică. Există un omonim consilier local în Ștefăneștii de Jos, Ilfov, dar nu există dovadă directă că este aceeași persoană; profilul este exclus pentru a evita o asociere juridică eronată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1769",
+      "original_name": "Ilie Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "DNA îl descrie explicit pe condamnat drept persoană fără calitate specială, condamnată pentru asociere și furt calificat. Rezultatele electorale conțin persoane cu nume extinse asemănătoare, dar nicio sursă nu leagă direct persoana condamnată de o funcție sau candidatură politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1770",
+      "original_name": "Ilie Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3248",
+        "https://www.dna.ro/comunicat.xhtml?id=2871"
+      ],
+      "note": "Comunicatele DNA confirmă condamnarea pentru trafic de influență, dar nu atribuie persoanei nicio funcție publică ori politică. Rezultatele de căutare conțin nume compuse/omonime din administrația locală, fără o legătură demonstrată cu inculpatul; profilul este exclus pentru a preveni o atribuire greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1771",
+      "original_name": "Ilie Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3038",
+        "https://www.dna.ro/comunicat.xhtml?id=1162"
+      ],
+      "note": "DNA arată că Ilie Virgil a solicitat un credit bancar și a remis bani pentru aprobarea lui, fiind tratat ca administrator/solicitant privat, fără funcție publică sau politică menționată. Căutarea exactă nu identifică o candidatură ori funcție politică aferentă aceleiași persoane; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1772",
+      "original_name": "Iliescu Ecaterina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Iliescu Ecaterina apare în comunicatul DNA într-un lot extins de persoane condamnate pentru înșelăciune, fără funcție publică sau politică individualizată. Căutarea exactă nu identifică o candidatură ori un mandat politic al aceleiași persoane; profilul este în afara domeniului și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1773",
+      "original_name": "Iliut Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3173"
+      ],
+      "note": "Sursa DNA/Harta corupției îl clasifică drept persoană fără calitate specială, fără instituție sau funcție politică. Există nume înrudite ori omonime în liste electorale, dar nu o legătură verificabilă cu Victor Iliuț din dosarul Bihor; profilul este exclus pentru a evita confuzia de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1774",
+      "original_name": "Imreh Ildiko",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4664",
+        "https://www.sfantugheorgheinfo.ro/declaratii-de-avere-si-interese-primarie-afisare-alfabetica-2"
+      ],
+      "note": "DNA confirmă condamnarea unei Imreh Ildiko în legătură cu două societăți comerciale, fără rol politic. Primăria Sfântu Gheorghe publică funcționare cu numele Imreh Ildikó/Imreh Ildikó-Mária, însă funcția administrativă de consilier nu este mandat politic și nu există dovadă că persoana condamnată este aceeași; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1775",
+      "original_name": "Ioanas Lotica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4065",
+        "https://www.dna.ro/comunicat.xhtml?id=2154"
+      ],
+      "note": "Sursele DNA confirmă numele corect Ioanăș Loțică și arată că era reprezentant legal/asociat ori administrator într-o societate comercială folosită într-o fraudă de leasing. Nu este indicată nicio funcție publică sau politică și căutarea exactă nu identifică o asemenea calitate; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1776",
+      "original_name": "Ion Migdal",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2969",
+        "https://media.cna.ro/Decizia_578_ROMANIA_TV_am_7500_67fbfcc02d.pdf"
+      ],
+      "note": "Sursele confirmă că Ion Migdal este persoana condamnată pentru trafic de influență și cunoscută ca fratele lui Fane Spoitoru. Apariția sa ulterioară ca susținător informal al unui candidat nu reprezintă candidatură, mandat sau funcție politică; profilul rămâne în afara domeniului și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1777",
+      "original_name": "Ionescu Alexandrina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Ionescu Alexandrina este enumerată de DNA într-un lot amplu de persoane condamnate pentru înșelăciune, fără funcție publică sau politică individualizată. Căutarea exactă nu identifică o candidatură sau un mandat al aceleiași persoane; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1778",
+      "original_name": "Ionescu Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA enumeră un Ionescu Florin într-un lot mare de persoane condamnate pentru înșelăciune, fără alte date de identificare sau funcție publică/politică. Există numeroși omonimi și persoane cu nume extinse în spațiul public, dar nicio sursă nu leagă profilul politic de condamnat; înregistrarea este exclusă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1779",
+      "original_name": "Ionica Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://suhaia.regista.ro/counter/download/%242y%2410%24qL2Asefu7K19SZRXYYEvjuY8B0FJfqziWxabhwM/Qj55i5oIP3IcO"
+      ],
+      "note": "Există un Gheorghe Ionică, născut în 1953, cu mandate de consilier local la Suhaia, însă comunicatul DNA enumeră doar un nume comun într-un lot mare de beneficiari ai unei fraude, fără localitate, dată de naștere sau rol politic. Neexistând o sursă care să lege direct cele două identități, profilul juridic este exclus pentru a evita asocierea greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1780",
+      "original_name": "Ionita Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5001"
+      ],
+      "note": "DNA confirmă condamnarea lui Ioniță Aurel pentru trafic de influență, fără a menționa o funcție publică ori politică; comunicatul oficial indică 1 an și 10 luni, nu cele 13 luni importate în profil. Rezultatele politice privesc persoane cu nume extinse (de exemplu Dan-Aurel Ioniță), fără legătură probată cu inculpatul; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1781",
+      "original_name": "Ionita Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.comunaileana.ro/despre-institutie/consiliul-local/"
+      ],
+      "note": "Comunicatul DNA enumeră un Ioniță Dumitru într-un lot foarte mare de persoane condamnate în dosarul documentelor false de pensionare, fără localitate, dată de naștere sau rol politic. Există un omonim consilier local PSD în comuna Ileana, însă nicio sursă nu leagă cele două identități; profilul juridic este exclus pentru a evita atribuirea greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1782",
+      "original_name": "Ionita Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.dna.ro/comunicat.xhtml?id=4756",
+        "https://www.icsi.ro/wp-content/uploads/ICSI-Nuclear/Personal-cheie/CV-Gh-Ionita.pdf"
+      ],
+      "note": "Comunicatul DNA 3950 nu indica nicio functie publica ori politica si nu furnizeaza identificatori care sa lege persoana de un ales. Numele coincide cu mai multe persoane publice si chiar cu un alt inculpat DNA, administrator de societate in Constanta, dintr-un dosar distinct. Fara o legatura documentara directa, atribuirea politica ar crea un risc major de confuzie de identitate; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1783",
+      "original_name": "Ionita Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://comunapaulesti.ro/consilieri/",
+        "https://cjph.ro/personal/ionita-marian/"
+      ],
+      "note": "DNA il descrie explicit pe inculpatul IONITA MARIAN drept persoana fara calitate speciala. Exista mai multi omonimi in functii politice sau administrative, inclusiv consilier local PSD la Paulesti si o persoana listata de CJ Prahova, dar sursa penala nu contine identificatori care sa lege vreunul de condamnat. Profilul este exclus pentru a preveni o asociere gresita.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1784",
+      "original_name": "Ionita Marica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7&nrcrt=21"
+      ],
+      "note": "DNA confirma numele, pedeapsa definitiva de 3 ani cu executare si descrie explicit persoana ca fara calitate speciala. Comunicatul de trimitere in judecata confirma aceeasi identitate in grupul principal, iar cautarile nominale nu identifica o functie politica documentata. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1785",
+      "original_name": "Ionita Nistor",
+      "current_name": "Ionita Nistor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4768",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=220",
+        "https://amosnews.ro/arhiva/archive/200403?page=41"
+      ],
+      "note": "Hotararea definitiva confirma condamnarea la 4 ani pentru patru infractiuni de trafic de influenta. Comunicatul oficial de trimitere in judecata identifica aceeasi persoana drept consilier general CGMB; comunicarea contemporana a PSD Sector 2 sustine afilierea. Profilul generic Independent/fara calitate speciala a fost corectat.",
+      "reviewed_snapshot_hash": "ed3d761537ca1cdee9a5a3443d371310bccea8b5c09224bef2a317207bc86aab"
+    },
+    {
+      "profile_id": "RV-1786",
+      "original_name": "Ionita Teodor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7&nrcrt=21"
+      ],
+      "note": "DNA confirma condamnarea definitiva la 3 ani cu executare si descrie explicit persoana drept fara calitate speciala. Comunicatul initial confirma trimiterea in judecata sub acelasi nume, iar cautarile nominale nu identifica o functie politica documentata. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1787",
+      "original_name": "Ionut Cristiana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Comunicatul DNA confirma numele si condamnarea definitiva la 3 ani cu suspendare intr-un grup extins de persoane condamnate pentru inselaciune, fara a indica vreo functie publica ori politica. Cautarile nominale nu identifica un rol politic atribuibil acestei persoane; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1788",
+      "original_name": "Iordache Alexandrina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica sau politica si fara identificatori politici. Cautarile nominale nu identifica un mandat ori o candidatura atribuibila acestei persoane; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1789",
+      "original_name": "Iordache Dorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://www.primarianegrilesti.ro/docs/alegeri/2024-05-11_A_alegeri-pv-96.pdf"
+      ],
+      "note": "DNA confirma condamnarea unei persoane cu acest nume intr-un grup extins, fara functie publica ori politica si fara alti identificatori. Un omonim apare mult mai tarziu ca reprezentant PMP intr-un birou electoral din Negrilesti, dar nu exista nicio dovada de identitate comuna. Asocierea este nesigura, iar profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1790",
+      "original_name": "Iordache Florentina Stefania",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=1273"
+      ],
+      "note": "Sursele DNA confirma identitatea si implicarea ca ruda a inculpatului Constantin Niculae si beneficiara neindreptatita a unui titlu de proprietate, nu ca titulara a unei functii politice sau publice. Nu a fost identificat un mandat ori o candidatura proprie; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1791",
+      "original_name": "Iordan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://www.sibiu.ro/ro2/pdf2025/HCL_192_2025.pdf"
+      ],
+      "note": "DNA confirma condamnarea unei persoane cu acest nume intr-un grup extins, fara functie ori identificatori suplimentari. Documentele administrative contin omonimi, inclusiv un Iordan Ioan asociat Cabinetului Primarului Sibiu, dar nu exista nicio legatura documentara cu persoana condamnata. Profilul este exclus pentru evitarea confuziei de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1792",
+      "original_name": "Iosif Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica sau politica. Cautarile exacte nu identifica un mandat sau o candidatura sub acest nume; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1793",
+      "original_name": "Iosif Valeria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica ori politica. Cautarile exacte nu identifica un mandat sau o candidatura atribuibila acestei persoane; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1794",
+      "original_name": "Iova Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica ori politica. Rezultatele nominale duc la persoane private, nu la un mandat sau o candidatura documentata; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1795",
+      "original_name": "Irimia Nicolaie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5546",
+        "https://www.ziuaconstanta.ro/images/stories/2014/11/10/INCULPATI%20DOCUMENT.pdf"
+      ],
+      "note": "Documentarea cauzei confirma persoana privata condamnata la un an cu suspendare pentru dare de mita; presa o descrie separat de fostul politist condamnat in acelasi dosar. Nu exista functie politica, mandat sau candidatura documentata, astfel ca profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1796",
+      "original_name": "Isac Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3172",
+        "https://www.dna.ro/comunicat.xhtml?id=1424",
+        "https://www.ziaruldeiasi.ro/stiri/inspectorul-guvernamental-petre-isac-a-fost-trimis-in-judecata--fjb.html"
+      ],
+      "note": "DNA il descrie explicit pe condamnatul din 2012 drept persoana fara calitate speciala si nu publica identificatori suplimentari. Exista un Petre Isac fost primar al Costestiului si fost consilier/inspector guvernamental, tot din Arges si cu condamnari anterioare, dar nu a fost gasita o sursa care sa lege direct acea identitate de dosarul DNA 3172. Convergenta nu este suficienta pentru publicare; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1797",
+      "original_name": "Istrate Adina Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifica explicit drept candidata la examenul de bacalaureat, condamnata la 8 luni cu suspendare pentru cumparare de influenta. Nu este candidat electoral si nu are o functie politica documentata; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1798",
+      "original_name": "Istrate Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.comunabalasesti.ro/informatii-de-interes-public/declaratii-de-avere-si-de-interese/declaratii-de-interese-personale/"
+      ],
+      "note": "DNA confirma condamnarea unei persoane cu acest nume la 3 ani si 4 luni, dar nu ii atribuie functie publica ori politica si nu publica identificatori suplimentari. Exista un omonim consilier local in Balasesti, judetul Galati, fara nicio legatura documentara cu dosarul din Bacau. Pentru a evita atribuirea gresita, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1799",
+      "original_name": "Iuga Emil George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Comunicatul DNA de trimitere in judecata il identifica explicit drept candidat la examenul de bacalaureat, iar hotararea definitiva confirma condamnarea. Termenul candidat este educational, nu electoral; nu exista functie politica documentata, astfel ca profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1800",
+      "original_name": "Ivan Alexandru Razvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4764"
+      ],
+      "note": "DNA confirma condamnarea definitiva la 2 ani cu suspendare pentru doua infractiuni de complicitate la trafic de influenta, dar nu atribuie persoanei nicio functie publica sau politica. Cautarile exacte nu identifica un mandat ori o candidatura proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1801",
+      "original_name": "Ivan Ioana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.primariapianu.ro/documente/categoria/declaratii-de-interese/anul/2024"
+      ],
+      "note": "DNA include o persoana cu acest nume in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica sau identificatori suplimentari. Exista persoane omonime in documente administrative, inclusiv Ivan Ioana Elisabeta la Pianu, dar nicio sursa nu le leaga de dosar. Profilul este exclus pentru evitarea confuziei de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1802",
+      "original_name": "Jako Adrian Iosif",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3771",
+        "https://www.dna.ro/comunicat.xhtml?id=1693"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala si organizator al unui grup de contrabanda, fara functie politica ori publica. Comunicatul de trimitere in judecata confirma identitatea si faptele, dar nu indica mandat sau candidatura. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1803",
+      "original_name": "Jozsa Jolan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5541",
+        "https://www.ziuaconstanta.ro/diverse/stiri-calde/antonya-laszlo-trimis-in-judecata-de-dna-pentru-frauda-cu-fonduri-europene-507699.html",
+        "https://homorodalmas.ro/wp-content/uploads/2016/09/hcl-iunie2017053.pdf"
+      ],
+      "note": "Sursele leaga identitatea de comuna Meresti: in cauza penala a semnat o adeverinta la pozitia secretar, iar organigrama locala o prezinta ca functionar/consilier in aparatul administrativ. Nu este documentat un mandat ales sau o candidatura politica; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1804",
+      "original_name": "Juganaru Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica ori politica si fara alti identificatori. Cautarile exacte nu identifica un mandat sau o candidatura proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1805",
+      "original_name": "Juncanaru Cristina Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5542",
+        "https://www.dna.ro/comunicat.xhtml?id=4265"
+      ],
+      "note": "DNA confirma condamnarea definitiva pentru complicitate la santaj si o identifica drept sotia administratorului societatii comerciale implicate. Nicio sursa nu ii atribuie functie politica, mandat sau candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1806",
+      "original_name": "Juncu Gabriel Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://ziaruldebacau.ro/unde-este-artizanul-grupului-lemn-din-dosarul-banca-transilvania/"
+      ],
+      "note": "DNA confirma condamnarea din dosarul fraudei bancare, iar documentarea contemporana il identifica drept administrator al unor societati comerciale. Nu este documentata o functie politica, un mandat ales sau o candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1807",
+      "original_name": "Kappler Frank Gunther",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4069"
+      ],
+      "note": "DNA confirma condamnarea definitiva la 4 ani pentru complicitate la spalare de bani si fals, intr-un dosar comercial. Sursa nu ii atribuie functie publica sau politica, iar cautarile exacte nu identifica mandat ori candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1808",
+      "original_name": "Kiss Cioaba",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4896",
+        "https://gazetadecluj.ro/sotia-si-fratele-comisarului-sef-kiss-karoly-condamnati-la-inchisoare/"
+      ],
+      "note": "Sursele identifica persoana drept fratele comisarului sef Kiss Karoly si intermediar intr-un dosar de mita si spalare de bani. Nu este documentata o functie politica, un mandat ales sau o candidatura proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1809",
+      "original_name": "Kurth Edgar",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata la 10 luni cu suspendare intr-un dosar de frauda bancara. Cautarile exacte nu identifica functie politica, mandat sau candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1810",
+      "original_name": "Labau Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include persoana in grupul condamnat la 2 ani cu suspendare pentru inselaciune, fara functie publica ori politica si fara identificatori suplimentari. Cautarile exacte nu identifica un mandat sau o candidatura proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1811",
+      "original_name": "Labau Ghiorghe Lache Victoria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=B"
+      ],
+      "note": "Numele din registrul agregat este o concatenare evidenta produsa de lipsa separatorului in lista lunga din comunicatul DNA: Labau Ghiorghe si Lache Victoria sunt doua persoane distincte. Niciuna nu este descrisa cu functie politica sau publica. Profilul compozit este invalid si a fost eliminat; nu se creeaza profiluri separate deoarece ambele persoane sunt in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1812",
+      "original_name": "Lacatus Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_brasov/primarie/ormenis/4"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala intr-un dosar din Cluj. Exista un omonim candidat PNL la primaria Ormenis, Brasov, precum si alte aparitii politice istorice, dar nicio sursa nu leaga acele identitati de inculpat. Profilul este exclus pentru evitarea unei asocieri gresite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1813",
+      "original_name": "Lakotos Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4118"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata la 2 ani cu suspendare pentru doua fapte de complicitate la cumparare de influenta. Cautarile exacte nu identifica functie politica, mandat sau candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1814",
+      "original_name": "Lakotos Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774",
+        "https://www.dna.ro/comunicat.xhtml?id=1621"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala si cumparator de influenta pentru obtinerea frauduloasa a permisului auto in Ungaria. Cautarile exacte nu identifica functie politica, mandat sau candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1815",
+      "original_name": "Lakotos Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774",
+        "https://www.dna.ro/comunicat.xhtml?id=1621"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala si cumparator de influenta pentru obtinerea frauduloasa a permisului auto in Ungaria. Cautarile exacte nu identifica functie politica, mandat sau candidatura; profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
