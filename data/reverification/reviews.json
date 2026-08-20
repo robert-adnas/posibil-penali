@@ -32068,6 +32068,647 @@
       ],
       "note": "Cazul DNA priveste un complice intr-un dosar din Olt/Caracal, fara functie politica indicata. Omonimul primar al comunei Cislau, Buzau este documentat separat, iar sursele nu ofera identificatori care sa lege persoanele; profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1931",
+      "original_name": "Musca Marius-Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5388",
+        "https://www.primariaarad.ro/dm_arad/2019/hotarari.nsf/EE1AD70BE3692D0CC2258773002E1222/%24FILE/h10622.pdf?Open="
+      ],
+      "note": "Hotararea DNA il condamna pentru complicitate la obtinerea frauduloasa de fonduri europene si fals, fara sa indice functie politica sau publica. Documentul municipal il mentioneaza doar ca proprietar al unui imobil; profilul este in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1932",
+      "original_name": "Mustaciosu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA il enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1933",
+      "original_name": "Mustafha Kifan Farid",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Hotararea DNA il include intr-un grup condamnat pentru inselaciune, fara sa ii atribuie functie politica, mandat, candidatura ori functie publica eligibila; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1934",
+      "original_name": "Nae Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA il enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1935",
+      "original_name": "Nagy Jozsef",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3771",
+        "https://www.cjsm.ro/mandatul-2012-2016"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala in dosarul de contrabanda. Lista oficiala a alesilor judeteni Satu Mare din mandatul contemporan nu contine acest nume; nu exista baza pentru un profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1936",
+      "original_name": "Naiman Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA il include explicit intre persoanele fara calitate speciala condamnate pentru complicitate la abuz in serviciu si uz de fals; nicio functie politica sau publica eligibila nu este indicata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1937",
+      "original_name": "Nan Ileana Marioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Hotararea definitiva si rechizitoriul DNA o identifica intre candidatii la bacalaureat condamnati pentru cumparare de influenta, fara rol politic sau functie publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1938",
+      "original_name": "Nastac Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://www.desteptarea.ro/zeci-de-condamnari-in-dosarul-spaga-la-bac/"
+      ],
+      "note": "Sursele il identifica drept profesor si participant in dosarul mitei la bacalaureat, condamnat pentru complicitate la cumparare de influenta; nu rezulta mandat, candidatura sau rol de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1939",
+      "original_name": "Nastase Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4564",
+        "https://www.dna.ro/comunicat.xhtml?id=570"
+      ],
+      "note": "Sursele oficiale confirma ca este Daniela Nastase, sotia fostului premier, condamnata in dosarul Zambaccian. Nu ii atribuie ei mandat, candidatura, functie politica ori rol de partid; asocierea familiala nu transforma persoana intr-un profil politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1940",
+      "original_name": "Nastase Profira",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in cauza prestatiilor sociale, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1941",
+      "original_name": "Neacsu Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946",
+        "https://cjolt.ro/storage/formidable/199/016-Rapoarte-activitate-consilieri-2024.pdf"
+      ],
+      "note": "DNA il condamna pe Neacsu Petre intr-un dosar din Timis fara functie politica indicata. Sursa oficiala CJ Olt documenteaza distinct alesul Neacsu Petre-Silviu; diferentele de nume complet si geografie nu permit atribuirea cazului penal acestuia.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1942",
+      "original_name": "Neacsu Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA il enumera intre beneficiarii particulari condamnati pentru inselaciune in cauza prestatiilor sociale, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1943",
+      "original_name": "Neagu Georgel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2714"
+      ],
+      "note": "Hotararea DNA il condamna pentru cumparare de influenta si nu ii atribuie functie politica, mandat, candidatura ori rol de partid; profilul este in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1944",
+      "original_name": "Neagu Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primariarifov.ro/consiliul-local/componenta/"
+      ],
+      "note": "DNA include o persoana privata cu acest nume intre beneficiarii fraudei cu pensii din Bucuresti. Primaria Rafov documenteaza separat o consiliera locala omonima din Prahova; lipsesc identificatori care sa lege persoanele, astfel ca statusul penal nu este transferat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1945",
+      "original_name": "Neagu Jan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4063"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata pentru trafic de influenta, fara mandat, candidatura, functie publica sau rol de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1946",
+      "original_name": "Nechifor Saveta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728"
+      ],
+      "note": "Hotararea DNA o condamna pentru cumparare de influenta si fals material, fara sa indice o functie politica, un mandat, o candidatura sau un rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1947",
+      "original_name": "Nechita Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "DNA il include intre participantii condamnati in dosarul mitei la bacalaureat, fara sa ii atribuie functie politica, mandat, candidatura ori rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1948",
+      "original_name": "Necula Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1949",
+      "original_name": "Neculau Diagrama",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4571",
+        "https://www.dna.ro/comunicat.xhtml?id=4075"
+      ],
+      "note": "Hotararea definitiva si comunicatul de urmarire descriu traficul de influenta pentru obtinerea unei locuinte si falsuri, fara a atribui persoanei mandat, candidatura, functie politica ori rol de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1950",
+      "original_name": "Neda Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA il enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1951",
+      "original_name": "Nedelcu Valeria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.primariacaragiale.ro/primaria/componenta/"
+      ],
+      "note": "DNA include o Valeria Nedelcu intre beneficiarii particulari ai fraudei cu pensii din Bucuresti. Primaria I.L. Caragiale documenteaza separat o consiliera locala omonima din Dambovita; fara identificatori comuni, condamnarea nu poate fi atribuita alesei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1952",
+      "original_name": "Negulescu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://armed.mapn.ro/1_mini%C8%99trii-apararii-na%C8%9Bionale-%28ministers-of-national-defence%29"
+      ],
+      "note": "DNA enumera un Ion Negulescu printre beneficiarii privati condamnati in 2013. MApN documenteaza omonimul general si ministru al Razboiului din 1944-1945, persoana istorica distincta; statusul penal contemporan nu ii este atribuit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1953",
+      "original_name": "Nemes Gavrila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA il include explicit intre persoanele fara calitate speciala condamnate pentru complicitate la abuz in serviciu si uz de fals; nu este indicat niciun rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1955",
+      "original_name": "Nemesciuc Oana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Hotararea definitiva si rechizitoriul DNA o identifica intre candidatii la bacalaureat condamnati pentru cumparare de influenta, fara functie politica sau publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1956",
+      "original_name": "Nenestean Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Hotararea definitiva si rechizitoriul DNA il identifica intre candidatii la bacalaureat condamnati pentru cumparare de influenta, fara functie politica sau publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1957",
+      "original_name": "Nica Benoni",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4128"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata pentru participatie improprie la inselaciune; nu rezulta mandat, candidatura, functie politica ori rol de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1958",
+      "original_name": "Nicolae Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in cauza prestatiilor sociale, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1959",
+      "original_name": "Nicolae Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA contine de doua ori numele Nicolae Elena in lista beneficiarilor privati si nu ofera identificatori care sa individualizeze persoana. Profilul politic nu poate fi atribuit in siguranta si este eliminat conform regulii conservative.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1960",
+      "original_name": "Nicsici Boban",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3800"
+      ],
+      "note": "DNA il identifica drept persoana implicata in traficul cu tigari la PTF Naidas, fara rol politic sau functie publica eligibila. Sursa oficiala indica 1 an si 10 luni, nu 1 an si 1 luna din profilul agregat; profilul este oricum exclus din domeniu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1961",
+      "original_name": "Niculae Dorina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://www.balaciu.ro/despre-institutie/consiliul-local/"
+      ],
+      "note": "DNA enumera o persoana privata Niculae Dorina intre beneficiarii fraudei sociale din Bucuresti. Consiliera din Balaciu are numele complet distinct Dinu-Niculae Dorina-Alina si alta geografie; nu exista baza pentru asocierea statusului penal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1962",
+      "original_name": "Niculai Tinca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA enumera persoana intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1963",
+      "original_name": "Niculaie Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://primariateslui.ro/consilieri-locali/"
+      ],
+      "note": "DNA enumera persoana privata Niculaie Alexandru intr-un dosar din Bucuresti. Primaria Teslui documenteaza alesul Alexandru Niculae, cu ordinea si ortografia numelui diferite si in alta geografie; nu exista identificatori care sa lege persoanele.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1964",
+      "original_name": "Niculescu Ana Virginia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1965",
+      "original_name": "Niculescu Gabriel Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4071",
+        "https://primariasohatu.ro/wp-content/uploads/2021/10/HCL_1_2020.pdf",
+        "https://sohatu.regista.ro/counter/download/%242y%2410%24Ji8r3nKcdDnLmmFIrgC0FubMB3lQg/jM8t.onRU7eNCn3XWqmgFkq"
+      ],
+      "note": "DNA confirma condamnarea unui Niculescu Gabriel Mihai, dar nu publica data nasterii sau domiciliul. Sursele oficiale Sohatu documenteaza un consilier omonim nascut in 1974; fara un identificator comun, asocierea nu este sigura si profilul penal este eliminat din afisare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1966",
+      "original_name": "Niculescu Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.bjiasi.ro/wp-content/uploads/2014/01/Partide-politice-filiale-iesene-1990-2000.pdf"
+      ],
+      "note": "DNA enumera un Niculescu Niculae intre beneficiarii privati ai fraudei cu pensii din Bucuresti, fara identificatori. Biblioteca Judeteana Iasi documenteaza distinct activitatea politica a lui Niculae Niculescu; identitatea comuna nu poate fi demonstrata, deci statusul nu este atribuit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1967",
+      "original_name": "Niculescu Zenovia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1968",
+      "original_name": "Nita Emanuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2191"
+      ],
+      "note": "Hotararea DNA il condamna pentru dare de mita, fara sa indice mandat, candidatura, functie politica ori rol de partid; profilul este in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1969",
+      "original_name": "Nita Lucica Luminita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA o enumera intre beneficiarii particulari condamnati pentru inselaciune in dosarul pensiilor, fara mandat, candidatura, functie publica sau rol de partid; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1970",
+      "original_name": "Nita Marius Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3882"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata pentru cumparare de influenta si conducere sub influenta alcoolului; nu rezulta niciun rol politic eligibil.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
