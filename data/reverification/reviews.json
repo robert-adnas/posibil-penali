@@ -32709,6 +32709,491 @@
       ],
       "note": "DNA il descrie explicit drept persoana fara calitate speciala, condamnata pentru cumparare de influenta si conducere sub influenta alcoolului; nu rezulta niciun rol politic eligibil.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1971",
+      "original_name": "Nitu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5028",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=02965722-2d58-4fa7-9582-e296331339b0"
+      ],
+      "note": "DNA confirmă condamnarea lui NIȚU DANIEL la 3 ani cu suspendare pentru cumpărare de influență, dar nu indică funcție politică/publică. Există politicianul distinct Remus-Daniel Nițu, fost senator de Vâlcea; lipsesc identificatori care să lege persoana din dosar de acesta. Profil exclus pentru a evita o atribuire greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1972",
+      "original_name": "Nitu Ioan Romeo",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4766"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 2 ani și 6 luni pentru complicitate la cumpărare de influență, fără a consemna vreo funcție politică sau publică pentru Nițu Ioan Romeo. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1973",
+      "original_name": "Nodis Gavril",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1918"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 2 ani cu suspendare, dar nu consemnează funcție politică ori mandat public pentru Nodiș Gavril. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1974",
+      "original_name": "Noje Cosmin Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2353"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la un an cu suspendare pentru complicitate la fals, fără funcție politică sau publică indicată pentru Noje Cosmin Ioan. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1975",
+      "original_name": "Nucica Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Nucica Marian apare în lista extinsă a beneficiarilor condamnați la 2 ani cu suspendare pentru înșelăciune în dosarul pensiilor false; sursa nu indică rol politic sau public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1976",
+      "original_name": "Nyikora Monica Renata",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA o identifică pe Nyikora Monica-Renata între candidații la bacalaureat condamnați pentru cumpărare de influență; nu este indicat niciun rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1977",
+      "original_name": "Nyikora Norbert",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA îl identifică pe Nyikora Norbert între candidații la bacalaureat condamnați pentru cumpărare de influență; nu este indicat un mandat politic. O apariție ulterioară ca reprezentant UDMR într-un birou electoral nu dovedește o funcție aleasă și nu justifică publicarea profilului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1978",
+      "original_name": "Oarza Catalin Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1927"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 2 ani și 6 luni cu suspendare pentru cumpărare de influență, fără a indica funcție politică sau publică pentru Oarză Cătălin Viorel. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1979",
+      "original_name": "Oberknez Emil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA îl descrie explicit pe Oberknez Emil drept persoană fără calitate specială. Hotărârea arată o pedeapsă finală de 1 an și 10 luni cu suspendare după anularea unei suspendări anterioare, contrar agregării de 10 luni cu executare. Profil eliminat ca nepolitic și pentru a nu publica statusul eronat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1980",
+      "original_name": "Oglinda Dora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3302"
+      ],
+      "note": "DNA o descrie explicit pe Oglindă Dora drept persoană fără calitate specială și confirmă condamnarea la 7 ani. Nu există rol politic ori mandat public demonstrat; profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1981",
+      "original_name": "Oita Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Oiță Dumitru apare în lista beneficiarilor condamnați la 2 ani cu suspendare pentru înșelăciune în dosarul pensiilor false; DNA nu indică rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1982",
+      "original_name": "Oita Ecaterina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA confirmă condamnarea Oiței Ecaterina la un an cu suspendare pentru înșelăciune în dosarul pensiilor false, fără funcție politică sau publică indicată. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1983",
+      "original_name": "Oltean Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4605"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Oltean Adrian la 3 ani pentru trafic de influență, dare de mită și alte fapte, dar nu consemnează nicio funcție politică ori publică pentru acesta. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1984",
+      "original_name": "Olteanu Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5452"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Olteanu Alexandru la 2 ani pentru complicitate la luare de mită; funcțiile publice sunt atribuite separat primarului și secretarului comunei, nu lui Olteanu. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1985",
+      "original_name": "Omer Ali Saim",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5729"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a inculpatei Omer Ali Saim la 3 ani cu suspendare pentru fraudă cu fonduri europene și falsuri, fără a indica funcție politică ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1986",
+      "original_name": "Onisei Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "DNA îl identifică explicit pe Onisei Nicolae (fost Grigore) drept persoană fără calitate specială și confirmă pedeapsa de 2 ani și 6 luni cu suspendare. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1987",
+      "original_name": "Oprea Ecaterina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Oprea Ecaterina apare în lista beneficiarilor dosarului pensiilor false, condamnați la 2 ani cu suspendare; DNA nu indică rol politic ori public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1988",
+      "original_name": "Oprea George-Eusebiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "DNA confirmă condamnarea lui Oprea George-Eusebiu la 8 luni cu suspendare în lotul cumpărătorilor de influență din dosarul bacalaureatului; nu este indicat rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1989",
+      "original_name": "Oprea Nela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifică pe Oprea Nela drept candidat la examenul de bacalaureat și confirmă pedeapsa de 8 luni cu suspendare pentru cumpărare de influență. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1990",
+      "original_name": "Oprica Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://hotnews.ro/cine-sunt-candidatii-pnl-psd-unpr-pmp-si-usb-pentru-consiliul-general-al-capitalei-475208"
+      ],
+      "note": "DNA include numele Oprică Gheorghe în lista beneficiarilor condamnați la 3 ani cu suspendare pentru înșelăciune, fără identificatori ori rol public. Există persoane politice omonime, inclusiv un candidat pentru Consiliul General; legătura nu poate fi demonstrată. Profil exclus pentru evitarea atribuirii greșite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1991",
+      "original_name": "Oprisanu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Oprișanu Vasile apare în lista beneficiarilor condamnați la 3 ani cu suspendare pentru înșelăciune în dosarul pensiilor false; DNA nu indică funcție politică sau mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1992",
+      "original_name": "Oros Grigorita Elvira",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA o identifică pe Oros Grigorița Elvira între candidații la bacalaureat condamnați pentru cumpărare de influență; nu este indicat rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1993",
+      "original_name": "Padure Pavel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4080"
+      ],
+      "note": "DNA consemnează condamnarea inițială din 2013, dar și actualizarea definitivă: prin decizia nr. 328/A din 09.03.2018 Pavel Pădure a fost achitat deoarece fapta nu a fost săvârșită cu vinovăția prevăzută de lege. Nicio funcție politică nu este indicată; profil eliminat ca nepolitic și pentru a nu publica vechiul status de condamnat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1994",
+      "original_name": "Paisu Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Păișu Georgeta apare în lista beneficiarilor condamnați la 2 ani cu suspendare în dosarul pensiilor false; sursa nu indică rol politic ori public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1995",
+      "original_name": "Palistan Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "DNA confirmă condamnarea lui Paliștan Mihai la 8 luni cu suspendare în lotul cumpărătorilor de influență din dosarul bacalaureatului; nu este indicat rol politic sau mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1996",
+      "original_name": "Pancescu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4466"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Mariei Pâncescu la un an și 6 luni cu suspendare pentru complicitate la trafic de influență, fără a-i atribui vreo funcție politică ori publică. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1997",
+      "original_name": "Pancu Gherghina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA confirmă condamnarea lui Pancu Gherghina la un an cu suspendare pentru înșelăciune în dosarul pensiilor false, fără funcție politică sau publică indicată. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1998",
+      "original_name": "Pandaru Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Pândaru Florica apare în lista beneficiarilor condamnați la 2 ani cu suspendare în dosarul pensiilor false; DNA nu indică rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1999",
+      "original_name": "Pandele Ecaterina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Pandele Ecaterina apare în lista beneficiarilor condamnați la 2 ani cu suspendare în dosarul pensiilor false; DNA nu indică rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2000",
+      "original_name": "Pandele Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Pandele Elena apare în lista beneficiarilor condamnați la 2 ani cu suspendare în dosarul pensiilor false; DNA nu indică rol politic ori mandat public. Profil în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
