@@ -35316,6 +35316,820 @@
       ],
       "note": "Condamnarea DNA nu indică o funcție politică. Prezența ulterioară ca reprezentant USR într-un birou electoral este un rol electoral tehnic, nu mandat ales, conducere de partid sau numire politică, deci rămâne în afara domeniului.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2132",
+      "original_name": "Sabou Cristian Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Candidat la examenul de bacalaureat, fără funcție publică sau politică în sursele dosarului; profil exclus din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2133",
+      "original_name": "Sadoveanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=1273"
+      ],
+      "note": "Persoană privată care a oferit bani într-un dosar de corupție funciară; oficialii implicați sunt nominalizați separat, iar numele are risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2134",
+      "original_name": "Saitoc Elena-Claudia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2770",
+        "https://www.dna.ro/comunicat.xhtml?id=2278"
+      ],
+      "note": "Complice privată la cumpărare de influență pentru obținerea unui act medico-legal; nicio funcție publică sau politică nu este indicată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2135",
+      "original_name": "Sandru Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "Cumpărător de influență într-un dosar colectiv legat de examene; sursa nu indică o funcție publică sau politică, iar numele are risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2136",
+      "original_name": "Sandu Irina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4112",
+        "https://www.dna.ro/comunicat.xhtml?id=1408"
+      ],
+      "note": "Persoană privată condamnată pentru dare de mită în demersuri privind eliberarea lui Sandu Zamfir; fără rol public sau politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2137",
+      "original_name": "Sandu Jean-Catalin",
+      "current_name": "Jean-Cătălin Sandu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173",
+        "https://www.dna.ro/comunicat.xhtml?id=1077"
+      ],
+      "note": "Numele a fost normalizat; DNA confirmă condamnarea definitivă la 6 ani cu executare și rolurile de secretar executiv PC și vicepreședinte AVAS.",
+      "reviewed_snapshot_hash": "853a46ab0fa448ddc3a8473e30b01f997a240ef7a5f0475f88bb6f13177af649"
+    },
+    {
+      "profile_id": "RV-2138",
+      "original_name": "Sandu Zamfir",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4112",
+        "https://www.dna.ro/comunicat.xhtml?id=1408"
+      ],
+      "note": "Persoană privată vizată de demersuri de cumpărare de influență pentru eliberare; fără funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2139",
+      "original_name": "Santioana Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1912",
+        "https://www.dna.ro/comunicat.xhtml?id=1295"
+      ],
+      "note": "Complice privat la cumpărare de influență într-un dosar privind un ofițer de poliție; fără funcție publică sau politică și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2140",
+      "original_name": "Sapera Neculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4821",
+        "https://www.dna.ro/comunicat.xhtml?id=3912"
+      ],
+      "note": "Cumpărător privat de influență și rudă a intermediarului din dosar; sursele nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2141",
+      "original_name": "Saraf Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Participantă într-un grup de fraudare a pensiilor, fără funcție publică sau politică indicată în hotărârea oficială.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2142",
+      "original_name": "Sarbu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Condamnat într-un dosar privat de înșelăciune bancară; sursa nu indică o funcție publică sau politică, iar numele comun are risc ridicat de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2143",
+      "original_name": "Sas Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoană din lotul beneficiarilor unei fraude cu pensii; fără funcție publică sau politică, iar numele are risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2144",
+      "original_name": "Savin Alina Florentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Candidată la examenul de bacalaureat condamnată pentru cumpărare de influență; fără rol public sau politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2145",
+      "original_name": "Savin Vlad-Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "Cumpărător de influență în dosarul examenului de bacalaureat; sursa nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2146",
+      "original_name": "Savu Raul-Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4504"
+      ],
+      "note": "Complice privat la trafic de influență într-un dosar privind locuințe; fără funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2147",
+      "original_name": "Savulescu Vlad-Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173",
+        "https://www.dna.ro/comunicat.xhtml?id=1077",
+        "https://legislatie.just.ro/Public/DetaliiDocument/75111"
+      ],
+      "note": "DNA și actul oficial de numire confirmă funcții administrative la ADS/CNSC, nu un mandat sau rol politic sigur; în lipsa unei apartenențe politice oficial confirmate, profilul este exclus conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2148",
+      "original_name": "Schein Iacob",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1908"
+      ],
+      "note": "Cumpărător privat de influență; comunicatul oficial nu indică nicio funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2149",
+      "original_name": "Scoret Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoană din lotul beneficiarilor fraudei cu pensii; fără rol public sau politic și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2150",
+      "original_name": "Sebe Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoană din lotul beneficiarilor fraudei cu pensii; fără rol public sau politic și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2151",
+      "original_name": "Sebes Catalin George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2353"
+      ],
+      "note": "Condamnat pentru fals material în înscrisuri oficiale, fără funcție publică sau politică indicată de sursa oficială.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2152",
+      "original_name": "Secareanu Alexandru Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3737"
+      ],
+      "note": "DNA o califică explicit drept persoană fără calitate specială într-un dosar de fraudă cu fonduri europene; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2153",
+      "original_name": "Secareanu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3737"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială într-un dosar de fraudă cu fonduri europene; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2154",
+      "original_name": "Sekely Olimpia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Beneficiară într-un dosar colectiv de fraudă cu pensii; fără funcție publică sau politică și cu nume susceptibil de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2155",
+      "original_name": "Senti Magdalena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Beneficiară într-un dosar colectiv de fraudă cu pensii; comunicatul nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2156",
+      "original_name": "Serban Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946"
+      ],
+      "note": "Condamnată pentru falsuri într-un dosar economic; fără funcție publică sau politică indicată și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2157",
+      "original_name": "Serban Ioan Stelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079"
+      ],
+      "note": "Cumpărător privat de influență; comunicatul oficial nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2158",
+      "original_name": "Serban Magdalena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Beneficiară într-un dosar colectiv de fraudă cu pensii; fără rol public sau politic și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2159",
+      "original_name": "Serban Nelu Doruca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079"
+      ],
+      "note": "Cumpărător privat de influență; comunicatul oficial nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2160",
+      "original_name": "Serban Niculina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Persoană privată condamnată într-un dosar de înșelăciune bancară; fără rol public sau politic și cu risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2161",
+      "original_name": "Sfetcu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3882"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, condamnată pentru cumpărare de influență; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2162",
+      "original_name": "Sforaru Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3801"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială într-un dosar privat de înșelăciune; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2163",
+      "original_name": "Sianu Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Beneficiar într-un dosar colectiv de fraudă cu pensii; fără funcție publică sau politică și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2164",
+      "original_name": "Sima Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Beneficiar într-un dosar colectiv de fraudă cu pensii; fără funcție publică sau politică și cu risc ridicat de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2165",
+      "original_name": "Simedrea Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3852"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială într-un dosar de fraudă cu fonduri europene; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2166",
+      "original_name": "Simion Florenta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Beneficiară într-un dosar colectiv de fraudă cu pensii; fără funcție publică sau politică și cu risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2167",
+      "original_name": "Simion Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5150"
+      ],
+      "note": "Persoană privată condamnată într-un dosar de tentativă de obținere ilegală de fonduri europene; fără rol politic și cu nume susceptibil de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2168",
+      "original_name": "Simion Rada",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Beneficiară într-un dosar colectiv de fraudă cu pensii; fără funcție publică sau politică și cu risc de coincidență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2169",
+      "original_name": "Simion Teodora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3273"
+      ],
+      "note": "Înregistrarea provine dintr-un lot fără calitate publică sau politică demonstrată; numele foarte comun nu permite o atribuire politică sigură, astfel profilul este exclus conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2170",
+      "original_name": "Simirianu Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4147",
+        "https://www.dna.ro/comunicat.xhtml?id=2984"
+      ],
+      "note": "Intermediar privat într-un dosar de mită privind un procuror; sursele oficiale nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2171",
+      "original_name": "Simiuc Romica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1936",
+        "https://www.dna.ro/comunicat.xhtml?id=783"
+      ],
+      "note": "Cetățean privat condamnat pentru conducere fără permis și achitat pentru dare de mită; fără rol public sau politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2172",
+      "original_name": "Simon Elisabeta Timea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3176"
+      ],
+      "note": "Participantă într-un grup privat de contrabandă; sursa oficială nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2173",
+      "original_name": "Simptea Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4129"
+      ],
+      "note": "Complice privat la trafic și cumpărare de influență; fără funcție publică sau politică indicată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2174",
+      "original_name": "Simu Ionut Sergiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2881"
+      ],
+      "note": "Mituitor privat într-un dosar de corupție la frontieră; agentul public este nominalizat separat, iar Simu nu are rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2175",
+      "original_name": "Sin Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5173",
+        "https://www.dna.ro/comunicat.xhtml?id=1077"
+      ],
+      "note": "Membru AGA al ICA, fără mandat electiv, funcție politică sau apartenență de partid confirmată în sursele oficiale; exclus conservator din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2176",
+      "original_name": "Sinf Rudolf",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3771"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială într-un grup de contrabandă; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2177",
+      "original_name": "Sirbu Grigore",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2883"
+      ],
+      "note": "Complice privat la evaziune fiscală; fără funcție publică sau politică și cu risc de coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2178",
+      "original_name": "Slezenger Attila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială într-un dosar bancar; fără rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2179",
+      "original_name": "Solomon Reuven",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4486"
+      ],
+      "note": "Persoană privată condamnată pentru dare de mită; funcționarii publici implicați sunt nominalizați separat, fără rol politic pentru Solomon.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2180",
+      "original_name": "Sos Rolland",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2023",
+        "https://www.dna.ro/comunicat.xhtml?id=74"
+      ],
+      "note": "Intermediar privat într-o fraudă privind vizele SUA și asociat într-o societate comercială; fără funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2181",
+      "original_name": "Sparchez Sorin Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946"
+      ],
+      "note": "Participant privat într-un dosar economic Electrica, condamnat pentru asociere; sursa nu indică o funcție publică sau politică.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
