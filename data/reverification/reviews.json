@@ -30170,6 +30170,426 @@
       ],
       "note": "DNA il descrie explicit drept persoana fara calitate speciala si cumparator de influenta pentru obtinerea frauduloasa a permisului auto in Ungaria. Cautarile exacte nu identifica functie politica, mandat sau candidatura; profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1816",
+      "original_name": "Lala Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2877",
+        "https://coe-romact.org/sites/default/files/JAP_DRAGANESTI%20OLT_28.12.2018.jpg1.pdf"
+      ],
+      "note": "DNA il identifica doar ca participant privat intr-un dosar privind obtinerea nelegala de fonduri europene si nu ii atribuie functie publica sau politica. Un omonim exact apare ca preot paroh in Draganesti-Olt, iar politicianul din Caras-Severin este Ion Lala, nu Gheorghe Lala; nu exista legatura probata intre persoana condamnata si un mandat politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1817",
+      "original_name": "Lambadarie Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4071",
+        "https://www.dna.ro/comunicat.xhtml?id=2735"
+      ],
+      "note": "Hotararea definitiva confirma condamnarea, iar rechizitoriul DNA il descrie ca membru al unui grup care introducea si comercializa marfuri contrafacute. Niciuna dintre sursele oficiale nu ii atribuie o functie publica, un mandat ales ori o apartenenta politica; cazul este in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1818",
+      "original_name": "Lascan Ion Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "DNA confirma condamnarea in dosarul fraudei bancare si il leaga civil de SC BENCIP COM SRL Savinesti, fara sa ii atribuie functie publica, mandat ales sau apartenenta politica. Cautarea exacta nu identifica o cariera politica asociabila persoanei din dosar; profilul este in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1819",
+      "original_name": "Laszlo Jozsef",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4572",
+        "https://www.dna.ro/comunicat.xhtml?id=3912",
+        "https://acatari.ro/monitorul-oficial-local/alte-documente/p-r-o-c-e-s-v-e-r-b-a-l-al-sedintei-consiliului-local-acatari-din-25-februarie-2021_715"
+      ],
+      "note": "DNA confirma condamnarea pentru trafic de influenta, dar nu ii atribuie condamnatului o functie publica sau politica. Exista un omonim exact, consilier local UDMR la Acatari, Mures, insa sursele nu ofera niciun identificator care sa il lege de persoana din dosarul instrumentat la Bucuresti; pentru a evita o asociere neprobata, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1820",
+      "original_name": "Lazar Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://comunabogdanesti.ro/primarie/anunturi/2026/Formulare.pdf"
+      ],
+      "note": "Hotararea DNA il enumera pe Lazar Mihai intre cateva sute de beneficiari ai unor dosare de pensionare bazate pe adeverinte false, fara functie publica sau politica atribuita. Numele este foarte comun si apare separat in documente administrative pentru persoane cu roluri publice, fara identificatori care sa lege vreun omonim de condamnat; asocierea politica nu poate fi sustinuta.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1821",
+      "original_name": "Lazar Sorin Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4180"
+      ],
+      "note": "DNA il identifica explicit drept persoana fara calitate speciala si confirma condamnarea pentru cumparare de influenta. Cautarea exacta nu identifica un mandat ales, o functie publica sau o apartenenta politica asociabila acestei persoane; profilul este in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1822",
+      "original_name": "Lazarean Gelu-Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5388",
+        "https://www.dna.ro/comunicat.xhtml?id=4493"
+      ],
+      "note": "Sursele DNA il descriu ca solicitant privat de subventii APIA obtinute cu documente false, fara functie publica, mandat ales sau apartenenta politica. Cautarea exacta confirma doar activitati si aparitii administrative private in Arad; profilul este in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1823",
+      "original_name": "Lazaroiu Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1926",
+        "https://www.dna.ro/comunicat.xhtml?id=1043"
+      ],
+      "note": "DNA confirma ca Lazaroiu Ionel a cumparat influenta pentru obtinerea frauduloasa a permisului de conducere si nu ii atribuie vreo functie publica ori politica. Cautarea exacta nu identifica un mandat sau o afiliere asociabila lui; profilul personal este in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1824",
+      "original_name": "Leasa Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5535",
+        "https://www.dna.ro/comunicat.xhtml?id=1269",
+        "https://if.prefectura.mai.gov.ro/wp-content/uploads/sites/55/2024/05/Proces-Verbal-privind-constatarea-ramanerii-definitive-a-candidaturilor-1.pdf"
+      ],
+      "note": "DNA il descrie pe condamnatul Dan Leasa ca om de afaceri care controla societati comerciale in dosarul Valcea, fara functie politica mentionata. Documentele electorale oficiale identifica separat politicianul PSD din Ilfov drept Leasa George-Daniel; nu exista o sursa care sa demonstreze ca este aceeasi persoana, astfel ca asocierea condamnarii ar fi nesigura si profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1825",
+      "original_name": "Lefegiu Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA il enumera intre beneficiarii privati condamnati in dosarul pensiilor obtinute cu adeverinte false si nu ii atribuie functie publica sau politica. Cautarea exacta nu identifica un mandat ori o afiliere asociabila lui; profilul este in afara domeniului registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1826",
+      "original_name": "Lelea Razvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2683"
+      ],
+      "note": "Hotararea definitiva DNA confirma condamnarea pentru trafic de influenta, fara sa ii atribuie lui Lelea Razvan o functie publica ori politica. Cautarea exacta nu identifica un mandat ales, o candidatura sau o afiliere asociabila persoanei condamnate; profilul este in afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1827",
+      "original_name": "Leleci Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5367",
+        "https://www.curierulfiscal.ro/2011/10/26/avocat-in-baroul-bucuresti-arestat-in-alta-cauza-trimis-in-judecata-de-dna-pentru-trafic-de-influenta/"
+      ],
+      "note": "DNA confirma condamnarea lui Ionel Leleci pentru trafic de influenta, iar rechizitoriul il plaseaza in Satu Mare si nu ii atribuie nicio calitate publica sau politica. Eticheta Bucuresti provenea de la baroul avocatului coinculpat, nu de la o functie a lui Leleci; profilul este in afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1828",
+      "original_name": "Lenghel Ileana Rodica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Rechizitoriul DNA o identifica drept candidata la bacalaureatul fraudat din Sighetu Marmatiei, iar hotararea confirma condamnarea pentru cumparare de influenta. Nu este mentionata nicio functie publica, candidatura electorala sau afiliere politica; profilul este in afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1829",
+      "original_name": "Leopa Marian Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3387",
+        "https://www.dna.ro/comunicat.xhtml?id=2677"
+      ],
+      "note": "DNA il identifica explicit drept persoana fara calitate speciala si confirma condamnarea pentru doua infractiuni de trafic de influenta. Cautarea exacta gaseste doar activitati private/agricole si nicio functie publica, candidatura ori afiliere politica asociabila; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1830",
+      "original_name": "Leordean Gavrila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Rechizitoriul DNA il enumera pe Leordean Gavrila intre candidatii la bacalaureat acuzati de cumparare de influenta, iar hotararea definitiva confirma pedeapsa. Nu exista functie publica, mandat ales sau afiliere politica atribuita; rezultatele electorale gasite privesc alte prenume Leordean, astfel ca profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1831",
+      "original_name": "Lepadatu Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3341",
+        "https://www.dna.ro/comunicat.xhtml?id=601"
+      ],
+      "note": "DNA îl indică drept persoană fără calitate specială; faptele descrise privesc exclusiv relații comerciale, iar verificarea numelui nu confirmă mandat sau afiliere politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1832",
+      "original_name": "Lica Nicolita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai în lista extinsă a beneficiarilor condamnați pentru înșelăciune în dosarul pensiilor; sursa nu îi atribuie funcție publică ori politică, iar verificarea numelui nu confirmă un asemenea rol.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1833",
+      "original_name": "Lider Andrea-Cristina-Theodora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4827",
+        "https://www.dna.ro/comunicat.xhtml?id=1437"
+      ],
+      "note": "Sursele DNA o descriu ca persoană privată implicată în cumpărare de influență; nu este consemnată nicio funcție publică sau politică și nu a fost identificată o afiliere verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1834",
+      "original_name": "Linca Eliza",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai între beneficiarii condamnați pentru înșelăciune în dosarul pensiilor; nu are rol special în cauză și verificarea individuală nu confirmă funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1835",
+      "original_name": "Linca Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai între beneficiarii condamnați pentru înșelăciune în dosarul pensiilor; nu are rol special în cauză și verificarea individuală nu confirmă funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1836",
+      "original_name": "Lingvai Istvan Lehel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "DNA îl identifică între candidații privați ai examenului de bacalaureat condamnați pentru cumpărare de influență; nu este consemnată și nici confirmată separat o funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1837",
+      "original_name": "Lionte Lucia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://doc.pmb.ro/monitorul_oficial/2012/oct_2012/volumul_1.pdf"
+      ],
+      "note": "DNA o include între beneficiarii condamnați pentru înșelăciune. Un document oficial o indică drept angajat al Poliției Locale Sector 1, nu ales sau actor politic; profilul este în afara scopului politic al aplicației.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1838",
+      "original_name": "Lipan Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3885"
+      ],
+      "note": "DNA îl indică explicit drept persoană fără calitate specială, condamnată pentru complicitate la cumpărare de influență și trafic de influență; verificarea nu confirmă un rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1839",
+      "original_name": "Lixandru Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4877",
+        "https://www.dna.ro/comunicat.xhtml?id=912",
+        "https://primaria-constanta.ro/pagina-pmc/despre-institutie/consiliul-local/alesii-locali/mandatul-2012-2016/"
+      ],
+      "note": "Dosarul DNA numește doar Virgil Lixandru și nu oferă identificatori care să permită atribuirea sigură către consilierul constănțean Ion-Virgil Lixandru. Din cauza coliziunii de nume și a geografiei diferite, profilul este exclus pentru a evita atribuirea unei condamnări unei persoane posibil distincte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1840",
+      "original_name": "Lorent Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645",
+        "https://www.dna.ro/comunicat.xhtml?id=133"
+      ],
+      "note": "DNA îl consemnează ca participant privat condamnat pentru dare de mită și înșelăciune, fără funcție publică sau politică indicată; verificarea numelui nu confirmă un rol politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
