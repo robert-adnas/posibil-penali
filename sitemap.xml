@@ -109,13 +109,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/pntcd</loc>
+    <loc>https://politicieni-corupti.ro/partid/prm</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/prm</loc>
+    <loc>https://politicieni-corupti.ro/partid/pntcd</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -565,6 +565,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/mures</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/covasna</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -572,12 +578,6 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/neamt</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/mures</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2977,6 +2977,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/politician/hurdugaci-emanoil</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/politician/bilea-constantin</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -2987,6 +2993,12 @@
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/cotofanu-constantin</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/diaconu-veronica</loc>
@@ -3003,6 +3015,18 @@
   <url>
     <loc>https://politicieni-corupti.ro/politician/baloi-ion</loc>
     <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/gheorghita-constantin</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/prodileanu-petre</loc>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4365,12 +4389,6 @@
   <url>
     <loc>https://politicieni-corupti.ro/politician/zamfir-marin</loc>
     <lastmod>2026-07-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gagiu-maria</loc>
-    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
