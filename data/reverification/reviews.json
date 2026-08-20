@@ -34338,6 +34338,984 @@
       ],
       "note": "DNA il identifica explicit pe Popescu Leonard drept persoana fara calitate speciala. Profil eliminat din registrul politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2072",
+      "original_name": "Popescu Rares",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "DNA consemnează condamnarea pentru înșelăciune, fără a atribui persoanei o funcție publică sau politică; rezultatele pentru numele comun nu permit legarea sigură de un om politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2073",
+      "original_name": "Popica Venera",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA o include explicit între persoanele fără calitate specială; profilul este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2074",
+      "original_name": "Popovici Marina Ioana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3383",
+        "https://www.dna.ro/comunicat.xhtml?id=1136"
+      ],
+      "note": "Sursele o descriu ca persoană care controla firme implicate în finanțarea campaniei, nu ca titulară a unei funcții politice sau publice.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2075",
+      "original_name": "Preda Sofia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea apare într-un dosar de fraudă privind pensii, fără funcție publică ori politică atribuită persoanei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2076",
+      "original_name": "Predut Simona-Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4342",
+        "https://www.dna.ro/comunicat.xhtml?id=4343"
+      ],
+      "note": "Sursa o identifică drept membră a biroului unei secții de votare; consilierul local este o altă persoană menționată separat, deci profilul nu are temei politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2077",
+      "original_name": "Prisacaru Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele apare într-o listă amplă de condamnați dintr-un dosar de fraudă privind pensii, fără funcție politică; căutarea exactă produce doar omonimi fără legătură demonstrabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2078",
+      "original_name": "Prisacaru Stana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa condamnării nu consemnează vreo funcție publică sau politică, iar eventualele potriviri de nume nu pot fi legate de persoana din dosar.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2079",
+      "original_name": "Proca Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487"
+      ],
+      "note": "DNA consemnează condamnarea într-un lot de persoane fără a atribui o funcție publică ori politică; profilul este în afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2080",
+      "original_name": "Prosie Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4427"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, astfel că includerea ca profil politic nu este justificată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2081",
+      "original_name": "Pucianu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Condamnarea este într-un dosar colectiv de fraudă privind pensii, fără rol politic indicat; rezultatul omonim din Republica Moldova este o persoană distinctă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2082",
+      "original_name": "Pufleanu Marilena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5271",
+        "https://www.dna.ro/comunicat.xhtml?id=1760"
+      ],
+      "note": "DNA descrie participarea la o tentativă de fraudă imobiliară, fără funcție publică sau politică atribuită; profilul este în afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2083",
+      "original_name": "Pufu Gherghina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele apare într-un dosar colectiv de fraudă privind pensii, fără rol politic; căutarea exactă nu identifică o legătură politică verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2084",
+      "original_name": "Puia Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa condamnării nu consemnează vreo funcție publică ori politică, iar rezultatele electorale găsite privesc alte persoane cu nume asemănător.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2085",
+      "original_name": "Puica Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea este într-un dosar de fraudă privind pensii, fără rol politic; persoanele publice găsite poartă alte prenume și nu pot fi asociate acestui condamnat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2086",
+      "original_name": "Purghel Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA îl enumeră într-un dosar colectiv fără calitate specială; candidatul Purghel Daniel-Florian este o persoană distinctă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2087",
+      "original_name": "Purghel Luciana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoana este enumerată în dosarul colectiv de fraudă privind pensii, fără funcție politică sau publică atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2088",
+      "original_name": "Puscau Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA nu consemnează o calitate publică ori politică pentru persoana condamnată, iar căutarea exactă nu oferă un temei de includere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2089",
+      "original_name": "Racolta Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2411",
+        "https://www.dna.ro/comunicat.xhtml?id=461"
+      ],
+      "note": "DNA îl prezintă ca persoană privată într-un caz de mituire a unui polițist de frontieră; primarul Ioan-Vasile Racolța este o identitate distinctă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2090",
+      "original_name": "Radanescu Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele apare în dosarul colectiv de fraudă privind pensii, fără rol politic sau public menționat; nu există o asociere politică verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2091",
+      "original_name": "Radu Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele foarte comun apare într-un dosar colectiv fără calitate specială; nu poate fi legat sigur de vreo persoană politică identificată separat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2092",
+      "original_name": "Radu Aurica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele apare într-un dosar colectiv de fraudă privind pensii fără rol public; existența fostului deputat Aurică Radu nu dovedește că este aceeași persoană condamnată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2093",
+      "original_name": "Radu Gheorghina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA nu atribuie persoanei vreo funcție publică sau politică, iar numele nu poate fi legat în siguranță de un profil politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2094",
+      "original_name": "Radu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul conține chiar două persoane cu numele Radu Maria și nicio funcție politică; identitatea este ambiguă și profilul trebuie exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2095",
+      "original_name": "Radu Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele comun apare într-un dosar colectiv fără calitate specială, fără elemente care să permită atribuirea unei identități politice.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2096",
+      "original_name": "Radu Olga",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoana este enumerată în dosarul colectiv de fraudă privind pensii fără funcție publică ori politică menționată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2097",
+      "original_name": "Radu Sergiu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1830"
+      ],
+      "note": "Sursele descriu falsificarea unor lucrări de examen și nu consemnează nicio funcție politică sau publică a persoanei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2098",
+      "original_name": "Raducan Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4190"
+      ],
+      "note": "DNA îl identifică explicit drept persoană fără calitate specială; includerea într-un registru politic nu este justificată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2099",
+      "original_name": "Raducan Stelian Ragalie Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Profilul este o concatenare eronată a două nume consecutive, Răducan Stelian și Răgălie Elena, din lista DNA; identitatea compusă nu există.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2100",
+      "original_name": "Raducanu Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea apare într-un dosar amplu de fraudă privind pensii, fără funcție publică sau politică atribuită persoanei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2101",
+      "original_name": "Raducu Daniel Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2714",
+        "https://www.dna.ro/comunicat.xhtml?id=1564"
+      ],
+      "note": "Persoana a fost condamnată pentru cumpărare de influență, fără ca DNA să îi atribuie un rol politic ori public; profilul este în afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2102",
+      "original_name": "Radulescu Voichita Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3227"
+      ],
+      "note": "Condamnarea este consemnată fără vreo funcție publică sau politică; căutarea exactă nu oferă o asociere politică verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2103",
+      "original_name": "Ragalie Florian-Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Persoana apare în dosarul colectiv de fraudă privind pensii fără funcție publică sau politică atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2104",
+      "original_name": "Ragalie Irina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "DNA o enumeră într-un dosar amplu de fraudă privind pensii, fără rol politic ori public menționat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2105",
+      "original_name": "Ragalie Liliac",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea nu este asociată în sursa oficială cu nicio funcție publică sau politică; profilul este în afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2106",
+      "original_name": "Raicu Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Numele apare în dosarul de fraudă privind pensii fără calitate specială; rezultatele publice pentru nume similare privesc alte persoane.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2108",
+      "original_name": "Rasnoveanu Andra Luminita",
+      "current_name": "Andra Luminița Râșnoveanu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4094",
+        "https://hotnews.ro/mafia-psd-ista-isi-vrea-portia-din-afacerea-henri-coanda-815180"
+      ],
+      "note": "Numele a fost normalizat Andra Luminița Râșnoveanu; DNA confirmă condamnarea definitivă la 11 ani, iar documentarea contemporană o identifică drept fost secretar general adjunct al PNL și colaboratoare politică a lui Teodor Meleșcanu. Profilul generic Independent a fost corectat.",
+      "reviewed_snapshot_hash": "616ab4e997ceb8136bdcd6e57df14bce4e89c6f261c8951f521d3e493d7d9f56"
+    },
+    {
+      "profile_id": "RV-2107",
+      "original_name": "Raileanu Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea apare în dosarul de fraudă privind pensii fără funcție politică; persoanele publice cu nume apropiat identificate în Republica Moldova sunt distincte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2109",
+      "original_name": "Rat Patrick Dragan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială; profilul nu are temei politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2110",
+      "original_name": "Rauta Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifică drept candidată la examenul de bacalaureat, nu candidată electorală și fără funcție politică sau publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2111",
+      "original_name": "Rezes Zsuzsanna",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079",
+        "https://www.dna.ro/comunicat.xhtml?id=1703"
+      ],
+      "note": "Sursele arată cumpărarea de influență pentru obținerea frauduloasă a unui permis de conducere în Ungaria, fără rol politic ori public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2112",
+      "original_name": "Rezmuves Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079",
+        "https://www.dna.ro/comunicat.xhtml?id=1703"
+      ],
+      "note": "Condamnarea privește complicitatea la trafic de influență într-o schemă de obținere frauduloasă a permiselor, fără funcție politică ori publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2113",
+      "original_name": "Rodideal Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2195",
+        "https://www.dna.ro/comunicat.xhtml?id=2196"
+      ],
+      "note": "DNA îl descrie drept cumpărător de influență pentru reducerea suspendării permisului; rezultatele politice din Republica Moldova privesc alte prenume și identități.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2114",
+      "original_name": "Roja Ioan Jr.",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială în dosarul de cumpărare de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2115",
+      "original_name": "Roja Ioan Sen.",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială; profilul nu are bază politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2116",
+      "original_name": "Roman Beniamin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4972",
+        "https://www.dna.ro/comunicat.xhtml?id=3769"
+      ],
+      "note": "Sursele îl descriu ca participant privat la obținerea nelegală de fonduri pentru o stupină, fără funcție politică; candidații cu nume parțial similar sunt persoane distincte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2117",
+      "original_name": "Roman Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "DNA îl identifică drept candidat la examenul de bacalaureat condamnat pentru cumpărare de influență, nu candidat electoral sau titular al unei funcții publice.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2118",
+      "original_name": "Rostas Valean",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774"
+      ],
+      "note": "Sursa oficială îl include explicit între persoanele fără calitate specială condamnate pentru cumpărare de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2119",
+      "original_name": "Rotariu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5545",
+        "https://www.dna.ro/comunicat.xhtml?id=3210"
+      ],
+      "note": "DNA o descrie ca intermediar neoficial între firme și comisionari vamali, fără rol politic; funcționarele cu nume extins similar sunt alte persoane.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2120",
+      "original_name": "Rotaru Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Comunicatul DNA îl identifică drept candidat la examenul de bacalaureat; politicianul Marian Rotaru din Târgu Jiu este o persoană distinctă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2121",
+      "original_name": "Roz Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, condamnată pentru cumpărare de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2122",
+      "original_name": "Rudai Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4571",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4075"
+      ],
+      "note": "DNA descrie trafic de influență privind atribuirea unei locuințe, fără a-i atribui persoanei o funcție politică sau publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2123",
+      "original_name": "Rus Tudor Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1830"
+      ],
+      "note": "Sursele îl descriu ca participant la falsificarea lucrărilor de bacalaureat, fără rol politic ori public menționat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2124",
+      "original_name": "Rusnac Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2274",
+        "https://www.dna.ro/comunicat.xhtml?id=2275"
+      ],
+      "note": "DNA îl prezintă ca traficant de influență în relația cu conducerea SIDEX, fără funcție politică sau publică atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2125",
+      "original_name": "Rusu Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Condamnarea apare în dosarul de fraudă privind pensii fără funcție politică; actualul fost consilier local Rusu Dumitru din Hârtop nu poate fi legat de persoana din dosarul bucureștean.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2126",
+      "original_name": "Rusu Gabriel Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1899"
+      ],
+      "note": "DNA confirmă fals și favorizarea infractorului, dar nu indică nicio funcție politică sau publică; rezultatele pentru numele asemănător nu dovedesc o identitate politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2127",
+      "original_name": "Rusu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Numele foarte comun apare într-un dosar colectiv de fraudă privind pensii, fără elemente care să îl lege de vreunul dintre aleșii omonimi.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2128",
+      "original_name": "Rusu Nicolita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "DNA o enumeră în dosarul colectiv de fraudă privind pensii fără funcție publică sau politică atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2129",
+      "original_name": "Rusu Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Condamnarea este consemnată fără calitate specială sau rol politic; profilul este în afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2130",
+      "original_name": "Rusulescu Octavian-Petrisor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2877",
+        "https://www.dna.ro/comunicat.xhtml?id=796"
+      ],
+      "note": "Dosarul privește complicitatea la fraudarea fondurilor europene prin societăți comerciale; sursele nu atribuie persoanei o funcție politică ori publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2131",
+      "original_name": "Sabo Carmen Nicoleta Valeria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3634",
+        "https://sm.prefectura.mai.gov.ro/wp-content/uploads/sites/32/2025/05/Procese-verbale-nr.-35-339.pdf"
+      ],
+      "note": "Condamnarea DNA nu indică o funcție politică. Prezența ulterioară ca reprezentant USR într-un birou electoral este un rol electoral tehnic, nu mandat ales, conducere de partid sau numire politică, deci rămâne în afara domeniului.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
