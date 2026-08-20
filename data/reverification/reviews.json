@@ -31569,6 +31569,505 @@
       ],
       "note": "Sursa DNA îl include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1901",
+      "original_name": "Militaru Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Hotărârea definitivă o enumeră între beneficiarii particulari condamnați pentru înșelăciune în cauza prestațiilor sociale, fără funcție publică, mandat, candidatură ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1902",
+      "original_name": "Minca Remus",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4827",
+        "https://tvrinfo.ro/perchezi-ii-la-clanul-sadoveanu-printre-persoanele-audiate-este-i-remus-minca-zis-nat-unul-dintre-liderii-clanului_869901/",
+        "https://romanialibera.ro/special/pd-a-declansat-campania-pentru-primaria-constanta-86252/"
+      ],
+      "note": "Sursele judiciare și de presă leagă condamnatul Remus Mincă de gruparea Sadoveanu din București, cunoscut drept Nat. Membrul PD Constanța cu același nume, vehiculat pentru o candidatură locală, nu are identificatori comuni cu inculpatul; profilul este exclus pentru a evita transferul greșit al statusului penal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1903",
+      "original_name": "Mincu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://isaccea.ro/wp-content/uploads/2022/hcl/hcl108.pdf"
+      ],
+      "note": "DNA include un Ion Mincu între beneficiarii particulari ai fraudei privind pensiile din București, fără rol politic. Documentul oficial din Isaccea indică un ales local PSD omonim, născut în 1952 și activ în Tulcea, dar nu există identificatori care să îl lege de cauza DNA; profilul este exclus pentru a evita asocierea greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1904",
+      "original_name": "Mintilie Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1905",
+      "original_name": "Mirauta Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA îl include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1906",
+      "original_name": "Mirica Smaranda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1907",
+      "original_name": "Miriuta Sandu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA îl include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1908",
+      "original_name": "Mirza Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "Hotărârea definitivă îl enumeră între cumpărătorii de influență din dosarul bacalaureatului de la Sighetu Marmației, fără funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1909",
+      "original_name": "Misca Ana Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifică drept candidat la examenul de bacalaureat condamnat pentru cumpărare de influență, fără rol public sau politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1910",
+      "original_name": "Mituca Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3395"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, condamnată pentru trafic de influență, fără funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1911",
+      "original_name": "Miu Anghelina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Sursa DNA o include între beneficiarii particulari ai fraudei privind pensiile și nu indică funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1912",
+      "original_name": "Miulescu Loredana Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3412",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2824"
+      ],
+      "note": "DNA o califică explicit drept persoană fără calitate specială și o descrie ca intermediar privat într-un dosar de trafic de influență privind angajări în MAI, fără mandat, candidatură ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1913",
+      "original_name": "Mocanu Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.primariavaleacalugareasca.ro/wp-content/uploads/2024/05/alegeri-2024-07-29-13-05-24-proces-ver.pdf"
+      ],
+      "note": "DNA îl enumeră pe Mocanu Ionel între persoanele condamnate într-o fraudă bancară din Bacău, fără rol public sau politic. Documentele electorale conțin candidați omonimi în alte localități și perioade, fără identificatori comuni; profilul este exclus pentru a evita transferul condamnării.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1914",
+      "original_name": "Mocanu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://emol.ro/pluginfile.php/1/local_emol/documentproiecthcl/10526/ANEXA%20NR%206.a%20-%20PRIMARI.pdf"
+      ],
+      "note": "DNA include un beneficiar particular cu acest nume în frauda pensiilor din București, fără rol politic. Statutul oficial al comunei Vorona consemnează un fost primar PSD omonim, născut în 1954, dar nu există identificatori care să îl lege de cauza DNA; profilul este exclus pentru a preveni asocierea greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1915",
+      "original_name": "Mocanu Violeta Loti",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5150",
+        "https://www.ziuaconstanta.ro/diverse/stiri-calde/trimisi-in-judecata-de-procurorii-dna-constanta-475933.html"
+      ],
+      "note": "Sursele o descriu ca persoana care a falsificat bilanțul unei societăți pentru o cerere de finanțare europeană, fără funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1916",
+      "original_name": "Mocian-Ardelean Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA îl identifică drept candidat la bacalaureat condamnat pentru cumpărare de influență, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1917",
+      "original_name": "Mohanu Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3302"
+      ],
+      "note": "DNA îl califică explicit drept persoană fără calitate specială, condamnată pentru constituirea unui grup infracțional și înșelăciune în fraude de leasing, fără mandat, candidatură ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1918",
+      "original_name": "Mois Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA o identifică drept candidat la bacalaureat condamnat pentru cumpărare de influență, fără funcție publică sau politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1919",
+      "original_name": "Moise Razvan Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4079",
+        "https://www.dna.ro/comunicat.xhtml?id=1565"
+      ],
+      "note": "DNA îl descrie ca persoană care a cumpărat influență pentru obținerea frauduloasă a unor acte de reședință și a unui permis în Ungaria, fără funcție publică, candidatură, mandat ori rol de partid. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1920",
+      "original_name": "Moldovan Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1830"
+      ],
+      "note": "Rechizitoriul DNA arată că a fost candidat la bacalaureat și a redactat lucrări falsificate în afara sălii de examen; nu este indicat niciun rol public sau politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1921",
+      "original_name": "Moldovan Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3176",
+        "https://primariatarnaveni.ro/docs/Alegeri%20locale%202024/PV/PV%20candidaturi%20definitive.pdf"
+      ],
+      "note": "DNA il descrie explicit drept persoana fara calitate speciala intr-un dosar de contrabanda din Satu Mare. Omonimul candidat AUR din Tarnaveni este intr-o alta localitate si nu exista identificatori care sa lege persoanele; profilul agregat este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1922",
+      "original_name": "Moldoveanu Emilia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4894",
+        "https://www.dna.ro/comunicat.xhtml?id=2594"
+      ],
+      "note": "Comunicatele DNA o identifica in dosarul unei fraude imobiliare si al falsificarii documentelor, fara functie politica sau publica eligibila; profilul este in afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1923",
+      "original_name": "Morariu Tiberiu Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2967",
+        "https://sibiu100.ro/administratie/escrocheria-anului-la-sibiu-dejucata-de-procurorii-dna/"
+      ],
+      "note": "Sursele il identifica drept autor al unei fraude si al falsificarii de inscrisuri, fara rol politic sau functie publica eligibila; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1924",
+      "original_name": "Moraru Dan Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Comunicatul DNA il include intre candidatii la bacalaureat condamnati pentru cumparare de influenta; nu rezulta nicio functie politica sau publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1925",
+      "original_name": "Moraru Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://comunapietrari.ro/despre-noi/conducere/primar/declaratii-de-avere-si-interese-primar/"
+      ],
+      "note": "Dosarul DNA priveste un beneficiar privat din Bucuresti al fraudei cu pensii. Omonimul primar din Pietrari, Valcea apare separat in sursa oficiala, iar lipsa identificatorilor comuni nu permite atribuirea cazului; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1926",
+      "original_name": "Morcoasa Rita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Comunicatul DNA o include intre beneficiarii privati ai unor drepturi obtinute fraudulos si nu indica un rol politic sau o functie publica eligibila; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1927",
+      "original_name": "Motea Zaharia Stefan Augustin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4065",
+        "https://www.dna.ro/comunicat.xhtml?id=2154"
+      ],
+      "note": "Hotararea si rechizitoriul DNA descriu infractiuni de criminalitate organizata, inselaciune, fals si spalare de bani, fara sa atribuie persoanei un rol politic ori o functie publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1928",
+      "original_name": "Mujdar Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA il identifica explicit intre candidatii la bacalaureat care au cumparat influenta; nu exista rol politic sau functie publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1929",
+      "original_name": "Muntean Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1054"
+      ],
+      "note": "DNA o identifica explicit intre candidatii la bacalaureat care au cumparat influenta; nu exista rol politic sau functie publica eligibila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1930",
+      "original_name": "Musat Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4796",
+        "https://emol.ro/pluginfile.php/1/local_emol/proiecthclbaza/183538/%283%29%20PR%20.%20nr.%203%20din%2022.01.2025-%20MODIFICARE%20STAT%20DE%20FUNCTII.pdf"
+      ],
+      "note": "Cazul DNA priveste un complice intr-un dosar din Olt/Caracal, fara functie politica indicata. Omonimul primar al comunei Cislau, Buzau este documentat separat, iar sursele nu ofera identificatori care sa lege persoanele; profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
