@@ -30590,6 +30590,332 @@
       ],
       "note": "DNA îl consemnează ca participant privat condamnat pentru dare de mită și înșelăciune, fără funcție publică sau politică indicată; verificarea numelui nu confirmă un rol politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1841",
+      "original_name": "Lovasz Gigi Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5028",
+        "https://www.dna.ro/comunicat.xhtml?id=1716"
+      ],
+      "note": "Sursele DNA îl descriu exclusiv drept cumpărător de influență pentru obținerea eliberării unei rude, fără calitate specială sau rol politic; căutarea individuală nu confirmă mandat ori afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1843",
+      "original_name": "Lucan Sonica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3246"
+      ],
+      "note": "DNA o indică explicit drept persoană fără calitate specială, condamnată pentru trafic de influență; nu a fost identificat un mandat sau rol politic verificabil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1844",
+      "original_name": "Luican Angela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Apare doar în lista extinsă a persoanelor condamnate pentru înșelăciune în dosarul prestațiilor sociale, fără funcție publică ori politică; verificarea numelui nu confirmă un rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1846",
+      "original_name": "Lupsa Realini",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4509",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/invinuit-in-dosarul-bani-pentru-sefii-din-cjcrealini-lupsa-de-la-gaz-pe-foc-vorbeste-despre-relatiile-sale-cu-eugeniu-mija-si-miron-mitrea-42761-358002.html"
+      ],
+      "note": "Persoana este identificată ca artist și participant privat în dosarul de trafic de influență; relațiile invocate cu persoane politice nu constituie mandat sau funcție politică proprie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1847",
+      "original_name": "Lupsor Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1933"
+      ],
+      "note": "DNA nu îi atribuie nicio funcție publică sau politică în dosarul fraudării înmatriculărilor auto, iar verificarea individuală indică o persoană privată și nu confirmă afiliere politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1848",
+      "original_name": "Macioi Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai între beneficiarii condamnați pentru înșelăciune în dosarul pensiilor, fără calitate specială ori rol politic; verificarea individuală nu confirmă mandat sau afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1849",
+      "original_name": "Maghiar Paul Claudiu Sebastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3774"
+      ],
+      "note": "DNA îl indică explicit drept persoană fără calitate specială și cumpărător de influență în schema permiselor obținute fraudulos în Ungaria; nu a fost identificat un rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1850",
+      "original_name": "Mann Nikolaus",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4854",
+        "https://www.g4media.ro/suspiciuni-de-incompatibilitate-judecatoarea-care-l-a-achitat-pe-omul-de-afaceri-nikolaus-mann-condamnat-initial-la-15-ani-de-detentie-intr-un-dosar-al-diicot-are-sotul-anchetat-de-diicot-intr-un-c.html"
+      ],
+      "note": "Sursele îl identifică drept om de afaceri și cumpărător de influență, fără funcție publică sau mandat politic; verificarea individuală nu confirmă afiliere politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1842",
+      "original_name": "Luca Paulina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://www.primarianufaru.ro/index.php?disp=12&p=documente_de_interes_public&sub=declaratii_de_avere_interese"
+      ],
+      "note": "DNA o include între beneficiarii privați condamnați pentru înșelăciune în dosarul prestațiilor sociale. Un omonim este inspector la Primăria Nufăru, dar geografia și lipsa identificatorilor comuni nu permit atribuirea condamnării; profilul este exclus pentru evitarea coliziunii.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1845",
+      "original_name": "Lungu Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3885",
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2885&PID=20&currentPage=33"
+      ],
+      "note": "DNA o indică drept persoană fără calitate specială într-un dosar din Târgu Neamț. Există omonime în administrația locală din alte județe, inclusiv Tulcea, fără identificatori comuni; profilul este exclus pentru a evita o atribuire greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1851",
+      "original_name": "Manolescu Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2054"
+      ],
+      "note": "DNA îl indică doar ca inculpat pentru trafic de influență, fără funcție publică ori politică; verificarea exactă a numelui nu confirmă mandat sau afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1852",
+      "original_name": "Mara Anica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai în lista beneficiarilor condamnați pentru înșelăciune în dosarul pensiilor, fără rol special sau politic; verificarea individuală nu confirmă mandat ori afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1853",
+      "original_name": "Mara Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai în lista beneficiarilor condamnați pentru înșelăciune în dosarul pensiilor, fără rol special sau politic; verificarea individuală nu confirmă mandat ori afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1854",
+      "original_name": "Mararu Gheorghe Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2195",
+        "https://www.mediafax.ro/social/fratii-mararu-de-la-schimb-marci-si-dolari-la-angajez-asasin-platit-11162366/amp"
+      ],
+      "note": "Sursele îl identifică drept persoană privată din mediul infracțional, condamnată pentru cumpărare de influență; nu este consemnată și nici confirmată o funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1855",
+      "original_name": "Marcan Vasilica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Apare numai în lista beneficiarilor condamnați pentru înșelăciune în dosarul pensiilor, fără rol special sau politic; verificarea individuală nu confirmă mandat ori afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1856",
+      "original_name": "Mare Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA o include într-un dosar bancar alături de administratori și persoane private, fără să îi atribuie vreo funcție politică; verificarea exactă a numelui nu confirmă mandat ori afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1857",
+      "original_name": "Mares Aurica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "Condamnarea apare într-un dosar privind polițiști și participanți privați, iar sursa nu consemnează pentru această persoană o funcție electivă sau politică; verificarea individuală nu confirmă afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1858",
+      "original_name": "Margineanu Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Apare doar în lista extinsă a persoanelor condamnate pentru înșelăciune în dosarul prestațiilor sociale, fără funcție publică ori politică; verificarea numelui nu confirmă un rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1859",
+      "original_name": "Marin Costache Tudorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4180"
+      ],
+      "note": "DNA îl indică explicit drept persoană fără calitate specială și cumpărător de influență; candidaturile găsite pentru alte persoane cu nume parțial similar nu îl identifică, iar un rol politic propriu nu este confirmat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1860",
+      "original_name": "Marin Madalina Irina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "DNA o identifică între candidații la bacalaureat condamnați pentru cumpărare de influență; nu este consemnată și nici confirmată separat o funcție politică.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
