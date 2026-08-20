@@ -28253,6 +28253,306 @@
       ],
       "note": "Eliminata din registrul politic: comunicatul DNA o include intr-un lot de persoane condamnate pentru inselaciune, fara functie publica, mandat, candidatura sau rol de partid documentat. Condamnarea unei persoane private nu justifica profil politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1702",
+      "original_name": "Gagiu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Comunicatul oficial DNA il include pe Gagiu Mircea intr-un lot numeros de persoane condamnate pentru inselaciune, fara sa indice vreo functie publica sau politica; cautarile nominale nu confirma o identitate politica. Profil eliminat pentru a evita atribuirea condamnarii unei persoane publice omonime.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1703",
+      "original_name": "Gaita Zoia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul oficial DNA mentioneaza Gaita Zoia doar intr-o lista foarte ampla de persoane trimise in judecata, fara functie publica sau politica. Cautarile nominale nu confirma o identitate politica; profil eliminat pentru a preveni o atribuire neverificata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1704",
+      "original_name": "Galan Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Comunicatul oficial DNA identifica explicit pe Galan Mihaela drept candidata la examenul de bacalaureat, nu titulara unei functii publice sau politice. Cautarile nominale nu confirma o identitate politica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1705",
+      "original_name": "Galatanu Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3946"
+      ],
+      "note": "Hotararea definitiva publicata de DNA descrie functiile publice ale celorlalti inculpati atunci cand exista, dar pentru Galatanu Paul consemneaza numai faptele si pedeapsa. Cautarile nominale nu confirma un rol politic; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1706",
+      "original_name": "Galos Vasile Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1290",
+        "https://www.arr.ro/files/scoli%20conducatori%20auto/info/ia_mai2010.pdf"
+      ],
+      "note": "DNA descrie participarea lui Galos Vasile Traian la fraudarea examenelor auto, iar lista oficiala ARR il identifica drept instructor auto/PFA. Nu este confirmata nicio functie politica sau publica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1707",
+      "original_name": "Gaman Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://campinatv.ro/News/Article/30788958-d6a7-45c2-736a-32538b77004b_a-incetat-din-viata-fostul-arbitru-constantin-gaman-din-provita-de-jos"
+      ],
+      "note": "Sursa DNA include numele Gaman Constantin intr-un lot foarte amplu fara functie politica si fara identificatori suficienti. Exista un omonim documentat drept candidat PMP la primaria Provita de Jos in 2020, dar nicio sursa nu leaga acea identitate de dosar; profil eliminat pentru a evita atribuirea gresita a condamnarii.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1708",
+      "original_name": "Ganea Ion Eusebiu",
+      "current_name": "Ion-Eusebiu Ganea",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4487",
+        "https://glavanesti.ro/administratie/consiliul-local/componenta-consiliului-local/",
+        "https://portal.afir.info/uploads/Rapoarte%20de%20SELECTIE/Masura%20112%20-%20iulie%202011/FINAL/RS_Final_M112_iulie_2011_selectate.pdf"
+      ],
+      "note": "Numele a fost normalizat Ion-Eusebiu Ganea, iar rolul actual de delegat satesc la Glavanesti este sustinut de surse oficiale. Legatura cu persoana condamnata rezulta din convergenta numelui complet rar si a localizarii in Bacau, dar nu este declarata direct de hotararea publicata; profilul este pastrat ascuns.",
+      "reviewed_snapshot_hash": "a8535b6df75dea71ad1f843b752541ddef0563d9d5c6c874134a45639fbb22cc"
+    },
+    {
+      "profile_id": "RV-1709",
+      "original_name": "Gavrila Nicolae-Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5067",
+        "https://www.dna.ro/comunicat.xhtml?id=2493"
+      ],
+      "note": "Comunicatele oficiale DNA il identifica pe Nicolae-Adrian Gavrila drept consilier superior in cadrul ANAF. Este functionar public, fara mandat ales, conducere de partid ori numire politica documentata; profil eliminat din domeniul politic al registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1710",
+      "original_name": "Gavrilas Mihai Tudor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053"
+      ],
+      "note": "Comunicatul oficial de trimitere in judecata il identifica pe Gavrilas Mihai Tudor printre cei 82 de candidati la examenul de bacalaureat acuzati de cumparare de influenta. Nu este documentata o functie politica sau publica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1711",
+      "original_name": "Geamanu Stan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul oficial DNA il include pe Geamanu Stan intr-un lot foarte amplu de persoane condamnate pentru inselaciune, fara sa indice o functie publica ori politica. Cautarile nominale nu confirma o identitate politica; profil eliminat pentru a evita o asociere nefundamentata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1712",
+      "original_name": "Ghelbeaza Ionut Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134",
+        "https://www.dna.ro/comunicat.xhtml?id=1536"
+      ],
+      "note": "DNA il identifica explicit pe Ghelbeaza Ionut Marius drept persoana fara calitate speciala si participant privat la o frauda bancara. Nu este documentata nicio functie politica, mandat ales ori numire politica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1713",
+      "original_name": "Ghelbeaza Liviu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134",
+        "https://www.dna.ro/comunicat.xhtml?id=1536"
+      ],
+      "note": "DNA il identifica explicit pe Ghelbeaza Liviu Daniel drept persoana fara calitate speciala si participant privat la o frauda bancara. Nu este documentata nicio functie politica, mandat ales ori numire politica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1714",
+      "original_name": "Gheorghe Aristita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA include Gheorghe Aristita intr-un lot foarte amplu de persoane condamnate pentru inselaciune, fara functie publica sau politica. Cautarile nominale nu confirma o identitate politica; profil eliminat din domeniul registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1715",
+      "original_name": "Gheorghe Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5178",
+        "https://public.ps2.ro/Administratie%20Publica%20Locala/Proiecte%20CLS2/2025/2025-01-30%20SEDINTA%20ORDINARA%20ORA%2016.00/01%20pv%2017.12.2024.pdf"
+      ],
+      "note": "Numele extrem de comun Gheorghe Gheorghe apare in comunicatul DNA fara functie sau identificatori, iar sursele administratiei locale documenteaza persoane politice omonime. Nu exista baza pentru asocierea condamnarii cu vreun politician; profil eliminat pentru rezolvarea coliziunii de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1716",
+      "original_name": "Gheorghe Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950"
+      ],
+      "note": "Comunicatul DNA contine chiar doua persoane listate sub forma Gheorghe Ioan, fara identificatori sau functii, iar numele are numerosi omonimi politici. Identitatea nu poate fi rezolvata responsabil; profil eliminat pentru a evita atribuirea condamnarii unei persoane publice gresite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1717",
+      "original_name": "Gheorghe Mihai - Aurelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1685",
+        "https://www.dna.ro/comunicat.xhtml?id=2888"
+      ],
+      "note": "DNA il identifica pe Gheorghe Mihai Aurelian drept fiul unui comisar al Garzii Financiare, prins cand primea suma ceruta de cei doi functionari, fara functie proprie publica sau politica. Profil eliminat din domeniul politic al registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1718",
+      "original_name": "Gheorghe Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://primaria-clinceni.ro/wp-content/uploads/2017/08/PV-04.05.2016.pdf"
+      ],
+      "note": "Comunicatul DNA contine doua aparitii ale numelui Gheorghe Niculae fara identificatori sau functie, iar documentele electorale contin politicieni cu aceleasi componente nominale. Asocierea nu poate fi stabilita responsabil; profil eliminat pentru a evita o atribuire gresita.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1719",
+      "original_name": "Gheorghe Silviea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4868",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3904"
+      ],
+      "note": "DNA o identifica pe Gheorghe Silviea ca martor privat si cesionara a unor drepturi litigioase in tentativa de revendicare frauduloasa, fara functie politica sau publica. Grafia Silviea este consecventa in sursele judiciare si nu trebuie confundata cu functionari omonimi numiti Silvia Gheorghe; profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

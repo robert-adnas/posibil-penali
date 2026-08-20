@@ -10127,24 +10127,7 @@ const AUTOMATED_JUL_07_2026_HARTA_NO_SPECIAL_ROLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_08_2026_HARTA_NO_SPECIAL_ROLE_ROWS = [
-  ["Gagiu Mircea", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Gaita Zoia", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Galan Mihaela", "Bacau", "3620", 8, true, 2012, "19/10/2012", false],
-  ["Galatanu Paul", "Timis", "3946", 36, false, 2013, "27/02/2013", false],
-  ["Galos Vasile Traian", "Cluj", "2059", 12, true, 2010, "29/11/2010", false],
-  ["Gaman Constantin", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Ganea Ion Eusebiu", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
-  ["Gavrila Nicolae-Adrian", "Bucuresti", "5067", 36, true, 2014, "20/06/2014", false],
-  ["Gavrilas Mihai Tudor", "Maramures", "5140", 6, true, 2014, "25/06/2014", false],
-  ["Geamanu Stan", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Ghelbeaza Ionut Marius", "Arad", "3134", 52, false, 2012, "29/03/2012", false],
-  ["Ghelbeaza Liviu Daniel", "Arad", "3134", 52, false, 2012, "29/03/2012", false],
-  ["Gheorghe Aristita", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Gheorghe Gheorghe", "Bucuresti", "5178", 36, true, 2014, "29/07/2014", false],
-  ["Gheorghe Ioan", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Gheorghe Mihai - Aurelian", "Bucuresti", "2888", 36, true, 2011, "15/12/2011", false],
-  ["Gheorghe Niculae", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
-  ["Gheorghe Silviea", "Constanta", "4868", 24, false, 2014, "14/04/2014", false],
+  ["Ion-Eusebiu Ganea", "Bacau", "4487", 8, true, 2013, "14/11/2013", false],
   ["Gheorghe Tatiana", "Bucuresti", "2770", 16, true, 2011, "04/11/2011", false],
   ["Gheorghiu Bogdan", "Neamt", "4367", 24, true, 2013, "04/10/2013", true],
   ["Gheorghiu Elena", "Bucuresti", "3950", 24, true, 2013, "28/02/2013", false],
@@ -11711,6 +11694,45 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Ion-Eusebiu Ganea': {
+    replace_sources: true,
+    party: 'Independent',
+    position: 'Delegat sătesc în Consiliul Local Glăvănești, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      locality: 'Glăvănești',
+      note:
+        'Primăria Glăvănești îl listează pe Eusebiu Ganea drept delegat sătesc; un raport oficial AFIR identifică numele complet Ion-Eusebiu Ganea în satul Răzeșu, comuna Glăvănești.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '8 luni închisoare cu suspendare',
+    sentence_years: 0.67,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 3550 din 14 noiembrie 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Ganea Ion Eusebiu la 8 luni de închisoare cu suspendare pentru cumpărare de influență. Un raport oficial AFIR din 2011 localizează o persoană cu exact același nume complet în satul Răzeșu, comuna Glăvănești, iar Primăria Glăvănești îl listează în prezent pe Eusebiu Ganea drept delegat sătesc. Convergența este puternică, dar sursa judiciară nu publică localitatea ori alți identificatori; profilul rămâne ascuns până la o confirmare documentară directă a identității.',
+    verified_at: '2026-08-20',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=4487',
+      },
+      {
+        label: 'Primăria Glăvănești — componența consiliului local',
+        kind: 'official',
+        url: 'https://glavanesti.ro/administratie/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'AFIR — raport de selecție Măsura 112',
+        kind: 'official',
+        url: 'https://portal.afir.info/uploads/Rapoarte%20de%20SELECTIE/Masura%20112%20-%20iulie%202011/FINAL/RS_Final_M112_iulie_2011_selectate.pdf',
+      },
+    ],
+  },
   'Cornel-Leontin Moisil': {
     replace_sources: true,
     party: 'PUSL',
