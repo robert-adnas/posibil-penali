@@ -21125,13 +21125,13 @@ const AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS = [
   },
   {
     name: 'Constantin Dascălu',
-    party: 'PNL',
-    position: 'Fost deputat (2008–2016); fost secretar de stat în Ministerul Transporturilor',
-    position_type: 'deputy',
+    party: 'PDL',
+    position: 'Fost secretar de stat în Ministerul Transporturilor (2005–2007 și 2009–2010)',
+    position_type: 'secretary_of_state',
     geography: {
-      county: 'Dolj',
-      basis: 'mandate',
-      note: 'A reprezentat județul Dolj în Camera Deputaților; anterior a fost secretar de stat în Ministerul Transporturilor.',
+      county: 'București',
+      basis: 'office',
+      note: 'Funcția politică relevantă era în Ministerul Transporturilor, instituție centrală cu sediul în București; persoana vizată este Constantin „Toni” Dascălu, membru PDL Cluj, nu fostul deputat omonim din Dolj.',
     },
     crime: 'Acuzație de luare de mită — proces încetat definitiv prin prescripție',
     sentence: 'Proces penal încetat definitiv prin prescripție la 5 mai 2023; confiscarea specială a 1.114.000 euro a fost dispusă',
@@ -21139,24 +21139,29 @@ const AUTOMATED_JUL_28_2026_MORE_PEOPLE_RECORDS = [
     conviction_year: null,
     status: 'prescribed',
     details:
-      'DNA l-a trimis în judecată în 2019 pentru luare de mită, susținând că ar fi primit 1.114.000 euro în legătură cu plățile pentru reabilitarea unei linii ferate. Decizia definitivă din 5 mai 2023 a încetat procesul penal ca urmare a prescripției și a dispus confiscarea specială a aceleiași sume; profilul nu indică o condamnare.',
-    verified_at: '2026-08-03',
+      'Profilul se referă la Constantin „Toni” Dascălu, fost secretar de stat în Ministerul Transporturilor și membru PDL Cluj, nu la Constantin Dascălu, fost deputat de Dolj. DNA l-a trimis pe fostul secretar de stat în judecată în 2019 pentru luare de mită, susținând că ar fi primit 1.114.000 euro în legătură cu plățile pentru reabilitarea unei linii ferate. Decizia definitivă din 5 mai 2023 a încetat procesul penal ca urmare a prescripției și a dispus confiscarea specială a aceleiași sume; nu există o condamnare penală definitivă.',
+    verified_at: '2026-08-21',
     sources: [
       DNA_CFR_FINAL_SOURCE,
       {
-        label: 'DNA',
+        label: 'DNA — trimitere în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9655',
       },
       {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=6C5B69A4-97C9-416F-A732-596D0701FD27',
-      },
-      {
-        label: 'Portal Legislativ',
+        label: 'Portal Legislativ — funcția de secretar de stat',
         kind: 'official',
         url: 'https://legislatie.just.ro/Public/DetaliiDocument/75786',
+      },
+      {
+        label: 'Jurnalul Național — biografia fostului secretar de stat',
+        kind: 'press',
+        url: 'https://jurnalul.ro/bani-afaceri/economia/consilierii-lui-ariton-experti-in-energie-576895.html',
+      },
+      {
+        label: 'Senatul României — fișa deputatului omonim',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=6C5B69A4-97C9-416F-A732-596D0701FD27',
       },
     ],
   },

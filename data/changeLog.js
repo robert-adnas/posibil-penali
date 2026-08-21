@@ -1,5 +1,15 @@
 export const manualChangeEntries = [
   {
+    date: '2026-08-21',
+    politician: 'Constantin Dascălu',
+    kind: 'details_update',
+    title: 'Profilul a fost separat de fostul deputat omonim din Dolj',
+    summary:
+      'Datele despre mandatele parlamentare, afilierea PNL și județul Dolj au fost eliminate. Fișa se referă la Constantin „Toni” Dascălu, fost secretar de stat în Ministerul Transporturilor și membru PDL Cluj; dosarul încheiat definitiv prin prescripție nu îi este atribuit fostului deputat omonim din Dolj.',
+    source_url:
+      'https://jurnalul.ro/bani-afaceri/economia/consilierii-lui-ariton-experti-in-energie-576895.html',
+  },
+  {
     date: '2026-04-10',
     politician: 'Mihai Barbu',
     kind: 'details_update',

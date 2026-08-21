@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20",
+  "updated_at": "2026-08-21",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -10966,19 +10966,20 @@
       "original_name": "Constantin Dascălu",
       "current_name": "Constantin Dascălu",
       "decision": "corrected",
-      "identity": "confirmed",
+      "identity": "collision_resolved",
       "legal_status": "confirmed",
       "scope": "political",
-      "reviewed_at": "2026-08-03",
-      "reviewer": "Codex",
+      "reviewed_at": "2026-08-21",
+      "reviewer": "Codex + sesizare editorială",
       "evidence": [
         "https://www.dna.ro/comunicat.xhtml?id=12117",
         "https://www.dna.ro/comunicat.xhtml?id=9655",
-        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=6C5B69A4-97C9-416F-A732-596D0701FD27",
-        "https://legislatie.just.ro/Public/DetaliiDocument/75786"
+        "https://legislatie.just.ro/Public/DetaliiDocument/75786",
+        "https://jurnalul.ro/bani-afaceri/economia/consilierii-lui-ariton-experti-in-energie-576895.html",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=6C5B69A4-97C9-416F-A732-596D0701FD27"
       ],
-      "note": "Profil pastrat si corectat substantial. Sursele parlamentare confirma doua mandate de deputat, 2008-2012 si 2012-2016, si afilierea finala PNL; actele oficiale confirma functia anterioara de secretar de stat. Statutul ramane prescris: procesul a incetat definitiv in 2023, cu confiscarea speciala a 1.114.000 euro, fara condamnare operativa.",
-      "reviewed_snapshot_hash": "9893cff3504e947fe6b2e641b86a5c425494841b697883ee65f8e1330689c025"
+      "note": "Coliziune de identitate rezolvată în urma unei sesizări. Profilul penal se referă la Constantin «Toni» Dascălu, fost secretar de stat în Ministerul Transporturilor și membru PDL Cluj, nu la fostul deputat omonim din Dolj. Au fost eliminate mandatele parlamentare, afilierea PNL și geografia Dolj. Statutul juridic rămâne prescris: procesul fostului secretar de stat a încetat definitiv în 2023, cu confiscarea specială a 1.114.000 euro și fără condamnare penală definitivă.",
+      "reviewed_snapshot_hash": "455467f575e7ec3b7ac62e39a3f75ea6f11cb93a9333bb5b1b7044861e852fe2"
     },
     {
       "profile_id": "RV-0159",
