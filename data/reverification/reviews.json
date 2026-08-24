@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-24",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -36131,6 +36131,25 @@
       ],
       "note": "Participant privat într-un dosar economic Electrica, condamnat pentru asociere; sursa nu indică o funcție publică sau politică.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2540",
+      "original_name": "Preda Ion",
+      "current_name": "Preda Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-24",
+      "reviewer": "Codex + verificare editorială",
+      "evidence": [
+        "https://www.jurisprudenta.com/dosare-procese/2020/2451q283q2020-283/",
+        "https://integritate.eu/incidente-de-integritate-7-alesi-locali-2/",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-dambovita.html",
+        "https://legislatie.just.ro/public/DetaliiDocument/169387"
+      ],
+      "note": "Profilul a fost corectat de la statusul ANI investigat la condamnarea penală din dosarul 2451/283/2020. Hotărârea nr. 39/2021 și pedeapsa sunt reproduse în arhiva ECRIS; fluxul nu indică apel, iar caracterul definitiv rezultă din neapelare conform art. 551 CPP. Data exactă a definitivării nu este publicată.",
+      "reviewed_snapshot_hash": "9f0bbb083de9f8ed0a312004de57181613f838af957ae17e963fcf2abba1a6d0"
     }
   ]
 }

@@ -746,9 +746,15 @@ const AVRAM_IANCU_HELER_PARTY_SOURCE = {
 };
 
 const BRANESTI_PREDA_PARTY_SOURCE = {
-  label: 'Ziare.com',
+  label: 'Știrile ProTV — candidații la alegerile locale din 2016',
   kind: 'press',
-  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/primarie/branesti/',
+  url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-dambovita.html',
+};
+
+const PUCIOASA_PREDA_ION_CASE_SOURCE = {
+  label: 'Arhivă ECRIS — dosarul 2451/283/2020',
+  kind: 'reference',
+  url: 'https://www.jurisprudenta.com/dosare-procese/2020/2451q283q2020-283/',
 };
 
 const POGANA_VEZETEU_PARTY_SOURCE = {
@@ -2208,17 +2214,26 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
     party: 'PSD',
     position: 'Fost primar al comunei Brănești, județul Dâmbovița; ulterior consilier local',
     position_type: 'mayor',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    role_at_time: 'Primar al comunei Brănești și candidat PSD la alegerile locale din 2016',
+    crime: 'Fals în înscrisuri sub semnătură privată, în formă continuată',
+    sentence: 'Amendă penală de 3.375 lei (135 zile-amendă × 25 lei)',
+    sentence_years: 0,
+    conviction_year: 2021,
+    status: 'convicted',
+    execution_type: 'Amendă penală',
     details:
-      'ANI a constatat în august 2022 că, în perioada exercitării mandatului de primar, ar fi semnat o dispoziție prin care soția sa a fost scutită de restituirea unor venituri salariale încasate necuvenit.',
-    verified_at: '2026-06-01',
+      'Judecătoria Pucioasa l-a condamnat prin Hotărârea nr. 39 din 22 martie 2021 la o amendă penală de 3.375 lei pentru falsificarea, în formă continuată, a listelor de susținători folosite la candidatura sa pentru Primăria Brănești din 2016. Arhiva ECRIS nu indică declararea vreunui apel, iar fluxul public al dosarului conține numai fondul și camera preliminară; soluția a rămas astfel definitivă prin neapelare, fără ca data exactă a definitivării să fie publicată. Separat, ANI a constatat în august 2022 un conflict de interese administrativ privind o dispoziție referitoare la venituri salariale încasate de soția sa.',
+    verified_at: '2026-08-24',
     geography: {
       county: 'Dâmbovița',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Brănești, județul Dâmbovița.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, BRANESTI_PREDA_PARTY_SOURCE],
+    sources: [
+      PUCIOASA_PREDA_ION_CASE_SOURCE,
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      BRANESTI_PREDA_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Vezeteu Ioan',

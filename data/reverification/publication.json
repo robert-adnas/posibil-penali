@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20",
+  "updated_at": "2026-08-24",
   "holds": {
     "Sorin Ștefan Zamfirescu": {
       "held_at": "2026-08-03",
@@ -1471,13 +1471,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2539"
-    },
-    "Preda Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2540"
     },
     "Vezeteu Ioan": {
       "held_at": "2026-08-03",
