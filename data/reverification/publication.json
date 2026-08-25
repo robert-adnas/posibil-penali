@@ -2,20 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "Diaconu Eusebiu-Iancu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0285"
-    },
-    "Beștea Mihăiță Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0294"
-    },
     "Romeo Stavarache": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4160,13 +4146,6 @@
       ],
       "profile_id": "RV-2365"
     },
-    "Stănculescu Florentina": {
-      "held_at": "2026-08-25",
-      "reasons": [
-        "awaiting_current_court_decision"
-      ],
-      "profile_id": "RV-2400"
-    },
     "Carp Gheorghe": {
       "held_at": "2026-08-25",
       "reasons": [
@@ -4292,6 +4271,27 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-0268"
+    },
+    "Diaconu Eusebiu-Iancu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0285"
+    },
+    "Beștea Mihăiță Constantin": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0294"
+    },
+    "Stănculescu Florentina": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2400"
     }
   }
 }

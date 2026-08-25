@@ -5810,7 +5810,7 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     name: 'Stănculescu Florentina',
     party: 'PSD',
     position: 'Fost prefect al județului Giurgiu',
-    positionType: 'prefect',
+    positionType: 'other',
     crime: 'Incompatibilitate',
     status: 'integrity',
     details:
@@ -17547,7 +17547,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu executare',
     details:
       'Curtea de Apel București l-a condamnat definitiv în octombrie 2014 în dosarul Rompetrol. Profilul oficial al Senatului îl indică senator PNL de Dâmbovița în legislatura 2012-2016.',
-    verified_at: '2026-07-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Senatul României',
@@ -17558,6 +17558,11 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
         label: 'Mediafax',
         kind: 'press',
         url: 'https://www.mediafax.ro/politic/condamnari-in-dosarul-rompetrol-sorin-rosca-stanescu-2-ani-si-4-luni-de-inchisoare-cu-executare-sorin-pantis-2-ani-si-8-luni-13369575',
+      },
+      {
+        label: 'Portal Legislativ — Decizia CCR nr. 731/2016',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/186449',
       },
     ],
   },
@@ -17601,7 +17606,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Anghel Stanciu',
     party: 'PSD',
-    position: 'Fost deputat de Iași',
+    position: 'Fost deputat de Iași (decedat în 2023)',
     position_type: 'deputy',
     geography: {
       county: 'Iași',
@@ -17615,8 +17620,8 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ÎCCJ l-a condamnat definitiv în noiembrie 2015 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea unor rude la biroul parlamentar. Profilul Camerei îl indică deputat PSD de Iași.',
-    verified_at: '2026-07-16',
+      'ÎCCJ l-a condamnat definitiv la 24 noiembrie 2015 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiului și a nurorii la biroul parlamentar. Fostul deputat a decedat în iunie 2023.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Camera Deputaților',
@@ -17627,6 +17632,16 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
         label: 'Ziare.com',
         kind: 'press',
         url: 'https://ziare.com/stiri/justitie/deputatul-psd-anghel-stanciu-condamnat-definitiv-la-6-luni-inchisoare-cu-suspendare-1395450',
+      },
+      {
+        label: 'Digi24 — condamnarea definitivă',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/deputatul-psd-anghel-stanciu-condamnat-definitiv-la-sase-luni-inchisoare-cu-suspendare-460834',
+      },
+      {
+        label: 'Justnews — decesul și istoricul cauzei',
+        kind: 'press',
+        url: 'https://justnews.ro/ce-s-a-intamplat-in-procesul-de-incompatibilitate-al-unui-cunoscut-parlamentar-de-iasi-decedat-in-urma-cu-aproape-2-ani/',
       },
     ],
   },
@@ -17786,7 +17801,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Marian Neacșu',
     party: 'PSD',
-    position: 'Fost deputat de Ialomița',
+    position: 'Fost deputat de Ialomița; fost viceprim-ministru',
     position_type: 'deputy',
     geography: {
       county: 'Ialomița',
@@ -17800,8 +17815,8 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ÎCCJ l-a condamnat definitiv în februarie 2016 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiicei la biroul parlamentar. Profilul Camerei Deputaților îl indică deputat PSD de Ialomița.',
-    verified_at: '2026-07-16',
+      'ÎCCJ l-a condamnat definitiv la 22 februarie 2016 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiicei la biroul parlamentar. Ulterior a fost viceprim-ministru, inclusiv în Guvernul învestit la 23 iunie 2025.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Camera Deputaților',
@@ -17812,6 +17827,16 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
         label: 'Adevărul',
         kind: 'press',
         url: 'https://adevarul.ro/stiri-interne/evenimente/liderul-deputatilor-psd-marian-neacsu-a-fost-1689889.html',
+      },
+      {
+        label: 'Monitorul Oficial — Guvernul învestit la 23 iunie 2025',
+        kind: 'official',
+        url: 'https://sv.prefectura.mai.gov.ro/wp-content/uploads/sites/26/2025/06/Monitorul-Oficial-Partea-I-nr.-580-1.pdf',
+      },
+      {
+        label: 'DeFapt — hotărârea definitivă ÎCCJ',
+        kind: 'press',
+        url: 'https://defapt.ro/politica/de-ce-condamne-penal-marian-neacsu-vicepremier',
       },
     ],
   },
@@ -17825,15 +17850,15 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       basis: 'constituency',
       note: 'Deputat ales în circumscripția Galați; se folosește circumscripția parlamentară.',
     },
-    crime: 'Conflict de interese',
-    sentence: '6 luni închisoare cu suspendare',
-    sentence_years: 0.5,
-    conviction_year: 2016,
+    crime: 'Trafic de influență; conflict de interese',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2021,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ÎCCJ l-a condamnat definitiv în iulie 2016 la 6 luni de închisoare cu suspendare pentru conflict de interese, după angajarea fiului la cabinetul parlamentar. Profilul Camerei Deputaților îl indică deputat PSD de Galați.',
-    verified_at: '2026-07-16',
+      'Curtea de Apel Pitești a validat definitiv, la 22 aprilie 2021, acordul de recunoaștere a vinovăției și l-a condamnat la 2 ani de închisoare cu suspendare pentru trafic de influență, într-o cauză privind promisiunea facilitării unor alocări PNDL. Anterior, ÎCCJ îl condamnase definitiv în iulie 2016 la 6 luni cu suspendare pentru conflict de interese, după angajarea fiului la cabinetul parlamentar.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Camera Deputaților',
@@ -17844,6 +17869,11 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
         label: 'Adevărul',
         kind: 'press',
         url: 'https://adevarul.ro/stiri-locale/galati/deputatul-florin-paslaru-a-fost-condamnat-1722908.html',
+      },
+      {
+        label: 'Viața Liberă — condamnarea definitivă din 2021',
+        kind: 'press',
+        url: 'https://www.viata-libera.ro/justitie/163947-florin-paslaru%2C-condamnat-pentru-promisiuni-mincinoase',
       },
     ],
   },
@@ -17897,7 +17927,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'ÎCCJ a condamnat-o definitiv în octombrie 2016 la 1 an de închisoare cu suspendare pentru conflict de interese, după angajarea mamei la biroul parlamentar.',
-    verified_at: '2026-07-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Camera Deputaților',
@@ -18087,7 +18117,7 @@ const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Diaconu Eusebiu-Iancu',
     party: 'Pro Romania',
-    position: 'Consilier local în cadrul Consiliului Local al Municipiului Bacău',
+    position: 'Fost consilier local al municipiului Bacău (2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Bacău',
@@ -18099,9 +18129,22 @@ const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
     sentence_years: null,
     status: 'indicted',
     details:
-      'DNA Bacău a comunicat în decembrie 2024 trimiterea sa în judecată în dosarul achizițiilor supraevaluate derulate prin Căminul pentru Persoane Vârstnice Bacău și Școala Gimnazială „Constantin Platon”. BEC 2020 îl listează drept candidat Pro Romania la Consiliul Local Bacău.',
-    verified_at: '2026-07-17',
-    sources: [DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE, BEC_2020_BACAU_CANDIDATES_SOURCE],
+      'DNA Bacău a comunicat la 18 decembrie 2024 trimiterea sa în judecată în dosarul achizițiilor supraevaluate derulate prin Căminul pentru Persoane Vârstnice Bacău și Școala Gimnazială „Constantin Platon”. Dosarul nr. 3526/110/2024/a1 se afla încă în procedura de cameră preliminară la Curtea de Apel Bacău, care a sesizat ÎCCJ în 2026 cu o chestiune de drept. Mandatul său de consilier local, validat în 2020, s-a încheiat în 2024.',
+    verified_at: '2026-08-25',
+    sources: [
+      DNA_DEC_2024_BACAU_PROCUREMENT_SOURCE,
+      BEC_2020_BACAU_CANDIDATES_SOURCE,
+      {
+        label: 'Municipiul Bacău — validare mandat 2020',
+        kind: 'official',
+        url: 'https://municipiulbacau.ro/wp-content/uploads/2020/10/ncheierea-din-data-de-14.10.2020-pronuntata-de-catre-judecatoria-baca.pdf',
+      },
+      {
+        label: 'Curtea de Apel Bacău — dosar 3526/110/2024/a1',
+        kind: 'official',
+        url: 'https://portal.just.ro/32/Documents/%28Liste%20de%20sedinta%29/2025-09/09.09.2025%20CD1.pdf',
+      },
+    ],
   },
   {
     name: 'Dima Gabriel',
@@ -18125,7 +18168,7 @@ const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
   {
     name: 'Beștea Mihăiță Constantin',
     party: 'PSD',
-    position: 'Vicepreședinte al Consiliului Județean Călărași',
+    position: 'Primar al municipiului Oltenița; fost vicepreședinte al Consiliului Județean Călărași',
     position_type: 'local_official',
     geography: {
       county: 'Călărași',
@@ -18137,9 +18180,27 @@ const AUTOMATED_JUL_17_2026_MORE_PEOPLE_RECORDS = [
     sentence_years: null,
     status: 'indicted',
     details:
-      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată în dosarul contractelor de pază ale Consiliului Județean Călărași. BEC 2020 îl listează drept candidat PSD pentru Consiliul Județean Călărași.',
-    verified_at: '2026-07-17',
-    sources: [DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE, BEC_2020_CALARASI_CANDIDATES_SOURCE],
+      'DNA Constanța a comunicat în iunie 2024 trimiterea sa în judecată în dosarul contractelor de pază ale Consiliului Județean Călărași. În dosarul nr. 971/116/2024, camera preliminară s-a încheiat definitiv la 13 ianuarie 2026, iar judecata pe fond continuă la Tribunalul Ialomița, cu termen anunțat pentru septembrie 2026. Din octombrie 2024 este primarul municipiului Oltenița.',
+    verified_at: '2026-08-25',
+    sources: [
+      DNA_JUN_2024_CALARASI_CJ_SECURITY_SOURCE,
+      BEC_2020_CALARASI_CANDIDATES_SOURCE,
+      {
+        label: 'Primăria Oltenița — validarea mandatului de primar',
+        kind: 'official',
+        url: 'https://primariaoltenita.ro/incheierea-de-sedinta-pronuntata-la-data-de-15-10-2024-in-dosar-nr-8518-269-2024-prin-care-s-a-validat-mandatul-domnului-bestea-mihaita-constantin-candidat-din-partea-partidului-social-democrat-i/',
+      },
+      {
+        label: 'Portalul instanțelor — dosarul 971/116/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx?op=CautareDosare',
+      },
+      {
+        label: 'Ziarul Amprenta — termen septembrie 2026',
+        kind: 'press',
+        url: 'https://ziarulamprenta.ro/justitie/tribunalul-ialomita-termen-nou-in-dosarul-in-care-dna-constanta-l-a-trimis-in-judecata-pe-vasile-iliuta-presedintele-cj-calarasi-ce-acuzatii-fac-procurorii/566183/',
+      },
+    ],
   },
 ];
 

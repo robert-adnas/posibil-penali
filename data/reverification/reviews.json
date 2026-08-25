@@ -38792,7 +38792,7 @@
         "https://gr.prefectura.mai.gov.ro/sedinta-de-lucru-a-colegiului-prefectural-giurgiu-5/"
       ],
       "note": "Fost prefect; raport ANI contestat, recurs fără soluție definitivă identificată.",
-      "reviewed_snapshot_hash": "86585a9c0bfdb954cbc1e644be5dfc31518525f299c923a6679daa74aba98323"
+      "reviewed_snapshot_hash": "e892ec9172500bbc805a4faa632d886bafd0bb85bfc22ed723f9dcf8cbd25bf4"
     },
     {
       "profile_id": "RV-2414",
@@ -39127,6 +39127,130 @@
       ],
       "note": "Sesizare ANI către Parchet, fără dovada publică a începerii urmăririi penale; afilierea și rolurile au fost corectate.",
       "reviewed_snapshot_hash": "42d813b8762fd283b847f23a7f312dd9c5393746ea4f6bee358a2c7e1cfb258e"
+    },
+    {
+      "profile_id": "RV-0285",
+      "original_name": "Diaconu Eusebiu-Iancu",
+      "current_name": "Diaconu Eusebiu-Iancu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12764",
+        "https://municipiulbacau.ro/wp-content/uploads/2020/10/ncheierea-din-data-de-14.10.2020-pronuntata-de-catre-judecatoria-baca.pdf",
+        "https://portal.just.ro/32/Documents/%28Liste%20de%20sedinta%29/2025-09/09.09.2025%20CD1.pdf"
+      ],
+      "note": "Funcția a fost actualizată la fost consilier local 2020-2024; trimiterea în judecată este confirmată, iar dosarul 3526/110/2024/a1 rămâne în camera preliminară.",
+      "reviewed_snapshot_hash": "45a6a0bd9ef4f3a3ee503617a17c83e688c04ef23c2fa3e39e19513782538704"
+    },
+    {
+      "profile_id": "RV-0294",
+      "original_name": "Beștea Mihăiță Constantin",
+      "current_name": "Beștea Mihăiță Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12606",
+        "https://primariaoltenita.ro/incheierea-de-sedinta-pronuntata-la-data-de-15-10-2024-in-dosar-nr-8518-269-2024-prin-care-s-a-validat-mandatul-domnului-bestea-mihaita-constantin-candidat-din-partea-partidului-social-democrat-i/",
+        "http://portalquery.just.ro/Query.asmx?op=CautareDosare"
+      ],
+      "note": "Funcția a fost actualizată la primar al Olteniței; judecata în dosarul 971/116/2024 continuă după încheierea definitivă a camerei preliminare.",
+      "reviewed_snapshot_hash": "7a2f25faa08fa6af136f305d965b071f3b5a96328d4f518ab0abf491356b5385"
+    },
+    {
+      "profile_id": "RV-0309",
+      "original_name": "Sorin-Ștefan Roșca-Stănescu",
+      "current_name": "Sorin-Ștefan Roșca-Stănescu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=97a067a8-3fc7-447a-9559-5f944c7456cb",
+        "https://legislatie.just.ro/Public/DetaliiDocument/186449"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "e6d5a4c11730ba9ba971df2a9ee709fd70d645a3e04b8a35d633e1b922efb4ce"
+    },
+    {
+      "profile_id": "RV-0312",
+      "original_name": "Anghel Stanciu",
+      "current_name": "Anghel Stanciu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=340&leg=2012",
+        "https://www.digi24.ro/stiri/actualitate/justitie/deputatul-psd-anghel-stanciu-condamnat-definitiv-la-sase-luni-inchisoare-cu-suspendare-460834",
+        "https://justnews.ro/ce-s-a-intamplat-in-procesul-de-incompatibilitate-al-unui-cunoscut-parlamentar-de-iasi-decedat-in-urma-cu-aproape-2-ani/"
+      ],
+      "note": "Condamnarea definitivă a fost reconfirmată, iar profilul menționează decesul din iunie 2023.",
+      "reviewed_snapshot_hash": "0b37664772e0843e25b51ba59e6b5b8c86cc831e4122fd3ea578dba514337cfd"
+    },
+    {
+      "profile_id": "RV-0318",
+      "original_name": "Marian Neacșu",
+      "current_name": "Marian Neacșu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=244&leg=2012",
+        "https://sv.prefectura.mai.gov.ro/wp-content/uploads/sites/26/2025/06/Monitorul-Oficial-Partea-I-nr.-580-1.pdf",
+        "https://defapt.ro/politica/de-ce-condamne-penal-marian-neacsu-vicepremier"
+      ],
+      "note": "Condamnarea definitivă a fost reconfirmată, iar funcția a fost completată cu mandatul ulterior de viceprim-ministru.",
+      "reviewed_snapshot_hash": "03359fcd3460a1d5608d9acdcbd4b4d85d91aa6ebf297f4dc86876233ad03a70"
+    },
+    {
+      "profile_id": "RV-0319",
+      "original_name": "Florin-Costin Pâslaru",
+      "current_name": "Florin-Costin Pâslaru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://cdep.ro/pls/parlam/structura.mp?cam=2&idl=1&idm=283&leg=2012&pag=1&par=12707&prn=1",
+        "https://www.viata-libera.ro/justitie/163947-florin-paslaru%2C-condamnat-pentru-promisiuni-mincinoase",
+        "https://adevarul.ro/stiri-locale/galati/deputatul-florin-paslaru-a-fost-condamnat-1722908.html"
+      ],
+      "note": "Profilul a fost actualizat cu cea mai nouă condamnare definitivă: 2 ani cu suspendare pentru trafic de influență în 2021; condamnarea din 2016 rămâne în istoric.",
+      "reviewed_snapshot_hash": "e6467a3942ca12515ada6cb0bfd3c8202a8bb6ae5ba88d3f9d94c93174629bed"
+    },
+    {
+      "profile_id": "RV-0321",
+      "original_name": "Oana Niculescu Mizil",
+      "current_name": "Oana Niculescu Mizil",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=202&leg=2008&pag=1",
+        "https://www.news.ro/justitie/fostul-deputat-oana-niculescu-mizil-condamnata-definitiv-la-un-an-de-inchisoare-cu-suspendare-pentru-conflict-de-interese-1922403624422016101115606528"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "91f5d9b46c46c5fb3b3266395e7a52e2e228dd8847103ba029eb64848830a6d8"
     }
   ]
 }
