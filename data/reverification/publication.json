@@ -2,20 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "Sorin Ștefan Zamfirescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0267"
-    },
-    "Dan-Radu Zătreanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0268"
-    },
     "Diaconu Eusebiu-Iancu": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -820,34 +806,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-1122"
-    },
-    "Stănculescu Florentina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2400"
-    },
-    "Carp Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2414"
-    },
-    "Armand Clotilde Marie Brigitte": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2415"
-    },
-    "Nica Alin Adrian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2417"
     },
     "Buzdugan Dumitru Florin": {
       "held_at": "2026-08-03",
@@ -2676,104 +2634,6 @@
       ],
       "profile_id": "RV-0056"
     },
-    "Gheorghe Gabor": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0241"
-    },
-    "Gheorghe Firczak": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0242"
-    },
-    "Mircia Giurgiu": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0243"
-    },
-    "Miron Ignat": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0244"
-    },
-    "Pavel Horj": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0245"
-    },
-    "Doru Brașoan Leșe": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0246"
-    },
-    "Mădălin-Ștefan Voicu": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0249"
-    },
-    "Nicolae Păun": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0250"
-    },
-    "Mihăiță Calimente": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0253"
-    },
-    "Radu Eugeniu Coclici": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0257"
-    },
-    "Cătălin Croitoru": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "awaiting_current_court_decision"
-      ],
-      "profile_id": "RV-0258"
-    },
-    "Kelemen Atilla-Béla-László": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0261"
-    },
-    "Iuliu Nosa": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "awaiting_current_court_decision"
-      ],
-      "profile_id": "RV-0263"
-    },
-    "Daniel Vasile Oajdea": {
-      "held_at": "2026-08-10",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0265"
-    },
     "Andronache Nicolae Tudor": {
       "held_at": "2026-08-10",
       "reasons": [
@@ -4299,6 +4159,139 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-2365"
+    },
+    "Stănculescu Florentina": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2400"
+    },
+    "Carp Gheorghe": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2414"
+    },
+    "Armand Clotilde Marie Brigitte": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2415"
+    },
+    "Gheorghe Gabor": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0241"
+    },
+    "Gheorghe Firczak": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0242"
+    },
+    "Mircia Giurgiu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0243"
+    },
+    "Miron Ignat": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0244"
+    },
+    "Pavel Horj": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0245"
+    },
+    "Doru Brașoan Leșe": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0246"
+    },
+    "Mădălin-Ștefan Voicu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0249"
+    },
+    "Nicolae Păun": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0250"
+    },
+    "Mihăiță Calimente": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0253"
+    },
+    "Radu Eugeniu Coclici": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0257"
+    },
+    "Cătălin Croitoru": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0258"
+    },
+    "Kelemen Atilla-Béla-László": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0261"
+    },
+    "Iuliu Nosa": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0263"
+    },
+    "Daniel Vasile Oajdea": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0265"
+    },
+    "Sorin Ștefan Zamfirescu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0267"
+    },
+    "Dan-Radu Zătreanu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0268"
     }
   }
 }

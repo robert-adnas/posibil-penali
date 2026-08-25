@@ -5809,11 +5809,28 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   {
     name: 'Stănculescu Florentina',
     party: 'PSD',
-    position: 'Prefect în cadrul Instituției Prefectului Județul Giurgiu',
+    position: 'Fost prefect al județului Giurgiu',
+    positionType: 'prefect',
     crime: 'Incompatibilitate',
+    status: 'integrity',
+    details:
+      'ANI a constatat la 10 iulie 2024 că Florentina Stănculescu s-ar fi aflat în incompatibilitate începând cu 10 noiembrie 2022, exercitând simultan funcția de vicepreședinte al unui partid politic și o funcție publică în cadrul Consiliului Județean Giurgiu. Curtea de Apel București i-a respins contestația la 29 ianuarie 2025 în dosarul nr. 4779/2/2024, iar portalul instanțelor consemnează recursurile declarate în noiembrie-decembrie 2025, fără o soluție definitivă identificată până la verificare. Nu mai este prefect din februarie 2025; profilul rămâne ascuns până la soluționarea definitivă.',
+    verifiedAt: '2026-08-25',
     county: 'Giurgiu',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani5PublicOfficials2025,
-    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.stanculescuPsdParty],
+    extraSources: [
+      AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.stanculescuPsdParty,
+      {
+        label: 'Portalul instanțelor — dosarul nr. 4779/2/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx?op=CautareDosare',
+      },
+      {
+        label: 'Instituția Prefectului Giurgiu — conducerea din 2025',
+        kind: 'official',
+        url: 'https://gr.prefectura.mai.gov.ro/sedinta-de-lucru-a-colegiului-prefectural-giurgiu-5/',
+      },
+    ],
   },
   {
     name: 'Ionuț Cealera',
@@ -6009,11 +6026,11 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
     party: 'PNL',
     position: 'Fost senator \u0219i manager al Spitalului Clinic Jude\u021bean de Urgen\u021b\u0103 Oradea',
     position_type: 'senator',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    crime: 'Incompatibilitate; sesizare Parchet pentru posibil fals în declarații',
+    status: 'integrity',
     details:
-      'ANI a constatat in iunie 2023 conflict de interese administrativ legat de exercitarea functiei de manager al spitalului.',
-    verified_at: '2026-06-13',
+      'ANI a constatat incompatibilitatea dintre funcția de manager al Spitalului Clinic Județean de Urgență Oradea și calitatea de administrator al unei societăți (16 august 2018–21 decembrie 2020), apoi dintre mandatul de senator și aceeași calitate (21 decembrie 2020–21 octombrie 2021). Agenția a sesizat și Parchetul pentru posibil fals în declarații. După rejudecare, Curtea de Apel Oradea a anulat raportul ANI nr. 23198/II/19.05.2022 prin hotărârea din 22 noiembrie 2024, atacabilă cu recurs; portalul instanțelor nu dovedește însă caracterul definitiv al soluției. Este o evaluare administrativă, nu o acuzație penală dovedită, iar profilul rămâne ascuns până la confirmarea finalității.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Bihor',
       basis: 'office',
@@ -6022,18 +6039,23 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
     sources: [
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniJun2023TwelvePublicOfficials,
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.carpSenateReference,
+      {
+        label: 'Portalul instanțelor — dosarul nr. 258/35/2022*',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx?op=CautareDosare',
+      },
     ],
   },
   {
     name: 'Armand Clotilde Marie Brigitte',
     party: 'USR',
-    position: 'Primar al Sectorului 1 Bucure\u0219ti',
+    position: 'Fost primar al Sectorului 1 București; aleasă senator în 2024, a renunțat la mandat înainte de validare',
     position_type: 'mayor',
-    crime: 'Conflict de interese administrativ; sesizare Parchet',
-    status: 'investigated',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane în formă continuată; incompatibilitate definitivă',
+    status: 'indicted',
     details:
-      'ANI a anuntat in noiembrie 2022 ca a sesizat Parchetul si a constatat conflict de interese administrativ privind acte emise in exercitarea mandatului de primar.',
-    verified_at: '2026-06-13',
+      'ÎCCJ a confirmat definitiv la 11 decembrie 2024 raportul ANI privind incompatibilitatea și conflictul de interese administrativ reținute în mandatul de primar. Separat, rechizitoriul nr. 11057/160/P/2022 din 24 aprilie 2024 a trimis-o în judecată pentru folosirea funcției pentru favorizarea unor persoane, în formă continuată (patru acte materiale); începerea judecății a rămas definitivă la 12 decembrie 2024. Dosarul penal nr. 12508/299/2024 era în curs, Judecătoria Sectorului 1 amânând pronunțarea pentru 31 august 2026. Beneficiază de prezumția de nevinovăție, iar profilul rămâne ascuns până la hotărârea instanței.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Bucure\u0219ti',
       basis: 'office',
@@ -6042,6 +6064,21 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
     sources: [
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniDec2022EightPublicOfficials,
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.clotildeArmandReference,
+      {
+        label: 'Portalul instanțelor — dosarele nr. 8199/2/2022 și 12508/299/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx?op=CautareDosare',
+      },
+      {
+        label: 'TVR Info — hotărârea definitivă ÎCCJ din 11 decembrie 2024',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/clotilde-armand-pierde-definitiv-procesul-cu-ani-iccj-confirma-ca-a-fost-incompatibila-cu-functia-de-primar-mandatul-ei-actual-de-senator-in-pericol/',
+      },
+      {
+        label: 'Digi24 — renunțarea la mandatul de senator',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/clotilde-armand-a-renuntat-pana-la-urma-la-mandatul-de-senator-cum-a-incercat-pana-azi-sa-si-l-pastreze-in-ciuda-deciziei-ani-3054829',
+      },
     ],
   },
   {
@@ -6066,14 +6103,14 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
   },
   {
     name: 'Nica Alin Adrian',
-    party: 'PNL',
-    position: 'Pre\u0219edinte al Consiliului Jude\u021bean Timi\u0219 \u0219i fost primar al comunei Dude\u0219tii Noi',
+    party: 'Forța Dreptei',
+    position: 'Fost președinte al Consiliului Județean Timiș și fost primar al comunei Dudeștii Noi',
     position_type: 'county_council_president',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    crime: 'Folosirea funcției pentru favorizarea unor persoane și fals în declarații (sesizare ANI clasată)',
+    status: 'closed',
     details:
-      'ANI a constatat in martie 2023 conflict de interese administrativ in legatura cu acte emise in exercitarea functiilor publice locale.',
-    verified_at: '2026-06-13',
+      'ANI a sesizat Parchetul în ianuarie 2023 cu indicii privind folosirea funcției pentru favorizarea unor persoane și fals în declarații, legate de acte emise în perioada în care Alin Nica era primar al comunei Dudeștii Noi. Parchetul de pe lângă Curtea de Apel Timișoara a clasat dosarul în octombrie 2023. Nica a părăsit PNL și a candidat în 2024 din partea Forța Dreptei pentru un nou mandat la conducerea CJ Timiș, pe care nu l-a câștigat. Clasarea nu reprezintă o condamnare sau constatarea vinovăției.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Timi\u0219',
       basis: 'office',
@@ -6082,6 +6119,21 @@ const AUTOMATED_JUN_13_2026_MORE_PEOPLE_RECORDS = [
     sources: [
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.aniMar2023TwoPublicOfficials,
       AUTOMATED_JUN_13_2026_MORE_PEOPLE_SOURCES.nicaElectionReference,
+      {
+        label: 'Adevărul — clasarea dosarului de către Parchetul CA Timișoara',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/timisoara/alin-nica-a-scapat-de-conflictul-de-interese-2310439.html',
+      },
+      {
+        label: 'Radio România Timișoara — candidatura din partea Forța Dreptei',
+        kind: 'press',
+        url: 'https://www.radiotimisoara.ro/administratie-politica/administratie-public/alin-nica-va-candida-la-presedintia-cj-timis-din-partea-partidului-forta-dreptei-331036.html',
+      },
+      {
+        label: 'Consiliul Județean Timiș — conducerea actuală',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/team/alfred-robert-simonis/',
+      },
     ],
   },
   {
@@ -18337,10 +18389,10 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       note: 'A fost ales deputat PNL în circumscripția Arad și a trecut la ALDE în septembrie 2016.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul drept referent la biroul parlamentar, cu venituri salariale totale de 33.258 lei. În situația oficială publicată de ANI în decembrie 2017, contestația raportului figura încă pe rol; nu a fost identificată o soluție definitivă publică, astfel că profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18468,10 +18520,10 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       note: 'Profilul Camerei Deputaților îl indică deputat PSD în circumscripția Alba.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat mama drept consilier la biroul parlamentar, cu venituri salariale totale de 32.576 lei. ANI a precizat că nu a depus un punct de vedere în procedura de evaluare. Nu a fost identificată o soluție definitivă publică ori confirmarea că raportul a rămas definitiv prin necontestare, astfel că profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18504,7 +18556,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'ANI a comunicat în octombrie 2015 că și-a angajat fiul și nora la biroul parlamentar, cu venituri de 55.038 lei și 37.399 lei. La 31 martie 2017, ÎCCJ l-a condamnat în primă instanță la 3 luni de închisoare cu suspendare pentru una dintre faptele de conflict de interese; pentru a doua faptă a constatat intervenirea prescripției. Hotărârea putea fi atacată la completul de 5 judecători. În decembrie 2017, ANI indica separat că litigiul administrativ era încă pe rol. Nu a fost identificată cu certitudine soluția definitivă a apelului penal ori a contestației administrative, astfel că profilul rămâne nepublicat.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18631,7 +18683,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
     status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept referent la biroul parlamentar, cu venituri salariale totale de 27.248 lei. Era o constatare administrativă de integritate, nu o cercetare penală; ANI preciza că eventuala răspundere penală era prescrisă. Nu a fost identificată în evidențele publice consultate o contestație sau o hotărâre care să clarifice explicit rezultatul final al raportului, astfel că profilul rămâne nepublicat. Kelemen a încetat activitatea parlamentară în 2016 și a decedat la 8 ianuarie 2022.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18665,7 +18717,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
     status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul drept consilier la biroul parlamentar, cu venituri salariale totale de 35.971 lei și indemnizație pentru creșterea copilului. Era o constatare administrativă, nu o cercetare penală. Curtea de Apel Cluj a anulat în aprilie 2016 raportul de evaluare ANI nr. 37746/G/II/13.10.2015; ANI a declarat recurs, iar în decembrie 2017 cauza era încă pe rol. Nu a fost identificată cu certitudine soluția definitivă a recursului, astfel că profilul rămâne nepublicat.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18738,7 +18790,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
     status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 32.970 lei. Era o constatare administrativă, nu o cercetare penală; Oajdea a contestat raportul, iar ANI indica în decembrie 2017 că litigiul era încă pe rol. Nu a fost identificată cu certitudine soluția definitivă, astfel că profilul rămâne nepublicat. A fost exclus din PDL în 2011, a trecut la PP-DD și a candidat în 2016 din partea PRU.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18799,19 +18851,19 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
   },
   {
     name: 'Sorin Ștefan Zamfirescu',
-    party: 'PDL',
-    position: 'Fost deputat de Vâlcea',
+    party: 'PNL',
+    position: 'Fost deputat PDL de Vâlcea; fost primar al municipiului Râmnicu Vâlcea',
     position_type: 'deputy',
     geography: {
       county: 'Vâlcea',
       basis: 'constituency',
       note: 'Camera Deputaților îl listează deputat PDL în circumscripția Vâlcea.',
     },
-    crime: 'Conflict de interese administrativ și penal',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'integrity',
     details:
-      'ANI a comunicat în octombrie 2015 că fiul său a avut trei contracte cu biroul parlamentar, cu venituri totale de 28.893 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal.',
-    verified_at: '2026-07-19',
+      'ANI a comunicat în octombrie 2015 că fiul său a avut trei contracte cu biroul parlamentar, cu venituri totale de 28.893 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal. Sesizarea nu dovedește prin ea însăși începerea unei urmăriri penale, iar o soluție ulterioară a Parchetului sau o hotărâre definitivă asupra raportului ANI nu a fost identificată. Profilul rămâne ascuns. Zamfirescu, fost primar al municipiului Râmnicu Vâlcea, era menționat ca membru PNL în presa locală din 2024.',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
@@ -18819,29 +18871,39 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
         kind: 'official',
         url: 'https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=39&leg=2008&poz=1',
       },
+      {
+        label: 'Ziarul de Vâlcea — afilierea PNL în 2024',
+        kind: 'press',
+        url: 'https://ziaruldevalcea.ro/2024/05/fostul-primar-al-ramnicului-sorin-zamfirescu-lauda-performantele-presedintelui-cj-valcea-liberalii-aaaa-va-pot-suna-in-5-minute/',
+      },
     ],
   },
   {
     name: 'Dan-Radu Zătreanu',
-    party: 'PDL',
-    position: 'Fost deputat de București',
+    party: 'PMP',
+    position: 'Fost deputat PDL de București; fost consilier general al Capitalei',
     position_type: 'deputy',
     geography: {
       county: 'București',
       basis: 'constituency',
       note: 'Camera Deputaților îl listează deputat PDL în circumscripția București.',
     },
-    crime: 'Conflict de interese administrativ și penal',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'integrity',
     details:
-      'ANI a comunicat în octombrie 2015 că și-a angajat fiica drept consilier la biroul parlamentar, cu venituri de 3.249 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal.',
-    verified_at: '2026-07-19',
+      'ANI a comunicat în octombrie 2015 că și-a angajat fiica drept consilier la biroul parlamentar, cu venituri de 3.249 lei, și că a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de conflict de interese penal. Sesizarea nu dovedește prin ea însăși începerea urmăririi penale, iar o soluție ulterioară a Parchetului sau o hotărâre definitivă asupra raportului ANI nu a fost identificată. Profilul rămâne ascuns. Zătreanu a trecut ulterior de la PDL la PMP și fusese anterior consilier general al Capitalei.',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       {
         label: 'Camera Deputaților',
         kind: 'official',
         url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=41&leg=2008',
+      },
+      {
+        label: 'PressOne — afilierea PMP și activitatea ulterioară',
+        kind: 'press',
+        url: 'https://pressone.ro/blocuri-noi-langa-moara-lui-assan-un-anunt-imobiliar-promite-o-parte-din-terenul-pe-care-este-monumentul-istoric-pentru-22-de-milioane-de-euro',
       },
     ],
   },
@@ -19002,10 +19064,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Mandatul parlamentar relevant a fost în circumscripția Brașov.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fiul și soția drept consilieri la biroul parlamentar, cu venituri salariale totale de 19.265 lei și 21.911 lei. Nu a fost identificată o hotărâre definitivă publică privind raportul ANI. Gheorghe Gabor a decedat în august 2020; profilul rămâne ascuns pentru a nu prezenta constatarea inițială drept soluție definitivă.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       CDEP_2008_BRASOV_SOURCE,
@@ -19027,10 +19089,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Organizația politică reprezentată are sediul public în Deva, județul Hunedoara; mandatul a reprezentat minoritatea ruteană la nivel național.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în calitate de deputat, și-a angajat fiul drept consilier la biroul parlamentar prin contract individual de muncă, cu venituri salariale totale de 62.580 lei. Nu a fost identificată o hotărâre definitivă publică privind raportul ANI, astfel că profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       GHEORGHE_FIRCZAK_SENATE_SOURCE,
@@ -19048,10 +19110,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Mandatul parlamentar relevant a fost în circumscripția Cluj.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept șofer la biroul parlamentar, cu venituri salariale totale de 13.975 lei. Curtea de Apel Cluj a anulat în primă instanță Raportul ANI nr. 37626/G/II/13.10.2015; hotărârea avea drept de recurs, iar rezultatul definitiv nu a fost identificat public. Profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       CDEP_2008_CLUJ_SOURCE,
@@ -19078,10 +19140,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Sursele biografice publice indică nașterea în Ghindărești, județul Constanța; mandatul a reprezentat minoritatea rușilor lipoveni la nivel național.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că și-a angajat cumnata drept consilier la biroul parlamentar, cu venituri salariale totale de 35.899 lei. Nu a fost identificată o hotărâre definitivă publică privind raportul ANI. Miron Ignat a decedat la 16 august 2018; profilul rămâne ascuns pentru a nu prezenta constatarea inițială drept soluție definitivă.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       MIRON_IGNAT_SENATE_SOURCE,
@@ -19099,10 +19161,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Mandatul parlamentar relevant a fost în circumscripția Maramureș.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat soția drept consilier la biroul parlamentar, cu venituri salariale totale de 26.515 lei. Nu a fost identificată o hotărâre definitivă publică privind raportul ANI, astfel că profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       CDEP_2008_MARAMURES_SOURCE,
@@ -19119,10 +19181,10 @@ const AUTOMATED_JUL_20_2026_MORE_PEOPLE_RECORDS = [
       note: 'Mandatul parlamentar relevant a fost în circumscripția Maramureș.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a comunicat în octombrie 2015 că, în legislatura 2008-2012, și-a angajat fratele drept consilier la biroul parlamentar, cu venituri salariale totale de 92.443 lei. În noiembrie 2017, ANI a sesizat separat Comisia de cercetare a averilor pentru o diferență nejustificată de 470.476 lei; presa a relatat ulterior clasarea acelei sesizări ca tardivă. Nu a fost identificată o hotărâre definitivă publică privind raportul de conflict de interese din 2015, astfel că profilul rămâne ascuns.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-08-25',
     sources: [
       ...ANI_OCT_2015_PARLIAMENTARY_CONFLICT_SOURCES,
       CDEP_2008_MARAMURES_SOURCE,

@@ -38775,6 +38775,358 @@
       ],
       "note": "Tipul incidentului era greșit. ANI a constatat conflict de interese administrativ privind hotărârile și spațiul acordat asociației în care era membru fondator și secretar, nu incompatibilitate. Statusul a fost corectat la incident de integritate și profilul ascuns.",
       "reviewed_snapshot_hash": "c40b5c59decd80aed59abfa5d87f3973b2c6f450023f6c3325c68223baac77db"
+    },
+    {
+      "profile_id": "RV-2400",
+      "original_name": "Stănculescu Florentina",
+      "current_name": "Stănculescu Florentina",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010-2/",
+        "http://portalquery.just.ro/Query.asmx?op=CautareDosare",
+        "https://gr.prefectura.mai.gov.ro/sedinta-de-lucru-a-colegiului-prefectural-giurgiu-5/"
+      ],
+      "note": "Fost prefect; raport ANI contestat, recurs fără soluție definitivă identificată.",
+      "reviewed_snapshot_hash": "86585a9c0bfdb954cbc1e644be5dfc31518525f299c923a6679daa74aba98323"
+    },
+    {
+      "profile_id": "RV-2414",
+      "original_name": "Carp Gheorghe",
+      "current_name": "Carp Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-2/",
+        "http://portalquery.just.ro/Query.asmx?op=CautareDosare"
+      ],
+      "note": "Incompatibilitate și sesizare pentru posibil fals; raport anulat la rejudecare, finalitatea nu este dovedită.",
+      "reviewed_snapshot_hash": "dbc82cc8841148a59204245f1496ea56556f3610310076754be552d0ae3ffe4e"
+    },
+    {
+      "profile_id": "RV-2415",
+      "original_name": "Armand Clotilde Marie Brigitte",
+      "current_name": "Armand Clotilde Marie Brigitte",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "http://portalquery.just.ro/Query.asmx?op=CautareDosare",
+        "https://tvrinfo.ro/clotilde-armand-pierde-definitiv-procesul-cu-ani-iccj-confirma-ca-a-fost-incompatibila-cu-functia-de-primar-mandatul-ei-actual-de-senator-in-pericol/",
+        "https://www.digi24.ro/stiri/actualitate/politica/clotilde-armand-a-renuntat-pana-la-urma-la-mandatul-de-senator-cum-a-incercat-pana-azi-sa-si-l-pastreze-in-ciuda-deciziei-ani-3054829"
+      ],
+      "note": "Incompatibilitate definitivă; proces penal în curs, cu pronunțare după data verificării.",
+      "reviewed_snapshot_hash": "3b19d6bc15141618f84559e148c0d2330843cd67dce0da62d96c702e9a8392ce"
+    },
+    {
+      "profile_id": "RV-2417",
+      "original_name": "Nica Alin Adrian",
+      "current_name": "Nica Alin Adrian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-2/",
+        "https://adevarul.ro/stiri-locale/timisoara/alin-nica-a-scapat-de-conflictul-de-interese-2310439.html",
+        "https://www.cjtimis.ro/team/alfred-robert-simonis/"
+      ],
+      "note": "Sesizarea penală ANI a fost clasată; funcția și afilierea au fost actualizate.",
+      "reviewed_snapshot_hash": "231802ba8f365e7a92ca5945cd41a29619ea6b2f7d8e6d79f280f48e7466e679"
+    },
+    {
+      "profile_id": "RV-0241",
+      "original_name": "Gheorghe Gabor",
+      "current_name": "Gheorghe Gabor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.cdep.ro/pls/parlam/structura2015.ce?cir=8&leg=2008",
+        "https://brasovmetropolitan.ro/2020/08/fostul-deputat-pnl-brasov-gheorghe-gabor-a-trecut-la-cele-vesnice/"
+      ],
+      "note": "Constatare administrativă ANI, nu anchetă penală; persoana a decedat în 2020.",
+      "reviewed_snapshot_hash": "64eda99012ebe420ff2350915cbb67be26ba3f0c82077b4bccf986c86ba10dda"
+    },
+    {
+      "profile_id": "RV-0242",
+      "original_name": "Gheorghe Firczak",
+      "current_name": "Gheorghe Firczak",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.cdep.ro/pls/parlam/structura2015.ce?cir=22&leg=2008"
+      ],
+      "note": "Constatare administrativă ANI; nu a fost identificată o hotărâre definitivă verificabilă.",
+      "reviewed_snapshot_hash": "a463cc1b352db64559538c52a3dd0aa19ce9f82fe810a0efe4cc41f1953216c9"
+    },
+    {
+      "profile_id": "RV-0243",
+      "original_name": "Mircia Giurgiu",
+      "current_name": "Mircia Giurgiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://gazetadecluj.ro/judecatorii-clujeni-l-au-albit-pe-giurgiu-de-la-cluj-de-incompatibilitate/"
+      ],
+      "note": "Raport ANI anulat în primă instanță; finalitatea nu a putut fi demonstrată.",
+      "reviewed_snapshot_hash": "9584285c0bd3c00aac4587863d03dcf0fa4e30da17cf9147e3730caef2ce9a71"
+    },
+    {
+      "profile_id": "RV-0244",
+      "original_name": "Miron Ignat",
+      "current_name": "Miron Ignat",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://agerpres.ro/politica/2018/08/17/a-decedat-miron-ignat-fost-deputat-al-comunitatii-rusilor-lipoveni--162661"
+      ],
+      "note": "Constatare administrativă ANI, nu anchetă penală; persoana a decedat în 2018.",
+      "reviewed_snapshot_hash": "2360d9cea19059db47a617f9e6dc97541487f6c7f10b5c96f26aaabbae9b48d3"
+    },
+    {
+      "profile_id": "RV-0245",
+      "original_name": "Pavel Horj",
+      "current_name": "Pavel Horj",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.puterea.ro/ludovic-orban-insista-pentru-revenirea-in-padurile-din-maramures-a-marelui-gater-pavel-horj/"
+      ],
+      "note": "Constatare administrativă ANI; nu a fost identificată o hotărâre definitivă verificabilă.",
+      "reviewed_snapshot_hash": "c238630aa738d717fa5241a42518956c858d4fb8cb3439f7aebc2180d70f3e07"
+    },
+    {
+      "profile_id": "RV-0246",
+      "original_name": "Doru Brașoan Leșe",
+      "current_name": "Doru Brașoan Leșe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://hotnews.ro/un-fost-deputat-pnl-nu-poate-justifica-112-000-de-euro-afirma-ani-acesta-nu-e-pentru-prima-oara-in-atentia-ani-399001"
+      ],
+      "note": "Conflictul din 2015 este administrativ; sesizarea distinctă privind averea a fost clasată ca tardivă, iar finalitatea raportului din 2015 nu este verificabilă.",
+      "reviewed_snapshot_hash": "d2e4e831179851144f3e15e1dc0b8c252d43c7737a361afa9d1ed24e3e3e92d2"
+    },
+    {
+      "profile_id": "RV-0249",
+      "original_name": "Mădălin-Ștefan Voicu",
+      "current_name": "Mădălin-Ștefan Voicu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7592",
+        "https://hotnews.ro/iccj-emite-o-hotarare-definitiva-de-restituire-la-dna-a-dosarului-fostilor-deputati-madalin-voicu-si-nicolae-paun-438736",
+        "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=403&leg=2012"
+      ],
+      "note": "Trimiterea în judecată din 2016 a fost desființată definitiv; cauza a revenit la DNA, fără soluție publică ulterioară identificată.",
+      "reviewed_snapshot_hash": "0dabac4a8855da62c058e730763b21d776d8dd59bd3450026260ddca68e5ffd4"
+    },
+    {
+      "profile_id": "RV-0250",
+      "original_name": "Nicolae Păun",
+      "current_name": "Nicolae Păun",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7592",
+        "https://hotnews.ro/iccj-emite-o-hotarare-definitiva-de-restituire-la-dna-a-dosarului-fostilor-deputati-madalin-voicu-si-nicolae-paun-438736",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/pv0316.pdf"
+      ],
+      "note": "Trimiterea în judecată din 2016 a fost desființată definitiv; cauza a revenit la DNA. Mandatul parlamentar actual a fost confirmat.",
+      "reviewed_snapshot_hash": "90afb63d2f1a7c2db04e81552d0cf70c061ed72a27afc9adcf58dd364c8f9122"
+    },
+    {
+      "profile_id": "RV-0253",
+      "original_name": "Mihăiță Calimente",
+      "current_name": "Mihăiță Calimente",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf"
+      ],
+      "note": "Constatare administrativă ANI, nu anchetă penală; contestația era pe rol în 2017, fără finalitate publică identificată.",
+      "reviewed_snapshot_hash": "6750caa2846c5d324fe0584db40ac812b5fef8ea24170edf4f545e43c7f09fb3"
+    },
+    {
+      "profile_id": "RV-0257",
+      "original_name": "Radu Eugeniu Coclici",
+      "current_name": "Radu Eugeniu Coclici",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=3&idm=78&leg=2008"
+      ],
+      "note": "Constatare administrativă ANI, fără soluție definitivă publică verificabilă.",
+      "reviewed_snapshot_hash": "aa12d057ea897de708d44deae4fd7ae9c38361bf2dc1577fd0e8a5e11f522f7d"
+    },
+    {
+      "profile_id": "RV-0258",
+      "original_name": "Cătălin Croitoru",
+      "current_name": "Cătălin Croitoru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf",
+        "https://www.antena3.ro/actualitate/justitie/fostul-senator-catalin-croitoru-condamnat-la-trei-luni-de-inchisoare-cu-suspendare-pentru-conflict-406282.html"
+      ],
+      "note": "Condamnare penală în primă instanță în 2017; soluția definitivă a apelului nu a fost identificată cu certitudine.",
+      "reviewed_snapshot_hash": "807ded41f390be0eea84c6c07bec548090750cad5ba70053b175287fa945bb78"
+    },
+    {
+      "profile_id": "RV-0261",
+      "original_name": "Kelemen Atilla-Béla-László",
+      "current_name": "Kelemen Atilla-Béla-László",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://udmr.ro/profil/kelemen-atilla",
+        "https://stirileprotv.ro/stiri/actualitate/fostul-lider-al-udmr-mures-si-deputat-in-cinci-legislaturi-attila-kelemen-s-a-stins-din-viata.html"
+      ],
+      "note": "Constatare administrativă ANI; răspunderea penală era prescrisă. Persoana a decedat în 2022.",
+      "reviewed_snapshot_hash": "1317ddec2b10c8807ae599e0c3f2898a17298c82a1c4666a551ea58a93306a4e"
+    },
+    {
+      "profile_id": "RV-0263",
+      "original_name": "Iuliu Nosa",
+      "current_name": "Iuliu Nosa",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf",
+        "https://gazetadecluj.ro/ani-face-greseli-pe-banda-rulanta-iar-curtea-de-apel-cluj-le-repara-iuliu-nosa-scapat-de-acuzatii/"
+      ],
+      "note": "Raport administrativ ANI anulat în primă instanță; recursul ANI nu are o soluție definitivă verificată.",
+      "reviewed_snapshot_hash": "df335813c0378c073faba05a97c23b02474362f447c02f8a61859d83fab7bd8a"
+    },
+    {
+      "profile_id": "RV-0265",
+      "original_name": "Daniel Vasile Oajdea",
+      "current_name": "Daniel Vasile Oajdea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf",
+        "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=209&leg=2008"
+      ],
+      "note": "Constatare administrativă ANI; contestația era pe rol în 2017, fără finalitate publică identificată.",
+      "reviewed_snapshot_hash": "7068ed401f9d36e2dbeea3f896ae005293c0e15ca4fb6b363a762e86631570bf"
+    },
+    {
+      "profile_id": "RV-0267",
+      "original_name": "Sorin Ștefan Zamfirescu",
+      "current_name": "Sorin Ștefan Zamfirescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.cdep.ro/ords/pls/parlam/structura.ce?cir=39&leg=2008&poz=1",
+        "https://ziaruldevalcea.ro/2024/05/fostul-primar-al-ramnicului-sorin-zamfirescu-lauda-performantele-presedintelui-cj-valcea-liberalii-aaaa-va-pot-suna-in-5-minute/"
+      ],
+      "note": "Sesizare ANI către Parchet, fără dovada publică a începerii urmăririi penale; afilierea și rolurile au fost corectate.",
+      "reviewed_snapshot_hash": "791272e87f463d8d21db43b57ee4a2b5bdc0eb3763c7a093b254d53e1b889f55"
+    },
+    {
+      "profile_id": "RV-0268",
+      "original_name": "Dan-Radu Zătreanu",
+      "current_name": "Dan-Radu Zătreanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2033&PID=20&currentPage=98",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=41&leg=2008",
+        "https://pressone.ro/blocuri-noi-langa-moara-lui-assan-un-anunt-imobiliar-promite-o-parte-din-terenul-pe-care-este-monumentul-istoric-pentru-22-de-milioane-de-euro"
+      ],
+      "note": "Sesizare ANI către Parchet, fără dovada publică a începerii urmăririi penale; afilierea și rolurile au fost corectate.",
+      "reviewed_snapshot_hash": "42d813b8762fd283b847f23a7f312dd9c5393746ea4f6bee358a2c7e1cfb258e"
     }
   ]
 }
