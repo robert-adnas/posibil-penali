@@ -27999,40 +27999,6 @@
       "reviewed_snapshot_hash": "b375207b007d3f40afe2903d57a22edd00529d0f07a24d3e9d2e1140f4722c03"
     },
     {
-      "profile_id": "RV-0631",
-      "original_name": "Diaconu Nicolae",
-      "current_name": "Diaconu Nicolae",
-      "decision": "corrected",
-      "identity": "confirmed",
-      "legal_status": "corrected",
-      "scope": "political",
-      "reviewed_at": "2026-08-20",
-      "reviewer": "Codex / verificare editorială",
-      "evidence": [
-        "https://www.dna.ro/comunicat.xhtml?id=4701",
-        "https://www.cjarges.ro/documents/10865/357788/PV_25.02.2016.pdf/d40269c1-c55c-4de5-8f85-9681df969088"
-      ],
-      "note": "Clarificat că statusul se referă la calitatea de suspect confirmată în 2014, fără a afirma că ancheta este încă activă; eliminată sursa agregatoare slabă.",
-      "reviewed_snapshot_hash": "c6da0a0a54aa5aa848624ed8e6cf4fac76333caff7fd029ce954776b1823bf04"
-    },
-    {
-      "profile_id": "RV-0632",
-      "original_name": "Dumitrescu Mihail",
-      "current_name": "Dumitrescu Mihail",
-      "decision": "corrected",
-      "identity": "confirmed",
-      "legal_status": "corrected",
-      "scope": "political",
-      "reviewed_at": "2026-08-20",
-      "reviewer": "Codex / verificare editorială",
-      "evidence": [
-        "https://www.dna.ro/comunicat.xhtml?id=4701",
-        "https://www.cjarges.ro/en/web/merisani/dumitrescu-mihail"
-      ],
-      "note": "Clarificat caracterul istoric al calității de suspect, actualizat rolul ulterior de consilier local și eliminată atribuirea eronată a unui document Scribd către BEC.",
-      "reviewed_snapshot_hash": "9ecc6f125b9c02f5e832835226b2dbc0677d9ca5ed1810c44b5f4a081a072e5c"
-    },
-    {
       "profile_id": "RV-0641",
       "original_name": "Haneș Gheorghe",
       "current_name": "Haneș Gheorghe",
@@ -40083,6 +40049,986 @@
       ],
       "note": null,
       "reviewed_snapshot_hash": "d157b8d41402eaa96722c8dab6fb3b327620c6d28c29756cc5e5a65d2bff2734"
+    },
+    {
+      "profile_id": "RV-0585",
+      "original_name": "Grigore Marin",
+      "current_name": "Grigore Marin",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5452",
+        "https://www.dna.ro/comunicat.xhtml?id=3420"
+      ],
+      "note": "Identitatea, funcția de fost primar și condamnarea definitivă la 4 ani și 1 lună au fost reconfirmate din comunicatele DNA.",
+      "reviewed_snapshot_hash": "90f1c6a42cb43423e02385786ba326db25763ecc8daaaef18689ae33966ba194"
+    },
+    {
+      "profile_id": "RV-0586",
+      "original_name": "Petre Zamfir",
+      "current_name": "Petre Zamfir",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10127",
+        "https://www.dna.ro/comunicat.xhtml?id=9216"
+      ],
+      "note": "Condamnarea definitivă este pentru folosirea documentelor false; acuzația de omisiune și obligația civilă atribuită altui prenume nu mai sunt prezentate ca soluții împotriva lui Petre Zamfir.",
+      "reviewed_snapshot_hash": "d9b06552e22a09211e702a860726808518034cb5ee57c49f345681fe15ffae59"
+    },
+    {
+      "profile_id": "RV-0587",
+      "original_name": "Costel Zamfir",
+      "current_name": "Costel Zamfir",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11415",
+        "https://www.dna.ro/comunicat.xhtml?id=9216",
+        "https://www.dna.ro/comunicat.xhtml?id=4596"
+      ],
+      "note": "Profil actualizat la cea mai recentă condamnare definitivă: 9 ani cu executare, Curtea de Apel Pitești, 7 iulie 2022.",
+      "reviewed_snapshot_hash": "5afe24a22787f4d188e65341b284c3dd8d5061071a673a919534af1eca03bc65"
+    },
+    {
+      "profile_id": "RV-0588",
+      "original_name": "Costel Vieriu",
+      "current_name": "Costel Vieriu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9216",
+        "https://www.independentonline.ro/2019/02/07/Primarul-din-Grindu--condamnat-sa-mature-curtea-bisericii-din-sat-timp-de-120-de-zile-17697"
+      ],
+      "note": "Acordul și sentința de 3 ani cu suspendare sunt confirmate, dar caracterul definitiv nu a putut fi demonstrat dintr-o sursă oficială; statutul prudent first_instance este menținut.",
+      "reviewed_snapshot_hash": "16857bcfa128a66906adec37d0de6f30d5e2e8ccd4c94bf04d1d779d55c3d113"
+    },
+    {
+      "profile_id": "RV-0589",
+      "original_name": "Rizea Florian",
+      "current_name": "Rizea Florian",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9126",
+        "https://www.dna.ro/comunicat.xhtml?id=6888"
+      ],
+      "note": "Condamnarea definitivă din 2018 și achitarea definitivă din dosarul separat în 2023 au fost reconfirmate din DNA.",
+      "reviewed_snapshot_hash": "519333abf62de992e0fa4c56b76b3dbaf074b1a8db9547705e0b3ea6d56451c2"
+    },
+    {
+      "profile_id": "RV-0591",
+      "original_name": "Tudose Elisaveta",
+      "current_name": "Tudose Elisaveta",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888"
+      ],
+      "note": "Identitatea și achitarea definitivă din 24 aprilie 2023 au fost reconfirmate din actualizarea DNA.",
+      "reviewed_snapshot_hash": "d7584bb485acf8be7b6ff9c9316d2a838f79193a3f9116e75454b515841b1e9a"
+    },
+    {
+      "profile_id": "RV-0592",
+      "original_name": "Marian Ibric",
+      "current_name": "Marian Ibric",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/web/leordeni/primar"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar PSD al comunei Leordeni au fost reconfirmate din surse oficiale.",
+      "reviewed_snapshot_hash": "738c7dc5e24b8be8d5ac2080d99c1fa06f7e459caf52b7bec28e7af4ecf95f0a"
+    },
+    {
+      "profile_id": "RV-0593",
+      "original_name": "Gheorghe Matei",
+      "current_name": "Gheorghe Matei",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888"
+      ],
+      "note": "Identitatea, funcția de fost primar și achitarea definitivă au fost reconfirmate.",
+      "reviewed_snapshot_hash": "00ac0af6395b7e8643654d9d7466bc4712a0b8d44043ddd4abb322b189dc8d27"
+    },
+    {
+      "profile_id": "RV-0594",
+      "original_name": "Dumitru Voicu",
+      "current_name": "Dumitru Voicu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://comunamicesti.ro/componenta/"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar PSD al comunei Micești au fost reconfirmate din surse oficiale.",
+      "reviewed_snapshot_hash": "696e9b1ac7e81f9d8b6e5999b0c10d94dc9021ee11bbc453d09364e7a57324d2"
+    },
+    {
+      "profile_id": "RV-0590",
+      "original_name": "Cioran Lucian",
+      "current_name": "Cioran Lucian",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888"
+      ],
+      "note": "Identitatea și achitarea definitivă din 24 aprilie 2023 au fost reconfirmate din actualizarea DNA.",
+      "reviewed_snapshot_hash": "2831e8377e60d39cecb0173cb1e05d0b17f5574723425c5b44a20548263c3cef"
+    },
+    {
+      "profile_id": "RV-0595",
+      "original_name": "Marin Ion",
+      "current_name": "Marin Ion",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/en/web/stoenesti/prezentare"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar PSD al comunei Stoenești au fost reconfirmate din surse oficiale.",
+      "reviewed_snapshot_hash": "0d14676b86c8decff4ea3d7fe6842e408c68c40bc8c2c6ed3c46b56c631d1ecf"
+    },
+    {
+      "profile_id": "RV-0596",
+      "original_name": "Vișan Ionel Dragoș",
+      "current_name": "Vișan Ionel Dragoș",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/web/cotmeana/primar"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar PSD al comunei Cotmeana au fost reconfirmate din surse oficiale.",
+      "reviewed_snapshot_hash": "d9d710e8119b968a4b0df399f3f6ddab1dbe3af3c8c9334212c87155872b849e"
+    },
+    {
+      "profile_id": "RV-0597",
+      "original_name": "Poștoacă Damian-Ion",
+      "current_name": "Poștoacă Damian-Ion",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://criterii.ro/arges/alegeri-arges-2016-psd-cel-mai-bun-rezultat-din-ultimii-20-de-ani-vezi-toti-primarii/"
+      ],
+      "note": "Identitatea, fostul mandat PSD la Mioarele și achitarea definitivă au fost reconfirmate.",
+      "reviewed_snapshot_hash": "48bfd774f1e9f1f3f96a7d446e8c4bf10d3d065aa5a689deb775356c4ca6469e"
+    },
+    {
+      "profile_id": "RV-0598",
+      "original_name": "Constantin Iatagan",
+      "current_name": "Constantin Iatagan",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://primariasuici.ro/primaria/declaratii-de-avere-si-interese/"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar al comunei Șuici au fost reconfirmate.",
+      "reviewed_snapshot_hash": "6dc4354f04f6bd6d179cd75c5dd1c664b0b81f3ced5c1d91c7a75e1d8eb70bfb"
+    },
+    {
+      "profile_id": "RV-0599",
+      "original_name": "Niculaie Dochinoiu",
+      "current_name": "Niculaie Dochinoiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_arges/primarie/vedea/"
+      ],
+      "note": "Achitarea definitivă este confirmată; profilul precizează acum că mandatul s-a încheiat după înfrângerea candidatului PSD Niculaie Dochinoiu la localele din 2024.",
+      "reviewed_snapshot_hash": "f768d320510da0fa571942e91569c52507eae4e989948e3cacffe308ac48c914"
+    },
+    {
+      "profile_id": "RV-0600",
+      "original_name": "Sevastian Pupăză-Roșu",
+      "current_name": "Sevastian Pupăză-Roșu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/web/stolnici/prezentare"
+      ],
+      "note": "Achitarea definitivă și mandatul actual de primar al comunei Stolnici au fost reconfirmate.",
+      "reviewed_snapshot_hash": "b38a70a6eb63af589bbb0e7415bf1bc9bf7997a42b8221837b878f1b4b477ee5"
+    },
+    {
+      "profile_id": "RV-0601",
+      "original_name": "Vasile Nică",
+      "current_name": "Vasile Nică",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7001",
+        "https://www.dna.ro/comunicat.xhtml?id=6016",
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.bursa.ro/in-ultimul-an-primarii-la-mare-cautare-in-dosarele-dna-de-coruptie-20401421"
+      ],
+      "note": "Profilul include acum ambele condamnări definitive din 2015, achitarea din cauza separată în 2023 și afilierea PDL relevantă perioadei faptelor.",
+      "reviewed_snapshot_hash": "51e677811b972302072bef92e3284bf9e13e482c7bb646eec4fe1a80007ed338"
+    },
+    {
+      "profile_id": "RV-0602",
+      "original_name": "Gheorghe Cernătescu",
+      "current_name": "Gheorghe Cernătescu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/"
+      ],
+      "note": "Identitatea, fostul mandat PSD la Cuca și achitarea definitivă au fost reconfirmate.",
+      "reviewed_snapshot_hash": "9220fc60f652482bcfb7a969150be4eda976b1e0113dcfae18c62bbd06df82d2"
+    },
+    {
+      "profile_id": "RV-0603",
+      "original_name": "Gheorghe Pătrașcu",
+      "current_name": "Gheorghe Pătrașcu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://jurnaluldearges.ro/presiune-dna-pe-armata-primarilor-psd-2230/"
+      ],
+      "note": "Identitatea, fostul mandat PSD la Lunca Corbului și achitarea definitivă au fost reconfirmate.",
+      "reviewed_snapshot_hash": "73bbf350083715f52768a1ee1a7ff1effb7e300cd280b98ced73a0721de9f650"
+    },
+    {
+      "profile_id": "RV-0604",
+      "original_name": "Nicolae Radu",
+      "current_name": "Nicolae Radu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/"
+      ],
+      "note": "Identitatea, fostul mandat PSD la Negrași și achitarea definitivă au fost reconfirmate.",
+      "reviewed_snapshot_hash": "5811fce830ea14ef3f760691f83cba7a3735e0446ee5c2ce30051e176b84f774"
+    },
+    {
+      "profile_id": "RV-0605",
+      "original_name": "Simion Emil",
+      "current_name": "Simion Emil",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "084eb2459a06cfc5be5dd72c9e13cf8ab9ff8636d8bdadc16588c62b8bd18c00"
+    },
+    {
+      "profile_id": "RV-0606",
+      "original_name": "Popa Ion",
+      "current_name": "Popa Ion",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "5815379852ed1c4b0347257ace54a99b852839abe996fc43f8dd50981ce0e602"
+    },
+    {
+      "profile_id": "RV-0608",
+      "original_name": "Ivan Vasile Bebe",
+      "current_name": "Ivan Vasile Bebe",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "594632b78a3f3f28b6eb5405e3be6cf336ccb641ed58a157d8cb17b2c5218a67"
+    },
+    {
+      "profile_id": "RV-0609",
+      "original_name": "Berevoianu Corneliu",
+      "current_name": "Berevoianu Corneliu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "ea5c8a154398649ea6ccb66a41bc5c618924823edbd900ca08e25f44187bd26b"
+    },
+    {
+      "profile_id": "RV-0610",
+      "original_name": "Bălășoiu Aurel",
+      "current_name": "Bălășoiu Aurel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://hotnews.ro/rezultate-alegeri-locale-2024-deputatul-aurel-balasoiu-exclus-din-psd-n-urma-unui-scandal-sexual-a-cstigat-primaria-rociu-din-arges-a-candidat-din-partea-pnl-1533380"
+      ],
+      "note": "Corectate funcția curentă și partidul: primar Rociu ales în 2024 din partea PNL.",
+      "reviewed_snapshot_hash": "28f52810eda3787c9e6eef82b2cbae5b6a85af2d9dee2c059febc156840ca8ca"
+    },
+    {
+      "profile_id": "RV-0611",
+      "original_name": "Ene Florea",
+      "current_name": "Ene Florea",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "518d1d03e22ec62242de2191d8379682aa2ea6c47cf5f057a4f356c351db7146"
+    },
+    {
+      "profile_id": "RV-0612",
+      "original_name": "Bădulescu Ion",
+      "current_name": "Bădulescu Ion",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "1fb4984fd11614ad5c188269682156130c27ea0944ac40487506036ad9e7bd57"
+    },
+    {
+      "profile_id": "RV-0613",
+      "original_name": "Dincuță Daniel",
+      "current_name": "Dincuță Daniel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5079",
+        "https://www.dna.ro/comunicat.xhtml?id=6888"
+      ],
+      "note": "Corectat statutul: condamnare definitivă în 2014, distinctă de achitarea definitivă din 2023.",
+      "reviewed_snapshot_hash": "4478f2b612984aa93360250e8b4fc32602287e26e44fc12ad0a683c07cc44f0a"
+    },
+    {
+      "profile_id": "RV-0614",
+      "original_name": "Langer Nicolae",
+      "current_name": "Langer Nicolae",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "17e021a2692c774895bb0fd4ca0d914c1f8f1819b012a1ef54ddbd426cd3c253"
+    },
+    {
+      "profile_id": "RV-0615",
+      "original_name": "Țucă Gheorghe",
+      "current_name": "Țucă Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://adevarul.ro/stiri-locale/pitesti/primarul-gheorghe-tuca-din-comuna-argeseana-cocu-a-2390292.html",
+        "https://curier.ro/2023/08/09/primar-acuzat-de-delapidare/"
+      ],
+      "note": "Statut actualizat pentru investigațiile relatate în 2023-2024; achitarea din dosarul separat rămâne consemnată.",
+      "reviewed_snapshot_hash": "99981d7a66dc7d8718cad0dfc3356dacab229f878976555aed4c7bc1163ca5ad"
+    },
+    {
+      "profile_id": "RV-0616",
+      "original_name": "Ungurenuș Mihai",
+      "current_name": "Ungurenuș Mihai",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "336e2eddca46d1d4ba371f16d7cceaec0d65fde9c13bcdcddac0c7f4df48074d"
+    },
+    {
+      "profile_id": "RV-0617",
+      "original_name": "Secăreanu Dumitru",
+      "current_name": "Secăreanu Dumitru",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "fcdf54fe17113eb41b1b0fbd34b98006be6d7c26ce4eb51a44d1434366391861"
+    },
+    {
+      "profile_id": "RV-0618",
+      "original_name": "Cristescu Alexandru-Adrian",
+      "current_name": "Cristescu Alexandru-Adrian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://jurnaluldearges.ro/dosarul-de-braconaj-il-lasa-fara-mandat-pe-edilul-de-la-malureni-38667/",
+        "https://www.cjarges.ro/web/malureni/alegeri-9-iunie-2024"
+      ],
+      "note": "Adăugată condamnarea definitivă din 2017 și actualizată afilierea PUSL din 2024; achitarea din dosarul separat rămâne consemnată.",
+      "reviewed_snapshot_hash": "ab1f9b83a09c7b76da9031504967693cc35e4bf5106fdf852f884bba5e917d33"
+    },
+    {
+      "profile_id": "RV-0619",
+      "original_name": "Pepenel Nicolae-Cornel",
+      "current_name": "Pepenel Nicolae-Cornel",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "9db86c450c389a4c291409660b34121af38dc4e7e904a6a19926c8a404a06c99"
+    },
+    {
+      "profile_id": "RV-0620",
+      "original_name": "Tarbă Sever",
+      "current_name": "Tarbă Sever",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.dna.ro/comunicat.xhtml?id=4701"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "92404ab45af7ba98b5925cb548f0c9a402610d53b9aef6d5a1b9b2b43887f34d"
+    },
+    {
+      "profile_id": "RV-0621",
+      "original_name": "Tarbă Mihai Gheorghe",
+      "current_name": "Tarbă Mihai Gheorghe",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/web/dragoslavele/primar-mandat-2012-2016"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "ff0d87210bd8e05b5db60480e4d13365c10721981ecbccbc9818ac4d4641822d"
+    },
+    {
+      "profile_id": "RV-0622",
+      "original_name": "Luca Ion",
+      "current_name": "Luca Ion",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/en/web/stoenesti/luca-ion"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "f0f693dcfc47a7fcec868c29b85c83e1ff3f20d7791eda66824d466aee349677"
+    },
+    {
+      "profile_id": "RV-0623",
+      "original_name": "Andrei Nicolae",
+      "current_name": "Andrei Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://www.cjarges.ro/en/web/malureni/andrei-nicolae2"
+      ],
+      "note": "Funcția actualizată pentru mandatul 2024-2028: consilier local PSD, fost viceprimar.",
+      "reviewed_snapshot_hash": "b21ef7e9a040239a4a0d1caac9a80001afc5bd971b5e900362afe4237a51e38b"
+    },
+    {
+      "profile_id": "RV-0624",
+      "original_name": "Cioflan Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://luju.ro/static/files/2022/iunie/26/Nicolescu_Draghici.pdf"
+      ],
+      "note": "Exclus din catalog: director executiv al unei agenții județene, fără mandat sau afiliere politică verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0625",
+      "original_name": "Ciobanu Marcel",
+      "current_name": "Ciobanu Marcel",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://jurnaluldearges.ro/a-decedat-un-fost-primar-argesean-33450/"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "32d2170ff5008533272347591cbf83363f595ed2e7757e02fe9d4f7469e099e1"
+    },
+    {
+      "profile_id": "RV-0626",
+      "original_name": "Șerban Niculae",
+      "current_name": "Șerban Niculae",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://jurnaluldearges.ro/fostul-primar-de-la-maracineni-niculae-serban-a-murit-89075/"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "bc72fb78b1fe54df89fe2120b6c2a193707c782abc853750f69053c54ccda2ed"
+    },
+    {
+      "profile_id": "RV-0627",
+      "original_name": "Smădu Nicolae",
+      "current_name": "Smădu Nicolae",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6888",
+        "https://argesplus.ro/a-murit-primarul-din-domnesti/"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "1e33ad64c448c0523df0ed03d16102e78bdb4c0f610ea8ddb948a602152bfc3c"
+    },
+    {
+      "profile_id": "RV-0628",
+      "original_name": "Ion Georgescu",
+      "current_name": "Ion Georgescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12313",
+        "https://anchetaonline.ro/lovitura-fostul-primar-mioveni-georgescu-condamant-inchisoare-313183/",
+        "https://emioveni.ro/primaria-mioveni/informatii-publice/alegeri/1704-alegeri-locale-2024"
+      ],
+      "note": "Actualizat la condamnarea nedefinitivă din 24 aprilie 2026 și corectată funcția la fost primar.",
+      "reviewed_snapshot_hash": "0410dba37b656410b56ee6118b574551b0591d9e6bf2522156d41489524a164e"
+    },
+    {
+      "profile_id": "RV-0629",
+      "original_name": "Boțârcă Gheorghiță",
+      "current_name": "Boțârcă Gheorghiță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Dosarul Consultanța 2 a fost clasat de DNA în ianuarie 2021.",
+      "reviewed_snapshot_hash": "f28a969fb5ee9a30e29ca0b333c3d21832804f7deca175c55f0315a583d7f4a7"
+    },
+    {
+      "profile_id": "RV-0630",
+      "original_name": "Stoican Gheorghe",
+      "current_name": "Stoican Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Dosarul Consultanța 2 a fost clasat de DNA în ianuarie 2021.",
+      "reviewed_snapshot_hash": "f8d5c8c463af498ecee3ef28a1580c42f130f57ffb865f47983d6e479db84295"
+    },
+    {
+      "profile_id": "RV-0631",
+      "original_name": "Diaconu Nicolae",
+      "current_name": "Diaconu Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4701",
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Revizuit auditul anterior: identificată soluția de clasare a dosarului Consultanța 2 din ianuarie 2021.",
+      "reviewed_snapshot_hash": "65c16b6d458bdd5b725a953272a8791007fd22d53c44c20ba3d3ee5b070eb6c3"
+    },
+    {
+      "profile_id": "RV-0632",
+      "original_name": "Dumitrescu Mihail",
+      "current_name": "Dumitrescu Mihail",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4701",
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Revizuit auditul anterior: identificată soluția de clasare a dosarului Consultanța 2 din ianuarie 2021.",
+      "reviewed_snapshot_hash": "6b6a05357b90da91a2a243cf13923f591042312c7b1bd5063f5e865333480684"
+    },
+    {
+      "profile_id": "RV-0633",
+      "original_name": "Lupu Sorin",
+      "current_name": "Lupu Sorin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Dosarul Consultanța 2 a fost clasat de DNA în ianuarie 2021.",
+      "reviewed_snapshot_hash": "327b547c5127dfd8fa3dfe6e9dc0c61811dd0972e4048a8b3702b90fd1f0c189"
+    },
+    {
+      "profile_id": "RV-0634",
+      "original_name": "Pădureanu Ion",
+      "current_name": "Pădureanu Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/"
+      ],
+      "note": "Dosarul Consultanța 2 a fost clasat de DNA în ianuarie 2021.",
+      "reviewed_snapshot_hash": "19561b8bb8afda2df78ba51ae99edb67d7047ac35b759bcfcf642d6880696236"
+    },
+    {
+      "profile_id": "RV-0635",
+      "original_name": "Popa Iulian",
+      "current_name": "Popa Iulian",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4521"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "b737358700d9fcffa51e3413f88b9507df0988cf4df6afad653e6e6372603b16"
+    },
+    {
+      "profile_id": "RV-0636",
+      "original_name": "Manole Vasile",
+      "current_name": "Manole Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4631"
+      ],
+      "note": "Confirmată condamnarea definitivă și completat explicit regimul cu executare.",
+      "reviewed_snapshot_hash": "b28bb986964a284c5255f32a7aafa2675465463ad6366468e98958ee85ca2bd4"
+    },
+    {
+      "profile_id": "RV-0637",
+      "original_name": "Furtună Gheorghe",
+      "current_name": "Furtună Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3851"
+      ],
+      "note": "Confirmată condamnarea definitivă și completat explicit regimul cu suspendare.",
+      "reviewed_snapshot_hash": "654c8b167ae866202fe7fc4637aa225f319213082eac27eb2f00e8d212bd7942"
+    },
+    {
+      "profile_id": "RV-0638",
+      "original_name": "Niculae Florin",
+      "current_name": "Niculae Florin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5219"
+      ],
+      "note": "Confirmată condamnarea definitivă și completat explicit regimul cu executare.",
+      "reviewed_snapshot_hash": "0d4e5e905b7dfd0b14fdd900b74c298a81972270afab092ba7f387eee8fd7032"
+    },
+    {
+      "profile_id": "RV-0639",
+      "original_name": "Georgescu Liviu",
+      "current_name": "Georgescu Liviu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3998"
+      ],
+      "note": "Confirmată condamnarea definitivă și completat explicit regimul cu suspendare.",
+      "reviewed_snapshot_hash": "5fd07fe4de7f558da675ffd5a3e5edcdd65f5ef93c12bf23ac60e9755ef65cae"
+    },
+    {
+      "profile_id": "RV-0640",
+      "original_name": "Nicolae Ilie",
+      "current_name": "Nicolae Ilie",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://agerpres.ro/justitie/2018/10/18/buzau-fost-primar-al-comunei-cochirleanca-condamnat-la-patru-ani-de-inchisoare-cu-executare-pentru-f--195675"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "8819e554411544eaadc5dc8ae4cda6c99ceac53b7038e331699db3f153c64d99"
+    },
+    {
+      "profile_id": "RV-0642",
+      "original_name": "Marius Florinel Nicolaescu",
+      "current_name": "Marius Florinel Nicolaescu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13665",
+        "https://www.cjarges.ro/en/mandat-2024-2028"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "fe66d5b259b9bcdf21da1ebeb7acc16f34e7cc37cd0f249c5ae682925e92eab7"
+    },
+    {
+      "profile_id": "RV-0643",
+      "original_name": "Vintilă Marin",
+      "current_name": "Vintilă Marin",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13667",
+        "https://www.poianamare.ro/lista-consilieri-37"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "f4adeb4a5fe5d2182510d0bc0964803870bc1cef055122860a1e59857d3fbb24"
+    },
+    {
+      "profile_id": "RV-0644",
+      "original_name": "Cristian-Nicolae Ologu",
+      "current_name": "Cristian-Nicolae Ologu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13667",
+        "https://poianamare.ro/nr.-..-854"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "e302261a3165aaf58aaa3f543044dcf0c1e26bc5ef0980a3220906a27ac9a224"
     }
   ]
 }

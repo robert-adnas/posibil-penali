@@ -104,7 +104,7 @@ const ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015 =
   'DNA Pitești l-a vizat inițial în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.';
 
 const VASILE_NICA_AUDIT_DETAILS =
-  'DNA a consemnat condamnarea sa definitivă la 7 decembrie 2015 într-un dosar distinct instrumentat de Serviciul Teritorial Pitești. Într-o cauză separată privind contractele de consultanță din județul Argeș, DNA a actualizat ulterior soluția definitivă de achitare pronunțată la 24 aprilie 2023; pentru consistența bazei, intrarea rămâne clasificată drept convicted deoarece există o condamnare definitivă distinctă în intervalul 2010-2026.';
+  'Curtea de Apel Pitești l-a condamnat definitiv la 7 decembrie 2015 la 2 ani și 10 luni de închisoare pentru abuz în serviciu în formă continuată și fals în înscrisuri sub semnătură privată. Anterior, aceeași instanță îl condamnase definitiv la 10 februarie 2015 la 2 ani și 8 luni cu executare pentru instigare la folosirea de documente false în vederea obținerii de fonduri europene. Într-o cauză separată privind contractele de consultanță din județul Argeș, ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023; profilul rămâne clasificat drept convicted deoarece cele două condamnări definitive sunt cauze distincte.';
 
 const SALCEA_EXAM_GEOGRAPHY = {
   county: 'Suceava',
@@ -13903,12 +13903,6 @@ export const politicianOverrides = {
       },
     ],
   },
-  'Petre Zamfir': {
-    prejudiciu_eur: 262747.456,
-    prejudiciu_text:
-      'Comunicatul DNA din 30 martie 2021 indică obligația de plată a sumei de 1.313.737,28 lei către AFIR cu titlu de despăgubiri civile.',
-    verified_at: '2026-04-10',
-  },
   'Vasile Andreaș': {
     prejudiciu_eur: 275620.8,
     prejudiciu_text:
@@ -15374,21 +15368,21 @@ export const politicianOverrides = {
     ],
   },
   'Vasile Nică': {
-    party: 'PSD',
+    party: 'PDL',
     details: VASILE_NICA_AUDIT_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
-        label: 'Portal Info',
-        kind: 'profile',
-        url: 'https://www.portal-info.ro/primarii/primaria-valea_danului-arges.html',
+        label: 'Bursa',
+        kind: 'press',
+        url: 'https://www.bursa.ro/in-ultimul-an-primarii-la-mare-cautare-in-dosarele-dna-de-coruptie-20401421',
       },
     ],
   },
   'Gheorghe Cernătescu': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Bitpress',
@@ -15400,7 +15394,7 @@ export const politicianOverrides = {
   'Gheorghe Pătrașcu': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Jurnalul de Argeș',
@@ -15412,7 +15406,7 @@ export const politicianOverrides = {
   'Nicolae Radu': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Bitpress',
@@ -15424,7 +15418,7 @@ export const politicianOverrides = {
   'Simion Emil': {
     party: 'PDL',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Bitpress',
@@ -15436,7 +15430,7 @@ export const politicianOverrides = {
   'Popa Ion': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Enciclopedia României',
@@ -15460,7 +15454,7 @@ export const politicianOverrides = {
   'Ivan Vasile Bebe': {
     party: 'PNL',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15472,7 +15466,7 @@ export const politicianOverrides = {
   'Berevoianu Corneliu': {
     party: 'PDL',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15482,21 +15476,25 @@ export const politicianOverrides = {
     ],
   },
   'Bălășoiu Aurel': {
-    party: 'PSD',
-    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    party: 'PNL',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-rociu-arges.html',
       },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/rezultate-alegeri-locale-2024-deputatul-aurel-balasoiu-exclus-din-psd-n-urma-unui-scandal-sexual-a-cstigat-primaria-rociu-din-arges-a-candidat-din-partea-pnl-1533380',
+      },
     ],
   },
   'Ene Florea': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15508,7 +15506,7 @@ export const politicianOverrides = {
   'Bădulescu Ion': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Enciclopedia României',
@@ -15519,8 +15517,7 @@ export const politicianOverrides = {
   },
   'Dincuță Daniel': {
     party: 'PSD',
-    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15532,7 +15529,7 @@ export const politicianOverrides = {
   'Langer Nicolae': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15543,8 +15540,7 @@ export const politicianOverrides = {
   },
   'Țucă Gheorghe': {
     party: 'PSD',
-    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Gândul',
@@ -15556,7 +15552,7 @@ export const politicianOverrides = {
   'Ungurenuș Mihai': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15600,7 +15596,7 @@ export const politicianOverrides = {
   'Secăreanu Dumitru': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Ziarul Profit',
@@ -15610,21 +15606,25 @@ export const politicianOverrides = {
     ],
   },
   'Cristescu Alexandru-Adrian': {
-    party: 'PSD',
-    details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    party: 'PUSL',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-malureni-arges.html',
       },
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/web/malureni/alegeri-9-iunie-2024',
+      },
     ],
   },
   'Pepenel Nicolae-Cornel': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS,
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15636,7 +15636,7 @@ export const politicianOverrides = {
   'Tarbă Mihai Gheorghe': {
     party: 'PSD',
     details: ARGES_CONSULTANCY_ACQUITTAL_DETAILS_2015,
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
@@ -15647,48 +15647,63 @@ export const politicianOverrides = {
   },
   'Ciobanu Marcel': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-uda-arges.html',
       },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/a-decedat-un-fost-primar-argesean-33450/',
+      },
     ],
   },
   'Șerban Niculae': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-maracineni-arges.html',
       },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/fostul-primar-de-la-maracineni-niculae-serban-a-murit-89075/',
+      },
     ],
   },
   'Smădu Nicolae': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-domnesti-arges.html',
       },
+      {
+        label: 'ArgeșPlus',
+        kind: 'press',
+        url: 'https://argesplus.ro/a-murit-primarul-din-domnesti/',
+      },
     ],
   },
   'Diaconu Nicolae': {
     party: 'PSD',
-    verified_at: '2026-08-20',
+    verified_at: '2026-08-25',
   },
   'Dumitrescu Mihail': {
     party: 'PSD',
-    verified_at: '2026-08-20',
+    verified_at: '2026-08-25',
   },
   'Popa Iulian': {
     party: 'PDL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Observatorul Prahovean',
@@ -15699,7 +15714,7 @@ export const politicianOverrides = {
   },
   'Manole Vasile': {
     party: 'PNȚCD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Biroul Electoral Central',
@@ -15710,7 +15725,7 @@ export const politicianOverrides = {
   },
   'Niculae Florin': {
     party: 'PDL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Protecția Animalelor',
@@ -15721,7 +15736,7 @@ export const politicianOverrides = {
   },
   'Georgescu Liviu': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'România Liberă',
@@ -15739,7 +15754,7 @@ export const politicianOverrides = {
     execution_type: 'Cu executare',
     details:
       'DNA Ploiești l-a trimis în judecată în 2015, iar Curtea de Apel Ploiești l-a condamnat definitiv la 17 octombrie 2018 la 4 ani închisoare cu executare pentru abuz în serviciu și fraudă în obținerea de fonduri europene.',
-    verified_at: '2026-05-25',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'AGERPRES',
@@ -25688,7 +25703,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel Ploiești l-a condamnat definitiv la 17 octombrie 2014 la 4 ani și 1 lună de închisoare pentru luare de mită, fals material în înscrisuri oficiale, uz de fals și abuz în serviciu în formă continuată. DNA reținuse că, în calitate de primar al comunei Produlești, ar fi pretins și primit mită pentru deblocarea unor plăți și ar fi folosit documente false în legătură cu execuția unor lucrări publice.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25712,14 +25727,14 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Fost primar al comunei Crăcăoani, județul Neamț',
     position_type: 'mayor',
-    crime: 'Folosire sau prezentare de documente false pentru fonduri europene; omisiunea furnizării de date pentru obținerea de fonduri europene',
+    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru obținerea de fonduri europene',
     sentence: '2 ani închisoare cu suspendare',
     sentence_years: 2,
     conviction_year: 2020,
     status: 'convicted',
     details:
-      'După o achitare în primă instanță la Tribunalul Neamț, Curtea de Apel Bacău l-a condamnat definitiv la 16 noiembrie 2020 la 2 ani de închisoare cu suspendare pentru folosirea sau prezentarea cu rea-credință de documente ori declarații false și omisiunea de a furniza date pentru obținerea pe nedrept de fonduri europene. Hotărârea definitivă a inclus și obligarea la plata despăgubirilor civile către AFIR.',
-    verified_at: '2026-04-09',
+      'După o achitare în primă instanță la Tribunalul Neamț, Curtea de Apel Bacău l-a condamnat definitiv la 16 noiembrie 2020 la 2 ani de închisoare cu suspendare pentru folosirea sau prezentarea cu rea-credință de documente ori declarații false, incorecte ori incomplete, cu rezultatul obținerii pe nedrept de fonduri europene. Rechizitoriul menționase și omisiunea furnizării unor date, însă comunicatul hotărârii definitive nu consemnează condamnarea pentru această acuzație. Comunicatul atribuie obligația civilă unei persoane numite „Zamfir Gheorghe”, astfel că suma nu este atribuită acestui profil fără o confirmare suplimentară.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25743,15 +25758,22 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Fost primar al comunei Bradu, județul Argeș',
     position_type: 'mayor',
-    crime: 'Abuz în serviciu; fals intelectual; uz de fals',
-    sentence: '5 ani închisoare',
-    sentence_years: 5,
-    conviction_year: 2014,
+    crime:
+      'Abuz în serviciu cu consecințe deosebit de grave, în formă continuată; condamnare anterioară pentru fals intelectual, uz de fals și abuz în serviciu',
+    sentence: '9 ani închisoare cu executare',
+    sentence_years: 9,
+    execution_type: 'Cu executare',
+    conviction_year: 2022,
     status: 'convicted',
     details:
-      'ÎCCJ l-a condamnat definitiv la 22 ianuarie 2014 la 5 ani de închisoare în dosarul retrocedărilor ilegale de terenuri de la Bradu. Ulterior, DNA Pitești l-a trimis din nou în judecată în ianuarie 2019 într-un dosar separat privind alte 161 de acte materiale de abuz în serviciu legate de fond funciar; am păstrat statutul general de convicted deoarece condamnarea definitivă din 2014 este mai puternică decât stadiul ulterior al noii cauze. Presa îl identifică drept fost primar PSD al comunei Bradu, afiliere folosită pentru perioada mandatului.',
-    verified_at: '2026-05-10',
+      'Curtea de Apel Pitești l-a condamnat definitiv la 7 iulie 2022 la 9 ani de închisoare cu executare pentru abuz în serviciu cu consecințe deosebit de grave, în formă continuată, în dosarul privind retrocedarea nelegală a 159 ha de teren în perioada în care era primar și președinte al comisiei locale de fond funciar din Bradu. Această hotărâre definitivă o înlocuiește ca referință principală pe cea din 22 ianuarie 2014, prin care fusese condamnat definitiv la 5 ani de închisoare într-un alt dosar de fond funciar. Presa îl identifică drept primar PSD al comunei Bradu în mandatele 2000–2008.',
+    verified_at: '2026-08-25',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11415',
+      },
       {
         label: 'DNA',
         kind: 'official',
@@ -25785,8 +25807,8 @@ export const politicianAdditions = [
     conviction_year: 2019,
     status: 'first_instance',
     details:
-      'DNA a anunțat la 14 ianuarie 2019 sesizarea Tribunalului Ialomița cu acordul de recunoaștere a vinovăției, care prevedea 3 ani de închisoare cu suspendare și interzicerea unor drepturi. Relatările din 7 februarie 2019 arată că Tribunalul Ialomița a admis acordul și a dispus și 120 de zile de muncă în folosul comunității. Nu am identificat, până la 9 aprilie 2026, o actualizare oficială ulterioară care să indice o soluție definitivă diferită, așa că păstrez statutul de first_instance.',
-    verified_at: '2026-04-09',
+      'DNA a anunțat la 14 ianuarie 2019 sesizarea Tribunalului Ialomița cu acordul de recunoaștere a vinovăției, care prevedea 3 ani de închisoare cu suspendare și interzicerea unor drepturi. Relatările din 7 februarie 2019 arată că Tribunalul Ialomița a admis acordul și a dispus și 120 de zile de muncă în folosul comunității. Nu am identificat până la 25 august 2026 o sursă oficială care să confirme caracterul definitiv ori o soluție ulterioară, astfel că profilul rămâne la statutul prudent de first_instance și este ascuns până la clarificare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25819,7 +25841,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel Pitești l-a condamnat definitiv la 18 octombrie 2018 la 3 ani de închisoare cu suspendare pentru instigare la folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea pe nedrept de fonduri europene, în dosarul APIA privind izlazul comunal din Țițești. Într-o cauză separată, dosarul de consultanță al CJ Argeș, ÎCCJ a dispus la 24 aprilie 2023 achitarea sa definitivă pentru abuz în serviciu, actualizare consemnată de DNA la 5 februarie 2024. Am păstrat statutul general de convicted deoarece condamnarea definitivă din 2018 este mai puternică decât soluția favorabilă din dosarul distinct.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25855,7 +25877,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a trimis în judecată în noiembrie 2015 în dosarul privind contractele de consultanță atribuite de autorități locale argeșene firmei European Project Consulting. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, reținând că faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25886,7 +25908,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești a trimis-o în judecată în noiembrie 2015 în dosarul contractelor de consultanță derulate în județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25917,7 +25939,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță derulate în județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25932,7 +25954,7 @@ export const politicianAdditions = [
       {
         label: 'Consiliul Județean Argeș',
         kind: 'official',
-        url: 'https://www.cjarges.ro/en/web/leordeni/primar-mandat-2020-2024',
+        url: 'https://www.cjarges.ro/web/leordeni/primar',
       },
     ],
   },
@@ -25948,7 +25970,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25979,7 +26001,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26010,7 +26032,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26023,9 +26045,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
       },
       {
-        label: 'PSD Argeș',
+        label: 'CJ Argeș',
         kind: 'official',
-        url: 'https://psdarges.ro/primarul-marin-ion-ales-presedinte-al-psd-stoenesti/',
+        url: 'https://www.cjarges.ro/en/web/stoenesti/prezentare',
       },
     ],
   },
@@ -26041,7 +26063,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26056,7 +26078,7 @@ export const politicianAdditions = [
       {
         label: 'CJ Argeș',
         kind: 'official',
-        url: 'https://www.cjarges.ro/en/web/cotmeana/primar',
+        url: 'https://www.cjarges.ro/web/cotmeana/primar',
       },
     ],
   },
@@ -26072,7 +26094,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26103,7 +26125,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-14',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26133,8 +26155,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea. L-am păstrat la PSD pe baza profilului său oficial recent din perioada mandatului 2020-2024 și a rezultatelor locale din 2024.',
-    verified_at: '2026-04-14',
+      'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea. A fost primar PSD în mandatul 2020–2024 și candidat PSD în 2024, când a pierdut funcția în fața candidatului PNL Constantin-Anelin Vișan.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26154,7 +26176,7 @@ export const politicianAdditions = [
       {
         label: 'Ziare.com',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_arges/primarie/vedea/21',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_arges/primarie/vedea/',
       },
     ],
   },
@@ -26170,7 +26192,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pitești l-a vizat inițial în martie 2014 și apoi l-a trimis în judecată în noiembrie 2015 în dosarul contractelor de consultanță din județul Argeș. Prin actualizarea oficială din 5 februarie 2024, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 24 aprilie 2023, întrucât faptele nu există ori nu există probe că persoana a săvârșit infracțiunea.',
-    verified_at: '2026-04-14',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26196,17 +26218,19 @@ export const politicianAdditions = [
   },
   {
     name: 'Vasile Nic\u0103',
-    party: 'PSD',
+    party: 'PDL',
     position: 'Fost primar al comunei Valea Danului, jude\u021bul Arge\u0219',
     position_type: 'mayor',
-    crime: 'Abuz \u00een serviciu; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103',
-    sentence: '2 ani \u0219i 10 luni \u00eenchisoare',
+    crime:
+      'Abuz \u00een serviciu; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103; instigare la folosirea de documente false pentru fonduri europene \u00eentr-un dosar separat',
+    sentence: '2 ani \u0219i 10 luni \u00eenchisoare; anterior 2 ani \u0219i 8 luni cu executare',
     sentence_years: 2.83,
+    execution_type: 'Cu executare',
     conviction_year: 2015,
     status: 'convicted',
     details:
       'DNA a consemnat condamnarea sa definitiv\u0103 la 7 decembrie 2015 \u00eentr-un dosar distinct instrumentat de Serviciul Teritorial Pite\u0219ti. \u00centr-o cauz\u0103 separat\u0103 privind contractele de consultan\u021b\u0103 din jude\u021bul Arge\u0219, DNA a actualizat ulterior solu\u021bia definitiv\u0103 de achitare pronun\u021bat\u0103 la 24 aprilie 2023; pentru consisten\u021ba bazei, intrarea r\u0103m\u00e2ne clasificat\u0103 drept convicted deoarece exist\u0103 o condamnare definitiv\u0103 distinct\u0103 \u00een intervalul 2010-2026. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26217,6 +26241,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4735',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6016',
       },
       {
         label: 'DNA',
@@ -26237,7 +26266,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a partidului, deoarece DNA indic\u0103 doar apartenen\u021ba la o forma\u021biune politic\u0103, f\u0103r\u0103 a o numi.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26263,7 +26292,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a partidului, deoarece DNA indic\u0103 doar apartenen\u021ba la o forma\u021biune politic\u0103, f\u0103r\u0103 a o numi.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26289,7 +26318,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26315,7 +26344,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26341,7 +26370,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26393,7 +26422,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26419,7 +26448,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26435,8 +26464,8 @@ export const politicianAdditions = [
   },
   {
     name: 'B\u0103l\u0103\u0219oiu Aurel',
-    party: 'PSD',
-    position: 'Fost primar al comunei Rociu, jude\u021bul Arge\u0219',
+    party: 'PNL',
+    position: 'Primar al comunei Rociu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
     sentence: 'Achitat definitiv (2023)',
@@ -26444,8 +26473,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'DNA Pite\u0219ti l-a trimis \u00een judecat\u0103 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. DNA a consemnat ulterior c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023. \u00cen iunie 2024, Aurel B\u0103l\u0103\u0219oiu a c\u00e2\u0219tigat un nou mandat de primar al comunei Rociu candid\u00e2nd din partea PNL.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26456,6 +26485,11 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'HotNews',
+        kind: 'press',
+        url: 'https://hotnews.ro/rezultate-alegeri-locale-2024-deputatul-aurel-balasoiu-exclus-din-psd-n-urma-unui-scandal-sexual-a-cstigat-primaria-rociu-din-arges-a-candidat-din-partea-pnl-1533380',
       },
     ],
   },
@@ -26471,7 +26505,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26497,7 +26531,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26516,14 +26550,17 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Fost primar al comunei Corbeni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
-    crime: 'Abuz \u00een serviciu',
-    sentence: 'Achitat definitiv (2023)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'acquitted',
+    crime:
+      'Complicitate la folosirea de documente false pentru ob\u021binerea de fonduri europene \u0219i schimbarea nelegal\u0103 a destina\u021biei fondurilor; abuz \u00een serviciu \u00eentr-un dosar separat',
+    sentence:
+      '2 ani \u0219i 10 luni \u00eenchisoare cu suspendare; achitat definitiv \u00eentr-un dosar separat (2023)',
+    sentence_years: 2.83,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2014,
+    status: 'convicted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'Curtea de Apel Pite\u0219ti l-a condamnat definitiv la 19 iunie 2014 la 2 ani \u0219i 10 luni de \u00eenchisoare cu suspendare, cu termen de \u00eencercare de 4 ani, pentru infrac\u021biuni privind ob\u021binerea \u0219i folosirea fondurilor europene. Separat, \u00een dosarul contractelor de consultan\u021b\u0103 din Arge\u0219, \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26534,6 +26571,12 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5079',
+        description: 'Condamnarea definitiv\u0103 din 19 iunie 2014',
       },
     ],
   },
@@ -26549,7 +26592,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26574,14 +26617,16 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Fost primar al comunei Cocu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
-    crime: 'Abuz \u00een serviciu',
-    sentence: 'Achitat definitiv (2023)',
+    crime:
+      'Delapidare; furt de energie electric\u0103; folosirea de instala\u021bii clandestine; abuz \u00een serviciu \u00eentr-un dosar separat',
+    sentence:
+      'Cercetat \u00een dosare deschise \u00een 2023\u20132024; achitat definitiv \u00eentr-un dosar separat (2023)',
     sentence_years: null,
     conviction_year: null,
-    status: 'acquitted',
+    status: 'investigated',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
-    verified_at: '2026-04-19',
+      'Presa local\u0103 a relatat c\u0103 poli\u021bi\u0219tii au deschis \u00een 2023 un dosar privind o presupus\u0103 delapidare, iar \u00een septembrie 2024 un alt dosar privind furt de energie electric\u0103, delapidare \u0219i folosirea de instala\u021bii clandestine. Nu am identificat o solu\u021bie procedural\u0103 ulterioar\u0103 verificabil\u0103 p\u00e2n\u0103 la 25 august 2026; acuza\u021biile nu reprezint\u0103 o constatare a vinov\u0103\u021biei. Separat, \u00een dosarul contractelor de consultan\u021b\u0103 din Arge\u0219, \u00ceCCJ l-a achitat definitiv la 24 aprilie 2023.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26599,6 +26644,16 @@ export const politicianAdditions = [
         url: 'https://psdarges.ro/lista-primari/',
         description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
+      {
+        label: 'Curierul zilei',
+        kind: 'press',
+        url: 'https://curier.ro/2023/08/09/primar-acuzat-de-delapidare/',
+      },
+      {
+        label: 'Adev\u0103rul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/pitesti/primarul-gheorghe-tuca-din-comuna-argeseana-cocu-a-2390292.html',
+      },
     ],
   },
   {
@@ -26613,7 +26668,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26639,7 +26694,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza surselor oficiale PSD Arge\u0219, inclusiv articolul din aprilie 2024 care \u00eel men\u021bioneaz\u0103 ca primar al comunei D\u00e2mbovicioara \u0219i pre\u0219edinte al organiza\u021biei locale PSD.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26661,17 +26716,20 @@ export const politicianAdditions = [
   },
   {
     name: 'Cristescu Alexandru-Adrian',
-    party: 'PSD',
+    party: 'PUSL',
     position: 'Fost primar al comunei M\u0103lureni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
-    crime: 'Abuz \u00een serviciu',
-    sentence: 'Achitat definitiv (2023)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'acquitted',
+    crime:
+      'Favorizarea f\u0103ptuitorului; abuz \u00een serviciu \u00eentr-un dosar separat',
+    sentence:
+      '1 an \u00eenchisoare cu suspendare; achitat definitiv \u00eentr-un dosar separat (2023)',
+    sentence_years: 1,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2017,
+    status: 'convicted',
     details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+      'Curtea de Apel Pite\u0219ti l-a condamnat definitiv la 9 mai 2017 la 1 an de \u00eenchisoare cu suspendare sub supraveghere, cu termen de supraveghere de 2 ani, pentru favorizarea unor persoane cercetate pentru braconaj. Separat, \u00een dosarul contractelor de consultan\u021b\u0103 din Arge\u0219, \u00ceCCJ l-a achitat definitiv la 24 aprilie 2023. La alegerile locale din 2024 a candidat la Prim\u0103ria M\u0103lureni din partea PUSL, f\u0103r\u0103 a c\u00e2\u0219tiga mandatul.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26682,6 +26740,17 @@ export const politicianAdditions = [
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+      },
+      {
+        label: 'Jurnalul de Argeș',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/dosarul-de-braconaj-il-lasa-fara-mandat-pe-edilul-de-la-malureni-38667/',
+        description: 'Hotărârea definitivă din 9 mai 2017',
+      },
+      {
+        label: 'CJ Argeș',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/web/malureni/alegeri-9-iunie-2024',
       },
     ],
   },
@@ -26697,7 +26766,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26723,7 +26792,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea.',
-    verified_at: '2026-05-11',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26754,7 +26823,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA a trimis \u00een judecat\u0103 \u00een noiembrie 2015 dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219, iar \u00een actualizarea oficial\u0103 din 5 februarie 2024 a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat ca Independent p\u00e2n\u0103 la confirmarea din surse mai puternice a apartenen\u021bei de partid.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26780,7 +26849,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA a trimis \u00een judecat\u0103 \u00een noiembrie 2015 dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219, iar \u00een actualizarea oficial\u0103 din 5 februarie 2024 a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. Apartenen\u021ba la PSD este confirmat\u0103 de presa local\u0103 \u00een lista ale\u0219ilor locali PSD din Arge\u0219 viza\u021bi de dosare de integritate.',
-    verified_at: '2026-05-11',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26802,7 +26871,7 @@ export const politicianAdditions = [
   {
     name: 'Andrei Nicolae',
     party: 'PSD',
-    position: 'Viceprimar al comunei M\u0103lureni, jude\u021bul Arge\u0219',
+    position: 'Consilier local al comunei M\u0103lureni, jude\u021bul Arge\u0219; fost viceprimar',
     position_type: 'local_official',
     crime: 'Abuz \u00een serviciu',
     sentence: 'Achitat definitiv (2023)',
@@ -26810,8 +26879,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a consemnat \u00een actualizarea oficial\u0103 din 5 februarie 2024 c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea. L-am p\u0103strat la PSD pe baza profilului s\u0103u oficial recent de viceprimar al comunei M\u0103lureni.',
-    verified_at: '2026-04-19',
+      'DNA a consemnat \u00een actualizarea oficial\u0103 din 5 februarie 2024 c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Pagina oficial\u0103 a comunei pentru mandatul 2024\u20132028 \u00eel listeaz\u0103 drept consilier local PSD; anterior a fost viceprimar \u0219i a exercitat temporar atribu\u021bii de primar.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26821,33 +26890,7 @@ export const politicianAdditions = [
       {
         label: 'CJ Arge\u0219',
         kind: 'official',
-        url: 'https://www.cjarges.ro/web/malureni/viceprimar',
-      },
-    ],
-  },
-  {
-    name: 'Cioflan Iulian',
-    party: 'Independent',
-    position: 'Fost director executiv al Agen\u021biei de Implementare a Proiectelor Arge\u0219',
-    position_type: 'local_official',
-    crime: 'Abuz \u00een serviciu',
-    sentence: 'Achitat definitiv (2023)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'acquitted',
-    details:
-      'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014, iar apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea sa definitiv\u0103 la 24 aprilie 2023, \u00eentruc\u00e2t faptele nu exist\u0103 ori nu exist\u0103 probe c\u0103 persoana a s\u0103v\u00e2r\u0219it infrac\u021biunea.',
-    verified_at: '2026-04-19',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=6888',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=4701',
+        url: 'https://www.cjarges.ro/en/web/malureni/andrei-nicolae2',
       },
     ],
   },
@@ -26863,7 +26906,7 @@ export const politicianAdditions = [
     status: 'closed',
     details:
       'DNA Pite\u0219ti l-a vizat ini\u021bial \u00een martie 2014 \u0219i apoi l-a trimis \u00een judecat\u0103 \u00een noiembrie 2015 \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Prin actualizarea oficial\u0103 din 5 februarie 2024, DNA a consemnat c\u0103 \u00ceCCJ a dispus \u00eencetarea procesului penal fa\u021b\u0103 de el, ca urmare a decesului inculpatului.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26932,16 +26975,17 @@ export const politicianAdditions = [
   {
     name: 'Ion Georgescu',
     party: 'PSD',
-    position: 'Primar al ora\u0219ului Mioveni, jude\u021bul Arge\u0219',
+    position: 'Fost primar al ora\u0219ului Mioveni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
-    crime: 'Trafic de influen\u021b\u0103',
-    sentence: 'Trimis \u00een judecat\u0103 pentru trafic de influen\u021b\u0103',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    crime: 'Trafic de influen\u021b\u0103; fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103 \u0219i fals \u00een declara\u021bii \u00eentr-un dosar separat',
+    sentence: '3 ani \u00eenchisoare cu executare \u00een prim\u0103 instan\u021b\u0103 (2026; hot\u0103r\u00e2re nedefinitiv\u0103)',
+    sentence_years: 3,
+    execution_type: 'Cu executare',
+    conviction_year: 2026,
+    status: 'first_instance',
     details:
-      'DNA Pite\u0219ti a anun\u021bat la 5 octombrie 2023 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa, iar \u00een buletinul oficial din 18 decembrie 2023 a consemnat trimiterea \u00een judecat\u0103 \u00een stare de arest preventiv pentru trafic de influen\u021b\u0103. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat o solu\u021bie definitiv\u0103 oficial\u0103 ulterioar\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul indicted.',
-    verified_at: '2026-04-19',
+      'DNA Pite\u0219ti l-a trimis \u00een judecat\u0103 \u00een 2023 pentru trafic de influen\u021b\u0103. Tribunalul Arge\u0219 l-a condamnat la 24 aprilie 2026, \u00een prim\u0103 instan\u021b\u0103, la 3 ani de \u00eenchisoare cu executare; hot\u0103r\u00e2rea nu este definitiv\u0103. Separat, este judecat din 2024 pentru fals \u00een \u00eenscrisuri sub semn\u0103tur\u0103 privat\u0103 \u0219i fals \u00een declara\u021bii. Nu a candidat la func\u021bia de primar al Mioveniului la alegerile locale din 2024.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26954,9 +26998,20 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12313',
       },
       {
-        label: 'CJ Arge\u0219',
+        label: 'Prim\u0103ria Mioveni',
         kind: 'official',
-        url: 'https://www.cjarges.ro/en/web/mioveni/primar',
+        url: 'https://emioveni.ro/primaria-mioveni/informatii-publice/alegeri/1704-alegeri-locale-2024',
+      },
+      {
+        label: 'Ziarul Ancheta',
+        kind: 'press',
+        url: 'https://anchetaonline.ro/lovitura-fostul-primar-mioveni-georgescu-condamant-inchisoare-313183/',
+        description: 'Hot\u0103r\u00e2rea nedefinitiv\u0103 din 24 aprilie 2026',
+      },
+      {
+        label: 'Ziarul Ancheta',
+        kind: 'press',
+        url: 'https://anchetaonline.ro/georgescu-pasibil-noua-condamnare-337518/',
       },
     ],
   },
@@ -26966,13 +27021,13 @@ export const politicianAdditions = [
     position: 'Primar al ora\u0219ului Topoloveni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een dosarul consultan\u021bei din Arge\u0219',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated.',
-    verified_at: '2026-04-19',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. DNA a clasat cauza la 21 ianuarie 2021; Gheorghi\u021b\u0103 Bo\u021b\u00e2rc\u0103 a confirmat public primirea solu\u021biei de clasare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -26984,6 +27039,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.cjarges.ro/web/topoloveni/primar',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -26992,13 +27052,13 @@ export const politicianAdditions = [
     position: 'Primar al comunei Arefu, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een dosarul consultan\u021bei din Arge\u0219',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
-    verified_at: '2026-04-19',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. DNA a clasat cauza la 21 ianuarie 2021; Gheorghe Stoican a comentat public solu\u021bia de clasare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27016,6 +27076,11 @@ export const politicianAdditions = [
         url: 'https://psdarges.ro/lista-primari/',
         description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -27024,13 +27089,13 @@ export const politicianAdditions = [
     position: 'Fost primar al municipiului Curtea de Arge\u0219, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een 2014; stadiul procedural ulterior nu este confirmat public',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus la 4 martie 2014, \u00een calitate de suspect, printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Nu am identificat p\u00e2n\u0103 la 20 august 2026 o surs\u0103 oficial\u0103 care s\u0103 stabileasc\u0103 evolu\u021bia sau solu\u021bia acelei acuza\u021bii istorice. Statusul din set descrie ultima etap\u0103 oficial documentat\u0103, nu afirm\u0103 existen\u021ba unei anchete \u00eenc\u0103 active, iar profilul este ascuns editorial.',
-    verified_at: '2026-08-20',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. Potrivit relat\u0103rilor care reproduc solu\u021bia procurorului, DNA a clasat cauza la 21 ianuarie 2021.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27042,6 +27107,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.cjarges.ro/documents/10865/357788/PV_25.02.2016.pdf/d40269c1-c55c-4de5-8f85-9681df969088',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -27050,13 +27120,13 @@ export const politicianAdditions = [
     position: 'Fost primar al comunei Meri\u0219ani, jude\u021bul Arge\u0219; ulterior consilier local',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een 2014; stadiul procedural ulterior nu este confirmat public',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus la 4 martie 2014, \u00een calitate de suspect, printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. Pagina oficial\u0103 a administra\u021biei locale \u00eel indic\u0103 ulterior drept consilier local. Nu am identificat p\u00e2n\u0103 la 20 august 2026 o surs\u0103 oficial\u0103 care s\u0103 stabileasc\u0103 evolu\u021bia sau solu\u021bia acuza\u021biei istorice. Statusul din set descrie ultima etap\u0103 oficial documentat\u0103, nu afirm\u0103 existen\u021ba unei anchete \u00eenc\u0103 active, iar profilul este ascuns editorial.',
-    verified_at: '2026-08-20',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. Potrivit relat\u0103rilor care reproduc solu\u021bia procurorului, DNA a clasat cauza la 21 ianuarie 2021. Pagina oficial\u0103 a administra\u021biei locale \u00eel indic\u0103 ulterior drept consilier local.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27068,6 +27138,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.cjarges.ro/en/web/merisani/dumitrescu-mihail',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -27076,13 +27151,13 @@ export const politicianAdditions = [
     position: 'Primar al comunei Priboieni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een dosarul consultan\u021bei din Arge\u0219',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated. Pentru afilierea politic\u0103, l-am reclasificat la PSD pe baza paginii oficiale PSD Arge\u0219 care \u00eel listeaz\u0103 \u00eentre primarii partidului din jude\u021b.',
-    verified_at: '2026-04-19',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. Potrivit relat\u0103rilor despre solu\u021bia comunicat\u0103 persoanelor cercetate, DNA a clasat cauza la 21 ianuarie 2021.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27100,6 +27175,11 @@ export const politicianAdditions = [
         url: 'https://psdarges.ro/lista-primari/',
         description: 'Lista oficial\u0103 a primarilor PSD din jude\u021bul Arge\u0219',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -27108,13 +27188,13 @@ export const politicianAdditions = [
     position: 'Fost primar al comunei Godeni, jude\u021bul Arge\u0219',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu',
-    sentence: 'Cercetat de DNA \u00een dosarul consultan\u021bei din Arge\u0219',
+    sentence: 'Dosar clasat de DNA (2021)',
     sentence_years: null,
     conviction_year: null,
-    status: 'investigated',
+    status: 'closed',
     details:
-      'DNA Pite\u0219ti l-a inclus \u00een martie 2014 printre primarii cerceta\u021bi \u00een dosarul contractelor de consultan\u021b\u0103 din jude\u021bul Arge\u0219. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior care s\u0103 anun\u021be trimiterea sa \u00een judecat\u0103 sau o solu\u021bie definitiv\u0103 \u00een acea cauz\u0103, astfel c\u0103 \u00eel p\u0103strez la statusul investigated. L-am p\u0103strat la PSD pe baza paginii oficiale pentru mandatul 2016-2020.',
-    verified_at: '2026-04-19',
+      'DNA Pite\u0219ti l-a cercetat \u00een dosarul \u201eConsultan\u021ba 2\u201d, disjuns \u00een 2015. DNA a clasat cauza la 21 ianuarie 2021; Ion P\u0103dureanu a confirmat public primirea solu\u021biei de clasare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27126,6 +27206,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.cjarges.ro/web/godeni/primar-mandat-2016-2020',
       },
+      {
+        label: 'Jurnalul de Arge\u0219',
+        kind: 'press',
+        url: 'https://jurnaluldearges.ro/primarii-cu-decizii-de-clasare-in-dosarul-consultanta-2-vorbesc-despre-cei-5-ani-de-calvar-118969/',
+      },
     ],
   },
   {
@@ -27136,11 +27221,12 @@ export const politicianAdditions = [
     crime: 'Instigare la folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
     sentence: '4 ani \u00eenchisoare cu suspendare sub supraveghere',
     sentence_years: 4,
+    execution_type: 'Cu suspendare',
     conviction_year: 2013,
     status: 'convicted',
     details:
       'DNA Ploie\u0219ti a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 4 decembrie 2013 condamnarea sa la 4 ani de \u00eenchisoare cu suspendarea execut\u0103rii sub supraveghere pentru fapte legate de ob\u021binerea pe nedrept de fonduri europene.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27157,11 +27243,12 @@ export const politicianAdditions = [
     crime: 'Luare de mit\u0103',
     sentence: '5 ani \u00eenchisoare',
     sentence_years: 5,
+    execution_type: 'Cu executare',
     conviction_year: 2014,
     status: 'convicted',
     details:
       'DNA a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 24 ianuarie 2014 condamnarea sa la 5 ani de \u00eenchisoare pentru luare de mit\u0103.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27178,11 +27265,12 @@ export const politicianAdditions = [
     crime: 'Folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
     sentence: '6 luni \u00eenchisoare cu suspendare',
     sentence_years: 0.5,
+    execution_type: 'Cu suspendare',
     conviction_year: 2013,
     status: 'convicted',
     details:
       'DNA Ia\u0219i a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 24 ianuarie 2013 condamnarea sa la 6 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru ob\u021binerea pe nedrept de fonduri europene.',
-    verified_at: '2026-05-11',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27204,11 +27292,12 @@ export const politicianAdditions = [
     crime: 'Luare de mit\u0103',
     sentence: '4 ani \u00eenchisoare',
     sentence_years: 4,
+    execution_type: 'Cu executare',
     conviction_year: 2014,
     status: 'convicted',
     details:
       'DNA a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 29 august 2014 condamnarea sa la 4 ani de \u00eenchisoare pentru luare de mit\u0103 \u00een form\u0103 continuat\u0103, cu confiscarea sumelor de 250.000 lei \u0219i 100.000 euro.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27225,11 +27314,12 @@ export const politicianAdditions = [
     crime: 'Instigare la folosirea sau prezentarea de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene',
     sentence: '1 an \u00eenchisoare cu suspendare',
     sentence_years: 1,
+    execution_type: 'Cu suspendare',
     conviction_year: 2013,
     status: 'convicted',
     details:
       'DNA a consemnat prin hot\u0103r\u00e2rea definitiv\u0103 din 27 martie 2013 condamnarea sa la 1 an de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru instigare la ob\u021binerea pe nedrept de fonduri europene.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27250,7 +27340,7 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Ploie\u0219ti a anun\u021bat la 18 august 2016 trimiterea sa \u00een judecat\u0103 \u00een stare de libertate pentru mai multe infrac\u021biuni legate de fonduri europene \u0219i exercitarea func\u021biei. P\u00e2n\u0103 la 19 aprilie 2026 nu am identificat un comunicat DNA ulterior cu o solu\u021bie definitiv\u0103 \u00een aceast\u0103 cauz\u0103.',
-    verified_at: '2026-04-19',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27293,7 +27383,7 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Pite\u0219ti a anun\u021bat la 8 aprilie 2026 trimiterea sa \u00een judecat\u0103, \u00een stare de libertate, \u00een dosarul privind achizi\u021bia unor locuin\u021be protejate de c\u0103tre D.G.A.S.P.C. Arge\u0219. Procurorii sus\u021bin c\u0103, \u00een calitate de vicepre\u0219edinte al Consiliului Jude\u021bean Arge\u0219, ar fi comunicat informa\u021bii nepublice \u0219i ar fi sprijinit o achizi\u021bie public\u0103 viciat\u0103, cu un prejudiciu estimat de 316.000 lei \u0219i un folos necuvenit de peste 1,14 milioane lei pentru societatea v\u00e2nz\u0103toare.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27325,7 +27415,7 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Craiova a anun\u021bat la 9 aprilie 2026 trimiterea sa \u00een judecat\u0103 pentru fapte din perioada \u00een care era primar al comunei Poiana Mare. Dosarul prive\u0219te dou\u0103 contracte de lucr\u0103ri pentru drumuri locale, \u00een care procurorii sus\u021bin c\u0103 ar fi fost folosite \u00eenscrisuri false pentru ob\u021binerea sau justificarea unor pl\u0103\u021bi, cu p\u0103r\u021bi civile MDLPA \u0219i UAT Poiana Mare.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27352,7 +27442,7 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Craiova a anun\u021bat la 9 aprilie 2026 trimiterea sa \u00een judecat\u0103 pentru fapte din perioada \u00een care era viceprimar al comunei Poiana Mare. Rechizitoriul men\u021bioneaz\u0103 semnarea unor documente de lucr\u0103ri care ar fi atestat lucr\u0103ri neexecutate efectiv \u00een dou\u0103 proiecte de drumuri locale.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -87658,7 +87748,6 @@ export const countyOverrides = {
   'Tarb\u0103 Mihai Gheorghe': 'Arge\u0219',
   'Luca Ion': 'Arge\u0219',
   'Andrei Nicolae': 'Arge\u0219',
-  'Cioflan Iulian': 'Arge\u0219',
   'Ciobanu Marcel': 'Arge\u0219',
   '\u0218erban Niculae': 'Arge\u0219',
   'Sm\u0103du Nicolae': 'Arge\u0219',

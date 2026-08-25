@@ -2,69 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "Costel Vieriu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0588"
-    },
-    "Ion Georgescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0628"
-    },
-    "Boțârcă Gheorghiță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0629"
-    },
-    "Stoican Gheorghe": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0630"
-    },
-    "Lupu Sorin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0633"
-    },
-    "Pădureanu Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0634"
-    },
-    "Marius Florinel Nicolaescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0642"
-    },
-    "Vintilă Marin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0643"
-    },
-    "Cristian-Nicolae Ologu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0644"
-    },
     "George Lazăr": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -3719,20 +3656,6 @@
       ],
       "profile_id": "RV-0581"
     },
-    "Diaconu Nicolae": {
-      "held_at": "2026-08-20",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0631"
-    },
-    "Dumitrescu Mihail": {
-      "held_at": "2026-08-20",
-      "reasons": [
-        "insufficient_current_evidence"
-      ],
-      "profile_id": "RV-0632"
-    },
     "Haneș Gheorghe": {
       "held_at": "2026-08-20",
       "reasons": [
@@ -4215,6 +4138,48 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0582"
+    },
+    "Costel Vieriu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0588"
+    },
+    "Țucă Gheorghe": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0615"
+    },
+    "Ion Georgescu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0628"
+    },
+    "Marius Florinel Nicolaescu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0642"
+    },
+    "Vintilă Marin": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0643"
+    },
+    "Cristian-Nicolae Ologu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0644"
     }
   }
 }
