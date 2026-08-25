@@ -13919,13 +13919,13 @@ export const politicianOverrides = {
     prejudiciu_eur: 22256.474,
     prejudiciu_text:
       'Comunicatul DNA din 17 octombrie 2019 indică obligația de plată a sumei de 111.282,37 lei către APIA Mehedinți, reprezentând prejudiciul cauzat prin încasarea necuvenită a sprijinului acordat.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
   },
   'Gheorghe Vișovan': {
     prejudiciu_eur: 726089.2,
     prejudiciu_text:
       'Comunicatul DNA din 28 februarie 2017 indică un prejudiciu de 3.630.446 lei în dosarul proiectului european de la Moisei.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
   },
   'Ștefan Ionescu': {
     prejudiciu_eur: 132108.23,
@@ -13943,7 +13943,7 @@ export const politicianOverrides = {
     prejudiciu_eur: 267826.478,
     prejudiciu_text:
       'Comunicatul DNA din 9 iulie 2020 indică obligația de plată a sumei de 1.339.132,39 lei către APIA Timiș.',
-    verified_at: '2026-04-10',
+    verified_at: '2026-08-25',
   },
   'Adrian Nicolae Domocoș': {
     prejudiciu_eur: 52058,
@@ -14293,7 +14293,7 @@ export const politicianOverrides = {
     ],
   },
   'Sorin Apostu': {
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -15583,7 +15583,7 @@ export const politicianOverrides = {
   },
   'Gálfi Árpád': {
     party: 'Partidul pentru Odorheiu Secuiesc',
-    verified_at: '2026-04-16',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Informația Harghitei',
@@ -16220,10 +16220,16 @@ const AUTOMATED_JUL_10_2026_PIRVULESCU_SENATE_SOURCE = {
   url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=b085ef9f-c0af-476f-b21f-c6478fffee18',
 };
 
-const AUTOMATED_JUL_10_2026_PIRVULESCU_PARTY_SOURCE = {
-  label: 'Radio România Actualități',
-  kind: 'press',
-  url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-senator-liberal-eugen-pirvulescu-a-fost-achitat-de-iccj-id220549.html',
+const AUTOMATED_AUG_25_2026_PIRVULESCU_ORNISS_DNA_SOURCE = {
+  label: 'DNA — dosarul ORNISS',
+  kind: 'official',
+  url: 'https://www.dna.ro/comunicat.xhtml?id=12706',
+};
+
+const AUTOMATED_AUG_25_2026_PIRVULESCU_RESIGNATION_SOURCE = {
+  label: 'Senatul României — stenograma din 7 octombrie 2024',
+  kind: 'official',
+  url: 'https://www.senat.ro/PAGINI/Stenograme/Stenograme_2024/Plen/24.10.07.pdf',
 };
 
 const AUTOMATED_JUL_10_2026_FAGADAU_DNA_SOURCE = {
@@ -16322,7 +16328,7 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează că decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara a dispus achitarea definitivă, întrucât fapta nu este prevăzută de legea penală.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE, AUTOMATED_JUL_10_2026_ROBU_PARTY_SOURCE],
   },
   {
@@ -16342,7 +16348,7 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează achitarea definitivă prin decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [
       AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE,
       AUTOMATED_JUL_10_2026_DIACONU_PARTY_SOURCE,
@@ -16365,7 +16371,7 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează achitarea definitivă prin decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [
       AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE,
       AUTOMATED_JUL_10_2026_STOIA_PARTY_SOURCE,
@@ -16468,7 +16474,7 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
   },
   {
     name: 'Eugen Pîrvulescu',
-    party: 'PNL',
+    party: 'Independent',
     position: 'Fost senator de Teleorman; fost președinte PNL Teleorman',
     position_type: 'senator',
     geography: {
@@ -16477,18 +16483,19 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
       note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Teleorman.',
     },
     crime:
-      'Folosirea influenței sau autorității funcției de conducere într-un partid; divulgarea informațiilor secrete de serviciu sau nepublice',
-    sentence: 'Achitat definitiv pentru folosirea influenței; proces încetat prin prescripție pentru divulgare (2026)',
+      'Instigare la cumpărare de influență (dosarul ORNISS); folosirea influenței sau autorității funcției de conducere într-un partid; divulgarea informațiilor secrete de serviciu sau nepublice',
+    sentence: 'Anchetă în curs într-un dosar distinct; achitat și, respectiv, prescris definitiv în dosarul anterior',
     sentence_years: null,
     conviction_year: null,
-    status: 'acquitted',
+    status: 'investigated',
     details:
-      'DNA a consemnat actualizarea din 22 mai 2026: ÎCCJ a dispus achitarea pentru infracțiunea de folosire a influenței, întrucât fapta nu este prevăzută de legea penală, și încetarea procesului pentru divulgarea informațiilor ca urmare a prescripției.',
-    verified_at: '2026-07-10',
+      'Într-un dosar distinct, DNA a pus în mișcare acțiunea penală la 11 octombrie 2024 pentru instigare la cumpărare de influență, în legătură cu presupusa urgentare a unui aviz ORNISS; nu a fost identificată o soluție publică ulterioară până la verificare. În dosarul privind concursurile de la Ambulanța Teleorman, ÎCCJ a dispus definitiv la 2 martie 2026 achitarea pentru folosirea influenței, deoarece fapta nu este prevăzută de legea penală, și încetarea procesului pentru divulgarea informațiilor ca urmare a prescripției. Senatul a consemnat demisia sa din PNL la 7 octombrie 2024 și activitatea ulterioară ca senator neafiliat.',
+    verified_at: '2026-08-25',
     sources: [
+      AUTOMATED_AUG_25_2026_PIRVULESCU_ORNISS_DNA_SOURCE,
       AUTOMATED_JUL_10_2026_PIRVULESCU_DNA_SOURCE,
       AUTOMATED_JUL_10_2026_PIRVULESCU_SENATE_SOURCE,
-      AUTOMATED_JUL_10_2026_PIRVULESCU_PARTY_SOURCE,
+      AUTOMATED_AUG_25_2026_PIRVULESCU_RESIGNATION_SOURCE,
     ],
   },
   {
@@ -16508,7 +16515,7 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în decembrie 2020 în dosarul vânzării a trei terenuri din domeniul privat al municipiului Constanța. Presa locală a consemnat achitarea definitivă pronunțată de Curtea de Apel Constanța la 13 august 2024.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [
       AUTOMATED_JUL_10_2026_FAGADAU_DNA_SOURCE,
       AUTOMATED_JUL_10_2026_FAGADAU_CONSTANTA_SOURCE,
@@ -16536,7 +16543,7 @@ const AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'Înalta Curte de Casație și Justiție a condamnat-o definitiv în mai 2019 la 2 ani închisoare cu suspendare pentru trafic de influență, în cauza privind exercitarea funcției de viceprimar al municipiului Cluj-Napoca.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [AUTOMATED_JUL_10_2026_HORVATH_DNA_SOURCE, AUTOMATED_JUL_10_2026_HORVATH_UDMR_SOURCE],
   },
   {
@@ -16557,7 +16564,7 @@ const AUTOMATED_JUL_10_2026_SECOND_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Craiova a condamnat-o definitiv în iulie 2018 la 2 ani închisoare cu suspendare pentru trafic de influență. Presa locală a consemnat calitatea sa de fost președinte PNL Craiova și membru PNL până în mai 2014.',
-    verified_at: '2026-07-10',
+    verified_at: '2026-08-25',
     sources: [AUTOMATED_JUL_10_2026_CRAIOVA_JOBS_DNA_SOURCE, AUTOMATED_JUL_10_2026_CALANGIU_PNL_SOURCE],
   },
 ];
@@ -16718,7 +16725,7 @@ const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'DNA a comunicat condamnarea definitivă din februarie 2015 a fostului deputat Sorin Gheorghe Buta, iar profilul Camerei Deputaților îl leagă de grupul PDL și de circumscripția Argeș.',
-    verified_at: '2026-07-13',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -16742,15 +16749,16 @@ const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
       basis: 'constituency',
       note: 'Mandatul parlamentar relevant a fost de senator de Maramureș.',
     },
-    crime: 'Trădare prin transmitere de secrete; aderare la grup infracțional organizat',
+    crime:
+      'Constituirea unui grup infracțional organizat; divulgarea informațiilor secrete de serviciu sau nepublice; complicitate la abuz în serviciu în formă calificată',
     sentence: '4 ani și 8 luni închisoare cu executare',
     sentence_years: 4.67,
     conviction_year: 2015,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Presa centrală a relatat condamnarea definitivă la 4 ani și 8 luni în dosarul privatizărilor strategice. Sursele parlamentare și biografice publice îl leagă de Partidul Conservator și de mandatul de senator de Maramureș.',
-    verified_at: '2026-07-13',
+      'Prin decizia penală nr. 11 din 27 ianuarie 2015, ÎCCJ l-a condamnat definitiv la pedeapsa rezultantă de 4 ani și 8 luni pentru constituirea unui grup infracțional organizat și divulgarea de informații secrete de serviciu sau nepublice; acuzația de trădare prin transmitere de secrete nu a rămas în condamnarea definitivă. La 29 februarie 2016 a primit o a doua condamnare definitivă, de 4 ani cu executare, pentru complicitate la abuz în serviciu în formă calificată în dosarul Hidroelectrica. La 25 noiembrie 2025, ÎCCJ a admis cererea sa de reabilitare judecătorească; profilul descrie în continuare hotărârile istorice de condamnare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Senatul României',
@@ -16758,9 +16766,19 @@ const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=38386E2E-0D2B-452C-BD9D-4386151A90B8',
       },
       {
-        label: 'Știrile ProTV',
+        label: 'ÎCCJ — decizia penală nr. 11/2015 (copie integrală)',
+        kind: 'official',
+        url: 'https://juri.ro/static/files/2015/noiembrie_2015/02/ICCJ_decizia_11_per_2015_dosarul_privatizarilor_strategice.pdf',
+      },
+      {
+        label: 'Radio România Actualități — dosarul Hidroelectrica',
+        kind: 'reliable_media',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/codrut-seres-condamnat-definitiv-la-4-ani-de-inchisoare-id81596.html',
+      },
+      {
+        label: 'Evenimentul Zilei — reabilitarea judecătorească',
         kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-ministru-al-economiei-codrut-seres-a-fost-condamnat-definitiv-la-4-ani-si-8-luni-de-inchisoare-cu-executare.html',
+        url: 'https://evz.ro/codrut-seres-reabilitat-in-dosarele-privatizarilor-si-hidroelectrica-decizia-iccj.html',
       },
     ],
   },
@@ -22839,7 +22857,7 @@ export const politicianAdditions = [
   {
     name: 'Gergely Olosz',
     party: 'UDMR',
-    position: 'Senator; fost președinte ANRE',
+    position: 'Fost senator de Covasna; fost președinte ANRE',
     position_type: 'senator',
     geography: {
       county: 'Covasna',
@@ -22854,7 +22872,7 @@ export const politicianAdditions = [
     execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea definitivă pronunțată de ÎCCJ la 20 decembrie 2018, într-un dosar privind trafic de influență legat de contracte pentru firme private.',
-    verified_at: '2026-04-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -22876,26 +22894,27 @@ export const politicianAdditions = [
   {
     name: 'Sorin Apostu',
     party: 'PDL',
-    position: 'Primar al municipiului Cluj-Napoca (2009-2012)',
+    position: 'Fost primar al municipiului Cluj-Napoca (2009-2012)',
     position_type: 'mayor',
-    crime: 'Luare de mită; trafic de influență; complicitate la spălare de bani; fals',
-    sentence: '4 ani și 6 luni închisoare',
+    crime: 'Luare de mită; complicitate la spălare de bani; fals în înscrisuri sub semnătură privată',
+    sentence: '4 ani și 6 luni închisoare cu executare',
     sentence_years: 4.5,
     conviction_year: 2014,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'Condamnat definitiv pentru fapte de corupție legate de contracte de salubrizare și de asigurare ale unor instituții subordonate Primăriei Cluj-Napoca.',
-    verified_at: '2026-03-21',
+      'ÎCCJ l-a condamnat definitiv la 7 iulie 2014 la 4 ani și 6 luni închisoare pentru luare de mită, complicitate la spălare de bani și fals în înscrisuri sub semnătură privată, toate în formă continuată. Traficul de influență, menționat anterior în profil, nu figurează între infracțiunile din dispozitivul definitiv publicat de DNA.',
+    verified_at: '2026-08-25',
     sources: [
+      {
+        label: 'DNA',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5152',
+      },
       {
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/stiri/actualitate/justitie/sorin-apostu-fost-primar-al-clujului-condamnat-la-patru-ani-si-sase-luni-de-inchisoare-s-a-predat-la-politie-265929',
-      },
-      {
-        label: 'Wikipedia',
-        kind: 'profile',
-        url: 'https://en.wikipedia.org/wiki/Sorin_Apostu',
       },
     ],
   },
@@ -22928,7 +22947,7 @@ export const politicianAdditions = [
   {
     name: 'Romeo Stavarache',
     party: 'PNL',
-    position: 'Primar al municipiului Bac\u0103u (2004-2016)',
+    position: 'Fost primar al municipiului Bac\u0103u (2004-2016)',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
     sentence: '4 ani \u00eenchisoare cu executare',
@@ -22936,8 +22955,8 @@ export const politicianAdditions = [
     conviction_year: 2017,
     status: 'convicted',
     details:
-      'Condamnat definitiv de \u00ceCCJ \u00een noiembrie 2017 pentru c\u0103 a primit sume de bani \u0219i bunuri de la oameni de afaceri \u00een schimbul favoriz\u0103rii unor contracte publice derulate prin Prim\u0103ria Bac\u0103u.',
-    verified_at: '2026-03-22',
+      'Curtea de Apel T\u00e2rgu Mure\u0219 l-a condamnat definitiv la 3 noiembrie 2017 la 4 ani \u00eenchisoare pentru luare de mit\u0103. Profilul indica anterior, eronat, \u00ceCCJ drept instan\u021b\u0103 a hot\u0103r\u00e2rii definitive.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -22948,7 +22967,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Mircia Gut\u0103u',
-    party: 'PDL',
+    party: 'PSD',
     position: 'Primar al municipiului R\u00e2mnicu V\u00e2lcea',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu contra intereselor publice, \u00een form\u0103 continuat\u0103',
@@ -22958,19 +22977,24 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Condamnat definitiv \u00een iunie 2014 \u00een dosarul privind acordarea nelegal\u0103 a unor sporuri salariale \u00een Prim\u0103ria R\u00e2mnicu V\u00e2lcea. Aceasta este condamnarea definitiv\u0103 r\u0103mas\u0103 \u00een vigoare \u00een dosarele DNA care l-au vizat.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5031',
       },
+      {
+        label: 'AGERPRES — preluarea mandatului 2024-2028',
+        kind: 'reliable_media',
+        url: 'https://agerpres.ro/administratie/2024/10/25/valcea-primarul-ramnicului-mircia-gutau-a-preluat-al-cincilea-mandat-fostul-viceprimar-pirvulescu-pr--1377060',
+      },
     ],
   },
   {
     name: 'Emilian Fr\u00e2ncu',
     party: 'PNL',
-    position: 'Primar al municipiului R\u00e2mnicu V\u00e2lcea (2012-2014); fost deputat',
+    position: 'Fost primar al municipiului R\u00e2mnicu V\u00e2lcea (2012-2014); fost deputat',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
     sentence: '4 ani \u00eenchisoare cu executare',
@@ -22978,8 +23002,8 @@ export const politicianAdditions = [
     conviction_year: 2014,
     status: 'convicted',
     details:
-      'Condamnat definitiv de \u00ceCCJ \u00een martie 2014 dup\u0103 ce DNA a sus\u021binut c\u0103 a pretins \u0219i primit 20.000 euro pentru a interveni \u00een favoarea unui om de afaceri \u00een leg\u0103tur\u0103 cu avizarea unui contract public.',
-    verified_at: '2026-03-22',
+      'Curtea de Apel Bucure\u0219ti l-a condamnat definitiv la 26 martie 2014 la 4 ani \u00eenchisoare pentru luare de mit\u0103. Profilul indica anterior, eronat, \u00ceCCJ drept instan\u021b\u0103 a hot\u0103r\u00e2rii definitive.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23022,28 +23046,34 @@ export const politicianAdditions = [
   {
     name: 'B\u0103ran Auric\u0103',
     party: 'PDL',
-    position: 'Primar al comunei Tormac (jude\u021bul Timi\u0219)',
+    position: 'Fost primar al comunei Tormac (2000-2012)',
     position_type: 'mayor',
-    crime: 'Abuz \u00een serviciu; folosire de documente false pentru fonduri europene; fals intelectual',
-    sentence: '9 ani \u0219i 9 luni \u00eenchisoare',
+    crime: 'Abuz \u00een serviciu cu ob\u021binere de folos necuvenit; fraud\u0103 cu fonduri europene; \u00een\u0219el\u0103ciune; infrac\u021biuni de fals',
+    sentence: '9 ani \u0219i 9 luni \u00eenchisoare cu executare (2020); condamnare separat\u0103 la 7 ani \u0219i 6 luni (2016)',
     sentence_years: 9.75,
     conviction_year: 2020,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'Condamnat definitiv \u00een noiembrie 2020 \u00eentr-un dosar DNA privind atribuirea nelegal\u0103 a unor lucr\u0103ri finan\u021bate din fonduri europene \u0219i falsificarea documenta\u021biei folosite pentru decontare. Anterior primise \u0219i o condamnare definitiv\u0103 separat\u0103 \u00een alt dosar de fraud\u0103 cu fonduri UE.',
-    verified_at: '2026-03-22',
+      'Curtea de Apel Timi\u0219oara l-a condamnat definitiv la 19 noiembrie 2020 la 9 ani \u0219i 9 luni pentru abuz \u00een serviciu cu ob\u021binere de folos necuvenit, \u00eentr-un dosar privind pl\u0103\u021bi nelegale ale Prim\u0103riei Tormac. Separat, la 4 februarie 2016, aceea\u0219i instan\u021b\u0103 \u00eel condamnase definitiv la 7 ani \u0219i 6 luni pentru fraud\u0103 cu fonduri europene, \u00een\u0219el\u0103ciune \u0219i mai multe infrac\u021biuni de fals. A fost primar al comunei Tormac \u00een perioada 2000-2012.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10133',
       },
+      {
+        label: 'DNA — condamnarea definitiv\u0103 din 2016',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7176',
+      },
     ],
   },
   {
     name: 'Mihail Boldea',
     party: 'PDL',
-    position: 'Deputat de Gala\u021bi (2008-2012)',
+    position: 'Fost deputat de Gala\u021bi (2008-2012)',
     position_type: 'deputy',
     crime: 'Sp\u0103lare de bani',
     sentence: 'Achitat definitiv (2021)',
@@ -23052,7 +23082,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA a comunicat mai \u00eent\u00e2i condamnarea sa definitiv\u0103 cu suspendare din iulie 2020, dar a actualizat ulterior fi\u0219a cauzei: \u00een octombrie 2021, \u00ceCCJ a admis recursurile \u00een casa\u021bie \u0219i a dispus achitarea sa definitiv\u0103 pentru sp\u0103lare de bani.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23064,7 +23094,7 @@ export const politicianAdditions = [
   {
     name: 'Dan P\u0103sat',
     party: 'PDL',
-    position: 'Deputat de Giurgiu (2008-2012)',
+    position: 'Fost deputat de Giurgiu (2008-2012)',
     position_type: 'deputy',
     crime: '\u0218antaj; opera\u021biuni financiare incompatibile cu func\u021bia',
     sentence: '3 ani \u00eenchisoare cu executare',
@@ -23073,7 +23103,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Condamnat definitiv de \u00ceCCJ \u00een decembrie 2013 dup\u0103 ce DNA a re\u021binut c\u0103 \u0219i-a folosit influen\u021ba de deputat pentru a constr\u00e2nge reprezentan\u021bii unor firme \u0219i pentru a ob\u021bine beneficii pentru societatea pe care o controla de facto.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23085,7 +23115,7 @@ export const politicianAdditions = [
   {
     name: 'Sorin Andi Pandele',
     party: 'PDL',
-    position: 'Deputat de Arge\u0219 (2008-2012)',
+    position: 'Fost deputat de Arge\u0219 (2008-2012)',
     position_type: 'deputy',
     crime: 'Luare de mit\u0103; abuz \u00een serviciu; fals material \u00een \u00eenscrisuri oficiale',
     sentence: '5 ani \u00eenchisoare cu executare',
@@ -23094,7 +23124,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Condamnat definitiv de \u00ceCCJ \u00een ianuarie 2014 pentru fapte de corup\u021bie comise anterior mandatului parlamentar, c\u00e2nd conducea Oficiul de Cadastru \u0219i Publicitate Imobiliar\u0103 Arge\u0219.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23132,7 +23162,7 @@ export const politicianAdditions = [
   {
     name: 'Cristian Marius Minc\u0103',
     party: 'PNL',
-    position: 'Primar al comunei Cosme\u0219ti (jude\u021bul Teleorman)',
+    position: 'Fost primar al comunei Cosme\u0219ti (jude\u021bul Teleorman)',
     position_type: 'mayor',
     crime: 'Fraud\u0103 cu fonduri europene; fals intelectual',
     sentence: '2 ani, 10 luni \u0219i 20 de zile \u00eenchisoare cu suspendare',
@@ -23141,19 +23171,24 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Condamnat definitiv de Curtea de Apel Bucure\u0219ti \u00een noiembrie 2020 pentru documente false \u0219i opera\u021biuni frauduloase folosite la ob\u021binerea de fonduri europene.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=10155',
       },
+      {
+        label: 'Prim\u0103ria Cosme\u0219ti — conducerea actual\u0103',
+        kind: 'official',
+        url: 'https://primariacosmesti.ro/home/conducere-institutie/',
+      },
     ],
   },
   {
     name: 'Iulian Miliare',
     party: 'PNL',
-    position: 'Primar al comunei Berezeni (jude\u021bul Vaslui)',
+    position: 'Fost primar al comunei Berezeni (2000-2016)',
     position_type: 'mayor',
     crime: 'Folosire sau prezentare cu rea-credin\u021b\u0103 de documente false pentru ob\u021binerea de fonduri europene',
     sentence: '3 ani \u00eenchisoare cu suspendare',
@@ -23162,28 +23197,34 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Condamnat definitiv de Curtea de Apel Ia\u0219i \u00een iunie 2019 \u00eentr-un dosar DNA privind ob\u021binerea nelegal\u0103 de subven\u021bii APIA prin intermediul unei asocia\u021bii locale de cresc\u0103tori de animale.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9525',
       },
+      {
+        label: 'Prim\u0103ria Berezeni — conducerea actual\u0103',
+        kind: 'official',
+        url: 'https://primariaberezeni.ro/',
+      },
     ],
   },
   {
     name: 'Gheorghe Percea',
     party: 'PNL',
-    position: 'Primar al comunei Ciclova Rom\u00e2n\u0103 (jude\u021bul Cara\u0219-Severin)',
+    position: 'Fost primar al comunei Ciclova Rom\u00e2n\u0103 (jude\u021bul Cara\u0219-Severin)',
     position_type: 'mayor',
     crime: 'Fraud\u0103 cu fonduri europene',
     sentence: '5 ani \u00eenchisoare',
     sentence_years: 5,
     conviction_year: 2020,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'Condamnat definitiv de Curtea de Apel Timi\u0219oara \u00een martie 2020 pentru folosirea de documente false \u0219i sprijinirea ob\u021binerii nelegale de fonduri europene \u00een contextul unor proiecte agricole.',
-    verified_at: '2026-03-22',
+      'Curtea de Apel Timi\u0219oara l-a condamnat definitiv la 24 martie 2020 la 5 ani de \u00eenchisoare pentru folosirea de documente false care a avut ca rezultat ob\u021binerea pe nedrept de fonduri europene, \u00een form\u0103 continuat\u0103, \u0219i complicitate la aceea\u0219i infrac\u021biune. Hot\u0103r\u00e2rea i-a interzis inclusiv ocuparea func\u021biei de primar; DNA \u00eel identific\u0103 drept primar la data faptelor.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23195,7 +23236,7 @@ export const politicianAdditions = [
   {
     name: 'Gheorghe Vi\u0219ovan',
     party: 'PSD',
-    position: 'Primar al comunei Rozavlea (jude\u021bul Maramure\u0219)',
+    position: 'Fost primar al comunei Rozavlea (jude\u021bul Maramure\u0219)',
     position_type: 'mayor',
     crime: 'Fraud\u0103 cu fonduri europene; schimbarea nelegal\u0103 a destina\u021biei fondurilor europene',
     sentence: '3 ani \u00eenchisoare cu suspendare',
@@ -23203,8 +23244,8 @@ export const politicianAdditions = [
     conviction_year: 2016,
     status: 'convicted',
     details:
-      'Condamnat definitiv de Curtea de Apel Cluj \u00een aprilie 2016 pentru nereguli grave \u00eentr-un proiect finan\u021bat din fonduri SAPARD, \u00een perioada \u00een care conducea Prim\u0103ria Rozavlea.',
-    verified_at: '2026-03-22',
+      'Curtea de Apel Cluj l-a condamnat definitiv la 12 aprilie 2016 la 3 ani de \u00eenchisoare cu suspendare pentru trei infrac\u021biuni privind ob\u021binerea \u0219i folosirea nelegal\u0103 a fondurilor europene. DNA precizeaz\u0103 c\u0103 era primar al comunei Rozavlea la data faptelor, iar prejudiciul de 3.630.446 lei fusese recuperat integral.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23270,8 +23311,8 @@ export const politicianAdditions = [
   {
     name: 'Dan \u0218tefan Motreanu',
     party: 'PNL',
-    position: 'Deputat; fost ministru al agriculturii; actual europarlamentar',
-    position_type: 'deputy',
+    position: 'Europarlamentar PNL; fost ministru al Agriculturii; fost parlamentar',
+    position_type: 'member_european_parliament',
     crime: 'Sp\u0103lare de bani',
     sentence: 'Achitat definitiv (2019)',
     sentence_years: null,
@@ -23279,19 +23320,24 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis \u00een judecat\u0103 \u00een dosarul privind finan\u021barea campaniei electorale din 2008, iar \u00ceCCJ a dispus \u00een iunie 2019 achitarea sa definitiv\u0103 pentru sp\u0103lare de bani, re\u021bin\u00e2nd c\u0103 fapta nu exist\u0103.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6697',
       },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/197647/DAN-STEFAN_MOTREANU/home',
+      },
     ],
   },
   {
     name: 'George-Adrian Scutaru',
     party: 'PNL',
-    position: 'Deputat de Buz\u0103u; ulterior consilier preziden\u021bial',
+    position: 'Fost deputat de Buz\u0103u; fost consilier preziden\u021bial',
     position_type: 'deputy',
     crime: 'Sp\u0103lare de bani',
     sentence: 'Achitat definitiv (2019)',
@@ -23300,7 +23346,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'Trimis \u00een judecat\u0103 de DNA \u00een acela\u0219i dosar privind finan\u021barea campaniei din 2008. Prin decizia definitiv\u0103 din iunie 2019, \u00ceCCJ a dispus achitarea sa pentru sp\u0103lare de bani, constat\u00e2nd c\u0103 fapta nu exist\u0103.',
-    verified_at: '2026-03-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -23539,21 +23585,27 @@ export const politicianAdditions = [
   {
     name: 'Costel Tuli\u021bu',
     party: 'PDL',
-    position: 'Primar al ora\u0219ului Bechet (jude\u021bul Dolj)',
+    position: 'Fost primar al ora\u0219ului Bechet (jude\u021bul Dolj)',
     position_type: 'mayor',
     crime: 'Abuz \u00een serviciu; conflict de interese',
     sentence: '3 ani \u00eenchisoare',
     sentence_years: 3,
     conviction_year: 2016,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'Condamnat definitiv de Curtea de Apel Craiova \u00een 27 octombrie 2016 pentru pl\u0103\u021bi nelegale din fonduri publice \u0219i pentru \u00eencheierea unor contracte care au produs foloase materiale unei rude apropiate, \u00een timp ce era primar al ora\u0219ului Bechet.',
-    verified_at: '2026-03-24',
+      'Curtea de Apel Craiova l-a condamnat definitiv la 27 octombrie 2016 la 3 ani de \u00eenchisoare pentru trei infrac\u021biuni de abuz \u00een serviciu \u0219i conflict de interese, comise \u00een timp ce era primar al ora\u0219ului Bechet. Prim\u0103ria Bechet indic\u0103 un titular actual diferit al func\u021biei.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=7830',
+      },
+      {
+        label: 'Prim\u0103ria Bechet \u2014 primarul actual',
+        kind: 'official',
+        url: 'https://primariabechet.ro/primaria/primar/',
       },
     ],
   },
@@ -24286,8 +24338,8 @@ export const politicianAdditions = [
     conviction_year: 2019,
     status: 'prescribed',
     details:
-      'Condamnat definitiv \u00een 17 octombrie 2019 la 3 ani de \u00eenchisoare cu suspendare pentru ob\u021binerea nelegal\u0103 a unei subven\u021bii APIA. Prin actualizarea oficial\u0103 DNA din 13 martie 2023, Curtea de Apel Craiova a admis contesta\u021bia \u00een anulare \u0219i a \u00eenchis procesul penal ca urmare a intervenirii prescrip\u021biei, men\u021bin\u00e2nd celelalte dispozi\u021bii necontrare.',
-    verified_at: '2026-03-27',
+      'Condamnat definitiv \u00een 17 octombrie 2019 la 3 ani de \u00eenchisoare cu suspendare pentru ob\u021binerea nelegal\u0103 a unei subven\u021bii APIA. Prin actualizarea oficial\u0103 DNA din 13 martie 2023, Curtea de Apel Craiova a admis contesta\u021bia \u00een anulare \u0219i a \u00eenchis procesul penal ca urmare a intervenirii prescrip\u021biei, men\u021bin\u00e2nd celelalte dispozi\u021bii necontrare. A revenit \u00een func\u021bia de primar dup\u0103 alegerile din 2024, iar pagina oficial\u0103 a comunei \u00eel indic\u0103 titular al func\u021biei \u00een 2026.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24304,6 +24356,11 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.jurnalulolteniei.ro/2019/10/22/249957/',
       },
+      {
+        label: 'Comuna Devesel \u2014 primarul actual',
+        kind: 'official',
+        url: 'https://comunadevesel.ro/despre-primarie/conducere/primarul-si-viceprimarul/primar/',
+      },
     ],
   },
   {
@@ -24312,13 +24369,13 @@ export const politicianAdditions = [
     position: 'Primar al comunei Dumbr\u0103veni (jude\u021bul Suceava)',
     position_type: 'mayor',
     crime: 'Dare de mit\u0103; abuz \u00een serviciu cu consecin\u021be deosebit de grave; fals intelectual',
-    sentence: '1 an \u0219i 4 luni \u00eenchisoare cu suspendare',
+    sentence: 'Trimis \u00een judecat\u0103 \u00een 2026; anterior condamnat definitiv la 1 an \u0219i 4 luni cu suspendare',
     sentence_years: 1.33,
     conviction_year: 2017,
-    status: 'convicted',
+    status: 'indicted',
     details:
       'Condamnat definitiv \u00een 7 septembrie 2017, prin acord de recunoa\u0219tere a vinov\u0103\u021biei admis de Curtea de Apel Bac\u0103u, pentru dare de mit\u0103 c\u0103tre poli\u021bi\u0219ti rutieri. Separat, DNA Suceava l-a trimis \u00een judecat\u0103 la 23 februarie 2026 pentru abuz \u00een serviciu \u0219i fals intelectual \u00een leg\u0103tur\u0103 cu trei contracte fictive de repara\u021bii drumuri.',
-    verified_at: '2026-03-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24343,13 +24400,13 @@ export const politicianAdditions = [
     position: 'Primar al municipiului T\u00e2rgu Mure\u0219',
     position_type: 'mayor',
     crime: 'Luare de mit\u0103',
-    sentence: 'Cercetat penal; sub control judiciar',
+    sentence: 'Cercetat penal; situa\u021bia actual\u0103 a m\u0103surii preventive nu este confirmat\u0103',
     sentence_years: null,
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA T\u00e2rgu Mure\u0219 a dispus la 10 decembrie 2024 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit indirect opere de art\u0103 \u0219i bani \u00een leg\u0103tur\u0103 cu contracte ale prim\u0103riei. \u00cen cursul anului 2025 cauza a continuat cu men\u021binerea succesiv\u0103 a controlului judiciar, iar p\u00e2n\u0103 la 30 martie 2026 nu am identificat o trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103 oficial\u0103.',
-    verified_at: '2026-03-30',
+      'DNA T\u00e2rgu Mure\u0219 a dispus la 10 decembrie 2024 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru dou\u0103 infrac\u021biuni de luare de mit\u0103, sus\u021bin\u00e2nd c\u0103 ar fi primit indirect opere de art\u0103 \u0219i bani \u00een leg\u0103tur\u0103 cu contracte ale prim\u0103riei. Nu am identificat p\u00e2n\u0103 la 25 august 2026 un comunicat oficial de trimitere \u00een judecat\u0103 sau o solu\u021bie final\u0103; documentele municipiului \u00eel indic\u0103 \u00een continuare primar, dar situa\u021bia actual\u0103 a m\u0103surii preventive nu este suficient documentat\u0103 public.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24360,6 +24417,11 @@ export const politicianAdditions = [
         label: 'G4Media',
         kind: 'press',
         url: 'https://www.g4media.ro/primarul-din-targu-mures-soos-zoltan-ramane-sub-control-judiciar-dosarul-instrumentat-de-dna-are-ca-obiect-luarea-de-mita.html',
+      },
+      {
+        label: 'Prim\u0103ria T\u00e2rgu Mure\u0219 \u2014 document 2026 semnat de primar',
+        kind: 'official',
+        url: 'https://tirgumures.ro/index.php?Itemid=320&catid=39%3Aconcurs-de-proiecte&id=10440%3Aanun-concurs-de-proiecte-pentru-finanarea-nerambursabil-a-proiectelor-culturale-2026&lang=ro&option=com_content&view=article',
       },
     ],
   },
@@ -24474,38 +24536,6 @@ export const politicianAdditions = [
         label: 'Primăria Sinaia — convocare semnată de primar în februarie 2026',
         kind: 'official',
         url: 'https://www.primaria-sinaia.ro/wp-content/uploads/2026/02/anunt-1.pdf',
-      },
-    ],
-  },
-  {
-    name: 'Dan Oloieru',
-    party: 'PNL',
-    position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi (jude\u021bul Boto\u0219ani)',
-    position_type: 'mayor',
-    crime: 'Luare de mit\u0103; abuz \u00een serviciu',
-    sentence: '3 ani \u00eenchisoare cu suspendare',
-    sentence_years: 3,
-    conviction_year: 2026,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA Suceava a dispus la 8 aprilie 2025 punerea \u00een mi\u0219care a ac\u021biunii penale \u0219i re\u021binerea sa pentru luare de mit\u0103 \u00een dosarul privind urgentarea pl\u0103\u021bilor pentru lucr\u0103ri publice. Prin sentin\u021ba penal\u0103 nr. 82 din 5 mai 2026, definitiv\u0103 prin neapelare la 26 mai 2026, Tribunalul Boto\u0219ani a admis acordul de recunoa\u0219tere \u0219i l-a condamnat la 3 ani de \u00eenchisoare cu suspendare pentru luare de mit\u0103 \u0219i abuz \u00een serviciu.',
-    verified_at: '2026-06-30',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=13809',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=12875',
-      },
-      {
-        label: 'Monitorul de Boto\u0219ani',
-        kind: 'press',
-        url: 'https://www.monitorulbt.ro/prima-pagina/2026/03/13/dan-oloeriu-a-recunoscut-ca-a-luat-spaga-ce-pedeapsa-i-au-dat-magistratii/',
       },
     ],
   },
@@ -24890,7 +24920,7 @@ export const politicianAdditions = [
   {
     name: 'Mihai Banu',
     party: 'PNL',
-    position: 'Deputat de Bacău la data faptelor',
+    position: 'Fost deputat de Bacău',
     position_type: 'deputy',
     crime: 'Trafic de influență',
     sentence: '3 ani închisoare',
@@ -24899,7 +24929,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel Bacău l-a condamnat definitiv la 6 iulie 2020 la 3 ani de închisoare pentru trafic de influență într-un al doilea dosar DNA legat de contracte de îndiguire și bani pretinși pentru partidul din care făcea parte. Anterior, la 14 decembrie 2017, fusese deja condamnat definitiv la 3 ani de închisoare în dosarul Berca. L-am păstrat la PNL întrucât mandatul parlamentar relevant a fost obținut pe listele PNL în 2008, chiar dacă în plan local a gravitat ulterior și în jurul PDL Bacău.',
-    verified_at: '2026-03-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24921,7 +24951,7 @@ export const politicianAdditions = [
   {
     name: 'Ioan Munteanu',
     party: 'PSD',
-    position: 'Deputat de Neamț; fost lider al grupului PSD din Camera Deputaților',
+    position: 'Fost deputat de Neamț; fost lider al grupului PSD din Camera Deputaților',
     position_type: 'deputy',
     crime: 'Trafic de influență; spălare de bani',
     sentence: '6 ani închisoare în primă instanță; proces încetat definitiv ca urmare a prescripției',
@@ -24929,8 +24959,8 @@ export const politicianAdditions = [
     conviction_year: 2020,
     status: 'prescribed',
     details:
-      'DNA l-a trimis în judecată sub control judiciar la 29 iunie 2017, acuzându-l că ar fi pretins 400.000 euro pentru intervenții pe lângă conducerea Hidroelectrica. Tribunalul București l-a condamnat în noiembrie 2020 la 6 ani de închisoare, însă la 10 mai 2023 Curtea de Apel București a dispus definitiv încetarea procesului penal ca urmare a intervenirii prescripției răspunderii penale și confiscarea sumelor considerate traficate.',
-    verified_at: '2026-03-30',
+      'DNA l-a trimis în judecată sub control judiciar la 29 iunie 2017, acuzându-l că ar fi pretins 400.000 euro pentru intervenții pe lângă conducerea unei societăți cu capital majoritar de stat. După o condamnare la 6 ani în primă instanță, Curtea de Apel București a dispus definitiv la 10 mai 2023 încetarea procesului penal ca urmare a prescripției și confiscarea echivalentului a 350.000 euro, precum și a 261.373,40 lei.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24952,7 +24982,7 @@ export const politicianAdditions = [
   {
     name: 'Constantin Adăscăliței',
     party: 'PSD',
-    position: 'Deputat de Iași',
+    position: 'Fost deputat de Iași',
     position_type: 'deputy',
     crime: 'Operațiuni financiare incompatibile cu funcția; folosirea cu rea-credință a bunurilor sau creditului societății',
     sentence: 'Achitat definitiv',
@@ -24961,7 +24991,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Iași l-a trimis în judecată sub control judiciar la 7 iulie 2015, susținând că a continuat să administreze în fapt mai multe societăți și a folosit în mod contrar intereselor unei firme bunurile și creditul acesteia. La 7 octombrie 2019, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, reținând că faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-03-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -24978,7 +25008,7 @@ export const politicianAdditions = [
   {
     name: 'Mihai Alexandru Voicu',
     party: 'PNL',
-    position: 'Deputat de Dolj',
+    position: 'Fost deputat de Dolj',
     position_type: 'deputy',
     crime: 'Folosirea influenței sau autorității într-un partid pentru obținerea de foloase necuvenite',
     sentence: 'Achitat definitiv',
@@ -24987,7 +25017,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Craiova l-a trimis în judecată la 21 decembrie 2017, susținând că ar fi condiționat candidaturi eligibile și susținerea pentru funcții publice de plata unor contribuții pentru campania electorală din 2012. La 22 iunie 2020, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, constatând că faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-03-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25004,7 +25034,7 @@ export const politicianAdditions = [
   {
     name: 'Valerian Vreme',
     party: 'PDL',
-    position: 'Fost ministru al Comunicațiilor și Societății Informaționale; deputat de Bacău',
+    position: 'Fost ministru al Comunicațiilor și Societății Informaționale; fost deputat de Bacău',
     position_type: 'minister',
     crime: 'Abuz în serviciu',
     sentence: 'Achitat definitiv',
@@ -25013,7 +25043,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA a cerut începerea urmăririi penale în dosarul Microsoft în septembrie 2014 și l-a trimis în judecată la 13 septembrie 2017 pentru abuz în serviciu în legătură cu contractul de licențe software pentru școli. La 24 septembrie 2019, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, constatând că fapta nu este prevăzută de legea penală.',
-    verified_at: '2026-04-02',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25035,7 +25065,7 @@ export const politicianAdditions = [
   {
     name: 'Mircea Roșca',
     party: 'PNL',
-    position: 'Deputat de Prahova',
+    position: 'Deputat PNL de Prahova (mandatul 2024-2028)',
     position_type: 'deputy',
     crime: 'Trafic de influență',
     sentence: '3 ani închisoare cu suspendare în primă instanță; proces încetat definitiv ca urmare a prescripției',
@@ -25044,7 +25074,7 @@ export const politicianAdditions = [
     status: 'prescribed',
     details:
       'DNA a cerut în 11 noiembrie 2014 încuviințarea arestării preventive a deputatului Mircea Roșca și l-a acuzat de două infracțiuni de trafic de influență. În februarie 2018 a fost condamnat în primă instanță la 3 ani de închisoare cu suspendare, însă la 22 aprilie 2024 Înalta Curte de Casație și Justiție a dispus definitiv încetarea procesului penal ca urmare a intervenirii prescripției.',
-    verified_at: '2026-04-02',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25061,12 +25091,17 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.observatorulph.ro/national/90993-mircea-rosca-condamnat-la-trei-ani-de-inchisoare-cu-suspendare',
       },
+      {
+        label: 'AGERPRES — activitate parlamentară 2026',
+        kind: 'press',
+        url: 'https://agerpres.ro/comunicate/2026/06/03/comunicat-de-presa---deputat-mircea-rosca-pnl--1562624',
+      },
     ],
   },
   {
     name: 'Cornel Mircea Sămărtinean',
     party: 'PMP',
-    position: 'Deputat de Timiș; fost director al Aeroportului Internațional „Traian Vuia” Timișoara',
+    position: 'Fost deputat de Timiș; fost director al Aeroportului Internațional „Traian Vuia” Timișoara',
     position_type: 'deputy',
     crime: 'Abuz în serviciu; conflict de interese',
     sentence: 'Achitat definitiv',
@@ -25075,7 +25110,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Timișoara l-a trimis în judecată la 22 decembrie 2015 pentru modul în care au fost închiriate spațiile comerciale din aeroport în anul 2010. La 5 aprilie 2021, Înalta Curte de Casație și Justiție a dispus definitiv achitarea, reținând că faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-04-02',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25095,13 +25130,13 @@ export const politicianAdditions = [
     position: 'Primar al comunei Deda, județul Mureș',
     position_type: 'mayor',
     crime: 'Folosirea sau prezentarea de documente ori declarații false pentru obținerea de fonduri europene; complicitate la aceeași infracțiune',
-    sentence: 'Trimisă în judecată sub control judiciar',
+    sentence: 'Trimisă în judecată; situația actuală a măsurii preventive nu este confirmată',
     sentence_years: null,
     conviction_year: null,
     status: 'indicted',
     details:
-      'După comunicatul DNA din 11 septembrie 2024 privind punerea în mișcare a acțiunii penale și reținerea sa, procurorii DNA Târgu-Mureș au anunțat la 7 martie 2025 trimiterea în judecată sub control judiciar a primarei comunei Deda în dosarul privind folosirea unor documente și declarații nereale pentru accesarea de fonduri europene prin proiectul „De la marginalizare la integrare!”. Nu am identificat, până la 4 aprilie 2026, o soluție definitivă ulterioară.',
-    verified_at: '2026-04-04',
+      'După comunicatul DNA din 11 septembrie 2024 privind punerea în mișcare a acțiunii penale și reținerea sa, procurorii DNA Târgu-Mureș au anunțat la 7 martie 2025 trimiterea în judecată sub control judiciar a primarei comunei Deda în dosarul privind folosirea unor documente și declarații nereale pentru accesarea de fonduri europene prin proiectul „De la marginalizare la integrare!”. Nu am identificat până la 25 august 2026 o soluție definitivă ulterioară, iar măsura preventivă curentă nu este suficient confirmată public. Primăria Deda o indică în continuare titular al funcției în 2026.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25131,8 +25166,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Timișoara a anunțat la 8 martie 2024 trimiterea în judecată a lui Filimon Brian, aflat la data comunicatului în funcția de primar al comunei Măureni, pentru că ar fi pretins în anul 2019 un procent de 5% din valoarea unui contract de modernizare de drumuri, din care ar fi primit 100.000 lei. Nu am identificat, până la 4 aprilie 2026, un comunicat oficial ulterior care să indice o soluție definitivă sau o schimbare public confirmată a stadiului procesual.',
-    verified_at: '2026-04-04',
+      'DNA Timișoara a anunțat la 8 martie 2024 trimiterea în judecată a lui Filimon Brian, aflat la data comunicatului în funcția de primar al comunei Măureni, pentru că ar fi pretins în anul 2019 un procent de 5% din valoarea unui contract de modernizare de drumuri, din care ar fi primit 100.000 lei. Nu am identificat până la 25 august 2026 un comunicat oficial care să indice o soluție definitivă; site-ul oficial al comunei îl indică în continuare primar în 2026.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25143,6 +25178,11 @@ export const politicianAdditions = [
         label: 'Primăria Măureni',
         kind: 'official',
         url: 'https://www.comunamaureni.ro/membru-primarie/brian-filimon/',
+      },
+      {
+        label: 'Comuna Măureni — conducerea actuală',
+        kind: 'official',
+        url: 'https://www.comunamaureni.ro/',
       },
     ],
   },
@@ -25193,8 +25233,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA Târgu Mureș a anunțat la 9 septembrie 2025 trimiterea în judecată a lui Márk Endre Dezső, la data faptelor primar al municipiului Reghin, pentru că ar fi semnat și aprobat în mod nelegal un contract de asistență juridică de 6.000 lei și ar fi dispus ulterior plata acestuia din bugetul primăriei. Rechizitoriul a fost trimis Tribunalului Mureș. Nu am identificat, până la 8 aprilie 2026, o soluție definitivă ulterioară.',
-    verified_at: '2026-04-08',
+      'DNA Târgu Mureș a anunțat la 9 septembrie 2025 trimiterea în judecată a lui Márk Endre Dezső, la data faptelor primar al municipiului Reghin, pentru că ar fi semnat și aprobat în mod nelegal un contract de asistență juridică de 6.000 lei și ar fi dispus ulterior plata acestuia din bugetul primăriei. Rechizitoriul a fost trimis Tribunalului Mureș. Nu am identificat până la 25 august 2026 o soluție definitivă ulterioară; documentele oficiale ale municipiului îl indică în continuare primar în 2026.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25211,6 +25251,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.facebook.com/udmrmures/posts/24551783515199672/',
       },
+      {
+        label: 'Primăria Reghin — document semnat de primar în 2026',
+        kind: 'official',
+        url: 'https://www.primariareghin.ro/fileadmin/editorimages/doc/MaterialeSedinteCL/2026/02/06.pdf',
+      },
     ],
   },
   {
@@ -25219,13 +25264,14 @@ export const politicianAdditions = [
     position: 'Fost primar al municipiului Odorheiu Secuiesc, județul Harghita',
     position_type: 'mayor',
     crime: 'Abuz în serviciu',
-    sentence: 'Trimis în judecată',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    sentence: '2 ani și 6 luni închisoare cu suspendare în primă instanță',
+    sentence_years: 2.5,
+    conviction_year: 2026,
+    status: 'first_instance',
+    execution_type: 'Cu suspendare',
     details:
-      'DNA Târgu Mureș a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Gálfi Árpád, la data faptelor primar al municipiului Odorheiu Secuiesc, pentru cinci infracțiuni de abuz în serviciu legate de încheierea în anul 2019 a unor contracte de asistență juridică fără hotărâri ale consiliului local și fără respectarea controlului financiar preventiv. Dosarul a fost trimis spre judecare Tribunalului Harghita. Nu am identificat, până la 8 aprilie 2026, o soluție definitivă ulterioară.',
-    verified_at: '2026-04-08',
+      'DNA Târgu Mureș a anunțat la 10 aprilie 2025 trimiterea în judecată a lui Gálfi Árpád, la data faptelor primar al municipiului Odorheiu Secuiesc, pentru cinci infracțiuni de abuz în serviciu legate de contracte de asistență juridică. La 15 mai 2026, Tribunalul Harghita l-a condamnat în primă instanță la 2 ani și 6 luni de închisoare cu suspendare; hotărârea nu este prezentată ca definitivă.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25242,6 +25288,11 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://informatiahr.ro/partidul-pentru-odorheiu-secuiesc/',
       },
+      {
+        label: 'Hargita Népe — condamnarea în primă instanță',
+        kind: 'press',
+        url: 'https://hargitanepe.ro/hirek/udvarhelyszek/eliteltek-alapfokon-galfi-arpad-volt-szekelyudvarhelyi-polgarmesteret',
+      },
     ],
   },
   {
@@ -25250,13 +25301,13 @@ export const politicianAdditions = [
     position: 'Fost ministru al Transporturilor',
     position_type: 'minister',
     crime: 'Complicitate la dare de mită',
-    sentence: 'Trimis în judecată; arestat preventiv la declanșarea cauzei',
+    sentence: 'Trimis în judecată; situația actuală a măsurii preventive nu este confirmată',
     sentence_years: null,
     conviction_year: null,
     status: 'indicted',
     details:
-      'DNA a anunțat la 16 decembrie 2025 punerea în mișcare a acțiunii penale, reținerea și apoi arestarea preventivă a lui Alexandru-Răzvan Cuc în dosarul privind promisiunea unei mite reprezentând 6% dintr-un contract al Registrului Auto Român. Potrivit relatărilor din 5 februarie 2026, care citează comunicatul DNA și înregistrarea dosarului la Tribunalul București, acesta a fost trimis în judecată în aceeași cauză. Nu am identificat o pagină DNA separată, ușor regăsibilă, pentru comunicatul privind trimiterea în judecată, așa că statutul este ancorat pe actualizarea procedurală consemnată în presa care citează DNA și portalul instanțelor.',
-    verified_at: '2026-04-08',
+      'DNA a anunțat la 16 decembrie 2025 punerea în mișcare a acțiunii penale, reținerea și apoi arestarea preventivă a lui Alexandru-Răzvan Cuc în dosarul privind promisiunea unei mite reprezentând 6% dintr-un contract al Registrului Auto Român. La 5 februarie 2026 a fost anunțată trimiterea sa în judecată în aceeași cauză. Nu am identificat până la 25 august 2026 o soluție pe fond, iar situația actuală a măsurii preventive nu este suficient confirmată public.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25278,7 +25329,7 @@ export const politicianAdditions = [
   {
     name: 'Marian Cristinel Bîgiu',
     party: 'PNL',
-    position: 'Președinte al Consiliului Județean Buzău; fost senator',
+    position: 'Fost președinte al Consiliului Județean Buzău; fost senator',
     position_type: 'county_council_president',
     crime: 'Luare de mită; conflict de interese; tentativă de spălare a banilor',
     sentence: '5 ani și 2 luni închisoare',
@@ -25287,7 +25338,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel București l-a condamnat definitiv la 16 decembrie 2016 pentru luare de mită în formă continuată, conflict de interese și tentativă de spălare a banilor. L-am păstrat la PNL deoarece mandatul politic și cariera parlamentară care au precedat șefia CJ Buzău sunt cel mai clar legate de acest partid, deși înaintea arestării migrase la PSD.',
-    verified_at: '2026-03-28',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25309,7 +25360,7 @@ export const politicianAdditions = [
   {
     name: 'Diniță Ion',
     party: 'PC',
-    position: 'Deputat de Brașov',
+    position: 'Fost deputat de Brașov',
     position_type: 'deputy',
     crime: 'Complicitate la abuz în serviciu',
     sentence: '3 ani închisoare cu suspendare',
@@ -25318,7 +25369,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel Brașov l-a condamnat definitiv la 1 februarie 2022 în dosarul Căncescu pentru complicitate la abuz în serviciu. Am păstrat partidul PC, conform surselor de presă și descrierii sale publice ca deputat conservator în faza de urmărire penală.',
-    verified_at: '2026-03-28',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25340,7 +25391,7 @@ export const politicianAdditions = [
   {
     name: 'Adrian Gurzău',
     party: 'PMP',
-    position: 'Deputat de Cluj',
+    position: 'Fost deputat de Cluj',
     position_type: 'deputy',
     crime: 'Trafic de influență',
     sentence: '2 ani și 8 luni închisoare cu suspendare',
@@ -25349,7 +25400,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Tribunalul București a admis la 28 martie 2017 acordul de recunoaștere a vinovăției încheiat cu DNA, hotărârea rămânând definitivă prin neapelare la 25 aprilie 2017. Procurorii au susținut că, în perioada aprilie-noiembrie 2015, a pretins și primit foloase printr-un contract fictiv cu Carpatica Asig în schimbul influenței promise asupra unor decidenți din ASF.',
-    verified_at: '2026-03-29',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25397,7 +25448,7 @@ export const politicianAdditions = [
   {
     name: 'Marian Oprișan',
     party: 'PSD',
-    position: 'Președinte al Consiliului Județean Vrancea',
+    position: 'Fost președinte și fost vicepreședinte al Consiliului Județean Vrancea',
     position_type: 'county_council_president',
     crime: 'Abuz în serviciu; utilizarea creditelor în alte scopuri; fals intelectual; uz de fals',
     sentence: 'Achitat definitiv (2015)',
@@ -25406,7 +25457,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul „Căprioara”, iar Judecătoria Cluj-Napoca a dispus la 6 februarie 2015 achitarea sa pentru abuz în serviciu, utilizarea creditelor în alte scopuri și fals intelectual, respectiv încetarea procesului pentru uz de fals. Curtea de Apel Cluj a menținut soluția la 18 decembrie 2015, hotărârea devenind definitivă.',
-    verified_at: '2026-03-29',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25417,6 +25468,11 @@ export const politicianAdditions = [
         label: 'Digi24',
         kind: 'press',
         url: 'https://www.digi24.ro/regional/digi24-cluj-napoca/marian-oprisan-achitat-in-dosarul-de-coruptie-356598',
+      },
+      {
+        label: 'Consiliul Județean Vrancea — mandat încheiat în 2024',
+        kind: 'official',
+        url: 'https://cjvrancea.ro/consilier/oprisan-marian-6/',
       },
     ],
   },
@@ -25444,7 +25500,7 @@ export const politicianAdditions = [
   {
     name: 'Andrei Volosevici',
     party: 'PDL',
-    position: 'Primar al municipiului Ploiești; ulterior senator de Prahova',
+    position: 'Fost primar al municipiului Ploiești; fost senator de Prahova',
     position_type: 'mayor',
     crime: 'Abuz în serviciu; trafic de influență',
     sentence: 'Achitat definitiv (2022)',
@@ -25453,7 +25509,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în iunie 2016 în dosarul finanțării clubului FC Petrolul și al unor pretinse intervenții pentru contracte publice și panotaj electoral. Prin actualizarea oficială din 9 martie 2022, DNA a consemnat că ÎCCJ a dispus achitarea sa definitivă la 20 ianuarie 2022, pentru că faptele nu există ori nu sunt prevăzute de legea penală.',
-    verified_at: '2026-03-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25470,7 +25526,7 @@ export const politicianAdditions = [
   {
     name: 'Teodor Neamțu',
     party: 'PDL',
-    position: 'Primar al municipiului Mediaș',
+    position: 'Fost primar al municipiului Mediaș',
     position_type: 'mayor',
     crime: 'Complicitate la abuz în serviciu',
     sentence: 'Achitat definitiv (2018)',
@@ -25479,7 +25535,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în septembrie 2014 pentru că ar fi înlesnit hotărârile prin care Consiliul Local Mediaș a devenit unic acționar al societății Gospodăria Comunală SA, cu producerea unui prejudiciu bugetului local. Prin actualizarea oficială din 4 iunie 2018, DNA a consemnat că Curtea de Apel Alba l-a achitat definitiv la 18 mai 2018, întrucât faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-03-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25535,10 +25591,10 @@ export const politicianAdditions = [
       '2 ani \u0219i 6 luni \u00eenchisoare cu suspendare; ulterior trimis din nou \u00een judecat\u0103 \u00eentr-un dosar separat',
     sentence_years: 2.5,
     conviction_year: 2021,
-    status: 'convicted',
+    status: 'indicted',
     details:
-      'Curtea de Apel Bra\u0219ov l-a condamnat definitiv la 5 mai 2021 la 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare pentru folosirea sau prezentarea cu rea-credin\u021b\u0103 de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene. Ulterior, DNA Bra\u0219ov a anun\u021bat la 6 octombrie 2025 trimiterea sa \u00een judecat\u0103 \u00eentr-un dosar separat privind participa\u021bie improprie la abuz \u00een serviciu legat\u0103 de contractul de \u00eenchiriere a paji\u0219tii comunale. Am p\u0103strat statutul general de convicted deoarece condamnarea definitiv\u0103 din 2021 este mai puternic\u0103 dec\u00e2t noul stadiu procesual.',
-    verified_at: '2026-04-08',
+      'Curtea de Apel Bra\u0219ov l-a condamnat definitiv la 5 mai 2021 la 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare pentru folosirea sau prezentarea cu rea-credin\u021b\u0103 de documente ori declara\u021bii false pentru ob\u021binerea pe nedrept de fonduri europene. Separat, DNA Bra\u0219ov a anun\u021bat la 6 octombrie 2025 trimiterea sa \u00een judecat\u0103 pentru participa\u021bie improprie la abuz \u00een serviciu legat\u0103 de contractul de \u00eenchiriere a paji\u0219tii comunale. Statutul afi\u0219at reflect\u0103 dosarul activ, iar condamnarea definitiv\u0103 anterioar\u0103 este p\u0103strat\u0103 explicit.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25570,7 +25626,7 @@ export const politicianAdditions = [
     status: 'prescribed',
     details:
       'DNA Bra\u0219ov l-a trimis \u00een judecat\u0103 la 2 noiembrie 2018 pentru ob\u021binerea pe nedrept, \u00een perioada 2010-2013, a unor fonduri APIA de peste 181.000 lei. Curtea de Apel Bra\u0219ov l-a condamnat definitiv la 13 ianuarie 2022 la 2 ani de \u00eenchisoare cu suspendare, amend\u0103 penal\u0103 \u0219i 60 de zile de munc\u0103 \u00een folosul comunit\u0103\u021bii, dar aceea\u0219i instan\u021b\u0103 a admis ulterior contesta\u021bia \u00een anulare, iar actualizarea DNA din 13 martie 2023 consemneaz\u0103 \u00eencetarea definitiv\u0103 a procesului penal ca urmare a prescrip\u021biei.',
-    verified_at: '2026-04-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -25601,7 +25657,7 @@ export const politicianAdditions = [
     status: 'convicted',
     details:
       'Curtea de Apel Bac\u0103u l-a condamnat definitiv la 19 aprilie 2022 la 1 an \u0219i 6 luni de \u00eenchisoare cu suspendare pentru folosirea sau prezentarea cu rea-credin\u021b\u0103 de documente ori declara\u021bii false, inexacte sau incomplete care au dus la ob\u021binerea pe nedrept de fonduri europene. DNA Bac\u0103u ar\u0103tase c\u0103, \u00een perioada 2009-2010, acesta a depus la APIA documente nereale pentru suprafe\u021be mai mari dec\u00e2t cele utilizate efectiv, cauz\u00e2nd ob\u021binerea nelegal\u0103 a peste un milion de lei pentru comuna Hangu.',
-    verified_at: '2026-04-08',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -87566,7 +87622,6 @@ export const countyOverrides = {
   'Cosmin Andrei': 'Botoșani',
   'Iulian Iacomi': 'Călărași',
   'Vlad Oprea': 'Prahova',
-  'Dan Oloieru': 'Botoșani',
   'Dumitru-Verginel Gireadă': 'Botoșani',
   'Ionel Neagu': 'Teleorman',
   'Barti Tihamér': 'Harghita',

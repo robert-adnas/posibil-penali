@@ -39251,6 +39251,838 @@
       ],
       "note": null,
       "reviewed_snapshot_hash": "91f5d9b46c46c5fb3b3266395e7a52e2e228dd8847103ba029eb64848830a6d8"
+    },
+    {
+      "profile_id": "RV-0445",
+      "original_name": "Sorin Gheorghe Buta",
+      "current_name": "Sorin Gheorghe Buta",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6143",
+        "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=57&leg=2008"
+      ],
+      "note": "Identitatea, mandatul de deputat și condamnarea definitivă din 2015 sunt confirmate oficial.",
+      "reviewed_snapshot_hash": "196d40946236bb997e78b029a44e7122400bea21a4582aaa26bea8235c0d4657"
+    },
+    {
+      "profile_id": "RV-0446",
+      "original_name": "Ioan-Codruț Șereș",
+      "current_name": "Ioan-Codruț Șereș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://juri.ro/static/files/2015/noiembrie_2015/02/ICCJ_decizia_11_per_2015_dosarul_privatizarilor_strategice.pdf",
+        "https://www.romania-actualitati.ro/stiri/romania/codrut-seres-condamnat-definitiv-la-4-ani-de-inchisoare-id81596.html",
+        "https://evz.ro/codrut-seres-reabilitat-in-dosarele-privatizarilor-si-hidroelectrica-decizia-iccj.html"
+      ],
+      "note": "Eliminată acuzația eronată de trădare din descrierea condamnării definitive; adăugate condamnarea Hidroelectrica și reabilitarea judecătorească din 2025.",
+      "reviewed_snapshot_hash": "5d691e1872bd696880691f5390fbeaba51bfe61ed9e461b66d21b67f61e232e4"
+    },
+    {
+      "profile_id": "RV-0459",
+      "original_name": "Horvath Anna",
+      "current_name": "Horvath Anna",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9481",
+        "https://udmr.ro/profil/horvath-anna"
+      ],
+      "note": "Fosta viceprimăriță și condamnarea definitivă la 2 ani cu suspendare sunt confirmate.",
+      "reviewed_snapshot_hash": "9f3b8bcefe8f752cfe2274f2dae155d02f01e60e02a1b2238dff4256edd83d7d"
+    },
+    {
+      "profile_id": "RV-0467",
+      "original_name": "Calangiu Cristina Mariana",
+      "current_name": "Calangiu Cristina Mariana",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8987"
+      ],
+      "note": "Condamnarea definitivă pentru trafic de influență în formă continuată este confirmată de DNA.",
+      "reviewed_snapshot_hash": "faf90594fefdb70793720b5c0028f779f35bb3ccad112542208b49585a4dbff7"
+    },
+    {
+      "profile_id": "RV-0471",
+      "original_name": "Robu Nicolae",
+      "current_name": "Robu Nicolae",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9688"
+      ],
+      "note": "Achitarea definitivă din 27 februarie 2026 este confirmată în actualizarea oficială DNA.",
+      "reviewed_snapshot_hash": "6ea8fe2bf406fbf8cc77a0cbc20a8b90674c5ae46858cb2ff8db135ff5048696"
+    },
+    {
+      "profile_id": "RV-0472",
+      "original_name": "Diaconu Dan Aurel",
+      "current_name": "Diaconu Dan Aurel",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9688"
+      ],
+      "note": "Identitatea de fost viceprimar și achitarea definitivă din 2026 sunt confirmate.",
+      "reviewed_snapshot_hash": "54f3e723c8f355cd6f0e2d02071ea115901213ff46e81687a2e074a775ed27d0"
+    },
+    {
+      "profile_id": "RV-0473",
+      "original_name": "Stoia Traian Constantin",
+      "current_name": "Stoia Traian Constantin",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9688"
+      ],
+      "note": "Identitatea de fost viceprimar și achitarea definitivă din 2026 sunt confirmate.",
+      "reviewed_snapshot_hash": "936f15a8bfe6763cc5746a5fa3a2f6c3108ffa8a5855561b4a2f07c1689b0771"
+    },
+    {
+      "profile_id": "RV-0480",
+      "original_name": "Eugen Pîrvulescu",
+      "current_name": "Eugen Pîrvulescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12706",
+        "https://www.dna.ro/comunicat.xhtml?id=10760",
+        "https://www.senat.ro/PAGINI/Stenograme/Stenograme_2024/Plen/24.10.07.pdf"
+      ],
+      "note": "Status corectat la investigat pentru dosarul ORNISS distinct; rezultatul definitiv al dosarului Ambulanța și demisia din PNL sunt prezentate separat.",
+      "reviewed_snapshot_hash": "409e0b0aa0652b20106f7b42535dc04b7d719844fc40f20d1461ce0399e285d3"
+    },
+    {
+      "profile_id": "RV-0481",
+      "original_name": "Decebal Făgădău",
+      "current_name": "Decebal Făgădău",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10158",
+        "https://www.ziuaconstanta.ro/stiri/justitie/decebal-fagadau-achitat-intr-un-proces-cu-dna-fostul-primar-al-constantei-a-fost-cercetat-in-dosarul-terenurilor-din-portul-tomis-minuta-867421.html"
+      ],
+      "note": "Achitarea definitivă pronunțată la 13 august 2024 și identitatea fostului primar sunt confirmate.",
+      "reviewed_snapshot_hash": "43d9b8a834b8079e6a1bb4d690968da92e4fe2bbd9cc2c3eed8eb93cc40a7171"
+    },
+    {
+      "profile_id": "RV-0484",
+      "original_name": "Gergely Olosz",
+      "current_name": "Gergely Olosz",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9241",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c2769f04-595a-4b7c-b1a4-5cc2a4e9ce93"
+      ],
+      "note": "Funcția a fost corectată la fost senator; condamnarea definitivă la 3 ani cu executare este confirmată oficial.",
+      "reviewed_snapshot_hash": "5f754320d610428841a96885e6d41c0178525aeb642404ca74d3f872a60a1c35"
+    },
+    {
+      "profile_id": "RV-0485",
+      "original_name": "Sorin Apostu",
+      "current_name": "Sorin Apostu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5152",
+        "https://www.digi24.ro/stiri/actualitate/justitie/sorin-apostu-fost-primar-al-clujului-condamnat-la-patru-ani-si-sase-luni-de-inchisoare-s-a-predat-la-politie-265929"
+      ],
+      "note": "Eliminat traficul de influență, care nu apare în dispozitivul definitiv; funcția a fost formulată ca fost primar.",
+      "reviewed_snapshot_hash": "b8e810f1e49b4909eceb04a8f6838a45c32e203eac54434393cfac4341195ff9"
+    },
+    {
+      "profile_id": "RV-0487",
+      "original_name": "Romeo Stavarache",
+      "current_name": "Romeo Stavarache",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8599"
+      ],
+      "note": "Corectată instanța hotărârii definitive la Curtea de Apel Târgu Mureș și funcția la fost primar.",
+      "reviewed_snapshot_hash": "f2d527d63b99606e30507f11ccb153e2618b3288a2f29b84e1716bbe52a76c04"
+    },
+    {
+      "profile_id": "RV-0488",
+      "original_name": "Mircia Gutău",
+      "current_name": "Mircia Gutău",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5031",
+        "https://agerpres.ro/administratie/2024/10/25/valcea-primarul-ramnicului-mircia-gutau-a-preluat-al-cincilea-mandat-fostul-viceprimar-pirvulescu-pr--1377060"
+      ],
+      "note": "Condamnarea definitivă rămâne confirmată; afilierea actuală a primarului a fost corectată de la PDL la PSD.",
+      "reviewed_snapshot_hash": "4268c0f1496f1bc9eefaa91c5defa2c3e2a607dd193cdd221043994049d19b97"
+    },
+    {
+      "profile_id": "RV-0489",
+      "original_name": "Emilian Frâncu",
+      "current_name": "Emilian Frâncu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4755"
+      ],
+      "note": "Corectată instanța hotărârii definitive la Curtea de Apel București și funcția la fost primar.",
+      "reviewed_snapshot_hash": "0934fc48261bae626da4c5b8f69dd7fffa5c753fe203832b9dab8b09558d161d"
+    },
+    {
+      "profile_id": "RV-0491",
+      "original_name": "Băran Aurică",
+      "current_name": "Băran Aurică",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10133",
+        "https://www.dna.ro/comunicat.xhtml?id=7176"
+      ],
+      "note": "Separate corect cele două condamnări definitive din 2020 și 2016; funcția a fost corectată la fost primar în perioada 2000-2012.",
+      "reviewed_snapshot_hash": "555fd8f787737bf699155b64713f358b3c3af5ccfc317ee63d318b577d5e16b0"
+    },
+    {
+      "profile_id": "RV-0492",
+      "original_name": "Mihail Boldea",
+      "current_name": "Mihail Boldea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9914"
+      ],
+      "note": "Achitarea definitivă din 2021 este confirmată; funcția a fost formulată explicit ca fost deputat.",
+      "reviewed_snapshot_hash": "f39a8155f735706698b2a4336cc160ed6a6e4be0b67886d279e4cd0f62c8417c"
+    },
+    {
+      "profile_id": "RV-0493",
+      "original_name": "Dan Păsat",
+      "current_name": "Dan Păsat",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4516"
+      ],
+      "note": "Condamnarea definitivă din 2013 este confirmată; funcția a fost formulată explicit ca fost deputat.",
+      "reviewed_snapshot_hash": "342080699bf1704cc16ec7992cab55547407ee62d9622093954056334ed58f2e"
+    },
+    {
+      "profile_id": "RV-0494",
+      "original_name": "Sorin Andi Pandele",
+      "current_name": "Sorin Andi Pandele",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4596"
+      ],
+      "note": "Condamnarea definitivă din 2014 este confirmată; funcția a fost formulată explicit ca fost deputat.",
+      "reviewed_snapshot_hash": "3e7a3fbe6f1ef3395642a71c2500e51b3651294d19403c8cdcdd7506e1657a98"
+    },
+    {
+      "profile_id": "RV-0496",
+      "original_name": "Cristian Marius Mincă",
+      "current_name": "Cristian Marius Mincă",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=10155",
+        "https://primariacosmesti.ro/home/conducere-institutie/"
+      ],
+      "note": "Condamnarea definitivă este confirmată; funcția a fost corectată la fost primar pe baza conducerii oficiale actuale.",
+      "reviewed_snapshot_hash": "9c993de575808ff9b24f97cadb83eef881feb9c924cb2c1e6fefe52e52011a58"
+    },
+    {
+      "profile_id": "RV-0497",
+      "original_name": "Iulian Miliare",
+      "current_name": "Iulian Miliare",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9525",
+        "https://primariaberezeni.ro/"
+      ],
+      "note": "Condamnarea definitivă este confirmată; funcția a fost corectată la fost primar 2000-2016, iar primăria indică un titular actual diferit.",
+      "reviewed_snapshot_hash": "d4b3c5b113f245080fd7138e4707d4275a902143c57c0ec9dced5b92ffb1f930"
+    },
+    {
+      "profile_id": "RV-0498",
+      "original_name": "Gheorghe Percea",
+      "current_name": "Gheorghe Percea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11583"
+      ],
+      "note": "Funcția a fost corectată la fost primar; condamnarea definitivă la 5 ani cu executare și infracțiunile exacte sunt confirmate de DNA.",
+      "reviewed_snapshot_hash": "6b909adadaa708bb1db0b4587940339e8ca9dfa41b5449a0cc9a3db727433a67"
+    },
+    {
+      "profile_id": "RV-0499",
+      "original_name": "Gheorghe Vișovan",
+      "current_name": "Gheorghe Vișovan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7407"
+      ],
+      "note": "Funcția a fost corectată la fost primar, iar condamnarea definitivă, suspendarea și prejudiciul recuperat integral au fost reformulate exact după hotărârea publicată de DNA.",
+      "reviewed_snapshot_hash": "dfa497c6ae634c491797cc6ff62801d29ddef8e6bd5968ab1532f068518f8af8"
+    },
+    {
+      "profile_id": "RV-0502",
+      "original_name": "Dan Ștefan Motreanu",
+      "current_name": "Dan Ștefan Motreanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6697",
+        "https://www.europarl.europa.eu/meps/en/197647/DAN-STEFAN_MOTREANU/home"
+      ],
+      "note": "Achitarea definitivă este confirmată; funcția curentă și tipul poziției au fost corectate la europarlamentar.",
+      "reviewed_snapshot_hash": "b5c2a9d6856b47a78b0b3a58c14ffc65835dc240fcf036a3c9c1e442647b2876"
+    },
+    {
+      "profile_id": "RV-0503",
+      "original_name": "George-Adrian Scutaru",
+      "current_name": "George-Adrian Scutaru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6697"
+      ],
+      "note": "Achitarea definitivă este confirmată; funcțiile au fost formulate explicit ca fost deputat și fost consilier prezidențial.",
+      "reviewed_snapshot_hash": "da2d85ab79dd57a9f4d59820334c6af47ed93e128ece44bfe2cbce689542da24"
+    },
+    {
+      "profile_id": "RV-0513",
+      "original_name": "Costel Tulițu",
+      "current_name": "Costel Tulițu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=7830",
+        "https://primariabechet.ro/primaria/primar/"
+      ],
+      "note": "Condamnarea definitivă este confirmată; funcția a fost corectată la fost primar, iar tipul executării și infracțiunile au fost precizate.",
+      "reviewed_snapshot_hash": "d64c0cebba9b203a2f16882f110bfdebbe3e21c032a86aaebd352f9a625221c7"
+    },
+    {
+      "profile_id": "RV-0537",
+      "original_name": "Fabian Laurențiu Costel Drocan",
+      "current_name": "Fabian Laurențiu Costel Drocan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9649",
+        "https://comunadevesel.ro/despre-primarie/conducere/primarul-si-viceprimarul/primar/"
+      ],
+      "note": "Prescripția dispusă definitiv în 2023 este confirmată; profilul precizează corect că a revenit în funcția de primar și este titular în 2026.",
+      "reviewed_snapshot_hash": "825a30cf156e898dd0f9bca86449f882881f80eecf05b7cd30174dd0d9f7e7f2"
+    },
+    {
+      "profile_id": "RV-0538",
+      "original_name": "Pavăl Ioan",
+      "current_name": "Pavăl Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8444",
+        "https://www.dna.ro/comunicat.xhtml?id=13588",
+        "https://comuna-dumbraveni.ro/consiliul-local-1/consiliul-local/persoana/paval-ioan_55"
+      ],
+      "note": "Statutul curent a fost corectat la trimis în judecată pentru dosarul din 2026, păstrând distinct condamnarea definitivă anterioară; funcția actuală este confirmată oficial.",
+      "reviewed_snapshot_hash": "636925a95a308d5533daa8135a4530f81061dd854668a34d127a850a44e60243"
+    },
+    {
+      "profile_id": "RV-0539",
+      "original_name": "Soós Zoltán",
+      "current_name": "Soós Zoltán",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12757",
+        "https://tirgumures.ro/index.php?Itemid=320&catid=39%3Aconcurs-de-proiecte&id=10440%3Aanun-concurs-de-proiecte-pentru-finanarea-nerambursabil-a-proiectelor-culturale-2026&lang=ro&option=com_content&view=article"
+      ],
+      "note": "Ancheta și funcția actuală sunt confirmate, însă mențiunea neactualizată despre controlul judiciar a fost eliminată deoarece măsura curentă nu poate fi confirmată ferm.",
+      "reviewed_snapshot_hash": "e19f17ae6fc54e7c67785d37d8672c7861013400d27210972c4a35f8bd14d308"
+    },
+    {
+      "profile_id": "RV-0544",
+      "original_name": "Dan Oloieru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13809"
+      ],
+      "note": "Profil duplicat al lui Oloeriu Dan (RV-1117), creat cu ordinea numelui inversată și ortografie greșită; a fost eliminat, iar profilul canonic rămâne în registru.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0561",
+      "original_name": "Mihai Banu",
+      "current_name": "Mihai Banu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9924",
+        "https://www.dna.ro/comunicat.xhtml?id=8631",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3a777a84-f5ad-4743-ab60-e78ab6011c6f"
+      ],
+      "note": "Cele două condamnări definitive sunt confirmate; funcția a fost formulată explicit ca fost deputat.",
+      "reviewed_snapshot_hash": "579decd3e2ff7b17111cfdec6e9064a00236ee1ba8dd696cf21007b1adb29b37"
+    },
+    {
+      "profile_id": "RV-0562",
+      "original_name": "Ioan Munteanu",
+      "current_name": "Ioan Munteanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8263"
+      ],
+      "note": "Prescripția și confiscările dispuse definitiv sunt confirmate de actualizarea DNA; funcția a fost corectată la fost deputat și instanța primei condamnări nu mai este atribuită eronat.",
+      "reviewed_snapshot_hash": "685c3dce6191e4b1f56bfa273d1413a04740f149807e942ffbf79018d3aafba6"
+    },
+    {
+      "profile_id": "RV-0563",
+      "original_name": "Constantin Adăscăliței",
+      "current_name": "Constantin Adăscăliței",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6523"
+      ],
+      "note": "Achitarea definitivă din 2019 este confirmată; funcția a fost corectată la fost deputat.",
+      "reviewed_snapshot_hash": "4398872ca54959a22e7ec1abcf4a1b91d2ecf7824c4d23506e0acd7a055f81ab"
+    },
+    {
+      "profile_id": "RV-0564",
+      "original_name": "Mihai Alexandru Voicu",
+      "current_name": "Mihai Alexandru Voicu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8575",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=a6fcb930-a12a-4d8a-bb7c-7a99b5b95856"
+      ],
+      "note": "Achitarea definitivă din 2020 este confirmată; funcția a fost corectată la fost deputat.",
+      "reviewed_snapshot_hash": "87d870609a63cbed48c27a7b8b264046d2119abd1f8ac1c7153ef8f01651c443"
+    },
+    {
+      "profile_id": "RV-0565",
+      "original_name": "Valerian Vreme",
+      "current_name": "Valerian Vreme",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8368"
+      ],
+      "note": "Achitarea definitivă este confirmată; profilul precizează corect că este atât fost ministru, cât și fost deputat.",
+      "reviewed_snapshot_hash": "6f89260682e4e0301001f4ae4e6b4cf93d568f8e3b7e1ebb9b0b5fd4d06dec27"
+    },
+    {
+      "profile_id": "RV-0566",
+      "original_name": "Mircea Roșca",
+      "current_name": "Mircea Roșca",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5505",
+        "https://agerpres.ro/2024/04/22/deputatul-liberal-mircea-rosca-scapa-definitiv-de-acuzatiile-de-coruptie-dupa-ce-faptele-s-au-pres--1284908",
+        "https://agerpres.ro/comunicate/2026/06/03/comunicat-de-presa---deputat-mircea-rosca-pnl--1562624"
+      ],
+      "note": "Încetarea definitivă prin prescripție este confirmată; funcția actuală a fost precizată ca deputat PNL în mandatul 2024-2028.",
+      "reviewed_snapshot_hash": "1c4907432639d027ca1de85c3ca1851d1708a4c02fb870e6facf0319ff658e1a"
+    },
+    {
+      "profile_id": "RV-0567",
+      "original_name": "Cornel Mircea Sămărtinean",
+      "current_name": "Cornel Mircea Sămărtinean",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6987"
+      ],
+      "note": "Achitarea definitivă din 2021 este confirmată; funcția a fost corectată la fost deputat și fost director al aeroportului.",
+      "reviewed_snapshot_hash": "6beb36a5d584da5db4ad61f5fa7296bd8b3b946043556c9f97b63701d3302336"
+    },
+    {
+      "profile_id": "RV-0568",
+      "original_name": "Lucreția Cadar",
+      "current_name": "Lucreția Cadar",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12828",
+        "https://primariadeda.ro/"
+      ],
+      "note": "Trimiterea în judecată și funcția actuală sunt confirmate; mențiunea despre controlul judiciar a fost calificată deoarece măsura preventivă actuală nu este confirmată.",
+      "reviewed_snapshot_hash": "4fedc739bfba1493cf02669643493b7432b3a79de5913c54a12d019cfa4ce6f3"
+    },
+    {
+      "profile_id": "RV-0569",
+      "original_name": "Filimon Brian",
+      "current_name": "Filimon Brian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12474",
+        "https://www.comunamaureni.ro/"
+      ],
+      "note": "Trimiterea în judecată este confirmată, iar site-ul oficial al comunei îl indică primar în 2026; nu a fost identificată o soluție definitivă ulterioară.",
+      "reviewed_snapshot_hash": "e88072e330894fbefa4844a26aa73a00d963fd027ae7ff6e4d71d7ad9549f81d"
+    },
+    {
+      "profile_id": "RV-0571",
+      "original_name": "Márk Endre Dezső",
+      "current_name": "Márk Endre Dezső",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13001",
+        "https://www.primariareghin.ro/fileadmin/editorimages/doc/MaterialeSedinteCL/2026/02/06.pdf"
+      ],
+      "note": "Trimiterea în judecată și funcția actuală sunt confirmate; data verificării și descrierea lipsei unei soluții definitive au fost actualizate.",
+      "reviewed_snapshot_hash": "2f0b9d0ec9e8578af8c65538b11b6ed3092df1ff925dfe479f9b41790bf96136"
+    },
+    {
+      "profile_id": "RV-0572",
+      "original_name": "Gálfi Árpád",
+      "current_name": "Gálfi Árpád",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12877",
+        "https://hargitanepe.ro/hirek/udvarhelyszek/eliteltek-alapfokon-galfi-arpad-volt-szekelyudvarhelyi-polgarmesteret"
+      ],
+      "note": "Statutul a fost actualizat de la trimis în judecată la condamnat în primă instanță: 2 ani și 6 luni cu suspendare la 15 mai 2026; hotărârea nu este definitivă.",
+      "reviewed_snapshot_hash": "d820c6f5c2259fa564eb51cceaad0532f3b910017d5feee7dda125a4a91b5cda"
+    },
+    {
+      "profile_id": "RV-0573",
+      "original_name": "Alexandru-Răzvan Cuc",
+      "current_name": "Alexandru-Răzvan Cuc",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13415",
+        "https://www.digi24.ro/stiri/actualitate/justitie/razvan-cuc-fost-ministru-psd-al-transporturilor-trimis-in-judecata-de-dna-in-dosarul-mitei-de-la-rar-3618071"
+      ],
+      "note": "Trimiterea în judecată este confirmată; formularea despre arestarea preventivă a fost delimitată de situația actuală a măsurii, care nu este confirmată ferm.",
+      "reviewed_snapshot_hash": "8b5c935ee0e0ea533327dff328645e059e560ae885f39ffb719aca70c9de8020"
+    },
+    {
+      "profile_id": "RV-0574",
+      "original_name": "Marian Cristinel Bîgiu",
+      "current_name": "Marian Cristinel Bîgiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=7951"
+      ],
+      "note": "Condamnarea definitivă este confirmată; funcția a fost corectată la fost președinte al Consiliului Județean și fost senator.",
+      "reviewed_snapshot_hash": "7d26216e4c227eb0e3a632193aed23825948a7867765596214ee4aee716c28f7"
+    },
+    {
+      "profile_id": "RV-0575",
+      "original_name": "Diniță Ion",
+      "current_name": "Diniță Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11086"
+      ],
+      "note": "Condamnarea definitivă este confirmată; funcția a fost corectată la fost deputat.",
+      "reviewed_snapshot_hash": "93591b11a6eb3bab770ac338a881b10cf57cb03890f7d88841eb26b07faaf99e"
+    },
+    {
+      "profile_id": "RV-0576",
+      "original_name": "Adrian Gurzău",
+      "current_name": "Adrian Gurzău",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8175"
+      ],
+      "note": "Condamnarea definitivă prin acord de recunoaștere este confirmată; funcția a fost corectată la fost deputat.",
+      "reviewed_snapshot_hash": "86dcd69016339a876da6632eab13d768591a308155e01fd274fe5064c7e02f01"
+    },
+    {
+      "profile_id": "RV-0578",
+      "original_name": "Marian Oprișan",
+      "current_name": "Marian Oprișan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=468",
+        "https://cjvrancea.ro/consilier/oprisan-marian-6/"
+      ],
+      "note": "Achitarea definitivă este confirmată; funcțiile au fost corectate la fost președinte și fost vicepreședinte al Consiliului Județean Vrancea.",
+      "reviewed_snapshot_hash": "c955e27e4ab5a1e18fbb2f7896c378bbdc96165f4ab1a06c83a68e2eb6c7873d"
+    },
+    {
+      "profile_id": "RV-0579",
+      "original_name": "Andrei Volosevici",
+      "current_name": "Andrei Volosevici",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7543",
+        "https://ploiesti.ro/descopera-ploiestiul-2/oameni-parteneriate/primarii-ploiestiului/"
+      ],
+      "note": "Achitarea definitivă este confirmată; funcțiile au fost corectate la fost primar și fost senator.",
+      "reviewed_snapshot_hash": "1ef3c6d37f0b33860efc45148917dcc08b66533863ce8ed0b9c3530d32981ffa"
+    },
+    {
+      "profile_id": "RV-0580",
+      "original_name": "Teodor Neamțu",
+      "current_name": "Teodor Neamțu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5265"
+      ],
+      "note": "Achitarea definitivă este confirmată; funcția a fost corectată la fost primar.",
+      "reviewed_snapshot_hash": "69c9b837f943fdcd5e838502d76e13f274d66edc1ebc8429cf75f36c13039d5c"
+    },
+    {
+      "profile_id": "RV-0582",
+      "original_name": "Sorin Balași",
+      "current_name": "Sorin Balași",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10439",
+        "https://www.dna.ro/comunicat.xhtml?id=13097"
+      ],
+      "note": "Statutul afișat a fost corectat la trimis în judecată pentru dosarul activ din 2025, păstrând distinct condamnarea definitivă anterioară din 2021.",
+      "reviewed_snapshot_hash": "65cbdce2c4b8e391c491138d03d11ab83c7cf27871adc13c92d467c7e5877f98"
+    },
+    {
+      "profile_id": "RV-0583",
+      "original_name": "Sikó Imre",
+      "current_name": "Sikó Imre",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11048"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "e9dceaad8f2c3a00095ded5b36792528ae3a126dddff6ad863fa1e15fedd969a"
+    },
+    {
+      "profile_id": "RV-0584",
+      "original_name": "Gavril Lupu",
+      "current_name": "Gavril Lupu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11238"
+      ],
+      "note": null,
+      "reviewed_snapshot_hash": "d157b8d41402eaa96722c8dab6fb3b327620c6d28c29756cc5e5a65d2bff2734"
     }
   ]
 }

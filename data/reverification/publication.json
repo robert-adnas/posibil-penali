@@ -2,146 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "Romeo Stavarache": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0487"
-    },
-    "Mircia Gutău": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0488"
-    },
-    "Emilian Frâncu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0489"
-    },
-    "Băran Aurică": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0491"
-    },
-    "Mihail Boldea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0492"
-    },
-    "Dan Păsat": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0493"
-    },
-    "Sorin Andi Pandele": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0494"
-    },
-    "Cristian Marius Mincă": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0496"
-    },
-    "Iulian Miliare": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0497"
-    },
-    "Gheorghe Percea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0498"
-    },
-    "Gheorghe Vișovan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0499"
-    },
-    "Dan Ștefan Motreanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0502"
-    },
-    "George-Adrian Scutaru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0503"
-    },
-    "Costel Tulițu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0513"
-    },
-    "Soós Zoltán": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0539"
-    },
-    "Lucreția Cadar": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0568"
-    },
-    "Filimon Brian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0569"
-    },
-    "Márk Endre Dezső": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0571"
-    },
-    "Gálfi Árpád": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0572"
-    },
-    "Alexandru-Răzvan Cuc": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0573"
-    },
     "Costel Vieriu": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4292,6 +4152,69 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-2400"
+    },
+    "Eugen Pîrvulescu": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0480"
+    },
+    "Pavăl Ioan": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0538"
+    },
+    "Soós Zoltán": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0539"
+    },
+    "Lucreția Cadar": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0568"
+    },
+    "Filimon Brian": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0569"
+    },
+    "Márk Endre Dezső": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0571"
+    },
+    "Gálfi Árpád": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0572"
+    },
+    "Alexandru-Răzvan Cuc": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0573"
+    },
+    "Sorin Balași": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0582"
     }
   }
 }
