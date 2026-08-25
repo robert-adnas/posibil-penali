@@ -41344,6 +41344,185 @@
       ],
       "note": "DNA confirmă condamnarea definitivă din 05.06.2014 la 2 ani cu suspendare pentru abuz în serviciu și două infracțiuni de fals intelectual.",
       "reviewed_snapshot_hash": "a9c7d7e8c5685a34d5a659fea5e1c265bf646ef5cfefcf445101bb0ce8bdd655"
+    },
+    {
+      "profile_id": "RV-2443",
+      "original_name": "Miculaiciuc Andrei",
+      "current_name": "Miculaiciuc Andrei",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://www.cjmaramures.ro/monitorul-oficial-local/alte-documente/declaratii-de-avere-si-interese/persoane-care-si-au-incetat-activitatea/miculaiciuc-andrei"
+      ],
+      "note": "Identitatea și funcțiile sunt confirmate oficial. Statut corectat din investigated în integrity: ANI a constatat diferența patrimonială și a sesizat instituțiile competente, fără dovadă publică a calității de suspect/inculpat ori a unei soluții ulterioare.",
+      "reviewed_snapshot_hash": "b95eade934449318e8217e8aaa59e2c314f2dc31193e89fb13fd7d95ddeeb833"
+    },
+    {
+      "profile_id": "RV-0668",
+      "original_name": "Gheorghe Lupu",
+      "current_name": "Gheorghe Lupu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3399",
+        "https://www.romaniacurata.ro/partidul-ecologist-sustine-un-candidat-care-vrea-sa-inlesneasca-constructiile-in-parcul-national-piatra-craiului/"
+      ],
+      "note": "Condamnarea definitivă, pedeapsa, infracțiunile și identitatea de fost primar PDL al Zărneștiului sunt confirmate; detaliile au fost completate cu termenul de încercare și prejudiciul stabilit de instanță.",
+      "reviewed_snapshot_hash": "60b40d2374027ffeedc70ec3a89313fcf83465c110529ed61a87659363686e9f"
+    },
+    {
+      "profile_id": "RV-0669",
+      "original_name": "Dorin Mircea Malii",
+      "current_name": "Dorin Mircea Malii",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7532",
+        "https://www.primariasipote.ro/declaratii-avereinterese",
+        "https://emol.ro/pluginfile.php/1/local_emol/proiecthclbaza/188971/proiect%20de%20hotarare%20nr%2016%20din%207%20februarie%2020251372.pdf"
+      ],
+      "note": "Condamnarea definitivă este confirmată. Funcția era greșită: Malii nu este primarul actual; documentele oficiale îl arată consilier local, iar pe Constantin Puiu ca primar. Funcția și sursele au fost corectate.",
+      "reviewed_snapshot_hash": "358724331a70728f660ea9c284906396059c005b74066344a2e87f4cca7a8a9d"
+    },
+    {
+      "profile_id": "RV-0670",
+      "original_name": "Victor Ponta",
+      "current_name": "Victor Ponta",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6675",
+        "https://agerpres.ro/justitie/2023/12/28/victor-ponta-achitat-definitiv-in-dosarul-rovinari---turceni--1225581",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=248&cam=2&leg=2024",
+        "https://www.digi24.ro/stiri/actualitate/politica/victor-ponta-se-rupe-de-psd-a-demisionat-din-grupul-parlamentar-al-social-democratilor-si-se-alatura-alesilor-ex-pot-3801915"
+      ],
+      "note": "Achitarea definitivă este confirmată. Profilul politic a fost actualizat: deputat în exercițiu de Dâmbovița, exclus din PSD și membru din iunie 2026 al grupului Uniți pentru România; partidul este tratat ca Independent.",
+      "reviewed_snapshot_hash": "2caa69273f2a75787ffafa9602598d09d31fc865e3d320184a54a129d88a35a8"
+    },
+    {
+      "profile_id": "RV-0672",
+      "original_name": "Theodor-Cătălin Nicolescu",
+      "current_name": "Theodor-Cătălin Nicolescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9633",
+        "https://www.dna.ro/comunicat.xhtml?id=6190",
+        "https://www.digi24.ro/stiri/actualitate/justitie/verdicte-in-dosarul-anrp-horia-georgescu-si-ingrid-mocanu-achitati-definitiv-theodor-nicolescu-condamnat-la-8-ani-de-inchisoare-1197936"
+      ],
+      "note": "Condamnarea definitivă la 8 ani cu executare este confirmată din comunicatul DNA al hotărârii finale. Detaliile au fost completate cu confiscarea de 6,2 milioane lei, interdicțiile și achitarea pentru acuzațiile de abuz.",
+      "reviewed_snapshot_hash": "c0145a973523d25ce7b262610ab3b9222886f9c8450a77c38ff738caef6e81d0"
+    },
+    {
+      "profile_id": "RV-0673",
+      "original_name": "Sebastian Ghiță",
+      "current_name": "Sebastian Ghiță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11536",
+        "https://www.g4media.ro/fugarul-sebastian-ghita-mai-scapa-de-un-dosar-cazul-taxa-pentru-contracte-it-a-fost-restituit-la-dna-decizia-este-definitiva-fostul-deputat-era-acuzat-ca-a-primit-comisioane-de.html",
+        "https://www.profit.ro/perspective/un-dosar-al-lui-sebastian-ghita-a-fost-retrimis-la-dna-decizia-este-definitiva-22182037"
+      ],
+      "note": "Este confirmată restituirea definitivă la DNA a rechizitoriului din dosarul Taxă pentru contracte IT, cu excluderi de probe și fără judecată pe fond în această cauză. Formularea a fost făcută mai exactă; profilul rămâne ascuns până la o evoluție oficială.",
+      "reviewed_snapshot_hash": "e9efb3d992e11e178dc8d982fc016b447ddd5b62bcc999fc5d576df293f301a3"
+    },
+    {
+      "profile_id": "RV-0674",
+      "original_name": "Markó Attila-Gábor",
+      "current_name": "Markó Attila-Gábor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5666",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=180&cam=2&leg=2024",
+        "https://www.dna.ro/comunicat.xhtml?id=7596"
+      ],
+      "note": "Condamnarea definitivă din dosarul Székely Mikó este confirmată și distinctă de achitările ulterioare din alte dosare ANRP. Funcția și geografia au fost corectate: deputat UDMR în exercițiu, ales în 2024 în Mureș.",
+      "reviewed_snapshot_hash": "c6b345a9501d418c745e9d7905a69a6106bb9a83398d1e90dc8f2d073ec3d6e1"
+    },
+    {
+      "profile_id": "RV-0675",
+      "original_name": "Călin Popescu-Tăriceanu",
+      "current_name": "Călin Popescu-Tăriceanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.digi24.ro/amphtml/stiri/actualitate/justitie/fostul-premier-calin-popescu-tariceanu-achitat-definitiv-in-dosarul-in-care-a-fost-acuzat-ca-a-luat-mita-800-000-de-dolari-3267789",
+        "https://www.senat.ro/fisasenator.aspx?parlamentarid=522afea4-b00c-44ec-802f-be592c406a5c",
+        "https://www.gandul.ro/emisiuni/marius-tuca-show/calin-popescu-tariceanu-nu-mai-vreau-sa-ma-intorc-in-politica-nivelul-a-scazut-prea-mult-20637458"
+      ],
+      "note": "Achitarea definitivă din 2025 este confirmată, inclusiv temeiul că fapta nu există și ridicarea sechestrului. Afilierea PNL era greșită ca statut actual; Tăriceanu a părăsit partidul și a declarat că nu revine în politică, deci profilul este Independent.",
+      "reviewed_snapshot_hash": "3131a137bdbb170c23866c209c5bc124d2674dafb00c4493a2c372f914bae4a4"
+    },
+    {
+      "profile_id": "RV-0676",
+      "original_name": "Ludovic Orban",
+      "current_name": "Ludovic Orban",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.rador.ro/2018/03/05/presedintele-pnl-ludovic-orban-a-fost-achitat-definitiv-de-inalta-curte-de-casatie-si-justitie/",
+        "https://www.digi24.ro/stiri/actualitate/politica/lodovic-orban-nicusor-dan-se-agata-in-continuare-de-o-iluzie-ce-solutie-vede-pentru-rezolvarea-crizei-politice-3863639",
+        "https://agerpres.ro/documentare/2020/12/22/presedintele-pnl-ludovic-orban-ales-presedinte-al-camerei-deputatilor-fisa-biografica--631942"
+      ],
+      "note": "Achitarea definitivă din 2018 este confirmată. Afilierea și funcția politică au fost corectate: Orban este președintele Forța Dreptei, nu membru PNL actual.",
+      "reviewed_snapshot_hash": "6162b5b92b814c081d92010fef74aaf308eeb115558593c4935064982013bc65"
+    },
+    {
+      "profile_id": "RV-0677",
+      "original_name": "Vasile Blaga",
+      "current_name": "Vasile Blaga",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=33D88102-6E65-4934-9ECF-10102445C2C4",
+        "https://www.digi24.ro/amphtml/stiri/actualitate/justitie/vasile-blaga-a-fost-achitat-definitiv-intr-un-dosar-de-trafic-de-influenta-1990383",
+        "https://www.dna.ro/comunicat.xhtml?id=7882"
+      ],
+      "note": "Achitarea definitivă din 2022 este confirmată. Afilierea, funcția și geografia au fost corectate din PDL/fost senator/București în PNL/senator în exercițiu/Timiș, conform fișei oficiale a Senatului.",
+      "reviewed_snapshot_hash": "7499ea58e326e0858a9b69e33ef9ea37168680b152e6db0207f6883e7621693f"
     }
   ]
 }

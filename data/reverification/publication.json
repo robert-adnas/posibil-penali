@@ -2,13 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "Sebastian Ghiță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0673"
-    },
     "Ovidiu Ioan Silaghi": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -603,13 +596,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2427"
-    },
-    "Miculaiciuc Andrei": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2443"
     },
     "Cican Adrian": {
       "held_at": "2026-08-03",
@@ -4180,6 +4166,20 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0650"
+    },
+    "Miculaiciuc Andrei": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2443"
+    },
+    "Sebastian Ghiță": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0673"
     }
   }
 }

@@ -4497,11 +4497,11 @@ const AUTOMATED_JUN_2026_FOLLOWUP_PUBLIC_RECORDS = [
     party: 'PSD',
     position: 'Fost consilier jude\u021bean Maramure\u0219 \u0219i consilier local al comunei Repedea, jude\u021bul Maramure\u0219',
     position_type: 'local_official',
-    crime: 'Avere nejustificat\u0103; fals \u00een declara\u021bii',
-    status: 'investigated',
+    crime: 'Avere nejustificat\u0103; sesizare Parchet privind posibile fapte de fals \u00een declara\u021bii',
+    status: 'integrity',
     details:
-      'ANI a constatat in februarie 2025 o diferenta nejustificata de 138.773,54 lei intre averea dobandita si veniturile realizate impreuna cu familia in perioada exercitarii functiilor publice; agentia a sesizat si ANAF si Parchetul pentru indicii de fals in declaratii.',
-    verified_at: '2026-06-09',
+      'ANI a constatat \u00een februarie 2025 o diferen\u021b\u0103 nejustificat\u0103 de 138.773,54 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate de Andrei Miculaiciuc \u00eempreun\u0103 cu familia \u00een perioada exercit\u0103rii func\u021biilor publice. Agen\u021bia a sesizat Comisia de cercetare a averilor de pe l\u00e2ng\u0103 Curtea de Apel Cluj, ANAF \u0219i Parchetul de pe l\u00e2ng\u0103 \u00ceCCJ pentru indicii de fals \u00een declara\u021bii. Sesizarea nu dovede\u0219te dob\u00e2ndirea calit\u0103\u021bii de suspect sau inculpat, iar p\u00e2n\u0103 la verificarea din 25 august 2026 nu a fost identificat\u0103 o comunicare oficial\u0103 privind solu\u021bia procedurilor.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Maramure\u0219',
       basis: 'office',
@@ -28172,8 +28172,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 2160 din 20 iunie 2012 a ÎCCJ, într-un dosar privind abuz în serviciu, uz de fals și prejudicii către Primăria Zărnești.',
-    verified_at: '2026-04-29',
+      'Înalta Curte a menținut definitiv, prin decizia penală nr. 2.160 din 20 iunie 2012, condamnarea lui Gheorghe Lupu la un an de închisoare cu suspendare condiționată și termen de încercare de trei ani, pentru abuz în serviciu și uz de fals în formă continuată. Instanța l-a obligat, în solidar cu un coinculpat, la plata către Primăria Zărnești a prejudiciului de 31.112,55 lei.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28190,8 +28190,8 @@ export const politicianAdditions = [
   {
     name: 'Dorin Mircea Malii',
     party: 'PSD',
-    position: 'Primar al comunei Șipote, județul Iași; fost viceprimar',
-    position_type: 'mayor',
+    position: 'Consilier local PSD al comunei Șipote, județul Iași; fost primar și viceprimar',
+    position_type: 'local_official',
     crime: 'Complicitate la folosire sau prezentare de documente false pentru fonduri europene; fals intelectual',
     sentence: '1 an și 5 luni închisoare cu suspendare',
     sentence_years: 1.42,
@@ -28199,8 +28199,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 477 din 17 iunie 2016 a Curții de Apel Iași, într-un dosar privind documente false depuse pentru un proiect al comunei Șipote.',
-    verified_at: '2026-04-29',
+      'Curtea de Apel Iași l-a condamnat definitiv la 17 iunie 2016 la un an și cinci luni de închisoare cu suspendare sub supraveghere, cu termen de încercare de trei ani și cinci luni, pentru complicitate la folosirea unor documente false în vederea obținerii de fonduri europene și fals intelectual. La data faptelor era viceprimar; inculpații au fost obligați în solidar la plata unui prejudiciu de 22.851,98 lei. Documentele oficiale ale comunei din 2025-2026 îl identifică drept consilier local, iar primar este Constantin Puiu.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28208,21 +28208,31 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7532',
       },
       {
-        label: 'Inițiativa pentru o Justiție Curată',
+        label: 'Primăria Șipote – declarații 2025',
+        kind: 'official',
+        url: 'https://www.primariasipote.ro/declaratii-avereinterese',
+      },
+      {
+        label: 'Monitorul Oficial Local Șipote – proces-verbal 30 ianuarie 2025',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/proiecthclbaza/188971/proiect%20de%20hotarare%20nr%2016%20din%207%20februarie%2020251372.pdf',
+      },
+      {
+        label: 'Ziare.com – candidaturile locale Șipote 2024',
         kind: 'press',
-        url: 'https://justitiecurata.ro/primar-cu-ghinion-proaspat-alesului-din-sipote-condamnarea-cu-suspendare-i-a-tras-scaunul-de-sub-sezut/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_iasi/consiliul-local/sipote/1',
       },
     ],
   },
   {
     name: 'Victor Ponta',
-    party: 'PSD',
-    position: 'Fost prim-ministru al României; fost deputat de Gorj',
+    party: 'Independent',
+    position: 'Deputat de Dâmbovița, membru al grupului parlamentar Uniți pentru România; fost prim-ministru al României',
     position_type: 'prime_minister',
     geography: {
-      county: 'Gorj',
+      county: 'Dâmbovița',
       basis: 'constituency',
-      note: 'A reprezentat județul Gorj în Camera Deputaților în perioada dosarului; mandatul nou din 2024 este în Dâmbovița, dar această fișă folosește circumscripția istorică relevantă cauzei.',
+      note: 'Este deputat în legislatura 2024-prezent, ales în circumscripția nr. 16 Dâmbovița.',
     },
     crime: 'Fals în înscrisuri sub semnătură privată; complicitate la evaziune fiscală; spălarea banilor',
     sentence: 'Achitat definitiv (2023)',
@@ -28231,7 +28241,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul Turceni-Rovinari în 2015. La 28 decembrie 2023, un complet de cinci judecători al ÎCCJ a dispus achitarea definitivă.',
-    verified_at: '2026-04-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28244,14 +28254,14 @@ export const politicianAdditions = [
         url: 'https://agerpres.ro/justitie/2023/12/28/victor-ponta-achitat-definitiv-in-dosarul-rovinari---turceni--1225581',
       },
       {
-        label: 'Mediafax',
-        kind: 'press',
-        url: 'https://www.mediafax.ro/politic/alegeri-parlamentare-in-gorj-ponta-vrea-al-treilea-mandat-de-deputat-in-gorj-candideaza-si-fostul-sef-al-spitalului-universitar-10256132',
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=248&cam=2&leg=2024',
       },
       {
-        label: 'G4Media',
+        label: 'Digi24',
         kind: 'press',
-        url: 'https://www.g4media.ro/parlamentare2024-ponta-cap-de-lista-la-camera-deputatilor-in-psd-dambovita-m-am-saturat-sa-fiu-fostul.html',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/victor-ponta-se-rupe-de-psd-a-demisionat-din-grupul-parlamentar-al-social-democratilor-si-se-alatura-alesilor-ex-pot-3801915',
       },
     ],
   },
@@ -28320,13 +28330,13 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA l-a trimis în judecată în dosarul ANRP în 2015. În 2019, ÎCCJ l-a condamnat definitiv la 8 ani de închisoare pentru luare de mită; pentru acuzația de abuz în serviciu a fost achitat.',
-    verified_at: '2026-04-30',
+      'Înalta Curte l-a condamnat definitiv, prin decizia penală nr. 301 din 8 octombrie 2019, la opt ani de închisoare pentru luare de mită în formă continuată. Instanța a dispus confiscarea sumei de 6.200.000 lei și interzicerea timp de cinci ani după executarea pedepsei a dreptului de a fi ales și de a ocupa funcții publice. Pentru acuzațiile de abuz în serviciu a fost achitat.',
+    verified_at: '2026-08-25',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – hotărârea definitivă',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=6190',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9633',
       },
       {
         label: 'Digi24',
@@ -28351,13 +28361,13 @@ export const politicianAdditions = [
       note: 'Deputat ales în Prahova; se folosește circumscripția parlamentară.',
     },
     crime: 'Trafic de influență; instigare la fals în înscrisuri sub semnătură privată',
-    sentence: 'Dosar restituit definitiv la DNA în camera preliminară (2025)',
+    sentence: 'Rechizitoriu restituit definitiv la DNA în camera preliminară (2025)',
     sentence_years: null,
     conviction_year: null,
     status: 'investigated',
     details:
-      'DNA l-a trimis în judecată în 2022 în dosarul „Taxă pentru contracte IT”. În septembrie 2025, Curtea de Apel Ploiești a dispus definitiv restituirea cauzei la DNA, astfel că profilul este urmărit ca dosar aflat din nou în fază de anchetă/procedură prealabilă.',
-    verified_at: '2026-04-30',
+      'DNA l-a trimis în judecată în octombrie 2022 în dosarul „Taxă pentru contracte IT”. În septembrie 2025, Curtea de Apel Ploiești a menținut definitiv restituirea cauzei la DNA, după constatarea neregularității rechizitoriului și excluderea mai multor probe. Pentru această cauză nu există în prezent o judecată pe fond; profilul este menținut ca investigație/procedură la parchet, fără a sugera existența unei condamnări.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28370,21 +28380,21 @@ export const politicianAdditions = [
         url: 'https://www.g4media.ro/fugarul-sebastian-ghita-mai-scapa-de-un-dosar-cazul-taxa-pentru-contracte-it-a-fost-restituit-la-dna-decizia-este-definitiva-fostul-deputat-era-acuzat-ca-a-primit-comisioane-de.html',
       },
       {
-        label: 'Antena 3',
+        label: 'Profit.ro – decizia definitivă de restituire',
         kind: 'press',
-        url: 'https://www.antena3.ro/politica/romania-tv-intra-in-parlament-omul-de-afaceri-sebastian-ghita-ales-deputat-de-prahova-195675.html',
+        url: 'https://www.profit.ro/perspective/un-dosar-al-lui-sebastian-ghita-a-fost-retrimis-la-dna-decizia-este-definitiva-22182037',
       },
     ],
   },
   {
     name: 'Markó Attila-Gábor',
     party: 'UDMR',
-    position: 'Fost deputat de Covasna; fost subsecretar de stat',
+    position: 'Deputat UDMR de Mureș; fost deputat de Covasna și fost subsecretar de stat',
     position_type: 'deputy',
     geography: {
-      county: 'Covasna',
+      county: 'Mureș',
       basis: 'constituency',
-      note: 'Deputat ales în județul Covasna, colegiul Sfântu Gheorghe.',
+      note: 'Este deputat în legislatura 2024-prezent, ales în circumscripția nr. 28 Mureș.',
     },
     crime: 'Abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave',
     sentence: '3 ani închisoare cu suspendarea condiționată a executării pedepsei',
@@ -28393,8 +28403,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a consemnat condamnarea definitivă pronunțată de Curtea de Apel Ploiești la 26 noiembrie 2014 în dosarul retrocedării Colegiului „Székely Mikó” din Sfântu Gheorghe.',
-    verified_at: '2026-04-30',
+      'Curtea de Apel Ploiești l-a condamnat definitiv la 26 noiembrie 2014 la trei ani de închisoare cu suspendare condiționată, cu termen de încercare de cinci ani, în dosarul retrocedării Colegiului „Székely Mikó” din Sfântu Gheorghe. Achitările definitive pronunțate ulterior în alte dosare ANRP sunt distincte și nu desființează această condamnare.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28402,15 +28412,15 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=5666',
       },
       {
-        label: 'Mesagerul de Covasna',
-        kind: 'press',
-        url: 'https://mesageruldecovasna.ro/fostul-subsecretar-de-stat-marko-attila-a-castigat-mandatul-de-deputat-la-sfantu-gheorghe/',
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=180&cam=2&leg=2024',
       },
     ],
   },
   {
     name: 'Călin Popescu-Tăriceanu',
-    party: 'PNL',
+    party: 'Independent',
     position: 'Fost prim-ministru al României; fost președinte al Senatului',
     position_type: 'prime_minister',
     geography: {
@@ -28424,8 +28434,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a pus în mișcare acțiunea penală în 2021 într-un dosar privind o presupusă mită de 800.000 USD. La 2 iunie 2025, ÎCCJ a respins apelul DNA și a menținut achitarea definitivă.',
-    verified_at: '2026-04-30',
+      'DNA l-a trimis în judecată în 2021 într-un dosar privind o presupusă mită de 800.000 USD. La 2 iunie 2025, ÎCCJ a respins apelul DNA și a menținut achitarea dispusă pentru motivul că fapta nu există; sechestrul asigurător fusese ridicat. Tăriceanu a părăsit PNL în 2014, iar în septembrie 2025 a declarat că nu mai dorește să revină în politică, astfel că nu este prezentat ca membru PNL actual.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'G4Media',
@@ -28442,12 +28452,17 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.senat.ro/fisasenator.aspx?parlamentarid=522afea4-b00c-44ec-802f-be592c406a5c',
       },
+      {
+        label: 'Gândul – retragerea din politică',
+        kind: 'press',
+        url: 'https://www.gandul.ro/emisiuni/marius-tuca-show/calin-popescu-tariceanu-nu-mai-vreau-sa-ma-intorc-in-politica-nivelul-a-scazut-prea-mult-20637458',
+      },
     ],
   },
   {
     name: 'Ludovic Orban',
-    party: 'PNL',
-    position: 'Fost prim-ministru al României; fost deputat de București',
+    party: 'Forța Dreptei',
+    position: 'Președinte al partidului Forța Dreptei; fost prim-ministru al României și fost deputat de București',
     position_type: 'prime_minister',
     geography: {
       county: 'București',
@@ -28461,12 +28476,12 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în 2016, susținând că ar fi cerut bani pentru promovarea campaniei la Primăria Capitalei. ÎCCJ a respins apelul DNA și a menținut achitarea definitivă în martie 2018.',
-    verified_at: '2026-04-30',
+    verified_at: '2026-08-25',
     sources: [
       {
-        label: 'Senatul României',
-        kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=e0d59a9b-6d02-46d1-a748-18a7a0b93cf1',
+        label: 'Digi24 – președinte Forța Dreptei',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/lodovic-orban-nicusor-dan-se-agata-in-continuare-de-o-iluzie-ce-solutie-vede-pentru-rezolvarea-crizei-politice-3863639',
       },
       {
         label: 'Rador',
@@ -28482,13 +28497,13 @@ export const politicianAdditions = [
   },
   {
     name: 'Vasile Blaga',
-    party: 'PDL',
-    position: 'Fost senator; fost ministru al Internelor',
+    party: 'PNL',
+    position: 'Senator PNL de Timiș; fost ministru al Internelor',
     position_type: 'senator',
     geography: {
-      county: 'București',
+      county: 'Timiș',
       basis: 'constituency',
-      note: 'Pentru perioada faptelor anchetate, era senator ales în București; mandatul din 2024 este în Timiș.',
+      note: 'Este senator în legislatura 2024-2028, ales în circumscripția nr. 37 Timiș.',
     },
     crime: 'Complicitate la trafic de influență',
     sentence: 'Achitat definitiv (2022)',
@@ -28497,12 +28512,12 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a acuzat că ar fi primit 700.000 euro în perioada 2011-2012, în legătură cu atribuirea unor contracte publice. ÎCCJ a menținut definitiv achitarea în iunie 2022.',
-    verified_at: '2026-04-30',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Senatul României',
         kind: 'official',
-        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2972FF7A-D452-4AAC-86BC-AF263DD5A32B',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=33D88102-6E65-4934-9ECF-10102445C2C4',
       },
       {
         label: 'Digi24',
