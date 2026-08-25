@@ -27504,9 +27504,10 @@ export const politicianAdditions = [
     sentence_years: 4,
     conviction_year: 2025,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea definitiv\u0103 pronun\u021bat\u0103 de Curtea de Apel Constan\u021ba la 30 aprilie 2025: 4 ani de \u00eenchisoare pentru abuz \u00een serviciu cu consecin\u021be deosebit de grave. Dosarul prive\u0219te refuzul \u0219i blocarea emiterii unor titluri de proprietate pentru 19 hectare de teren de pe malul lacului Siutghiol, \u00een perioada mandatului s\u0103u de prefect.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27523,17 +27524,19 @@ export const politicianAdditions = [
   {
     name: 'George Laz\u0103r',
     party: 'PNL',
-    position: 'Secretar de stat \u00een Ministerul Energiei; pre\u0219edinte PNL Neam\u021b',
-    position_type: 'secretary_of_state',
+    position:
+      'Consilier jude\u021bean Neam\u021b; fost secretar de stat \u00een Ministerul Energiei; fost pre\u0219edinte PNL Neam\u021b',
+    position_type: 'local_official',
     crime:
       'Folosirea influen\u021bei sau autorit\u0103\u021bii \u00een scopul ob\u021binerii de foloase necuvenite',
-    sentence: 'Trimis \u00een judecat\u0103 de DNA',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    sentence: '1 an \u00eenchisoare cu suspendare \u00een prim\u0103 instan\u021b\u0103 (hot\u0103r\u00e2re nedefinitiv\u0103)',
+    sentence_years: 1,
+    conviction_year: 2026,
+    status: 'first_instance',
+    execution_type: 'Cu suspendare',
     details:
-      'DNA Bac\u0103u a anun\u021bat la 29 iulie 2024 trimiterea sa \u00een judecat\u0103, sus\u021bin\u00e2nd c\u0103, \u00een septembrie 2022, ca secretar de stat \u0219i pre\u0219edinte al unei organiza\u021bii jude\u021bene de partid, \u0219i-ar fi folosit influen\u021ba asupra conducerii Romsilva pentru men\u021binerea unei persoane \u00een func\u021bia de director al Direc\u021biei Silvice Neam\u021b.',
-    verified_at: '2026-04-22',
+      'DNA Bac\u0103u l-a trimis \u00een judecat\u0103 \u00een 2024, sus\u021bin\u00e2nd c\u0103, \u00een septembrie 2022, ca secretar de stat \u0219i pre\u0219edinte al organiza\u021biei PNL Neam\u021b, \u0219i-ar fi folosit influen\u021ba asupra conducerii Romsilva pentru men\u021binerea unei persoane la conducerea Direc\u021biei Silvice Neam\u021b. Curtea de Apel Gala\u021bi l-a condamnat la 19 martie 2026, \u00een prim\u0103 instan\u021b\u0103, la 1 an de \u00eenchisoare cu suspendare; hot\u0103r\u00e2rea nu este definitiv\u0103. Este consilier jude\u021bean Neam\u021b \u00een mandatul 2024-2028.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27541,9 +27544,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12645',
       },
       {
-        label: 'Focus Energetic',
+        label: 'Digi24',
         kind: 'press',
-        url: 'https://www.focus-energetic.ro/presedintele-pnl-neamt-numit-secretar-de-stat-la-ministerul-energiei-79583.html',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/fost-lider-liberal-condamnat-la-un-an-de-inchisoare-dosarul-scoate-la-lumina-negocierile-nescrise-dintre-pnl-si-psd-pentru-functii-3687251',
+      },
+      {
+        label: 'Consiliul Jude\u021bean Neam\u021b',
+        kind: 'official',
+        url: 'https://cjneamt.ro/wp-content/uploads/2024/10/Proces-verbal-al-ceremoniei-de-constituire-a-Consiliului-Judetean-Neamt-mandat-2024-2028.pdf',
       },
     ],
   },
@@ -27560,12 +27568,17 @@ export const politicianAdditions = [
     status: 'indicted',
     details:
       'DNA Timi\u0219oara a anun\u021bat la 17 decembrie 2025 trimiterea sa \u00een judecat\u0103 pentru instigare la abuz \u00een serviciu. Procurorii sus\u021bin c\u0103, \u00een perioada octombrie 2024 - ianuarie 2025, ar fi determinat mutarea temporar\u0103 a unei persoane din conducerea Comisariatului Jude\u021bean pentru Protec\u021bia Consumatorilor Cara\u0219-Severin, \u00een alt scop dec\u00e2t interesul institu\u021biei.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13417',
+      },
+      {
+        label: 'DNA - actualizarea trimiterii \u00een judecat\u0103',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13019',
       },
       {
         label: 'InfoCS',
@@ -27578,16 +27591,16 @@ export const politicianAdditions = [
     name: 'Niculae Havrile\u021b',
     party: 'PNL',
     position:
-      'Fost secretar de stat \u00een Ministerul Economiei, Energiei \u0219i Mediului de Afaceri; fost pre\u0219edinte ANRE',
-    position_type: 'secretary_of_state',
+      'Fost consilier jude\u021bean Mure\u0219 \u0219i candidat PNL la Camera Deputa\u021bilor; fost secretar de stat; fost pre\u0219edinte ANRE',
+    position_type: 'local_official',
     crime: 'Ob\u021binere de foloase necuvenite de c\u0103tre o persoan\u0103 cu atribu\u021bii de supraveghere sau control',
-    sentence: 'Trimis \u00een judecat\u0103 de DNA',
+    sentence: 'Achitat \u00een prim\u0103 instan\u021b\u0103 (hot\u0103r\u00e2re nedefinitiv\u0103)',
     sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    conviction_year: 2026,
+    status: 'first_instance',
     details:
-      'DNA a anun\u021bat la 10 septembrie 2024 trimiterea sa \u00een judecat\u0103 pentru fapte legate de perioada ulterioar\u0103 mandatului de pre\u0219edinte ANRE \u0219i de mandatul de secretar de stat. Procurorii sus\u021bin c\u0103 ar fi \u00eendeplinit \u00eens\u0103rcin\u0103ri pentru trei operatori economici priva\u021bi din energie \u00een intervalul de interdic\u021bie prev\u0103zut de lege, ob\u021bin\u00e2nd foloase necuvenite de 1.195.599 lei.',
-    verified_at: '2026-04-22',
+      'DNA l-a trimis \u00een judecat\u0103 \u00een 2024, sus\u021bin\u00e2nd c\u0103 ar fi \u00eendeplinit \u00eens\u0103rcin\u0103ri pentru trei operatori economici din energie \u00een intervalul de interdic\u021bie prev\u0103zut de lege, ob\u021bin\u00e2nd foloase de 1.195.599 lei. Tribunalul Bucure\u0219ti l-a achitat \u00een iunie 2026, re\u021bin\u00e2nd c\u0103 faptele imputate nu \u00eentrunesc elementele constitutive ale infrac\u021biunii; hot\u0103r\u00e2rea nu este definitiv\u0103.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27595,9 +27608,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=12660',
       },
       {
-        label: 'Aspen Institute Romania',
-        kind: 'profile',
-        url: 'https://aspeninstitute.ro/people/niculae-havrilet/',
+        label: 'Profit.ro',
+        kind: 'press',
+        url: 'https://www.profit.ro/povesti-cu-profit/energie/dosar-penal-ex-sef-anre-si-secretar-de-stat-la-energie-acuzat-ca-a-condus-companii-energetice-private-la-mai-putin-de-5-ani-dupa-ce-le-a-supravegheat-institutional-achitat-in-prima-instanta-22488368',
+      },
+      {
+        label: 'Consiliul Jude\u021bean Mure\u0219',
+        kind: 'official',
+        url: 'https://www.cjmures.ro/Consilieri/havrilet_nicolae.htm',
       },
     ],
   },
@@ -27612,13 +27630,13 @@ export const politicianAdditions = [
       note: 'Candidat pe lista PSD București înainte de numirea ca secretar de stat.',
     },
     crime: 'Participa\u021bie improprie la abuz \u00een serviciu; participa\u021bie improprie la fals intelectual',
-    sentence: 'Trimis \u00een judecat\u0103; prim\u0103 instan\u021b\u0103: \u00eencetare prin prescrip\u021bie, nedefinitiv',
+    sentence: 'Proces penal \u00eencetat prin prescrip\u021bie \u00een prim\u0103 instan\u021b\u0103 (hot\u0103r\u00e2re nedefinitiv\u0103)',
     sentence_years: null,
-    conviction_year: null,
-    status: 'indicted',
+    conviction_year: 2025,
+    status: 'first_instance',
     details:
-      'DNA a anun\u021bat la 7 ianuarie 2022 trimiterea sa \u00een judecat\u0103 pentru c\u0103, dup\u0103 ce ar fi fost surprins conduc\u00e2nd cu 201 km/h pe autostrada A2 \u00een 2019, l-ar fi determinat pe \u0219eful s\u0103u de cabinet s\u0103 \u00ee\u0219i asume contraven\u021bia. \u00cen decembrie 2025, Tribunalul Ilfov a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei, dar presa a consemnat c\u0103 solu\u021bia nu era definitiv\u0103; am p\u0103strat statusul de trimis \u00een judecat\u0103 p\u00e2n\u0103 la o solu\u021bie definitiv\u0103.',
-    verified_at: '2026-04-22',
+      'DNA l-a trimis \u00een judecat\u0103 pentru c\u0103, dup\u0103 ce ar fi fost surprins conduc\u00e2nd cu 201 km/h pe autostrada A2 \u00een 2019, l-ar fi determinat pe \u0219eful s\u0103u de cabinet s\u0103 \u00ee\u0219i asume contraven\u021bia. La 18 decembrie 2025, Tribunalul Ilfov a dispus \u00eencetarea procesului penal pentru instigare la fals \u00een declara\u021bii \u0219i participa\u021bie improprie la fals intelectual, ca urmare a prescrip\u021biei. Hot\u0103r\u00e2rea era nedefinitiv\u0103; nu a fost identificat\u0103 public o solu\u021bie ulterioar\u0103 definitiv\u0103 p\u00e2n\u0103 la data verific\u0103rii.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27647,9 +27665,10 @@ export const politicianAdditions = [
     sentence_years: 6.67,
     conviction_year: 2023,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea sa definitiv\u0103 din 10 martie 2023 la 6 ani \u0219i 8 luni de \u00eenchisoare pentru dou\u0103 infrac\u021biuni de trafic de influen\u021b\u0103, cu confiscarea sumelor de 80.000 euro \u0219i 80.000 lei. Anterior, DNA Bac\u0103u \u00eel trimisese \u00een judecat\u0103 \u00een 2018 pentru fapte legate de interven\u021bii promise pe l\u00e2ng\u0103 ANI \u0219i un primar din jude\u021bul Neam\u021b.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27680,7 +27699,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Bac\u0103u l-a trimis \u00een judecat\u0103 la 23 februarie 2021 pentru trafic de influen\u021b\u0103 \u00een dosarul privind presupuse interven\u021bii pentru numirea conducerii Administra\u021biei Na\u021bionale Apele Rom\u00e2ne. Prin actualizarea oficial\u0103 din 20 februarie 2023, DNA a consemnat c\u0103 \u00ceCCJ a dispus achitarea definitiv\u0103 a inculpa\u021bilor deoarece faptele nu exist\u0103.',
-    verified_at: '2026-04-22',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27699,14 +27718,15 @@ export const politicianAdditions = [
     party: 'UNPR',
     position: 'Fost primar al comunei Jilava, județul Ilfov',
     position_type: 'mayor',
-    crime: 'Luare de mită; constituire grup infracțional organizat; spălare de bani',
+    crime: 'Luare de mită; constituire a unui grup infracțional organizat',
     sentence: '5 ani și 10 luni închisoare',
     sentence_years: 5.83,
     conviction_year: 2016,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, într-un dosar privind promisiuni de intervenții, eliberarea de documente și operațiuni imobiliare legate de terenuri din Jilava și Snagov.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27735,9 +27755,10 @@ export const politicianAdditions = [
     sentence_years: 4,
     conviction_year: 2016,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, în același dosar privind intervenții promise și operațiuni imobiliare din zona Snagov-Jilava.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27764,7 +27785,7 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 300 din 14 iulie 2016, în dosarul în care au fost condamnați și foștii primari din Jilava și Snagov.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27780,17 +27801,18 @@ export const politicianAdditions = [
   },
   {
     name: 'Gheorghe Băzăvan',
-    party: 'PDL',
+    party: 'PSD',
     position: 'Fost primar al comunei Malovăț, județul Mehedinți',
     position_type: 'mayor',
-    crime: 'Abuz în serviciu',
-    sentence: 'Proces penal încetat ca urmare a prescripției',
-    sentence_years: 0,
-    conviction_year: 2023,
-    status: 'prescribed',
+    crime: 'Luare de mită; separat, abuz în serviciu',
+    sentence: '3 ani și 6 luni închisoare cu executare (2014); separat, proces încetat prin prescripție (2023)',
+    sentence_years: 3.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'DNA l-a trimis în judecată în iunie 2021 pentru abuz în serviciu legat de contracte și plăți ale primăriei. Prin actualizarea oficială din 13 octombrie 2023, DNA a consemnat încetarea definitivă a procesului penal ca urmare a prescripției.',
-    verified_at: '2026-04-27',
+      'Curtea de Apel Craiova l-a condamnat definitiv la 6 noiembrie 2014 la 3 ani și 6 luni de închisoare cu executare pentru luare de mită, după un flagrant privind 20.000 de euro. Separat, DNA l-a trimis în judecată în 2021 pentru abuz în serviciu legat de alte contracte și plăți ale primăriei; în acel dosar, Curtea de Apel Craiova a dispus definitiv, la 27 septembrie 2023, încetarea procesului ca urmare a prescripției și plata unor daune materiale către Primăria Malovăț.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27798,25 +27820,30 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10471',
       },
       {
-        label: 'Sursa Zilei',
+        label: 'DNA - trimiterea în judecată în dosarul de luare de mită',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4536',
+      },
+      {
+        label: 'Gazeta de Sud',
         kind: 'press',
-        url: 'https://www.sursazilei.ro/mehedin%C5%A3i-primarul-din-malov%C4%83%C5%A3-re%C5%A3inut-dup%C4%83-ce-a-fost-prins-primind-mit%C4%83-20-000-de-euro/',
+        url: 'https://www.gds.ro/eveniment/2023-10-03/fost-primar-obligat-sa-achite-primariei-pe-care-a-condus-o-peste-15-milioane-de-lei/',
       },
     ],
   },
   {
     name: 'Cătălin-Iulian Martinuș',
-    party: 'PNL',
-    position: 'Fost primar al comunei Dobrovăț, județul Iași',
+    party: 'PSD',
+    position: 'Primar al comunei Dobrovăț, județul Iași',
     position_type: 'mayor',
-    crime: 'Abuz în serviciu; folosire sau prezentare de documente false pentru fonduri europene',
+    crime: 'Abuz în serviciu; folosire și complicitate la folosirea de documente false pentru fonduri europene; fals intelectual',
     sentence: 'Proces penal încetat ca urmare a prescripției',
     sentence_years: 0,
     conviction_year: 2023,
     status: 'prescribed',
     details:
-      'DNA l-a trimis în judecată în 2015 într-un dosar privind fonduri europene și lucrări publice din comuna Dobrovăț. Prin actualizarea oficială din 7 aprilie 2023, DNA a consemnat încetarea procesului penal ca urmare a prescripției.',
-    verified_at: '2026-04-27',
+      'DNA l-a trimis în judecată în 2015 pentru două infracțiuni de abuz în serviciu, folosire și complicitate la folosirea de documente false pentru fonduri europene și fals intelectual. Curtea de Apel Iași a dispus definitiv, la 9 martie 2023, încetarea procesului ca urmare a prescripției. A fost reales primar al comunei Dobrovăț în 2024, candidând din partea PSD.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27824,9 +27851,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=6818',
       },
       {
-        label: 'News.ro',
-        kind: 'press',
-        url: 'https://www.news.ro/politic-intern/primarii-a-doua-comune-iesene-dar-si-un-viceprimar-membri-ai-pnl-vor-candida-pe-listele-psd-la-alegerile-locale-1922405001212024030821509579',
+        label: 'Biroul Electoral de Circumscripție Dobrovăț',
+        kind: 'official',
+        url: 'https://www.comunadobrovat.ro/ari_afisare_document.php?document=51436',
       },
     ],
   },
@@ -27843,7 +27870,7 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 134 din 10 februarie 2022 la 2 ani de închisoare cu suspendare, într-un dosar privind cereri APIA și documente folosite pentru obținerea nelegală de fonduri.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27864,7 +27891,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Constantin Moroșan',
-    party: 'PSD',
+    party: 'PNL',
     position: 'Fost primar al comunei Valea Moldovei, județul Suceava',
     position_type: 'mayor',
     crime: 'Complicitate la folosire sau prezentare de documente false pentru fonduri europene; folosirea funcției pentru favorizarea unor persoane',
@@ -27874,7 +27901,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în 2019 în dosarul APIA din județul Suceava. Prin actualizarea oficială din 4 februarie 2025, DNA a consemnat că, pentru Constantin Moroșan, Curtea de Apel Suceava a dispus achitarea definitivă deoarece faptele nu există.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27900,7 +27927,7 @@ export const politicianAdditions = [
     status: 'prescribed',
     details:
       'DNA l-a trimis în judecată în iulie 2021 într-un dosar privind documente depuse la APIA pentru obținerea de fonduri. Prin actualizarea oficială din 23 decembrie 2022, DNA a consemnat încetarea procesului penal ca urmare a prescripției.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27924,9 +27951,10 @@ export const politicianAdditions = [
     sentence_years: 3,
     conviction_year: 2017,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'DNA Bacău l-a trimis în judecată în 2015 pentru luare de mită și operațiuni financiare incompatibile cu funcția de primar. Prin comunicarea oficială din februarie 2017, DNA a consemnat condamnarea definitivă la 3 ani de închisoare.',
-    verified_at: '2026-04-27',
+      'DNA Bacău l-a trimis în judecată în 2015 pentru luare de mită și operațiuni financiare incompatibile cu funcția de primar. Curtea de Apel Bacău l-a condamnat definitiv la 1 februarie 2017 la 3 ani de închisoare cu executare și a dispus confiscarea a 43.747 lei.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -27943,6 +27971,11 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.onestionline.ro/politica/alegeri2012/alegeri_2012_locale.htm',
       },
+      {
+        label: 'Adevărul',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/bacau/eugen-antica-fostul-primar-al-comunei-prajesti-1764023.html',
+      },
     ],
   },
   {
@@ -27957,7 +27990,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA Timișoara l-a trimis în judecată în septembrie 2021 într-un dosar privind foloase pretinse în legătură cu un contract finanțat din fonduri nerambursabile. Prin actualizarea oficială din 9 februarie 2024, DNA a consemnat achitarea definitivă a fostului primar.',
-    verified_at: '2026-04-27',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28013,9 +28046,10 @@ export const politicianAdditions = [
     sentence_years: 3,
     conviction_year: 2014,
     status: 'convicted',
+    execution_type: 'Cu executare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 438 din 28 martie 2014 a Curții de Apel Craiova, într-un dosar privind foloase necuvenite și contracte atribuite de serviciul public al Consiliului Local Reșița.',
-    verified_at: '2026-04-29',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -28042,7 +28076,7 @@ export const politicianAdditions = [
     execution_type: 'Cu suspendare',
     details:
       'DNA a consemnat condamnarea sa definitivă prin decizia penală nr. 761 din 5 iunie 2014 a Curții de Apel Craiova, într-un dosar privind documente folosite pentru obținerea nelegală de fonduri SAPARD.',
-    verified_at: '2026-04-29',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',

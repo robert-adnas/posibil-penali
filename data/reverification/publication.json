@@ -2,34 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-08-25",
   "holds": {
-    "George Lazăr": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0647"
-    },
-    "Constantin-Flavius Nedelcea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0648"
-    },
-    "Niculae Havrileț": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0649"
-    },
-    "Ionel Minea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0650"
-    },
     "Sebastian Ghiță": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4180,6 +4152,34 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0644"
+    },
+    "George Lazăr": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0647"
+    },
+    "Constantin-Flavius Nedelcea": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0648"
+    },
+    "Niculae Havrileț": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0649"
+    },
+    "Ionel Minea": {
+      "held_at": "2026-08-25",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0650"
     }
   }
 }

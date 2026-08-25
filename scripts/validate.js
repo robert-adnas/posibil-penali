@@ -101,7 +101,12 @@ try {
     if (STATUSES_REQUIRING_SENTENCE.includes(politician.status)) {
       if (!politician.sentence) warn(`${prefix} ${politician.status} but missing sentence`);
       if (!politician.conviction_year) warn(`${prefix} ${politician.status} but missing conviction_year`);
-      if (politician.sentence_years === null || politician.sentence_years === undefined) {
+      const isNonCustodialFirstInstance = politician.status === 'first_instance'
+        && /achitat|achitare|încetare|incetare|prescrip/i.test(politician.sentence ?? '');
+      if (
+        !isNonCustodialFirstInstance
+        && (politician.sentence_years === null || politician.sentence_years === undefined)
+      ) {
         warn(`${prefix} ${politician.status} but missing sentence_years`);
       }
     }
