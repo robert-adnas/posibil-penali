@@ -4589,10 +4589,11 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Beica de Jos, jude\u021bul Mure\u0219',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat in 2021 si 2022 la adoptarea a doua hotarari privind inchirierea unor terenuri catre o asociatie in al carei Consiliu Director era membru.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Mure\u0219',
       basis: 'office',
@@ -4613,10 +4614,11 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Remetea, jude\u021bul Bihor',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari din 28 aprilie 2021 privind atribuirea directa a unui teren al comunei Remetea catre o asociatie in care era membru in Comitetul director.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Bihor',
       basis: 'office',
@@ -4637,10 +4639,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Vadu Mo\u021bilor, jude\u021bul Alba',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Alba Iulia a respins contestația împotriva raportului ANI, dar în februarie 2025 au fost declarate recursuri; profilul rămâne ascuns până la o soluție definitivă verificată.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea a sapte hotarari ale Consiliului Local Vadu Motilor in favoarea societatii comerciale la care era angajat.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Alba',
       basis: 'office',
@@ -4653,6 +4657,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/vadu-motilor/14',
       },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 329/57/2024 privind raportul ANI; recursuri declarate în februarie 2025.',
+      },
     ],
   },
   {
@@ -4661,10 +4671,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Primar al comunei Bistri\u021ba B\u00e2rg\u0103ului, jude\u021bul Bistri\u021ba-N\u0103s\u0103ud',
     position_type: 'mayor',
     crime: 'Avere nejustificat\u0103',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Cluj a respins la 9 aprilie 2026 sesizarea Comisiei de cercetare a averilor. Nu a fost identificată o confirmare oficială a caracterului definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat in noiembrie 2022 o diferenta nejustificata de 101.120 lei si 37.370 euro intre averea dobandita si veniturile realizate impreuna cu familia in perioada exercitarii functiei publice.',
-    verified_at: '2026-06-05',
+      'ANI a constatat în noiembrie 2022 o diferență nejustificată de 101.120 lei și 37.370 euro și a sesizat Comisia de cercetare a averilor. După rejudecare, Curtea de Apel Cluj a respins sesizarea Comisiei prin hotărârea din 9 aprilie 2026, cu drept de recurs.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Bistri\u021ba-N\u0103s\u0103ud',
       basis: 'office',
@@ -4677,6 +4689,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
         kind: 'press',
         url: 'https://www.infobistrita.ro/psd-incepe-anuntarea-candidatilor-vasile-laba-pentru-un-nou-mandat-la-primaria-bistrita-bargaului',
       },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 343/33/2023*, soluția Curții de Apel Cluj din 9 aprilie 2026.',
+      },
     ],
   },
   {
@@ -4685,10 +4703,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Consilier jude\u021bean in cadrul Consiliului Jude\u021bean Olt',
     position_type: 'local_official',
     crime: 'Incompatibilitate; sesizare Parchet',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'ANI a constatat incompatibilitatea și a sesizat Parchetul pentru posibil fals în declarații; nu a fost identificată o soluție oficială actuală, astfel că profilul rămâne ascuns.',
     details:
       'ANI a constatat in noiembrie 2022 ca, in mandatele de consilier judetean 2016-2020 si 2020-prezent, societatea la care era asociat si administrator ar fi incheiat doua contracte de prestari servicii cu DGASPC Olt, institutie subordonata Consiliului Judetean Olt; ANI a sesizat si Parchetul pentru indicii de fals in declaratii.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Olt',
       basis: 'office',
@@ -4709,10 +4729,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Primar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ; sesizare Parchet',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'ANI a constatat conflictul de interese administrativ și a sesizat Parchetul; nu a fost identificată o soluție oficială actuală, astfel că profilul rămâne ascuns.',
     details:
       'ANI a constatat in noiembrie 2022 ca, in mandatul 2016-2020, ar fi aprobat alocarea unor sume de bani catre asociatia sportiva al carei membru fondator era, semnand 18 acte materiale in valoare totala de 297.000 lei; ANI a sesizat si Parchetul.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Br\u0103ila',
       basis: 'office',
@@ -4733,10 +4755,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Viceprimar al comunei Ipote\u0219ti, jude\u021bul Suceava',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; sesizare Parchet',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Contestația raportului ANI se află în rejudecare la Curtea de Apel Suceava, cu termen la 15 septembrie 2026. Profilul rămâne ascuns până la o soluție definitivă.',
     details:
       'ANI a constatat in noiembrie 2022 ca, in perioada exercitarii atributiilor de primar din 16 iulie 2019 pana la 2 noiembrie 2020, ar fi semnat trei certificate de urbanism si trei autorizatii de construire in favoarea unei societati comerciale fata de care avea un interes personal; ANI a sesizat si Parchetul.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Suceava',
       basis: 'office',
@@ -4753,6 +4777,12 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
         label: 'Monitorul de Suceava',
         kind: 'press',
         url: 'https://v3.monitorulsv.ro/Ultima-ora-local/2019-07-18/Primarul-comunei-Ipotesti-Sorin-Augustin-Tofan-si-a-pierdut-mandatul-pentru-o-situatie-de-incompatibilitate',
+      },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 659/39/2022*, aflat în rejudecare la Curtea de Apel Suceava.',
       },
     ],
   },
@@ -4786,10 +4816,11 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Primar al comunei Frumu\u0219ica, jude\u021bul Boto\u0219ani',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in aprilie 2024 ca, in mandatul de primar, ar fi semnat in 2021 un contract de asistenta juridica cu acelasi cabinet de avocatura cu care incheiase in 2020, ca persoana fizica, un alt contract de asistenta juridica.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Boto\u0219ani',
       basis: 'office',
@@ -4810,10 +4841,11 @@ const AUTOMATED_JUN_2026_ADDITIONAL_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Grum\u0103ze\u0219ti, jude\u021bul Neam\u021b',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea unei hotarari care putea produce un folos material pentru societatea comerciala in care detinea functia de administrator si calitatea de asociat unic.',
-    verified_at: '2026-06-05',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Neam\u021b',
       basis: 'office',
@@ -4837,10 +4869,11 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Viceprimar al comunei Ungheni \u0219i consilier local al comunei Ungheni, jude\u021bul Ia\u0219i',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari privind inchirierea directa a unor terenuri publice ale comunei Ungheni, apoi a incheiat un contract de inchiriere folosit pentru cererea unica de plata APIA Iasi, obtinand subventii de 18.540,78 lei.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Ia\u0219i',
       basis: 'office',
@@ -4861,10 +4894,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Apateu, jude\u021bul Arad',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea func\u021biei pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'ANI a constatat conflictul de interese administrativ și a sesizat Parchetul; nu a fost identificată o soluție oficială actuală, astfel că profilul rămâne ascuns.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unor hotarari privind inchirierea terenurilor din domeniul privat al comunei Apateu, in urma carora sotia sa a incheiat doua acte aditionale la un contract de inchiriere; ANI a sesizat si Parchetul.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Arad',
       basis: 'office',
@@ -4885,10 +4920,11 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Fost consilier local al comunei Filipeni, jude\u021bul Bac\u0103u',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatări ANI administrative; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari prin care un post vacant din Primaria Filipeni a fost transformat intr-un post pe care ulterior l-a ocupat prin concurs; ANI mentionase anterior si incompatibilitatea sa.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Bac\u0103u',
       basis: 'office',
@@ -4909,10 +4945,11 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Fost consilier local al comunei B\u00e2rzava, jude\u021bul Arad',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat in iunie 2024 ca, in mandatul de consilier local 2020-2022, societatea in care persoana evaluata avea calitatea de asociat unic, iar tatal sau era asociat unic si administrator, ar fi incheiat contracte de vanzare-cumparare cu o entitate aflata in subordinea Consiliului Local Barzava.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Arad',
       basis: 'office',
@@ -4933,10 +4970,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Consilier local al municipiului Medgidia, jude\u021bul Constan\u021ba',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Constanța a respins contestația raportului ANI la 10 aprilie 2025. Nu a fost identificată o confirmare oficială separată a caracterului definitiv, astfel că profilul rămâne ascuns.',
     details:
       'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea mai multor hotarari ale Consiliului Local Medgidia care puteau produce un folos pentru o asociatie in care detinea functia de vicepresedinte.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Constan\u021ba',
       basis: 'office',
@@ -4949,6 +4988,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/medgidia/',
       },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 2637/118/2024 privind raportul ANI nr. 9629/G/II/29.03.2024.',
+      },
     ],
   },
   {
@@ -4957,10 +5002,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Consilier local al comunei Apateu, jude\u021bul Arad',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea func\u021biei pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'A renunțat la contestația raportului ANI în dosarul 467/59/2024. Litigiul separat privind nulitatea hotărârii locale și a actului adițional este în recurs, cu termen la 11 septembrie 2026; profilul rămâne ascuns.',
     details:
       'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la adoptarea unei hotarari privind inchirierea unor terenuri ale comunei Apateu, fara sa anunte interesul personal; ulterior au fost incheiate doua acte aditionale la contractul sau de inchiriere, iar ANI a sesizat Parchetul.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Arad',
       basis: 'office',
@@ -4973,6 +5020,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/apateu/1',
       },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarele 467/59/2024 și 938/108/2025 privind raportul ANI și actele administrative conexe.',
+      },
     ],
   },
   {
@@ -4981,10 +5034,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
     position: 'Fost consilier local al comunei V\u0103c\u0103reni, jude\u021bul Tulcea',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Constanța a anulat raportul ANI în primă instanță, iar ANI a declarat recurs în aprilie 2025. Profilul rămâne ascuns până la o soluție definitivă.',
     details:
       'ANI a constatat in aprilie 2024 ca, in mandatul de consilier local, ar fi participat la deliberarea si adoptarea unei hotarari prin care au fost modificate organigrama si statul de functii ale UAT Vacareni, iar functia rezultata a fost ocupata ulterior de persoana evaluata prin concurs.',
-    verified_at: '2026-06-08',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Tulcea',
       basis: 'office',
@@ -4996,6 +5051,12 @@ const AUTOMATED_JUN_2026_MORE_LOCAL_RECORDS = [
         label: 'Ziare.com',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_tulcea/consiliul-local/vacareni/',
+      },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 220/36/2024 privind raportul ANI nr. 9638/G/II/29.03.2024.',
       },
     ],
   },
@@ -5320,11 +5381,13 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     party: 'USR',
     position: 'Consilier local al comunei Sâg, județul Sălaj',
     position_type: 'local_official',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
+    crime: 'Sesizare Parchet pentru posibil fals în declarații',
+    status: 'integrity',
+    note:
+      'ANI a anunțat sesizarea Parchetului; aceasta nu echivalează cu o confirmare publică a începerii urmăririi penale. Profilul rămâne ascuns până la o soluție oficială actuală.',
     details:
-      'ANI a constatat în septembrie 2025 că, în perioada 17 martie 2021 - 17 martie 2025, ar fi exercitat simultan mandatul de consilier local și calitatea de comerciant persoană fizică în cadrul propriului PFA.',
-    verified_at: '2026-06-12',
+      'ANI a sesizat Parchetul de pe lângă Judecătoria Șimleu Silvaniei pentru posibil fals în declarații, arătând că în declarațiile de avere din 2022 și 2023 nu ar fi fost menționate mai multe terenuri, iar în declarațiile de interese nu ar fi fost menționată calitatea de administrator al unei societăți.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Sălaj',
       basis: 'office',
@@ -5337,11 +5400,12 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     party: 'PNL',
     position: 'Consilier local al comunei Popești, județul Iași',
     position_type: 'local_official',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; nu a fost identificată o hotărâre judecătorească definitivă actuală, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în septembrie 2025 că, în perioada 17 martie 2023 - 17 martie 2025, ar fi exercitat simultan mandatul de consilier local și funcția de administrator al unei societăți comerciale.',
-    verified_at: '2026-06-12',
+      'ANI a constatat că, în mandatul de consilier local, deși avea un interes personal, a participat la deliberarea și adoptarea hotărârii privind concesionarea directă a unor terenuri ale comunei Popești, apoi a încheiat un contract de închiriere sau concesionare pentru un astfel de teren.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -5352,13 +5416,14 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
   {
     name: 'Gavrilă Mihai',
     party: 'PSD',
-    position: 'Viceprimar al comunei Plosca, județul Teleorman',
+    position: 'Fost viceprimar al comunei Plosca, județul Teleorman',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat în septembrie 2025 că, în mandatul 2020-2024, s-ar fi aflat în raport de subordonare ierarhică directă față de soția sa, funcționar public în aparatul de specialitate al primarului.',
-    verified_at: '2026-06-12',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Teleorman',
       basis: 'office',
@@ -5372,10 +5437,11 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Fost viceprimar al comunei Voșlăbeni, județul Harghita',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, ar fi desfășurat activități economice prin intermediul unei întreprinderi familiale în care figura ca reprezentant.',
-    verified_at: '2026-06-12',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Harghita',
       basis: 'office',
@@ -5389,10 +5455,11 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Consilier județean în cadrul Consiliului Județean Argeș',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
-      'ANI a constatat în aprilie 2025 că, începând cu 1 februarie 2024, ar fi exercitat simultan mandatul de consilier județean și o funcție de conducere la o societate aflată sub autoritatea Consiliului Județean Argeș.',
-    verified_at: '2026-06-12',
+      'ANI a constatat incompatibilități în perioadele 21 decembrie 2016 - 19 decembrie 2024 și 29 ianuarie 2021 - 19 decembrie 2024, rezultate din exercitarea simultană a funcției de medic șef la Spitalul de Pediatrie Pitești cu poziții în consiliile de administrație ale mai multor spitale și al Casei de Asigurări de Sănătate Argeș.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Argeș',
       basis: 'office',
@@ -5406,16 +5473,27 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Primar al comunei Beica de Jos, județul Mureș',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Târgu Mureș a anulat raportul ANI în primă instanță, iar ANI a declarat recurs. Profilul rămâne ascuns până la verificarea unei soluții definitive.',
     details:
-      'ANI a constatat în aprilie 2024 că, în mandatul de primar început în 2020, ar fi semnat documente care au dus la aprobarea încheierii unor acte adiționale la un contract între comună și o asociație în care deținea calitatea de membru.',
-    verified_at: '2026-06-12',
+      'ANI a constatat că, în mandatul de primar început în 2020, a semnat documente care au dus la aprobarea a două acte juridice la un contract de închiriere între comună și o asociație în care era membră. Curtea de Apel Târgu Mureș a anulat raportul de evaluare nr. 13077/G/II/30.04.2024 prin hotărârea din 29 noiembrie 2024; ANI a declarat recurs în februarie-martie 2025, fără ca o soluție definitivă să fie identificată la verificare.',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Mureș',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Beica de Jos, județul Mureș.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, MOLDOVAN_MARIA_PSD_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_FIVE_SOURCE,
+      MOLDOVAN_MARIA_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 144/43/2024 privind raportul ANI nr. 13077/G/II/30.04.2024.',
+      },
+    ],
   },
   {
     name: 'Stanciu Valeriu',
@@ -5423,16 +5501,27 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Consilier local în cadrul Consiliului Local al orașului Amara, județul Ialomița',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Contestația împotriva raportului ANI a fost respinsă în primă instanță, dar recursul declarat în ianuarie 2025 nu are o soluție definitivă verificată; profilul rămâne ascuns.',
     details:
       'ANI a constatat în aprilie 2024 că, în perioada 25 mai 2021 - 19 mai 2022, ar fi exercitat simultan mandatul de consilier local și funcția de președinte al Adunării Generale a Acționarilor la o societate comercială de interes local.',
-    verified_at: '2026-06-12',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Amara, județul Ialomița.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, STANCIU_VALERIU_PSD_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_FIVE_SOURCE,
+      STANCIU_VALERIU_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 3364/2/2024; contestație respinsă la 19 decembrie 2024, cu recurs declarat la 23 ianuarie 2025.',
+      },
+    ],
   },
   {
     name: 'Groza Ionel Aurelian',
@@ -5440,16 +5529,27 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Fost consilier local în cadrul Consiliului Local al comunei Cârcea, județul Dolj',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Acțiunea împotriva raportului ANI a fost anulată ca netimbrată în ianuarie 2025; profilul rămâne ascuns deoarece nu a fost identificată o confirmare oficială separată a caracterului definitiv.',
     details:
       'ANI a constatat în aprilie 2024 că, în perioada 22 octombrie 2020 - 2 august 2023, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Cârcea.',
-    verified_at: '2026-06-12',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Dolj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Cârcea, județul Dolj.',
     },
-    sources: [ANI_PUBLIC_OFFICIALS_FIVE_SOURCE, GROZA_IONEL_PSD_SOURCE],
+    sources: [
+      ANI_PUBLIC_OFFICIALS_FIVE_SOURCE,
+      GROZA_IONEL_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarele 4190/63/2024 și 1640/54/2024 privind anularea actului administrativ.',
+      },
+    ],
   },
   {
     name: 'Dominic Fritz',
@@ -5489,10 +5589,11 @@ const AUTOMATED_JUN_12_2026_MORE_PUBLIC_RECORDS = [
     position: 'Consilier local în cadrul Consiliului Local Râșnov, județul Brașov',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
     details:
       'ANI a constatat în iulie 2024 că, în mandatul de consilier local, ar fi participat la deliberarea și aprobarea a 13 hotărâri ale Consiliului Local în favoarea unei societăți în care deținea calitatea de asociat și funcția contractuală de inspector.',
-    verified_at: '2026-06-12',
+    verified_at: '2026-08-25',
     geography: {
       county: 'Brașov',
       basis: 'office',
@@ -5544,9 +5645,13 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
   {
     name: 'Drăgan Nicolae',
     party: 'PSD',
-    position: 'Primar al comunei Târgșoru Vechi, județul Prahova',
+    position: 'Fost primar al comunei Târgșoru Vechi; administrator public al comunei, județul Prahova',
     positionType: 'mayor',
     crime: 'Conflict de interese administrativ',
+    status: 'integrity',
+    details:
+      'ANI a constatat conflictul de interese administrativ din mandatul 2016–2020, privind facturi și un contract de vânzare-cumpărare în beneficiul unor societăți legate de copiii și mama sa. Contestația raportului ANI a fost respinsă, iar candidatura sa la un nou mandat de primar în 2024 a fost respinsă definitiv. Din octombrie 2024 ocupă funcția numită de administrator public al comunei.',
+    verified_at: '2026-08-25',
     county: 'Prahova',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.draganPsdParty],
@@ -5557,9 +5662,23 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     position: 'Primar al comunei Gepiu, județul Bihor',
     positionType: 'mayor',
     crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Oradea a anulat raportul ANI în primă instanță la 5 martie 2026, iar ANI a declarat recurs. Profilul rămâne ascuns până la o soluție definitivă.',
+    details:
+      'ANI a constatat un conflict de interese administrativ și a sesizat Parchetul pentru actele semnate în beneficiul direct al fiului său. În dosarul 132/35/2022, Curtea de Apel Oradea a anulat raportul ANI la 5 martie 2026; ANI a declarat recurs în martie 2026.',
+    verified_at: '2026-08-25',
     county: 'Bihor',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
-    extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.purgePsdParty],
+    extraSources: [
+      AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.purgePsdParty,
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description: 'Dosarul 132/35/2022 privind raportul ANI nr. 8060/G/II/22.02.2022.',
+      },
+    ],
   },
   {
     name: 'Tîrziu Laurențiu-Ionel',
@@ -5567,6 +5686,11 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     position: 'Primar al comunei Belinț, județul Timiș',
     positionType: 'mayor',
     crime: 'Incompatibilitate',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
+    details:
+      'ANI a constatat că, în perioada 15 octombrie 2020 – 26 aprilie 2021, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică în propriul PFA, obținând venituri din activități agricole și subvenții APIA Timiș.',
+    verified_at: '2026-08-25',
     county: 'Timiș',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.tirziuPnlParty],
@@ -5576,7 +5700,12 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     party: 'PNL',
     position: 'Primar al comunei Dumbrăvița, județul Brașov',
     positionType: 'mayor',
-    crime: 'Conflict de interese administrativ',
+    crime: 'Incompatibilitate',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
+    details:
+      'ANI a constatat incompatibilitatea pentru perioada 4 octombrie 2016 – 8 septembrie 2020, când a fost membru în consiliul de administrație al Grădiniței cu Program Normal Dumbrăvița, din care făcea parte și cumnata sa, director al unității.',
+    verified_at: '2026-08-25',
     county: 'Brașov',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.popaPnlParty],
@@ -5586,7 +5715,13 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     party: 'PSD',
     position: 'Primar al comunei Păuliș, județul Arad și fost viceprimar',
     positionType: 'mayor',
-    crime: 'Conflict de interese administrativ',
+    crime: 'Sesizare Parchet pentru posibilă folosire a funcției pentru favorizarea unor persoane',
+    status: 'integrity',
+    note:
+      'Comunicatul ANI consemnează o sesizare a Parchetului, nu confirmarea unei anchete penale. Profilul rămâne ascuns în lipsa unei soluții oficiale actuale.',
+    details:
+      'ANI a sesizat Parchetul de pe lângă Înalta Curte cu privire la indicii de posibilă folosire a funcției pentru favorizarea unor persoane, arătând că, în exercitarea atribuțiilor de primar, ar fi îndeplinit acte din care a obținut personal foloase patrimoniale.',
+    verified_at: '2026-08-25',
     county: 'Arad',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.turcinPsdParty],
@@ -5610,7 +5745,13 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     party: 'PSD',
     position: 'Fost primar al comunei Alunu, județul Vâlcea',
     positionType: 'mayor',
-    crime: 'Incompatibilitate',
+    crime: 'Conflict de interese administrativ; sesizare Parchet',
+    status: 'integrity',
+    note:
+      'ANI a constatat conflictul de interese administrativ și a sesizat Parchetul; nu a fost identificată o soluție oficială actuală, astfel că profilul rămâne ascuns.',
+    details:
+      'ANI a sesizat Parchetul pentru un contract personal de asistență juridică încheiat cu același cabinet care avea contract cu Primăria Alunu. Agenția constatase anterior și un conflict de interese administrativ privind plăți către o asociație sportivă în care fiul său fusese vicepreședinte.',
+    verified_at: '2026-08-25',
     county: 'Vâlcea',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.birarutiPsdParty],
@@ -5620,7 +5761,12 @@ const AUTOMATED_JUN_2026_DEEP_DIVE_RECORDS = [
     party: 'PNL',
     position: 'Fost viceprimar al comunei Bod, județul Brașov',
     positionType: 'local_official',
-    crime: 'Incompatibilitate',
+    crime: 'Conflict de interese administrativ',
+    status: 'integrity',
+    note: 'Constatare ANI administrativă; profilul rămâne ascuns în lipsa unei soluții judecătorești definitive verificate.',
+    details:
+      'ANI a constatat că a participat la deliberarea și adoptarea a două hotărâri ale Consiliului Local Bod privind punerea la dispoziția unei asociații a unui spațiu, deși era membru fondator și secretar al asociației.',
+    verified_at: '2026-08-25',
     county: 'Brașov',
     source: AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.ani18PublicOfficials2022,
     extraSources: [AUTOMATED_JUN_2026_DEEP_DIVE_SOURCES.bodeanPnlParty],
@@ -10332,7 +10478,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
     status: 'investigated',
     details:
       'DNA a comunicat la 18 iunie 2026 punerea în mișcare a acțiunii penale și controlul judiciar față de Ciprian Ciucu, la data faptelor primar al Sectorului 6 București, într-un dosar privind foloase necuvenite constând în servicii de publicitate și consultanță electorală.',
-    verified_at: '2026-07-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10363,7 +10509,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în 2018 în dosarul A.D.P. Sector 1, iar hotărârea definitivă consemnată de DNA a dispus achitarea pentru infracțiunea reținută, întrucât fapta nu este prevăzută de legea penală.',
-    verified_at: '2026-07-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10424,15 +10570,15 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
       basis: 'constituency',
       note: 'Mandatul parlamentar și organizația politică relevantă au fost în județul Neamț.',
     },
-    crime: 'Folosirea influenței sau autorității în scopul obținerii de foloase necuvenite; cumpărare de influență',
-    sentence: '2 ani și 4 luni închisoare cu suspendare',
-    sentence_years: 2.33,
-    conviction_year: 2020,
+    crime: 'Folosirea influenței sau autorității în scopul obținerii de foloase necuvenite',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2017,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA consemnează două hotărâri definitive: în 2017 a primit 1 an de închisoare cu suspendare pentru folosirea influenței politice, iar în 2020 a primit 2 ani și 4 luni cu suspendare pentru cumpărare de influență într-un dosar conex celui al lui Mihai Banu.',
-    verified_at: '2026-07-09',
+      'Prin decizia definitivă din 12 iunie 2017, Înalta Curte l-a condamnat la 1 an de închisoare cu suspendare pentru folosirea influenței politice. Condamnarea distinctă din 2020, de 2 ani și 4 luni pentru cumpărare de influență, a fost înlăturată la 15 martie 2023, când Curtea de Apel Bacău a dispus definitiv încetarea acelui proces ca urmare a prescripției.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10469,7 +10615,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'Curtea de Apel Timișoara l-a condamnat definitiv în ianuarie 2018, în dosarul privind finanțarea clubului Politehnica Timișoara din fonduri ale Consiliului Județean Timiș.',
-    verified_at: '2026-07-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10522,7 +10668,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
     status: 'prescribed',
     details:
       'DNA l-a trimis în judecată în 2014, iar actualizarea oficială din 2020 consemnează că, prin decizia penală nr. 1160 din 12 decembrie 2019, Curtea de Apel Ploiești a dispus încetarea procesului penal ca urmare a prescripției speciale.',
-    verified_at: '2026-07-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10553,7 +10699,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
     status: 'prescribed',
     details:
       'DNA a anunțat trimiterea în judecată în 2018 într-un dosar privind fonduri europene pentru Spitalul Județean de Urgență Deva. Actualizarea DNA din 2024 consemnează încetarea definitivă a procesului penal, ca urmare a prescripției răspunderii penale.',
-    verified_at: '2026-07-09',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
@@ -10578,15 +10724,25 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Călinești, județul Argeș.',
     },
     crime: 'Abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit',
-    status: 'indicted',
+    sentence: 'Proces încetat definitiv ca urmare a prescripției',
+    sentence_years: 0,
+    conviction_year: 2024,
+    status: 'prescribed',
     details:
-      'DNA Pitești a comunicat în noiembrie 2019 trimiterea sa în judecată într-un dosar privind lucrări pentru o bază sportivă multifuncțională din comuna Călinești și un prejudiciu indicat de 113.514 lei.',
-    verified_at: '2026-07-09',
+      'DNA Pitești a comunicat în noiembrie 2019 trimiterea sa în judecată într-un dosar privind lucrări pentru o bază sportivă multifuncțională din comuna Călinești. Tribunalul Argeș l-a condamnat în primă instanță în 2022, dar Curtea de Apel Pitești a înlăturat condamnarea și a dispus definitiv, la 11 iunie 2024, încetarea procesului penal ca urmare a prescripției.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9651',
+      },
+      {
+        label: 'Portalul instanțelor de judecată',
+        kind: 'official',
+        url: 'https://portalquery.just.ro/Query.asmx',
+        description:
+          'Dosarul penal 6355/109/2019: decizia definitivă a Curții de Apel Pitești din 11 iunie 2024 a înlăturat condamnarea și a dispus încetarea procesului penal ca urmare a prescripției.',
       },
       {
         ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
