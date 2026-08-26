@@ -24,6 +24,7 @@ const KNOWN_PARTIES = [
   'UDMR',
   'UDTTMR',
   'UNPR',
+  'PPMPRR',
   'USL',
   'AUR',
   'PP-DD',

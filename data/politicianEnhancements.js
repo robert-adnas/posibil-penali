@@ -28803,12 +28803,12 @@ export const politicianAdditions = [
   {
     name: 'Adrian Ionuț Gâdea',
     party: 'PSD',
-    position: 'Fost președinte al Consiliului Județean Teleorman',
+    position: 'Președinte al Consiliului Județean Teleorman; vicepreședinte regional PSD',
     position_type: 'county_council_president',
     geography: {
       county: 'Teleorman',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Teleorman.',
+      note: 'Exercită mandatul 2024-2028 de președinte al Consiliului Județean Teleorman.',
     },
     crime: 'Complicitate la abuz în serviciu; participație improprie la abuz în serviciu',
     sentence: 'Achitat definitiv (2023)',
@@ -28816,8 +28816,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în dosarul Belina pentru acte legate de transferul și închirierea Insulei Belina și a Brațului Pavel. Curtea de Apel București a menținut achitarea și pentru Adrian Ionuț Gâdea în februarie 2023.',
-    verified_at: '2026-05-02',
+      'DNA l-a trimis în judecată în 2018, în dosarul Belina, pentru complicitate la abuz în serviciu și participație improprie la abuz în serviciu, în legătură cu transferul și închirierea Insulei Belina și a Brațului Pavel. Tribunalul București l-a achitat în aprilie 2022, iar Curtea de Apel București a menținut definitiv achitarea la 21 februarie 2023, schimbând temeiul în art. 16 alin. (1) lit. a) CPP — fapta nu există; măsurile asigurătorii au fost ridicate.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28829,12 +28829,27 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-ministru-al-dezvoltarii-sevil-shhaideh-a-fost-achitata-definitiv-pentru-acuzatiile-de-abuz-in-serviciu-in-dosarul-belina-id174136.html',
       },
+      {
+        label: 'TVR Info',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/sevil-shhaideh-fost-ministru-al-dezvoltarii-achitata-definitiv-in-dosarul-belina_925347/',
+      },
+      {
+        label: 'Consiliul Județean Teleorman — conducere',
+        kind: 'official',
+        url: 'https://www.cjteleorman.ro/ro/cjt/conducerea.htm',
+      },
+      {
+        label: 'PSD — conducerea partidului',
+        kind: 'official',
+        url: 'https://www.psd.ro/conducerea-psd/',
+      },
     ],
   },
   {
     name: 'Rovana Plumb',
     party: 'PSD',
-    position: 'Fost ministru; fost deputat de Dâmbovița; fost europarlamentar',
+    position: 'Fost ministru și deputat PSD; fost europarlamentar (mandat încheiat în 2024)',
     position_type: 'minister',
     geography: {
       county: 'Dâmbovița',
@@ -28842,13 +28857,13 @@ export const politicianAdditions = [
       note: 'Mandatele parlamentare relevante recente au fost obținute în Dâmbovița; se folosește circumscripția politică.',
     },
     crime: 'Complicitate la abuz în serviciu',
-    sentence: 'Cauză clasată după respingerea cererii de urmărire penală',
+    sentence: 'Cauză clasată; urmărirea penală nu a fost încuviințată de Camera Deputaților',
     sentence_years: null,
     conviction_year: null,
     status: 'closed',
     details:
-      'În dosarul Belina, DNA a solicitat încuviințarea urmăririi penale pentru Rovana Plumb, însă Camera Deputaților a respins cererea, iar DNA a consemnat clasarea față de aceasta.',
-    verified_at: '2026-05-02',
+      'În dosarul Belina, DNA a solicitat încuviințarea urmăririi penale pentru Rovana Plumb, deputată și fost ministru al Mediului la data faptelor. Camera Deputaților nu a încuviințat cererea, astfel că DNA a clasat cauza față de ea. Nu a existat o judecată și nici o soluție pe fond asupra acuzației. Ultimul mandat verificat în Parlamentul European, în grupul S&D și ca reprezentantă PSD, s-a încheiat la 15 iulie 2024.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28856,16 +28871,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
       },
       {
-        label: 'AGERPRES via Comisarul.ro',
-        kind: 'press',
-        url: 'https://www.comisarul.ro/articol/profil-de-parlamentar-rovana-plumb-deputat-psd-dam_862662.html',
+        label: 'Parlamentul European — profilul mandatului 2019-2024',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/38595/ROVANA_PLUMB/home',
       },
     ],
   },
   {
     name: 'Adriean Videanu',
-    party: 'PDL',
-    position: 'Fost ministru al Economiei; fost primar general al Capitalei',
+    party: 'Independent',
+    position: 'Fost ministru al Economiei și fost primar general al Capitalei; retras din politică',
     position_type: 'minister',
     geography: {
       county: 'București',
@@ -28873,13 +28888,13 @@ export const politicianAdditions = [
       note: 'A deținut funcția de primar general al municipiului București; pentru fișă se folosește funcția locală cea mai clară.',
     },
     crime: 'Constituire a unui grup infracțional organizat; participație improprie la delapidare',
-    sentence: 'Achitat definitiv (2024)',
+    sentence: 'Achitat definitiv de ÎCCJ la 29 mai 2024',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'În dosarul Romgaz-Interagro, fostul ministru al Economiei Adriean Videanu a fost acuzat de DIICOT de constituire a unui grup infracțional organizat și participație improprie la delapidare. ÎCCJ a dispus achitarea definitivă în mai 2024.',
-    verified_at: '2026-05-02',
+      'În dosarul Romgaz-Interagro, DIICOT l-a trimis în judecată pentru constituirea unui grup infracțional organizat și participație improprie la delapidare. ÎCCJ l-a achitat prin sentința nr. 588 din 19 decembrie 2022, pe motiv că fapta nu există; completul de cinci judecători a respins cu majoritate apelurile DIICOT și Romgaz la 29 mai 2024, soluția devenind definitivă. Videanu declarase în 2022 că a renunțat definitiv la politică în 2015 și că nu mai are legături cu politica.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'Primăria Municipiului București',
@@ -28891,12 +28906,22 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.romania-actualitati.ro/stiri/romania/ioan-niculae-si-adriean-videanu-au-fost-achitati-definitiv-de-iccj-id193730.html',
       },
+      {
+        label: 'Romgaz — situația litigiilor 2024',
+        kind: 'official',
+        url: 'https://www.romgaz.ro/sites/default/files/2025-04/Situa%C8%9Bie%20litigii%202024.pdf',
+      },
+      {
+        label: 'Digi24 — retragerea din politică',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/politica/ce-mai-fac-fostii-adriean-videanu-vrea-sa-inlocuiasca-ambalajele-din-plastic-cu-un-produs-pe-baza-de-praf-de-marmura-2060061',
+      },
     ],
   },
   {
     name: 'Ana-Maria Pătru',
-    party: 'PDL',
-    position: 'Fost președinte al Autorității Electorale Permanente',
+    party: 'Independent',
+    position: 'Președinta Asociației Women for a Better Society; fostă președintă AEP',
     position_type: 'secretary_of_state',
     geography: {
       county: 'București',
@@ -28904,13 +28929,13 @@ export const politicianAdditions = [
       note: 'Funcția relevantă a fost la Autoritatea Electorală Permanentă, instituție centrală cu sediul în București.',
     },
     crime: 'Trafic de influență; spălare a banilor',
-    sentence: 'Achitată definitiv (2020)',
+    sentence: 'Achitată definitiv în două dosare (2020 și 2024)',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a trimis-o în judecată în dosarul privind presupuse contracte AEP și sume totalizând 275.000 euro. Actualizarea oficială a DNA consemnează achitarea definitivă dispusă de Curtea de Apel București la 7 octombrie 2020.',
-    verified_at: '2026-05-02',
+      'DNA a trimis-o în judecată în două cauze distincte pentru trafic de influență și spălarea banilor. În primul dosar, privind presupuse foloase de 275.000 euro legate de contracte AEP, Curtea de Apel București a menținut definitiv achitarea prin decizia nr. 977/A din 7 octombrie 2020, deoarece faptele nu erau prevăzute de legea penală ori nu fuseseră săvârșite cu vinovăția cerută de lege. În al doilea dosar, privind acuzații referitoare la 600.000 euro și două ceasuri, CAB a respins apelul DNA prin hotărârea nr. 539 din 14 mai 2024: trafic de influență — fapta nu există; spălarea banilor — fapta nu este prevăzută de legea penală; sechestrul a fost ridicat. În prezent conduce organizația neguvernamentală Women for a Better Society; nu este verificată o afiliere politică activă.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28918,30 +28943,45 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7939',
       },
       {
-        label: 'Digi24',
+        label: 'DNA — al doilea rechizitoriu',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8589',
+      },
+      {
+        label: 'Digi24 — achitarea definitivă din 2020',
         kind: 'press',
-        url: 'https://www.digi24.ro/stiri/actualitate/justitie/sotul-sefei-aep-a-incercat-sa-fuga-cu-documente-612729',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/fosta-sefa-a-aep-ana-maria-patru-a-fost-achitata-definitiv-pentru-trafic-de-influenta-1380697',
+      },
+      {
+        label: 'Jurnalul — hotărârea definitivă din 2024',
+        kind: 'press',
+        url: 'https://jurnalul.ro/special-jurnalul/anchete/ana-maria-patru-achitata-dosar-fabricat-dna-ploiesti-964823.html',
+      },
+      {
+        label: 'Senatul României — activitatea Women for a Better Society',
+        kind: 'official',
+        url: 'https://www.senat.ro/UploadFisiere/1d044a32-1bad-4adf-925e-0abab63af58a/sinteza%2013%20mai%202025.pdf',
       },
     ],
   },
   {
     name: 'Gabriel Oprea',
-    party: 'UNPR',
-    position: 'Fost viceprim-ministru; fost ministru al Afacerilor Interne; fost senator de București',
+    party: 'PPMPRR',
+    position: 'Președinte PPMPRR; fost viceprim-ministru și ministru al Afacerilor Interne',
     position_type: 'minister',
     geography: {
       county: 'București',
       basis: 'constituency',
       note: 'Senator ales în Circumscripția electorală nr. 42 București; dosarul DIPI a vizat exercitarea funcției de ministru de Interne.',
     },
-    crime: 'Abuz în serviciu',
-    sentence: 'Achitat definitiv (2023)',
+    crime: 'Abuz în serviciu; ucidere din culpă',
+    sentence: 'Achitat definitiv în dosarele DIPI și Bogdan Gigină (2023)',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în mai 2016 în dosarul DIPI, pentru abuz în serviciu privind folosirea fondurilor operative pentru achiziția unui autoturism destinat folosinței ministrului. Actualizarea DNA din 22 iunie 2023 consemnează achitarea definitivă, întrucât faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-05-03',
+      'În dosarul DIPI, DNA l-a trimis în judecată pentru abuz în serviciu privind folosirea fondurilor operative la achiziția unui Audi A8 destinat folosinței ministrului. ÎCCJ l-a achitat definitiv prin decizia penală nr. 44 din 15 mai 2023, deoarece fapta nu este prevăzută de legea penală. Separat, în dosarul morții polițistului Bogdan Gigină, a fost judecat pentru ucidere din culpă și achitat de Tribunalul București pentru că fapta nu există; Curtea de Apel București a menținut definitiv achitarea prin decizia nr. 1308/A din 26 iulie 2023. UNPR și-a schimbat oficial denumirea în Partidul Pentru Patrie Militari și Polițiști în Rezervă și Retragere (PPMPRR) în ianuarie 2025, iar Gabriel Oprea conduce formațiunea.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28953,12 +28993,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1985D876-858A-4060-B1AF-E8F78BFB7150',
       },
+      {
+        label: 'Digi24 — achitarea definitivă în dosarul Bogdan Gigină',
+        kind: 'press',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/gabriel-oprea-achitat-definitiv-in-dosarul-mortii-politistului-bogdan-gigina-2441075',
+      },
+      {
+        label: 'Tribunalul București — Registrul partidelor politice',
+        kind: 'official',
+        url: 'https://tribunalulbucuresti.ro/index.php/partide-si-aliante-politice/partide-politice',
+      },
+      {
+        label: 'AGERPRES — activitatea PPMPRR',
+        kind: 'press',
+        url: 'https://agerpres.ro/comunicate/2026/08/08/comunicat-de-presa---uniunea-militarilor-si-politistilor-mihai-viteazul--1583308',
+      },
     ],
   },
   {
     name: 'Florian Bodog',
     party: 'PSD',
-    position: 'Fost ministru al Sănătății; fost senator de Bihor',
+    position: 'Decan al Facultății de Medicină și Farmacie, Universitatea din Oradea; fost ministru și senator PSD',
     position_type: 'minister',
     geography: {
       county: 'Bihor',
@@ -28966,13 +29021,13 @@ export const politicianAdditions = [
       note: 'Senator ales în Circumscripția electorală nr. 05 Bihor în mai multe legislaturi.',
     },
     crime: 'Abuz în serviciu; fals intelectual; fals în înscrisuri sub semnătură privată',
-    sentence: 'Achitat definitiv (2026)',
+    sentence: 'Achitat definitiv de ÎCCJ la 2 februarie 2026',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în august 2021 în dosarul privind presupusa angajare fictivă a unei consiliere la Ministerul Sănătății. Înalta Curte a dispus achitarea definitivă în februarie 2026.',
-    verified_at: '2026-05-03',
+      'DNA l-a trimis în judecată în august 2021 în dosarul privind presupusa angajare fictivă a unei consiliere la Ministerul Sănătății. La 3 decembrie 2024, prima instanță l-a condamnat la doi ani de închisoare cu suspendare pentru abuz în serviciu, l-a achitat pentru fals în înscrisuri sub semnătură privată și a încetat pentru prescripție procesul privind falsul intelectual. Prin decizia penală nr. 5 din 2 februarie 2026, ÎCCJ a desființat soluția și a dispus achitarea definitivă pentru toate faptele, în temeiul art. 16 alin. (1) lit. a și b teza I: fapta nu există sau nu este prevăzută de legea penală. Motivarea a reținut că activitatea putea fi prestată la distanță și că neregulile administrative constatate nu întruneau elementele unei infracțiuni; acțiunea civilă a rămas nesoluționată.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28988,6 +29043,16 @@ export const politicianAdditions = [
         label: 'News.ro',
         kind: 'press',
         url: 'https://www.news.ro/social/fostul-ministru-sanatatii-florian-bodog-achitat-definitiv-dosarul-trimis-judecata-abuz-serviciu-decizia-pronuntata-complet-cinci-judecatori-iccj-au-argumentele-instantei-1922403702002026021722332231',
+      },
+      {
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/02/02/florian-bodog---achitat-definitiv-de-iccj-intr-un-dosar-de-angajari-fictive-la-ministerul-sanatatii--1524264',
+      },
+      {
+        label: 'Universitatea din Oradea',
+        kind: 'official',
+        url: 'https://www.uoradea.ro/2799-au-fost-alesi-decanii-care-in-mandatul-2024-2029-vor-conduce-facultatile-de-la-universitatea-din-oradea/',
       },
     ],
   },

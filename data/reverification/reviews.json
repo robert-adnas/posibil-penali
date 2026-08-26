@@ -41651,6 +41651,118 @@
       ],
       "note": "Identitatea, apartenența politică și achitarea definitivă sunt confirmate. Profilul a fost completat cu data exactă, temeiul fapta nu există și ridicarea măsurilor asigurătorii.",
       "reviewed_snapshot_hash": "9668f6d6e594f1cca51f06d650d2a42e2794741c9f6cc44d240242946a06f8d7"
+    },
+    {
+      "profile_id": "RV-0685",
+      "original_name": "Adrian Ionuț Gâdea",
+      "current_name": "Adrian Ionuț Gâdea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8870",
+        "https://tvrinfo.ro/sevil-shhaideh-fost-ministru-al-dezvoltarii-achitata-definitiv-in-dosarul-belina_925347/",
+        "https://www.cjteleorman.ro/ro/cjt/conducerea.htm",
+        "https://www.psd.ro/conducerea-psd/"
+      ],
+      "note": "Corectată funcția curentă (președinte CJ Teleorman, nu fost președinte), confirmată afilierea PSD și detaliat temeiul achitării definitive din 21 februarie 2023: fapta nu există; măsurile asigurătorii au fost ridicate.",
+      "reviewed_snapshot_hash": "d81c2e6cd700cb07c0c30f1c138e006f715208ce5f31529f994f6c18c000d935"
+    },
+    {
+      "profile_id": "RV-0686",
+      "original_name": "Rovana Plumb",
+      "current_name": "Rovana Plumb",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8870",
+        "https://www.europarl.europa.eu/meps/en/38595/ROVANA_PLUMB/home"
+      ],
+      "note": "Clarificat că dosarul Belina a fost clasat față de Rovana Plumb după neîncuviințarea urmăririi penale de către Camera Deputaților, fără judecată sau soluție pe fond; actualizat mandatul european încheiat la 15 iulie 2024.",
+      "reviewed_snapshot_hash": "c9a295b3591d249cba65a6ebfa08090b604ca0f4da691c80cfb8878bae425414"
+    },
+    {
+      "profile_id": "RV-0687",
+      "original_name": "Adriean Videanu",
+      "current_name": "Adriean Videanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.romania-actualitati.ro/stiri/romania/ioan-niculae-si-adriean-videanu-au-fost-achitati-definitiv-de-iccj-id193730.html",
+        "https://www.romgaz.ro/sites/default/files/2025-04/Situa%C8%9Bie%20litigii%202024.pdf",
+        "https://www.digi24.ro/stiri/actualitate/politica/ce-mai-fac-fostii-adriean-videanu-vrea-sa-inlocuiasca-ambalajele-din-plastic-cu-un-produs-pe-baza-de-praf-de-marmura-2060061"
+      ],
+      "note": "Corectată afilierea din PDL în Independent deoarece s-a retras definitiv din politică în 2015; documentată exact achitarea ÎCCJ din 19 decembrie 2022, definitivă la 29 mai 2024, pe motiv că fapta nu există.",
+      "reviewed_snapshot_hash": "0fdf42b7ac013a9f515941b8d09a18b1d29e9639b580957045bf91a2231efd04"
+    },
+    {
+      "profile_id": "RV-0688",
+      "original_name": "Ana-Maria Pătru",
+      "current_name": "Ana-Maria Pătru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7939",
+        "https://www.dna.ro/comunicat.xhtml?id=8589",
+        "https://www.digi24.ro/stiri/actualitate/justitie/fosta-sefa-a-aep-ana-maria-patru-a-fost-achitata-definitiv-pentru-trafic-de-influenta-1380697",
+        "https://jurnalul.ro/special-jurnalul/anchete/ana-maria-patru-achitata-dosar-fabricat-dna-ploiesti-964823.html",
+        "https://www.senat.ro/UploadFisiere/1d044a32-1bad-4adf-925e-0abab63af58a/sinteza%2013%20mai%202025.pdf"
+      ],
+      "note": "Adăugată a doua achitare definitivă, pronunțată la 14 mai 2024, și temeiurile ambelor soluții; PDL înlocuit cu Independent deoarece nu există afiliere politică activă verificată, iar activitatea actuală confirmată este civică/ONG.",
+      "reviewed_snapshot_hash": "15dacbdd22a218a65d5416982c99e33c60cfa342301d63732a8ed37484358a8f"
+    },
+    {
+      "profile_id": "RV-0689",
+      "original_name": "Gabriel Oprea",
+      "current_name": "Gabriel Oprea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7383",
+        "https://www.digi24.ro/stiri/actualitate/justitie/gabriel-oprea-achitat-definitiv-in-dosarul-mortii-politistului-bogdan-gigina-2441075",
+        "https://tribunalulbucuresti.ro/index.php/partide-si-aliante-politice/partide-politice",
+        "https://agerpres.ro/comunicate/2026/08/08/comunicat-de-presa---uniunea-militarilor-si-politistilor-mihai-viteazul--1583308"
+      ],
+      "note": "Adăugată achitarea definitivă din dosarul Bogdan Gigină, distinctă de achitarea DIPI; actualizată denumirea partidului din UNPR în PPMPRR și funcția curentă de președinte al formațiunii.",
+      "reviewed_snapshot_hash": "c2957870502a1af32e8002d8fe9c8e2192244ae0a3992d2668d2e7ed52d31fea"
+    },
+    {
+      "profile_id": "RV-0690",
+      "original_name": "Florian Bodog",
+      "current_name": "Florian Bodog",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10526",
+        "https://www.news.ro/social/fostul-ministru-sanatatii-florian-bodog-achitat-definitiv-dosarul-trimis-judecata-abuz-serviciu-decizia-pronuntata-complet-cinci-judecatori-iccj-au-argumentele-instantei-1922403702002026021722332231",
+        "https://agerpres.ro/justitie/2026/02/02/florian-bodog---achitat-definitiv-de-iccj-intr-un-dosar-de-angajari-fictive-la-ministerul-sanatatii--1524264",
+        "https://www.uoradea.ro/2799-au-fost-alesi-decanii-care-in-mandatul-2024-2029-vor-conduce-facultatile-de-la-universitatea-din-oradea/"
+      ],
+      "note": "Profil corectat cu traseul procedural complet: condamnarea nedefinitivă din 2024 a fost desființată, iar ÎCCJ a dispus achitarea definitivă la 2 februarie 2026; funcția actuală de decan a fost verificată oficial.",
+      "reviewed_snapshot_hash": "27154fe6d08f45992375367cf7322a8f206748f182b84d55b5c349d564ccec96"
     }
   ]
 }
