@@ -674,90 +674,6 @@
       ],
       "profile_id": "RV-2479"
     },
-    "Dosaru Elena Iuliana": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2513"
-    },
-    "Vlasici Marian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2514"
-    },
-    "Vintilă Dumitru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2515"
-    },
-    "Boambeș Daniel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2516"
-    },
-    "Stoica Gabriel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2517"
-    },
-    "Pearcu Dumitru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2518"
-    },
-    "Rusu Emilian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2519"
-    },
-    "Lulciuc Adrian Răzvan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2520"
-    },
-    "Stan Linica": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2521"
-    },
-    "Predeșel Nicolae": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2523"
-    },
-    "Feier Ioan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2524"
-    },
-    "Trișca Ionel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2525"
-    },
     "Pavel Petre": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -1121,13 +1037,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2581"
-    },
-    "Cotețiu Andrei": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2582"
     },
     "Dima Ionuț-Lucian": {
       "held_at": "2026-08-03",
@@ -4166,6 +4075,83 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-2512"
+    },
+    "Dosaru Elena Iuliana": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2513"
+    },
+    "Vlasici Marian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2514"
+    },
+    "Boambeș Daniel": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2516"
+    },
+    "Stoica Gabriel": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2517"
+    },
+    "Pearcu Dumitru": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2518"
+    },
+    "Rusu Emilian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2519"
+    },
+    "Stan Linica": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2521"
+    },
+    "Predeșel Nicolae": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2523"
+    },
+    "Feier Ioan": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2524"
+    },
+    "Trișca Ionel": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2525"
+    },
+    "Cotețiu Andrei": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2582"
     }
   }
 }

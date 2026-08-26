@@ -2753,13 +2753,14 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
   {
     name: 'Cotețiu Andrei',
     party: 'PNL',
-    position: 'Consilier județean în Consiliul Județean Timiș',
+    position:
+      'Fost consilier județean în Consiliul Județean Timiș (demisionat în octombrie 2025)',
     position_type: 'local_official',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
+    crime: 'Incompatibilitate; conflict de interese administrativ',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 27 octombrie 2020 - 25 martie 2021, a exercitat simultan funcția de consilier județean și calitatea de membru în consiliul de administrație și administrator al unei societăți al cărei acționar unic era Consiliul Local Timișoara.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 18 decembrie 2023 incompatibilitatea pentru perioada 27 octombrie 2020 - 25 martie 2021, când a exercitat simultan mandatul de consilier județean și calitatea de membru în consiliul de administrație/administrator al unei companii locale având Consiliul Local Timișoara ca acționar unic. La 1 aprilie 2024, ANI a constatat separat un conflict de interese administrativ: în perioada 2021-2023 a participat la adoptarea unor hotărâri bugetare ale CJ Timiș care puteau produce un folos asociației unde era inginer și director executiv și de la care primea salariu. Curtea de Apel Timișoara i-a respins în primă instanță contestațiile la 30 decembrie 2024 (dosar 104/3/2024) și 18 noiembrie 2025 (dosar 13393/3/2024); nu au fost identificate soluții definitive. A demisionat din mandatul 2024-2028 începând cu 16 octombrie 2025. O acțiune ANI privind anularea unor acte este în curs la Tribunalul Timiș în dosarul 3499/30/2026.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Timiș',
       basis: 'office',
@@ -2768,9 +2769,19 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Consiliul Județean Timiș',
+        label: 'ANI - constatarea distinctă a conflictului de interese din 2024',
         kind: 'official',
-        url: 'https://www.cjtimis.ro/infocjt/document.php?c=7qbzd6r2&d=43417&r=5',
+        url: 'https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010-2/',
+      },
+      {
+        label: 'Consiliul Județean Timiș - încetarea mandatului și validarea succesorului',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/infocjt/document.php?c=t2vbgyp6&d=44795&r=11',
+      },
+      {
+        label: 'Portalul instanțelor - dosarele 104/3/2024, 13393/3/2024 și 3499/30/2026',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
     ],
   },
@@ -7519,56 +7530,100 @@ const ANI_APR_2023_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Dosaru Elena Iuliana',
-    party: 'ALDE',
-    position: 'Consilier județean în Consiliul Județean Prahova',
+    party: 'Independent',
+    position: 'Fost consilier județean în Consiliul Județean Prahova (mandatul 2020-2024; aleasă din partea ALDE)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2023 că, în perioada 19 noiembrie 2020 - 16 martie 2022, ar fi exercitat simultan mandatul de consilier județean și funcția de director general al Serviciului Județean de Pază Prahova.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 că, în perioada 23 octombrie 2020 - 17 iunie 2022, a exercitat simultan mandatul de consilier județean și funcția de membru în consiliul de administrație al unei societăți comerciale de interes local, cu încălcarea art. 88 alin. (1) lit. d) din Legea nr. 161/2003 și art. 227 alin. (1) din OUG nr. 57/2019. ANI precizează că nu a depus un punct de vedere în procedura de evaluare. Mandatul județean 2020-2024 este confirmat de procesele-verbale oficiale până în octombrie 2024; persoana nu figurează în lista curentă de consilieri publicată de CJ Prahova. Nu a fost identificată o soluție judecătorească definitivă privind raportul ANI din 2023.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Prahova',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DOSARU_ALDE_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      DOSARU_ALDE_PARTY_SOURCE,
+      {
+        label: 'Consiliul Județean Prahova - proces-verbal 21 octombrie 2024',
+        kind: 'official',
+        url: 'https://cjph.ro/wp-content/uploads/2024/11/Proces-verbal-de-sedinta-din-data-de-21.10.2024.pdf',
+      },
+      {
+        label: 'Consiliul Județean Prahova - lista curentă a consilierilor județeni',
+        kind: 'official',
+        url: 'https://cjph.ro/informatii-publice/declaratii-de-avere-si-interese/declaratii-de-avere-consilieri-judeteni/',
+      },
+    ],
   },
   {
     name: 'Vlasici Marian',
-    party: 'PNL',
-    position: 'Primar al comunei Lupac, județul Caraș-Severin',
+    party: 'Independent',
+    position: 'Fost primar al comunei Lupac, județul Caraș-Severin (PNL; mandat încheiat în 2024)',
     position_type: 'local_official',
     crime:
       'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane; fals în declarații',
     status: 'investigated',
     details:
-      'ANI a constatat conflict administrativ și a sesizat Parchetul pentru indicii privind folosirea funcției pentru favorizarea unei rude și fals în declarații, în legătură cu acte privind o societate comercială și contracte cu primăria.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ: în calitate de primar, a participat la emiterea și adoptarea unor acte privind asociația al cărei președinte era. Agenția a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de folosire a funcției pentru favorizarea unor persoane, în legătură cu acte privind asociația sportivă pe care o conducea, și de fals în declarații, deoarece funcția de președinte nu apărea în declarațiile de interese. Separat, un raport ANI din 2017 privind contracte cu entități legate de soția și fiica sa a rămas definitiv după respingerea recursului de către ÎCCJ în octombrie 2021. Mandatul său de primar s-a încheiat în 2024; documentele oficiale din 2025-2026 îl indică pe Marian Lauș drept primar al comunei Lupac. Nu a fost identificată o soluție publică pentru sesizările penale din 2023 ori un rezultat definitiv al acelui raport nou.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Lupac, județul Caraș-Severin.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, CARAS_SEVERIN_ANI_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      CARAS_SEVERIN_ANI_PARTY_SOURCE,
+      {
+        label: 'ANI - raportul distinct din 2017',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2561&PID=20&currentPage=59',
+      },
+      {
+        label: 'Pressalert - soluția definitivă pentru raportul ANI din 2017',
+        kind: 'press',
+        url: 'https://www.pressalert.ro/2023/04/doi-primari-banateni-gasiti-incompatibilitate-de-agentia-nationala-de-integritate/',
+      },
+      {
+        label: 'Instituția Prefectului Caraș-Severin - primarul actual al comunei Lupac',
+        kind: 'official',
+        url: 'https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2026/01/Anexa_2_Plan_planificarea_nominala.pdf',
+      },
+    ],
   },
   {
     name: 'Vintilă Dumitru',
     party: 'PSD',
-    position: 'Primar al comunei Drăgușeni, județul Galați',
+    position: 'Fost primar al comunei Drăgușeni, județul Galați (mandat încetat în mai 2026)',
     position_type: 'local_official',
     crime:
       'Incompatibilitate; conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat incompatibilitate și conflict administrativ și a sesizat Parchetul, arătând că în mandatul de primar ar fi participat la acte administrative prin care au fost achiziționate servicii de la o întreprindere individuală a fiului său.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 că, între 10 mai 2018 și 8 mai 2021, a exercitat simultan funcția de primar și o funcție contractuală în Primăria Drăgușeni. Agenția a reținut și un conflict de interese administrativ, deoarece a semnat acte aferente proiectului în care era angajat și obținea un folos material, și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de folosire a funcției pentru favorizarea unor persoane, inclusiv semnarea la 9 mai 2018 a propriului contract individual de muncă. ÎCCJ a respins definitiv la 24 aprilie 2026 contestația împotriva raportului ANI, iar prefectul județului Galați a dispus în mai 2026 încetarea mandatului de primar. Nu a fost identificat un rezultat public al sesizării penale.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Galați',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Drăgușeni, județul Galați.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DRAGUSENI_VINTILA_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      DRAGUSENI_VINTILA_PARTY_SOURCE,
+      {
+        label: 'AGERPRES - decizia definitivă ÎCCJ și încetarea mandatului',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2026/05/22/galati-primarul-de-la-draguseni-a-ramas-fara-mandat-dupa-ce-a-fost-declarat-incompatibil-prin-decizi--1558897',
+      },
+      {
+        label: 'Instituția Prefectului Galați - rezultatele locale din 2024',
+        kind: 'official',
+        url: 'https://gl.prefectura.mai.gov.ro/alegeri-locale-si-europarlamentare-2024/',
+      },
+    ],
   },
   {
     name: 'Boambeș Daniel',
@@ -7576,101 +7631,221 @@ const ANI_APR_2023_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al comunei Constantin Daicoviciu, județul Caraș-Severin',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat conflict administrativ și a sesizat Parchetul, susținând că în exercitarea mandatului de primar ar fi semnat acte care au produs un folos patrimonial pentru o rudă de gradul I.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ, după ce, în calitate de primar, a semnat dispoziția din 15 septembrie 2020 prin care fiul său a fost numit în aparatul Biroului Electoral de Circumscripție nr. 26 Constantin Daicoviciu; pentru activitate, fiul a primit 1.000 lei de la Instituția Prefectului. ANI a sesizat Parchetul pentru indicii de folosire a funcției pentru favorizarea unor persoane. În contencios, ÎCCJ a respins la 5 noiembrie 2025 atât recursul ANI, cât și recursul incident al lui Daniel Boambeș, menținând sentința Curții de Apel Timișoara care anulase parțial măsurile de la punctele 1 și 2 ale raportului pentru disproporționalitatea interdicției de trei ani; sesizarea penală nu făcea obiectul acelui litigiu. Separat, Judecătoria Caransebeș a confirmat definitiv la 17 februarie 2026 renunțarea la urmărirea penală dispusă la 16 iunie 2025 în dosarul 949/P/2023. A fost reales primar din partea PSD în 2024.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Constantin Daicoviciu, județul Caraș-Severin.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, CARAS_SEVERIN_ANI_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      CARAS_SEVERIN_ANI_PARTY_SOURCE,
+      {
+        label: 'Justnews - soluția definitivă în litigiul raportului ANI',
+        kind: 'press',
+        url: 'https://justnews.ro/un-primar-din-caras-severin-a-scapat-pe-cale-judecatoreasca-de-interdictia-de-3-ani-de-a-exercita-o-functie-publica-dupa-ce-fusese-acuzat-de-ani-de-conflict-de-interese/',
+      },
+      {
+        label: 'Portalul instanțelor - dosar penal 3328/208/2025',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Primăria Constantin Daicoviciu - document semnat de primar în 2024',
+        kind: 'official',
+        url: 'https://primariaconstantindaicoviciu.ro/wp-content/uploads/2024/10/anunt-ANFP.pdf',
+      },
+    ],
   },
   {
     name: 'Stoica Gabriel',
-    party: 'PNL',
+    party: 'PSD',
     position: 'Primar al comunei Sălcioara, județul Ialomița',
     position_type: 'local_official',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul de pe lângă Judecătoria Slobozia, susținând că, în mandatul 2016-2020, ar fi semnat acte administrative prin care o rudă apropiată a fost angajată în aparatul de specialitate al primarului.',
-    verified_at: '2026-05-27',
+      'ANI a sesizat la 13 aprilie 2023 Parchetul de pe lângă Judecătoria Urziceni pentru indicii de folosire a funcției pentru favorizarea unor persoane. Potrivit Agenției, în mandatul 2016-2020 a semnat acte administrative în urma cărora sora sa a fost numită într-o funcție contractuală de execuție în Serviciul Voluntar pentru Situații de Urgență Sălcioara, apoi încadrată ca șef al serviciului. A fost reales primar în 2024 din partea PSD, iar site-ul oficial al comunei îl indică în continuare în funcție. Nu a fost identificat un rezultat public al sesizării penale; menționarea acesteia nu echivalează cu stabilirea vinovăției.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Sălcioara, județul Ialomița.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, SALCIOARA_STOICA_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      SALCIOARA_STOICA_PARTY_SOURCE,
+      {
+        label: 'Primăria Sălcioara - conducerea actuală',
+        kind: 'official',
+        url: 'https://primariasalcioara.ro/',
+      },
+      {
+        label: 'Obiectiv Ialomița - rezultatele locale din 2024',
+        kind: 'press',
+        url: 'https://obiectiv.net/rezultatele-alegerilor-locale-din-9-iunie-2024-lista-primarilor-din-judetul-ialomita-80766.html/',
+      },
+      {
+        label: 'Independent - sesizarea penală privind SVSU Sălcioara',
+        kind: 'press',
+        url: 'https://www.independentonline.ro/2023/05/24/Sora-primarului-Gabriel-Stoica--angajata-ilegal-la-Serviciul-Voluntar-pentru-Situatii-de-Urgenta-27341',
+      },
+    ],
   },
   {
     name: 'Pearcu Dumitru',
     party: 'PSD',
-    position: 'Fost primar al comunei Tomșani, județul Vâlcea',
+    position: 'Fost primar și fost consilier local al comunei Tomșani, județul Vâlcea (candidat PSD în 2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2023 că, în mandatul de primar, a semnat acte administrative legate de un proiect finanțat din fonduri publice în care avea un interes personal.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ, deoarece, în perioada mandatului de primar, a semnat o autorizație de construire pentru un imobil pe care îl deținea în comuna Tomșani. A contestat raportul nr. 16480/G/II/13.04.2023 în dosarul 306/46/2023, însă Curtea de Apel Pitești i-a respins cererea ca nefondată la 14 septembrie 2023; nu a fost identificată în portal o soluție definitivă în recurs. Într-un litigiu conex, Tribunalul Vâlcea a constatat la 11 iunie 2025 nulitatea absolută a autorizației de construire nr. 24/03.07.2020, soluția fiind supusă recursului. A fost consilier local în mandatul 2020-2024 și a candidat fără succes din partea PSD la primărie în 2024; primarul actual este Andrei Nicolae.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Tomșani, județul Vâlcea.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, TOMSANI_PEARCU_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      TOMSANI_PEARCU_PARTY_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosarele 306/46/2023 și 3796/90/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Comuna Tomșani - componența Consiliului Local 2020-2024',
+        kind: 'official',
+        url: 'https://comuna-tomsani.ro/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'Comuna Tomșani - conducerea actuală',
+        kind: 'official',
+        url: 'https://comuna-tomsani.ro/contact/program-de-audiente-cu-precizarea-modului-de-inscriere-pentru-audiente-si-a-datelor-de-contact-pentru-inscriere/',
+      },
+      {
+        label: 'Ziare.com - rezultatele locale din Tomșani în 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_valcea/primarie/tomsani/6',
+      },
+    ],
   },
   {
     name: 'Rusu Emilian',
     party: 'PNL',
-    position: 'Fost primar al comunei Dănești, județul Gorj',
+    position:
+      'Fost primar și fost consilier local al comunei Dănești, județul Gorj (candidat PNL la primărie în 2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat conflict administrativ deoarece, în mandatul de primar, ar fi semnat un contract de concesiune cu o asociație de crescători de animale în cadrul căreia avea un interes personal.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ deoarece, în mandatul de primar, a semnat înscrisuri privind eliberarea unor documente pentru copiii săi. Curtea de Apel Craiova a respins la 10 octombrie 2023, în primă instanță, contestația sa împotriva raportului ANI (dosar 621/54/2023); nu a fost identificată soluția unui eventual recurs. În acțiunea conexă privind actele administrative, Tribunalul Gorj a declarat nule o autorizație de construire și un certificat, iar Curtea de Apel Craiova a respins definitiv recursul la 26 mai 2026 (dosar 5469/95/2024). După mandatul de consilier local 2020-2024, a candidat din partea PNL la Primăria Dănești în 2024, fără a fi ales.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Gorj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Primăria Comunei Dănești, județul Gorj.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, DANESTI_RUSU_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      DANESTI_RUSU_PARTY_SOURCE,
+      {
+        label: 'Comuna Dănești - raport de activitate al consilierului local în 2022',
+        kind: 'official',
+        url: 'https://www.comunadanesti.ro/category/consiliu-local/rapoarte-de-activitate-consilieri-locali/',
+      },
+      {
+        label: 'AEP - contribuții electorale la alegerile locale din 2024',
+        kind: 'official',
+        url: 'https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf',
+      },
+      {
+        label: 'Portalul instanțelor - dosarele 621/54/2023 și 5469/95/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Judecătoria Târgu Jiu - validarea primarului ales în 2024',
+        kind: 'press',
+        url: 'https://gorjeanul.ro/wp-content/uploads/2024/10/Nr.-9042-Luni-14.10.2024.pdf',
+      },
+    ],
   },
   {
     name: 'Lulciuc Adrian Răzvan',
     party: 'PNL',
-    position: 'Consilier local în Consiliul Local al municipiului Timișoara',
+    position:
+      'Fost consilier local în Consiliul Local al municipiului Timișoara (mandat încetat în octombrie 2025)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2023 că, în perioada 14 decembrie 2018 - 10 decembrie 2020, ar fi exercitat simultan mandatul de consilier local și funcția de director general adjunct la Compania Națională Poșta Română.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 incompatibilitatea deoarece, în mandatul de consilier local 2016-2020, o societate în care era asociat a încheiat la 22 aprilie 2020 trei contracte de furnizare, în valoare totală de 73.780 lei, cu societăți aflate sub autoritatea Consiliului Local Timișoara. Curtea de Apel Timișoara i-a respins contestația la 13 decembrie 2023, iar ÎCCJ a respins definitiv recursul la 19 septembrie 2025 (dosar 568/59/2023). Prin Ordinul prefectului Timiș nr. 855 din 24 octombrie 2025, mandatul său de consilier local 2024-2028 a încetat de drept înainte de termen.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Timiș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Timișoara, județul Timiș.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, TIMISOARA_LULCIUC_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      TIMISOARA_LULCIUC_PARTY_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosar 568/59/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Primăria Timișoara - încetarea mandatului de consilier local',
+        kind: 'official',
+        url: 'https://www.primariatm.ro/2025/11/04/ordin-incetare-lulciuc-adrian-razvan',
+      },
+      {
+        label: 'Primăria Timișoara - validarea succesorului în Consiliul Local',
+        kind: 'official',
+        url: 'https://assets.primariatm.ro/a7828dea-092d-4c30-852d-4a66582e5f41/INCHEIERE_SANDU_A.pdf',
+      },
+    ],
   },
   {
     name: 'Stan Linica',
     party: 'PNL',
     position: 'Fost consilier local al municipiului Mangalia, județul Constanța',
     position_type: 'local_official',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ; incompatibilitate',
+    status: 'integrity',
     details:
-      'ANI a constatat conflict administrativ deoarece ar fi participat la adoptarea unei hotărâri privind prelungirea unui contract de închiriere pentru un spațiu comercial deținut de o societate în care soțul său avea calitatea de asociat unic și administrator.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ: în calitate de consilier local, a participat la deliberarea și adoptarea unor hotărâri prin care au fost alocate fonduri locale unei asociații de utilitate publică; între fondatorii acesteia se aflau organizația patronală pe care o conducea și o societate la care soțul și fiul său erau asociat unic, respectiv administrator. Curtea de Apel Constanța i-a respins contestația în primă instanță la 14 mai 2024 (dosar 3071/2/2023), fără ca soluția unui eventual recurs să fi fost identificată. Separat, ANI a constatat la 7 octombrie 2024 incompatibilitatea începând cu 27 iunie 2021, pentru exercitarea simultană a calității de membru în Consiliul de Administrație al Spitalului Municipal Mangalia și a unei funcții de conducere într-un partid. Acțiunea ANI privind anularea a 11 hotărâri locale este în rejudecare la Tribunalul Constanța în dosarul 8032/118/2024*.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Constanța',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Mangalia, județul Constanța.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, MANGALIA_STAN_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      MANGALIA_STAN_PARTY_SOURCE,
+      {
+        label: 'ANI - constatarea distinctă de incompatibilitate din 2024',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/',
+      },
+      {
+        label: 'Portalul instanțelor - dosarele 3071/2/2023 și 8032/118/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Ziua de Constanța - rejudecarea acțiunii privind hotărârile locale',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/dosarul-de-incompatibilitate-al-consilierului-din-mangalia-linica-stan-se-reintoarce-la-prima-instanta-927556.html',
+      },
+    ],
   },
   {
     name: 'Ioana-Raluca Dinu',
@@ -7692,53 +7867,109 @@ const ANI_APR_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Predeșel Nicolae',
     party: 'PNL',
-    position: 'Consilier local al comunei Mogoșoaia, județul Ilfov',
+    position: 'Fost consilier local al comunei Mogoșoaia, județul Ilfov (mandat 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat conflict administrativ deoarece, în mandatul 2016-2020, ar fi participat la deliberarea și adoptarea unei hotărâri a consiliului local care a produs un folos patrimonial pentru o societate comercială cu legături de interes personal.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ deoarece, în mandatul de consilier local, a participat la deliberarea și adoptarea a trei hotărâri privind schimbarea regimului juridic, economic ori tehnic și introducerea unor parcele în intravilanul Sectorului Zero din Mogoșoaia; demersul a creat, potrivit Agenției, un avantaj patrimonial fratelui său, care deținea terenuri în extravilan. Curtea de Apel București i-a respins contestația ca neîntemeiată la 28 decembrie 2023 în dosarul 3073/2/2023; hotărârea avea drept de recurs, iar o soluție definitivă nu a fost identificată. Nu se regăsește între consilierii validați pentru mandatul 2024-2028.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Ilfov',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Mogoșoaia, județul Ilfov.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, MOGOSOAIA_PREDESEL_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      MOGOSOAIA_PREDESEL_PARTY_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosar 3073/2/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Comuna Mogoșoaia - proces-verbal al ședinței din august 2024',
+        kind: 'official',
+        url: 'https://primaria.mogosoaia.ro/proces-verbal-sedinta-nr-20491-din-30-08-2024/',
+      },
+      {
+        label: 'Regionalul - constituirea Consiliului Local Mogoșoaia 2024-2028',
+        kind: 'press',
+        url: 'https://regionalul.ro/noul-consiliu-local-si-primarul-florin-raducu-covaci-oficial-la-conducerea-comunei-mogosoaia/',
+      },
+    ],
   },
   {
     name: 'Feier Ioan',
     party: 'PMP',
-    position: 'Consilier local al comunei Hodac, județul Mureș',
+    position:
+      'Fost viceprimar și fost consilier local al comunei Hodac, județul Mureș (mandat 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat conflict administrativ deoarece, în mandatul de consilier local, ar fi participat la deliberarea și adoptarea unei hotărâri privind concesionarea unei suprafețe de pășune către o asociație în care avea un interes personal.',
-    verified_at: '2026-05-27',
+      'ANI a constatat la 13 aprilie 2023 un conflict de interese administrativ: în calitate de consilier local, a participat la deliberarea și adoptarea unor hotărâri din 17 februarie și 15 aprilie 2020 care au creat cadrul pentru închirierea unui bun între Primăria Hodac și o asociație în care fratele său era secretar și membru al Consiliului director; a participat și la decizii din 17 noiembrie 2020 și 16 februarie 2021 care i-au adus acestuia un beneficiu în legătură cu acel contract. A fost viceprimar în mandatul 2020-2024 și a candidat în 2024 pe lista ADU, care nu a obținut mandate la Hodac. Nu a fost identificată public o contestație ori o hotărâre definitivă referitoare la raportul ANI.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Mureș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Hodac, județul Mureș.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, HODAC_FEIER_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      HODAC_FEIER_PARTY_SOURCE,
+      {
+        label: 'Zi de Zi - funcția de viceprimar în iunie 2024',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/wp-content/uploads/2024/07/ZIZI-27-iunie-final.pdf',
+      },
+      {
+        label: 'Zi de Zi - rezultatele Consiliului Local Hodac din 2024',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2024/06/14/valentin-marin-iacob-hodac-increderea-acordata-ma-responsabilizeaza/',
+      },
+      {
+        label: 'Primăria Hodac - componența Consiliului Local 2024-2028',
+        kind: 'official',
+        url: 'https://www.hodac.ro/consiliul-local/',
+      },
+    ],
   },
   {
     name: 'Trișca Ionel',
     party: 'PSD',
-    position: 'Consilier local al comunei Grindu, județul Tulcea',
+    position:
+      'Consilier local al comunei Grindu, județul Tulcea (candidat PSD la primărie în 2024)',
     position_type: 'local_official',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul de pe lângă Judecătoria Tulcea, susținând că ar fi participat la adoptarea unei hotărâri prin care soția sa a fost desemnată membru al consiliului de administrație al școlii gimnaziale din comună.',
-    verified_at: '2026-05-27',
+      'ANI a sesizat la 13 aprilie 2023 Parchetul de pe lângă Înalta Curte de Casație și Justiție pentru indicii de folosire a funcției pentru favorizarea unor persoane. Agenția a susținut că, în calitate de consilier local, a participat la deliberarea și adoptarea unor hotărâri care au produs un folos patrimonial unei asociații în care era membru fondator, respectiv unei societăți de la care obținea venituri ca salariat. Sesizarea nu echivalează cu stabilirea vinovăției, iar un rezultat public al anchetei nu a fost identificat. În 2024 a candidat fără succes la primărie din partea PSD și a obținut un nou mandat de consilier local.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Tulcea',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Grindu, județul Tulcea.',
     },
-    sources: [ANI_APR_2023_LOCAL_OFFICIALS_SOURCE, GRINDU_TRISCA_PARTY_SOURCE],
+    sources: [
+      ANI_APR_2023_LOCAL_OFFICIALS_SOURCE,
+      GRINDU_TRISCA_PARTY_SOURCE,
+      {
+        label: 'Instituția Prefectului Tulcea - componența Consiliului Local Grindu',
+        kind: 'official',
+        url: 'https://old.cjtulcea.ro/sites/cjtulcea/MonitorulOficialLocal/Lists/Monitorul%20Local/Attachments/9243/O.P%20GRINDU.pdf',
+      },
+      {
+        label: 'Primăria Grindu - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://www.comunagrindutl.ro/?p=consiliul_local',
+      },
+      {
+        label: 'Ziua de Constanța - candidaturile locale din Grindu în 2024',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/alegeri-locale-2024-grindu-tulcea-candidatii-la-primaria-si-consiliul-local-grindu-documente-858660.html',
+      },
+    ],
   },
 ];
 

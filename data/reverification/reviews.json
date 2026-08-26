@@ -42039,6 +42039,247 @@
       ],
       "note": "Funcția actualizată la fost vicepreședinte CJ Timiș; statusul investigated este păstrat pentru ancheta DNA relatată concordant în 2025, iar raportul ANI contestat este documentat separat. Profilul nu afirmă vinovăția.",
       "reviewed_snapshot_hash": "d0a77b6c943fb3b11ba0a1120eb2d5f9dce9b4828bcbbbe79d174bd8c1b8480d"
+    },
+    {
+      "profile_id": "RV-2513",
+      "original_name": "Dosaru Elena Iuliana",
+      "current_name": "Dosaru Elena Iuliana",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://cjph.ro/wp-content/uploads/2024/11/Proces-verbal-de-sedinta-din-data-de-21.10.2024.pdf",
+        "https://cjph.ro/informatii-publice/declaratii-de-avere-si-interese/declaratii-de-avere-consilieri-judeteni/"
+      ],
+      "note": "Corectate perioada si natura incompatibilitatii; mandatul 2020-2024 este incheiat, iar afilierea ALDE este doar istorica. Nicio solutie definitiva pentru raportul ANI 2023 nu a fost identificata.",
+      "reviewed_snapshot_hash": "263fbf5e440bffbcc46af225d48a33f449134de0bb9bced7a85fdcc3f6ace32c"
+    },
+    {
+      "profile_id": "RV-2514",
+      "original_name": "Vlasici Marian",
+      "current_name": "Vlasici Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2561&PID=20&currentPage=59",
+        "https://www.pressalert.ro/2023/04/doi-primari-banateni-gasiti-incompatibilitate-de-agentia-nationala-de-integritate/",
+        "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2026/01/Anexa_2_Plan_planificarea_nominala.pdf"
+      ],
+      "note": "Corectate faptele din raportul ANI 2023, distinctia fata de raportul ANI 2017 ramas definitiv si functia actuala. Fost primar PNL, fara afiliere curenta confirmata; sesizarile penale si raportul nou nu au rezultat final public identificat.",
+      "reviewed_snapshot_hash": "ae3b9995b3a14495a3c6be20311836ab8c736b5a72c2533936f4a58a4afd1d81"
+    },
+    {
+      "profile_id": "RV-2515",
+      "original_name": "Vintilă Dumitru",
+      "current_name": "Vintilă Dumitru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://agerpres.ro/justitie/2026/05/22/galati-primarul-de-la-draguseni-a-ramas-fara-mandat-dupa-ce-a-fost-declarat-incompatibil-prin-decizi--1558897",
+        "https://gl.prefectura.mai.gov.ro/alegeri-locale-si-europarlamentare-2024/"
+      ],
+      "note": "Raportul ANI a fost confirmat definitiv de ICCJ la 24.04.2026, iar mandatul a incetat in mai 2026. Corectate faptele, functia si statusul din investigated in integrity; sesizarea penala este descrisa separat fara a presupune un rezultat.",
+      "reviewed_snapshot_hash": "d6ded1a6546136361e1ce9995e61dc9a37efedb99fc0709a96f311f88d337f0f"
+    },
+    {
+      "profile_id": "RV-2516",
+      "original_name": "Boambeș Daniel",
+      "current_name": "Boambeș Daniel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://justnews.ro/un-primar-din-caras-severin-a-scapat-pe-cale-judecatoreasca-de-interdictia-de-3-ani-de-a-exercita-o-functie-publica-dupa-ce-fusese-acuzat-de-ani-de-conflict-de-interese/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://primariaconstantindaicoviciu.ro/wp-content/uploads/2024/10/anunt-ANFP.pdf"
+      ],
+      "note": "Statusul activ de investigat era depasit: renuntarea la urmarirea penala din dosarul 949/P/2023 a fost confirmata definitiv la 17.02.2026. Corectate faptele exacte, rezultatul distinct al litigiului ANI si mandatul curent.",
+      "reviewed_snapshot_hash": "72129413134e385325c6c5d6c396c766bdb63921aabbf79cb6a7dbdddd33230f"
+    },
+    {
+      "profile_id": "RV-2517",
+      "original_name": "Stoica Gabriel",
+      "current_name": "Stoica Gabriel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://primariasalcioara.ro/",
+        "https://obiectiv.net/rezultatele-alegerilor-locale-din-9-iunie-2024-lista-primarilor-din-judetul-ialomita-80766.html/",
+        "https://www.independentonline.ro/2023/05/24/Sora-primarului-Gabriel-Stoica--angajata-ilegal-la-Serviciul-Voluntar-pentru-Situatii-de-Urgenta-27341"
+      ],
+      "note": "Corectate parchetul competent, ruda si functia vizata; afilierea curenta este PSD, nu PNL. Nu a fost identificat un rezultat public al sesizarii penale, astfel profilul ramane ascuns.",
+      "reviewed_snapshot_hash": "c9a90d588b6e978bba41e8a0f886ad5889ed07ebbc6e1442a0549fa78bcfdad1"
+    },
+    {
+      "profile_id": "RV-2518",
+      "original_name": "Pearcu Dumitru",
+      "current_name": "Pearcu Dumitru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://comuna-tomsani.ro/consiliul-local/componenta-consiliului-local/",
+        "https://comuna-tomsani.ro/contact/program-de-audiente-cu-precizarea-modului-de-inscriere-pentru-audiente-si-a-datelor-de-contact-pentru-inscriere/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_valcea/primarie/tomsani/6"
+      ],
+      "note": "Corectata fapta: autorizatie pentru propriul imobil, nu proiect finantat public. Status schimbat in integrity; contestatia a fost respinsa la fond, iar lipsa unei solutii definitive verificate impune ascunderea profilului.",
+      "reviewed_snapshot_hash": "8d71fc3acd53247690eddc04416ffe09e755139b2c4f8b23c7a954c4ff33b1ea"
+    },
+    {
+      "profile_id": "RV-2519",
+      "original_name": "Rusu Emilian",
+      "current_name": "Rusu Emilian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://www.comunadanesti.ro/category/consiliu-local/rapoarte-de-activitate-consilieri-locali/",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Corectate fapta ANI, statutul juridic și traseul funcțiilor. Litigiul actelor administrative este definitiv, dar nu a fost identificată soluția recursului privind raportul ANI.",
+      "reviewed_snapshot_hash": "1134248dad940863949c6b3aa811d2d05a9a27e76c5d2bdc7072492286b147b2"
+    },
+    {
+      "profile_id": "RV-2520",
+      "original_name": "Lulciuc Adrian Răzvan",
+      "current_name": "Lulciuc Adrian Răzvan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://www.primariatm.ro/2025/11/04/ordin-incetare-lulciuc-adrian-razvan"
+      ],
+      "note": "Corectată fapta ANI: contractele societății în care era asociat, nu cumulul cu funcția de la Poșta Română. Incompatibilitatea este definitivă, iar mandatul local a încetat în octombrie 2025.",
+      "reviewed_snapshot_hash": "a9d9deaac8b3dcaa43b6258b4ed71714c0ef14d1a50a2a73ef3b5db5efb8f4a5"
+    },
+    {
+      "profile_id": "RV-2521",
+      "original_name": "Stan Linica",
+      "current_name": "Stan Linica",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Corectată fapta din raportul ANI din 2023 și adăugată constatarea distinctă de incompatibilitate din 2024. Contestația raportului din 2023 nu are o soluție definitivă publică identificată, iar acțiunea privind hotărârile locale este în rejudecare.",
+      "reviewed_snapshot_hash": "aad75b2fc73248e65076b317a4b1e06a88eb2328c2bedb110a57b5ed01f6c5cc"
+    },
+    {
+      "profile_id": "RV-2523",
+      "original_name": "Predeșel Nicolae",
+      "current_name": "Predeșel Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://regionalul.ro/noul-consiliu-local-si-primarul-florin-raducu-covaci-oficial-la-conducerea-comunei-mogosoaia/"
+      ],
+      "note": "Corectată fapta ANI și actualizată funcția: fost consilier 2020-2024. Contestația a fost respinsă în primă instanță, dar nu a fost identificată o soluție definitivă.",
+      "reviewed_snapshot_hash": "881bfc14b4140aff6f0a09468028ea40ece2134abbdfb9f7f7e2125e2040f4fd"
+    },
+    {
+      "profile_id": "RV-2524",
+      "original_name": "Feier Ioan",
+      "current_name": "Feier Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://www.hodac.ro/consiliul-local/",
+        "https://www.zi-de-zi.ro/2024/06/14/valentin-marin-iacob-hodac-increderea-acordata-ma-responsabilizeaza/"
+      ],
+      "note": "Corectată fapta ANI, actualizate funcția și rezultatul electoral din 2024. Nu a fost identificată public calea de atac sau finalitatea raportului ANI.",
+      "reviewed_snapshot_hash": "a888018f6a678874fbc1438a0555dd8269ff3e1e9aa41404d80e6b9beb80a2c1"
+    },
+    {
+      "profile_id": "RV-2525",
+      "original_name": "Trișca Ionel",
+      "current_name": "Trișca Ionel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://www.comunagrindutl.ro/?p=consiliul_local",
+        "https://old.cjtulcea.ro/sites/cjtulcea/MonitorulOficialLocal/Lists/Monitorul%20Local/Attachments/9243/O.P%20GRINDU.pdf"
+      ],
+      "note": "Corectate parchetul sesizat și faptele descrise de ANI; confirmat mandatul local actual. Nu a fost identificat rezultatul sesizării penale.",
+      "reviewed_snapshot_hash": "4eab6ba3264d9ba7843571a860a858ffc21c472c75279e63f54744864d1dd485"
+    },
+    {
+      "profile_id": "RV-2582",
+      "original_name": "Cotețiu Andrei",
+      "current_name": "Cotețiu Andrei",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010-2/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://www.cjtimis.ro/infocjt/document.php?c=t2vbgyp6&d=44795&r=11"
+      ],
+      "note": "Adăugată constatarea distinctă de conflict de interese, actualizate cele două litigii și încetarea mandatului din octombrie 2025. Ambele contestații au doar soluții de primă instanță identificate.",
+      "reviewed_snapshot_hash": "cf2def8c3d4b33ce13bcd32d6ea66a27f6203aee7b0842113f63de47a96b82fb"
     }
   ]
 }
