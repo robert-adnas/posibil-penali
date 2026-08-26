@@ -41857,6 +41857,188 @@
       ],
       "note": "Identitatea și clasarea confirmate; profilul a fost precizat cu data de 09.11.2018, temeiul art. 16 alin. (1) lit. a CPP — fapta nu există — și faptul că nu a existat trimitere în judecată.",
       "reviewed_snapshot_hash": "11ba5dad81ea76743011b63207f936c2a134e7225401ddeec0e8c4ddc6fb3d0a"
+    },
+    {
+      "profile_id": "RV-2446",
+      "original_name": "Cican Adrian",
+      "current_name": "Cican Adrian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-3-persoane-prevazute-de-legea-nr-176-2010-4/",
+        "https://primariaorsova.ro/personal/cican-adrian/",
+        "https://primariaorsova.ro/storage/formidable/24/pv-9835-din-26.10.2024-SKM_22724111510260.pdf"
+      ],
+      "note": "Status corectat din investigated în integrity; constatarea ANI și funcția/partidul actual sunt confirmate oficial, dar nu a fost identificată o soluție judecătorească definitivă privind raportul ANI.",
+      "reviewed_snapshot_hash": "35511727b72d601be9382278a732e6ac52383481b2d3c18c6ffce06f90cfec2d"
+    },
+    {
+      "profile_id": "RV-2489",
+      "original_name": "Gavril Mihai Liviu",
+      "current_name": "Gavril Mihai Liviu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://www.primaria-iasi.ro/dm_iasi/portal.nsf/pagini/comisii%2Bde%2Bspecialitate-00001A7E?Open=&Start=1",
+        "https://hcl.usr.ro/iasi/2026/pv1105"
+      ],
+      "note": "Status corectat din investigated în integrity și funcția actualizată la consilier local PSD în mandatul 2024-2028; nu a fost identificată o hotărâre definitivă privind raportul ANI.",
+      "reviewed_snapshot_hash": "a9858f9975340f7089b783bead5de653559da09592f2e9d16a0b0ba3b0a1899a"
+    },
+    {
+      "profile_id": "RV-2491",
+      "original_name": "Tokoș Gabriela-Lavinia",
+      "current_name": "Tokoș Gabriela-Lavinia",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-6/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_brasov/consiliul-local/augustin/10",
+        "https://portal.just.ro/64/Documents/Lista%20sedinta%2017-09-2025%20contencios.pdf"
+      ],
+      "note": "Status corectat din investigated în integrity; raportul ANI nr. 157881/G/II/16.05.2025 este contestat în dosarul 340/64/2025, încă activ pe fond.",
+      "reviewed_snapshot_hash": "d0b224e09a4a42691b5c94b76fe6e4eda85ee67b8014646d0c33ab7a1e124e57"
+    },
+    {
+      "profile_id": "RV-2492",
+      "original_name": "Devesel Daniela",
+      "current_name": "Devesel Daniela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/",
+        "https://agerpres.ro/comunicate/2026/06/01/comunicat-de-presa---uniunea-democrata-tatara--1561876",
+        "https://ph.prefectura.mai.gov.ro/alegeri-prezidentiale-2024/"
+      ],
+      "note": "Status corectat din investigated în integrity; funcția actuală și afilierea PNL sunt confirmate, dar nu există suficiente dovezi publice privind caracterul definitiv al raportului ANI ori existența unei contestații.",
+      "reviewed_snapshot_hash": "60955b6c6dd929e7f4faf34fe9e5f2ba47c634774b2e0f6804ec2fa97180647c"
+    },
+    {
+      "profile_id": "RV-2493",
+      "original_name": "Pașata Adam",
+      "current_name": "Pașata Adam",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/",
+        "https://primaria-stejaru.ro/consilier-local/adam-pasata/",
+        "https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2026/02/Anexa-nr.-2-Planificare-nominala-2026.pdf"
+      ],
+      "note": "Status corectat din investigated în integrity; funcția actuală și afilierea PNL sunt confirmate oficial, dar nu există suficiente dovezi publice privind caracterul definitiv al raportului ANI ori existența unei contestații.",
+      "reviewed_snapshot_hash": "ad97d0d509eb749109056801b83314ca59aafdd078cd30b7496d22a767bb9c07"
+    },
+    {
+      "profile_id": "RV-2494",
+      "original_name": "Goidan Cristian",
+      "current_name": "Goidan Cristian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_prahova/primarie/draganesti/",
+        "https://www.observatorulph.ro/politic/2720903-alianta-dreapta-unita-si-a-prezentat-candidatii-la-consiliul-judetean-prahova"
+      ],
+      "note": "Status corectat din investigated în integrity; mandatul de viceprimar și afilierea PMP/ADU din 2024 sunt confirmate, dar finalitatea raportului ANI nu este documentată public suficient.",
+      "reviewed_snapshot_hash": "d868d121fa1fb6e4478fd6e699bc6e93cbd60726169984ce883fcce202c62914"
+    },
+    {
+      "profile_id": "RV-2500",
+      "original_name": "Beciu Elisabeta",
+      "current_name": "Beciu Elisabeta",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/",
+        "https://cjialomita.ro/consiliul-judetean/consilieri-judeteni/mandatul-2024-2028/",
+        "https://cjialomita.ro/consiliul-judetean/comisii-de-specialitate/"
+      ],
+      "note": "Status corectat din investigated în integrity și poziția actualizată la consilier județean PSD în mandatul 2024-2028; finalitatea raportului ANI nu este documentată public suficient.",
+      "reviewed_snapshot_hash": "1ddb8c6f04ea97b5a73f6ab04621037a0cdf07de2c5663ddfcf58c1ecc9eedb4"
+    },
+    {
+      "profile_id": "RV-2503",
+      "original_name": "Pleșa Ioan Dănuț",
+      "current_name": "Pleșa Ioan Dănuț",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://primariamargau.ro/informatii-de-interes-public/declaratii-de-avere-si-interese/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_cluj/consiliul-local/margau/2"
+      ],
+      "note": "Încadrarea corectată din incompatibilitate/investigated în conflict de interese administrativ/integrity; mandatul și afilierea PNL sunt confirmate, dar finalitatea raportului ANI nu este documentată public suficient.",
+      "reviewed_snapshot_hash": "bd2e706453aa9af2c35d0eaaa7ad0ecb050baa433a043d6f28aec654d607c7be"
+    },
+    {
+      "profile_id": "RV-2511",
+      "original_name": "Gălățanu Ionel",
+      "current_name": "Gălățanu Ionel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.desteptarea.ro/primarul-din-odobesti-s-a-predat-la-politie-dupa-ce-a-fost-condamnat-la-1-an-si-6-luni-de-inchisoare/",
+        "https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/",
+        "https://www.comuna-odobesti.ro/monitorul-oficial-local/hotarari",
+        "https://www.statusdosar.ro/instante/curtea-de-apel-bacau/dosare/sectia-a-ii-a-civila-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/21/110/2026/a1"
+      ],
+      "note": "Status corectat la convicted pe baza condamnării definitive din 12 noiembrie 2014; constatarea ANI din 2025 și contestația procedurală pendinte sunt documentate separat, iar mandatul de consilier a încetat în noiembrie 2024.",
+      "reviewed_snapshot_hash": "3d806d2dd7690e63a6bb7a3296e7a431d9676bdbedf55bedb8e96fdc4b1fe3d8"
+    },
+    {
+      "profile_id": "RV-2512",
+      "original_name": "Proteasa Alexandru Constantin",
+      "current_name": "Proteasa Alexandru Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-alesi-locali/",
+        "https://www.cjtimis.ro/consiliul-judetean-timis/conducerea/presedintii-si-vicepresedintii-consiliului-judetean-timis/",
+        "https://www.antena3.ro/actualitate/justitie/fostul-vicepresedinte-cj-timis-alexandru-proteasa-acuzat-de-abuz-in-serviciu-de-procurorii-dna-dupa-o-ancheta-antena-3-cnn-761113.html",
+        "https://buletindetimisoara.ro/timisoara-fostul-vicepresedinte-pnl-al-cj-timis-alexandru-proteasa-anchetat-de-dna-este-acuzat-de-abuz-in-serviciu-mai-are-un-proces-pe-rol-cu-ani-fiind-gasit-in-conflict-de-interese/"
+      ],
+      "note": "Funcția actualizată la fost vicepreședinte CJ Timiș; statusul investigated este păstrat pentru ancheta DNA relatată concordant în 2025, iar raportul ANI contestat este documentat separat. Profilul nu afirmă vinovăția.",
+      "reviewed_snapshot_hash": "d0a77b6c943fb3b11ba0a1120eb2d5f9dce9b4828bcbbbe79d174bd8c1b8480d"
     }
   ]
 }

@@ -590,13 +590,6 @@
       ],
       "profile_id": "RV-2427"
     },
-    "Cican Adrian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2446"
-    },
     "Dogaru Tatiana Mioara": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -680,69 +673,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2479"
-    },
-    "Gavril Mihai Liviu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2489"
-    },
-    "Tokoș Gabriela-Lavinia": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2491"
-    },
-    "Devesel Daniela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2492"
-    },
-    "Pașata Adam": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2493"
-    },
-    "Goidan Cristian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2494"
-    },
-    "Beciu Elisabeta": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2500"
-    },
-    "Pleșa Ioan Dănuț": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2503"
-    },
-    "Gălățanu Ionel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2511"
-    },
-    "Proteasa Alexandru Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2512"
     },
     "Dosaru Elena Iuliana": {
       "held_at": "2026-08-03",
@@ -4173,6 +4103,69 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-0673"
+    },
+    "Cican Adrian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2446"
+    },
+    "Gavril Mihai Liviu": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2489"
+    },
+    "Tokoș Gabriela-Lavinia": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2491"
+    },
+    "Devesel Daniela": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2492"
+    },
+    "Pașata Adam": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2493"
+    },
+    "Goidan Cristian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2494"
+    },
+    "Beciu Elisabeta": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2500"
+    },
+    "Pleșa Ioan Dănuț": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2503"
+    },
+    "Proteasa Alexandru Constantin": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2512"
     }
   }
 }
