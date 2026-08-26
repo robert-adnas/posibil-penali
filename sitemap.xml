@@ -169,6 +169,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/partid/pro-romania</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/partid/blocul-suveranist-roman</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -200,12 +206,6 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/partid/pncr</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/partid/pro-romania</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2678,31 +2678,31 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/nicolae-banicioiu</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/iulian-claudiu-manda</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/cosmin-sandru</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/laszlo-borbely</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/petre-toba</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
