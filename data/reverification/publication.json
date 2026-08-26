@@ -1038,68 +1038,12 @@
       ],
       "profile_id": "RV-2581"
     },
-    "Dima Ionuț-Lucian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2583"
-    },
-    "Oanea Ioan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2584"
-    },
-    "Sărăor Elena Adriana": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2585"
-    },
     "Horescu Petrișor": {
       "held_at": "2026-08-03",
       "reasons": [
         "active_legal_status"
       ],
       "profile_id": "RV-2586"
-    },
-    "Timofciuc Răzvan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2587"
-    },
-    "Slivneanu Valentin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2588"
-    },
-    "Tanasă Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2589"
-    },
-    "Blagan Eleonor": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2590"
-    },
-    "Faur Florentin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2591"
     },
     "Cerba Cristian": {
       "held_at": "2026-08-03",
@@ -4152,6 +4096,41 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-2582"
+    },
+    "Sărăor Elena Adriana": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2585"
+    },
+    "Slivneanu Valentin": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2588"
+    },
+    "Tanasă Constantin": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2589"
+    },
+    "Blagan Eleonor": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2590"
+    },
+    "Faur Florentin": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2591"
     }
   }
 }

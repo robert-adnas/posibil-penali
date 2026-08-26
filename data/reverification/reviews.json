@@ -42280,6 +42280,154 @@
       ],
       "note": "Adăugată constatarea distinctă de conflict de interese, actualizate cele două litigii și încetarea mandatului din octombrie 2025. Ambele contestații au doar soluții de primă instanță identificate.",
       "reviewed_snapshot_hash": "cf2def8c3d4b33ce13bcd32d6ea66a27f6203aee7b0842113f63de47a96b82fb"
+    },
+    {
+      "profile_id": "RV-2583",
+      "original_name": "Dima Ionuț-Lucian",
+      "current_name": "Dima Ionuț-Lucian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://www.radiocraiova.ro/stiri/olt-primarul-psd-din-comuna-coteana-castigat-cel-de-al-cincelea-mandat/"
+      ],
+      "note": "Identitate și funcție confirmate. ANI a constatat conflictul administrativ; dosarul 1296/104/2025 a dus la anularea dispoziției nr. 147/28.10.2020, definitiv la Curtea de Apel Craiova la 24.03.2026. Status corectat la integrity; fără hold.",
+      "reviewed_snapshot_hash": "4c78895740412d25274b4f94280e97563d00ed4f3ed808c54dd1ab86740c671b"
+    },
+    {
+      "profile_id": "RV-2584",
+      "original_name": "Oanea Ioan",
+      "current_name": "Oanea Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://justnews.ro/primarul-din-ocna-sugatag-a-invins-agentia-nationala-de-integritate-care-l-a-acuzat-de-incompatibilitate/",
+        "https://primariaocnasugatag.ro/autoritate-publica-locala/primar/"
+      ],
+      "note": "Identitate și funcție confirmate. Raportul ANI 38279/G/II/26.10.2023 a fost anulat de CA Cluj la 12.07.2024, iar recursul ANI a fost respins definitiv de ICCJ la 10.04.2025. Status corectat la acquitted; fără hold.",
+      "reviewed_snapshot_hash": "dff3b303fd972b2a3358fdca535351db6d908bbb908455912842e0de45626e4d"
+    },
+    {
+      "profile_id": "RV-2585",
+      "original_name": "Sărăor Elena Adriana",
+      "current_name": "Sărăor Elena Adriana",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "https://comuna-firliug.ro/primaria/structura/persoana/saraor-elena-adriana_64",
+        "https://www.acor.ro/ligile-acor/liga-femeilor-primari-ai-comunelor-din-romania/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitatea, partidul și mandatul actual sunt confirmate. Corectat parchetul sesizat la Parchetul ICCJ și descrierea exactă ANI. Nu a fost identificată o soluție publică actuală a sesizării penale; profil ascuns preventiv.",
+      "reviewed_snapshot_hash": "e79794499b53b55378a89114c54de709ab07e8935dc46467760c021f268cee0f"
+    },
+    {
+      "profile_id": "RV-2587",
+      "original_name": "Timofciuc Răzvan",
+      "current_name": "Timofciuc Răzvan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://www.ziaruldeiasi.ro/stiri/va-ramane-noul-prefect-fara-seful-cancelariei-razvan-timofciuc-pierde-definitiv-un-proces-cu-ani-trei-luni-de-incompatibilitate-in-ca-si-in-partid--1739581.html",
+        "https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2025/03/Newsletter-Institutia-Prefectului-14.03.2025.pdf",
+        "https://www.7est.ro/2025/09/razvan-timofciuc-pierde-functia-de-sef-al-cancelariei-prefecturii-iasi-trei-ani-de-interdictie-pentru-ocuparea-unor-functii-publice/"
+      ],
+      "note": "Separat cele două constatări ANI. Incompatibilitatea este confirmată definitiv prin decizia ICCJ 1397/13.03.2025; status corectat la integrity. Actualizate afilierea independentă și funcțiile ulterioare; fără hold, deoarece există cel puțin o constatare definitivă neechivocă.",
+      "reviewed_snapshot_hash": "5254cb47c9d9dbf96340288aaf3c0314f179d99a9b503672c75a0eb13bed1df7"
+    },
+    {
+      "profile_id": "RV-2588",
+      "original_name": "Slivneanu Valentin",
+      "current_name": "Slivneanu Valentin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://cjgalati.ro/wp-content/uploads/2024/10/mo-27.pdf"
+      ],
+      "note": "Corectate funcția și partidul: fost viceprimar/consilier, candidat PSD rămas supleant în 2024. ANI a constatat incompatibilitatea; CA Galați a respins contestația în primă instanță la 26.09.2024, fără soluție definitivă identificată. Profil ascuns până la clarificare.",
+      "reviewed_snapshot_hash": "29af8272f940035075b6b149597044b4af4f964d1a3560cde91fea392f22c5fb"
+    },
+    {
+      "profile_id": "RV-2589",
+      "original_name": "Tanasă Constantin",
+      "current_name": "Tanasă Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-alesi-locali/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/dolhasca/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Corectată funcția la fost consilier local și redată exact constatarea ANI privind HCL din 16.04.2021 și proiectul de 40.000 lei. Nu a fost identificată o contestație sau soluție judecătorească actuală; profil ascuns preventiv.",
+      "reviewed_snapshot_hash": "6cb9be7e208de588ff30e4a8f861b88bc4dcadb314f84cbc94e958cf7c16f135"
+    },
+    {
+      "profile_id": "RV-2590",
+      "original_name": "Blagan Eleonor",
+      "current_name": "Blagan Eleonor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://www.primaria-baneasa.ro/membru-primarie/eleonor-blagan/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitatea, funcția și constatarea ANI sunt confirmate. Status corectat la integrity, cu traseul actual al contestației 1236/118/2026; cauza are termen la CA Constanța la 14.09.2026. Profil ascuns până la soluționare.",
+      "reviewed_snapshot_hash": "ca22a3621f729c741f4e6bc019cb4c837376cfb38b68737cc463697a3bc7c36b"
+    },
+    {
+      "profile_id": "RV-2591",
+      "original_name": "Faur Florentin",
+      "current_name": "Faur Florentin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://www.e-pnl.ro/florentin-faur",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată ca Florentin Faur, actual primar PNL al comunei Husasău de Tinca. Raportul ANI nr. 1118/G/II/2026 privește incompatibilitatea din mandatul de viceprimar și contractele PFA cu ABA Crișuri. Dosarul 473/111/2026 este în curs la Curtea de Apel Oradea, cu termen la 23 septembrie 2026; profilul rămâne ascuns până la o soluție actuală a instanței.",
+      "reviewed_snapshot_hash": "0fe3431c29f3ca10f3a8ffc66889bd813b114975ee510d3af3ef8c5c85116659"
     }
   ]
 }

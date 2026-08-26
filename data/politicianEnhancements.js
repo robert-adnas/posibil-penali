@@ -2791,10 +2791,10 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     position: 'Primar al comunei Coteana, județul Olt',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul 2020-2024, ar fi emis o dispoziție prin care și-a majorat indemnizația lunară de primar.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 18 decembrie 2023 că, în mandatul început în 2020, a emis o dispoziție care i-a produs un folos material: indemnizația de primar a fost stabilită peste nivelul permis de Legea-cadru nr. 153/2017. În acțiunea introdusă de ANI, Tribunalul Olt a anulat dispoziția nr. 147/28.10.2020 la 19 noiembrie 2025. Curtea de Apel Craiova i-a respins recursul ca nefondat la 24 martie 2026 și a menținut anularea dispoziției; soluția este definitivă (dosar 1296/104/2025). A fost reales primar al comunei Coteana în 2024.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Olt',
       basis: 'office',
@@ -2807,6 +2807,11 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
         kind: 'press',
         url: 'https://www.radiocraiova.ro/stiri/olt-primarul-psd-din-comuna-coteana-castigat-cel-de-al-cincelea-mandat/',
       },
+      {
+        label: 'Portalul instanțelor - dosarul 1296/104/2025',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
     ],
   },
   {
@@ -2814,11 +2819,11 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     party: 'PSD',
     position: 'Primar al comunei Ocna Șugatag, județul Maramureș',
     position_type: 'mayor',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
+    crime: 'Incompatibilitate (raport ANI anulat definitiv)',
+    status: 'acquitted',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 29 septembrie - 27 octombrie 2020, deși raportul de serviciu era suspendat de drept după alegerea ca primar, ar fi continuat să exercite atribuții de funcționar public.',
-    verified_at: '2026-05-29',
+      'ANI a susținut în raportul nr. 38279/G/II/26.10.2023 că, între 29 septembrie și 27 octombrie 2020, după alegerea ca primar și în timp ce raportul său de serviciu era suspendat de drept, ar fi continuat timp de 29 de zile să exercite funcția publică din Primăria Ocna Șugatag. Curtea de Apel Cluj a anulat raportul ANI la 12 iulie 2024 (dosar 35562/3/2023). Înalta Curte a respins ca nefondat recursul ANI la 10 aprilie 2025, astfel că anularea raportului este definitivă.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Maramureș',
       basis: 'office',
@@ -2831,6 +2836,16 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
         kind: 'official',
         url: 'https://primariaocnasugatag.ro/autoritate-publica-locala/primar/',
       },
+      {
+        label: 'Portalul instanțelor - dosarul 35562/3/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'JustNews - soluția definitivă a Înaltei Curți din 10 aprilie 2025',
+        kind: 'press',
+        url: 'https://justnews.ro/primarul-din-ocna-sugatag-a-invins-agentia-nationala-de-integritate-care-l-a-acuzat-de-incompatibilitate/',
+      },
     ],
   },
   {
@@ -2841,8 +2856,8 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul de pe lângă Judecătoria Reșița în decembrie 2023, reținând indicii că, în calitate de primar, ar fi îndeplinit acte prin care o societate administrată de cumnatul său a livrat produse către primărie în valoare de 11.137 lei.',
-    verified_at: '2026-05-29',
+      'ANI a sesizat Parchetul de pe lângă Înalta Curte de Casație și Justiție la 18 decembrie 2023 cu indicii privind posibila folosire a funcției pentru favorizarea unor persoane. Potrivit ANI, în exercitarea atribuțiilor de primar a semnat documente prin care o societate unde cumnatul său era asociat și fusese administrator până la 18 octombrie 2021 a furnizat Primăriei Fârliug, în 2021, produse de 11.137 lei. Nu a fost identificată o soluție publică actuală a parchetului sau o trimitere în judecată legată fără echivoc de această sesizare. A fost realeasă primar în 2024.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
@@ -2851,9 +2866,14 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Gazeta de Caraș-Severin',
-        kind: 'press',
-        url: 'https://www.gazetadecarasseverin.ro/elena-adrian-saraor-un-primar-adevarat-pentru-comuna-farliug/',
+        label: 'Primăria Fârliug - structura autorității locale',
+        kind: 'official',
+        url: 'https://comuna-firliug.ro/primaria/structura/persoana/saraor-elena-adriana_64',
+      },
+      {
+        label: 'Asociația Comunelor din România - primarii aleși în 2024',
+        kind: 'official',
+        url: 'https://www.acor.ro/ligile-acor/liga-femeilor-primari-ai-comunelor-din-romania/',
       },
     ],
   },
@@ -2883,14 +2903,15 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
   },
   {
     name: 'Timofciuc Răzvan',
-    party: 'USR',
-    position: 'Fost consilier local al municipiului Iași',
+    party: 'Independent',
+    position:
+      'Fost consilier local USR și fost viceprimar independent al municipiului Iași; fost director al Cancelariei Prefectului Iași',
     position_type: 'local_official',
     crime: 'Incompatibilitate; conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 incompatibilitate pentru perioada 15 iunie - 6 septembrie 2021, când a fost simultan membru în Consiliul de administrație al Spitalului Clinic de Recuperare Iași și vicepreședinte al unei organizații politice locale, precum și conflict administrativ legat de votarea unui reprezentant într-un consiliu de administrație școlar.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 18 decembrie 2023 că, între 15 iunie și 6 septembrie 2021, a fost simultan membru în Consiliul de administrație al Spitalului Clinic de Recuperare Iași și vicepreședinte al USR Iași. Curtea de Apel Iași i-a respins contestația în dosarul 24/45/2024, iar Înalta Curte i-a respins definitiv recursul prin decizia nr. 1397 din 13 martie 2025. Separat, ANI constatase în 2021 un conflict administrativ: în mandatul 2016-2020 a participat la adoptarea a două hotărâri prin care soția sa a fost numită în CA al Colegiului Național de Artă „Octav Băncilă”. După o cale extraordinară de atac, Curtea de Apel Iași a respins din nou contestația la 8 mai 2024 în dosarul de rejudecare 247/45/2024; Tribunalul Iași a constatat în primă instanță nulitatea celor două hotărâri la 27 iunie 2025 (dosar 4433/99/2023). A fost exclus din USR în noiembrie 2023, a fost viceprimar independent în 2024 și director al Cancelariei Prefectului Iași în martie-septembrie 2025.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -2899,22 +2920,38 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'News.ro',
+        label: 'Ziarul de Iași - soluția definitivă privind incompatibilitatea',
         kind: 'press',
-        url: 'https://www.news.ro/politic-intern/liderul-usr-iasi-razvan-timofciuc-declarat-incompatibil-de-ani-1922404918422023121421429684',
+        url: 'https://www.ziaruldeiasi.ro/stiri/va-ramane-noul-prefect-fara-seful-cancelariei-razvan-timofciuc-pierde-definitiv-un-proces-cu-ani-trei-luni-de-incompatibilitate-in-ca-si-in-partid--1739581.html',
+      },
+      {
+        label: 'Portalul instanțelor - dosarele 24/45/2024, 247/45/2024 și 4433/99/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Prefectura Iași - numirea în Cancelaria Prefectului',
+        kind: 'official',
+        url: 'https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2025/03/Newsletter-Institutia-Prefectului-14.03.2025.pdf',
+      },
+      {
+        label: '7Est - încetarea funcției la Prefectură și decizia ÎCCJ nr. 1397/2025',
+        kind: 'press',
+        url: 'https://www.7est.ro/2025/09/razvan-timofciuc-pierde-functia-de-sef-al-cancelariei-prefecturii-iasi-trei-ani-de-interdictie-pentru-ocuparea-unor-functii-publice/',
       },
     ],
   },
   {
     name: 'Slivneanu Valentin',
-    party: 'PNL',
-    position: 'Viceprimar al orașului Berești, județul Galați',
+    party: 'PSD',
+    position:
+      'Fost viceprimar și fost consilier local al orașului Berești; candidat PSD rămas supleant în 2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de viceprimar, a exercitat simultan activitate comercială prin PFA și calitatea de administrator al unei societăți comerciale.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 18 decembrie 2023 că, în mandatul de viceprimar al orașului Berești, a exercitat simultan calitatea de comerciant persoană fizică în propria întreprindere individuală între 16 noiembrie 2020 și 30 iunie 2021 și funcția de administrator al unei societăți între 16 noiembrie și 14 decembrie 2020. Curtea de Apel Galați i-a respins contestația ca neîntemeiată la 26 septembrie 2024 în dosarul 5065/121/2023; soluția permitea recurs, iar o hotărâre definitivă nu a fost identificată. În 2024 a candidat la Consiliul Local Berești din partea PSD, dar figurează pe lista supleanților.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Galați',
       basis: 'office',
@@ -2923,22 +2960,27 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/beresti/',
+        label: 'Portalul instanțelor - dosarul 5065/121/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Consiliul Județean Galați - Monitorul Oficial Local nr. 27/2024',
+        kind: 'official',
+        url: 'https://cjgalati.ro/wp-content/uploads/2024/10/mo-27.pdf',
       },
     ],
   },
   {
     name: 'Tanasă Constantin',
     party: 'PSD',
-    position: 'Consilier local al orașului Dolhasca, județul Suceava',
+    position: 'Fost consilier local al orașului Dolhasca, județul Suceava',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri prin care bugetul local a alocat 40.000 lei unei activități al cărei manager de proiect era persoana evaluată.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 18 decembrie 2023 că, în mandatul de consilier local, a participat la adoptarea Hotărârii Consiliului Local Dolhasca din 16 aprilie 2021 privind bugetul general pe anul 2021. Prin hotărâre au fost alocați 40.000 lei din bugetul local unui proiect al cărui manager era chiar persoana evaluată. ANI îl descrie explicit drept fost consilier local. Nu a fost identificată în sursele publice consultate o contestație la raport ori o hotărâre judecătorească actuală care să-i stabilească definitiv situația.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Suceava',
       basis: 'office',
@@ -2947,9 +2989,14 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com - candidatura PSD la Consiliul Local Dolhasca în 2020',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/dolhasca/',
+      },
+      {
+        label: 'Portalul instanțelor - verificare nominală',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
     ],
   },
@@ -2959,10 +3006,10 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     position: 'Primar al comunei Băneasa, județul Constanța',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2026 că, în perioada 20 septembrie 2023 - 5 decembrie 2024, a exercitat simultan funcția de viceprimar/primar și calitatea de membru în Consiliul de administrație al Casei Județene de Asigurări de Sănătate Constanța.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 13 februarie 2026 că, între 20 septembrie 2023 și 5 decembrie 2024, a exercitat simultan funcția de viceprimar/primar al comunei Băneasa și calitatea de membru în Consiliul de administrație al Casei Județene de Asigurări de Sănătate Constanța. A contestat raportul ANI nr. 2778/G/II/12.02.2026 în dosarul 1236/118/2026. Tribunalul Constanța și-a declinat competența la 21 mai 2026, iar cauza este în curs la Curtea de Apel Constanța, cu termen la 14 septembrie 2026.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Constanța',
       basis: 'office',
@@ -2975,6 +3022,11 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
         kind: 'official',
         url: 'https://www.primaria-baneasa.ro/membru-primarie/eleonor-blagan/',
       },
+      {
+        label: 'Portalul instanțelor - dosarul 1236/118/2026',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
     ],
   },
   {
@@ -2983,10 +3035,10 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     position: 'Primar al comunei Husasău de Tinca, județul Bihor',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2026 că, în perioada 13 noiembrie 2020 - 11 aprilie 2024, a exercitat simultan funcția de viceprimar și calitatea de titular al unei PFA care a încasat 38.760 lei din contracte cu Administrația Națională Apele Române.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în februarie 2026 că, între 13 noiembrie 2020 și 11 aprilie 2024, a exercitat simultan funcția de viceprimar al comunei Husasău de Tinca și calitatea de persoană fizică autorizată în propriul PFA. Prin PFA a încheiat și derulat contracte de servicii cu Administrația Națională „Apele Române” - Administrația Bazinală de Apă Crișuri, încasând 38.760 lei. A contestat raportul ANI nr. 1118/G/II/2026 în dosarul 473/111/2026; cauza este în curs la Curtea de Apel Oradea, cu termen la 23 septembrie 2026.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Bihor',
       basis: 'office',
@@ -2998,6 +3050,11 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
         label: 'e-PNL',
         kind: 'official',
         url: 'https://www.e-pnl.ro/florentin-faur',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 473/111/2026',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
     ],
   },
