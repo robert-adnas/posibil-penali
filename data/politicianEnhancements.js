@@ -29058,8 +29058,8 @@ export const politicianAdditions = [
   },
   {
     name: 'Nicolae Bănicioiu',
-    party: 'PSD',
-    position: 'Fost ministru al Sănătății; fost ministru al Tineretului și Sporturilor; fost deputat',
+    party: 'Pro România',
+    position: 'Fost ministru al Sănătății și al Tineretului și Sporturilor; fost deputat și prim-vicepreședinte Pro România',
     position_type: 'minister',
     geography: {
       county: 'București',
@@ -29067,13 +29067,13 @@ export const politicianAdditions = [
       note: 'Dosarul DNA privea influență asupra conducerii unor spitale publice din București și Ilfov; se folosește București ca loc principal al cauzei și al instituțiilor centrale.',
     },
     crime: 'Trafic de influență; luare de mită',
-    sentence: 'Achitat definitiv (2025)',
+    sentence: 'Achitat definitiv de ÎCCJ la 13 octombrie 2025',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în decembrie 2021 pentru trafic de influență și luare de mită, în legătură cu presupuse sume primite de la oameni de afaceri care aveau contracte cu spitale publice. Actualizarea DNA din 28 ianuarie 2026 consemnează achitarea definitivă dispusă de ÎCCJ la 13 octombrie 2025.',
-    verified_at: '2026-05-03',
+      'DNA l-a trimis în judecată în decembrie 2021 pentru trafic de influență și luare de mită, în legătură cu presupuse sume primite de la oameni de afaceri care aveau contracte cu spitale publice. În octombrie 2024, prima instanță l-a achitat pentru luare de mită, a încetat prin prescripție procesul pentru trafic de influență și a dispus confiscarea a aproximativ 1,29 milioane lei. Prin decizia penală nr. 22 din 13 octombrie 2025, completul de cinci judecători al ÎCCJ a dispus definitiv achitarea pentru ambele infracțiuni și a înlăturat confiscarea. Majoritatea a reținut lipsa probelor concludente și, potrivit actualizării DNA, temeiurile au fost că faptele nu sunt prevăzute de legea penală ori că fapta nu există. Bănicioiu demisionase din PSD și trecuse la Pro România în mai 2018; nu este verificată o funcție publică actuală.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -29085,26 +29085,41 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://agerpres.ro/justitie/2025/10/13/nicolae-banicioiu-achitat-definitiv-intr-un-dosar-de-coruptie-el-scapa-si-de-plata-sumei-de-1-3-mili--1493100',
       },
+      {
+        label: 'HotNews — motivarea deciziei definitive',
+        kind: 'press',
+        url: 'https://hotnews.ro/argumentele-singurei-judecatoare-care-nu-a-fost-de-acord-cu-achitarea-definitiva-a-fostului-ministru-banicioiu-raspunderea-penala-a-fost-eficient-paralizata-de-implinirea-prescriptiei-2086409',
+      },
+      {
+        label: 'AGERPRES — trecerea de la PSD la Pro România',
+        kind: 'press',
+        url: 'https://agerpres.ro/politica/2018/05/25/nicolae-banicioiu-a-parasit-psd-si-se-alatura-formatiunii-lui-victor-ponta--115556',
+      },
+      {
+        label: 'Tribunalul București — Registrul partidelor politice',
+        kind: 'official',
+        url: 'https://mail.tribunalulbucuresti.ro/images/documente/Partide/poz-158-iulie-2024.pdf',
+      },
     ],
   },
   {
     name: 'Iulian-Claudiu Manda',
     party: 'PSD',
-    position: 'Europarlamentar; fost senator de Dolj; fost președinte PSD Dolj',
+    position: 'Europarlamentar; secretar general al PSD; fost senator și președinte PSD Dolj',
     position_type: 'member_european_parliament',
     geography: {
       county: 'Dolj',
       basis: 'political_base',
-      note: 'Dosarul DNA viza folosirea influenței ca președinte al organizației județene Dolj a unui partid; a fost și senator de Dolj.',
+      note: 'Dosarul DNA viza folosirea influenței ca președinte al PSD Dolj; a condus organizația până în octombrie 2025 și a fost senator de Dolj.',
     },
     crime: 'Folosirea influenței ori autorității unei funcții de conducere într-un partid',
-    sentence: 'Proces încetat prin prescripție (2024)',
+    sentence: 'Proces încetat definitiv prin prescripție la 8 aprilie 2024',
     sentence_years: 0,
     conviction_year: 2024,
     status: 'prescribed',
     details:
-      'DNA l-a trimis în judecată în aprilie 2021 pentru folosirea influenței ca lider județean de partid în legătură cu AJPIS Dolj și beneficiari de ajutor social din Bratovoești. Actualizarea DNA din 27 mai 2024 consemnează încetarea definitivă a procesului penal ca urmare a prescripției.',
-    verified_at: '2026-05-03',
+      'DNA l-a trimis în judecată în aprilie 2021 pentru folosirea influenței ori autorității funcției de conducere în partid, în legătură cu o intervenție din 5 iunie 2015 la directorul AJPIS Dolj privind datoriile unor beneficiari de ajutor social din Bratovoești. ÎCCJ a încetat procesul penal prin sentința nr. 373 din 12 iunie 2023, deoarece termenul general de prescripție de cinci ani se împlinise la 4 iunie 2020. Completul de cinci judecători a menținut definitiv soluția prin decizia penală nr. 11 din 8 aprilie 2024 și l-a obligat la 1.500 lei cheltuieli judiciare. Încetarea prin prescripție nu reprezintă o achitare sau o soluție definitivă asupra fondului acuzației. În mandatul european 2024-2029 este europarlamentar PSD, iar din noiembrie 2025 este secretar general al partidului.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -29115,6 +29130,21 @@ export const politicianAdditions = [
         label: 'Senatul României',
         kind: 'official',
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=244DD5C3-8F96-4F23-8C7A-7B1C83A9A828',
+      },
+      {
+        label: 'ÎCCJ — decizia penală nr. 11/2024',
+        kind: 'official',
+        url: 'https://luju.ro/static/files/2024/aprilie/14/decizie_ICCJ_Claudiu_Manda.pdf',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/ro/197653/CLAUDIU_MANDA/home',
+      },
+      {
+        label: 'PSD — conducerea partidului',
+        kind: 'official',
+        url: 'https://www.psd.ro/conducerea-psd/',
       },
     ],
   },
@@ -29129,13 +29159,13 @@ export const politicianAdditions = [
       note: 'Deputat de Timiș; cauza DNA privea un presupus aranjament politic legat de votul la moțiunea de cenzură din 2021.',
     },
     crime: 'Dare de mită',
-    sentence: 'Achitat definitiv (2024)',
+    sentence: 'Achitat definitiv de ÎCCJ la 4 noiembrie 2024',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în decembrie 2021 pentru dare de mită, într-un dosar privind presupusa promisiune de numiri în funcții publice pentru absența unui parlamentar de la votul unei moțiuni de cenzură. Actualizarea DNA din 21 februarie 2025 consemnează achitarea definitivă dispusă de ÎCCJ la 4 noiembrie 2024.',
-    verified_at: '2026-05-03',
+      'DNA l-a trimis în judecată în decembrie 2021 pentru dare de mită, susținând că la 1 octombrie 2021 el și Nicolae-Florin Bitea ar fi promis unui deputat numirea unor apropiați în funcții publice, în schimbul absenței de la votul moțiunii de cenzură din 5 octombrie. ÎCCJ i-a achitat în primă instanță la 26 martie 2024, iar prin decizia penală nr. 31 din 4 noiembrie 2024 a menținut definitiv achitarea, întrucât faptele nu sunt prevăzute de legea penală. Mandatul său de deputat de Timiș s-a încheiat în decembrie 2024; activitatea publică din 2026 confirmă că a rămas afiliat PNL.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -29147,12 +29177,22 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.radiotimisoara.ro/administratie-politica/politica/deputatul-de-timis-cosmin-sandru-urmarit-pentru-dare-de-mita-se-autosuspenda-din-pnl-270118.html',
       },
+      {
+        label: 'deBanat — achitarea în primă instanță',
+        kind: 'press',
+        url: 'https://debanat.ro/2024/03/deputatul-cosmin-sandru-achitat-la-iccj-in-procesul-in-care-era-acuzat-pentru-dare-de-mita_414404.html',
+      },
+      {
+        label: 'Express de Banat — activitatea PNL din 2026',
+        kind: 'press',
+        url: 'https://expressdebanat.ro/cosmin-sandru-pnl-timis-este-condus-de-subalternii-psd-si-de-pesedisti-vopsiti-in-galben/',
+      },
     ],
   },
   {
     name: 'László Borbély',
     party: 'UDMR',
-    position: 'Fost ministru al Mediului; fost deputat de Mureș',
+    position: 'Consilier de stat și coordonator al Departamentului pentru Dezvoltare Durabilă; fost ministru și deputat UDMR',
     position_type: 'minister',
     geography: {
       county: 'Mureș',
@@ -29160,13 +29200,13 @@ export const politicianAdditions = [
       note: 'Deputat UDMR ales în județul Mureș și lider politic județean; cazul DNA a fost legat de perioada mandatului de ministru.',
     },
     crime: 'Trafic de influență; fals în declarații de avere',
-    sentence: 'Cerere de urmărire penală respinsă de Parlament',
+    sentence: 'Urmărirea penală nu a fost autorizată de Camera Deputaților (2012 și 2015)',
     sentence_years: null,
     conviction_year: null,
     status: 'closed',
     details:
-      'DNA a sesizat în 2012 procedura pentru obținerea cererii necesare urmăririi penale față de László Borbély, fost ministru al Mediului, pentru trafic de influență și fals în declarații. Camera Deputaților a respins cererile de încuviințare, inclusiv solicitarea reluată în 2015, astfel că nu a existat trimitere în judecată.',
-    verified_at: '2026-05-03',
+      'DNA a solicitat în 2012 autorizarea urmăririi penale față de László Borbély, fost ministru al Mediului, pentru trafic de influență și fals în declarații de avere. Camera Deputaților a respins cererea la 11 septembrie 2012, iar DNA a dispus o soluție de netrimitere în judecată. După apariția unor elemente noi, procurorii au revocat soluția la 5 ianuarie 2015, iar ÎCCJ a confirmat redeschiderea; DNA a cerut din nou autorizarea pentru trei presupuse fapte de trafic de influență. Camera a respins și această cerere la 11 martie 2015, cu 154 voturi împotrivă și 125 pentru. Nu a existat trimitere în judecată și nici o soluție pe fond asupra acuzațiilor. În 2026 este consilier de stat și coordonator al Departamentului pentru Dezvoltare Durabilă din Guvernul României.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -29177,6 +29217,21 @@ export const politicianAdditions = [
         label: 'Radio România Actualități',
         kind: 'press',
         url: 'https://www.romania-actualitati.ro/stiri/politica/deputatii-resping-urmarirea-penala-pentru-doi-fosti-ministri-id39988.html',
+      },
+      {
+        label: 'DNA — cererea reluată în 2015',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5868',
+      },
+      {
+        label: 'UDMR — profil instituțional',
+        kind: 'official',
+        url: 'https://www.udmr.ro/profil/borbely-laszlo',
+      },
+      {
+        label: 'AGERPRES — funcția guvernamentală în 2026',
+        kind: 'press',
+        url: 'https://agerpres.ro/economic/2026/04/16/borbely-romania-este-singura-tara-din-uniunea-europeana-ce-are-meseria-de-expert-in-dezvoltare-durab--1547043',
       },
       {
         label: 'Economica.net',
@@ -29196,13 +29251,13 @@ export const politicianAdditions = [
       note: 'Funcția relevantă a fost cea de ministru al Afacerilor Interne, instituție centrală cu sediul în București.',
     },
     crime: 'Favorizarea făptuitorului',
-    sentence: 'Cauză clasată (2018)',
+    sentence: 'Cauză clasată de DNA la 9 noiembrie 2018: fapta nu există',
     sentence_years: null,
     conviction_year: null,
     status: 'closed',
     details:
-      'DNA a dispus în septembrie 2016 efectuarea urmăririi penale față de Petre Tobă, fost ministru al Afacerilor Interne, pentru favorizarea făptuitorului în legătură cu dosarul DIPI. În noiembrie 2018, DNA a comunicat clasarea cauzei, pe motiv că fapta nu există.',
-    verified_at: '2026-05-03',
+      'DNA a dispus în septembrie 2016 efectuarea urmăririi penale față de Petre Tobă, fost ministru al Afacerilor Interne, pentru favorizarea făptuitorului. Acuzația privea presupusul refuz de a declasifica documente solicitate în dosarul privind cheltuirea fondurilor operative ale DIPI. La 9 noiembrie 2018, DNA a clasat cauza în temeiul art. 16 alin. (1) lit. a CPP, deoarece fapta nu există. Nu a fost trimis în judecată în această cauză și nu este verificată o funcție politică ori publică actuală.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -29213,6 +29268,11 @@ export const politicianAdditions = [
         label: 'Realitatea.net',
         kind: 'press',
         url: 'https://www.realitatea.net/stiri/actual/de-ce-a-inchis-dna-dosarul-fostului-ministru-petre-toba_5dcc9272406af85273d757d5',
+      },
+      {
+        label: 'Adevărul — soluția de clasare',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-interne/evenimente/procurorii-dna-au-clasat-dosarul-in-care-era-1907546.html',
       },
     ],
   },

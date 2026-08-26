@@ -41,6 +41,7 @@ const KNOWN_PARTIES = [
   'PNCR',
   'PND',
   'PUSL',
+  'Pro România',
   'PNRR',
   'Bucure\u0219ti 2020',
   'Independent',

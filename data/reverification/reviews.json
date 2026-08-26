@@ -41763,6 +41763,100 @@
       ],
       "note": "Profil corectat cu traseul procedural complet: condamnarea nedefinitivă din 2024 a fost desființată, iar ÎCCJ a dispus achitarea definitivă la 2 februarie 2026; funcția actuală de decan a fost verificată oficial.",
       "reviewed_snapshot_hash": "27154fe6d08f45992375367cf7322a8f206748f182b84d55b5c349d564ccec96"
+    },
+    {
+      "profile_id": "RV-0691",
+      "original_name": "Nicolae Bănicioiu",
+      "current_name": "Nicolae Bănicioiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10714",
+        "https://agerpres.ro/justitie/2025/10/13/nicolae-banicioiu-achitat-definitiv-intr-un-dosar-de-coruptie-el-scapa-si-de-plata-sumei-de-1-3-mili--1493100",
+        "https://hotnews.ro/argumentele-singurei-judecatoare-care-nu-a-fost-de-acord-cu-achitarea-definitiva-a-fostului-ministru-banicioiu-raspunderea-penala-a-fost-eficient-paralizata-de-implinirea-prescriptiei-2086409",
+        "https://agerpres.ro/politica/2018/05/25/nicolae-banicioiu-a-parasit-psd-si-se-alatura-formatiunii-lui-victor-ponta--115556",
+        "https://mail.tribunalulbucuresti.ro/images/documente/Partide/poz-158-iulie-2024.pdf"
+      ],
+      "note": "Profil corectat: afilierea PSD era depășită; a trecut la Pro România în 2018. Traseul procedural include soluția mixtă din 2024 și achitarea definitivă pentru ambele acuzații prin decizia 22/13.10.2025, cu înlăturarea confiscării.",
+      "reviewed_snapshot_hash": "c6eba4cbb143039b15ef708de227ce90d8cd2c06ca5712f7f889b1696f20d248"
+    },
+    {
+      "profile_id": "RV-0692",
+      "original_name": "Iulian-Claudiu Manda",
+      "current_name": "Iulian-Claudiu Manda",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10331",
+        "https://luju.ro/static/files/2024/aprilie/14/decizie_ICCJ_Claudiu_Manda.pdf",
+        "https://www.europarl.europa.eu/meps/ro/197653/CLAUDIU_MANDA/home",
+        "https://www.psd.ro/conducerea-psd/"
+      ],
+      "note": "Identitatea și statusul de prescripție confirmate. Profil actualizat cu decizia penală nr. 11/08.04.2024, data împlinirii prescripției, distincția față de achitare și funcțiile actuale de europarlamentar și secretar general PSD.",
+      "reviewed_snapshot_hash": "4b28edc51a418da3118b05d4eb361f0595d59479a608d32866f9d57ac3db6ced"
+    },
+    {
+      "profile_id": "RV-0693",
+      "original_name": "Cosmin Șandru",
+      "current_name": "Cosmin Șandru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10743",
+        "https://debanat.ro/2024/03/deputatul-cosmin-sandru-achitat-la-iccj-in-procesul-in-care-era-acuzat-pentru-dare-de-mita_414404.html",
+        "https://expressdebanat.ro/cosmin-sandru-pnl-timis-este-condus-de-subalternii-psd-si-de-pesedisti-vopsiti-in-galben/"
+      ],
+      "note": "Identitatea și achitarea confirmate; profilul a fost completat cu soluția de fond, decizia penală definitivă nr. 31/04.11.2024, temeiul fapta nu este prevăzută de legea penală și afilierea PNL verificată în 2026.",
+      "reviewed_snapshot_hash": "d6aa118d50c62bd077375fc7d53e6c16fda0158c49f29c19f87fe27c4c954028"
+    },
+    {
+      "profile_id": "RV-0694",
+      "original_name": "László Borbély",
+      "current_name": "László Borbély",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3116",
+        "https://www.dna.ro/comunicat.xhtml?id=5868",
+        "https://www.economica.net/camera-deputatilor-a-respins-cererea-de-incuviintare-a-inceperii-urmaririi-penale-a-lui-laszlo-borbely_97744.html",
+        "https://www.udmr.ro/profil/borbely-laszlo",
+        "https://agerpres.ro/economic/2026/04/16/borbely-romania-este-singura-tara-din-uniunea-europeana-ce-are-meseria-de-expert-in-dezvoltare-durab--1547043"
+      ],
+      "note": "Profil corectat pentru a distinge refuzul parlamentar al autorizării urmăririi de o soluție pe fond; cronologia 2012-2015 și funcția actuală de consilier de stat/coordonator al Departamentului pentru Dezvoltare Durabilă au fost verificate.",
+      "reviewed_snapshot_hash": "c563779f12b28b38bf6e1992e2c57a91b3861955ac232f24fe076b30ffd711b0"
+    },
+    {
+      "profile_id": "RV-0695",
+      "original_name": "Petre Tobă",
+      "current_name": "Petre Tobă",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7679",
+        "https://adevarul.ro/stiri-interne/evenimente/procurorii-dna-au-clasat-dosarul-in-care-era-1907546.html"
+      ],
+      "note": "Identitatea și clasarea confirmate; profilul a fost precizat cu data de 09.11.2018, temeiul art. 16 alin. (1) lit. a CPP — fapta nu există — și faptul că nu a existat trimitere în judecată.",
+      "reviewed_snapshot_hash": "11ba5dad81ea76743011b63207f936c2a134e7225401ddeec0e8c4ddc6fb3d0a"
     }
   ]
 }
