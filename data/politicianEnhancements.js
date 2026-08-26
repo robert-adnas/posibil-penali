@@ -28533,8 +28533,8 @@ export const politicianAdditions = [
   },
   {
     name: 'Ion Ariton',
-    party: 'PDL',
-    position: 'Fost ministru al Economiei; fost senator de Sibiu',
+    party: 'PMP',
+    position: 'Vicepreședinte al Biroului Național PMP; fost ministru al Economiei și fost senator de Sibiu',
     position_type: 'minister',
     geography: {
       county: 'Sibiu',
@@ -28547,8 +28547,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'Trimis în judecată în dosarul „Gala Bute”, fiind acuzat că ar fi determinat companii din subordinea Ministerului Economiei să sponsorizeze evenimentul. Achitarea sa a rămas definitivă la ÎCCJ în iunie 2018.',
-    verified_at: '2026-04-30',
+      'Trimis în judecată în dosarul „Gala Bute”, fiind acuzat că ar fi determinat zece companii din subordinea Ministerului Economiei să sponsorizeze evenimentul. Prin decizia penală nr. 93 din 5 iunie 2018, ÎCCJ l-a achitat definitiv pentru ambele infracțiuni, reținând că faptele nu sunt prevăzute de legea penală ori nu au fost săvârșite cu vinovăția cerută de lege. În 2024 era vicepreședinte al Biroului Național PMP și a candidat la Senat pe lista Forța Dreptei din cadrul AFDLC.',
+    verified_at: '2026-08-25',
     sources: [
       {
         label: 'Senatul României',
@@ -28556,14 +28556,19 @@ export const politicianAdditions = [
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=98D72C53-DA2E-44E8-8376-3A90C08E835B',
       },
       {
-        label: 'Turnul Sfatului',
-        kind: 'press',
-        url: 'https://www.turnulsfatului.ro/2018/06/05/ariton-achitat-definitiv-dosarul-gala-bute-elena-udrea-primit-sase-ani-cu-executare-105904/',
+        label: 'DNA — decizia definitivă nr. 93/2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8867',
       },
       {
-        label: 'Mesagerul de Sibiu',
+        label: 'AGERPRES — candidatura și funcția în PMP (2024)',
         kind: 'press',
-        url: 'https://mesageruldesibiu.ro/ariton-judecata/',
+        url: 'https://agerpres.ro/politic/2024/10/15/parlamentare2024-sibiu-afdlc-a-depus-listele-de-candidaturi-la-bej-ion-ariton-spera-sa-revina-minist--1371117',
+      },
+      {
+        label: 'BEJ Sibiu — admiterea candidaturii la Senat (2024)',
+        kind: 'official',
+        url: 'https://sb.prefectura.mai.gov.ro/wp-content/uploads/sites/28/2024/10/FD-decizie-14-admitere-candidaturi-Senat.pdf',
       },
     ],
   },
@@ -28584,8 +28589,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a consemnat condamnarea definitivă pronunțată de Curtea de Apel București în 2015, într-un dosar privind emiterea ilegală a unor titluri de proprietate pentru terenuri intravilane din București.',
-    verified_at: '2026-04-30',
+      'Prin decizia penală nr. 760 din 22 mai 2015, Curtea de Apel București l-a condamnat definitiv la 8 ani de închisoare pentru abuz în serviciu în formă continuată și i-a interzis timp de 5 ani după executarea pedepsei dreptul de a fi ales și de a ocupa o funcție ce implică autoritatea de stat. Instanța a desființat șase titluri de proprietate emise abuziv și actele de înstrăinare subsecvente. A fost liberat condiționat prin hotărâre definitivă la 2 iunie 2020, după aproximativ cinci ani de detenție; liberarea nu anulează condamnarea.',
+    verified_at: '2026-08-26',
     sources: [
       {
         label: 'DNA',
@@ -28593,16 +28598,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=6348',
       },
       {
-        label: 'TVR Info',
+        label: 'Radio România Actualități — liberarea condiționată',
         kind: 'press',
-        url: 'https://tvrinfo.ro/tribunalul-bucure-ti-fostul-primar-al-sectorului-6-cristian-poteras-eliberat-condi-ionat-decizia-este-definitiva_863000/',
+        url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-edil-al-sectorului-6-cristian-poteras-a-fost-eliberat-conditionat-id136744.html',
       },
     ],
   },
   {
     name: 'Cătălin Florin Teodorescu',
-    party: 'PDL',
-    position: 'Fost deputat de Argeș; fost membru în comisii ANRP',
+    party: 'AUR',
+    position: 'Membru AUR Argeș; fost deputat, prefect și membru în comisii ANRP',
     position_type: 'deputy',
     geography: {
       county: 'Argeș',
@@ -28610,23 +28615,33 @@ export const politicianAdditions = [
       note: 'Deputat ales în județul Argeș; se folosește circumscripția parlamentară.',
     },
     crime: 'Abuz în serviciu dacă funcționarul public a obținut un folos necuvenit pentru sine sau pentru altul',
-    sentence: 'Achitat definitiv (2023)',
+    sentence: 'Achitat definitiv în două dosare ANRP (2022 și 2023)',
     sentence_years: null,
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată într-un dosar ANRP privind despăgubiri supraevaluate. Actualizarea DNA din 2024 consemnează achitarea definitivă dispusă de ÎCCJ prin decizia penală nr. 166/A din 27 aprilie 2023.',
-    verified_at: '2026-04-30',
+      'A fost trimis în judecată în două dosare ANRP privind aprobarea unor despăgubiri despre care DNA a susținut că au fost supraevaluate. ÎCCJ l-a achitat definitiv mai întâi prin decizia penală nr. 87 din 5 decembrie 2022, deoarece faptele nu erau prevăzute de legea penală ori nu fuseseră săvârșite cu vinovăția cerută de lege, apoi prin decizia penală nr. 166/A din 27 aprilie 2023, deoarece faptele nu erau prevăzute de legea penală sau nu existau probe că o persoană săvârșise infracțiunea. Din octombrie 2023 este membru AUR Argeș.',
+    verified_at: '2026-08-26',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — achitarea definitivă din 2023',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7596',
       },
       {
-        label: 'Mediafax',
+        label: 'DNA — achitarea definitivă din 2022',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
+      },
+      {
+        label: 'Senatul României — fișa fostului deputat',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c38598e4-e395-44f1-b589-bdcebb3cf2b4',
+      },
+      {
+        label: 'Atitudine în Argeș — afilierea AUR',
         kind: 'press',
-        url: 'https://www.mediafax.ro/politic/rezultate-alegeri-parlamentare-2012-arges-10380069',
+        url: 'https://www.atitudineinarges.ro/index.php?Itemid=4&catid=2%3Apolitic&id=22740%3Ace-mai-fac-fotii-prefeci-de-arge&option=com_content&view=article',
       },
     ],
   },
@@ -28646,11 +28661,11 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în decembrie 2008 pentru luare de mită, în legătură cu numirea conducerii ITM Gorj și contracte ale unor companii energetice. ÎCCJ a dispus achitarea definitivă în decembrie 2011.',
-    verified_at: '2026-04-30',
+      'DNA l-a trimis în judecată în decembrie 2008 pentru luare de mită, susținând că ar fi acceptat sprijin pentru firma fiului său la obținerea unor contracte de la companii energetice de stat în schimbul numirii unei persoane la conducerea ITM Gorj. ÎCCJ l-a achitat în primă instanță la 3 mai 2011, iar un complet de cinci judecători a respins recursul DNA la 19 decembrie 2011. Soluția este definitivă; instanța a reținut că probele și interceptările nu demonstrau o promisiune care să întrunească elementele luării de mită.',
+    verified_at: '2026-08-26',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — trimiterea în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1128',
       },
@@ -28660,52 +28675,63 @@ export const politicianAdditions = [
         url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2F4C69CA-7139-4E5B-A827-AB9E9518C362',
       },
       {
-        label: 'Mediafax',
+        label: 'Mediafax — achitarea definitivă și motivarea',
         kind: 'press',
         url: 'https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988',
+      },
+      {
+        label: 'Viața Liberă — activitatea liberală (2024)',
+        kind: 'press',
+        url: 'https://www.viata-libera.ro/politica-administratie/227889-pnl-galati-este-un-exemplu-ca-desi-esti-la-guvernare-este-din-ce-in-ce-mai-rau-paul-pacuraru-despre-esecul-liberal-ii',
       },
     ],
   },
   {
     name: 'Dan Ilie Morega',
-    party: 'PNL',
-    position: 'Fost deputat de Gorj; fost lider PNL Gorj',
+    party: 'Independent',
+    position: 'Fost deputat și prefect de Gorj; fost lider PNL și UNPR Gorj',
     position_type: 'deputy',
     geography: {
       county: 'Gorj',
       basis: 'constituency',
       note: 'Deputat ales în Gorj și lider politic județean; cazul privea companii energetice din Gorj.',
     },
-    crime: 'Dare de mită',
-    sentence: 'Achitat definitiv (2011)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'acquitted',
+    crime: 'Folosirea influenței sau autorității politice pentru obținerea de foloase necuvenite; instigare la abuz în serviciu',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
     details:
-      'DNA l-a trimis în judecată în decembrie 2008 pentru dare de mită, în același dosar cu Paul Păcuraru. ÎCCJ a respins recursul DNA și a menținut achitarea definitivă în decembrie 2011.',
-    verified_at: '2026-04-30',
+      'Prin decizia penală nr. 363 din 10 noiembrie 2011, ÎCCJ a menținut definitiv condamnarea sa la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani, pentru două infracțiuni de folosire a influenței ori autorității de lider de partid pentru obținerea de foloase necuvenite și pentru instigare la abuz în serviciu. Instanța a dispus și confiscarea a 207.925,0806 lei. Separat, la 19 decembrie 2011, a fost achitat definitiv de acuzația de dare de mită din dosarul comun cu Paul Păcuraru; acea achitare nu anulează condamnarea din celălalt dosar. A demisionat din UNPR în februarie 2012 și și-a încheiat mandatul ca deputat independent.',
+    verified_at: '2026-08-26',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2776',
+      },
+      {
+        label: 'DNA — dosarul în care a fost achitat',
         kind: 'official',
         url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1128',
       },
       {
-        label: 'Mediafax',
+        label: 'Mediafax — achitarea distinctă',
         kind: 'press',
         url: 'https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988',
       },
       {
-        label: 'Mediafax',
+        label: 'Mediafax — demisia din UNPR',
         kind: 'press',
-        url: 'https://www.mediafax.ro/politic/deputatul-dan-ilie-morega-a-fost-numit-sef-la-unpr-gorj-8876152',
+        url: 'https://www.mediafax.ro/politic/ilie-morega-demisioneaza-din-unpr-iar-deputatul-nicolae-jolta-din-pnl-9196119',
       },
     ],
   },
   {
     name: 'Ovidiu Ioan Silaghi',
-    party: 'PNL',
-    position: 'Fost ministru al Transporturilor; fost deputat de Satu Mare',
+    party: 'Independent',
+    position: 'Secretar general al CCIR; fost ministru al Transporturilor și fost deputat de Satu Mare',
     position_type: 'minister',
     geography: {
       county: 'Satu Mare',
@@ -28718,13 +28744,23 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'closed',
     details:
-      'DNA a cerut în 2013 urmărirea penală pentru trafic de influență, în legătură cu presupuse intervenții la CNADNR și suma de 200.000 euro. Actualizarea DNA din 23 mai 2018 consemnează clasarea cauzei, întrucât nu au rezultat probe că o persoană a săvârșit presupusele fapte penale.',
-    verified_at: '2026-05-02',
+      'DNA a cerut în 2013 urmărirea penală pentru trafic de influență, în legătură cu presupuse intervenții la CNADNR și remiterea a 200.000 de euro. La 31 ianuarie 2018, după epuizarea mijloacelor probatorii, procurorii au clasat cauza în temeiul art. 16 alin. (1) lit. a) CPP („fapta nu există”): afirmația denunțătorului privind remiterea banilor nu a fost confirmată prin alte probe, iar presupusele intervenții nu au putut fi documentate. În prezent este secretar general al Camerei de Comerț și Industrie a României; PNL este o afiliere istorică, urmată de PSD și ALDE, fără o apartenență politică actuală verificată.',
+    verified_at: '2026-08-26',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — clasarea cauzei',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4511',
+      },
+      {
+        label: 'CCIR — conducerea executivă',
+        kind: 'official',
+        url: 'https://ccir.ro/despre/conducere/',
+      },
+      {
+        label: 'CCIR — activitatea secretarului general (2025)',
+        kind: 'official',
+        url: 'https://ccir.ro/2025/09/05/ccir-preluat-un-nou-mandat-ca-membru-consiliul-general-al-federatiei-mondiale-camerelor-de-comert/',
       },
     ],
   },
@@ -28744,18 +28780,23 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a trimis-o în judecată în dosarul Belina pentru abuz în serviciu legat de transferul Insulei Belina și al Brațului Pavel către județul Teleorman. Curtea de Apel București a dispus achitarea definitivă în februarie 2023.',
-    verified_at: '2026-05-02',
+      'DNA a trimis-o în judecată în dosarul „Belina” pentru abuz în serviciu legat de transferul Insulei Belina și al Brațului Pavel din proprietatea statului către județul Teleorman. Tribunalul București a achitat-o în aprilie 2022, iar Curtea de Apel București a menținut achitarea definitivă la 21 februarie 2023, schimbând temeiul în art. 16 alin. (1) lit. a) CPP („fapta nu există”). Instanța a ridicat și măsurile asigurătorii.',
+    verified_at: '2026-08-26',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — trimiterea în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8870',
       },
       {
-        label: 'Radio România Actualități',
+        label: 'Radio România Actualități — achitarea definitivă',
         kind: 'press',
         url: 'https://www.romania-actualitati.ro/stiri/romania/fostul-ministru-al-dezvoltarii-sevil-shhaideh-a-fost-achitata-definitiv-pentru-acuzatiile-de-abuz-in-serviciu-in-dosarul-belina-id174136.html',
+      },
+      {
+        label: 'TVR Info — temeiul achitării definitive',
+        kind: 'press',
+        url: 'https://tvrinfo.ro/sevil-shhaideh-fost-ministru-al-dezvoltarii-achitata-definitiv-in-dosarul-belina_925347/',
       },
     ],
   },

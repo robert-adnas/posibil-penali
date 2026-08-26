@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25",
+  "updated_at": "2026-08-26",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -41523,6 +41523,134 @@
       ],
       "note": "Achitarea definitivă din 2022 este confirmată. Afilierea, funcția și geografia au fost corectate din PDL/fost senator/București în PNL/senator în exercițiu/Timiș, conform fișei oficiale a Senatului.",
       "reviewed_snapshot_hash": "7499ea58e326e0858a9b69e33ef9ea37168680b152e6db0207f6883e7621693f"
+    },
+    {
+      "profile_id": "RV-0678",
+      "original_name": "Ion Ariton",
+      "current_name": "Ion Ariton",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-25",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8867",
+        "https://agerpres.ro/politic/2024/10/15/parlamentare2024-sibiu-afdlc-a-depus-listele-de-candidaturi-la-bej-ion-ariton-spera-sa-revina-minist--1371117",
+        "https://sb.prefectura.mai.gov.ro/wp-content/uploads/sites/28/2024/10/FD-decizie-14-admitere-candidaturi-Senat.pdf"
+      ],
+      "note": "Identitate confirmată. Afilierea PDL era istorică și a fost actualizată la PMP; candidatura din 2024 pe lista Forța Dreptei aparținea alianței electorale. Achitarea definitivă din dosarul Gala Bute este confirmată de decizia publicată de DNA.",
+      "reviewed_snapshot_hash": "3c51b355429ac6a8166c2ec433ebd818338f4d6f9bd3f586316e5c26337a267f"
+    },
+    {
+      "profile_id": "RV-0679",
+      "original_name": "Cristian Poteraș",
+      "current_name": "Cristian Poteraș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6348",
+        "https://www.romania-actualitati.ro/stiri/romania/fostul-edil-al-sectorului-6-cristian-poteras-a-fost-eliberat-conditionat-id136744.html"
+      ],
+      "note": "Identitatea, rolul politic și condamnarea definitivă au fost confirmate. Profilul a fost completat cu numărul și data deciziei, interdicțiile complementare, desființarea titlurilor și liberarea condiționată definitivă din 2020, fără a modifica statusul de condamnat.",
+      "reviewed_snapshot_hash": "b1bedd93e1ee4d92b0db60ec8fe721b674aa35c1e526c5488cc4242823b0875e"
+    },
+    {
+      "profile_id": "RV-0680",
+      "original_name": "Cătălin Florin Teodorescu",
+      "current_name": "Cătălin Florin Teodorescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7596",
+        "https://www.dna.ro/comunicat.xhtml?id=5695",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=c38598e4-e395-44f1-b589-bdcebb3cf2b4",
+        "https://www.atitudineinarges.ro/index.php?Itemid=4&catid=2%3Apolitic&id=22740%3Ace-mai-fac-fotii-prefeci-de-arge&option=com_content&view=article"
+      ],
+      "note": "Identitatea și apartenența la domeniul politic sunt confirmate. Afilierea a fost actualizată de la PDL la AUR, iar situația juridică a fost corectată pentru a reflecta două achitări definitive distincte în dosare ANRP, în 2022 și 2023.",
+      "reviewed_snapshot_hash": "326df5af231fec6fcef9ebb3d1f72fcf2b1d7252404311f3a888049c6535d395"
+    },
+    {
+      "profile_id": "RV-0681",
+      "original_name": "Paul Păcuraru",
+      "current_name": "Paul Păcuraru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1128",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2F4C69CA-7139-4E5B-A827-AB9E9518C362",
+        "https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988",
+        "https://www.viata-libera.ro/politica-administratie/227889-pnl-galati-este-un-exemplu-ca-desi-esti-la-guvernare-este-din-ce-in-ce-mai-rau-paul-pacuraru-despre-esecul-liberal-ii"
+      ],
+      "note": "Identitatea, rolul politic, afilierea PNL și achitarea definitivă sunt confirmate. Detaliile au fost corectate și completate cu data exactă a soluției definitive și motivul probator al achitării.",
+      "reviewed_snapshot_hash": "aaf354cc5f15d017c62e11f0428e6bdfcfcaaea92f711935e99988e5f0cb96b9"
+    },
+    {
+      "profile_id": "RV-0682",
+      "original_name": "Dan Ilie Morega",
+      "current_name": "Dan Ilie Morega",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2776",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1128",
+        "https://www.mediafax.ro/social/fostul-ministru-al-muncii-paul-pacuraru-si-dan-ilie-morega-achitati-definitiv-in-procesul-in-care-sunt-acuzati-de-coruptie-9073988",
+        "https://www.mediafax.ro/politic/ilie-morega-demisioneaza-din-unpr-iar-deputatul-nicolae-jolta-din-pnl-9196119"
+      ],
+      "note": "Corecție critică: profilul confunda achitarea din dosarul Păcuraru cu situația juridică generală. Dan Ilie Morega are o condamnare definitivă distinctă la 3 ani cu suspendare din 10 noiembrie 2011; statusul a fost schimbat din achitat în condamnat. Afilierea a fost actualizată la Independent după demisia din UNPR.",
+      "reviewed_snapshot_hash": "7c8c7e5aeaa63051294ec5d6ef84e5becb33c8cd5b6baf1d9b61524db346bf0c"
+    },
+    {
+      "profile_id": "RV-0683",
+      "original_name": "Ovidiu Ioan Silaghi",
+      "current_name": "Ovidiu Ioan Silaghi",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4511",
+        "https://ccir.ro/despre/conducere/",
+        "https://ccir.ro/2025/09/05/ccir-preluat-un-nou-mandat-ca-membru-consiliul-general-al-federatiei-mondiale-camerelor-de-comert/"
+      ],
+      "note": "Identitatea și clasarea cauzei sunt confirmate. Afilierea PNL era istorică și a fost înlocuită cu Independent în lipsa unei apartenențe politice actuale verificabile; funcția actuală de secretar general CCIR a fost adăugată din surse oficiale.",
+      "reviewed_snapshot_hash": "a1da149a7b8ce7752a6bc0480c7760a1a5a773b12136ed90e44459a14d1aec1c"
+    },
+    {
+      "profile_id": "RV-0684",
+      "original_name": "Sevil Shhaideh",
+      "current_name": "Sevil Shhaideh",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8870",
+        "https://www.romania-actualitati.ro/stiri/romania/fostul-ministru-al-dezvoltarii-sevil-shhaideh-a-fost-achitata-definitiv-pentru-acuzatiile-de-abuz-in-serviciu-in-dosarul-belina-id174136.html",
+        "https://tvrinfo.ro/sevil-shhaideh-fost-ministru-al-dezvoltarii-achitata-definitiv-in-dosarul-belina_925347/"
+      ],
+      "note": "Identitatea, apartenența politică și achitarea definitivă sunt confirmate. Profilul a fost completat cu data exactă, temeiul fapta nu există și ridicarea măsurilor asigurătorii.",
+      "reviewed_snapshot_hash": "9668f6d6e594f1cca51f06d650d2a42e2794741c9f6cc44d240242946a06f8d7"
     }
   ]
 }

@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25",
+  "updated_at": "2026-08-26",
   "holds": {
-    "Ovidiu Ioan Silaghi": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0683"
-    },
     "Valeriu Zgonea": {
       "held_at": "2026-08-03",
       "reasons": [
