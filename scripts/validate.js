@@ -27,6 +27,7 @@ const KNOWN_PARTIES = [
   'PPMPRR',
   'USL',
   'AUR',
+  'ACT',
   'PP-DD',
   'PMP',
   'PN\u021aCD',

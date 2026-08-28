@@ -1185,48 +1185,6 @@
       ],
       "profile_id": "RV-2732"
     },
-    "Căpălnașan Fănică": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2736"
-    },
-    "Dan Dungaciu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2742"
-    },
-    "Claudiu Târziu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2745"
-    },
-    "Marius Lulea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2746"
-    },
-    "Silviu-Titus Păunescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2747"
-    },
-    "Mohammad Murad": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2751"
-    },
     "Pintilie Constantin Cristian": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4117,6 +4075,48 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-2662"
+    },
+    "Căpălnașan Fănică": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2736"
+    },
+    "Dan Dungaciu": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2742"
+    },
+    "Claudiu Târziu": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2745"
+    },
+    "Marius Lulea": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2746"
+    },
+    "Silviu-Titus Păunescu": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2747"
+    },
+    "Mohammad Murad": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2751"
     }
   }
 }

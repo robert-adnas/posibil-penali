@@ -42663,6 +42663,928 @@
       ],
       "note": "Identitatea și funcțiile publice sunt confirmate. ANI a constatat la 12.04.2023 o diferență nejustificată de 824.898 lei și a sesizat Comisia de cercetare a averilor a CA București. Funcția de director ROMATSA este formulată numai ca funcție deținută la data raportului, neexistând confirmare actuală pentru 2026. Rezultatul procedurii de control al averii nu a fost identificat public; profilul rămâne ascuns.",
       "reviewed_snapshot_hash": "84f7d4d09b84dbc57677c027af0d803768975d7c7696bca79781ea76ba797aed"
+    },
+    {
+      "profile_id": "RV-2736",
+      "original_name": "Căpălnașan Fănică",
+      "current_name": "Căpălnașan Fănică",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.comunabirchis.ro/storage/1241/Proces-verbal-%C3%AEncheiat-ast%C4%83zi%2C-8-mai-2024-privind-constatarea-r%C4%83m%C3%A2nerii-definitive-a-candidaturilor-la-alegerile-pentru-autorit%C4%83%C8%9Bile-administra%C8%9Biei-publice-locale-din-09.06.2024.PDF",
+        "https://www.stiripesurse.ro/un-candidat-aur-la-primarie-este-condamnat-pentru-delapidare-alte-trei-persoane-il-acuza-de-inselaciune_3377443.html",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Candidatura AUR din 2024 este confirmată de documentul oficial al comunei. Funcția a fost actualizată la fost candidat. Condamnarea din 2021 rămâne atribuită relatării de presă și păstrată ca primă instanță: în Portal nu a putut fi asociat un număr de dosar sau un rezultat al căii de atac, deci caracterul definitiv nu este demonstrat.",
+      "reviewed_snapshot_hash": "3728f6fa4086b49f9e3c205f6d3879319f4789a2925ba4b83d90d6cbd7aff9cc"
+    },
+    {
+      "profile_id": "RV-2742",
+      "original_name": "Dan Dungaciu",
+      "current_name": "Dan Dungaciu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "http://portalquery.just.ro/Query.asmx",
+        "https://partidulaur.ro/echipa/",
+        "https://stirileprotv.ro/justitie/curtea-de-apel-respinge-contestatia-lui-dan-dungaciu-dosarul-de-abuz-in-serviciu-ajunge-in-fata-instantei.html"
+      ],
+      "note": "Identitatea, rolul politic actual și situația juridică sunt confirmate. Portalul arată că Dan Gheorghe Dungaciu este inculpat în dosarul 11048/3/2024, aflat pe fond la Tribunalul București și nesoluționat la 28 august 2026. Profilul a fost completat cu numărul dosarului și prezumția de nevinovăție.",
+      "reviewed_snapshot_hash": "cb1ed7c36a59939e204e23a9894e9242dd5b75a23f844a109db822de3f9ab71f"
+    },
+    {
+      "profile_id": "RV-2745",
+      "original_name": "Claudiu Târziu",
+      "current_name": "Claudiu Târziu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.digi24.ro/stiri/actualitate/politica/procurorii-din-ialomita-il-ancheteaza-pe-george-simion-pentru-coruperea-alegatorilor-surse-ar-fi-vorba-de-caravanele-medicale-ale-aur-2642441",
+        "https://www.europarl.europa.eu/meps/ro/257114/CLAUDIU-RICHARD_TARZIU/home",
+        "https://tribunalulbucuresti.ro/images/articole/politice-partide/poz-358.pdf"
+      ],
+      "note": "Datele politice au fost actualizate: europarlamentar și președinte ACT, nu lider AUR. Situația juridică a fost reformulată fără a-i atribui nejustificat calitatea de suspect sau inculpat: sursa arată numai solicitarea Poliției privind existența unei calități speciale în dosarul 2513/P/2023. Nu a fost găsită o evoluție oficială ulterioară.",
+      "reviewed_snapshot_hash": "a7b7da620d09fc05c131e15e37c6e64bffe7400bfd5e3866650c11622c397a62"
+    },
+    {
+      "profile_id": "RV-2746",
+      "original_name": "Marius Lulea",
+      "current_name": "Marius Lulea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.libertatea.ro/stiri/dosarul-mitei-electorale-la-aur-deschis-in-2023-e-tot-la-parchet-ong-ul-medical-asociat-cu-partidul-are-sediul-intr-un-fost-restaurant-laolalta-cu-firmele-unui-consilier-local-de-5756233",
+        "https://www.digi24.ro/stiri/actualitate/politica/procurorii-din-ialomita-il-ancheteaza-pe-george-simion-pentru-coruperea-alegatorilor-surse-ar-fi-vorba-de-caravanele-medicale-ale-aur-2642441",
+        "https://partidulaur.ro/echipa/"
+      ],
+      "note": "Funcția a fost corectată la cofondator și fost prim-vicepreședinte, deoarece actuala conducere AUR îl are pe Dan Dungaciu în această poziție. Parchetul General a confirmat în mai 2026 că urmărirea penală în dosarul 2513/P/2023 nu era încheiată, însă solicitarea poliției nu demonstrează individual calitatea lui Lulea de suspect sau inculpat; profilul precizează această limită.",
+      "reviewed_snapshot_hash": "6fac0fa5a339a79c6e6b67a4416504d8447d28c47db1b336dea9a8b13f3a1f6b"
+    },
+    {
+      "profile_id": "RV-2747",
+      "original_name": "Silviu-Titus Păunescu",
+      "current_name": "Silviu-Titus Păunescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.libertatea.ro/stiri/dosarul-mitei-electorale-la-aur-deschis-in-2023-e-tot-la-parchet-ong-ul-medical-asociat-cu-partidul-are-sediul-intr-un-fost-restaurant-laolalta-cu-firmele-unui-consilier-local-de-5756233",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0D9385DE-0338-47F9-A85D-49BFC8632384",
+        "https://partidulaur.ro/echipa/"
+      ],
+      "note": "Rolul politic a fost completat: deputat AUR de Ialomița și secretar general al partidului. Dosarul 2513/P/2023 era încă în urmărire penală la PÎCCJ în mai 2026, însă solicitarea poliției nu probează o calitate individuală de suspect sau inculpat; această limită este explicată explicit.",
+      "reviewed_snapshot_hash": "e7a8f8c52e8703ab4f4cc74764c7dc6e7c45701017a5fd7ec61ac2d705a77df7"
+    },
+    {
+      "profile_id": "RV-2751",
+      "original_name": "Mohammad Murad",
+      "current_name": "Mohammad Murad",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://newsweek.ro/actualitate/mohammad-murad-dosar-penal-pentru-mita-electorala-candideaza-la-mangalia",
+        "https://stirileprotv.ro/stiri/alegeri-locale-2020/omul-de-afaceri-mohammad-murad-a-cerut-bec-anularea-alegerilor-pentru-primaria-mangalia.html",
+        "https://partidulaur.ro/wp-content/uploads/2025/10/D.-Mohammad-Murad-participarea-angajatilor-la-profit-1.pdf"
+      ],
+      "note": "Au fost separate două episoade distincte din 2020. Dosarul din august privea imaginile în care Murad împărțea pachete; pentru incidentul separat din ziua alegerilor IPJ a precizat că nu avea nicio calitate sau legătură. Nu a fost găsită o soluție oficială pentru dosarul din august. Rolul curent și candidaturile au fost actualizate.",
+      "reviewed_snapshot_hash": "d15bfd6c365fc892f9558384eac81fcbf7c9ea4db822b508bde002faf126c81f"
+    },
+    {
+      "profile_id": "RV-2779",
+      "original_name": "Zuzan Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminat din registru: Zuzan Mircea era secretarul administrativ al Consiliului Local Pașcani, nu ales local și fără partid, mandat sau candidatură politică documentată. Condamnarea și soluția ulterioară de încetare prin prescripție sunt reale, dar persoana este în afara domeniului politic al proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2780",
+      "original_name": "Negrescu Nicoleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminată din registru: era consilier angajat în Serviciul Administrației Publice din aparatul de specialitate al primarului Pașcani, nu consilier local ales și fără mandat, partid sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2781",
+      "original_name": "Vîngă Costinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminat din registru: funcționar în Serviciul Finanțe Publice Locale Pașcani, fără mandat, partid sau candidatură politică documentată. Procesul penal fusese încetat ca urmare a decesului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2791",
+      "original_name": "Bodoașcă Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminat din registru: șef al Serviciului Finanțe Publice Locale Pașcani, funcție administrativă, fără mandat, partid sau candidatură politică documentată. Achitarea definitivă este reală, dar persoana este în afara domeniului proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2792",
+      "original_name": "Damian Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminat din registru: consilier angajat în Serviciul Finanțe Publice Locale Pașcani, nu consilier local ales și fără mandat, partid ori candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2793",
+      "original_name": "Postolachi Elena-Silvia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminată din registru: inginer angajat în Primăria Pașcani, fără mandat, partid sau candidatură politică documentată. Achitarea definitivă este reală, dar persoana este în afara domeniului politic al proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2803",
+      "original_name": "Baba Iulia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminată din registru: contabilă a societății comerciale SC Agrocomplex Lunca Pașcani SA, fără mandat, partid, funcție publică electivă sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2805",
+      "original_name": "Păvălucă Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminat din registru: director general al SC Agrocomplex Lunca Pașcani SA, fără mandat, partid, funcție publică electivă sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2806",
+      "original_name": "Casandra Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminată din registru: director economic al SC Agrocomplex Lunca Pașcani SA, fără mandat, partid, funcție publică electivă sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2807",
+      "original_name": "Moraru Zîna",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8988",
+        "https://www.dna.ro/comunicat.xhtml?id=6472"
+      ],
+      "note": "Eliminată din registru: director comercial al SC Agrocomplex Lunca Pașcani SA, fără mandat, partid, funcție publică electivă sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2810",
+      "original_name": "Burcea Marieta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3852",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Eliminată din registru: agent agricol angajat la Primăria Adamclisi, fără mandat, partid, funcție publică electivă sau candidatură politică documentată. Condamnarea este reală, dar persoana este în afara domeniului politic al proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2811",
+      "original_name": "Buresin Sergiu Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1951",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Eliminat din registru: agent agricol angajat în primărie, fără mandat, partid, funcție publică electivă sau candidatură politică documentată. Condamnarea este reală, dar persoana este în afara domeniului politic al proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2812",
+      "original_name": "Maier Dorina Tatiana Rozalia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4151",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Eliminată din registru: agent fiscal angajat la Primăria Vălișoara, fără mandat, partid, funcție publică electivă sau candidatură politică documentată. Condamnarea este reală, dar persoana este în afara domeniului politic al proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2813",
+      "original_name": "Nazaru Mioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3852",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Eliminată din registru: secretar administrativ al Primăriei Adamclisi, funcție neelectivă, fără mandat, partid sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2814",
+      "original_name": "Babus Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4746",
+        "https://www.ziuaconstanta.ro/rubrici/actualitate/constantin-babus-implineste-59-de-ani-54277.html"
+      ],
+      "note": "Eliminat din registru: fost director administrativ în Primăria Constanța. A fost menționat în presă ca membru PSD, dar nu a fost identificat un mandat, o candidatură sau o funcție de conducere politică; simpla apartenență de partid nu justifică profilul în domeniul proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2815",
+      "original_name": "Banas Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3361",
+        "https://www.monitoruldegalati.ro/stirea-zilei/arhitectul-sef-al-primariei-galati-audiat-la-dna.html"
+      ],
+      "note": "Eliminat din registru: funcționar public și arhitect-șef interimar al Primăriei Galați, fără mandat, partid sau candidatură politică documentată. Numirea administrativă prin ordinul primarului nu constituie rol politic în sensul proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2816",
+      "original_name": "Bogdan Vasile Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2700",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Eliminat din registru: inspector în Direcția Generală a Poliției Comunitare Sector 1, funcție administrativă, fără mandat, partid sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2817",
+      "original_name": "Cortez Silvian Gheorghita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4486",
+        "https://fisiere.municipiulbacau.ro/public/uploads/acteadministrative/20240723152810-hcl-nr.-402-din-26.11.2008.pdf"
+      ],
+      "note": "Eliminat din registru: arhitect-șef și funcționar tehnic al Primăriei Bacău, fără mandat, partid sau candidatură politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2818",
+      "original_name": "Daici Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4785",
+        "https://nouapresa.ro/administratie/inspectorii-penali-ai-primariei-au-ajuns-politisti"
+      ],
+      "note": "Eliminat: sursele îl identifică drept funcționar public, șef al serviciului Disciplina în construcții din Primăria Craiova și ulterior angajat al poliției locale, fără mandat, candidatură sau funcție politică verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2819",
+      "original_name": "Demetrian Smaranda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2700",
+        "https://doc.pmb.ro/monitorul_oficial/2006/sept_2006/HCLS_1_334.pdf"
+      ],
+      "note": "Eliminată: DNA și organigrama/statul de funcții oficial o identifică drept inspector/referent în administrația publică, nu ales local, candidat sau deținătoare a unei funcții politice.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2820",
+      "original_name": "Dicu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1892",
+        "https://jurnalul.ro/stiri/observator/doi-inspectori-din-primaria-capitalei-retinuti-de-dna-pentru-luare-de-mita-401122.html",
+        "https://hotnews.ro/pnl-atac-si-contra-atac-817815"
+      ],
+      "note": "Eliminat: profilul este al inspectorului/funcționarului PMB din București, nu al politicianului PNL Gheorghe Dicu din Sibiu; sursele separă clar identitățile. Nu există rol politic verificabil pentru persoana condamnată din dosarul PMB.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2821",
+      "original_name": "Dinca Emanoil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3410",
+        "https://www.dna.ro/comunicat.xhtml?id=3524"
+      ],
+      "note": "Eliminat: DNA îl identifică drept șef al unui birou tehnic-administrativ din Primăria Sectorului 1, cu personal subordonat; nu am identificat mandat electoral, candidatură ori conducere de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2822",
+      "original_name": "Filip Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2847",
+        "https://www.tirgumures.ro/hot/2007/222.pdf",
+        "https://jurnaluldearges.ro/viorel-filip-candidatul-usr-plus-la-functia-de-primar-al-comunei-merisani-romania-necesita-o-schimbare-radicala-la-fel-si-comuna-merisani-106027/"
+      ],
+      "note": "Eliminat: persoana din dosar este directorul executiv al Poliției Comunitare Târgu Mureș, fost cadru militar și funcționar administrativ. Candidatul USR-PLUS omonim este din Merișani, Argeș, deci o identitate distinctă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2823",
+      "original_name": "Gadea Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1892",
+        "https://adevarul.ro/stiri-locale/bucuresti/bucuresti-inspectori-din-primaria-capitalei-1385731.html"
+      ],
+      "note": "Eliminat: DNA și presa îl identifică exclusiv ca inspector/funcționar al Direcției Inspecție și Control General din PMB; nu a fost găsit un rol electoral sau de partid pentru această identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2824",
+      "original_name": "Gheorghe Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5146",
+        "https://www.targujiu.ro/dm_tgjiu/portal.nsf/0/99DA63F6FF9DB640422575C200493DD2/%24FILE/RAPORT_primar_2005.pdf",
+        "https://igj.ro/actualitate/fostul-subprefect-de-gorj-achitat.html"
+      ],
+      "note": "Eliminat: documentele instituției și sursele judiciare îl identifică drept șef al Serviciului Agricol-Cadastru, funcționar al Primăriei Târgu Jiu. Referințele electorale la nume similare nu oferă o legătură de identitate verificabilă și nu sunt atribuite acestui funcționar.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2825",
+      "original_name": "Ilie Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1923",
+        "https://doc.pmb.ro/legis/acteinterne/2005/15344/AnexeD1759_05.pdf"
+      ],
+      "note": "Eliminat: documentele PMB îl confirmă ca director executiv adjunct în aparatul administrativ al Direcției Transporturi; nu există mandat electoral, candidatură sau funcție de partid verificată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2826",
+      "original_name": "Lovin Constantin Onorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4307",
+        "https://www.primaria-sinaia.ro/wp-content/uploads/2019/04/PUZ-Soimului-nr.-24-RUSU-CONSTANTIN.pdf",
+        "https://www.observatorulph.ro/social/11973-onorel-constantin-lovin-noul-city-manager-al-ploiestiului"
+      ],
+      "note": "Eliminat: actele Primăriei Sinaia îl arată ca șef tehnic/urbanism, iar ulterior a fost administrator public contractual al Ploieștiului; nu a fost identificat un mandat electoral, o candidatură sau o funcție de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2827",
+      "original_name": "Militaru Andrei Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5548",
+        "https://www.ziuaconstanta.ro/images/stories/2014/11/10/INCULPATI%20DOCUMENT.pdf"
+      ],
+      "note": "Eliminat: rechizitoriul îl califică expres drept funcționar public cu funcție de conducere și control în Poliția Locală Constanța; nu am identificat un mandat electoral, o candidatură sau o funcție de partid pentru această persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2828",
+      "original_name": "Modreanu Radu Tiberiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2700",
+        "https://stirileprotv.ro/stiri/eveniment/patru-inspectori-ai-primariei-sectorului-1-condamnati-pentru-coruptie.html",
+        "https://www.vrancea24.ro/un-independent-castiga-la-sihlea/"
+      ],
+      "note": "Eliminat: persoana condamnată este Radu Tiberiu Modreanu, inspector în București. Primarul Radu Modreanu din Sihlea, Vrancea, este o identitate distinctă; numele complet, localitatea și cariera nu coincid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2829",
+      "original_name": "Muntean Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2847",
+        "https://romanialibera.ro/special/acarul-paun-de-la-politia-comunitara-targu-mures-159594/"
+      ],
+      "note": "Eliminat: sursele îl identifică drept fost șef al Biroului Pază Obiective al Poliției Comunitare Târgu Mureș și ulterior administrator al unei firme private; nu a fost identificat un mandat, o candidatură sau o funcție de partid.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2830",
+      "original_name": "Pandelea Ovidiu-Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4976",
+        "https://www.money.ro/stiri/functionari-din-primaria-sectorului-1-trimisi-in-judecata-pentru-trafic-de-influenta"
+      ],
+      "note": "Eliminat: DNA îl identifică explicit drept fost inspector la Poliția Comunitară Sector 1. Eticheta terță «ales local» este contrazisă de sursa oficială și nu am găsit mandat ori candidatură verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2831",
+      "original_name": "Paun Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2700",
+        "https://stirileprotv.ro/stiri/eveniment/patru-inspectori-ai-primariei-sectorului-1-condamnati-pentru-coruptie.html"
+      ],
+      "note": "Eliminat: DNA și presa îl identifică drept inspector/angajat al Poliției Comunitare Sector 1, fără mandat electoral, candidatură sau funcție de partid verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2832",
+      "original_name": "Pilat Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4746",
+        "https://primaria-constanta.ro/wp-content/uploads/2024/12/2-click-pentru-descarcarea-actului-aditional.pdf",
+        "https://www.ziuaconstanta.ro/stiri/actualitate/care-sunt-ionii-pe-care-ii-sarbatoreste-constanta-93034-310688.html"
+      ],
+      "note": "Eliminat: documentele și presa îl identifică drept director administrativ al Direcției Servicii Publice. O listă neoficială îl menționează ca simplu membru PSD, dar nu am găsit mandat, candidatură sau funcție de conducere politică verificabilă; apartenența simplă nu justifică profilul.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2834",
+      "original_name": "Stamatie Remu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5146",
+        "https://www.dna.ro/comunicat.xhtml?id=1726",
+        "https://www.gorjeanul.ro/investigatii/nimeni-nu-face-puscarie-in-dosarul-%E2%80%9Edeaconu-calinescu%E2%80%9D/"
+      ],
+      "note": "Eliminat: a fost secretar administrativ al orașului Turceni și membru al comisiei locale de fond funciar, nu ales local. Sursele disting și dosare diferite, inclusiv o achitare într-o altă cauză; profilul politic nu este justificat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2835",
+      "original_name": "Vlasie Vlase Ionel Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3479",
+        "https://www.dna.ro/comunicat.xhtml?id=783"
+      ],
+      "note": "Eliminat: DNA îl identifică exclusiv ca director tehnic-administrativ al Direcției de Urbanism din Primăria Galați. Eticheta terță «ales local» nu este susținută de un mandat, o candidatură ori o funcție de partid verificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2836",
+      "original_name": "Vultur Eleonora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5151",
+        "https://www.economica.net/o-functionara-de-la-primaria-sectorului-5-lua-spaga-in-numele-lui-vanghelie_18016.html"
+      ],
+      "note": "Eliminată: sursa oficială și presa o identifică drept funcționar administrativ, fostă șefă a Serviciului Spațiu Locativ Sector 5, ieșită ulterior la pensie; nu există rol electoral sau de partid verificabil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2837",
+      "original_name": "Ardeleanu Vasile Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2290",
+        "https://www.mediafax.ro/social/fost-sef-al-serviciului-permise-din-bacau-condamnat-definitiv-la-trei-ani-de-inchisoare-pentru-mita-9485126"
+      ],
+      "note": "Eliminat: persoana este comisarul-șef Vasile Virgil Ardeleanu, conducător al serviciului de permise Bacău, fără rol electoral sau de partid. Nu trebuie confundat cu chestorul Virgil Ardelean ori cu alte persoane omonime.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2838",
+      "original_name": "Calinescu Ioana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5146",
+        "https://www.gds.ro/Local/2005-01-11/Oameni-noi-la-Prefectura-Gorj/",
+        "https://romanialibera.ro/special/fosta-sefa-din-prefectura-gorj-condamnata-la-inchisoare-cu-suspendare-306297/"
+      ],
+      "note": "Eliminată: sursele o identifică drept funcționar public de carieră, șefă a serviciilor juridic/legalitate din Prefectura Gorj. Participarea tehnică în comisii electorale nu reprezintă mandat, candidatură ori funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2839",
+      "original_name": "Chioveanu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://ziaruldevalcea.ro/2013/09/dosarul-mafiei-alcoolului-cu-ramificatii-la-anaf-si-vama-se-judeca-la-tribunalul-valcea/"
+      ],
+      "note": "Eliminat: persoana este identificată ca inspector asistent ANAF, funcționar fiscal fără mandat electoral, candidatură sau funcție de partid. Nu trebuie confundat cu istoricul universitar omonim Mihai Chioveanu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2840",
+      "original_name": "Craciun Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.mediafax.ro/social/cei-28-de-acuzati-din-scandalul-permiselor-deferiti-justitiei-de-dna-3618298",
+        "https://www.crainou.ro/2026/03/05/tribunalul-suceava-a-respins-actiunea-consilierului-local-mihai-craciun-impotriva-excluderii-din-aur/"
+      ],
+      "note": "Eliminat: profilul este al comisarului Mihai Crăciun, șef Birou Examinări SPCRPCIV Argeș. Consilierul local AUR omonim din Suceava este o persoană distinctă; nu există rol politic verificat pentru polițistul din dosar.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2841",
+      "original_name": "Dobre Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4825",
+        "https://adevarul.ro/stiri-interne/evenimente/sef-din-ministerul-mediului-trimis-in-judecata-in-1480648.html",
+        "https://doc.pmb.ro/legis/acteinterne/2012/30417/AnexeD196_12.pdf"
+      ],
+      "note": "Eliminat: documentele îl confirmă ca director administrativ în PMB și ulterior la Administrația Fondului pentru Mediu. Nu am identificat mandat electoral, candidatură ori funcție de conducere în partid; candidații cu nume asemănător au alte prenume complete.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2842",
+      "original_name": "Dragan Daniel",
+      "current_name": "Dragan Daniel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1957",
+        "https://mn1.protv.ro/stirileprotvfiles/2008/10/20/210000/60178505.pdf",
+        "https://puls24.ro/daniel-dragan-cooptat-in-echipa-primarului-dumitru-boros/",
+        "https://hotnews.ro/tirguiala-faza-pe-judet-837777"
+      ],
+      "note": "Păstrat și corectat: nu era independent și nu este doar fost șef de agenție. A avut două mandate de consilier local la Bârlad, candidaturi PRM/PNL la primărie și candidatură PNL la Senat; afilierea și geografia politică au fost corectate. Condamnarea definitivă DNA rămâne confirmată.",
+      "reviewed_snapshot_hash": "63ef8be62932df87aed749ad70237d2fd2f8b241d61022f56b1ff9ab23b5b244"
+    },
+    {
+      "profile_id": "RV-2843",
+      "original_name": "Ionita Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1109",
+        "https://www.gds.ro/Actualitate/2008-12-06/DNA-a-trimis-28-de-persoane-in-judecata-in-dosarul-permiselor-de-conducere-din-Arges/"
+      ],
+      "note": "Eliminat: DNA îl identifică drept subofițer/agent de poliție și examinator la SPCRPCIV Argeș. Nu a fost identificat niciun mandat electoral, candidatură sau rol de partid pentru această persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2844",
+      "original_name": "Luca Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2187",
+        "https://www.dna.ro/comunicat.xhtml?id=562",
+        "https://romanialibera.ro/special/instructor-si-politist-retinuti-pentru-ilegalitati-la-examenele-auto-14172/"
+      ],
+      "note": "Eliminat: sursele îl identifică drept agent de poliție la serviciul permise Maramureș, fără mandat electoral, candidatură sau funcție de partid. Persoanele omonime din vamă, poliție ori administrație nu pot fi asociate fără identificatori suplimentari.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2845",
+      "original_name": "Mihut Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3884",
+        "https://www.economica.net/seful-de-sectie-din-penitenciarul-rahovaa-fost-arestat-preventiv_7327.html",
+        "https://www.gandul.ro/stiri/fost-sef-de-sectie-de-la-penitenciarul-rahova-la-al-treilea-dosar-de-luare-de-mita-sistemul-pus-la-punct-pentru-colectarea-banilor-12518406"
+      ],
+      "note": "Eliminat: sursele îl identifică drept subcomisar și comandant/șef de secție la Penitenciarul Rahova, fără rol politic verificabil. Candidații cu numele Mihuț din alte județe au prenume și identități distincte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2846",
+      "original_name": "Nedelcu Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2713",
+        "https://ziaruldebacau.ro/cazul-virgil-ardeleanu-din-nou-in-atentia-dna/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_bucuresti/consiliul-general/2"
+      ],
+      "note": "Eliminat conservator: persoana din dosar este fost șef al Biroului Resurse Umane al Direcției Regim Permise. Există un candidat omonim la CGMB în 2020, dar nu există profesie, vârstă sau alt identificator care să lege cele două identități; nu atribuim condamnarea candidatului doar pe baza numelui.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2847",
+      "original_name": "Popescu Florea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2360",
+        "https://adevarul.ro/stiri-interne/evenimente/politistii-din-capitala-au-cerut-spaga-pentru-995080.html"
+      ],
+      "note": "Eliminat: persoana este comisarul-șef Florea Popescu din serviciul permise București, fără mandat electoral, candidatură sau funcție de partid verificabilă. Numele inversat nu trebuie confundat cu politicieni care au Popescu drept nume de familie și Florea/Daniel drept prenume.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
