@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-08-28",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -42428,6 +42428,241 @@
       ],
       "note": "Identitate confirmată ca Florentin Faur, actual primar PNL al comunei Husasău de Tinca. Raportul ANI nr. 1118/G/II/2026 privește incompatibilitatea din mandatul de viceprimar și contractele PFA cu ABA Crișuri. Dosarul 473/111/2026 este în curs la Curtea de Apel Oradea, cu termen la 23 septembrie 2026; profilul rămâne ascuns până la o soluție actuală a instanței.",
       "reviewed_snapshot_hash": "0fe3431c29f3ca10f3a8ffc66889bd813b114975ee510d3af3ef8c5c85116659"
+    },
+    {
+      "profile_id": "RV-2592",
+      "original_name": "Cerba Cristian",
+      "current_name": "Cerba Cristian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://comunagottlob.ro/viceprimar.php",
+        "https://comunagottlob.ro/consiliu_local.php",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată ca fost viceprimar PNL al comunei Gottlob în mandatul 2020-2024. ANI a constatat incompatibilitatea prin raportul 2769/G/II/12.02.2026. Cererea de anulare este încă pe rolul Curții de Apel Timișoara în dosarul 244/59/2026, cu termen la 30 septembrie 2026. Site-ul oficial al comunei indică acum alt viceprimar și o componență a consiliului local în care Cerba nu figurează; profilul rămâne ascuns până la soluția instanței.",
+      "reviewed_snapshot_hash": "9837d3f0564da81a850e10db8594779bdc7259e7e0890e448562d7b32421f562"
+    },
+    {
+      "profile_id": "RV-2593",
+      "original_name": "Cupu Lucian",
+      "current_name": "Cupu Lucian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://www.primaria-fagaras.ro/index.php/consiliu/consilieri",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată. Pagina oficială a municipiului îl listează în actualul Consiliu Local Făgăraș ca reprezentant PNL, deci poziția de fost consilier era depășită. ANI a constatat incompatibilitatea pentru perioada 14.09.2021-18.09.2023. Contestația raportului este în curs la Tribunalul Brașov în dosarul 800/62/2026, cu termen la 08.09.2026; profilul rămâne ascuns până la soluția instanței.",
+      "reviewed_snapshot_hash": "4cdf1aefed7d6fb5cafbf102394aae8db5ef7b92cac1f0139d9675798d1eab06"
+    },
+    {
+      "profile_id": "RV-2601",
+      "original_name": "Topolov Gianina Ionela",
+      "current_name": "Topolov Gianina Ionela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://www.cjc.ro/sectiune.php?s=35",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată. Nu figurează în componența oficială a CJ Constanța pentru mandatul 2024-2028, deci poziția a fost actualizată la fost consilier județean. Contestația raportului ANI 23200/G/II/07.06.2023 a fost respinsă la 12.02.2024, iar după reînregistrare a fost respinsă din nou la 17.06.2026; persoana a declarat recurs la 06.08.2026. Profilul rămâne ascuns până la soluția definitivă.",
+      "reviewed_snapshot_hash": "6e88915e85e957ffd193b4c720c13abd3fb8bad913041ca45e4254f83fa8a7bb"
+    },
+    {
+      "profile_id": "RV-2602",
+      "original_name": "Blaga Lucian",
+      "current_name": "Blaga Lucian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "http://portalquery.just.ro/Query.asmx",
+        "https://justnews.ro/un-consilier-judetean-liberal-din-timis-proaspat-demisionat-a-pierdut-procesul-de-integritate-cu-ani/"
+      ],
+      "note": "Identitate confirmată. CA Timișoara a respins contestația în dosarul 2680/30/2023 la 05.03.2024, iar ÎCCJ a respins definitiv recursul prin decizia 1152/04.03.2025. Mandatul său de consilier județean ales în 2024 fusese validat, însă a demisionat din CJ Timiș înaintea soluției definitive. Status corectat la incident de integritate definitiv și poziția la fost consilier județean.",
+      "reviewed_snapshot_hash": "2a60a01a86ffb7d51236a46e03a9f24d5ea07383846400da26c6c80514dd2b4f"
+    },
+    {
+      "profile_id": "RV-2603",
+      "original_name": "Bobic Narcis Sabin",
+      "current_name": "Bobic Narcis Sabin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://www.pressalert.ro/2016/07/schimbare-componenta-cj-timis-pesedistul-tiuch-renuntat-la-mandat-cine-i-luat-locul/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate și funcție istorică confirmate. CA Timișoara a respins contestația la raportul ANI la 21.09.2023 în dosarul 731/59/2023; Bobic a declarat recurs la 14.11.2023. Nu a fost identificată în sursele publice consultate o soluție definitivă actuală, astfel că profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "3c82e0969b678e5f3f69e91ced43a1c4da998e02f99c1c6a2c5960b591b1a2f3"
+    },
+    {
+      "profile_id": "RV-2604",
+      "original_name": "Sasu Vasile",
+      "current_name": "Sasu Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://primariadurnesti.ro/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitatea și funcția actuală sunt confirmate de site-ul oficial al comunei. După sesizarea ANI, Sasu a fost trimis în judecată în dosarul 9999/193/2024. Judecătoria Botoșani a încetat procesul penal la 19.09.2025 pentru prescripție. Portalul nu indică apel, dar nici nu marchează explicit soluția ca definitivă; statusul a fost corectat la prescris, iar profilul rămâne ascuns până la confirmarea fermă a caracterului definitiv.",
+      "reviewed_snapshot_hash": "7b414ee52234c8bed2d06f9e75fafba1b880b04ec27c1dc267df570f1404b536"
+    },
+    {
+      "profile_id": "RV-2606",
+      "original_name": "Panfil Gelu Ionuț",
+      "current_name": "Panfil Gelu Ionuț",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://justnews.ro/un-consilier-judetean-psd-din-bacau-a-pierdut-procesul-cu-ani-care-il-gasise-in-conflict-de-interese-administrativ-pe-cand-era-consilier-local-la-onesti/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată. Raportul ANI privind conflictul de interese din mandatul de consilier local Onești a rămas definitiv: CA Bacău a respins contestația prin sentința 115/23.10.2023, iar ÎCCJ a respins recursul definitiv la 19.11.2024. În dosarul 3492/110/2024 au fost anulate definitiv și hotărârile locale afectate, prin soluția CA Bacău din 11.12.2025. Poziția a fost completată cu alegerea sa ca consilier județean PSD în 2024.",
+      "reviewed_snapshot_hash": "5619b4f5737835291e6e2cb0bb04616ed77a58ebec051cf3faabcc7dce1b167a"
+    },
+    {
+      "profile_id": "RV-2607",
+      "original_name": "Cozea Marinela Corina",
+      "current_name": "Cozea Marinela Corina",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://primariahuedin.ro/consilieri-locali/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate și funcție istorică confirmate. ANI o indică drept fost consilier local Huedin și a constatat incompatibilitatea din perioada 21.12.2017-24.10.2020. Nu figurează în actuala componență publicată de Primăria Huedin. Nu a fost identificată o contestație la raport ori o hotărâre judecătorească actuală; profilul rămâne ascuns din prudență.",
+      "reviewed_snapshot_hash": "1bfc256d7695e263c8c719a1904f3dfdae6005d750323e5877fcfa8fc980a64e"
+    },
+    {
+      "profile_id": "RV-2608",
+      "original_name": "Munea Nelu Simion",
+      "current_name": "Munea Nelu Simion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://comunaforotic.ro/despre-institutie/consiliul-local/componenta-consiliului-local/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate și mandat 2020-2024 confirmate. CA Timișoara a respins contestația la raportul ANI la 31.10.2023 în dosarul 553/59/2023. Tribunalul Caraș-Severin a constatat nulitatea absolută a HCL 28/30.04.2020 și a actului adițional care avantaja soția, la 19.06.2024 în dosarul 58/115/2024. Portalul nu confirmă explicit definitivarea soluțiilor, iar pagina comunei pare aferentă vechiului mandat; profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "c8d5bab5c119fece9f067135cf7f75a46ad2bde710140142c2d5e222a03d695e"
+    },
+    {
+      "profile_id": "RV-2609",
+      "original_name": "Popa Cristina",
+      "current_name": "Popa Cristina",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-26",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/popa-cristina-din-comuna-ic-bratianu-judetul-tulcea-gasita-incompatibila-de-ani-816584.html",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitatea este confirmată numai pentru mandatul de consilier local I.C. Brătianu 2016-2020 și constatarea ANI privind votarea hotărârii în baza căreia figura ea însăși între beneficiarii de teren. Din cauza numelui comun, nu a fost asociată fără echivoc nicio contestație sau hotărâre judecătorească și nu există dovadă sigură pentru un mandat ulterior. Poziția a fost limitată la mandatul probat, iar profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "90af23e3e8710a1383c967b2899e7fee1b87b2771320e4ce8bdfe14075c9142b"
+    },
+    {
+      "profile_id": "RV-2610",
+      "original_name": "Biro Levente Mihai",
+      "current_name": "Biro Levente Mihai",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://comunasona.ro/consiliul-local/componenta-consiliului-local/",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate confirmată. Raportul ANI 23079/G/II/06.06.2023 a fost contestat în dosarul 2747/107/2023; CA Alba Iulia a respins acțiunea la 14.02.2024, iar Biro a declarat recurs la 04.04.2024. Nu a fost identificată o soluție definitivă. Numele nu apare în actuala componență oficială a CL Șona, astfel că poziția a fost corectată la fost consilier; profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "a79382777cae9b592def700c901d3c236d007fab0baeaba16efa107562dd413c"
+    },
+    {
+      "profile_id": "RV-2611",
+      "original_name": "Dumbravă Petru",
+      "current_name": "Dumbravă Petru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-alesi-locali/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/primarie/misca/18",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitate și funcție istorică confirmate. ANI a constatat conflictul de interese din mandatul 2020-2024 privind hotărârea de închiriere a pășunii și contractul încheiat ulterior chiar de consilier. Nu a fost identificată o contestație sau soluție judiciară asociabilă fără echivoc; dosarele sub numele neaccentuat aparțin altor contexte și nu au fost atribuite profilului. Profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "7087da71e3391c7a149db74b254624bf12d54323af008777e5b934e99bb45a74"
+    },
+    {
+      "profile_id": "RV-2662",
+      "original_name": "Titea Dragoș-Virgil",
+      "current_name": "Titea Dragoș-Virgil",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3466&PID=20",
+        "https://newsweek.ro/politica/un-director-romatsa-fost-secretar-de-stat-si-lider-psd-maramures-nu-poate-justifica-800000-lei",
+        "http://portalquery.just.ro/Query.asmx"
+      ],
+      "note": "Identitatea și funcțiile publice sunt confirmate. ANI a constatat la 12.04.2023 o diferență nejustificată de 824.898 lei și a sesizat Comisia de cercetare a averilor a CA București. Funcția de director ROMATSA este formulată numai ca funcție deținută la data raportului, neexistând confirmare actuală pentru 2026. Rezultatul procedurii de control al averii nu a fost identificat public; profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": "84f7d4d09b84dbc57677c027af0d803768975d7c7696bca79781ea76ba797aed"
     }
   ]
 }

@@ -3061,13 +3061,13 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
   {
     name: 'Cerba Cristian',
     party: 'PNL',
-    position: 'Viceprimar al comunei Gottlob, județul Timiș',
+    position: 'Fost viceprimar al comunei Gottlob, județul Timiș (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2026 că, în mandatul 2020-2024, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în februarie 2026 că, în mandatul 2020-2024 de viceprimar al comunei Gottlob, a exercitat simultan funcția publică și calitatea de comerciant persoană fizică în cadrul propriului PFA. A contestat raportul de evaluare ANI nr. 2769/G/II/12.02.2026 în dosarul 244/59/2026. Curtea de Apel Timișoara i-a respins ca inadmisibilă cererea de suspendare la 15 mai 2026, iar judecarea cererii de anulare continuă, cu termen la 30 septembrie 2026. Site-ul oficial al comunei indică un alt viceprimar și o componență actuală a consiliului local în care Cerba nu figurează.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Timiș',
       basis: 'office',
@@ -3076,22 +3076,32 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/gottlob/',
+        label: 'Primăria Gottlob - viceprimar',
+        kind: 'official',
+        url: 'https://comunagottlob.ro/viceprimar.php',
+      },
+      {
+        label: 'Primăria Gottlob - componența Consiliului Local',
+        kind: 'official',
+        url: 'https://comunagottlob.ro/consiliu_local.php',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 244/59/2026',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
     ],
   },
   {
     name: 'Cupu Lucian',
     party: 'PNL',
-    position: 'Fost consilier local al municipiului Făgăraș, județul Brașov',
+    position: 'Consilier local al municipiului Făgăraș, județul Brașov',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2026 că, în perioada 14 septembrie 2021 - 18 septembrie 2023, a exercitat simultan funcția de consilier local și calitatea de membru în consiliul de administrație al unei societăți comerciale de interes județean.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în februarie 2026 că, în perioada 14 septembrie 2021 - 18 septembrie 2023, a exercitat simultan funcția de consilier local și calitatea de membru în consiliul de administrație al unei societăți comerciale de interes județean. A contestat raportul de evaluare în dosarul 800/62/2026, aflat în fond la Tribunalul Brașov, cu termen la 8 septembrie 2026. Pagina oficială a municipiului îl include în componența actuală a Consiliului Local Făgăraș ca reprezentant PNL.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Brașov',
       basis: 'office',
@@ -3100,9 +3110,14 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
     sources: [
       ANI_FEB_2026_PUBLIC_OFFICIALS_SOURCE,
       {
-        label: 'Brasov.net',
-        kind: 'press',
-        url: 'https://www.brasov.net/fagarasean-fost-consilier-local-reclamat-pentru-conflict-de-interese-administrativ/',
+        label: 'Primăria Făgăraș - componența Consiliului Local',
+        kind: 'official',
+        url: 'https://www.primaria-fagaras.ro/index.php/consiliu/consilieri',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 800/62/2026',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
     ],
   },
@@ -3234,36 +3249,60 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Topolov Gianina Ionela',
     party: 'PNL',
-    position: 'Consilier județean în cadrul Consiliului Județean Constanța',
+    position: 'Fost consilier județean în cadrul Consiliului Județean Constanța',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în mandatul de consilier județean, societatea comercială în care deținea calitatea de asociat a încheiat trei acorduri-cadru de servicii cu două instituții aflate în subordinea Consiliului Județean Constanța.',
-    verified_at: '2026-05-29',
+      'ANI a constatat prin raportul nr. 23200/G/II/07.06.2023 că, în mandatul de consilier județean, societatea comercială în care deținea calitatea de asociat a încheiat trei acorduri-cadru de servicii cu două instituții aflate în subordinea Consiliului Județean Constanța. Curtea de Apel Constanța i-a respins contestația la 12 februarie 2024 în dosarul 366/36/2023. După reînregistrarea cauzei, aceeași instanță a respins acțiunea ca neîntemeiată la 17 iunie 2026; Topolov a declarat recurs la 6 august 2026, astfel că soluția nu este definitivă. Nu figurează în componența oficială a Consiliului Județean Constanța pentru mandatul 2024-2028.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Constanța',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Județean Constanța.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, TOPOLOV_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Consiliul Județean Constanța - consilieri județeni 2024-2028',
+        kind: 'official',
+        url: 'https://www.cjc.ro/sectiune.php?s=35',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 366/36/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Blaga Lucian',
     party: 'PNL',
-    position: 'Consilier județean în cadrul Consiliului Județean Timiș',
+    position: 'Fost consilier județean în cadrul Consiliului Județean Timiș',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în perioada 8 iunie 2017 - 25 martie 2021, a exercitat simultan funcția de consilier județean și calitatea de membru în Consiliul de Administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în perioada 8 iunie 2017 - 25 martie 2021, a exercitat simultan funcția de consilier județean și calitatea de membru în Consiliul de Administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara. Curtea de Apel Timișoara i-a respins contestația la 5 martie 2024 în dosarul 2680/30/2023, iar Încălta Curte de Casație și Justiție i-a respins recursul definitiv prin decizia nr. 1152 din 4 martie 2025. Mandatul său de consilier județean ales în 2024 fusese validat, dar a demisionat din Consiliul Județean Timiș înaintea soluției definitive.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Timiș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Județean Timiș.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, BLAGA_LUCIAN_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosarul 2680/30/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'JustNews - soluția definitivă și demisia din CJ Timiș',
+        kind: 'press',
+        url: 'https://justnews.ro/un-consilier-judetean-liberal-din-timis-proaspat-demisionat-a-pierdut-procesul-de-integritate-cu-ani/',
+      },
+    ],
   },
   {
     name: 'Bobic Narcis Sabin',
@@ -3271,16 +3310,24 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier județean în cadrul Consiliului Județean Timiș',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în perioada 27 noiembrie 2018 - 24 octombrie 2020, a exercitat simultan funcția de consilier județean și calitatea de membru/administrator în consiliul de administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în perioada 27 noiembrie 2018 - 24 octombrie 2020, a exercitat simultan funcția de consilier județean și calitatea de membru/administrator în consiliul de administrație al unei societăți aflate sub autoritatea Consiliului Local Timișoara. Curtea de Apel Timișoara i-a respins ca neîntemeiată contestația la raportul ANI la 21 septembrie 2023, în dosarul 731/59/2023. Bobic a declarat recurs la 14 noiembrie 2023; în sursele publice consultate nu a fost identificată o soluție definitivă actuală.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Timiș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Județean Timiș.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, BOBIC_NARCIS_PSD_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      BOBIC_NARCIS_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosarul 731/59/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Sasu Vasile',
@@ -3288,16 +3335,28 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al comunei Durnești, județul Botoșani',
     position_type: 'mayor',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'prescribed',
     details:
-      'ANI a sesizat Parchetul de pe lângă ÎCCJ în iunie 2023, reținând indicii că, în mandatul de primar, ar fi emis o dispoziție de încadrare într-o funcție contractuală din aparatul de specialitate al primarului pentru soția fiului său.',
-    verified_at: '2026-05-29',
+      'ANI a sesizat Parchetul de pe lângă ÎCCJ în iunie 2023, reținând indicii că, în mandatul de primar, ar fi emis o dispoziție de încadrare într-o funcție contractuală din aparatul de specialitate al primarului pentru soția fiului său. A fost trimis în judecată pentru folosirea funcției pentru favorizarea unor persoane în dosarul 9999/193/2024. Judecătoria Botoșani a încetat procesul penal la 19 septembrie 2025 ca urmare a prescripției răspunderii penale; soluția permitea apel, iar portalul instanțelor nu afișează o cale de atac. Site-ul oficial al comunei îl indică în continuare drept primar.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Botoșani',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Durnești, județul Botoșani.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SASU_VASILE_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      {
+        label: 'Primăria Durnești - conducerea instituției',
+        kind: 'official',
+        url: 'https://primariadurnesti.ro/',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul penal 9999/193/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Marius-Viorel Popescu',
@@ -3319,13 +3378,14 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Panfil Gelu Ionuț',
     party: 'PSD',
-    position: 'Fost consilier local al municipiului Onești, județul Bacău',
+    position:
+      'Ales consilier județean Bacău în 2024; fost consilier local al municipiului Onești',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, a participat la deliberarea și adoptarea unor hotărâri privind Spitalul Municipal „Sf. Ierarh Dr. Luca” Onești, unde deținea calitatea de membru în consiliul de administrație.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, a participat la deliberarea și adoptarea unor hotărâri privind Spitalul Municipal „Sf. Ierarh Dr. Luca” Onești, unde a fost membru al consiliului de administrație între 27 septembrie 2016 și 19 noiembrie 2020, deciziile producându-i un avantaj patrimonial. Curtea de Apel Bacău i-a respins contestația prin sentința nr. 115 din 23 octombrie 2023, iar Încălta Curte de Casație și Justiție i-a respins recursul definitiv la 19 noiembrie 2024. Separat, în dosarul 3492/110/2024, instanțele au anulat definitiv hotărârile Consiliului Local Onești afectate de conflictul de interese, soluția din recurs fiind pronunțată la 11 decembrie 2025. A fost ales consilier județean Bacău din partea PSD la scrutinul local din 2024.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Bacău',
       basis: 'office',
@@ -3335,6 +3395,16 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
       ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
       ONESTI_PANFIL_INDEPENDENT_SOURCE,
       ONESTI_PANFIL_PSD_SOURCE,
+      {
+        label: 'JustNews - soluția definitivă a ÎCCJ din 19 noiembrie 2024',
+        kind: 'press',
+        url: 'https://justnews.ro/un-consilier-judetean-psd-din-bacau-a-pierdut-procesul-cu-ani-care-il-gasise-in-conflict-de-interese-administrativ-pe-cand-era-consilier-local-la-onesti/',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 3492/110/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
     ],
   },
   {
@@ -3343,67 +3413,109 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier local al orașului Huedin, județul Cluj',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în perioada 21 decembrie 2017 - 24 octombrie 2020, a exercitat simultan funcția de consilier local și funcții de administrator provizoriu/neexecutiv în consiliul de administrație al unei societăți aflate sub autoritatea consiliului județean.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în perioada 21 decembrie 2017 - 24 octombrie 2020, a exercitat simultan funcția de consilier local al orașului Huedin și funcția de administrator provizoriu, respectiv administrator neexecutiv, în consiliul de administrație al unei societăți înființate și aflate sub autoritatea consiliului județean. ANI o identifică drept fost consilier local, iar numele său nu figurează în componența actuală publicată de Primăria Huedin. Nu a fost identificată în sursele publice consultate o contestație la raport ori o hotărâre judecătorească actuală.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Cluj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Huedin, județul Cluj.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, HUEDIN_COZEA_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      HUEDIN_COZEA_PNL_SOURCE,
+      {
+        label: 'Primăria Huedin - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://primariahuedin.ro/consilieri-locali/',
+      },
+      {
+        label: 'Portalul instanțelor - verificare nominală',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Munea Nelu Simion',
     party: 'PSD',
-    position: 'Consilier local al comunei Forotic, județul Caraș-Severin',
+    position: 'Consilier local al comunei Forotic în mandatul 2020-2024',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind închirierea pajiștilor comunale, iar ulterior soția sa a primit spre închiriere o suprafață de pajiște.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la deliberarea și adoptarea hotărârii privind închirierea prin atribuire directă a pajiștilor comunale rămase disponibile, după care soția sa a primit o suprafață de pajiște prin act adițional la contractul din 2019. Curtea de Apel Timișoara i-a respins ca neîntemeiată contestația la raportul ANI la 31 octombrie 2023, în dosarul 553/59/2023. Tribunalul Caraș-Severin a constatat la 19 iunie 2024 nulitatea absolută a HCL Forotic nr. 28/30.04.2020 și a actului adițional nr. 2/28.05.2020, în dosarul 58/115/2024. Portalul nu marchează explicit caracterul definitiv al acestor soluții.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Forotic, județul Caraș-Severin.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, FOROTIC_MUNEA_PSD_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      FOROTIC_MUNEA_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosarele 553/59/2023 și 58/115/2024',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Popa Cristina',
     party: 'PNL',
-    position: 'Consilier local al comunei I.C. Brătianu, județul Tulcea',
+    position: 'Fost consilier local al comunei I.C. Brătianu în mandatul 2016-2020',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri privind acordarea de teren arabil personalului de specialitate din serviciile publice comunale, iar persoana evaluată figura între beneficiari.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2016-2020, deși avea un interes personal, a participat la deliberarea și adoptarea hotărârii Consiliului Local I.C. Brătianu privind acordarea de teren arabil extravilan personalului de specialitate din serviciile publice comunale. În calitate de cadru didactic la Școala Gimnazială „Ion Creangă”, figura la poziția 8 din anexa cu beneficiari. Nu a fost identificată în sursele publice consultate o contestație la raport, o hotărâre judecătorească actuală ori o dovadă sigură că ar deține un mandat ulterior celui din 2016-2020.',
+    verified_at: '2026-08-26',
     geography: {
       county: 'Tulcea',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei I.C. Brătianu, județul Tulcea.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, IC_BRATIANU_POPA_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      IC_BRATIANU_POPA_PNL_SOURCE,
+      {
+        label: 'Portalul instanțelor - verificare nominală',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Biro Levente Mihai',
     party: 'UDMR',
-    position: 'Consilier local al comunei Șona, județul Alba',
+    position: 'Fost consilier local al comunei Șona, județul Alba',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în perioada 2020-2022, societatea la care deținea calitatea de asociat unic și administrator a desfășurat operațiuni comerciale cu Primăria Comunei Șona.',
-    verified_at: '2026-05-29',
+      'ANI a constatat prin raportul nr. 23079/G/II/06.06.2023 că, în perioada 2020-2022, societatea la care deținea calitatea de asociat unic și administrator a desfășurat operațiuni comerciale cu Primăria Comunei Șona. Curtea de Apel Alba Iulia i-a respins ca neîntemeiată contestația la 14 februarie 2024, în dosarul 2747/107/2023. Biro a declarat recurs la 4 aprilie 2024, iar în sursele publice consultate nu a fost identificată o soluție definitivă actuală. Nu figurează în componența actuală a Consiliului Local Șona publicată de primărie.',
+    verified_at: '2026-08-28',
     geography: {
       county: 'Alba',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Șona, județul Alba.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, SONA_BIRO_UDMR_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      SONA_BIRO_UDMR_SOURCE,
+      {
+        label: 'Primăria Șona - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://comunasona.ro/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'Portalul instanțelor - dosarul 2747/107/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Dumbravă Petru',
@@ -3411,16 +3523,24 @@ const ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier local al comunei Mișca, județul Arad',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind închirierea pășunii comunale, iar ulterior a încheiat un contract de închiriere pășune cu Primăria Comunei Mișca.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în iunie 2023 că, în mandatul de consilier local 2020-2024, a participat la deliberarea și adoptarea hotărârii Consiliului Local Mișca privind închirierea prin atribuire directă a pășunii comunale, apoi a încheiat el însuși un contract de închiriere a pășunii cu Primăria Comunei Mișca. Nu a fost identificată în sursele publice consultate o contestație la raport ori o hotărâre judecătorească asociabilă fără echivoc acestei persoane. Dosarele găsite sub forma neaccentuată a numelui au alte obiecte și nu au fost atribuite profilului.',
+    verified_at: '2026-08-28',
     geography: {
       county: 'Arad',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
     },
-    sources: [ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE, MISCA_DUMBRAVA_PNL_SOURCE],
+    sources: [
+      ANI_JUN_2023_TWELVE_LOCAL_OFFICIALS_SOURCE,
+      MISCA_DUMBRAVA_PNL_SOURCE,
+      {
+        label: 'Portalul instanțelor - verificare nominală',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
 ];
 
@@ -3621,19 +3741,28 @@ const ANI_ARCHIVE_PUBLIC_OFFICIALS_RECORDS = [
   {
     name: 'Titea Dragoș-Virgil',
     party: 'PSD',
-    position: 'Fost secretar de stat la Ministerul Transporturilor; director în cadrul R.A. ROMATSA',
+    position:
+      'Fost secretar de stat la Ministerul Transporturilor; director ROMATSA la data raportului ANI din 2023',
     position_type: 'secretary_of_state',
     crime: 'Avere nejustificată',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat o diferență nejustificată de 824.898 lei între averea dobândită și veniturile realizate împreună cu familia în perioada exercitării funcțiilor publice de secretar de stat și director și a sesizat Comisia de cercetare a averilor din cadrul Curții de Apel București.',
-    verified_at: '2026-05-29',
+      'ANI a constatat la 12 aprilie 2023 o diferență nejustificată de 824.898 lei între averea dobândită și veniturile realizate de Dragoș-Virgil Titea împreună cu familia, în perioada exercitării funcțiilor publice de secretar de stat și director. Agenția a sesizat Comisia de cercetare a averilor din cadrul Curții de Apel București pentru controlul modificărilor patrimoniale și al veniturilor. La data comunicatului ANI era director al Direcției Juridice și Administrativ din R.A. ROMATSA; nu a fost găsită o sursă oficială actuală care să confirme menținerea funcției în 2026. Nici rezultatul public al procedurii de cercetare a averii nu a fost identificat.',
+    verified_at: '2026-08-28',
     geography: {
       county: 'București',
       basis: 'office',
       note: 'Funcțiile publice relevante erau în Ministerul Transporturilor și în cadrul R.A. ROMATSA.',
     },
-    sources: [ANI_APR_2023_EIGHT_PUBLIC_OFFICIALS_ARCHIVE_SOURCE, TITEA_PSD_SOURCE],
+    sources: [
+      ANI_APR_2023_EIGHT_PUBLIC_OFFICIALS_ARCHIVE_SOURCE,
+      TITEA_PSD_SOURCE,
+      {
+        label: 'Portalul instanțelor - verificare nominală a procedurii de control al averii',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Constantin-Florin Mitulețu-Buică',

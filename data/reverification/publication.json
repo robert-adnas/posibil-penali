@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-26",
+  "updated_at": "2026-08-28",
   "holds": {
     "Valeriu Zgonea": {
       "held_at": "2026-08-03",
@@ -1045,20 +1045,6 @@
       ],
       "profile_id": "RV-2586"
     },
-    "Cerba Cristian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2592"
-    },
-    "Cupu Lucian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2593"
-    },
     "Harabagiu Gabriel Vasile": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -1107,83 +1093,6 @@
         "active_legal_status"
       ],
       "profile_id": "RV-2600"
-    },
-    "Topolov Gianina Ionela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2601"
-    },
-    "Blaga Lucian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2602"
-    },
-    "Bobic Narcis Sabin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2603"
-    },
-    "Sasu Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2604"
-    },
-    "Panfil Gelu Ionuț": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2606"
-    },
-    "Cozea Marinela Corina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2607"
-    },
-    "Munea Nelu Simion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2608"
-    },
-    "Popa Cristina": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2609"
-    },
-    "Biro Levente Mihai": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2610"
-    },
-    "Dumbravă Petru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2611"
-    },
-    "Titea Dragoș-Virgil": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-2662"
     },
     "Duma Ovidiu Marius": {
       "held_at": "2026-08-03",
@@ -4131,6 +4040,83 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-2591"
+    },
+    "Cerba Cristian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2592"
+    },
+    "Cupu Lucian": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2593"
+    },
+    "Topolov Gianina Ionela": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2601"
+    },
+    "Bobic Narcis Sabin": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2603"
+    },
+    "Sasu Vasile": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2604"
+    },
+    "Cozea Marinela Corina": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2607"
+    },
+    "Munea Nelu Simion": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2608"
+    },
+    "Popa Cristina": {
+      "held_at": "2026-08-26",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-2609"
+    },
+    "Biro Levente Mihai": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-2610"
+    },
+    "Dumbravă Petru": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2611"
+    },
+    "Titea Dragoș-Virgil": {
+      "held_at": "2026-08-28",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-2662"
     }
   }
 }
