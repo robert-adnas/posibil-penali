@@ -43585,6 +43585,298 @@
       ],
       "note": "Eliminat: persoana este comisarul-șef Florea Popescu din serviciul permise București, fără mandat electoral, candidatură sau funcție de partid verificabilă. Numele inversat nu trebuie confundat cu politicieni care au Popescu drept nume de familie și Florea/Daniel drept prenume.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2849",
+      "original_name": "Proca Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://web.justitie-ag.ro/jud_cl/jud_app/dosar_detalii.asp?id_dosar=20500000000041293",
+        "https://www.curentul.info/actualitate/un-politist-din-scandalul-permiselor-nu-poate-justifica-65-000-de-euro/"
+      ],
+      "note": "Identitatea este confirmată ca fost agent de poliție în serviciul permise Argeș, fără mandat, candidatură sau funcție de partid verificabilă. Dosarul penal privește activitatea administrativă/polițienească, nu o persoană politică; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2850",
+      "original_name": "Radoi Aurelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1109",
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://adevarul.ro/stiri-interne/evenimente/un-politist-arestat-in-cazul-permiselor-de-la-803344.html"
+      ],
+      "note": "Identitatea este confirmată ca agent/examinator de poliție la Serviciul Permise Argeș. Sursele oficiale și fiabile nu indică mandat, candidatură sau funcție de partid; faptele țin de rolul polițienesc, astfel profilul este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2851",
+      "original_name": "Ristache Bogdan Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2668",
+        "https://click.ro/actualitate/doi-inspectori-anaf-trimisi-in-judecata-pentru-208546.html"
+      ],
+      "note": "Identitatea și condamnarea sunt confirmate pentru un fost inspector antifraudă ANAF. Nu există dovadă verificabilă de mandat, candidatură ori funcție de partid; rezultatele cu nume asemănătoare nu au identificatori comuni. Profilul administrativ a fost eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2852",
+      "original_name": "Stanciu Emil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4579",
+        "https://adevarul.ro/stiri-locale/alba-iulia/fostul-sef-de-la-permise-si-inmatriculari-alba-1500500.html",
+        "https://www.primaria-panciu.ro/consilieri-locali-panciu/"
+      ],
+      "note": "Profilul condamnat este Emil Stanciu, fost șef SPCRPCIV Alba, fără rol politic verificat. Omonimul Emil Stanciu publicat oficial ca ales local PNL este consilier în Panciu, Vrancea; geografia și cariera sunt distincte și nu există identificatori comuni. Coliziunea a fost separată, iar profilul administrativ eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2853",
+      "original_name": "Sutiu Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2668",
+        "https://www.dna.ro/comunicat.xhtml?id=1451",
+        "https://www.realitatea.net/stiri/ultimele-stiri/doi-fosti-angajati-ai-anaf-trimisi-in-judecata-pentru-luare-de-mita_5dcc91af406af85273cac746"
+      ],
+      "note": "Sursele oficiale confirmă identitatea și condamnarea fostului inspector ANAF, dar nu indică vreo funcție electivă, candidatură sau afiliere de partid. Profilul este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2854",
+      "original_name": "Tatar Bogdan Tudor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2187",
+        "https://www.dna.ro/comunicat.xhtml?id=562",
+        "https://www.dna.ro/comunicat.xhtml?id=690",
+        "https://www.baiamare.ro/Baiamare/Anunturi%20si%20Comunicate/An%202019/Concursuri%20de%20angajare/Politia%20locala-15posturi-17.01.19/Selectia%20dosarelor%20politia%20locala.pdf"
+      ],
+      "note": "Identitatea este confirmată ca inspector/examinator și fost șef de birou la Permise Maramureș. Apariția ulterioară privește un concurs de recrutare pentru o funcție publică în Poliția Locală, nu o candidatură electorală. Fără mandat ori rol de partid verificat, profilul a fost eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2855",
+      "original_name": "Valean Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1933",
+        "https://www.mediafax.ro/social/fost-agent-sef-de-politie-judecat-pentru-22-de-inmatriculari-false-de-masini-9365501/amp",
+        "https://adevarul.ro/stiri-interne/societate/mita-in-locul-taxei-de-inmatriculare-657257.html"
+      ],
+      "note": "Identitatea este confirmată ca fost agent-șef de poliție la Biroul Înmatriculări Cluj. Nu a fost identificat niciun mandat, rol de partid sau candidatură atribuibilă acestei persoane; profilul administrativ a fost eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2856",
+      "original_name": "Vlasceanu Gheorghe Codrut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4857",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1109",
+        "https://integritate.eu/wp-content/uploads/2024/03/Raport-privind-activitatea-desfasurata-de-Agentia-Nationala-de-Integritate-in-anul-2011-1.pdf"
+      ],
+      "note": "Identitatea este confirmată ca fost comisar-șef și șef al SPCRPCIV Argeș. Sursele oficiale descriu exclusiv rolul polițienesc și nu indică mandat, candidatură sau funcție de partid. Interdicția electorală din hotărârea penală nu constituie dovadă de activitate politică; profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2857",
+      "original_name": "Voinea Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4857",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1109",
+        "https://old.integritate.eu/Files/UserFiles/File/Rapoarte/RaportDeActivitate_Apr-Iun2010.pdf",
+        "https://hotnews.ro/adevarul-organigrama-cuibului-de-politisti-spagari-781367"
+      ],
+      "note": "Identitatea este confirmată ca fost comisar-șef și adjunct al SPCRPCIV Argeș. Sursele oficiale și fiabile nu indică mandat, candidatură ori funcție de partid; profilul polițienesc a fost eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2858",
+      "original_name": "Zidaru Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1081",
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://integritate.eu/wp-content/uploads/2024/03/Raport-privind-activitatea-desfasurata-de-Agentia-Nationala-de-Integritate-in-anul-2011-1.pdf"
+      ],
+      "note": "Identitatea este confirmată ca fost subcomisar de poliție la SPCRPCIV Argeș. Candidații electorali cu numele Zidaru din sursele oficiale au alte prenume complete și sunt persoane distincte. Fără mandat, candidatură sau rol de partid atribuibil lui Daniel Zidaru, profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2867",
+      "original_name": "Balan Paustin",
+      "current_name": "Bălan Paustin",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4554",
+        "https://www.dna.ro/comunicat.xhtml?id=4556",
+        "https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/1A0D1F0F698DC820C2258684003EC926//1971_Proces_verbal_sedinta_ordinara_din_luna_20_decembrie_2013.pdf",
+        "https://ziaruldebacau.ro/se-vacanteaza-postul-de-consilier-judetean-detinut-de-paustin-balan/"
+      ],
+      "note": "Profil politic confirmat. Numele a fost diacritizat, partidul corectat din Independent în PP-DD, funcția reclasificată drept fost consilier județean Bacău, iar geografia mutată pe baza politică. Condamnarea definitivă de 5 ani din 6 decembrie 2013 este confirmată de DNA; documentele CJ și presa locală confirmă mandatul și vacantarea.",
+      "reviewed_snapshot_hash": "9e89b9e12aabcf0cb7138efe87ebdacfb6119c3302a1736fa5470bbd73be0c29"
+    },
+    {
+      "profile_id": "RV-2868",
+      "original_name": "Damo Desideriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3219",
+        "https://www.dna.ro/comunicat.xhtml?id=2682",
+        "https://adevarul.ro/stiri-locale/brasov/a-falsificat-acte-ca-sa-obtina-subventii-zeci-de-1031129.html"
+      ],
+      "note": "Identitatea este confirmată ca președinte al Composesoratului Hammas Dobolii de Sus, structură asociativă privată. Nu a fost identificat niciun mandat, rol de partid sau candidatură. Profilul ONG/composesorat este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2869",
+      "original_name": "Tepoi Magda",
+      "current_name": "Țepoi Magda",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3109",
+        "https://www.dna.ro/anexa_bilant.jsp?id=3&nrcrt=2",
+        "https://www.ziaruldeiasi.ro/stiri/rezultate-finale--3dmt.html",
+        "https://adevarul.ro/stiri-interne/societate/magda-tepoi-emisar-la-ue-cu-dosar-la-dna-907472.html"
+      ],
+      "note": "Profil politic confirmat și corectat: numele diacritizat, partidul schimbat din Independent în PNL, funcția reclasificată ca fost consilier județean Iași, iar geografia corectată din București în Iași pe baza activității politice. Condamnarea definitivă la 3 ani cu suspendare din 27 martie 2012 este confirmată de DNA.",
+      "reviewed_snapshot_hash": "95c0a166cb483dc0bfa19d7d6847fc001a6cfba9f9443829fed3d29d78d296da"
+    },
+    {
+      "profile_id": "RV-2870",
+      "original_name": "Tubak Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3299",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_21febr2022.pdf",
+        "https://www.euroavocatura.ro/stiri/6843/Presedinte_al_Asociatiei_Composesoratului_Casinul_Nou_trimis_in_judecata_fals_in_inscrisuri"
+      ],
+      "note": "Identitatea este confirmată ca președinte al Asociației Composesoratului Casinul Nou și asociat cu o organizație de crescători de bovine, roluri private. Nu există mandat, funcție de partid sau candidatură atribuibilă; candidatul Tubák Nimród este altă persoană. Profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2872",
+      "original_name": "Bica Radu Vasile",
+      "current_name": "Bica Radu Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3569",
+        "https://storage.googleapis.com/stateless-cjcluj-ro/2022/02/1_Statut-Judet-Cluj_HCJ-si-anexe.pdf",
+        "https://adevarul.ro/stiri-locale/cluj-napoca/radu-bica-si-a-pierdut-calitatea-de-vicepresedinte-1234613.html"
+      ],
+      "note": "Profil politic confirmat și corectat: partidul schimbat din Independent în PDL, funcția reclasificată ca fost vicepreședinte CJ Cluj, geografia stabilită pe baza politică și infracțiunea precizată ca luare de mită. Mandatul 23.06.2008–21.12.2011 și condamnarea definitivă la 5 ani sunt confirmate oficial.",
+      "reviewed_snapshot_hash": "1c1f24f6642387227e8da7ac3970f5d30171e601b4fbf948f1502a1ebfc59358"
+    },
+    {
+      "profile_id": "RV-2873",
+      "original_name": "Copos Gheorghe",
+      "current_name": "Copos Gheorghe",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5200",
+        "https://www.dna.ro/comunicat.xhtml?id=4705",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=9AD29F76-AE25-4CEE-A77E-D21FF2EB6AC0",
+        "https://www.romania-actualitati.ro/stiri/romania/george-copos-a-fost-eliberat-conditionat-id69768.html"
+      ],
+      "note": "Profil politic confirmat și corectat: partidul PC, funcțiile de fost vicepremier și senator de Argeș, tip senator și geografie pe circumscripție. Situația juridică a fost completată cu ambele condamnări definitive din 2014, contopirea în pedeapsa de 4 ani și liberarea condiționată din 7 aprilie 2015.",
+      "reviewed_snapshot_hash": "f8358199ba58f439fc249692e1fb65023493f93798b9632b85f2e1c0573d8a65"
     }
   ]
 }

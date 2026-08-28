@@ -35941,326 +35941,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Proca Traian",
-    "party": "Independent",
-    "position": "Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Arges."
-    },
-    "crime": ": constituirea unui grup infracțional organizat, trafic de influență și 2 infracțiuni de fals intelectual, din care una în formă continuată",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul PROCA TRAIAN, fost agent de poliție la S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Proca Traian indică județul Arges, funcția \"Agent politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Radoi Aurelian",
-    "party": "Independent",
-    "position": "Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Arges."
-    },
-    "crime": ": constituirea unui grup infracțional organizat și fals intelectual",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul RĂDOI AURELIAN, fost agent de poliție la S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Radoi Aurelian indică județul Arges, funcția \"Agent politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Ristache Bogdan Alexandru",
-    "party": "Independent",
-    "position": "Inspector în Agentia nationala de administrare fiscala (Ministerul Finantelor Publice)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Agentia nationala de administrare fiscala (Ministerul Finantelor Publice) în județul Bucuresti."
-    },
-    "crime": "luare de mită în formă continuată",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 septembrie 2011. Condamnarea inculpatului RISTACHE BOGDAN ALEXANDRU, fost inspector în cadrul Direcției Antifraudă Fiscală a Agenției Naționale de Administrare Fiscală, la pedeapsa de 3 ani și 6 luni închisoare în regim de detenție pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2668"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ristache Bogdan Alexandru indică județul Bucuresti, funcția \"Inspector\", instituția \"Agentia nationala de administrare fiscala (Ministerul Finantelor Publice)\", decizia 170 și condamnarea din 20/09/2011."
-      }
-    ]
-  },
-  {
-    "name": "Stanciu Emil",
-    "party": "Independent",
-    "position": "Sef serviciu în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Alba",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Alba."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 decembrie 2013. Condamnă pe inculpatul STANCIU EMIL, fost șef al Serviciului Public Comunitar Regim Permise și Înmatriculare a Vehiculelor (S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4579"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stanciu Emil indică județul Alba, funcția \"Sef serviciu\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 1279 și condamnarea din 19/12/2013."
-      }
-    ]
-  },
-  {
-    "name": "Sutiu Claudiu",
-    "party": "Independent",
-    "position": "Inspector în Agentia nationala de administrare fiscala (Ministerul Finantelor Publice)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Agentia nationala de administrare fiscala (Ministerul Finantelor Publice) în județul Bucuresti."
-    },
-    "crime": "luare de mită în formă continuată",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 septembrie 2011. Condamnarea inculpatului ȘUTIU CLAUDIU, fost inspector în cadrul Direcției Antifraudă Fiscală a Agenției Naționale de Administrare Fiscală, la pedeapsa de 3 ani și 6 luni închisoare în regim de detenție pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2668"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sutiu Claudiu indică județul Bucuresti, funcția \"Inspector\", instituția \"Agentia nationala de administrare fiscala (Ministerul Finantelor Publice)\", decizia 170 și condamnarea din 20/09/2011."
-      }
-    ]
-  },
-  {
-    "name": "Tatar Bogdan Tudor",
-    "party": "Independent",
-    "position": "Inspector de politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector de politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Maramures."
-    },
-    "crime": "dare de mită, în formă continuată și trafic de influență",
-    "sentence": "2 ani și 2 luni închisoare",
-    "sentence_years": 2.17,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 8 februarie 2011. Condamnarea inculpatului TĂTAR BOGDAN TUDOR, inspector de poliție cu funcția de șef de birou în cadrul Serviciului Public Comunitar Regim Permise și Înmatriculări Vehicule din cadrul Prefecturii Maramureș, la pedeapsa de doi ani și două luni închisoare în regim de detenție pentru comiterea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2187"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tatar Bogdan Tudor indică județul Maramures, funcția \"Inspector de politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 452 și condamnarea din 08/02/2011."
-      }
-    ]
-  },
-  {
-    "name": "Valean Petru",
-    "party": "Independent",
-    "position": "Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Cluj."
-    },
-    "crime": "luare de mită; abuz în serviciu",
-    "sentence": "5 ani închisoare",
-    "sentence_years": 5,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 aprilie 2010. Condamnă pe inculpatul Vălean Petru, în calitate de agent de poliție în cadrul Serviciului Public Comunitar Regim Permise de Conducere și Înmatriculare a Vehiculelor Cluj – Biroul Înmatriculări, la pedeapsa de 5 ani închisoare pentru săvârșirea infracțiunilor de abuz în serviciu contra intereselor publice, în formă calificată, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial, luare de mită și fals în înscrisuri sub semnătură privată, toate în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1933"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Valean Petru indică județul Cluj, funcția \"Agent politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 1503 și condamnarea din 20/04/2010."
-      }
-    ]
-  },
-  {
-    "name": "Vlasceanu Gheorghe Codrut",
-    "party": "Independent",
-    "position": "Ofiter politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Arges."
-    },
-    "crime": ": constituirea unui grup infracțional organizat și trafic de influență, în formă continuată",
-    "sentence": "6 ani închisoare",
-    "sentence_years": 6,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul VLĂSCEANU GHEORGHE CODRUȚ, fost ofițer de poliție, cu gradul profesional de comisar șef și funcția de șef al S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Vlasceanu Gheorghe Codrut indică județul Arges, funcția \"Ofiter politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Voinea Vasile",
-    "party": "Independent",
-    "position": "Comisar sef politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar sef politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Arges."
-    },
-    "crime": "constituirea unui grup infracțional organizat; permiterea accesului unor persoane neautorizate la informații ce nu sunt destinate publicității; fals intelectual; trafic de influență",
-    "sentence": "6 ani închisoare",
-    "sentence_years": 6,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul VOINEA VASILE, fost comisar șef în cadrul S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Voinea Vasile indică județul Arges, funcția \"Comisar sef politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Zidaru Daniel",
-    "party": "Independent",
-    "position": "Ofiter politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Arges."
-    },
-    "crime": "constituirea unui grup infracțional organizat; permiterea accesului unor persoane neautorizate la informații ce nu sunt destinate publicității; trafic de influență",
-    "sentence": "6 ani închisoare",
-    "sentence_years": 6,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul ZIDARU DANIEL, fost ofițer de poliție, cu gradul profesional de subcomisar în cadrul S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Zidaru Daniel indică județul Arges, funcția \"Ofiter politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
     "name": "Dascalu Viorel",
     "party": "Independent",
     "position": "Primar în Primarie",
@@ -36517,14 +36197,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Balan Paustin",
-    "party": "Independent",
-    "position": "Presedinte asociatie în Consiliu judetean",
-    "position_type": "other",
+    "name": "Bălan Paustin",
+    "party": "PP-DD",
+    "position": "Fost consilier județean Bacău și fost lider al Partidei Romilor",
+    "position_type": "local_official",
     "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte asociatie în Consiliu judetean în județul Bacau."
+      "county": "Bacău",
+      "basis": "political_base",
+      "locality": "Bacău",
+      "note": "Ales consilier județean Bacău în 2012 pe lista PP-DD; anterior lider al Partidei Romilor și președinte al Asociației ROM-STAR."
     },
     "crime": "schimbare, fără respectarea prevederilor legale, a destinației fondurilor europene, în formă continuată",
     "sentence": "5 ani închisoare",
@@ -36532,8 +36213,8 @@ export const politicianAdditions = [
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 decembrie 2013. Condamnă pe inculpatul BĂLAN PAUSTIN, președinte al Asociației ROM-STAR și consilier județean în cadrul Consiliului Județean Bacău, la pedeapsa de 5 (cinci) ani închisoare pentru săvârșirea infracțiunii de schimbare, fără respectarea prevederilor legale, a destinației fondurilor europene, în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 293 din 6 decembrie 2013, Curtea de Apel Bacău l-a condamnat definitiv la 5 ani de închisoare pentru schimbarea fără respectarea legii, în formă continuată, a destinației fondurilor europene. DNA îl identifică drept președinte al Asociației ROM-STAR și consilier județean Bacău. Fusese ales în 2012 pe lista PP-DD, iar Consiliul Județean Bacău a constatat vacantarea mandatului în decembrie 2013.",
+    "verified_at": "2026-08-28",
     "sources": [
       {
         "label": "DNA",
@@ -36541,54 +36222,34 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4554"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Balan Paustin indică județul Bacau, funcția \"Presedinte asociatie\", instituția \"Consiliu judetean\", decizia 293 și condamnarea din 06/12/2013."
-      }
-    ]
-  },
-  {
-    "name": "Damo Desideriu",
-    "party": "Independent",
-    "position": "Presedinte în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Covasna",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în ONG în județul Covasna."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Damo Desideriu a fost condamnat definitiv la 17 aprilie 2012 la 1 an și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Presedinte în ONG. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "DNA - trimitere în judecată",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3219"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4556"
       },
       {
-        "label": "România Curată",
+        "label": "Consiliul Județean Bacău - ședința din 20 decembrie 2013",
+        "kind": "official",
+        "url": "https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/1A0D1F0F698DC820C2258684003EC926/$FILE/1971_Proces_verbal_sedinta_ordinara_din_luna_20_decembrie_2013.pdf",
+        "description": "Ordinea de zi include constatarea vacantării mandatului de consilier județean al lui Bălan Paustin."
+      },
+      {
+        "label": "Ziarul de Bacău - vacantarea mandatului",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Damo Desideriu indică județul Covasna, funcția \"Presedinte\", instituția \"ONG\", decizia 131 și condamnarea din 17/04/2012."
+        "url": "https://ziaruldebacau.ro/se-vacanteaza-postul-de-consilier-judetean-detinut-de-paustin-balan/",
+        "description": "Confirmă alegerea în 2012 pe lista PP-DD și încetarea mandatului după condamnarea definitivă."
       }
     ]
   },
   {
-    "name": "Tepoi Magda",
-    "party": "Independent",
-    "position": "Presedinte camera comert în Camera de comert",
-    "position_type": "other",
+    "name": "Țepoi Magda",
+    "party": "PNL",
+    "position": "Fost consilier județean Iași și fostă șefă a organizației de femei PNL Iași",
+    "position_type": "local_official",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte camera comert în Camera de comert în județul Bucuresti."
+      "county": "Iași",
+      "basis": "political_base",
+      "locality": "Iași",
+      "note": "Consilier județean PNL Iași în mandatul 2004–2008; a condus organizația de femei PNL Iași până în 2007."
     },
     "crime": "Fapte de corupție legate de fonduri europene",
     "sentence": "3 ani închisoare cu suspendare",
@@ -36596,8 +36257,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 martie 2012. Condamnarea inculpatei ȚEPOI MAGDA, președinte al Camerei de Comerț a Regiunii UNU NORD EST ROMÂNIA, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunilor de: tentativă la infracțiunea de folosire sau prezentare de declarații false, inexacte sau incomplete, care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor și schimbarea, fără respectarea prevederilor legale, a destinației fondurilor obținute din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 429 din 27 martie 2012, Curtea de Apel Iași a condamnat-o definitiv la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru infracțiuni privind obținerea și schimbarea destinației unor fonduri europene. DNA o identifică drept președintă a Camerei de Comerț a Regiunii Unu Nord-Est România. Aceeași persoană a fost consilier județean PNL Iași în mandatul 2004–2008 și șefa organizației de femei PNL Iași până în 2007.",
+    "verified_at": "2026-08-28",
     "sources": [
       {
         "label": "DNA",
@@ -36605,42 +36266,22 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3109"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tepoi Magda indică județul Bucuresti, funcția \"Presedinte camera comert\", instituția \"Camera de comert\", decizia 429 și condamnarea din 27/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Tubak Liviu",
-    "party": "Independent",
-    "position": "Presedinte asociatie în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Harghita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte asociatie în ONG în județul Harghita."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tubak Liviu a fost condamnat definitiv la 21 mai 2012 la 2 ani și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Presedinte asociatie în ONG. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "DNA - bilanț 2005",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3299"
+        "url": "https://www.dna.ro/anexa_bilant.jsp?id=3&nrcrt=2",
+        "description": "Confirmă trimiterea în judecată și funcția de președintă a Camerei de Comerț regionale."
       },
       {
-        "label": "România Curată",
+        "label": "Ziarul de Iași - rezultate locale 2004",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tubak Liviu indică județul Harghita, funcția \"Presedinte asociatie\", instituția \"ONG\", decizia 406 și condamnarea din 21/05/2012."
+        "url": "https://www.ziaruldeiasi.ro/stiri/rezultate-finale--3dmt.html",
+        "description": "O identifică drept economist și directoare regională a Camerei de Comerț pe lista celor opt mandate PNL pentru Consiliul Județean Iași."
+      },
+      {
+        "label": "Adevărul - profil politic și profesional",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-interne/societate/magda-tepoi-emisar-la-ue-cu-dosar-la-dna-907472.html",
+        "description": "Confirmă mandatul de consilier județean PNL 2004–2008 și conducerea organizației de femei PNL până în 2007."
       }
     ]
   },
@@ -36683,22 +36324,23 @@ export const politicianAdditions = [
   },
   {
     "name": "Bica Radu Vasile",
-    "party": "Independent",
-    "position": "Vicepresedinte în Consiliu judetean",
-    "position_type": "other",
+    "party": "PDL",
+    "position": "Fost vicepreședinte al Consiliului Județean Cluj",
+    "position_type": "local_official",
     "geography": {
       "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Vicepresedinte în Consiliu judetean în județul Cluj."
+      "basis": "political_base",
+      "locality": "Cluj-Napoca",
+      "note": "Vicepreședinte al Consiliului Județean Cluj între 23 iunie 2008 și 21 decembrie 2011, ales din partea PDL."
     },
-    "crime": "Fapte de corupție",
+    "crime": "luare de mită",
     "sentence": "5 ani închisoare",
     "sentence_years": 5,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 4 octombrie 2012. Condamnarea inculpatului BICA RADU VASILE, vicepreședinte al Consiliului Județean Cluj la data comiterii infracțiunii, la pedeapsa de 5 ani închisoare pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 3.130 din 4 octombrie 2012, Înalta Curte de Casație și Justiție a menținut condamnarea definitivă la 5 ani de închisoare pentru luare de mită și confiscarea sumei de 43.000 lei. Consiliul Județean Cluj îl consemnează drept vicepreședinte în perioada 23 iunie 2008 – 21 decembrie 2011 și membru PDL.",
+    "verified_at": "2026-08-28",
     "sources": [
       {
         "label": "DNA",
@@ -36706,42 +36348,59 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3569"
       },
       {
-        "label": "România Curată",
+        "label": "Consiliul Județean Cluj - statutul județului și anexe",
+        "kind": "official",
+        "url": "https://storage.googleapis.com/stateless-cjcluj-ro/2022/02/1_Statut-Judet-Cluj_HCJ-si-anexe.pdf",
+        "description": "Anexele oficiale indică partidul PDL și mandatul de vicepreședinte între 23.06.2008 și 21.12.2011."
+      },
+      {
+        "label": "Adevărul - pierderea funcției de vicepreședinte CJ Cluj",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Bica Radu Vasile indică județul Cluj, funcția \"Vicepresedinte\", instituția \"Consiliu judetean\", decizia 3130 și condamnarea din 04/10/2012."
+        "url": "https://adevarul.ro/stiri-locale/cluj-napoca/radu-bica-si-a-pierdut-calitatea-de-vicepresedinte-1234613.html",
+        "description": "Confirmă calitatea de consilier județean și vicepreședinte PDL, precum și excluderea din partid în 2011."
       }
     ]
   },
   {
     "name": "Copos Gheorghe",
-    "party": "Independent",
-    "position": "Administrator în Parlamentul Romaniei",
-    "position_type": "other",
+    "party": "PC",
+    "position": "Fost viceprim-ministru și senator de Argeș",
+    "position_type": "senator",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Parlamentul Romaniei în județul Bucuresti."
+      "county": "Argeș",
+      "basis": "constituency",
+      "note": "Senator ales în circumscripția electorală nr. 3 Argeș pentru legislatura 2004–2008, din partea Partidului Conservator."
     },
-    "crime": "evaziune fiscală în formă continuată",
+    "crime": "evaziune fiscală în formă continuată; două infracțiuni de evaziune fiscală în Dosarul Transferurilor",
     "sentence": "4 ani închisoare",
     "sentence_years": 4,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 25 august 2014. Condamnă pe inculpatul COPOS GHEORGHE, fost senator, fost vicepremier în Guvernul României, acționar la SC ANA ELECTRONIC SA, SC ANA GROUP SA, SC ANA HOTELS SA, SC ANA PAN SA, SC ANA TELEFERIC SA, SC ANA INTERNATIONAL SA, SC ANA IMEP SA și SWITEL CORPORATION la pedeapsa de 4 ani închisoare, pentru săvârșirea infracțiunii de evaziune fiscală în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Fost viceprim-ministru și senator PC de Argeș în legislatura 2004–2008. A fost condamnat definitiv la 3 ani și 8 luni de închisoare la 4 martie 2014, în Dosarul Transferurilor, pentru două infracțiuni de evaziune fiscală, și la 4 ani de închisoare la 25 august 2014, în dosarul Loteria I, pentru evaziune fiscală în formă continuată. Pedepsele au fost contopite într-o pedeapsă rezultantă de 4 ani; a fost liberat condiționat la 7 aprilie 2015.",
+    "verified_at": "2026-08-28",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA - dosarul Loteria I",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5200"
       },
       {
-        "label": "România Curată",
+        "label": "DNA - Dosarul Transferurilor",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4705"
+      },
+      {
+        "label": "Senatul României - fișa senatorului",
+        "kind": "official",
+        "url": "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=9AD29F76-AE25-4CEE-A77E-D21FF2EB6AC0",
+        "description": "Confirmă mandatul de senator PC pentru circumscripția Argeș între 13.12.2004 și 14.12.2008."
+      },
+      {
+        "label": "Radio România Actualități - liberarea condiționată",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Copos Gheorghe indică județul Bucuresti, funcția \"Administrator\", instituția \"Parlamentul Romaniei\", decizia 185 și condamnarea din 25/08/2014."
+        "url": "https://www.romania-actualitati.ro/stiri/romania/george-copos-a-fost-eliberat-conditionat-id69768.html",
+        "description": "Confirmă liberarea condiționată și cele două condamnări contopite."
       }
     ]
   },
