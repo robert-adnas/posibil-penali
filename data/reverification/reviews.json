@@ -45266,6 +45266,498 @@
       ],
       "note": "Numele corect este Chiran Cristian-Nicușor. Fost ofițer de poliție judiciară și inspector principal la Poliția Orașului Videle, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2972",
+      "original_name": "Chirea Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4081",
+        "https://semnal.eu/ro/justitie/2010/09/23/ancheta-dna-la-garda-de-mediu-ilfov-si-la-apele-romane-pe-tema-unei-fabrici-de/",
+        "https://www.ziuaconstanta.ro/diverse/stiri-calde/grecii-din-constanta-isi-prezinta-candidatul-pentru-consiliul-local-25267-369231.html"
+      ],
+      "note": "Comisar la Garda Națională de Mediu – Comisariatul Județean Ilfov, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. Candidatul constănțean omonim din 2012 este Nicolae Anton Chirea, identitate distinctă. Textul profilului descria greșit condamnarea coinculpatei Constantin Carmen Daniela; DNA confirmă pentru Chirea un an cu suspendare pentru fals intelectual și instigare la fals în declarații.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2973",
+      "original_name": "Chiripuci Marian Crinu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://cnsipc.igsu.ro/ResourcesCNSIPC/CNSIPC/L_PERS/1630570088646.pdf"
+      ],
+      "note": "Maior în cadrul ISU Vlașca Giurgiu, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. DNA confirmă condamnarea definitivă la 1 an și 10 luni cu suspendare pentru falsuri, uz de fals, abuz în serviciu și asociere pentru săvârșirea de infracțiuni. Lista oficială IGSU îl indică ulterior ca PFA autorizat pentru activități de securitate la incendiu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2974",
+      "original_name": "Chiseamera Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3097",
+        "https://www.dna.ro/bilant_activitate.xhtml?id=10",
+        "https://www.bursa.ro/comalex-o-societate-devalizata-de-psd-23256646"
+      ],
+      "note": "Director general și președinte CA al Comalex SA Alexandria, fără mandat, candidatură sau funcție de partid individual verificabil; profil eliminat din domeniul politic. Rechizitoriul DNA indică o afiliere istorică comună cu PSD, dar nu identifică pentru Chișeamera un rol politic precis, astfel că eticheta Independent era improprie și nu este înlocuită cu o funcție nesusținută. DNA confirmă condamnarea definitivă la 6 ani de închisoare în 2012. Numele a fost normalizat la Chișeamera Victor.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2975",
+      "original_name": "Ciacaru Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3171",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+MARINA%C8%98+AND+OTHERS+v.+ROMANIA.pdf&id=001-182602&library=ECHR&logEvent=False"
+      ],
+      "note": "Fost comandant al Detașamentului de Pompieri Sinaia din ISU Prahova, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. DNA confirmă condamnarea definitivă la 4 ani închisoare cu executare pentru abuz în serviciu; documentul CEDO confirmă identitatea și perioada detenției. Numele oficial a fost normalizat la Ciacâru Gabriel.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2976",
+      "original_name": "Ciobanu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2273",
+        "https://mh.prefectura.mai.gov.ro/wp-content/uploads/sites/42/2024/11/PV_COMPLETARE_30112024_3.pdf",
+        "https://ziaruldevalcea.ro/2016/04/patru-fosti-consilieri-locali-din-judetul-valcea-nu-pot-sa-candideze-la-alegeri-din-cauza-ani/"
+      ],
+      "note": "Comisar-șef și ofițer de poliție judiciară în IPJ Mehedinți, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 3 ani cu executare pentru trafic de influență și luare de mită. Omonimii din documente electorale nu pot fi atribuiți ofițerului: fostul consilier local identificat de ANI este din Mihăești, Vâlcea, iar prezența unui Constantin Ciobanu ca reprezentant al minorităților într-o secție din Mehedinți nu dovedește identitatea ori o candidatură.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2978",
+      "original_name": "Ciobanu Marius",
+      "current_name": "Ciobanu Marius",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2710",
+        "https://atacdeconstanta.com/mircea-marcu-si-marius-ciobanu-se-reintregesc-la-ppdd/",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/marius-ciobanu-sunt-membru-marcant-pd-l-69025-269043.html"
+      ],
+      "note": "Profil păstrat și corectat: fostul director adjunct ITM Constanța este identificat explicit ca membru PDL în 2009 și vicepreședinte PP-DD Constanța în 2012, deci eticheta Independent era greșită. DNA confirmă condamnarea definitivă la 3 ani cu suspendare pentru trafic de influență. Candidatura PSD la CJ Constanța din 2024, pe același nume, nu a fost atribuită profilului deoarece identitatea nu poate fi demonstrată.",
+      "reviewed_snapshot_hash": "d9e2ac1fe4b627ca097b7213d5a90560910a5def660a50639c32ec37fc7835e1"
+    },
+    {
+      "profile_id": "RV-2979",
+      "original_name": "Ciobotea Petre",
+      "current_name": "Ciobotea Petre",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1891",
+        "https://adevarul.ro/stiri-interne/societate/petre-ciobotea-directorul-de-la-drumuri-si-poduri-864088.html",
+        "https://www.gds.ro/Local/2004-01-09/Petre-Ciobotea-ramine-in-arest/"
+      ],
+      "note": "Profil păstrat și corectat: Petre Ciobotea a fost ales consilier local PSD la Drobeta-Turnu Severin în 2000 și a demisionat din mandat și partid în decembrie 2003; eticheta Independent și localizarea exclusiv profesională în Dolj erau greșite. Condamnarea definitivă la 6 ani pentru trafic de influență în formă continuată este confirmată.",
+      "reviewed_snapshot_hash": "7c5f163b49b8aaee95fb4ed13454a5ec7c500edc15260e71c36a8403f57ed47b"
+    },
+    {
+      "profile_id": "RV-2980",
+      "original_name": "Cionca Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3229",
+        "https://www.ebihoreanul.ro/stiri/proces-in-reluare-90233.html"
+      ],
+      "note": "Ofițer de poliție din Bihor, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. DNA confirmă condamnarea definitivă prin decizia nr. 1418/3 mai 2012 la exact 1.239 de zile de închisoare pentru luare de mită și abuz în serviciu, pedeapsă executată între 11 februarie 2003 și 5 iulie 2006. Formularea profilului de 3 ani și 3 luni și descrierea trunchiată au fost marcate ca eronate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2981",
+      "original_name": "Cioroiu Nicusor-Ciprian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://juri.ro/static/files/2015/iunie_2015/15/C5_Dec_12_ianuarie_2014_ds_2109-1-2013.pdf"
+      ],
+      "note": "Căpitan în cadrul ISU Dobrogea Constanța, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. DNA și hotărârea judecătorească confirmă condamnarea definitivă la 1 an și 6 luni cu suspendare sub supraveghere pentru fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată. Numele a fost normalizat la Cioroiu Nicușor-Ciprian.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2982",
+      "original_name": "Circiu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2793",
+        "https://www.inspectiamuncii.ro/documents/752245/1288889/ADM_R04%2B05.02.2020.pdf/9b69652d-1e76-4739-af62-b94a894c08a3",
+        "https://primariastrajasv.ro/wp-content/uploads/2023/11/Statutul-UAT-COMUNA-STRAJA-2023.pdf"
+      ],
+      "note": "Inspector vamal asistent la Biroul Vamal Sighet, ulterior titular al unei întreprinderi individuale de prevenire și protecție, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 2 ani cu suspendare pentru luare de mită în formă continuată. Cei doi consilieri locali omonimi Cîrciu Vasile din Straja, Suceava, apar simultan în mandatul 1996–2000 și nu pot fi identificați cu inspectorul vamal din Sighet. Numele a fost normalizat la Cîrciu Vasile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2983",
+      "original_name": "Ciuca Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://cvlpress.ro/22.07.2013/dosarul-celor-36-de-finantisti-doljeni-la-final/"
+      ],
+      "note": "Inspector în cadrul DGFP Dolj, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. DNA confirmă condamnarea definitivă la 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru abuz în serviciu cu consecințe deosebit de grave. Numele a fost normalizat la Ciucă Cristina; omonimele din alte profesii nu au fost conflated.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2984",
+      "original_name": "Ciulacu Traian-Ovidiu-Cristinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4155",
+        "https://www.dna.ro/comunicat.xhtml?id=3864",
+        "https://arhiva.arenamedia.ro/index.php/arena-sport-mp/fotbal-mp/afc-dunarea-calarasi-2005-mp/afc-dunarea-2005-calarasi-momente-de-reculegere-in-memoria-doctorului-ciulacu"
+      ],
+      "note": "Fost medic-șef al Centrului Medical Județean Călărași din MAI și comisar-șef de poliție, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 3 ani cu suspendare sub supraveghere în 2013 pentru 200 de acte de abuz în serviciu și falsuri, dar și o condamnare definitivă anterioară la 2 ani cu suspendare în aprilie 2012 pentru fapte similare, omisă din profil. Sursa locală confirmă decesul la 14 septembrie 2017.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2985",
+      "original_name": "Cojanu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4821",
+        "https://ziarulprahova.ro/2013/08/politist-prahovean-condamnat-la-cinci-ani-de-inchisoare-pentru-trafic-de-influenta/",
+        "https://comunasaveni.ro/z_Biroul%20Primarului/Satutul%20UAT%20Saveni.pdf"
+      ],
+      "note": "Fost agent principal de poliție în IPJ Prahova/Poliția Slănic, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 5 ani cu executare pentru două infracțiuni de trafic de influență în formă continuată și confiscarea a 235.000 euro. Câmpul crime din profil îi atribuia greșit infracțiunile coinculpatului Polifroni Dimu. Consilierul local PSM omonim din Săveni, mandat 1996–2000, nu poate fi identificat cu ofițerul prahovean.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2986",
+      "original_name": "Cojita Cristinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2355",
+        "https://monitorulneamt.ro/subcomisarul-cojita-a-terminat-o-cu-politia/",
+        "https://politialocalaneamt.ro/wp-content/uploads/2024/05/SCN1147546-Anunt-de-participare-achizitie-masini-electrice.pdf"
+      ],
+      "note": "Fost subcomisar IPJ Neamț, ulterior menționat ca director executiv adjunct al Poliției Locale Piatra-Neamț, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA și presa locală confirmă definitivarea la 20 aprilie 2011 a pedepsei de 3 ani cu suspendare pentru șantaj, termen de încercare 5 ani și interdicția temporară de a ocupa funcția de polițist. Eticheta generică «Fapte de corupție» a fost înlocuită în concluzia verificării cu infracțiunea precisă, șantaj.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2987",
+      "original_name": "Cojocaru Georgeta Rodica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Local/2013-07-20/Condamnari-cu-suspendare-pentru-finantistii-doljeni/"
+      ],
+      "note": "Inspector de execuție în cadrul DGFP Dolj, fără mandat, candidatură ori funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 19 iulie 2013 la 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2988",
+      "original_name": "Cojocaru Stefan Anton",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2648",
+        "https://www.dna.ro/comunicat.xhtml?id=2062"
+      ],
+      "note": "Ofițer de poliție judiciară la Secția 25 Poliție București, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 12 septembrie 2011 la 1 an închisoare cu suspendare condiționată, termen de încercare 3 ani, pentru trafic de influență, precum și confiscarea a 500 euro.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2989",
+      "original_name": "Colacel Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3225",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CL",
+        "https://www.romaniacurata.ro/doi-comisari-de-la-garda-financiara-calarasi-arestati-pentru-mita/"
+      ],
+      "note": "Comisar de execuție al Gărzii Financiare Călărași, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Sursele confirmă condamnarea definitivă din 18 aprilie 2012 la 2 ani cu executare, iar infracțiunea precisă este luare de mită, nu eticheta generică «Fapte de corupție» din profil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2991",
+      "original_name": "Coman Neculai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://www.ziuaconstanta.ro/stiri/deschidere-editie/neculai-coman-fostul-sef-al-isu-dobrogea-eliberat-conditionat-de-judecatoria-medgidia-tribunalul-s-a-558550.html",
+        "https://juri.ro/static/files/2015/iunie_2015/15/C5_Dec_12_ianuarie_2014_ds_2109-1-2013.pdf"
+      ],
+      "note": "Colonel și fost prim-adjunct al inspectorului-șef ISU Dobrogea, cadru militar și universitar, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Decizia definitivă din 24 ianuarie 2014 confirmă 3 ani și 6 luni cu executare. Lista corectă a faptelor este mai amplă decât cea din profil: asociere pentru săvârșirea de infracțiuni și instigare, în formă continuată, la fals intelectual, uz de fals și abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2992",
+      "original_name": "Coman Tudora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "Colonel în rezervă din ISU Vlașca Giurgiu, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 10 iulie 2014 la 1 an și 10 luni cu suspendare, termen de încercare 3 ani și 10 luni. Profilul omitea asocierea pentru săvârșirea de infracțiuni din lista faptelor, alături de fals material, fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2993",
+      "original_name": "Constantin Daniela Violeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2747"
+      ],
+      "note": "Fost director general adjunct economic al Direcției Generale Județene pentru Protecția Copilului Prahova, funcționar de conducere fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită, abuz în serviciu și complicitate la delapidare, toate în formă continuată. Profilul indica impropriu «Consiliu Local»; instituția aparținea Consiliului Județean Prahova.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2994",
+      "original_name": "Coporiie George Robert",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2712",
+        "https://www.dna.ro/comunicat.xhtml?id=2268"
+      ],
+      "note": "Ofițer BCCO București – Serviciul Antidrog, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Numele corect din sursa oficială este Coporîie George Robert. DNA confirmă condamnarea definitivă din 10 octombrie 2011 la 1 an și 2 luni în regim de detenție pentru complicitate la trafic de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2995",
+      "original_name": "Corescu Cornelia Gheorghina",
+      "current_name": "Cornelia Gheorghina Corescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3485",
+        "https://image.stirileprotv.ro/media/document/60195005.pdf",
+        "https://stirileprotv.ro/stiri/actualitate/seful-itm-timis-acuzat-de-coruptie-condamnat-la-trei-ani-si-jumatate-de-inchisoare-cu-executare.html"
+      ],
+      "note": "Profil păstrat și corectat: nu era independentă, ci membră PDL din 1996, membră a Biroului Politic Județean PDL Timiș și candidată PDL la Senat în colegiul 4 Timiș la alegerile din 2008. Numele a fost normalizat în ordinea uzuală Cornelia Gheorghina Corescu, iar baza geografică a devenit politică, Timiș. DNA confirmă definitiv 3 ani și 6 luni cu executare pentru trafic de influență și două instigări la fals intelectual.",
+      "reviewed_snapshot_hash": "a95ee5fb92e4695ad1d62f1226af767e762d8c8b5ccdf11186f4b45003f10ddc"
+    },
+    {
+      "profile_id": "RV-2996",
+      "original_name": "Cosma Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3398",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BZ",
+        "https://www.primariabrezoaele.ro/PaginiPredefinite.aspx?type=DA"
+      ],
+      "note": "Locotenent-colonel în rezervă și fost ofițer ISU Buzău, fără rol politic verificabil; profil eliminat. DNA confirmă 4 ani cu executare pentru abuz în serviciu, tentativă la abuz în serviciu, fals intelectual și uz de fals, toate în formă continuată, lista din profil fiind incompletă. Omonimul consilier local din Brezoaele, Dâmbovița, nu poate fi identificat cu ofițerul ISU Buzău și nu justifică atribuirea condamnării.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2997",
+      "original_name": "Costache Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://isuct.igsu.ro/atributii-si-istoric",
+        "https://www.ziuaconstanta.ro/stiri/justitie/breaking-news-viorel-costache-fostul-sef-al-isu-dobrogea-achitat-definitiv-800340.html"
+      ],
+      "note": "Colonel și inspector-șef ISU Dobrogea, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 24 ianuarie 2014 la 3 ani cu executare pentru asociere în vederea săvârșirii de infracțiuni și instigare, în formă continuată, la fals intelectual, uz de fals și abuz în serviciu; lista din profil era incompletă. Achitarea definitivă din 2022 privește un alt dosar, de achiziții, și nu anulează condamnarea definitivă din dosarul fraudării concursului ISU.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2998",
+      "original_name": "Coste Loredana-Mirela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4749",
+        "https://www.digi24.ro/regional/digi24-oradea/politistii-acuzati-de-trafic-de-influenta-trimisi-in-judecata-144789"
+      ],
+      "note": "Fost ofițer psiholog în IPJ Bihor, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Curtea de Apel Oradea a condamnat-o definitiv la 12 martie 2014 la 2 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru trafic de influență în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2999",
+      "original_name": "Cotiga Silviu Viorel",
+      "current_name": "Silviu Viorel Cotigă",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3270",
+        "https://www.mediafax.ro/politic/pnl-si-a-anuntat-o-parte-dintre-candidatii-pentru-alegerile-parlamentare-2835407/amp",
+        "https://www.gds.ro/Local/2010-09-18/Cotiga-vrea-iar-director/"
+      ],
+      "note": "Profil păstrat și corectat: Silviu Viorel Cotigă a fost candidat PNL la Senat în Dolj la alegerile parlamentare din 2008, deci partidul Independent era greșit. Numele a fost normalizat, iar baza geografică a devenit politică. DNA confirmă definitiv 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru șantaj; eticheta generică «Fapte de corupție» a fost înlocuită cu infracțiunea exactă.",
+      "reviewed_snapshot_hash": "de1e9f6a1007bbba541524ddf491ec51e898c9275611c19e344ba2c1a7b82eae"
+    },
+    {
+      "profile_id": "RV-3000",
+      "original_name": "Cretu Sorin Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://juri.ro/static/files/2015/iunie_2015/15/C5_Dec_12_ianuarie_2014_ds_2109-1-2013.pdf"
+      ],
+      "note": "Locotenent-colonel ISU Dobrogea, fără mandat, candidatură sau rol de partid verificabil; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 24 ianuarie 2014 la 2 ani cu suspendare sub supraveghere, termen de încercare 4 ani, pentru fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3001",
+      "original_name": "Crisan Virgil Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2219",
+        "https://adevarul.ro/stiri-locale/arad/doi-ani-de-puscarie-pentru-subcomisarul-crisan-1230821.html"
+      ],
+      "note": "Fost subcomisar și ofițer de poliție judiciară la Poliția Pecica, anterior ofițer și adjunct temporar la Poliția de Frontieră Arad, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Numele a fost diacritizat conform sursei oficiale. DNA confirmă definitiv 2 ani cu executare pentru trafic de influență în formă continuată.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

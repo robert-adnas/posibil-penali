@@ -36744,174 +36744,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Chirea Nicolae",
-    "party": "Independent",
-    "position": "Comisar garda de mediu în Garda nationala de mediu",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar garda de mediu în Garda nationala de mediu în județul Ilfov."
-    },
-    "crime": "fals intelectual și instigare la infracțiunea de fals în declarații",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2013. Condamnarea inculpatei CONSTANTIN CARMEN DANIELA, administrator al SC NIC PROD TRANS 97 SRL, la pedeapsa de 1 an închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani, pentru complicitate la infracțiunea de fals intelectual și complicitate la infracțiunea de fals în declarații.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4081"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Chirea Nicolae indică județul Ilfov, funcția \"Comisar garda de mediu\", instituția \"Garda nationala de mediu\", decizia 845 și condamnarea din 29/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Chiripuci Marian Crinu",
-    "party": "Independent",
-    "position": "Maior în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Maior în Inspectoratul pentru situatii de urgenta (MAI) în județul Giurgiu."
-    },
-    "crime": "fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 10 luni închisoare cu suspendare",
-    "sentence_years": 1.83,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Chiripuci Marian Crinu a fost condamnat definitiv la 10 iulie 2014 la 1 an și 10 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Maior în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5163"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Chiripuci Marian Crinu indică județul Giurgiu, funcția \"Maior\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 45 și condamnarea din 10/07/2014."
-      }
-    ]
-  },
-  {
-    "name": "Chiseamera Victor",
-    "party": "Independent",
-    "position": "Director general în SC Comalex SA (societate cu capital majoritar de stat)",
-    "position_type": "other",
-    "geography": {
-      "county": "Teleorman",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în SC Comalex SA (societate cu capital majoritar de stat) în județul Teleorman."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "6 ani închisoare",
-    "sentence_years": 6,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 martie 2012. Condamnarea inculpatului CHIȘEAMERA VICTOR, director general și președinte al Consiliului de administrație al societății SC Comalex SA Alexandria (societate cu capital majoritar de stat), la pedeapsa de 6 ani închisoare pentru săvârșirea infracțiunilor de: - stabilire cu intenție a unei valori diminuate față de valoarea comercială reală a bunurilor aparținând operatorilor economici la care statul este acționar, comisă în cadrul acțiunii de privatizare ori cu ocazia unei operațiuni comerciale, săvârșită de cei care au atribuții de conducere sau administrare, în scopul obținerii de bani, bunuri sau alte foloase necuvenite - încălcarea art.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3097"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Chiseamera Victor indică județul Teleorman, funcția \"Director general\", instituția \"SC Comalex SA (societate cu capital majoritar de stat)\", decizia 644 și condamnarea din 19/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Ciacaru Gabriel",
-    "party": "Independent",
-    "position": "Comandant în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comandant în Inspectoratul pentru situatii de urgenta (MAI) în județul Prahova."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, dacă funcționarul a obținut pentru sine sau pentru altul un avantaj patrimonial, în formă continuată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ciacaru Gabriel a fost condamnat definitiv la 11 aprilie 2012 la 4 ani închisoare. Funcția relevantă consemnată în sursă: Comandant în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: abuz în serviciu contra intereselor publice, dacă funcționarul a obținut pentru sine sau pentru altul un avantaj patrimonial, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3171"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ciacaru Gabriel indică județul Prahova, funcția \"Comandant\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 17 și condamnarea din 11/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Ciobanu Constantin",
-    "party": "Independent",
-    "position": "Comisar sef politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Mehedinti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar sef politie în Politie (MAI) în județul Mehedinti."
-    },
-    "crime": "trafic de influență și luare de mită",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 martie 2011. Condamnarea inculpatului CIOBANU CONSTANTIN, comisar șef, ofițer de poliție judiciară în cadrul Inspectoratului de Poliție al Județului Mehedinți, la pedeapsa de 3 ani închisoare în regim de detenție pentru săvârșirea infracțiunilor de trafic de influență și luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2273"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ciobanu Constantin indică județul Mehedinti, funcția \"Comisar sef politie\", instituția \"Politie (MAI)\", decizia 1152 și condamnarea din 23/03/2011."
-      }
-    ]
-  },
-  {
     "name": "Ciobanu Marius",
-    "party": "Independent",
-    "position": "Director coordonator adjunct în Inspectoratul teritorial de munca (MMFPS)",
+    "party": "PP-DD",
+    "position": "Vicepreședinte PP-DD Constanța; fost director coordonator adjunct ITM Constanța",
     "position_type": "other",
     "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director coordonator adjunct în Inspectoratul teritorial de munca (MMFPS) în județul Constanta."
+      "county": "Constanța",
+      "basis": "political_base",
+      "locality": "Constanța",
+      "note": "Rolul politic verificat este cel de vicepreședinte al PP-DD Constanța în 2012."
     },
     "crime": "trafic de influență",
     "sentence": "3 ani închisoare cu suspendare",
@@ -36919,8 +36760,8 @@ export const politicianAdditions = [
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 octombrie 2011. Condamnarea inculpatului CIOBANU MARIUS, director coordonator adjunct în domeniul securității și sănătății în muncă în cadrul Inspectoratului Teritorial de Muncă (I.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 3556 din 12 octombrie 2011, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Marius Ciobanu, fost director coordonator adjunct al ITM Constanța, la 3 ani de închisoare cu suspendare sub supraveghere pentru trafic de influență. Presa locală îl identifica în 2009 drept membru PDL, iar în octombrie 2012 drept vicepreședinte al PP-DD Constanța. Potrivirea de nume cu un candidat PSD la Consiliul Județean Constanța în 2024 nu este suficientă pentru atribuirea acelei candidaturi aceleiași persoane.",
+    "verified_at": "2026-08-31",
     "sources": [
       {
         "label": "DNA",
@@ -36932,18 +36773,31 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Ciobanu Marius indică județul Constanta, funcția \"Director coordonator adjunct\", instituția \"Inspectoratul teritorial de munca (MMFPS)\", decizia 3556 și condamnarea din 12/10/2011."
+      },
+      {
+        "label": "Atac de Constanța",
+        "kind": "press",
+        "url": "https://atacdeconstanta.com/mircea-marcu-si-marius-ciobanu-se-reintregesc-la-ppdd/",
+        "description": "Articolul îl identifică explicit pe fostul director adjunct al ITM Marius Ciobanu drept vicepreședinte PP-DD Constanța."
+      },
+      {
+        "label": "Ziua de Constanța",
+        "kind": "press",
+        "url": "https://www.ziuaconstanta.ro/stiri/eveniment/marius-ciobanu-sunt-membru-marcant-pd-l-69025-269043.html",
+        "description": "Articolul din 2009 îl identifică pe fostul director adjunct ITM drept membru PDL."
       }
     ]
   },
   {
     "name": "Ciobotea Petre",
-    "party": "Independent",
-    "position": "Director general în Directia regionala de drumuri si poduri (Guvernul Romaniei)",
-    "position_type": "other",
+    "party": "PSD",
+    "position": "Fost consilier local Drobeta-Turnu Severin; fost director general DRDP Craiova",
+    "position_type": "local_official",
     "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în Directia regionala de drumuri si poduri (Guvernul Romaniei) în județul Dolj."
+      "county": "Mehedinți",
+      "basis": "political_base",
+      "locality": "Drobeta-Turnu Severin",
+      "note": "A fost ales consilier local la Drobeta-Turnu Severin pe lista PSD în 2000."
     },
     "crime": "trafic de influență, în formă continuată",
     "sentence": "6 ani închisoare",
@@ -36951,8 +36805,8 @@ export const politicianAdditions = [
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ciobotea Petre a fost condamnat definitiv la 26 martie 2010 la 6 ani închisoare. Funcția relevantă consemnată în sursă: Director general în Directia regionala de drumuri si poduri (Guvernul Romaniei). Infracțiunea reținută: trafic de influență, în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Petre Ciobotea a fost ales consilier local PSD la Drobeta-Turnu Severin în 2000 și a demisionat din mandat și din partid în decembrie 2003, după flagrant. La acea dată era director general al DRDP Craiova. Prin decizia penală nr. 1180 din 26 martie 2010, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 6 ani de închisoare pentru trafic de influență în formă continuată.",
+    "verified_at": "2026-08-31",
     "sources": [
       {
         "label": "DNA",
@@ -36964,466 +36818,30 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Ciobotea Petre indică județul Dolj, funcția \"Director general\", instituția \"Directia regionala de drumuri si poduri (Guvernul Romaniei)\", decizia 1180 și condamnarea din 26/03/2010."
-      }
-    ]
-  },
-  {
-    "name": "Cionca Dumitru",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bihor."
-    },
-    "crime": "luare de mită și abuz în serviciu contra intereselor publice",
-    "sentence": "3 ani și 3 luni închisoare",
-    "sentence_years": 3.25,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 mai 2012. Condamnarea inculpatului CIONCA DUMITRU, ofițer de poliție, la pedeapsa de 1.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3229"
       },
       {
-        "label": "România Curată",
+        "label": "Adevărul",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cionca Dumitru indică județul Bihor, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 1418 și condamnarea din 03/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Cioroiu Nicusor-Ciprian",
-    "party": "Independent",
-    "position": "Capitan în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Capitan în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cioroiu Nicusor-Ciprian a fost condamnat definitiv la 24 ianuarie 2014 la 1 an și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Capitan în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
+        "url": "https://adevarul.ro/stiri-interne/societate/petre-ciobotea-directorul-de-la-drumuri-si-poduri-864088.html",
+        "description": "Articolul consemnează alegerea sa ca consilier local PSD în 2000 și demisia din mandat și partid în 2003."
       },
       {
-        "label": "România Curată",
+        "label": "Gazeta de Sud",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cioroiu Nicusor-Ciprian indică județul Constanta, funcția \"Capitan\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
+        "url": "https://www.gds.ro/Local/2004-01-09/Petre-Ciobotea-ramine-in-arest/",
+        "description": "Sursa confirmă că a fost membru al Consiliului Local Drobeta-Turnu Severin și descrie dosarul de trafic de influență."
       }
     ]
   },
   {
-    "name": "Circiu Vasile",
-    "party": "Independent",
-    "position": "Inspector vamal asistent în Birou vamal (MAI)",
+    "name": "Cornelia Gheorghina Corescu",
+    "party": "PDL",
+    "position": "Candidată PDL la Senat (2008); membră BPJ PDL Timiș; fost inspector-șef ITM Timiș",
     "position_type": "other",
     "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector vamal asistent în Birou vamal (MAI) în județul Maramures."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Circiu Vasile a fost condamnat definitiv la 17 noiembrie 2011 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector vamal asistent în Birou vamal (MAI). Infracțiunea reținută: luare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2793"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Circiu Vasile indică județul Maramures, funcția \"Inspector vamal asistent\", instituția \"Birou vamal (MAI)\", decizia 4059 și condamnarea din 17/11/2011."
-      }
-    ]
-  },
-  {
-    "name": "Ciuca Cristina",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Dolj."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ciuca Cristina a fost condamnat definitiv la 19 iulie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector în Directia generala a finantelor publice. Infracțiunea reținută: abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4223"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ciuca Cristina indică județul Dolj, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 1618 și condamnarea din 19/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Ciulacu Traian-Ovidiu-Cristinel",
-    "party": "Independent",
-    "position": "Medic sef în Centru medical judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Calarasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Medic sef în Centru medical judetean (MAI) în județul Calarasi."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 13 iunie 2013. Condamnarea inculpatului CIULACU TRAIAN-OVIDIU-CRISTINEL, medic șef al Centrului Medical Județean (C.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4155"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ciulacu Traian-Ovidiu-Cristinel indică județul Calarasi, funcția \"Medic sef\", instituția \"Centru medical judetean (MAI)\", decizia 1116 și condamnarea din 13/06/2013."
-      }
-    ]
-  },
-  {
-    "name": "Cojanu Constantin",
-    "party": "Independent",
-    "position": "Agent principal politie în Inspectorat de politie judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent principal politie în Inspectorat de politie judetean (MAI) în județul Prahova."
-    },
-    "crime": ": complicitate la cumpărare de influență, complicitate la trafic de influență și cumpărare de influență, toate în formă continuată",
-    "sentence": "5 ani închisoare",
-    "sentence_years": 5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 aprilie 2014. Condamnă pe inculpatul COJANU CONSTANTIN, fost agent principal de poliție în cadrul I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4821"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cojanu Constantin indică județul Prahova, funcția \"Agent principal politie\", instituția \"Inspectorat de politie judetean (MAI)\", decizia 491 și condamnarea din 10/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Cojita Cristinel",
-    "party": "Independent",
-    "position": "Subcomisar de politie în Inspectorat de politie judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Neamt",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Subcomisar de politie în Inspectorat de politie judetean (MAI) în județul Neamt."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 aprilie 2011. Condamnarea inculpatului COJIȚĂ CRISTINEL, subcomisar în cadrul Inspectoratului de Poliție al Județului Neamț, Serviciul Poliției Rutiere – Biroul Siguranța Circulației pentru Mediul Urban Piatra Neamț, la pedeapsa de 3 ani închisoare cu suspendare condiționată, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de șantaj.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2355"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cojita Cristinel indică județul Neamt, funcția \"Subcomisar de politie\", instituția \"Inspectorat de politie judetean (MAI)\", decizia 1597 și condamnarea din 20/04/2011."
-      }
-    ]
-  },
-  {
-    "name": "Cojocaru Georgeta Rodica",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Dolj."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cojocaru Georgeta Rodica a fost condamnat definitiv la 19 iulie 2013 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector în Directia generala a finantelor publice. Infracțiunea reținută: abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4223"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cojocaru Georgeta Rodica indică județul Dolj, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 1618 și condamnarea din 19/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Cojocaru Stefan Anton",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 septembrie 2011. Condamnarea inculpatului COJOCARU ȘTEFAN ANTON, ofițer de poliție judiciară în cadrul Direcției Generale de Poliție a Municipiului București (D.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2648"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cojocaru Stefan Anton indică județul Bucuresti, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 3021 și condamnarea din 12/09/2011."
-      }
-    ]
-  },
-  {
-    "name": "Colacel Lucian",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Calarasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Calarasi."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Colacel Lucian a fost condamnat definitiv la 18 aprilie 2012 la 2 ani închisoare. Funcția relevantă consemnată în sursă: Comisar în Garda financiara. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3225"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Colacel Lucian indică județul Calarasi, funcția \"Comisar\", instituția \"Garda financiara\", decizia 1201 și condamnarea din 18/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Coman Neculai",
-    "party": "Independent",
-    "position": "Adjunct în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Adjunct în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Coman Neculai a fost condamnat definitiv la 24 ianuarie 2014 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Adjunct în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Coman Neculai indică județul Constanta, funcția \"Adjunct\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Coman Tudora",
-    "party": "Independent",
-    "position": "Colonel în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel în Inspectoratul pentru situatii de urgenta (MAI) în județul Giurgiu."
-    },
-    "crime": "fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 10 luni închisoare cu suspendare",
-    "sentence_years": 1.83,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Coman Tudora a fost condamnat definitiv la 10 iulie 2014 la 1 an și 10 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Colonel în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5163"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Coman Tudora indică județul Giurgiu, funcția \"Colonel\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 45 și condamnarea din 10/07/2014."
-      }
-    ]
-  },
-  {
-    "name": "Constantin Daniela Violeta",
-    "party": "Independent",
-    "position": "Director general adjunct în Directia generala de asistenta sociala si protectia copilului (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general adjunct în Directia generala de asistenta sociala si protectia copilului (Consiliu Local) în județul Prahova."
-    },
-    "crime": "luare de mită, abuz în serviciu contra intereselor publice și complicitate la delapidare, toate în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 octombrie 2011. Condamnarea inculpatei CONSTANTIN DANIELA VIOLETA, fost director general adjunct economic în cadrul Direcției Generale Județene Pentru Protecția Copilului Prahova, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunilor de luare de mită, abuz în serviciu contra intereselor publice și complicitate la delapidare, toate în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2747"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Constantin Daniela Violeta indică județul Prahova, funcția \"Director general adjunct\", instituția \"Directia generala de asistenta sociala si protectia copilului (Consiliu Local)\", decizia 3835 și condamnarea din 28/10/2011."
-      }
-    ]
-  },
-  {
-    "name": "Coporiie George Robert",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "complicitate la trafic de influență",
-    "sentence": "1 an și 2 luni închisoare",
-    "sentence_years": 1.17,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Coporiie George Robert a fost condamnat definitiv la 10 octombrie 2011 la 1 an și 2 luni închisoare. Funcția relevantă consemnată în sursă: Ofiter politie în Politie (MAI). Infracțiunea reținută: complicitate la trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2712"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Coporiie George Robert indică județul Bucuresti, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 3506 și condamnarea din 10/10/2011."
-      }
-    ]
-  },
-  {
-    "name": "Corescu Cornelia Gheorghina",
-    "party": "Independent",
-    "position": "Inspector sef în Inspectoratul teritorial de munca (MMFPS)",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul teritorial de munca (MMFPS) în județul Timis."
+      "county": "Timiș",
+      "basis": "political_base",
+      "note": "A candidat din partea PDL Timiș la Senat în 2008 și a fost membră a Biroului Politic Județean PDL Timiș."
     },
     "crime": "trafic de influență și două infracțiuni de instigare la fals intelectual în scopul ascunderii comiterii infracțiunii de trafic de influență",
     "sentence": "3 ani și 6 luni închisoare",
@@ -37431,8 +36849,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 iulie 2012. Condamnarea inculpatei CORESCU CORNELIA GHEORGHINA, inspector șef al Inspectoratului Teritorial de Muncă (I.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.479 din 27 iulie 2012, Înalta Curte de Casație și Justiție a menținut condamnarea la 3 ani și 6 luni închisoare în regim de detenție pentru trafic de influență și două infracțiuni de instigare la fals intelectual, comise pentru ascunderea traficului de influență. La data faptelor era inspector-șef al ITM Timiș. Documentele electorale o consemnează candidată PDL la Senat în Timiș în 2008, iar sursele contemporane o identifică drept membră a BPJ PDL Timiș.",
+    "verified_at": "2026-08-31",
     "sources": [
       {
         "label": "DNA",
@@ -37440,127 +36858,35 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3485"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Corescu Cornelia Gheorghina indică județul Timis, funcția \"Inspector sef\", instituția \"Inspectoratul teritorial de munca (MMFPS)\", decizia 2479 și condamnarea din 27/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Cosma Stefan",
-    "party": "Independent",
-    "position": "Locotenent colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Buzau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Locotenent colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI) în județul Buzau."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cosma Stefan a fost condamnat definitiv la 20 iunie 2012 la 4 ani închisoare. Funcția relevantă consemnată în sursă: Locotenent colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Document electoral – județul Timiș, alegeri parlamentare 2008",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3398"
+        "url": "https://image.stirileprotv.ro/media/document/60195005.pdf"
       },
       {
-        "label": "România Curată",
+        "label": "Știrile ProTV",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cosma Stefan indică județul Buzau, funcția \"Locotenent colonel rezerva\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 27 și condamnarea din 20/06/2012."
+        "url": "https://stirileprotv.ro/stiri/actualitate/seful-itm-timis-acuzat-de-coruptie-condamnat-la-trei-ani-si-jumatate-de-inchisoare-cu-executare.html"
       }
     ]
   },
   {
-    "name": "Costache Viorel",
-    "party": "Independent",
-    "position": "Inspector sef în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Costache Viorel a fost condamnat definitiv la 24 ianuarie 2014 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Inspector sef în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Costache Viorel indică județul Constanta, funcția \"Inspector sef\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Coste Loredana-Mirela",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bihor."
-    },
-    "crime": "trafic de influență în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 martie 2014. Condamnă pe inculpatul BOTTO GEORGE-ALEXANDRU, fost agent de poliție în cadrul Serviciului de Informații și Protecție Internă Bihor și COSTE LOREDANA-MIRELA, fost ofițer de poliție în cadrul Inspectoratului de Poliție al Județului Bihor, la o pedeapsă de 2 ani închisoare cu suspendarea sub supraveghere a executării pedepsei pe durata unui termen de încercare de 6 ani, pentru săvârșirea infracțiunii de trafic de influență în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4749"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Coste Loredana-Mirela indică județul Bihor, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 102 și condamnarea din 12/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Cotiga Silviu Viorel",
-    "party": "Independent",
-    "position": "Inspector sef în Inspectoratul teritorial de munca (MMFPS)",
+    "name": "Silviu Viorel Cotigă",
+    "party": "PNL",
+    "position": "Candidat PNL la Senat în Dolj (2008); fost inspector-șef ITM Dolj",
     "position_type": "other",
     "geography": {
       "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul teritorial de munca (MMFPS) în județul Dolj."
+      "basis": "political_base",
+      "note": "A candidat din partea PNL la Senat în județul Dolj la alegerile parlamentare din 2008."
     },
-    "crime": "Fapte de corupție",
+    "crime": "șantaj",
     "sentence": "3 ani închisoare cu suspendare",
     "sentence_years": 3,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 15 mai 2012. Condamnarea inculpatului COTIGĂ SILVIU VIOREL, inspector șef al Inspectoratului Teritorial de Muncă Dolj, la pedeapsa de 3 ani închisoare cu suspendare condiționată, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de șantaj.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 1.118 din 15 mai 2012, Curtea de Apel Craiova l-a condamnat definitiv la 3 ani închisoare cu suspendare condiționată, pe un termen de încercare de 5 ani, pentru șantaj. La data faptei era inspector-șef al ITM Dolj. În 2008 a candidat din partea PNL la Senat în județul Dolj.",
+    "verified_at": "2026-08-31",
     "sources": [
       {
         "label": "DNA",
@@ -37568,74 +36894,9 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3270"
       },
       {
-        "label": "România Curată",
+        "label": "Mediafax",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cotiga Silviu Viorel indică județul Dolj, funcția \"Inspector sef\", instituția \"Inspectoratul teritorial de munca (MMFPS)\", decizia 1118 și condamnarea din 15/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Cretu Sorin Marius",
-    "party": "Independent",
-    "position": "Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cretu Sorin Marius a fost condamnat definitiv la 24 ianuarie 2014 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cretu Sorin Marius indică județul Constanta, funcția \"Locotenent colonel\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Crisan Virgil Vasile",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arad",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Arad."
-    },
-    "crime": "trafic de influență în formă continuată",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 februarie 2011. Condamnarea inculpatului CRIȘAN VIRGIL VASILE, ofițer de poliție judiciară la Inspectoratul de Poliție al Județului (IPJ) Arad - Poliția Orașului Pecica, la pedeapsa de 2 ani închisoare pentru săvârșirea infracțiunii de trafic de influență în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2219"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Crisan Virgil Vasile indică județul Arad, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 727 și condamnarea din 24/02/2011."
+        "url": "https://www.mediafax.ro/politic/pnl-si-a-anuntat-o-parte-dintre-candidatii-pentru-alegerile-parlamentare-2835407/amp"
       }
     ]
   },
