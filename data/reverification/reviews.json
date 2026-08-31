@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28",
+  "updated_at": "2026-08-31",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -43877,6 +43877,826 @@
       ],
       "note": "Profil politic confirmat și corectat: partidul PC, funcțiile de fost vicepremier și senator de Argeș, tip senator și geografie pe circumscripție. Situația juridică a fost completată cu ambele condamnări definitive din 2014, contopirea în pedeapsa de 4 ani și liberarea condiționată din 7 aprilie 2015.",
       "reviewed_snapshot_hash": "f8358199ba58f439fc249692e1fb65023493f93798b9632b85f2e1c0573d8a65"
+    },
+    {
+      "profile_id": "RV-2876",
+      "original_name": "Hanaru Ioan",
+      "current_name": "Hanaru Ioan Lucian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3342",
+        "https://www.cicnet.ro/sites/www.cicnet.ro/files/sedinte-cji/2017-12-04/1596/198-anexa.pdf",
+        "https://cicnet.ro/sites/www.cicnet.ro/files/sedinte-cji/2012-12-14/518/anexahot92.pdf"
+      ],
+      "note": "Identitatea completă, afilierea PDSR/PSD și funcțiile județene au fost corectate din documente oficiale; condamnarea definitivă din 2012 este confirmată de DNA.",
+      "reviewed_snapshot_hash": "5fc1cd4c199fa407788c885a081a685f1812348c3a721fc02ccc88625946d570"
+    },
+    {
+      "profile_id": "RV-2877",
+      "original_name": "Minea Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3344"
+      ],
+      "note": "DNA îl identifică exclusiv ca fost președinte al consiliului de administrație și director general al SC Alutus SA; nu a fost identificat un mandat, o candidatură sau o funcție politică. Profil eliminat ca persoană din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2879",
+      "original_name": "Staicu Dinel",
+      "current_name": "Dinel Staicu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5307",
+        "https://www.dna.ro/comunicat.xhtml?id=4461",
+        "https://www.gds.ro/Actualitate/2004-04-06/Dinel-Staicu-candidat-la-primarie/"
+      ],
+      "note": "Profilul este politic prin candidatura la Primăria Craiova din 2004. Numele, partidul și rolul au fost corectate; condamnarea de 7 ani din 2011 fusese anulată, iar statusul a fost actualizat la condamnarea definitivă de 5 ani din 2014.",
+      "reviewed_snapshot_hash": "341e9709c280bc576b4a04a189f96cb99a94e265cb72f78b2ac9f8e27ee1b658"
+    },
+    {
+      "profile_id": "RV-2880",
+      "original_name": "Moldovan Flaviu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2274"
+      ],
+      "note": "Sursele îl identifică drept conducător executiv al SC Sidex SA Galați, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat ca persoană din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2881",
+      "original_name": "Bogin Anghel-Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5030"
+      ],
+      "note": "DNA îl identifică drept director al DGFP Alba, funcție administrativă, fără mandat, candidatură sau apartenență politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2882",
+      "original_name": "Cireasa Victoria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3330"
+      ],
+      "note": "DNA o identifică drept directoare a Școlii Române de Afaceri a Camerei de Comerț Brăila. Nu a fost identificată o funcție, candidatură sau afiliere politică verificabilă; profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2883",
+      "original_name": "Costar Romulus",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4151"
+      ],
+      "note": "DNA îl identifică drept șef de serviciu în Administrația Finanțelor Publice Brad. Nu există dovezi pentru mandat, candidatură ori funcție politică; profil eliminat ca funcționar administrativ din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2884",
+      "original_name": "Creanga Emil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650"
+      ],
+      "note": "Profilul privește un fost inspector școlar general, fără mandat electoral, candidatură sau afiliere politică verificabilă în sursele găsite. Eliminat conservator din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2886",
+      "original_name": "Damian Doinita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650"
+      ],
+      "note": "Persoana este identificată ca șef contabil al Inspectoratului Școlar Județean Neamț, fără rol politic verificabil. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2887",
+      "original_name": "Dicea Irina Olguta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2893"
+      ],
+      "note": "DNA o identifică drept șef al serviciului financiar-contabil al unei agenții din subordinea MTS, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2888",
+      "original_name": "Dragancea Raducu Sergiu Gelu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3495"
+      ],
+      "note": "DNA îl identifică drept director executiv al APIA Dolj, iar căutările nominale nu confirmă mandat, candidatură sau rol politic. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2890",
+      "original_name": "Girlea Ioana Iuliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2719"
+      ],
+      "note": "DNA o identifică drept directoare a centrului regional SAPARD Alba Iulia. Nu a fost identificat un mandat, o candidatură sau un rol politic; profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2891",
+      "original_name": "Hoban Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3559"
+      ],
+      "note": "DNA o identifică drept inspector în DGFP Timiș, fără funcție electivă, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2892",
+      "original_name": "Hoffmann Csaba",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3865"
+      ],
+      "note": "DNA îl identifică drept șef al Biroului Regional Covasna al ADR Centru. Nu a fost găsită o funcție electivă, candidatură sau afiliere politică verificabilă; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2895",
+      "original_name": "Piroska Klara Ilona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3559"
+      ],
+      "note": "DNA o identifică drept director al Administrației Financiare Timișoara, fără mandat, candidatură ori funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2898",
+      "original_name": "Savin Rodica Anca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650"
+      ],
+      "note": "Profilul privește un fost inspector școlar general adjunct, fără mandat electoral, candidatură sau afiliere politică verificabilă. Eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2899",
+      "original_name": "Spiridonescu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650"
+      ],
+      "note": "Fost inspector școlar general adjunct, fără mandat electoral, candidatură sau afiliere politică verificabilă în sursele consultate. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2901",
+      "original_name": "Abrihan Crina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4125"
+      ],
+      "note": "Inspector fiscal al DGFP Maramureș, fără funcție electivă, candidatură sau afiliere politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2902",
+      "original_name": "Afloare Cristina Eugenia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4747"
+      ],
+      "note": "Fost comisar al Protecției Consumatorilor Bihor, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2903",
+      "original_name": "Afronie Eugen-Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917"
+      ],
+      "note": "Ofițer al Inspectoratului pentru Situații de Urgență Caraș-Severin, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2904",
+      "original_name": "Albisteanu Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4154"
+      ],
+      "note": "Șef al Serviciului Județean de Metrologie Legală Tulcea, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2905",
+      "original_name": "Alecu Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630"
+      ],
+      "note": "Colonel în rezervă al ISU Constanța, fără mandat electoral, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2906",
+      "original_name": "Alexandrescu Anca Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4744"
+      ],
+      "note": "Fost director executiv al DSP Argeș, fără mandat, candidatură sau afiliere politică verificabilă în sursele găsite. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2907",
+      "original_name": "Alexandrescu Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630"
+      ],
+      "note": "Maior în cadrul ISU Constanța, fără funcție electivă, candidatură sau afiliere politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2908",
+      "original_name": "Alexe Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "Maior în rezervă al ISU Giurgiu, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2909",
+      "original_name": "Ambro Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-28",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1888"
+      ],
+      "note": "Inspector vamal, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2910",
+      "original_name": "Andreescu Simona Liana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157"
+      ],
+      "note": "Șef de serviciu în cadrul CFR, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2911",
+      "original_name": "Anghel Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4518"
+      ],
+      "note": "Comisar al Gărzii Financiare Gorj, fără mandat, candidatură sau rol politic verificabil; coincidențele nominale nu au fost atribuite acestei persoane. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2912",
+      "original_name": "Anghel Mihai Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4633"
+      ],
+      "note": "Comisar al Gărzii Financiare București, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2913",
+      "original_name": "Anghelescu Gheorghe Relu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3340"
+      ],
+      "note": "Șef de serviciu contractual/administrativ în Consiliul Județean Dâmbovița, fără mandat electoral, candidatură sau rol politic verificabil. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2914",
+      "original_name": "Antohe Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620"
+      ],
+      "note": "Fost director adjunct al unei unități școlare, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2915",
+      "original_name": "Anton Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3583"
+      ],
+      "note": "Ofițer de conturi CEC, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2916",
+      "original_name": "Anton Ioan Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4001"
+      ],
+      "note": "Ofițer de poliție judiciară în IPJ Vaslui, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2917",
+      "original_name": "Antonie Corneliu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5532"
+      ],
+      "note": "Comisar al Gărzii Financiare Neamț, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2918",
+      "original_name": "Arsene Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4130"
+      ],
+      "note": "Inspector al DGFP Olt, fără mandat, candidatură sau funcție politică verificabilă; nu trebuie confundat cu persoane politice cu nume asemănător. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2919",
+      "original_name": "Atanasoaie Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4771"
+      ],
+      "note": "Fost șef al Poliției Dragomirești, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2920",
+      "original_name": "Babucea Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4485"
+      ],
+      "note": "Comisar al Gărzii Naționale de Mediu Gorj, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2921",
+      "original_name": "Badea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3413"
+      ],
+      "note": "Inspector fiscal ANAF Argeș, fără mandat, candidatură sau rol politic verificabil; coincidențele de nume nu au fost atribuite acestei persoane. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2922",
+      "original_name": "Balan Laurentiu Ionut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857"
+      ],
+      "note": "Fost inspector principal de poliție la IPJ Argeș, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2923",
+      "original_name": "Balasa Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3843"
+      ],
+      "note": "Fost agent de poliție în Prahova, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2924",
+      "original_name": "Balus Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2354"
+      ],
+      "note": "Colonel în rezervă și fost șef de serviciu în IGSU, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2925",
+      "original_name": "Bancila Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4361"
+      ],
+      "note": "Adjunct al inspectorului-șef al structurii silvice teritoriale, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2926",
+      "original_name": "Banica Stefan Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5405"
+      ],
+      "note": "Fost ofițer de poliție judiciară în IPJ Dolj, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2927",
+      "original_name": "Barbusoiu Cosmin Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4068"
+      ],
+      "note": "Comisar al Gărzii Financiare Brașov, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2928",
+      "original_name": "Bardaus Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175"
+      ],
+      "note": "Contabil-șef al Direcției pentru Agricultură Prahova, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2929",
+      "original_name": "Belbea Nadia Camelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "Căpitan în cadrul ISU Giurgiu, fără mandat, candidatură sau rol politic verificabil. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2931",
+      "original_name": "Berheci Dana Florentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3635"
+      ],
+      "note": "Fost director executiv adjunct al DSVSA Botoșani, fără mandat, candidatură sau afiliere politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2932",
+      "original_name": "Blanaru Dragos Mirel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "Locotenent în cadrul ISU Giurgiu, fără mandat, candidatură sau funcție politică verificabilă. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2933",
+      "original_name": "Boc Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946"
+      ],
+      "note": "Director al SISE Electrica, fără mandat, candidatură sau afiliere politică verificabilă; coincidențele de nume nu au fost atribuite acestei persoane. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2934",
+      "original_name": "Bochis Nicoleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3705"
+      ],
+      "note": "Director tehnic administrativ în cadrul Consiliului Județean Mureș, fără mandat electoral, candidatură sau afiliere politică verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2935",
+      "original_name": "Boila Adrian Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1887"
+      ],
+      "note": "Inspector de specialitate al DGFP Mureș, fără mandat, candidatură sau rol politic verificabil; nu este atribuit persoanelor politice cu același nume de familie. Profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
