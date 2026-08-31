@@ -4117,6 +4117,20 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-2751"
+    },
+    "Bologeanu Florin": {
+      "held_at": "2026-08-31",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-2937"
+    },
+    "Cernat Liviu-Costel": {
+      "held_at": "2026-08-31",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-2967"
     }
   }
 }

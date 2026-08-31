@@ -44697,6 +44697,575 @@
       ],
       "note": "Inspector de specialitate al DGFP Mureș, fără mandat, candidatură sau rol politic verificabil; nu este atribuit persoanelor politice cu același nume de familie. Profil eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2936",
+      "original_name": "Bologa Irina Lucia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5235"
+      ],
+      "note": "Agentă de poliție judiciară, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2937",
+      "original_name": "Bologeanu Florin",
+      "current_name": "Bologeanu Florin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3398",
+        "https://primaria-margineni.ro/continut/fisiere/2024/11/bc_senat_2024-4.pdf"
+      ],
+      "note": "Datele funcției, județului și rezumatului juridic au fost corectate după comunicatul DNA. Un candidat PSDI cu același nume apare pe buletinul oficial pentru Senat Bacău 2024, dar nu există dovezi suficiente că este aceeași persoană; nu i se atribuie afilierea sau candidatura.",
+      "reviewed_snapshot_hash": "9a70d0239a66c6673d823a88868c28a158d625670e56bfae7c332fbddf97bd69"
+    },
+    {
+      "profile_id": "RV-2938",
+      "original_name": "Borcea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4136"
+      ],
+      "note": "Inspector superior în Direcția Taxe și Impozite a Consiliului Local Piatra Neamț, funcție administrativă, fără mandat, candidatură sau rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2939",
+      "original_name": "Bordea Catalina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4136",
+        "https://www.primariapn.ro/fisiere/hcl/decembrie2006/anexa_3_426_2006.pdf"
+      ],
+      "note": "Identificată oficial drept Cătălina-Mirela Bordea, șef serviciu/consilier juridic în Direcția Taxe și Impozite Piatra Neamț. Funcție administrativă, fără mandat, candidatură sau rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2940",
+      "original_name": "Bothaza Ioan Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1888",
+        "https://www.dna.ro/comunicat.xhtml?id=715"
+      ],
+      "note": "Numele oficial este Ioan-Radu Bothază; inspector vamal la Direcția Regională Vamală Cluj, fără mandat, candidatură sau rol politic verificabil. Profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2941",
+      "original_name": "Botto George-Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4749"
+      ],
+      "note": "Fost agent de poliție SIPI Bihor, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2942",
+      "original_name": "Brabete Stelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "Cadru militar în rezervă/fost angajat ISU Giurgiu, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2943",
+      "original_name": "Bradean Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4661",
+        "https://cdn.hidroelectrica.ro/cdn/rapoarte_anuale/Raport_Anual_2013_ro.pdf"
+      ],
+      "note": "Numele corect este Eugen Brădean; manager și fost membru al Directoratului Hidroelectrica, fără mandat, candidatură sau afiliere politică verificabilă. Profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2944",
+      "original_name": "Breazu Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "Colonel în rezervă/fost angajat ISU Giurgiu, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2945",
+      "original_name": "Brencea Aurelius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3331"
+      ],
+      "note": "Fost ofițer de poliție rutieră Pitești, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2946",
+      "original_name": "Bucur Mioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4744",
+        "https://www.cmarges.ro/LISTA%20ELECTORALA%20PERMANENTA%20Arges%20actualizata.pdf"
+      ],
+      "note": "Medic și fost director executiv adjunct al DSP Argeș; există relatări despre apropierea de fostul PD/PDL, dar nu un mandat, o candidatură sau un rol de conducere în partid verificabil. Funcție administrativă, profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2947",
+      "original_name": "Buga Liviu-Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3803",
+        "https://www.primariapn.ro/fisiere/hcl/septembrie2006/anexa_2_312_2006.pdf"
+      ],
+      "note": "Agent/referent în Poliția Locală Piatra Neamț, funcție publică de execuție, fără mandat, candidatură sau rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2948",
+      "original_name": "Bugnar Adrian Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://juri.ro/static/files/2015/iunie_2015/15/C5_Dec_12_ianuarie_2014_ds_2109-1-2013.pdf"
+      ],
+      "note": "Ofițer ISU Dobrogea și membru al unei comisii de concurs, fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2949",
+      "original_name": "Bugnar Marius Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://agendapompierului.ro/articole/Salvatori_printre_ingeri/2024_09/In_memoriam_Capitan__r__Bugnar_Marius_Sorin.html"
+      ],
+      "note": "Fost comandant de secție și căpitan ISU Dobrogea, trecut în rezervă în 2014 și decedat în 2024; fără mandat, candidatură sau rol politic verificabil. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2950",
+      "original_name": "Bulgaru Marius Octavian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4189",
+        "https://www.viata-libera.ro/pdf/2012/09_septembrie/vlg_25_sept.pdf"
+      ],
+      "note": "Numele apare oficial și ca Marius-Octavian Bulgaru; ofițer de poliție judiciară la Tecuci, fără mandat, candidatură sau rol politic verificabil. Profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2953",
+      "original_name": "Busega Georgel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4505",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3708"
+      ],
+      "note": "Numele corect este Georgel Bușega; agent șef principal la Poliția Rutieră Videle, fără mandat, candidatură sau rol politic verificabil. Profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2954",
+      "original_name": "Butur Eugen Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3394",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1030"
+      ],
+      "note": "Fost director executiv al Direcției Regionale Vamale Iași, funcționar public fără mandat, candidatură sau rol politic verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2955",
+      "original_name": "Calcan Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3414"
+      ],
+      "note": "Colonel în rezervă și fost șef de serviciu în Statul Major al Forțelor Terestre, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2956",
+      "original_name": "Cale Relu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5002",
+        "https://cvlpress.ro/wp-content/uploads/2013/04/130418.pdf"
+      ],
+      "note": "Numele corect este Căle Relu. Ofițer de poliție judiciară la Poliția Municipiului Craiova, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2957",
+      "original_name": "Calinescu George-Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4030",
+        "https://v3.monitorulsv.ro/Local/2011-09-22/Bautura-si-tigari-din-duty-free-si-Ucraina-returnate-unui-politist-de-frontiera"
+      ],
+      "note": "Numele corect este Călinescu George-Ioan. Fost șef de tură și ofițer de poliție judiciară la Sectorul Poliției de Frontieră Siret, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2958",
+      "original_name": "Camen Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4823",
+        "https://iscir.ro/comunicat-privind-anularea-atestatelor-detinute-de-d-nul-camen-gheorghe"
+      ],
+      "note": "Fost inspector-șef ISCIR Brașov, funcționar tehnic fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2959",
+      "original_name": "Carali Valentin Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4495",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1280"
+      ],
+      "note": "Fost ofițer superior SRI, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2960",
+      "original_name": "Carp Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2498"
+      ],
+      "note": "Fost șef al Postului de Poliție Berezeni, agent-șef de poliție fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2961",
+      "original_name": "Casamandra Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318",
+        "https://www.dna.ro/comunicat.xhtml?id=1393"
+      ],
+      "note": "Numele oficial este Căsămândră Vasile. Inspector vamal la DJAOV Neamț, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. Aparițiile omonime din Jandarmerie nu au fost confundate cu identitatea din dosarul vamal.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2962",
+      "original_name": "Cataron Oprea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3920"
+      ],
+      "note": "Numele oficial este Cațaron Oprea. Fost șef de birou în Serviciul de Informații și Protecție Internă Gorj, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2963",
+      "original_name": "Cazacu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2946",
+        "https://adevarul.ro/stiri-locale/resita/resita-inspector-de-la-fisc-mituit-cu-un-laptop-710327.html"
+      ],
+      "note": "Inspector fiscal la DGFP Caraș-Severin, Serviciul Control Fiscal Persoane Fizice, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. Identitatea a fost separată de omonimul Constantin Cazacu, fost director general MFA Mizil, dintr-un alt dosar.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2964",
+      "original_name": "Cazacu Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5546",
+        "https://www.ziuaconstanta.ro/diverse/stiri-calde/comisarul-sef-ionel-cazacu-condamnat-definitiv-519088.html",
+        "https://primariavanatorigalati.ro/documente/registratura/anunturi_importanta_publica/curent/Hotararea%20nr.%2010%20%26%20nr.%2011%20din%2029.04.2024%20-%20BECC%20Vanatori/Hotararea%20nr.%2010%20%26%20nr.%2011%20din%2029.04.2024%20-%20BECC%20Vanatori.PDF"
+      ],
+      "note": "Profilul juridic îl privește pe fostul comisar-șef IPJ Constanța și șef al Biroului Urmăriri, fără rol politic verificabil, deci a fost eliminat. Candidatul omonim ADU la Consiliul Local Vânători, Galați, în 2024 este o identitate locală distinctă; condamnarea nu i-a fost atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2965",
+      "original_name": "Celea Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1010"
+      ],
+      "note": "Inspector fiscal la DGFP Dolj, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2966",
+      "original_name": "Cercel Calin Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4014",
+        "https://romanialibera.ro/special/fost-si-actual-sef-la-politia-de-frontiera-deferiti-justitiei-de-dna-141036/"
+      ],
+      "note": "Numele corect este Cercel Călin Costel. Fost director adjunct al Direcției Poliției de Frontieră Rădăuți, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2967",
+      "original_name": "Cernat Liviu-Costel",
+      "current_name": "Cernat Liviu-Costel",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2917",
+        "https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2024/11/PV_Birou_Electoral_Parlament_2024_29_11_anonimizat.pdf"
+      ],
+      "note": "Dosarul DNA și condamnarea definitivă identifică ofițerul de poliție judiciară Liviu-Costel Cernat din IPJ Iași. Un document electoral oficial din 2024 indică în același județ un omonim exact, LIVIU-COSTEL CERNAT, reprezentant FD într-un birou electoral, dar nu există suficiente date publice pentru a demonstra că este aceeași persoană. Profilul este păstrat ascuns pentru a nu atribui greșit condamnarea sau afilierea politică.",
+      "reviewed_snapshot_hash": "65baa46e0b026ae10f00b7208d58dee4e69706c603b4e94a76044b93fd37e2f8"
+    },
+    {
+      "profile_id": "RV-2968",
+      "original_name": "Ceuca Gavrila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3778",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1473"
+      ],
+      "note": "Numele corect este Ceucă Gavrilă. Agent de poliție de frontieră la PTF Petea, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat. Sursa DNA arată o pedeapsă definitivă de 10 luni cu suspendare pentru dare de mită, nu 1 lună și nici instigare la dare de mită cum indica profilul.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2969",
+      "original_name": "Chincea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4853"
+      ],
+      "note": "Fost inspector vamal la Biroul Vamal Aeroport Timișoara, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2970",
+      "original_name": "Chira Gabriel-Narcis",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4014",
+        "https://www.inppa.ro/wp-content/uploads/2020/12/DECIZIA_CP_2020_validare_examen_absolvire.pdf"
+      ],
+      "note": "Fost ofițer de poliție de frontieră la Biroul de Combatere a Infracționalității Transfrontaliere Suceava, ulterior avocat în Baroul Suceava, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-2971",
+      "original_name": "Chiran Cristian-Nicusor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4505",
+        "https://www.ziuacargo.ro/consultanta/politisti-si-inspectori-isctr-prinsi-cu-spaga-34592.html/"
+      ],
+      "note": "Numele corect este Chiran Cristian-Nicușor. Fost ofițer de poliție judiciară și inspector principal la Poliția Orașului Videle, fără mandat, candidatură sau rol de partid verificabil; profil din afara domeniului politic, eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
