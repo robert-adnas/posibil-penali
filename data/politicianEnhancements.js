@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-08-03',
+  last_updated: '2026-09-02',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat penal), integrity (incident administrativ de integritate constatat de ANI), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -16649,12 +16649,6 @@ const AUTOMATED_JUL_10_2026_ROBU_PARTY_SOURCE = {
   url: 'https://www.senat.ro/Legis/Lista.aspx?cod=16419',
 };
 
-const AUTOMATED_JUL_10_2026_DIACONU_PARTY_SOURCE = {
-  label: 'Radio România Timișoara',
-  kind: 'press',
-  url: 'https://www.radiotimisoara.ro/administratie-politica/politica/dan-diaconu-a-demisionat-de-la-sefia-pnl-timisoara-240476.html',
-};
-
 const AUTOMATED_JUL_10_2026_STOIA_PARTY_SOURCE = {
   label: 'deBanat',
   kind: 'press',
@@ -16807,29 +16801,6 @@ const AUTOMATED_JUL_10_2026_MORE_PEOPLE_RECORDS = [
       'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează că decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara a dispus achitarea definitivă, întrucât fapta nu este prevăzută de legea penală.',
     verified_at: '2026-08-25',
     sources: [AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE, AUTOMATED_JUL_10_2026_ROBU_PARTY_SOURCE],
-  },
-  {
-    name: 'Diaconu Dan Aurel',
-    party: 'PNL',
-    position: 'Fost viceprimar al municipiului Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Timișoara, județul Timiș.',
-    },
-    crime: 'Abuz în serviciu cu obținere de foloase necuvenite',
-    sentence: 'Achitat definitiv (2026)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'acquitted',
-    details:
-      'DNA l-a trimis în judecată în dosarul vânzării de imobile din Timișoara, iar actualizarea oficială din 5 mai 2026 consemnează achitarea definitivă prin decizia penală nr. 153/27.02.2026 a Curții de Apel Timișoara.',
-    verified_at: '2026-08-25',
-    sources: [
-      AUTOMATED_JUL_10_2026_TIMISOARA_HOUSES_DNA_SOURCE,
-      AUTOMATED_JUL_10_2026_DIACONU_PARTY_SOURCE,
-    ],
   },
   {
     name: 'Stoia Traian Constantin',
@@ -36901,166 +36872,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Cristea Florentina-Diana",
-    "party": "Independent",
-    "position": "Director în Birou regional de cooperare transfrontaliera (MDRAP)",
-    "position_type": "other",
-    "geography": {
-      "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Birou regional de cooperare transfrontaliera (MDRAP) în județul Giurgiu."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 aprilie 2014. condamnarea inculpatului, care beneficiază de reducerea cu o treime a limitelor de pedeapsă prevăzute de lege, în cazul pedepsei închisorii, și de reducerea cu o pătrime a limitelor de pedeapsă prevăzute de lege, în cazul pedepsei amenzii(.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4875"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cristea Florentina-Diana indică județul Giurgiu, funcția \"Director\", instituția \"Birou regional de cooperare transfrontaliera (MDRAP)\", decizia 740 și condamnarea din 30/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Cristea Nicolae",
-    "party": "Independent",
-    "position": "Director general în Loteria romana",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în Loteria romana în județul Bucuresti."
-    },
-    "crime": "evaziune fiscală în formă continuată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 25 august 2014. Condamnă pe inculpatul CRISTEA NICOLAE, la data faptelor director general și președinte al Consiliului de Administrație în cadrul Companiei Naționale «Loteria Română», la pedeapsa de 4 ani închisoare pentru săvârșirea a două infracțiuni concurente de complicitate la evaziune fiscală în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5200"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cristea Nicolae indică județul Bucuresti, funcția \"Director general\", instituția \"Loteria romana\", decizia 185 și condamnarea din 25/08/2014."
-      }
-    ]
-  },
-  {
-    "name": "Crudu Iulia Anca",
-    "party": "Independent",
-    "position": "Sef serviciu în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei) în județul Timis."
-    },
-    "crime": "complicitate la infracțiunea de abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave, instigare la două infracțiuni de fals intelectual",
-    "sentence": "5 ani închisoare",
-    "sentence_years": 5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 februarie 2013. Condamnarea inculpatei CRUDU IULIA ANCA, șefa Serviciului Aprovizionare a SISEE Banat, la pedeapsa de 5 ani închisoare pentru săvârșirea următoarelor infracțiuni: complicitate la infracțiunea de abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave, instigare la două infracțiuni de fals intelectual.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3946"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Crudu Iulia Anca indică județul Timis, funcția \"Sef serviciu\", instituția \"Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)\", decizia 702 și condamnarea din 27/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Cucuiu Mihai Radu",
-    "party": "Independent",
-    "position": "Director tehnic în Regia autonoma de distributie a energiei termice (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director tehnic în Regia autonoma de distributie a energiei termice (Consiliu Local) în județul Bucuresti."
-    },
-    "crime": "luare de mită",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cucuiu Mihai Radu a fost condamnat definitiv la 26 noiembrie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Director tehnic în Regia autonoma de distributie a energiei termice (Consiliu Local). Infracțiunea reținută: luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4495"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cucuiu Mihai Radu indică județul Bucuresti, funcția \"Director tehnic\", instituția \"Regia autonoma de distributie a energiei termice (Consiliu Local)\", decizia 3714 și condamnarea din 26/11/2013."
-      }
-    ]
-  },
-  {
-    "name": "Curt Iosip Mihai-Stefan",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Cluj."
-    },
-    "crime": "trafic de influență",
-    "sentence": "3 ani și 10 luni închisoare cu suspendare",
-    "sentence_years": 3.83,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 iunie 2014. Condamnă pe inculpatul CURT IOSIP MIHAI-ȘTEFAN, la data faptelor ofițer de poliție judiciară în cadrul I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5065"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Curt Iosip Mihai-Stefan indică județul Cluj, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 189 și condamnarea din 20/06/2014."
-      }
-    ]
-  },
-  {
     "name": "Cutean Emilian Vasile",
     "party": "Independent",
     "position": "Secretar de stat în Guvernul Romaniei",
@@ -37089,102 +36900,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Cutean Emilian Vasile indică județul Bucuresti, funcția \"Secretar de stat\", instituția \"Guvernul Romaniei\", decizia 274 și condamnarea din 07/02/2012."
-      }
-    ]
-  },
-  {
-    "name": "Dagalita Ion",
-    "party": "Independent",
-    "position": "Agent politie frontiera în Politia de frontiera (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie frontiera în Politia de frontiera (MAI) în județul Caras-Severin."
-    },
-    "crime": "luare de mită în formă continuată și aderare la un grup infracțional organizat",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 2 decembrie 2011. Condamnă pe inculpatul DĂGĂLIȚĂ ION, agent de poliție de frontieră, la 3 ani închisoare cu suspendare sub supraveghere pe un termen de încercare de 7 ani, pentru săvârșirea infracțiunilor de luare de mită în formă continuată și aderare la un grup infracțional organizat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2881"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dagalita Ion indică județul Caras-Severin, funcția \"Agent politie frontiera\", instituția \"Politia de frontiera (MAI)\", decizia 336 și condamnarea din 02/12/2011."
-      }
-    ]
-  },
-  {
-    "name": "Dan Viorel",
-    "party": "Independent",
-    "position": "Director general în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei) în județul Timis."
-    },
-    "crime": "luare de mită, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave, instigare la infracțiunea de fals intelectual, fals intelectual și spălare de bani",
-    "sentence": "7 ani închisoare",
-    "sentence_years": 7,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 februarie 2013. Condamnarea inculpatului DAN VIOREL, fost director general la Societatea de Întreținere, Servicii Energetice Electrice (SISEE) Banat, la pedeapsa de 7 ani închisoare pentru săvârșirea următoarelor infracțiuni: luare de mită, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave, instigare la infracțiunea de fals intelectual, fals intelectual și spălare de bani.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3946"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dan Viorel indică județul Timis, funcția \"Director general\", instituția \"Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)\", decizia 702 și condamnarea din 27/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Datcu Costel",
-    "party": "Independent",
-    "position": "Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Datcu Costel a fost condamnat definitiv la 24 ianuarie 2014 la 2 ani și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Locotenent colonel în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Datcu Costel indică județul Constanta, funcția \"Locotenent colonel\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
       }
     ]
   },

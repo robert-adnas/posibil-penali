@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -39305,18 +39305,18 @@
     {
       "profile_id": "RV-0472",
       "original_name": "Diaconu Dan Aurel",
-      "current_name": "Diaconu Dan Aurel",
-      "decision": "confirmed",
+      "current_name": null,
+      "decision": "removed",
       "identity": "confirmed",
       "legal_status": "confirmed",
       "scope": "political",
-      "reviewed_at": "2026-08-25",
-      "reviewer": "Codex",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex + solicitare persoană vizată",
       "evidence": [
         "https://www.dna.ro/comunicat.xhtml?id=9688"
       ],
-      "note": "Identitatea de fost viceprimar și achitarea definitivă din 2026 sunt confirmate.",
-      "reviewed_snapshot_hash": "54f3e723c8f355cd6f0e2d02071ea115901213ff46e81687a2e074a775ed27d0"
+      "note": "Profil eliminat de pe site la solicitarea persoanei vizate, în urma achitării definitive din 2026.",
+      "reviewed_snapshot_hash": null
     },
     {
       "profile_id": "RV-0473",
@@ -45757,6 +45757,143 @@
         "https://adevarul.ro/stiri-locale/arad/doi-ani-de-puscarie-pentru-subcomisarul-crisan-1230821.html"
       ],
       "note": "Fost subcomisar și ofițer de poliție judiciară la Poliția Pecica, anterior ofițer și adjunct temporar la Poliția de Frontieră Arad, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Numele a fost diacritizat conform sursei oficiale. DNA confirmă definitiv 2 ani cu executare pentru trafic de influență în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3002",
+      "original_name": "Cristea Florentina-Diana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4875",
+        "https://www.dna.ro/comunicat.xhtml?id=5744"
+      ],
+      "note": "Fost director al Biroului Regional de Cooperare Transfrontalieră Giurgiu, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Comunicarea DNA aferentă profilului confirmă condamnarea definitivă la 4 ani cu executare pentru folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete, cu obținerea pe nedrept de fonduri ale Uniunii Europene. O comunicare DNA separată consemnează o altă condamnare definitivă, la 4 ani și 6 luni, în alt dosar; cauzele nu au fost amestecate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3003",
+      "original_name": "Cristea Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5200"
+      ],
+      "note": "Fost director general și președinte al Consiliului de Administrație al Companiei Naționale Loteria Română, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 4 ani cu executare pentru două infracțiuni concurente de complicitate la evaziune fiscală în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3004",
+      "original_name": "Crudu Iulia Anca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946",
+        "https://www.dna.ro/comunicat.xhtml?id=4120"
+      ],
+      "note": "Fost șef al Serviciului Aprovizionare la SISEE Electrica Banat, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă două condamnări definitive distincte ale aceleiași persoane: 5 ani cu executare pentru complicitate la abuz în serviciu cu consecințe deosebit de grave și instigare la două falsuri intelectuale, respectiv 1 an cu suspendare într-un alt dosar pentru primire de foloase necuvenite și fals intelectual. Profilul existent descria prima cauză.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3005",
+      "original_name": "Cucuiu Mihai Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4495",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1280"
+      ],
+      "note": "Fost director tehnic la RADET București, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Hotărârea definitivă confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită și asociere în vederea săvârșirii de infracțiuni; profilul menționa doar luarea de mită. Pentru o altă faptă de luare de mită procesul penal a încetat ca urmare a prescripției.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3006",
+      "original_name": "Curt Iosip Mihai-Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5065",
+        "https://www.dna.ro/comunicat.xhtml?id=3871"
+      ],
+      "note": "Numele oficial apare ca Curt-Iosip Mihai-Ștefan. Fost comisar-șef și ofițer de poliție judiciară la IPJ Cluj, Serviciul Arme, Explozivi și Substanțe Periculoase, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 3 ani și 10 luni cu suspendare, termen de încercare 7 ani, pentru trafic de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3009",
+      "original_name": "Dagalita Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2881",
+        "https://adevarul.ro/stiri-locale/craiova/vamesul-ion-dagalita-arestat-in-lotul-moravita-a-1069955.html",
+        "https://cvlpress.ro/wp-content/uploads/2016/06/Cuvlib-160604.pdf"
+      ],
+      "note": "Forma oficială a numelui este Dăgăliță Ion. Agent de poliție de frontieră și șef de tură la PTF Naidăș, fără funcție politică demonstrată; profilul a fost eliminat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere și termen de încercare 7 ani pentru luare de mită în formă continuată și aderare la un grup infracțional organizat. Există un candidat omonim PNL la Consiliul Local Valea Stanciului în 2016, născut la 4 martie 1963; conexiunea doljeană face identitatea posibilă, dar nici sursa electorală, nici sursele dosarului nu oferă un identificator comun suficient. Condamnarea nu a fost atribuită candidatului pe baza simplei coincidențe de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3010",
+      "original_name": "Dan Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=53"
+      ],
+      "note": "Viorel Dan, redat de DNA și ca Dan Viorel, a fost director general la SISEE Banat și ulterior inginer în aceeași structură, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă definitiv 7 ani cu executare pentru luare de mită, abuz în serviciu cu consecințe deosebit de grave, instigare la fals intelectual, fals intelectual și spălare de bani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3011",
+      "original_name": "Datcu Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-08-31",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://img.ordinea.ro/uploads/2020/09/candidati-constanta.pdf",
+        "https://aracip.eu/descarca/raee/1631"
+      ],
+      "note": "Locotenent-colonel la ISU Dobrogea și fost șef al Biroului Comunicații și Informatică, fără identitate politică demonstrată; profilul public a fost eliminat. Hotărârea definitivă confirmă 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani, pentru fals intelectual, uz de fals și abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj, toate în formă continuată; profilul omitea calificările și termenul de încercare. Un candidat omonim ALDE la Consiliul Local Eforie în 2020 și un PFA omonim din Eforie care presta servicii PSI fac identitatea posibilă, dar sursele electorale nu furnizează ocupația ori inițiala necesară pentru atribuirea sigură a condamnării; asocierea nu a fost publicată.",
       "reviewed_snapshot_hash": null
     }
   ]
