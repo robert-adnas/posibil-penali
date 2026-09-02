@@ -45895,6 +45895,40 @@
       ],
       "note": "Locotenent-colonel la ISU Dobrogea și fost șef al Biroului Comunicații și Informatică, fără identitate politică demonstrată; profilul public a fost eliminat. Hotărârea definitivă confirmă 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani, pentru fals intelectual, uz de fals și abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj, toate în formă continuată; profilul omitea calificările și termenul de încercare. Un candidat omonim ALDE la Consiliul Local Eforie în 2020 și un PFA omonim din Eforie care presta servicii PSI fac identitatea posibilă, dar sursele electorale nu furnizează ocupația ori inițiala necesară pentru atribuirea sigură a condamnării; asocierea nu a fost publicată.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3012",
+      "original_name": "Degau Ioan-Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3173",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1076"
+      ],
+      "note": "Forma oficială a numelui este Degău Ioan-Daniel. Fost ofițer la Inspectoratul Județean al Poliției de Frontieră Bihor, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă la 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită; câmpul profilului atribuia greșit complicitate la dare de mită, infracțiune care aparținea unui coinculpat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3013",
+      "original_name": "Deleanu Romeo Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4014",
+        "https://v3.monitorulsv.ro/Local/2008-11-26/Patru-politisti-de-frontiera-trimisi-in-judecata-de-DNA-Suceava"
+      ],
+      "note": "Fost șef al Biroului de Combatere a Infracționalității Transfrontaliere din IJPF Suceava, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Hotărârea definitivă confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru instigare la abuz în serviciu contra intereselor publice cu obținerea unui avantaj și instigare la fals intelectual; profilul atribuia eronat faptele în autorat și omitea termenul de încercare.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
