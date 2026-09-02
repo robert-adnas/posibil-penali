@@ -36904,23 +36904,24 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Deoslea Liviu",
-    "party": "Independent",
-    "position": "Maior în Inspectoratul pentru situatii de urgenta (MAI)",
+    "name": "Liviu Deoșlea",
+    "party": "PSD",
+    "position": "Candidat PSD la Consiliul Local Murfatlar (2020); fost maior în ISU Dobrogea",
     "position_type": "other",
     "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Maior în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
+      "county": "Constanța",
+      "basis": "political_base",
+      "locality": "Murfatlar",
+      "note": "A candidat din partea PSD la Consiliul Local Murfatlar la alegerile locale din 2020."
     },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
+    "crime": "fals intelectual, uz de fals și abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj, toate în formă continuată",
+    "sentence": "2 ani și 6 luni închisoare cu suspendare sub supraveghere",
     "sentence_years": 2.5,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Deoslea Liviu a fost condamnat definitiv la 24 ianuarie 2014 la 2 ani și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Maior în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 12 din 24 ianuarie 2014, Înalta Curte de Casație și Justiție l-a condamnat pe maiorul Liviu Deoșlea, din cadrul ISU Dobrogea, la 2 ani și 6 luni închisoare cu suspendare sub supraveghere, pe durata unui termen de încercare de 6 ani. Identitatea politică este susținută de numele rar identic din lista candidaților PSD la Consiliul Local Murfatlar din 2020, precum și de sursele care documentează locuința sa în Murfatlar și activitatea ulterioară în domeniul protecției la incendiu în aceeași localitate.",
+    "verified_at": "2026-09-02",
     "sources": [
       {
         "label": "DNA",
@@ -36928,214 +36929,35 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Deoslea Liviu indică județul Constanta, funcția \"Maior\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Deszi Mihai",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bihor."
-    },
-    "crime": "trafic de influență",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 octombrie 2012. Condamnarea inculpatului DESZI MIHAI, fost ofițer de poliție în cadrul Inspectoratului de Poliție al Județului Bihor – Serviciul Cercetări Penale (pensionat în luna martie 2006), la pedeapsa de 3 ani închisoare cu suspendare sun supraveghere, pe un termen de încercare de 5 ani, pentru comiterea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Lista centralizată a candidaților la alegerile locale din 2020",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3631"
+        "url": "https://img.ordinea.ro/uploads/2020/09/candidati-constanta.pdf",
+        "description": "Îl listează pe Deoșlea Liviu drept candidat PSD pentru Consiliul Local Murfatlar."
       },
       {
-        "label": "România Curată",
+        "label": "Ziua de Constanța - declarația de avere a maiorului Liviu Deoșlea",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Deszi Mihai indică județul Bihor, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 3415 și condamnarea din 23/10/2012."
-      }
-    ]
-  },
-  {
-    "name": "Diaconita Nicolae Corneliu",
-    "party": "Independent",
-    "position": "Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI) în județul Dambovita."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 aprilie 2013. Condamnarea inculpatului DIACONIȚĂ NICOLAE CORNELIU, colonel în rezervă, fost inspector șef din cadrul I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4055"
+        "url": "https://www.ziuaconstanta.ro/stiri/eveniment/ce-averi-au-arestatii-de-la-isu-254865.html",
+        "description": "Documentează că maiorul Liviu Deoșlea cumpărase un apartament în Murfatlar în 2006."
       },
       {
-        "label": "România Curată",
+        "label": "Ziua de Constanța - activitatea comercială a lui Liviu Deoșlea",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Diaconita Nicolae Corneliu indică județul Dambovita, funcția \"Colonel rezerva\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 16 și condamnarea din 12/04/2013."
+        "url": "https://www.ziuaconstanta.ro/stiri/actualitate/perchezitii-in-constanta-intr-un-dosar-de-evaziune-fiscala-firma-vizata-controlata-de-fostul-administrator-al-portului-constanta-gheorghe-naceades-documente-916866.html",
+        "description": "Documentează domiciliul și afacerile lui Liviu Deoșlea în Murfatlar, inclusiv o firmă de protecție la incendiu."
       }
     ]
   },
   {
-    "name": "Dima Doru",
-    "party": "Independent",
-    "position": "Comisar în Garda nationala de mediu",
-    "position_type": "other",
+    "name": "Silviu Bian",
+    "party": "PDL",
+    "position": "Vicepreședinte PDL Alba; fost președinte ANOFM cu rang de secretar de stat",
+    "position_type": "secretary_of_state",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda nationala de mediu în județul Bucuresti."
-    },
-    "crime": "trafic de influență, în formă continuată",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 aprilie 2011. Condamnarea inculpatului DIMA DORU, comisar la Garda Națională de Mediu - Comisariatul General, la pedeapsa de 4 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunii de trafic de influență, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2363"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dima Doru indică județul Bucuresti, funcția \"Comisar\", instituția \"Garda nationala de mediu\", decizia 1379 și condamnarea din 06/04/2011."
-      }
-    ]
-  },
-  {
-    "name": "Dinca Eugen",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Dolj."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Dinca Eugen a fost condamnat definitiv la 19 iulie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector în Directia generala a finantelor publice. Infracțiunea reținută: abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4223"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dinca Eugen indică județul Dolj, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 1618 și condamnarea din 19/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Dinculeasa Niculae",
-    "party": "Independent",
-    "position": "Sef serviciu în Ministerul industriei si resurselor (Ministerul Economiei)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Ministerul industriei si resurselor (Ministerul Economiei) în județul Bihor."
-    },
-    "crime": "luare de mită și obținere de foloase necuvenite ca urmare a îndeplinirii unor însărcinări incompatibile cu funcția de supraveghere și control a agenților economici",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 aprilie 2013. Condamnarea inculpatului DINCULEASA NICULAE, șef de serviciu în cadrul Ministerului Industriei și Resurselor, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea următoarelor infracțiuni: luare de mită și obținere de foloase necuvenite ca urmare a îndeplinirii unor însărcinări incompatibile cu funcția de supraveghere și control a agenților economici.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4064"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dinculeasa Niculae indică județul Bihor, funcția \"Sef serviciu\", instituția \"Ministerul industriei si resurselor (Ministerul Economiei)\", decizia 1421 și condamnarea din 24/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Dine Mihai Remus",
-    "party": "Independent",
-    "position": "Comisar garda de mediu în Garda nationala de mediu",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar garda de mediu în Garda nationala de mediu în județul Ilfov."
-    },
-    "crime": "fals intelectual și instigare la infracțiunea de fals în declarații",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2013. Condamnarea inculpatei CONSTANTIN CARMEN DANIELA, administrator al SC NIC PROD TRANS 97 SRL, la pedeapsa de 1 an închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani, pentru complicitate la infracțiunea de fals intelectual și complicitate la infracțiunea de fals în declarații.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4081"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dine Mihai Remus indică județul Ilfov, funcția \"Comisar garda de mediu\", instituția \"Garda nationala de mediu\", decizia 845 și condamnarea din 29/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Bian Silviu",
-    "party": "Independent",
-    "position": "Presedinte agentie stat în Agentia nationala pentru ocuparea fortei de munca",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte agentie stat în Agentia nationala pentru ocuparea fortei de munca în județul Brasov."
+      "county": "Alba",
+      "basis": "political_base",
+      "locality": "Alba Iulia",
+      "note": "A fost vicepreședinte al organizației PDL Alba și membru fondator al PD."
     },
     "crime": "luare de mită în formă continuată",
     "sentence": "6 ani închisoare",
@@ -37143,8 +36965,8 @@ export const politicianAdditions = [
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 aprilie 2014. Condamnă pe inculpatul BIAN SILVIU, fost președinte al Agenției Naționale de Ocupare a Forței de Muncă, la o pedeapsă de 6 ani închisoare și interzicerea atât pe perioada executării pedepsei cât și pe o perioadă de 4 ani după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție sau de a exercita o profesie de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 1265 din 10 aprilie 2014, Înalta Curte de Casație și Justiție l-a condamnat pe Silviu Bian, fost președinte al ANOFM, la 6 ani închisoare în regim de detenție pentru luare de mită în formă continuată. Instanța i-a interzis timp de 4 ani după executarea pedepsei drepturile electorale și exercitarea unor funcții similare și a dispus restituirea sumelor rămase către persoanele de la care fuseseră primite. Bian a fost vicepreședinte PDL Alba și fusese susținut politic pentru conducerea ANOFM, cu rang de secretar de stat; a fost exclus din PDL în octombrie 2011 și a decedat în 2021.",
+    "verified_at": "2026-09-02",
     "sources": [
       {
         "label": "DNA",
@@ -37152,42 +36974,21 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4811"
       },
       {
-        "label": "România Curată",
+        "label": "Alba24 - excluderea din PDL",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Bian Silviu indică județul Brasov, funcția \"Presedinte agentie stat\", instituția \"Agentia nationala pentru ocuparea fortei de munca\", decizia 1265 și condamnarea din 10/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Boda Daniel",
-    "party": "Independent",
-    "position": "Presedinte agentie stat în Agentia nationala a medicamentului si dispozitivelor medicale",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte agentie stat în Agentia nationala a medicamentului si dispozitivelor medicale în județul Arges."
-    },
-    "crime": "luare de mită în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 ianuarie 2014. Condamnă pe inculpatul BODA DANIEL, președintele Agenției Naționale a Medicamentului și Dispozitivelor Medicale la o pedeapsă de 3 ani închisoare cu suspendarea sub supraveghere a executării pedepsei, pe durata unui termen de încercare de 7 ani, pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4641"
+        "url": "https://alba24.ro/decizie-a-biroului-permanent-central-pdl-silviu-bian-a-fost-suspendat-din-func%C8%9Bia-de-vicepre%C8%99edinte-pdl-alba-%C8%99i-apoi-exclus-din-partid-47588.html",
+        "description": "Confirmă funcția de vicepreședinte PDL Alba și excluderea din partid în octombrie 2011."
       },
       {
-        "label": "România Curată",
+        "label": "HotNews - biografie și numirea la ANOFM",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Boda Daniel indică județul Arges, funcția \"Presedinte agentie stat\", instituția \"Agentia nationala a medicamentului si dispozitivelor medicale\", decizia 349 și condamnarea din 30/01/2014."
+        "url": "https://hotnews.ro/video-directorul-anofm-silviu-bian-retinut-de-procurorii-dna-pentru-luare-de-mita-663493",
+        "description": "Documentează apartenența politică, rolul de membru fondator PD și susținerea PDL pentru conducerea ANOFM."
+      },
+      {
+        "label": "Ziarul Unirea - decesul lui Silviu Bian",
+        "kind": "press",
+        "url": "https://ziarulunirea.ro/silviu-bian-fost-membru-marcant-pdl-si-presedinte-al-anofm-a-trecut-la-cele-sfinte-733457/"
       }
     ]
   },
@@ -37224,38 +37025,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Popescu-Orodel Ion Radu",
-    "party": "Independent",
-    "position": "Inspector în Administratia nationala apele romane (MMAP)",
-    "position_type": "other",
-    "geography": {
-      "county": "Gorj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Administratia nationala apele romane (MMAP) în județul Gorj."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, în vederea obținerii unui avantaj patrimonial pentru altul",
-    "sentence": "6 luni închisoare cu suspendare",
-    "sentence_years": 0.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 noiembrie 2011. Condamnarea inculpatului POPESCU-ORODEL ION RADU, inspector în cadrul Direcției Apelor Jiu, la pedeapsa de 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 2 ani și 6 luni, pentru săvârșirea infracțiunii de abuz în serviciu contra intereselor publice, în vederea obținerii unui avantaj patrimonial pentru altul; Condamnarea inculpatului VLĂDĂȘEL CONSTANTIN, șeful Biroului de gestiune a resurselor de apă din cadrul Sistemului de gospodărire a apelor Gorj, la pedeapsa de 1 an închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani, pentru săvârșirea infracțiunii de abuz în serviciu contra intereselor publice, în vederea obținerii unui avantaj patrimonial pentru altul.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2776"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Popescu-Orodel Ion Radu indică județul Gorj, funcția \"Inspector\", instituția \"Administratia nationala apele romane (MMAP)\", decizia 363 și condamnarea din 10/11/2011."
-      }
-    ]
-  },
-  {
     "name": "Ticheriu Ion",
     "party": "Independent",
     "position": "Viceprimar în Primarie",
@@ -37284,70 +37053,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Ticheriu Ion indică județul Caras-Severin, funcția \"Viceprimar\", instituția \"Primarie\", decizia 940 și condamnarea din 11/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Oprescu Valeriu Cornel",
-    "party": "Independent",
-    "position": "Presedinte comisie în Garda nationala de mediu",
-    "position_type": "other",
-    "geography": {
-      "county": "Suceava",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte comisie în Garda nationala de mediu în județul Suceava."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2013. Condamnarea inculpatului OPRESCU VALERIU CORNEL, președintele Comisiei de negociere din cadrul Gărzii Naționale de Mediu - Comisariatul Regional Suceava, la pedeapsa de 1 an și 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 6 luni, pentru săvârșirea următoarelor infracțiuni: complicitate la infracțiunea de abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial, fals intelectual și uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4080"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Oprescu Valeriu Cornel indică județul Suceava, funcția \"Presedinte comisie\", instituția \"Garda nationala de mediu\", decizia 833 și condamnarea din 29/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Adam Fanica",
-    "party": "Independent",
-    "position": "Presedinte asociatie în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Vaslui",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte asociatie în ONG în județul Vaslui."
-    },
-    "crime": "fals intelectual",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Adam Fanica a fost condamnat definitiv la 16 aprilie 2014 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Presedinte asociatie în ONG. Infracțiunea reținută: fals intelectual.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4866"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Adam Fanica indică județul Vaslui, funcția \"Presedinte asociatie\", instituția \"ONG\", decizia 197 și condamnarea din 16/04/2014."
       }
     ]
   },
@@ -37394,110 +37099,14 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Miklos Iuliu",
-    "party": "Independent",
-    "position": "Presedinte asociatie în ONG",
+    "name": "Florentin Scalețchi",
+    "party": "PNG-CD",
+    "position": "Candidat PNG-CD la Camera Deputaților în colegiul uninominal 1 Constanța (2008)",
     "position_type": "other",
     "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte asociatie în ONG în județul Brasov."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 noiembrie 2013. Condamnă pe inculpatul MIKLOS IULIU, în calitate de președinte al Asociației EPAL-RO Brașov, și MIKLOS IULIUS MARIUS, în calitate de vicepreședinte al Asociației EPAL-RO Brașov, la pedeapsa închisorii de 2 ani cu suspendarea condiționată a executării pedepselor pe durata unui termen de încercare de 4 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4465"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Miklos Iuliu indică județul Brasov, funcția \"Presedinte asociatie\", instituția \"ONG\", decizia 3429 și condamnarea din 06/11/2013."
-      }
-    ]
-  },
-  {
-    "name": "Miklos Iulius Marius",
-    "party": "Independent",
-    "position": "Vicepresedinte asociatie în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Vicepresedinte asociatie în ONG în județul Brasov."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 noiembrie 2013. Condamnă pe inculpatul MIKLOS IULIU, în calitate de președinte al Asociației EPAL-RO Brașov, și MIKLOS IULIUS MARIUS, în calitate de vicepreședinte al Asociației EPAL-RO Brașov, la pedeapsa închisorii de 2 ani cu suspendarea condiționată a executării pedepselor pe durata unui termen de încercare de 4 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4465"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Miklos Iulius Marius indică județul Brasov, funcția \"Vicepresedinte asociatie\", instituția \"ONG\", decizia 3429 și condamnarea din 06/11/2013."
-      }
-    ]
-  },
-  {
-    "name": "Petcu Marius Grigore",
-    "party": "Independent",
-    "position": "Presedinte în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în ONG în județul Bucuresti."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "7 ani închisoare",
-    "sentence_years": 7,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 februarie 2013. Condamnarea inculpatului PETCU MARIUS GRIGORE, președinte al Federației Sanitas, la pedeapsa de 7 ani închisoare în regim de detenție pentru săvârșirea infracțiunii de luare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3888"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Petcu Marius Grigore indică județul Bucuresti, funcția \"Presedinte\", instituția \"ONG\", decizia 493 și condamnarea din 12/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Scaletchi Florentin",
-    "party": "Independent",
-    "position": "Presedinte în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în ONG în județul Bucuresti."
+      "county": "Constanța",
+      "basis": "constituency",
+      "note": "Candidatura la Camera Deputaților din 2008 a fost înregistrată în colegiul uninominal 1 Constanța, din partea PNG-CD."
     },
     "crime": "trei infracțiuni de trafic de influență, luare de mită și fals intelectual",
     "sentence": "6 ani închisoare",
@@ -37505,8 +37114,8 @@ export const politicianAdditions = [
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 februarie 2013. Condamnarea inculpatului SCALEȚCHI FLORENTIN, președintele Organizației pentru Apărarea Drepturilor Omului (persoană juridică de drept privat, fără scop patrimonial, care a fost recunoscută, prin hotărâre de guvern, ca fiind de utilitate publică), la pedeapsa de 6 ani închisoare pentru săvârșirea următoarelor infracțiuni: trei infracțiuni de trafic de influență, luare de mită și fals intelectual.",
-    "verified_at": "2026-06-10",
+    "details": "Florentin Scalețchi a fost membru PNG-CD și candidat al partidului la Camera Deputaților în colegiul uninominal 1 Constanța la alegerile din 30 noiembrie 2008; sursele electorale consultate confirmă candidatura, nu obținerea unui mandat. Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 februarie 2013: 6 ani închisoare pentru trei infracțiuni de trafic de influență, luare de mită și fals intelectual, fapte comise în calitate de președinte al Organizației pentru Apărarea Drepturilor Omului.",
+    "verified_at": "2026-09-02",
     "sources": [
       {
         "label": "DNA",
@@ -37514,159 +37123,37 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3938"
       },
       {
-        "label": "România Curată",
+        "label": "ZIUA de Constanța",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Scaletchi Florentin indică județul Bucuresti, funcția \"Presedinte\", instituția \"ONG\", decizia 708 și condamnarea din 27/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Vanatu Valeriu",
-    "party": "Independent",
-    "position": "Presedinte filiala sindicat",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte filiala sindicat în județul Timis."
-    },
-    "crime": "trafic de influență în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 mai 2012. Condamnarea inculpatului VÂNĂTU VALERIU, fost președinte al filialei Timiș a Organizației Sindicale CNSLR Frăția, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de trafic de influență în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3276"
+        "url": "https://www.ziuaconstanta.ro/diverse/alegeri-parlamentare/ziua-de-constanta-vine-in-ajutorul-alegatorului-244133.html",
+        "description": "Lista candidaților îl include pe Florentin Scalețchi (PNG-CD) în colegiul 1 pentru Camera Deputaților, circumscripția Constanța."
       },
       {
-        "label": "România Curată",
+        "label": "Cuget Liber",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Vanatu Valeriu indică județul Timis, funcția \"Presedinte filiala sindicat\", instituția \"Sindicat\", decizia 1608 și condamnarea din 16/05/2012."
+        "url": "https://cugetliber.ro/stiri-politica-administratie-scaletchi-va-candida-din-partea-png-cd-constanta-pentru-un-fotoliu-de-deputat-28018",
+        "description": "Relatarea confirmă înscrierea lui Scalețchi în PNG-CD și desemnarea drept candidat la Camera Deputaților în colegiul 1 Constanța."
       }
     ]
   },
   {
-    "name": "Barbulescu Sorin",
-    "party": "Independent",
-    "position": "Functionar public în Agentia de plati si interventie pentru agricultura (MADR)",
-    "position_type": "other",
+    "name": "Petru Andronache",
+    "party": "PSD",
+    "position": "Fost consilier județean Bacău (2004–2012); fost director comercial SISEE Moldova",
+    "position_type": "local_official",
     "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Functionar public în Agentia de plati si interventie pentru agricultura (MADR) în județul Dambovita."
+      "county": "Bacău",
+      "basis": "political_base",
+      "note": "A exercitat mandate de consilier județean Bacău din partea PSD între 30 iunie 2004 și 25 iunie 2012."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false; abuz în serviciu",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 martie 2013. Condamnarea inculpatului BĂRBULESCU SORIN, funcționar în cadrul Centrului Local Târgoviște al Agenției de Plăți și Intervenții pentru Agricultură (A.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3998"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Barbulescu Sorin indică județul Dambovita, funcția \"Functionar public\", instituția \"Agentia de plati si interventie pentru agricultura (MADR)\", decizia 447 și condamnarea din 27/03/2013."
-      }
-    ]
-  },
-  {
-    "name": "Ristea Cristache",
-    "party": "Independent",
-    "position": "Director executiv în Agentia nationala pentru ocuparea fortei de munca",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Agentia nationala pentru ocuparea fortei de munca în județul Brasov."
-    },
-    "crime": "luare de mită în formă continuată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 aprilie 2014. Condamnă pe inculpata RISTEA CRISTACHE, fost director executiv al Centrului Național de Formare Profesională a Personalului Propriu Râșnov, la o pedeapsă de 4 ani închisoare, cu suspendarea executării pedepsei pe durata unui termen de încercare de 7 ani și interzicerea pe o perioadă de 2 ani după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție sau de a exercita o profesie de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4811"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ristea Cristache indică județul Brasov, funcția \"Director executiv\", instituția \"Agentia nationala pentru ocuparea fortei de munca\", decizia 1265 și condamnarea din 10/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Andrei Daniel",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului ANDREI DANIEL, polițist în cadrul Secției 5 București, la pedeapsa de 1 an și 2 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 2 luni, pentru săvârșirea infracțiunilor de luare de mită și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Andrei Daniel indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Andronache Petru",
-    "party": "Independent",
-    "position": "Director comercial în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director comercial în Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei) în județul Bacau."
-    },
-    "crime": "complicitate la abuz în serviciu contra intereselor publice în formă calificată și continuată(42 acte materiale)",
+    "crime": "abuz în serviciu contra intereselor publice în formă calificată și continuată (42 de acte materiale)",
     "sentence": "7 ani închisoare",
     "sentence_years": 7,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 ianuarie 2014. Condamnă pe inculpatul ANDRONACHE PETRU, director comercial al Sucursalei de Întreținere si Servicii Energetice Electrice (SISEE) Moldova în perioada 2002-2005, la pedeapsa de 7 ani închisoare și interzicerea timp de 5 ani, după executarea pedepsei principale, a următoarelor drepturi: de a fi ales în autoritățile de publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție sau de a exercita o profesie ori de a desfășura o activitate, de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii abuz în serviciu contra intereselor publice în formă calificată și continuată(42 acte materiale).",
-    "verified_at": "2026-06-10",
+    "details": "Petru Andronache a fost consilier județean PSD în Bacău între 30 iunie 2004 și 25 iunie 2012. În perioada 2002–2005 a fost și director comercial al SISEE Moldova. Prin decizia definitivă nr. 18 din 30 ianuarie 2014, Înalta Curte l-a condamnat la 7 ani închisoare și la interzicerea unor drepturi timp de 5 ani după executarea pedepsei, pentru abuz în serviciu contra intereselor publice în formă calificată și continuată, 42 de acte materiale. Hotărârea îl tratează ca autor al abuzului, nu complice.",
+    "verified_at": "2026-09-02",
     "sources": [
       {
         "label": "DNA",
@@ -37674,234 +37161,16 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4618"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Andronache Petru indică județul Bacau, funcția \"Director comercial\", instituția \"Sucursala de intretinere si servicii energetice electrice (Ministerul Economiei)\", decizia 18 și condamnarea din 30/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Andronic Gabriel Adrian",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului ANDRONIC GABRIEL ADRIAN, agent de poliție la Secția 5 București, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 8 ani, pentru săvârșirea următoarelor infracțiuni: luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Consiliul Județean Bacău",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
+        "url": "https://portal.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/lista-consilierilor-judeteni-in-perioada-20042024-00026c3e",
+        "description": "Lista oficială îl consemnează pe Petru Andronache drept consilier județean PSD în mandatele 2004–2008 și 2008–2012."
       },
       {
-        "label": "România Curată",
+        "label": "Ziarul de Bacău",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Andronic Gabriel Adrian indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Bafan Costel",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Constanta."
-    },
-    "crime": "luare de mită, fals intelectual și instigare la infracțiunea de fals în înscrisuri sub semnătură privată, în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Bafan Costel a fost condamnat definitiv la 28 februarie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector în Directia generala a finantelor publice. Infracțiunea reținută: luare de mită, fals intelectual și instigare la infracțiunea de fals în înscrisuri sub semnătură privată, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3942"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Bafan Costel indică județul Constanta, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 735 și condamnarea din 28/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Balea Gheorghe Anton",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului BALEA GHEORGHE ANTON, agent de poliție la Secția 5 București, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea următoarelor infracțiuni: luare de mită și complicitate la infracțiunea de furt calificat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Balea Gheorghe Anton indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Barbu Florian",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de furt calificat",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului BARBU FLORIAN, agent de poliție la Secția 5 București, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea următoarelor infracțiuni: luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de furt calificat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Barbu Florian indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Brincoveanu Danut Catalin",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Ilfov."
-    },
-    "crime": "luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de furt calificat",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului BRÎNCOVEANU DĂNUT CĂTĂLIN, polițist în cadrul Poliției Buftea, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea următoarelor infracțiuni: luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de furt calificat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Brincoveanu Danut Catalin indică județul Ilfov, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Buta Livia",
-    "party": "Independent",
-    "position": "Contabil sef în Consiliu local",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Contabil sef în Consiliu local în județul Caras-Severin."
-    },
-    "crime": ": abuz în serviciu contra intereselor publice în formă continuată",
-    "sentence": "2 ani și 8 luni închisoare cu suspendare",
-    "sentence_years": 2.67,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Buta Livia a fost condamnat definitiv la 28 martie 2014 la 2 ani și 8 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Contabil sef în Consiliu local. Infracțiunea reținută:: abuz în serviciu contra intereselor publice în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4780"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Buta Livia indică județul Caras-Severin, funcția \"Contabil sef\", instituția \"Consiliu local\", decizia 438 și condamnarea din 28/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Butucea Nicusor",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului BUTUCEA NICUSOR, agent de poliție la Secția 5 București, la pedeapsa de 1 an și 2 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 2 luni, pentru săvârșirea următoarelor infracțiuni: luare de mită și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Butucea Nicusor indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
+        "url": "https://ziaruldebacau.ro/?p=148817",
+        "description": "Relatarea locală leagă identitatea fostului director comercial SISEE Moldova de condamnarea definitivă din dosarul Transformatorul."
       }
     ]
   },

@@ -45929,6 +45929,500 @@
       ],
       "note": "Fost șef al Biroului de Combatere a Infracționalității Transfrontaliere din IJPF Suceava, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Hotărârea definitivă confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru instigare la abuz în serviciu contra intereselor publice cu obținerea unui avantaj și instigare la fals intelectual; profilul atribuia eronat faptele în autorat și omitea termenul de încercare.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3014",
+      "original_name": "Deoslea Liviu",
+      "current_name": "Liviu Deoșlea",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://img.ordinea.ro/uploads/2020/09/candidati-constanta.pdf",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/ce-averi-au-arestatii-de-la-isu-254865.html",
+        "https://www.ziuaconstanta.ro/stiri/actualitate/perchezitii-in-constanta-intr-un-dosar-de-evaziune-fiscala-firma-vizata-controlata-de-fostul-administrator-al-portului-constanta-gheorghe-naceades-documente-916866.html"
+      ],
+      "note": "Forma oficială a numelui este Liviu Deoșlea. Condamnarea definitivă: 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani, pentru fals intelectual, uz de fals și abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj, toate în formă continuată. Profilul politic este confirmat prin candidatura PSD la Consiliul Local Murfatlar din 2020; identitatea cu fostul maior ISU este susținută de numele rar identic, apartamentul documentat în Murfatlar din 2006 și activitatea comercială ulterioară de protecție la incendiu în aceeași localitate.",
+      "reviewed_snapshot_hash": "3cfa9d81b3a5087bdb1d7ca31efe807728ba8045c86819a7971eedeb378c16b7"
+    },
+    {
+      "profile_id": "RV-3015",
+      "original_name": "Deszi Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3631",
+        "https://www.dna.ro/comunicat.xhtml?id=759",
+        "https://www.crisana.ro/stiri/flagrant-10/politisti-lichidatori-judiciari-si-oameni-de-afaceri-cercetati-de-dna-oradea-in-2007-113863.html"
+      ],
+      "note": "Fost ofițer în Serviciul Cercetări Penale al IPJ Bihor, pensionat în martie 2006, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 23 octombrie 2012 la 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru trafic de influență. O apariție omonimă într-un birou electoral din județul Sibiu nu reprezintă funcție politică și nu oferă o legătură de identitate cu fostul polițist din Bihor.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3016",
+      "original_name": "Diaconita Nicolae Corneliu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4055",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2862",
+        "https://adevarul.ro/stiri-locale/targoviste/fostul-inspector-sef-al-isu-dambovita-colonelul-1078079.html"
+      ],
+      "note": "Forma oficială a numelui este Diaconiță Nicolae Corneliu. Colonel în rezervă și fost inspector-șef al ISU Dâmbovița, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Decizia definitivă nr. 16/12.04.2013 confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 7 ani, pentru două infracțiuni de abuz în serviciu contra intereselor publice cu obținerea unui avantaj, fals intelectual și uz de fals. Omologul politic Cornel Diaconiță din județul Buzău este o persoană distinctă și nu justifică atribuirea condamnării.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3017",
+      "original_name": "Dima Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2363",
+        "https://bucharestairports.ro/old/files/pages_files/Raport_de_Mediu_%282%29.pdf",
+        "https://www.afin.org.ro/echipa/doru-dima/"
+      ],
+      "note": "Comisarul Doru Dima de la Garda Națională de Mediu, documentat și la Comisariatul Județean Ilfov, nu are mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. DNA confirmă condamnarea definitivă din 6 aprilie 2011 la 4 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru trafic de influență în formă continuată. Psihologul și consultantul politic omonim Doru Dima din Brașov are o biografie profesională distinctă și condamnarea nu îi este atribuită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3018",
+      "original_name": "Dinca Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/"
+      ],
+      "note": "Forma oficială a numelui este Dincă Eugen. Inspector al DGFP Dolj, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Decizia definitivă nr. 1618/19.07.2013 confirmă 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave; profilul reda doar generic suspendarea și omitea termenul de încercare. Persoanele politice omonime sau cu nume apropiate din Dolj sunt distincte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3019",
+      "original_name": "Dinculeasa Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4064",
+        "https://www.dna.ro/comunicat.xhtml?id=449",
+        "https://www.ebihoreanul.ro/stiri/gelu-mudura-condamnat-definitiv-la-7-ani-de-inchisoare-cu-executare-107807.html"
+      ],
+      "note": "Șef de serviciu la Comisia Națională pentru Reciclarea Materialelor din cadrul Ministerului Industriei și Resurselor, fără mandat, candidatură sau funcție de partid verificabilă; profil administrativ nepolitic eliminat. ICCJ a menținut definitiv la 24 aprilie 2013 pedeapsa de 4 ani în regim de detenție pentru luare de mită și obținere de foloase necuvenite în legătură cu atribuțiile incompatibile de supraveghere și control; instanța a dispus și confiscarea a 45.100 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3020",
+      "original_name": "Dine Mihai Remus",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4081",
+        "https://semnal.eu/ro/justitie/2010/09/23/ancheta-dna-la-garda-de-mediu-ilfov-si-la-apele-romane-pe-tema-unei-fabrici-de/"
+      ],
+      "note": "Comisar al Gărzii Naționale de Mediu - Comisariatul Județean Ilfov, fără mandat, candidatură sau funcție de partid verificabilă; profil nepolitic eliminat. Decizia definitivă nr. 845/29.04.2013 confirmă pentru Dine Mihai Remus 1 an cu suspendare condiționată, termen de încercare 3 ani, pentru fals intelectual și instigare la fals în declarații. Descrierea profilului reproducea eronat condamnarea coinculpatei Carmen Daniela Constantin și îi atribuia acesteia întregul text, deși câmpurile principale îl vizau pe Dine.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3021",
+      "original_name": "Bian Silviu",
+      "current_name": "Silviu Bian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4811",
+        "https://alba24.ro/decizie-a-biroului-permanent-central-pdl-silviu-bian-a-fost-suspendat-din-func%C8%9Bia-de-vicepre%C8%99edinte-pdl-alba-%C8%99i-apoi-exclus-din-partid-47588.html",
+        "https://hotnews.ro/video-directorul-anofm-silviu-bian-retinut-de-procurorii-dna-pentru-luare-de-mita-663493",
+        "https://ziarulunirea.ro/silviu-bian-fost-membru-marcant-pdl-si-presedinte-al-anofm-a-trecut-la-cele-sfinte-733457/"
+      ],
+      "note": "Profil politic confirmat și corectat: Silviu Bian a fost vicepreședinte PDL Alba, membru fondator PD și președinte ANOFM cu rang de secretar de stat, nu independent și nu asociat politic județului Brașov. ICCJ l-a condamnat definitiv la 10 aprilie 2014 la 6 ani în regim de detenție pentru luare de mită în formă continuată, cu interdicții complementare timp de 4 ani. A fost exclus din PDL în octombrie 2011 și a decedat în 2021; condamnarea definitivă rămâne istoricul juridic corect.",
+      "reviewed_snapshot_hash": "039fbdfbf32652a0c5ecfa75042b44c3b5343ec411116fab8f30db033ce1774c"
+    },
+    {
+      "profile_id": "RV-3022",
+      "original_name": "Boda Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4641",
+        "https://www.utm.ro/wp-content/uploads/2020/06/CV-Daniel-Boda-04.11.2019.pdf",
+        "https://ziare.com/stiri/ancheta/fiul-lui-iosif-boda-sef-la-agentia-nationala-a-medicamentului-760520"
+      ],
+      "note": "Medic dermatolog și fost președinte al Agenției Naționale a Medicamentului și Dispozitivelor Medicale, fără afiliere, candidatură sau funcție de partid verificabilă; profil administrativ nepolitic eliminat. Numirea de către ministrul Sănătății nu este, singură, dovadă de identitate politică. ICCJ l-a condamnat definitiv la 30 ianuarie 2014 la 3 ani cu suspendare sub supraveghere, termen de încercare 7 ani, pentru luare de mită în formă continuată și a confiscat 5.000 euro. Județul Argeș descria sediul firmei implicate, nu o bază politică a lui Boda.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3024",
+      "original_name": "Popescu-Orodel Ion Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2776",
+        "https://www.dna.ro/comunicat.xhtml?id=802"
+      ],
+      "note": "Inspector în cadrul Direcției Apelor Jiu, fără mandat, candidatură sau funcție de partid verificabilă; profil tehnic nepolitic eliminat. Cauza îl includea pe liderul PNL Gorj Dan Ilie Morega și pe primarul Constantin Mihuțescu, dar această asociere procesuală nu transforma inspectorul în persoană politică. ICCJ a menținut definitiv 6 luni cu suspendare condiționată, termen de încercare 2 ani și 6 luni, pentru abuz în serviciu în vederea obținerii unui avantaj patrimonial pentru altul; descrierea profilului includea inutil și sentința coinculpatului Vlădășel Constantin. Popescu-Orodel a fost obligat solidar la plata a 35.000 lei despăgubiri.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3026",
+      "original_name": "Oprescu Valeriu Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4080",
+        "https://www.monitorulsv.ro/fostul-sef-al-garzii-de-mediu-suceava-doi-ani-si-sase-luni-de-puscarie_584263/",
+        "https://ziare.com/stiri/frauda/seful-de-mediu-suceava-trimis-in-judecata-de-dna-438836"
+      ],
+      "note": "Președinte al unei comisii interne de negociere pentru achiziția sediului Gărzii Naționale de Mediu - Comisariatul Regional Suceava, fără mandat, candidatură sau funcție de partid verificabilă; profil administrativ nepolitic eliminat. Decizia definitivă nr. 833/29.04.2013 confirmă 1 an și 6 luni cu suspendare condiționată, termen de încercare 3 ani și 6 luni, pentru complicitate la abuz în serviciu cu consecințe deosebit de grave și obținerea unui avantaj, fals intelectual și uz de fals; câmpul crime omitea complicitatea și calificările abuzului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3027",
+      "original_name": "Adam Fanica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4866",
+        "https://www.mediafax.ro/social/primarul-si-secretarul-unei-comune-vasluiene-trimisi-in-judecata-de-procurorii-anticoruptie-9424420/amp",
+        "https://www.vremeanoua.ro/accident-mortal-la-codaesti/"
+      ],
+      "note": "Forma oficială a numelui este Adam Fănică. Președinte al Asociației Crescătorilor de Animale Codăești, fără mandat, candidatură sau funcție de partid verificabilă; profil ONG nepolitic eliminat. Condamnarea definitivă din 16 aprilie 2014 a fost de 2 ani cu suspendare, termen de încercare 4 ani, pentru folosirea/prezentarea cu rea-credință, în formă continuată, de documente ori declarații false pentru obținerea nelegală de fonduri UE și fals intelectual; profilul omitea infracțiunea principală și termenul de încercare. Presa locală documentează decesul lui Fănică Adam, în vârstă de 59 de ani, la Codăești în aprilie 2024.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3029",
+      "original_name": "Miklos Iuliu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4465",
+        "https://www.apropotv.ro/o-nisa-de-piata-cat-spatiul-dintre-doua-scanduri-2239296",
+        "https://www.ziuaconstanta.ro/informatii/parchetul-inalta-curte-de-casatie-si-justitie/arestare-mita-arie-protejata-34510-381469.html"
+      ],
+      "note": "Forma uzuală a numelui este Iuliu Mikloș. Antreprenor în industria paleților și președinte al Asociației EPAL-RO Brașov, fără mandat, candidatură sau funcție de partid verificabilă; profil patronal/ONG nepolitic eliminat. Decizia definitivă din 6 noiembrie 2013 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită; câmpul crime folosea eticheta generică și imprecisă «Fapte de corupție». Persoana este distinctă de coinculpatul Miklos Iulius Marius, vicepreședintele asociației.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3030",
+      "original_name": "Miklos Iulius Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4465",
+        "https://www.ziuaconstanta.ro/informatii/parchetul-inalta-curte-de-casatie-si-justitie/arestare-mita-arie-protejata-34510-381469.html"
+      ],
+      "note": "Vicepreședinte al Asociației EPAL-RO Brașov, fără mandat, candidatură sau funcție de partid verificabilă; profil ONG nepolitic eliminat. Decizia definitivă din 6 noiembrie 2013 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită; câmpul crime folosea eticheta generică «Fapte de corupție». La 30 aprilie 2012 a pretins 100.000 lei, iar la 4 mai 2012 a primit 50.000 lei pentru eliberarea unor avize. Persoana este distinctă de coinculpatul și președintele asociației Iuliu Mikloș.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3031",
+      "original_name": "Petcu Marius Grigore",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3888",
+        "https://federatiasanitas.ro/despre-noi/istoric/",
+        "https://hotnews.ro/cine-este-marius-petcu-cel-mai-bogat-lider-de-sindicat-689412"
+      ],
+      "note": "Marius Grigore Petcu a fost lider sindical: președinte al Federației Sanitas și al CNSLR-Frăția, fără mandat ales, candidatură sau funcție personală de partid identificată. Protocolul CNSLR-Frăția–PSD și candidatura soției sale pe listele PSD nu constituie funcții politice ale lui Marius Petcu; profilul ONG nepolitic a fost eliminat. Identitatea și condamnarea definitivă din 12 februarie 2013 sunt confirmate: 7 ani în regim de detenție pentru luare de mită în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3033",
+      "original_name": "Scaletchi Florentin",
+      "current_name": "Florentin Scalețchi",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3938",
+        "https://www.ziuaconstanta.ro/diverse/alegeri-parlamentare/ziua-de-constanta-vine-in-ajutorul-alegatorului-244133.html",
+        "https://cugetliber.ro/stiri-politica-administratie-scaletchi-va-candida-din-partea-png-cd-constanta-pentru-un-fotoliu-de-deputat-28018"
+      ],
+      "note": "Identitatea a fost normalizată la Florentin Scalețchi. Profilul a fost păstrat și corectat deoarece sursele electorale confirmă înscrierea sa în PNG-CD și candidatura la Camera Deputaților, colegiul uninominal 1 Constanța, în 2008. Etichetele Independent, președinte ONG și București au fost înlocuite cu partidul, candidatura și circumscripția corecte. Nu i-a fost atribuit un mandat parlamentar: sursele consultate confirmă candidatura, iar rezultatul publicat indică 248 de voturi. Condamnarea definitivă din 27 februarie 2013 rămâne confirmată: 6 ani închisoare pentru trei infracțiuni de trafic de influență, luare de mită și fals intelectual.",
+      "reviewed_snapshot_hash": "80bc2df9266e50fc89f0889e5b6ff7ce0396ffcd049286deaec262d0d6c7400e"
+    },
+    {
+      "profile_id": "RV-3034",
+      "original_name": "Vanatu Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3276",
+        "https://hotnews.ro/fost-lider-al-cnslr-fratia-arestat-intr-un-dosar-de-coruptie-813546",
+        "https://romanialibera.ro/special/fostul-lider-al-cnslr-fratia-timis-trimis-in-judecata-de-dna-41535/"
+      ],
+      "note": "Valeriu Vânatu a fost lider sindical CNSLR-Frăția în vestul țării și președinte al filialei Timiș, fără mandat, candidatură ori funcție de partid verificabilă. Relațiile invocate cu foști demnitari și folosirea lor în traficul de influență nu reprezintă o calitate politică proprie; profilul sindical nepolitic a fost eliminat. Condamnarea definitivă din 16 mai 2012 este confirmată: 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru trafic de influență în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3035",
+      "original_name": "Barbulescu Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3998"
+      ],
+      "note": "Sorin Bărbulescu era funcționar al Centrului Local Târgoviște APIA, fără mandat, candidatură sau funcție de partid identificată; profilul administrativ nepolitic a fost eliminat. Textul juridic din profil era trunchiat și incomplet. Decizia definitivă nr. 447 din 27 martie 2013 confirmă 1 an cu suspendare condiționată, termen de încercare 3 ani, pentru abuz în serviciu cu obținerea unui avantaj și complicitate, în formă continuată, la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete pentru obținerea nelegală de fonduri europene. A fost obligat în solidar la plata către APIA a 23.751,83 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3036",
+      "original_name": "Ristea Cristache",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4811",
+        "https://adevarul.ro/stiri-locale/ramnicu-valcea/ristea-cristache-valceanul-care-l-ar-fi-dat-pe-1205832.html",
+        "https://alba24.ro/document-rechizitoriul-%C8%99pagii-de-la-varful-anofm-transcrierile-convorbirilor-telefonice-%C8%99i-ambientale-din-dosarul-lui-silviu-bian-54635.html"
+      ],
+      "note": "Cristache Ristea a fost director executiv al Centrului Național de Formare Profesională a Personalului Propriu Râșnov și cadru universitar, fără mandat, candidatură sau funcție de partid verificabilă; profilul administrativ nepolitic a fost eliminat. Profilul marca eronat executarea pedepsei în regim de detenție, deși chiar descrierea cita suspendarea. Decizia definitivă nr. 1265 din 10 aprilie 2014 confirmă 4 ani cu suspendarea executării, termen de încercare 7 ani și interdicții timp de 2 ani, pentru luare de mită în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3037",
+      "original_name": "Andrei Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/sectia-5-politie-se-reuneste-in-beciurile-pna/"
+      ],
+      "note": "Daniel Andrei din dosar este polițistul Secției 5 Poliție București, implicat în protejarea furturilor de produse petroliere, fără mandat, candidatură sau funcție de partid verificabilă; profilul nepolitic a fost eliminat. Numele foarte comun produce rezultate electorale pentru persoane distincte (de exemplu deputatul PNL Gheorghe Andrei-Daniel și alți candidați cu nume similare), care nu trebuie confundate cu polițistul. Condamnarea definitivă din 3 iulie 2012 este confirmată: 1 an și 2 luni cu suspendare condiționată, termen de încercare 3 ani și 2 luni, pentru luare de mită și favorizarea infractorului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3038",
+      "original_name": "Andronache Petru",
+      "current_name": "Petru Andronache",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4618",
+        "https://portal.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/lista-consilierilor-judeteni-in-perioada-20042024-00026c3e",
+        "https://ziaruldebacau.ro/?p=148817"
+      ],
+      "note": "Profil politic păstrat și corectat. Lista oficială a Consiliului Județean Bacău confirmă că Petru Andronache a fost consilier județean PSD în mandatele 2004–2008 și 2008–2012; etichetele Independent și simplu director comercial au fost înlocuite. Identitatea este susținută de concordanța rară a numelui, județului, perioadei și relatările locale despre fostul director SISEE Moldova. Decizia definitivă nr. 18 din 30 ianuarie 2014 confirmă 7 ani cu executare și interdicții 5 ani pentru abuz în serviciu contra intereselor publice în formă calificată și continuată, 42 de acte materiale. Câmpul crime indica eronat complicitatea, deși hotărârea îl tratează ca autor.",
+      "reviewed_snapshot_hash": "56050c4cc3e09fb770003ac6f4fd0bbc96ba4346bb2c60e681d5a8dd9ff48812"
+    },
+    {
+      "profile_id": "RV-3039",
+      "original_name": "Andronic Gabriel Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/masini-de-politie-cu-girofar-escorta-pentru-693466.html"
+      ],
+      "note": "Gabriel Adrian Andronic era agent principal la Secția 5 Poliție București, fără mandat, candidatură sau funcție de partid verificabilă; profilul de polițist nepolitic a fost eliminat. Identitatea este confirmată independent de relatarea contemporană despre lotul polițiștilor care protejau furturile de produse petroliere. Condamnarea definitivă din 3 iulie 2012 este confirmată: 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3040",
+      "original_name": "Bafan Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3942",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/cu-bmw-uri-si-conturi-prin-banci-doi-inspectori-anaf-au-pus-de-sarbatori-c-o-spaga-documente-22197-308432.html"
+      ],
+      "note": "Costel Bafan era inspector fiscal în DGFP/ANAF Constanța, fără mandat, candidatură sau funcție de partid verificabilă; profilul de funcționar nepolitic a fost eliminat. Identitatea și funcția sunt confirmate și de relatarea contemporană a flagrantului. Decizia definitivă nr. 735 din 28 februarie 2013 confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani și interdicții 2 ani, pentru luare de mită, fals intelectual și instigare la fals în înscrisuri sub semnătură privată, în formă continuată. Profilul omitea tipul supravegherii, termenul și interdicțiile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3041",
+      "original_name": "Balea Gheorghe Anton",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/12-politistii-de-la-sectia-5-tineau-de-sase-hotilor-de-combustibil/"
+      ],
+      "note": "Gheorghe Anton Balea era agent principal de poliție la postul Chitila/Secția 5 București, fără mandat, candidatură sau funcție de partid verificabilă; profilul nepolitic a fost eliminat. Rezultatele electorale pentru alte persoane numite Gheorghe Balea, inclusiv candidatul PMP din Cobadin, nu pot fi atribuite polițistului din Ilfov/București. Decizia definitivă din 3 iulie 2012 confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită și complicitate la furt calificat. Câmpul crime indica eronat favorizarea infractorului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3042",
+      "original_name": "Barbu Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/masini-de-politie-cu-girofar-escorta-pentru-693466.html",
+        "https://acasa.ro/social-125/barbu-florian-partidul-verde-80420.html"
+      ],
+      "note": "Florian Barbu din dosar era agent-șef adjunct la Secția 5 Poliție București, fără o calitate politică proprie verificabilă; profilul de polițist a fost eliminat. Omonimul candidat al Partidului Verde la europarlamentarele din 2007 era prezentat drept inginer tipograf născut în 1953, iar liste locale ulterioare conțin alte persoane cu același nume; nu există probe suficiente pentru a le identifica drept polițistul condamnat. Decizia definitivă din 3 iulie 2012 este confirmată: 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3043",
+      "original_name": "Brincoveanu Danut Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.ziaruldeiasi.ro/stiri/iccj-incepe-judecarea-recursului-politistilor-sectiei-5-acuzati-de-favorizarea-contrabandistilor--832b.html"
+      ],
+      "note": "Dănuț Cătălin Brîncoveanu era polițist în cadrul Poliției Buftea, fără mandat, candidatură sau funcție de partid verificabilă; profilul nepolitic a fost eliminat. Relatarea anterioară recursului indica pedeapsa de fond de 5 ani, dar sursa oficială definitivă prevalează: decizia din 3 iulie 2012 stabilește 2 ani cu suspendare condiționată, termen de încercare 4 ani, și interdicții timp de 2 ani, pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat. Profilul omitea interdicțiile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3044",
+      "original_name": "Buta Livia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4780",
+        "https://www.radioresita.ro/actualitate/liviu-spataru-a-fost-condamnat"
+      ],
+      "note": "Livia Buta era contabil-șef al Serviciului Public – Direcția pentru Întreținerea și Repararea Patrimoniului din cadrul Consiliului Local Reșița, adică funcționar, nu consilier local ales; nu s-a identificat mandat, candidatură sau funcție de partid. O reprezentantă USR cu același nume din Ponor, Alba, în 2024 este o persoană distinctă geografic și temporal. Profilul nepolitic a fost eliminat. Decizia definitivă nr. 438 din 28 martie 2014 confirmă 2 ani și 8 luni cu suspendare și interdicții timp de 1 an pentru abuz în serviciu contra intereselor publice în formă continuată. Profilul avea și punctuație coruptă în câmpul infracțiunii și omitea interdicțiile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3045",
+      "original_name": "Butucea Nicusor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/masini-de-politie-cu-girofar-escorta-pentru-693466.html",
+        "https://legislatie.just.ro/Public/DetaliiDocument/114157"
+      ],
+      "note": "Nicușor Butucea, născut la 29 mai 1974 și încadrat la DGPMB, era agent principal la Secția 5 Poliție București, fără mandat, candidatură sau funcție de partid verificabilă; profilul nepolitic a fost eliminat. Decizia definitivă din 3 iulie 2012 confirmă 1 an și 2 luni cu suspendare condiționată, termen de încercare 3 ani și 2 luni, pentru luare de mită și favorizarea infractorului, precum și interdicții pe durata executării și 2 ani ulterior. Profilul omitea interdicțiile; relatările despre 2 ani priveau soluția anterioară recursului.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
