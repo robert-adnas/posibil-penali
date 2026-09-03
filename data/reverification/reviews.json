@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -46422,6 +46422,232 @@
         "https://legislatie.just.ro/Public/DetaliiDocument/114157"
       ],
       "note": "Nicușor Butucea, născut la 29 mai 1974 și încadrat la DGPMB, era agent principal la Secția 5 Poliție București, fără mandat, candidatură sau funcție de partid verificabilă; profilul nepolitic a fost eliminat. Decizia definitivă din 3 iulie 2012 confirmă 1 an și 2 luni cu suspendare condiționată, termen de încercare 3 ani și 2 luni, pentru luare de mită și favorizarea infractorului, precum și interdicții pe durata executării și 2 ani ulterior. Profilul omitea interdicțiile; relatările despre 2 ani priveau soluția anterioară recursului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3046",
+      "original_name": "Calin Maria Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3585",
+        "https://www.mediafax.ro/social/doi-inspectori-de-la-politia-locala-sector-6-trimisi-in-judecata-pentru-luare-de-mita-9595347"
+      ],
+      "note": "Eliminată din catalog: sursa oficială o identifică drept inspector/funcționar al Poliției Locale Sector 6, fără rol politic ori electiv demonstrat. Situația juridică definitivă a fost individualizată: luare de mită, 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 6 ani și interdicții timp de 3 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3047",
+      "original_name": "Capitanu Silvia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3268",
+        "https://www.dna.ro/comunicat.xhtml?id=69"
+      ],
+      "note": "Eliminată din catalog: fost director general tehnic/administrativ în Ministerul Agriculturii, fără mandat, candidatură sau apartenență politică demonstrată. DNA o identifică și ca Căpitanu (fostă Buzatu) Silvia. Condamnarea definitivă: 5 ani cu executare pentru deturnare de fonduri și interdicții pe durata executării plus 4 ani după executare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3048",
+      "original_name": "Caramizaru Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/doi-politisti-de-la-sectia-5-si-seful-politiei-branesti-arestati-de-pna/"
+      ],
+      "note": "Eliminat din catalog: agent de poliție la Secția 5 București, fără rol politic, mandat ori candidatură demonstrată; rezultatele electorale găsite aparțin altor persoane Cărămizaru. Condamnare definitivă: 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită, asociere și complicitate la furt calificat; interdicții timp de 2 ani după pedeapsa principală.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3049",
+      "original_name": "Chitulescu Dumitru",
+      "current_name": "Chitulescu Dumitru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://primariaracari.ro/wp-content/uploads/2024/05/Proces-verbal-64.pdf",
+        "https://www.curentul.info/actualitate/12-politistii-de-la-sectia-5-tineau-de-sase-hotilor-de-combustibil/"
+      ],
+      "note": "Identitatea agentului condamnat și soluția definitivă sunt confirmate, iar profilul juridic a fost completat cu suspendarea sub supraveghere, termenul de încercare de 8 ani și interdicțiile de 2 ani. În lista electorală oficială Răcari 2024 apare un candidat PSD cu exact același nume, cadru MAI pensionar, însă lipsește un identificator public care să demonstreze că este aceeași persoană; afilierea nu a fost atribuită și profilul este ascuns editorial.",
+      "reviewed_snapshot_hash": "be630ab444cf5cd52fd4fba0ddf8677a7fb4d89de7cd3d435bec7b56a7161a51"
+    },
+    {
+      "profile_id": "RV-3050",
+      "original_name": "Ciocirlan Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-02",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3558",
+        "https://adevarul.ro/stiri-locale/alba-iulia/ofiter-de-politie-fost-contabil-sef-la-ipj-alba-1013596.html",
+        "https://romanialibera.ro/special/contabilul-ipj-alba-cercetat-pentru-coruptie-148399/"
+      ],
+      "note": "Eliminat din catalog: ofițer de poliție și contabil-șef al IPJ Alba, fără mandat, candidatură sau afiliere politică demonstrată. Profilul era trunchiat și juridic incomplet. Soluția definitivă: 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru abuz în serviciu, uz de fals, instigare la fals intelectual și instigare la fals în înscrisuri sub semnătură privată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3051",
+      "original_name": "Colcer Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4072",
+        "https://www.cotidianul.ro/seful-politiei-borsec-si-un-subordonat-al-acestuia-retinuti-de-procurori/"
+      ],
+      "note": "Eliminat din catalog: agent de poliție la Poliția Orașului Borsec, fără rol politic demonstrat. Câmpul infracțiunii îi atribuise eronat faptele coinculpatului Alexandru-Ovidiu Vodă. Pentru Nicolae Colcer, soluția definitivă este 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, exclusiv pentru șantaj.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3053",
+      "original_name": "Creanga Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/140829",
+        "https://www.curentul.info/actualitate/sectia-5-politie-se-reuneste-in-beciurile-pna/"
+      ],
+      "note": "Eliminat din catalog: polițist al Secției 5 București, fără rol politic demonstrat. Condamnarea definitivă din 3 iulie 2012: 1 an și 2 luni cu suspendare condiționată, termen de încercare 5 ani și 2 luni, pentru luare de mită și favorizarea infractorului, cu interdicții 2 ani după pedeapsa principală. Hotărârea CEDO privind privarea de libertate nu a anulat această condamnare ulterioară.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3054",
+      "original_name": "Cupe Daniel Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1940",
+        "https://www.mediafax.ro/social/doi-ofiteri-de-la-crima-organizata-acuzati-de-coruptie-arestati-preventiv-4264206"
+      ],
+      "note": "Eliminat din catalog: ofițer de poliție judiciară în cadrul DCCO - Brigada București, fără rol politic demonstrat. Profilul îi atribuise eronat și falsul intelectual al coinculpatului Mărgărit. Daniel Ioan Cupe a fost condamnat definitiv exclusiv pentru luare de mită la 4 ani cu executare, cu interdicții pe durata executării și încă 3 ani după.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3055",
+      "original_name": "Dinu Lilica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3174",
+        "https://legislatie.just.ro/Public/FormaPrintabila/00000G0TAGMFUSHELDG0F8C9YRW5FGEV",
+        "https://adevarul.ro/amp/stiri-interne/societate/fraude-vamale-de-58-de-miliarde-lei-din-importuri-653110.html"
+      ],
+      "note": "Eliminată din catalog: șefa Biroului Vamal Buzău, fără mandat, candidatură sau afiliere politică demonstrată. Descrierea publică aparținea eronat coinculpatului Marian Răchițeanu. Pentru Lilica Dinu, condamnarea definitivă este 4 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru abuz în serviciu cu consecințe deosebit de grave, cu interdicții timp de 5 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3056",
+      "original_name": "Diosteanu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2220",
+        "https://www.dna.ro/comunicat.xhtml?id=1000"
+      ],
+      "note": "Eliminat din catalog: comisar-șef și ofițer de poliție judiciară la IPJ Olt, fără mandat, candidatură sau afiliere politică demonstrată. Soluția definitivă din 15 februarie 2011 este confirmată: 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru trafic de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3057",
+      "original_name": "Disa Puiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2555",
+        "https://adevarul.ro/stiri-locale/hunedoara/inspectorul-de-munca-puiu-disa-a-fost-condamnat-706557.html"
+      ],
+      "note": "Eliminat din catalog: inspector de muncă la ITM Hunedoara, fără mandat, candidatură sau afiliere politică demonstrată. Profilul era generic și trunchiat. Condamnarea definitivă: 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită, cu interdicții timp de 3 ani după executarea pedepsei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3058",
+      "original_name": "Doban Remus Alin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4667",
+        "https://www.pressalert.ro/2013/06/spaga-cu-contrafilaj-pentru-comisarii-de-la-garda-financiara-caras-severin/"
+      ],
+      "note": "Eliminat din catalog: fost comisar al Gărzii Financiare Caraș-Severin, fără mandat, candidatură sau afiliere politică demonstrată. Condamnarea definitivă: 3 ani și 6 luni cu executare pentru luare de mită în formă continuată și fals intelectual; interdicții pe durata executării și încă 5 ani după pedeapsa principală.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3059",
+      "original_name": "Dobrea Marinela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4769",
+        "https://www.cjgalati.ro/images/stories/hotarari14/ph3111-280514.pdf",
+        "https://romanialibera.ro/special/nepotism-de-gradul-1-la-dgaspdc-galati-128519/"
+      ],
+      "note": "Eliminată din catalog: director general al DGASPC Galați, funcție publică administrativă ocupată prin concurs; relatările despre clientelă PC/PSD nu demonstrează membru, candidatură sau mandat politic. Profilul descria eronat condamnarea fiicei sale Lucia Raluca Dobrea. Pentru Marinela Dobrea: 4 ani cu executare pentru două forme de abuz în serviciu, folosirea de documente false pentru fonduri europene și fals intelectual, cu interdicții pe durata executării și 2 ani după.",
       "reviewed_snapshot_hash": null
     }
   ]
