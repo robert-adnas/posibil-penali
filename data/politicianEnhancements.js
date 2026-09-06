@@ -37365,23 +37365,24 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Jurj Nicolae",
-    "party": "Independent",
-    "position": "Sef agentie în Autoritatea rutiera romana (Ministerul Transporturilor)",
-    "position_type": "other",
+    "name": "Nicolae Jurj",
+    "party": "PDL",
+    "position": "Fost candidat PDL la Primăria Carei și fost consilier local Carei",
+    "position_type": "local_official",
     "geography": {
       "county": "Satu Mare",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef agentie în Autoritatea rutiera romana (Ministerul Transporturilor) în județul Satu Mare."
+      "locality": "Carei",
+      "basis": "political_base",
+      "note": "A candidat din partea PDL la Primăria Carei în 2008 și a ocupat ulterior un mandat de consilier local."
     },
     "crime": "luare de mită, în formă continuată și trafic de influență",
-    "sentence": "2 ani închisoare cu suspendare",
+    "sentence": "2 ani închisoare cu suspendare sub supraveghere (termen de încercare 6 ani)",
     "sentence_years": 2,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 septembrie 2012. Condamnarea inculpatului JURJ NICOLAE, șef la Agenția teritorială Autoritatea Rutieră Română (A.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.739 din 10 septembrie 2012, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Nicolae Jurj, șef al Agenției teritoriale ARR Satu Mare, la 2 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru luare de mită în formă continuată și trafic de influență. Instanța a dispus interdicții timp de 2 ani, restituirea către denunțător a 5.000 lei și 500 euro și plata a 6.000 lei cheltuieli judiciare. Identitatea politică este confirmată de candidatura sa PDL la Primăria Carei în 2008, când a obținut 1.190 de voturi (12,66%), și de mandatul ulterior de consilier local, din care a demisionat în mai 2009.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37389,255 +37390,44 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3543"
       },
       {
-        "label": "România Curată",
+        "label": "HotNews – candidații la alegerile locale din 2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Jurj Nicolae indică județul Satu Mare, funcția \"Sef agentie\", instituția \"Autoritatea rutiera romana (Ministerul Transporturilor)\", decizia 2739 și condamnarea din 10/09/2012."
-      }
-    ]
-  },
-  {
-    "name": "Kadlec Robert Daniel",
-    "party": "Independent",
-    "position": "Inspector fiscal în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector fiscal în Directia generala a finantelor publice în județul Maramures."
-    },
-    "crime": "fals material în înscrisuri oficiale; trafic de influență; luare de mită; abuz în serviciu; șantaj; uz de fals",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 mai 2013. Condamnarea inculpatului KADLEC ROBERT – DANIEL, inspector fiscal la D.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4125"
+        "url": "https://hotnews.ro/alegeri-locale-2008-candidati-la-primaria-oraselor-din-satu-mare-contacte-primarii-satu-mare-1649298",
+        "description": "Lista contemporană a candidaților îl indică pe Nicolae Jurj drept candidatul PD-L la Primăria Carei."
       },
       {
-        "label": "România Curată",
+        "label": "Adevărul – profil Nicolae Jurj",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Kadlec Robert Daniel indică județul Maramures, funcția \"Inspector fiscal\", instituția \"Directia generala a finantelor publice\", decizia 1834 și condamnarea din 28/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Kalamar Ildiko",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Harghita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Harghita."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "2 ani și 1 lună închisoare cu suspendare",
-    "sentence_years": 2.08,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 9 noiembrie 2011. Condamnarea inculpatei KALAMAR ILDIKO, inspector cu atribuțiuni la Direcția Generală a Finanțelor Publice Harghita – Serviciul de Inspecție Fiscală, la pedeapsa de 2 ani și 10 luni închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani și 10 luni, pentru săvârșirea infracțiunii de luare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2782"
+        "url": "https://adevarul.ro/stiri-locale/satu-mare/sefului-arr-satu-mare-arestat-pentru-mita-ii-1002761.html",
+        "description": "Relatarea consemnează candidatura din 2008, scorul de 12,66%, mandatul de consilier local și demisia din mai 2009."
       },
       {
-        "label": "România Curată",
+        "label": "Știripesurse – rezultate locale Satu Mare 2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Kalamar Ildiko indică județul Harghita, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 3979 și condamnarea din 09/11/2011."
+        "url": "https://www.stiripesurse.ro/judetul-satu-mare_1110586.html",
+        "description": "Tabelul rezultatelor confirmă 1.190 de voturi și 12,66% pentru candidatul PDL Nicolae Jurj la Carei."
       }
     ]
   },
   {
-    "name": "Kiss Alexandru",
-    "party": "Independent",
-    "position": "Procuror sef în Parchet",
-    "position_type": "other",
+    "name": "Marius Lahman",
+    "party": "Alianța Tinerilor Democrați",
+    "position": "Candidat ATD la Consiliul Local Voluntari în 2024",
+    "position_type": "local_official",
     "geography": {
-      "county": "Covasna",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Procuror sef în Parchet în județul Covasna."
+      "county": "Ilfov",
+      "locality": "Voluntari",
+      "basis": "political_base",
+      "note": "A candidat din partea Alianței Tinerilor Democrați la Consiliul Local Voluntari în alegerile locale din 2024."
     },
-    "crime": "luare de mită și favorizarea infractorului, ambele în formă continuată",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Kiss Alexandru a fost condamnat definitiv la 6 mai 2010 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Procuror sef în Parchet. Infracțiunea reținută: luare de mită și favorizarea infractorului, ambele în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1922"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Kiss Alexandru indică județul Covasna, funcția \"Procuror sef\", instituția \"Parchet\", decizia 1801 și condamnarea din 06/05/2010."
-      }
-    ]
-  },
-  {
-    "name": "Kocsan Rudolf",
-    "party": "Independent",
-    "position": "Agent politie în Inspectoratul judetean de politie de frontiera (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Satu Mare",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Inspectoratul judetean de politie de frontiera (MAI) în județul Satu Mare."
-    },
-    "crime": "constituirea unui grup infracțional organizat în scopul săvârșirii de infracțiuni grave și complicitate la infracțiunea de contrabandă calificată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 aprilie 2012. Condamnarea inculpatului HOTEA GHEORGHE SORIN, agent de poliție de frontieră la Inspectoratul Județean de Poliție de Frontieră (I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3176"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Kocsan Rudolf indică județul Satu Mare, funcția \"Agent politie\", instituția \"Inspectoratul judetean de politie de frontiera (MAI)\", decizia 1088 și condamnarea din 10/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Kolozsi Laurentiu-Valentin",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Kolozsi Laurentiu-Valentin a fost condamnat definitiv la 7 septembrie 2012 la 2 ani închisoare. Funcția relevantă consemnată în sursă: Comisar în Garda financiara. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3537"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Kolozsi Laurentiu-Valentin indică județul Bucuresti, funcția \"Comisar\", instituția \"Garda financiara\", decizia 2706 și condamnarea din 07/09/2012."
-      }
-    ]
-  },
-  {
-    "name": "Korner Robert-Paul",
-    "party": "Independent",
-    "position": "Comisar superior garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar superior garda financiara în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Korner Robert-Paul a fost condamnat definitiv la 19 aprilie 2012 la 4 ani închisoare. Funcția relevantă consemnată în sursă: Comisar superior garda financiara. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3223"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Korner Robert-Paul indică județul Bucuresti, funcția \"Comisar superior garda financiara\", instituția \"Garda financiara\", decizia 1227 și condamnarea din 19/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Lacraru Aurelia",
-    "party": "Independent",
-    "position": "Angajat în Inspectorat de politie judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Valcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Angajat în Inspectorat de politie judetean (MAI) în județul Valcea."
-    },
-    "crime": "trafic de influență în formă continuată",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 mai 2010. Condamnă pe inculpata Cotar Lucia la pedeapsa de doi ani închisoare cu suspendarea condiționată a executării pedepsei, pe durata unui termen de încercare de patru ani, pentru săvârșirea infracțiunii de complicitate la trafic de influență în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1926"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lacraru Aurelia indică județul Valcea, funcția \"Angajat\", instituția \"Inspectorat de politie judetean (MAI)\", decizia 1917 și condamnarea din 14/05/2010."
-      }
-    ]
-  },
-  {
-    "name": "Lahman Marius",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
+    "crime": "Luare de mită",
     "sentence": "1 an și 2 luni închisoare cu suspendare",
     "sentence_years": 1.17,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului LAHMAN MARIUS, agent de poliție la Secția 5 București, la pedeapsa de 1 an și 2 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 2 luni, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.348 din 3 iulie 2012, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Marius Lahman, agent de poliție la Secția 5 București, la 1 an și 2 luni de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani și 2 luni, pentru luare de mită. Instanța a interzis anumite drepturi timp de 2 ani după executarea pedepsei. Hotărârea CEDO în cauza Vișan și alții îl identifică drept născut la 15 iulie 1967 și domiciliat în Voluntari; lista candidaților din 2024 consemnează un candidat cu același nume, în aceeași localitate, din partea Alianței Tinerilor Democrați.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37645,31 +37435,36 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
       },
       {
-        "label": "România Curată",
+        "label": "CEDO – Vișan și alții împotriva României",
+        "kind": "official",
+        "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=VI%C8%98AN+v.+ROMANIA+-+%5BRomanian+translation%5D+by+the+SCM+Romania+and+IER.pdf&id=001-176164&library=ECHR&logEvent=False",
+        "description": "Anexa hotărârii îl identifică pe Marius Lahman, născut la 15 iulie 1967, cu domiciliul în Voluntari."
+      },
+      {
+        "label": "Ziare.com – candidații la Consiliul Local Voluntari 2024",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lahman Marius indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
+        "url": "https://ziare.com/alegeri/alegeri-locale-2024/candidati_ilfov/consiliul-local/voluntari/",
+        "description": "Lista electorală îl indică pe Marius Lahman drept candidat al Alianței Tinerilor Democrați la Consiliul Local Voluntari."
       }
     ]
   },
   {
-    "name": "Lascau Ioan",
-    "party": "Independent",
-    "position": "Director executiv în Directia generala a finantelor publice",
-    "position_type": "other",
+    "name": "Ioan Lascău",
+    "party": "PP-DD",
+    "position": "Fost consilier județean Bihor și fost președinte PP-DD Bihor",
+    "position_type": "local_official",
     "geography": {
       "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Directia generala a finantelor publice în județul Bihor."
+      "basis": "political_base",
+      "note": "A fost ales consilier județean în Bihor pe lista PP-DD și a condus filiala județeană a partidului."
     },
     "crime": "luare de mită și spălare de bani",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 8 martie 2013. Condamnarea inculpatului LASCĂU IOAN, fost director executiv la Direcția Generală a Finanțelor Publice Bihor, la pedeapsa de 3 ani închisoare în regim de detenție pentru săvârșirea infracțiunilor de luare de mită și spălare de bani.",
-    "verified_at": "2026-06-10",
+    "sentence": "Achitat definitiv la 25 aprilie 2023; condamnarea din 2013 a fost desființată",
+    "sentence_years": null,
+    "conviction_year": null,
+    "status": "acquitted",
+    "details": "Ioan Lascău, fost director executiv al DGFP Bihor, a fost condamnat de Înalta Curte la 8 martie 2013 la 3 ani de închisoare pentru luare de mită și spălare de bani, după ce instanțele inferioare îl achitaseră. CEDO a constatat în 2020 încălcarea dreptului la un proces echitabil; ÎCCJ a admis revizuirea și a desființat condamnarea în 2021. După rejudecarea recursului, ÎCCJ a respins definitiv recursul DNA la 25 aprilie 2023, menținând achitarea și dispunând restituirea sumei confiscate de 34.954 lei. Politic, Lascău a fost președinte PP-DD Bihor și ales consilier județean în 2012.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37677,31 +37472,50 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3961"
       },
       {
-        "label": "România Curată",
+        "label": "Portal Legislativ – hotărârea CEDO Lascău împotriva României",
+        "kind": "official",
+        "url": "https://legislatie.just.ro/public/DetaliiDocument/235380",
+        "description": "Hotărârea CEDO din 5 mai 2020 documentează cauza și încălcarea dreptului la un proces echitabil."
+      },
+      {
+        "label": "BihorJust – achitarea definitivă din 2023",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lascau Ioan indică județul Bihor, funcția \"Director executiv\", instituția \"Directia generala a finantelor publice\", decizia 836 și condamnarea din 08/03/2013."
+        "url": "https://www.bihorjust.ro/dupa-19-ani-de-calvar-in-instante-fostul-sef-al-finantelor-ioan-lascau-achitat-definitiv-de-inalta-curte/",
+        "description": "Publică soluția ÎCCJ din 25 aprilie 2023: recursul DNA respins, achitarea menținută și suma confiscată restituită."
+      },
+      {
+        "label": "Crișana – mandatele aleșilor județeni Bihor",
+        "kind": "press",
+        "url": "https://www.crisana.ro/stiri/politica-4/alesii-au-primit-mandatele-38098.html",
+        "description": "Confirmă alegerea lui Ioan Lascău ca membru PP-DD al Consiliului Județean Bihor în 2012."
+      },
+      {
+        "label": "Gândul – conducerea PP-DD Bihor",
+        "kind": "press",
+        "url": "https://www.gandul.ro/politica/scandal-cu-demisii-in-ppdd-bihor-asta-nu-mai-este-partid-ii-casa-de-toleranta-11628105",
+        "description": "Îl identifică drept fost președinte al organizației PP-DD Bihor."
       }
     ]
   },
   {
-    "name": "Lascu Dumitru",
-    "party": "Independent",
-    "position": "Director general în Casa de asigurari de sanatate",
-    "position_type": "other",
+    "name": "Dumitru Lascu",
+    "party": "PNL",
+    "position": "Fost candidat PNL la Primăria Tulcea",
+    "position_type": "local_official",
     "geography": {
       "county": "Tulcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în Casa de asigurari de sanatate în județul Tulcea."
+      "locality": "Tulcea",
+      "basis": "political_base",
+      "note": "A candidat din partea PNL la Primăria municipiului Tulcea în alegerile locale din 2008."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare cu suspendare",
+    "crime": "Luare de mită",
+    "sentence": "4 ani închisoare cu suspendare sub supraveghere (termen de încercare 6 ani)",
     "sentence_years": 4,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 martie 2012. Condamnarea inculpatului LASCU DUMITRU, președinte – director General al Casei de Asigurări de Sănătate Tulcea, la pedeapsa de 4 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 969 din 30 martie 2012, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Dumitru Lascu, președinte-director general al Casei de Asigurări de Sănătate Tulcea, la 4 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru luare de mită. Instanța a dispus interdicții timp de 2 ani, confiscarea a 8.100 lei și 500 euro și plata a 350 lei cheltuieli judiciare. Lascu fusese candidatul PNL la Primăria Tulcea în 2008, iar numirea sa la conducerea CJAS fusese făcută la propunerea PNL Tulcea.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37709,42 +37523,22 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=3119"
       },
       {
-        "label": "România Curată",
+        "label": "HotNews – candidații la Primăria Tulcea în 2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lascu Dumitru indică județul Tulcea, funcția \"Director general\", instituția \"Casa de asigurari de sanatate\", decizia 969 și condamnarea din 30/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Leonte Gabriel",
-    "party": "Independent",
-    "position": "Director în Parlamentul Romaniei",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Parlamentul Romaniei în județul Prahova."
-    },
-    "crime": "cumpărare de influență, în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 aprilie 2014. Condamnă pe inculpatul LEONTE GABRIEL, fost director în cadrul Parlamentului României – Camera Deputaților, la o pedeapsă de 2 ani închisoare, cu suspendarea executării pedepsei pe durata unui termen de încercare de 4 ani pentru săvârșirea infracțiunilor concurente de: complicitate la cumpărare de influență, complicitate la trafic de influență, complicitate la cumpărare de influență și complicitate la trafic de influență, ultimele două, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4821"
+        "url": "https://hotnews.ro/alegeri-locale-2008-candidati-la-primaria-orasului-tulcea-contacte-primerie-tulcea-1649267",
+        "description": "Lista contemporană îl indică pe Dumitru Lascu drept candidatul PNL la Primăria Tulcea."
       },
       {
-        "label": "România Curată",
+        "label": "Mediafax – candidații PNL la alegerile locale din 2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Leonte Gabriel indică județul Prahova, funcția \"Director\", instituția \"Parlamentul Romaniei\", decizia 491 și condamnarea din 10/04/2014."
+        "url": "https://www.mediafax.ro/politic/adomnitei-silaghi-bolojan-si-marius-stan-candidati-pnl-la-alegerile-locale-2480689/amp",
+        "description": "Relatarea despre validările PNL confirmă candidatura lui Dumitru Lascu la Primăria Tulcea."
+      },
+      {
+        "label": "România Liberă – numirea la CJAS Tulcea",
+        "kind": "press",
+        "url": "https://romanialibera.ro/special/numire-controversata-la-sefia-cjas-tulcea-13649/",
+        "description": "Consemnează că Dumitru Lascu fusese nominalizat la conducerea CJAS de PNL Tulcea."
       }
     ]
   },

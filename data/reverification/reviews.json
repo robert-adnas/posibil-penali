@@ -47922,6 +47922,218 @@
       ],
       "note": "Numele oficial este Joița Constantin. Persoana condamnată era fost șef al Administrației Finanțelor Publice Roșiorii de Vede, fără candidatură, mandat, apartenență sau funcție de partid identificată. ÎCCJ, decizia penală 4.120 din 12.12.2012 definitivă (nu 11.12.2012): 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită și fals intelectual, ambele în formă continuată; interdicții 2 ani după executare; confiscare 19.370 lei deja achitată; 25.000 lei cheltuieli judiciare și 1.000 lei în apel. Profil eliminat din registrul politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3137",
+      "original_name": "Jurj Nicolae",
+      "current_name": "Nicolae Jurj",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3543",
+        "https://hotnews.ro/alegeri-locale-2008-candidati-la-primaria-oraselor-din-satu-mare-contacte-primarii-satu-mare-1649298",
+        "https://adevarul.ro/stiri-locale/satu-mare/sefului-arr-satu-mare-arestat-pentru-mita-ii-1002761.html",
+        "https://www.stiripesurse.ro/judetul-satu-mare_1110586.html"
+      ],
+      "note": "Păstrat: candidat PDL la Primăria Carei în 2008 și fost consilier local. Numele, afilierea, rolul politic și detaliile condamnării definitive au fost corectate din surse concordante.",
+      "reviewed_snapshot_hash": "bca8730c6afa3c160feb7c7af699c45f83171cc1694155006eaf86d19db3b9ab"
+    },
+    {
+      "profile_id": "RV-3138",
+      "original_name": "Kadlec Robert Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4125"
+      ],
+      "note": "Eliminat din registrul politic: sursele îl identifică exclusiv ca inspector fiscal DGFP Maramureș; nu a fost găsită o candidatură, funcție de partid sau un mandat ales. Hotărârea definitivă nr. 1.834/28.05.2013 a ICCJ a menținut pedeapsa de 4 ani în regim de detenție pentru lista extinsă de infracțiuni din comunicatul DNA, cu confiscarea a 25.000 lei și 20.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3139",
+      "original_name": "Kalamar Ildiko",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2782",
+        "https://www.avocatnet.ro/Consultant-fiscal-din-HARGHITA-19-10.html"
+      ],
+      "note": "Eliminată din registrul politic: sursele o identifică drept inspector DGFP Harghita și consultant fiscal, fără candidatură, mandat ales sau funcție de partid verificabilă. Pedeapsa corectă din decizia penală nr. 3.979/09.11.2011 este 2 ani și 10 luni cu suspendare condiționată, termen de încercare 4 ani și 10 luni, nu 2 ani și 1 lună; confiscare 100 lei și cheltuieli judiciare 350 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3140",
+      "original_name": "Kiss Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1922",
+        "https://legislatie.just.ro/Public/DetaliiDocument/37132"
+      ],
+      "note": "Eliminat din registrul politic: persoana este procurorul-șef Alexandru Kiss de la Parchetul de pe lângă Tribunalul Covasna, numit în magistratură și condamnat definitiv prin decizia nr. 1.801/06.05.2010 la 3 ani cu executare. Nu a fost identificat un mandat sau rol politic; rezultatele despre politicieni omonimi, inclusiv Alexandru Kiss din Bihor, sunt coliziuni de nume și nu au fost atribuite magistratului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3141",
+      "original_name": "Kocsan Rudolf",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3176",
+        "https://hudoc.echr.coe.int/eng?i=001-158262"
+      ],
+      "note": "Eliminat din registrul politic: agent al Poliției de Frontieră Satu Mare, fără candidatură, mandat ales sau funcție de partid verificabilă. Profilul era contaminat cu textul despre co-inculpatul Hotea Gheorghe Sorin. Pentru Kocsan, decizia penală nr. 1.088/10.04.2012 stabilește 4 ani cu executare, interdicții 3 ani, confiscarea echivalentului a 2.000 euro și 8.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3142",
+      "original_name": "Kolozsi Laurentiu-Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3537",
+        "https://www.dna.ro/comunicat.xhtml?id=2888",
+        "https://www.mfinante.gov.ro/static/10/Mfp/LIDOSNR_IUNIE2007.pdf"
+      ],
+      "note": "Eliminat din registrul politic: sursele îl identifică drept comisar al Gărzii Financiare București și consultant fiscal, fără candidatură, mandat ales sau funcție de partid verificabilă. Pentru cazul din profil, decizia nr. 2.706/07.09.2012 stabilește 2 ani cu executare pentru luare de mită, interdicții 5 ani, restituirea a 7.000 lei și 4.000 lei cheltuieli. DNA documentează și o condamnare distinctă, definitivă la 15.12.2011, de 3 ani pentru luare de mită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3143",
+      "original_name": "Korner Robert-Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3223",
+        "https://hotnews.ro/doi-comisari-ai-garzii-financiare-arestati-preventiv-sub-acuzatia-de-luare-de-mita-723085"
+      ],
+      "note": "Eliminat din registrul politic: comisar superior al Gărzii Financiare – Comisariatul General, fără candidatură, mandat ales sau funcție de partid verificabilă. Numele oficial este Körner Robert-Paul. Decizia nr. 1.227/19.04.2012 stabilește 4 ani cu executare pentru luare de mită, interdicții 3 ani, restituirea a 13.000 lei către denunțători și 4.500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3144",
+      "original_name": "Lacraru Aurelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1926",
+        "https://ziaruldevalcea.ro/2008/09/secretara-politiei-rutiere-valcea/"
+      ],
+      "note": "Eliminată din registrul politic: angajată contractuală/secretară la Serviciul Poliției Rutiere Vâlcea, fără candidatură, mandat ales sau funcție de partid. Numele a fost diacritizat. Descrierea profilului era contaminată cu sentința Luciei Cotar; pentru Aurelia Lăcraru, decizia nr. 1.917/14.05.2010 stabilește 3 ani cu executare pentru trafic de influență continuat, interdicții și 200 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3145",
+      "original_name": "Lahman Marius",
+      "current_name": "Marius Lahman",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=VI%C8%98AN+v.+ROMANIA+-+%5BRomanian+translation%5D+by+the+SCM+Romania+and+IER.pdf&id=001-176164&library=ECHR&logEvent=False",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_ilfov/consiliul-local/voluntari/"
+      ],
+      "note": "Păstrat: candidat al Alianței Tinerilor Democrați la Consiliul Local Voluntari în 2024. Legătura de identitate este susținută de numele exact și de domiciliul Voluntari consemnat de CEDO pentru persoana condamnată. Numele, partidul, rolul politic, geografia și infracțiunea au fost corectate; DNA reține pentru Lahman numai luare de mită.",
+      "reviewed_snapshot_hash": "7d7c488320da32f1c94aed7292361616ec9a451c79d080efc3c81da33d624793"
+    },
+    {
+      "profile_id": "RV-3146",
+      "original_name": "Lascau Ioan",
+      "current_name": "Ioan Lascău",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3961",
+        "https://legislatie.just.ro/public/DetaliiDocument/235380",
+        "https://www.bihorjust.ro/dupa-19-ani-de-calvar-in-instante-fostul-sef-al-finantelor-ioan-lascau-achitat-definitiv-de-inalta-curte/",
+        "https://www.crisana.ro/stiri/politica-4/alesii-au-primit-mandatele-38098.html",
+        "https://www.gandul.ro/politica/scandal-cu-demisii-in-ppdd-bihor-asta-nu-mai-este-partid-ii-casa-de-toleranta-11628105"
+      ],
+      "note": "Păstrat și corectat: fost președinte PP-DD Bihor și consilier județean ales în 2012. Condamnarea din 08.03.2013 a fost desființată după hotărârea CEDO; în rejudecare, ÎCCJ a respins recursul DNA la 25.04.2023, astfel că achitarea este definitivă și statusul curent este acquitted.",
+      "reviewed_snapshot_hash": "18c6954e85668fd057fc065d817fdae8aebec78aba26ecb1f0264808d3856192"
+    },
+    {
+      "profile_id": "RV-3147",
+      "original_name": "Lascu Dumitru",
+      "current_name": "Dumitru Lascu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3119",
+        "https://hotnews.ro/alegeri-locale-2008-candidati-la-primaria-orasului-tulcea-contacte-primerie-tulcea-1649267",
+        "https://www.mediafax.ro/politic/adomnitei-silaghi-bolojan-si-marius-stan-candidati-pnl-la-alegerile-locale-2480689/amp",
+        "https://romanialibera.ro/special/numire-controversata-la-sefia-cjas-tulcea-13649/"
+      ],
+      "note": "Păstrat: candidat PNL la Primăria Tulcea în 2008 și persoană nominalizată de PNL Tulcea la conducerea CJAS. Numele, partidul, rolul politic, geografia, infracțiunea și detaliile condamnării au fost corectate.",
+      "reviewed_snapshot_hash": "145e4eb8ec2a6d4341dca44d8d3817d12f4a66cf1ee5ff4b0e8e83fe92a2f820"
+    },
+    {
+      "profile_id": "RV-3148",
+      "original_name": "Leonte Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4821",
+        "https://legislatie.just.ro/Public/DetaliiDocument/100694"
+      ],
+      "note": "Eliminat din registrul politic: director în aparatul administrativ al Camerei Deputaților, fără mandat ales, candidatură sau funcție de partid verificabilă. Profilul reducea greșit infracțiunile la cumpărare de influență continuată; decizia nr. 491/10.04.2014 reține patru infracțiuni concurente de complicitate la cumpărare și trafic de influență, două continuate, 2 ani cu suspendare pe 4 ani și confiscarea a 5.000 euro.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
