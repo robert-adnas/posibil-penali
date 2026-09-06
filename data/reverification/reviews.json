@@ -47477,6 +47477,451 @@
       ],
       "note": "DNA identifică persoana drept col. Ghimpețeanu Marian, inspector-șef al ISU «Vlașca» Giurgiu la data faptelor. Profil eliminat deoarece era cadru militar și conducător operativ, fără candidatură, mandat electiv sau funcție de partid identificată; prefectul PNL omonim din sursele recente este Ion Ghimpețeanu, altă persoană. Câmpul juridic publicat era incomplet: decizia penală nr. 45/10.07.2014 confirmă definitiv 3 ani și 6 luni cu executare pentru multiple instigări la fals material, fals intelectual, uz de fals și abuz în serviciu, fals material direct și asociere pentru săvârșirea de infracțiuni, mai multe în formă continuată, plus interdicții în timpul executării și încă 2 ani.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3111",
+      "original_name": "Ghita Marius Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1927",
+        "https://web.justitie-ag.ro/ca_pit/ca_app/dosar_detalii.asp?id_dosar=4600000000024322",
+        "https://www.mediafax.ro/social/trei-politisti-de-la-ipj-arges-trimisi-in-judecata-pentru-trafic-de-influenta-si-coruptie-3195742"
+      ],
+      "note": "Ofițer de poliție judiciară și subcomisar la IPJ Argeș, fără rol politic sau electoral identificat; exclus din domeniul registrului. Decizia penală ICCJ nr. 2436/21.06.2010 este definitivă: 4 ani închisoare pentru patru infracțiuni de trafic de influență, abuz în serviciu pentru obținerea unui avantaj patrimonial, luare de mită și fals intelectual în legătură directă cu traficul de influență. Drepturi interzise pe durata executării și dreptul de a exercita activitatea folosită la săvârșirea faptelor încă 2 ani; confiscări de 896,76 euro împreună cu Sabin Gheorghe Tănase, plus 200 lei și 400 euro de la Ghiță, precum și 20.000 lei plus 100 lei cheltuieli judiciare. Descrierea generică «Fapte de corupție» a fost corectată în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3112",
+      "original_name": "Gidea Vasile",
+      "current_name": "Gîdea Vasile",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4974",
+        "https://www.calarasi.ro/conducerea-deliberativa/",
+        "https://calarasi.ro/wp-content/uploads/2020/07/Proces-verbal-27.04.2022.pdf"
+      ],
+      "note": "Profil păstrat și corectat. Numele a fost normalizat Gîdea Vasile; afilierea Independent și funcția exclusiv administrativă erau depășite. Pagina oficială CJ îl listează consilier județean PSD, iar procesul-verbal CJ din 27.04.2022 îl citează spunând că a lucrat la Garda de Mediu, legând fără ambiguitate identitatea politică de fostul comisar șef condamnat. Condamnarea definitivă DNA din 27.05.2014 este confirmată: 2 ani cu suspendare, termen de încercare 4 ani, pentru complicitate la trafic de influență și complicitate la dare de mită, ambele în formă continuată.",
+      "reviewed_snapshot_hash": "0d8241a7047268b6820af7d13ea9963379dc0b51aec87af1f1d589c16ffd24e9"
+    },
+    {
+      "profile_id": "RV-3113",
+      "original_name": "Giza Dragos Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4481",
+        "https://www.topiasi.ro/homepage/bani/4979-fiscul-ie%C8%99ean-are-de-%C3%AEncasat-aproape-100-000-de-lei-de-la-un-vame%C8%99.html",
+        "https://www.crainou.ro/2007/12/22/dupa-deliberari-maraton-ale-curtii-de-apel-suceava-patru-din-cei-15-arestati-au-fost-pusi-in-libertate/"
+      ],
+      "note": "Inspector vamal la Biroul Vamal Dornești – Punctul vamal Ulma, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Numele a fost normalizat Gîză Dragoș Viorel. Decizia definitivă nr. 1048/22.11.2013: 2 ani cu suspendare condiționată și termen de încercare 4 ani pentru abuz în serviciu cu avantaj patrimonial pentru altul și abuz în serviciu cu avantaj patrimonial pentru altul cu consecințe deosebit de grave; interdicții pe durata pedepsei, 92.566 lei despăgubiri și 3.500 lei cheltuieli judiciare. Profilul public comprima incorect cele două infracțiuni într-o etichetă generică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3114",
+      "original_name": "Godinca Dumitru",
+      "current_name": "Godîncă Dumitru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5536",
+        "https://www.primariasm.ro/mandat-2008-2012",
+        "https://www.economica.net/unul-dintre-angajatii-transgaz-satu-mare-retinuti-pentru-dare-de-mita-este-consilier-local-pdl_12814.html"
+      ],
+      "note": "Profil păstrat și corectat. Primăria Satu Mare confirmă mandatul 2008-2012 de consilier local PDL, iar relatarea Mediafax îl identifică simultan ca șef al sectorului Transgaz Satu Mare, rezolvând identitatea. Numele a fost normalizat Godîncă Dumitru, partidul schimbat din Independent în PDL, iar funcția politică adăugată. Decizia definitivă CA Oradea nr. 530/28.10.2014 a aplicat 1 an cu suspendare condiționată și termen de încercare 3 ani pentru dare de mită; eticheta generică «Fapte de corupție» a fost corectată. Acuzația inițială de tentativă la contrabandă nu este prezentată ca infracțiune de condamnare în comunicatul final DNA.",
+      "reviewed_snapshot_hash": "443b4ae8c4042a93aec635713a34d388e59a657abe72b2e3bb16e962aca7f86c"
+    },
+    {
+      "profile_id": "RV-3115",
+      "original_name": "Grecu Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4379",
+        "https://adevarul.ro/stiri-locale/ramnicu-valcea/sef-de-la-garda-financiara-valcea-deferit-1251264.html"
+      ],
+      "note": "Comisar șef de divizie la Garda Financiară – Secția Vâlcea, fără candidatură, mandat ori funcție de partid identificată; exclus din registrul politic. Un candidat omonim din Alunu are altă localitate și ocupație și nu a fost asociat acestui dosar. Condamnarea definitivă ICCJ nr. 3056/09.10.2013 este confirmată: 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită în formă continuată; interdicții timp de 3 ani și restituirea către denunțător a 1.000 euro. Profilul public omitea sancțiunile complementare, corectate în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3116",
+      "original_name": "Gridan Adrian Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1897",
+        "https://www.dna.ro/comunicat.xhtml?id=633",
+        "https://www.gds.ro/Local/2007-03-19/Cadouri-pentru-politistii-de-frontiera/"
+      ],
+      "note": "Comisar și specialist criminalist la Inspectoratul Județean al Poliției de Frontieră Dolj, pensionat în cursul anchetei, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Decizia definitivă ICCJ nr. 1017/17.03.2010: 6 luni cu suspendare condiționată, termen de încercare 2 ani și 6 luni, pentru primire de foloase necuvenite; 1.500 lei cheltuieli la fond și 300 lei în recurs. Pedeapsa și infracțiunea publice erau corecte, dar termenul de încercare și cheltuielile au fost completate în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3117",
+      "original_name": "Grindean Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5066",
+        "https://www.romaniacurata.ro/prinsi-si-trimisi-in-judecata-pentru-ca-au-cerut-si-primit-mita-de-la-studentii-universitatii-hyperion/",
+        "https://timponline.ro/pp-dd-si-a-prezentat-candidatii-pentru-locale-foto/"
+      ],
+      "note": "DNA identifică persoana condamnată drept fost comisar-șef al Secției de Poliție Rurală Petelea, IPJ Mureș, nu București. Un candidat PP-DD cu același nume apare în 2012 în Bistrița-Năsăud, însă nu există un identificator ori o sursă care să-l lege sigur de polițist; coincidența nu justifică afișarea unui status penal. Exclus conservator din domeniul politic. Decizia definitivă ICCJ nr. 194/20.06.2014: 1 an și 6 luni cu suspendare, termen de încercare 4 ani, pentru complicitate la folosirea autorității/influenței pentru obținerea de foloase necuvenite, în formă continuată; profilul avea județul și descrierea infracțiunii greșite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3118",
+      "original_name": "Hadar Claudiu Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3914",
+        "https://www.gds.ro/Actualitate/2005-01-06/Trei-inspectori-financiari-deferiti-justitiei-pentru-luare-de-mita/"
+      ],
+      "note": "Inspector de specialitate la DGFP Mureș – Direcția Controlului Fiscal, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Numele a fost normalizat Hadăr Claudiu Nicolae. Decizia definitivă ICCJ nr. 547/15.02.2013: 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită; interdicții 2 ani, confiscarea a 800 euro și 157,99 lei și 500 lei cheltuieli judiciare. Eticheta generică «Fapte de corupție» a fost corectată în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3119",
+      "original_name": "Halip Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4014",
+        "https://v3.monitorulsv.ro/Local/2008-11-26/Patru-politisti-de-frontiera-trimisi-in-judecata-de-DNA-Suceava"
+      ],
+      "note": "Ofițer de poliție de frontieră la Biroul de Combatere a Infracționalității Transfrontaliere al IJPF Suceava, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Decizia definitivă ICCJ nr. 1124/01.04.2013: 2 ani cu suspendare condiționată și termen de încercare 4 ani pentru abuz în serviciu cu avantaj patrimonial pentru altul și fals intelectual; răspundere solidară pentru prejudiciul de 3.414 euro plus accesorii și 4.000 lei cheltuieli judiciare. Profilul public avea detaliile trunchiate, corectate în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3120",
+      "original_name": "Hambic Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://legislatie.just.ro/Public/FormaPrintabila/00000G0AAX9NIB25WY418G5ZQT1J5OGW",
+        "https://amosnews.ro/arhiva/alti-sase-politisti-au-fost-arestati-pentru-furt-carburanti-12-09-2003"
+      ],
+      "note": "Ofițer de poliție la Secția 5 București, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Decizia definitivă ICCJ nr. 2348/03.07.2012: 1 an și 6 luni cu suspendare condiționată, termen de încercare 3 ani și 6 luni, exclusiv pentru luare de mită; interdicții 2 ani. Profilul îi atribuia greșit și complicitatea la furt calificat, infracțiune care nu apare la condamnarea sa definitivă și a fost eliminată din audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3121",
+      "original_name": "Hojbota Raducu Mugurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5148",
+        "https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/sinteza-cauzelor-finalizate-de-procurorii-anticoruptie-in-luna-iunie-2012-373671.html",
+        "https://portal.just.ro/751/Documents/Raport%20de%20control%20-Tribunalul%20Militar%20Timisoara.pdf"
+      ],
+      "note": "Căpitan și adjunct al comandantului Secției de Pompieri Ilia din ISU Hunedoara, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Numele a fost normalizat Hojbotă Răducu Mugurel. Decizia definitivă a Curții Militare de Apel din 01.07.2014: 2 ani și 8 luni cu suspendare, termen de încercare 5 ani, pentru abuz în serviciu în formă continuată; interdicții 3 ani și confiscarea a 12.082,30 lei. Profilul public avea detaliile trunchiate, corectate în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3123",
+      "original_name": "Hudita Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4082",
+        "https://actualmm.ro/tribunalul-maramures-comisarul-dorin-hudita-a-fost-condamnat-2-ani-cu-suspendare-si-5-ani-perioada-de-incercare/",
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/189986"
+      ],
+      "note": "Comisar-șef și șef al Biroului pentru Imigrări Maramureș, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Numele a fost normalizat Hudiță Dorin. Decizia CA Cluj nr. 66/09.04.2013, definitivă la 03.05.2013, confirmă 2 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru trafic de influență. Datele juridice publice erau corecte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3124",
+      "original_name": "Huiu Nicolae Florentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3398",
+        "https://www.dna.ro/comunicat.xhtml?id=1475"
+      ],
+      "note": "Căpitan și ofițer ISU Buzău, fără candidatură, mandat sau funcție de partid identificată; exclus din domeniul politic. Decizia definitivă a Curții Militare de Apel nr. 27/20.06.2012: 4 ani în regim de detenție pentru abuz în serviciu cu avantaj patrimonial/nepatrimonial, tentativă la aceeași infracțiune, fals intelectual și uz de fals, toate în formă continuată; anularea documentelor falsificate și restabilirea situației concursului ISU, plus 2.000 lei cheltuieli judiciare. Profilul public omitea tentativa și forma continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3125",
+      "original_name": "Hutupasu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/masini-de-politie-cu-girofar-escorta-pentru-693466.html",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/grajduri/5"
+      ],
+      "note": "Persoana condamnată este agentul-șef adjunct Huțupașu Constantin de la Secția 5 Poliție București. Un candidat Pro România cu același nume apare în Grajduri, Iași, în 2020, dar nu există identificatori sau surse care să demonstreze că este aceeași persoană; profilul este exclus conservator pentru a evita atribuirea greșită a statusului penal. Decizia definitivă ICCJ nr. 2348/03.07.2012: 1 an și 6 luni cu suspendare condiționată, termen de încercare 3 ani și 6 luni, pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat; interdicții 1 an. Câmpul public «crime» omitea asocierea, corectată în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3126",
+      "original_name": "Ifrim Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917",
+        "https://adevarul.ro/stiri-locale/resita/concurs-fraudat-la-isu-pentru-pilele-981232.html",
+        "https://expressdebanat.ro/exclusiv-opt-condamnati-pentru-zecile-de-angajati-pe-pile-si-fals-la-isu-semenic/"
+      ],
+      "note": "Persoana condamnată era ofițer în cadrul ISU Semenic Caraș-Severin; nu a fost identificat niciun mandat, nicio candidatură sau funcție politică atribuibilă sigur acestei persoane. Decizia definitivă 212/14.02.2013 a Curții de Apel Timișoara: 1 an închisoare cu suspendare condiționată, termen de încercare 3 ani, pentru abuz în serviciu contra intereselor persoanelor cu obținerea unui avantaj pentru altul, fals intelectual și uz de fals, toate în formă continuată; 1.500 lei cheltuieli judiciare. Profil eliminat conservator din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3127",
+      "original_name": "Ionas Marioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4632",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=MM",
+        "https://www.cotidianul.ro/inspector-in-constructii-pus-sub-acuzare-in-dosarul-exploziei-de-la-sighetu-marmatiei/"
+      ],
+      "note": "Numele oficial este Ionaș Marioara. Persoana era inspector de specialitate la ISC Maramureș și diriginte de șantier, fără mandat, candidatură sau funcție politică identificabilă. Curtea de Apel Cluj, decizia penală 83/20.01.2014 definitivă: 2 ani închisoare cu suspendare sub supraveghere, termen de încercare 4 ani, pentru două infracțiuni de abuz în serviciu contra intereselor persoanelor, operațiuni financiare incompatibile cu funcția în scopul obținerii de bani și fals în înscrisuri sub semnătură privată; confiscare 26.040 lei și menținerea sechestrului. Profilul public era incomplet juridic și este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3128",
+      "original_name": "Ionascu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.primariacampulung.ro/file-zone/registre/HCL/2009/HCL%20nr.%2071%20din%2025.06.2009.pdf",
+        "https://jurnaluldearges.ro/?p=21172"
+      ],
+      "note": "Numele oficial este Ionașcu Ion. Persoana era agent șef principal de poliție/referent la Serviciul Public Comunitar Local de Evidență a Persoanei Câmpulung; nu a fost identificată o funcție politică, un mandat sau o candidatură. Condamnare definitivă la 14.04.2014: 4 ani închisoare cu executare pentru constituirea unui grup infracțional organizat și trafic de influență în formă continuată; interzicerea dreptului de a fi ales și de a exercita autoritatea de stat în timpul executării și încă 2 ani; confiscare 250 euro și 50 lei, plus 12.300 lei cheltuieli judiciare. Câmpul public al infracțiunii omitea traficul de influență; profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3129",
+      "original_name": "Ionascu Mihai-Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2712",
+        "https://romanialibera.ro/special/ofiterii-de-la-crima-organizata-prinsi-luand-mita-au-fost-arestati-preventiv-218934/"
+      ],
+      "note": "Numele oficial este Ionașcu Mihai-Claudiu. Persoana condamnată era ofițer de poliție la BCCO București – Serviciul Antidrog, fără funcție, mandat sau candidatură politică identificată. ÎCCJ, decizia penală 3506/10.10.2011 definitivă: 1 an și 2 luni închisoare în regim de detenție pentru complicitate la trafic de influență; interzicerea pe durata executării a dreptului de a fi ales și de a ocupa o funcție implicând autoritatea de stat; 350 lei cheltuieli judiciare. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3130",
+      "original_name": "Ionescu Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3411",
+        "https://ziare.com/stiri/frauda/trei-comisari-de-la-garda-financiara-trimisi-in-judecata-de-dna-pentru-mita-807457"
+      ],
+      "note": "Persoana condamnată era comisar la Garda Financiară – Comisariatul General, fără funcție, mandat sau candidatură politică identificată. ÎCCJ, decizia penală 2.274/27.06.2012 definitivă: 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 5 ani, pentru complicitate la luare de mită; interdicții timp de 2 ani după executarea pedepsei și 450 lei cheltuieli judiciare. Câmpul public generic «Fapte de corupție» nu descria infracțiunea; profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3131",
+      "original_name": "Ionescu Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3627",
+        "https://www.opiniatimisoarei.ro/gabriela-ionescu-fosta-directoare-adjuncta-a-directiei-generale-a-finantelor-publice-timis-condamnata-la-4-ani-de-inchisoare/01/06/2012",
+        "https://www.pressalert.ro/2011/12/exclusiv-protectie-de-la-fisc-contra-pachete-cadou-la-pd-l-si-10-000-euro-pentru-pastrarea-functiei/"
+      ],
+      "note": "Persoana era director executiv adjunct al DGFP Timiș – Activitatea de Inspecție Fiscală. Există relatări despre susținere politică pentru păstrarea funcției, dar nu o dovadă sigură de apartenență, candidatură sau mandat politic; profilul este exclus conservator. Curtea de Apel Timișoara, decizia 180/02.10.2012, definitivă la 16.10.2012: 4 ani închisoare cu executare pentru luare de mită și trafic de influență, ambele în formă continuată; interdicții pe durata executării și 3 ani după; restituire 10.000 euro și 20.985,42 lei; 6.000 lei cheltuieli judiciare. Detaliile publice erau trunchiate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3132",
+      "original_name": "Ionita Flavius Leonard",
+      "current_name": "Ioniță Flavius Leonard",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4990",
+        "https://www.ziaruldeiasi.ro/stiri/cine-sint-in-cifre-cei-care-vor-conduce-iasul-in-viitorii-patru-ani-cel-mai-cea-mai-avind-ca-subiecti-alesii-locali-ai-iesenilor--3f6t.html",
+        "https://hotnews.ro/fostul-director-al-ads-iasi-isi-pierde-functiile-876700"
+      ],
+      "note": "Identitatea a fost normalizată la Ioniță Flavius Leonard. Profilul a fost corectat din Independent/șef ADS în PNL, fost consilier județean Iași și fost vicepreședinte PNL Iași. Condamnarea definitivă din 12.06.2014 este pentru luare de mită, nu și complicitate la luare de mită: 3 ani cu executare, cu interdicțiile consemnate de DNA.",
+      "reviewed_snapshot_hash": "22b0eb455edbb70462608e99fa2c99b1cfac6c178dfcf20c5bb89957840b0707"
+    },
+    {
+      "profile_id": "RV-3133",
+      "original_name": "Iordache Octavian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4744",
+        "https://web.justitie-ag.ro/tr_ag/tr_app/dosar_detalii.asp?id_dosar=10900000000062013",
+        "https://jurnaluldearges.ro/directorul-ambulantei-arges-a-angajat-24-de-persoane-fara-niciun-concurs-9432/"
+      ],
+      "note": "Persoana condamnată era director executiv adjunct economic la DSP Argeș. O relatare locală menționează o legătură de partid PDL, dar nu a fost găsită o candidatură, un mandat sau o funcție internă de partid care să susțină includerea sigură în registrul politic. Curtea de Apel Pitești, decizia 117/13.03.2014 definitivă: 8 luni închisoare cu suspendare sub supraveghere, termen de încercare 3 ani, pentru dare de mită și complicitate la divulgarea informațiilor secrete de serviciu sau nepublice. Profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3134",
+      "original_name": "Ivan (Dobre) Oana Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5365",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BR",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_hunedoara/consiliul-local/aninoasa/10"
+      ],
+      "note": "Persoana condamnată este Ivan (Dobre) Oana Maria, subinspector de poliție la Poliția Municipiului Brăila – Biroul Rutier. Candidata PMP Oana-Maria Dobre din Aninoasa, Hunedoara nu poate fi asociată acestei persoane; contextul geografic și profesional este diferit. ÎCCJ, decizia 302/02.10.2014 definitivă: 3 ani închisoare cu suspendare, termen de încercare 5 ani, pentru luare de mită și fals intelectual în scopul ascunderii unei fapte de corupție; interdicții 2 ani după executare și plată solidară de 700 lei către denunțător. Profil eliminat pentru a evita o atribuire politică falsă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3135",
+      "original_name": "Jianu Irina Paula",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3383",
+        "https://www.dna.ro/comunicat.xhtml?id=4564",
+        "https://www.dna.ro/comunicat.xhtml?id=5999",
+        "https://www.digi24.ro/stiri/actualitate/justitie/irina-jianu-spor-de-pedeapsa-de-noua-luni-308272",
+        "https://cronicaromana.net/2015/01/20/miron-mitrea-audiat-instanta/"
+      ],
+      "note": "Irina Paula Jianu a fost inspector general de stat la ISC, numită și susținută politic, însă sursele indică explicit că nu era membră PSD și nu a fost identificat un mandat, o candidatură sau o funcție de partid; este exclusă conservator din registrul politic. Situația juridică publică era incompletă: 6 ani cu executare, definitiv la 20.06.2012, în «Trofeul calității»; 4 ani cu executare, definitiv la 06.01.2014, pentru spălare de bani și participație improprie la fals intelectual, cu confiscări, în «Zambaccian»; pedepsele au fost contopite la 6 ani plus spor de 9 luni prin hotărâre definitivă din 15.10.2014; ulterior, 5 luni cu executare pentru dare de mită, definitiv la 13.02.2015. Profil eliminat pentru lipsa unei identități politice propriu-zise și pentru a nu afișa un rezumat juridic parțial.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3136",
+      "original_name": "Joita Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3773",
+        "https://www.economica.net/seful-finantelor-publice-din-rosiorii-de-vede-acuzat-de-luare-de-mita_6981.html"
+      ],
+      "note": "Numele oficial este Joița Constantin. Persoana condamnată era fost șef al Administrației Finanțelor Publice Roșiorii de Vede, fără candidatură, mandat, apartenență sau funcție de partid identificată. ÎCCJ, decizia penală 4.120 din 12.12.2012 definitivă (nu 11.12.2012): 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită și fals intelectual, ambele în formă continuată; interdicții 2 ani după executare; confiscare 19.370 lei deja achitată; 25.000 lei cheltuieli judiciare și 1.000 lei în apel. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
