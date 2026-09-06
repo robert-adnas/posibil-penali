@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-06",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -46911,6 +46911,571 @@
         "https://www.romaniacurata.ro/doua-functionare-de-la-directia-generala-a-finantelor-publice-arges-cercetate-pentru-luare-de-mita/"
       ],
       "note": "Identitatea este confirmată prin nume, funcția de inspector și instituția D.G.F.P. Argeș. Profil eliminat deoarece persoana este funcționar fiscal cu atribuții de control și nu a fost identificată o candidatură, un mandat electiv sau o funcție de partid. Decizia penală nr. 94/06.10.2011 confirmă definitiv 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită în formă continuată; interdicții 3 ani după pedeapsa principală, restituirea sumei de 200 lei și 350 lei cheltuieli judiciare. Aceste elemente lipseau din profilul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3075",
+      "original_name": "Duda Mirel Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4651",
+        "https://www.dna.ro/comunicat.xhtml?id=2524",
+        "https://adevarul.ro/stiri-locale/alba-iulia/interlopul-pricu-medicul-sef-al-penitenciarului-862473.html"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de medic șef al Penitenciarului Aiud. Profil eliminat deoarece persoana este medic/funcționar în sistemul penitenciar și ulterior medic de familie, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era greșită la câmpul infracțiunii: Duda a fost condamnat ca autor pentru luare de mită, nu pentru complicitate; complicitatea aparținea co-inculpatului Moldovan Sorin Gabriel. Decizia penală nr. 356/30.01.2014 a stabilit definitiv 4 ani cu suspendare sub supraveghere, termen de încercare 6 ani, interdicții 2 ani și confiscarea echivalentului în lei al sumei de 500 euro.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3076",
+      "original_name": "Dumbrava Dumitru Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1912",
+        "https://www.dna.ro/comunicat.xhtml?id=1295",
+        "https://alba24.ro/harta-coruptiei-locale-in-judetul-alba-cei-mai-multi-inculpati-au-ocupat-functii-publice-in-majoritatea-cazurilor-au-fost-date-pedepse-cu-suspendare-402932.html"
+      ],
+      "note": "Identitatea este confirmată prin numele complet și funcția de ofițer de poliție judiciară la IPJ Alba, Serviciul Poliției Rutiere. Profil eliminat deoarece persoana era polițist, fără candidatură, mandat electiv ori funcție de partid identificată. DNA confirmă definitiv prin decizia penală nr. 1439/15.04.2010 pedeapsa de 2 ani și 6 luni cu executare pentru trafic de influență în formă continuată, interzicerea unor drepturi pe aceeași perioadă și obligațiile bănești menționate de instanță.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3077",
+      "original_name": "Dumitrescu Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2352",
+        "https://www.luju.ro/comisarul-garzii-nationale-de-mediu-ana-dumitrescu-a-fost-arestat-pentru-mita"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de comisar la Garda Națională de Mediu, Comisariatul Municipiului București. Profil eliminat deoarece persoana este funcționar de control, fără candidatură, mandat electiv sau funcție de partid identificată; rezultatele politice omonime nu permit atribuirea. Situația juridică publicată era prea generică la câmpul infracțiunii: DNA confirmă luare de mită. Decizia penală nr. 1497/13.04.2011 a stabilit definitiv 4 ani cu suspendare sub supraveghere, termen de încercare 7 ani, interdicții 2 ani și 5.500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3078",
+      "original_name": "Dumitrescu Claudia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2410",
+        "https://www.mediafax.ro/social/ofiter-de-politie-judiciara-de-la-brigada-rutiera-bucuresti-arestat-pentru-trafic-de-influenta-7688405"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de ofițer DGPMB la Brigada Rutieră. Profil eliminat deoarece persoana este polițist, fără candidatură, mandat electiv sau funcție de partid identificată; eventualele rezultate pentru omonimi nu justifică atribuirea politică. DNA confirmă definitiv prin decizia penală nr. 2070/20.05.2011 pedeapsa de 2 ani în regim de detenție pentru trafic de influență, interdicții pe durata executării și încă 1 an, confiscarea echivalentului a 2.000 euro și 10.500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3079",
+      "original_name": "Dumitrescu Laurentiu-George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://www.curentul.info/actualitate/in-toiul-viscolului-isu-constanta-intra-in-colaps/"
+      ],
+      "note": "Identitatea este confirmată prin numele complet, gradul de maior și apartenența la ISU Dobrogea. Profil eliminat deoarece persoana era cadru militar ISU, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată omitea caracterul continuat și formularea completă a abuzului. DNA confirmă definitiv prin decizia penală nr. 12/24.01.2014 pedeapsa de 1 an și 6 luni cu suspendare sub supraveghere, termen de încercare 3 ani și 6 luni, pentru fals intelectual, uz de fals și abuz în serviciu cu avantaj patrimonial ori nepatrimonial, toate în formă continuată, plus 5.600 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3081",
+      "original_name": "Dumitru Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4124",
+        "https://legeaz.net/spete-penal-iccj-completul-de-5-judecatori/decizia-157-2013",
+        "https://ziare.com/stiri/justitie/fost-deputat-psd-condamnat-la-trei-ani-de-inchisoare-1239847"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcțiile de director al Direcției Economice și membru al Consiliului de Administrație RNP Romsilva. Profil eliminat deoarece funcțiile sale au fost administrative, fără candidatură, mandat electiv sau funcție de partid identificată. Fostul deputat PSD din același dosar era co-inculpatul Ion Dumitru, nu Elena Dumitru. Situația juridică publicată era prea generică: decizia penală nr. 157/07.06.2013 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru două infracțiuni de abuz în serviciu contra intereselor publice în formă calificată, plus interdicții 2 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3082",
+      "original_name": "Dumitru Ion",
+      "current_name": "Dumitru Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4124",
+        "https://stirileprotv.ro/stiri/actualitate/fostul-deputat-ion-dumitru-condamnat-definitiv-la-trei-ani-de-inchisoare-cu-suspendare.html",
+        "https://www.gazetadambovitei.ro/actual/deputaii-notri-i-inceputul-aventurilor-lor-politice-vezi-cand-au-debutat-in-parlament/"
+      ],
+      "note": "Identitatea este confirmată prin suprapunerea dintre funcția de manager-director general Romsilva din hotărârea DNA și biografia fostului deputat PSD de Dâmbovița. Profilul este păstrat și corectat: afilierea Independent devine PSD, funcția principală devine fost deputat de Dâmbovița în mandatele 2004–2008 și 2008–2012, iar geografia este mutată de la sediul administrativ București la circumscripția Dâmbovița. Câmpul generic Fapte de corupție este înlocuit cu cele două infracțiuni exacte de abuz în serviciu contra intereselor publice în formă calificată. Decizia penală nr. 157/07.06.2013 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani și interdicții 2 ani.",
+      "reviewed_snapshot_hash": "4d103e791a09c4c83f6c93fab1e2d0df3b1a9f5f5ef6a28d7aea991812d828a5"
+    },
+    {
+      "profile_id": "RV-3083",
+      "original_name": "Dumitru Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4371",
+        "https://www.dna.ro/comunicat.xhtml?id=3927",
+        "https://tvrinfo.ro/omul-de-afaceri-dumitru-nicolae-a-fost-eliberat-conditionat-din-inchisoare_822349/"
+      ],
+      "note": "DNA identifică persoana din profil drept Dumitru Nicolae, comisar la Poliția Sectorului 5 București, Serviciul de Investigare a Fraudelor. Profil eliminat deoarece este polițist fără candidatură, mandat electiv ori funcție de partid identificată. Coliziunea cu omul de afaceri Nicolae Dumitru din dosarul Microsoft este rezolvată: acesta din urmă are altă calitate și altă condamnare. Situația juridică publicată era generică; decizia penală nr. 2.982/03.10.2013 confirmă definitiv 3 ani în detenție pentru luare de mită, interdicții în timpul executării și încă 2 ani, restituirea mitei de 3.000 euro și 1.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3084",
+      "original_name": "Dupu Violeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3096",
+        "https://hotnews.ro/directorul-general-si-alte-trei-persoane-din-conducerea-institutului-national-de-hidrologie-condamnati-la-inchisoare-cu-executare-activitatea-institutiei-verificata-de-corpul-de-control-al-ministru-644779"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de fost șef al Serviciului Financiar-Contabilitate INHGA. Profil eliminat deoarece persoana era manager administrativ într-un institut tehnic, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era grav contaminată cu datele co-inculpatei Marinela Simota: detaliile afișau altă persoană, altă funcție, altă pedeapsă și alte infracțiuni. Pentru Violeta Dupu, decizia penală nr. 572/20.03.2012 confirmă definitiv 1 an și 8 luni în detenție pentru două infracțiuni de abuz în serviciu contra intereselor publice cu consecințe deosebit de grave, una implicând avantaj patrimonial sau nepatrimonial, interdicții pe durata executării și 400 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3085",
+      "original_name": "Enasoaie Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5532",
+        "https://adevarul.ro/stiri-locale/vaslui/fost-sef-de-garda-financiara-despagubit-de-cedo-1744467.html",
+        "https://www.9am.ro/stiri-revista-presei/Social/218416/seful-garzii-financiare-neamt-si-doi-comisari-retinuti-pentru-mita.html"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de comisar la Garda Financiară Neamț. Profil eliminat deoarece persoana era funcționar de control fiscal, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era grav contaminată cu datele co-inculpatului Corneliu Antonie. Pentru Gheorghe Enășoaie, decizia penală nr. 810/21.10.2014 confirmă definitiv 4 ani cu executare pentru două infracțiuni de luare de mită și fals intelectual, toate în formă continuată, interdicții în timpul executării și încă 2 ani, confiscările indicate și 400 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3086",
+      "original_name": "Ene Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2291",
+        "https://www.mediafax.ro/social/trei-inspectori-vamali-condamnati-definitiv-pentru-luare-de-mita-9485118/amp",
+        "https://www.viata-libera.ro/politica-administratie/36382-galati-viata-libera-politic-administratie-constantin-ene-demisie-consiliu-local"
+      ],
+      "note": "DNA identifică persoana din profil drept Ene Constantin, inspector vamal la DJAOV Ialomița, Compartimentul Accize. Profil eliminat deoarece nu există dovadă fiabilă că inspectorul este una dintre persoanele politice omonime. Rezultatele electorale indică alți Constantin Ene în Galați, Constanța și liste din Ialomița, cu funcții și contexte incompatibile sau fără identificatori care să permită legarea de inspector; conform politicii conservative, coincidența nu este atribuită. Situația juridică publicată era generică: decizia penală nr. 1281/31.03.2011 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită, interdicții 4 ani, restituirea a 300 lei și 3.350 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3087",
+      "original_name": "Ene Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-03",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.primariabuftea.ro/consiliul-local-buftea/",
+        "https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/9193D90F180CE533C2258845003472C8/%24FILE/PROCES%20VERBAL%20SED%20EXTRA%20%20DE%20INDATA%2015%20MARTIE%202022.pdf"
+      ],
+      "note": "DNA identifică persoana drept Ene Iulian, polițist la Poliția Buftea. Profil eliminat deoarece funcția este operativă, iar listele oficiale și căutările electorale nu stabilesc o candidatură, un mandat sau o funcție de partid pentru acest polițist. Un consilier județean omonim apare în Bacău, fără elemente care să îl lege de polițistul din Ilfov, astfel că atribuirea este respinsă conservator. Decizia definitivă din 03.07.2012 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat, plus interdicții 2 ani și obligații civile/judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3088",
+      "original_name": "Erimescu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946",
+        "https://hotnews.ro/capuse-in-jocul-miliardelor-de-la-electrica-banat-808612",
+        "https://adevarul.ro/stiri-locale/timisoara/curtea-de-apel-timisoara-a-dat-sentinta-in-cazul-1100838.html"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de director comercial al SISEE Banat. Profil eliminat deoarece persoana a fost manager al unei societăți energetice, fără candidatură, mandat electiv sau funcție de partid identificată. Decizia penală nr. 702/27.02.2013 publicată de DNA confirmă definitiv 5 ani de închisoare pentru complicitate la abuz în serviciu contra intereselor publice cu consecințe deosebit de grave și instigare la două infracțiuni de fals intelectual, interdicții în timpul executării și încă 6 ani, răspundere civilă și 15.000 lei cheltuieli judiciare. Unele relatări secundare indică eronat 4 ani; prevalează sursa oficială.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3089",
+      "original_name": "Facaeru Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4482",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=MM",
+        "https://actualmm.ro/ofiterul-de-la-crima-organizata-condamnat-la-26-ani-inchisoare-cu-suspendare-a-fost-pus-in-libertate/"
+      ],
+      "note": "DNA identifică persoana drept Făcăeru Marcel, ofițer de poliție judiciară cu gradul de inspector principal în cadrul Serviciului de Combatere a Criminalității Organizate Maramureș. Profil eliminat deoarece persoana avea o funcție operativă de poliție, fără candidatură, mandat electiv sau funcție de partid identificată. Decizia penală nr. 3594/18.11.2013 confirmă definitiv 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 4 ani și 6 luni, pentru trafic de influență în formă continuată, interdicții 2 ani și 1.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3090",
+      "original_name": "Farcasanu Ioana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AR",
+        "https://www.ziaruldeiasi.ro/stiri/fostul-vicepresedinte-al-psd-arad-gheorghe-medintu-va-face-sapte-ani-de-puscarie--8e7v.html"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de contabil-șef la PECO Arad. Profil eliminat deoarece persoana era angajat cu funcție financiară într-o societate de stat, fără candidatură, mandat electiv sau funcție de partid identificată. Decizia penală nr. 1153/13.04.2012 confirmă definitiv 5 ani de închisoare pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave, precum și interzicerea pentru 3 ani a drepturilor și funcțiilor indicate de instanță.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3091",
+      "original_name": "Fecic Vespasian Puiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4136",
+        "https://www.primariapn.ro/documents/10179/2775764/dispozitie_aprob_ROF_actualizare_comisie_2018.pdf"
+      ],
+      "note": "DNA identifică persoana drept Fecic Vespasian Puiu, inspector superior și ulterior șef al Serviciului Încasare, Urmărire a Creanțelor Bugetului Local și Control Fiscal din Direcția Taxe și Impozite a Consiliului Local Piatra Neamț. Profil eliminat deoarece era funcționar public/șef de serviciu, nu consilier local ales, fără candidatură, mandat sau funcție de partid identificată. Formularea publicată «în Consiliu local» era ambiguă și putea sugera eronat un mandat. Decizia penală nr. 614/31.05.2013 confirmă definitiv 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu contra intereselor persoanelor cu consecințe deosebit de grave, plus răspunderea civilă și cheltuielile stabilite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3092",
+      "original_name": "Ferenczy Ferenc Jozsef",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2409",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=HR"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de director executiv al DSVSA Harghita. Profil eliminat deoarece persoana era conducător al unei instituții sanitar-veterinare, fără candidatură, mandat electiv sau funcție de partid identificată; eticheta Independent nu era o afiliere politică documentată. Decizia penală nr. 333/19.05.2011 confirmă definitiv 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru abuz în serviciu contra intereselor publice prin obținerea unui avantaj patrimonial ori nepatrimonial, plus 603 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3093",
+      "original_name": "Fita Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4371",
+        "https://www.antena3.ro/actualitate/doi-ofiteri-din-cadrul-politiei-sector-5-prinsi-in-flagrant-luand-mita-203539.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=B"
+      ],
+      "note": "DNA identifică persoana drept Fiță Cristian, comisar-șef în Poliția Sectorului 5 București, Serviciul de Investigare a Fraudelor. Profil eliminat deoarece era ofițer de poliție, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era prea generică: decizia penală nr. 2.982/03.10.2013 confirmă definitiv 3 ani în regim de detenție pentru luare de mită, interdicții în timpul executării și încă 2 ani, restituirea sumei de 3.000 euro denunțătorului și 1.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3094",
+      "original_name": "Florea Aurel Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3914",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=MS"
+      ],
+      "note": "DNA identifică persoana drept Florea Aurel Cristian, șef al Serviciului Informații Fiscale, Identificarea și Combaterea Evaziunii Fiscale din DGFP Mureș. Profil eliminat deoarece era funcționar de conducere în administrația fiscală, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era generică: decizia penală nr. 547/15.02.2013 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită, interdicții 2 ani, confiscarea a 500 euro, 265,80 lei și 353 lei și 500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3096",
+      "original_name": "Florea Magdalena Luminita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DJ"
+      ],
+      "note": "DNA identifică persoana drept Florea Magdalena Luminița, actualmente Mogoșanu, inspector în cadrul DGFP Dolj. Profil eliminat deoarece era funcționar fiscal, fără candidatură, mandat electiv sau funcție de partid identificată. Identitatea este corectată cu numele ulterior indicat expres de sursa oficială. Decizia penală nr. 1618/19.07.2013 confirmă definitiv 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave, interdicții 2 ani și 25.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3097",
+      "original_name": "Florea Manuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3300",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1801",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CL"
+      ],
+      "note": "DNA identifică persoana drept Florea Manuel, comisar în Garda Financiară, Secția Județeană Călărași. Profil eliminat deoarece era funcționar de control financiar, fără candidatură, mandat electiv sau funcție de partid identificată. Câmpul juridic publicat era generic; decizia penală nr. 1.669/22.05.2012 confirmă definitiv 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 5 ani și 6 luni, pentru luare de mită, confiscarea a 825 lei, restituirea a 500 lei denunțătorului și 300 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3098",
+      "original_name": "Florescu Gheorghe Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3941",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AG"
+      ],
+      "note": "DNA identifică persoana drept Florescu Gheorghe Cristian, ofițer de poliție judiciară la IPJ Argeș, Serviciul de Investigarea Fraudelor. Profil eliminat deoarece era ofițer operativ, fără candidatură, mandat electiv sau funcție de partid identificată. Decizia penală nr. 676/26.02.2013 confirmă definitiv 2 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru două infracțiuni de trafic de influență, abuz în serviciu cu obținerea unui avantaj și fals intelectual, interdicții 2 ani, confiscarea a 260 lei și 7.300 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3099",
+      "original_name": "Gaicu Danut Mihail",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1298",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/un-singur-achitat-cine-cat-a-luat-in-dosarul-isu-dobrogea-88810-368640.html"
+      ],
+      "note": "DNA identifică persoana drept col. (r) Gaicu Dănuț Mihail din ISU Dobrogea, județul Constanța. Profil eliminat deoarece era cadru militar în rezervă implicat în comisia de corectare a unui concurs, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată omitea forma continuată: decizia penală nr. 12/24.01.2014 confirmă definitiv 1 an și 6 luni cu suspendare sub supraveghere, termen de încercare 3 ani și 6 luni, pentru fals intelectual, uz de fals și abuz în serviciu cu obținerea unui avantaj, toate în formă continuată, plus 5.600 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3100",
+      "original_name": "Gaiu Dumitrache",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/alti-14-politisti-acuzati-de-luare-de-mita-si-657316.html"
+      ],
+      "note": "DNA identifică persoana drept Gaiu Dumitrache, polițist la Secția 5 București. Profil eliminat deoarece era agent de poliție, fără candidatură, mandat electiv sau funcție de partid identificată. Câmpul public al infracțiunii era contaminat cu datele altui inculpat din același comunicat: pentru Gaiu, decizia definitivă nr. 2348/03.07.2012 reține exclusiv luare de mită și stabilește 2 ani cu suspendare condiționată, termen de încercare 4 ani, plus interdicții 2 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3101",
+      "original_name": "Gartone Razvan - Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2291",
+        "https://www.mediafax.ro/social/trei-inspectori-vamali-condamnati-definitiv-pentru-luare-de-mita-9485118/amp",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=IL"
+      ],
+      "note": "DNA identifică persoana drept Gartone Răzvan-Cătălin, inspector vamal la DJAOV Ialomița, Compartimentul Accize. Profil eliminat deoarece era funcționar vamal, fără candidatură, mandat electiv sau funcție de partid identificată. Forma numelui este normalizată, iar situația juridică generică este corectată: decizia penală nr. 1281/31.03.2011 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită, interdicții 4 ani și 3.350 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3102",
+      "original_name": "Gasparovici Diana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3383",
+        "https://luju.ro/static/files/2012/ianuarie_2012/23/NS_Adrian_Nastase_Trofeu.pdf",
+        "https://www.digi24.ro/stiri/actualitate/evenimente/diana-gasparovici-condamnata-in-dosarul-trofeul-calitatii-alaturi-de-adrian-nastase-a-scapat-de-pedeapsa-prin-prescrierea-faptei-2033047"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de fost inspector general de stat adjunct la ISC. Profil eliminat deoarece persoana era conducător tehnic-administrativ, fără candidatură ori mandat electiv; actele dosarului precizează expres că nu era membru PSD. Câmpul «spălare de bani» era contaminat cu faptele coinculpaților: decizia definitivă nr. 60/20.06.2012 reține pentru Diana Gasparovici numai complicitate la abuz în serviciu cu consecințe deosebit de grave, în formă continuată, și 5 ani închisoare. În august 2022, Tribunalul București a constatat prescripția executării pedepsei; condamnarea istorică nu a fost achitare, dar pedeapsa nu mai era executabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3105",
+      "original_name": "Gheorghita Fiedler Andrei Costin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://cvlpress.ro/22.07.2013/dosarul-celor-36-de-finantisti-doljeni-la-final/"
+      ],
+      "note": "DNA identifică persoana drept Gheorghiță Fiedler Andrei Costin, inspector în cadrul DGFP Dolj. Profil eliminat deoarece era funcționar fiscal, fără candidatură, mandat electiv sau funcție de partid identificată. Câmpul juridic publicat era generic: decizia penală nr. 1618/19.07.2013 confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru două infracțiuni de abuz în serviciu contra intereselor publice cu consecințe deosebit de grave, interdicții 2 ani și participarea la obligațiile civile și judiciare stabilite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3106",
+      "original_name": "Gherghel Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318",
+        "https://www.realitateamedia.ro/sorin-gherghel-a-revenit-la-sefia-registrului-auto-roman/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=NT"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de șef al Reprezentanței RAR Neamț. Profil eliminat deoarece persoana era manager al unei reprezentanțe tehnice, fără candidatură, mandat electiv sau funcție de partid identificată. Decizia penală nr. 586/28.05.2012 confirmă definitiv 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru instigare la abuz în serviciu contra intereselor publice prin obținerea unui avantaj patrimonial pentru altul, plus 5.500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3107",
+      "original_name": "Gherghelas Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2362",
+        "https://monitorulneamt.ro/mita-la-inspectia-silvica-trei-ani-de-inchisoare/",
+        "https://portal.afir.info/Uploads/Resurse%20Umane/CONCURSURI%202015/2015_10_29/Dosarele%20admise%20respinse%20Concurs%2021.10.2015_directiile%20tehnice%20%20.pdf"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de fost șef de serviciu la Inspecția Silvică și de Vânătoare Neamț din ITRSV Suceava. Profil eliminat deoarece persoana era funcționar silvic, fără candidatură electorală, mandat sau funcție de partid identificată; apariția ulterioară într-un concurs AFIR privește un post administrativ. Câmpul juridic publicat era generic: decizia penală nr. 1337/04.04.2011 confirmă definitiv 2 ani și 6 luni cu suspendare condiționată, termen de încercare 4 ani și 6 luni, pentru luare de mită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3108",
+      "original_name": "Ghiga Eugenia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://cvlpress.ro/22.07.2013/dosarul-celor-36-de-finantisti-doljeni-la-final/",
+        "https://www.gds.ro/Local/2013-07-08/Fosta-finantista-tinuta-dupa-gratii/"
+      ],
+      "note": "Identitatea este confirmată prin nume și funcția de fost șef de serviciu DGFP Dolj. Profil eliminat deoarece persoana era funcționar fiscal, fără candidatură, mandat electiv sau funcție de partid identificată. Situația juridică publicată era generică și trunchiată. Comunicarea DNA pentru decizia nr. 1618/19.07.2013 rezumă 3 ani în detenție pentru două infracțiuni de abuz în serviciu cu consecințe deosebit de grave; minuta contemporană reprodusă de presa locală arată însă că instanța a admis recursul Eugeniei Ghigă și a încetat procesul pentru infracțiunea prevăzută de art. 25 raportat la art. 240 C.pen., menținând restul sentinței. Separat, exista o condamnare definitivă de 6 ani din 2011. Contradicția nu este simplificată într-un status public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3109",
+      "original_name": "Ghilea Constantin - Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=NT"
+      ],
+      "note": "DNA identifică persoana drept Ghilea Constantin-Valentin, director al Direcției Județene de Accize și Operațiuni Vamale Neamț. Profil eliminat deoarece persoana era conducător al structurii vamale, fără candidatură, mandat electiv sau funcție de partid identificată. Forma numelui este normalizată. Decizia penală nr. 586/28.05.2012 confirmă definitiv 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu contra intereselor publice prin obținerea unui avantaj patrimonial pentru altul, plus 5.500 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3110",
+      "original_name": "Ghimpeteanu Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-06",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://adevarul.ro/stiri-interne/evenimente/fosti-sefi-de-la-isu-giurgiu-trimisi-in-judecata-1547872.html"
+      ],
+      "note": "DNA identifică persoana drept col. Ghimpețeanu Marian, inspector-șef al ISU «Vlașca» Giurgiu la data faptelor. Profil eliminat deoarece era cadru militar și conducător operativ, fără candidatură, mandat electiv sau funcție de partid identificată; prefectul PNL omonim din sursele recente este Ion Ghimpețeanu, altă persoană. Câmpul juridic publicat era incomplet: decizia penală nr. 45/10.07.2014 confirmă definitiv 3 ani și 6 luni cu executare pentru multiple instigări la fals material, fals intelectual, uz de fals și abuz în serviciu, fals material direct și asociere pentru săvârșirea de infracțiuni, mai multe în formă continuată, plus interdicții în timpul executării și încă 2 ani.",
       "reviewed_snapshot_hash": null
     }
   ]
