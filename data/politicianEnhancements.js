@@ -37543,183 +37543,24 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Lepadatu Emanoil",
-    "party": "Independent",
-    "position": "Director economic în Posta romana",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director economic în Posta romana în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu contra intereselor publice în formă calificată și în formă continuată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 noiembrie 2014. Condamnă pe inculpatul PĂCURARU MARICEL la o pedeapsă de 4 ani închisoare și interzicerea, atât pe perioada executării pedepsei, cât și pe o perioadă de 5 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice și de a ocupa o funcție implicând exercițiul autorității de stat, pentru săvârșirea în concurs a două infracțiuni de spălare de bani și complicitate la abuz în serviciu contra intereselor publice în formă calificată și în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5534"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lepadatu Emanoil indică județul Bucuresti, funcția \"Director economic\", instituția \"Posta romana\", decizia 1332 și condamnarea din 03/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Lepadatu Ion",
-    "party": "Independent",
-    "position": "Ofiter în Inspectorat de jandarmi judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Inspectorat de jandarmi judetean (MAI) în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Lepadatu Ion a fost condamnat definitiv la 30 mai 2012 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Ofiter în Inspectorat de jandarmi judetean (MAI). Infracțiunea reținută: abuz în serviciu.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3317"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lepadatu Ion indică județul Bucuresti, funcția \"Ofiter\", instituția \"Inspectorat de jandarmi judetean (MAI)\", decizia 23 și condamnarea din 30/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Liciu Daniel",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Hunedoara",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Hunedoara."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 aprilie 2011. Condamnarea inculpatului LICIU DANIEL, ofițer de poliție judiciară în cadrul Poliției municipiului Petroșani - Biroul de Investigații Criminale, la pedeapsa de 1 an și 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 6 luni, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2391"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Liciu Daniel indică județul Hunedoara, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 64 și condamnarea din 28/04/2011."
-      }
-    ]
-  },
-  {
-    "name": "Linca Simion",
-    "party": "Independent",
-    "position": "Sef birou în Statul major al fortelor terestre (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef birou în Statul major al fortelor terestre (Ministerul Apararii Nationale) în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, în formă calificată și continuată",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Linca Simion a fost condamnat definitiv la 29 iunie 2012 la 4 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Sef birou în Statul major al fortelor terestre (Ministerul Apararii Nationale). Infracțiunea reținută: abuz în serviciu contra intereselor publice, în formă calificată și continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3414"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Linca Simion indică județul Bucuresti, funcția \"Sef birou\", instituția \"Statul major al fortelor terestre (Ministerul Apararii Nationale)\", decizia 169 și condamnarea din 29/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Lixandru Elena Luminita Mirela",
-    "party": "Independent",
-    "position": "Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI) în județul Giurgiu."
-    },
-    "crime": "fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Lixandru Elena Luminita Mirela a fost condamnat definitiv la 10 iulie 2014 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5163"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lixandru Elena Luminita Mirela indică județul Giurgiu, funcția \"Colonel rezerva\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 45 și condamnarea din 10/07/2014."
-      }
-    ]
-  },
-  {
-    "name": "Lohaza Mihai Viorel",
-    "party": "Independent",
-    "position": "Inspector vamal în Birou vamal (MAI)",
-    "position_type": "other",
+    "name": "Mihai-Viorel Lohaza",
+    "party": "ALDE",
+    "position": "Fost candidat ALDE la Consiliul Local Rădăuți",
+    "position_type": "local_official",
     "geography": {
       "county": "Suceava",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector vamal în Birou vamal (MAI) în județul Suceava."
+      "locality": "Rădăuți",
+      "basis": "political_base",
+      "note": "A candidat din partea ALDE la Consiliul Local Rădăuți la alegerile locale din 2020."
     },
-    "crime": "cumpărare de influență; abuz în serviciu",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Două infracțiuni de abuz în serviciu calificat și cumpărare de influență",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere (termen de încercare 6 ani)",
     "sentence_years": 3,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 9 mai 2013. Condamnarea inculpatului LOHAZA MIHAI VIOREL, inspector vamal în cadrul Biroului Vamal Siret, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea următoarelor infracțiuni: două infracțiuni de abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial și cumpărare de influență.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 1.568 din 9 mai 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Mihai-Viorel Lohaza, inspector vamal la Biroul Vamal Siret, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru două infracțiuni de abuz în serviciu contra intereselor publice, în formă calificată, și cumpărare de influență. Instanța i-a interzis timp de 10 ani după executarea pedepsei dreptul de a fi ales, de a ocupa o funcție cu autoritate de stat și de a exercita profesia folosită la comiterea faptelor. În 2020 a candidat din partea ALDE la Consiliul Local Rădăuți; identitatea este susținută de numele complet rar și de domiciliul în Rădăuți consemnat în relatarea contemporană a dosarului.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37727,63 +37568,38 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4091"
       },
       {
-        "label": "România Curată",
+        "label": "Ziare.com – candidați locali Rădăuți 2020",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lohaza Mihai Viorel indică județul Suceava, funcția \"Inspector vamal\", instituția \"Birou vamal (MAI)\", decizia 1568 și condamnarea din 09/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Lotorosanu Gheorghe",
-    "party": "Independent",
-    "position": "Director executiv în Consiliu local",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Consiliu local în județul Caras-Severin."
-    },
-    "crime": ": abuz în serviciu contra intereselor publice în formă continuată",
-    "sentence": "2 ani și 8 luni închisoare cu suspendare",
-    "sentence_years": 2.67,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Lotorosanu Gheorghe a fost condamnat definitiv la 28 martie 2014 la 2 ani și 8 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Director executiv în Consiliu local. Infracțiunea reținută:: abuz în serviciu contra intereselor publice în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4780"
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/radauti/21",
+        "description": "Lista candidaților îl indică pe Mihai-Viorel Lohaza drept candidat ALDE la Consiliul Local Rădăuți."
       },
       {
-        "label": "România Curată",
+        "label": "Monitorul de Suceava – dosarul Vămii Siret",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lotorosanu Gheorghe indică județul Caras-Severin, funcția \"Director executiv\", instituția \"Consiliu local\", decizia 438 și condamnarea din 28/03/2014."
+        "url": "https://www.monitorulsv.ro/vama-siret-cloaca-care-ofera-carne-de-tun-pentru-procurorii-anticoruptie_a9caca/",
+        "description": "Relatarea contemporană îl identifică pe Mihai Viorel Lohaza, inspector vamal la Siret, drept persoană din Rădăuți."
       }
     ]
   },
   {
-    "name": "Luncan Pompiliu-Radu",
-    "party": "Independent",
-    "position": "Director coordonator în Inspectoratul teritorial de regim silvic si de vanatoare (MMAP)",
+    "name": "Pompiliu-Radu Luncan",
+    "party": "PSD",
+    "position": "Fost director coordonator al ITRSV Oradea, numit de PSD",
     "position_type": "other",
     "geography": {
       "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director coordonator în Inspectoratul teritorial de regim silvic si de vanatoare (MMAP) în județul Bihor."
+      "locality": "Oradea",
+      "basis": "political_base",
+      "note": "A condus ITRSV Oradea în urma unei numiri atribuite PSD de presa locală; nu este documentat un mandat ales."
     },
     "crime": "luare de mită, în formă continuată",
-    "sentence": "3 ani și 6 luni închisoare cu suspendare",
+    "sentence": "3 ani și 6 luni închisoare cu suspendare sub supraveghere (termen de încercare 6 ani)",
     "sentence_years": 3.5,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 31 martie 2011. Condamnarea inculpatului LUNCAN POMPILIU-RADU, fost director coordonator al Inspectoratului Teritorial de Regim Silvic și Vânătoare (I.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 22 din 31 martie 2011, Curtea de Apel Oradea l-a condamnat definitiv pe Pompiliu-Radu Luncan, fost director coordonator al ITRSV Oradea, la 3 ani și 6 luni de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru luare de mită în formă continuată. Instanța a dispus interdicții timp de 3 ani, confiscarea a 4.500 lei și plata a 1.350 lei cheltuieli judiciare. Presa locală îl identifică drept persoana pusă de PSD la conducerea instituției și drept PSD-ist; profilul este păstrat în aria extinsă a numirilor politice, fără a-i atribui un mandat ales.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37791,150 +37607,28 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=2368"
       },
       {
-        "label": "România Curată",
+        "label": "Bihoreanul – Șpagă ca-n codru",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Luncan Pompiliu-Radu indică județul Bihor, funcția \"Director coordonator\", instituția \"Inspectoratul teritorial de regim silvic si de vanatoare (MMAP)\", decizia 22 și condamnarea din 31/03/2011."
-      }
-    ]
-  },
-  {
-    "name": "Magheru Ioan",
-    "party": "Independent",
-    "position": "Ofiter în Ministerul apararii nationale",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Ministerul apararii nationale în județul Bucuresti."
-    },
-    "crime": "luare de mită în formă continuată și înșelăciune",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Magheru Ioan a fost condamnat definitiv la 12 noiembrie 2013 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Ofiter în Ministerul apararii nationale. Infracțiunea reținută: luare de mită în formă continuată și înșelăciune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4484"
+        "url": "https://www.ebihoreanul.ro/stiri/spaga-ca-n-codru-84513.html",
+        "description": "Relatarea contemporană îl descrie pe Pompiliu Luncan drept numit de PSD la conducerea ITRSV și îl identifică drept PSD-ist."
       },
       {
-        "label": "România Curată",
+        "label": "Bihoreanul – schimbarea conducerilor deconcentrate",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Magheru Ioan indică județul Bucuresti, funcția \"Ofiter\", instituția \"Ministerul apararii nationale\", decizia 3513 și condamnarea din 12/11/2013."
+        "url": "https://www.ebihoreanul.ro/stiri/doi-pe-o-dezmembrata--88672.html",
+        "description": "Articolul despre schimbarea directorilor deconcentratelor confirmă afilierea PSD atribuită lui Pompiliu Luncan."
       }
     ]
   },
   {
-    "name": "Manastireanu Radu-Vasile",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
+    "name": "Aurel-Mihăiță Manea",
+    "party": "PER",
+    "position": "Fost candidat PER la Senat în Brăila (2020)",
     "position_type": "other",
     "geography": {
-      "county": "Iasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Iasi."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 9 octombrie 2012. Condamnarea inculpatului MĂNĂSTIREANU RADU-VASILE, comisar în cadrul Gărzii Financiare - Secția Județeană Iași, la pedeapsa de 2 ani și 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani și 6 luni, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3590"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Manastireanu Radu-Vasile indică județul Iasi, funcția \"Comisar\", instituția \"Garda financiara\", decizia 3240 și condamnarea din 09/10/2012."
-      }
-    ]
-  },
-  {
-    "name": "Manciu Marius",
-    "party": "Independent",
-    "position": "Agent politie frontiera în Politia de frontiera (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie frontiera în Politia de frontiera (MAI) în județul Timis."
-    },
-    "crime": "luare de mită; dare de mită",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Manciu Marius a fost condamnat definitiv la 17 octombrie 2013 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Agent politie frontiera în Politia de frontiera (MAI). Infracțiunea reținută: luare de mită; dare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4439"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Manciu Marius indică județul Timis, funcția \"Agent politie frontiera\", instituția \"Politia de frontiera (MAI)\", decizia 3166 și condamnarea din 17/10/2013."
-      }
-    ]
-  },
-  {
-    "name": "Mandea Toader",
-    "party": "Independent",
-    "position": "Sef serviciu în Statul major al fortelor terestre (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Statul major al fortelor terestre (Ministerul Apararii Nationale) în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, în formă calificată și continuată",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Mandea Toader a fost condamnat definitiv la 29 iunie 2012 la 4 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Sef serviciu în Statul major al fortelor terestre (Ministerul Apararii Nationale). Infracțiunea reținută: abuz în serviciu contra intereselor publice, în formă calificată și continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3414"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Mandea Toader indică județul Bucuresti, funcția \"Sef serviciu\", instituția \"Statul major al fortelor terestre (Ministerul Apararii Nationale)\", decizia 169 și condamnarea din 29/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Manea Aurel Mihaita",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Braila",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Braila."
+      "county": "Brăila",
+      "basis": "political_base",
+      "note": "A candidat din partea Partidului Ecologist Român la Senat în circumscripția Brăila, în 2020."
     },
     "crime": "trafic de influență",
     "sentence": "3 ani închisoare",
@@ -37942,8 +37636,8 @@ export const politicianAdditions = [
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 octombrie 2013. Condamnarea inculpatului MANEA AUREL MIHĂIȚĂ, ofițer de poliție (cu gradul de comisar șef) în cadrul Ministerului Administrației și Internelor – Direcția Generală de Informații și Protecție Internă – Serviciul de Informații și Protecție Internă Brăila, la pedeapsa de 3 ani închisoare în regim de detenție pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.983 din 3 octombrie 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Aurel-Mihăiță Manea, comisar-șef în cadrul DGIPI – Serviciul de Informații și Protecție Internă Brăila, la 3 ani de închisoare în regim de detenție pentru trafic de influență. Instanța a dispus interdicții pe durata executării și încă 2 ani, confiscarea a 4.000 lei și plata a 12.000 lei cheltuieli judiciare. În 2020 a candidat din partea Partidului Ecologist Român la Senat în circumscripția Brăila; numele complet și județul coincid cu identitatea din dosarul penal.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
@@ -37951,42 +37645,16 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4373"
       },
       {
-        "label": "România Curată",
+        "label": "Libertatea – candidații Brăilei la parlamentarele din 2020",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Manea Aurel Mihaita indică județul Braila, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 2983 și condamnarea din 03/10/2013."
-      }
-    ]
-  },
-  {
-    "name": "Manole Stefan Adrian",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Buzau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Buzau."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 martie 2014. Condamnă pe inculpatul MANOLE ȘTEFAN ADRIAN, fost ofițer de poliție judiciară în cadrul Poliției Municipiului Buzău, la o pedeapsă de 2 ani închisoare și interzicerea drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie ori de a desfășura o activitate de natura aceleia de care s-a folosit pentru săvârșirea, în concurs, a 3 infracțiuni de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4770"
+        "url": "https://www.libertatea.ro/stiri/rezultate-alegeri-parlamentare-2020-judetul-braila-3309693",
+        "description": "Lista candidaților îl indică pe Aurel-Mihăiță Manea drept candidat PER la Senat în Brăila."
       },
       {
-        "label": "România Curată",
+        "label": "Obiectiv Vocea Brăilei – candidații la Parlament",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Manole Stefan Adrian indică județul Buzau, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 60 și condamnarea din 19/03/2014."
+        "url": "https://obiectivbr.ro/candidatii-brailei-la-parlament/",
+        "description": "Relatarea locală confirmă poziția lui Mihăiță-Aurel Manea pe lista PER pentru Senat."
       }
     ]
   },
