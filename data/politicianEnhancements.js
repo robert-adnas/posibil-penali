@@ -37871,386 +37871,43 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Nichitelea Bogdan Alexandru",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "5 ani închisoare",
-    "sentence_years": 5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 ianuarie 2014. Condamnă pe inculpatul NICHIȚELEA BOGDAN ALEXANDRU, comisar în cadrul Gărzii Financiare – Secția București, la o pedeapsă de 5 ani închisoare și interzicerea, atât pe perioada executării pedepsei cât și pe o perioadă de 3 ani, după terminarea executării pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funții elective, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție sau de a exercita o profesie, ori de a exercita o activitate, de natura celei de care s-a folosit condamnatul pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4633"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nichitelea Bogdan Alexandru indică județul Bucuresti, funcția \"Comisar\", instituția \"Garda financiara\", decizia 2540 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Nicolae Mihaela Valentina",
-    "party": "Independent",
-    "position": "Inspector în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector în Directia generala a finantelor publice în județul Dolj."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Nicolae Mihaela Valentina a fost condamnat definitiv la 19 iulie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Inspector în Directia generala a finantelor publice. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4223"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nicolae Mihaela Valentina indică județul Dolj, funcția \"Inspector\", instituția \"Directia generala a finantelor publice\", decizia 1618 și condamnarea din 19/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Nicolescu Elisabeta Camelia",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Nicolescu Elisabeta Camelia a fost condamnat definitiv la 4 martie 2010 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Ofiter politie judiciara în Politie (MAI). Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1919"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nicolescu Elisabeta Camelia indică județul Bucuresti, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 844 și condamnarea din 04/03/2010."
-      }
-    ]
-  },
-  {
-    "name": "Nicolescu Robert Ionut",
-    "party": "Independent",
-    "position": "Ofiter în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Inspectoratul pentru situatii de urgenta (MAI) în județul Bucuresti."
-    },
-    "crime": "cumpărare de influență și luare de mită",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Nicolescu Robert Ionut a fost condamnat definitiv la 24 octombrie 2012 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Ofiter în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: cumpărare de influență și luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nicolescu Robert Ionut indică județul Bucuresti, funcția \"Ofiter\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 3438 și condamnarea din 24/10/2012."
-      }
-    ]
-  },
-  {
-    "name": "Niculae Andrei Gabriel",
-    "party": "Independent",
-    "position": "Colonel în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Niculae Andrei Gabriel a fost condamnat definitiv la 24 ianuarie 2014 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Colonel în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Niculae Andrei Gabriel indică județul Constanta, funcția \"Colonel\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Nistor Constantin",
-    "party": "Independent",
-    "position": "Comisar sef garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Neamt",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar sef garda financiara în județul Neamt."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 octombrie 2014. Condamnă pe inculpatul ANTONIE CORNELIU, comisar în cadrul Gărzii Financiare – Secția Județeană Neamț, la data faptelor, la o pedeapsă de 4 ani închisoare și interzicerea, atât pe perioada executării pedepsei cât și pe o perioadă de 2 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie, ori de a desfășura o activitate de natura aceleia de care s-a folosit pentru săvârșirea în concurs a 2 infracțiuni de luare de mită, din care una în formă continuată și fals intelectual în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5532"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nistor Constantin indică județul Neamt, funcția \"Comisar sef garda financiara\", instituția \"Garda financiara\", decizia 810 și condamnarea din 21/10/2014."
-      }
-    ]
-  },
-  {
     "name": "Nistor Niculae",
-    "party": "Independent",
-    "position": "Director scoala în Unitate scolara",
-    "position_type": "other",
+    "party": "PDL",
+    "position": "Fost consilier local al municipiului Cluj-Napoca; fost director al Colegiului Tehnic «Napoca»",
+    "position_type": "local_official",
+    "role_at_time": "director al Colegiului Tehnic «Napoca» din Cluj-Napoca",
     "geography": {
       "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director scoala în Unitate scolara în județul Cluj."
+      "locality": "Cluj-Napoca",
+      "basis": "political_base",
+      "note": "Mandatul de consilier local PDL și funcția de director de colegiu au fost exercitate în municipiul Cluj-Napoca."
     },
-    "crime": "Fapte de corupție",
+    "crime": "luare de mită",
     "sentence": "4 ani închisoare cu suspendare",
     "sentence_years": 4,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 mai 2013. Condamnarea inculpatului NISTOR NICULAE, director al Colegiului Tehnic „Napoca” din Cluj Napoca, la pedeapsa de 4 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 8 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Niculae Nistor a fost consilier local PDL al municipiului Cluj-Napoca în 2009. Prin decizia penală nr. 1851 din 29 mai 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv, în calitate de director al Colegiului Tehnic «Napoca» din Cluj-Napoca, la 4 ani închisoare cu suspendare sub supraveghere, cu termen de încercare de 8 ani, pentru luare de mită.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4126"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4126",
+        "description": "Confirmă condamnarea definitivă, pedeapsa, forma de executare, funcția de director și infracțiunea de luare de mită."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nistor Niculae indică județul Cluj, funcția \"Director scoala\", instituția \"Unitate scolara\", decizia 1851 și condamnarea din 29/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Nistoran Ion Flavius",
-    "party": "Independent",
-    "position": "Agent politie frontiera în Politia de frontiera (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie frontiera în Politia de frontiera (MAI) în județul Caras-Severin."
-    },
-    "crime": "asociere pentru săvârșirea de infracțiuni și luare de mită",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Nistoran Ion Flavius a fost condamnat definitiv la 30 mai 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Agent politie frontiera în Politia de frontiera (MAI). Infracțiunea reținută: asociere pentru săvârșirea de infracțiuni și luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Primăria Cluj-Napoca — Jurnalul municipal nr. 46/2009",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4131"
+        "url": "https://storage.primariaclujnapoca.ro/userfiles/files/JM%2046%20Septembrie%20mic.pdf",
+        "description": "Hotărârea nr. 395/2009 validează mandatul de consilier local PDL al lui Niculae Nistor; publicația include și CV-ul său profesional din învățământul clujean."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nistoran Ion Flavius indică județul Caras-Severin, funcția \"Agent politie frontiera\", instituția \"Politia de frontiera (MAI)\", decizia 1860 și condamnarea din 30/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Olaeru Viorica",
-    "party": "Independent",
-    "position": "Director în Caile ferate romane",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Caile ferate romane în județul Bucuresti."
-    },
-    "crime": "utilizare în alte scopuri a creditelor garantate din fonduri publice sau care urmează să fie rambursate din fonduri publice",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 17 octombrie 2014. Condamnă pe inculpata OLĂERU VIORICA, fost director general al Companiei Naționale de Cai Ferate C.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Primăria Cluj-Napoca — Hotărârea nr. 433/2009",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5413"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Olaeru Viorica indică județul Bucuresti, funcția \"Director\", instituția \"Caile ferate romane\", decizia 0 și condamnarea din 17/10/2014."
-      }
-    ]
-  },
-  {
-    "name": "Olaru Constantin",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "dare de mită și furt calificat",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului OLARU CONSTANTIN, polițist la Secția 5 București, la pedeapsa de 1 an și 2 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 2 luni, pentru săvârșirea infracțiunilor de luare de mită și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Olaru Constantin indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Olaru Mihai",
-    "party": "Independent",
-    "position": "Director în Directia de constructii edilitar gospodaresti (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Directia de constructii edilitar gospodaresti (Consiliu Local) în județul Dambovita."
-    },
-    "crime": "abuz in serviciu contra intereselor publice în formă calificată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Olaru Mihai a fost condamnat definitiv la 22 mai 2014 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Director în Directia de constructii edilitar gospodaresti (Consiliu Local). Infracțiunea reținută: abuz in serviciu contra intereselor publice în formă calificată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4932"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Olaru Mihai indică județul Dambovita, funcția \"Director\", instituția \"Directia de constructii edilitar gospodaresti (Consiliu Local)\", decizia 552 și condamnarea din 22/05/2014."
-      }
-    ]
-  },
-  {
-    "name": "Olexiuc Mihaila",
-    "party": "Independent",
-    "position": "Locotenent în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Locotenent în Inspectoratul pentru situatii de urgenta (MAI) în județul Giurgiu."
-    },
-    "crime": ": fals material în înscrisuri oficiale și uz de fals",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Olexiuc Mihaila a fost condamnat definitiv la 10 iulie 2014 la 1 an și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Locotenent în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută:: fals material în înscrisuri oficiale și uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5163"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Olexiuc Mihaila indică județul Giurgiu, funcția \"Locotenent\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 45 și condamnarea din 10/07/2014."
+        "url": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-433-din-2009/",
+        "description": "Confirmă încetarea mandatului de consilier local PDL al lui Niculae Nistor în 2009."
       }
     ]
   },
