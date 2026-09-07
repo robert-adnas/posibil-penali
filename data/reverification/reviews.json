@@ -49862,6 +49862,296 @@
       ],
       "note": "DNA îl identifică drept fost șef al Poliției orașului Teiuș și confirmă condamnarea definitivă prin decizia penală nr. 3962/11.12.2013 la 8 luni cu suspendare sub supraveghere, termen de încercare 4 ani, pentru omisiunea sesizării, fals intelectual, uz de fals și instigare neurmată de executare la mărturie mincinoasă. Profilul transforma eronat 8 luni în 8 ani și avea detaliile trunchiate. Nu este documentată vreo funcție politică.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3254",
+      "original_name": "Popa Ovidiu Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2195",
+        "https://www.dna.ro/comunicat.xhtml?id=2196"
+      ],
+      "note": "DNA îl identifică drept fost ofițer al Direcției Poliției Rutiere din IGPR și confirmă condamnarea definitivă prin decizia penală nr. 1774/05.05.2010 la 4 ani cu suspendare sub supraveghere, termen de încercare 7 ani, pentru trafic de influență în formă continuată. Nu este documentată vreo funcție sau candidatură politică; aparițiile moderne cu același nume nu pot fi legate sigur de persoana condamnată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3255",
+      "original_name": "Popescu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2354"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1575/19.04.2011 condamnarea lui Popescu Gheorghe, agent al Poliției Oraș Novaci, la 3 ani și 6 luni închisoare în regim de detenție pentru trafic de influență, complicitate la luare de mită și instigare la trafic de influență. Nu este documentată o funcție sau candidatură politică a inculpatului; numele este foarte comun, iar candidații omonimi găsiți nu pot fi atribuiți acestei persoane.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3256",
+      "original_name": "Popescu Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4430",
+        "https://adevarul.ro/stiri-interne/evenimente/seful-garzii-financiare-arges-primea-salariu-si-848320.html"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 3140/15.10.2013 condamnarea lui Iulian Popescu, comisar superior al Gărzii Financiare Argeș, la 3 ani cu suspendare sub supraveghere, termen de încercare 7 ani, pentru luare de mită și fals intelectual. Sursele îl identifică exclusiv ca funcționar de control; nu este documentată o funcție ori candidatură politică și numele prezintă risc de omonimie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3257",
+      "original_name": "Popescu Lucian - Dragos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3622",
+        "https://jurnalul.ro/stiri/observator/rechizitoriu-dna-jandarm-la-mezat-140827.html"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 3289/16.10.2012 condamnarea fostului ofițer IJJ Olt Lucian-Dragoș Popescu la 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru șase infracțiuni de trafic de influență. Nu este documentat un mandat, o candidatură sau un rol de partid; activitatea militară ori academică nu justifică includerea într-un registru politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3258",
+      "original_name": "Popescu Teodor",
+      "current_name": "Popescu Teodor",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2776",
+        "https://www.dna.ro/comunicat.xhtml?id=802",
+        "https://igj.ro/politic/teodor-popescu-trece-cu-tot-cu-sga-la-unpr-gorj.html"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 363/10.11.2011 condamnarea lui Teodor Popescu, director SGA Gorj, la 1 an cu suspendare sub supraveghere, termen de încercare 3 ani, pentru instigare la abuz în serviciu. Profilul vechi reda din eroare pedepsele altor inculpați. Presa locală îl identifică drept membru PDL Gorj, exclus după condamnare și înscris ulterior în UNPR; partidul la data condamnării a fost corectat din Independent în PDL.",
+      "reviewed_snapshot_hash": "4c32606ee6d6b3128ac385c44b47ba7d69eee72c21f6ad6d41c3902794ef16cd"
+    },
+    {
+      "profile_id": "RV-3259",
+      "original_name": "Popescu Tiberiu Narcis",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3205",
+        "https://hotnews.ro/prim-procurorul-parchetului-de-pe-langa-judecatoria-sibiu-trimis-in-judecata-de-dna-56-infractiuni-de-uz-de-fals-7-infractiuni-de-dare-de-mita-4-infractiuni-de-fals-in-declaratii-701702"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1300/25.04.2012 condamnarea fostului ofițer al Direcției Județene de Informații Sibiu Tiberiu Narcis Popescu la 2 ani și 6 luni în regim de detenție. Nu este documentată o funcție, candidatură sau afiliere politică; aparițiile moderne cu același nume nu sunt suficiente pentru o atribuire sigură.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3260",
+      "original_name": "Porosnicu Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2186",
+        "https://www.monitoruldevrancea.ro/2011/05/27/politistul-porosnicu-exclus-din-politie/"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 413/04.02.2011 condamnarea lui Sorin Poroșnicu, ofițer de poliție judiciară la Serviciul Rutier IPJ Vrancea, la 1 an și 6 luni cu suspendare condiționată, termen de încercare 3 ani și 6 luni, pentru luare de mită. Nu este documentată nicio funcție, candidatură sau afiliere politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3261",
+      "original_name": "Porumbelu Ecaterina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3096",
+        "https://www.dna.ro/comunicat.xhtml?id=768"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 572/20.03.2012 condamnarea Ecaterinei Porumbelu, fost director economic INHGA, la 1 an și 8 luni cu executare pentru două forme de abuz în serviciu. Profilul vechi reda eronat condamnarea Marinelei Simota. Nu este documentată vreo funcție, candidatură sau afiliere politică, astfel că persoana este exclusă din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3262",
+      "original_name": "Preda Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3725",
+        "https://www.ziuaconstanta.ro/informatii/parchetul-inalta-curte-de-casatie-si-justitie/arestare-inspector-finante-publice-dambovita-85993-363902.html"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 3887/27.11.2012 condamnarea Marianei Preda, inspector DGFP Dâmbovița, la 2 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită. Nu este documentată o funcție, candidatură sau afiliere politică; numele frecvent produce numeroase rezultate omonime fără legătură sigură cu inculpata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3263",
+      "original_name": "Predescu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 2348/03.07.2012 condamnarea lui Ion Predescu, agent de poliție, la 1 an și 2 luni cu suspendare condiționată, termen de încercare 3 ani și 2 luni, pentru luare de mită și favorizarea infractorului. Nu este documentată o funcție ori afiliere politică; fostul senator și judecător CCR Ion Predescu este o persoană distinctă, iar omonimia impune excluderea profilului agentului din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3264",
+      "original_name": "Presura Draghici",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4450",
+        "https://www.gds.ro/Actualitate/2008-08-20/Prejudiciu-de-18-milioane-de-euro-la-Mentchim/"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1083/30.10.2013 condamnarea lui Drăghici Presură, fost contabil-șef SC Mentchim SA, la 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru abuz în serviciu calificat în formă continuată. Nu este documentată o funcție, candidatură ori afiliere politică; calitatea de angajat al unei societăți cu capital mixt nu justifică includerea în registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3265",
+      "original_name": "Priboianu Ionut Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4153",
+        "https://www.ziuaconstanta.ro/stiri/justitie/fost-ofiter-din-ipj-constanta-reabilitat-815420.html"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1922/05.06.2013 condamnarea lui Ionuț Adrian Priboianu, ofițer de poliție judiciară IPJ Constanța, la 3 ani și 10 luni în regim de detenție pentru două infracțiuni de trafic de influență. Presa consemnează liberarea condiționată și demersuri ulterioare de reabilitare, dar nu documentează vreo funcție, candidatură sau afiliere politică; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3266",
+      "original_name": "Prundeanu Valeriu",
+      "current_name": "Prundeanu Valeriu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917",
+        "https://caon.ro/sunt-429-de-candidati-la-consiliul-judetean/1642809/",
+        "https://www.primaria-caransebes.ro/portal/CarasSeverin/Caransebes/portal.nsf/All/A1C597DFA92FC08E422577540032E0BF/$FILE/raport%20anual%202021.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia nr. 212/14.02.2013 la 6 luni cu suspendare condiționată, termen de încercare 2 ani și 6 luni, pentru abuz în serviciu, fals intelectual și uz de fals în formă continuată. Numele rar, județul și traseul profesional concordă cu candidatul PND la Consiliul Județean Caraș-Severin din 2016; profilul a fost corectat din Independent și ancorat în candidatura politică.",
+      "reviewed_snapshot_hash": "830123bac657e5f4518f9a801ac2c54dfac3033fed1b746c1170c0ae4d6d505d"
+    },
+    {
+      "profile_id": "RV-3267",
+      "original_name": "Puskas Bajko Istvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3065",
+        "https://sibiu100.ro/administratie/insepctori-itm-sibiu-trimisi-la-judecata-de-dna/"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 680/12.03.2012 condamnarea lui Puskas Bajko Istvan, inspector ITM Sibiu, la 4 ani cu suspendare sub supraveghere, termen de încercare 7 ani, pentru luare de mită. Nu este documentată nicio funcție, candidatură sau afiliere politică; funcția administrativă de execuție nu justifică includerea în registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3268",
+      "original_name": "Racareanu Liana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1618/19.07.2013 condamnarea Lianei Răcăreanu, inspector DGFP Dolj, la 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu cu consecințe deosebit de grave. Nu este documentată o funcție, candidatură sau afiliere politică; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3269",
+      "original_name": "Raceala Radian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2301",
+        "https://www.dna.ro/comunicat.xhtml?id=558"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 741/04.04.2011 condamnarea lui Radian Răceală, director al Direcției de Creditare din Banca Internațională a Religiilor, la 5 ani în regim de detenție pentru abuz în serviciu calificat și continuat. Nu este documentată o funcție, candidatură sau afiliere politică; funcția de conducere bancară nu justifică includerea în registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3270",
+      "original_name": "Rachieru Ilie",
+      "current_name": "Rachieru Ilie",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4994",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/dosar-de-mare-coruptie-la-final-daune-de-mii-de-euro-bani-confiscati-si-inchisoare-cu-suspendare-pentru-psd-istul-rachieru-19849-349299.html",
+        "https://www.telegrafonline.ro/radet-devine-societate-pe-actiuni"
+      ],
+      "note": "DNA confirmă definitiv prin decizia penală nr. 1950/06.06.2014 condamnarea lui Ilie Rachieru, fost director general RADET Constanța, la 2 ani cu suspendare, termen de încercare 4 ani, pentru abuz în serviciu și luare de mită în formă continuată. Presa îl identifică explicit drept membru PSD, iar Consiliul Local l-a ales președinte al CA RADET; partidul și contextul politic au fost corectate.",
+      "reviewed_snapshot_hash": "2125662be51e183e30126b04914462daa87bfa358927329988c10df1b63b5cbc"
     }
   ]
 }
