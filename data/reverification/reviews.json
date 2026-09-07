@@ -49025,6 +49025,181 @@
       ],
       "note": "Augustin Constantin Murgoci a fost inspector la AJFP Ilfov, funcție fiscal-administrativă, fără mandat electoral, candidatură ori afiliere politică verificabilă; candidatul Constantin Murgoci din Suceava este altă persoană. Decizia definitivă nr. 156/24.02.2014: 2 ani cu suspendare sub supraveghere, termen de încercare 4 ani, pentru complicitate la luare de mită, cu interdicții 3 ani. Profilul conținea punctuație defectă și omitea termenul și interdicțiile. Eliminat din sfera politică.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3201",
+      "original_name": "Musat Stefania",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2747",
+        "https://www.primariabaicoi.ro/images/primarie/alte_doc/BEC2020/PV%20CANDIDATURI%20DEFINITIVE.pdf",
+        "https://hotnews.ro/jacuzzi-pentru-orfani-808989"
+      ],
+      "note": "DNA confirmă definitiv decizia nr. 3835 din 28.10.2011 pentru Mușat Ștefania, fost șef CPIZ Plopeni: 3 ani cu suspendare sub supraveghere pentru dare de mită (două acte), complicitate la abuz în serviciu, deturnare de fonduri, delapidare și fals în înscrisuri sub semnătură privată în formă continuată; profilul indica eronat luare de mită și omitea celelalte infracțiuni. Lista electorală oficială din Băicoi conține o candidată omonimă Pro România, pensionară și croitoreasă, dar nu oferă nicio legătură cu fosta șefă de centru. Identitatea politică nu poate fi stabilită sigur, iar includerea ar risca atribuirea condamnării unei persoane omonime; profilul este eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3202",
+      "original_name": "Musca Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4176",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1967"
+      ],
+      "note": "DNA identifică persoana ca Florin Muscă, subinspector/ofițer de poliție judiciară la Poliția municipiului Fălticeni. Decizia penală nr. 2131 din 18.06.2013 a ICCJ a menținut condamnarea la 3 ani închisoare cu suspendare condiționată, termen de încercare 5 ani, pentru luare de mită; profilul folosea descrierea generică «Fapte de corupție» și avea detalii trunchiate. Nu a fost identificată nicio funcție, candidatură sau afiliere politică a acestei persoane; funcția de polițist nu este politică, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3203",
+      "original_name": "Nabargeac Ion",
+      "current_name": "Ion Năbârgeac",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://legislatie.just.ro/Public/DetaliiDocument/25523",
+        "https://legislatie.just.ro/Public/DetaliiDocument/65980"
+      ],
+      "note": "Numele a fost normalizat la Ion Năbârgeac. DNA confirmă decizia definitivă nr. 2874/26.09.2013: 5 ani cu executare pentru fals intelectual, luare de mită și asociere pentru săvârșirea de infracțiuni, plus interdicții și confiscarea a 23.250 euro și 275 lei. Procesul-verbal oficial BEC din 2000 îl listează pe Ion Nabargeac între supleanții PD la Camera Deputaților în circumscripția Călărași; identitatea este susținută de numele neobișnuit identic și aceeași bază geografică, iar HG nr. 1325/2005 confirmă ulterior funcția de director OCPI Călărași. Profilul a fost păstrat și corectat din Independent/funcție administrativă în PD/candidat parlamentar.",
+      "reviewed_snapshot_hash": "d8b9bd25ba1146db9fcd22117e5d4c5388f64834a6ad3819ea7d5846ee5b613e"
+    },
+    {
+      "profile_id": "RV-3204",
+      "original_name": "Neacsu Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3413",
+        "https://adevarul.ro/stiri-locale/pitesti/pitesti-3-ani-cu-suspendare-pentru-inspectorii-de-1116512.html",
+        "https://adevarul.ro/stiri-locale/pitesti/pitesti-update-inspectorul-de-la-finante-cere-sa-fie-eliberat-sub-control-judiciar-963006.html"
+      ],
+      "note": "DNA și presa locală identifică persoana ca Dumitru Neacșu, inspector fiscal la DGFP Argeș, din Pitești, în vârstă de 44 de ani în 2010. Decizia penală nr. 2321 din 28.06.2012 a stabilit definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită, abuz în serviciu și fals intelectual. Nu a fost identificată nicio funcție, candidatură sau afiliere politică a acestei persoane; rezultatele electorale similare privesc alte nume complete. Funcția fiscală este administrativă, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3206",
+      "original_name": "Neag Teodor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4060"
+      ],
+      "note": "DNA confirmă identitatea lui Teodor Neag, colonel în rezervă și fost ofițer specialist resurse umane la ISU «Semenic» Caraș-Severin, precum și decizia definitivă nr. 18/24.04.2013: 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru două abuzuri în serviciu, fals intelectual, uz de fals și două instigări la fals în înscrisuri sub semnătură privată. Nu a fost identificată nicio funcție, candidatură sau afiliere politică a persoanei; omonimele istorice ori din alte județe sunt distincte. Funcția militară/ISU nu este politică, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3207",
+      "original_name": "Neagoe Laurentiu Georgel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.dna.ro/comunicat.xhtml?id=1081",
+        "https://adevarul.ro/stiri-interne/societate/seful-de-post-din-babana-agent-imobiliar-992936.html"
+      ],
+      "note": "Sursele identifică persoana ca Laurențiu Georgel Neagoe, agent de poliție și fost șef al Postului de Poliție Băbana, implicat în dosarul permiselor Argeș. Decizia penală definitivă nr. 88/14.04.2014 a stabilit 4 ani cu executare pentru constituirea unui grup infracțional organizat și interdicții timp de 2 ani după executare. Nu a fost identificată nicio funcție, candidatură sau afiliere politică proprie; relația de familie cu fostul primar Marin Popescu nu reprezintă rol politic. Profilul este eliminat ca persoană din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3208",
+      "original_name": "Neamtiu Lucian-Miron",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3802",
+        "https://adevarul.ro/stiri-locale/sibiu/comisarul-lucian-miron-neamtiu-trimis-in-judecata-1089543.html"
+      ],
+      "note": "DNA și presa locală identifică persoana ca Lucian-Miron Neamțiu, comisar/ofițer de poliție judiciară la IPJ Sibiu, Serviciul Rutier. Hotărârea definitivă nr. 4197/18.12.2012 a stabilit 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru trafic de influență, confiscarea a 4.721 lei și cheltuieli judiciare. Nu a fost identificată nicio funcție, candidatură sau afiliere politică a acestei persoane; funcția de polițist nu este politică. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3209",
+      "original_name": "Necolaiciuc Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5413",
+        "https://www.dna.ro/comunicat.xhtml?id=7872",
+        "https://www.sursazilei.ro/fostul-director-al-cfr-mihai-necolaiciuc-scapa-de-inchisoare-faptele-s-au-prescris/",
+        "https://www.railwaygazette.com/news/people/30190.article"
+      ],
+      "note": "Mihai Necolaiciuc a fost director general al CN CFR în 2000–2003, o funcție managerială numită, fără dovadă de membru de partid, candidatură sau mandat politic. Profilul era juridic incomplet: pe lângă condamnarea definitivă la 4 ani și 6 luni din 17.10.2014 pentru utilizarea creditelor publice în alte scopuri, DNA confirmă condamnarea definitivă ulterioară la 8 ani prin decizia nr. 1758/A din 23.11.2016 pentru abuz în serviciu cu consecințe deosebit de grave și utilizarea creditelor în alte scopuri, ambele în formă continuată. Un dosar distinct, cu sentință de fond de 9 ani și 6 luni, a fost închis definitiv în apel la 28.03.2023 prin prescripție; aceasta nu anulează condamnările anterioare. În lipsa unui rol politic propriu, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3210",
+      "original_name": "Nedelcu Florin Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3069",
+        "https://jurnalul.ro/stiri/observator/politisti-din-bragadiru-retinuti-pentru-mita-571776.html",
+        "https://www.ziaruldevrancea.ro/special/politica/88657-liberalii-vranceni-isi-pierd-functiile-desi-sunt-la-guvernare-sef-nou-la-isctr-fenechiu-i-a-dat-jos-omul-lui-sapunaru.html"
+      ],
+      "note": "DNA confirmă că Florin Adrian Nedelcu era agent de poliție la Poliția Rutieră Bragadiru, IPJ Ilfov, condamnat definitiv prin decizia nr. 706/13.03.2012 la 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită în formă continuată; s-au confiscat 650 lei. Florin Nedelcu din politica vrânceană/ISCTR este o persoană distinctă: alt județ și alt traseu profesional, iar sursele nu îi atribuie prenumele Adrian. Nu a fost identificat vreun rol politic al agentului din Ilfov; profilul este eliminat pentru a evita coliziunea de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3211",
+      "original_name": "Negura Georgel Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2712"
+      ],
+      "note": "DNA confirmă identitatea lui Georgel Ovidiu Negură, ofițer BCCO București – Serviciul Antidrog, șef Birou Sector 1, și decizia definitivă nr. 3506/10.10.2011: 1 an și 2 luni cu executare pentru trafic de influență, interzicerea unor drepturi pe durata executării și 10.500 lei cheltuieli judiciare. Nu a fost identificată nicio funcție, candidatură sau afiliere politică a persoanei; rezultatele electorale găsite privesc alte persoane cu numele Negură. Profilul este eliminat ca funcționar MAI din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

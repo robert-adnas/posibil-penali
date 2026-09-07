@@ -37831,78 +37831,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Musat Stefania",
-    "party": "Independent",
-    "position": "Sef centru în Centru de plasament (MMFPS)",
+    "name": "Ion Năbârgeac",
+    "party": "PD",
+    "position": "Fost candidat PD la Camera Deputaților în Călărași (2000); fost director al OCPI Călărași",
     "position_type": "other",
+    "role_at_time": "Director al Oficiului de Cadastru și Publicitate Imobiliară Călărași",
     "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef centru în Centru de plasament (MMFPS) în județul Prahova."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 octombrie 2011. Condamnarea inculpatei MUȘAT ȘTEFANIA, fost șef Centru de Plasament și Îngrijire Zi (C.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2747"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Musat Stefania indică județul Prahova, funcția \"Sef centru\", instituția \"Centru de plasament (MMFPS)\", decizia 3835 și condamnarea din 28/10/2011."
-      }
-    ]
-  },
-  {
-    "name": "Musca Florin",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Suceava",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Suceava."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 18 iunie 2013. Condamnarea inculpatului MUSCĂ FLORIN, ofițer de poliție judiciară în cadrul Inspectoratului de Poliție al Județului Suceava (I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4176"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Musca Florin indică județul Suceava, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 2131 și condamnarea din 18/06/2013."
-      }
-    ]
-  },
-  {
-    "name": "Nabargeac Ion",
-    "party": "Independent",
-    "position": "Director în Oficiul de cadastru si publicitate imobiliara (MDRAP)",
-    "position_type": "other",
-    "geography": {
-      "county": "Calarasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Oficiul de cadastru si publicitate imobiliara (MDRAP) în județul Calarasi."
+      "county": "Călărași",
+      "basis": "constituency",
+      "note": "A figurat pe lista PD pentru Camera Deputaților în circumscripția Călărași la alegerile din 2000."
     },
     "crime": "fals intelectual, luare de mită și asociere pentru săvârșirea de infracțiuni",
     "sentence": "5 ani închisoare",
@@ -37910,243 +37847,26 @@ export const politicianAdditions = [
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 septembrie 2013. Condamnarea inculpatului NĂBÂRGEAC ION, fost director al Oficiului de Cadastru și Publicitate Imobiliară (O.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Ion Năbârgeac, fost director al OCPI Călărași, prin decizia penală nr. 2.874 din 26 septembrie 2013, la 5 ani de închisoare pentru fals intelectual, luare de mită și asociere pentru săvârșirea de infracțiuni. Instanța i-a interzis pe durata executării și încă 3 ani dreptul de a fi ales, de a exercita autoritatea de stat și de a ocupa o funcție ori profesie similară celei folosite la comiterea faptelor; a confiscat 23.250 euro și 275 lei. Procesul-verbal oficial BEC din 2000 îl înscrie pe lista supleanților PD pentru Camera Deputaților în circumscripția Călărași.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4355"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "description": "Decizia penală definitivă nr. 2.874/26.09.2013, pedeapsa, infracțiunile, interdicțiile și confiscarea."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nabargeac Ion indică județul Calarasi, funcția \"Director\", instituția \"Oficiul de cadastru si publicitate imobiliara (MDRAP)\", decizia 2874 și condamnarea din 26/09/2013."
-      }
-    ]
-  },
-  {
-    "name": "Neacsu Dumitru",
-    "party": "Independent",
-    "position": "Inspector asistent în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector asistent în Directia generala a finantelor publice în județul Arges."
-    },
-    "crime": "luare de mită, abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru altul un avantaj patrimonial și fals intelectual",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 iunie 2012. Condamnarea inculpatului NEACȘU DUMITRU, inspector asistent în cadrul Agenției Naționale de Administrare Fiscală, Direcția Generală a Finanțelor Publice Argeș, Activitatea de Inspecție Fiscală – Serviciul Inspecție Fiscală Persoane Fizice, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea următoarelor infracțiuni: luare de mită, abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru altul un avantaj patrimonial și fals intelectual.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Biroul Electoral Central — rezultatele alegerilor parlamentare din 2000",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3413"
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/25523",
+        "description": "Anexa privind supleanții pentru Camera Deputaților îl listează pe Ion Nabargeac în circumscripția Călărași, în secțiunea Partidului Democrat."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Neacsu Dumitru indică județul Arges, funcția \"Inspector asistent\", instituția \"Directia generala a finantelor publice\", decizia 2321 și condamnarea din 28/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Neag Teodor",
-    "party": "Independent",
-    "position": "Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel rezerva în Inspectoratul pentru situatii de urgenta (MAI) în județul Caras-Severin."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 aprilie 2013. Condamnarea inculpatului NEAG TEODOR, colonel în rezervă, fost ofițer specialist cu activitatea resurse umane în cadrul Inspectoratul pentru Situații de Urgență „Semenic” al județului Caraș – Severin, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea următoarelor infracțiuni: două infracțiuni de abuz în serviciu contra intereselor persoanelor, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sa nepatrimonial, fals intelectual, uz de fals, două infracțiuni de instigare la infracțiunea de fals în înscrisuri sub semnătură privată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Portal Legislativ — HG nr. 1.325/2005",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4060"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Neag Teodor indică județul Caras-Severin, funcția \"Colonel rezerva\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 18 și condamnarea din 24/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Neagoe Laurentiu Georgel",
-    "party": "Independent",
-    "position": "Sef politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef politie în Politie (MAI) în județul Arges."
-    },
-    "crime": "constituirea unui grup infracțional organizat",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 aprilie 2014. Condamnă pe inculpatul MIERLĂ GHEORGHE MARIUS și NEAGOE LAURENTIU GEORGEL, fost șef al Postului de Poliție Băbana, la o pedeapsă de 4 ani închisoare și interzicerea atât pe perioada executării pedepsei cât și pe o perioadă de 2 ani după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în orice alte funcții publice și de a ocupa o funcție care implică exercițiul autorității de stat, pentru săvârșirea infracțiunii de constituirea unui grup infracțional organizat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4857"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Neagoe Laurentiu Georgel indică județul Arges, funcția \"Sef politie\", instituția \"Politie (MAI)\", decizia 88 și condamnarea din 14/04/2014."
-      }
-    ]
-  },
-  {
-    "name": "Neamtiu Lucian-Miron",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Sibiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Sibiu."
-    },
-    "crime": "trafic de influență",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 18 decembrie 2012. Condamnarea inculpatului NEAMȚIU LUCIAN-MIRON, ofițer de poliție judiciară în cadrul I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3802"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Neamtiu Lucian-Miron indică județul Sibiu, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 4197 și condamnarea din 18/12/2012."
-      }
-    ]
-  },
-  {
-    "name": "Necolaiciuc Mihai",
-    "party": "Independent",
-    "position": "Director general în Caile ferate romane",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director general în Caile ferate romane în județul Bucuresti."
-    },
-    "crime": "utilizare în alte scopuri a creditelor garantate din fonduri publice sau care urmează să fie rambursate din fonduri publice",
-    "sentence": "4 ani și 6 luni închisoare",
-    "sentence_years": 4.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 17 octombrie 2014. Condamnă pe inculpatul NECOLAICIUC MIHAI, la data faptelor director general al Companiei Naționale de Cai Ferate C.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5413"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Necolaiciuc Mihai indică județul Bucuresti, funcția \"Director general\", instituția \"Caile ferate romane\", decizia 0 și condamnarea din 17/10/2014."
-      }
-    ]
-  },
-  {
-    "name": "Nedelcu Florin Adrian",
-    "party": "Independent",
-    "position": "Agent politie în Inspectorat de politie judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Inspectorat de politie judetean (MAI) în județul Ilfov."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Nedelcu Florin Adrian a fost condamnat definitiv la 13 martie 2012 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Agent politie în Inspectorat de politie judetean (MAI). Infracțiunea reținută: luare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3069"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nedelcu Florin Adrian indică județul Ilfov, funcția \"Agent politie\", instituția \"Inspectorat de politie judetean (MAI)\", decizia 706 și condamnarea din 13/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Negura Georgel Ovidiu",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an și 2 luni închisoare",
-    "sentence_years": 1.17,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 octombrie 2011. Condamnarea inculpatului NEGURĂ GEORGEL OVIDIU, ofițer de poliție din cadrul Brigăzii de Combatere a Criminalității Organizate (B.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2712"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Negura Georgel Ovidiu indică județul Bucuresti, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 3506 și condamnarea din 10/10/2011."
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/65980",
+        "description": "Confirmă funcția lui Ion Năbârgeac de director al OCPI Călărași."
       }
     ]
   },
