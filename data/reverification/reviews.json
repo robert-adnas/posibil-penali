@@ -49654,6 +49654,214 @@
       ],
       "note": "DNA îl identifică pe maior dr. (r.) PĂUN GHEORGHE, fost medic militar șef la Centrul Militar Județean Argeș, condamnat definitiv prin decizia 3778/19.11.2012 la 4 ani în regim de detenție pentru luare de mită și participație improprie la fals material și fals intelectual, toate în formă continuată. În județ există omonimi publici, inclusiv un candidat PNL la Consiliul Local Țițești și academicianul Gheorghe Păun, dar nicio sursă nu îi leagă de medicul militar. Nu este demonstrat un rol politic al inculpatului.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3241",
+      "original_name": "Pavel Nelu-Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4879",
+        "https://www.amosnews.ro/arhiva-2012-2020/doi-politisti-de-la-brigada-rutiera-trimisi-judecata-pentru-luare-de-mita-2013-04-27"
+      ],
+      "note": "DNA îl identifică drept fost agent DGPMB - Brigada Rutieră, condamnat definitiv prin decizia penală nr. 587/30.04.2014 la 3 ani cu suspendare, termen de încercare 6 ani, pentru luare de mită. Nu există o funcție sau candidatură politică verificabilă; rezultatele pentru Nelu Pavel și Marian Pavel privesc alte persoane.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3242",
+      "original_name": "Petre Aurelia Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2747"
+      ],
+      "note": "DNA o identifică drept fost contabil-șef al C.P.I.Z. Plopeni și confirmă condamnarea definitivă prin decizia penală nr. 3835/28.10.2011 la 2 ani și 6 luni cu executare pentru două dări de mită, complicitate la abuz în serviciu, deturnare de fonduri, delapidare, fals în înscrisuri sub semnătură privată, fals intelectual și abuz în serviciu contra intereselor persoanelor, toate în formă continuată. Nu este documentată vreo funcție sau candidatură politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3243",
+      "original_name": "Petre Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3775",
+        "https://www.dna.ro/comunicat.xhtml?id=2434"
+      ],
+      "note": "DNA îl identifică drept inspector vamal la Direcția Județeană pentru Accize și Operațiuni Vamale Dâmbovița și confirmă condamnarea definitivă prin decizia nr. 4143/13.12.2012 la 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru primire de foloase necuvenite. Un candidat omonim apare în Argeș, fără legătură demonstrabilă cu inspectorul din Dâmbovița; nu este documentată o funcție politică pentru persoana condamnată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3244",
+      "original_name": "Petrenciuc Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2666",
+        "https://www.bursa.ro/inspector-vamal-trimis-in-judecata-8265979"
+      ],
+      "note": "DNA o identifică drept inspector vamal în cadrul Direcției Municipiului București pentru Accize și Operațiuni Vamale și confirmă condamnarea definitivă prin decizia penală nr. 3233/23.09.2011 la 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru trafic de influență. Nu este documentată nicio funcție sau candidatură politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3245",
+      "original_name": "Pironea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5053",
+        "https://www.ziuaconstanta.ro/informatii/parchetul-inalta-curte-de-casatie-si-justitie/retinere-comisar-garda-financiara-brasov-luare-de-mita-81192-363676.html"
+      ],
+      "note": "DNA îl identifică drept comisar al Gărzii Financiare - Secția Brașov și confirmă condamnarea definitivă prin decizia penală nr. 187/18.06.2014 la 4 ani cu suspendare, termen de încercare 6 ani, pentru luare de mită în formă continuată. Rezultatele politice privesc un omonim parțial, Viorel Pironea din Călărași; nu este documentată vreo funcție politică pentru Ion Pironea.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3246",
+      "original_name": "Pistolea Nicolae Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2767",
+        "https://www.dna.ro/comunicat.xhtml?id=2488"
+      ],
+      "note": "DNA îl identifică drept ofițer de poliție cu grad de subcomisar în cadrul Poliției Orașului Găești și confirmă condamnarea definitivă prin decizia penală nr. 3926/04.11.2011 la 2 ani în regim de detenție pentru luare de mită. Profilul folosea eticheta generică fapte de corupție; nu este documentată nicio funcție sau candidatură politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3247",
+      "original_name": "Pit Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645",
+        "https://www.dna.ro/comunicat.xhtml?id=275",
+        "https://www.gds.ro/Local/2004-04-01/Mita-la-MApN/"
+      ],
+      "note": "Hotărârea definitivă îl condamnă pe Pit Dorin la 5 luni cu suspendare sub supraveghere, termen de încercare 2 ani și 5 luni, pentru dare de mită. Profilul îi atribuia eronat pedeapsa de 1 an și 4 luni și infracțiunea altui lot, iar detaliile îl descriau pe Tănase Vasile; funcția de inginer-șef aparținea lui Iancu Florea Mihai. Sursele îl plasează între persoanele care au dat mită în dosarul achizițiilor MApN, fără funcție politică documentată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3248",
+      "original_name": "Pitiga Fanel Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2744",
+        "https://www.euroavocatura.ro/stiri/5094/Inspector_vamal_in_cadrul_Autoritatii_Nationale_a_Vamilor_trimis_in_judecata_pentru_abuz_in_serviciu_si_luare_de_mita"
+      ],
+      "note": "Numele oficial este PIȚIGA FĂNEL SORIN. DNA îl identifică drept inspector vamal la Direcția Județeană pentru Accize și Operațiuni Ilfov și confirmă condamnarea definitivă la 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită și abuz în serviciu contra intereselor persoanelor. Aparițiile ulterioare ca funcționar administrativ nu probează un rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3249",
+      "original_name": "Plocon Andi - Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917",
+        "https://www.dna.ro/comunicat.xhtml?id=1407",
+        "https://expressdebanat.ro/condamnati-definitiv-pentru-angajarile-pe-pile-de-la-isu-semenic/"
+      ],
+      "note": "Numele oficial este PLOCON ANDI-DANIEL. DNA îl identifică drept ofițer al ISU Semenic Caraș-Severin, membru al comisiei de examinare, și confirmă condamnarea definitivă la 6 luni cu suspendare condiționată, termen de încercare 2 ani și 6 luni, pentru abuz în serviciu, fals intelectual și uz de fals, toate în formă continuată. Nu este documentată o funcție politică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3250",
+      "original_name": "Plosca Elena Liliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2509",
+        "https://www.ztv.ro/social/inspector-de-la-finane-publice-salaj-arestat-pentru-mita/",
+        "https://anpc.ro/wp-content/uploads/2023/04/Date-de-contact-aparatul-tehnic-la-nivel-teritorial-28.03.2023.pdf"
+      ],
+      "note": "DNA o identifică drept inspector ANAF la DGFP Sălaj - Direcția de Control Fiscal și confirmă condamnarea definitivă prin decizia penală nr. 2611/29.06.2011 la 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită și trafic de influență. Documentele ANPC indică ulterior o funcție tehnică administrativă, nu un mandat ori rol politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3251",
+      "original_name": "Pop Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4520",
+        "https://www.dna.ro/comunicat.xhtml?id=12690",
+        "https://www.dna.ro/comunicat.xhtml?id=836",
+        "https://ziaruldevalcea.ro/2008/03/constantin-pop-a-fost-executat-din/"
+      ],
+      "note": "DNA confirmă că fostul șef al Corpului Gardienilor Publici Vâlcea și reprezentantul Gardienii SRL sunt aceeași persoană: condamnat definitiv în 2013 la 4 ani cu suspendare pentru abuz în serviciu, apoi definitiv în 2024 la 13 ani cu executare pentru evaziune fiscală în formă continuată. O singură publicație locală îl numește membru PNL, fără mandat sau candidatură verificabilă; candidatul Constantin-Irinel Pop este altă persoană. Profilul public era juridic depășit și politic nesigur.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3252",
+      "original_name": "Pop Marius-Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4580",
+        "https://adevarul.ro/stiri-locale/alba-iulia/fostul-comandant-al-politiei-teius-condamnat-la-5-1390104.html"
+      ],
+      "note": "DNA îl identifică drept fost șef al Poliției orașului Teiuș și confirmă condamnarea definitivă prin decizia penală nr. 3962/11.12.2013 la 8 luni cu suspendare sub supraveghere, termen de încercare 4 ani, pentru omisiunea sesizării, fals intelectual, uz de fals și instigare neurmată de executare la mărturie mincinoasă. Profilul transforma eronat 8 luni în 8 ani și avea detaliile trunchiate. Nu este documentată vreo funcție politică.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
