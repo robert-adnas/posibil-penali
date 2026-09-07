@@ -50152,6 +50152,178 @@
       ],
       "note": "DNA confirmă definitiv prin decizia penală nr. 1950/06.06.2014 condamnarea lui Ilie Rachieru, fost director general RADET Constanța, la 2 ani cu suspendare, termen de încercare 4 ani, pentru abuz în serviciu și luare de mită în formă continuată. Presa îl identifică explicit drept membru PSD, iar Consiliul Local l-a ales președinte al CA RADET; partidul și contextul politic au fost corectate.",
       "reviewed_snapshot_hash": "2125662be51e183e30126b04914462daa87bfa358927329988c10df1b63b5cbc"
+    },
+    {
+      "profile_id": "RV-3271",
+      "original_name": "Radu Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1927",
+        "https://primariabuzoesti.ro/articles/hotarari-ale-biroului-electoral-de-circumscriptie"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Radu Florian, agent de poliție în cadrul IPJ Argeș, la 3 ani și 8 luni cu executare pentru două infracțiuni de trafic de influență. Funcția din dosar este una profesională, nu politică. Un candidat omonim la Primăria Buzoești apare în 2024, dar nu există dovezi fiabile că este aceeași persoană; profilul este eliminat pentru a evita o asociere greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3272",
+      "original_name": "Radu Mioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5544",
+        "https://romanialibera.ro/special/reteaua-udrea-cocos-cum-se-castiga-milioane-de-pe-urma-bolnavilor-de-cancer-283008/"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Radu Mioara, fost director executiv adjunct economic la DSVSA Prahova, la 3 ani cu suspendare sub supraveghere pentru abuz în serviciu. Nu este demonstrată nicio funcție politică. Politiciana omonimă din București era medic și consilier PNL/PDL, indicând o coliziune de nume; profilul este eliminat pentru a evita atribuirea condamnării persoanei greșite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3273",
+      "original_name": "Radulescu Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3331",
+        "https://adevarul.ro/stiri-locale/pitesti/politisti-trimisi-in-judecata-de-dna-827219.html"
+      ],
+      "note": "DNA și presa locală identifică aceeași persoană drept Florin Rădulescu, agent la Poliția Orașului Topoloveni, condamnat definitiv la 3 ani cu suspendare sub supraveghere pentru trafic de influență în formă continuată, fals intelectual și uz de fals. Nu a fost găsită nicio funcție sau candidatură politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3274",
+      "original_name": "Rap Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3226",
+        "https://adevarul.ro/stiri-interne/evenimente/premiera-anticoruptie-ofiter-de-politie-condamnat-682384.html"
+      ],
+      "note": "Sorin Rap era ofițer IPJ Ilfov - Brigada Rutieră și a fost condamnat definitiv la 1 an și 10 luni cu executare pentru două infracțiuni de trafic de influență. Profilul indica greșit favorizarea infractorului, faptă atribuită altei inculpate. Nu există rol politic verificabil, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3275",
+      "original_name": "Ratiu Gheorghe",
+      "current_name": "Gheorghe Rațiu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4988",
+        "https://www.ebihoreanul.ro/stiri/sef-interimar-la-garda-de-mediu-bihor-in-locul-pdl-istului-calin-mocan-102170.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 268/03.06.2014 la 4 ani și 3 luni cu executare pentru trei fapte de luare de mită, abuz și instigare la abuz în serviciu, instigare la fals sub semnătură privată și trei falsuri intelectuale. Bihoreanul îl identifică explicit drept liberal și consemnează numirea sa politică la conducerea Gărzii de Mediu Bihor; numele, partidul, funcția și descrierea juridică au fost corectate.",
+      "reviewed_snapshot_hash": "e74009d20ac5f81c61069062807aeb4bd3384fca3668053ccc4d7e1d04ff28af"
+    },
+    {
+      "profile_id": "RV-3276",
+      "original_name": "Rauta Corina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2156",
+        "https://ziaruldebacau.ro/?p=58167"
+      ],
+      "note": "DNA și presa locală confirmă identitatea Corinei Răuță, fost ofițer ISU Bacău la compartimentul avize/autorizații, și condamnarea definitivă la 3 ani cu suspendare sub supraveghere. Nu a fost identificat niciun rol politic verificabil; funcția era strict profesională, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3277",
+      "original_name": "Renu Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1908",
+        "https://adevarul.ro/stiri-interne/evenimente/sentinte-negociate-de-politie-la-brutarie-674510.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a comisarului-șef Viorel Renu, fost șef al Biroului de Investigații Criminale din Poliția Timișoara, la 4 ani cu executare pentru complicitate la trafic de influență, complicitate la cumpărare de influență și favorizarea infractorului. Nu există funcție sau afiliere politică verificabilă; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3278",
+      "original_name": "Ristea Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4710",
+        "https://adevarul.ro/stiri-interne/evenimente/update-seful-finantelor-ilfov-va-sta-29-de-zile-1472190.html",
+        "https://www.estiri.ro/politica/claudiu-ristea-revine-406.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Claudiu Ristea, fost director executiv al Administrației Finanțelor Publice Ilfov, la 2 ani cu executare pentru complicitate la luare de mită. Sursele indică o carieră de funcționar și numiri administrative, dar nu dovedesc calitatea de membru de partid, candidat sau ales; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3279",
+      "original_name": "Rob Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5676",
+        "https://gazetadecluj.ro/caracatita-din-justitia-bihoreana-granita-dintre-infractori-si-justitiari-stearsa-la-oradea/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Florian Rob, ofițer de poliție judiciară și șef al Secției nr. 9 Poliție Rurală Salonta, la 2 ani cu executare pentru trafic de influență. Nu a fost identificată nicio funcție, candidatură sau afiliere politică; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3280",
+      "original_name": "Roman Razvan Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2028",
+        "https://www.cjmaramures.ro/monitorul-oficial-local/alte-documente/declaratii-de-avere-si-interese/functionari-publici-de-executie/roman-razvan-cosmin",
+        "https://www.emaramures.ro/directorul-comercial-al-remin-baia-mare-in-arest-preventiv-de-aproape-6-luni/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Răzvan Cosmin Roman, fost director comercial REMIN Baia Mare, la 2 ani și 8 luni cu executare pentru luare de mită în formă continuată. Pagina oficială a CJ Maramureș îl încadrează ulterior la funcționari publici de execuție; nu există rol politic verificabil, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

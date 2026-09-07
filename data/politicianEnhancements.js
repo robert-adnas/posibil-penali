@@ -38069,322 +38069,36 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Radu Florian",
-    "party": "Independent",
-    "position": "Agent politie în Inspectorat de politie judetean (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Inspectorat de politie judetean (MAI) în județul Arges."
-    },
-    "crime": "cumpărare de influență",
-    "sentence": "3 ani și 8 luni închisoare",
-    "sentence_years": 3.67,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Radu Florian a fost condamnat definitiv la 21 iunie 2010 la 3 ani și 8 luni închisoare. Funcția relevantă consemnată în sursă: Agent politie în Inspectorat de politie judetean (MAI). Infracțiunea reținută: cumpărare de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1927"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Radu Florian indică județul Arges, funcția \"Agent politie\", instituția \"Inspectorat de politie judetean (MAI)\", decizia 2436 și condamnarea din 21/06/2010."
-      }
-    ]
-  },
-  {
-    "name": "Radu Mioara",
-    "party": "Independent",
-    "position": "Director executiv adjunct în Directia sanitar veterinara si pentru siguranta alimentelor",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv adjunct în Directia sanitar veterinara si pentru siguranta alimentelor în județul Prahova."
-    },
-    "crime": "abuz în serviciu contra intereselor publice",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Radu Mioara a fost condamnat definitiv la 6 noiembrie 2014 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Director executiv adjunct în Directia sanitar veterinara si pentru siguranta alimentelor. Infracțiunea reținută: abuz în serviciu contra intereselor publice.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5544"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Radu Mioara indică județul Prahova, funcția \"Director executiv adjunct\", instituția \"Directia sanitar veterinara si pentru siguranta alimentelor\", decizia 39 și condamnarea din 06/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Radulescu Florin",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Arges."
-    },
-    "crime": "trafic de influență",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 iunie 2012. Condamnarea inculpatului RĂDULESCU FLORIN, agent de poliție la Poliția Orașului Topoloveni - Compartimentul Siguranța Circulației, Supraveghere Rutieră și Control Auto, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea următoarelor infracțiuni: trafic de influență în formă continuată, fals intelectual și uz de fals, săvârșite în legătură directă cu infracțiunea de trafic de influență în formă continuată și în realizarea scopului urmărit prin această infracțiune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3331"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Radulescu Florin indică județul Arges, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 1955 și condamnarea din 07/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Rap Sorin",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "favorizare a infractorului",
-    "sentence": "1 an și 10 luni închisoare",
-    "sentence_years": 1.83,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 2 mai 2012. Condamnarea inculpatului RAP SORIN, ofițer de poliție în cadrul Inspectoratului de Poliție al Județului (I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3226"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rap Sorin indică județul Bucuresti, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 1411 și condamnarea din 02/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Ratiu Gheorghe",
-    "party": "Independent",
-    "position": "Comisar în Garda nationala de mediu",
+    "name": "Gheorghe Rațiu",
+    "party": "PNL",
+    "position": "Fost prim-comisar al Gărzii de Mediu Bihor",
     "position_type": "other",
     "geography": {
       "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda nationala de mediu în județul Bihor."
+      "basis": "political_base",
+      "locality": "Oradea",
+      "note": "Liberal numit în 2012 prim-comisar interimar al Gărzii de Mediu Bihor, instituție pe care o mai condusese între 2005 și 2009."
     },
-    "crime": "fals intelectual; luare de mită; abuz în serviciu",
-    "sentence": "4 ani și 3 luni închisoare",
+    "crime": "luare de mită (3 fapte); abuz în serviciu și instigare la abuz în serviciu; instigare la fals în înscrisuri sub semnătură privată; fals intelectual (3 fapte)",
+    "sentence": "4 ani și 3 luni închisoare cu executare",
     "sentence_years": 4.25,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ratiu Gheorghe a fost condamnat definitiv la 3 iunie 2014 la 4 ani și 3 luni închisoare. Funcția relevantă consemnată în sursă: Comisar în Garda nationala de mediu. Infracțiunea reținută: fals intelectual; luare de mită; abuz în serviciu.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Oradea l-a condamnat definitiv, prin decizia penală nr. 268 din 3 iunie 2014, pe Gheorghe Rațiu, fost comisar al Gărzii Naționale de Mediu – Comisariatul Județean Bihor, la 4 ani și 3 luni de închisoare cu executare. Condamnarea privește trei fapte de luare de mită, fapte de abuz și instigare la abuz în serviciu, instigare la fals în înscrisuri sub semnătură privată și trei fapte de fals intelectual. Presa locală îl identifica drept liberal și consemna numirea sa ca prim-comisar interimar în 2012.",
+    "verified_at": "2026-09-07",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4988"
+        "url": "https://www.dna.ro/faces/comunicat.xhtml?id=4988",
+        "description": "Hotărârea definitivă, pedeapsa și lista exactă a infracțiunilor."
       },
       {
-        "label": "România Curată",
+        "label": "Bihoreanul — numire și afiliere PNL",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ratiu Gheorghe indică județul Bihor, funcția \"Comisar\", instituția \"Garda nationala de mediu\", decizia 268 și condamnarea din 03/06/2014."
-      }
-    ]
-  },
-  {
-    "name": "Rauta Corina",
-    "party": "Independent",
-    "position": "Ofiter în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Inspectoratul pentru situatii de urgenta (MAI) în județul Bacau."
-    },
-    "crime": "conflict de interese",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 ianuarie 2011. Condamnarea inculpatei RĂUȚĂ CORINA, ofițer în cadrul Inspectoratului pentru Situații de Urgență al Județului Bacău - Compartimentul de avize/autorizații, la pedeapsa de 3 ani închisoare cu suspendarea executării pedepsei sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunilor de conflict de interese și a infracțiunii de îndeplinire, în virtutea funcției, pentru un agent economic, a unei însărcinări, dacă fapta e de natură a-i aduce, direct sau indirect, foloase necuvenite.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2156"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rauta Corina indică județul Bacau, funcția \"Ofiter\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 249 și condamnarea din 26/01/2011."
-      }
-    ]
-  },
-  {
-    "name": "Renu Viorel",
-    "party": "Independent",
-    "position": "Comisar sef politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar sef politie în Politie (MAI) în județul Timis."
-    },
-    "crime": "complicitate la trafic de influență, complicitate la cumpărare de influență și favorizarea infractorului",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Renu Viorel a fost condamnat definitiv la 12 martie 2010 la 4 ani închisoare. Funcția relevantă consemnată în sursă: Comisar sef politie în Politie (MAI). Infracțiunea reținută: complicitate la trafic de influență, complicitate la cumpărare de influență și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1908"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Renu Viorel indică județul Timis, funcția \"Comisar sef politie\", instituția \"Politie (MAI)\", decizia 948 și condamnarea din 12/03/2010."
-      }
-    ]
-  },
-  {
-    "name": "Ristea Claudiu",
-    "party": "Independent",
-    "position": "Director executiv în Directia generala a finantelor publice",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Directia generala a finantelor publice în județul Ilfov."
-    },
-    "crime": ": complicitate la luare de mită",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ristea Claudiu a fost condamnat definitiv la 24 februarie 2014 la 2 ani închisoare. Funcția relevantă consemnată în sursă: Director executiv în Directia generala a finantelor publice. Infracțiunea reținută:: complicitate la luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4710"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ristea Claudiu indică județul Ilfov, funcția \"Director executiv\", instituția \"Directia generala a finantelor publice\", decizia 156 și condamnarea din 24/02/2014."
-      }
-    ]
-  },
-  {
-    "name": "Rob Florian",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Bihor."
-    },
-    "crime": "trafic de influență",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 noiembrie 2014. Condamnă pe inculpatul ROB FLORIAN, ofițer de poliție judiciară, șef al Secției nr.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5676"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rob Florian indică județul Bihor, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 397 și condamnarea din 21/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Roman Razvan Cosmin",
-    "party": "Independent",
-    "position": "Director comercial în Compania nationala a metalelor pretioase si neferoase REMIN sa (Ministerul Finantelor Publice)",
-    "position_type": "other",
-    "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director comercial în Compania nationala a metalelor pretioase si neferoase REMIN sa (Ministerul Finantelor Publice) în județul Maramures."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "2 ani și 8 luni închisoare",
-    "sentence_years": 2.67,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 noiembrie 2010. Condamnarea inculpatului ROMAN RĂZVAN COSMIN, director comercial al Companiei Naționale a Metalelor Prețioase și Neferoase REMIN SA Baia Mare, la pedeapsa de 2 ani și 8 luni închisoare pentru săvârșirea infracțiunii de luare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2028"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Roman Razvan Cosmin indică județul Maramures, funcția \"Director comercial\", instituția \"Compania nationala a metalelor pretioase si neferoase REMIN sa (Ministerul Finantelor Publice)\", decizia 4074 și condamnarea din 16/11/2010."
+        "url": "https://www.ebihoreanul.ro/stiri/sef-interimar-la-garda-de-mediu-bihor-in-locul-pdl-istului-calin-mocan-102170.html",
+        "description": "Îl identifică drept liberal și consemnează numirea sa ca prim-comisar interimar al Gărzii de Mediu Bihor în iunie 2012."
       }
     ]
   },
