@@ -49405,6 +49405,255 @@
       ],
       "note": "DNA confirmă forma numelui Mihăilă Olexiuc și calitatea de locotenent la ISU Vlașca Giurgiu. Decizia penală definitivă 45/10.07.2014 l-a condamnat la 1 an și 6 luni cu suspendare, termen de încercare 3 ani și 6 luni, pentru fals material în înscrisuri oficiale, fals intelectual, uz de fals, abuz în serviciu și asociere pentru săvârșirea de infracțiuni, formele indicate fiind continuate. Profilul conținea numele fără diacritică, o eroare de punctuație și numai două dintre infracțiuni. Nu există dovezi fiabile de candidatură, mandat, partid sau funcție politică; profil eliminat ca militar din afara domeniului politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3225",
+      "original_name": "Olteanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=234"
+      ],
+      "note": "DNA confirmă că Gheorghe Olteanu a fost director și ordonator secundar de credite la DADR Prahova, fără funcție politică proprie identificată. Condamnarea definitivă din 12.04.2012 a fost la 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru mai multe infracțiuni privind abuzul în serviciu, subvențiile și creditele garantate din fonduri publice; profilul le reducea eronat la simplul abuz în serviciu. Rezultatele politice cu nume identic sunt omonimi din alte localități și nu pot fi legate de inculpat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3226",
+      "original_name": "Olteanu Petrisor Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA îl identifică pe OLTEANU PETRIȘOR MIHAI drept locotenent ISU Vlașca Giurgiu și confirmă condamnarea definitivă din 10.07.2014 la 1 an și 10 luni cu suspendare, termen de încercare 3 ani și 10 luni. Faptele au inclus abuz în serviciu, două infracțiuni de fals material, fals intelectual și două infracțiuni de uz de fals, toate în formă continuată; profilul nu reda multiplicitatea faptelor. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3227",
+      "original_name": "Olteanu Tania",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3969",
+        "https://legislatie.just.ro/Public/DetaliiDocument/129737"
+      ],
+      "note": "DNA confirmă identitatea funcționalei Tania Olteanu, inspector la Serviciul Colectare și Executare Silită Persoane Juridice din AFP Vâlcea, și condamnarea definitivă nr. 868/13.03.2013 la 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru trafic de influență. Nu a fost identificat un rol politic propriu. Rezultatul electoral/AEP pentru Tania Olteanu Elena din județul Olt privește o altă identitate și nu justifică includerea.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3229",
+      "original_name": "Oprea Cristinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1900"
+      ],
+      "note": "DNA confirmă că Oprea Cristinel era ofițer de poliție judiciară la Secția Regională de Poliție Transporturi Iași, Biroul de Investigare a Fraudelor, și a fost condamnat definitiv prin decizia 3128/13.09.2010 la 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru trafic de influență. Nu a fost identificată o candidatură, apartenență de partid sau funcție electivă proprie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3230",
+      "original_name": "Osz-Strakator Lorant-Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2664"
+      ],
+      "note": "Comunicatul DNA confirmă că OSZ-STRAKATOR LORANT-FLORIAN era comisar la Garda Națională de Mediu, Comisariatul General, și a fost condamnat definitiv prin decizia penală 3200/22.09.2011 la 3 ani închisoare cu executare pentru două infracțiuni de luare de mită. Profilul folosea eticheta vagă fapte de corupție și avea descrierea trunchiată. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3231",
+      "original_name": "Otelea Neculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3414",
+        "https://static.luju.ro/files/2012/ianuarie_2012/29/SP_Sent.1657_decembrie_2011_dos_11270.1-1-2007.pdf"
+      ],
+      "note": "Sursele judiciare îl identifică oficial drept general (r) OȚELEA NECULAE, fost șef al Serviciului Logistic din SMFT în perioada 2001-2004. DNA confirmă condamnarea definitivă prin decizia 169/29.06.2012 la 4 ani cu suspendare sub supraveghere, termen de încercare 9 ani, pentru abuz în serviciu contra intereselor publice în formă calificată și continuată. Profilul omitea diacritica din nume și nu există dovadă de rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3232",
+      "original_name": "Palamariu Petru Pavel",
+      "current_name": "Palamariu Petru Pavel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4187",
+        "https://www.dna.ro/comunicat.xhtml?id=1448",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/brodina/",
+        "https://brodinasv.ro/wp-content/uploads/2026/01/Hotararea-NR.-3-privind-aprobarea-actualizarii-Planului-de-analiza-si-acoperire-a-riscurilor-pentru-anul-2026.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a agentului IGPF Suceava Petru-Pavel Palamariu la 5 luni cu suspendare condiționată, termen de încercare 2 ani și 5 luni, pentru două infracțiuni de neglijență în serviciu, nu generic fapte de corupție. Lista electorală 2020 îl indică drept candidat PNL la Consiliul Local Brodina, iar documentul oficial al comunei din 2026 confirmă aceeași identitate rară în structura SVSU locală. Nu a fost identificat un mandat validat, astfel profilul îl descrie doar ca fost candidat.",
+      "reviewed_snapshot_hash": "f15f5be577e87e973a5f42b43194e4555d0d6bdc4e3941c5863b2233d0cc37d1"
+    },
+    {
+      "profile_id": "RV-3233",
+      "original_name": "Pana Zamfir",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3225"
+      ],
+      "note": "DNA îl identifică oficial drept PANĂ ZAMFIR, comisar șef divizie la Garda Financiară, Secția Județeană Călărași. A fost condamnat definitiv prin decizia 1201/18.04.2012 la 2 ani închisoare în regim de detenție pentru luare de mită. Profilul omitea diacritica și folosea eticheta generică fapte de corupție. Nu a fost identificată o candidatură, apartenență de partid sau funcție electivă proprie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3234",
+      "original_name": "Panait Daniel Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://cnsipc.igsu.ro/ResourcesCNSIPC/CNSIPC/L_PERS/1730804074530.pdf"
+      ],
+      "note": "DNA îl identifică pe maiorul PANAIT DANIEL VALERIU drept șef al Serviciului prevenirea incendiilor din ISU Vlașca Giurgiu și confirmă condamnarea definitivă din 10.07.2014 la 3 ani și 4 luni închisoare cu executare pentru fals intelectual, fals material, uz de fals, abuz în serviciu și asociere pentru săvârșirea de infracțiuni. Profilul omitea asocierea. Listele profesionale IGSU confirmă ulterior PFA-ul său tehnic, nu un rol politic; nu a fost identificată o candidatură, apartenență de partid sau funcție electivă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3235",
+      "original_name": "Panduru Marius Alin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4016"
+      ],
+      "note": "DNA confirmă că PANDURU MARIUS ALIN era subcomisar și ofițer de poliție judiciară la IPJ Timiș, Serviciul de Investigare a Fraudelor, condamnat definitiv prin decizia 1161/03.04.2013 la 3 ani cu suspendare sub supraveghere, termen de încercare 6 ani, pentru luare de mită și trafic de influență. Profilul conținea o eroare de redactare în denumirea infracțiunii. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3236",
+      "original_name": "Panoiu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3651",
+        "https://adevarul.ro/stiri-locale/alba-iulia/alba-fostul-sef-al-politiei-miercurea-sibiului-1201716.html"
+      ],
+      "note": "DNA îl identifică oficial drept PĂNOIU MIHAI, ofițer de poliție judiciară și șef al Poliției orașului Miercurea Sibiului. Condamnarea definitivă nr. 131/29.10.2012 este de 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru trafic de influență. Profilul omitea diacritica din nume. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3237",
+      "original_name": "Paraschiva George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA îl identifică pe lt. col. (r.) PARASCHIVA GEORGE din ISU Vlașca Giurgiu și confirmă condamnarea definitivă din 10.07.2014 la 3 ani cu suspendare, termen de încercare 6 ani, pentru fals material, fals intelectual, uz de fals, abuz în serviciu și asociere pentru săvârșirea de infracțiuni. Profilul omitea asocierea și termenul de încercare. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3238",
+      "original_name": "Parvu Florea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1897"
+      ],
+      "note": "DNA îl identifică oficial drept PÂRVU FLOREA, subinspector la Inspectoratul Județean al Poliției de Frontieră Dolj, condamnat definitiv prin decizia 1017/17.03.2010 la 6 luni cu suspendare condiționată, termen de încercare 2 ani și 6 luni, pentru primire de foloase necuvenite. Profilul omitea diacritica din nume. Nu a fost identificat un rol politic propriu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3239",
+      "original_name": "Pascu Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2394"
+      ],
+      "note": "DNA confirmă că Pascu Cosmin era comisar la Garda Financiară, Secția Covasna, și a fost condamnat definitiv prin decizia 1950/12.05.2011 la 5 ani închisoare cu executare pentru luare de mită și primire de foloase necuvenite. Nu a fost identificată o candidatură, apartenență de partid sau funcție electivă proprie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3240",
+      "original_name": "Paun Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-07",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3700",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/titesti/"
+      ],
+      "note": "DNA îl identifică pe maior dr. (r.) PĂUN GHEORGHE, fost medic militar șef la Centrul Militar Județean Argeș, condamnat definitiv prin decizia 3778/19.11.2012 la 4 ani în regim de detenție pentru luare de mită și participație improprie la fals material și fals intelectual, toate în formă continuată. În județ există omonimi publici, inclusiv un candidat PNL la Consiliul Local Țițești și academicianul Gheorghe Păun, dar nicio sursă nu îi leagă de medicul militar. Nu este demonstrat un rol politic al inculpatului.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
