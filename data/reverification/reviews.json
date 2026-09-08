@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-09-08",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -50323,6 +50323,334 @@
         "https://www.emaramures.ro/directorul-comercial-al-remin-baia-mare-in-arest-preventiv-de-aproape-6-luni/"
       ],
       "note": "DNA confirmă condamnarea definitivă a lui Răzvan Cosmin Roman, fost director comercial REMIN Baia Mare, la 2 ani și 8 luni cu executare pentru luare de mită în formă continuată. Pagina oficială a CJ Maramureș îl încadrează ulterior la funcționari publici de execuție; nu există rol politic verificabil, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3281",
+      "original_name": "Romanescu Eugen",
+      "current_name": "Eugen Romanescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://cugetliber.ro/stiri-politica-administratie-conservatorii-constanteni-au-pornit-la-vanatoare-prin-judet-80249",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/murfatlar/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 12/24.01.2014 la 8 luni cu suspendare pentru instigare la abuz în serviciu contra intereselor persoanelor. Sursele politice identifică aceeași persoană, fost șef al Garnizoanei, ca președinte PC Murfatlar și candidat PSD la Consiliul Local Murfatlar în 2020; numele, partidul, rolul și infracțiunea au fost corectate.",
+      "reviewed_snapshot_hash": "38cc30f010cf3fe08499589212cc8d0d47943b3c5a7c6cbeec55f82ddddf9496"
+    },
+    {
+      "profile_id": "RV-3282",
+      "original_name": "Roseti Ianas",
+      "current_name": "Ianăș Roșeți",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5549",
+        "https://www.cjcs.ro/data_files/activitate_sedinte/488.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/teregova/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 2 ani și 6 luni cu executare pentru luare de mită. Documentul CJ confirmă funcția lui Roșeți Ianăș, iar lista electorală îl identifică drept candidat PMP la Consiliul Local Teregova în 2020; numele, partidul, rolul politic și infracțiunea au fost corectate.",
+      "reviewed_snapshot_hash": "5da6723356d5a65f6c3e6d0b74c4b9a740ff01e09fe4d6084c13dc3c509e6e09"
+    },
+    {
+      "profile_id": "RV-3283",
+      "original_name": "Rosoaga Lucian-Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4520",
+        "https://www.dna.ro/comunicat.xhtml?id=836",
+        "https://jurnalul.ro/stiri/observator/bani-publici-pentru-srl-ul-personal-120304.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Lucian-Gheorghe Roșoagă, fost contabil-șef al Corpului Gardienilor Publici Vâlcea, la 3 ani și 8 luni cu suspendare sub supraveghere pentru abuz în serviciu. Nu există funcție, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3284",
+      "original_name": "Rusu Dragos Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2358"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Dragoș-Cătălin Rusu, subcomisar de poliție în cadrul DGA, la 3 ani de închisoare în regim de detenție pentru luare de mită. Nu a fost identificată o funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3285",
+      "original_name": "Samarghitan Gheorghe",
+      "current_name": "Gheorghe Sămărghițan",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3702",
+        "https://www.cjmures.ro/Hotariri/Hot2008/hot132_2008.htm",
+        "https://romanialibera.ro/special/samarghitan-exclus-din-pd-pentru-delict-de-opinie-106550/"
+      ],
+      "note": "DNA confirmă definitiv condamnarea la 1 an și 10 luni cu suspendare pentru luare de mită, fals intelectual și primire de foloase necuvenite. CJ Mureș confirmă că Gheorghe Sămărghițan a fost consilier județean, iar presa contemporană confirmă apartenența sa la PD Mureș; profilul este păstrat și corectat.",
+      "reviewed_snapshot_hash": "26311be3362636081b37b8df4668c68fb860712f14922831d992683671e5d69f"
+    },
+    {
+      "profile_id": "RV-3286",
+      "original_name": "Samoila Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3229",
+        "https://www.ziaruldevrancea.ro/actualitatea/national/37240-cedo-a-dispus-rejudecarea-a-trei-fosti-politisti-condamnati-pentru-coruptie.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a ofițerului de poliție Cristian Samoilă la 1.105 zile de închisoare în regim de detenție pentru luare de mită și abuz în serviciu, după rejudecarea cauzei. Nu există o funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3287",
+      "original_name": "Sandu Nelu Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5545",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/ce-spune-oficial-dna-cine-l-a-scos-din-arest-pe-inspectorul-vamal-incatusat-pentru-mita-61558-366771.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a inspectorului vamal Nelu Valentin Sandu la 4 ani de închisoare pentru două infracțiuni de luare de mită; câmpul vechi indica eronat complicitate la dare de mită. Nu există rol politic verificabil, astfel că profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3288",
+      "original_name": "Sandu Radulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3271",
+        "https://www.dna.ro/comunicat.xhtml?id=633"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a inspectorului vamal Sandu Radulian la 3 luni de închisoare cu suspendare condiționată pentru luare de mită. Nu a fost identificată o funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3289",
+      "original_name": "Sandulescu Carmen Narcisa",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://osim.ro/documents/Rapoarte_si_studii/Raport-Anual-2005.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Carmen Narcisa Săndulescu, șef al Biroului Resurse Umane OSIM, la 2 ani de închisoare cu suspendare sub supraveghere pentru abuz în serviciu, delapidare, fals intelectual și uz de fals. Nu există funcție aleasă, candidatură ori afiliere politică verificabilă; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3290",
+      "original_name": "Sarb Gheorghe",
+      "current_name": "Gheorghe Sârb",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4744",
+        "https://hotnews.ro/numele-parlamentarilor-din-mandatul-2004-2008-836448",
+        "https://adevarul.ro/politica/doi-deputati-psd-la-ada-725158.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 3 ani cu suspendare pentru luare de mită și divulgarea informațiilor nepublice. Sursele electorale și politice confirmă că Gheorghe Sârb a fost deputat de Bihor ales pe lista PSD, apoi trecut la PD/PD-L, precum și fost prefect; profilul este păstrat și corectat integral.",
+      "reviewed_snapshot_hash": "f69bdd6e447b1ca34fca5b23f9e02642b6f5be458e1982b02b3a9e11d15cd61f"
+    },
+    {
+      "profile_id": "RV-3291",
+      "original_name": "Sava Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2998",
+        "https://ugr.ro/asociatii-locale",
+        "https://comunajijila.ro/wp-content/uploads/2024/05/PV-9_08.05.2024-ramanere-definitiva-candidaturi-1.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a inginerului-șef OCPI Călărași Gheorghe Sava la 2 ani și 6 luni cu suspendare. Sursele profesionale îl plasează în cadastru la Călărași; candidații omonimi identificați electoral au alte județe și ocupații, fără o legătură demonstrabilă. Profilul este eliminat pentru a evita o atribuire politică bazată pe coincidență de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3292",
+      "original_name": "Sbarcea Mihaela Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2968",
+        "https://www.dna.ro/comunicat.xhtml?id=458"
+      ],
+      "note": "DNA arată că Mihaela Daniela Sbârcea, director în cadrul SSPR, a fost condamnată definitiv la 3 ani cu suspendare pentru abuz în serviciu; după rejudecare, condamnarea și pedeapsa au fost reconfirmate definitiv prin decizia din 27 februarie 2019. Nu există o funcție aleasă, candidatură sau afiliere politică verificabilă, iar profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3293",
+      "original_name": "Scripcariu Vasile-Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4030",
+        "https://v3.monitorulsv.ro/Local/2013-04-16/Condamnarea-fostului-director-adjunct-al-Directiei-Politiei-de-Frontiera-Radauti-a-ramas-in-vigoare",
+        "https://v3.monitorulsv.ro/Local/2017-01-11/Nici-o-zi-de-inchisoare-pentru-politistii-de-frontiera-si-vamesii-din-lotul-Cuzencu"
+      ],
+      "note": "DNA confirmă condamnarea definitivă din 2013 a agentului de frontieră Vasile-Iulian Scripcariu la 6 luni cu suspendare, iar presa judiciară consemnează o altă condamnare cu suspendare în 2017, absentă din profilul vechi. Nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3294",
+      "original_name": "Scurtu Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://osim.ro/wp-content/uploads/2018/01/Raport-Anual-2002.pdf"
+      ],
+      "note": "Hotărârea definitivă DNA îl condamnă pe Viorel Scurtu, șef al Serviciului administrativ OSIM, la 1 an și 6 luni pentru abuz în serviciu; profilul vechi îi atribuia eronat infracțiunile altor inculpați și sugera executarea fără a preciza suspendarea. Nu există rol politic verificabil, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3295",
+      "original_name": "Secosan Nicolae Sebastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4352",
+        "https://www.mediafax.ro/social/seful-comisariatului-pentru-protectia-consumatorilor-bihor-eliberat-sub-control-judiciar-9339331"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Nicolae Sebastian Secoșan, comisar-șef al CJPC Bihor, la 3 ani de închisoare în regim de detenție pentru luare de mită în formă continuată. Nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3296",
+      "original_name": "Seica Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4911",
+        "https://www.dna.ro/comunicat.xhtml?id=847"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Constantin Seica, fost contabil-șef al Ocolului Silvic Remeți, la 4 ani de închisoare pentru delapidare în formă continuată. Nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3297",
+      "original_name": "Seicaru Florica",
+      "current_name": "Florica Șeicaru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3342",
+        "https://www.cicnet.ro/content/consilierii-judeteni-1992-1996"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 10 luni cu suspendare pentru folosirea de documente false în vederea obținerii de fonduri PHARE. Arhiva oficială a CJ Ialomița confirmă că Florica Șeicaru a fost consilier județean FSN în mandatul 1992–1996; profilul este păstrat și corectat.",
+      "reviewed_snapshot_hash": "f6b8af4cda45a4d7865d6524253a7842896d2aa2e9c1b3e62943fc856ca6e731"
+    },
+    {
+      "profile_id": "RV-3298",
+      "original_name": "Serban Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://jurnalul.ro/stiri/observator/sectia-5-pusa-in-libertate-65747.html"
+      ],
+      "note": "DNA și presa contemporană confirmă condamnarea lui Gheorghe Șerban, fost șef al Serviciului judiciar al Secției 5 Poliție București, la 1 an și 6 luni cu suspendare. Candidații omonimi apar în alte localități și nu pot fi legați documentar de polițist; fără rol politic verificabil, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3299",
+      "original_name": "Serban-Cernat Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1936"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a ofițerului de poliție judiciară Petru Șerban-Cernat la 3 ani cu suspendare sub supraveghere pentru instigare la dare de mită. Nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
       "reviewed_snapshot_hash": null
     }
   ]

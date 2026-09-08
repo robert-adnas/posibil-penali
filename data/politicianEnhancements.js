@@ -38103,142 +38103,94 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Romanescu Eugen",
-    "party": "Independent",
-    "position": "Ofiter în Statul major al fortelor terestre (Ministerul Apararii Nationale)",
+    "name": "Eugen Romanescu",
+    "party": "PSD",
+    "position": "Candidat PSD la Consiliul Local Murfatlar (2020); fost președinte PC Murfatlar",
     "position_type": "other",
     "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Statul major al fortelor terestre (Ministerul Apararii Nationale) în județul Constanta."
+      "county": "Constanța",
+      "basis": "political_base",
+      "locality": "Murfatlar",
+      "note": "Fost președinte al organizației PC Murfatlar și candidat PSD la Consiliul Local Murfatlar în 2020."
     },
-    "crime": "abuz în serviciu",
+    "crime": "instigare la abuz în serviciu contra intereselor persoanelor",
     "sentence": "8 luni închisoare cu suspendare",
     "sentence_years": 0.67,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Romanescu Eugen a fost condamnat definitiv la 24 ianuarie 2014 la 8 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Ofiter în Statul major al fortelor terestre (Ministerul Apararii Nationale). Infracțiunea reținută: abuz în serviciu.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție l-a condamnat definitiv, prin decizia penală nr. 12 din 24 ianuarie 2014, pe colonelul în rezervă Eugen Romanescu, fost ofițer în Statul Major al Forțelor Terestre, la 8 luni de închisoare cu suspendare pentru instigare la abuz în serviciu contra intereselor persoanelor, în dosarul fraudării concursului ISU Dobrogea. Ulterior carierei militare, Romanescu a condus organizația PC Murfatlar și a candidat în 2020 la Consiliul Local Murfatlar din partea PSD.",
+    "verified_at": "2026-09-08",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "description": "Decizia definitivă, pedeapsa și infracțiunea reținută."
       },
       {
-        "label": "România Curată",
+        "label": "Cuget Liber — conducerea PC Murfatlar",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Romanescu Eugen indică județul Constanta, funcția \"Ofiter\", instituția \"Statul major al fortelor terestre (Ministerul Apararii Nationale)\", decizia 12 și condamnarea din 24/01/2014."
+        "url": "https://cugetliber.ro/stiri-politica-administratie-conservatorii-constanteni-au-pornit-la-vanatoare-prin-judet-80249",
+        "description": "Îl identifică pe fostul șef al Garnizoanei Eugen Romanescu drept președinte al organizației PC Murfatlar."
+      },
+      {
+        "label": "Lista candidaților locali Murfatlar 2020",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/murfatlar/",
+        "description": "Îl listează pe Eugen Romanescu drept candidat PSD la Consiliul Local Murfatlar."
       }
     ]
   },
   {
-    "name": "Roseti Ianas",
-    "party": "Independent",
-    "position": "Director executiv în Consiliu judetean",
+    "name": "Ianăș Roșeți",
+    "party": "PMP",
+    "position": "Candidat PMP la Consiliul Local Teregova (2020); fost director DADPP Caraș-Severin",
     "position_type": "other",
     "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Consiliu judetean în județul Caras-Severin."
+      "county": "Caraș-Severin",
+      "basis": "political_base",
+      "locality": "Teregova",
+      "note": "Candidat PMP la Consiliul Local Teregova în 2020."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani și 6 luni închisoare",
+    "crime": "luare de mită",
+    "sentence": "2 ani și 6 luni închisoare cu executare",
     "sentence_years": 2.5,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 noiembrie 2014. Condamnă pe inculpatul ROȘEȚI IANĂȘ, director executiv al Direcției de Administrare a Domeniului Public și Privat al Județului Caraș – Severin, la data faptelor, la o pedeapsă de 2 ani și 6 luni închisoare și interzicerea, atât pe perioada executării pedepsei, cât și pe o perioadă de 3 ani după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie, ori de a desfășura o activitate de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Timișoara a menținut definitiv, la 6 noiembrie 2014, condamnarea lui Ianăș Roșeți, fost director executiv al Direcției de Administrare a Domeniului Public și Privat a județului Caraș-Severin, la 2 ani și 6 luni de închisoare cu executare pentru luare de mită. Dosarul privea 36.000 de lei primiți pentru atribuirea preferențială a șase contracte de întreținere a drumurilor. În 2020, Roșeți a candidat din partea PMP la Consiliul Local Teregova.",
+    "verified_at": "2026-09-08",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5549"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=5549",
+        "description": "Decizia definitivă, pedeapsa și infracțiunea de luare de mită."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Roseti Ianas indică județul Caras-Severin, funcția \"Director executiv\", instituția \"Consiliu judetean\", decizia 920 și condamnarea din 06/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Rosoaga Lucian-Gheorghe",
-    "party": "Independent",
-    "position": "Contabil sef în Corpul gardienilor publici (Consiliu Judetean)",
-    "position_type": "other",
-    "geography": {
-      "county": "Valcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Contabil sef în Corpul gardienilor publici (Consiliu Judetean) în județul Valcea."
-    },
-    "crime": "abuz în serviciu",
-    "sentence": "3 ani și 8 luni închisoare cu suspendare",
-    "sentence_years": 3.67,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Rosoaga Lucian-Gheorghe a fost condamnat definitiv la 3 decembrie 2013 la 3 ani și 8 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Contabil sef în Corpul gardienilor publici (Consiliu Judetean). Infracțiunea reținută: abuz în serviciu.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Consiliul Județean Caraș-Severin",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4520"
+        "url": "https://www.cjcs.ro/data_files/activitate_sedinte/488.pdf",
+        "description": "Documentul oficial privind numirea lui Roșeți Ianăș ca director executiv al DADPP Caraș-Severin."
       },
       {
-        "label": "România Curată",
+        "label": "Lista candidaților locali Teregova 2020",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rosoaga Lucian-Gheorghe indică județul Valcea, funcția \"Contabil sef\", instituția \"Corpul gardienilor publici (Consiliu Judetean)\", decizia 810 și condamnarea din 03/12/2013."
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/teregova/",
+        "description": "Îl listează pe Ianăș Roșeți drept candidat PMP la Consiliul Local Teregova."
       }
     ]
   },
   {
-    "name": "Rusu Dragos Catalin",
-    "party": "Independent",
-    "position": "Subcomisar de politie în Directia generala anticoruptie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Subcomisar de politie în Directia generala anticoruptie (MAI) în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 aprilie 2011. Condamnarea inculpatului RUSU DRAGOȘ – CĂTĂLIN, subcomisar de poliție în cadrul M.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2358"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rusu Dragos Catalin indică județul Bucuresti, funcția \"Subcomisar de politie\", instituția \"Directia generala anticoruptie (MAI)\", decizia 1681 și condamnarea din 27/04/2011."
-      }
-    ]
-  },
-  {
-    "name": "Samarghitan Gheorghe",
-    "party": "Independent",
-    "position": "Sef serviciu în Casa judeteana de pensii (MMFPS)",
-    "position_type": "other",
+    "name": "Gheorghe Sămărghițan",
+    "party": "PD",
+    "position": "Fost consilier județean PD Mureș; fost șef al Serviciului de Expertiză a Capacității de Muncă",
+    "position_type": "local_official",
     "geography": {
       "county": "Mures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Casa judeteana de pensii (MMFPS) în județul Mures."
+      "basis": "political_base",
+      "note": "A fost consilier județean și membru al organizației PD Mureș."
     },
     "crime": "luare de mită în formă continuată, fals intelectual în legătură directă cu infracțiunile de corupție în formă continuată și primire de foloase necuvenite",
     "sentence": "1 an și 10 luni închisoare cu suspendare",
@@ -38246,383 +38198,77 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 noiembrie 2012. Condamnarea inculpatului SĂMĂRGHIȚAN GHEORGHE, șef al Serviciului de Expertiză a Capacității de Muncă din cadrul Casei Județene de Pensii Mureș, la pedeapsa de 1 an și 10 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 10 luni, pentru săvârșirea următoarelor infracțiuni: luare de mită în formă continuată, fals intelectual în legătură directă cu infracțiunile de corupție în formă continuată și primire de foloase necuvenite.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție a menținut definitiv, la 19 noiembrie 2012, condamnarea lui Gheorghe Sămărghițan la 1 an și 10 luni de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani și 10 luni, pentru luare de mită în formă continuată, fals intelectual și primire de foloase necuvenite. La data faptelor conducea Serviciul de Expertiză a Capacității de Muncă din cadrul Casei Județene de Pensii Mureș. Anterior a fost consilier județean și membru PD Mureș, fiind exclus din partid în 2007 și nereales în 2008.",
+    "verified_at": "2026-09-08",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3702"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=3702",
+        "description": "Confirmă condamnarea definitivă, pedeapsa, infracțiunile și funcția administrativă."
       },
       {
-        "label": "România Curată",
+        "label": "Consiliul Județean Mureș",
+        "kind": "official",
+        "url": "https://www.cjmures.ro/Hotariri/Hot2008/hot132_2008.htm",
+        "description": "Documentul oficial precizează că Gheorghe Sămărghițan fusese consilier județean și nu a fost reales în 2008."
+      },
+      {
+        "label": "România Liberă",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Samarghitan Gheorghe indică județul Mures, funcția \"Sef serviciu\", instituția \"Casa judeteana de pensii (MMFPS)\", decizia 3793 și condamnarea din 19/11/2012."
+        "url": "https://romanialibera.ro/special/samarghitan-exclus-din-pd-pentru-delict-de-opinie-106550/",
+        "description": "Relatează excluderea consilierului județean Gheorghe Sămărghițan din PD Mureș în 2007."
       }
     ]
   },
   {
-    "name": "Samoila Cristian",
-    "party": "Independent",
-    "position": "Ofiter politie în Politie (MAI)",
-    "position_type": "other",
+    "name": "Gheorghe Sârb",
+    "party": "PDL",
+    "position": "Fost deputat de Bihor (2004–2008); fost prefect al județului Bihor",
+    "position_type": "mp",
     "geography": {
       "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie în Politie (MAI) în județul Bihor."
+      "basis": "political_base",
+      "note": "A fost ales deputat de Bihor pe lista PSD în 2004 și a trecut ulterior la PD/PD-L."
     },
-    "crime": "luare de mită și abuz în serviciu contra intereselor publice",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 mai 2012. Condamnarea inculpatului SAMOILĂ CRISTIAN, ofițer de poliție, la pedeapsa de 1.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3229"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Samoila Cristian indică județul Bihor, funcția \"Ofiter politie\", instituția \"Politie (MAI)\", decizia 1418 și condamnarea din 03/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Sandu Nelu Valentin",
-    "party": "Independent",
-    "position": "Inspector vamal în Birou vamal (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector vamal în Birou vamal (MAI) în județul Constanta."
-    },
-    "crime": "complicitate la dare de mită",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 4 noiembrie 2014. Condamnă pe inculpatul SANDU NELU VALENTIN, inspector vamal în cadrul Biroului Vamal Constanța Sud, la data faptelor, la o pedeapsă de 4 ani închisoare și interzicerea, atât pe perioada executării pedepsei, cât și pe o perioadă de 5 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie, ori de a desfășura o activitate de natura aceleia de care s-a folosit, pentru săvârșirea în concurs a două infracțiuni de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5545"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sandu Nelu Valentin indică județul Constanta, funcția \"Inspector vamal\", instituția \"Birou vamal (MAI)\", decizia 2927 și condamnarea din 04/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Sandu Radulian",
-    "party": "Independent",
-    "position": "Inspector vamal în Autoritatea nationala a vamilor",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector vamal în Autoritatea nationala a vamilor în județul Dolj."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 luni închisoare cu suspendare",
-    "sentence_years": 0.25,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 mai 2012. Condamnarea inculpatului SANDU RADULIAN, inspector vamal în cadrul Direcției Regionale Vamale Craiova – Serviciul de Supraveghere și control – Compartimentul Echipe Mobile, la pedeapsa de 3 luni închisoare cu suspendare condiționată, pe un termen de încercare de 2 ani și 3 luni, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3271"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sandu Radulian indică județul Dolj, funcția \"Inspector vamal\", instituția \"Autoritatea nationala a vamilor\", decizia 1606 și condamnarea din 16/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Sandulescu Carmen Narcisa",
-    "party": "Independent",
-    "position": "Sef birou în Oficiul de stat pentru inventii si marci",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef birou în Oficiul de stat pentru inventii si marci în județul Bucuresti."
-    },
-    "crime": "fals intelectual; abuz în serviciu; delapidare; uz de fals",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 5 iulie 2013. Condamnarea inculpatului SCURTU VIOREL, șef Serviciu administrativ în cadrul O.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4196"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sandulescu Carmen Narcisa indică județul Bucuresti, funcția \"Sef birou\", instituția \"Oficiul de stat pentru inventii si marci\", decizia 1304 și condamnarea din 05/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Sarb Gheorghe",
-    "party": "Independent",
-    "position": "Secretar general în Ministerul sanatatii",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Secretar general în Ministerul sanatatii în județul Arges."
-    },
-    "crime": ": luare de mită și divulgarea informațiilor secrete de serviciu sau nepublice",
+    "crime": "luare de mită și divulgarea informațiilor secrete de serviciu sau nepublice",
     "sentence": "3 ani închisoare cu suspendare",
     "sentence_years": 3,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 13 martie 2014. Condamnă pe inculpatul SÂRB GHEORGHE, fost secretar general în cadrul Ministerului Sănătății, la o pedeapsă de 3 ani închisoare cu suspendarea executării pedepsei sub supraveghere pe durata unui termen de încercare de 5 ani și interzicerea, pe o perioadă de 2 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în orice alte funcții publice, de a ocupa o funcție care implică exercițiul autorității de stat și de a ocupa funcția, de a exercita profesia sau meseria ori de a desfășura activitatea de care s-a folosit pentru săvârșirea infracțiunilor de: luare de mită și divulgarea informațiilor secrete de serviciu sau nepublice.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție a dispus definitiv, la 13 martie 2014, condamnarea lui Gheorghe Sârb la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani, pentru luare de mită și divulgarea informațiilor secrete de serviciu sau nepublice. La data faptelor era secretar general al Ministerului Sănătății. Sârb fusese ales deputat de Bihor pe lista PSD în 2004 și a trecut în 2006 la PD, devenit ulterior PD-L; anterior fusese consilier local și prefect al județului Bihor.",
+    "verified_at": "2026-09-08",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4744"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4744",
+        "description": "Confirmă hotărârea definitivă, pedeapsa, infracțiunile și funcția deținută la data faptelor."
       },
       {
-        "label": "România Curată",
+        "label": "HotNews — parlamentarii mandatului 2004–2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sarb Gheorghe indică județul Arges, funcția \"Secretar general\", instituția \"Ministerul sanatatii\", decizia 117 și condamnarea din 13/03/2014."
+        "url": "https://hotnews.ro/numele-parlamentarilor-din-mandatul-2004-2008-836448",
+        "description": "Îl listează pe Gheorghe Sârb drept deputat PSD ales în circumscripția Bihor."
+      },
+      {
+        "label": "Adevărul",
+        "kind": "press",
+        "url": "https://adevarul.ro/politica/doi-deputati-psd-la-ada-725158.html",
+        "description": "Confirmă trecerea deputatului Gheorghe Sârb, fost prefect și fost lider PSD Bihor, la PD în 2006."
       }
     ]
   },
   {
-    "name": "Sava Gheorghe",
-    "party": "Independent",
-    "position": "Inginer sef în Oficiu de cadastru si publicitate imobiliara (MDRAP)",
-    "position_type": "other",
+    "name": "Florica Șeicaru",
+    "party": "FSN",
+    "position": "Fost consilier județean FSN Ialomița (1992–1996); fost șef al Serviciului financiar al CJ Ialomița",
+    "position_type": "local_official",
     "geography": {
-      "county": "Calarasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inginer sef în Oficiu de cadastru si publicitate imobiliara (MDRAP) în județul Calarasi."
-    },
-    "crime": "conflict de interese și a infracțiunii prevăzute în art",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 februarie 2012. Condamnarea inculpatului SAVA GHEORGHE, inginer șef la Oficiul de Cadastru și Publicitate Imobiliară Călărași (funcție în baza căreia a condus activitatea Serviciului de cadastru), la pedeapsa de 2 ani și 6 luni închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunilor de conflict de interese și a infracțiunii prevăzute în art.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2998"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sava Gheorghe indică județul Calarasi, funcția \"Inginer sef\", instituția \"Oficiu de cadastru si publicitate imobiliara (MDRAP)\", decizia 627 și condamnarea din 29/02/2012."
-      }
-    ]
-  },
-  {
-    "name": "Sbarcea Mihaela Daniela",
-    "party": "Independent",
-    "position": "Director în Guvernul Romaniei",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Guvernul Romaniei în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 februarie 2012. Condamnarea inculpatei SBÂRCEA MIHAELA DANIELA, director al Direcției buget-finanțe, programe și resurse umane din cadrul Secretariatului de Stat pentru Problemele Revoluționarilor din decembrie 1989 (SSPR), la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunii de abuz în serviciu contra intereselor publice, în formă calificată, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2968"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Sbarcea Mihaela Daniela indică județul Bucuresti, funcția \"Director\", instituția \"Guvernul Romaniei\", decizia 274 și condamnarea din 07/02/2012."
-      }
-    ]
-  },
-  {
-    "name": "Scripcariu Vasile-Iulian",
-    "party": "Independent",
-    "position": "Agent politie frontiera în Politia de frontiera (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Suceava",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie frontiera în Politia de frontiera (MAI) în județul Suceava."
-    },
-    "crime": "folosirea în orice mod de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații",
-    "sentence": "6 luni închisoare cu suspendare",
-    "sentence_years": 0.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 15 aprilie 2013. Condamnarea inculpatului SCRIPCARIU VASILE-IULIAN, agent la Sectorul Poliției de Frontieră Siret, la pedeapsa de 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 2 ani și 6 luni, pentru săvârșirea infracțiunii de folosirea în orice mod de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4030"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Scripcariu Vasile-Iulian indică județul Suceava, funcția \"Agent politie frontiera\", instituția \"Politia de frontiera (MAI)\", decizia 1300 și condamnarea din 15/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Scurtu Viorel",
-    "party": "Independent",
-    "position": "Sef serviciu în Oficiul de stat pentru inventii si marci",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Oficiul de stat pentru inventii si marci în județul Bucuresti."
-    },
-    "crime": "delapidare, fals intelectual și uz de fals",
-    "sentence": "1 an și 6 luni închisoare",
-    "sentence_years": 1.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 5 iulie 2013. Condamnarea inculpatului SCURTU VIOREL, șef Serviciu administrativ în cadrul O.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4196"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Scurtu Viorel indică județul Bucuresti, funcția \"Sef serviciu\", instituția \"Oficiul de stat pentru inventii si marci\", decizia 1304 și condamnarea din 05/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Secosan Nicolae Sebastian",
-    "party": "Independent",
-    "position": "Comisar sef politie în Autoritatea nationala pentru protectia consumatorilor (Ministerul Economiei)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar sef politie în Autoritatea nationala pentru protectia consumatorilor (Ministerul Economiei) în județul Bihor."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 septembrie 2013. Condamnarea inculpatului SECOȘAN NICOLAE SEBASTIAN, comisar șef la A.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4352"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Secosan Nicolae Sebastian indică județul Bihor, funcția \"Comisar sef politie\", instituția \"Autoritatea nationala pentru protectia consumatorilor (Ministerul Economiei)\", decizia 2817 și condamnarea din 23/09/2013."
-      }
-    ]
-  },
-  {
-    "name": "Seica Constantin",
-    "party": "Independent",
-    "position": "Contabil sef în Ocolul silvic (MMSC)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Contabil sef în Ocolul silvic (MMSC) în județul Bihor."
-    },
-    "crime": "delapidare, în formă continuată",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 15 mai 2014. Condamnă pe inculpatul SEICA CONSTANTIN, fost contabil – șef al Ocolului Silvic Remeți, jud.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4911"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Seica Constantin indică județul Bihor, funcția \"Contabil sef\", instituția \"Ocolul silvic (MMSC)\", decizia 109 și condamnarea din 15/05/2014."
-      }
-    ]
-  },
-  {
-    "name": "Seicaru Florica",
-    "party": "Independent",
-    "position": "Sef serviciu în Consiliu judetean",
-    "position_type": "other",
-    "geography": {
-      "county": "Ialomita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Consiliu judetean în județul Ialomita."
+      "county": "Ialomița",
+      "basis": "political_base",
+      "note": "A fost consilier județean FSN în Ialomița în mandatul 1992–1996."
     },
     "crime": "folosire de documente false având ca rezultat obținerea pe nedrept de fonduri PHARE",
     "sentence": "10 luni închisoare cu suspendare",
@@ -38630,83 +38276,20 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Seicaru Florica a fost condamnat definitiv la 6 iunie 2012 la 10 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Sef serviciu în Consiliu judetean. Infracțiunea reținută: folosire de documente false având ca rezultat obținerea pe nedrept de fonduri PHARE.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel București a condamnat-o definitiv, la 6 iunie 2012, pe Florica Șeicaru la 10 luni de închisoare cu suspendare condiționată, cu termen de încercare de 2 ani și 10 luni, pentru folosirea de documente false care a avut ca rezultat obținerea pe nedrept de fonduri PHARE. La data faptelor era șef al Serviciului financiar al Consiliului Județean Ialomița. Arhiva oficială a CJ Ialomița o consemnează anterior drept consilier județean FSN în mandatul 1992–1996.",
+    "verified_at": "2026-09-08",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3342"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=3342",
+        "description": "Confirmă condamnarea definitivă, pedeapsa, infracțiunea și funcția administrativă deținută la data faptelor."
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Seicaru Florica indică județul Ialomita, funcția \"Sef serviciu\", instituția \"Consiliu judetean\", decizia 1122 și condamnarea din 06/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Serban Gheorghe",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită (două fapte), asociere pentru săvârșirea de infracțiuni, favorizarea infractorului și complicitate la furt calificat",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului SERBAN GHEORGHE, polițist la Secția 5 București, la pedeapsa de 1 an și 6 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 6 luni, pentru săvârșirea infracțiunilor de luare de mită (două fapte), asociere pentru săvârșirea de infracțiuni, favorizarea infractorului și complicitate la furt calificat.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Consiliul Județean Ialomița",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Serban Gheorghe indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Serban-Cernat Petru",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Brasov."
-    },
-    "crime": "instigare la dare de mită (instigare neurmată de executare)",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 8 octombrie 2010. Condamnarea inculpatului ȘERBAN-CERNAT PETRU, ofițer de poliție judiciară la Inspectoratul de Poliție al Județului Brașov - Serviciul Poliției Rutiere, la 3 ani închisoare cu suspendarea executării pedepsei sub supraveghere pe un termen de încercare de 5 ani pentru comiterea infracțiunii de instigare la dare de mită (instigare neurmată de executare); Condamnarea inculpatului SIMIUC ROMICĂ la 2 ani închisoare cu suspendarea executării pedepsei sub supraveghere pe un termen de încercare de 5 ani pentru comiterea infracțiunii de conducere pe drumurile publice a unui autovehicul fără a poseda permis de conducere, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1936"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Serban-Cernat Petru indică județul Brasov, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 3516 și condamnarea din 08/10/2010."
+        "url": "https://www.cicnet.ro/content/consilierii-judeteni-1992-1996",
+        "description": "Arhiva oficială o listează pe Florica Șeicaru drept consilier județean FSN în mandatul 1992–1996."
       }
     ]
   },
