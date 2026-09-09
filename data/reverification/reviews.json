@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-09-09",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -50652,6 +50652,529 @@
       ],
       "note": "DNA confirmă condamnarea definitivă a ofițerului de poliție judiciară Petru Șerban-Cernat la 3 ani cu suspendare sub supraveghere pentru instigare la dare de mită. Nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul este în afara domeniului politic și este eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3300",
+      "original_name": "Sfarloaga Valerian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2827",
+        "https://www.dna.ro/comunicat.xhtml?id=1290",
+        "https://www.observatorulph.ro/eveniment/61041-fostul-director-al-pip-a-iesit-din-puscarie-dupa-ce-a-scris-carti-una-a-fost-coordonata-de-profesorul-boaru"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Valerian Sfârloagă, fost director al Ploiești Industrial Parc SA, la 5 ani de închisoare pentru abuz în serviciu, instigare la fals intelectual și uz de fals. Presa ulterioară îl identifică drept Nica Valerian (fost Sfârloagă), dar nu există funcție aleasă, candidatură sau afiliere politică verificabilă; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3301",
+      "original_name": "Simion Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2269",
+        "https://www.bibliotecadeva.ro/periodice/glasulhunedoarei/2010/07/glasul_hunedoarei_2010_07_203.pdf",
+        "https://romanialibera.ro/special/directorul-simion-chemat-la-audieri-la-dna-118231/"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Ion Simion, director executiv al DADR Hunedoara, la 3 ani cu suspendare pentru abuz în serviciu calificat și fals intelectual. Sursele locale și naționale îl descriu exclusiv ca director/funcționar public, fără mandat ales, candidatură sau afiliere politică verificabilă; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3302",
+      "original_name": "Simion Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4030",
+        "https://m.monitorulsv.ro/Local/2009-12-09/Fostul-director-adjunct-al-Directiei-Politiei-de-Frontiera-turnat-la-DNA-de-un-subaltern",
+        "https://radauti.info.ro/2011/09/25/institutii-publice/"
+      ],
+      "note": "DNA confirmă definitiv 10 luni cu suspendare pentru complicitate la abuz în serviciu. Câmpul crime atribuia eronat lui Marcel Simion infracțiunea de folosire/divulgare a informațiilor nepublice, care aparținea altui inculpat. Sursele îl identifică numai ca ofițer și fost director adjunct al Poliției de Frontieră Rădăuți, fără mandat, candidatură ori partid verificabil; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3303",
+      "original_name": "Simionescu Florentiu Nutu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4691",
+        "https://www.ebihoreanul.ro/stiri/protectorul-patronului-trei-g-la-garda-financiara-condamnat-cu-suspendare-105321.html",
+        "https://www.ebihoreanul.ro/stiri/protectorul-patronului-trei-g-va-face-inchisoare-cu-executare--113115.html",
+        "https://www.jurisprudenta.com/dosare-procese/2016/2323q111q2016-111/"
+      ],
+      "note": "Condamnarea definitivă la 3 ani cu executare pentru trafic de influență este confirmată de comunicatul DNA și presa locală care urmărește succesiv fondul, apelul și soluția definitivă. Florențiu Nuțu Simionescu este identificat numai ca funcționar/comisar al Gărzii Financiare Bihor, inclusiv în litigii ulterioare de funcție publică, fără mandat, candidatură ori partid verificabil; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3304",
+      "original_name": "Simota Marinela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3096",
+        "https://www.romaniacurata.ro/directorul-institutului-national-de-hidrologie-condamnat-la-un-an-si-zece-luni-inchisoare-pentru-abuz-in-serviciu/",
+        "https://revista22.ro/actualitate-interna/directorul-general-si-directorul-economic-al-inhga-demisi-din-functie-directorul-general-al-inhga-condamnat-la-un-an-si-zece-luni-de-inchisoare"
+      ],
+      "note": "DNA confirmă definitiv condamnarea Marinelei Simota la 6 luni cu executare în regim de detenție pentru abuz în serviciu și fals intelectual; alte surse solide confirmă executarea, în pofida unei relatări secundare contradictorii. Este identificată exclusiv ca director științific/specialist INHGA, fără mandat, candidatură ori partid verificabil; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3305",
+      "original_name": "Sirbu Nicu Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2354",
+        "https://www.mediafax.ro/social/doi-ofiteri-si-un-subofiter-din-judetul-gorj-condamnati-definitiv-pentru-coruptie-9575672",
+        "https://www.gorjeanul.ro/investigatii/gorjeni-din-structurile-mai-cu-dosare-penale-pentru-coruptie/"
+      ],
+      "note": "DNA și relatările independente confirmă definitiv 3 ani cu suspendare pentru Nicu Laurențiu Sîrbu, ofițer/căpitan și fost șef al Biroului Resurse Umane din ISU Gorj, în cauza fraudării concursurilor de angajare. Nu există mandat ales, candidatură ori afiliere politică verificabilă; profilul exclusiv MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3306",
+      "original_name": "Soroiu Emanuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3946",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=53",
+        "https://romanialibera.ro/special/dosarul-electrica-bate-pasul-procedural-pe-loc-83689/"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Emanuel Soroiu, comisar în structura centrală a Gărzii Financiare, la 2 ani cu suspendare pentru trafic de influență. Comunicatele vechi folosesc și grafia Șoroiu, dar identitatea profesională este aceeași. Nu există mandat, candidatură ori afiliere politică verificabilă; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3307",
+      "original_name": "Spiridon Mihail",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157",
+        "https://www.curentul.info/actualitate/prefectul-de-hunedoara-vizat-de-dna/",
+        "https://www.asociatiafumatorilor.ro/0_af/download/asociatii.pdf"
+      ],
+      "note": "DNA confirmă definitiv 3 ani cu suspendare pentru Mihail Spiridon, fost director al Sucursalei CFR Marfă Timișoara în 2001-2003, pentru trei infracțiuni de luare de mită. Profilul atribuia eronat delapidarea, faptă reținută altor inculpați din lot. Nu există mandat, candidatură ori afiliere politică verificabilă; apariția într-o asociație sportivă nu schimbă domeniul, astfel profilul managerial este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3308",
+      "original_name": "Stamate Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3304",
+        "https://adevarul.ro/stiri-locale/targoviste/17160-de-lei-este-cea-mai-mare-pensie-din-judetul-1348012.html",
+        "https://www.viata-libera.ro/politica-administratie/30202-candidati-primarie-cj-consiliul-local-galati"
+      ],
+      "note": "DNA confirmă definitiv 4 ani cu suspendare pentru luare de mită în cazul lui Gheorghe Stamate, director coordonator adjunct al Casei Județene de Pensii Dâmbovița. Candidatul PER din Galați este Eugen Gheorghe Stamate, persoană distinctă; coliziunea de nume este rezolvată. Pentru directorul din Dâmbovița nu există mandat, candidatură ori afiliere politică verificabilă, astfel profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3309",
+      "original_name": "Stanciu Berti Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2191",
+        "https://www.curentul.info/actualitate/10-000-de-euro-mita-pentru-un-politist-judiciar/",
+        "https://gazetadecluj.ro/coruptie-la-nivel-inalt-la-bcco/"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Berti Cătălin Stanciu, ofițer de poliție judiciară DCCO/IGPR, la 4 ani cu executare pentru luare de mită. Eticheta generică «fapte de corupție» este corectată la infracțiunea exactă. Nu există mandat, candidatură ori afiliere politică verificabilă; profilul exclusiv MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3310",
+      "original_name": "Stanciu Grigore Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/10-000-de-euro-mita-pentru-un-politist-judiciar/",
+        "https://lexapp.ro/just/114157"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Grigore Marius Stanciu, agent de poliție la Secția 5 București, la 1 an și 2 luni cu suspendare pentru luare de mită și favorizarea infractorului; documentele judiciare confirmă identitatea în lotul respectiv. Nu există mandat, candidatură ori afiliere politică verificabilă; profilul exclusiv MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3311",
+      "original_name": "Stanciu Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3096",
+        "https://www.romania-actualitati.ro/stiri/romania/directorul-inhga-condamnat-la-inchisoare-id35350.html",
+        "https://www.icpa.ro/proiecte/Proiecte%20nationale/RAMSOL/contract51-031.pdf"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Petre Stanciu, director al INHGA, la 1 an și 10 luni cu executare pentru două forme de abuz în serviciu și fals intelectual. Sursele instituționale îl identifică drept specialist și director INHGA, fără mandat, candidatură ori afiliere politică verificabilă; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3312",
+      "original_name": "Stancu Elena Laura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://osim.ro/arhiva-declaratii-de-avere/declaratii-de-avere-si-interese-publicate-in-2020",
+        "https://beta.osim.ro/images/InfoIntPublic/DA_si_DI_2023/DA_Stancu_Laura.pdf"
+      ],
+      "note": "DNA confirmă definitiv 9 luni cu suspendare pentru Elena Laura Stancu, șef Birou Financiar OSIM, pentru delapidare, fals intelectual și uz de fals. Rezumatul profilului era contaminat cu soluția lui Viorel Scurtu. Arhivele oficiale OSIM o identifică ulterior tot ca expert/asistent manager, fără mandat, candidatură ori afiliere politică verificabilă; profilul administrativ este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3313",
+      "original_name": "Statie Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1907",
+        "https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/sinteza-ianuarie-2009-05-02-2009-249398.html",
+        "https://ziaruldevalcea.ro/2007/05/in-instanta-de-17-ani-pentru-o/",
+        "https://www.istorielocala.ro/decembrie-1989-in-judetul-valcea-si-evolutiile-generale-postdecembriste-2/"
+      ],
+      "note": "DNA confirmă definitiv 2 ani cu suspendare pentru Ion Statie, fost șef al Poliției orașului Băbeni, pentru două forme de abuz în serviciu și fals intelectual. Statie Cătălin, menționat ca fost consilier județean Vâlcea, este persoană distinctă; coliziunea este rezolvată. Pentru Ion Statie nu există mandat, candidatură ori afiliere politică verificabilă, astfel profilul MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3314",
+      "original_name": "Stefan Mihaita Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917",
+        "https://www.datocms-assets.com/43475/1730735995-lista-candidat-senat-parlamentare-2024.pdf"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Mihăiță Eugen Ștefan, ofițer al ISU Semenic Caraș-Severin, la 6 luni cu suspendare pentru abuz în serviciu, fals intelectual și uz de fals, toate în formă continuată. Verificarea listelor electorale și a surselor publice nu indică mandat, candidatură ori afiliere politică pentru aceeași persoană; profilul exclusiv MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3316",
+      "original_name": "Stefanescu Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.ziaruldeiasi.ro/stiri/iccj-incepe-judecarea-recursului-politistilor-sectiei-5-acuzati-de-favorizarea-contrabandistilor--832b.html",
+        "https://www.curentul.info/actualitate/sectia-5-politie-se-reuneste-in-beciurile-pna/"
+      ],
+      "note": "DNA confirmă definitiv 1 an și 6 luni cu suspendare pentru Liviu Ștefănescu, polițist la Secția 5 București, pentru luare de mită și asociere pentru săvârșirea de infracțiuni. Profilul atribuia eronat furt calificat și dare de mită, fapte ale altor inculpați. Omonimii politici Codrin și Cătălina Ștefănescu sunt persoane distincte; nu există rol politic verificabil pentru polițist, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3317",
+      "original_name": "Stelian Victor Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-08",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://jurnalul.ro/stiri/observator/sectia-5-pusa-in-libertate-65747.html",
+        "https://legislatie.just.ro/Public/DetaliiDocument/114157"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Victor Eugen Stelian, agent principal la Poliția/Postul Chitila, la 3 ani cu suspendare pentru luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat; documentul CCR confirmă identitatea în dosar. Nu există mandat, candidatură ori afiliere politică verificabilă; profilul exclusiv MAI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3318",
+      "original_name": "Stoian Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4852",
+        "https://adevarul.ro/stiri-locale/pitesti/pitesti-procesul-penescu-acuzat-ca-l-a-mituit-pe-1082131.html"
+      ],
+      "note": "DNA confirmă definitiv 3 ani cu suspendare pentru luare de mită în formă continuată, nu dare de mită; această din urmă faptă aparține coinculpatului Cornel Penescu. Stoian era director administrativ al Gărzii Financiare Argeș, fără mandat ales ori funcție de partid verificată, deci profilul este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3319",
+      "original_name": "Sugaru Iulian",
+      "current_name": "Șugaru Iulian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3883",
+        "https://image.stirileprotv.ro/media/document/60178513.pdf",
+        "https://hartapoliticii.ro/?name=iulian+sugaru",
+        "https://www.ziaruldeiasi.ro/stiri/iulian-sugaru-fostul-director-al-romanceram-retinut-de-dna--7ir1.html"
+      ],
+      "note": "Profil păstrat și corectat: diacriticele numelui, partidul PDL, candidatura la Camera Deputaților în colegiul 5 Neamț (2008), geografia electorală și infracțiunea exactă de luare de mită. DNA confirmă definitiv 2 ani cu suspendare condiționată la 8 ianuarie 2013; lista candidaților și rezultatele electorale confirmă apartenența politică.",
+      "reviewed_snapshot_hash": "36b92ccf3abe4c7b3e4c4d7f26c87e802934f674249a1516270f7de187d063b8"
+    },
+    {
+      "profile_id": "RV-3320",
+      "original_name": "Surdu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318",
+        "https://monitorulneamt.ro/vamesi-si-seful-rar-condamnati/"
+      ],
+      "note": "DNA confirmă că acest Gheorghe Surdu era șef de compartiment echipe mobile la DJAOV Neamț și a primit definitiv 1 an cu suspendare condiționată pentru abuz în serviciu. Nu este identificat un mandat ales sau o funcție de partid; rezultatele despre Gheorghe Surdu, consilier local în Rucăr, județul Argeș, privesc un omonim. Profilul administrativ a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3321",
+      "original_name": "Sutu Iuliean",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4117",
+        "https://www.dna.ro/comunicat.xhtml?id=1567",
+        "https://www.romania-actualitati.ro/stiri/romania/dumitru-sechelariu-trimis-in-judecata-de-dna-id9450.html"
+      ],
+      "note": "DNA confirmă identitatea lui Șutu Iuliean, director la SC Transport Public SA Bacău, și condamnarea definitivă la 2 ani cu suspendare condiționată pentru cumpărare de influență. Nicio sursă verificată nu atestă mandat ales, candidatură ori funcție de partid; asocierea din dosar cu fostul primar Dumitru Sechelariu nu îi conferă rol politic. Profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3322",
+      "original_name": "Tabaroiu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/alti-14-politisti-acuzati-de-luare-de-mita-si-657316.html",
+        "https://legislatie.just.ro/Public/FormaPrintabila/00000G0AAX9NIB25WY418G5ZQT1J5OGW"
+      ],
+      "note": "DNA și jurisprudența CCR confirmă că Mihai Tăbăroiu era polițist la Secția 5 București și că a fost condamnat definitiv la 1 an și 2 luni cu suspendare condiționată pentru luare de mită și favorizarea infractorului. Nu există mandat ales, candidatură ori funcție de partid verificată; profilul de agent de poliție este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3323",
+      "original_name": "Tanase Sabin Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1927",
+        "https://web.justitie-ag.ro/ca_pit/ca_app/dosar_detalii.asp?id_dosar=4600000000024322",
+        "https://www.gds.ro/Actualitate/2008-09-18/Arges-Grupul-permiselor-auto-trimis-in-judecata/"
+      ],
+      "note": "DNA confirmă definitiv 4 ani cu executare pentru trei infracțiuni de trafic de influență, luare de mită și abuz în serviciu; textul existent preluase eronat fragmentul despre dare de mită atribuit coinculpatului Valerică Pandelea. Tănase era agent IPJ Argeș, fără mandat sau funcție politică verificată, astfel profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3324",
+      "original_name": "Tanase Stelica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5664",
+        "https://actualitateacalarasi.eu/teapa-de-5-milioane-de-euro-in-calarasi/",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/contestatia-dna-constanta-respinsa-stelica-tanase-fost-ofiter-in-cadrul-ipj-eliberat-conditionat-604786.html"
+      ],
+      "note": "DNA confirmă că Tănase Stelică era ofițer de poliție judiciară la IPJ Călărași și a primit definitiv 3 ani cu executare pentru trafic de influență și complicitate la dare de mită, ambele în formă continuată. Nu a fost identificat un mandat ales, o candidatură sau o funcție de partid; profilul este în afara domeniului politic și a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3325",
+      "original_name": "Taut Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5544",
+        "https://adevarul.ro/stiri-locale/ploiesti/cum-s-au-facut-bani-peste-noapte-in-vremea-1888621.html",
+        "https://web.oie.int/downld/SG/2005/Liste_des_participants_finale_post%2073SG.pdf"
+      ],
+      "note": "DNA confirmă că Marius Tăut era director executiv al DSVSA Prahova și a fost condamnat definitiv la 3 ani cu suspendare sub supraveghere pentru abuz în serviciu. Sursele profesionale și de presă îl identifică exclusiv drept medic veterinar și director administrativ; nu a fost verificat un mandat, o candidatură sau o funcție de partid. Profilul a fost eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3326",
+      "original_name": "Ticu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2411",
+        "https://www.dna.ro/comunicat.xhtml?id=461",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=8BAD9E30-8705-418F-BF9D-274CAF6285DC"
+      ],
+      "note": "DNA confirmă că Țicu Constantin era comisar la IJPF Satu Mare și a fost condamnat definitiv la 1 an în regim de detenție pentru instigare la fals intelectual și complicitate la dare de mită. Rezultatele politice pentru Constantin-Ticu Dumitrescu privesc fostul senator PNȚCD, nu polițistul de frontieră. Fără rol politic propriu verificat, profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3327",
+      "original_name": "Tinca Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://www.ziuaconstanta.ro/stiri/deschidere-editie/increngatura-rubedeniilor-de-la-isu-dobrogea-14160-256163.html",
+        "https://img.ordinea.ro/uploads/2020/09/candidati-constanta.pdf"
+      ],
+      "note": "DNA confirmă că Dumitru Țîncă era locotenent la ISU Dobrogea și a fost condamnat definitiv la 2 ani cu suspendare sub supraveghere pentru fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată. Lista electorală 2020 conține un candidat omonim Pro România la CL Hârșova, dar sursele disponibile nu demonstrează că este aceeași persoană; în aplicarea regulii conservative, rolul politic nu este atribuit condamnatului, iar profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3328",
+      "original_name": "Titi Petrea",
+      "current_name": "Titi Petrea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3101",
+        "https://image.stirileprotv.ro/media/document/60179253.pdf",
+        "https://www.monitorulsv.ro/biroul-meu-parlamentar-va-fi-colegiul-in-care-candidez_61c0e9/",
+        "https://v3.monitorulsv.ro/Ultima-ora-local/2009-02-27/Titi-Petrea-felicitat-calduros-de-fostul-sau-dusman-Gheorghe-Flutur"
+      ],
+      "note": "Profil păstrat și corectat: Titi Petrea era membru și consilier județean PSD, precum și candidat PSD+PC la Camera Deputaților în colegiul 7 Suceava în 2008; sursele leagă explicit aceste roluri de fostul director OJCGC din dosarul DNA. Condamnarea definitivă de 2 ani și 6 luni cu suspendare sub supraveghere pentru două traficuri de influență și fals în declarații este confirmată.",
+      "reviewed_snapshot_hash": "64450f59372931fdbd7ace36dce1dd97e1375f395e0b1fb4008f013853c725be"
+    },
+    {
+      "profile_id": "RV-3329",
+      "original_name": "Titiriga Ioan",
+      "current_name": "Țițirigă Ioan",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157",
+        "https://www.just.ro/wp-content/uploads/2022/01/Asociatii_28ian2022.pdf",
+        "https://www.curentul.info/actualitate/dna-extinde-cercetarile-in-dosarul-cfr-marfa-timisoara/"
+      ],
+      "note": "Profil păstrat în sfera politică extinsă și corectat: numele cu diacritice, rolul de vicepreședinte al Asociației Feroviarilor Social-Democrați și condamnarea exactă. DNA îi atribuie trei infracțiuni de luare de mită; delapidarea din profil aparținea administratorilor de firme din paragraful următor. Registrul Ministerului Justiției confirmă rolul asociativ, dar nu dovedește o calitate individuală de membru PSD, astfel partidul rămâne Independent.",
+      "reviewed_snapshot_hash": "4017df9b7b65a933cb738b2e2ae7dd63b9afdefb2b1349e7c5f8415b77936db0"
     }
   ]
 }
