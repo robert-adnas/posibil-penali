@@ -38420,78 +38420,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Tofan Emil Cristian",
+    "name": "Țopa Dumitru",
     "party": "Independent",
-    "position": "Sef birou în Ministerul apararii nationale",
-    "position_type": "other",
+    "position": "Candidat independent la Consiliul Local Podu Turcului (2008) și fost director al Grupului Școlar „Al. Vlahuță”",
+    "position_type": "local_official",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef birou în Ministerul apararii nationale în județul Bucuresti."
-    },
-    "crime": "luare de mită in forma continuată",
-    "sentence": "1 an și 4 luni închisoare cu suspendare",
-    "sentence_years": 1.33,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 31 ianuarie 2014. Condamnă pe inculpatul TĂNASE VASILE la o pedeapsă de 5 luni închisoare cu suspendarea sub supraveghere a executării pedepsei, pe durata unui termen de încercare de 2 ani și 5 luni, pentru săvârșirea infracțiunii de complicitate la infracțiunea de dare de mită, în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4645"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tofan Emil Cristian indică județul Bucuresti, funcția \"Sef birou\", instituția \"Ministerul apararii nationale\", decizia 386 și condamnarea din 31/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Tomoiaga Vasile",
-    "party": "Independent",
-    "position": "Inspector sef în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul pentru situatii de urgenta (MAI) în județul Caras-Severin."
-    },
-    "crime": "abuz în serviciu contra intereselor persoanelor, dacă funcționarul public a obținut pentru altul un avantaj nepatrimonial, fals intelectual și uz de fals, toate în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 februarie 2013. Condamnarea inculpatului TOMOIAGĂ VASILE, fost inspector șef la Inspectoratul pentru Situații de Urgență (I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3917"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tomoiaga Vasile indică județul Caras-Severin, funcția \"Inspector sef\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 212 și condamnarea din 14/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Topa Dumitru",
-    "party": "Independent",
-    "position": "Director în Unitate scolara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Unitate scolara în județul Bacau."
+      "county": "Bacău",
+      "basis": "political_base",
+      "locality": "Podu Turcului",
+      "note": "A candidat independent la Consiliul Local Podu Turcului la alegerile locale din 2008."
     },
     "crime": "trafic de influență, în formă continuată, asociere pentru săvârșirea de infracțiuni de corupție și dare de mită în formă continuată",
     "sentence": "3 ani închisoare",
@@ -38499,8 +38436,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 octombrie 2012. Condamnarea inculpatului ȚOPA DUMITRU, fost director al Grupului Școlar „Al.",
-    "verified_at": "2026-06-10",
+    "details": "Potrivit DNA, prin decizia definitivă din 19 octombrie 2012, Țopa Dumitru, fost director al Grupului Școlar „Al. Vlahuță” din Podu Turcului, a fost condamnat la 3 ani de închisoare în regim de detenție pentru trafic de influență în formă continuată, asociere pentru săvârșirea de infracțiuni de corupție și dare de mită în formă continuată. Lista AEP publicată în Monitorul Oficial îl identifică drept candidat independent la Consiliul Local Podu Turcului în 2008.",
+    "verified_at": "2026-09-09",
     "sources": [
       {
         "label": "DNA",
@@ -38512,178 +38449,24 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Topa Dumitru indică județul Bacau, funcția \"Director\", instituția \"Unitate scolara\", decizia 3352 și condamnarea din 19/10/2012."
-      }
-    ]
-  },
-  {
-    "name": "Totoi Cristian-Constantin",
-    "party": "Independent",
-    "position": "Agent sef adjunct politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Teleorman",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent sef adjunct politie în Politie (MAI) în județul Teleorman."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Totoi Cristian-Constantin a fost condamnat definitiv la 26 noiembrie 2013 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Agent sef adjunct politie în Politie (MAI). Infracțiunea reținută: abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4505"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Totoi Cristian-Constantin indică județul Teleorman, funcția \"Agent sef adjunct politie\", instituția \"Politie (MAI)\", decizia 3719 și condamnarea din 26/11/2013."
-      }
-    ]
-  },
-  {
-    "name": "Totolici Mihai",
-    "party": "Independent",
-    "position": "Subcomisar de politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Subcomisar de politie în Politie (MAI) în județul Brasov."
-    },
-    "crime": "luare de mită, instigare la fals în declarații și fals intelectual",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Totolici Mihai a fost condamnat definitiv la 18 ianuarie 2010 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Subcomisar de politie în Politie (MAI). Infracțiunea reținută: luare de mită, instigare la fals în declarații și fals intelectual.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Monitorul Oficial nr. 457/19.06.2008 — lista AEP",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1905"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Totolici Mihai indică județul Brasov, funcția \"Subcomisar de politie\", instituția \"Politie (MAI)\", decizia 110 și condamnarea din 18/01/2010."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2008-06-19%2C_nr._457.pdf",
+        "description": "La categoria candidați independenți pentru consilii locale, poziția 16 îl indică pe TOPA DUMITRU în Podu Turcului, județul Bacău."
       }
     ]
   },
   {
-    "name": "Trandafir Martin",
+    "name": "Truță Enea Ioan",
     "party": "Independent",
-    "position": "Sef serviciu în Serviciul de informatii si protectie interna (MAI)",
+    "position": "Fost secretar general adjunct și consilier în Ministerul Agriculturii și Alimentației",
     "position_type": "other",
     "geography": {
-      "county": "Caras-Severin",
+      "county": "București",
       "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Serviciul de informatii si protectie interna (MAI) în județul Caras-Severin."
-    },
-    "crime": "abuz în serviciu contra intereselor persoanelor, dacă funcționarul public a obținut pentru altul un avantaj nepatrimonial, fals intelectual și uz de fals",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 14 februarie 2013. Condamnarea inculpatului TRANDAFIR MARTIN, fost șef al Serviciului de Informații și Protecție Internă Caraș-Severin, cu gradul profesional de comisar-șef de poliție, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea următoarelor infracțiuni: abuz în serviciu contra intereselor persoanelor, dacă funcționarul public a obținut pentru altul un avantaj nepatrimonial, fals intelectual și uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3917"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Trandafir Martin indică județul Caras-Severin, funcția \"Sef serviciu\", instituția \"Serviciul de informatii si protectie interna (MAI)\", decizia 212 și condamnarea din 14/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Trandafir Petre",
-    "party": "Independent",
-    "position": "Inspector sef în Inspectoratul pentru situatii de urgenta (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Constanta",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul pentru situatii de urgenta (MAI) în județul Constanta."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "3 ani și 6 luni închisoare",
-    "sentence_years": 3.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Trandafir Petre a fost condamnat definitiv la 24 ianuarie 2014 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Inspector sef în Inspectoratul pentru situatii de urgenta (MAI). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4630"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Trandafir Petre indică județul Constanta, funcția \"Inspector sef\", instituția \"Inspectoratul pentru situatii de urgenta (MAI)\", decizia 12 și condamnarea din 24/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Tripon Silviu Nicusor,",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului TRIPON SILVIU NICUSOR, polițist la Secția 5 București, la pedeapsa de 1 an și 2 luni închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani și 2 luni, pentru săvârșirea infracțiunilor de luare de mită și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tripon Silviu Nicusor, indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Truta Enea Ioan",
-    "party": "Independent",
-    "position": "Secretar general adjunct în Ministerul agriculturii si dezvoltarii rurale",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Secretar general adjunct în Ministerul agriculturii si dezvoltarii rurale în județul Bucuresti."
+      "note": "A fost secretar general adjunct și ulterior consilier în Ministerul Agriculturii și Alimentației, în timpul mandatului ministrului Ioan Avram Mureșan."
     },
     "crime": "deturnare de fonduri",
     "sentence": "7 ani închisoare",
@@ -38691,8 +38474,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 mai 2012. Condamnarea inculpatului TRUȚĂ ENEA IOAN, fost secretar general adjunct și consilier în cadrul Ministerului Agriculturii și Alimentației, la pedeapsa de 7 ani închisoare pentru săvârșirea infracțiunii de deturnare de fonduri.",
-    "verified_at": "2026-06-10",
+    "details": "Potrivit DNA, prin decizia definitivă din 28 mai 2012, Truță Enea Ioan, fost secretar general adjunct și consilier în Ministerul Agriculturii și Alimentației, a fost condamnat la 7 ani de închisoare pentru deturnare de fonduri. Includerea este în arhiva extinsă, pe baza rolului de rang înalt în administrația centrală și de consilier al ministrului; nu a fost identificată o afiliere individuală de partid.",
+    "verified_at": "2026-09-09",
     "sources": [
       {
         "label": "DNA",
@@ -38704,102 +38487,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Truta Enea Ioan indică județul Bucuresti, funcția \"Secretar general adjunct\", instituția \"Ministerul agriculturii si dezvoltarii rurale\", decizia 150 și condamnarea din 28/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Tudor Ion",
-    "party": "Independent",
-    "position": "Ofiter în Serviciul roman de informatii",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter în Serviciul roman de informatii în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu contra intereselor publice, în formă calificată ca infracțiune asimilată infracțiunilor de corupție",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tudor Ion a fost condamnat definitiv la 30 octombrie 2013 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Ofiter în Serviciul roman de informatii. Infracțiunea reținută: abuz în serviciu contra intereselor publice, în formă calificată ca infracțiune asimilată infracțiunilor de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4453"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tudor Ion indică județul Bucuresti, funcția \"Ofiter\", instituția \"Serviciul roman de informatii\", decizia 2004 și condamnarea din 30/10/2013."
-      }
-    ]
-  },
-  {
-    "name": "Tudor Marius Iordan",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 iunie 2012. Condamnarea inculpatului TUDOR MARIUS – IORDAN, comisar în cadrul Gărzii Financiare – Comisariatul General, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 2 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3411"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tudor Marius Iordan indică județul Bucuresti, funcția \"Comisar\", instituția \"Garda financiara\", decizia 2274 și condamnarea din 27/06/2012."
-      }
-    ]
-  },
-  {
-    "name": "Turcu Virgil",
-    "party": "Independent",
-    "position": "Sef directie în Serviciul roman de informatii",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef directie în Serviciul roman de informatii în județul Bucuresti."
-    },
-    "crime": "abuz în serviciu contra intereselor publice în formă calificată, ca infracțiune asimilată infracțiunilor de corupție",
-    "sentence": "1 an și 3 luni închisoare cu suspendare",
-    "sentence_years": 1.25,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Turcu Virgil a fost condamnat definitiv la 30 octombrie 2013 la 1 an și 3 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Sef directie în Serviciul roman de informatii. Infracțiunea reținută: abuz în serviciu contra intereselor publice în formă calificată, ca infracțiune asimilată infracțiunilor de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4453"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Turcu Virgil indică județul Bucuresti, funcția \"Sef directie\", instituția \"Serviciul roman de informatii\", decizia 2004 și condamnarea din 30/10/2013."
       }
     ]
   },

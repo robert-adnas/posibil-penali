@@ -51175,6 +51175,212 @@
       ],
       "note": "Profil păstrat în sfera politică extinsă și corectat: numele cu diacritice, rolul de vicepreședinte al Asociației Feroviarilor Social-Democrați și condamnarea exactă. DNA îi atribuie trei infracțiuni de luare de mită; delapidarea din profil aparținea administratorilor de firme din paragraful următor. Registrul Ministerului Justiției confirmă rolul asociativ, dar nu dovedește o calitate individuală de membru PSD, astfel partidul rămâne Independent.",
       "reviewed_snapshot_hash": "4017df9b7b65a933cb738b2e2ae7dd63b9afdefb2b1349e7c5f8415b77936db0"
+    },
+    {
+      "profile_id": "RV-3330",
+      "original_name": "Tofan Emil Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645",
+        "https://www.gds.ro/Local/2004-04-01/Mita-la-MApN/",
+        "https://ziaruldebacau.ro/fugit-din-tara/"
+      ],
+      "note": "DNA confirmă că Emil Cristian Tofan a fost condamnat definitiv la 5 luni de închisoare cu suspendare pentru dare de mită. Presa contemporană îl identifică drept administrator/patron al SC Benzitof SRL din Comănești, nu șef de birou în MApN. Funcția, infracțiunea de luare de mită, pedeapsa de 1 an și 4 luni și detaliile despre Tănase Vasile din profil aparțin altor inculpați. Nu a fost identificat un rol politic verificabil; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3332",
+      "original_name": "Tomoiaga Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917"
+      ],
+      "note": "DNA confirmă identitatea lui Vasile Tomoiagă, fost inspector-șef cu grad de colonel la ISU Semenic Caraș-Severin, și condamnarea definitivă din 2013 la 2 ani cu suspendare pentru abuz în serviciu, fals intelectual și uz de fals. Căutările politice returnează omonimi din Maramureș, fără legătură demonstrabilă cu ofițerul din Caraș-Severin. Nu a fost identificat un rol politic verificabil; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3333",
+      "original_name": "Topa Dumitru",
+      "current_name": "Țopa Dumitru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2008-06-19%2C_nr._457.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă din 2012 la 3 ani cu executare și identitatea fostului director al Grupului Școlar Al. Vlahuță din Podu Turcului. Lista AEP din Monitorul Oficial nr. 457/2008 îl înscrie, cu același nume și aceeași localitate, între candidații independenți la consilii locale. Numele, rolul politic, geografia și descrierea juridică trunchiată au fost corectate; profil păstrat în sfera politică.",
+      "reviewed_snapshot_hash": "0bd414d1ddef518944e21aa1b2518ab771eba8b79f99d6775e2ab1dc858becf1"
+    },
+    {
+      "profile_id": "RV-3334",
+      "original_name": "Totoi Cristian-Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4505",
+        "https://adevarul.ro/stiri-locale/alexandria/seful-politiei-rutiere-videle-si-alti-doi-colegi-1261148.html"
+      ],
+      "note": "DNA confirmă că Totoi Cristian-Constantin era agent-șef adjunct în Secția de poliție rurală nr. 9 Videle și a fost condamnat definitiv în 2013 la 3 ani cu suspendare pentru abuz în serviciu. Presa contemporană confirmă aceeași identitate profesională. Nu a fost identificată nicio candidatură, funcție electivă sau apartenență politică; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3335",
+      "original_name": "Totolici Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1905",
+        "https://ziare.com/stiri/frauda/un-subsomisar-din-politia-brasov-trimis-in-judecata-pentru-mita-629209"
+      ],
+      "note": "DNA confirmă identitatea lui Mihai Totolici, subcomisar la Poliția Municipiului Brașov, Secția 5, și condamnarea definitivă pentru luare de mită, instigare la fals în declarații și fals intelectual. Pedeapsa corectă este 3 ani și 6 luni cu executare, nu 3 ani. Nu a fost identificat un rol politic; rezultatele omonime privesc alte persoane. Profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3336",
+      "original_name": "Trandafir Martin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3917",
+        "https://adevarul.ro/stiri-locale/resita/mai-multi-pompieri-au-fost-trimisi-in-judecata-de-922755.html"
+      ],
+      "note": "DNA confirmă că Martin Trandafir a fost șeful Serviciului de Informații și Protecție Internă Caraș-Severin, comisar-șef de poliție, condamnat definitiv în 2013 la 2 ani cu suspendare pentru abuz în serviciu, fals intelectual și uz de fals. Presa contemporană confirmă rolul instituțional. Nu a fost identificat niciun rol politic verificabil; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3337",
+      "original_name": "Trandafir Petre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://isuct.igsu.ro/atributii-si-istoric"
+      ],
+      "note": "DNA și istoricul oficial ISU Constanța confirmă identitatea generalului în rezervă Petre Trandafir, fost inspector-șef ISU Dobrogea, și condamnarea definitivă din 2014 la 3 ani și 6 luni cu executare. Încadrarea juridică existentă era incompletă: asociere pentru săvârșirea de infracțiuni, instigare la fals intelectual, instigare la uz de fals și abuz în serviciu, toate în formă continuată. Nu a fost identificat un rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3338",
+      "original_name": "Tripon Silviu Nicusor,",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/sectia-5-politie-se-reuneste-in-beciurile-pna/"
+      ],
+      "note": "DNA confirmă că Silviu Nicușor Tripon a fost polițist la Secția 5 București și a fost condamnat definitiv în 2012 la 1 an și 2 luni cu suspendare pentru luare de mită și favorizarea infractorului. Numele din registru conținea o virgulă parazită și omitea diacriticele. Nu a fost identificat un rol politic verificabil; profil eliminat din domeniul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3339",
+      "original_name": "Truta Enea Ioan",
+      "current_name": "Truță Enea Ioan",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3268",
+        "https://www.curentul.info/politic/muresan-nu-s-a-prezentat-nici-ieri-la-pna/",
+        "https://www.capital.ro/ioan-muresan-a-facut-legile-pe-placul-prietenilor-lui-2800.html"
+      ],
+      "note": "DNA confirmă identitatea, rolurile de fost secretar general adjunct și consilier în Ministerul Agriculturii și Alimentației și condamnarea definitivă din 2012 la 7 ani cu executare pentru deturnare de fonduri. Presa contemporană îl identifică drept consilier al ministrului Ioan Avram Mureșan. Numele, titulatura instituției și rezumatul au fost corectate; profil păstrat în arhiva extinsă, fără afiliere de partid nedovedită.",
+      "reviewed_snapshot_hash": "384c2e9e0dfe36524828c692b88977206f1541d43e10adfc54f096ca623c13d8"
+    },
+    {
+      "profile_id": "RV-3340",
+      "original_name": "Tudor Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4453",
+        "https://ziaruldevalcea.ro/2011/12/ion-tudor-este-cel-mai-elegant-si/",
+        "https://stirileprotv.ro/stiri/eveniment/radu-timofte-fostul-director-al-sri-trimis-in-instanta-de-dna.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a unui fost ofițer SRI numit Ion Tudor la 1 an cu suspendare pentru abuz în serviciu în dosarul locuinței lui Radu Timofte. Politicianul omonim din Vâlcea are o biografie distinctă: ofițer de geniu/maior MApN, inginer și om de afaceri, ulterior lider PSD și PDL. Nu există dovadă că fostul ofițer SRI a avut rol politic; coliziune rezolvată și profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3341",
+      "original_name": "Tudor Marius Iordan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3411",
+        "https://ziare.com/stiri/frauda/comisari-de-la-garda-financiara-trimisi-in-judecata-806178"
+      ],
+      "note": "DNA confirmă că Tudor Marius-Iordan a fost comisar al Gărzii Financiare - Comisariatul General și a fost condamnat definitiv în 2012 la 3 ani cu suspendare pentru luare de mită. Câmpul generic «Fapte de corupție» nu reda infracțiunea exactă. Nu a fost identificată o funcție, candidatură sau afiliere politică; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3342",
+      "original_name": "Turcu Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4453",
+        "https://www.ziaruldeiasi.ro/stiri/fostul-sef-al-sri-trimis-in-judecata-pentru-instigare-la-abuz-in-serviciu-si-fals--5iof.html"
+      ],
+      "note": "DNA confirmă că Virgil Turcu a fost șef al Direcției Logistice din SRI și a fost condamnat definitiv în 2013 la 1 an și 3 luni cu suspendare pentru abuz în serviciu calificat. Presa contemporană confirmă rolul exclusiv instituțional în dosarul locuinței lui Radu Timofte. Nu a fost identificată candidatură, funcție electivă sau afiliere politică; profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
