@@ -38492,13 +38492,13 @@ export const politicianAdditions = [
   },
   {
     "name": "Ulici Ioan",
-    "party": "Independent",
-    "position": "Director adjunct în Directia generala a finantelor publice",
+    "party": "PDL",
+    "position": "Membru PDL Satu Mare și fost director adjunct al Direcției Generale a Finanțelor Publice Satu Mare",
     "position_type": "other",
     "geography": {
       "county": "Satu Mare",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director adjunct în Directia generala a finantelor publice în județul Satu Mare."
+      "basis": "political_base",
+      "note": "A fost identificat de presa locală contemporană drept membru PDL Satu Mare."
     },
     "crime": "trafic de influență",
     "sentence": "1 an și 10 luni închisoare cu suspendare",
@@ -38506,8 +38506,8 @@ export const politicianAdditions = [
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 martie 2014. Condamnă pe inculpatul ULICI IOAN, fost director adjunct în cadrul Direcției Generale a Finanțelor Publice (D.",
-    "verified_at": "2026-06-10",
+    "details": "Potrivit DNA, prin decizia definitivă nr. 1093 din 27 martie 2014, Ulici Ioan, fost director adjunct al Direcției Generale a Finanțelor Publice Satu Mare, a fost condamnat la 1 an și 10 luni de închisoare cu suspendare pentru trafic de influență. Presa locală contemporană îl identifica drept membru PDL Satu Mare.",
+    "verified_at": "2026-09-09",
     "sources": [
       {
         "label": "DNA",
@@ -38519,146 +38519,25 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Ulici Ioan indică județul Satu Mare, funcția \"Director adjunct\", instituția \"Directia generala a finantelor publice\", decizia 1093 și condamnarea din 27/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Ungur Vasile Tiberiu",
-    "party": "Independent",
-    "position": "Agent sef politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent sef politie în Politie (MAI) în județul Maramures."
-    },
-    "crime": "fals material în înscrisuri oficiale; trafic de influență; luare de mită",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ungur Vasile Tiberiu a fost condamnat definitiv la 4 martie 2010 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Agent sef politie în Politie (MAI). Infracțiunea reținută: fals material în înscrisuri oficiale; trafic de influență; luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1918"
       },
       {
-        "label": "România Curată",
+        "label": "Sătmăreanul",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ungur Vasile Tiberiu indică județul Maramures, funcția \"Agent sef politie\", instituția \"Politie (MAI)\", decizia 841 și condamnarea din 04/03/2010."
-      }
-    ]
-  },
-  {
-    "name": "Ungureanu Ion",
-    "party": "Independent",
-    "position": "Comandant în Scoala de subofiteri pompieri si protectie civila (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comandant în Scoala de subofiteri pompieri si protectie civila (MAI) în județul Prahova."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ungureanu Ion a fost condamnat definitiv la 10 octombrie 2014 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Comandant în Scoala de subofiteri pompieri si protectie civila (MAI). Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5390"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ungureanu Ion indică județul Prahova, funcția \"Comandant\", instituția \"Scoala de subofiteri pompieri si protectie civila (MAI)\", decizia 49 și condamnarea din 10/10/2014."
-      }
-    ]
-  },
-  {
-    "name": "Urduban Gheorghe",
-    "party": "Independent",
-    "position": "Agent politie în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Politie (MAI) în județul Bucuresti."
-    },
-    "crime": "luare de mită și favorizarea infractorului",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2012. Condamnarea inculpatului URDUBAN GHEORGHE, agent de poliție la Secția 5 București, la pedeapsa de 1 an închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3483"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Urduban Gheorghe indică județul Bucuresti, funcția \"Agent politie\", instituția \"Politie (MAI)\", decizia 2348 și condamnarea din 03/07/2012."
-      }
-    ]
-  },
-  {
-    "name": "Ursu Gigel",
-    "party": "Independent",
-    "position": "Comisar în Garda financiara",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda financiara în județul Brasov."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 aprilie 2013. Condamnarea inculpatului URSU GIGEL, comisar în cadrul Gărzii Financiare – Secția Brașov, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 8 ani, pentru săvârșirea a 6 infracțiuni de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4068"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ursu Gigel indică județul Brasov, funcția \"Comisar\", instituția \"Garda financiara\", decizia 1456 și condamnarea din 26/04/2013."
+        "url": "https://www.satmareanul.net/2011/11/25/mariana-popa-si-ioan-ulici-au-fost-trimimisi-in-judecata/",
+        "description": "Articolul din 25 noiembrie 2011 îl identifică pe fostul director adjunct al DGFP Satu Mare drept membru PDL Satu Mare."
       }
     ]
   },
   {
     "name": "Urucu Marian",
-    "party": "Independent",
-    "position": "Director în Compania nationala a lignitului Oltenia (Ministerul Economiei)",
-    "position_type": "other",
+    "party": "Partidul Socialist Român",
+    "position": "Candidat al Partidului Socialist Român la Primăria Motru (2016), fost consilier local PRM și director comercial al CNLO",
+    "position_type": "local_official",
     "geography": {
       "county": "Gorj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Compania nationala a lignitului Oltenia (Ministerul Economiei) în județul Gorj."
+      "basis": "political_base",
+      "locality": "Motru",
+      "note": "A fost consilier local PRM și candidat la Primăria Motru, inclusiv din partea Partidului Socialist Român în 2016."
     },
     "crime": "trafic de influență",
     "sentence": "2 ani închisoare cu suspendare",
@@ -38666,8 +38545,8 @@ export const politicianAdditions = [
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 mai 2010. condamnarea inculpatului URUCU MARIAN, în calitate de director al Direcției comerciale din cadrul Companiei Naționale a Lignitului Oltenia (CNLO), la pedeapsa de 2 ani cu suspendarea executării pedepsei pe un termen de încercare de 4 ani pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
+    "details": "Potrivit DNA, prin decizia definitivă nr. 2053 din 26 mai 2010, Marian Urucu, director al Direcției comerciale din cadrul Companiei Naționale a Lignitului Oltenia, a fost condamnat la 2 ani de închisoare cu suspendare pentru trafic de influență. Presa locală îl identifică drept fost candidat PRM la Primăria Motru în 2008 și fost consilier local PRM; în 2016 a candidat la aceeași primărie din partea Partidului Socialist Român.",
+    "verified_at": "2026-09-09",
     "sources": [
       {
         "label": "DNA",
@@ -38679,114 +38558,30 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Urucu Marian indică județul Gorj, funcția \"Director\", instituția \"Compania nationala a lignitului Oltenia (Ministerul Economiei)\", decizia 2053 și condamnarea din 26/05/2010."
-      }
-    ]
-  },
-  {
-    "name": "Uzunov Liana",
-    "party": "Independent",
-    "position": "Director comercial în Regia autonoma de distributie a energiei termice (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director comercial în Regia autonoma de distributie a energiei termice (Consiliu Local) în județul Bucuresti."
-    },
-    "crime": "luare de mită",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Uzunov Liana a fost condamnat definitiv la 26 noiembrie 2013 la 4 ani închisoare. Funcția relevantă consemnată în sursă: Director comercial în Regia autonoma de distributie a energiei termice (Consiliu Local). Infracțiunea reținută: luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4495"
       },
       {
-        "label": "România Curată",
+        "label": "Gorjeanul",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Uzunov Liana indică județul Bucuresti, funcția \"Director comercial\", instituția \"Regia autonoma de distributie a energiei termice (Consiliu Local)\", decizia 3714 și condamnarea din 26/11/2013."
-      }
-    ]
-  },
-  {
-    "name": "Vaduva Sorin",
-    "party": "Independent",
-    "position": "Ofiter politie judiciara în Politie (MAI)",
-    "position_type": "other",
-    "geography": {
-      "county": "Valcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Ofiter politie judiciara în Politie (MAI) în județul Valcea."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "2 ani și 3 luni închisoare",
-    "sentence_years": 2.25,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 ianuarie 2013. Condamnarea inculpatului VĂDUVA SORIN, ofițer de poliție judiciară în cadrul I.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3853"
+        "url": "https://www.gorjeanul.ro/investigatii/ogarlaci-a-schimbat-intr-o-singura-zi-directorii-de-cariere-ai-fostului-snlo/",
+        "description": "Articolul îl identifică drept fost candidat PRM la Primăria Motru în 2008, fost membru PSD și PRM și fost director comercial al CNLO."
       },
       {
-        "label": "România Curată",
+        "label": "Știrile ProTV — candidați locale 2016",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Vaduva Sorin indică județul Valcea, funcția \"Ofiter politie judiciara\", instituția \"Politie (MAI)\", decizia 188 și condamnarea din 21/01/2013."
-      }
-    ]
-  },
-  {
-    "name": "Valeanu Irina",
-    "party": "Independent",
-    "position": "Director economic în Oficiul de stat pentru inventii si marci",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director economic în Oficiul de stat pentru inventii si marci în județul Bucuresti."
-    },
-    "crime": "fals intelectual; abuz în serviciu; delapidare; uz de fals",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 5 iulie 2013. Condamnarea inculpatei VĂLEANU IRINA, director economic la Oficiul de Stat pentru Invenții și Mărci (O.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4196"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Valeanu Irina indică județul Bucuresti, funcția \"Director economic\", instituția \"Oficiul de stat pentru inventii si marci\", decizia 1304 și condamnarea din 05/07/2013."
+        "url": "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-gorj.html",
+        "description": "Lista candidaților la Primăria Motru îl indică pe Urucu Marian din partea Partidului Socialist Român."
       }
     ]
   },
   {
     "name": "Vamanu Carmen Mariana",
     "party": "Independent",
-    "position": "Inspector sef în Inspectoratul teritorial de munca (MMFPS)",
+    "position": "Fost prefect al județului Mureș (2000–2001) și fost inspector-șef al ITM Mureș",
     "position_type": "other",
     "geography": {
-      "county": "Mures",
+      "county": "Mureș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Inspector sef în Inspectoratul teritorial de munca (MMFPS) în județul Mures."
+      "note": "A fost prefect al județului Mureș între iulie 2000 și ianuarie 2001, apoi inspector-șef al ITM Mureș."
     },
     "crime": "abuz în serviciu contra intereselor publice și folosirea de informații ce nu sunt destinate publicității",
     "sentence": "2 ani închisoare cu suspendare",
@@ -38794,8 +38589,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 aprilie 2012. Condamnarea inculpatei VAMANU CARMEN MARIANA, inspector-șef al Inspectoratului Teritorial de Muncă (I.",
-    "verified_at": "2026-06-10",
+    "details": "Potrivit DNA, prin decizia definitivă nr. 354 din 19 aprilie 2012, Carmen Mariana Vamanu, inspector-șef al ITM Mureș, a fost condamnată la 2 ani de închisoare cu suspendare pentru abuz în serviciu contra intereselor publice și folosirea de informații ce nu sunt destinate publicității. Hotărârile Guvernului publicate în Monitorul Oficial confirmă că a fost prefect al județului Mureș între iulie 2000 și ianuarie 2001. Nu a fost identificată o afiliere individuală de partid suficient documentată.",
+    "verified_at": "2026-09-09",
     "sources": [
       {
         "label": "DNA",
@@ -38807,38 +38602,18 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Vamanu Carmen Mariana indică județul Mures, funcția \"Inspector sef\", instituția \"Inspectoratul teritorial de munca (MMFPS)\", decizia 354 și condamnarea din 19/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Varga Gabriel",
-    "party": "Independent",
-    "position": "Comisar în Garda nationala de mediu",
-    "position_type": "other",
-    "geography": {
-      "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comisar în Garda nationala de mediu în județul Bihor."
-    },
-    "crime": "fals intelectual; luare de mită; abuz în serviciu",
-    "sentence": "4 ani și 4 luni închisoare",
-    "sentence_years": 4.33,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Varga Gabriel a fost condamnat definitiv la 3 iunie 2014 la 4 ani și 4 luni închisoare. Funcția relevantă consemnată în sursă: Comisar în Garda nationala de mediu. Infracțiunea reținută: fals intelectual; luare de mită; abuz în serviciu.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4988"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Varga Gabriel indică județul Bihor, funcția \"Comisar\", instituția \"Garda nationala de mediu\", decizia 268 și condamnarea din 03/06/2014."
+        "label": "Monitorul Oficial nr. 321/11.07.2000",
+        "kind": "official",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2000-07-11%2C_nr._321.pdf",
+        "description": "Hotărârea Guvernului nr. 584/2000 o numește pe Carmen Mariana Vamanu în funcția de prefect al județului Mureș."
+      },
+      {
+        "label": "Monitorul Oficial nr. 24/15.01.2001",
+        "kind": "official",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2001-01-15%2C_nr._24.pdf",
+        "description": "Hotărârea Guvernului nr. 120/2001 consemnează eliberarea sa din funcția de prefect al județului Mureș."
       }
     ]
   },

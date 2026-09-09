@@ -49,6 +49,7 @@ const KNOWN_PARTIES = [
   'Rom\u00e2nia Socialist\u0103',
   'Partida Romilor Pro-Europa',
   'Partidul pentru Odorheiu Secuiesc',
+  'Partidul Socialist Român',
 ];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];
 const STATUSES_REQUIRING_SENTENCE = ['convicted', 'first_instance', 'prescribed'];

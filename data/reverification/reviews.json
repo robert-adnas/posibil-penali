@@ -51381,6 +51381,196 @@
       ],
       "note": "DNA confirmă că Virgil Turcu a fost șef al Direcției Logistice din SRI și a fost condamnat definitiv în 2013 la 1 an și 3 luni cu suspendare pentru abuz în serviciu calificat. Presa contemporană confirmă rolul exclusiv instituțional în dosarul locuinței lui Radu Timofte. Nu a fost identificată candidatură, funcție electivă sau afiliere politică; profil eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3343",
+      "original_name": "Ulici Ioan",
+      "current_name": "Ulici Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4778",
+        "https://www.satmareanul.net/2011/11/25/mariana-popa-si-ioan-ulici-au-fost-trimimisi-in-judecata/"
+      ],
+      "note": "DNA confirmă identitatea, rolul de fost director adjunct al DGFP Satu Mare și condamnarea definitivă din 2014 la 1 an și 10 luni cu suspendare pentru trafic de influență. Presa locală contemporană îl identifică explicit drept membru PDL Satu Mare. Afilierea Independent, titulatura, geografia și rezumatul juridic trunchiat au fost corectate; profil păstrat în sfera politică.",
+      "reviewed_snapshot_hash": "41c0653507e934b3b402ae876139c0cc6bfa1822239ddf54015b6ee4e9a4437b"
+    },
+    {
+      "profile_id": "RV-3344",
+      "original_name": "Ungur Vasile Tiberiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1918",
+        "https://hotnews.ro/reteaua-politistului-in-flagrant-812057"
+      ],
+      "note": "DNA confirmă identitatea agentului-șef de poliție Vasile Tiberiu Ungur și condamnarea definitivă din 2010 la 2 ani cu suspendare. Infracțiunile corecte sunt luare de mită, trafic de influență și complicitate la trafic de influență în formă continuată; falsul material din profil aparținea altor inculpați. Presa contemporană îl localizează la Seini/IPJ Maramureș. Nu a fost identificat un rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3345",
+      "original_name": "Ungureanu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5390",
+        "https://www.observatorulph.ro/eveniment/4763-comandantul-scolii-de-pompieri-pavel-zaganescu-din-boldesti-cercetat-de-procurorii-dna"
+      ],
+      "note": "DNA confirmă identitatea colonelului în rezervă Ion Ungureanu, fost comandant al Școlii de Subofițeri Pompieri și Protecție Civilă Pavel Zăgănescu din Boldești, și condamnarea definitivă din 2014 la 2 ani cu suspendare. Câmpul generic «Fapte de corupție» omite lista exactă a infracțiunilor din hotărârea definitivă. Nu a fost identificat un rol politic verificabil; omonimii politici sunt persoane distincte. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3346",
+      "original_name": "Urduban Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/doi-politisti-de-la-sectia-5-si-seful-politiei-branesti-arestati-de-pna/"
+      ],
+      "note": "DNA confirmă identitatea lui Gheorghe Urduban, agent de poliție la Secția 5 București, și condamnarea definitivă din 2012 la 1 an cu suspendare pentru luare de mită. Presa contemporană îl identifică și drept fost adjunct al șefului Secției 5. Favorizarea infractorului din câmpul existent aparținea altui inculpat. Nu a fost identificat un rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3347",
+      "original_name": "Ursu Gigel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4068",
+        "https://adevarul.ro/stiri-locale/brasov/doi-comisari-de-la-garda-financiara-acuzati-de-903815.html"
+      ],
+      "note": "DNA confirmă identitatea lui Gigel Ursu, comisar al Gărzii Financiare - Secția Brașov, și condamnarea definitivă din 2013 la 3 ani cu suspendare pentru șase infracțiuni de luare de mită. Câmpul generic «Fapte de corupție» era imprecis. Presa contemporană confirmă aceeași identitate profesională. Nu a fost identificat un rol politic verificabil; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3348",
+      "original_name": "Urucu Marian",
+      "current_name": "Urucu Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1939",
+        "https://www.gorjeanul.ro/investigatii/ogarlaci-a-schimbat-intr-o-singura-zi-directorii-de-cariere-ai-fostului-snlo/",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-gorj.html"
+      ],
+      "note": "DNA confirmă identitatea fostului director comercial CNLO și condamnarea definitivă din 2010 la 2 ani cu suspendare pentru trafic de influență. Presa locală îl identifică drept fost candidat PRM la Primăria Motru în 2008, fost consilier local PRM și fost membru PSD/PRM, iar lista candidaților din 2016 confirmă candidatura sa la Primăria Motru din partea Partidului Socialist Român. Afilierea, rolul și geografia au fost corectate; profil păstrat în sfera politică.",
+      "reviewed_snapshot_hash": "4e2adf3e2e05058824688b8d3f72098177c435db313be010b6f3222385bf6775"
+    },
+    {
+      "profile_id": "RV-3349",
+      "original_name": "Uzunov Liana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4495",
+        "https://www.curentul.info/actualitate/inca-un-director-arestat-si-doi-nemti-cercetati-in-dosarul-mita-la-radet/"
+      ],
+      "note": "DNA confirmă identitatea Lianei Uzunov, fost director comercial RADET, și condamnarea definitivă din 2013 la 4 ani cu executare. Infracțiunile corecte sunt luare de mită și asociere în vederea săvârșirii de infracțiuni; profilul omitea asocierea. Presa contemporană confirmă rolul profesional, fără candidatură, funcție electivă sau afiliere politică verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3350",
+      "original_name": "Vaduva Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3853",
+        "https://www.ploiesti.ro/Hotarari/2020/11_%2829_aprilie_2020%29/114%20HCL%20inchiriere%20spatii%20cu%20alta%20destinatie%20decat%20aceea%20de%20locuinta%202020.pdf",
+        "https://www.observatorulph.ro/administratie/82473-ce-job-uri-au-consilierii-locali-ploiesteni-si-cat-au-castigat-in-2016"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a ofițerului de poliție judiciară Sorin Văduva din IPJ Vâlcea la 2 ani și 3 luni cu executare pentru luare de mită în formă continuată. Politicianul omonim a fost consilier local ALDE la Ploiești, inginer constructor, cu biografie și localizare distincte. Nu există dovadă că polițistul condamnat a avut rol politic; coliziune rezolvată și profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3351",
+      "original_name": "Valeanu Irina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://osim.ro/wp-content/uploads/InfoIntPublic/DeclaratiiAvInt/2009-2013/valeanu_irina.pdf"
+      ],
+      "note": "DNA confirmă numele corect Văleanu Irina, rolul de director economic OSIM și condamnarea definitivă din 2013 la 3 ani cu suspendare. Lista infracțiunilor din profil era incompletă față de hotărârea definitivă, care include și instigare la fals/uz de fals și încălcarea Legii finanțelor publice. Declarația oficială de interese din 2009 nu menționează vreo funcție de partid. Profil instituțional fără rol politic verificabil; eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3352",
+      "original_name": "Vamanu Carmen Mariana",
+      "current_name": "Vamanu Carmen Mariana",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3228",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dc/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2000-07-11%2C_nr._321.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2001-01-15%2C_nr._24.pdf"
+      ],
+      "note": "DNA confirmă identitatea, funcția de inspector-șef ITM Mureș și condamnarea definitivă din 2012 la 2 ani cu suspendare pentru abuz în serviciu și folosirea de informații nedestinate publicității. Hotărârile Guvernului publicate în Monitorul Oficial confirmă mandatul de prefect al județului Mureș între iulie 2000 și ianuarie 2001. Rolul și geografia au fost corectate; profil păstrat în sfera politică extinsă, fără afiliere individuală de partid nedovedită.",
+      "reviewed_snapshot_hash": "69f6a8b098788dc78fcdaa16b6da0b3c24d4aef25595ebcc6559599532dbea9e"
+    },
+    {
+      "profile_id": "RV-3353",
+      "original_name": "Varga Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4988",
+        "https://www.digi24.ro/stiri/actualitate/evenimente/seful-garzii-de-mediu-bihor-a-fost-retinut-pentru-luare-de-mita-19731"
+      ],
+      "note": "DNA confirmă identitatea lui Gabriel Varga, fost comisar al Gărzii Naționale de Mediu - Comisariatul Județean Bihor, și condamnarea definitivă din 2014 la 4 ani și 4 luni cu executare pentru luare de mită, abuz în serviciu și fals intelectual. Presa contemporană confirmă rolul profesional. Nu a fost identificată candidatură, funcție electivă sau afiliere politică; profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
