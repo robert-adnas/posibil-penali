@@ -52139,6 +52139,257 @@
       ],
       "note": "DNA și presa confirmă identitatea sublocotenentului Nicoleta Băcanu din UM 01643 Pitești, condamnarea definitivă din 23 aprilie 2012 la 10 luni cu suspendare și infracțiunea exactă de complicitate la trafic de influență. Eticheta generică «Fapte de corupție» era imprecisă. Nu a fost identificat mandat, candidatură sau rol de partid; profil eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3387",
+      "original_name": "Badalan Eugen",
+      "current_name": "Eugen Bădălan",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3414",
+        "https://www.senat.ro/pagini/rel_int/nato/Componenta%20Delegatiei%20NATO.htm",
+        "https://adevarul.ro/stiri-interne/evenimente/trei-deputati-cu-case-in-bucuresti-cer-statului-994805.html"
+      ],
+      "note": "Păstrat și corectat. DNA confirmă condamnarea definitivă din 29 iunie 2012 la 4 ani cu suspendare sub supraveghere, termen de încercare 9 ani, pentru abuz în serviciu în formă calificată și continuată, precum și funcția de fost comandant al Statului Major al Forțelor Terestre. Sursele parlamentare îl identifică drept deputat PD-L, iar sursa de presă contemporană drept deputat de Brăila. Numele, partidul, funcția și geografia au fost corectate.",
+      "reviewed_snapshot_hash": "e79824abc8659d119080d7db8edf4f1c8cc053efd8ccb8ea4130b74ddab296b7"
+    },
+    {
+      "profile_id": "RV-3388",
+      "original_name": "Balasescu Maximilian Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4147",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2943",
+        "https://legislatie.just.ro/public/DetaliiDocument/14817"
+      ],
+      "note": "Eliminat din registrul politic: Maximilian-Ion Bălășescu a fost procuror la Parchetul de pe lângă Tribunalul Ilfov, fără mandat ales, candidatură sau funcție de partid verificabilă. Numele a fost normalizat în evaluare. Profilul folosea eticheta generică «fapte de corupție»; decizia penală definitivă nr. 2.116/17.06.2013 a stabilit 5 ani de închisoare pentru luare de mită și interzicerea dreptului de a fi ales ori de a ocupa o funcție cu exercițiul autorității de stat pe durata executării și încă 4 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3389",
+      "original_name": "Barbu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=PH"
+      ],
+      "note": "Eliminată din registrul politic: Daniela Barbu din decizia penală nr. 1.823/27.05.2013 este identificată de DNA exclusiv ca lucrător vamal la Biroul Vamal Ploiești; nu există o legătură verificabilă cu vreun mandat, candidatură sau rol de partid. Rezultatele electorale pentru persoane cu același nume nu conțin identificatori care să permită asocierea și nu au fost transferate. Profilul avea și o coliziune juridică: descrierea reda sentința Justinei Stănilă (2 ani și 6 luni), nu pe cea a Danielei Barbu. Pentru Daniela Barbu, hotărârea definitivă stabilește 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, plus interdicții 4 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3390",
+      "original_name": "Barbulescu Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4542",
+        "https://legeaz.net/spete-penal-iccj-completul-de-5-judecatori/decizia-236-2013-abuz-serviciu",
+        "https://www.senat.ro/legis/lista.aspx?an_cls=2009&nr_cls=L55"
+      ],
+      "note": "Eliminat din registrul politic: Adrian Bărbulescu este identificat de DNA și în hotărârea ICCJ exclusiv ca general de brigadă în rezervă, fost locțiitor al șefului Corpului de control al SRI și pensionar, fără mandat ales, candidatură sau rol de partid verificabil. Coincidența cu nume parlamentare a fost rezolvată: sursa Parlamentului îi listează pe Adrian Bădulescu și Daniel-Ionuț Bărbulescu, persoane distincte. Decizia definitivă nr. 236/19.12.2013 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu și fals intelectual; câmpul infracțiunii avea și un separator eronat la început.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3391",
+      "original_name": "Belciug Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3215",
+        "https://adevarul.ro/stiri-locale/pitesti/generali-din-armata-cercetati-pentru-fapte-de-692012.html",
+        "https://comunaveresti.ro/attachments/article/134/Statut%20Vere%C8%99ti%20SV.pdf"
+      ],
+      "note": "Eliminat din registrul politic: colonelul Vasile Belciug, fost comandant al UM 01261 și al Garnizoanei Pitești, este o persoană distinctă de consilierul local PDL omonim din Verești. Sursa biografică îl indică pe militar ca născut în 1961, iar statutul oficial al comunei îl indică pe consilier ca născut la 15.11.1952. Pentru militar nu există mandat, candidatură sau rol de partid verificabil. Decizia definitivă nr. 117/23.04.2012 a stabilit 1 an și 10 luni cu suspendare condiționată, termen de încercare 3 ani și 10 luni, pentru trafic de influență și mai multe instigări, asociere pentru săvârșirea de infracțiuni și folosirea de informații nepublice; profilul avea descrierea trunchiată și lista infracțiunilor incompletă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3392",
+      "original_name": "Berbecaru Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4359",
+        "https://www.gds.ro/Local/2009-07-10/Negret-scapa-iar-de-puscarie/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DJ"
+      ],
+      "note": "Eliminat din registrul politic: Ion Berbecaru este identificat drept contabil al Serviciului Public al Poliției Comunitare Băilești, fără mandat ales, candidatură sau rol de partid verificabil. Funcția politică din același dosar aparținea coinculpatului Ioan Negreț și nu a fost transferată. Decizia definitivă nr. 2.863/25.09.2013 a stabilit 1 an și 6 luni cu suspendare condiționată, termen de încercare 3 ani și 6 luni, pentru complicitate la luare de mită și trafic de influență; profilul folosea eticheta generică «fapte de corupție» și conținea o eroare în denumirea infracțiunii.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3393",
+      "original_name": "Berghezan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3582",
+        "https://www.dna.ro/comunicat.xhtml?id=862",
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/109989"
+      ],
+      "note": "Eliminat din registrul politic: Ioan Berghezan este identificat de DNA și de Portalul Legislativ exclusiv ca procuror la Parchetul de pe lângă Curtea de Apel Alba Iulia, fără mandat ales, candidatură sau funcție de partid verificabilă. Rezultatele politice pentru numele Berghezan aparțin altor persoane și nu au fost transferate. Decizia definitivă nr. 208/04.10.2012 confirmă 4 ani de închisoare în regim de detenție pentru trafic de influență, interdicții pe durata executării, restituirea a 20.000 euro și 14.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3394",
+      "original_name": "Betelie Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5448",
+        "https://www.dna.ro/comunicat.xhtml?id=6929",
+        "https://www.dna.ro/comunicat.xhtml?id=3071"
+      ],
+      "note": "Eliminat din registrul politic: Mihai Betelie este identificat exclusiv ca prim-procuror al Parchetului Judecătoriei Sectorului 4, fără mandat ales, candidatură politică sau funcție de partid. Funcția PNL și folosirea directă a influenței politice aparțineau coinculpatului Hubert Thuma; Betelie a fost condamnat pentru instigare, nu ca lider de partid. Profilul era juridic incomplet: decizia definitivă nr. 94/13.10.2014 a stabilit 6 luni cu suspendare condiționată pentru instigare, iar decizia definitivă nr. 429/24.11.2015 a stabilit 2 ani și 6 luni cu suspendare, termen de supraveghere 5 ani, pentru operațiuni financiare incompatibile, fals intelectual, fals în înscrisuri sub semnătură privată și fals în declarații.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3395",
+      "original_name": "Bolocan Doina Florentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2029",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2007-09-18%2C_nr._638.pdf",
+        "https://www.unbr.ro/wp-content/uploads/2019/08/Hotarare-4-Comisie-examen-august-2019-OK.pdf"
+      ],
+      "note": "Eliminată din registrul politic: Doina-Florentina Bolocan este identificată oficial ca fost procuror al Parchetului de pe lângă Judecătoria Giurgiu și ulterior candidat admis în profesia de avocat, fără mandat ales, candidatură politică sau funcție de partid verificabilă. Decretul nr. 836/2007 confirmă eliberarea din magistratură prin demisie. Decizia definitivă nr. 4.090/17.11.2010 confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru două infracțiuni de trafic de influență, interdicții 3 ani și obligații bănești; câmpul juridic generic a fost corectat în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3396",
+      "original_name": "Bolos Florita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4810",
+        "https://www.dna.ro/comunicat.xhtml?id=8498",
+        "https://portal.just.ro/246/Documents/Bilant2012.pdf"
+      ],
+      "note": "Eliminată din registrul politic: Florița Boloș este identificată exclusiv ca judecător/fost judecător la Judecătoria Ineu, fără mandat ales, candidatură politică sau funcție de partid verificabilă. Numele a fost normalizat în evaluare. Profilul era juridic incomplet: pe lângă condamnarea definitivă din 09.04.2014 la 4 ani de închisoare pentru luare de mită și falsuri/abuzuri, decizia penală definitivă nr. 372/31.10.2017 a stabilit 7 ani de închisoare pentru 8 fapte de abuz în serviciu, 8 fapte de fals intelectual, 2 fapte de fals material în înscrisuri oficiale și instigare la fals în înscrisuri sub semnătură privată, plus interdicții și obligații civile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3397",
+      "original_name": "Bosutar Ovidiu Georgel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2390",
+        "https://www.senat.ro/infocomisii2.aspx"
+      ],
+      "note": "Eliminat din registrul politic: Ovidiu-Georgel Boșutar este identificat de DNA exclusiv ca maior și șef al structurii de securitate la UM 01225 Pitești, fără mandat ales, candidatură ori rol de partid verificabil. Parlamentarul omonim parțial este Tiberiu-Nicolae Boșutar, persoană distinctă. Decizia definitivă nr. 143/21.05.2012 a stabilit 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru complicități la fals intelectual (157 acte), uz de fals (157), abuz în serviciu (71) și folosirea de informații nepublice (142), plus asociere pentru săvârșirea de infracțiuni; profilul omitea calificările, numărul actelor și două fapte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3398",
+      "original_name": "Branga Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.customs.ro/assets/pdf/customs/anv/2012/BUCURESTI/declaratii%20de%20avere%20nedepuse%202012.pdf",
+        "https://www.ploiesti.ro/ALEGERI%202024/PV%20sectii%20de%20votare-03062024.pdf"
+      ],
+      "note": "Eliminat din registrul politic: Dumitru Branga este identificat oficial ca lucrător/controlor vamal la structura vamală Prahova, fără mandat ales, candidatură ori funcție de partid verificabilă. Un membru PNL al unei secții de votare din Ploiești în 2024 are același nume, însă identificatorii sunt anonimizati, asocierea cu fostul vameș nu poate fi demonstrată, iar simpla reprezentare într-o secție nu justifică transferul profilului penal. Profilul reda greșit sentința Justinei Stănilă. Pentru Dumitru Branga, decizia definitivă nr. 1.823/27.05.2013 stabilește 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, interdicții 4 ani și confiscarea a 50 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3399",
+      "original_name": "Bucur Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3707",
+        "https://hotnews.ro/fratii-crestin-implicati-in-filiera-sri-prahova-862043",
+        "https://brasov.usrplus.ro/echipa-de-candidati/"
+      ],
+      "note": "Eliminat din registrul politic: Daniel Bucur din hotărârea penală este colonel în rezervă și fost prim-locțiitor al Secției de informații SRI Prahova, fără mandat ales, candidatură ori funcție de partid verificabilă. Candidatul USR PLUS omonim din Brașov era un inginer silvic în vârstă de 44 de ani în 2020 și este o persoană distinctă. Decizia definitivă nr. 3.751/16.11.2012 confirmă 3 ani și 6 luni cu executare pentru complicitate la delapidare, luare de mită, complicitate la luare de mită și asociere pentru săvârșirea de infracțiuni, plus interdicții, confiscări și despăgubiri; câmpul juridic era incomplet.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3400",
+      "original_name": "Bucur Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4720",
+        "https://www.dna.ro/comunicat.xhtml?id=888",
+        "https://legislatie.just.ro/public/DetaliiDocument/43634"
+      ],
+      "note": "Eliminat din registrul politic: Gheorghe Bucur a fost judecător la Curtea Supremă/ICCJ, membru al CSM și ulterior notar public, fără mandat ales, candidatură politică sau funcție de partid verificabilă. Calitatea de membru CSM nu reprezintă o funcție politică. Decizia definitivă nr. 29/10.03.2014 a stabilit 2 ani și 6 luni de închisoare pentru complicitate la cumpărare de influență, interdicții și 5.000 lei cheltuieli judiciare; profilul omitea forma de participație și formula eronat instituția notarului.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
