@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-09-10",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -51570,6 +51570,574 @@
         "https://www.digi24.ro/stiri/actualitate/evenimente/seful-garzii-de-mediu-bihor-a-fost-retinut-pentru-luare-de-mita-19731"
       ],
       "note": "DNA confirmă identitatea lui Gabriel Varga, fost comisar al Gărzii Naționale de Mediu - Comisariatul Județean Bihor, și condamnarea definitivă din 2014 la 4 ani și 4 luni cu executare pentru luare de mită, abuz în serviciu și fals intelectual. Presa contemporană confirmă rolul profesional. Nu a fost identificată candidatură, funcție electivă sau afiliere politică; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3354",
+      "original_name": "Varga Gavril Alexandru(Gabor)",
+      "current_name": "Varga Gábor",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://hotnews.ro/varga-gabor-udmr-noul-sef-al-oficiului-de-stat-pentru-inventii-si-marci-731037",
+        "https://www.ebihoreanul.ro/stiri/fostul-presedinte-al-udmr-bihor-varga-gabor-mazilit-de-la-osim-dupa-ce-a-fost-condamnat-la-inchisoare-109672.html"
+      ],
+      "note": "Identitatea completă din dosarul DNA corespunde politicianului bihorean cunoscut public ca Varga Gábor. Au fost corectate numele, afilierea UDMR, baza geografică, rolul politic, descrierea trunchiată și încadrarea completă a infracțiunii; condamnarea definitivă și pedeapsa sunt confirmate.",
+      "reviewed_snapshot_hash": "14abbe6e1d3b606facad4efe8e42c2c03544f0022bb0a6b98d633031dd065e28"
+    },
+    {
+      "profile_id": "RV-3356",
+      "original_name": "Vicol Ioan-Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2055",
+        "https://monitorulneamt.ro/finantistii-acuzati-de-coruptie-nu-mai-fac-inchisoare/"
+      ],
+      "note": "DNA și presa locală identifică persoana exclusiv ca șef al Administrației Finanțelor Publice Roman, condamnat definitiv pentru favorizarea infractorului. Nu a fost găsit un mandat, o candidatură ori o funcție de partid verificabilă; profil eliminat ca funcționar public din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3357",
+      "original_name": "Visan Anica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2747",
+        "https://hotnews.ro/jaf-la-protectia-copilului-820348"
+      ],
+      "note": "DNA o identifică drept fost inspector în Biroul Corp Control al DGJPC Prahova și confirmă definitiv 3 ani cu suspendare pentru luare de mită în formă continuată. Nu a fost găsit un rol politic verificabil; profilul a fost eliminat ca funcționar administrativ din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3358",
+      "original_name": "Visan Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://adevarul.ro/stiri-interne/societate/masini-de-politie-cu-girofar-escorta-pentru-693466.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a agentului Secției 5 București la 1 an și 6 luni cu suspendare pentru luare de mită, asociere și complicitate la furt calificat. Presa contemporană confirmă identitatea în lotul de polițiști; nu există rol politic verificabil, deci profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3359",
+      "original_name": "Visu Radu-Dimitrie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-09",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5032",
+        "https://www.goscom-vaslui.ro/index.php/component/content/article/conducere?Itemid=101&catid=17",
+        "https://site-vechi.acor.ro/activitati-prin-cooperare/"
+      ],
+      "note": "DNA confirmă definitiv 1 an cu suspendare pentru primire de foloase necuvenite și instigare la fals. Sursele instituționale îl identifică ulterior în roluri profesionale de audit și administrator neexecutiv, cu mențiunea explicită neafiliat politic; fără mandat sau candidatură, profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3360",
+      "original_name": "Vlad Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2427",
+        "https://romanialibera.ro/special/fost-director-al-dadr-hunedoara-judecat-135635/",
+        "https://adevarul.ro/stiri-locale/hunedoara/fostul-sef-al-directiei-agricole-hunedoara-si-961920.html"
+      ],
+      "note": "DNA și presa confirmă identitatea adjunctei DADR Hunedoara și condamnarea definitivă la 1 an și 6 luni cu suspendare pentru abuz în serviciu. Căutările nominale nu documentează mandat, candidatură ori funcție de partid; profil eliminat ca funcționar administrativ din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3361",
+      "original_name": "Vladasel Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2776",
+        "https://www.mediafax.ro/justitie/presedintele-pnl-gorj-dan-ilie-morega-deferit-justitiei-2312925",
+        "https://cjgorj.ro/Date%20site/Urbanism/PAAR%20GORJ%202017.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 1 an cu suspendare și îl identifică drept șef al Biroului de gestiune a resurselor de apă SGA Gorj. Deși dosarul îl include pe liderul PNL Dan Ilie Morega, sursele îl prezintă pe Vlădășel numai ca funcționar tehnic; documente ulterioare confirmă rolul profesional, fără mandat sau funcție de partid. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3362",
+      "original_name": "Voicu (Ciovica) Laura Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1010",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2011-02-10%2C_nr._106.pdf"
+      ],
+      "note": "DNA confirmă identitatea inspectorului DGFP Dolj și condamnarea definitivă la 3 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Monitorul Oficial confirmă forma numelui Laura Ileana Ciovică și statutul de funcționar public; fără rol politic verificabil, profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3363",
+      "original_name": "Voicu Ana Gabriela",
+      "current_name": "Voicu Ana Gabriela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4730",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://actualitateaprahoveana.ro/politic/4203-fostul-vicepresedinte-pdl-al-cj-prahova-auras-dragomir-candideaza-din-partea-pp-dd"
+      ],
+      "note": "Condamnarea definitivă, pedeapsa și infracțiunea sunt confirmate de DNA. Centralizatorul BEC și lista candidaturilor județene documentează candidatura PP-DD la Primăria Bănești și la CJ Prahova în 2012; au fost corectate partidul, rolul și geografia politică.",
+      "reviewed_snapshot_hash": "4f086ec83fef8beef4a154c17da6844389919fd5f4ccb91f4b34511dd73c9d96"
+    },
+    {
+      "profile_id": "RV-3364",
+      "original_name": "Voicu Stelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/",
+        "https://adevarul.ro/stiri-locale/craiova/angajatii-de-la-finante-care-au-acordat-returnari-1485594.html"
+      ],
+      "note": "DNA și presa identifică persoana drept șef de serviciu/angajat DGFP Dolj și confirmă condamnarea definitivă la 2 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Nu există rol politic verificabil; rezultate omonime din alte județe nu pot fi atribuite. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3365",
+      "original_name": "Voinea Augustin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3411",
+        "https://ziare.com/stiri/frauda/trei-comisari-de-la-garda-financiara-trimisi-in-judecata-de-dna-pentru-mita-807457"
+      ],
+      "note": "DNA confirmă definitiv 2 ani cu suspendare sub supraveghere pentru luare de mită; câmpul generic «Fapte de corupție» a fost astfel rectificat în audit. Persoana este documentată ca comisar al Gărzii Financiare, fără mandat, candidatură ori funcție de partid verificabilă; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3366",
+      "original_name": "Voinescu Marian Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4057",
+        "https://cvlpress.ro/16.05.2013/inspectorul-voinescu-de-la-dsp-dolj-condamnat-definitiv-pentru-luare-de-mita/",
+        "https://www.cmdj.ro/documents/others/lista%20membrii%20cm%20dolj%2011%20sept%20201711_09_2017_02_22_27.pdf"
+      ],
+      "note": "DNA și presa locală confirmă identitatea medicului-inspector DSP Dolj, condamnarea definitivă la 1 an cu executare și infracțiunea exactă de luare de mită; câmpul generic existent era imprecis. Colegiul Medicilor confirmă identitatea profesională. Fără rol politic verificabil, profilul a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3367",
+      "original_name": "Vranceanu Miluta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4466",
+        "https://monitorulneamt.ro/comisar-de-politie-600-de-euro-spaga/",
+        "https://adevarul.ro/stiri-locale/bacau/ofiter-de-politie-trimis-in-judecata-de-dna-bacau-1215719.html"
+      ],
+      "note": "DNA confirmă identitatea comisarului-șef IPJ Neamț, condamnarea definitivă la 2 ani și 6 luni cu suspendare și traficul de influență. Presa confirmă rolul de șef al Poliției Rurale Roznov; nu există mandat, candidatură sau funcție de partid verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3368",
+      "original_name": "Vulpe Ion",
+      "current_name": "Vulpe Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3434",
+        "https://www.curentul.info/politic/psd-gorj-acuzat-ca-se-foloseste-de-masinile-cn-lignitul-oltenia/",
+        "https://hotnews.ro/directorul-general-al-snl-oltenia-si-a-dat-demisia-828806"
+      ],
+      "note": "DNA confirmă identitatea fostului director general CNLO, condamnarea definitivă la 5 ani cu executare și infracțiunea. Presa contemporană îl identifică explicit ca vicepreședinte PSD Gorj; au fost corectate partidul, rolul și geografia politică.",
+      "reviewed_snapshot_hash": "39e6d7d9d3517c225f6d33f0851b3aebeaa64820160f6cf71013ca0ad6c2d13e"
+    },
+    {
+      "profile_id": "RV-3369",
+      "original_name": "Zaharia Romeo-Aurelian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2134",
+        "https://adevarul.ro/stiri-locale/alba-iulia/medic-veterinar-din-cugir-trimis-in-judecata-928681.html",
+        "https://alba24.ro/wp-content/uploads/2024/08/Lista-unitati-DDD-Alba.pdf"
+      ],
+      "note": "DNA confirmă identitatea medicului veterinar-inspector DSVSA Alba, condamnarea definitivă la 2 ani cu suspendare și infracțiunea exactă de luare de mită; câmpul generic existent era imprecis. Surse ulterioare îl documentează în activitate profesională la Cugir, fără mandat, candidatură ori funcție de partid verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3370",
+      "original_name": "Zamfir Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2977",
+        "https://hotnews.ro/directorul-adjunct-sri-dumitru-zamfir-eliberat-din-functie-de-traian-basescu-765852"
+      ],
+      "note": "DNA confirmă identitatea fostului adjunct SRI și condamnarea definitivă din 13 februarie 2012 la un an cu suspendare pentru fals în declarații; câmpul crime existent indica eronat instigare la abuz în serviciu. Nu a fost identificat un mandat, o candidatură sau o funcție de partid; profilul instituțional, nepolitic, a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3371",
+      "original_name": "Zamfir Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2702",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/din-salariul-sau-de-bugetarcomisarul-zamfir-fara-avere-dar-cu-proces-pentru-mita-documente-46127-316016.html",
+        "https://editiadesud.ro/i-credinciosii-din-carton-ai-primarului-arestat-cristian-radu-laurentiu-zamfir-seful-politiei-locale-mangalia/"
+      ],
+      "note": "DNA și presa locală confirmă identitatea comisarului Gărzii Financiare Constanța, condamnarea definitivă la 1 an și 6 luni cu suspendare și infracțiunea exactă de luare de mită, nu eticheta generică existentă. Activitatea ulterioară documentată este administrativă, la Poliția Locală Mangalia; nu a fost identificat un mandat, o candidatură sau o funcție de partid. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3372",
+      "original_name": "Zaplaic Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3398",
+        "https://semnal.eu/ro/justitie/2012/07/18/buzau-sase-subofiteri-isu-implicati-intr-un-dosar-de-coruptie-au-fost/",
+        "https://jurnalul.ro/stiri/observator/patru-ofiteri-dati-pe-mana-instantei-531797.html"
+      ],
+      "note": "DNA confirmă identitatea colonelului în rezervă din ISU Buzău și condamnarea definitivă la 4 ani în regim de detenție. Profilul avea descriere trunchiată și o enumerare incompletă a infracțiunilor: decizia include complicitate la abuz și la tentativa de abuz, fals intelectual, uz de fals și distrugere de înscrisuri, în formă continuată. Nu a fost identificat rol politic; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3373",
+      "original_name": "Zeicu Sebastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4667",
+        "https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/dna-serviciul-teritorial-timisoara-efectueaza-cercetari-penale-fata-de-invinuitii-zeicu-sebastian-si-doban-remus-alin-ambii-comisari-din-cadrul-garzii-financiare-caras-severin-458464.html"
+      ],
+      "note": "DNA confirmă identitatea fostului comisar al Gărzii Financiare Caraș-Severin, condamnarea definitivă din 29 ianuarie 2014 la 3 ani cu suspendare sub supraveghere și infracțiunile de luare de mită în formă continuată și fals intelectual. Nu a fost identificat mandat, candidatură sau rol de partid; profilul de funcționar a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3374",
+      "original_name": "Zelinca Rodica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4136",
+        "https://www.primariapn.ro/fisiere/hcl/proceseverbale2009/pv_29_04_2009.pdf",
+        "https://stiri.botosani.ro/stiri/actualitate/judetul-botosani-un-nou-subprefect-ludovic-orban-a-acceptat-propunerea-facuta-de-politicienii-de-la-botosani.html"
+      ],
+      "note": "DNA și actele Consiliului Local Piatra Neamț identifică persoana condamnată drept Rodica Zelincă, director executiv al Direcției Taxe și Impozite, funcție publică administrativă, și confirmă pedeapsa definitivă de 3 ani cu suspendare pentru abuz în serviciu. Rezultatele despre subprefectul de Botoșani se referă la o persoană omonimă, documentată profesional ca inginer/comisar în Botoșani, și nu au fost atribuite condamnatei. Profilul nepolitic a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3375",
+      "original_name": "Zetu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.monitoruldevrancea.ro/2014/03/20/pedepse-mai-blande-in-dosarul-mita-la-bac/",
+        "https://www.ziaruldevrancea.ro/actualitatea/stiri-locale/5226-seful-politiei-vrincene-va-deveni-comisar-sef.html"
+      ],
+      "note": "DNA confirmă identitatea fostului agent de poliție din cadrul Poliției Municipiului Adjud, condamnarea definitivă din 19 martie 2014 la 1 an cu suspendare și infracțiunea de trafic de influență. Sursele profesionale confirmă aceeași identitate, fără mandat, candidatură sau funcție de partid verificabilă. Profilul nepolitic a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3376",
+      "original_name": "Zevri Senol",
+      "current_name": "Zevri Senol",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4895",
+        "https://adevarul.ro/politica/candidatii-colegiu-cu-colegiu-azi-judetul-715511.html",
+        "https://www.ziuaconstanta.ro/stiri/interviu/cei-care-au-vrut-functii-in-partidul-democrat-nu-s-au-gandit-si-la-responsabilitati-215717.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 3 ani cu executare pentru luare de mită, nu complicitate la luare de mită. Sursele electorale și politice îl identifică drept vicepreședinte al PD Constanța și candidat PD-L la Camera Deputaților în 2008. Profil păstrat și corectat: partid PDL, rol politic și geografie politică adăugate, infracțiune corectată.",
+      "reviewed_snapshot_hash": "efd86ba23b777cc6bb08985caad0da291a54da10bf1bf3eae96d4d936bc36172"
+    },
+    {
+      "profile_id": "RV-3377",
+      "original_name": "Zicu Petre",
+      "current_name": "Zicu Petre",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2291",
+        "https://www.mediafax.ro/social/trei-inspectori-vamali-condamnati-definitiv-pentru-luare-de-mita-9485118/amp",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_ialomita/consiliul-local/urziceni/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/urziceni/1"
+      ],
+      "note": "DNA și presa confirmă condamnarea definitivă la 3 ani cu suspendare sub supraveghere pentru două infracțiuni de luare de mită, în locul etichetei generice existente. Listele electorale îl indică drept candidat la Consiliul Local Urziceni pentru Pro România în 2020 și S.O.S. România în 2024. Profil păstrat și corectat cu afilierea cea mai recentă, rolul de candidat, localitatea și infracțiunea exactă.",
+      "reviewed_snapshot_hash": "dfbabc011b9a76f7cd8354482d00de61508785380a39385351e288738e005d54"
+    },
+    {
+      "profile_id": "RV-3378",
+      "original_name": "Zinca Grigore",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1945",
+        "https://www.cjmehedinti.ro/documents/20119/75890/P.V.%2BComisia%2BDisciplina.pdf/346d32ee-3b9e-37c9-46ed-bc3d05d5a62e?t=1599219309726",
+        "https://www.cjmehedinti.ro/documents/20119/48980/25...Invitatie%2Bsi%2Bdocumentatie%2BCREDIT%2B24.06.2020.pdf/3ad3e2f9-5775-3cfc-24b9-8a1a4c9a89f6?t=1593067655685"
+      ],
+      "note": "DNA confirmă identitatea inspectorului-șef adjunct ITM Mehedinți, condamnarea definitivă din 6 iulie 2010 la 2 ani cu suspendare și infracțiunile de abuz în serviciu, fals intelectual și uz de fals. Acte administrative ulterioare îl documentează ca funcționar public și manager de proiect, fără mandat, candidatură ori funcție de partid verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3379",
+      "original_name": "Zold Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2722",
+        "https://www.curentul.info/actualitate/abuz-in-serviciu-la-jandarmerie/",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_10feb2022.pdf"
+      ],
+      "note": "DNA confirmă identitatea fostului șef al Serviciului suport logistic din IJJ Harghita, condamnarea definitivă din 19 octombrie 2011 la 3 ani cu suspendare și infracțiunea de abuz în serviciu în formă continuată. Activitatea ulterioară identificată este într-o asociație a cadrelor militare în rezervă, nu într-un partid sau mandat electiv. Profil eliminat ca nepolitic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3380",
+      "original_name": "Aldea Virgil Horatiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5366",
+        "https://lege5.ro/Gratuit/gqydmnztgm/articol-unic-decret-653-2014?dp=gy4dombxge4tk",
+        "https://www.juridice.ro/wp-content/uploads/2011/12/evidenta-proc-functii-de-conducere.pdf"
+      ],
+      "note": "DNA confirmă identitatea prim-procurorului Parchetului de pe lângă Judecătoria Sighișoara, condamnarea definitivă din 2 octombrie 2014 la 3 luni cu suspendare și infracțiunea privind obținerea nelegală de fonduri europene prin documente ori declarații false. Decretul nr. 653/2014 confirmă eliberarea din funcție ca urmare a condamnării. Nu a fost identificat rol politic; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3381",
+      "original_name": "Scutea Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5030",
+        "https://www.barou-alba.ro/tabloul-avocatilor/?orderby=o",
+        "https://alba24.ro/avocata-doina-scutea-ramane-decan-al-baroului-de-avocati-alba-colegii-nu-au-cerut-revocarea-ei-din-functie-18778.html"
+      ],
+      "note": "DNA confirmă identitatea fostului decan al Baroului Alba, condamnarea definitivă din 12 iunie 2014 la 2 ani cu suspendare și infracțiunile de trafic de influență, tentativă la înșelăciune și fals în înscrisuri sub semnătură privată în formă continuată. Evidența Baroului Alba o documentează în continuare profesional, fără mandat, candidatură ori funcție de partid verificabilă. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3382",
+      "original_name": "Andrisan Mircea-Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4187",
+        "https://www.dna.ro/comunicat.xhtml?id=1448"
+      ],
+      "note": "DNA confirmă identitatea controlorului vamal principal de la Biroul Vamal Dornești – Punctul Vamal Vicovu de Sus și condamnarea definitivă din 25 iunie 2013 la 2 ani cu suspendare sub supraveghere pentru două infracțiuni de fals intelectual în formă continuată. Eticheta generică «Fapte de corupție» era imprecisă. Nu a fost identificat rol politic; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3383",
+      "original_name": "Androne Emilian Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3171",
+        "https://jurnalul.ro/special-jurnalul/sefii-detasamentului-de-pompieri-din-sinaia-sint-anchetati-de-dna-130058.html"
+      ],
+      "note": "DNA confirmă identitatea locțiitorului comandantului Detașamentului de Pompieri Sinaia, condamnarea definitivă din 11 aprilie 2012 la 2 ani cu executare și infracțiunea de abuz în serviciu în formă continuată. Nu a fost identificat mandat, candidatură ori rol de partid; profilul militar nepolitic a fost eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3384",
+      "original_name": "Anghel Laurentiu - Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4652",
+        "https://adevarul.ro/stiri-locale/craiova/judecatorii-spagari-de-la-tribunalul-dolj-au-fost-1231644.html",
+        "https://dnews24.ro/wp-content/uploads/2026/04/Hotarare-_-lista-preliminara-candidati-aprilie-2026-3.pdf"
+      ],
+      "note": "DNA confirmă identitatea fostului judecător al Tribunalului Dolj, condamnarea definitivă din 30 ianuarie 2014 la 4 ani și 6 luni cu executare și infracțiunile de trafic de influență și complicitate la luare de mită. Evidențele ulterioare privesc admiterea în avocatură, nu alegeri politice. Nu a fost identificat mandat, candidatură electorală ori rol de partid; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3385",
+      "original_name": "Apostu Florin Nicusor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3205",
+        "https://www.juridice.ro/wp-content/uploads/2011/12/evidenta-proc-functii-de-conducere.pdf",
+        "https://www.turnulsfatului.ro/2012/05/17/consiliul-superior-al-magistraturii-l-a-exclus-pe-apostu-din-magistratura-15002"
+      ],
+      "note": "DNA confirmă identitatea fostului prim-procuror al Parchetului de pe lângă Judecătoria Sibiu și condamnarea definitivă la 5 ani cu executare. Câmpul crime era incomplet: decizia include și reținere/distrugere de înscrisuri, favorizarea infractorului și fals în declarații, pe lângă multiple fapte de mită, trafic de influență și fals. Nu a fost identificat rol politic; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3386",
+      "original_name": "Bacanu Nicoleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3215",
+        "https://www.telegrafonline.ro/sentinta-in-dosarul-fraudarii-concursurilor-de-promovare-in-mapn"
+      ],
+      "note": "DNA și presa confirmă identitatea sublocotenentului Nicoleta Băcanu din UM 01643 Pitești, condamnarea definitivă din 23 aprilie 2012 la 10 luni cu suspendare și infracțiunea exactă de complicitate la trafic de influență. Eticheta generică «Fapte de corupție» era imprecisă. Nu a fost identificat mandat, candidatură sau rol de partid; profil eliminat.",
       "reviewed_snapshot_hash": null
     }
   ]
