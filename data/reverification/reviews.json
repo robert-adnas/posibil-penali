@@ -52793,6 +52793,239 @@
       ],
       "note": "Eliminat după rezolvarea omonimiilor: condamnatul este colonelul în rezervă Gheorghe Dumitrache, fost șef al Sectorului A din Secția de Informații Prahova a SRI, distinct de fostul demnitar PCR născut în 1923 și de reprezentantul PNL dintr-un birou electoral constănțean în 2024. Nu a fost identificată o funcție, candidatură sau afiliere politică proprie a fostului ofițer. Decizia definitivă nr. 20/04.02.2013 confirmă 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 8 ani, pentru trafic de influență, dare de mită și încercarea de a determina mărturia mincinoasă, confiscarea a 78.349,47 lei și 11.000 lei cheltuieli judiciare.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3424",
+      "original_name": "Dumitru Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.customs.ro/assets/pdf/customs/anv/2012/BUCURESTI/declaratii%20de%20avere%20nedepuse%202012.pdf",
+        "https://www.ploiesti.ro/raport1_%20consilieri2004.pdf"
+      ],
+      "note": "Eliminată după rezolvarea omonimiei: condamnata este Carmen Dumitru, inspector/lucrător vamal la Biroul Vamal Ploiești, distinctă de Carmen-Mihaela Dumitru, medic, consilier municipal și membră PSD. Decizia definitivă nr. 1823/27.05.2013 confirmă 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, precum și 2.000 lei cheltuieli judiciare. Profilul vechi avea infracțiunea generică și descrierea copiată greșit de la co-inculpata Justina Stănilă. Nu există rol politic verificabil al lucrătoarei vamale.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3425",
+      "original_name": "Fanea Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3634",
+        "https://www.grosu.ro/sites/default/files/monitorul-oficial/MONITORUL_OFICIAL_1055_DIN_10-11-2020.PDF",
+        "https://www.cugetliber.ro/upload/static/clujafisarescris-1463469273.pdf"
+      ],
+      "note": "Eliminat după verificarea identității și a omonimiei: condamnatul este Adrian Fanea, lucrător de poliție la Serviciul Pașapoarte Satu Mare, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Candidatul Partidului Verde la Primăria Călinești-Oaș din 2020 este Adrian-Ioan Fanea, născut în 1995 conform listei de recrutare MAI, deci nu putea fi polițistul trimis în judecată în 2004. Decizia definitivă nr. 3383/22.10.2012 confirmă 10 luni închisoare cu suspendare condiționată, termen de încercare 2 ani și 10 luni, pentru două infracțiuni de trafic de influență; profilul vechi afișa eronat o lună.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3426",
+      "original_name": "Firimita Cristian Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.dna.ro/comunicat.xhtml?id=585",
+        "https://www.customs.ro/assets/pdf/customs/anv/2012/BUCURESTI/declaratii%20de%20avere%20nedepuse%202012.pdf"
+      ],
+      "note": "Eliminat deoarece sursele oficiale îl identifică exclusiv drept inspector/lucrător vamal la DJAOV Prahova și Biroul Vamal Ploiești, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 1823/27.05.2013 confirmă 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, plus 2.000 lei cheltuieli judiciare. Profilul vechi avea infracțiunea generică și descrierea copiată greșit de la co-inculpata Justina Stănilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3427",
+      "original_name": "Floarea Ianson Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4092",
+        "https://colmedcj.ro/wp-content/uploads/2024/10/liste-actualizate-alegeri-2024-tur-2.pdf",
+        "https://sremrcm.ro/wp-content/uploads/2010/11/rezumate%20Congres%20Expertiza%20Medicala%202009.pdf"
+      ],
+      "note": "Eliminată deoarece sursele o identifică exclusiv drept medic expert al asigurărilor sociale și șefă a Serviciului de expertiză medicală din Casa Județeană de Pensii Cluj, ulterior medic specialist, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală nr. 89/26.04.2013, definitivă la 08.05.2013, confirmă 2 ani închisoare cu suspendare sub supraveghere, termen de încercare 4 ani, pentru luare de mită, confiscarea a 6.965 lei, 1.350 euro și 200 USD și restituirea a 495 lei. Profilul vechi avea infracțiunea generică și omitea aceste elemente.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3429",
+      "original_name": "Ghirisan Oliwer",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4031",
+        "https://www.gandul.ro/stiri/doi-vamesi-bucuresteni-care-au-primit-cinci-mii-de-lei-mita-au-fost-deferiti-justitiei-de-dna-9696975"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept lucrător vamal în Direcția Regională de Accize și Operațiuni Vamale București, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 1343/17.04.2013 confirmă 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită și 4.100 lei cheltuieli judiciare. Profilul vechi folosea doar formula generică «Fapte de corupție» și nu descria hotărârea.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3430",
+      "original_name": "Ghita Georgeta Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4720",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2008-05-14%2C_nr._368.pdf",
+        "https://www.luju.ro/static/files/2014/septembrie/28/decizie_condamnare_ghita.pdf"
+      ],
+      "note": "Eliminată deoarece identitatea verificată este aceea a fostului procuror și procuror-șef din PICCJ, pensionat în 2008, fără mandat, candidatură, funcție politică sau afiliere de partid verificabilă. Decizia definitivă nr. 29/10.03.2014 confirmă 2 ani închisoare în regim de detenție pentru permiterea accesului unor persoane neautorizate la informații nedestinate publicității și 5.000 lei cheltuieli judiciare. Profilul vechi atribuia eronat complicitatea la cumpărare de influență, faptă reținută altor inculpați din dosar.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3431",
+      "original_name": "Guli Sterian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4720",
+        "https://www.monitoruljuridic.ro/acte-an/decret/an/2014/luna/4/",
+        "https://www.xn--baroulialomia-0ye.ro/avocati-definitivi/"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost prim-procuror al Parchetului de pe lângă Judecătoria Urziceni, ulterior eliberat din funcția de procuror ca urmare a condamnării și înscris ca avocat, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 29/10.03.2014 confirmă 2 ani închisoare în regim de detenție pentru instigare la permiterea accesului unor persoane neautorizate la informații nedestinate publicității și 5.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3432",
+      "original_name": "Horobet Emil Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.dna.ro/comunicat.xhtml?id=585",
+        "https://www.ploiesti.ro/CTUAT/2016/14.09.2016/ORDINEA%20DE%20ZI%20%2015%2009%202016.pdf"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept lucrător vamal al Biroului Vamal Ploiești, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 1823/27.05.2013 confirmă 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, plus 2.000 lei cheltuieli judiciare. Profilul vechi indica eronat anul 2010, folosea o infracțiune generică și copia descrierea co-inculpatei Justina Stănilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3433",
+      "original_name": "Huma Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5177",
+        "https://www.botosaninews.ro/76512/administratie/un-vames-acuza-procurorii-de-ingradirea-dreptului-la-munca/",
+        "https://adevarul.ro/stiri-locale/botosani/vamesul-cercetat-in-libertate-este-anchetat-si-de-1034720.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost controlor vamal superior și șef de tură la Biroul Vamal de Frontieră Stânca-Costești, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 320/06.06.2014 confirmă 8 luni închisoare cu suspendare, termen de încercare 2 ani și 8 luni, pentru abuz în serviciu contra intereselor publice și evaziune fiscală, precum și 8.224 lei despăgubiri plus penalități. Profilul vechi avea un caracter parazit în câmpul infracțiunii și descrierea trunchiată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3434",
+      "original_name": "Iamandei Florin",
+      "current_name": "Florin Iamandei",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4058",
+        "https://www.focsani.info/www2013.focsani.info/fisiere/userfiles/proiecte%20act%20noirmativ/proiect_Statut.pdf",
+        "https://www.ziaruldevrancea.ro/special/educatie/profesorul-florin-iamandei-un-senior-al-scolii-vrancene"
+      ],
+      "note": "Păstrat și corectat: statutul oficial al municipiului Focșani confirmă două mandate de consilier local, în 1992–1996 și 1996–2000, iar profilul biografic documentează traseul FSN/FDSN–PD–ApR. Numele a fost normalizat în ordinea uzuală, partidul principal la PD, funcția la ales local și geografia la baza politică Focșani. Decizia definitivă nr. 1440/25.04.2013 confirmă 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru luare de mită și trafic de influență, restituirea a 1.800 lei și 250 lei cheltuieli judiciare. Descrierea veche era trunchiată.",
+      "reviewed_snapshot_hash": "43ee2e482352cd268c6510c8282f3eee1ac0c266f1ba9f36a9434ee4e88e0553"
+    },
+    {
+      "profile_id": "RV-3435",
+      "original_name": "Icleanu George",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4542",
+        "https://legeaz.net/spete-penal-iccj-completul-de-5-judecatori/decizia-236-2013-abuz-serviciu",
+        "https://primarii.ziaruldevrancea.ro/actualitatea/ultimele-stiri/80348-fostul-sef-al-sri-vrancea-trimis-in-judecata-pentru-fapte-de-coruptie.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept colonel în rezervă și fost ofițer al Corpului de Control SRI, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 236/19.12.2013 confirmă 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu contra intereselor publice și fals intelectual legat direct de o infracțiune asimilată corupției, răspundere solidară pentru 33.725,0569 lei și 1.350 lei cheltuieli judiciare. Profilul vechi avea caractere parazite și o descriere generică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3436",
+      "original_name": "Ignat Sergiu Adorian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://www.dna.ro/comunicat.xhtml?id=7405",
+        "https://portal.just.ro/111/SiteAssets/SitePages/acasa_default/Lista%20sedinta%2014-10-2025%20-%20PI%205C%20%20penal-%20tbh.pdf"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost funcționar/inspector vamal la Direcția Antifraudă – Centrul de Informații Vamale, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 75/21.02.2014 confirmă 5 ani închisoare în regim de detenție pentru luare de mită în formă continuată, interdicții timp de 4 ani după executare și confiscarea a 123.000 euro. Încetarea prin prescripție dispusă în 2024 privește un dosar ulterior și distinct de evaziune fiscală, nu condamnarea din 2014. Descrierea publicată era trunchiată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3437",
+      "original_name": "Ioan Eugen Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3885",
+        "https://monitorulneamt.ro/procurorul-radu-sef-la-parchetul-judetean/",
+        "https://bibgtkneamt.ebibliophil.ro/art/competente-sporite-pentru-parchetul-targu-neamt-interviu-cu-dl-ioan-eugen-radu-prim-procuror-al-parchetului-de-pe-langa-judecatoria-tirgu-neamt-cmp7rvrt"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept procuror și fost prim-procuror al Parchetului de pe lângă Judecătoria Târgu Neamț, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 283/29.01.2013 confirmă 1 an închisoare cu suspendare condiționată, termen de încercare 3 ani, pentru primire de foloase necuvenite, confiscarea a 700 euro și 5.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
