@@ -52597,6 +52597,202 @@
       ],
       "note": "Eliminat după rezolvarea unei coincidențe de nume: condamnatul este fostul procuror Ioan Ciofu de la PICCJ și Parchetul Curții de Apel Iași, nu candidatul Forța Dreptei la Senat din 2024, pe care documentul electoral îl identifică drept pensionar și inginer. Magistratul a fost pensionat prin Decretul nr. 550/2007 și nu are mandat ori candidatură politică verificabilă. Decizia definitivă nr. 22/11.02.2013 confirmă 3 ani în regim de detenție pentru luare de mită, interdicții pe durata executării și 2 ani după, confiscarea echivalentului a 8.102 euro și 4.360 lei; câmpul infracțiunii era generic și a fost corectat în audit.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3413",
+      "original_name": "Cojocaru Eugen,",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4720",
+        "https://www.riseproject.ro/persons/procuror/eugen-cojocaru/",
+        "https://cugetliber.ro/stiri-politica-administratie-200-de-liberali-constanteni-au-dezertat-din-partid-si-au-trecut-la-pdl-76950"
+      ],
+      "note": "Eliminat după rezolvarea omonimiilor: condamnatul este Eugen Cojocaru, fost procuror PICCJ, nu activistul PNL/PDL din Constanța. Cariera documentată îl arată procuror până la eliberarea din funcție la 04.04.2014 ca urmare a condamnării, iar sursele politice nu oferă o legătură de identitate. Decizia definitivă nr. 29/10.03.2014 confirmă 3 ani închisoare pentru trafic de influență și instigare la permiterea accesului neautorizat la informații nedestinate publicității, confiscarea a 15.000 euro și 5.000 lei cheltuieli. Numele avea o virgulă parazită, iar câmpul infracțiunii un caracter introductiv eronat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3414",
+      "original_name": "Costiniu Florin",
+      "current_name": "Florin Costiniu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4034",
+        "https://legislatie.just.ro/Public/DetaliiDocument/16662",
+        "https://legislatie.just.ro/Public/DetaliiDocument/26573",
+        "https://digitallibrary.un.org/record/175654/files/CCPR_SP_39-FR.pdf"
+      ],
+      "note": "Păstrat în domeniul politic deoarece aceeași persoană a fost secretar de stat în Ministerul Justiției și secretar general al Camerei Deputaților înainte de cariera la ICCJ. Numele a fost normalizat în ordinea uzuală. Decizia definitivă nr. 86/22.04.2013 a stabilit 4 ani închisoare cu suspendare sub supraveghere, termen de încercare 9 ani, pentru complicitate la trafic de influență; vechiul profil atribuia eronat fals intelectual și cumpărare de influență și avea descrierea trunchiată.",
+      "reviewed_snapshot_hash": "a2f8e456b8af7668ce3be29c9b13dff0af2ae0bf47835144da619a85a6f60b7f"
+    },
+    {
+      "profile_id": "RV-3415",
+      "original_name": "Cotunoaei Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2519",
+        "https://www.dna.ro/comunicat.xhtml?id=2329"
+      ],
+      "note": "Eliminată deoarece sursele o identifică exclusiv drept controlor vamal principal la Direcția Municipiului București pentru Accize și Operațiuni Vamale, fără funcție, mandat, candidatură sau afiliere politică verificabilă. Decizia definitivă nr. 490/24.06.2011 a stabilit 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită; vechiul câmp al infracțiunii era generic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3416",
+      "original_name": "Danis Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2498",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2011-03-04%2C_nr._157.pdf"
+      ],
+      "note": "Eliminat deoarece identitatea verificată este aceea a prim-procurorului Parchetului de pe lângă Judecătoria Murgeni, fără mandat, candidatură, funcție politică sau afiliere de partid demonstrată. Decizia definitivă nr. 2468/21.06.2011 confirmă 4 ani închisoare în regim de detenție pentru luare de mită, instigare la fals intelectual în formă continuată, uz de fals în formă continuată, sustragere ori distrugere de înscrisuri în formă continuată și favorizarea infractorului, plus confiscarea a 1.600 lei și 1.200 lei cheltuieli judiciare. Decretul nr. 216/2011 confirmă eliberarea din funcția de procuror prin demisie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3417",
+      "original_name": "David Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3887",
+        "https://www.digi24.ro/stiri/actualitate/justitie/judecatoarea-maria-david-iccj-condamnata-definitiv-la-patru-ani-de-inchisoare-cu-executare-43540",
+        "https://www.luju.ro/static/files/2013/aprilie/18/RAPORT_ICCJ_2012.pdf"
+      ],
+      "note": "Eliminată după verificarea omonimiilor: condamnată este Maria David, judecătoare la Secția civilă a ICCJ, suspendată din funcție în 2012, nu persoanele cu nume similar apărute în candidaturi electorale. Nu a fost identificat niciun mandat, rol de partid sau funcție politică al magistratei. Decizia definitivă nr. 24/11.02.2013 confirmă 4 ani închisoare în regim de detenție pentru două infracțiuni de trafic de influență; vechiul câmp «Fapte de corupție» era insuficient.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3418",
+      "original_name": "Diaconescu Marius Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4652",
+        "https://www.dna.ro/comunicat.xhtml?id=1694",
+        "https://cvlpress.ro/19.04.2016/fostul-judecator-bogdan-diaconescu-condamnat-definitiv-in-al-doilea-dosar-de-coruptie/"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv ca fost judecător al Tribunalului Dolj; nu a fost găsit un mandat, o candidatură, o funcție politică ori o afiliere de partid proprie. Legătura familială cu un fost prefect nu justifică includerea. Profilul vechi îi atribuia greșit traficul de influență și complicitatea la luare de mită ale co-inculpatului Laurențiu Anghel: decizia definitivă nr. 347/30.01.2014 l-a condamnat pe Diaconescu pentru luare de mită la 4 ani și 6 luni și confiscarea a 15.000 euro. O a doua condamnare definitivă din 14.04.2016, pentru luare de mită în formă continuată, a stabilit prin contopire 7 ani și 6 luni închisoare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3419",
+      "original_name": "Diaconu Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3215",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2390",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf"
+      ],
+      "note": "Eliminat după separarea omonimiilor: condamnatul este colonelul Valerică Diaconu, fost comandant al UM 01225 Pitești, nu candidatul omonim la Consiliul Local din județul Vaslui în 2024; nu există o legătură de identitate verificabilă între ei. Militarul nu are mandat, candidatură ori afiliere politică demonstrată. Decizia definitivă nr. 117/23.04.2012 confirmă 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru instigare la fals intelectual, uz de fals și abuz în serviciu în formă continuată, asociere pentru săvârșirea de infracțiuni și instigare la folosirea ori permiterea accesului la informații nedestinate publicității. Descrierea veche era copiată de la co-inculpatul Alin-Sorin Pîrvu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3420",
+      "original_name": "Dobre Liliana Eleonora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4196",
+        "https://www.luju.ro/fraudele-directorilor-osim-descoperite-de-procurorii-dna-in-2009-au-fost-sesizate-de-curtea-de-conturi-inca-din-2006"
+      ],
+      "note": "Eliminată deoarece sursele o identifică exclusiv drept casieră în cadrul Oficiului de Stat pentru Invenții și Mărci, fără funcție, mandat, candidatură sau afiliere politică verificabilă. Decizia definitivă nr. 1304/05.07.2013 confirmă 9 luni închisoare cu suspendare sub supraveghere, termen de încercare 3 ani și 9 luni, pentru delapidare, fals intelectual și uz de fals; răspundere civilă solidară cu Irina Văleanu pentru 128.191 lei și 5.143 lei cheltuieli judiciare. Descrierea veche era trunchiată și copiată de la co-inculpatul Viorel Scurtu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3421",
+      "original_name": "Doncu Mircea Ninel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4071",
+        "https://www.dna.ro/comunicat.xhtml?id=2735",
+        "https://www.customs.ro/assets/pdf/customs/anv/2008/DRAOV%20Bucuresti/tabel%20cu%20functionarii%20care%20nu%20au%20depus%20declaratiile%20de%20avere%20si%20interese.pdf"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost funcționar vamal la Direcția Municipiului București pentru Accize și Operațiuni Vamale, fără mandat, candidatură, funcție politică sau afiliere de partid verificabilă. Decizia definitivă nr. 1.482/29.04.2013 confirmă 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 7 ani și 6 luni, pentru două infracțiuni de trafic de influență, confiscarea a 5.000 euro și 2.200 lei cheltuieli judiciare. Vechiul câmp «cumpărare de influență» aparținea co-inculpaților.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3422",
+      "original_name": "Dragomir Larisa Julieta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2920",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b9/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2011-06-23%2C_nr._440.pdf",
+        "https://www.ziuaconstanta.ro/images/stories/2020/05/08/docs/cnsas-comunicat-presa-2020-05-05.pdf"
+      ],
+      "note": "Eliminată deoarece sursele o identifică exclusiv ca judecătoare la Judecătoria Cornetu, fără mandat, candidatură, funcție politică sau afiliere de partid verificabilă. Decizia definitivă nr. 106/18.01.2012 confirmă 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită în formă continuată, restituirea a 500 lei și 3.000 lei cheltuieli judiciare. Decretul nr. 595/20.06.2011 confirmă eliberarea din funcția de judecător prin demisie.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3423",
+      "original_name": "Dumitrache Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3879",
+        "https://hotnews.ro/un-general-si-un-colonel-sri-au-fost-retinuti-pentru-mita-877844",
+        "https://www.primaria-lumina.ro/wp-content/uploads/2024/05/pv-13-2024r.pdf"
+      ],
+      "note": "Eliminat după rezolvarea omonimiilor: condamnatul este colonelul în rezervă Gheorghe Dumitrache, fost șef al Sectorului A din Secția de Informații Prahova a SRI, distinct de fostul demnitar PCR născut în 1923 și de reprezentantul PNL dintr-un birou electoral constănțean în 2024. Nu a fost identificată o funcție, candidatură sau afiliere politică proprie a fostului ofițer. Decizia definitivă nr. 20/04.02.2013 confirmă 3 ani închisoare cu suspendare sub supraveghere, termen de încercare 8 ani, pentru trafic de influență, dare de mită și încercarea de a determina mărturia mincinoasă, confiscarea a 78.349,47 lei și 11.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

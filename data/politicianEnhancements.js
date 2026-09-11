@@ -38879,356 +38879,50 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Cojocaru Eugen,",
-    "party": "Independent",
-    "position": "Procuror în Parchet",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Procuror în Parchet în județul Bucuresti."
+    name: 'Florin Costiniu',
+    party: 'Independent',
+    position: 'Fost secretar de stat în Ministerul Justiției; fost secretar general al Camerei Deputaților; fost judecător ICCJ',
+    position_type: 'secretary_of_state',
+    geography: {
+      county: 'București',
+      basis: 'office',
+      note: 'A exercitat funcții publice centrale în Ministerul Justiției, Camera Deputaților și Înalta Curte de Casație și Justiție.',
     },
-    "crime": ": trafic de influență și instigare la infracțiunea de permitere a accesului unor persoane neautorizate la informații ce nu sunt destinate publicității",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 martie 2014. Condamnă pe inculpatul COJOCARU EUGEN, fost procuror la Parchetul de pe lângă Înalta Curte de Casație și Justiție, la o pedeapsă de 3 ani închisoare și interzicerea drepturilor: de a fi ales în autoritățile publice sau în funcții elective, de a ocupa o funcție implicând exercițiul autorității de stat pentru săvârșirea infracțiunilor concurente de: trafic de influență și instigare la infracțiunea de permitere a accesului unor persoane neautorizate la informații ce nu sunt destinate publicității.",
-    "verified_at": "2026-06-10",
-    "sources": [
+    crime: 'Complicitate la trafic de influență',
+    sentence: '4 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 4,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală definitivă nr. 86 din 22 aprilie 2013, Înalta Curte de Casație și Justiție l-a condamnat pe Florin Costiniu, fost judecător și fost președinte al Secției civile și de proprietate intelectuală a ICCJ, la 4 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 9 ani, pentru complicitate la trafic de influență. A fost obligat la plata a 60.000 lei cheltuieli judiciare. Documentele oficiale îi confirmă anterior funcțiile de secretar de stat în Ministerul Justiției și secretar general al Camerei Deputaților.',
+    verified_at: '2026-09-11',
+    sources: [
       {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4720"
+        label: 'DNA — hotărârea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4034',
+        description: 'Comunicatul redă decizia definitivă nr. 86/22.04.2013, încadrarea juridică, pedeapsa și cheltuielile judiciare.',
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cojocaru Eugen, indică județul Bucuresti, funcția \"Procuror\", instituția \"Parchet\", decizia 29 și condamnarea din 10/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Costiniu Florin",
-    "party": "Independent",
-    "position": "Judecator în Inalta curte de casatie si justitie",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Judecator în Inalta curte de casatie si justitie în județul Bucuresti."
-    },
-    "crime": "fals intelectual; cumpărare de influență",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 22 aprilie 2013. Condamnarea inculpatului COSTINIU FLORIN, fost judecător la Înalta Curte de Casație și Justiție, fost președinte al Secției civile și de proprietate intelectuală din cadrul Î.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4034"
+        label: 'Portal Legislativ — funcția la Camera Deputaților',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/16662',
+        description: 'Ordin emis și semnat de Florin Costiniu în calitate de secretar general al Camerei Deputaților.',
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Costiniu Florin indică județul Bucuresti, funcția \"Judecator\", instituția \"Inalta curte de casatie si justitie\", decizia 86 și condamnarea din 22/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Cotunoaei Maria",
-    "party": "Independent",
-    "position": "Controlor vamal principal în Autoritatea nationala a vamilor",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Controlor vamal principal în Autoritatea nationala a vamilor în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 iunie 2011. Condamnarea inculpatei COTUNOAEI MARIA, controlor vamal principal la Direcția Municipiului București pentru Accize și Operațiuni Vamale din cadrul Autorității Naționale a Vămilor, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere pe un termen de încercare de 8 ani pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2519"
+        label: 'Portal Legislativ — eliberarea din funcție',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/26573',
+        description: 'Hotărârea Camerei Deputaților nr. 13/2001 privind eliberarea sa din funcția de secretar general.',
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cotunoaei Maria indică județul Bucuresti, funcția \"Controlor vamal principal\", instituția \"Autoritatea nationala a vamilor\", decizia 490 și condamnarea din 24/06/2011."
-      }
-    ]
-  },
-  {
-    "name": "Danis Ionel",
-    "party": "Independent",
-    "position": "Prim-procuror în Parchet",
-    "position_type": "other",
-    "geography": {
-      "county": "Vaslui",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Prim-procuror în Parchet în județul Vaslui."
-    },
-    "crime": "fals intelectual; luare de mită; uz de fals",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 iunie 2011. Condamnarea inculpatului DANIȘ IONEL, prim procuror la Parchetul de pe lângă Judecătoria Murgeni, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea infracțiunilor de luare de mită, instigare la fals intelectual în formă continuată, uz de fals în formă continuată, sustragere sau distrugere de înscrisuri în formă continuată și favorizarea infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2498"
+        label: 'Organizația Națiunilor Unite — profil profesional',
+        kind: 'official',
+        url: 'https://digitallibrary.un.org/record/175654/files/CCPR_SP_39-FR.pdf',
+        description: 'Profilul profesional din 1993 îl identifică drept magistrat și secretar de stat în Ministerul Justiției.',
       },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Danis Ionel indică județul Vaslui, funcția \"Prim-procuror\", instituția \"Parchet\", decizia 2468 și condamnarea din 21/06/2011."
-      }
-    ]
-  },
-  {
-    "name": "David Maria",
-    "party": "Independent",
-    "position": "Judecator în Inalta curte de casatie si justitie",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Judecator în Inalta curte de casatie si justitie în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 11 februarie 2013. Condamnarea inculpatei DAVID MARIA, judecător la Înalta Curte de Casație și Justiție - Secția civilă, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea a două infracțiuni de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3887"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru David Maria indică județul Bucuresti, funcția \"Judecator\", instituția \"Inalta curte de casatie si justitie\", decizia 24 și condamnarea din 11/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Diaconescu Marius Bogdan",
-    "party": "Independent",
-    "position": "Judecator în Tribunal",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Judecator în Tribunal în județul Dolj."
-    },
-    "crime": ": trafic de influență și complicitate la infracțiunea de luare de mită",
-    "sentence": "4 ani și 6 luni închisoare",
-    "sentence_years": 4.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 ianuarie 2014. Condamnă pe inculpatul DIACONESCU MARIUS – BOGDAN, fost judecător la Tribunalul Dolj, la o pedeapsă de 4 ani și 6 luni închisoare cu interzicerea, atât pe perioada detenției, cât și pe o perioadă de 3 ani, după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funții elective, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție sau de a exercita o profesie ori de a desfășura o activitate, de natura aceleia de care s-a folosit pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4652"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Diaconescu Marius Bogdan indică județul Dolj, funcția \"Judecator\", instituția \"Tribunal\", decizia 347 și condamnarea din 30/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Diaconu Valerica",
-    "party": "Independent",
-    "position": "Comandant în Unitate militara (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Comandant în Unitate militara (Ministerul Apararii Nationale) în județul Arges."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 aprilie 2012. Condamnarea inculpatului maior PÎRVU ALIN SORIN, din cadrul UM 01261 Pitești, la pedeapsa de 10 luni închisoare cu suspendare condiționată, pe un termen de încercare de 2 ani și 10 luni, pentru săvârșirea a două infracțiuni de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3215"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Diaconu Valerica indică județul Arges, funcția \"Comandant\", instituția \"Unitate militara (Ministerul Apararii Nationale)\", decizia 117 și condamnarea din 23/04/2012."
-      }
-    ]
-  },
-  {
-    "name": "Dobre Liliana Eleonora",
-    "party": "Independent",
-    "position": "Casier în Oficiul de stat pentru inventii si marci",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Casier în Oficiul de stat pentru inventii si marci în județul Bucuresti."
-    },
-    "crime": "delapidare, fals intelectual și uz de fals",
-    "sentence": "9 luni închisoare cu suspendare",
-    "sentence_years": 0.75,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 5 iulie 2013. Condamnarea inculpatului SCURTU VIOREL, șef Serviciu administrativ în cadrul O.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4196"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dobre Liliana Eleonora indică județul Bucuresti, funcția \"Casier\", instituția \"Oficiul de stat pentru inventii si marci\", decizia 1304 și condamnarea din 05/07/2013."
-      }
-    ]
-  },
-  {
-    "name": "Doncu Mircea Ninel",
-    "party": "Independent",
-    "position": "Functionar vamal în Autoritatea nationala a vamilor",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Functionar vamal în Autoritatea nationala a vamilor în județul Bucuresti."
-    },
-    "crime": "cumpărare de influență",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2013. Condamnarea inculpatului DONCU MIRCEA NINEL, fost funcționar vamal la Direcția Municipiului București pentru Accize și Operațiuni Vamale – Biroul Autorizări, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 7 ani și 6 luni, pentru săvârșirea a două infracțiuni de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4071"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Doncu Mircea Ninel indică județul Bucuresti, funcția \"Functionar vamal\", instituția \"Autoritatea nationala a vamilor\", decizia 1482 și condamnarea din 29/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Dragomir Larisa Julieta",
-    "party": "Independent",
-    "position": "Judecator în Judecatorie",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Judecator în Judecatorie în județul Ilfov."
-    },
-    "crime": "luare de mită în formă continuată",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 18 ianuarie 2012. Condamnarea inculpatei DRAGOMIR LARISA JULIETA, judecător cu grad de judecătorie în cadrul Judecătoriei Cornetu, județul Ilfov, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de luare de mită în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2920"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dragomir Larisa Julieta indică județul Ilfov, funcția \"Judecator\", instituția \"Judecatorie\", decizia 106 și condamnarea din 18/01/2012."
-      }
-    ]
-  },
-  {
-    "name": "Dumitrache Gheorghe",
-    "party": "Independent",
-    "position": "Colonel rezerva în Serviciul roman de informatii",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Colonel rezerva în Serviciul roman de informatii în județul Prahova."
-    },
-    "crime": ": trafic de influență, dare de mită, încercarea de a determina mărturia mincinoasă",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 4 februarie 2013. Condamnarea inculpatului DUMITRACHE GHEORGHE, colonel (rezervă), fost șef Sector „A” din cadrul Secției de Informații Prahova din cadrul SRI, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 8 ani, pentru săvârșirea infracțiunilor de: trafic de influență, dare de mită, încercarea de a determina mărturia mincinoasă.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3879"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dumitrache Gheorghe indică județul Prahova, funcția \"Colonel rezerva\", instituția \"Serviciul roman de informatii\", decizia 20 și condamnarea din 04/02/2013."
-      }
-    ]
+    ],
   },
   {
     "name": "Dumitru Carmen",
