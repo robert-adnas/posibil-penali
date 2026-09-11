@@ -53026,6 +53026,254 @@
       ],
       "note": "Eliminat deoarece sursele îl identifică exclusiv drept procuror și fost prim-procuror al Parchetului de pe lângă Judecătoria Târgu Neamț, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 283/29.01.2013 confirmă 1 an închisoare cu suspendare condiționată, termen de încercare 3 ani, pentru primire de foloase necuvenite, confiscarea a 700 euro și 5.000 lei cheltuieli judiciare.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3438",
+      "original_name": "Jianu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3562",
+        "https://www.customs.ro/assets/pdf/customs/anv/2012/BUCURESTI/declaratii%20de%20avere%20nedepuse%202012.pdf",
+        "https://www.macin.ro/wp-content/uploads/2020/08/proces-verbal-candidaturi.pdf"
+      ],
+      "note": "Eliminat după verificarea identității și rezolvarea omonimiei: condamnatul este Daniel Jianu, controlor vamal la DJAOV Prahova – Biroul Control Fizic, fără mandat, funcție politică, candidatură sau afiliere de partid verificabilă. Candidatul independent omonim la Consiliul Local Măcin din 2020 este identificat oficial cu ocupația de supraveghetor sală de jocuri, deci este o persoană distinctă. Decizia penală definitivă nr. 2996/25.09.2012 confirmă 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru primire de foloase necuvenite, confiscarea a 1.500 lei și 200 lei cheltuieli judiciare. Profilul vechi avea descrierea trunchiată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3439",
+      "original_name": "Lazarescu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3174",
+        "https://adevarul.ro/amp/stiri-interne/societate/fraude-vamale-de-58-de-miliarde-lei-din-importuri-653110.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept inspector și ulterior adjunct al Biroului Vamal Buzău, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 520/10.04.2012 confirmă 4 ani închisoare cu suspendare sub supraveghere, termen de încercare 6 ani, pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave și interzicerea unor drepturi timp de 5 ani. Profilul vechi afișa descrierea și termenul de încercare ale co-inculpatului Marian Răchițeanu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3440",
+      "original_name": "Lecu Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3799",
+        "https://gmr.mapn.ro/webroot/fileslib/upload/files/arhiva%20GMR/2006%20gmr/2006/Revista%201.pdf",
+        "https://hotnews.ro/lupta-jandarmilor-cu-sefii-jandarmeriei-880899"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept colonel în rezervă, fost comandant al UM 0260 București și fost șef al logisticii Jandarmeriei Române, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 47/20.12.2012 confirmă 4 ani închisoare în regim de detenție pentru trei infracțiuni de abuz în serviciu cu obținerea unui avantaj, încă un abuz în serviciu și fals în declarații, interdicții complementare timp de 5 ani, confiscarea a 57.412,92 lei și 4.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3441",
+      "original_name": "Loga Walter",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3798",
+        "https://www.cultuleroilor.ro/wp-content/uploads/2017/11/Romania-eroica-1-2020.pdf",
+        "https://www.upet.ro/doctorat/resource/doc/sustineri/2014%2006%2006%201000/Walter%20Loga%20rezumat%20lb%20romana.pdf"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică drept colonel în rezervă, fost comandant al UM 01541 Budieni și ulterior președinte al filialei Gorj a Asociației Naționale Cultul Eroilor, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Sentința penală nr. 45/10.12.2012, definitivă la 27.12.2012, confirmă 2 ani închisoare cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită, primire de foloase necuvenite și abuz în serviciu, toate în formă continuată; s-au confiscat 1.750 lei și 350 euro. Profilul vechi avea descrierea trunchiată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3442",
+      "original_name": "Luca Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4128",
+        "https://www.ziuaconstanta.ro/in-constanta/declaratii-de-avere-constanta/declaratie-de-avere-gheorghe-luca-sef-district-la-drdp-constanta-detine-trei-terenuri-o-casa-un-apartament-si-trei-masini-documente-781872.html",
+        "https://focuspress.ro/iata-componenta-noului-consiliu-local-cogealac/"
+      ],
+      "note": "Eliminat după rezolvarea omonimiei: condamnatul este lt. col. (r) Gheorghe Luca, expert topograf în Biroul Central pentru Expertize Tehnice de pe lângă Ministerul Justiției, fără rol politic verificabil. Consilierul local PNL din Cogealac cu același nume este șef de district la DRDP Constanța, o identitate profesională și geografică distinctă. Decizia definitivă nr. 1795/27.05.2013 confirmă 10 ani închisoare pentru înșelăciune cu consecințe deosebit de grave, interdicții timp de 3 ani după executare și confiscarea a 1.000 lei. Profilul vechi afișa descrierea co-inculpatului Costel Stan.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3443",
+      "original_name": "Maciuca Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4111",
+        "https://gmr.mapn.ro/webroot/fileslib/upload/files/arhiva%20GMR/2003%20gmr/2003/Revista-2.pdf",
+        "https://hotnews.ro/cine-e-marin-maciuca-generalul-care-a-obtinut-dreptul-avocatilor-de-a-pleda-la-instantele-unde-au-rude-el-este-aparat-de-vasile-pantea-sotul-unei-judecatoare-de-la-iccj-657452"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept general-maior în rezervă și fost comandant al Comandamentului Logistic Întrunit al MApN, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 125/27.05.2013 confirmă 4 ani închisoare cu executare pentru abuz în serviciu cu consecințe deosebit de grave, interdicții timp de 3 ani și obligații solidare de despăgubire către MApN de 8.544.807,75 lei și 3.194.750,03 lei, plus 10.000 lei cheltuieli judiciare. Profilul vechi afișa descrierea co-inculpatului Ioan Marcu și regimul cu suspendare al acestuia.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3444",
+      "original_name": "Maracinica Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3700",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AG"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept maior în rezervă și pensionar militar, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 3778/19.11.2012 confirmă 2 ani închisoare cu suspendare condiționată, termen de încercare 4 ani, pentru complicitate la luare de mită în formă continuată, confiscarea a 5.000 lei și 3.000 lei cheltuieli judiciare. Profilul vechi îi atribuia eronat traficul de influență reținut în sarcina co-inculpatului Cornel Slăvoiu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3445",
+      "original_name": "Marcu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4111",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3C9C81DF-B743-42B5-8AFF-0DA15C6D429A",
+        "https://mariusmioc.wordpress.com/2012/03/02/27-decembrie-1989-constituirea-comitetului-municipal-timisoara-al-fsn/"
+      ],
+      "note": "Eliminat după rezolvarea omonimiei: condamnatul este colonelul în rezervă Ioan Marcu, fost șef al Secției achiziții și contabil-șef în Comandamentul Logistic Întrunit al MApN, fără rol politic verificabil. Este distinct de Ion/Ioan Marcu, electrician la UMT, lider al Revoluției din Timișoara și senator de Timiș în trei legislaturi, confirmat de Senatul României. Decizia definitivă nr. 125/27.05.2013 confirmă 4 ani închisoare cu suspendare sub supraveghere, termen de încercare 6 ani, pentru abuz în serviciu cu consecințe deosebit de grave, obligații solidare de despăgubire către MApN și 10.000 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3446",
+      "original_name": "Marta Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3989",
+        "https://www.mediafax.ro/social/vamile-moravita-si-foeni-62-de-persoane-arestate-24-cercetate-in-libertate-9222867",
+        "https://adevarul.ro/stiri-locale/timisoara/vamesii-din-lotul-moravita-au-primit-pedepse-cu-1233844.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept lucrător vamal la Punctul de Mic Trafic Foeni II, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 924/18.03.2013 confirmă 1 an și 10 luni închisoare cu suspendare condiționată, termen de încercare 3 ani și 10 luni, pentru asociere pentru săvârșirea de infracțiuni și luare de mită, confiscarea a 500 euro și 400 lei cheltuieli judiciare. Profilul vechi afișa descrierea și pedeapsa co-inculpatului Sinisa Petkovic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3447",
+      "original_name": "Mic Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3778",
+        "https://www.cotidianul.ro/amanunte-despre-activitatea-infractionala-a-unui-sef-de-serviciu-secret/"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost lucrător vamal la Biroul Vamal Petea, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 4073/11.12.2012 confirmă 5 luni închisoare cu suspendare condiționată, termen de încercare 2 ani și 5 luni, pentru instigare la dare de mită și dare de mită, precum și 400 lei cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3448",
+      "original_name": "Mitroi Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3989",
+        "https://adevarul.ro/stiri-locale/timisoara/in-doua-luni-politistii-si-vamesii-trebuie-sa-1071980.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=TM"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept lucrător vamal la Punctul de Mic Trafic Foeni II, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 924/18.03.2013 confirmă 1 an și 10 luni închisoare cu suspendare condiționată, termen de încercare 3 ani și 10 luni, pentru asociere pentru săvârșirea de infracțiuni și luare de mită, confiscarea a 990 lei, echivalentul a 212 euro și 100 lei, și 400 lei cheltuieli judiciare. Profilul vechi afișa descrierea co-inculpatului Sinisa Petkovic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3449",
+      "original_name": "Mladen Elena Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4099",
+        "https://portal.just.ro/54/Documents/Bilant-Curte-2012-final.pdf",
+        "https://www.baroulolt.ro/avocati-pensionari/"
+      ],
+      "note": "Eliminată deoarece sursele o identifică drept judecătoare la Curtea de Apel Craiova – Secția civilă, ulterior avocat în Baroul Olt, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia definitivă nr. 1669/16.05.2013 confirmă 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 5 ani și 6 luni, pentru șantaj, precum și 133,43 lei cheltuieli judiciare către martoră. Profilul vechi folosea eticheta generică și inexactă «Fapte de corupție».",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3450",
+      "original_name": "Modan Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://www.economica.net/functionari-ai-directilor-antifrauda-din-vama-si-anaf-trimisi-in-judecata-pentru-luare-de-mita_37276.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept fost funcționar public al Autorității Naționale a Vămilor – DJAOV Vâlcea, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 75/21.02.2014 confirmă 1 an închisoare cu suspendare, termen de încercare 3 ani, pentru luare de mită în formă continuată și confiscarea a 1.100 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3451",
+      "original_name": "Moisescu Radu-Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5606",
+        "https://www.inppa.ro/docs/CONTESTATII_09112011.pdf",
+        "https://www.ziaruldeiasi.ro/stiri/sentinta-la-inalta-curte-fostul-procuror-moisescu-doi-ani-cu-suspendare--79960.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică drept fost procuror al DIICOT – Serviciul Iași și profesionist juridic, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 109/12.11.2014 confirmă 2 ani închisoare cu suspendare, termen de încercare 4 ani, pentru trafic de influență și interzicerea unor drepturi timp de 2 ani după executarea pedepsei principale.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
