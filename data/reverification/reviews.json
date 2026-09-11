@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10",
+  "updated_at": "2026-09-11",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -52389,6 +52389,213 @@
         "https://legislatie.just.ro/public/DetaliiDocument/43634"
       ],
       "note": "Eliminat din registrul politic: Gheorghe Bucur a fost judecător la Curtea Supremă/ICCJ, membru al CSM și ulterior notar public, fără mandat ales, candidatură politică sau funcție de partid verificabilă. Calitatea de membru CSM nu reprezintă o funcție politică. Decizia definitivă nr. 29/10.03.2014 a stabilit 2 ani și 6 luni de închisoare pentru complicitate la cumpărare de influență, interdicții și 5.000 lei cheltuieli judiciare; profilul omitea forma de participație și formula eronat instituția notarului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3401",
+      "original_name": "Buliga Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2754",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2033",
+        "https://legislatie.just.ro/public/DetaliiDocument/93110"
+      ],
+      "note": "Eliminată din registrul politic: Georgeta Buliga este identificată oficial exclusiv ca judecător la Curtea de Apel Iași, fără mandat ales, candidatură sau funcție de partid verificabilă. Rezultatele politice pentru alte persoane cu numele Buliga nu au fost transferate. Decizia penală definitivă nr. 3.920/04.11.2011 confirmă 4 ani și 6 luni în regim de detenție pentru luare de mită și trafic de influență, interdicții pe durata executării și 3 ani după, confiscarea a 4.000 euro și 4.000 lei cheltuieli.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3402",
+      "original_name": "Busca Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4111"
+      ],
+      "note": "Eliminată din registrul politic: Mariana Bușcă este identificată oficial ca maior și fost șef al Biroului marketing din Comandamentul Logistic Întrunit al MApN, fără mandat ales, candidatură sau funcție de partid verificabilă. Omonimele găsite nu au fost asociate acestei identități. Decizia penală definitivă nr. 125/27.05.2013 confirmă 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 5 ani și 6 luni, pentru abuz în serviciu cu consecințe deosebit de grave, plus interdicții, despăgubiri civile și cheltuieli judiciare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3403",
+      "original_name": "Buscu Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4441",
+        "https://www.dna.ro/comunicat.xhtml?id=1620"
+      ],
+      "note": "Eliminat din registrul politic: Marin Bușcu (numele oficial este redat cu diacritică în comunicatele DNA) este identificat exclusiv ca reprezentant fiscal al DGFP Olt, fără mandat ales, candidatură sau funcție de partid verificabilă. Decizia definitivă nr. 1085/21.10.2013 confirmă 3 ani cu suspendare condiționată pentru complicitate la evaziune fiscală, abuz în serviciu și fals intelectual, ultimele două în formă continuată, cu termen de încercare 7 ani. Profilul amesteca eronat termenul de încercare în câmpul infracțiunii.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3404",
+      "original_name": "Candea Petrache",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4542",
+        "https://www.dna.ro/comunicat.xhtml?id=1265"
+      ],
+      "note": "Eliminat din registrul politic: Petrache Cândea (forma oficială a numelui) este identificat ca general de brigadă în rezervă, fost șef al Corpului de Control SRI, fără mandat ales, candidatură ori funcție de partid verificabilă. Relațiile sau proximitatea relatate față de politicieni nu constituie rol politic. Decizia definitivă nr. 236/19.12.2013 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru instigare la abuz în serviciu și instigare la fals intelectual în legătură directă cu o infracțiune asimilată corupției.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3405",
+      "original_name": "Carpen Nelu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5028",
+        "https://www.juridice.ro/wp-content/uploads/2011/12/evidenta-proc-functii-de-conducere.pdf"
+      ],
+      "note": "Eliminat din registrul politic: Nelu Carpen (ordinea uzuală a numelui) este fost prim-procuror al Parchetului de pe lângă Judecătoria Buftea, fără mandat ales, candidatură ori funcție de partid verificabilă. CSM confirmă funcția și suspendarea din 23.04.2010. Decizia definitivă nr. 168/10.06.2014 confirmă 6 ani închisoare și interdicții pe durata executării plus 5 ani pentru două infracțiuni de luare de mită, opt de favorizare a infractorului, fals material în înscrisuri oficiale și instigare la fals în înscrisuri sub semnătură privată; profilul afișa doar o parte din infracțiuni.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3406",
+      "original_name": "Cerbeanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4720",
+        "https://legislatie.just.ro/Public/FormaPrintabila/00000G0FY5A3J4GVY111U48DZLTY8N5U"
+      ],
+      "note": "Eliminat din registrul politic: Gheorghe Cerbeanu (ordinea uzuală a numelui) este fost judecător al Tribunalului Vâlcea, fără mandat ales, candidatură electorală ori funcție de partid. Mențiunile despre candidatură privesc concursuri profesionale pentru funcții în magistratură și nu justifică includerea politică. Decizia definitivă nr. 29/10.03.2014 confirmă 2 ani și 6 luni cu executare pentru complicitate la cumpărare de influență; aceasta înlocuiește soluția anterioară, nedefinitivă, cu suspendare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3407",
+      "original_name": "Chirita Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-10",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3566",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=3F9E0F4F-115F-46E9-AC0F-0E30F1F59C68",
+        "https://www.cotidianul.ro/fostul-electrician-instalat-la-sefia-anre/"
+      ],
+      "note": "Eliminat după rezolvarea unei coincidențe de nume: condamnatul este colonelul de jandarmi Dumitru Chiriță, comandant al centrului de pregătire montană Sinaia, nu parlamentarul PSD omonim. Profilul oficial parlamentar și biografia publică îl identifică pe politician ca născut la 07.04.1963, fost electrician și lider sindical, cu patru mandate de deputat; aceste date sunt incompatibile cu cariera militară a condamnatului. DNA confirmă pentru colonel 2 ani cu suspendare condiționată, termen de încercare 4 ani, prin decizia definitivă nr. 1279/28.09.2012, pentru cumpărare de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3408",
+      "original_name": "Chiru Silvia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127"
+      ],
+      "note": "Eliminată din registrul politic: Silvia Chiru (ordinea uzuală a numelui) este identificată oficial ca lucrător vamal la Biroul Vamal Ploiești, fără mandat ales, candidatură ori funcție de partid verificabilă. Decizia definitivă nr. 1823/27.05.2013 confirmă 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, plus interdicții 4 ani și 2.000 lei cheltuieli. Descrierea profilului era copiată greșit de la Justina Stănilă, care primise o altă pedeapsă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3409",
+      "original_name": "Chitibea Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4132",
+        "https://www.dna.ro/comunicat.xhtml?id=2867"
+      ],
+      "note": "Eliminat din registrul politic: Claudiu Chițibea (forma uzuală și cu diacritică a numelui) este identificat ca gestionar la IPJ Caraș-Severin, Serviciul Cazier Judiciar și Evidență Operativă, fără mandat ales, candidatură electorală ori funcție de partid. Apariția într-un concurs al Academiei de Poliție este profesională, nu politică. Decizia definitivă nr. 645/27.05.2013 confirmă 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru abuz în serviciu cu consecințe deosebit de grave, în formă calificată, și fals intelectual; profilul avea o descriere juridică incompletă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3410",
+      "original_name": "Cinca Vasile Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4441",
+        "https://www.dna.ro/comunicat.xhtml?id=4910",
+        "https://www.dna.ro/comunicat.xhtml?id=1620"
+      ],
+      "note": "Eliminat din registrul politic: Vasile-Viorel Cincă (forma oficială a numelui) este fost reprezentant fiscal al DGFP Olt, fără mandat ales, candidatură ori funcție de partid verificabilă. Profilul era juridic incomplet: decizia definitivă nr. 1085/21.10.2013 a stabilit 3 ani cu suspendare și termen de încercare 7 ani, iar într-un al doilea dosar decizia definitivă nr. 1637/14.05.2014 a stabilit 5 ani închisoare cu executare, contopind pedeapsa anterioară, pentru complicitate la evaziune fiscală, abuz în serviciu și fals intelectual, toate în formă continuată, plus despăgubiri solidare de 18.785.032,79 lei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3411",
+      "original_name": "Ciobanu Ghenadie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5678",
+        "https://www.juridice.ro/wp-content/uploads/2011/12/evidenta-proc-functii-de-conducere.pdf",
+        "https://old.parlament.md/StructuraParlamentului/Deputa%C8%9Bii/tabid/87/Id/28/language/ro-RO/Default.aspx"
+      ],
+      "note": "Eliminat după rezolvarea unei coincidențe de nume: condamnatul este Ghenadie Ciobanu, fost prim-procuror al Parchetului de pe lângă Judecătoria Hârlău, nu compozitorul și politicianul omonim din Republica Moldova. Profilul oficial al Parlamentului Republicii Moldova îl identifică pe politician ca născut la 06.04.1957 în Brătușeni, compozitor, profesor, fost ministru și deputat; acestea sunt incompatibile cu identitatea magistratului român. Decizia definitivă nr. 389/20.11.2014 confirmă pentru magistrat 4 ani închisoare pentru luare de mită, interdicții și confiscarea echivalentului a 200 euro.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3412",
+      "original_name": "Ciofu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3877",
+        "https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2024/10/PROCES-VERBAL-PRIVIND-CONSTATAREA-RAMANERII-DEFINITIVE-A-CANDIDATURILOR-PT-S-CD-2024.pdf",
+        "https://legislatie.just.ro/Public/DetaliiDocument/82267"
+      ],
+      "note": "Eliminat după rezolvarea unei coincidențe de nume: condamnatul este fostul procuror Ioan Ciofu de la PICCJ și Parchetul Curții de Apel Iași, nu candidatul Forța Dreptei la Senat din 2024, pe care documentul electoral îl identifică drept pensionar și inginer. Magistratul a fost pensionat prin Decretul nr. 550/2007 și nu are mandat ori candidatură politică verificabilă. Decizia definitivă nr. 22/11.02.2013 confirmă 3 ani în regim de detenție pentru luare de mită, interdicții pe durata executării și 2 ani după, confiscarea echivalentului a 8.102 euro și 4.360 lei; câmpul infracțiunii era generic și a fost corectat în audit.",
       "reviewed_snapshot_hash": null
     }
   ]
