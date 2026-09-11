@@ -53274,6 +53274,230 @@
       ],
       "note": "Eliminat deoarece sursele îl identifică drept fost procuror al DIICOT – Serviciul Iași și profesionist juridic, fără mandat, candidatură, funcție politică ori afiliere de partid verificabilă. Decizia penală definitivă nr. 109/12.11.2014 confirmă 2 ani închisoare cu suspendare, termen de încercare 4 ani, pentru trafic de influență și interzicerea unor drepturi timp de 2 ani după executarea pedepsei principale.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3452",
+      "original_name": "Muresan Lucian-Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4030",
+        "https://www.dna.ro/comunicat.xhtml?id=8041"
+      ],
+      "note": "Eliminat deoarece sursele oficiale îl identifică exclusiv drept controlor sau lucrător vamal la Biroul Vamal Siret, fără rol politic documentat. Două condamnări definitive distincte: decizia nr. 1300 din 15.04.2013, 1 an cu suspendare și termen de încercare 3 ani pentru abuz în serviciu și fals intelectual; decizia nr. 4 din 10.01.2017, 2 ani cu suspendare și termen de încercare 4 ani pentru abuz în serviciu în formă continuată și aderare sau sprijinire a unui grup infracțional, cu confiscarea a 2.050,5 lei. Profilul vechi omitea a doua condamnare definitivă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3453",
+      "original_name": "Necula Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127"
+      ],
+      "note": "Eliminat deoarece DNA îl identifică drept lucrător vamal la Biroul Vamal Ploiești, fără rol politic documentat. Decizia penală definitivă nr. 1823 din 27.05.2013 a stabilit 3 ani și 6 luni închisoare cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită. Profilul vechi avea descrierea copiată eronat de la coinculpata Stănilă Justina și eticheta generică Fapte de corupție.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3454",
+      "original_name": "Nica Dinu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2400",
+        "https://www.luju.ro/static/files/2021/martie/31/hotarari_judecatoresti_Nica_Dinu.pdf"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică drept fost procuror al Parchetului de pe lângă Tribunalul Prahova, pensionat din magistratură, fără rol politic documentat. Decizia penală definitivă nr. 293 din 09.05.2011 a stabilit 4 ani închisoare cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită. Câmpul crime din profilul vechi era greșit: indica complicitate la luare de mită, faptă atribuită de hotărâre grefierei Georgeta Drăgan.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3455",
+      "original_name": "Niculaita Iacob",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4796",
+        "https://www.baroulolt.ro/avocati-definitivi/"
+      ],
+      "note": "Eliminat deoarece este fost procuror la Parchetul de pe lângă Judecătoria Caracal și ulterior avocat în Baroul Olt, fără rol politic documentat. DNA confirmă decizia penală definitivă nr. 75 din 03.04.2014: 3 ani închisoare cu executare pentru favorizarea infractorului în legătură cu traficul de influență, plus restituirea a 22.500 lei. Datele juridice principale ale profilului erau corecte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3456",
+      "original_name": "Nistor Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3652",
+        "https://legislatie.just.ro/Public/DetaliiDocument/75397"
+      ],
+      "note": "Eliminat deoarece este militar de carieră, fost comandant al Comandamentului Logistic Întrunit, fără rol politic documentat. Decretul nr. 1115/2006 confirmă numele complet Nistor Aurel Traian și trecerea în rezervă. Decizia penală definitivă nr. 220 din 31.10.2012 a stabilit 3 ani cu suspendare, termen de încercare 5 ani, pentru complicitate la evaziune fiscală în formă continuată. Câmpul crime din profil era trunchiat și amesteca faptele coinculpaților.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3457",
+      "original_name": "Nita Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4330",
+        "https://www.cjarges.ro/web/mirosi/nita-marin"
+      ],
+      "note": "Eliminat deoarece persoana condamnată este procurorul Niță Marin de la Parchetul Judecătoriei Oltenița, delegat la Tribunalul Călărași, fără rol politic documentat. Este distinct de omonimul Marin Niță, primar al comunei Miroși din Argeș, confirmat de pagina oficială CJ Argeș. Decizia definitivă nr. 2772 din 20.09.2013 a stabilit 4 ani în regim de detenție pentru luare de mită; profilul folosea eticheta juridică generică Fapte de corupție.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3458",
+      "original_name": "Obreja Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3842",
+        "https://adevarul.ro/stiri-locale/iasi/iasi-militarii-sclavi-pe-tarlaua-sefului-de-1138324.html"
+      ],
+      "note": "Eliminat deoarece este maior în rezervă și fost comandant al unității militare din Ionășeni, fără rol politic documentat. Decizia definitivă nr. 1 din 16.01.2013 a stabilit 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru abuz în serviciu și delapidare în formă continuată, plus confiscarea a 5.806,33 lei. Știrile mai vechi despre 5 ani cu executare descriau sentința nedefinitivă din 2010; profilul reda corect soluția definitivă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3459",
+      "original_name": "Olescher Carmen Marina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.dna.ro/comunicat.xhtml?id=4693",
+        "https://www.dna.ro/comunicat.xhtml?id=4897",
+        "https://www.dna.ro/comunicat.xhtml?id=5178"
+      ],
+      "note": "Eliminată deoarece a fost funcționară și șefă de birou în Direcția Generală de Muncă și Protecție Socială București, membră a comisiei DL 118/1990, fără rol politic documentat. Profilul omitea trei dintre cele patru hotărâri definitive distincte identificate: nr. 733/28.02.2013, 4 ani detenție pentru luare de mită și complicitate la înșelăciune; nr. 530/13.02.2014, 4 ani pentru aceleași tipuri de fapte; nr. 1583/09.05.2014, 1 an pentru complicitate la luare de mită; nr. 888/A/29.07.2014, 3 ani pentru luare de mită. Cauzele au date distincte de trimitere în judecată: 14.03.2005, 07.06.2005, 31.03.2006 și 21.12.2009.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3460",
+      "original_name": "Oprea Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.cjtimis.ro/infocjt/document.php?c=f7jnvckp&d=38246&r=1",
+        "https://www.usr-sr.ro/index.php/2024/05/25/nicolae-oprea-candidat-la-primaria-sanmihaiu-roman/"
+      ],
+      "note": "Eliminat deoarece persoana condamnată este lucrătorul vamal Oprea Nicolae de la Biroul Vamal Ploiești, fără rol politic documentat. Omonimii politici din Timiș sunt persoane distincte: fostul vicepreședinte CJ, născut în 1955 și cu carieră agricolă, respectiv candidatul la Sânmihaiu Român, născut aproximativ în 1983 și topograf. Decizia definitivă nr. 1823 din 27.05.2013 a stabilit 3 ani și 6 luni cu suspendare sub supraveghere pentru luare de mită. Profilul avea descrierea copiată eronat de la Stănilă Justina și eticheta generică Fapte de corupție.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3461",
+      "original_name": "Ovidiu Soare",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3879",
+        "https://acmrr-sri.ro/wp-content/uploads/2023/12/Vitralii-no-54_compressed.pdf",
+        "https://www.luju.ro/static/files/2012/mai_2012/SPen_Sent_177_ianuarie_2012_dosar_4500-1-2007_Soare.pdf"
+      ],
+      "note": "Eliminat deoarece a fost ofițer de informații și general-maior SRI, fost șef al Inspectoratului pentru Apărarea Constituției și Securitate Economică, fără funcție politică documentată; sursa asociației rezerviștilor SRI confirmă cariera și decesul în 2023. Decizia definitivă nr. 20 din 04.02.2013 a stabilit 3 ani cu suspendare sub supraveghere și termen de încercare 8 ani. Profilul reducea greșit cauza la luare de mită, omițând complicitatea la folosirea cu rea-credință a bunurilor societății, falsul sub semnătură privată și transmiterea nelegală de informații secrete ori confidențiale.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3462",
+      "original_name": "Paltanea Corneliu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3707",
+        "https://www.dna.ro/comunicat.xhtml?id=3632"
+      ],
+      "note": "Eliminat deoarece a fost colonel SRI și șef al Secției de Informații Prahova, fără rol politic documentat. Profilul reda corect decizia definitivă nr. 3751 din 16.11.2012, de 3 ani și 6 luni cu executare pentru două luări de mită, instigare la delapidare și asociere, dar omitea o altă condamnare definitivă distinctă: decizia nr. 3437 din 24.10.2012, 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită în formă continuată. Cele două cauze provin din trimiteri în judecată distincte, din 09.02.2006 și 20.12.2007.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3463",
+      "original_name": "Pirvu Alin Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3215",
+        "https://www.arr.ro/files/scoli%20conducatori%20auto/info/ia.pdf"
+      ],
+      "note": "Eliminat deoarece este maiorul Pîrvu Alin Sorin din UM 01261 Pitești, fără rol politic documentat; lista oficială ARR îl indică ulterior în domeniul instruirii auto din Pitești. Decizia penală definitivă nr. 117 din 23.04.2012 a stabilit 10 luni cu suspendare condiționată și termen de încercare 2 ani și 10 luni pentru două infracțiuni de trafic de influență. Profilul folosea eticheta juridică generică Fapte de corupție.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3464",
+      "original_name": "Podea Petre Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5677",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CHI%C8%98+AND+OTHERS+v.+ROMANIA.pdf&id=001-182950&library=ECHR&logEvent=False"
+      ],
+      "note": "Eliminat deoarece este fost judecător al Tribunalului Prahova, fără rol politic documentat. Hotărârea CEDO confirmă identitatea Petre-Adrian Podea, născut la 19.08.1952, iar DNA confirmă decizia penală definitivă nr. 390 din 20.11.2014: 3 ani închisoare cu executare pentru trafic de influență și dare de mită. Datele juridice esențiale erau corecte; câmpul crime avea doar un caracter două puncte parazit la început.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
