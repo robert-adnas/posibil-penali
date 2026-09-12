@@ -54206,6 +54206,265 @@
       ],
       "note": "Eliminat din registrul public: DNA o identifică pe Viorica Duțu drept șef serviciu creditare la Banca Internațională a Religiilor, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 4 ani cu suspendare pentru abuz în serviciu în formă calificată și continuată este confirmată, însă persoana este în afara domeniului politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3508",
+      "original_name": "Kiss Daniela Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4896",
+        "https://www.dna.ro/comunicat.xhtml?id=3493"
+      ],
+      "note": "Eliminată din registrul public: DNA o identifică pe Daniela Maria Kiss drept fost contabil-șef și membru al comisiei de selecție a ofertelor la o societate comercială privată, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani și 6 luni pentru luare de mită, spălare de bani și fals este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3509",
+      "original_name": "Lupu Marioara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2400",
+        "https://www.dna.ro/comunicat.xhtml?id=2842",
+        "https://www.dna.ro/comunicat.xhtml?id=801"
+      ],
+      "note": "Eliminată din registrul public: DNA o identifică pe Marioara Lupu drept director general al unei societăți comerciale din Ploiești, fără funcție, mandat sau afiliere politică verificabilă. Hotărârea definitivă confirmă 3 ani cu suspendare, dar pentru complicitate la dare de mită, nu complicitate la luare de mită cum indica profilul.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3510",
+      "original_name": "Nan Octavian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3707",
+        "https://www.dna.ro/comunicat.xhtml?id=419"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Octavian Nan exclusiv drept fost director general al Rafinăriei Astra Română Ploiești, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani și 6 luni în regim de detenție pentru delapidare în formă continuată și asociere este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3511",
+      "original_name": "Prodan Emilian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4827",
+        "https://www.dna.ro/comunicat.xhtml?id=1437"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Emilian Prodan (fost Grigore-Ioan Prodan) drept fost comisar general al unei organizații neguvernamentale și persoană înscrisă în Baroul Bota, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă a fost pentru două infracțiuni de trafic de influență în formă continuată, nu cumpărare de influență cum indica câmpul profilului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3512",
+      "original_name": "Tomuta Silvestru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4056",
+        "https://www.dna.ro/comunicat.xhtml?id=3080"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Silvestru Tomuța drept director al Casei de Cultură a Sindicatelor Sibiu, iar presa locală îl descrie ca fost lider sindical, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 4 ani cu suspendare pentru luare de mită este confirmată; câmpul generic Fapte de corupție era imprecis, iar persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3513",
+      "original_name": "Cremenitchi Lilieana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4177",
+        "https://www.dna.ro/comunicat.xhtml?id=1858"
+      ],
+      "note": "Eliminată din registrul public: DNA o identifică pe Lilieana Cremenițchi drept avocat stagiar în Baroul Iași, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani cu suspendare sub supraveghere pentru trafic de influență este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3514",
+      "original_name": "Achim Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3866",
+        "https://www.dna.ro/comunicat.xhtml?id=2629",
+        "https://extranet.brasovcity.ro/registratura/hotarari/Detaliu.aspx?an=2017&nr=7&registru=HOT-HCL"
+      ],
+      "note": "Eliminat din registrul public: dosarul DNA îl privește pe Gheorghe Achim, conferențiar la Facultatea de Drept și avocat în Baroul Brașov, fără rol politic verificabil. Este distinct de alesul local PSD Achim Gheorghe-Silviu, identificat cu prenumele complet în hotărârile Consiliului Local Brașov; coincidența parțială de nume nu justifică atribuirea politică. Condamnarea a fost pentru patru infracțiuni de luare de mită, nu generic Fapte de corupție.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3515",
+      "original_name": "Apostu Monica Undina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5152",
+        "https://www.dna.ro/comunicat.xhtml?id=2869"
+      ],
+      "note": "Eliminată din registrul public: DNA o identifică pe Monica Undina Apostu drept avocat în Baroul Cluj și soția primarului Sorin Apostu, implicată în mecanismul infracțional, dar fără funcție, mandat sau afiliere politică proprie verificabilă. Profilul îi atribuia eronat paragraful și faptele co-inculpatului Călin Stoia; condamnarea proprie a fost de 3 ani cu suspendare pentru complicitate la luare de mită, spălare de bani și fals, toate în formă continuată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3516",
+      "original_name": "Baltag Toni Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4990",
+        "https://www.dna.ro/comunicat.xhtml?id=584"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Toni Cristian Baltag drept avocat în Baroul Iași și intermediar în dosarul fostului prefect Radu Prisăcaru, fără funcție, mandat sau afiliere politică proprie verificabilă. Condamnarea definitivă de 3 ani privește două infracțiuni de luare de mită și una de dare de mită, toate în forma complicității; eticheta generică Fapte de corupție era imprecisă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3517",
+      "original_name": "Bernic Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5606",
+        "https://www.dna.ro/comunicat.xhtml?id=2557"
+      ],
+      "note": "Eliminat din registrul public: sursele DNA îl identifică mai complet drept Alexandru-Tudor Bernic, avocat în Baroul Iași, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 2 ani cu suspendare a vizat trafic de influență și instigare la fals în înscrisuri sub semnătură privată; profilul omitea a doua infracțiune. Distincția față de alte persoane cu numele Bernic din liste electorale a fost păstrată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3518",
+      "original_name": "Bongioaianu Ramona Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2016",
+        "https://www.dna.ro/comunicat.xhtml?id=2015"
+      ],
+      "note": "Eliminată din registrul public: sursele oficiale o identifică pe Ramona-Maria Bongioaianu/Bongioianu drept avocat în Baroul Dâmbovița, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani și 6 luni cu executare pentru trafic de influență este confirmată; diferența minoră de ortografiere dintre comunicatul de trimitere în judecată și cel privind hotărârea a fost consemnată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3519",
+      "original_name": "Bungardean Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2976",
+        "https://www.dna.ro/comunicat.xhtml?id=2005",
+        "https://www.baroul-bucuresti.ro/index.php?p=16&urlpag=tablou-radiati"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Aurel Bungărdean drept avocat, fără funcție, mandat sau afiliere politică verificabilă; evidența Baroului București îl indică ulterior radiat pentru nedemnitate. Condamnarea definitivă de 2 ani cu suspendare pentru dare de mită este confirmată, iar eticheta generică Fapte de corupție era imprecisă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3520",
+      "original_name": "Burghila Carmen Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4063",
+        "https://www.dna.ro/comunicat.xhtml?id=2994"
+      ],
+      "note": "Eliminată din registrul public: DNA o identifică pe Carmen Cornelia Burghilă drept avocat în Baroul Brăila și fost consilier juridic la Casa de Asigurări de Sănătate Brăila, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani cu suspendare sub supraveghere pentru trafic de influență este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3521",
+      "original_name": "Butuc Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5001",
+        "https://www.dna.ro/comunicat.xhtml?id=4711",
+        "https://www.baroul-bucuresti.ro/index.php?p=16&urlpag=tablou-radiati"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Ștefan Butuc drept fost avocat în Baroul București, fără funcție, mandat sau afiliere politică verificabilă; evidența baroului consemnează încetarea exercitării pentru nedemnitate. Profilul indica eronat 1 an și 1 lună; pedeapsa definitivă a fost de 1 an și 10 luni închisoare pentru trafic de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3522",
+      "original_name": "Cengizler Ceyhun",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5000",
+        "https://www.dna.ro/comunicat.xhtml?id=4620"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Ceyhun Cengizler drept avocat în Baroul București, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 3 ani cu executare a vizat două infracțiuni de trafic de influență în formă continuată; eticheta generică «Fapte de corupție» era imprecisă.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
