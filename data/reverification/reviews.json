@@ -53498,6 +53498,474 @@
       ],
       "note": "Eliminat deoarece este fost judecător al Tribunalului Prahova, fără rol politic documentat. Hotărârea CEDO confirmă identitatea Petre-Adrian Podea, născut la 19.08.1952, iar DNA confirmă decizia penală definitivă nr. 390 din 20.11.2014: 3 ani închisoare cu executare pentru trafic de influență și dare de mită. Datele juridice esențiale erau corecte; câmpul crime avea doar un caracter două puncte parazit la început.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3465",
+      "original_name": "Popescu Mihail",
+      "current_name": "Mihail Popescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3414",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=1712CF67-27FC-4BE5-B78A-5F3555DDF9DA",
+        "https://hotnews.ro/generalul-popescu-in-armata-psd-833614"
+      ],
+      "note": "Păstrat și corectat: fișa oficială a Senatului confirmă că Mihail Popescu a fost senator PSD în circumscripția Vâlcea în legislatura 2004–2008, iar relatarea contemporană HotNews consemnează confirmarea ministrului apărării că senatorul/candidatul era aceeași persoană cu generalul și șeful Statului Major General. DNA confirmă decizia penală definitivă nr. 169 din 29.06.2012: 4 ani cu suspendare sub supraveghere, termen de încercare 9 ani, pentru abuz în serviciu calificat și continuat, interzicerea unor drepturi timp de 2 ani și despăgubiri civile în solidar. Profilul vechi inversa numele și îl prezenta greșit drept independent și exclusiv militar în București.",
+      "reviewed_snapshot_hash": "89948f40e3b66bb5a5384f576573c24f2529529d532e06f0dba32b88473cdb6c"
+    },
+    {
+      "profile_id": "RV-3468",
+      "original_name": "Preutu Mitica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318",
+        "https://www.dna.ro/comunicat.xhtml?id=1393",
+        "https://monitorulneamt.ro/alt-proces-pentru-sefii-de-la-vama-si-rar/"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică exclusiv drept controlor vamal la DJAOV Neamț, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. DNA confirmă decizia definitivă nr. 586 din 28.05.2012: 1 an închisoare cu suspendare condiționată, termen de încercare 3 ani, pentru abuz în serviciu prin obținerea unui avantaj patrimonial pentru altul, plus 5.500 lei cheltuieli judiciare. Relatarea locală despre achitare privește sentința de fond atacată de DNA, nu o soluție ulterioară condamnării definitive.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3469",
+      "original_name": "Puscau Florentina Rodica",
+      "current_name": "Florentina-Rodica Pușcău",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3484",
+        "https://www.dna.ro/comunicat.xhtml?id=7581",
+        "https://legislatie.just.ro/Public/DetaliiDocument/22361",
+        "https://www.ebihoreanul.ro/stiri/prim-vicepresedinta-organizatiei-de-femei-a-pdl-bihor-condamnata-de-inalta-curte-intr-un-dosar-de-coruptie--103106.html"
+      ],
+      "note": "Păstrată și corectată: sursa locală documentează că a fost prim-vicepreședintă a Organizației de Femei PDL Bihor și candidată PDL la Consiliul Județean Bihor în 2012. Decizia definitivă nr. 2.440/19.07.2012 confirmă 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru două infracțiuni asimilate corupției prevăzute de art. 11 alin. (1) și (2) din Legea 78/2000, confiscarea a 31.700 lei, 6.150 lei cheltuieli judiciare și interzicerea unor drepturi timp de 2 ani. Profilul atribuia eronat delapidarea comisă de coinculpata Giurcă Anca Diana. Un dosar distinct din 2016, pentru complicitate la luare de mită, s-a încheiat prin achitare definitivă în 2019 și este menționat separat pentru a nu induce în eroare.",
+      "reviewed_snapshot_hash": "f0c946219878384350310c7eadb563f6d1754c13acf84f1935b6da18bf5f511a"
+    },
+    {
+      "profile_id": "RV-3470",
+      "original_name": "Rebegea Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4112",
+        "https://portal.just.ro/105/SitePages/prezentare.aspx",
+        "https://hudoc.echr.coe.int/app/conversion/pdf?filename=Judgments+of+15.03.16.pdf&id=003-5326249-6636898&library=ECHR"
+      ],
+      "note": "Eliminat deoarece sursele oficiale îl identifică drept judecător și fost președinte al Secției penale a Tribunalului Prahova, ulterior avocat, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. Decizia penală definitivă nr. 1.800 din 27.05.2013 a stabilit 5 ani și 6 luni închisoare pentru două luări de mită și două favorizări ale infractorului, confiscarea a 30.000 euro, 30.000 lei cheltuieli judiciare și interzicerea unor drepturi pe durata executării plus 5 ani. CEDO confirmă că sentința de fond de 7 ani a fost înlocuită de pedeapsa definitivă de 5 ani și 6 luni.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3471",
+      "original_name": "Rebeleanu Codrin Horea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2244",
+        "https://www.dna.ro/comunicat.xhtml?id=636",
+        "https://sjub.ro/structura/medicina-legala/",
+        "https://umfcluj.ro/medicina/facultate/departamente/departamentul-3/medicina-legala/"
+      ],
+      "note": "Eliminat deoarece sursele oficiale și instituționale îl identifică exclusiv drept medic legist, fost șef al SML Bistrița-Năsăud și cadru universitar, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. Decizia penală definitivă nr. 766 din 28.02.2011 a stabilit 3 ani cu suspendare condiționată, termen de încercare 5 ani, pentru luare de mită, interzicerea unor drepturi timp de 1 an și 4.000 lei cheltuieli judiciare. Profilul vechi folosea eticheta generică și imprecisă «Fapte de corupție».",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3472",
+      "original_name": "Richea Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2390",
+        "https://primariabreaza.ro/componenta-cl/"
+      ],
+      "note": "Eliminat deoarece persoana condamnată este colonelul Constantin Richea, comandant al Centrului Zonal de Selecție și Orientare Breaza, fără rol politic documentat; este distinct de politicianul local Gheorghe Richea, fost primar și consilier local al orașului Breaza. Decizia penală definitivă nr. 143 din 21.05.2012 a stabilit 2 ani cu suspendare condiționată, termen de încercare 4 ani, pentru fals intelectual continuat (119 acte), uz de fals continuat (119 acte), asociere pentru săvârșirea de infracțiuni și abuz în serviciu, plus 3.800 lei cheltuieli judiciare. Profilul omitea asocierea și era trunchiat în descriere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3473",
+      "original_name": "Roman Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.curentul.info/actualitate/vamesii-din-ploiesti-acuzati-de-luare-de-mita-trimisi-in-judecata/",
+        "https://mesageruldesibiu.ro/vrem-ca-si-in-blajel-legea-sa-fie-respectata/"
+      ],
+      "note": "Eliminat deoarece persoana condamnată este lucrătorul vamal Ion Roman de la Biroul Vamal Ploiești, fără rol politic documentat; este distinctă de omonimul Ion Roman, consilier local în comuna Blăjel, și de alți candidați omonimi. Decizia penală definitivă nr. 1.823 din 27.05.2013 a stabilit 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită, confiscarea a 15 lei, 2.000 lei cheltuieli judiciare și interzicerea unor drepturi timp de 4 ani. Profilul vechi avea descrierea copiată eronat de la Stănilă Justina și eticheta generică «Fapte de corupție».",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3475",
+      "original_name": "Salvari Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4120",
+        "https://isc.gov.ro/files/2024/Autorizari/10.05.2024%20DS.pdf",
+        "https://www.economica.net/fosta-conducere-a-electrica-banat-condamnata-la-pedepse-intre-unu-si-patru-ani-de-inchisoare_53190.html"
+      ],
+      "note": "Eliminat deoarece sursele îl identifică drept funcționar al Biroului Administrarea Patrimoniului la FDFEE Electrica Banat și specialist autorizat în construcții, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. Decizia penală definitivă nr. 1.730 din 22.05.2013 a stabilit 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită și fals intelectual, confiscarea a 731 euro, interzicerea unor drepturi timp de 3 ani și cheltuieli judiciare de 12.000 lei în fond plus 500 lei în apel. Datele juridice principale ale profilului erau corecte.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3476",
+      "original_name": "Serban Mihaela Ramona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4178",
+        "https://www.uniuneanotarilor.ro/files/ArhiveNotariale/15_1_CNP%20Timisoara%20ARHIVE.pdf",
+        "https://portal.just.ro/44/Documents/Tablou%20mediatori%20actualizat%20la%2031.01.2015.pdf",
+        "https://baroulmehedinti.ro/avocati/serban-mihaela-ramona"
+      ],
+      "note": "Eliminată deoarece sursele oficiale și profesionale o identifică drept fost notar public în Giarmata, mediator și ulterior avocat, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. Decizia penală definitivă nr. 2.125 din 18.06.2013 a stabilit 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru complicitate la trafic de influență. Profilul vechi indica greșit data de 19.06.2013 și folosea eticheta generică «Fapte de corupție».",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3477",
+      "original_name": "Serban Nicolae Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4178",
+        "https://legislatie.just.ro/public/DetaliiDocument/151579",
+        "https://www.occrp.org/documents/the-battle-for-mineral-resources/Indictment-Romania.pdf"
+      ],
+      "note": "Eliminat deoarece sursele oficiale îl identifică drept judecător și fost vicepreședinte al Curții de Apel Timișoara, fără mandat, candidatură, funcție politică ori afiliere de partid documentată. Decretul nr. 770/25.09.2013 confirmă eliberarea din funcția de judecător ca urmare a condamnării definitive. Decizia penală definitivă nr. 2.125 din 18.06.2013 a stabilit 5 ani închisoare pentru trafic de influență și interzicerea unor drepturi pe durata executării plus 3 ani. Profilul vechi indica greșit data de 19.06.2013.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3478",
+      "original_name": "Sitoianu Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://hotnews.ro/spaga-la-vama-ploiesti-816483",
+        "https://www.curentul.info/actualitate/vamesii-din-ploiesti-acuzati-de-luare-de-mita-trimisi-in-judecata/"
+      ],
+      "note": "Funcționar vamal la Biroul Vamal Ploiești, fără rol politic documentat. DNA confirmă condamnarea definitivă nr. 1823 din 27.05.2013 la 3 ani și 6 luni cu suspendare sub supraveghere, termen de încercare 6 ani și 6 luni, pentru luare de mită. Profilul vechi avea infracțiunea generică și descrierea copiată eronat de la Stănilă Justina; este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3479",
+      "original_name": "Stanescu Victor Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4031",
+        "https://www.dna.ro/comunicat.xhtml?id=3307",
+        "https://www.customs.ro/assets/pdf/customs/anv/2008/DRAOV%20Bucuresti/tabel%20cu%20functionarii%20care%20nu%20au%20depus%20declaratiile%20de%20avere%20si%20interese.pdf"
+      ],
+      "note": "Victor Laurențiu Stănescu a fost lucrător vamal la DRAOV București, fără rol politic documentat. DNA confirmă definitiv, prin decizia penală nr. 1.343 din 17.04.2013, pedeapsa de 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru luare de mită. Profilul vechi folosea eticheta juridică generică «Fapte de corupție»; persoana este exclusă din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3480",
+      "original_name": "Sterea Aurica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5028",
+        "https://www.baroul-bucuresti.ro/info/file/6553",
+        "https://www.mediafax.ro/social/procurorul-carpen-si-judecatorul-sterea-eliberati-din-functie-dupa-ce-au-fost-condamnati-12817431"
+      ],
+      "note": "Aurică Sterea a fost judecător la Judecătoria Buftea, ulterior eliberat din funcție ca urmare a condamnării definitive; nu este documentată nicio funcție sau candidatură politică. DNA confirmă pedeapsa definitivă de 1 an cu suspendare, termen de încercare 3 ani, pentru favorizarea infractorului. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3481",
+      "original_name": "Tilinca Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4111",
+        "https://legislatie.just.ro/Public/DetaliiDocument/60444",
+        "https://hotnews.ro/protejatul-lui-iliescu-implicat-in-afacerea-ripstop-887380"
+      ],
+      "note": "Numele complet oficial este Constantin Adrian Tilincă. A fost general de brigadă în rezervă și fost locțiitor al comandantului Comandamentului Logistic Întrunit, fără rol politic documentat. DNA confirmă 4 ani cu executare pentru abuz în serviciu cu consecințe deosebit de grave; descrierea veche copia eronat pedeapsa cu suspendare a lui Ioan Marcu. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3482",
+      "original_name": "Toader Ion-Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4445",
+        "https://www.cvlpress.ro/wp-content/uploads/2013/05/PDF-130527.pdf"
+      ],
+      "note": "Ion-Victor Toader a fost grefier la Curtea de Apel Craiova, fără rol politic documentat. DNA confirmă definitiv 2 ani și 6 luni cu executare pentru trafic de influență continuat (17 acte), fals pentru ascunderea faptelor și sustragere ori distrugere de înscrisuri. Profilul vechi folosea eticheta generică «Fapte de corupție» și este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3483",
+      "original_name": "Topor Anisoara",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5149",
+        "https://portal.just.ro/275/SitePages/prezentare.aspx",
+        "https://luju.ro/static/files/2014/iulie/06/ordine_de_zi_4.07.csm.pdf"
+      ],
+      "note": "Numele corect este Anișoara Topor. A fost judecător la Judecătoria Focșani, fără funcție ori candidatură politică documentată; fratele său Aurel Lăduncă era consilier județean, calitate distinctă. DNA confirmă definitiv 4 ani și 6 luni cu executare pentru luare de mită și trafic de influență, iar CSM a propus eliberarea ei din funcție. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3484",
+      "original_name": "Tripa Aurel Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5050",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=4496",
+        "https://legislatie.just.ro/Public/DetaliiDocument/219898"
+      ],
+      "note": "Numele corect este Aurel Ștefan Tripa. A fost judecător la Judecătoria Ineu, fără funcție ori candidatură politică documentată, și a fost eliberat din funcție ca urmare a condamnării definitive. DNA confirmă 2 ani și 6 luni cu suspendare, termen de încercare 5 ani și 6 luni, pentru trafic de influență. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3485",
+      "original_name": "Tucaliuc Fanica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645",
+        "https://www.dna.ro/comunicat.xhtml?id=275",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7\\u0026nrcrt=21"
+      ],
+      "note": "Numele corect este Fănică Tucaliuc. A fost comandant al UM 02033 Iași, fără rol politic documentat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită continuată și abuz în serviciu calificat și continuat, plus confiscarea a 16.000 lei. Profilul vechi copia descrierea lui Dumitru Oniga și îi atribuia lui Tucaliuc, în mod greșit, falsul intelectual. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3486",
+      "original_name": "Tudorache Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4121",
+        "https://www.dna.ro/comunicat.xhtml?id=959",
+        "https://www.uniuneanotarilor.ro/files/ArhiveNotariale/3_CNP%20Brasov%20arhive.pdf"
+      ],
+      "note": "Viorel Tudorache este notar public în circumscripția Judecătoriei Brașov, fără funcție ori candidatură politică documentată. DNA confirmă condamnarea definitivă din 21.05.2013 la 7 ani cu executare pentru complicitate la șantaj, ca faptă asimilată corupției, și lipsire de libertate în mod ilegal. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3487",
+      "original_name": "Tutuianu Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=VL"
+      ],
+      "note": "Marian Țuțuianu a fost funcționar public al Autorității Naționale a Vămilor, fără rol politic documentat, și este distinct de politicienii cu același nume de familie. DNA confirmă definitiv 1 an cu suspendare, termen de încercare 3 ani, pentru luare de mită. Profilul este exclus din registrul politic pentru a elimina riscul de confuzie nominală.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3488",
+      "original_name": "Uiuiu Claudiu-Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3989",
+        "https://www.dna.ro/comunicat.xhtml?id=2177",
+        "https://www.opiniatimisoarei.ro/sentinta-finala-in-dosarul-moravita-i-ce-pedeapsa-a-primit-fiecare-politist-de-frontiera-si-vames-si-ce-despagubiri-au-de-platit/19/06/2015"
+      ],
+      "note": "Claudiu-Adrian Uiuiu a fost lucrător vamal la PTF Moravița, fără rol politic documentat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru asociere, luare de mită și complicitate la contrabandă calificată, plus confiscarea a 829,5 euro. Descrierea veche copia pedeapsa lui Sinisa Petkovic. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3489",
+      "original_name": "Ungureanu Angela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3678",
+        "https://www.ziaruldeiasi.ro/stiri/judecatoare-condamnata-la-inchisoare-si-exclusa-din-magistratura-pentru-ca-cerea-bani-de-la-avocati"
+      ],
+      "note": "Angela Ungureanu a fost judecător la Judecătoria Iași, fără funcție ori candidatură politică documentată, și a fost exclusă din magistratură după condamnarea definitivă. DNA confirmă 1 an cu suspendare condiționată, termen de încercare 3 ani, pentru primire de foloase necuvenite continuată, fals în declarații continuat și conflict de interese. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3490",
+      "original_name": "Verdet Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3989",
+        "https://www.dna.ro/comunicat.xhtml?id=2177",
+        "https://www.pressalert.ro/2011/09/cum-vamuia-contrabandistii-de-tigari-uichitu-verdet/"
+      ],
+      "note": "Gheorghe Verdeț a fost lucrător vamal la PTF Moravița și director executiv vamal, fără rol politic documentat; este distinct de fostul politician Ilie Verdeț. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 5 ani, pentru asociere, luare de mită și complicitate la contrabandă calificată, plus confiscarea a 1.840 euro. Descrierea veche copia pedeapsa lui Sinisa Petkovic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3491",
+      "original_name": "Vit Dorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5051",
+        "https://romanialibera.ro/special/fostul-sef-al-directiei-de-finante-bistrita-condamnat-definitiv-la-inchisoare-pentru-coruptie-339954/",
+        "https://www.uvvg.ro/docs/Resurse_educationale/Biblioteca/Resurse_de_informare/Buletine_bibliografice/2014_2.pdf"
+      ],
+      "note": "Dorel Vit a fost cadru didactic universitar la Facultatea de Științe Economice a UVVG Arad, nu decan și fără rol politic documentat. DNA confirmă 10 luni cu suspendare, termen de încercare 2 ani și 10 luni, pentru fals material în înscrisuri oficiale. Profilul vechi îi transfera funcția de decan și pedeapsa de 1 an și 3 luni ale lui Florin Dumescu. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3492",
+      "original_name": "Vladica Dumitru-Danut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4542",
+        "https://legeaz.net/spete-penal-iccj-completul-de-5-judecatori/decizia-236-2013-abuz-serviciu",
+        "https://www.mediafax.ro/social/fostul-sef-al-corpului-de-control-al-sri-condamnat-definitiv-cu-suspendare-de-iccj-11802874/amp"
+      ],
+      "note": "Dumitru Dănuț Vlădică a fost locotenent-colonel în rezervă și fost ofițer SRI, fără rol politic documentat; este distinct de Florin Vlădică, fost secretar de stat. DNA și decizia ÎCCJ confirmă 2 ani cu suspendare pentru abuz în serviciu și fals intelectual în legătură cu o faptă asimilată corupției. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3493",
+      "original_name": "Vlasceanu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-11",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645",
+        "https://www.gds.ro/Local/2004-04-01/Mita-la-MApN/",
+        "https://www.ebihoreanul.ro/stiri/spaga-cu-suspendare-dupa-un-deceniu-de-procese-instanta-suprema-a-dat-verdictul-final-in-dosarul-mita-in-mapn--113329.html"
+      ],
+      "note": "Numele corect este Ion Vlăsceanu. A fost locotenent-colonel și comandant al UM 02032 Oradea, fără rol politic documentat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită continuată și abuz în serviciu calificat și continuat. Profilul vechi copia descrierea lui Dumitru Oniga și îi atribuia greșit falsul intelectual. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
