@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11",
+  "updated_at": "2026-09-12",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -53965,6 +53965,246 @@
         "https://www.ebihoreanul.ro/stiri/spaga-cu-suspendare-dupa-un-deceniu-de-procese-instanta-suprema-a-dat-verdictul-final-in-dosarul-mita-in-mapn--113329.html"
       ],
       "note": "Numele corect este Ion Vlăsceanu. A fost locotenent-colonel și comandant al UM 02032 Oradea, fără rol politic documentat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită continuată și abuz în serviciu calificat și continuat. Profilul vechi copia descrierea lui Dumitru Oniga și îi atribuia greșit falsul intelectual. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3494",
+      "original_name": "Zamfirescu Ciprian Calin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3999",
+        "https://www.dna.ro/comunicat.xhtml?id=1984",
+        "https://hudoc.echr.coe.int/eng?i=001-209955",
+        "https://baroulmehedinti.ro/avocati/zamfirescu-ciprian-calin"
+      ],
+      "note": "Eliminat din registrul public: sursele oficiale îl identifică drept fost prim-procuror, iar Baroul Mehedinți drept avocat, fără rol politic verificabil. DNA confirmă condamnarea definitivă din 2013; CEDO a constatat ulterior încălcarea art. 8, dar nu a art. 6, iar situația a generat o cerere de revizuire, astfel că nu păstrăm un statut juridic public potențial incomplet pentru o persoană din afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3495",
+      "original_name": "Zarnescu Traian-Iulius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4127",
+        "https://www.dna.ro/comunicat.xhtml?id=585"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Traian-Iulius Zărnescu drept lucrător vamal la Biroul Vamal Ploiești, fără rol politic verificabil. Profilul îi atribuia în mod eronat paragraful, pedeapsa și rolul co-inculpatei Justina Stănilă; pentru Zărnescu, DNA consemnează 3 ani și 6 luni cu suspendare pentru luare de mită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3496",
+      "original_name": "Zavodnik Cristian Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4645"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Cristian Mihai Zavodnik drept fost comandant al UM 02031 București, fără rol politic verificabil. Condamnarea sa definitivă a fost de 1 an și 4 luni cu suspendare pentru luare de mită în formă continuată; profilul îi atribuia în mod eronat paragraful și pedeapsa co-inculpatului Vasile Tănase.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3497",
+      "original_name": "Zvara Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2831",
+        "https://www.dna.ro/comunicat.xhtml?id=730"
+      ],
+      "note": "Eliminat din registrul public: sursele DNA îl identifică pe Vasile Zvara drept fost judecător și fost președinte al Judecătoriei Târgu Lăpuș, fără rol politic verificabil. Profilul indica eronat complicitate la luare de mită; hotărârea definitivă consemnează 3 ani cu suspendare condiționată pentru luare de mită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3498",
+      "original_name": "Achitei Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4191",
+        "https://www.dna.ro/comunicat.xhtml?id=2123"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Ilie Achiței drept fost director economic al SC Moldoforest SA Iași și membru al comisiei de licitație, fără funcție sau mandat politic verificabil. Condamnarea definitivă de 1 an și 6 luni cu suspendare este confirmată, dar persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3499",
+      "original_name": "Badea Teodor Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4358",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BZ"
+      ],
+      "note": "Eliminat din registrul public: sursele îl identifică pe Teodor Laurențiu Badea drept fost șef al Administrației Finanțelor Publice Municipale Râmnicu Sărat, funcționar fiscal fără mandat sau funcție politică verificabilă. Condamnarea definitivă din 2013 este confirmată, dar persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3500",
+      "original_name": "Birau Savu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://www.dna.ro/comunicat.xhtml?id=34"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Savu Birău (menționat și Savu Gheorghe Birău în dispozitiv) drept director economic PECO Arad, fără rol politic verificabil. Pedeapsa de 5 ani este confirmată, însă descrierea profilului era copiată de la co-inculpata Ioana Fărcășanu și omitea infracțiunile proprii de complicitate la abuz în serviciu și neglijență în serviciu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3501",
+      "original_name": "Boric Dan Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://www.dna.ro/comunicat.xhtml?id=34"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Dan Gabriel Boric drept director al PECO Arad, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 10 ani pentru abuz în serviciu, înșelăciune și asociere este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3502",
+      "original_name": "Budea Georgiana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4450",
+        "https://ziaruldevalcea.ro/2013/11/intreaga-conducere-a-firmei-mentchim-gasita-vinovata-de-prejudiciul-de-18-milioane-euro/"
+      ],
+      "note": "Eliminat din registrul public: Georgiana Budea a fost director comercial al SC Mentchim SA, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea de 3 ani cu suspendare pentru abuz în serviciu în formă calificată este confirmată, dar descrierea profilului era trunchiată și persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3503",
+      "original_name": "Ciubotariu Sandu",
+      "current_name": "Ciubotariu Sandu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2882"
+      ],
+      "note": "Păstrat ca actor politic, dar corectat: DNA îl identifică drept secretar executiv al unui partid al minorităților naționale și condamnat pentru complicitate la trafic de influență în formă continuată, nu autor al traficului de influență. Eticheta Independent și județul București nu sunt susținute de sursa oficială; partidul concret rămâne neidentificat.",
+      "reviewed_snapshot_hash": "714d36600fdb0b253850dc36151ec270cd1f2d71ef4be4075d247fd5e247aff3"
+    },
+    {
+      "profile_id": "RV-3504",
+      "original_name": "Crangus Valentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4450",
+        "https://www.dna.ro/comunicat.xhtml?id=1006",
+        "https://ziaruldevalcea.ro/2013/11/intreaga-conducere-a-firmei-mentchim-gasita-vinovata-de-prejudiciul-de-18-milioane-euro/",
+        "https://vl.prefectura.mai.gov.ro/wp-content/uploads/sites/16/2025/05/Anexa-actualizata-14.05.2025.pdf"
+      ],
+      "note": "Eliminat din registrul public: dosarul privește o fostă directoare economică Mentchim, fără rol politic verificat. Profilul era trunchiat și omitea condamnarea distinctă pentru fals. Un document electoral din 2025 menționează o persoană omonimă ca reprezentant UDMR într-o secție din Vâlcea, dar nu există identificatori suficienți pentru a confirma că este aceeași persoană; coincidența de nume nu este tratată drept afiliere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3505",
+      "original_name": "Drozan Mircea Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2274",
+        "https://www.dna.ro/comunicat.xhtml?id=2275"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Mircea Aurel Drozan drept director al Direcției relații comerciale cu clienții interni din SC Sidex SA Galați, fără rol politic verificabil. Condamnarea definitivă de 6 ani pentru abuz în serviciu este confirmată, însă persoana este în afara domeniului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3506",
+      "original_name": "Duta Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://www.dna.ro/comunicat.xhtml?id=34"
+      ],
+      "note": "Eliminat din registrul public: DNA îl identifică pe Marin Duță drept director PECO Arad, fără rol politic verificabil. Pedeapsa definitivă de 5 ani este confirmată, însă descrierea profilului era copiată de la co-inculpata Ioana Fărcășanu și nu descria infracțiunile proprii de complicitate la abuz în serviciu și neglijență în serviciu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3507",
+      "original_name": "Dutu Viorica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-12",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2301",
+        "https://www.dna.ro/comunicat.xhtml?id=558"
+      ],
+      "note": "Eliminat din registrul public: DNA o identifică pe Viorica Duțu drept șef serviciu creditare la Banca Internațională a Religiilor, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 4 ani cu suspendare pentru abuz în serviciu în formă calificată și continuată este confirmată, însă persoana este în afara domeniului politic.",
       "reviewed_snapshot_hash": null
     }
   ]
