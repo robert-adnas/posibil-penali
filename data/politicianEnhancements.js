@@ -39105,334 +39105,14 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Mihaila Neculai",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Brasov."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 mai 2013. Condamnarea inculpatului MIHĂILĂ NECULAI, avocat stagiar înscris în Baroul Județean Bacău, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea infracțiunii de șantaj.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4134"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Mihaila Neculai indică județul Brasov, funcția \"Avocat\", instituția \"Barou\", decizia 1861 și condamnarea din 30/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Militaru Ion",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Dolj."
-    },
-    "crime": "trafic de influență",
-    "sentence": "2 ani și 6 luni închisoare",
-    "sentence_years": 2.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Militaru Ion a fost condamnat definitiv la 30 ianuarie 2014 la 2 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4652"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Militaru Ion indică județul Dolj, funcția \"Avocat\", instituția \"Barou\", decizia 347 și condamnarea din 30/01/2014."
-      }
-    ]
-  },
-  {
-    "name": "Mirsanu Christy-Gabriel",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Iasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Iasi."
-    },
-    "crime": "trafic de influență și înșelăciune",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 februarie 2012. Condamnarea inculpatului MÎRȘANU CHRISTY GABRIEL, avocat în cadrul Baroului Iași, la pedeapsa de 3 ani închisoare în regim de detenție pentru săvârșirea infracțiunilor de trafic de influență și înșelăciune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3001"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Mirsanu Christy-Gabriel indică județul Iasi, funcția \"Avocat\", instituția \"Barou\", decizia 614 și condamnarea din 27/02/2012."
-      }
-    ]
-  },
-  {
-    "name": "Mischian Mircea Dorin",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Cluj."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 noiembrie 2011. Condamnarea inculpatului MISCHIAN MIRCEA DORIN, avocat în cadrul Baroului Cluj, la pedeapsa de 2 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 4 ani, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2781"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Mischian Mircea Dorin indică județul Cluj, funcția \"Avocat\", instituția \"Barou\", decizia 4010 și condamnarea din 10/11/2011."
-      }
-    ]
-  },
-  {
-    "name": "Nastase Constantin",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Iasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Iasi."
-    },
-    "crime": "fals în înscrisuri sub semnătură privată",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 noiembrie 2014. Condamnă pe inculpatul NĂSTASE CONSTANTIN, avocat în cadrul Baroului Iași, la data faptelor, la o pedeapsă de 2 ani închisoare, cu suspendarea sub supraveghere a executării pedepsei pe durata unui termen de încercare de 4 ani și interzicerea, pe o durată de 2 ani, după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie, ori de a desfășura o activitate de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii de fals în înscrisuri sub semnătură privată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5606"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nastase Constantin indică județul Iasi, funcția \"Avocat\", instituția \"Barou\", decizia 109 și condamnarea din 12/11/2014."
-      }
-    ]
-  },
-  {
-    "name": "Nitu Maria Cerasela",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Caras-Severin."
-    },
-    "crime": "trafic de influență și instigare la mărturie mincinoasă",
-    "sentence": "1 an închisoare",
-    "sentence_years": 1,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 decembrie 2011. Condamnarea inculpatei NIȚU MARIA CERASELA, avocat în Baroul Caraș-Severin, la pedeapsa de 1 an închisoare în regim de detenție, pentru săvârșirea infracțiunilor de trafic de influență și instigare la mărturie mincinoasă.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2913"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Nitu Maria Cerasela indică județul Caras-Severin, funcția \"Avocat\", instituția \"Barou\", decizia 331 și condamnarea din 21/12/2011."
-      }
-    ]
-  },
-  {
-    "name": "Pilica Viorica Iosefina",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Prahova."
-    },
-    "crime": "complicitate la două infracțiuni de luare de mită și complicitate la două infracțiuni de favorizare a infractorului",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 mai 2013. Condamnarea inculpatei PILICĂ VIORICA IOSEFINA, avocat în Baroul Prahova, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea următoarelor infracțiuni: complicitate la două infracțiuni de luare de mită și complicitate la două infracțiuni de favorizare a infractorului.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4112"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Pilica Viorica Iosefina indică județul Prahova, funcția \"Avocat\", instituția \"Barou\", decizia 1800 și condamnarea din 27/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Popa Alina Liliana",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Popa Alina Liliana a fost condamnat definitiv la 19 februarie 2014 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4699"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Popa Alina Liliana indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 22 și condamnarea din 19/02/2014."
-      }
-    ]
-  },
-  {
-    "name": "Postelnicu Ana Alina",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bacau."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an și 4 luni închisoare",
-    "sentence_years": 1.33,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Postelnicu Ana Alina a fost condamnat definitiv la 3 septembrie 2010 la 1 an și 4 luni închisoare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1916"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Postelnicu Ana Alina indică județul Bacau, funcția \"Avocat\", instituția \"Barou\", decizia 2990 și condamnarea din 03/09/2010."
-      }
-    ]
-  },
-  {
-    "name": "Radu Eugen Alexandru",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 august 2012. Condamnarea inculpatului RADU EUGEN ALEXANDRU, avocat în cadrul Baroului București, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3525"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Radu Eugen Alexandru indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 2609 și condamnarea din 29/08/2012."
-      }
-    ]
-  },
-  {
-    "name": "Rusu Paul",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
+    "name": "Paul Rusu",
+    "party": "PC",
+    "position": "Fost consilier local al municipiului Suceava; fost candidat la Camera Deputaților",
+    "position_type": "local_official",
     "geography": {
       "county": "Suceava",
       "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Suceava."
+      "note": "A exercitat mandatul de consilier local în municipiul Suceava."
     },
     "crime": "cumpărare de influență",
     "sentence": "2 ani închisoare cu suspendare",
@@ -39440,8 +39120,8 @@ export const politicianAdditions = [
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 17 iunie 2014. Condamnă pe inculpatul RUSU PAUL, avocat în cadrul Baroului București, la o pedeapsă de 2 ani închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 4 ani, pentru săvârșirea infracțiunii de cumpărare de influență.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 185 din 17 iunie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 2 ani de închisoare cu suspendare, cu termen de încercare de 4 ani, pentru cumpărare de influență. Primăria Suceava documentează validarea mandatului său de consilier local în 2012, iar presa locală îl identifică drept reprezentant PC în cadrul USL și fost candidat la Camera Deputaților.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
         "label": "DNA",
@@ -39449,95 +39129,40 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=5064"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Rusu Paul indică județul Suceava, funcția \"Avocat\", instituția \"Barou\", decizia 185 și condamnarea din 17/06/2014."
-      }
-    ]
-  },
-  {
-    "name": "Ruta Rodica Ligia",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Mures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Mures."
-    },
-    "crime": "trafic de influență",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ruta Rodica Ligia a fost condamnat definitiv la 24 septembrie 2010 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "DNA — rechizitoriu",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1904"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4334"
       },
       {
-        "label": "România Curată",
+        "label": "Primăria Suceava — validarea mandatului de consilier local",
+        "kind": "official",
+        "url": "https://primariasv.ro/dm_suceava/site.nsf/8D0BA69DE62CC231C2257BEC00239995/%24FILE/Proces%20verbal%20_12iulie2012.pdf"
+      },
+      {
+        "label": "Monitorul de Suceava — funcția și afilierea politică",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ruta Rodica Ligia indică județul Mures, funcția \"Avocat\", instituția \"Barou\", decizia 3324 și condamnarea din 24/09/2010."
+        "url": "https://www.monitorulsv.ro/avocatul-paul-rusu-fost-consilier-local-in-suceava-si-candidat-pentru-un-post-de-deputat-condamnat-definitiv_284860/"
       }
     ]
   },
   {
-    "name": "Socol Ion",
+    "name": "Marius-Cătălin Stăncescu",
     "party": "Independent",
-    "position": "Avocat în Barou",
+    "position": "Fost consilier personal al președintelui ANAF; avocat și consultant financiar",
     "position_type": "other",
     "geography": {
       "county": "Bucuresti",
       "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
+      "note": "A ocupat în 2019 funcția de consilier personal al președintelui ANAF."
     },
-    "crime": "trafic de influență",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Socol Ion a fost condamnat definitiv la 19 februarie 2014 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4699"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Socol Ion indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 22 și condamnarea din 19/02/2014."
-      }
-    ]
-  },
-  {
-    "name": "Stancescu Marius-Catalin",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență și fals în declarații",
+    "crime": "două infracțiuni de trafic de influență",
     "sentence": "3 ani închisoare cu suspendare",
     "sentence_years": 3,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Stancescu Marius-Catalin a fost condamnat definitiv la 20 iunie 2014 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență și fals în declarații.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 194 din 20 iunie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani de închisoare cu suspendare, cu termen de încercare de 6 ani, pentru două infracțiuni de trafic de influență. Falsul în declarații din aceeași hotărâre îl privea pe coinculpatul Nicolae-Adrian Gavrilă. În martie 2019, SindFISC l-a identificat pe Marius Stăncescu drept consilier personal al președintelui ANAF.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
         "label": "DNA",
@@ -39545,214 +39170,26 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=5067"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stancescu Marius-Catalin indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 194 și condamnarea din 20/06/2014."
-      }
-    ]
-  },
-  {
-    "name": "Stanoaia Adriana",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență în formă continuată (45 acte materiale)",
-    "sentence": "1 an și 8 luni închisoare",
-    "sentence_years": 1.67,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 martie 2012. Condamnarea inculpatei Stănoaia Adriana, avocat la Baroul Dâmbovița, la pedeapsa de 1 an și 8 luni închisoare pentru săvârșirea infracțiunii de trafic de influență în formă continuată (45 acte materiale).",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "DNA — rechizitoriu",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3042"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=2493"
       },
       {
-        "label": "România Curată",
+        "label": "SindFISC — întâlnire cu reprezentanții conducerii ANAF",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stanoaia Adriana indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 656 și condamnarea din 07/03/2012."
+        "url": "https://sindfisc.ro/comunicare/informari/informare-13.03.2019.html"
       }
     ]
   },
   {
-    "name": "Stoian Vasile",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an și 6 luni închisoare",
-    "sentence_years": 1.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 4 noiembrie 2011. Condamnarea inculpatului STOIAN VASILE, avocat în cadrul Baroului București, la pedeapsa de 1 an și 6 luni închisoare în regim de detenție pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2770"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stoian Vasile indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 3908 și condamnarea din 04/11/2011."
-      }
-    ]
-  },
-  {
-    "name": "Stoicescu Cristian",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 noiembrie 2012. Condamnarea inculpatului STOICESCU CRISTIAN, avocat în cadrul Baroului București, la pedeapsa de 2 ani și 6 luni închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3692"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stoicescu Cristian indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 3610 și condamnarea din 06/11/2012."
-      }
-    ]
-  },
-  {
-    "name": "Szekely Adalbert-Cornel",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 2 octombrie 2014. Condamnă pe inculpatul SZEKELY ADALBERT-CORNEL, avocat în cadrul Baroului București, la data faptelor, la o pedeapsă de 3 ani închisoare și interzicerea, atât pe perioada executării pedepsei, cât și pe o perioadă de 2 ani după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat și de a ocupa o funcție, de a exercita o profesie, ori de a desfășura o activitate de natura aceleia de care s-a folosit, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5367"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Szekely Adalbert-Cornel indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 304 și condamnarea din 02/10/2014."
-      }
-    ]
-  },
-  {
-    "name": "Teodorescu Sever",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "4 ani închisoare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 septembrie 2012. Condamnarea inculpatului TEODORESCU SEVER, avocat în cadrul Baroului București, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3561"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Teodorescu Sever indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 3062 și condamnarea din 28/09/2012."
-      }
-    ]
-  },
-  {
-    "name": "Tiba Tiberiu Mircea",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Timis",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Timis."
-    },
-    "crime": "trafic de influență",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tiba Tiberiu Mircea a fost condamnat definitiv la 12 martie 2010 la 4 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Avocat în Barou. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1908"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tiba Tiberiu Mircea indică județul Timis, funcția \"Avocat\", instituția \"Barou\", decizia 948 și condamnarea din 12/03/2010."
-      }
-    ]
-  },
-  {
-    "name": "Tuta Mimi",
-    "party": "Independent",
-    "position": "Avocat în Barou",
+    "name": "Mimi Tuță",
+    "party": "PNG",
+    "position": "Fostă președintă a Comisiei Juridice a Partidului Noua Generație; avocat",
     "position_type": "other",
     "geography": {
       "county": "Dolj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Dolj."
+      "basis": "political_base",
+      "note": "Activitatea sa în conducerea juridică a PNG a fost documentată în presa locală din Dolj."
     },
     "crime": "trafic de influență",
     "sentence": "3 ani închisoare cu suspendare",
@@ -39760,8 +39197,8 @@ export const politicianAdditions = [
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2010. Condamnarea inculpatei Tuță Mimi, în calitate de avocat, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere pe un termen de încercare de 8 ani, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 1.688 din 29 aprilie 2010, Înalta Curte de Casație și Justiție a condamnat-o definitiv la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 8 ani, pentru trafic de influență. Gazeta de Sud o identifica la momentul dosarului drept președinta Comisiei Juridice a Partidului Noua Generație.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
         "label": "DNA",
@@ -39769,138 +39206,9 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=1929"
       },
       {
-        "label": "România Curată",
+        "label": "Gazeta de Sud — funcția în PNG",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tuta Mimi indică județul Dolj, funcția \"Avocat\", instituția \"Barou\", decizia 1688 și condamnarea din 29/04/2010."
-      }
-    ]
-  },
-  {
-    "name": "Ursachi Neliana",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Hunedoara",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Hunedoara."
-    },
-    "crime": "trafic de influență",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 8 decembrie 2010. Condamnarea inculpatei URSACHI NELIANA, avocat în cadrul Baroului Hunedoara, la pedeapsa de un an și șase luni închisoare cu suspendarea condiționată a executării pedepsei pe un termen de încercare de trei ani și șase luni pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2074"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ursachi Neliana indică județul Hunedoara, funcția \"Avocat\", instituția \"Barou\", decizia 4418 și condamnarea din 08/12/2010."
-      }
-    ]
-  },
-  {
-    "name": "Vasilateanu Catalin",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 februarie 2013. Condamnarea inculpatului VASILĂȚEANU CĂTĂLIN, avocat în cadrul Baroului București, la pedeapsa de 3 ani închisoare în regim de detenție pentru săvârșirea a patru infracțiuni de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3878"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Vasilateanu Catalin indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 419 și condamnarea din 06/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Zgabei Giorgel",
-    "party": "Independent",
-    "position": "Avocat în Barou",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Avocat în Barou în județul Bucuresti."
-    },
-    "crime": "complicitate la infracțiunea de trafic de influență",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 25 septembrie 2014. Condamnă pe inculpatul ZGĂBEI GIORGEL, avocat în cadrul Baroului București, la data faptelor, la o pedeapsă de 2 ani închisoare cu suspendarea executării pedepsei sub supraveghere pe durata unui termen de încercare de 4 ani, pentru săvârșirea infracțiunii de complicitate la infracțiunea de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5307"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Zgabei Giorgel indică județul Bucuresti, funcția \"Avocat\", instituția \"Barou\", decizia 0 și condamnarea din 25/09/2014."
-      }
-    ]
-  },
-  {
-    "name": "Oteleanu Claudiu",
-    "party": "Independent",
-    "position": "Presedinte în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în ONG în județul Brasov."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "6 luni închisoare",
-    "sentence_years": 0.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Oteleanu Claudiu a fost condamnat definitiv la 13 decembrie 2011 la 6 luni închisoare. Funcția relevantă consemnată în sursă: Presedinte în ONG. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2892"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Oteleanu Claudiu indică județul Brasov, funcția \"Presedinte\", instituția \"ONG\", decizia 2459 și condamnarea din 13/12/2011."
+        "url": "https://www.gds.ro/Actualitate/2006-04-17/Spaga-pentru-admiterea-in-Barou/"
       }
     ]
   },

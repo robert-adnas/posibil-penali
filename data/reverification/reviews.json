@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-12",
+  "updated_at": "2026-09-13",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -54773,6 +54773,441 @@
         "https://www.dna.ro/comunicat.xhtml?id=555"
       ],
       "note": "Eliminată din registrul public: DNA o identifică pe Edit Lazăr drept fost avocat în Baroul Timiș, fără funcție, mandat sau afiliere politică verificabilă. Condamnarea definitivă de 4 ani pentru trafic de influență este confirmată; forma numelui a fost normalizată în evidența de reverificare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3543",
+      "original_name": "Mihaila Neculai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4134",
+        "https://www.dna.ro/comunicat.xhtml?id=2853",
+        "https://www.comunarebricea.ro/ari1_58-primar.html",
+        "https://www.comunarebricea.ro/ari_afisare_document.php?document=46361"
+      ],
+      "note": "Eliminat pentru a evita o atribuire neverificată: DNA identifică un avocat stagiar din Baroul Bacău, condamnat pentru șantaj; sursele oficiale din Rebricea identifică separat un omonim ales local PSD și actual primar în Vaslui. Nicio sursă fiabilă nu leagă identitățile, iar profilul avea și județul, și infracțiunea prezentate greșit/generic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3544",
+      "original_name": "Militaru Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4652",
+        "https://www.dna.ro/comunicat.xhtml?id=1694"
+      ],
+      "note": "Eliminat: DNA îl identifică drept avocat în Baroul Olt, condamnat definitiv la 2 ani și 6 luni pentru trafic de influență; nu este documentată nicio funcție politică sau publică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3545",
+      "original_name": "Mirsanu Christy-Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3001",
+        "https://www.dna.ro/comunicat.xhtml?id=870",
+        "https://www.avocatura.com/av.38493-mirsanu-christy-gabriel.html"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Christy Gabriel Mîrșanu drept avocat al Baroului Iași, condamnat definitiv la 3 ani pentru trafic de influență și înșelăciune. Forma numelui a fost normalizată în sursa oficială; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3546",
+      "original_name": "Mischian Mircea Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2781",
+        "https://www.dna.ro/comunicat.xhtml?id=1409",
+        "https://www.baroul-cluj.ro/avocat-definitiv/mischian-mircea-dorin/"
+      ],
+      "note": "Eliminat: DNA și Baroul Cluj îl identifică pe Mircea-Dorin Mischian exclusiv ca avocat; condamnarea definitivă este pentru luare de mită, nu categoria generică afișată în profil. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3547",
+      "original_name": "Nastase Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5606",
+        "https://www.dna.ro/comunicat.xhtml?id=2557"
+      ],
+      "note": "Eliminat: DNA identifică precis un avocat al Baroului Iași condamnat pentru fals în înscrisuri sub semnătură privată. Există omonimi în spațiul public, inclusiv un primar și un cadru MApN, însă nicio sursă nu leagă avocatul de o funcție politică; atribuirea politică ar crea risc de coliziune.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3548",
+      "original_name": "Nitu Maria Cerasela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2913",
+        "https://www.pressalert.ro/2011/10/avocat-trimis-in-judecata-de-dna-pentru-trafic-de-influenta-afla-ce-a-patit-martorul-mincinos-folosit-de-acesta/"
+      ],
+      "note": "Eliminat: sursele o identifică drept avocat în Baroul Caraș-Severin, condamnată definitiv la un an pentru trafic de influență și instigare la mărturie mincinoasă; nu este documentată nicio funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3550",
+      "original_name": "Pilica Viorica Iosefina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4112",
+        "https://www.dna.ro/comunicat.xhtml?id=1408"
+      ],
+      "note": "Eliminat: DNA o identifică drept avocat în Baroul Prahova, condamnată definitiv la 4 ani pentru complicitate la luare de mită și favorizarea infractorului; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3551",
+      "original_name": "Popa Alina Liliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4699",
+        "https://www.dna.ro/comunicat.xhtml?id=2480",
+        "https://archive.primarias1.ro/oficiul-electoral/candidati%20Consiliu.pdf"
+      ],
+      "note": "Eliminat pentru a evita o atribuire neverificată: DNA identifică o avocată a Baroului București condamnată pentru trafic de influență, iar o listă electorală oficială identifică un omonim ALDE cu ocupația consilier juridic. Nu există o sursă fiabilă care să demonstreze că sunt aceeași persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3552",
+      "original_name": "Postelnicu Ana Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1916",
+        "https://www.dna.ro/comunicat.xhtml?id=1632",
+        "https://www.baroul-neamt.ro/"
+      ],
+      "note": "Eliminat: DNA o identifică pe Ana-Alina Postelnicu drept avocat în Baroul Neamț, nu Bacău, condamnată definitiv la un an și patru luni pentru trafic de influență. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3553",
+      "original_name": "Radu Eugen Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3525",
+        "https://www.dna.ro/comunicat.xhtml?id=3091"
+      ],
+      "note": "Eliminat: DNA îl identifică exclusiv drept avocat în Baroul București, condamnat definitiv la 4 ani pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3554",
+      "original_name": "Rusu Paul",
+      "current_name": "Paul Rusu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5064",
+        "https://www.dna.ro/comunicat.xhtml?id=4334",
+        "https://primariasv.ro/dm_suceava/site.nsf/8D0BA69DE62CC231C2257BEC00239995/%24FILE/Proces%20verbal%20_12iulie2012.pdf",
+        "https://www.monitorulsv.ro/avocatul-paul-rusu-fost-consilier-local-in-suceava-si-candidat-pentru-un-post-de-deputat-condamnat-definitiv_284860/"
+      ],
+      "note": "Păstrat și corectat: Primăria Suceava confirmă mandatul de consilier local, iar presa locală leagă neechivoc avocatul condamnat de activitatea în PC/USL și candidatura parlamentară. Numele, partidul, funcția și sursele publice au fost corectate; soluția definitivă era exactă.",
+      "reviewed_snapshot_hash": "98e779e87d3695e13e0dcfa63468039f821c59b18ef7e1afd5b66a7047683172"
+    },
+    {
+      "profile_id": "RV-3555",
+      "original_name": "Ruta Rodica Ligia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1904",
+        "https://www.dna.ro/comunicat.xhtml?id=1134"
+      ],
+      "note": "Eliminat: DNA o identifică pe Rodica-Ligia Ruță drept avocat în Baroul Mureș, condamnată definitiv la 2 ani cu suspendare pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3556",
+      "original_name": "Socol Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4699",
+        "https://www.dna.ro/comunicat.xhtml?id=2480"
+      ],
+      "note": "Eliminat: DNA confirmă condamnarea lui Ion Socol pentru trafic de influență, dar nu îl identifică drept avocat, cum afirma profilul, și nu indică nicio funcție politică. Fără o legătură politică verificabilă, intrarea nu îndeplinește criteriul de includere.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3557",
+      "original_name": "Stancescu Marius-Catalin",
+      "current_name": "Marius-Cătălin Stăncescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5067",
+        "https://www.dna.ro/comunicat.xhtml?id=2493",
+        "https://sindfisc.ro/comunicare/informari/informare-13.03.2019.html",
+        "https://financialintelligence.ro/cybersecurity-forum/"
+      ],
+      "note": "Păstrat în arhiva extinsă: surse independente îl identifică în 2019 drept consilier personal/la cabinetul președintelui ANAF. Profilul a fost corectat deoarece falsul în declarații din hotărâre îl privea pe coinculpat; Stăncescu a fost condamnat pentru două infracțiuni de trafic de influență, cu termen de încercare de 6 ani.",
+      "reviewed_snapshot_hash": "0129ed5cbbaf919d5ec27d64b25b10825321bfa07596f801c62087b76610d109"
+    },
+    {
+      "profile_id": "RV-3558",
+      "original_name": "Stanoaia Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3042",
+        "https://www.dna.ro/comunicat.xhtml?id=2438"
+      ],
+      "note": "Eliminat: DNA o identifică pe Adriana Stănoaia drept avocat în Baroul Dâmbovița, condamnată definitiv la un an și 8 luni pentru trafic de influență continuat; profilul avea județul greșit și nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3559",
+      "original_name": "Stoian Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2770",
+        "https://www.dna.ro/comunicat.xhtml?id=2278"
+      ],
+      "note": "Eliminat: DNA îl identifică drept avocat în Baroul București, condamnat definitiv la un an și 6 luni pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3560",
+      "original_name": "Stoicescu Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3692",
+        "https://www.dna.ro/comunicat.xhtml?id=2936"
+      ],
+      "note": "Eliminat: DNA îl identifică drept avocat în Baroul București, condamnat definitiv la 2 ani și 6 luni cu suspendare pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3561",
+      "original_name": "Szekely Adalbert-Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5367",
+        "https://hudoc.echr.coe.int/eng?i=001-118687"
+      ],
+      "note": "Eliminat: DNA și dosarul CEDO îl identifică pe Adalbert-Cornel Szekely drept avocat, condamnat definitiv la 3 ani pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3562",
+      "original_name": "Teodorescu Sever",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3561",
+        "https://www.monitoruldegalati.ro/comunitate/avocatul-sever-teodorescu-condamnat-la-patru-ani-de-inchisoare-cu-executare.html"
+      ],
+      "note": "Eliminat: sursele îl identifică drept avocat în Baroul București, condamnat definitiv la 4 ani pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3563",
+      "original_name": "Tiba Tiberiu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1908",
+        "https://www.avocatura.com/av.19481-tiba-tiberiu--mircea.html",
+        "https://hudoc.echr.coe.int/eng?i=001-169662"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Tiberiu-Mircea Tiba exclusiv drept avocat al Baroului Bihor, nu Timiș, condamnat definitiv la 4 ani cu suspendare pentru trafic de influență. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3564",
+      "original_name": "Tuta Mimi",
+      "current_name": "Mimi Tuță",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1929",
+        "https://www.gds.ro/Actualitate/2006-04-17/Spaga-pentru-admiterea-in-Barou/"
+      ],
+      "note": "Păstrată și corectată: sursa de presă contemporană dosarului o identifică neechivoc pe avocata Mimi Tuță drept președinta Comisiei Juridice a Partidului Noua Generație. Numele, partidul, funcția și sursele au fost corectate; condamnarea definitivă era redată corect.",
+      "reviewed_snapshot_hash": "cbbdc759535ec94f58e707f9727924c6466260395c0a9e80f66d6af4024f29a8"
+    },
+    {
+      "profile_id": "RV-3565",
+      "original_name": "Ursachi Neliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2074",
+        "https://legislatie.just.ro/Public/DetaliiDocument/287761",
+        "https://consiliuldemediere.ro/hunedoara"
+      ],
+      "note": "Eliminat: DNA și sursele profesionale o identifică drept avocat și mediator în Hunedoara, condamnată definitiv la un an și 6 luni cu suspendare pentru trafic de influență. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3566",
+      "original_name": "Vasilateanu Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3878"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Cătălin Vasilățeanu drept avocat al Baroului București, condamnat definitiv la 3 ani pentru patru infracțiuni de trafic de influență, nu categoria generică din profil. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3567",
+      "original_name": "Zgabei Giorgel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5307"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Giorgel Zgăbei drept avocat al Baroului București, fără funcție politică documentată. Profilul indica 2 ani și 6 luni, deși textul oficial al soluției consemnează 2 ani cu suspendare pentru complicitate la trafic de influență.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3568",
+      "original_name": "Oteleanu Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2892",
+        "https://adevarul.ro/stiri-locale/brasov/claudiu-oteleanu-a-fost-condamnat-definitiv-la-873090.html"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Claudiu Oțeleanu drept președintele unei federații județene de ONG-uri pentru tineret, fără funcție politică eligibilă documentată. Numele și pedeapsa erau redate greșit: condamnarea definitivă a fost de 6 ani cu executare, nu 6 luni.",
       "reviewed_snapshot_hash": null
     }
   ]
