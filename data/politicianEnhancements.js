@@ -40,6 +40,14 @@ export const excludedPoliticianNames = new Set([
   'Bratu Tudorel',
   'Bressan Tiziano',
   'Brustur Corneliu Zelea Codreanu',
+  'Buga Florin-Adrian',
+  'Burueana Ene',
+  'Butoi Eugen',
+  'Caprarin Ovidiu',
+  'Caraba Robert Valentin',
+  'Ciurila Gheorghe',
+  'Comanescu Valentin',
+  'Coseru Valentin',
   'Buduru Cornel',
   'Bunei Silviu Iosif',
   'Bădulici Doina',
@@ -48,15 +56,25 @@ export const excludedPoliticianNames = new Set([
   'Cojocari Ioan',
   'Crîșmaru Monica',
   'Crăciunel Dorel-Rusalin',
+  'Cruceanu Daniel',
+  'Dascalu Carmen Mironel',
+  'Dascalu Vasile-Dorin',
   'Dinculescu Marin',
   'Drăghici Elena',
+  'Duca Alexandru',
   'Dulgheriu Maria',
+  'Dulugeac Ion',
+  'Dumitrascu Puiu Alexandru',
+  'Dumitrescu Gabriela Monica',
   'Dumitrescu Eduard Constantin',
   'Emil Virgil Măceșanu',
   'Ene Florin Aurelian',
   'Epure Marius',
   'Folea Adriana Simona',
+  'Fortan Coleta',
   'Floroiu Laurențiu Constantin',
+  'Georgescu Claudia Liliana',
+  'Gheorghe Dan Laurentiu',
   'Grigore Liliana',
   'Gabriel Ghețu',
   'Hasan Gelu Laurențiu',
@@ -39642,34 +39660,39 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Buga Stelica",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
-    "position_type": "other",
+    "name": "Buga Stelică",
+    "party": "PSD",
+    "position": "Consilier local PSD al orașului Pogoanele; administrator de societate comercială",
+    "position_type": "local_official",
     "geography": {
-      "county": "Buzau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Buzau."
+      "county": "Buzău",
+      "basis": "political_base",
+      "locality": "Pogoanele",
+      "note": "Prefectura Buzău confirmă validarea mandatului său de consilier local PSD al orașului Pogoanele în 2020."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false",
+    "crime": "tentativă la obținerea nelegală de fonduri europene și fals în înscrisuri sub semnătură privată, ambele în formă continuată",
     "sentence": "1 an și 6 luni închisoare cu suspendare",
     "sentence_years": 1.5,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 martie 2014. Condamnă pe inculpatul BUGA STELICĂ, administrator al unei societăți comerciale, la o pedeapsă de 1 an și 6 luni închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 3 ani și 6 luni, pentru săvârșirea infracțiunilor concurente de: tentativă la folosire sau prezentare de documente ori declarații false, inexacte sau incomplete, care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunitarilor Europene sau din bugetele administrate de acestea ori in numele lor și fals in înscrisuri sub semnătură privată, toate în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 242 din 20 martie 2014, Curtea de Apel Ploiești l-a condamnat la 1 an și 6 luni de închisoare cu suspendare pentru tentativa de a obține nelegal fonduri europene și fals în înscrisuri sub semnătură privată, ambele în formă continuată. Rechizitoriul DNA plasează faptele și societatea implicată în Pogoanele, iar Prefectura Buzău confirmă că Buga Stelică a devenit consilier local PSD al orașului Pogoanele în 2020.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4767"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Buga Stelica indică județul Buzau, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 242 și condamnarea din 20/03/2014."
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/faces/comunicat.xhtml?id=3769"
+      },
+      {
+        "label": "Prefectura Buzău — validarea mandatului de consilier local",
+        "kind": "official",
+        "url": "https://bz.prefectura.mai.gov.ro/wp-content/uploads/sites/31/2020/10/o.p.-validare-CL-Pogoanele-1.pdf"
       }
     ]
   },
@@ -40123,33 +40146,38 @@ export const politicianAdditions = [
   },
   {
     "name": "Dumitrescu Aristin",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
-    "position_type": "other",
+    "party": "PNL",
+    "position": "Fost consilier municipal și județean; membru PNL (anterior PNȚCD)",
+    "position_type": "local_official",
     "geography": {
-      "county": "Valcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Valcea."
+      "county": "Vâlcea",
+      "basis": "political_base",
+      "locality": "Râmnicu Vâlcea",
+      "note": "Activitatea politică și mandatul local/județean sunt documentate în județul Vâlcea."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
+    "crime": "obținerea nelegală de fonduri europene, fals intelectual, uz de fals și fals în înscrisuri sub semnătură privată",
     "sentence": "1 an închisoare cu suspendare",
     "sentence_years": 1,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 noiembrie 2011. Condamnarea inculpatului DUMITRESCU ARISTIN, administrator al SC UNIREA INVEST SRL Rm.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 1.239 din 24 noiembrie 2011, Curtea de Apel Pitești a menținut condamnarea lui Aristin Dumitrescu la 1 an de închisoare cu suspendare pentru obținerea nelegală de fonduri europene și infracțiuni de fals. Sursele electorale și presa locală îl identifică drept fost consilier municipal și județean, membru PNL după o perioadă în PNȚCD, și candidat PNL la Consiliul Județean Vâlcea în 2016.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2807"
       },
       {
-        "label": "România Curată",
+        "label": "Consiliul Județean Vâlcea — document electoral",
+        "kind": "official",
+        "url": "https://cjvalcea.ro/images/sedinte/2011/09-30/ordinea/pct4.pdf"
+      },
+      {
+        "label": "Ziarul de Vâlcea — identitatea politică și condamnarea",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dumitrescu Aristin indică județul Valcea, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 1239 și condamnarea din 24/11/2011."
+        "url": "https://ziaruldevalcea.ro/2011/12/aristin-dumitrescu-a-scapat-cu-o/"
       }
     ]
   },

@@ -55607,6 +55607,337 @@
       ],
       "note": "Eliminat: DNA îl identifică pe Tudorel Bratu drept fost administrator al unei societăți din Brăila, condamnat definitiv la 2 ani cu suspendare pentru mai multe infracțiuni, nu doar delapidare. Consilierul local PNL Bratu Tudorel Georgian din Pantelimon este o altă persoană; nu este documentat un rol politic pentru inculpatul din Brăila.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3593",
+      "original_name": "Buga Florin-Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4767",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3769"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Florin-Adrian Buga drept administrator al SC BFA Demo Prest SRL din Pogoanele, condamnat definitiv la un an cu suspendare pentru tentativă la obținerea nelegală de fonduri europene și fals în înscrisuri. Nu este documentat un rol politic eligibil, iar profilul omitea tentativa și falsul.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3594",
+      "original_name": "Buga Stelica",
+      "current_name": "Buga Stelică",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4767",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3769",
+        "https://bz.prefectura.mai.gov.ro/wp-content/uploads/sites/31/2020/10/o.p.-validare-CL-Pogoanele-1.pdf"
+      ],
+      "note": "Păstrat și corectat: DNA plasează inculpatul și societatea implicată în Pogoanele, iar Prefectura Buzău confirmă validarea mandatului lui Buga Stelică drept consilier local PSD al orașului Pogoanele în 2020. Au fost corectate numele, partidul, funcția, localitatea și descrierea faptelor; condamnarea definitivă rămâne 1 an și 6 luni cu suspendare.",
+      "reviewed_snapshot_hash": "9e26c2df03538dc25593922e8855ab59301ed061fa5999f1318099010c480f1d"
+    },
+    {
+      "profile_id": "RV-3595",
+      "original_name": "Burueana Ene",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2950"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Burueană Ene, inginer la AFDJ Galați, condamnat definitiv la 4 luni cu suspendare pentru obținerea nelegală de fonduri europene, deturnare de fonduri și fals. Numele și descrierea generică a faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3596",
+      "original_name": "Butoi Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4992"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Eugen Butoi exclusiv drept fost administrator al SC Eurocom SRL, condamnat definitiv la 3 ani cu executare pentru folosirea de documente false în vederea obținerii nelegale de fonduri europene. Profilul reda generic faptele; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3597",
+      "original_name": "Caprarin Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3921"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Căprărin Ovidiu, administrator al SC Reutliocom SRL Brașov, condamnat definitiv la 3 ani cu suspendare pentru obținerea nelegală de fonduri europene și tentativa la aceeași infracțiune. Numele și descrierea incompletă a faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3598",
+      "original_name": "Caraba Robert Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1889",
+        "https://www.dna.ro/comunicat.xhtml?id=991"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Carabă Robert Valentin, fost administrator al SC Euroconstruct SRL Focșani, condamnat definitiv la 4 ani cu executare pentru schimbarea destinației fondurilor europene, complicitate la obținerea lor prin declarații false și fals în înscrisuri. Numele și descrierea incompletă a faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3599",
+      "original_name": "Ciurila Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2892"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Ciurilă Gheorghe, reprezentant al două societăți private, condamnat definitiv la 3 ani cu executare pentru fals în înscrisuri și complicitate la schimbarea nelegală a destinației fondurilor europene. Numele, rolul și faptele din profil erau imprecise; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3600",
+      "original_name": "Comanescu Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1953"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Comănescu Valentin, administrator al SC Fanirom Com SRL Vaideeni, condamnat definitiv la 2 ani cu suspendare pentru schimbarea destinației fondurilor europene, fals în înscrisuri, fals intelectual și uz de fals. Numele și lista faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3602",
+      "original_name": "Coseru Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1950",
+        "https://www.dna.ro/comunicat.xhtml?id=991"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Coșeru Valentin, acționar și administrator al SC Apollodor Group SA Reșița, condamnat definitiv la 2 ani cu suspendare pentru obținerea nelegală de fonduri europene, omiterea datelor cerute și fals în înscrisuri. Numele, rolul și descrierea generică a faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3604",
+      "original_name": "Cruceanu Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5600"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Daniel Cruceanu ca persoană din conducerea unui operator economic, fără rol politic documentat. Profilul reda greșit pedeapsa drept suspendată: instanța a stabilit 6 luni cu amânarea aplicării pe un termen de supraveghere de 2 ani.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3605",
+      "original_name": "Dascalu Carmen Mironel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3589"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Dascălu Carmen Mironel, asociat și administrator al unor societăți private, condamnat definitiv la 2 ani și 6 luni cu suspendare pentru obținerea nelegală de fonduri europene, înșelăciune și fals material. Numele și descrierea generică a faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3606",
+      "original_name": "Dascalu Vasile-Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5547"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Dascălu Vasile-Dorin, administrator al unei societăți private, condamnat definitiv la 3 ani cu suspendare pentru două infracțiuni privind obținerea nelegală de fonduri europene. Numele și descrierea faptelor au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3607",
+      "original_name": "Duca Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5030",
+        "https://alba24.ro/pedepse-cu-inchisoarea-in-dosarul-corup%C8%9Bie-la-finante-omul-de-afaceri-alexandru-duca-condamnat-la-3-ani-%C8%99i-6-luni-cu-executare-98933.html"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Alexandru Duca drept administrator de fapt al unei societăți private, condamnat definitiv la 3 ani și 6 luni cu executare. Profilul menționa doar trafic de influență, dar hotărârea enumeră cumpărare de influență, complicitate, delapidare, fals și spălare de bani; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3608",
+      "original_name": "Dulugeac Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1971",
+        "https://www.aslrq.ro/ASLRQ_fichiers/membri_files/Dulugeac.html"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Ion Dulugeac drept administrator al unor societăți ecvestre și președinte al unei organizații hipice, condamnat definitiv la 4 ani cu executare. Profilul omitea tentativa, schimbarea destinației fondurilor și mai multe falsuri; sursa biografică îl descrie ca autor, nu politician, iar un rol politic eligibil nu este documentat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3609",
+      "original_name": "Dumitrascu Puiu Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3330",
+        "https://www.dna.ro/comunicat.xhtml?id=1055"
+      ],
+      "note": "Eliminat: DNA îl identifică drept Dumitrașcu Puiu Alexandru, administrator al SC Internațional Invest SRL Brăila, condamnat definitiv la 2 ani cu suspendare pentru folosirea unor declarații inexacte în vederea obținerii nelegale de fonduri europene. Numele și descrierea generică a faptei au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3610",
+      "original_name": "Dumitrescu Aristin",
+      "current_name": "Dumitrescu Aristin",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2807",
+        "https://cjvalcea.ro/images/sedinte/2011/09-30/ordinea/pct4.pdf",
+        "https://ziaruldevalcea.ro/2011/12/aristin-dumitrescu-a-scapat-cu-o/"
+      ],
+      "note": "Păstrat și corectat: DNA și presa locală leagă fără echivoc condamnarea administratorului SC Unirea Invest de Aristin Dumitrescu, membru PNL și fost consilier municipal/județean, anterior lider PNȚCD. Au fost corectate partidul, funcția, geografia și lista faptelor; condamnarea definitivă rămâne 1 an cu suspendare.",
+      "reviewed_snapshot_hash": "052ea9edaf4f9b6f3ebef71aae709c78f2c8a4778f908a8a1adb988a180163bf"
+    },
+    {
+      "profile_id": "RV-3611",
+      "original_name": "Dumitrescu Gabriela Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3921"
+      ],
+      "note": "Eliminată: DNA o identifică pe Gabriela Monica Dumitrescu drept administrator al SC Vulcarom PR SRL Brașov, condamnată definitiv la 3 ani cu suspendare pentru complicitate la obținerea nelegală de fonduri europene. Descrierea generică a faptei a fost corectată; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3612",
+      "original_name": "Fortan Coleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4862"
+      ],
+      "note": "Eliminată: DNA o identifică drept Forțan Coleta, fost administrator al unei societăți private, condamnată definitiv la 1 an cu suspendare pentru folosirea de documente ori declarații false în vederea obținerii nelegale de fonduri europene. Numele și descrierea generică a faptei au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3613",
+      "original_name": "Georgescu Claudia Liliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3133",
+        "https://ziare.com/stiri/frauda/administrator-de-firma-trimis-in-judecata-pentru-obtinerea-ilegala-de-fonduri-phare-285377"
+      ],
+      "note": "Eliminată: sursele o identifică drept Georgescu Claudia-Liliana, administrator al SC Euro Building SRL Pucioasa, condamnată definitiv la 3 ani cu suspendare pentru obținerea nelegală de fonduri europene, fals și înșelăciune. Numele și faptele au fost corectate; nu este documentat un rol politic eligibil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3614",
+      "original_name": "Gheorghe Dan Laurentiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1941"
+      ],
+      "note": "Eliminat: DNA confirmă condamnarea definitivă a lui Gheorghe Dan Laurențiu la 1 an cu suspendare pentru fals intelectual în formă continuată. Numele necesita diacritice, iar sursele nu documentează nicio funcție politică eligibilă pentru persoana condamnată.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

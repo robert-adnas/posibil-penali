@@ -4145,6 +4145,13 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-3503"
+    },
+    "Cozmaciuc Constantin": {
+      "held_at": "2026-09-13",
+      "reasons": [
+        "Posibilă coliziune nerezolvată: DNA documentează un om de afaceri din municipiul Suceava, iar sursele electorale indică un candidat PNL cu același nume la Pojorâta; nu există încă o legătură suficientă pentru a atribui condamnarea persoanei politice."
+      ],
+      "profile_id": "RV-3603"
     }
   }
 }
