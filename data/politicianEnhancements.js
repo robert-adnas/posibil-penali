@@ -75,21 +75,32 @@ export const excludedPoliticianNames = new Set([
   'Floroiu Laurențiu Constantin',
   'Georgescu Claudia Liliana',
   'Gheorghe Dan Laurentiu',
+  'Giuseppe Moriello',
+  'Gonciarov Ana',
+  'Guzganu Dorin',
   'Grigore Liliana',
   'Gabriel Ghețu',
   'Hasan Gelu Laurențiu',
   'Haracicu Smaranda Maria',
+  'Horhocea Daniel',
   'Hofman Iulian-Alexandru',
   'Hofman Marius',
   'Hofman Vicenția-Andreea',
   'Ifrim Vasile Dorinel',
   'Iancu Nicolae',
+  'Imre Sandor',
+  'Ioana Mariana Iuliana',
   'Ioan-Petrișor Nădăștean',
   'Ioan Tănasă',
   'Imola Kiss',
   'Iordache Constantin',
+  'Jesus Estany Serarols',
+  'Kenesi Ladislau',
+  'Korodi Janos',
+  'Krall Laszlo',
   'Laciu Răducu George',
   'Lăcrămioara Alexandru',
+  'Lengher Adrian',
   'Lungu Gheorghe Adrian',
   'Lupșa Lenuța Florentina',
   'Macarie Gabriela',
@@ -29754,12 +29765,17 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în ianuarie 2018 pentru trafic de influență, în legătură cu presupuse foloase de 62.143 lei și numirea unei persoane într-o funcție publică. Actualizarea DNA din 25 martie 2022 consemnează achitarea definitivă dispusă de Curtea de Apel București, întrucât fapta nu există.',
-    verified_at: '2026-05-03',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8612',
+      },
+      {
+        label: 'AGERPRES — achitarea definitivă',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2022/02/11/valeriu-zgonea-achitat-definitiv-pentru-trafic-de-influenta-la-prima-instanta-primise-3-ani-de-inchi--863580',
       },
     ],
   },
@@ -29780,7 +29796,7 @@ export const politicianAdditions = [
     status: 'prescribed',
     details:
       'DNA l-a trimis în judecată în martie 2018 în dosarul Baza Cutezătorii, privind semnarea unui act adițional la un contract de locațiune. Actualizarea DNA din 5 februarie 2024 consemnează încetarea definitivă a procesului penal prin prescripție și confiscarea sumei de 267.577 euro.',
-    verified_at: '2026-05-03',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
@@ -29802,6 +29818,7 @@ export const politicianAdditions = [
     geography: {
       county: 'Dolj',
       basis: 'office',
+      locality: 'Craiova',
       note: 'Funcția locală principală este cea de primar al municipiului Craiova, județul Dolj.',
     },
     crime: 'Luare de mită; folosirea influenței; spălare a banilor',
@@ -29811,7 +29828,7 @@ export const politicianAdditions = [
     status: 'closed',
     details:
       'DNA a dispus în 2016 punerea în mișcare a acțiunii penale și reținerea pentru acuzații legate de sponsorizări, campania electorală din 2012 și reabilitarea unor fațade din Craiova. După restituirea dosarului la DNA, presa locală a consemnat clasarea din 2020, iar în 2023 plângerile împotriva soluției de clasare au fost respinse definitiv.',
-    verified_at: '2026-05-03',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
@@ -29828,6 +29845,11 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.sursazilei.ro/tribunalul-bucuresti-i-a-inchis-definitiv-dosarul-de-coruptie-al-primarului-craiovei-lia-olguta-vasilescu/',
       },
+      {
+        label: 'Primăria Craiova — primar',
+        kind: 'official',
+        url: 'https://www.primariacraiova.ro/ro/a/18/lia-olgu%C8%9Ba-vasilescu',
+      },
     ],
   },
   {
@@ -29841,13 +29863,13 @@ export const politicianAdditions = [
       note: 'A fost lider al organizației județene Bistrița-Năsăud și deputat cu bază politică în acest județ.',
     },
     crime: 'Trafic de influență; complicitate la abuz în serviciu',
-    sentence: 'Cauză închisă după restituirea dosarului la DNA',
+    sentence: 'Cauze clasate; dosarul ANRP a fost restituit definitiv la DNA înainte de clasare',
     sentence_years: null,
     conviction_year: null,
     status: 'closed',
     details:
-      'DNA l-a vizat în dosare privind folosirea influenței politice și despăgubiri ANRP. În dosarul ANRP, cauza a fost restituită definitiv la DNA în 2017 pentru neregularitatea rechizitoriului, iar presa a relatat ulterior că dosarul lui Ioan Oltean a fost închis prin clasare.',
-    verified_at: '2026-05-03',
+      'DNA l-a vizat în patru dosare privind folosirea influenței politice și despăgubiri ANRP. În principalul dosar ANRP, cauza a fost restituită definitiv la DNA în 2017 pentru neregularitatea rechizitoriului. DNA a dispus ulterior clasarea, iar în 2021 Ioan Oltean a prezentat public ordonanțele de clasare pentru toate cele patru cauze; statutul corect este „closed”, nu achitare judecătorească.',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
@@ -29864,6 +29886,11 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.gandul.ro/actualitate/achitat-definitiv-fostul-deputat-ioan-oltean-acuza-dna-de-tortura-psihica-si-cere-statului-roman-despagubiri-de-400-000-e-20157994',
       },
+      {
+        label: 'AGERPRES — ordonanțele de clasare',
+        kind: 'press',
+        url: 'https://agerpres.ro/politic/2021/06/23/bistrita-nasaud-ioan-oltean-spune-ca-a-scapat-de-dosarele-dna-si-ca-a-inlaturat-termenul-de-penal-ca--735805',
+      },
     ],
   },
   {
@@ -29877,30 +29904,36 @@ export const politicianAdditions = [
       note: 'Funcția relevantă a fost cea de ministru al Finanțelor Publice, instituție centrală cu sediul în București.',
     },
     crime: 'Abuz în serviciu; luare de mită; trafic de influență; spălare a banilor',
-    sentence: 'Cauză clasată (2018)',
-    sentence_years: null,
-    conviction_year: null,
-    status: 'closed',
+    sentence: 'Cauză clasată ca urmare a prescripției (2018)',
+    sentence_years: 0,
+    conviction_year: 2018,
+    status: 'prescribed',
     details:
-      'În dosarul Microsoft, DNA a cerut în 2014 începerea urmăririi penale față de Mihai Tănăsescu, fost ministru al Finanțelor. Comunicatul DNA din 2018 consemnează soluții de clasare pentru acuzațiile de luare de mită și spălare a banilor reținute în legătură cu acest dosar.',
-    verified_at: '2026-05-03',
+      'În dosarul Microsoft, DNA a cerut în 2014 începerea urmăririi penale față de Mihai Tănăsescu, fost ministru al Finanțelor. La 8 ianuarie 2018, DNA a clasat acuzațiile privind inițierea și avizarea unor hotărâri de guvern deoarece se împlinise termenul de prescripție; aceeași soluție de clasare a fost dispusă pentru acuzațiile de luare de mită și spălare a banilor. În taxonomia proiectului, cauza este marcată „prescribed”.',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8667',
       },
+      {
+        label: 'Mediafax — clasarea prin prescripție',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/updateandronescu-tanasescu-mihailescu-nica-ticau-funeriu-si-athanasiu-fara-acuzatii-in-microsoft-17568140',
+      },
     ],
   },
   {
     name: 'Gheorghe Falcă',
-    party: 'PDL',
-    position: 'Fost primar al municipiului Arad; europarlamentar',
-    position_type: 'mayor',
+    party: 'PNL',
+    position: 'Europarlamentar PNL; fost primar al municipiului Arad',
+    position_type: 'member_european_parliament',
     geography: {
       county: 'Arad',
-      basis: 'office',
-      note: 'Funcția locală relevantă a fost cea de primar al municipiului Arad.',
+      basis: 'political_base',
+      locality: 'Arad',
+      note: 'Baza politică locală este municipiul Arad, pe care l-a condus ca primar înainte de mandatele în Parlamentul European.',
     },
     crime: 'Luare de mită; abuz în serviciu',
     sentence: 'Achitat definitiv (2013)',
@@ -29909,7 +29942,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în 2007 pentru luare de mită și abuz în serviciu într-un dosar privind o tranzacție imobiliară din perioada în care era primar al municipiului Arad. ÎCCJ a respins recursul DNA și a menținut achitarea definitivă în iunie 2013.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
@@ -29920,6 +29953,11 @@ export const politicianAdditions = [
         label: 'Jurnalul',
         kind: 'press',
         url: 'https://jurnalul.ro/stiri/observator/inalta-curte-de-casatie-si-justitie-l-a-achitat-pe-primarul-aradului-gheorghe-falca-sentinta-este-definitiva-645754.html',
+      },
+      {
+        label: 'Parlamentul European — profil de eurodeputat',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/197649/GHEORGHE_FALCA/home',
       },
     ],
   },
@@ -29933,19 +29971,24 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția relevantă a fost la ANRP, autoritate centrală cu sediul în București.',
     },
-    crime: 'Abuz în serviciu',
-    sentence: 'Proces încetat prin prescripție (2022)',
+    crime: 'Abuz în serviciu; luare de mită',
+    sentence: 'Procese încetate parțial prin prescripție (2022–2023); achitări definitive pentru celelalte acuzații',
     sentence_years: 0,
     conviction_year: 2022,
     status: 'prescribed',
     details:
-      'DNA a trimis-o în judecată în dosarul despăgubirilor ANRP pentru aprobarea unui raport de evaluare supraevaluat. Actualizarea DNA din 27 ianuarie 2023 consemnează încetarea procesului penal prin prescripție și obligații civile stabilite în solidar în dosar.',
-    verified_at: '2026-05-11',
+      'În primul dosar ANRP, decizia definitivă nr. 87 din 5 decembrie 2022 a încetat procesul penal față de Crinuța Dumitrean prin prescripție pentru abuz în serviciu și a menținut obligații civile în solidar. În al doilea dosar, decizia definitivă nr. 166/A din 27 aprilie 2023 a achitat-o pentru abuz în serviciu, dar a încetat prin prescripție acuzația de luare de mită și a dispus confiscarea specială a 400.000 euro. Statutul agregat rămâne „prescribed”.',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5695',
+      },
+      {
+        label: 'DNA — al doilea dosar ANRP',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7596',
       },
       {
         label: 'Mediafax',
@@ -30014,6 +30057,7 @@ export const politicianAdditions = [
     geography: {
       county: 'Constanța',
       basis: 'office',
+      locality: 'Constanța',
       note: 'Cauza DNA privea calitatea de prefect al județului Constanța și președinte al Comisiei Județene de Fond Funciar.',
     },
     crime: 'Abuz în serviciu',
@@ -30023,24 +30067,30 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul retrocedării a 656,76 hectare de teren din Constanța, în legătură cu activitatea Comisiei Județene de Fond Funciar. Actualizarea DNA din 14 septembrie 2021 consemnează achitarea definitivă.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5738',
       },
+      {
+        label: 'Focus Press — soluția definitivă',
+        kind: 'press',
+        url: 'https://focuspress.ro/primarul-florin-mitroi-fostul-prefect-danut-culetu-fostul-director-ocpi-stere-sponte-si-inca-doi-consilieri-achitati-definitiv-pentru-abuz-in-serviciu/',
+      },
     ],
   },
   {
     name: 'Florin Mitroi',
     party: 'PNL',
-    position: 'Primar al comunei Valu lui Traian; președinte al Consiliului Județean Constanța',
-    position_type: 'mayor',
+    position: 'Președinte al Consiliului Județean Constanța; fost primar al comunei Valu lui Traian',
+    position_type: 'county_council_president',
     geography: {
       county: 'Constanța',
       basis: 'office',
-      note: 'Cauza DNA privea calitatea de primar al comunei Valu lui Traian, județul Constanța.',
+      locality: 'Constanța',
+      note: 'Conduce Consiliul Județean Constanța; cauza DNA privea mandatul anterior de primar al comunei Valu lui Traian.',
     },
     crime: 'Abuz în serviciu',
     sentence: 'Achitat definitiv (2021)',
@@ -30049,12 +30099,22 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în dosarul fondului funciar de la Valu lui Traian, pentru abuz în serviciu. Actualizarea oficială din 14 septembrie 2021 consemnează achitarea definitivă de către Curtea de Apel Constanța.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-09-13',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5738',
+      },
+      {
+        label: 'Focus Press — soluția definitivă',
+        kind: 'press',
+        url: 'https://focuspress.ro/primarul-florin-mitroi-fostul-prefect-danut-culetu-fostul-director-ocpi-stere-sponte-si-inca-doi-consilieri-achitati-definitiv-pentru-abuz-in-serviciu/',
+      },
+      {
+        label: 'Consiliul Județean Constanța — conducere',
+        kind: 'official',
+        url: 'https://www.cjc.ro/sectiune.php?s=82',
       },
     ],
   },

@@ -55938,6 +55938,352 @@
       ],
       "note": "Eliminat: DNA confirmă condamnarea definitivă a lui Gheorghe Dan Laurențiu la 1 an cu suspendare pentru fals intelectual în formă continuată. Numele necesita diacritice, iar sursele nu documentează nicio funcție politică eligibilă pentru persoana condamnată.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3615",
+      "original_name": "Giuseppe Moriello",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4093",
+        "https://comune.san-nicola-baronia.av.it/persone/2512363/giuseppe-moriello"
+      ],
+      "note": "DNA identifica persoana din cauza romaneasca drept cetatean italian si administrator al SC MTR ENOPROD SRL Focsani. Nu exista o functie politica in Romania; profilul omonimului care este primar in San Nicola Baronia nu poate fi legat sigur de condamnat si, oricum, este in afara domeniului politic romanesc. Profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3616",
+      "original_name": "Gonciarov Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2877",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "Hotararea definitiva DNA confirma condamnarea, dar nu documenteaza nicio functie politica sau numire politica; sursa secundara o clasifica exclusiv ca administrator de societate comerciala. Profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3617",
+      "original_name": "Guzganu Dorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2720",
+        "https://upload.wikimedia.org/wikipedia/commons/4/49/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2008-04-01%2C_nr._253.pdf"
+      ],
+      "note": "DNA il identifica exclusiv ca asociat si administrator al SC Aldovlad SRL Iasi. Monitorul Oficial consemneaza donatii politice, dar donatia nu reprezinta mandat, conducere de partid ori numire politica. Profil eliminat ca persoana privata din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3618",
+      "original_name": "Horhocea Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5602",
+        "https://www.focsani.info/fisiere/pagini_fisiere/14-06-04-04-12-31pv_sed_ordinara_CL_29_05_14.pdf"
+      ],
+      "note": "DNA il identifica pe Daniel Horhocea numai ca administrator de societate comerciala din Buzau. Documentul oficial al Consiliului Local Focsani il identifica pe politicianul cu nume apropiat drept Dragos-Puiu Horhocea, persoana distincta. Profil eliminat dupa rezolvarea coliziunii de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3620",
+      "original_name": "Imre Sandor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3068",
+        "https://ziare.com/stiri/frauda/fost-primar-judecat-pentru-frauda-cu-fonduri-phare-297676"
+      ],
+      "note": "Sursele il separa explicit de fostul primar Kicsid Adalbert Stefan si il descriu numai ca administrator al SC MI TU HAZ SRL Targu Secuiesc. Nu este documentata nicio functie politica proprie. Profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3621",
+      "original_name": "Ioana Mariana Iuliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3777",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA confirma condamnarea definitiva si calitatea de administrator al SC ELPROD 2000 SRL, fara functie politica sau numire publica. Profil eliminat ca persoana privata din afara domeniului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3622",
+      "original_name": "Jesus Estany Serarols",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3402",
+        "https://www.boe.es/borme/dias/2012/11/08/pdfs/BORME-A-2012-215-08.pdf"
+      ],
+      "note": "DNA il identifica drept cetatean spaniol si administrator al SC Harghita Funghi SRL; registrul comercial spaniol confirma activitate privata. Nu este documentat un rol politic romanesc. Profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3623",
+      "original_name": "Kenesi Ladislau",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3400",
+        "https://static.anaf.ro/static/1/Brasov/20260121155341_19302_40_dacc_25436124_2_2026_01_21.pdf"
+      ],
+      "note": "DNA confirma condamnarea definitiva la 2 ani si 10 luni si il identifica drept administrator de intreprindere individuala si presedinte al unei asociatii composesorale. Aceste roluri nu sunt functii politice; nu este documentat un mandat ori o numire politica. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3624",
+      "original_name": "Korodi Janos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3247",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA confirma condamnarea definitiva si il identifica exclusiv ca administrator al SC Alimentatie Publica Apollo SRL Sfantu Gheorghe. Nu este documentata nicio functie politica. Profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3625",
+      "original_name": "Krall Laszlo",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3881",
+        "https://www.dna.ro/comunicat.xhtml?id=3520"
+      ],
+      "note": "DNA confirma ca persoana era vicepresedinte al Asociatiei Crescatorilor de Taurine Ocna de Sus, un ONG agricol, nu titularul unui mandat sau al unei numiri politice. Profil eliminat din domeniul politic; neconcordanta veche a duratei pedepsei nu mai este publicata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3626",
+      "original_name": "Lengher Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2246",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AB"
+      ],
+      "note": "DNA confirma condamnarea definitiva si il identifica drept administrator al SC Alpro Consult SRL Cluj-Napoca, distinct de primarul din acelasi dosar. Nu este documentata nicio functie politica. Profil eliminat ca persoana privata.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0696",
+      "original_name": "Valeriu Zgonea",
+      "current_name": "Valeriu Zgonea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8612",
+        "https://agerpres.ro/justitie/2022/02/11/valeriu-zgonea-achitat-definitiv-pentru-trafic-de-influenta-la-prima-instanta-primise-3-ani-de-inchi--863580"
+      ],
+      "note": "DNA confirma prin actualizarea din 25 martie 2022 decizia penala definitiva nr. 127/A din 11 februarie 2022: achitare deoarece fapta nu exista. AGERPRES confirma independent solutia, temeiul si anularea confiscarii; profilul ramane politic si a fost completat cu a doua sursa.",
+      "reviewed_snapshot_hash": "d6e3e6d2cccf4aafdab43ca6db5fcb421930f943da2e5cd10bf5d1e0a6c005b6"
+    },
+    {
+      "profile_id": "RV-0697",
+      "original_name": "Mihnea Costoiu",
+      "current_name": "Mihnea Costoiu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8745",
+        "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=2CC51EF1-3996-49C4-834F-31AA6872DDF2"
+      ],
+      "note": "DNA confirma solutia definitiva nr. 30 din 3 aprilie 2023: proces incetat prin prescriptie, confiscarea a 267.577 euro si desfiintarea actului aditional. Senatul confirma identitatea, partidul PSD si mandatul de senator de Gorj; datele profilului sunt corecte.",
+      "reviewed_snapshot_hash": "859fa15527277a30dc32c8041561e6b1b40f380ebab04835602a5f6b145302d3"
+    },
+    {
+      "profile_id": "RV-0698",
+      "original_name": "Lia Olguța Vasilescu",
+      "current_name": "Lia Olguța Vasilescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7260",
+        "https://www.gds.ro/eveniment/2020-12-30/de-ce-a-clasat-dna-dosarul-de-coruptie-al-olgutei-vasilescu/",
+        "https://www.sursazilei.ro/tribunalul-bucuresti-i-a-inchis-definitiv-dosarul-de-coruptie-al-primarului-craiovei-lia-olguta-vasilescu/",
+        "https://www.primariacraiova.ro/ro/a/18/lia-olgu%C8%9Ba-vasilescu"
+      ],
+      "note": "DNA documenteaza acuzatiile initiale; Gazeta de Sud confirma clasarea din 2020, iar relatarea hotararii Tribunalului Bucuresti confirma respingerea definitiva in 4 mai 2023 a plangerilor contra clasarii. Primaria Craiova confirma functia curenta; am adaugat sursa oficiala si localitatea.",
+      "reviewed_snapshot_hash": "a8971f7c22b9c0f156391a1c5d8b5bc0025153430a2415b0da4bb9dcf19d5988"
+    },
+    {
+      "profile_id": "RV-0699",
+      "original_name": "Ioan Oltean",
+      "current_name": "Ioan Oltean",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6898",
+        "https://jurnalul.ro/stiri/justitie/iccj-unul-dintre-dosarele-anrp-in-care-este-inculpat-ioan-oltean-restituit-definitiv-la-dna-737451.html",
+        "https://agerpres.ro/politic/2021/06/23/bistrita-nasaud-ioan-oltean-spune-ca-a-scapat-de-dosarele-dna-si-ca-a-inlaturat-termenul-de-penal-ca--735805"
+      ],
+      "note": "Am clarificat distinctia juridica: dosarul ANRP a fost restituit definitiv la DNA in 2017, apoi clasat; celelalte cauze au primit de asemenea ordonante de clasare. Nu exista o hotarare judecatoreasca de achitare pentru profilul agregat, deci statusul ramane closed, cu descriere corectata.",
+      "reviewed_snapshot_hash": "2af65b7acc82f77f089473b9c60f262483f1732a7608324f99a74318b72ffb0e"
+    },
+    {
+      "profile_id": "RV-0700",
+      "original_name": "Mihai Tănăsescu",
+      "current_name": "Mihai Tănăsescu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8667",
+        "https://www.mediafax.ro/politic/updateandronescu-tanasescu-mihailescu-nica-ticau-funeriu-si-athanasiu-fara-acuzatii-in-microsoft-17568140"
+      ],
+      "note": "DNA precizeaza ca solutia din 8 ianuarie 2018 a fost clasarea potrivit art. 16 alin. 1 lit. f CPP deoarece se implinise prescriptia. Am schimbat statusul din closed in prescribed, am adaugat anul 2018, sentence_years 0 si o confirmare independenta.",
+      "reviewed_snapshot_hash": "ff35c5ae530e8194f9eae9a0beabede8248027a76dc8522c18535cd77f42ef19"
+    },
+    {
+      "profile_id": "RV-0701",
+      "original_name": "Gheorghe Falcă",
+      "current_name": "Gheorghe Falcă",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=772",
+        "https://jurnalul.ro/stiri/observator/inalta-curte-de-casatie-si-justitie-l-a-achitat-pe-primarul-aradului-gheorghe-falca-sentinta-este-definitiva-645754.html",
+        "https://www.europarl.europa.eu/meps/en/197649/GHEORGHE_FALCA/home"
+      ],
+      "note": "Achitarea definitiva din 17 iunie 2013 este confirmata. Parlamentul European confirma ca Gheorghe Falca este in legislatura curenta eurodeputat PNL; am corectat partidul din PDL in PNL, functia principala, tipul functiei si baza geografica.",
+      "reviewed_snapshot_hash": "611a603b1064bab79133c4bd9ec100f8633034b9dbbf0e961fb7299a1f86c9bb"
+    },
+    {
+      "profile_id": "RV-0702",
+      "original_name": "Crinuța Dumitrean",
+      "current_name": "Crinuța Dumitrean",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5695",
+        "https://www.dna.ro/comunicat.xhtml?id=7596",
+        "https://www.mediafax.ro/politic/crinuta-dumitrean-pdl-a-fost-numita-de-boc-la-conducerea-anrp-4973563"
+      ],
+      "note": "Doua actualizari oficiale DNA arata un rezultat agregat mixt: prescriptie in dosarul finalizat la 5 decembrie 2022; in al doilea dosar, achitare pentru abuz si prescriptie pentru luare de mita la 27 aprilie 2023, cu confiscarea a 400.000 euro. Am completat profilul cu ambele cauze si acuzatia de luare de mita; statusul dominant ramane prescribed.",
+      "reviewed_snapshot_hash": "26b3a04398eb7c388e2976f371b317e38e3a3747ef4b8f3e13122d05de584d85"
+    },
+    {
+      "profile_id": "RV-0708",
+      "original_name": "Dănuț Culețu",
+      "current_name": "Dănuț Culețu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5738",
+        "https://focuspress.ro/primarul-florin-mitroi-fostul-prefect-danut-culetu-fostul-director-ocpi-stere-sponte-si-inca-doi-consilieri-achitati-definitiv-pentru-abuz-in-serviciu/"
+      ],
+      "note": "DNA documenteaza trimiterea in judecata, iar relatarea hotararii Curtii de Apel Constanta confirma respingerea apelului DNA si achitarea definitiva din 25 august 2021 deoarece fapta nu este prevazuta de legea penala. Am adaugat a doua sursa si localitatea.",
+      "reviewed_snapshot_hash": "82058d68ea638359cc161072bc7e3ae0668668572304fb259dfcd3a055e8b615"
+    },
+    {
+      "profile_id": "RV-0709",
+      "original_name": "Florin Mitroi",
+      "current_name": "Florin Mitroi",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5738",
+        "https://focuspress.ro/primarul-florin-mitroi-fostul-prefect-danut-culetu-fostul-director-ocpi-stere-sponte-si-inca-doi-consilieri-achitati-definitiv-pentru-abuz-in-serviciu/",
+        "https://www.cjc.ro/sectiune.php?s=82"
+      ],
+      "note": "DNA and Focus Press confirm final acquittal in 2021; official CJ page confirms current president. Corrected main position/type/geography.",
+      "reviewed_snapshot_hash": "f4b78aadf38a4f6809a93155a5a2a0edbabe5e339e6f97a9859aa82da24b2c35"
     }
   ]
 }
