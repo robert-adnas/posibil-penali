@@ -55209,6 +55209,404 @@
       ],
       "note": "Eliminat: sursele îl identifică pe Claudiu Oțeleanu drept președintele unei federații județene de ONG-uri pentru tineret, fără funcție politică eligibilă documentată. Numele și pedeapsa erau redate greșit: condamnarea definitivă a fost de 6 ani cu executare, nu 6 luni.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3569",
+      "original_name": "Pepelea Anca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2892",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2179"
+      ],
+      "note": "Eliminată: DNA o identifică pe Anca Pepelea drept președinta Ligii pentru Apărarea Drepturilor celor Tineri, fără funcție politică eligibilă documentată. Pedeapsa din profil era greșită: condamnarea definitivă a fost de 6 ani cu executare, nu 6 luni.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3570",
+      "original_name": "Pintilie Marinica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2950"
+      ],
+      "note": "Eliminată: DNA o identifică pe Marinica Pintilie drept contabil la AFDJ Galați, condamnată definitiv la 5 luni cu suspendare; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3571",
+      "original_name": "Stoian Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1906"
+      ],
+      "note": "Eliminată: DNA o identifică pe Maria Stoian drept președinta ANTREC, nu președinte al unei unități școlare, condamnată definitiv la 3 ani cu suspendare; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3572",
+      "original_name": "Tulit Miklos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3299",
+        "https://www.dna.ro/comunicat.xhtml?id=2755"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Tulit Miklos drept administrator de societăți și membru în consiliul Asociației Composesoratului Casinul Nou, condamnat definitiv la 2 ani și 6 luni cu suspendare. Nu este documentată o funcție politică eligibilă; rezultatele despre consilierul Tulit Attila privesc o altă persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3573",
+      "original_name": "Chioveanu Paulina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4504"
+      ],
+      "note": "Eliminată: DNA o identifică pe Paulina Chioveanu drept referent la Administrația Fondului Imobiliar, condamnată definitiv la 3 ani pentru trafic de influență în formă continuată și înșelăciune; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3574",
+      "original_name": "Florea Adriana",
+      "current_name": "Florea Adriana",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3097",
+        "https://www.dna.ro/comunicat.xhtml?id=466"
+      ],
+      "note": "Păstrată și corectată în arhiva extinsă: DNA confirmă afilierea sa politică PSD, funcția în CA Comalex și condamnarea definitivă la 5 ani. Partidul, descrierea funcției, încadrarea faptelor și rezumatul juridic au fost corectate.",
+      "reviewed_snapshot_hash": "3394baf303a05f5e639de7bb38afa13abaf1afe5e769712ae4936b14af25d010"
+    },
+    {
+      "profile_id": "RV-3575",
+      "original_name": "Folea Virgil-Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4976",
+        "https://adevarul.ro/stiri-interne/evenimente/un-angajat-al-administratiei-domeniului-public-1452355.html"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Virgil-Valentin Folea exclusiv drept angajat al ADP Sector 1, condamnat definitiv la 2 ani pentru trafic de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3576",
+      "original_name": "Jilavu Constantin Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3099"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Constantin Radu Jilavu drept președinte și salariat al Cooperativei Prestarea Sighișoara, nu al unei societăți comerciale generice, condamnat definitiv la 3 ani cu suspendare pentru operațiuni incompatibile și folosirea cu rea-credință a bunurilor cooperativei. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3577",
+      "original_name": "Marchis Hortensia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "Eliminată: hotărârea DNA o identifică drept Marchiș Ortensia și o condamnă la un an pentru trafic de influență. Funcția de vicepreședinte al comisiei de bacalaureat din profil aparținea coinculpatului Micu Călin Paul; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3578",
+      "original_name": "Paduraru Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4081",
+        "https://semnal.eu/ro/justitie/2010/09/23/ancheta-dna-la-garda-de-mediu-ilfov-si-la-apele-romane-pe-tema-unei-fabrici-de/"
+      ],
+      "note": "Eliminată: sursele o identifică pe Adriana Păduraru drept funcționar la registratura ANAR–SGA Ilfov-București, condamnată definitiv la 6 luni cu suspendare pentru fals intelectual; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3579",
+      "original_name": "Stoian Tatieana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.dna.ro/comunicat.xhtml?id=1707"
+      ],
+      "note": "Eliminată: DNA o identifică pe Tatieana Stoian drept administrator financiar de patrimoniu la Colegiul Tehnic Edmond Nicolau din Focșani, condamnată definitiv la un an cu suspendare pentru cumpărare de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3581",
+      "original_name": "Keita Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3654"
+      ],
+      "note": "Eliminată: DNA o identifică pe Ileana Keita drept fost director și președinte al Comitetului director al Sucursalei Dr. Obregia a BCR, condamnată definitiv la 4 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3582",
+      "original_name": "Albert Ana-Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1949"
+      ],
+      "note": "Eliminată: DNA confirmă condamnarea definitivă a Anei-Maria Albert la 3 ani cu suspendare pentru folosirea de documente sau declarații false în vederea obținerii de fonduri europene, în legătură cu SC Harghita Funghi SRL; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3580",
+      "original_name": "Tanjala Mihai",
+      "current_name": "Mihai Tănjală",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2889",
+        "https://legislatie.just.ro/public/DetaliiDocument/7762",
+        "https://www.digi24.ro/stiri/actualitate/justitie/mihai-tanjala-condamnat-pentru-coruptie-va-fi-extradat-in-romania-526552"
+      ],
+      "note": "Păstrat și corectat: Portalul Legislativ și presa de referință confirmă că Mihai Tănjală a fost deputat PDSR în 1995–1996. Numele, partidul, funcția și descrierea juridică au fost corectate; DNA confirmă condamnarea definitivă la 5 ani.",
+      "reviewed_snapshot_hash": "61ae918b585cb0a1f40c17fa6651317bea4bb21be4e430c2f069a008d7a7aa84"
+    },
+    {
+      "profile_id": "RV-3583",
+      "original_name": "Andronic Marioara Elisabeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3559",
+        "https://hudoc.echr.coe.int/eng?i=001-150581"
+      ],
+      "note": "Eliminată: DNA și dosarul CEDO o identifică pe Marioara Elisabeta Andronic drept director economic și administrator al unei societăți private, condamnată definitiv la 4 ani și 6 luni. Profilul omitea una dintre infracțiuni; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3584",
+      "original_name": "Anuta Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4781"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Nicolae Anuță drept fost administrator al unei societăți comerciale, condamnat definitiv la 3 ani cu suspendare pentru înșelăciune; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3585",
+      "original_name": "Apateanu Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3777"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Eugen Apăteanu drept administrator și asociat unic al SC AMC Consulting International SRL. Condamnarea definitivă de 3 ani cu suspendare viza atât complicitate la prezentarea de documente inexacte pentru fonduri europene, cât și complicitate la înșelăciune; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3586",
+      "original_name": "Apopi Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4177",
+        "https://www.viata-libera.ro/pdf/2011/12_decembrie/vlg_07_dec.pdf"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Gheorghe Apopi drept administrator al SC Apopi & Blumen SRL, condamnat definitiv la 3 ani cu executare pentru cumpărare de influență; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3587",
+      "original_name": "Arpasteuan Mihaita Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2508"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Mihăiță-Ionel Arpășteuan drept asociat și administrator al mai multor societăți comerciale, condamnat definitiv la 3 ani cu suspendare într-un dosar de fraudare a fondurilor europene; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3588",
+      "original_name": "Balazs Fulop Endre",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4380"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Balazs Fulop Endre drept administrator al SC Trans Anber SRL, condamnat definitiv la 3 ani și 10 luni cu suspendare pentru obținerea nelegală de fonduri europene; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3589",
+      "original_name": "Bobariu Bianca Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4972",
+        "https://adevarul.ro/stiri-locale/alba-iulia/un-patron-si-un-fost-angajat-al-dsp-alba-1496859.html"
+      ],
+      "note": "Eliminată: DNA o identifică pe Bianca Cristina Bobariu drept fost administrator al unei societăți comerciale, condamnată definitiv la 6 luni cu suspendare pentru fals și folosirea de documente false în vederea obținerii de fonduri europene. Nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3591",
+      "original_name": "Bressan Tiziano",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4451",
+        "https://www.ebihoreanul.ro/stiri/ne-trateaza-cu-hotie-sefa-cu-cazier-la-spitalul-judetean-89511.html"
+      ],
+      "note": "Eliminat: sursele îl identifică pe Tiziano Bressan drept asociat și administrator al SC Briltex Group SRL Oradea, condamnat definitiv la 3 ani cu suspendare pentru obținerea nelegală de fonduri europene; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3592",
+      "original_name": "Brustur Corneliu Zelea Codreanu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5679",
+        "https://legislatie.just.ro/Public/DetaliiDocument/121096"
+      ],
+      "note": "Eliminat: DNA și Curtea Constituțională îl identifică pe Corneliu-Zelea-Codreanu Brustur drept administrator și asociat unic al SC Dealul Mare SRL Sighișoara, condamnat definitiv la 3 ani cu suspendare pentru fraudă cu fonduri europene; nu este documentată o funcție politică eligibilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3590",
+      "original_name": "Bratu Tudorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-13",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4783",
+        "https://www.primariapantelimon.ro/assets/media0405/H.C.L-sedinta-ordinara-din-25.08.2021.pdf"
+      ],
+      "note": "Eliminat: DNA îl identifică pe Tudorel Bratu drept fost administrator al unei societăți din Brăila, condamnat definitiv la 2 ani cu suspendare pentru mai multe infracțiuni, nu doar delapidare. Consilierul local PNL Bratu Tudorel Georgian din Pantelimon este o altă persoană; nu este documentat un rol politic pentru inculpatul din Brăila.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

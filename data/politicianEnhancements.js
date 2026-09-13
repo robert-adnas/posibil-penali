@@ -11,6 +11,11 @@ export const metadataOverrides = {
 export const excludedPoliticianNames = new Set([
   'Adrian Ginel Margarit',
   'Adrian Ivascu',
+  'Andronic Marioara Elisabeta',
+  'Anuta Nicolae',
+  'Apateanu Eugen',
+  'Apopi Gheorghe',
+  'Arpasteuan Mihaita Ionel',
   'Alexandru Adriana',
   'Alexandra Maria Tichindelean',
   'Alexandru Mindrut',
@@ -29,7 +34,12 @@ export const excludedPoliticianNames = new Set([
   'Boroiu-Badea Florin',
   'Badiu Ovidiu-Vasile',
   'Barbălată Romică',
+  'Balazs Fulop Endre',
   'Benghia Zărie',
+  'Bobariu Bianca Cristina',
+  'Bratu Tudorel',
+  'Bressan Tiziano',
+  'Brustur Corneliu Zelea Codreanu',
   'Buduru Cornel',
   'Bunei Silviu Iosif',
   'Bădulici Doina',
@@ -39213,450 +39223,69 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Pepelea Anca",
-    "party": "Independent",
-    "position": "Presedinte în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Brasov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în ONG în județul Brasov."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "6 luni închisoare",
-    "sentence_years": 0.5,
-    "conviction_year": 2011,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Pepelea Anca a fost condamnat definitiv la 13 decembrie 2011 la 6 luni închisoare. Funcția relevantă consemnată în sursă: Presedinte în ONG. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2892"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Pepelea Anca indică județul Brasov, funcția \"Presedinte\", instituția \"ONG\", decizia 2459 și condamnarea din 13/12/2011."
-      }
-    ]
-  },
-  {
-    "name": "Pintilie Marinica",
-    "party": "Independent",
-    "position": "Contabil în Administratia fluviala a dunarii de jos (Ministerul Transporturilor)",
-    "position_type": "other",
-    "geography": {
-      "county": "Galati",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Contabil în Administratia fluviala a dunarii de jos (Ministerul Transporturilor) în județul Galati."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "5 luni închisoare cu suspendare",
-    "sentence_years": 0.42,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 ianuarie 2012. Condamnarea inculpatei PINTILIE MARINICA, contabil la AFDJ Galați, la pedeapsa de 5 luni închisoare cu suspendare condiționată, pe un termen de încercare de 2 ani și 5 luni, pentru săvârșirea următoarelor infracțiuni: folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor, deturnare de fonduri și fals în înscrisuri sub semnătură privată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2950"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Pintilie Marinica indică județul Galati, funcția \"Contabil\", instituția \"Administratia fluviala a dunarii de jos (Ministerul Transporturilor)\", decizia 156 și condamnarea din 30/01/2012."
-      }
-    ]
-  },
-  {
-    "name": "Stoian Maria",
-    "party": "Independent",
-    "position": "Presedinte în Unitate scolara",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în Unitate scolara în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Stoian Maria a fost condamnat definitiv la 9 februarie 2010 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Presedinte în Unitate scolara. Infracțiunea reținută: Fapte de corupție legate de fonduri europene.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1906"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stoian Maria indică județul Bucuresti, funcția \"Presedinte\", instituția \"Unitate scolara\", decizia 243 și condamnarea din 09/02/2010."
-      }
-    ]
-  },
-  {
-    "name": "Tulit Miklos",
-    "party": "Independent",
-    "position": "Membru consiliu de administratie în ONG",
-    "position_type": "other",
-    "geography": {
-      "county": "Harghita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Membru consiliu de administratie în ONG în județul Harghita."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tulit Miklos a fost condamnat definitiv la 21 mai 2012 la 2 ani și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Membru consiliu de administratie în ONG. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3299"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tulit Miklos indică județul Harghita, funcția \"Membru consiliu de administratie\", instituția \"ONG\", decizia 406 și condamnarea din 21/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Chioveanu Paulina",
-    "party": "Independent",
-    "position": "Referent în Administratia fondului imobiliar (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Referent în Administratia fondului imobiliar (Consiliu Local) în județul Bucuresti."
-    },
-    "crime": "trafic de influență; înșelăciune",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Chioveanu Paulina a fost condamnat definitiv la 28 noiembrie 2013 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Referent în Administratia fondului imobiliar (Consiliu Local). Infracțiunea reținută: trafic de influență; înșelăciune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4504"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Chioveanu Paulina indică județul Bucuresti, funcția \"Referent\", instituția \"Administratia fondului imobiliar (Consiliu Local)\", decizia 3754 și condamnarea din 28/11/2013."
-      }
-    ]
-  },
-  {
     "name": "Florea Adriana",
-    "party": "Independent",
-    "position": "Membru consiliu de administratie în SC Comalex SA (societate cu capital majoritar de stat)",
+    "party": "PSD",
+    "position": "Fostă membră a Consiliului de administrație al SC Comalex SA; afiliată PSD",
     "position_type": "other",
     "geography": {
       "county": "Teleorman",
       "basis": "office",
-      "note": "Funcția relevantă a fost Membru consiliu de administratie în SC Comalex SA (societate cu capital majoritar de stat) în județul Teleorman."
+      "note": "A activat în conducerea SC Comalex SA Alexandria; DNA a consemnat apartenența sa politică comună cu beneficiarii PSD ai tranzacțiilor."
     },
-    "crime": "Fapte de corupție",
+    "crime": "subevaluarea intenționată a activelor unei societăți cu capital de stat și abuz în serviciu",
     "sentence": "5 ani închisoare",
     "sentence_years": 5,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 martie 2012. Condamnarea inculpatei FLOREA ADRIANA, membru în Consiliul de administrație al SC Comalex SA, la pedeapsa de 5 ani închisoare pentru săvârșirea infracțiunilor de: - stabilire cu intenție a unei valori diminuate față de valoarea comercială reală a bunurilor aparținând operatorilor economici la care statul este acționar, comisă în cadrul acțiunii de privatizare ori cu ocazia unei operațiuni comerciale, săvârșită de cei care au atribuții de conducere sau administrare, în scopul obținerii de bani, bunuri sau alte foloase necuvenite - încălcarea art.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 644 din 19 martie 2012, Curtea de Apel Craiova a condamnat-o la 5 ani de închisoare pentru subevaluarea intenționată a activelor SC Comalex SA, încălcarea obligațiilor administratorului și abuz în serviciu. Comunicatul DNA privind trimiterea în judecată consemnează că beneficiarii tranzacțiilor aveau aceeași apartenență politică precum Victor Chișeamera și Adriana Florea și îi identifică drept consilieri, membri și lideri PSD.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3097"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Florea Adriana indică județul Teleorman, funcția \"Membru consiliu de administratie\", instituția \"SC Comalex SA (societate cu capital majoritar de stat)\", decizia 644 și condamnarea din 19/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Folea Virgil-Valentin",
-    "party": "Independent",
-    "position": "Angajat în Administratia domeniului public",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Angajat în Administratia domeniului public în județul Bucuresti."
-    },
-    "crime": "trafic de influență",
-    "sentence": "2 ani închisoare",
-    "sentence_years": 2,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 mai 2014. Condamnă pe inculpatul FOLEA VIRGIL-VALENTIN, fost angajat la Administrația Domeniului Public Sector 1, la o pedeapsă de 2 ani închisoare, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "DNA — trimiterea în judecată și afilierea politică",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4976"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Folea Virgil-Valentin indică județul Bucuresti, funcția \"Angajat\", instituția \"Administratia domeniului public\", decizia 704 și condamnarea din 29/05/2014."
+        "url": "https://www.dna.ro/comunicat.xhtml?id=466"
       }
     ]
   },
   {
-    "name": "Jilavu Constantin Radu",
-    "party": "Independent",
-    "position": "Presedinte în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Mures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte în Societate comerciala în județul Mures."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Jilavu Constantin Radu a fost condamnat definitiv la 22 martie 2012 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Presedinte în Societate comerciala. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3099"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Jilavu Constantin Radu indică județul Mures, funcția \"Presedinte\", instituția \"Societate comerciala\", decizia 259 și condamnarea din 22/03/2012."
-      }
-    ]
-  },
-  {
-    "name": "Marchis Hortensia",
-    "party": "Independent",
-    "position": "Vicepresedinte comisie bacalaureat în Unitate scolara",
-    "position_type": "other",
-    "geography": {
-      "county": "Maramures",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Vicepresedinte comisie bacalaureat în Unitate scolara în județul Maramures."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "1 an închisoare",
-    "sentence_years": 1,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Marchis Hortensia a fost condamnat definitiv la 25 iunie 2014 la 1 an închisoare. Funcția relevantă consemnată în sursă: Vicepresedinte comisie bacalaureat în Unitate scolara. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5140"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Marchis Hortensia indică județul Maramures, funcția \"Vicepresedinte comisie bacalaureat\", instituția \"Unitate scolara\", decizia 618 și condamnarea din 25/06/2014."
-      }
-    ]
-  },
-  {
-    "name": "Paduraru Adriana",
-    "party": "Independent",
-    "position": "Functionar public în Administratia nationala apele romane (MMAP)",
-    "position_type": "other",
-    "geography": {
-      "county": "Ilfov",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Functionar public în Administratia nationala apele romane (MMAP) în județul Ilfov."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "6 luni închisoare cu suspendare",
-    "sentence_years": 0.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 aprilie 2013. Condamnarea inculpatei PĂDURARU ADRIANA, funcționar în cadrul serviciului registratură al Administrației Naționale Apele Române Sistemul de Gospodărire a Apelor Ilfov – București (A.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4081"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Paduraru Adriana indică județul Ilfov, funcția \"Functionar public\", instituția \"Administratia nationala apele romane (MMAP)\", decizia 845 și condamnarea din 29/04/2013."
-      }
-    ]
-  },
-  {
-    "name": "Stoian Tatieana",
-    "party": "Independent",
-    "position": "Administrator în Unitate scolara",
-    "position_type": "other",
-    "geography": {
-      "county": "Vrancea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Unitate scolara în județul Vrancea."
-    },
-    "crime": "cumpărare de influență",
-    "sentence": "1 an închisoare cu suspendare",
-    "sentence_years": 1,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 martie 2014. Condamnă pe inculpata STOIAN TATIEANA, fost administrator financiar de patrimoniu la Colegiul Tehnic „Edmond Nicolau”, Focșani Vrancea, la o pedeapsă de 1 an închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 3 ani, pentru săvârșirea infracțiunii de cumpărare de influență; Condamnă pe inculpata RACHIERU MARIANA, profesor de matematică la Colegiul Tehnic „Valeriu D.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4762"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stoian Tatieana indică județul Vrancea, funcția \"Administrator\", instituția \"Unitate scolara\", decizia 3654 și condamnarea din 19/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Tanjala Mihai",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala stat actionar",
-    "position_type": "other",
+    "name": "Mihai Tănjală",
+    "party": "PDSR",
+    "position": "Fost deputat PDSR (1995–1996); fost administrator al SC ICMUG SA Giurgiu",
+    "position_type": "deputy",
     "geography": {
       "county": "Giurgiu",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala stat actionar în județul Giurgiu."
+      "basis": "case_location",
+      "note": "Dosarul privea activele SC ICMUG SA Giurgiu; sursele parlamentare consultate confirmă mandatul de deputat, dar nu indică aici circumscripția."
     },
-    "crime": "Fapte de corupție",
+    "crime": "subevaluarea intenționată a activelor unei societăți cu capital de stat",
     "sentence": "5 ani închisoare",
     "sentence_years": 5,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 decembrie 2011. Condamnă pe inculpatul TÂNJALĂ MIHAI, administrator al SC „ICMUG” SA Giurgiu (operator economic la care statul era acționar), la pedeapsa de 5 ani închisoare, pentru săvârșirea infracțiunii de stabilire, cu intenție, a unei valori diminuate față de valoarea comercială reală a bunurilor aparținând operatorilor economici la care statul este acționar, comisă cu ocazia unei operațiuni comerciale săvârșită de către o persoană cu atribuții de administrare.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 2.513 din 16 decembrie 2011, Curtea de Apel București l-a condamnat la 5 ani de închisoare pentru subevaluarea intenționată a activelor SC ICMUG SA Giurgiu. Portalul Legislativ îl identifică în 1996 drept deputat al Partidului Democrației Sociale din România, iar presa de referință confirmă mandatul parlamentar din perioada 1995–1996.",
+    "verified_at": "2026-09-13",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2889"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tanjala Mihai indică județul Giurgiu, funcția \"Administrator\", instituția \"Societate comerciala stat actionar\", decizia 2513 și condamnarea din 16/12/2011."
-      }
-    ]
-  },
-  {
-    "name": "Keita Ileana",
-    "party": "Independent",
-    "position": "Presedinte comitet director în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Presedinte comitet director în Societate comerciala în județul Bucuresti."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 octombrie 2012. Condamnarea inculpatei KEITA ILEANA, fost președinte al Comitetului director al Sucursalei „Dr.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
+        "label": "Portal Legislativ — calitatea de deputat PDSR",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3654"
+        "url": "https://legislatie.just.ro/public/DetaliiDocument/7762"
       },
       {
-        "label": "România Curată",
+        "label": "Digi24 — mandatul parlamentar și extrădarea",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Keita Ileana indică județul Bucuresti, funcția \"Presedinte comitet director\", instituția \"Societate comerciala\", decizia 2056 și condamnarea din 29/10/2012."
-      }
-    ]
-  },
-  {
-    "name": "Albert Ana-Maria",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Harghita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Harghita."
-    },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Albert Ana-Maria a fost condamnat definitiv la 10 septembrie 2010 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Administrator în Societate comerciala. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=1949"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Albert Ana-Maria indică județul Harghita, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 369 și condamnarea din 10/09/2010."
+        "url": "https://www.digi24.ro/stiri/actualitate/justitie/mihai-tanjala-condamnat-pentru-coruptie-va-fi-extradat-in-romania-526552"
       }
     ]
   },
