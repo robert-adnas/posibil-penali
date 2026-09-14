@@ -57165,6 +57165,215 @@
       ],
       "note": "Identitatea, funcția de viceprimar și afilierea istorică PNL sunt confirmate. Profilul a fost completat cu numărul deciziei definitive, cele două infracțiuni de complicitate la fraudă UE, termenul de supraveghere, munca în folosul comunității, interdicțiile și despăgubirea solidară către APIA.",
       "reviewed_snapshot_hash": "22aee7a243dda1bdbca9810b1ad8b9e40b4d54147e7a5315a943c0fc2f0f4e6f"
+    },
+    {
+      "profile_id": "RV-0807",
+      "original_name": "Ștefan Marian",
+      "current_name": "Ștefan Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5156",
+        "https://votcorect.ro/liste-candidati/data/dambovita.csv"
+      ],
+      "note": "Identitatea și funcția politică sunt confirmate de comunicatul DNA, iar candidatura PNL din aceeași comună este consemnată în setul electoral VotCorect. Profilul a fost trecut la forma istorică și completat cu decizia penală nr. 218/2014, termenul de supraveghere, toate cele trei infracțiuni, interdicțiile și cele două componente ale despăgubirilor către APIA.",
+      "reviewed_snapshot_hash": "382066d851ec073a05b88ff6bb45bae00efb1a08849c4c547eefa1db2cc78da7"
+    },
+    {
+      "profile_id": "RV-0810",
+      "original_name": "Iuhas Viorel",
+      "current_name": "Iuhas Viorel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7518",
+        "https://www.crisana.ro/stiri/actualitate-2/declaratii-de-avere-pe-ultima-suta-de-metri-148658.html"
+      ],
+      "note": "Identitatea, funcția de fost viceprimar și calitatea de consilier local PSD sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia penală nr. 131/2016, interdicțiile și cele trei componente ale despăgubirilor stabilite solidar.",
+      "reviewed_snapshot_hash": "acf9f196be9c242c5dea8f52bdfc9a462bed6e21f3b5250d947f16809f7c4cb8"
+    },
+    {
+      "profile_id": "RV-0813",
+      "original_name": "Ghiță Valentin",
+      "current_name": "Ghiță Valentin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5957",
+        "https://adevarul.ro/stiri-locale/resita/seful-apia-caras-romica-anculia-a-fost-saltat-de-1258236.html"
+      ],
+      "note": "Identitatea, mandatul de primar și afilierea PDL sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia penală nr. 147/2015, interdicțiile pe durata executării și încă trei ani, precum și confiscarea a 25.000 euro.",
+      "reviewed_snapshot_hash": "c5ae054ed03f9b28a534191f64e822b5e704284fdaaba452d8ec1903f2167438"
+    },
+    {
+      "profile_id": "RV-0814",
+      "original_name": "Iancu Simion Simi",
+      "current_name": "Iancu Simion Simi",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5957",
+        "https://foto.agerpres.ro/ro/iancu-simion-simi/1229351"
+      ],
+      "note": "Identitatea, mandatul de primar și rolul de coordonator PDL Caraș-Severin sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia penală nr. 147/2015, interdicțiile pe durata executării și încă doi ani, precum și confiscarea sumei de 15.000 lei.",
+      "reviewed_snapshot_hash": "c3f0e7e023b966af96125c53b1943909893b9520d3ceae91a4e8329220461e3c"
+    },
+    {
+      "profile_id": "RV-0820",
+      "original_name": "Miu Vasile",
+      "current_name": "Miu Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8848",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-valcea.html"
+      ],
+      "note": "Identitatea, funcția de viceprimar și candidatura PNL la primăria Sălătrucel în 2016 sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia nr. 548/2018, termenul de supraveghere, interdicțiile, munca în folosul comunității, despăgubirile și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "2d3a1e5e3838078747da2e6fe16a3f4746d87c27bb1e1f4ec822d683d47b1a11"
+    },
+    {
+      "profile_id": "RV-0821",
+      "original_name": "Grecu Nicolaie-Dan",
+      "current_name": "Grecu Nicolaie-Dan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8848",
+        "https://ziaruldevalcea.ro/2014/07/conducerea-primariei-salatrucel-si-un-consilier-local-trimisi-in-judecata-de-dna-intr-un-dosar-de-coruptie/"
+      ],
+      "note": "Identitatea și mandatul de consilier local sunt confirmate; afilierea de partid rămâne necunoscută și nu este inventată. Profilul a fost trecut la forma istorică și completat cu decizia nr. 548/2018, termenul de supraveghere, interdicțiile, munca în folosul comunității, despăgubirile și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "030acb84391b5f939924f0a262525117b11e0b9bf297d07dda9eb56e49d3e2a3"
+    },
+    {
+      "profile_id": "RV-0824",
+      "original_name": "Bedreag Maria",
+      "current_name": "Bedreag Maria",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9804",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://www.monitoruldevaslui.ro/2020/03/fost-primar-condamnat-sa-dea-cu-matura-in-primarie/"
+      ],
+      "note": "Identitatea și mandatul de viceprimar sunt confirmate, iar rezultatele BEC corectează afilierea din Independent în PNL și confirmă candidatura sa la primăria Arsura în 2012. Profilul a fost completat cu decizia nr. 196/2020, termenul de încercare, interdicțiile, cele trei componente civile și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "0608808dc721131151013e9c35b12ec0d0fe2cfa2bb59837998b9e5ce3643004"
+    },
+    {
+      "profile_id": "RV-0825",
+      "original_name": "Mitrofan Mihai",
+      "current_name": "Mitrofan Mihai",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9804",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://www.monitoruldevaslui.ro/2020/03/fost-primar-condamnat-sa-dea-cu-matura-in-primarie/"
+      ],
+      "note": "Identitatea, mandatul de primar și afilierea PSD sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia nr. 196/2020, termenul de supraveghere, interdicțiile, munca în folosul comunității, despăgubirile și cheltuielile judiciare, inclusiv cele din apel.",
+      "reviewed_snapshot_hash": "03519293e703a519c940a41f44b7e754a09715673f45ec41121b1456d9bd1cef"
+    },
+    {
+      "profile_id": "RV-0826",
+      "original_name": "Mușat Neculai",
+      "current_name": "Mușat Neculai",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8846",
+        "https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Identitatea, funcția de viceprimar și afilierea PNL sunt confirmate. Profilul a fost trecut la forma istorică și completat cu decizia nr. 375/2018, termenul de încercare, interdicțiile, despăgubirea solidară și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "97321ccdd9eced790a480d61d5c165788288115033747bb2276e757d6ec02bda"
+    },
+    {
+      "profile_id": "RV-0827",
+      "original_name": "Ștefan Constantin",
+      "current_name": "Ștefan Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8846",
+        "https://www.ziaruldeiasi.ro/stiri/lista-in-premiera-candidatii-la-cele-98-de-primarii-din-judetul-iasi--121197.html",
+        "https://www.7iasi.ro/dezvaluiri-din-dosarul-eky-sam-regele-asfaltului-le-cerea-angajatilor-sa-incalce-legea/"
+      ],
+      "note": "Identitatea și afilierea PSD sunt confirmate. Funcția a fost corectată pentru a reflecta că era consilier local la data faptelor, dar devenise ulterior primar al comunei Ion Neculce. Profilul include acum decizia nr. 375/2018, termenul de încercare, interdicțiile, despăgubirea solidară și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "45663ee3b2e92638e9f5f2e76894f62ce6497d0781040f49c0f3ab54622817db"
+    },
+    {
+      "profile_id": "RV-0829",
+      "original_name": "Buciumeanu Ilie",
+      "current_name": "Buciumeanu Ilie",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10059",
+        "https://hotnews.ro/tartasesti-trotuare-ca-n-povesti-835265",
+        "https://old.primariatartasesti.ro/lista-persoanelor-din-conducere/index.htm"
+      ],
+      "note": "Identitatea, mandatul și afilierea PSD sunt confirmate, iar site-ul primăriei arată că funcția este deținută în prezent de altă persoană. Profilul a fost trecut la forma istorică și completat cu decizia nr. 275/2020, termenul de încercare, munca în folosul comunității, situația acțiunilor civile și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "e62c258ad4f106f5bd8c422e2772614f2e19fb576dd2277cb0588930b9463a7c"
+    },
+    {
+      "profile_id": "RV-0830",
+      "original_name": "Urdea Iustin Nicolae",
+      "current_name": "Urdea Iustin Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6717",
+        "https://www.ziuaconstanta.ro/images/stories/2012/05/Online/primari.pdf",
+        "https://primarialimanu.ro/"
+      ],
+      "note": "Achitarea definitivă este confirmată prin actualizarea oficială DNA: decizia nr. 241/15.03.2024, pentru că faptele nu există ori nu sunt prevăzute de legea penală; acțiunea civilă a fost respinsă. Mandatul și afilierea PNL sunt confirmate, iar funcția a fost trecută la forma istorică deoarece primăria are în prezent alt edil.",
+      "reviewed_snapshot_hash": "430045085c8b44444f6614ed224e7d8b8c64e54957523c9a6c348861c42298af"
     }
   ]
 }

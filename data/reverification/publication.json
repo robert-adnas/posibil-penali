@@ -2,20 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-09-14",
   "holds": {
-    "Grecu Nicolaie-Dan": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0821"
-    },
-    "Bedreag Maria": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0824"
-    },
     "Stan Constantin Cătălin": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -3998,6 +3984,27 @@
         "Posibilă coincidență de nume: DNA și presa identifică persoana condamnată doar ca administrator al SC Imobiliaria/Pit Stop SRL Suceava, iar sursele electorale identifică un Constantin Cozmaciuc candidat PNL la Primăria Pojorâta în 2016. Nu există încă un identificator comun sau o sursă explicită care să demonstreze că sunt aceeași persoană; profilul trebuie ascuns până la rezolvarea identității."
       ],
       "profile_id": "RV-3603"
+    },
+    "Grigore Marian": {
+      "held_at": "2026-09-14",
+      "reasons": [
+        "Identitatea dintre fostul secretar al Primăriei Braniștea condamnat în 2014 și candidatul PMP din 2020 cu același nume și aceeași localitate nu este confirmată printr-o sursă biografică directă; profil ascuns până la rezolvarea coincidenței și a aparentului conflict cu interdicția de ocupare a funcțiilor publice."
+      ],
+      "profile_id": "RV-0806"
+    },
+    "Cernea Elena": {
+      "held_at": "2026-09-14",
+      "reasons": [
+        "DNA confirmă condamnarea fostului secretar al Primăriei Sălătrucel, iar lista electorală din 2020 conține o candidată PSD cu același nume în aceeași comună, dar nu există încă o sursă biografică directă care să demonstreze că este aceeași persoană; profil ascuns până la rezolvarea identității politice."
+      ],
+      "profile_id": "RV-0822"
+    },
+    "Mesia Ion": {
+      "held_at": "2026-09-14",
+      "reasons": [
+        "DNA confirmă condamnarea contabilului-casier al Primăriei Sălătrucel, iar lista electorală din 2020 conține un candidat PSD cu același nume în aceeași comună, dar nu există încă o sursă biografică directă care să demonstreze că este aceeași persoană; profil ascuns până la rezolvarea identității politice."
+      ],
+      "profile_id": "RV-0823"
     }
   }
 }

@@ -33001,22 +33001,23 @@ export const politicianAdditions = [
   {
     name: 'Ștefan Marian',
     party: 'PNL',
-    position: 'Viceprimar al comunei Braniștea, județul Dâmbovița',
+    position: 'Fost viceprimar al comunei Braniștea, județul Dâmbovița',
     position_type: 'local_official',
     geography: {
       county: 'Dâmbovița',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Braniștea, județul Dâmbovița.',
+      locality: 'Braniștea',
+      note: 'Funcția relevantă a fost cea de viceprimar al comunei Braniștea, județul Dâmbovița, deținută la data faptelor.',
     },
-    crime: 'Fraudă cu fonduri europene; complicitate; conflict de interese',
+    crime: 'Fraudă cu fonduri europene în formă continuată; complicitate la fraudă cu fonduri europene; conflict de interese',
     sentence: '3 ani închisoare cu suspendare',
     sentence_years: 3,
     conviction_year: 2014,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 16 iulie 2014 pentru infracțiuni legate de folosirea documentelor false sau inexacte pentru obținerea pe nedrept de fonduri europene și conflict de interese.',
-    verified_at: '2026-05-08',
+      'Prin decizia penală nr. 218 din 16 iulie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani de închisoare cu suspendare, cu termen de supraveghere de 5 ani, pentru fraudă cu fonduri europene în formă continuată, complicitate la fraudă cu fonduri europene și conflict de interese. Instanța i-a interzis timp de 2 ani după executarea pedepsei principale dreptul de a fi ales și de a ocupa o funcție ce implică autoritatea de stat, iar timp de 10 ani dreptul de a ocupa o funcție publică. A fost obligat în solidar la plata către APIA a 17.158,79 lei și, într-o a doua componentă, a 13.027,13 lei, cu dobânzi și penalități.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33024,9 +33025,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=5156',
       },
       {
-        label: 'VotCorect',
-        kind: 'press',
-        url: 'https://votcorect.ro/liste-candidati/?judet=dambovita',
+        label: 'VotCorect – lista candidaților locali din Dâmbovița (2020)',
+        kind: 'reliable_press',
+        url: 'https://votcorect.ro/liste-candidati/data/dambovita.csv',
       },
     ],
   },
@@ -33087,12 +33088,13 @@ export const politicianAdditions = [
   {
     name: 'Iuhas Viorel',
     party: 'PSD',
-    position: 'Viceprimar al municipiului Beiuș, județul Bihor',
+    position: 'Fost viceprimar PSD al municipiului Beiuș, județul Bihor',
     position_type: 'local_official',
     geography: {
       county: 'Bihor',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al municipiului Beiuș, județul Bihor.',
+      locality: 'Beiuș',
+      note: 'A fost viceprimar al municipiului Beiuș și consilier local PSD.',
     },
     crime: 'Complicitate la abuz în serviciu; fals; complicitate la înșelăciune',
     sentence: '3 ani și 10 luni închisoare',
@@ -33101,13 +33103,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 iunie 2016 pentru complicitate la abuz în serviciu, fals în înscrisuri sub semnătură privată, fals intelectual și complicitate la înșelăciune.',
-    verified_at: '2026-05-08',
+      'Prin decizia penală nr. 131 din 3 iunie 2016, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani și 10 luni de închisoare cu executare pentru complicitate la abuz în serviciu cu folos necuvenit, fals în înscrisuri sub semnătură privată, fals intelectual și complicitate la înșelăciune. Instanța i-a interzis, pe durata executării și încă 2 ani, dreptul de a fi ales, de a exercita autoritatea de stat și de a ocupa ori exercita funcția sau activitatea folosită la comiterea faptelor. A fost obligat în solidar la plata către Ministerul Mediului a 82.528,90 lei și 385.463,02 lei, precum și a 14.563,92 lei către Primăria Beiuș.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7518',
+      },
+      {
+        label: 'Crișana – declarațiile aleșilor locali din Bihor (2008)',
+        kind: 'reliable_press',
+        url: 'https://www.crisana.ro/stiri/actualitate-2/declaratii-de-avere-pe-ultima-suta-de-metri-148658.html',
       },
     ],
   },
@@ -33179,12 +33186,13 @@ export const politicianAdditions = [
   {
     name: 'Ghiță Valentin',
     party: 'PDL',
-    position: 'Primar al comunei Socol, județul Caraș-Severin',
+    position: 'Fost primar PDL al comunei Socol, județul Caraș-Severin',
     position_type: 'mayor',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Socol, județul Caraș-Severin.',
+      locality: 'Socol',
+      note: 'A fost primar PDL al comunei Socol, județul Caraș-Severin, la data faptelor.',
     },
     crime: 'Luare de mită; fals în înscrisuri sub semnătură privată',
     sentence: '4 ani închisoare',
@@ -33193,8 +33201,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 ianuarie 2015 pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 147 din 28 ianuarie 2015, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 4 ani de închisoare cu executare pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată. Instanța i-a interzis pe durata executării dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat, iar încă 3 ani după executare și dreptul de a ocupa ori exercita funcția sau activitatea folosită la comiterea faptelor. A dispus confiscarea a 25.000 euro sau a echivalentului în lei la data executării.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33202,21 +33210,22 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=5957',
       },
       {
-        label: 'Jurnalul',
-        kind: 'press',
-        url: 'https://jurnalul.ro/stiri/observator/primarii-din-socol-si-otelu-rosu-au-fost-retinuti-de-procurorii-dna-timisoara-pentru-luare-de-mita-624374.html',
+        label: 'Adevărul – perchezițiile din 2012 și afilierea PDL',
+        kind: 'reliable_press',
+        url: 'https://adevarul.ro/stiri-locale/resita/seful-apia-caras-romica-anculia-a-fost-saltat-de-1258236.html',
       },
     ],
   },
   {
     name: 'Iancu Simion Simi',
     party: 'PDL',
-    position: 'Primar al orașului Oțelu Roșu, județul Caraș-Severin',
+    position: 'Fost primar PDL al orașului Oțelu Roșu, județul Caraș-Severin',
     position_type: 'mayor',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al orașului Oțelu Roșu, județul Caraș-Severin.',
+      locality: 'Oțelu Roșu',
+      note: 'A fost primar al orașului Oțelu Roșu și coordonator al filialei județene PDL Caraș-Severin.',
     },
     crime: 'Luare de mită; fals în înscrisuri sub semnătură privată',
     sentence: '3 ani închisoare',
@@ -33225,8 +33234,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 ianuarie 2015 pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 147 din 28 ianuarie 2015, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani de închisoare cu executare pentru luare de mită și fals în înscrisuri sub semnătură privată, ambele în formă continuată. Instanța i-a interzis pe durata executării dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat, iar încă 2 ani după executare și dreptul de a ocupa ori exercita funcția sau activitatea folosită la comiterea faptelor. A dispus confiscarea sumei de 15.000 lei.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33234,9 +33243,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=5957',
       },
       {
-        label: 'Jurnalul',
-        kind: 'press',
-        url: 'https://jurnalul.ro/stiri/observator/primarii-din-socol-si-otelu-rosu-au-fost-retinuti-de-procurorii-dna-timisoara-pentru-luare-de-mita-624374.html',
+        label: 'AGERPRES – primar și coordonator PDL Caraș-Severin (2012)',
+        kind: 'reliable_press',
+        url: 'https://foto.agerpres.ro/ro/iancu-simion-simi/1229351',
       },
     ],
   },
@@ -33351,12 +33360,13 @@ export const politicianAdditions = [
   {
     name: 'Miu Vasile',
     party: 'PNL',
-    position: 'Viceprimar al comunei Sălătrucel, județul Vâlcea',
+    position: 'Fost viceprimar al comunei Sălătrucel și candidat PNL la primărie (2016)',
     position_type: 'local_official',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Sălătrucel, județul Vâlcea.',
+      locality: 'Sălătrucel',
+      note: 'A fost viceprimar al comunei Sălătrucel și candidat PNL la funcția de primar în 2016.',
     },
     crime: 'Fraudă cu fonduri europene; complicitate la conflict de interese',
     sentence: '2 ani și 5 luni închisoare cu suspendare',
@@ -33365,8 +33375,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Pitești l-a condamnat definitiv la 25 mai 2018 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și complicitate la conflict de interese.',
-    verified_at: '2026-05-11',
+      'Prin decizia penală nr. 548 din 25 mai 2018, Curtea de Apel Pitești l-a condamnat definitiv la 2 ani și 5 luni de închisoare cu suspendare, cu termen de supraveghere de 3 ani, pentru fraudă cu fonduri europene în formă continuată și complicitate la conflict de interese. Instanța i-a interzis timp de 2 ani dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat și a dispus 60 de zile de muncă în folosul comunității. A fost obligat în solidar la despăgubiri de 835.948,42 lei și 478.522,51 lei către APIA, plus 2.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33374,21 +33384,22 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
       },
       {
-        label: 'FINAL DNA Database',
-        kind: 'press',
-        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+        label: 'Știrile ProTV – candidații la primăriile din Vâlcea (2016)',
+        kind: 'reliable_press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-valcea.html',
       },
     ],
   },
   {
     name: 'Grecu Nicolaie-Dan',
     party: 'Independent',
-    position: 'Consilier local al comunei Sălătrucel, județul Vâlcea',
+    position: 'Fost consilier local al comunei Sălătrucel, județul Vâlcea',
     position_type: 'local_official',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de consilier local al comunei Sălătrucel, județul Vâlcea.',
+      locality: 'Sălătrucel',
+      note: 'A fost consilier local al comunei Sălătrucel și agent veterinar la data faptelor; afilierea de partid nu este indicată de sursele consultate.',
     },
     crime: 'Complicitate la fraudă cu fonduri europene; complicitate la conflict de interese',
     sentence: '2 ani și 5 luni închisoare cu suspendare',
@@ -33397,13 +33408,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Pitești l-a condamnat definitiv la 25 mai 2018 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și complicitate la conflict de interese.',
-    verified_at: '2026-05-09',
+      'Prin decizia penală nr. 548 din 25 mai 2018, Curtea de Apel Pitești l-a condamnat definitiv la 2 ani și 5 luni de închisoare cu suspendare, cu termen de supraveghere de 3 ani, pentru complicitate la fraudă cu fonduri europene în formă continuată și complicitate la conflict de interese. Instanța i-a interzis timp de 2 ani dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat și a dispus 60 de zile de muncă în folosul comunității. A fost obligat în solidar la despăgubiri de 835.948,42 lei și 478.522,51 lei către APIA, plus 2.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
+      },
+      {
+        label: 'Ziarul de Vâlcea – dosarul conducerii Primăriei Sălătrucel',
+        kind: 'reliable_press',
+        url: 'https://ziaruldevalcea.ro/2014/07/conducerea-primariei-salatrucel-si-un-consilier-local-trimisi-in-judecata-de-dna-intr-un-dosar-de-coruptie/',
       },
     ],
   },
@@ -33465,13 +33481,14 @@ export const politicianAdditions = [
   },
   {
     name: 'Bedreag Maria',
-    party: 'Independent',
-    position: 'Viceprimar al comunei Arsura, județul Vaslui',
+    party: 'PNL',
+    position: 'Fost viceprimar al comunei Arsura și candidată PNL la primărie (2012)',
     position_type: 'local_official',
     geography: {
       county: 'Vaslui',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Arsura, județul Vaslui.',
+      locality: 'Arsura',
+      note: 'A fost viceprimar al comunei Arsura și candidată PNL la funcția de primar în 2012.',
     },
     crime: 'Fraudă cu fonduri europene',
     sentence: '2 ani închisoare cu suspendare',
@@ -33480,25 +33497,31 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Iași a condamnat-o definitiv la 20 martie 2020 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată.',
-    verified_at: '2026-05-09',
+      'Prin decizia penală nr. 196 din 20 martie 2020, Curtea de Apel Iași a condamnat-o definitiv la 2 ani de închisoare cu suspendare, cu termen de încercare de 4 ani, pentru fraudă cu fonduri europene în formă continuată. Instanța i-a interzis timp de 2 ani dreptul de a fi aleasă, de a ocupa o funcție cu exercițiul autorității de stat, funcția de viceprimar și rolul de reprezentant legal al unui beneficiar de fonduri UE. A fost obligată la trei componente de despăgubiri către APIA — 11.652,40 lei în solidar cu ceilalți inculpați, 61.565,75 lei în solidar cu Mihai Mitrofan și 38.405,72 lei individual — plus 3.250 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9804',
       },
+      {
+        label: 'Rezultatele BEC pentru primari la alegerile locale din 2012 (copie PDF)',
+        kind: 'reliable_press',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
+      },
     ],
   },
   {
     name: 'Mitrofan Mihai',
     party: 'PSD',
-    position: 'Primar al comunei Arsura, județul Vaslui',
+    position: 'Fost primar PSD al comunei Arsura, județul Vaslui',
     position_type: 'mayor',
     geography: {
       county: 'Vaslui',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Arsura, județul Vaslui.',
+      locality: 'Arsura',
+      note: 'A fost primar PSD al comunei Arsura, județul Vaslui.',
     },
     crime: 'Complicitate la fraudă cu fonduri europene',
     sentence: '2 ani închisoare cu suspendare',
@@ -33507,8 +33530,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Iași l-a condamnat definitiv la 20 martie 2020 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene, în formă continuată.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 196 din 20 martie 2020, Curtea de Apel Iași l-a condamnat definitiv la 2 ani de închisoare cu suspendare, cu termen de supraveghere de 3 ani, pentru complicitate la fraudă cu fonduri europene în formă continuată. Instanța i-a interzis timp de 2 ani dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat și a dispus 60 de zile de muncă în folosul comunității. A fost obligat în solidar la despăgubiri de 11.652,40 lei și 61.565,75 lei către APIA, plus 3.250 lei cheltuieli judiciare și 500 lei cheltuieli în apel.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33516,21 +33539,22 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9804',
       },
       {
-        label: 'România Liberă',
-        kind: 'press',
-        url: 'https://romanialibera.ro/special/pesedistul-mitrofan-din-arsura--ajuns-edil-datorita-votului-unui-liberal-262131/',
+        label: 'Rezultatele BEC pentru primari la alegerile locale din 2012 (copie PDF)',
+        kind: 'reliable_press',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
       },
     ],
   },
   {
     name: 'Mușat Neculai',
     party: 'PNL',
-    position: 'Viceprimar al comunei Ion Neculce, județul Iași',
+    position: 'Fost viceprimar PNL al comunei Ion Neculce, județul Iași',
     position_type: 'local_official',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Ion Neculce, județul Iași.',
+      locality: 'Ion Neculce',
+      note: 'A fost viceprimar PNL al comunei Ion Neculce, județul Iași, la data faptelor.',
     },
     crime: 'Fraudă cu fonduri europene; uz de fals',
     sentence: '3 ani închisoare cu suspendare',
@@ -33539,8 +33563,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Iași l-a condamnat definitiv la 24 mai 2018 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și uz de fals.',
-    verified_at: '2026-05-11',
+      'Prin decizia penală nr. 375 din 24 mai 2018, Curtea de Apel Iași l-a condamnat definitiv la 3 ani de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru fraudă cu fonduri europene în formă continuată și uz de fals. Instanța i-a interzis timp de 2 ani după executarea pedepsei principale dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat. A fost obligat în solidar la plata către APIA a 638.030 lei, cu dobândă și penalități din 3 mai 2012; hotărârea atribuie în raporturile interne 533.175,04 lei conduitei sale. A mai fost obligat la 2.200 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33557,12 +33581,13 @@ export const politicianAdditions = [
   {
     name: 'Ștefan Constantin',
     party: 'PSD',
-    position: 'Consilier local al comunei Ion Neculce, județul Iași',
-    position_type: 'local_official',
+    position: 'Fost primar PSD al comunei Ion Neculce; consilier local la data faptelor',
+    position_type: 'mayor',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de consilier local al comunei Ion Neculce, județul Iași.',
+      locality: 'Ion Neculce',
+      note: 'A fost consilier local la data faptelor și ulterior primar PSD al comunei Ion Neculce.',
     },
     crime: 'Complicitate la fraudă cu fonduri europene',
     sentence: '3 ani închisoare cu suspendare',
@@ -33571,8 +33596,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Iași l-a condamnat definitiv la 24 mai 2018 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene.',
-    verified_at: '2026-05-09',
+      'Prin decizia penală nr. 375 din 24 mai 2018, Curtea de Apel Iași l-a condamnat definitiv la 3 ani de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru complicitate la fraudă cu fonduri europene. Instanța i-a interzis timp de un an și 6 luni după executarea pedepsei principale dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat. A fost obligat în solidar la plata către APIA a 638.030 lei, cu dobândă și penalități din 3 mai 2012, și la 2.200 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33612,12 +33637,13 @@ export const politicianAdditions = [
   {
     name: 'Buciumeanu Ilie',
     party: 'PSD',
-    position: 'Primar al comunei Tărtășești, județul Dâmbovița',
+    position: 'Fost primar PSD al comunei Tărtășești, județul Dâmbovița',
     position_type: 'mayor',
     geography: {
       county: 'Dâmbovița',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Tărtășești, județul Dâmbovița.',
+      locality: 'Tărtășești',
+      note: 'A fost primar PSD al comunei Tărtășești; în prezent funcția este deținută de o altă persoană.',
     },
     crime: 'Complicitate la abuz în serviciu',
     sentence: '3 ani închisoare cu suspendare',
@@ -33626,8 +33652,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 2 octombrie 2020 pentru complicitate la abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 275 din 2 octombrie 2020, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru complicitate la abuz în serviciu cu folos necuvenit. Instanța a dispus 60 de zile lucrătoare de muncă în folosul comunității, a lăsat nesoluționate acțiunile civile care îl priveau și l-a obligat la plata a 10.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33644,18 +33670,19 @@ export const politicianAdditions = [
   {
     name: 'Urdea Iustin Nicolae',
     party: 'PNL',
-    position: 'Primar al comunei Limanu, județul Constanța',
+    position: 'Fost primar PNL al comunei Limanu, județul Constanța',
     position_type: 'mayor',
     geography: {
       county: 'Constanța',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Limanu, județul Constanța.',
+      locality: 'Limanu',
+      note: 'A fost primar PNL al comunei Limanu; în prezent funcția este deținută de o altă persoană.',
     },
-    crime: 'Abuz în serviciu; fraudă cu fonduri europene',
+    crime: 'Acuzații soluționate prin achitare: abuz în serviciu; fraudă cu fonduri europene',
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în dosarul proiectului PHARE de la Limanu, iar actualizarea oficială din 17 aprilie 2024 consemnează achitarea definitivă dispusă de Curtea de Apel Constanța.',
-    verified_at: '2026-05-10',
+      'DNA l-a trimis în judecată în dosarul proiectului PHARE de la Limanu. Prin decizia penală nr. 241 din 15 martie 2024, Curtea de Apel Constanța l-a achitat definitiv deoarece faptele nu există ori nu sunt prevăzute de legea penală. Instanța a respins ca neîntemeiată acțiunea civilă a Ministerului Dezvoltării și a constatat că UAT Limanu nu se constituise parte civilă.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -33663,9 +33690,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=6717',
       },
       {
-        label: 'Ziua de Constanța',
-        kind: 'press',
-        url: 'https://www.ziuaconstanta.ro/stiri/politic/dosarul-primarului-pnl-urdea-si-al-secretarului-voicu-din-limanu-in-apel-la-curtea-de-apel-constanta-811796.html',
+        label: 'Lista candidaturilor definitive la funcția de primar în Constanța (2012)',
+        kind: 'reliable_press',
+        url: 'https://www.ziuaconstanta.ro/images/stories/2012/05/Online/primari.pdf',
       },
     ],
   },
