@@ -16451,21 +16451,21 @@ export const politicianOverrides = {
   },
   'Kis Hajnalka': {
     party: 'PDL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Biroul Electoral Central',
-        kind: 'official',
-        url: 'https://www.scribd.com/document/710717305/Alegeri-locale-2008',
+        label: 'Viața Liberă — rezultatele BEJ Satu Mare la alegerile locale din 2008',
+        kind: 'press',
+        url: 'https://www.viata-libera.ro/pdf/2008/06_iunie/vlg_17_iun.pdf',
       },
     ],
   },
   'Gliga Daniel-Gabriel': {
     party: 'PNL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Punctul',
+        label: 'Punctul — candidatura PNL pentru Primăria Reghin',
         kind: 'press',
         url: 'https://www.punctul.ro/daniel-gliga-pnl-vrea-sa-schimbe-viitorul-reghinului/',
       },
@@ -32744,7 +32744,7 @@ export const politicianAdditions = [
   {
     name: 'Kis Hajnalka',
     party: 'PDL',
-    position: 'Primar al comunei Berveni, județul Satu Mare',
+    position: 'Fost primar al comunei Berveni, județul Satu Mare',
     position_type: 'mayor',
     geography: {
       county: 'Satu Mare',
@@ -32758,8 +32758,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Tribunalul Satu Mare a admis acordul de recunoaștere a vinovăției, definitiv prin neapelare la 25 octombrie 2017, și a condamnat-o pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și luare de mită.',
-    verified_at: '2026-05-07',
+      'Prin sentința penală nr. 131 din 4 octombrie 2017, definitivă prin neapelare la 25 octombrie 2017, Tribunalul Satu Mare a admis acordul de recunoaștere a vinovăției și a condamnat-o la 2 ani și 6 luni de închisoare cu suspendare, cu termen de încercare de 4 ani și 6 luni, pentru folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete care a avut ca rezultat obținerea pe nedrept de fonduri europene și pentru luare de mită. Instanța a interzis pentru 2 ani după executarea pedepsei principale dreptul de a fi aleasă și de a ocupa o funcție care implică exercițiul autorității de stat, a lăsat nesoluționată latura civilă și a obligat-o la 1.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32771,12 +32771,12 @@ export const politicianAdditions = [
   {
     name: 'Gliga Daniel-Gabriel',
     party: 'PNL',
-    position: 'Primar al municipiului Reghin, județul Mureș',
-    position_type: 'mayor',
+    position: 'Fost viceprimar al municipiului Reghin, județul Mureș',
+    position_type: 'local_official',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al municipiului Reghin, județul Mureș.',
+      note: 'Funcția relevantă pentru faptele din dosare a fost cea de viceprimar al municipiului Reghin, județul Mureș.',
     },
     crime: 'Abuz în serviciu',
     sentence: '3 luni închisoare cu suspendare și amendă penală',
@@ -32785,45 +32785,60 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Târgu Mureș l-a condamnat definitiv la 11 august 2021 pentru abuz în serviciu în legătură cu repartizarea de locuințe ANL pentru tineri.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 364 din 11 august 2021, definitivă, Curtea de Apel Târgu Mureș l-a condamnat la 3 luni de închisoare cu suspendare, cu termen de încercare de 2 ani și 3 luni, și la 400 lei amendă penală pentru abuz în serviciu prin care a fost obținut un folos necuvenit, în dosarul repartizării nelegale a unor locuințe ANL; a fost obligat și la 1.100 lei cheltuieli judiciare. Separat, prin sentința penală nr. 365 din 27 iunie 2018, definitivă, fusese condamnat la 400 lei amendă penală, cu suspendare pe un termen de încercare de 3 ani, pentru două infracțiuni de neglijență în serviciu și la 400 lei cheltuieli judiciare. Documentele contemporane ale Primăriei Reghin și comunicatul DNA din primul dosar îl identifică drept viceprimar la data faptelor; această funcție este folosită în profil în locul etichetei inconsistente de „primar” din comunicatul DNA din 2021.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă din 2021',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
+      },
+      {
+        label: 'DNA — condamnarea definitivă din 2018 și calitatea de viceprimar',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8903',
+      },
+      {
+        label: 'Primăria Reghin — declarație de avere din 2014, viceprimar',
+        kind: 'official',
+        url: 'https://www.primariareghin.ro/fileadmin/editorimages/doc/DeclCons2014/DA/Gliga_DA_2014.pdf',
       },
     ],
   },
   {
     name: 'Koss Gabriela',
-    party: 'PNL',
-    position: 'Secretar al UAT municipiul Reghin, județul Mureș',
-    position_type: 'local_official',
+    party: 'Independent',
+    position: 'Fost subprefect al județului Mureș și fost secretar al municipiului Reghin',
+    position_type: 'other',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de secretar al UAT municipiul Reghin, județul Mureș.',
+      note: 'A fost secretar al municipiului Reghin la data faptelor și a exercitat temporar funcția de subprefect al județului Mureș între octombrie 2012 și decembrie 2013.',
     },
-    crime: 'Abuz în serviciu',
+    crime: 'Abuz în serviciu; instigare la fals intelectual; instigare la fals în înscrisuri sub semnătură privată',
     sentence: '1 an închisoare cu suspendare',
     sentence_years: 1,
     conviction_year: 2021,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Târgu Mureș a condamnat-o definitiv la 11 august 2021 pentru abuz în serviciu în formă continuată, în dosarul privind repartizarea de locuințe ANL pentru tineri.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 364 din 11 august 2021, definitivă, Curtea de Apel Târgu Mureș a condamnat-o la 1 an de închisoare cu suspendare, cu termen de încercare de 3 ani, pentru abuz în serviciu în formă continuată, în dosarul privind repartizarea nelegală a unor locuințe ANL; a fost obligată și la 1.100 lei cheltuieli judiciare. Separat, prin sentința penală nr. 365 din 27 iunie 2018, definitivă, fusese condamnată tot la 1 an de închisoare cu suspendare, cu termen de încercare de 3 ani, pentru abuz în serviciu în formă continuată, instigare la fals intelectual și instigare la fals în înscrisuri sub semnătură privată, precum și la 400 lei cheltuieli judiciare. Numirea ei temporară ca subprefect este confirmată de HG nr. 1.025/2012; în lipsa unei surse directe suficient de solide pentru afilierea de partid, profilul nu îi atribuie un partid.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă din 2021',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
       },
       {
-        label: 'Zi de Zi',
-        kind: 'press',
-        url: 'https://www.zi-de-zi.ro/2016/09/28/cine-va-supraveghea-respectarea-legalitatii-scrutinului-electoral-din-mures/',
+        label: 'DNA — condamnarea definitivă din 2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8903',
+      },
+      {
+        label: 'Portal Legislativ — HG nr. 1.025/2012, numirea ca subprefect',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2012%2F10%2F24&publicatnumar=723&publicatsfarsittext=2012%2F10%2F24',
       },
     ],
   },
@@ -32844,18 +32859,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 6 noiembrie 2014 pentru complicitate la luare de mită în formă continuată, în legătură cu activitatea din administrația municipiului Bacău.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 2951 din 6 noiembrie 2014, definitivă, Înalta Curte de Casație și Justiție l-a condamnat la 4 ani de închisoare cu executare pentru complicitate la luare de mită în formă continuată, în opt acte materiale. Instanța i-a interzis, pe durata executării și încă 2 ani după pedeapsa principală, dreptul de a fi ales, de a ocupa funcții publice ori o funcție ce implică exercițiul autorității de stat și de a exercita activitatea folosită la comiterea infracțiunii. A dispus confiscarea de la acesta a 98.318 USD și 1.616,174 lei.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — decizia definitivă nr. 2951/2014 a ÎCCJ',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5543',
       },
       {
-        label: 'Ziarul de Bacău',
+        label: 'Ziarul de Bacău — mandatul de consilier local obținut pe lista PSD',
         kind: 'press',
-        url: 'https://ziaruldebacau.ro/furtuna-pentru-unii-picatura-pentru-dumnezeu/',
+        url: 'https://ziaruldebacau.ro/rezultatele-finale-ale-alegerilor-pentru-functia-de-primar-la-bacau/',
       },
     ],
   },
@@ -32916,11 +32931,12 @@ export const politicianAdditions = [
   {
     name: 'Goga Nicolae',
     party: 'PNL',
-    position: 'Viceprimar al comunei Apold, județul Mureș',
+    position: 'Fost viceprimar al comunei Apold, județul Mureș',
     position_type: 'local_official',
     geography: {
       county: 'Mureș',
       basis: 'office',
+      locality: 'Apold',
       note: 'Funcția relevantă a fost cea de viceprimar al comunei Apold, județul Mureș.',
     },
     crime: 'Complicitate la fraudă cu fonduri europene; conflict de interese',
@@ -32930,16 +32946,21 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 29 aprilie 2015 pentru complicitate la folosirea de declarații false sau inexacte pentru obținerea pe nedrept de fonduri europene și conflict de interese.',
-    verified_at: '2026-05-11',
+      'Prin decizia penală nr. 152 din 29 aprilie 2015, definitivă, Înalta Curte de Casație și Justiție l-a condamnat la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de supraveghere de 2 ani, pentru două infracțiuni de complicitate la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au avut ca rezultat obținerea pe nedrept de fonduri europene, ambele în formă continuată, și pentru conflict de interese. Instanța a stabilit 70 de zile de muncă neremunerată în folosul comunității, interdicții pe durata pedepsei principale și încă 2 ani și plata în solidar cu Maria Goga către APIA a 237.176,53 lei, plus dobânzi și penalități.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — decizia definitivă nr. 152/2015 a ÎCCJ',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6279',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Mediafax — trimiterea în judecată și rolul de viceprimar',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/social/mures-viceprimarul-din-apold-si-un-consilier-local-din-vanatori-trimisi-in-judecata-de-dna-9585791',
+      },
+      {
+        label: 'FINAL DNA Database — funcția și afilierea istorică PNL',
         kind: 'press',
         url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },

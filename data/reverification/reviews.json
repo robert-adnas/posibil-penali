@@ -57076,6 +57076,95 @@
       ],
       "note": "Identitatea este confirmată prin funcția, localitatea și istoricul electoral PSD din Vorniceni. Condamnarea definitivă din 19.12.2016 la 1 an și 6 luni cu suspendare este confirmată; profilul a fost completat cu termenul de încercare, interdicțiile și cele patru componente ale daunelor civile. Funcția a fost corectată la forma istorică și contextualizată prin cele trei mandate începute în 2000 și demisia din 2011.",
       "reviewed_snapshot_hash": "ad10d18ba986229767769c8769b00bd3b0f25acb83ee1d5f7dfa1fff0a8c19af"
+    },
+    {
+      "profile_id": "RV-0799",
+      "original_name": "Kis Hajnalka",
+      "current_name": "Kis Hajnalka",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8517",
+        "https://www.viata-libera.ro/pdf/2008/06_iunie/vlg_17_iun.pdf"
+      ],
+      "note": "Identitate confirmată ca fost primar PDL al comunei Berveni. Profilul precizează sentința nr. 131/2017, data rămânerii definitive prin neapelare, termenul de încercare, interdicțiile, latura civilă nesoluționată și cheltuielile judiciare; sursa Scribd etichetată eronat ca BEC a fost înlocuită cu relatarea contemporană bazată pe rezultatele BEJ.",
+      "reviewed_snapshot_hash": "304d75ab61596f42c1b6b53943cd8a5555ed0c6611bfc5fe182c96112dedd596"
+    },
+    {
+      "profile_id": "RV-0800",
+      "original_name": "Gliga Daniel-Gabriel",
+      "current_name": "Gliga Daniel-Gabriel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10532",
+        "https://www.dna.ro/comunicat.xhtml?id=8903",
+        "https://www.primariareghin.ro/fileadmin/editorimages/doc/DeclCons2014/DA/Gliga_DA_2014.pdf",
+        "https://www.punctul.ro/daniel-gliga-pnl-vrea-sa-schimbe-viitorul-reghinului/"
+      ],
+      "note": "Identitatea și încadrarea politică sunt confirmate. Funcția a fost corectată din primar în fost viceprimar pe baza documentelor contemporane ale Primăriei Reghin și a comunicatului DNA inițial. Au fost separate condamnarea definitivă din 2021 pentru abuz în serviciu și condamnarea definitivă din 2018 pentru două infracțiuni de neglijență în serviciu, cu sancțiunile și cheltuielile judiciare aferente.",
+      "reviewed_snapshot_hash": "dc398cfeccca447d556d84b1c6167f8746e605fd7835695879a30a0b313c9d85"
+    },
+    {
+      "profile_id": "RV-0801",
+      "original_name": "Koss Gabriela",
+      "current_name": "Koss Gabriela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10532",
+        "https://www.dna.ro/comunicat.xhtml?id=8903",
+        "https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2012%2F10%2F24&publicatnumar=723&publicatsfarsittext=2012%2F10%2F24"
+      ],
+      "note": "Păstrată în aria extinsă pe baza funcției de subprefect confirmate prin HG 1025/2012, nu doar a funcției tehnice de secretar UAT. Au fost consemnate separat condamnările definitive din 2018 și 2021. Afilierea PNL, insuficient confirmată direct, a fost eliminată conservator și înlocuită cu Independent.",
+      "reviewed_snapshot_hash": "99c4e2ad56d10bd0b1a9ea5f3360926f00c2c61dee9afc29ea4e04139d708431"
+    },
+    {
+      "profile_id": "RV-0802",
+      "original_name": "Lucaș Laurian Iulian",
+      "current_name": "Lucaș Laurian Iulian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5543",
+        "https://ziaruldebacau.ro/rezultatele-finale-ale-alegerilor-pentru-functia-de-primar-la-bacau/"
+      ],
+      "note": "Identitatea, funcțiile de viceprimar și consilier local și afilierea PSD sunt confirmate. Profilul a fost completat cu numărul deciziei definitive, cele opt acte materiale, interdicțiile pe durata executării și încă doi ani, precum și confiscarea de 98.318 USD și 1.616,174 lei.",
+      "reviewed_snapshot_hash": "b12371fe244053061927ff9443909021de8bc8e20314154ef8a2d98bf62ac8e2"
+    },
+    {
+      "profile_id": "RV-0805",
+      "original_name": "Goga Nicolae",
+      "current_name": "Goga Nicolae",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6279",
+        "https://www.mediafax.ro/social/mures-viceprimarul-din-apold-si-un-consilier-local-din-vanatori-trimisi-in-judecata-de-dna-9585791",
+        "https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Identitatea, funcția de viceprimar și afilierea istorică PNL sunt confirmate. Profilul a fost completat cu numărul deciziei definitive, cele două infracțiuni de complicitate la fraudă UE, termenul de supraveghere, munca în folosul comunității, interdicțiile și despăgubirea solidară către APIA.",
+      "reviewed_snapshot_hash": "22aee7a243dda1bdbca9810b1ad8b9e40b4d54147e7a5315a943c0fc2f0f4e6f"
     }
   ]
 }
