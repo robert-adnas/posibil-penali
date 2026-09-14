@@ -30147,12 +30147,13 @@ export const politicianAdditions = [
   {
     name: 'Stere Sponte',
     party: 'PDL',
-    position: 'Fost director al Oficiului de Cadastru și Publicitate Imobiliară Constanța',
+    position: 'Fost viceprimar și consilier local al orașului Năvodari; fost director OCPI Constanța',
     position_type: 'local_official',
     geography: {
       county: 'Constanța',
-      basis: 'office',
-      note: 'Funcția relevantă a fost cea de director OCPI Constanța și membru în Comisia Județeană de Fond Funciar.',
+      basis: 'political_base',
+      locality: 'Năvodari',
+      note: 'Încadrarea politică se bazează pe mandatele de viceprimar și consilier local PDL în Năvodari; cauza privea activitatea de director OCPI Constanța.',
     },
     crime: 'Complicitate la abuz în serviciu',
     sentence: 'Achitat definitiv (2021)',
@@ -30161,7 +30162,7 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată pentru acte legate de validarea unor reconstituiri de proprietate în județul Constanța. Curtea de Apel Constanța a dispus achitarea definitivă, potrivit actualizării DNA.',
-    verified_at: '2026-05-04',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -30203,13 +30204,14 @@ export const politicianAdditions = [
   },
   {
     name: 'Sergiu-Claudiu Maior',
-    party: 'PDL',
-    position: 'Fost viceprimar al municipiului Târgu Mureș',
+    party: 'PSD',
+    position: 'Consilier local PSD în municipiul Târgu Mureș; fost viceprimar',
     position_type: 'local_official',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Funcția locală relevantă a fost cea de viceprimar al municipiului Târgu Mureș.',
+      locality: 'Târgu Mureș',
+      note: 'Este consilier local PSD în mandatul început în 2024; anterior a fost viceprimar al municipiului Târgu Mureș.',
     },
     crime: 'Uzurparea funcției',
     sentence: 'Achitat definitiv (2022)',
@@ -30217,8 +30219,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată într-un dosar privind exercitarea atribuțiilor de viceprimar după o interdicție ANI. Actualizarea DNA din 8 iulie 2022 consemnează achitarea definitivă.',
-    verified_at: '2026-05-11',
+      'DNA l-a trimis în judecată pentru că, în calitate de consilier al primarului, ar fi semnat ordine de plată după interdicția definitivă derivată dintr-o incompatibilitate ANI. Curtea de Apel Târgu Mureș a menținut achitarea la 1 iulie 2022, deoarece fapta nu este prevăzută de legea penală; actualizarea DNA confirmă caracterul definitiv.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -30229,6 +30231,21 @@ export const politicianAdditions = [
         label: 'Radio Târgu Mureș',
         kind: 'press',
         url: 'https://www.radiomures.ro/stiri/claudiu_maior_revine_in_func_ia_de_viceprimar_al_municipiului_tirgu_mure__1.html',
+      },
+      {
+        label: 'AGERPRES — achitarea definitivă',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2022/07/01/mures-fosta-conducere-a-primariei-targu-mures-achitata-definitiv-in-dosarul-de-uzurpare-a-functiei-s--943777',
+      },
+      {
+        label: 'Primăria Târgu Mureș — noul Consiliu Local',
+        kind: 'official',
+        url: 'https://www.tirgumures.ro/index.php?Itemid=177&id=9860&lang=ro&option=com_content&view=article',
+      },
+      {
+        label: 'Primăria Târgu Mureș — hotărâre din 2026',
+        kind: 'official',
+        url: 'https://www.tirgumures.ro/portal/servicii/2026/hotarari.nsf/all/34F0D1B044CDA0E8C2258DD40025149E/%24FILE/HCL%2042.pdf',
       },
     ],
   },
@@ -30313,12 +30330,13 @@ export const politicianAdditions = [
   {
     name: 'Laszlo Attila Bako',
     party: 'Independent',
-    position: 'Fost funcționar/consilier local implicat în dosarul FCM Târgu Mureș',
+    position: 'Fost director în administrația municipiului Târgu Mureș',
     position_type: 'local_official',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Cauza DNA privea activitatea din administrația municipiului Târgu Mureș.',
+      locality: 'Târgu Mureș',
+      note: 'A fost director al Direcției activități social-culturale și patrimoniale a municipiului; nu există suport pentru eticheta anterioară de consilier local.',
     },
     crime: 'Complicitate la abuz în serviciu',
     sentence: 'Achitat definitiv (2023)',
@@ -30326,25 +30344,36 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA l-a trimis în judecată în dosarul finanțării Fotbal Club Municipal Târgu Mureș. Actualizarea DNA consemnează achitarea definitivă, întrucât faptele nu sunt prevăzute de legea penală.',
-    verified_at: '2026-05-04',
+      'DNA l-a trimis în judecată, în calitate de director în aparatul municipal, pentru sprijinirea inițierii proiectului de hotărâre privind finanțarea Fotbal Club Municipal Târgu Mureș. Curtea de Apel Cluj l-a achitat definitiv la 14 februarie 2023, întrucât fapta nu este prevăzută de legea penală.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=6969',
       },
+      {
+        label: 'Consiliul Local Târgu Mureș — funcția administrativă',
+        kind: 'official',
+        url: 'https://www.tirgumures.ro/portal/servicii/2010/hotarari.nsf/all/CFFCCC74FC842FE6C22578470054B948/%24FILE/256.pdf',
+      },
+      {
+        label: 'Zi de Zi — calitatea de angajat al primăriei',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2015/12/16/primarul-dorin-florea-va-fi-judecat-la-miercurea-ciuc-pentru-abuz-in-serviciu/',
+      },
     ],
   },
   {
     name: 'Ioan Fărcaș',
     party: 'PNL',
-    position: 'Fost funcționar/consilier local implicat în dosarul FCM Târgu Mureș',
+    position: 'Fost consilier local PNL în municipiul Târgu Mureș',
     position_type: 'local_official',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Cauza DNA privea activitatea din administrația municipiului Târgu Mureș.',
+      locality: 'Târgu Mureș',
+      note: 'A fost consilier local al municipiului Târgu Mureș; locul său din grupul PNL a fost declarat vacant în 2016.',
     },
     crime: 'Complicitate la abuz în serviciu',
     sentence: 'Achitat definitiv (2023)',
@@ -30352,8 +30381,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'În dosarul FCM Târgu Mureș, DNA l-a trimis în judecată pentru complicitate la abuz în serviciu. Actualizarea DNA din 13 martie 2023 consemnează achitarea definitivă.',
-    verified_at: '2026-05-04',
+      'În dosarul finanțării Fotbal Club Municipal Târgu Mureș, DNA l-a trimis în judecată în calitate de consilier local, pentru complicitate la abuz în serviciu. Curtea de Apel Cluj l-a achitat definitiv la 14 februarie 2023, întrucât fapta nu este prevăzută de legea penală.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -30361,6 +30390,11 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=6969',
       },
       TARGU_MURES_FARCAS_PARTY_SOURCE,
+      {
+        label: 'Consiliul Local Târgu Mureș — încetarea mandatului PNL',
+        kind: 'official',
+        url: 'https://www.tirgumures.ro/pv2011/index.php?dir=2016%2F10.+Octombrie%2F&file=PV+27+octombrie++2016+.pdf',
+      },
     ],
   },
   {
@@ -30397,6 +30431,7 @@ export const politicianAdditions = [
     geography: {
       county: 'Arad',
       basis: 'office',
+      locality: 'Arad',
       note: 'Funcția relevantă a fost în administrația municipiului Arad.',
     },
     crime: 'Abuz în serviciu',
@@ -30405,8 +30440,8 @@ export const politicianAdditions = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a trimis-o în judecată în același dosar al tranzacției imobiliare din Arad în care a fost vizat Gheorghe Falcă. ÎCCJ a menținut achitarea definitivă în iunie 2013.',
-    verified_at: '2026-05-04',
+      'DNA a trimis-o în judecată, în calitate de șef al Serviciului administrare patrimoniu din Primăria Arad, pentru participarea la comisia care a negociat vânzarea unui teren municipal. ÎCCJ a respins recursul DNA și a menținut achitarea definitivă la 17 iunie 2013.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -30417,6 +30452,11 @@ export const politicianAdditions = [
         label: 'Jurnalul',
         kind: 'press',
         url: 'https://jurnalul.ro/stiri/observator/inalta-curte-de-casatie-si-justitie-l-a-achitat-pe-primarul-aradului-gheorghe-falca-sentinta-este-definitiva-645754.html',
+      },
+      {
+        label: 'Primăria Arad — document semnat în funcția de patrimoniu',
+        kind: 'official',
+        url: 'https://www.primariaarad.ro/dm_arad/2012/hotarari.nsf/2A2113B95EF7DAD1C2258773005B61DB/%24FILE/h6430.pdf?Open=',
       },
     ],
   },
@@ -30532,54 +30572,81 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Constantin Pascaru",
-    "party": "Independent",
-    "position": "Viceprimar, județul Galați",
+    "name": "Constantin Păscaru",
+    "party": "PDL",
+    "position": "Fost viceprimar PDL al comunei Brăhășești",
     "position_type": "local_official",
     "geography": {
       "county": "Galați",
       "basis": "office",
-      "note": "Funcția relevantă a fost viceprimar (Primarie) în județul Galați."
+      "locality": "Brăhășești",
+      "note": "A fost viceprimar al comunei Brăhășești, județul Galați, și membru PDL la data dosarului."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare sub supraveghere (termen de încercare 8 ani)",
+    "crime": "Complicitate la luare de mită",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere (termen de încercare 5 ani)",
     "sentence_years": 3,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 octombrie 2012. Condamnarea inculpatului PASCARU CONSTANTIN , viceprimarul aceleiaşi localităţi, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru complicitate la infracţiunea de luare de mită .",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 3.407 din 23 octombrie 2012, ÎCCJ l-a condamnat definitiv pe Constantin Păscaru, fost viceprimar al comunei Brăhășești, la 3 ani de închisoare cu suspendare sub supraveghere și termen de încercare de 5 ani, pentru complicitate la luare de mită. Termenul de 8 ani menționat anterior aparținea coinculpatului Vasile Băiculescu.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3633"
+      },
+      {
+        "label": "România Liberă — funcția și localitatea",
+        "kind": "press",
+        "url": "https://romanialibera.ro/special/primarul-brahasestiului-suspendat-113655/"
+      },
+      {
+        "label": "AMOS News — apartenența PDL",
+        "kind": "press",
+        "url": "https://www.amosnews.ro/arhiva/primarul-viceprimarul-din-brahasesti-vor-fi-exclusi-din-pd-l-28-12-2007"
       }
     ]
   },
   {
-    "name": "Cosmin Mihai Popescu",
-    "party": "PDL",
-    "position": "Secretar de stat în Ministerul economiei, comertului si turismului, județul București",
-    "position_type": "secretary_of_state",
+    "name": "Cosmin-Mihai Popescu",
+    "party": "PSD",
+    "position": "Președinte PSD al Consiliului Județean Gorj; fost deputat și secretar de stat",
+    "position_type": "county_council_president",
     "geography": {
-      "county": "București",
+      "county": "Gorj",
       "basis": "office",
-      "note": "Funcția relevantă a fost secretar de stat (Ministerul economiei, comertului si turismului) în județul București."
+      "locality": "Târgu Jiu",
+      "note": "Conduce Consiliul Județean Gorj din 2016 și a obținut un nou mandat ca reprezentant PSD în 2024; faptele au vizat perioada de secretar de stat."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
+    "crime": "Fals intelectual; favorizarea infractorului",
+    "sentence": "2 ani închisoare cu suspendare sub supraveghere (termen de încercare 5 ani)",
     "sentence_years": 2,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 11 aprilie 2011. Condamnarea inculpatului POPESCU COSMIN MIHAI , secretar de stat în Ministerul Economiei şi Comerţului (MEC), la pedeapsa de 2 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârşirea infracţiunilor de fals intelectual şi favorizarea infractorului , ca infracţiuni în legătură directă cu infracţiunile de corupţie săvârşite de către inculpatul Manţog Ionel în dosarul în care acesta a fost trimis în judecată la data de 6.09.2006.",
-    "verified_at": "2026-06-10",
+    "details": "ÎCCJ l-a condamnat definitiv la 11 aprilie 2011 la 2 ani de închisoare cu suspendare sub supraveghere și termen de încercare de 5 ani, pentru fals intelectual și favorizarea infractorului, fapte comise în perioada în care era secretar de stat la Ministerul Economiei și Comerțului. În prezent este președintele PSD al Consiliului Județean Gorj.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2351"
+      },
+      {
+        "label": "Consiliul Județean Gorj — conducere",
+        "kind": "official",
+        "url": "https://www.cjgorj.ro/consiliul_judetean_gorj/"
+      },
+      {
+        "label": "Consiliul Județean Gorj — mandatul din 2024",
+        "kind": "official",
+        "url": "https://www.cjgorj.ro/Date%20site/Sedinte%20Consiliu/28.10.2024/Pv%20sedinta%20de%20constituire.pdf"
+      },
+      {
+        "label": "Antena 3 — condamnarea definitivă",
+        "kind": "press",
+        "url": "https://www.antena3.ro/politica/deputatul-pdl-cosmin-popescu-condamnat-la-doi-ani-de-inchisoare-cu-suspendare-122637.html"
       }
     ]
   },
@@ -30755,79 +30822,127 @@ export const politicianAdditions = [
   },
   {
     "name": "Ioan Horhat",
-    "party": "PD",
-    "position": "în calitate de primar al comunei Jidvei",
+    "party": "PDL",
+    "position": "Fost primar PDL al comunei Jidvei; ulterior consilier local",
     "position_type": "mayor",
     "geography": {
       "county": "Alba",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Alba."
+      "locality": "Jidvei",
+      "note": "A fost primar al comunei Jidvei în perioadele 1992-2000 și 2004-2008, apoi consilier local."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "6 luni închisoare cu suspendare",
+    "crime": "Schimbarea nelegală a destinației fondurilor europene",
+    "sentence": "6 luni închisoare cu suspendare condiționată (termen de încercare 2 ani și 6 luni)",
     "sentence_years": 0.5,
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 11 martie 2010. Curtea de Apel Alba , prin decizia penală nr. 205 din 11.03.2010 l-a condamnat pe Horhat Ioan , în calitate de primar al comunei Jidvei, judeţul Alba, la 6 luni închisoare cu suspendare condiţionată pe o perioadă de 2 ani şi 6 luni , pentru săvârşirea infracţiunii de schimbare, fără respectarea prevederilor legale, a destinaţiei fondurilor obţinute din bugetul general al comunităţilor Europene sau din bugetele administrate de acestea ori în numele lor .",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Alba Iulia l-a condamnat definitiv la 11 martie 2010 la 6 luni de închisoare cu suspendare condiționată și termen de încercare de 2 ani și 6 luni, pentru schimbarea nelegală a destinației unor fonduri europene. În cauza Horhat c. România, CEDO a constatat în 2020 încălcarea art. 4 din Protocolul nr. 7, deoarece fusese judecat de două ori pentru aceeași faptă; hotărârea CEDO nu constituie, prin ea însăși, anularea condamnării interne.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=1911"
+      },
+      {
+        "label": "Primăria Jidvei — istoricul primarilor",
+        "kind": "official",
+        "url": "https://primariajidvei.ro/despre-noi/istoric-primari/"
+      },
+      {
+        "label": "CEDO — Horhat c. România (revizuire)",
+        "kind": "official",
+        "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+HORHAT+v.+ROMANIA.pdf&id=001-209323&library=ECHR&logEvent=False"
+      },
+      {
+        "label": "Adevărul — condamnarea și funcția locală",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-locale/alba-iulia/primarii-penali-din-alba-condamnati-la-inchisoare-1047583.html"
       }
     ]
   },
   {
     "name": "Ioan Mihalachi",
-    "party": "Independent",
-    "position": "primarul comunei Ciuruleasa",
+    "party": "PNL",
+    "position": "Fost primar și consilier local PNL al comunei Ciuruleasa",
     "position_type": "mayor",
     "geography": {
       "county": "Alba",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Alba."
+      "locality": "Ciuruleasa",
+      "note": "A fost primar al comunei Ciuruleasa în mandatul 2004-2008, apoi consilier local și candidat PNL la primărie în 2016."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Tentativă de obținere nelegală a fondurilor europene; uz de fals",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere (termen de încercare 6 ani)",
     "sentence_years": 3,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 martie 2011. Condamnarea inculpatului MIHALACHI IOAN , primarul comunei Ciuruleasa, judeţul Alba, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani , pentru săvârşirea infracţiunilor de tentativă la infracţiunea de folosire sau prezentare de documente false, inexacte sau incomplete care are ca rezultat obţinerea pe nedrept de fonduri din bugetul general al Comunităţilor Europene sau din bugetele administrate de acestea sau în numele lor şi uz de fals .",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Alba Iulia l-a condamnat definitiv la 3 martie 2011 la 3 ani de închisoare cu suspendare sub supraveghere și termen de încercare de 6 ani. Cauza a privit tentativa de decontare a unor cheltuieli din fonduri europene prin documente false, în perioada mandatului de primar al comunei Ciuruleasa.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2246"
+      },
+      {
+        "label": "Municipiul Aiud — document cu reprezentanții comunelor",
+        "kind": "official",
+        "url": "https://www.aiud.ro/AplicatiiOnline/Hotarari_2003_2008/2007/08.august/h175_2007.pdf"
+      },
+      {
+        "label": "Adevărul — condamnarea definitivă",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-locale/alba-iulia/alba-fostul-primar-din-ciuruleasa-si-trei-992615.html"
+      },
+      {
+        "label": "Alba24 — candidatura PNL din 2016",
+        "kind": "press",
+        "url": "https://alba24.ro/clasamentul-bataliei-pentru-primariile-din-alba-rezultate-oficiale-procentele-si-numarul-de-voturi-obtinut-de-invinsi-si-invingatori-496624.html"
       }
     ]
   },
   {
-    "name": "Ioan Vetres",
-    "party": "Independent",
-    "position": "primar al comunei Armeniș",
+    "name": "Ioan Vetreș",
+    "party": "PDL",
+    "position": "Fost primar PDL al comunei Armeniș (2008–2012)",
     "position_type": "mayor",
     "geography": {
       "county": "Caraș-Severin",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Caraș-Severin."
+      "locality": "Armeniș",
+      "note": "A fost primar PDL al comunei Armeniș în mandatul 2008-2012 și a candidat ulterior din partea PNL."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "1 an închisoare cu suspendare",
+    "crime": "Trafic de influență; fals în înscrisuri sub semnătură privată",
+    "sentence": "1 an închisoare cu suspendare (termen de încercare 3 ani)",
     "sentence_years": 1,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 octombrie 2014. Condamnă pe inculpatul VETREȘ IOAN , primar al comunei Armeniș, jud. Caraș-Severin, la data faptelor, la o pedeapsă de 1 an închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 3 ani pentru săvârşirea infracțiunilor concurente de: trafic de influenţă și fals în înscrisuri sub semnătură privată, în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Timișoara l-a condamnat definitiv la 21 octombrie 2014 la 1 an de închisoare cu suspendare și termen de încercare de 3 ani, pentru trafic de influență și fals în înscrisuri sub semnătură privată în formă continuată. Instanța a dispus și confiscarea a 20.698 lei. Soluția definitivă a redus pedeapsa de 2 ani relatată după judecata pe fond.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5607"
+      },
+      {
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4562"
+      },
+      {
+        "label": "Prefectura Caraș-Severin — calitatea de primar",
+        "kind": "official",
+        "url": "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/Ordin_comisii_delimitare_cadastrala.doc.pdf"
+      },
+      {
+        "label": "Portal Info — mandatul PDL",
+        "kind": "press",
+        "url": "https://www.portal-info.ro/primarii/primaria-armenis-caras-severin.html"
       }
     ]
   },
@@ -30885,78 +31000,120 @@ export const politicianAdditions = [
   {
     "name": "Iucsel Selamet",
     "party": "UDTTMR",
-    "position": "subprefect al jud. Constanța",
+    "position": "Fost subprefect al județului Constanța, susținut de UDTTMR și UDTR",
     "position_type": "other",
     "geography": {
       "county": "Constanța",
       "basis": "office",
-      "note": "Funcția relevantă a fost subprefect (Prefectura) în județul Constanța."
+      "locality": "Constanța",
+      "note": "A exercitat temporar funcția de subprefect al județului Constanța în 2013, la propunerea organizațiilor minorității turce."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
+    "crime": "Dare de mită",
+    "sentence": "1 an și 2 luni închisoare cu suspendare (termen de încercare 3 ani și 2 luni)",
     "sentence_years": 1.17,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 12 iunie 2014. Condamnă pe inculpatul SELAMET IUCSEL , subprefect al jud. Constanța, la o pedeapsă de 1 an şi 2 luni închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 3 ani şi 2 luni , pentru săvârşirea infracțiunii de dare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Constanța l-a condamnat definitiv, prin decizia penală nr. 411 din 12 iunie 2014, la 1 an și 2 luni de închisoare cu suspendare și termen de încercare de 3 ani și 2 luni, pentru dare de mită. Fapta a constat în promisiunea unor foloase către un agent de poliție judiciară pentru întârzierea unei anchete și obținerea de informații din dosar.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5027"
+      },
+      {
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4529"
+      },
+      {
+        "label": "Portal Legislativ — HG nr. 61/2013",
+        "kind": "official",
+        "url": "https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2013%2F02%2F28&publicatnumar=115&publicatsfarsittext=2013%2F02%2F28"
+      },
+      {
+        "label": "Telegraf — susținerea UDTTMR",
+        "kind": "press",
+        "url": "https://www.telegrafonline.ro/iucsel-selamet-numit-subprefect-al-constantei"
       }
     ]
   },
   {
     "name": "Leontin Duță",
-    "party": "Independent",
-    "position": "primar al comunei Biled jud",
+    "party": "PDL",
+    "position": "Fost primar PDL al comunei Biled",
     "position_type": "mayor",
     "geography": {
       "county": "Timiș",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Timiș."
+      "locality": "Biled",
+      "note": "A fost primar PDL al comunei Biled și a câștigat un nou mandat în 2012; mandatul a încetat după condamnarea definitivă."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
+    "crime": "Tentativă de obținere nelegală a fondurilor europene; fals în declarații",
+    "sentence": "1 an și 6 luni închisoare cu suspendare condiționată (termen de încercare 3 ani și 6 luni)",
     "sentence_years": 1.5,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 februarie 2013. Condamnarea inculpatului DUŢĂ LEONTIN , primar al comunei Biled jud. Timiş, la pedeapsa de 1 an şi 6 luni închisoare cu suspendare condiţionată, pe un termen de încercare de 3 ani şi 6 luni, pentru săvârşirea următoarelor infracţiuni: tentativă la infracţiunea de folosirea sau prezentarea de documente ori declaraţii false, inexacte sau incomplete în scopul obţinerii pe nedrept de fonduri din bugetul general al Comunităţilor Europene sau din bugetele administrate de acestea, ori în numele lor şi fals în declaraţii .",
-    "verified_at": "2026-06-10",
+    "details": "După o achitare în primă instanță, Curtea de Apel Timișoara l-a condamnat definitiv la 28 februarie 2013 la 1 an și 6 luni de închisoare cu suspendare condiționată și termen de încercare de 3 ani și 6 luni. Cauza a vizat cereri de subvenție pentru terenuri comunale deja închiriate, depuse fără aprobarea consiliului local.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3940"
+      },
+      {
+        "label": "PressAlert — condamnarea definitivă",
+        "kind": "press",
+        "url": "https://www.pressalert.ro/2013/02/exclusiv-primarul-din-biled-condamnat-definitiv-de-curtea-de-apel-timisoara-vezi-ce-pedeapsa-a-primit-si-ce-i-s-a-interzis/"
+      },
+      {
+        "label": "deBanat — încetarea mandatului și partidul",
+        "kind": "press",
+        "url": "https://debanat.ro/2013/10/primarul-din-biled-pupat-de-bojin-suspendat-de-dogariu_59171.html"
+      },
+      {
+        "label": "ADI Deșeuri Timiș — calitatea de primar al comunei Biled",
+        "kind": "official",
+        "url": "https://adidtimis.ro/wp-content/uploads/2023/08/H-AGA-nr.1-din-05.08.2014.pdf"
       }
     ]
   },
   {
     "name": "Mihail Sirețeanu",
     "party": "PSD",
-    "position": "Deputat în Parlamentul Romaniei, județul Prahova",
+    "position": "Fost deputat PSD de Prahova",
     "position_type": "deputy",
     "geography": {
       "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost deputat (Parlamentul Romaniei) în județul Prahova."
+      "basis": "constituency",
+      "note": "A reprezentat județul Prahova în Parlamentul României; cauza a privit tranzacții cu fabrica de armament din Mizil."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
+    "crime": "Complicitate la efectuarea de acte de comerț incompatibile cu funcția",
+    "sentence": "2 ani închisoare cu suspendare sub supraveghere (termen de încercare 4 ani)",
     "sentence_years": 2,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 6 februarie 2011. Condamnarea inculpatului SIREŢEANU MIHAIL , deputat în Parlamentul României, la pedeapsa de 2 ani închisoare cu suspendare sub supraveghere pe un termen de încercare de 4 ani pentru complicitate la săvârşirea infracţiunii prevăzute de art. 12 lit. a din Legea 78/2000 care constă în efectuarea de acte de comerţ incompatibile cu funcţia ori încheierea de tranzacţii financiare, utilizând informaţiile obţinute în virtutea funcţiei, în scopul obţinerii de bani, bunuri sau alte foloase necuvenite .",
-    "verified_at": "2026-06-10",
+    "details": "ÎCCJ, prin Completul de 5 judecători, a menținut definitiv la 6 iunie 2011 condamnarea la 2 ani de închisoare cu suspendare sub supraveghere și termen de încercare de 4 ani. Fapta a constat în sprijinirea unor tranzacții comerciale incompatibile cu funcția, folosind informații obținute în virtutea acesteia; instanța a confiscat 9.852 lei.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2440"
+      },
+      {
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/faces/comunicat.xhtml?id=500"
+      },
+      {
+        "label": "Mediafax — hotărârea definitivă",
+        "kind": "press",
+        "url": "https://www.mediafax.ro/social/fostul-deputat-psd-mihail-sireteanu-condamnat-definitiv-la-doi-ani-de-inchisoare-cu-suspendare-8320627?redirect=mobile"
       }
     ]
   },

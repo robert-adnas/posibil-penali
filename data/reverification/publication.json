@@ -1,70 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-13",
+  "updated_at": "2026-09-14",
   "holds": {
-    "Laszlo Attila Bako": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0717"
-    },
-    "Constantin Pascaru": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0725"
-    },
-    "Cosmin Mihai Popescu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0726"
-    },
-    "Ioan Horhat": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0733"
-    },
-    "Ioan Mihalachi": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0734"
-    },
-    "Ioan Vetres": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0735"
-    },
-    "Iucsel Selamet": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0738"
-    },
-    "Leontin Duță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0739"
-    },
-    "Mihail Sirețeanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0740"
-    },
     "Mircea Ioniță": {
       "held_at": "2026-08-03",
       "reasons": [

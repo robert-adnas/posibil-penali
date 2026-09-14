@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-13",
+  "updated_at": "2026-09-14",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -56284,6 +56284,247 @@
       ],
       "note": "DNA and Focus Press confirm final acquittal in 2021; official CJ page confirms current president. Corrected main position/type/geography.",
       "reviewed_snapshot_hash": "f4b78aadf38a4f6809a93155a5a2a0edbabe5e339e6f97a9859aa82da24b2c35"
+    },
+    {
+      "profile_id": "RV-0711",
+      "original_name": "Stere Sponte",
+      "current_name": "Stere Sponte",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5738",
+        "https://www.ziuaconstanta.ro/stiri/social/stere-sponte-ex-viceprimar-de-navodari-actual-sef-al-ocpi-252934.html",
+        "https://www.ziuaconstanta.ro/stiri/administratie-locala/minte-monitorul-oficial-stere-sponte-si-consilier-local-si-administrator-de-firma-67984-339369.html"
+      ],
+      "note": "DNA confirms final acquittal in 2021. Independent local reporting and the published CV confirm former vice-mayor and PDL local councillor roles; profile now states the political basis explicitly.",
+      "reviewed_snapshot_hash": "dd3ce770f47426180113fad995c8bd39d537a0960df75a4005da7bd0d83da6df"
+    },
+    {
+      "profile_id": "RV-0713",
+      "original_name": "Sergiu-Claudiu Maior",
+      "current_name": "Sergiu-Claudiu Maior",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8387",
+        "https://agerpres.ro/justitie/2022/07/01/mures-fosta-conducere-a-primariei-targu-mures-achitata-definitiv-in-dosarul-de-uzurpare-a-functiei-s--943777",
+        "https://www.tirgumures.ro/index.php?Itemid=177&id=9860&lang=ro&option=com_content&view=article",
+        "https://www.tirgumures.ro/portal/servicii/2026/hotarari.nsf/all/34F0D1B044CDA0E8C2258DD40025149E/%24FILE/HCL%2042.pdf"
+      ],
+      "note": "DNA and AGERPRES confirm final acquittal in 2022. Municipal sources confirm he is a current PSD local councillor in the 2024-2028 mandate; updated party, role, locality and case description.",
+      "reviewed_snapshot_hash": "5162abec80411d6cf12b5a85fa91fa301597f9bf585b6ba1d93d7ee5cd31c491"
+    },
+    {
+      "profile_id": "RV-0717",
+      "original_name": "Laszlo Attila Bako",
+      "current_name": "Laszlo Attila Bako",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6969",
+        "https://www.tirgumures.ro/portal/servicii/2010/hotarari.nsf/all/CFFCCC74FC842FE6C22578470054B948/%24FILE/256.pdf",
+        "https://www.zi-de-zi.ro/2015/12/16/primarul-dorin-florea-va-fi-judecat-la-miercurea-ciuc-pentru-abuz-in-serviciu/"
+      ],
+      "note": "DNA confirms final acquittal in 2023. Official municipal decision and independent reporting identify Bako as a municipal director/employee, not a local councillor. Corrected role and retained only in the extended archive.",
+      "reviewed_snapshot_hash": "3fbad17c78771c717f14f1f2b888992c9012e2f07fb0c4f66315da6a681c18de"
+    },
+    {
+      "profile_id": "RV-0718",
+      "original_name": "Ioan Fărcaș",
+      "current_name": "Ioan Fărcaș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6969",
+        "https://www.zi-de-zi.ro/2016/09/20/batalia-pentru-consiliile-de-administratie-scolilor-aproape-de-final/",
+        "https://www.tirgumures.ro/pv2011/index.php?dir=2016%2F10.+Octombrie%2F&file=PV+27+octombrie++2016+.pdf"
+      ],
+      "note": "DNA confirms final acquittal in 2023. Municipal records identify Ioan Farcas as a former PNL local councillor whose mandate became vacant in 2016; removed the unsupported employee ambiguity and added locality.",
+      "reviewed_snapshot_hash": "3551757c40142965d8eeff86699e148dd25c2a5bf827e06860bec06018babff6"
+    },
+    {
+      "profile_id": "RV-0720",
+      "original_name": "Florica Mioara Popa",
+      "current_name": "Florica Mioara Popa",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=772",
+        "https://jurnalul.ro/stiri/observator/inalta-curte-de-casatie-si-justitie-l-a-achitat-pe-primarul-aradului-gheorghe-falca-sentinta-este-definitiva-645754.html",
+        "https://www.primariaarad.ro/dm_arad/2012/hotarari.nsf/2A2113B95EF7DAD1C2258773005B61DB/%24FILE/h6430.pdf?Open="
+      ],
+      "note": "DNA and municipal documents confirm identity and administrative role; press reporting confirms final acquittal by the High Court on 17 June 2013. Added locality, exact procedural summary and official identity source; retained in extended archive.",
+      "reviewed_snapshot_hash": "c86838f53bda3a33c5fdc55c986335cdf34cc32b5b194257136b97d2dac942cb"
+    },
+    {
+      "profile_id": "RV-0725",
+      "original_name": "Constantin Pascaru",
+      "current_name": "Constantin Păscaru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3633",
+        "https://romanialibera.ro/special/primarul-brahasestiului-suspendat-113655/",
+        "https://www.amosnews.ro/arhiva/primarul-viceprimarul-din-brahasesti-vor-fi-exclusi-din-pd-l-28-12-2007"
+      ],
+      "note": "Corrected Romanian spelling, PDL affiliation and Brăhășești locality. DNA shows the 8-year probation belonged to the mayor; Păscaru received 3 years suspended with a 5-year probation for complicity in bribery.",
+      "reviewed_snapshot_hash": "6a8678772aa46795d0abde75598fd8b849f53d5cb85d85981aa25e8619d42374"
+    },
+    {
+      "profile_id": "RV-0726",
+      "original_name": "Cosmin Mihai Popescu",
+      "current_name": "Cosmin-Mihai Popescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2351",
+        "https://www.cjgorj.ro/consiliul_judetean_gorj/",
+        "https://www.cjgorj.ro/Date%20site/Sedinte%20Consiliu/28.10.2024/Pv%20sedinta%20de%20constituire.pdf",
+        "https://www.antena3.ro/politica/deputatul-pdl-cosmin-popescu-condamnat-la-doi-ani-de-inchisoare-cu-suspendare-122637.html"
+      ],
+      "note": "Updated official spelling, current PSD affiliation and current role as Gorj County Council president. Replaced generic crime label with the two offenses and added the 5-year probation term confirmed by DNA and independent reporting.",
+      "reviewed_snapshot_hash": "21b22d39ff9dbb5966affcec4c2bd70bee3189d721e1d0c3cffb765c5acdce7d"
+    },
+    {
+      "profile_id": "RV-0733",
+      "original_name": "Ioan Horhat",
+      "current_name": "Ioan Horhat",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1911",
+        "https://primariajidvei.ro/despre-noi/istoric-primari/",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+HORHAT+v.+ROMANIA.pdf&id=001-209323&library=ECHR&logEvent=False",
+        "https://adevarul.ro/stiri-locale/alba-iulia/primarii-penali-din-alba-condamnati-la-inchisoare-1047583.html"
+      ],
+      "note": "Confirmed domestic conviction and added exact offense/probation. Corrected party to PDL, locality and mandates. Added the later ECHR finding of a ne bis in idem violation while retaining convicted status because no annulment of the domestic judgment was established.",
+      "reviewed_snapshot_hash": "48f914e26e62a53e8833627985291e0e195e172fd3aff7308d4ff80d1b49c7cb"
+    },
+    {
+      "profile_id": "RV-0734",
+      "original_name": "Ioan Mihalachi",
+      "current_name": "Ioan Mihalachi",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2246",
+        "https://www.aiud.ro/AplicatiiOnline/Hotarari_2003_2008/2007/08.august/h175_2007.pdf",
+        "https://adevarul.ro/stiri-locale/alba-iulia/alba-fostul-primar-din-ciuruleasa-si-trei-992615.html",
+        "https://alba24.ro/clasamentul-bataliei-pentru-primariile-din-alba-rezultate-oficiale-procentele-si-numarul-de-voturi-obtinut-de-invinsi-si-invingatori-496624.html"
+      ],
+      "note": "Confirmed identity and final conviction. Corrected PNL affiliation, former mayor/local councillor role, Ciuruleasa locality, exact offenses and six-year probation term.",
+      "reviewed_snapshot_hash": "496eb0e687eedb9a7ebfdbbdd0c16b1f3fa661bc20143088f9426132c449f420"
+    },
+    {
+      "profile_id": "RV-0735",
+      "original_name": "Ioan Vetres",
+      "current_name": "Ioan Vetreș",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5607",
+        "https://www.dna.ro/comunicat.xhtml?id=4562",
+        "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/Ordin_comisii_delimitare_cadastrala.doc.pdf",
+        "https://www.portal-info.ro/primarii/primaria-armenis-caras-severin.html"
+      ],
+      "note": "Corrected spelling, PDL affiliation, Armeniș locality and 2008-2012 mandate. DNA final decision confirms one year suspended with a three-year probation and confiscation of 20,698 lei, superseding the two-year first-instance reporting.",
+      "reviewed_snapshot_hash": "4e707b5059da542a001e6e4bd230e334d207f9e878d1762c1ff45d269e372f00"
+    },
+    {
+      "profile_id": "RV-0738",
+      "original_name": "Iucsel Selamet",
+      "current_name": "Iucsel Selamet",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5027",
+        "https://www.dna.ro/comunicat.xhtml?id=4529",
+        "https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2013%2F02%2F28&publicatnumar=115&publicatsfarsittext=2013%2F02%2F28",
+        "https://www.telegrafonline.ro/iucsel-selamet-numit-subprefect-al-constantei"
+      ],
+      "note": "Confirmed identity, UDTTMR/UDTR-backed subprefect appointment and final conviction. Replaced generic corruption label with bribery, added exact probation term, locality and case facts.",
+      "reviewed_snapshot_hash": "4972c45fd8a86eea258c40cad2b2e8c85a0a84a18f19c77c2af38b2376e45683"
+    },
+    {
+      "profile_id": "RV-0739",
+      "original_name": "Leontin Duță",
+      "current_name": "Leontin Duță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3940",
+        "https://www.pressalert.ro/2013/02/exclusiv-primarul-din-biled-condamnat-definitiv-de-curtea-de-apel-timisoara-vezi-ce-pedeapsa-a-primit-si-ce-i-s-a-interzis/",
+        "https://debanat.ro/2013/10/primarul-din-biled-pupat-de-bojin-suspendat-de-dogariu_59171.html",
+        "https://adidtimis.ro/wp-content/uploads/2023/08/H-AGA-nr.1-din-05.08.2014.pdf"
+      ],
+      "note": "Confirmed identity and final conviction. Corrected PDL affiliation, Biled locality, offenses, probation term and post-conviction mandate termination; distinguished final sentence from earlier procedural reporting.",
+      "reviewed_snapshot_hash": "067da7a524bc9a63ec495c709ba922656e06a6dc333d377cb85dd3a6e610c957"
+    },
+    {
+      "profile_id": "RV-0740",
+      "original_name": "Mihail Sirețeanu",
+      "current_name": "Mihail Sirețeanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2440",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=500",
+        "https://www.mediafax.ro/social/fostul-deputat-psd-mihail-sireteanu-condamnat-definitiv-la-doi-ani-de-inchisoare-cu-suspendare-8320627?redirect=mobile"
+      ],
+      "note": "Corrected final judgment date from 6 February to 6 June 2011, exact offense, four-year probation, confiscation amount, former-deputy wording and constituency geography.",
+      "reviewed_snapshot_hash": "f2139e7dd1bbb2f4eff9ec5e67ce0bf54e85b794da7697d37a4c0a0af6d4cd79"
     }
   ]
 }
