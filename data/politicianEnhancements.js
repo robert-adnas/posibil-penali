@@ -16306,7 +16306,7 @@ export const politicianOverrides = {
   },
   'Pârvulescu Constantin': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'Edupedu',
@@ -16317,7 +16317,7 @@ export const politicianOverrides = {
   },
   'Preda Vasile': {
     party: 'PNL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'Portal Info',
@@ -16328,23 +16328,40 @@ export const politicianOverrides = {
   },
   'Hada Ovidiu-Marius': {
     party: 'PNL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Mediafax',
+        label: 'Statutul municipiului Hunedoara — mandat și apartenență politică',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentanexa/111/HCL-157-2021-Anexe-Statut.pdf',
+      },
+      {
+        label: 'Mesagerul Hunedorean — contopirea pedepselor și liberarea condiționată',
         kind: 'press',
-        url: 'https://www.mediafax.ro/politic/primarul-hunedoarei-sustine-ca-este-nevinovat-in-noul-dosar-in-care-a-fost-trimis-in-judecata-9789814',
+        url: 'https://www.mesagerulhunedorean.ro/fostul-primar-al-hunedoarei-ovidiu-hada-a-iesit-din-puscarie/',
       },
     ],
   },
   'Slabu Otonel': {
     party: 'PDL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Portal Info',
-        kind: 'profile',
-        url: 'https://www.portal-info.ro/primarii/primaria-popricani-iasi.html',
+        label: 'Statutul comunei Popricani — mandate și apartenență politică',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentanexa/510/Statutul-comunei-Popricani-judetul-Iasi.pdf',
+      },
+      {
+        label: 'Portalul instanțelor — Curtea de Apel Iași',
+        kind: 'official',
+        url: 'https://portal.just.ro/45/SitePages/dosare.aspx',
+        description:
+          'Dosarul nr. 6898/99/2022: decizia definitivă nr. 84/31.10.2023 a respins cererea de reabilitare privind condamnările definitive din 2013 și 2019.',
+      },
+      {
+        label: 'Ziarul de Iași — cele două condamnări și procedura de reabilitare',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/fostul-primar-din-popricani-otonel-slabu-a-cerut-reabilitare-dupa-trei-ani-de-inchisoare--362444.html',
       },
     ],
   },
@@ -16356,13 +16373,18 @@ export const politicianOverrides = {
     status: 'acquitted',
     execution_type: null,
     details:
-      'Radio Iași a publicat un update potrivit căruia, prin hotărârea nr. 318 din 29 aprilie 2026, Înalta Curte de Casație și Justiție a admis recursul în casație și a dispus achitarea definitivă în dosarul privind fonduri europene.',
-    verified_at: '2026-05-08',
+      'Prin decizia penală nr. 318/RC din 29 aprilie 2026, Înalta Curte de Casație și Justiție a admis recursul în casație și a dispus achitarea definitivă pentru tentativa la folosirea de documente false sau inexacte în vederea obținerii de fonduri europene, întrucât fapta nu este prevăzută de legea penală. Hotărârea a înlăturat condamnarea definitivă pronunțată anterior la 30 decembrie 2025.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'Radio Iași',
         kind: 'press',
         url: 'https://www.radioiasi.ro/stiri/regional/update-bacau-achitare-definitiva-la-inalta-curte-de-casatie-si-justitie-fostul-viceprimar-din-barsanesti-gelu-botezatu-exonerat-de-acuzatiile-privind-fonduri-europene/',
+      },
+      {
+        label: 'Instituția Prefectului Bacău — încetarea mandatului din februarie 2026',
+        kind: 'official',
+        url: 'https://bc.prefectura.mai.gov.ro/incetarea-de-drept-a-mandatului-de-consilier-local-si-viceprimar-al-comunei-barsanesti/',
       },
     ],
   },
@@ -31969,22 +31991,23 @@ export const politicianAdditions = [
   {
     name: 'Drăgan Constantin',
     party: 'PSD',
-    position: 'Viceprimar al comunei Ucea',
+    position: 'Fost viceprimar al comunei Ucea',
     position_type: 'local_official',
     geography: {
       county: 'Brașov',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Ucea, județul Brașov.',
+      locality: 'Ucea',
+      note: 'A exercitat funcția de viceprimar al comunei Ucea, județul Brașov.',
     },
-    crime: 'Fraudă cu fonduri europene; schimbarea destinației fondurilor',
-    sentence: '1 an închisoare cu suspendare',
+    crime: 'Obținere nelegală și schimbarea destinației fondurilor europene',
+    sentence: '1 an închisoare cu suspendare condiționată (termen de încercare 3 ani)',
     sentence_years: 1,
     conviction_year: 2011,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Brașov l-a condamnat definitiv la 24 mai 2011 pentru folosirea sau prezentarea de documente false ori inexacte pentru obținerea de fonduri europene și schimbarea destinației fondurilor.',
-    verified_at: '2026-05-11',
+      'Curtea de Apel Brașov l-a condamnat definitiv la 24 mai 2011 la 1 an de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani, pentru folosirea sau prezentarea de documente false, inexacte ori incomplete care a avut ca rezultat obținerea nelegală de fonduri europene și pentru schimbarea destinației acestora. Faptele au privit fonduri FEGA și FEADR obținute în mai 2007.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -31992,8 +32015,13 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=2432',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Adevărul — condamnarea definitivă și identitatea administrativă',
         kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/brasov/fostul-primar-si-viceprimar-din-ucea-condamnati-952800.html',
+      },
+      {
+        label: 'FINAL DNA Database — afilierea politică',
+        kind: 'other',
         url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
@@ -32001,22 +32029,23 @@ export const politicianAdditions = [
   {
     name: 'Popasavu Ioan',
     party: 'PNL',
-    position: 'Consilier în Consiliul Local al comunei Ucea',
+    position: 'Fost consilier local al comunei Ucea',
     position_type: 'local_official',
     geography: {
       county: 'Brașov',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de consilier în Consiliul Local al comunei Ucea, județul Brașov.',
+      locality: 'Ucea',
+      note: 'A exercitat funcția de consilier în Consiliul Local al comunei Ucea, județul Brașov.',
     },
-    crime: 'Fraudă cu fonduri europene; schimbarea destinației fondurilor',
-    sentence: '1 an închisoare cu suspendare',
+    crime: 'Obținere nelegală și schimbarea destinației fondurilor europene',
+    sentence: '1 an închisoare cu suspendare condiționată (termen de încercare 3 ani)',
     sentence_years: 1,
     conviction_year: 2011,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Brașov l-a condamnat definitiv la 24 mai 2011 pentru folosirea sau prezentarea de documente false ori inexacte pentru obținerea de fonduri europene și schimbarea destinației fondurilor.',
-    verified_at: '2026-05-05',
+      'Curtea de Apel Brașov l-a condamnat definitiv la 24 mai 2011 la 1 an de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani, pentru folosirea sau prezentarea de documente false, inexacte ori incomplete care a avut ca rezultat obținerea nelegală de fonduri europene și pentru schimbarea destinației acestora. Faptele au privit fonduri FEGA și FEADR obținute în mai 2007; instanța l-a obligat în solidar cu Vasile Silea la plata către APIA a 87.851,15 lei, plus dobânzi.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32024,8 +32053,13 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=2432',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Adevărul — condamnarea definitivă și identitatea administrativă',
         kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/brasov/fostul-primar-si-viceprimar-din-ucea-condamnati-952800.html',
+      },
+      {
+        label: 'FINAL DNA Database — afilierea politică',
+        kind: 'other',
         url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
@@ -32067,22 +32101,23 @@ export const politicianAdditions = [
   {
     name: 'Pârvulescu Constantin',
     party: 'PSD',
-    position: 'Primar al comunei Fărcășești',
+    position: 'Fost primar PSD al comunei Fărcășești',
     position_type: 'mayor',
     geography: {
       county: 'Gorj',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Fărcășești, județul Gorj.',
+      locality: 'Fărcășești',
+      note: 'A exercitat funcția de primar al comunei Fărcășești, județul Gorj.',
     },
     crime: 'Luare de mită; abuz în serviciu; fals în înscrisuri sub semnătură privată',
-    sentence: '7 ani închisoare',
+    sentence: '7 ani închisoare cu executare',
     sentence_years: 7,
     conviction_year: 2012,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'ICCJ l-a condamnat definitiv la 16 noiembrie 2012 pentru două infracțiuni de luare de mită în formă continuată, abuz în serviciu cu consecințe deosebit de grave și fals în înscrisuri sub semnătură privată.',
-    verified_at: '2026-05-05',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 16 noiembrie 2012 la 7 ani de închisoare pentru două infracțiuni de luare de mită în formă continuată, abuz în serviciu cu consecințe deosebit de grave și fals în înscrisuri sub semnătură privată în formă continuată. Instanța a dispus confiscarea a 15.065 lei și a echivalentului a 10.000 de mărci germane și restituirea către denunțător a 660.998,09 lei și a echivalentului a 39.500 de euro.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32094,22 +32129,23 @@ export const politicianAdditions = [
   {
     name: 'Scorobete Ion',
     party: 'PSD',
-    position: 'Fost viceprimar al comunei Zăvoi',
+    position: 'Fost primar PSD al comunei Zăvoi; anterior viceprimar',
     position_type: 'local_official',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Zăvoi, județul Caraș-Severin.',
+      locality: 'Zăvoi',
+      note: 'A fost viceprimar, primar interimar și apoi primar ales al comunei Zăvoi, județul Caraș-Severin.',
     },
     crime: 'Complicitate la luare de mită',
-    sentence: '2 ani închisoare cu suspendare',
+    sentence: '2 ani închisoare cu suspendare (termen de încercare 4 ani)',
     sentence_years: 2,
     conviction_year: 2014,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ICCJ l-a condamnat definitiv la 22 aprilie 2014 pentru complicitate la luare de mită în dosarul fostului primar al comunei Zăvoi, Antonie Bunei.',
-    verified_at: '2026-05-11',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 22 aprilie 2014 la 2 ani de închisoare cu suspendare, cu termen de încercare de 4 ani, pentru complicitate la luare de mită în dosarul fostului primar Antonie Bunei. Instanța a interzis timp de 2 ani după executarea pedepsei dreptul de a fi ales, de a ocupa o funcție cu exercițiul autorității de stat și de a exercita activitatea de care s-a folosit.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32121,54 +32157,71 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://expressdebanat.ro/news-alert-ion-scorobete-fost-primar-si-candidat-psd-la-consiliul-judetean-a-fost-trimis-in-judecata-de-dna-pentru-a-doua-oara/',
       },
+      {
+        label: 'Instituția Prefectului Caraș-Severin — comisia locală de fond funciar',
+        kind: 'official',
+        url: 'https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/ordin-comisie-inventariere-1.pdf',
+      },
     ],
   },
   {
     name: 'Preda Vasile',
     party: 'PNL',
-    position: 'Primar al comunei Vărăști, județul Giurgiu',
+    position: 'Fost primar PNL al comunei Vărăști (cel puțin 2008–2016)',
     position_type: 'mayor',
     geography: {
       county: 'Giurgiu',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Vărăști, județul Giurgiu.',
+      locality: 'Vărăști',
+      note: 'A exercitat funcția de primar al comunei Vărăști, județul Giurgiu; sursele electorale confirmă mandatele PNL din 2008–2016.',
     },
     crime: 'Mărturie mincinoasă',
-    sentence: '8 luni închisoare cu suspendare condiționată',
+    sentence: '8 luni închisoare cu suspendare condiționată (termen de încercare 2 ani și 8 luni)',
     sentence_years: 0.67,
     conviction_year: 2013,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ICCJ l-a condamnat definitiv la 12 decembrie 2013, în același dosar cu deputatul Dan Păsat, la 8 luni de închisoare cu suspendare condiționată pentru mărturie mincinoasă.',
-    verified_at: '2026-05-06',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 12 decembrie 2013, în același dosar cu deputatul Dan Păsat, la 8 luni de închisoare cu suspendare condiționată, cu termen de încercare de 2 ani și 8 luni, pentru mărturie mincinoasă.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4516',
       },
+      {
+        label: 'BEC — rezultatele alegerilor locale din 2012',
+        kind: 'official',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
+      },
+      {
+        label: 'Giurgiuveanul — condamnarea și termenul de încercare',
+        kind: 'press',
+        url: 'https://www.giurgiuveanul.ro/stiri/fostul-deputat-giurgiuvean-dan-pasat-trei-ani-de-puscarie-primarul-din-varasti-vasile-preda-condamnare-cu-suspendare/',
+      },
     ],
   },
   {
     name: 'Hada Ovidiu-Marius',
     party: 'PNL',
-    position: 'Fost primar al municipiului Hunedoara',
+    position: 'Fost primar PNL al municipiului Hunedoara (2008–2012)',
     position_type: 'mayor',
     geography: {
       county: 'Hunedoara',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al municipiului Hunedoara.',
+      locality: 'Hunedoara',
+      note: 'A exercitat funcția de primar PNL al municipiului Hunedoara în mandatul 2008–2012.',
     },
-    crime: 'Abuz în serviciu contra intereselor publice; complicitate la conflict de interese',
-    sentence: '5 ani închisoare',
+    crime: 'Abuz în serviciu calificat și complicitate la conflict de interese, ambele în formă continuată',
+    sentence: '5 ani închisoare cu executare',
     sentence_years: 5,
     conviction_year: 2015,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'ICCJ i-a condamnat definitiv la 7 mai 2015 pe fostul primar, viceprimar și funcționari din Primăria Hunedoara pentru fapte legate de abuz în serviciu și conflict de interese.',
-    verified_at: '2026-05-06',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 7 mai 2015 la 5 ani de închisoare pentru abuz în serviciu calificat și complicitate la conflict de interese, ambele în formă continuată, și i-a interzis timp de 10 ani după executare dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat. Instanța l-a obligat în solidar la despăgubiri materiale de 209.945,90 lei și, separat, 105.456,61 lei către municipiul Hunedoara. Pedeapsa a fost contopită cu o condamnare definitivă anterioară tot de 5 ani, rezultanta rămânând 5 ani; a fost liberat condiționat în septembrie 2016.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32180,22 +32233,23 @@ export const politicianAdditions = [
   {
     name: 'Dan Nicolae Robert',
     party: 'PNL',
-    position: 'Fost viceprimar al municipiului Hunedoara',
+    position: 'Fost viceprimar PNL al municipiului Hunedoara (2008–2012)',
     position_type: 'local_official',
     geography: {
       county: 'Hunedoara',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al municipiului Hunedoara.',
+      locality: 'Hunedoara',
+      note: 'A exercitat funcția de viceprimar PNL al municipiului Hunedoara în mandatul 2008–2012.',
     },
-    crime: 'Abuz în serviciu contra intereselor publice; complicitate la conflict de interese',
-    sentence: '5 ani închisoare',
+    crime: 'Abuz în serviciu calificat și complicitate la conflict de interese, ambele în formă continuată',
+    sentence: '5 ani închisoare cu executare',
     sentence_years: 5,
     conviction_year: 2015,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'ICCJ l-a condamnat definitiv la 7 mai 2015, alături de alți inculpați din administrația municipiului Hunedoara, pentru abuz în serviciu și complicitate la conflict de interese.',
-    verified_at: '2026-05-10',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 7 mai 2015 la 5 ani de închisoare pentru abuz în serviciu calificat și complicitate la conflict de interese, ambele în formă continuată, și i-a interzis timp de 10 ani după executare dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat. Instanța l-a obligat în solidar la plata către municipiul Hunedoara a 412.847,09 lei și, separat, 105.456,61 lei. Pedeapsa a fost contopită cu condamnarea definitivă anterioară, rezultanta rămânând 5 ani.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32206,6 +32260,16 @@ export const politicianAdditions = [
         label: 'Curentul',
         kind: 'press',
         url: 'https://www.curentul.info/actualitate/fostul-primar-al-hunedoarei-ovidius-hada-a-fost-condamnat-la-cinci-ani-de-inchisoare-cu-executare/',
+      },
+      {
+        label: 'Statutul municipiului Hunedoara — mandat și apartenență politică',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentanexa/111/HCL-157-2021-Anexe-Statut.pdf',
+      },
+      {
+        label: 'Mesagerul Hunedorean — contopirea pedepselor',
+        kind: 'press',
+        url: 'https://www.mesagerulhunedorean.ro/fostul-primar-al-hunedoarei-ovidiu-hada-a-iesit-din-puscarie/',
       },
     ],
   },
@@ -32266,22 +32330,23 @@ export const politicianAdditions = [
   {
     name: 'Slabu Otonel',
     party: 'PDL',
-    position: 'Primar al comunei Popricani, județul Iași',
+    position: 'Fost primar PD/PDL al comunei Popricani (2004–2012)',
     position_type: 'mayor',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Popricani, județul Iași.',
+      locality: 'Popricani',
+      note: 'A exercitat funcția de primar al comunei Popricani ca reprezentant PD în 2004–2008 și PDL în 2008–2012.',
     },
-    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la înșelăciune; fals intelectual',
-    sentence: '5 ani închisoare',
+    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la înșelăciune; fals intelectual; deturnare de fonduri',
+    sentence: '5 ani închisoare cu executare (pedeapsă rezultantă după contopire)',
     sentence_years: 5,
-    conviction_year: 2013,
+    conviction_year: 2019,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Bacău l-a condamnat definitiv la 6 decembrie 2013 pentru fapte legate de obținerea pe nedrept de fonduri europene, înșelăciune și fals intelectual.',
-    verified_at: '2026-05-06',
+      'Curtea de Apel Bacău l-a condamnat definitiv la 6 decembrie 2013 la 5 ani de închisoare pentru complicitate la obținerea nelegală de fonduri europene, complicitate la înșelăciune și fals intelectual; instanța a dispus și interdicții timp de 3 ani și plata în solidar a 1.231.447,85 lei către APIA. O a doua condamnare, de 3 ani și 6 luni pentru deturnare de fonduri, a devenit definitivă prin decizia nr. 350/24 aprilie 2019 a Curții de Apel Iași și a fost contopită cu prima, rezultanta rămânând 5 ani. Curtea de Apel Iași a respins definitiv cererea de reabilitare la 31 octombrie 2023.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32347,12 +32412,13 @@ export const politicianAdditions = [
   {
     name: 'Botezatu Gelu',
     party: 'PSD',
-    position: 'Primar al comunei Bârsănești, județul Bacău',
+    position: 'Fost primar PSD al comunei Bârsănești; ulterior viceprimar până în februarie 2026',
     position_type: 'mayor',
     geography: {
       county: 'Bacău',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Bârsănești, județul Bacău.',
+      locality: 'Bârsănești',
+      note: 'A fost primar al comunei Bârsănești la data faptelor și, ulterior, consilier local și viceprimar până la încetarea mandatului din februarie 2026.',
     },
     crime: 'Tentativă la fraudă cu fonduri europene',
     sentence: '2 ani închisoare cu suspendare',
