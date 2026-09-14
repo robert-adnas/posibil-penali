@@ -12671,13 +12671,23 @@ export const politicianOverrides = {
   'Petru Toadere': {
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local C\u0103l\u0103\u021bele (2024); fost primar al comunei C\u0103l\u0103\u021bele',
-    verified_at: '2026-06-23',
+      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local C\u0103l\u0103\u021bele (2024); fost primar al comunei C\u0103l\u0103\u021bele',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'DNA \u2013 condamnarea definitiv\u0103',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3343',
+      },
+      {
+        label: 'Info Huedin \u2013 candidatura la prim\u0103rie din 2024',
+        kind: 'press',
+        url: 'https://infohuedin.ro/batalie-mare-pe-primaria-calatele-tripon-nu-mai-candideaza-cine-sunt-candidatii-in-2024/',
       },
     ],
   },
@@ -16274,13 +16284,23 @@ export const politicianOverrides = {
     verified_at: '2026-08-20',
   },
   'Baciu Vasile': {
-    party: 'PDL',
-    verified_at: '2026-05-08',
+    party: 'PSD',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'Portal Info',
         kind: 'profile',
         url: 'https://www.portal-info.ro/primarii/primaria-horia-neamt.html',
+      },
+      {
+        label: 'Curtea Constituțională — Decizia nr. 73/2022',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocumentAfis/254636',
+      },
+      {
+        label: 'Monitorul de Neamț — condamnarea definitivă din 2019',
+        kind: 'press',
+        url: 'https://monitorulneamt.ro/neamt-consilier-judetean-trimis-la-penitenciar/',
       },
     ],
   },
@@ -31120,182 +31140,264 @@ export const politicianAdditions = [
   {
     "name": "Mircea Ioniță",
     "party": "Independent",
-    "position": "Subprefect în Prefectura, județul Prahova",
+    "position": "Fost subprefect al județului Prahova",
     "position_type": "other",
     "geography": {
       "county": "Prahova",
       "basis": "office",
-      "note": "Funcția relevantă a fost subprefect (Prefectura) în județul Prahova."
+      "locality": "Ploiești",
+      "note": "Funcția relevantă a fost cea de subprefect al județului Prahova, cu sediul instituției în Ploiești."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
+    "crime": "Abuz în serviciu calificat și instigare la sustragerea sau distrugerea de înscrisuri",
+    "sentence": "3 ani închisoare cu executare",
     "sentence_years": 3,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 noiembrie 2011. Condamnarea inculpatului IONIŢĂ MIRCEA, fost subprefect al Instituţiei Prefectului Judeţul Prahova, la pedeapsa de 3 ani închisoare în regim de detenţie, pentru săvârşirea următoarelor infracţiuni: abuz în serviciu contra intereselor publice în formă calificată, dacă funcţionarul a obţinut pentru altul un avantaj patrimonial şi instigare la infracţiunea de sustragere sau distrugere de înscrisuri. Instanţa a interzis inculpatului, atât pe perioada executării pedepsei, cât şi timp de 2 ani după executare, următoarele drepturi: dreptul de a fi ales în autorităţile publice sau în funcţii elective publice, dreptul de a ocupa o funcţie implicând exerciţiul autorităţii de stat şi dreptul de a ocupa o funcţie sau de a exercita o profesie de natura aceleia de care s-a folosit condamnatul pentru săvârşirea infracţiunii.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Ploiești l-a condamnat definitiv la 29 noiembrie 2011 la 3 ani de închisoare în regim de detenție pentru abuz în serviciu contra intereselor publice în formă calificată și instigare la sustragerea sau distrugerea de înscrisuri. Instanța i-a interzis anumite drepturi pe durata executării și încă 2 ani după executare și l-a obligat, în solidar cu ceilalți doi inculpați, la plata către Agenția Domeniilor Statului a 12.811.176 lei.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2830"
+      },
+      {
+        "label": "Portal Legislativ — HG nr. 979/2008",
+        "kind": "official",
+        "url": "https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2008%2F09%2F01&publicatnumar=631&publicatsfarsittext=2008%2F09%2F01"
+      },
+      {
+        "label": "Adevărul — condamnarea definitivă",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-locale/ploiesti/fostul-subprefect-de-prahova-mircea-ionita-1051918.html"
       }
     ]
   },
   {
     "name": "Mitu Rusu",
-    "party": "Independent",
-    "position": "fost primar al comunei Codăeşti",
+    "party": "PSD",
+    "position": "Fost primar al comunei Codăești (2008–2012)",
     "position_type": "mayor",
     "geography": {
       "county": "Vaslui",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Vaslui."
+      "locality": "Codăești",
+      "note": "A exercitat funcția de primar al comunei Codăești, județul Vaslui."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "2 ani închisoare cu suspendare",
+    "crime": "Complicitate la obținerea frauduloasă de fonduri europene, în formă continuată, și două infracțiuni de fals intelectual",
+    "sentence": "2 ani închisoare cu suspendare (termen de încercare 4 ani)",
     "sentence_years": 2,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 aprilie 2014. Condamnă pe inculpatul RUSU MITU , fost primar al comunei Codăeşti, judeţul Vaslui, la o pedeapsă de 2 ani închisoare, cu suspendarea executării pedepsei pe durata unui termen de încercare de 4 ani și interzicerea pe o perioadă de 1 an după executarea pedepsei principale a drepturilor: de a fi ales în autorităţile publice sau în orice alte funcţii publice și de a ocupa o funcţie care implică exerciţiul autorităţii de stat, pentru săvârşirea infracțiunilor concurente de: complicitate la infracțiunea de folosire sau prezentare cu rea-credinţă de documente ori declaraţii false, inexacte sau incomplete, dacă fapta are ca rezultat obţinerea pe nedrept de fonduri din bugetul general al Uniunii Europene sau din bugetele administrate de aceasta ori în numele ei, în formă continuată şi 2 infracțiuni de fals intelectual.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Iași l-a condamnat definitiv la 16 aprilie 2014 la 2 ani de închisoare cu suspendare, cu termen de încercare de 4 ani, pentru complicitate la obținerea frauduloasă de fonduri europene în formă continuată și două infracțiuni de fals intelectual. Instanța a interzis timp de un an după executarea pedepsei dreptul de a fi ales și de a ocupa o funcție cu exercițiul autorității de stat și l-a obligat, în solidar cu ceilalți inculpați, la plata prejudiciului de 304.841,96 lei, plus dobânzi și penalități.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4866"
+      },
+      {
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=2286"
+      },
+      {
+        "label": "Mediafax — trimiterea în judecată și identitatea administrativă",
+        "kind": "press",
+        "url": "https://www.mediafax.ro/social/primarul-si-secretarul-unei-comune-vasluiene-trimisi-in-judecata-de-procurorii-anticoruptie-9424420/amp"
+      },
+      {
+        "label": "Portal-Info — istoricul mandatului local",
+        "kind": "other",
+        "url": "https://www.portal-info.ro/primarii/primaria-codaesti-vaslui.html"
       }
     ]
   },
   {
-    "name": "Nicolae Marian Arișanu",
-    "party": "PNG",
-    "position": "Presedinte filiala partid în Partid politic, județul Brașov",
+    "name": "Marian Nicolae Arișanu",
+    "party": "PNG-CD",
+    "position": "Fost președinte al organizației județene PNG-CD Brașov",
     "position_type": "other",
     "geography": {
       "county": "Brașov",
       "basis": "office",
-      "note": "Funcția relevantă a fost presedinte filiala partid (Partid politic) în județul Brașov."
+      "locality": "Brașov",
+      "note": "A condus organizația județeană Brașov a PNG-CD."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "7 ani închisoare",
+    "crime": "Complicitate la șantaj, ca infracțiune asimilată infracțiunilor de corupție",
+    "sentence": "7 ani închisoare cu executare",
     "sentence_years": 7,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 21 mai 2013. Condamnarea inculpaților: ARIȘANU MARIAN NICOLAE , fost președinte al organizației județene Brașov a unui partid și TUDORACHE VIOREL , notar public în Circumscripția Judecătoriei Brașov, la pedepse de câte 7 ani închisoare pentru complicitate la infracțiunea de șantaj (ca infracțiune asimilată infracțiunilor de corupție).",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție l-a condamnat definitiv la 21 mai 2013 la 7 ani de închisoare pentru complicitate la șantaj, faptă asimilată infracțiunilor de corupție. Presa l-a identificat ca fost președinte al organizației județene PNG-CD Brașov; surse ulterioare consemnează eliberarea condiționată, fără anularea condamnării.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4121"
+      },
+      {
+        "label": "Antena 3 — trimiterea în judecată și funcția politică",
+        "kind": "press",
+        "url": "https://www.antena3.ro/actualitate/brasov-fostii-lideri-locali-din-png-trimisi-in-judecata-pentru-coruptie-50349.html"
+      },
+      {
+        "label": "Știrile ProTV — identitate și eliberare condiționată",
+        "kind": "press",
+        "url": "https://stirileprotv.ro/stiri/social/vechile-catacombe-din-brac-ov-folosite-abuziv-de-un-fost-politician-recent-eliberat-din-inchisoare.html"
       }
     ]
   },
   {
     "name": "Nicolae Mischie",
-    "party": "Independent",
-    "position": "Președinte al Consiliului Județean Gorj",
+    "party": "PSD",
+    "position": "Fost președinte al Consiliului Județean Gorj (1996–2004; decedat în 2018)",
     "position_type": "county_council_president",
     "geography": {
       "county": "Gorj",
       "basis": "office",
-      "note": "Funcția relevantă a fost presedinte cj (Consiliu judetean) în județul Gorj."
+      "locality": "Târgu Jiu",
+      "note": "A condus Consiliul Județean Gorj și organizația PSD Gorj."
     },
-    "crime": "trafic de influență și luare de mită , ambele în formă continuată",
-    "sentence": "4 ani închisoare",
+    "crime": "Trafic de influență și luare de mită, ambele în formă continuată",
+    "sentence": "4 ani închisoare cu executare",
     "sentence_years": 4,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 18 martie 2013. Condamnarea inculpatului MISCHIE NICOLAE , fost președinte al Consiliului Județean Gorj, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea infracțiunilor de trafic de influență și luare de mită , ambele în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție a menținut definitiv la 18 martie 2013 condamnarea la 4 ani de închisoare în regim de detenție pentru trafic de influență și luare de mită, ambele în formă continuată. A fost eliberat condiționat în mai 2014. Nicolae Mischie, fost președinte al CJ Gorj și fost lider PSD Gorj, a decedat la 15 aprilie 2018.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3965"
+      },
+      {
+        "label": "Adevărul — hotărârea definitivă",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-interne/evenimente/nicolae-mischie-condamnat-la-patru-ani-de-1419630.html"
+      },
+      {
+        "label": "AGERPRES — funcția, afilierea, eliberarea și decesul",
+        "kind": "press",
+        "url": "https://agerpres.ro/politic/2018/04/15/a-murit-nicolae-mischie--91058"
       }
     ]
   },
   {
     "name": "Nicolae Mocanu",
-    "party": "Independent",
-    "position": "primar al comunei Popești jud",
+    "party": "PD",
+    "position": "Fost primar al comunei Popești (2000–2008)",
     "position_type": "mayor",
     "geography": {
       "county": "Iași",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Iași."
+      "locality": "Popești",
+      "note": "A fost primar al comunei Popești, județul Iași; primul mandat a fost obținut ca membru PSD, iar al doilea ca membru PD."
     },
-    "crime": "abuz în serviciu contra intereselor persoanelor , fals intelectual și folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete care are ca rezultat obți",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Abuz în serviciu, fals intelectual și folosirea sau prezentarea de documente false pentru obținerea pe nedrept de fonduri europene",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere (termen de încercare 7 ani)",
     "sentence_years": 3,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 martie 2012. Condamnarea inculpatului MOCANU NICOLAE, primar al comunei Popești jud. Iași, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 7 ani , pentru săvârșirea următoarelor infracțiuni: abuz în serviciu contra intereselor persoanelor , fals intelectual și folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Iași l-a condamnat definitiv la 27 martie 2012 la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 7 ani, pentru abuz în serviciu, fals intelectual și folosirea ori prezentarea de documente false pentru obținerea pe nedrept de fonduri europene. Instanța a constatat recuperat prejudiciul reclamat de Ministerul Finanțelor și l-a obligat la plata a 170.496 lei daune materiale către partea civilă locală.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3117"
+      },
+      {
+        "label": "DNA — trimiterea în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/faces/comunicat.xhtml?id=650&jffi=comunicat&jftfdi="
+      },
+      {
+        "label": "Economica — hotărârea definitivă și istoricul mandatelor",
+        "kind": "press",
+        "url": "https://www.economica.net/fost-primar-al-unei-comune-iesene-condamnat-definitiv-pentru-deturnarea-de-fonduri-europene_21723.html"
       }
     ]
   },
   {
     "name": "Petre Coste",
     "party": "PD",
-    "position": "în calitate de primar al comunei Jucu",
+    "position": "Fost primar al comunei Jucu",
     "position_type": "mayor",
     "geography": {
       "county": "Cluj",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Cluj."
+      "locality": "Jucu",
+      "note": "A exercitat funcția de primar al comunei Jucu, județul Cluj."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "5 ani închisoare",
+    "crime": "Luare de mită",
+    "sentence": "5 ani închisoare cu executare",
     "sentence_years": 5,
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 ianuarie 2010. - condamnă pe Coste Petre , în calitate de primar al comunei Jucu, judeţul Cluj, la cinci ani închisoare cu executare pentru săvârşirea infracţiunii de luare de mită .",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 147 din 19 ianuarie 2010, l-a condamnat definitiv la 5 ani de închisoare cu executare pentru luare de mită. Instanța i-a interzis anumite drepturi pe durata executării și încă 2 ani după executare. La momentul faptei era primar al comunei Jucu și membru PD; partidul l-a exclus după arestare.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=1913"
+      },
+      {
+        "label": "Mediafax — arestarea și afilierea politică",
+        "kind": "press",
+        "url": "https://www.mediafax.ro/justitie/primarul-comunei-jucu-a-fost-arestat-preventiv-866368"
+      },
+      {
+        "label": "Radio România Actualități — condamnarea și încarcerarea",
+        "kind": "press",
+        "url": "https://www.romania-actualitati.ro/arhiva-emisiuni/romania-impreuna/al-saselea-simt-id8451.html"
       }
     ]
   },
   {
     "name": "Petru Toadere",
-    "party": "Independent",
-    "position": "primar al comunei Călăţele",
+    "party": "AUR",
+    "position": "Candidat AUR la Primăria și Consiliul Local Călățele (2024); fost primar al comunei Călățele",
     "position_type": "mayor",
     "geography": {
       "county": "Cluj",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Cluj."
+      "locality": "Călățele",
+      "note": "A fost primar al comunei Călățele și a candidat din partea AUR atât la primărie, cât și la consiliul local în 2024."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
+    "crime": "Trafic de influență",
+    "sentence": "3 ani închisoare cu executare",
     "sentence_years": 3,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 8 iunie 2012. Condamnarea inculpatului TOADERE PETRU , primar al comunei Călăţele, judeţul Cluj, la pedeapsa de 3 ani închisoare în regim de detenţie pentru săvârşirea infracţiunii de trafic de influenţă.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție a menținut definitiv, la 8 iunie 2012, condamnarea lui Petru Toadere, atunci primar al comunei Călățele, la 3 ani de închisoare în regim de detenție pentru trafic de influență. Instanța a dispus și restituirea către denunțător a sumei de 5.000 de euro.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — condamnarea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3343"
+      },
+      {
+        "label": "BEC — candidaturi locale 2024",
+        "kind": "official",
+        "url": "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      },
+      {
+        "label": "Info Huedin — candidatura la primărie din 2024",
+        "kind": "press",
+        "url": "https://infohuedin.ro/batalie-mare-pe-primaria-calatele-tripon-nu-mai-candideaza-cine-sunt-candidatii-in-2024/"
       }
     ]
   },
@@ -31347,27 +31449,43 @@ export const politicianAdditions = [
   },
   {
     "name": "Sergiu Marian",
-    "party": "Independent",
-    "position": "Subprefect în Prefectura, județul Vaslui",
+    "party": "PC",
+    "position": "Fost subprefect al județului Vaslui și fost lider al organizației județene PC Vaslui",
     "position_type": "other",
     "geography": {
       "county": "Vaslui",
       "basis": "office",
-      "note": "Funcția relevantă a fost subprefect (Prefectura) în județul Vaslui."
+      "locality": "Vaslui",
+      "note": "A fost subprefect al județului Vaslui și vicepreședinte al Comisiei județene de fond funciar."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
+    "crime": "Abuz în serviciu în formă continuată",
+    "sentence": "5 ani închisoare cu executare",
+    "sentence_years": 5,
+    "conviction_year": 2018,
     "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 iunie 2012. Condamnarea inculpatului MARIAN SERGIU , fost subprefect al judeţului Vaslui, la pedeapsa de 2 ani închisoare cu suspendare condiţionată, pe un termen de încercare de 4 ani , pentru săvârşirea următoarelor infracţiuni: fals material în înscrisuri oficiale în forma participaţiei improprii, uz de fals în formă continuată, în forma participaţiei improprii (trei acte materiale), tentativă la abuz în serviciu contra intereselor publice în formă calificată, dacă funcţionarul public a obţinut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial, în forma participaţiei improprii.",
-    "verified_at": "2026-06-10",
+    "execution_type": "Cu executare",
+    "details": "Curtea de Apel Iași l-a condamnat definitiv, la 19 octombrie 2018, la 5 ani de închisoare cu executare pentru abuz în serviciu contra intereselor publice, în formă continuată, săvârșit în calitate de subprefect și vicepreședinte al Comisiei județene de fond funciar Vaslui. Instanța a dedus perioada deja executată între 28 ianuarie 2015 și 5 iulie 2017. Aceasta a fost a treia sa condamnare; o condamnare definitivă anterioară, din 2012, fusese de 2 ani cu suspendare pentru fals, uz de fals și tentativă la abuz în serviciu.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — condamnarea definitivă din 2018",
         "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3332"
+        "url": "https://www.dna.ro/comunicat.xhtml?id=9130"
+      },
+      {
+        "label": "DNA — condamnarea definitivă din 2012",
+        "kind": "official",
+        "url": "https://www.dna.ro/faces/comunicat.xhtml?id=3448"
+      },
+      {
+        "label": "Ziarul Curentul — conducerea PC Vaslui și funcția de subprefect",
+        "kind": "press",
+        "url": "https://www.curentul.info/politic/75-de-conservatori-vasluieni-au-fugit-la-pd/"
+      },
+      {
+        "label": "Adevărul — a treia condamnare și perioada dedusă",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-locale/vaslui/fost-subprefect-de-vaslui-din-nou-la-puscarie-1898581.html"
       }
     ]
   },
@@ -31409,27 +31527,43 @@ export const politicianAdditions = [
   },
   {
     "name": "Vasile Silea",
-    "party": "Independent",
-    "position": "primar al Comunei Ucea",
+    "party": "PP-DD",
+    "position": "Fost primar PER al comunei Ucea (2004–2008); candidat PP-DD la primărie în 2012",
     "position_type": "mayor",
     "geography": {
       "county": "Brașov",
       "basis": "office",
-      "note": "Funcția relevantă a fost primar (Primarie) în județul Brașov."
+      "locality": "Ucea",
+      "note": "A fost primar al comunei Ucea în mandatul 2004–2008 și a candidat din nou la primărie în 2012."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
+    "crime": "Obținere nelegală și schimbarea destinației fondurilor europene",
     "sentence": "2 ani și 6 luni închisoare cu suspendare",
     "sentence_years": 2.5,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 24 mai 2011. Condamnarea inculpatului SILEA VASILE , primar al Comunei Ucea, judeţul Braşov, la pedeapsa de 2 ani şi 6 luni închisoare cu suspendare sub supraveghere pe un termen de încercare de 5 ani , pentru săvârşirea infracţiunilor de folosire sau prezentarea de documente ori declaraţii false, inexacte sau incomplete care are ca rezultat obţinerea pe nedrept de fonduri din bugetul general al Comunităţilor Europene sau din bugetele administrate de acestea ori în numele lor , complicitate la infracţiunea de folosire sau prezentarea de documente ori declaraţii false, inexacte sau incomplete care are ca rezultat obţinerea pe nedrept de fonduri din bugetul general al Comunităţilor Europene sau din bugetele administrate de acestea ori în numele lor şi infracţiunea de schimbare, fără respectarea prevederilor legale, a destinaţiei fondurilor de natura celor prezentate mai sus .",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Brașov l-a condamnat definitiv, la 24 mai 2011, la 2 ani și 6 luni de închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani. Faptele, comise în perioada în care era primar al comunei Ucea, au constat în folosirea unor documente ori declarații false pentru obținerea nelegală de fonduri europene, complicitate la aceeași infracțiune și schimbarea nelegală a destinației fondurilor.",
+    "verified_at": "2026-09-14",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — condamnarea definitivă",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2432"
+      },
+      {
+        "label": "Adevărul — decizia Curții de Apel Brașov",
+        "kind": "press",
+        "url": "https://adevarul.ro/stiri-locale/brasov/fostul-primar-si-viceprimar-din-ucea-condamnati-952800.html"
+      },
+      {
+        "label": "BEC — rezultatele candidaturii PP-DD din 2012 (arhivă)",
+        "kind": "official",
+        "url": "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf"
+      },
+      {
+        "label": "Monitorul de Făgăraș — istoricul primarilor Ucea",
+        "kind": "press",
+        "url": "https://www.monitorfg.ro/2025/01/23/primarul-comunei-ucea-fata-de-mediul-privat-unde-deciziile-se-iau-pe-loc-in-administratia-publica-este-mult-gri-multa-incertitudine-cadastrarea-gratuita-un-esec-pentru-primarii/"
       }
     ]
   },
@@ -31643,40 +31777,58 @@ export const politicianAdditions = [
   },
   {
     name: 'Baciu Vasile',
-    party: 'PDL',
-    position: 'Primar al comunei Horia, județul Neamț',
+    party: 'PSD',
+    position: 'Fost primar al comunei Horia (2008–2016); fost consilier județean PSD Neamț',
     position_type: 'mayor',
     geography: {
       county: 'Neamț',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Horia, județul Neamț.',
+      locality: 'Horia',
+      note: 'A fost primar al comunei Horia în mandatele 2008–2012 și 2012–2016, apoi consilier județean PSD Neamț.',
     },
-    crime: 'Fraudă cu fonduri europene; fals intelectual; uz de fals',
-    sentence: '2 ani închisoare cu suspendare',
-    sentence_years: 2,
-    conviction_year: 2010,
+    crime: 'Folosirea funcției pentru favorizarea unei persoane și fals intelectual',
+    sentence: '3 ani și 10 luni închisoare cu executare',
+    sentence_years: 3.8333,
+    conviction_year: 2019,
     status: 'convicted',
-    execution_type: 'Cu suspendare',
+    execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Bacău l-a condamnat definitiv la 7 octombrie 2010 pentru folosirea sau prezentarea de documente false ori inexacte pentru obținerea de fonduri europene, fals intelectual în formă continuată și uz de fals. Prejudiciul indicat de instanță a fost consemnat ca integral acoperit.',
-    verified_at: '2026-05-05',
+      'Curtea de Apel Bacău a menținut definitiv, la 19 decembrie 2019, pedeapsa rezultantă de 3 ani și 10 luni de închisoare cu executare pentru folosirea funcției în scopul favorizării unei persoane și fals intelectual în formă continuată. În 2014, ca primar al comunei Horia, a semnat concesionarea a 5,7 hectare de pajiște către fiul său. Pedeapsa a inclus efectele condamnării definitive anterioare, din 2010, de 2 ani cu suspendare pentru fraudă cu fonduri europene, fals intelectual și uz de fals.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă din 2010',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1937',
+      },
+      {
+        label: 'Curtea Constituțională — Decizia nr. 73/2022',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocumentAfis/254636',
+      },
+      {
+        label: 'Monitorul de Neamț — condamnarea definitivă din 2019',
+        kind: 'press',
+        url: 'https://monitorulneamt.ro/neamt-consilier-judetean-trimis-la-penitenciar/',
+      },
+      {
+        label: 'Portal Info — mandatele de primar la Horia',
+        kind: 'profile',
+        url: 'https://www.portal-info.ro/primarii/primaria-horia-neamt.html',
       },
     ],
   },
   {
     name: 'Diaconu Gabriel Marian',
-    party: 'PD',
-    position: 'Fost viceprimar al municipiului Slatina',
+    party: 'PER',
+    position:
+      'Fost viceprimar PD al municipiului Slatina (2004–2006); candidat PER la Camera Deputaților în 2020',
     position_type: 'local_official',
     geography: {
       county: 'Olt',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al municipiului Slatina, județul Olt.',
+      locality: 'Slatina',
+      note: 'A fost viceprimar al municipiului Slatina între iunie 2004 și aprilie 2006 și a candidat ulterior în județul Olt.',
     },
     crime: 'Abuz în serviciu contra intereselor publice',
     sentence: '4 ani închisoare cu executare',
@@ -31685,30 +31837,41 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Craiova l-a condamnat definitiv la 7 decembrie 2012 pentru abuz în serviciu contra intereselor publice, în formă continuată, într-un dosar în care partea civilă era Consiliul Local Slatina.',
-    verified_at: '2026-05-11',
+      'Curtea de Apel Craiova l-a condamnat definitiv, la 7 decembrie 2012, la 4 ani de închisoare cu executare pentru abuz în serviciu contra intereselor publice, în formă continuată, într-un dosar privind atribuirea nelegală a 18 contracte de lucrări publice în perioada în care era viceprimar al municipiului Slatina. A fost eliberat condiționat la 24 aprilie 2015.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3727',
       },
       {
-        label: 'Curentul',
+        label: 'Ziarul Curentul — afilierea PD',
         kind: 'press',
         url: 'https://www.curentul.info/politic/tineretul-democrat-vrea-functii-de-conducere/',
+      },
+      {
+        label: 'Biroul Electoral Olt — candidatura PER la Camera Deputaților în 2020',
+        kind: 'official',
+        url: 'https://ot.prefectura.mai.gov.ro/wp-content/uploads/sites/36/2020/10/PV91-2020-10-30.pdf',
+      },
+      {
+        label: 'Adevărul — mandatul de viceprimar și eliberarea condiționată',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/slatina/fostul-viceprimar-al-slatinei-gabriel-diaconu-1618038.html',
       },
     ],
   },
   {
     name: 'Bleoca Ioan',
     party: 'PNL',
-    position: 'Fost viceprimar al comunei Șeica Mare',
+    position: 'Fost viceprimar PNL al comunei Șeica Mare (2004–2008)',
     position_type: 'local_official',
     geography: {
       county: 'Sibiu',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Șeica Mare, județul Sibiu.',
+      locality: 'Șeica Mare',
+      note: 'A fost viceprimar al comunei Șeica Mare în perioada 2004–iunie 2008.',
     },
     crime: 'Fraudă cu fonduri europene; deturnare de fonduri; fals intelectual',
     sentence: '1 an închisoare cu suspendare',
@@ -31717,30 +31880,31 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Alba Iulia l-a condamnat definitiv la 23 februarie 2012 pentru fapte legate de folosirea documentelor false sau inexacte pentru obținerea de fonduri europene, schimbarea destinației fondurilor și fals intelectual.',
-    verified_at: '2026-05-11',
+      'Curtea de Apel Alba Iulia l-a condamnat definitiv, la 23 februarie 2012, la 1 an de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani. Dosarul a vizat folosirea unor documente false ori inexacte pentru obținerea de fonduri europene, schimbarea destinației fondurilor și două infracțiuni de fals intelectual. În perioada faptelor, Ioan Bleoca era viceprimar al comunei Șeica Mare.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2995',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Jurnalul — trimiterea în judecată și funcția',
         kind: 'press',
-        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+        url: 'https://jurnalul.ro/stiri/observator/fostii-edili-din-seica-mare-acuzati-de-fraude-cu-fonduri-europene-403303.html',
       },
     ],
   },
   {
     name: 'Anghelină Ioan',
     party: 'PNL',
-    position: 'Fost primar al comunei Șeica Mare',
+    position: 'Fost primar PNL al comunei Șeica Mare (2004–2008)',
     position_type: 'mayor',
     geography: {
       county: 'Sibiu',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Șeica Mare, județul Sibiu.',
+      locality: 'Șeica Mare',
+      note: 'A fost primar al comunei Șeica Mare în perioada 2004–iunie 2008.',
     },
     crime: 'Instigare la fraudă cu fonduri europene; deturnare de fonduri; fals intelectual',
     sentence: '1 an închisoare cu suspendare',
@@ -31749,18 +31913,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Alba Iulia l-a condamnat definitiv la 23 februarie 2012 pentru instigare la folosirea documentelor false sau inexacte pentru obținerea de fonduri europene, instigare la schimbarea destinației fondurilor și fals intelectual.',
-    verified_at: '2026-05-11',
+      'Curtea de Apel Alba Iulia l-a condamnat definitiv, la 23 februarie 2012, la 1 an de închisoare cu suspendare condiționată, cu termen de încercare de 3 ani. Dosarul a vizat instigarea la folosirea unor documente false ori inexacte pentru obținerea de fonduri europene, instigarea la schimbarea destinației fondurilor și două infracțiuni de fals intelectual. În perioada faptelor, Ioan Anghelină era primar al comunei Șeica Mare.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2995',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Jurnalul — trimiterea în judecată și mecanismul faptelor',
         kind: 'press',
-        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
+        url: 'https://jurnalul.ro/stiri/observator/fostii-edili-din-seica-mare-acuzati-de-fraude-cu-fonduri-europene-403303.html',
       },
     ],
   },
@@ -31772,7 +31936,8 @@ export const politicianAdditions = [
     geography: {
       county: 'Ilfov',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Cernica, județul Ilfov.',
+      locality: 'Cernica',
+      note: 'A fost viceprimar al comunei Cernica, județul Ilfov.',
     },
     crime: 'Fals material în înscrisuri oficiale; asociere pentru săvârșirea de infracțiuni',
     sentence: '3 ani închisoare cu executare',
@@ -31781,17 +31946,22 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'ICCJ l-a condamnat definitiv la 26 septembrie 2013 pentru fals material în înscrisuri oficiale și asociere pentru săvârșirea de infracțiuni, în același dosar în care a fost vizat fostul director OCPI Călărași Ion Năbârgeac.',
-    verified_at: '2026-05-11',
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv, la 26 septembrie 2013, la 3 ani de închisoare în regim de detenție pentru fals material în înscrisuri oficiale și asociere pentru săvârșirea de infracțiuni. Dosarul a privit emiterea unor procese-verbale false de punere în posesie pentru terenuri; instanța l-a obligat în solidar cu alți inculpați la plata despăgubirilor civile și a dispus restabilirea situației anterioare pentru terenurile vizate.',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA — condamnarea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4355',
       },
       {
-        label: 'FINAL DNA Database',
+        label: 'Jurnalul — trimiterea în judecată și procesele-verbale false',
         kind: 'press',
+        url: 'https://jurnalul.ro/stiri/observator/fostul-director-ocpi-calarasi-si-primarul-din-cernica-deferiti-justitiei-de-dna-512245.html',
+      },
+      {
+        label: 'FINAL DNA Database — afilierea politică istorică',
+        kind: 'profile',
         url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],

@@ -2,62 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-09-14",
   "holds": {
-    "Mircea Ioniță": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0741"
-    },
-    "Mitu Rusu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0742"
-    },
-    "Nicolae Marian Arișanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0743"
-    },
-    "Nicolae Mischie": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0744"
-    },
-    "Nicolae Mocanu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0745"
-    },
-    "Petre Coste": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0746"
-    },
-    "Sergiu Marian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0749"
-    },
-    "Vasile Silea": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0751"
-    },
     "Barbălată Gabriel": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -4056,9 +4000,9 @@
       "profile_id": "RV-3503"
     },
     "Cozmaciuc Constantin": {
-      "held_at": "2026-09-13",
+      "held_at": "2026-09-14",
       "reasons": [
-        "Posibilă coliziune nerezolvată: DNA documentează un om de afaceri din municipiul Suceava, iar sursele electorale indică un candidat PNL cu același nume la Pojorâta; nu există încă o legătură suficientă pentru a atribui condamnarea persoanei politice."
+        "Posibilă coincidență de nume: DNA și presa identifică persoana condamnată doar ca administrator al SC Imobiliaria/Pit Stop SRL Suceava, iar sursele electorale identifică un Constantin Cozmaciuc candidat PNL la Primăria Pojorâta în 2016. Nu există încă un identificator comun sau o sursă explicită care să demonstreze că sunt aceeași persoană; profilul trebuie ascuns până la rezolvarea identității."
       ],
       "profile_id": "RV-3603"
     }

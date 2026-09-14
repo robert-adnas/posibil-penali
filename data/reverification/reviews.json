@@ -56525,6 +56525,261 @@
       ],
       "note": "Corrected final judgment date from 6 February to 6 June 2011, exact offense, four-year probation, confiscation amount, former-deputy wording and constituency geography.",
       "reviewed_snapshot_hash": "f2139e7dd1bbb2f4eff9ec5e67ce0bf54e85b794da7697d37a4c0a0af6d4cd79"
+    },
+    {
+      "profile_id": "RV-0741",
+      "original_name": "Mircea Ioniță",
+      "current_name": "Mircea Ioniță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2830",
+        "https://legislatie.just.ro/Public/RezultateCautare?publicatinceputtext=2008%2F09%2F01&publicatnumar=631&publicatsfarsittext=2008%2F09%2F01",
+        "https://adevarul.ro/stiri-locale/ploiesti/fostul-subprefect-de-prahova-mircea-ionita-1051918.html"
+      ],
+      "note": "Identitatea de fost subprefect este confirmată de HG nr. 979/2008; condamnarea definitivă din 29.11.2011, infracțiunile, executarea și obligația civilă sunt confirmate de DNA și independent de Adevărul. Funcția a fost trecută explicit la forma istorică; profil păstrat doar în arhiva extinsă.",
+      "reviewed_snapshot_hash": "ee23b477bd62cc4b8e68a38f2fce7c1e39a7966079840d8f01205f5794937be6"
+    },
+    {
+      "profile_id": "RV-0742",
+      "original_name": "Mitu Rusu",
+      "current_name": "Mitu Rusu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4866",
+        "https://www.dna.ro/comunicat.xhtml?id=2286",
+        "https://www.mediafax.ro/social/primarul-si-secretarul-unei-comune-vasluiene-trimisi-in-judecata-de-procurorii-anticoruptie-9424420/amp",
+        "https://www.portal-info.ro/primarii/primaria-codaesti-vaslui.html"
+      ],
+      "note": "Identitatea și condamnarea definitivă din 16.04.2014 sunt confirmate de DNA; funcția și mandatul local sunt confirmate independent. Afilierea relevantă a fost corectată la PSD, iar infracțiunile, termenul de încercare și prejudiciul au fost precizate. Nu a fost identificată o hotărâre ulterioară de achitare sau anulare.",
+      "reviewed_snapshot_hash": "10c059af7d293a6fb77d7723d7fb6329fd71b9e78bd8c46d428c2b539238e11a"
+    },
+    {
+      "profile_id": "RV-0743",
+      "original_name": "Nicolae Marian Arișanu",
+      "current_name": "Marian Nicolae Arișanu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4121",
+        "https://www.antena3.ro/actualitate/brasov-fostii-lideri-locali-din-png-trimisi-in-judecata-pentru-coruptie-50349.html",
+        "https://stirileprotv.ro/stiri/social/vechile-catacombe-din-brac-ov-folosite-abuziv-de-un-fost-politician-recent-eliberat-din-inchisoare.html"
+      ],
+      "note": "Numele a fost corectat din Nicolae Marian Arișanu în Marian Nicolae Arișanu, forma confirmată de DNA și presa contemporană. Partidul a fost precizat ca PNG-CD, funcția ca fost președinte al organizației județene Brașov, iar pedeapsa ca 7 ani cu executare. Eliberarea condiționată ulterioară nu a desființat condamnarea.",
+      "reviewed_snapshot_hash": "710ebcadaf1ec1cc4603b6fa43ce0231dd504fab7bab5b832fd537c8f781d74e"
+    },
+    {
+      "profile_id": "RV-0744",
+      "original_name": "Nicolae Mischie",
+      "current_name": "Nicolae Mischie",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3965",
+        "https://adevarul.ro/stiri-interne/evenimente/nicolae-mischie-condamnat-la-patru-ani-de-1419630.html",
+        "https://agerpres.ro/politic/2018/04/15/a-murit-nicolae-mischie--91058"
+      ],
+      "note": "Identitatea, funcția și condamnarea definitivă sunt confirmate; afilierea a fost corectată la PSD, funcția trecută la forma istorică, iar eliberarea condiționată din 2014 și decesul din 2018 au fost precizate. Hotărârea CEDO nu a desființat condamnarea.",
+      "reviewed_snapshot_hash": "f52321e5ebd637d63a3f8f39d1271fd52bf59bdd882790104a1cd4f54468a83e"
+    },
+    {
+      "profile_id": "RV-0745",
+      "original_name": "Nicolae Mocanu",
+      "current_name": "Nicolae Mocanu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3117",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=650&jffi=comunicat&jftfdi=",
+        "https://www.economica.net/fost-primar-al-unei-comune-iesene-condamnat-definitiv-pentru-deturnarea-de-fonduri-europene_21723.html"
+      ],
+      "note": "Funcția trunchiată a fost corectată la fost primar al comunei Popești (2000–2008), afilierea relevantă la PD, iar infracțiunea și sentința au fost completate. DNA și presa confirmă decizia definitivă din 27.03.2012, termenul de încercare și situația prejudiciilor.",
+      "reviewed_snapshot_hash": "12caf80f7a0e4d3cd3a619d7d3efab7b13920f32b032a43999b388f35b8e2baf"
+    },
+    {
+      "profile_id": "RV-0746",
+      "original_name": "Petre Coste",
+      "current_name": "Petre Coste",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1913",
+        "https://www.mediafax.ro/justitie/primarul-comunei-jucu-a-fost-arestat-preventiv-866368",
+        "https://www.romania-actualitati.ro/arhiva-emisiuni/romania-impreuna/al-saselea-simt-id8451.html"
+      ],
+      "note": "Funcția a fost trecută la forma istorică și localitatea completată; partidul PD este confirmat la momentul faptei. ÎCCJ a pronunțat definitiv la 19.01.2010 pedeapsa de 5 ani cu executare pentru luare de mită, confirmată și prin surse independente.",
+      "reviewed_snapshot_hash": "c05d8c501b4eeb97ab27b9125c9601d18899844d5e1ba1bd00cc218b2972d078"
+    },
+    {
+      "profile_id": "RV-0747",
+      "original_name": "Petru Toadere",
+      "current_name": "Petru Toadere",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3343",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx",
+        "https://infohuedin.ro/batalie-mare-pe-primaria-calatele-tripon-nu-mai-candideaza-cine-sunt-candidatii-in-2024/"
+      ],
+      "note": "Identitatea este confirmată prin aceeași funcție și localitate. Condamnarea definitivă din 2012 rămâne confirmată, iar fișierul oficial BEC arată că în 2024 a candidat din partea AUR atât la primărie, cât și la consiliul local; profilul a fost corectat cu infracțiunea, forma de executare și localitatea exacte.",
+      "reviewed_snapshot_hash": "ff7ac18fcf1df198aff66abec6ae21c8f494440884f80b5eedf2b41f0bf49c71"
+    },
+    {
+      "profile_id": "RV-0749",
+      "original_name": "Sergiu Marian",
+      "current_name": "Sergiu Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=9130",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3448",
+        "https://www.curentul.info/politic/75-de-conservatori-vasluieni-au-fugit-la-pd/",
+        "https://adevarul.ro/stiri-locale/vaslui/fost-subprefect-de-vaslui-din-nou-la-puscarie-1898581.html"
+      ],
+      "note": "Identitatea este confirmată prin funcția de subprefect și activitatea în Comisia județeană de fond funciar Vaslui. Profilul a fost actualizat de la prima condamnare din 2012, cu suspendare, la ultima condamnare definitivă din 2018, de 5 ani cu executare, și afilierea PC a fost documentată.",
+      "reviewed_snapshot_hash": "12c84359262400282331f97f1e806032221c408c024b1fa29824ef6958c8790d"
+    },
+    {
+      "profile_id": "RV-0751",
+      "original_name": "Vasile Silea",
+      "current_name": "Vasile Silea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2432",
+        "https://adevarul.ro/stiri-locale/brasov/fostul-primar-si-viceprimar-din-ucea-condamnati-952800.html",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://www.monitorfg.ro/2025/01/23/primarul-comunei-ucea-fata-de-mediul-privat-unde-deciziile-se-iau-pe-loc-in-administratia-publica-este-mult-gri-multa-incertitudine-cadastrarea-gratuita-un-esec-pentru-primarii/"
+      ],
+      "note": "Identitatea este confirmată prin funcția și localitatea Ucea. Condamnarea definitivă din 2011 este confirmată; profilul a fost completat cu partidul mandatului de primar, candidatura ulterioară PP-DD din 2012, localitatea și descrierea juridică exactă.",
+      "reviewed_snapshot_hash": "e7ab526dc6d8bb33af6b87c2a1bf134cb1b380f8cbfb1b446321cf85b7144cf5"
+    },
+    {
+      "profile_id": "RV-0772",
+      "original_name": "Baciu Vasile",
+      "current_name": "Baciu Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/254636",
+        "https://www.dna.ro/comunicat.xhtml?id=1937",
+        "https://monitorulneamt.ro/neamt-consilier-judetean-trimis-la-penitenciar/",
+        "https://www.portal-info.ro/primarii/primaria-horia-neamt.html"
+      ],
+      "note": "Identitatea este confirmată prin funcția și localitatea Horia. Profilul a fost actualizat de la condamnarea din 2010 cu suspendare la condamnarea definitivă ulterioară din 2019, de 3 ani și 10 luni cu executare, precum și cu mandatele de primar și funcția ulterioară de consilier județean PSD.",
+      "reviewed_snapshot_hash": "57c3233a8012f0ea901788b1b866622b41268e47b8306a641bbbe5160e6272c2"
+    },
+    {
+      "profile_id": "RV-0773",
+      "original_name": "Diaconu Gabriel Marian",
+      "current_name": "Diaconu Gabriel Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3727",
+        "https://ot.prefectura.mai.gov.ro/wp-content/uploads/sites/36/2020/10/PV91-2020-10-30.pdf",
+        "https://adevarul.ro/stiri-locale/slatina/fostul-viceprimar-al-slatinei-gabriel-diaconu-1618038.html",
+        "https://www.curentul.info/politic/tineretul-democrat-vrea-functii-de-conducere/"
+      ],
+      "note": "Identitatea este confirmată prin numele complet, domiciliul Slatina și funcția de fost viceprimar. Condamnarea definitivă din 2012 rămâne confirmată; profilul a fost completat cu mandatul 2004–2006, eliberarea condiționată din 2015 și candidatura PER definitivă la Camera Deputaților din 2020.",
+      "reviewed_snapshot_hash": "967e71bd5f5d883865e9c6fffff38f29cab388647e557785f4779a0da2495791"
+    },
+    {
+      "profile_id": "RV-0774",
+      "original_name": "Bleoca Ioan",
+      "current_name": "Bleoca Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2995",
+        "https://jurnalul.ro/stiri/observator/fostii-edili-din-seica-mare-acuzati-de-fraude-cu-fonduri-europene-403303.html"
+      ],
+      "note": "Identitatea este confirmată prin funcția de viceprimar și localitatea Șeica Mare, fără a o confunda cu numele extins Ioan-Vergil Bleoca din candidaturi ulterioare. Condamnarea definitivă din 2012 este confirmată; profilul a fost completat cu perioada mandatului, termenul de încercare și descrierea faptelor.",
+      "reviewed_snapshot_hash": "a1c6e5ae91b9367d6d773d54053921c752b63a7878e3700e2c79fcfe5d64b492"
+    },
+    {
+      "profile_id": "RV-0775",
+      "original_name": "Anghelină Ioan",
+      "current_name": "Anghelină Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2995",
+        "https://jurnalul.ro/stiri/observator/fostii-edili-din-seica-mare-acuzati-de-fraude-cu-fonduri-europene-403303.html"
+      ],
+      "note": "Identitatea este confirmată prin funcția de primar și localitatea Șeica Mare. Condamnarea definitivă din 2012 este confirmată; profilul a fost completat cu afilierea relevantă, perioada mandatului, termenul de încercare și mecanismul faptelor.",
+      "reviewed_snapshot_hash": "13dba2db134e53ed020665f0bad0dc0159675d40302f58cb5b4ce1575d81097b"
+    },
+    {
+      "profile_id": "RV-0776",
+      "original_name": "Zaharia Vasile",
+      "current_name": "Zaharia Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://jurnalul.ro/stiri/observator/fostul-director-ocpi-calarasi-si-primarul-din-cernica-deferiti-justitiei-de-dna-512245.html",
+        "https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Identitatea este confirmată prin funcția de fost viceprimar al comunei Cernica. Condamnarea definitivă din 2013 la 3 ani cu executare este confirmată; profilul a fost completat cu localitatea, natura proceselor-verbale false și măsurile civile dispuse de instanță. Afilierea PDL rămâne indicată doar în câmpul de partid, fără a fi supralicitată în titlu.",
+      "reviewed_snapshot_hash": "0b9487e1ebd54759fc76a22bcbc89c6a14641babc9e36217bf9ad2677be1ec8e"
     }
   ]
 }
