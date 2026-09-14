@@ -16390,18 +16390,30 @@ export const politicianOverrides = {
   },
   'Dunărințu Ionel Rafael': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Stiripesurse.ro',
+        label: 'Primăria Baia de Aramă — hotărâre semnată în calitate de primar',
+        kind: 'official',
+        url: 'https://www.primariabaiadearama.ro/documente/11-hotarari/2016/HCL-44-1.pdf',
+      },
+      {
+        label: 'Portalul instanțelor — Curtea de Apel Craiova',
+        kind: 'official',
+        url: 'https://portal.just.ro/54/SitePages/dosare.aspx',
+        description:
+          'Dosarul nr. 2494/95/2022: decizia penală nr. 623/15.05.2025 a stabilit pedeapsa rezultantă definitivă de 10 ani și 2 luni; contestațiile în anulare au fost respinse definitiv în septembrie 2025 și mai 2026.',
+      },
+      {
+        label: 'Gorjeanul — condamnarea definitivă din 2025',
         kind: 'press',
-        url: 'https://www.stiripesurse.ro/primar-trimis-in-judecata-pentru-fapte-de-coruptie_1142079.html',
+        url: 'https://www.gorjeanul.ro/condamnare-definitiva-pentru-un-fost-primar/',
       },
     ],
   },
   'Leonte Ioan': {
     party: 'PNL',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: '7 Iași',
@@ -16412,18 +16424,23 @@ export const politicianOverrides = {
   },
   'Gherghișan Sterian': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
-        label: 'Portal Info',
-        kind: 'profile',
-        url: 'https://www.portal-info.ro/primarii/primaria-vacareni-tulcea.html',
+        label: 'Consiliul Județean Tulcea — profil administrativ Văcăreni',
+        kind: 'official',
+        url: 'https://www.cjtulcea.ro/sites/cjtulcea/HartaInteractiva/Comune/Vacareni.pdf',
+      },
+      {
+        label: 'Ziua de Constanța — cele două condamnări și soluția civilă definitivă din 2025',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/la-curtea-de-apel-constanta-sterian-gherghisan-si-costel-neagu-fosti-primari-ai-comunei-vacareni-judetul-tulcea-incearca-sa-scape-de-plata-unui-prejudiciu-918238.html',
       },
     ],
   },
   'Corleciuc Ovidiu': {
     party: 'PSD',
-    verified_at: '2026-05-08',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'Știri Botoșani',
@@ -32440,22 +32457,24 @@ export const politicianAdditions = [
   {
     name: 'Dunărințu Ionel Rafael',
     party: 'PSD',
-    position: 'Fost primar al orașului Baia de Aramă, județul Mehedinți',
+    position: 'Fost primar PSD al orașului Baia de Aramă',
     position_type: 'mayor',
     geography: {
       county: 'Mehedinți',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al orașului Baia de Aramă, județul Mehedinți.',
+      locality: 'Baia de Aramă',
+      note: 'A exercitat funcția de primar al orașului Baia de Aramă, județul Mehedinți.',
     },
-    crime: 'Fraudă cu fonduri europene; obținere ilegală de fonduri',
-    sentence: '5 ani și 10 luni închisoare',
-    sentence_years: 5.83,
-    conviction_year: 2023,
+    crime:
+      'Ucidere din culpă; fraudă cu fonduri europene; obținere ilegală de fonduri; infracțiuni silvice',
+    sentence: '10 ani și 2 luni închisoare cu executare (pedeapsă rezultantă)',
+    sentence_years: 10.17,
+    conviction_year: 2025,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Craiova l-a condamnat definitiv la 28 martie 2023 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și obținere ilegală de fonduri.',
-    verified_at: '2026-05-06',
+      'Prin decizia penală nr. 623 din 15 mai 2025, Curtea de Apel Craiova l-a condamnat definitiv la 6 ani pentru ucidere din culpă în formă agravată și a contopit pedeapsa cu condamnările anterioare pentru infracțiuni silvice, fraudă cu fonduri europene și obținere ilegală de fonduri, stabilind rezultanta de 10 ani și 2 luni în regim de detenție. Condamnarea DNA din 28 martie 2023 pentru fraudă europeană și obținere ilegală de fonduri a fost una dintre componentele contopite. Contestațiile în anulare împotriva soluției din 2025 au fost respinse definitiv în septembrie 2025 și mai 2026.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32467,22 +32486,23 @@ export const politicianAdditions = [
   {
     name: 'Băiculescu Vasile',
     party: 'Partida Romilor Pro-Europa',
-    position: 'Primar al comunei Brăhășești, județul Galați',
+    position: 'Fost primar al comunei Brăhășești',
     position_type: 'mayor',
     geography: {
       county: 'Galați',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Brăhășești, județul Galați.',
+      locality: 'Brăhășești',
+      note: 'A exercitat funcția de primar al comunei Brăhășești, județul Galați.',
     },
-    crime: 'Luare de mită',
-    sentence: '4 ani și 3 luni închisoare',
+    crime: 'Luare de mită; falsuri în legătură cu luarea de mită',
+    sentence: '4 ani și 3 luni închisoare cu executare',
     sentence_years: 4.25,
     conviction_year: 2016,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Galați l-a condamnat definitiv la 9 martie 2016 pentru două infracțiuni de luare de mită, una în formă continuată, în legătură cu funcția de primar al comunei Brăhășești.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 313 din 9 martie 2016, Curtea de Apel Galați l-a condamnat definitiv la 4 ani și 3 luni de închisoare pentru două infracțiuni de luare de mită, una în formă continuată, și a dispus interdicții pentru 5 ani după executarea pedepsei, precum și confiscarea sumelor de 21.000 și 8.500 lei. Avea și o condamnare definitivă anterioară, din 23 octombrie 2012, la 3 ani cu suspendare sub supraveghere pentru trei infracțiuni de luare de mită și falsuri conexe. A fost reales în 2008 pe lista Partidei Romilor Pro-Europa, după treceri anterioare prin PSD și PD-L.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32490,9 +32510,19 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7293',
       },
       {
-        label: 'România Liberă',
+        label: 'DNA — condamnarea definitivă anterioară din 2012',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3633',
+      },
+      {
+        label: 'Viața Liberă — rezultatele locale din 2008 și traseul politic',
         kind: 'press',
-        url: 'https://romanialibera.ro/special/pnl-si-pd-l-au-castigat-jumatate-din-fieful-psd-127509/',
+        url: 'https://www.viata-libera.ro/pdf/2008/07_iulie/vlg_14_iul.pdf',
+      },
+      {
+        label: 'Monitorul de Galați — contextul condamnării definitive din 2016',
+        kind: 'press',
+        url: 'https://www.monitoruldegalati.ro/comunitate/primarul-din-brahasesti-condamnat-la-patru-ani-si-trei-luni-de-inchisoare-cu-executare.html',
       },
     ],
   },
@@ -32526,49 +32556,62 @@ export const politicianAdditions = [
   {
     name: 'Leonte Ioan',
     party: 'PNL',
-    position: 'Primar al comunei Gorban, județul Iași',
+    position: 'Fost primar PNL al comunei Gorban (2004–2012)',
     position_type: 'mayor',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Gorban, județul Iași.',
+      locality: 'Gorban',
+      note: 'A exercitat funcția de primar al comunei Gorban, județul Iași, în perioada 2004–2012.',
     },
-    crime: 'Complicitate la fraudă cu fonduri europene; fals intelectual',
-    sentence: '3 ani și 8 luni închisoare',
+    crime:
+      'Complicitate la fraudă cu fonduri europene; fals intelectual; cumpărare de influență; uz de fals',
+    sentence: '3 ani și 8 luni închisoare cu executare',
     sentence_years: 3.67,
     conviction_year: 2018,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 14 decembrie 2018 pentru complicitate la obținerea pe nedrept de fonduri europene și fals intelectual.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 339 din 14 decembrie 2018, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani și 8 luni de închisoare pentru complicitate la două fraude cu fonduri europene și fals intelectual, fapte în formă continuată. Instanța a interzis pentru 5 ani dreptul de a fi ales și de a exercita autoritatea de stat și l-a obligat, în solidar cu Constantin Lupei și asociația locală de crescători, la plata către APIA a 334.730,62 lei plus accesorii. Ioan Leonte fusese condamnat definitiv și la 28 martie 2017 la 3 ani cu suspendare, cu termen de încercare de 5 ani, pentru cumpărare de influență, instigare la fals intelectual și uz de fals în formă continuată.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
+      },
+      {
+        label: 'DNA — condamnarea definitivă anterioară din 2017',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8143',
+      },
+      {
+        label: 'Ziarul de Iași — condamnarea definitivă și încarcerarea',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/exclusiv-sentinta-bomba-cel-mai-smecher-primar-din-iasi-la-puscarie--207151.html',
       },
     ],
   },
   {
     name: 'Lupei Constantin',
     party: 'PNL',
-    position: 'Consilier local al comunei Gorban, județul Iași',
+    position: 'Fost consilier local al comunei Gorban',
     position_type: 'local_official',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de consilier local în comuna Gorban, județul Iași.',
+      locality: 'Gorban',
+      note: 'A exercitat funcția de consilier local în comuna Gorban, județul Iași.',
     },
-    crime: 'Fraudă cu fonduri europene; complicitate; fals intelectual',
-    sentence: '4 ani și 2 luni închisoare',
+    crime: 'Fraudă cu fonduri europene; complicitate la fraudă; complicitate la fals intelectual',
+    sentence: '4 ani și 2 luni închisoare cu executare',
     sentence_years: 4.17,
     conviction_year: 2018,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 14 decembrie 2018 pentru fapte legate de obținerea pe nedrept de fonduri europene și fals intelectual.',
-    verified_at: '2026-05-10',
+      'Prin decizia penală nr. 339 din 14 decembrie 2018, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 4 ani și 2 luni de închisoare pentru fraudă cu fonduri europene în formă continuată, complicitate la o altă fraudă cu fonduri europene și complicitate la fals intelectual în formă continuată. Instanța a interzis pentru 5 ani dreptul de a fi ales și de a exercita autoritatea de stat. A fost obligat în solidar la plata către APIA a 91.641,07 lei, respectiv 334.730,62 lei, plus dobânzi și penalități, în două grupuri de debitori. Apartenența PNL este cea documentată în perioada mandatului relevant; o sursă din 2016 îl menționează ulterior ca ales local UNPR.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
@@ -32576,90 +32619,125 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
       },
       {
-        label: 'Ziarul de Iași',
+        label: 'Adevărul — condamnarea definitivă și încarcerarea',
         kind: 'press',
-        url: 'https://www.ziaruldeiasi.ro/stiri/patronul-vascar-executat-pentru-un-tun-imobiliar-la-gorban--174166.html',
+        url: 'https://adevarul.ro/stiri-locale/iasi/primar-sforar-celebru-printre-judecatori-bagat-la-1911699.html',
+      },
+      {
+        label: 'Realitatea — mandatul local și afilierea PNL documentată în 2016',
+        kind: 'press',
+        url: 'https://www.realitatea.net/stiri/ultimele-stiri/exclusiv-condamnat-dupa-ce-ar-fi-furat-din-banii-europeni--un-consilier-local-vrea-alimentele-gratuite-de-la-ue_5dcc9235406af85273d4376f',
       },
     ],
   },
   {
     name: 'Barbălată Gabriel',
     party: 'Independent',
-    position: 'Consilier local al comunei Gorban, județul Iași',
+    position: 'Fost consilier local al comunei Gorban',
     position_type: 'local_official',
     geography: {
       county: 'Iași',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de consilier local în comuna Gorban, județul Iași.',
+      locality: 'Gorban',
+      note: 'A exercitat funcția de consilier local în comuna Gorban, județul Iași; afilierea de partid nu a fost stabilită cu suficientă certitudine.',
     },
     crime: 'Spălare de bani; complicitate la fraudă cu fonduri europene',
-    sentence: '3 ani închisoare',
+    sentence: '3 ani închisoare cu executare',
     sentence_years: 3,
     conviction_year: 2018,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 14 decembrie 2018 pentru spălare de bani și complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 339 din 14 decembrie 2018, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani de închisoare pentru spălare de bani și complicitate la folosirea de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene. Instanța i-a interzis, pe durata executării, drepturile electorale și exercitarea autorității de stat și l-a obligat în solidar la plata către APIA a 91.641,07 lei plus accesorii; el și fratele său achitaseră 20.000 lei în apel. În dosarul distinct nr. 1253/99/2024 privind subvenții AJOFM, Tribunalul Iași a încetat procesul penal prin prescripție la 31 iulie 2026, soluție de primă instanță care nu este prezentată aici drept condamnare.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9260',
       },
+      {
+        label: 'Portalul instanțelor — Tribunalul Iași',
+        kind: 'official',
+        url: 'https://portal.just.ro/99/SitePages/dosare.aspx',
+        description:
+          'Dosarul nr. 1253/99/2024: la 31.07.2026 instanța a încetat prin prescripție procesul penal distinct privind subvențiile AJOFM.',
+      },
+      {
+        label: 'Ziarul de Iași — condamnarea definitivă și funcția locală',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/exclusiv-sentinta-bomba-cel-mai-smecher-primar-din-iasi-la-puscarie--207151.html',
+      },
+      {
+        label: '7 Iași — obligația civilă din dosarul definitiv',
+        kind: 'press',
+        url: 'https://www.7iasi.ro/cum-ii-scapa-statul-pe-condamnatii-din-dosarele-dna-de-plata-prejudiciului-cazul-unui-fost-primar-pnl-din-judetul-iasi/',
+      },
     ],
   },
   {
     name: 'Gherghișan Sterian',
     party: 'PSD',
-    position: 'Primar al comunei Văcăreni, județul Tulcea',
+    position: 'Fost primar PSD al comunei Văcăreni',
     position_type: 'mayor',
     geography: {
       county: 'Tulcea',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Văcăreni, județul Tulcea.',
+      locality: 'Văcăreni',
+      note: 'A exercitat funcția de primar PSD al comunei Văcăreni, județul Tulcea, timp de mai multe mandate.',
     },
-    crime: 'Fraudă cu fonduri europene',
-    sentence: '4 ani și 6 luni închisoare',
+    crime: 'Fraudă cu fonduri europene; fals intelectual',
+    sentence: '4 ani și 6 luni închisoare cu executare',
     sentence_years: 4.5,
     conviction_year: 2020,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Constanța l-a condamnat definitiv la 25 februarie 2020 pentru folosirea de documente sau declarații false, inexacte ori incomplete pentru obținerea pe nedrept de fonduri europene.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 162 din 25 februarie 2020, Curtea de Apel Constanța l-a condamnat definitiv la 4 ani și 6 luni de închisoare pentru folosirea cu rea-credință, în formă continuată, a unor documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene. Instanța a dispus interdicții pentru 2 ani după executare și plata către AFIR a 103.758,68 lei, respectiv către APIA a 168.359,52 lei, plus accesorii. Avea și o condamnare definitivă din 5 noiembrie 2013 la 2 ani cu suspendare sub supraveghere, termen de încercare 4 ani, pentru o altă fraudă europeană și fals intelectual în formă continuată. Într-un litigiu civil distinct, Curtea de Apel Constanța a respins definitiv ca prescrisă acțiunea comunei împotriva sa la 18 noiembrie 2025.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9753',
       },
+      {
+        label: 'DNA — condamnarea definitivă anterioară din 2013',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4463',
+      },
     ],
   },
   {
     name: 'Corleciuc Ovidiu',
     party: 'PSD',
-    position: 'Primar al comunei Vorniceni, județul Botoșani',
+    position: 'Fost primar PSD al comunei Vorniceni',
     position_type: 'mayor',
     geography: {
       county: 'Botoșani',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Vorniceni, județul Botoșani.',
+      locality: 'Vorniceni',
+      note: 'A exercitat trei mandate de primar PSD al comunei Vorniceni, județul Botoșani, începând din anul 2000; a demisionat în 2011.',
     },
     crime: 'Fraudă cu fonduri europene; abuz în serviciu',
-    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence: '1 an și 6 luni închisoare cu suspendare (termen de încercare 3 ani și 6 luni)',
     sentence_years: 1.5,
     conviction_year: 2016,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Suceava l-a condamnat definitiv la 19 decembrie 2016 pentru folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și abuz în serviciu.',
-    verified_at: '2026-05-07',
+      'Prin decizia penală nr. 1089 din 19 decembrie 2016, Curtea de Apel Suceava l-a condamnat definitiv la 1 an și 6 luni de închisoare cu suspendare, cu termen de încercare de 3 ani și 6 luni, pentru folosirea cu rea-credință a unor documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene și abuz în serviciu în formă continuată. Instanța a dispus interdicții pentru un an după executarea pedepsei și l-a obligat în solidar la daune de 84.527,50 lei și 109.985 lei într-un raport juridic, respectiv 14.493 lei și 58.924 lei în celălalt.',
+    verified_at: '2026-09-14',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7954',
+      },
+      {
+        label: 'Botoșani News — condamnarea definitivă și proiectul fictiv',
+        kind: 'press',
+        url: 'https://www.botosaninews.ro/306301/general/stirea-zilei/fost-primar-condamnat-dupa-ce-a-fraudat-fondurile-europene/',
       },
     ],
   },
