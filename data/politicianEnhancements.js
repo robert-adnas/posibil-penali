@@ -122,9 +122,22 @@ export const excludedPoliticianNames = new Set([
   'Moldoveanu Horatiu Ovidiu',
   'Moreanu Castelia',
   'Morcan Ioan',
+  'Nanciu Marieta',
+  'Necula Fivi',
+  'Negreanu - Arboreanu Liviu Alexandru',
+  'Nica Neculai',
+  'Nica Petru',
+  'Nistoroiu Costantin',
+  'Oancea Bujor',
   'Oana Vasilescu',
+  'Olaru Camelia',
   'Olaru Gheorghe',
+  'Oprisan Georgian',
   'Oproescu Dumitru',
+  'Panaghiu Victor',
+  'Parlog Elena',
+  'Pascu Ioan',
+  'Patrascu Tudora',
   'Pădureanu Sabina',
   'Păuna Aida-Gabriela',
   'Petre Mihai',
@@ -11886,6 +11899,53 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Muresan Sorin Liviu': {
+    replace_sources: true,
+    name: 'Mureșan Sorin-Liviu',
+    party: 'Pro România',
+    position:
+      'Candidat Pro România la Consiliul Județean Mureș și la Consiliul Local Deda (2020); fost președinte al Asociației Crescătorilor de Ovine și Caprine de pe Valea Mureșului Superior',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mureș',
+      basis: 'political_base',
+      locality: 'Deda',
+      note:
+        'Biroul Electoral Central îl consemnează drept candidat Pro România atât la Consiliul Județean Mureș, cât și la Consiliul Local Deda, în 2020.',
+    },
+    crime:
+      'Folosirea sau prezentarea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; instigare la fals intelectual',
+    sentence: '2 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 2,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 351 din 10 iunie 2013, Curtea de Apel Târgu Mureș l-a condamnat definitiv pe Mureșan Sorin Liviu, președintele Asociației Crescătorilor de Ovine și Caprine de pe Valea Mureșului Superior, la 2 ani de închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani. Faptele au constat în folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete pentru obținerea pe nedrept de fonduri europene și instigare la patru infracțiuni de fals intelectual. Registrul asociațiilor al Ministerului Justiției îl identifică pe Mureșan Sorin-Liviu, născut la 27 septembrie 1965 în Deda și domiciliat în Bistra Mureșului, drept președinte al aceleiași asociații. Lista oficială BEC pentru alegerile locale din 2020 consemnează exact același nume drept candidat Pro România la Consiliul Județean Mureș și la Consiliul Local Deda, stabilind identitatea politică.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — hotărârea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4157',
+      },
+      {
+        label: 'Ministerul Justiției — Registrul național al asociațiilor',
+        kind: 'official',
+        url: 'https://www.just.ro/wp-content/uploads/2022/02/Asociatii_10feb2022.pdf',
+      },
+      {
+        label: 'BEC — lista candidaților la alegerile locale din 2020, Mureș',
+        kind: 'official',
+        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MS.xls',
+      },
+      {
+        label: 'Zi de Zi — lista Pro România pentru Consiliul Județean Mureș',
+        kind: 'press',
+        url: 'https://www.zi-de-zi.ro/2020/09/06/lista-pro-romania-pentru-consiliul-judetean-mures/',
+      },
+    ],
+  },
   'Meran Dorin': {
     replace_sources: true,
     name: 'Dorin Meran',

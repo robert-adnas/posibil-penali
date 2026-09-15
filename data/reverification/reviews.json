@@ -59004,6 +59004,270 @@
       ],
       "note": "Persoana condamnată este documentată ca administrator privat și participant în activitatea unui composesorat, fără mandat sau rol politic verificat. Candidații electorali găsiți au alte prenume complete (Ioan-Ilie, respectiv Dragomir), deci nu pot fi asociați profilului.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3637",
+      "original_name": "Muresan Sorin Liviu",
+      "current_name": "Mureșan Sorin-Liviu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4157",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_10feb2022.pdf",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MS.xls",
+        "https://www.zi-de-zi.ro/2020/09/06/lista-pro-romania-pentru-consiliul-judetean-mures/"
+      ],
+      "note": "Identitatea este confirmată prin numele complet rar, aceeași asociație și legătura Deda/Bistra Mureșului. BEC îl listează oficial candidat Pro România atât la Consiliul Județean Mureș, cât și la Consiliul Local Deda în 2020; au fost corectate numele, partidul, rolul politic și descrierea juridică.",
+      "reviewed_snapshot_hash": "2c6a256f055c2a8509e74fed61f8409f148b0ca01f279aab24af7a6cebd3383e"
+    },
+    {
+      "profile_id": "RV-3638",
+      "original_name": "Nanciu Marieta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3971",
+        "https://www.dna.ro/comunicat.xhtml?id=624",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MH.xls",
+        "https://www.gds.ro/Bani-afaceri/2007-02-20/Functionar-ADR-Oltenia-trimis-in-judecata/"
+      ],
+      "note": "Sursele oficiale și presa o identifică exclusiv ca administrator și asociat unic al societății private Harmony Still SRL. Lista oficială BEC 2020 pentru Mehedinți conține alți candidați cu numele Nanciu, dar nu pe Marieta Nanciu; nu a fost găsit niciun mandat, rol de partid, candidatură sau numire publică. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3639",
+      "original_name": "Necula Fivi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3044",
+        "https://www.dna.ro/comunicat.xhtml?id=847",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=OT",
+        "https://ziare.com/slatina/arhiva/2008-04-02"
+      ],
+      "note": "DNA o identifică drept asociat unic și administrator al societății private Bazaltul SRL Slatina, iar sursele locale o descriu prin aceeași calitate de om de afaceri. Baza România Curată marchează explicit lipsa unei funcții publice. Nu a fost găsit mandat, rol de partid, candidatură sau numire publică; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3640",
+      "original_name": "Negreanu - Arboreanu Liviu Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3177",
+        "https://www.gds.ro/Actualitate/2007-10-10/Cercetati-pentru-o-frauda-de-88.000-de-euro-in-dauna-bugetului-Comunitatilor-Europene/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BR",
+        "https://osim.ro/wp-content/uploads/Publicatii-OSIM/BOPI-Marci/2006/mrc1206.pdf"
+      ],
+      "note": "Sursele îl identifică drept reprezentant al unor societăți comerciale private și titular de marcă, fără funcție publică. România Curată marchează explicit lipsa calității publice, iar căutarea exactă nu a identificat mandat, candidatură, rol de partid sau numire publică. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3641",
+      "original_name": "Nica Neculai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1941",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=IL",
+        "https://www.daibau.ro/cinic_srl",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/IL.xls"
+      ],
+      "note": "Persoana condamnată este identificată ca administrator și reprezentant al societății private CINIC SRL din Slobozia. România Curată marchează lipsa calității publice, iar lista oficială BEC 2020 pentru Ialomița nu conține numele. Nu a fost găsit mandat, rol de partid, candidatură sau numire publică; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3642",
+      "original_name": "Nica Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2877",
+        "https://www.9am.ro/stiri-revista-presei/Business/79969/Fonduri-europene-fraudate-cu-96-000-de-euro.html-amp",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls"
+      ],
+      "note": "Persoana condamnată este documentată ca administrator al Vest Banat 2001 SRL și al altor firme private din Caransebeș. Lista oficială BEC 2020 pentru Caraș-Severin nu conține numele, iar căutarea exactă nu a identificat mandat, rol de partid, candidatură sau numire publică. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3644",
+      "original_name": "Nistoroiu Costantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4062",
+        "https://primarii.ziaruldevrancea.ro/actualitatea/ultimele-stiri/92497-condamnare-cu-suspendare-pentru-patronul-nis-prod.html",
+        "https://adevarul.ro/stiri-locale/focsani/omul-de-afaceri-constantin-nistoroiu-si-un-986582.html",
+        "https://ro.scribd.com/doc/59195668/mof4-2011-0141"
+      ],
+      "note": "Forma corecta a numelui este Constantin Nistoroiu, confirmata de actul ONRC publicat in Monitorul Oficial si folosita consecvent de presa locala. Costantin din comunicatul DNA este o eroare. Persoana este documentata doar ca asociat si administrator al NIS PROD SRL, fara rol politic sau public propriu. Omonimia de familie cu politicieni locali nu dovedeste un mandat; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3645",
+      "original_name": "Oancea Bujor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2877",
+        "https://www.9am.ro/stiri-revista-presei/Business/79969/Fonduri-europene-fraudate-cu-96-000-de-euro.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CS",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls"
+      ],
+      "note": "Sursele il identifica drept administrator ori salariat al unor societati comerciale private din grupul de firme implicat in proiectul PHARE. Romania Curata marcheaza lipsa calitatii publice, iar lista oficiala BEC 2020 pentru Caras-Severin nu contine numele. Nu a fost gasit mandat, rol de partid, candidatura sau numire publica; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3646",
+      "original_name": "Olaru Camelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4577",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
+        "https://primariasector1.ro/wp-content/uploads/2024/11/Partide-PREZIDENTIALE-24.11-ora-19-v2.pdf"
+      ],
+      "note": "DNA identifica persoana condamnata numai ca administrator al unei societati comerciale, fara numele firmei ori alti identificatori publici. Un omonim apare ca presedinte al unei sectii de votare in 2024, rol tehnic nepartizan care nu dovedeste o functie politica si nici identitatea. Nu a fost gasit mandat, rol de partid, candidatura sau numire publica; profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3647",
+      "original_name": "Oprisan Georgian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3177",
+        "https://www.gds.ro/Actualitate/2007-10-10/Cercetati-pentru-o-frauda-de-88.000-de-euro-in-dauna-bugetului-Comunitatilor-Europene/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BR",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/BR.xls"
+      ],
+      "note": "Persoana condamnata este documentata exclusiv ca administrator al societatii private Modern Turism & Catering SRL Braila. Romania Curata marcheaza lipsa calitatii publice, iar lista oficiala BEC 2020 pentru Braila nu contine numele. Nu a fost gasit mandat, rol de partid, candidatura sau numire publica; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3648",
+      "original_name": "Panaghiu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2966",
+        "https://www.ziaruldeiasi.ro/stiri/doi-fugari-condamnati-pentru-fraudarea-de-fonduri-europene-decorati-de-ips-teofan--303262.html",
+        "https://adevarul.ro/stiri-locale/iasi/om-de-afaceri-urmarit-international-cere-o-1198922.html",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls"
+      ],
+      "note": "Sursele il identifica drept om de afaceri si administrator/patron al societatii private Dianthus SRL Iasi. Lista oficiala BEC 2020 pentru Iasi nu contine numele, iar cautarea exacta nu a identificat mandat, rol de partid, candidatura sau numire publica. Activitatea de ctitor ori distinctia bisericeasca nu reprezinta functie politica; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3649",
+      "original_name": "Parlog Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5675",
+        "https://reporteris.ro/exclusiv/anchete/ani-la-popricani-parlog-a-dat-sotiei-sale-toata-parloaga-comunei/",
+        "https://www.7est.ro/2017/12/familia-unuia-dintre-cei-mai-bogati-primari-nu-reuseste-sa-scape-de-blestemul-dna/",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls"
+      ],
+      "note": "Persoana condamnata este Elena Parlog, administrator al firmei private Euro-Elmar si sotia fostului primar din Popricani. Relatia de familie si contractele firmei cu primaria nu constituie un rol politic propriu. Lista oficiala BEC 2020 pentru Iasi nu contine numele, iar un omonim din administratia unei companii publice galatene nu poate fi asociat fara identificatori comuni. Profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3650",
+      "original_name": "Pascu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2508",
+        "https://timponline.ro/cine-luat-cine-uitat-bistrita-nasaud-mici-condamnati-mari-scapati/",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/BN.xls"
+      ],
+      "note": "Sursele il identifica drept om de afaceri, asociat si administrator al ANCO SRL Anies. Lista oficiala BEC 2020 pentru Bistrita-Nasaud nu contine numele, iar rezultatele politice cu nume apropiate privesc alte persoane. Nu a fost gasit mandat, rol de partid, candidatura sau numire publica; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3651",
+      "original_name": "Patrascu Tudora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2056",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_10feb2022.pdf",
+        "https://www.curteadeconturi.ro/uploads/statements/ae16fbcb/5c574829/c2e7d3fd/296192e6/cb4fdc03/2d7458a3/ffe3651d/74ddffe8/PATRASCU_G.H._GELU_A.pdf",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/CL.xls"
+      ],
+      "note": "Sursele o identifica drept presedinta asociatiei private DUNARG Oltenita si profesoara/directoare adjuncta la un liceu tehnologic. Declaratia de avere a sotului confirma identitatea profesionala, dar nu un rol politic propriu. Lista oficiala BEC 2020 pentru Calarasi nu contine numele; nu a fost gasit mandat, rol de partid, candidatura sau numire politica. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
