@@ -1,35 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-15",
   "holds": {
-    "Stan Constantin Cătălin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "single_source"
-      ],
-      "profile_id": "RV-0851"
-    },
-    "Câmpulungeanu Petruș": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0895"
-    },
-    "Pintea Adrian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0937"
-    },
-    "Popovici Florin Mădălin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0939"
-    },
     "Morega Costel Cosmin": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -3985,26 +3957,12 @@
       ],
       "profile_id": "RV-3603"
     },
-    "Grigore Marian": {
-      "held_at": "2026-09-14",
+    "Popovici Florin Mădălin": {
+      "held_at": "2026-09-15",
       "reasons": [
-        "Identitatea dintre fostul secretar al Primăriei Braniștea condamnat în 2014 și candidatul PMP din 2020 cu același nume și aceeași localitate nu este confirmată printr-o sursă biografică directă; profil ascuns până la rezolvarea coincidenței și a aparentului conflict cu interdicția de ocupare a funcțiilor publice."
+        "awaiting_current_court_decision"
       ],
-      "profile_id": "RV-0806"
-    },
-    "Cernea Elena": {
-      "held_at": "2026-09-14",
-      "reasons": [
-        "DNA confirmă condamnarea fostului secretar al Primăriei Sălătrucel, iar lista electorală din 2020 conține o candidată PSD cu același nume în aceeași comună, dar nu există încă o sursă biografică directă care să demonstreze că este aceeași persoană; profil ascuns până la rezolvarea identității politice."
-      ],
-      "profile_id": "RV-0822"
-    },
-    "Mesia Ion": {
-      "held_at": "2026-09-14",
-      "reasons": [
-        "DNA confirmă condamnarea contabilului-casier al Primăriei Sălătrucel, iar lista electorală din 2020 conține un candidat PSD cu același nume în aceeași comună, dar nu există încă o sursă biografică directă care să demonstreze că este aceeași persoană; profil ascuns până la rezolvarea identității politice."
-      ],
-      "profile_id": "RV-0823"
+      "profile_id": "RV-0939"
     }
   }
 }

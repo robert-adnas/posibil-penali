@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-15",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -57374,6 +57374,548 @@
       ],
       "note": "Achitarea definitivă este confirmată prin actualizarea oficială DNA: decizia nr. 241/15.03.2024, pentru că faptele nu există ori nu sunt prevăzute de legea penală; acțiunea civilă a fost respinsă. Mandatul și afilierea PNL sunt confirmate, iar funcția a fost trecută la forma istorică deoarece primăria are în prezent alt edil.",
       "reviewed_snapshot_hash": "430045085c8b44444f6614ed224e7d8b8c64e54957523c9a6c348861c42298af"
+    },
+    {
+      "profile_id": "RV-0833",
+      "original_name": "Bîlea Constantin",
+      "current_name": "Bîlea Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7945",
+        "https://www.acor.ro/comune-membre-acor-arges/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/primarie/oarja/2"
+      ],
+      "note": "Corectat partidul din PDL în PSD conform candidaturii din 2024; confirmat ca primar în mandatul 2024–2028. Soluția juridică este încetarea definitivă prin prescripție, decizia penală 94/06.02.2025, nu condamnare definitivă; completate acuzațiile, efectele soluției și localitatea.",
+      "reviewed_snapshot_hash": "99ff620b8c4fd1161275a69760b33a303f63252cfcd8d9ff2cda2f65d55be859"
+    },
+    {
+      "profile_id": "RV-0835",
+      "original_name": "Gherghescu Lucian",
+      "current_name": "Gherghescu Lucian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-14",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7945",
+        "https://ziarobiectiv.ro/bilantul-migratiei-in-arges/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/primarie/oarja/2"
+      ],
+      "note": "Corectat în fost viceprimar la data faptelor și afiliere PNL documentată prin candidatura la Primăria Oarja din 2024; traseul PDL–UNPR este documentat separat. Confirmată încetarea definitivă prin prescripție prin decizia penală 94/06.02.2025 și completate acuzațiile, efectele soluției și localitatea.",
+      "reviewed_snapshot_hash": "d56d7ef2ba0f8382d042bf421a6dfc81ec0cf5cd5f087a0a90450dcf83e904fb"
+    },
+    {
+      "profile_id": "RV-0849",
+      "original_name": "Diaconu Veronica",
+      "current_name": "Diaconu Veronica",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8320",
+        "https://www.observatorulph.ro/alegeri-locale-2012/14980-veronica-ioni-primarul-pdl-din-gorgota-a-trecut-la-pnl"
+      ],
+      "note": "Confirmată identitatea Veronica Diaconu, fostă Ioniță, și condamnarea definitivă nr. 801/29.06.2017. Funcția a fost trecută la forma istorică; completate localitatea, încadrarea exactă, interdicțiile și obligațiile civile.",
+      "reviewed_snapshot_hash": "34846428d960903f0bafe305ab5e97ee01c9df171999b94472d16eab745db04e"
+    },
+    {
+      "profile_id": "RV-0851",
+      "original_name": "Stan Constantin Cătălin",
+      "current_name": "Stan Constantin Cătălin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "extended",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8320",
+        "https://www.mediafax.ro/politic/noi-subprefecti-numiti-de-guvern-in-judetele-ialomita-si-prahova-2488882"
+      ],
+      "note": "Confirmate funcția publică de subprefect ocupată prin concurs și condamnarea definitivă nr. 801/29.06.2017 la 3 ani cu executare. Completate interdicțiile, obligațiile civile și o sursă independentă pentru identitate.",
+      "reviewed_snapshot_hash": "3c9f1b7478a0298d57c737dce81127d2e0121ece82cfcb62318c78ec71ab157a"
+    },
+    {
+      "profile_id": "RV-0862",
+      "original_name": "Grosu Mircea Sevastian",
+      "current_name": "Grosu Mircea Sevastian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7291",
+        "https://www.luju.ro/nimicitorul-precedent-inculpatii-care-au-fost-tinuti-la-inchisoare-dupa-decizia-ccr-405-2016-privind-dezincriminarea-partiala-a-abuzului-in-serviciu-nefiind-insa-condamnati-pentru-incalcarea-legislatiei-primare-au-dreptul-la-despagubiri-printr-o-sentinta",
+        "https://media.hotnews.ro/assets/document/2009/06/7/5797164-0.pdf"
+      ],
+      "note": "Status corectat de la condamnat la cauză închisă: prin decizia penală nr. 868/31.10.2018, ÎCCJ a constatat dezincriminate faptele și a dispus încetarea executării pedepsei. Funcția a fost trecută la forma istorică și afilierea PDL este documentată.",
+      "reviewed_snapshot_hash": "fac5f19d1e9ce6ea745a35107929c4a1038462efcdda652da30f82408a843de2"
+    },
+    {
+      "profile_id": "RV-0867",
+      "original_name": "Băloi Ion",
+      "current_name": "Băloi Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12610",
+        "https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf"
+      ],
+      "note": "Confirmată achitarea definitivă prin decizia penală nr. 769/03.12.2024 deoarece fapta nu este prevăzută de legea penală. Eliminată orice aparență de condamnare operativă și completate efectele civile și funcția istorică.",
+      "reviewed_snapshot_hash": "e23103f20c30b15afe437984ed1b4f4aa330524b978c3c35547985a9a22f0115"
+    },
+    {
+      "profile_id": "RV-0895",
+      "original_name": "Câmpulungeanu Petruș",
+      "current_name": "Câmpulungeanu Petruș",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10048",
+        "https://www.statusdosar.ro/instante/tribunalul-ilfov/dosare/sectia-penala/penal/3231/93/2020"
+      ],
+      "note": "Fostul mandat PSD confirmat; acuzațiile DNA detaliate, dosarul 3231/93/2020 încă activ pe fond și prezumția de nevinovăție explicitată.",
+      "reviewed_snapshot_hash": "89922275935698c44b7dd9c365ff6ba3d0b62ca336bde5823ed0327db53dc8eb"
+    },
+    {
+      "profile_id": "RV-0897",
+      "original_name": "Tusac Mihai Claudiu",
+      "current_name": "Tusac Mihai Claudiu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8222",
+        "https://www.ziuaconstanta.ro/stiri/justitie/decizie-de-ultim-moment-este-vizat-dosarul-lui-claudiu-tusac-fostul-primar-din-mangalia-toate-consecintele-penale-incetate-668554.html"
+      ],
+      "note": "Fostul mandat PSD confirmat; condamnarea din 2017 și încetarea tuturor consecințelor penale prin dezincriminare în 2018 sunt reprezentate separat și exact.",
+      "reviewed_snapshot_hash": "2249d6cd3cdb2b7469000e055aef3ad974704dfc5f19eaffb824d52e0eee9aac"
+    },
+    {
+      "profile_id": "RV-0898",
+      "original_name": "Lupulescu Livițuc",
+      "current_name": "Lupulescu Livițuc",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11711",
+        "https://www.comunaluncacerniidejos.ro/autoritatile-publice-locale/consiliul-local/"
+      ],
+      "note": "Identitatea și afilierea confirmate; funcția actualizată la consilier local, iar prescripția definitivă și obligațiile civile sunt redate din decizia oficială.",
+      "reviewed_snapshot_hash": "95708a13072a251db68e179ef03807e37bd2535e396fd3f2d25b3c42e0629545"
+    },
+    {
+      "profile_id": "RV-0899",
+      "original_name": "Zepa Daniel",
+      "current_name": "Zepa Daniel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11711",
+        "https://www.comunaluncacerniidejos.ro/autoritatile-publice-locale/consiliul-local/"
+      ],
+      "note": "Identitatea și afilierea confirmate; funcția actualizată la consilier local, iar prescripția definitivă și obligațiile civile sunt redate din decizia oficială.",
+      "reviewed_snapshot_hash": "088429bb8e90e1aa86d8272c708ae2d2c6501c92c4762ff6d09189dc337e749d"
+    },
+    {
+      "profile_id": "RV-0900",
+      "original_name": "Ciuhandu Gheorghe-Coriolan",
+      "current_name": "Ciuhandu Gheorghe-Coriolan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106",
+        "https://www.digi24.ro/stiri/actualitate/justitie/decizie-finala-in-dosarul-poli-timisoara-pedeapa-primita-de-fostul-primar-gheorghe-ciuhandu-1211701",
+        "https://www.libertatea.ro/stiri/stiri-timisoara-fostii-primari-nicolae-robu-si-gheorghe-ciuhandu-achitati-definitiv-in-dosarul-caselor-vandute-pe-legea-112-primele-reactii-ale-fostilor-edili-5642204"
+      ],
+      "note": "Fostul mandat PNȚCD și condamnarea definitivă din dosarul Poli Timișoara confirmate; achitarea din 2026 este explicată ca aparținând unui dosar distinct.",
+      "reviewed_snapshot_hash": "fbc492d071b94b7299ca8dfd29c50f98c90351b7d3beda736e0781b3b2657b23"
+    },
+    {
+      "profile_id": "RV-0806",
+      "original_name": "Grigore Marian",
+      "current_name": "Grigore Marian",
+      "decision": "corrected",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5156",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/primarie/branistea/"
+      ],
+      "note": "Identitatea este rezolvată prin aceeași localitate: fostul secretar Grigore Marian apare în ordine naturală ca Marian Grigore, candidat PMP la Primăria Braniștea în 2020. Profilul include acum decizia nr. 218/2014, termenul de supraveghere, interdicțiile și obligațiile civile.",
+      "reviewed_snapshot_hash": "ecb3f224d648f529a46383b4f1684e4e3aa9c0f31552fd268b93145ab393aaf1"
+    },
+    {
+      "profile_id": "RV-0822",
+      "original_name": "Cernea Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8848",
+        "https://ziaruldevalcea.ro/2014/07/conducerea-primariei-salatrucel-si-un-consilier-local-trimisi-in-judecata-de-dna-intr-un-dosar-de-coruptie/"
+      ],
+      "note": "Secretar administrativ al comunei Sălătrucel, fără mandat, candidatură ori rol politic documentat; afilierea PSD era nefundamentată și profilul a fost eliminat din domeniul proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0823",
+      "original_name": "Mesia Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8848",
+        "https://ziaruldevalcea.ro/2014/07/conducerea-primariei-salatrucel-si-un-consilier-local-trimisi-in-judecata-de-dna-intr-un-dosar-de-coruptie/"
+      ],
+      "note": "Contabil-casier administrativ al comunei Sălătrucel, fără mandat, candidatură ori rol politic documentat; afilierea PSD era nefundamentată și profilul a fost eliminat din domeniul proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0904",
+      "original_name": "Dumitru Delia-Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106",
+        "https://www.dna.ro/comunicat.xhtml?id=6674"
+      ],
+      "note": "Consilier juridic angajat al Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; achitarea definitivă este confirmată, iar profilul a fost eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0905",
+      "original_name": "Orza Adrian Romiță",
+      "current_name": "Orza Adrian Romiță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106",
+        "https://adevarul.ro/stiri-locale/timisoara/fostul-viceprimar-al-timisoarei-adrian-orza-a-2264474.html"
+      ],
+      "note": "Mandatele de viceprimar PNȚCD și consilier local, achitarea definitivă și decesul din 2023 sunt confirmate. Funcția a fost trecută la forma istorică și motivul juridic al achitării a fost precizat.",
+      "reviewed_snapshot_hash": "1eceaf93d2d194374d4f7d2cbe3b97ea2398a52a57394c744995e51831dc53fd"
+    },
+    {
+      "profile_id": "RV-0906",
+      "original_name": "Staia Martin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106"
+      ],
+      "note": "Șef de serviciu administrativ al Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0907",
+      "original_name": "Munteanu Mirel Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106"
+      ],
+      "note": "Economist angajat al Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0908",
+      "original_name": "Pintilie Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106"
+      ],
+      "note": "Funcționar public al Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0909",
+      "original_name": "Dimitriu Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106"
+      ],
+      "note": "Economist angajat al Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0910",
+      "original_name": "Miuț Nicușor Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10106"
+      ],
+      "note": "Director tehnic în aparatul Primăriei Timișoara, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0913",
+      "original_name": "Nagy Andras",
+      "current_name": "Nagy Andras",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10532",
+        "https://www.cjmures.ro/Decl_int2025/Consilieri/nagy_andras_i.pdf"
+      ],
+      "note": "Identitatea UDMR și încetarea definitivă prin prescripție sunt confirmate; funcția a fost actualizată la consilier județean Mureș, iar deciziile din 2021 și 2023 sunt separate explicit.",
+      "reviewed_snapshot_hash": "8de9533ec73ac51832a76221fe47c7a829e44b57f9bf82e4891f2ce6070d438e"
+    },
+    {
+      "profile_id": "RV-0914",
+      "original_name": "Saghin Virgil",
+      "current_name": "Saghin Virgil",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13758",
+        "https://www.monitorulsv.ro/primarul-din-vatra-moldovitei-virgil-saghin-pus-in-libertate-de-inalta-curte-a-romaniei-in-dosarul-in-care-era-condamnat-definitiv_35fef7/"
+      ],
+      "note": "Condamnarea definitivă nr. 207/2026 rămâne consemnată, dar executarea este suspendată de ÎCCJ în recursul în casație, cu termen publicat la 30 septembrie 2026; mandatul este trecut la forma istorică.",
+      "reviewed_snapshot_hash": "810aa585861925afe103f283de5d981c66431e6c45ae0bd5c739e63cf90c866f"
+    },
+    {
+      "profile_id": "RV-0915",
+      "original_name": "Niga Gabriel",
+      "current_name": "Niga Gabriel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13758",
+        "https://www.monitorulsv.ro/primarul-din-vatra-moldovitei-virgil-saghin-pus-in-libertate-de-inalta-curte-a-romaniei-in-dosarul-in-care-era-condamnat-definitiv_35fef7/"
+      ],
+      "note": "Condamnarea definitivă nr. 207/2026 rămâne consemnată, dar executarea este suspendată de ÎCCJ în recursul în casație, cu termen publicat la 30 septembrie 2026; funcția este trecută la forma istorică.",
+      "reviewed_snapshot_hash": "6ca2b32ce6d3bc04018c46981702436ae447ba98e522ed08c6058497dd75b8e6"
+    },
+    {
+      "profile_id": "RV-0916",
+      "original_name": "Boca Ana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13758"
+      ],
+      "note": "Secretar general administrativ al comunei, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului, deși condamnarea este confirmată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0917",
+      "original_name": "Lungu Ilie",
+      "current_name": "Lungu Ilie",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12406",
+        "https://jurnalfm.ro/surpriza-la-salcea-unde-a-fost-ales-un-primar-tanar-provenit-de-la-un-partid-mic/"
+      ],
+      "note": "Fostul mandat și afilierea PNL sunt confirmate; profilul include acum numărul deciziei, termenul de supraveghere, interdicțiile, munca în folosul comunității și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "8023416e7385ff20b1877dc86a92250246a216677908d8591596ab4485ab0167"
+    },
+    {
+      "profile_id": "RV-0918",
+      "original_name": "Zettel Nicoleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12406"
+      ],
+      "note": "Director de școală fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului, deși condamnarea definitivă este confirmată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0919",
+      "original_name": "Gîză Mihai",
+      "current_name": "Gîză Mihai",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12406",
+        "https://m.monitorulsv.ro/Politic-local/2014-02-13/Viceprimar-nou-in-Salcea"
+      ],
+      "note": "Mandatul de consilier local și afilierea PSD sunt confirmate; profilul include acum numărul deciziei, termenul de supraveghere, interdicțiile, munca în folosul comunității și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "b23dad261ada4c1695ab582e9e8fec1766b271d9cd73554200be6af7f449045b"
+    },
+    {
+      "profile_id": "RV-0923",
+      "original_name": "Lorinț Petru",
+      "current_name": "Lorinț Petru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8844",
+        "https://www.pressalert.ro/2016/11/primarul-bataus-din-banat-trimis-judecata-intr-un-dosar-de-frauda-cu-fonduri-europene-vezi-cum-obtinut-pe-nedrept-peste-jumatate-de-milion-de-lei/"
+      ],
+      "note": "Fostul mandat PSD și condamnarea sunt confirmate; profilul include acum decizia nr. 399/2018, termenul de supraveghere, interdicțiile, prejudiciul achitat, accesoriile, munca în folosul comunității și cheltuielile judiciare.",
+      "reviewed_snapshot_hash": "124dda1ac038099743d0536377a6d7908562575aa9ad2a884075b6ec2b65723f"
+    },
+    {
+      "profile_id": "RV-0937",
+      "original_name": "Pintea Adrian",
+      "current_name": "Pintea Adrian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13735",
+        "https://agerpres.ro/justitie/2026/07/24/dna-fostul-secretar-de-stat-adrian-pintea-trimis-in-judecata-procurorii-au-pus-sechestru-pe-un-imobi--1579104",
+        "https://agerpres.ro/2026/07/27/directorii-generali-ai-apia-si-anf-suspendati-din-functii-dupa-ce-au-fost-trimisi-in-judecata-de-dna--1579579"
+      ],
+      "note": "Statutul a fost corectat din investigat în trimis în judecată, pe baza comunicării din iulie 2026; funcția APIA suspendată, prejudiciul, sechestrul, instanța și prezumția de nevinovăție sunt explicite.",
+      "reviewed_snapshot_hash": "98b83840a8d658ed6e0c5348076caec74ce211a62fca884169bbba0ea984c14a"
+    },
+    {
+      "profile_id": "RV-0940",
+      "original_name": "Bobeș Laura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12611",
+        "https://www.dna.ro/comunicat.xhtml?id=12331"
+      ],
+      "note": "Șef de resurse umane, funcție administrativă fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului, deși acordul de recunoaștere admis definitiv este confirmat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0941",
+      "original_name": "Călin Viorela Mirabela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12611",
+        "https://www.dna.ro/comunicat.xhtml?id=12331"
+      ],
+      "note": "Funcționar public delegat ca secretar al primăriei, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului, deși acordul de recunoaștere admis definitiv este confirmat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

@@ -153,14 +153,9 @@ const SALCEA_EXAM_GEOGRAPHY = {
 
 const SALCEA_EXAM_SOURCES = [
   {
-    label: 'DNA',
+    label: 'DNA – decizia penală definitivă nr. 681/2023',
     kind: 'official',
     url: 'https://www.dna.ro/comunicat.xhtml?id=12406',
-  },
-  {
-    label: 'DNA',
-    kind: 'official',
-    url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
   },
 ];
 
@@ -32969,12 +32964,13 @@ export const politicianAdditions = [
   {
     name: 'Grigore Marian',
     party: 'PMP',
-    position: 'Secretar al Primăriei comunei Braniștea, județul Dâmbovița',
+    position: 'Candidat PMP la Primăria Braniștea în 2020; fost secretar al comunei',
     position_type: 'local_official',
     geography: {
       county: 'Dâmbovița',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de secretar al Primăriei comunei Braniștea, județul Dâmbovița.',
+      locality: 'Braniștea',
+      note: 'A fost secretar al comunei la data faptelor și candidat PMP la funcția de primar al comunei Braniștea în 2020.',
     },
     crime: 'Complicitate la fraudă cu fonduri europene; conflict de interese; fals',
     sentence: '3 ani închisoare cu suspendare',
@@ -32983,8 +32979,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 16 iulie 2014 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene, conflict de interese și fals în înscrisuri sub semnătură privată.',
-    verified_at: '2026-05-08',
+      'Prin decizia penală nr. 218 din 16 iulie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 3 ani cu suspendare, cu termen de supraveghere de 5 ani, pentru complicitate la obținerea pe nedrept de fonduri europene, conflict de interese și fals în înscrisuri sub semnătură privată în forma participației improprii. Instanța a dispus interdicții de 2 ani pentru drepturile electorale și exercitarea autorității de stat, o interdicție de 10 ani pentru ocuparea unei funcții publice și obligații civile solidare de 17.158,79 lei și 13.027,13 lei, plus accesorii; un alt prejudiciu de 18.581,12 lei fusese recuperat. În 2020 a candidat din partea PMP la Primăria Braniștea.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -32992,9 +32988,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=5156',
       },
       {
-        label: 'VotCorect',
+        label: 'Ziare.com – candidații la Primăria Braniștea în 2020',
         kind: 'press',
-        url: 'https://votcorect.ro/liste-candidati/?judet=dambovita',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/primarie/branistea/',
       },
     ],
   },
@@ -33424,62 +33420,6 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Cernea Elena',
-    party: 'PSD',
-    position: 'Secretar al Primăriei comunei Sălătrucel, județul Vâlcea',
-    position_type: 'local_official',
-    geography: {
-      county: 'Vâlcea',
-      basis: 'office',
-      note: 'Funcția relevantă a fost cea de secretar al Primăriei comunei Sălătrucel, județul Vâlcea.',
-    },
-    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la conflict de interese',
-    sentence: '2 ani și 5 luni închisoare cu suspendare',
-    sentence_years: 2.42,
-    conviction_year: 2018,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'Curtea de Apel Pitești a condamnat-o definitiv la 25 mai 2018 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și complicitate la conflict de interese.',
-    verified_at: '2026-05-09',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
-      },
-      SALATRUCEL_PREOTESCU_PARTY_SOURCE,
-    ],
-  },
-  {
-    name: 'Mesia Ion',
-    party: 'PSD',
-    position: 'Contabil-casier al Primăriei comunei Sălătrucel, județul Vâlcea',
-    position_type: 'local_official',
-    geography: {
-      county: 'Vâlcea',
-      basis: 'office',
-      note: 'Funcția relevantă a fost cea de contabil-casier al Primăriei comunei Sălătrucel, județul Vâlcea.',
-    },
-    crime: 'Complicitate la fraudă cu fonduri europene; complicitate la conflict de interese',
-    sentence: '2 ani și 5 luni închisoare cu suspendare',
-    sentence_years: 2.42,
-    conviction_year: 2018,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'Curtea de Apel Pitești l-a condamnat definitiv la 25 mai 2018 pentru complicitate la folosirea de documente false sau inexacte pentru obținerea pe nedrept de fonduri europene și complicitate la conflict de interese.',
-    verified_at: '2026-05-09',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=8848',
-      },
-      SALATRUCEL_PREOTESCU_PARTY_SOURCE,
-    ],
-  },
-  {
     name: 'Bedreag Maria',
     party: 'PNL',
     position: 'Fost viceprimar al comunei Arsura și candidată PNL la primărie (2012)',
@@ -33752,22 +33692,26 @@ export const politicianAdditions = [
   },
   {
     name: 'Bîlea Constantin',
-    party: 'PDL',
-    position: 'Primar al comunei Oarja, județul Argeș',
+    party: 'PSD',
+    position: 'Primar PSD al comunei Oarja, județul Argeș',
     position_type: 'mayor',
     geography: {
       county: 'Argeș',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Oarja, județul Argeș.',
+      locality: 'Oarja',
+      note: 'Primar al comunei Oarja în mandatul 2024–2028; a candidat din partea PSD la alegerile locale din 2024.',
     },
-    crime: 'Abuz în serviciu; complicitate la fals',
-    sentence: 'Proces încetat prin prescripție',
+    crime:
+      'Acuzații de abuz în serviciu cu obținerea unui folos necuvenit, în formă continuată, și complicitate la fals în înscrisuri sub semnătură privată',
+    sentence: 'Proces penal încetat definitiv ca urmare a prescripției la 6 februarie 2025',
     sentence_years: 0,
     conviction_year: 2025,
     status: 'prescribed',
+    execution_type: 'Prescripție',
     details:
-      'DNA Pitești l-a trimis în judecată în dosarul achizițiilor din comuna Oarja, iar actualizarea oficială din 15 aprilie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
-    verified_at: '2026-05-10',
+      'DNA Pitești l-a trimis în judecată în 2016 pentru acuzații legate de contracte și achiziții ale comunei Oarja din perioada 2012–2014. Prin decizia penală nr. 94 din 6 februarie 2025, Curtea de Apel Pitești a dispus definitiv încetarea procesului penal ca urmare a prescripției răspunderii penale. Instanța a constatat că inculpații au acoperit prejudiciul stabilit la fond și a anulat înscrisurile falsificate. Nu există o condamnare penală definitivă în acest dosar.',
+    verified_at: '2026-09-14',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
@@ -33775,9 +33719,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7945',
       },
       {
-        label: 'Argeș Plus',
+        label: 'Asociația Comunelor din România — filiala Argeș',
+        kind: 'official',
+        url: 'https://www.acor.ro/comune-membre-acor-arges/',
+        description: 'Lista pentru mandatul 2024–2028 îl indică pe Constantin Bîlea drept primar al comunei Oarja.',
+      },
+      {
+        label: 'Ziare.com — candidați locale 2024',
         kind: 'press',
-        url: 'https://argesplus.ro/pdl-arges-si-a-ales-noua-conducere/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/primarie/oarja/2',
+        description: 'Lista candidaților îl indică pe Constantin Bîlea drept candidat PSD la Primăria Oarja în 2024.',
       },
     ],
   },
@@ -33809,22 +33760,26 @@ export const politicianAdditions = [
   },
   {
     name: 'Gherghescu Lucian',
-    party: 'PDL',
-    position: 'Viceprimar al comunei Oarja, județul Argeș',
+    party: 'PNL',
+    position: 'Fost viceprimar al comunei Oarja; candidat PNL la primărie în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Argeș',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al comunei Oarja, județul Argeș.',
+      locality: 'Oarja',
+      note: 'A fost viceprimar al comunei Oarja la data faptelor și a candidat din partea PNL la primăria comunei în 2024.',
     },
-    crime: 'Complicitate la abuz în serviciu; fals intelectual; uz de fals',
-    sentence: 'Proces încetat prin prescripție',
+    crime:
+      'Acuzații de complicitate la abuz în serviciu cu obținerea unui folos necuvenit, complicitate la fals, fals intelectual și uz de fals',
+    sentence: 'Proces penal încetat definitiv ca urmare a prescripției la 6 februarie 2025',
     sentence_years: 0,
     conviction_year: 2025,
     status: 'prescribed',
+    execution_type: 'Prescripție',
     details:
-      'DNA Pitești l-a trimis în judecată în dosarul achizițiilor din comuna Oarja, iar actualizarea oficială din 15 aprilie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
-    verified_at: '2026-05-10',
+      'DNA Pitești l-a trimis în judecată în 2016 pentru acuzații legate de documente și achiziții ale comunei Oarja din perioada 2012–2014. Prin decizia penală nr. 94 din 6 februarie 2025, Curtea de Apel Pitești a dispus definitiv încetarea procesului penal ca urmare a prescripției răspunderii penale. Instanța a constatat că inculpații au acoperit prejudiciul stabilit la fond și a anulat înscrisurile falsificate. Nu există o condamnare penală definitivă în acest dosar.',
+    verified_at: '2026-09-14',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
@@ -33834,7 +33789,14 @@ export const politicianAdditions = [
       {
         label: 'Ziar Obiectiv',
         kind: 'press',
-        url: 'https://ziarobiectiv.ro/migratia-primarilor-argeseni-schimbarile-politice-in-administratia-publica-din-arges-dupa-aplicarea-oug-552014/',
+        url: 'https://ziarobiectiv.ro/bilantul-migratiei-in-arges/',
+        description: 'Îl identifică drept viceprimar al comunei Oarja și consemnează trecerea sa de la PDL la UNPR în 2014.',
+      },
+      {
+        label: 'Ziare.com — candidați locale 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/primarie/oarja/2',
+        description: 'Lista candidaților îl indică pe Lucian Gherghescu drept candidat PNL la Primăria Oarja în 2024.',
       },
     ],
   },
@@ -33994,22 +33956,25 @@ export const politicianAdditions = [
   {
     name: 'Diaconu Veronica',
     party: 'PDL',
-    position: 'Primar al comunei Gorgota, județul Prahova',
+    position: 'Fost primar PDL al comunei Gorgota, județul Prahova',
     position_type: 'mayor',
     geography: {
       county: 'Prahova',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de primar al comunei Gorgota și membru al Comisiei locale de fond funciar.',
+      locality: 'Gorgota',
+      note: 'A fost primar al comunei Gorgota și membru al Comisiei locale de fond funciar la data faptelor; a exercitat mandatele sub numele Veronica Ioniță și a trecut de la PDL la PNL în 2012.',
     },
-    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
-    sentence: '6 ani închisoare',
+    crime:
+      'Abuz în serviciu cu obținerea unui folos necuvenit și consecințe deosebit de grave',
+    sentence: '6 ani închisoare cu executare; interdicții timp de 3 ani după executarea pedepsei',
     sentence_years: 6,
     conviction_year: 2017,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Ploiești a condamnat-o definitiv la 29 iunie 2017 în dosarul retrocedării ilegale a unor terenuri din județul Prahova.',
-    verified_at: '2026-05-11',
+      'Prin decizia penală nr. 801 din 29 iunie 2017, Curtea de Apel Ploiești a condamnat-o definitiv pe Veronica Diaconu, fostă Ioniță, la 6 ani de închisoare cu executare pentru abuz în serviciu cu obținerea unui folos necuvenit și consecințe deosebit de grave. Instanța a interzis timp de 3 ani după executarea pedepsei mai multe drepturi și a obligat-o, în solidar cu alți inculpați, la plata a 2.301.250 euro și 165.000 lei către USAMV București.',
+    verified_at: '2026-09-15',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
@@ -34061,19 +34026,26 @@ export const politicianAdditions = [
       note: 'Funcția relevantă a fost cea de subprefect și membru al colectivului tehnic al Instituției Prefectului Prahova.',
     },
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
-    sentence: '3 ani închisoare',
+    sentence: '3 ani închisoare cu executare; interdicții timp de 3 ani după executarea pedepsei',
     sentence_years: 3,
     conviction_year: 2017,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'Curtea de Apel Ploiești l-a condamnat definitiv la 29 iunie 2017 în dosarul retrocedării ilegale a unor terenuri din județul Prahova.',
-    verified_at: '2026-05-11',
+      'Prin decizia penală nr. 801 din 29 iunie 2017, Curtea de Apel Ploiești l-a condamnat definitiv la 3 ani de închisoare cu executare pentru abuz în serviciu cu consecințe deosebit de grave. Instanța a interzis timp de 3 ani după executarea pedepsei mai multe drepturi și l-a obligat, în solidar cu alți inculpați, la plata a 2.301.250 euro și 165.000 lei către USAMV București. Funcția de subprefect fusese ocupată prin concurs și numire guvernamentală în 2008.',
+    verified_at: '2026-09-15',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8320',
+      },
+      {
+        label: 'Mediafax',
+        kind: 'press',
+        url: 'https://www.mediafax.ro/politic/noi-subprefecti-numiti-de-guvern-in-judetele-ialomita-si-prahova-2488882',
+        description: 'Consemnează numirea lui Constantin-Cătălin Stan ca subprefect al județului Prahova în urma unui concurs.',
       },
     ],
   },
@@ -34350,22 +34322,25 @@ export const politicianAdditions = [
   {
     name: 'Grosu Mircea Sevastian',
     party: 'PDL',
-    position: 'Viceprimar al municipiului Drobeta Turnu Severin',
+    position: 'Fost viceprimar PDL al municipiului Drobeta-Turnu Severin',
     position_type: 'local_official',
     geography: {
       county: 'Mehedinți',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar al municipiului Drobeta Turnu Severin.',
+      locality: 'Drobeta-Turnu Severin',
+      note: 'A fost viceprimar al municipiului Drobeta-Turnu Severin și consilier local ales din partea PDL.',
     },
-    crime: 'Instigare la abuz în serviciu',
-    sentence: '3 ani închisoare',
-    sentence_years: 3,
-    conviction_year: 2016,
-    status: 'convicted',
-    execution_type: 'Cu executare',
+    crime:
+      'Instigare la abuz în serviciu în formă calificată și continuată — fapte constatate ulterior ca dezincriminate',
+    sentence: 'Executarea condamnării din 2016 a încetat definitiv după constatarea dezincriminării faptelor în 2018',
+    sentence_years: null,
+    conviction_year: null,
+    status: 'closed',
+    execution_type: 'Executare încetată',
     details:
-      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 10 martie 2016 pentru instigare la abuz în serviciu în formă calificată și continuată.',
-    verified_at: '2026-05-11',
+      'ÎCCJ l-a condamnat definitiv la 10 martie 2016 la 3 ani de închisoare cu executare pentru instigare la abuz în serviciu în formă calificată și continuată. Prin decizia penală nr. 868 din 31 octombrie 2018, ÎCCJ a admis contestația la executare, a constatat dezincriminate faptele pentru care fusese condamnat și a dispus încetarea executării pedepsei. Profilul nu mai prezintă condamnarea din 2016 drept statut juridic operativ.',
+    verified_at: '2026-09-15',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
@@ -34373,9 +34348,15 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=7291',
       },
       {
-        label: 'România Curată',
+        label: 'Lumea Justiției — hotărârea privind încetarea executării',
         kind: 'press',
-        url: 'https://www.romaniacurata.ro/face-dna-dosare-politice-suprematia-psd-este-proportionala-cu-dominatia-sa-asupra-administratiei-locale/',
+        url: 'https://www.luju.ro/nimicitorul-precedent-inculpatii-care-au-fost-tinuti-la-inchisoare-dupa-decizia-ccr-405-2016-privind-dezincriminarea-partiala-a-abuzului-in-serviciu-nefiind-insa-condamnati-pentru-incalcarea-legislatiei-primare-au-dreptul-la-despagubiri-printr-o-sentinta',
+        description: 'Redă datele deciziei penale nr. 868/31.10.2018 a ÎCCJ și publică hotărârea instanței privind consecințele dezincriminării.',
+      },
+      {
+        label: 'HotNews — lista candidaților PDL la europarlamentare 2009',
+        kind: 'press',
+        url: 'https://media.hotnews.ro/assets/document/2009/06/7/5797164-0.pdf',
       },
     ],
   },
@@ -34486,18 +34467,25 @@ export const politicianAdditions = [
   {
     name: 'Băloi Ion',
     party: 'PDL',
-    position: 'Viceprimar și referent agricol în Primăria comunei Padeș, județul Gorj',
+    position: 'Fost viceprimar și referent agricol în Primăria comunei Padeș, județul Gorj',
     position_type: 'local_official',
     geography: {
       county: 'Gorj',
       basis: 'office',
-      note: 'Funcția relevantă a fost cea de viceprimar și referent agricol în Primăria comunei Padeș.',
+      locality: 'Padeș',
+      note: 'A fost viceprimar și referent agricol în Primăria comunei Padeș la data faptelor.',
     },
-    crime: 'Complicitate la fraudă cu fonduri europene',
+    crime:
+      'Acuzație de complicitate la folosirea de documente false pentru obținerea pe nedrept de fonduri europene — achitare definitivă',
+    sentence: 'Achitat definitiv la 3 decembrie 2024 deoarece fapta nu este prevăzută de legea penală',
+    sentence_years: null,
+    conviction_year: null,
     status: 'acquitted',
+    execution_type: null,
     details:
-      'După condamnarea din 22 aprilie 2024, actualizarea DNA din 14 martie 2025 consemnează achitarea definitivă dispusă de ÎCCJ în recurs în casație.',
-    verified_at: '2026-05-11',
+      'Curtea de Apel Craiova îl condamnase la 22 aprilie 2024 la 3 ani cu suspendare. Prin decizia penală nr. 769 din 3 decembrie 2024, ÎCCJ a admis recursul în casație și l-a achitat definitiv deoarece fapta nu este prevăzută de legea penală. Au fost înlăturate despăgubirile și cheltuielile judiciare stabilite penal, iar acțiunea civilă a fost lăsată nesoluționată; măsurile asigurătorii au fost menținute temporar în condițiile precizate de instanță.',
+    verified_at: '2026-09-15',
+    replace_sources: true,
     sources: [
       {
         label: 'DNA',
@@ -34650,18 +34638,19 @@ export const politicianAdditions = [
   {
     name: 'Câmpulungeanu Petruș',
     party: 'PSD',
-    position: 'Primar al comunei Pantelimon',
+    position: 'Fost primar PSD al comunei Pantelimon',
     position_type: 'mayor',
     geography: {
       county: 'Ilfov',
       basis: 'office',
       note: 'Funcția publică relevantă era în comuna Pantelimon, județul Ilfov.',
     },
-    crime: 'Instigare la abuz în serviciu, în forma participației improprii',
+    crime:
+      'Două infracțiuni de participație improprie, sub forma instigării la abuz în serviciu cu folos necuvenit, în formă continuată (154 de acte materiale)',
     status: 'indicted',
     details:
-      'DNA l-a trimis în judecată în noiembrie 2020 pentru două infracțiuni de instigare la abuz în serviciu în legătură cu documente de fond funciar emise în perioada 2004-2007.',
-    verified_at: '2026-05-13',
+      'DNA l-a trimis în judecată în noiembrie 2020, susținând că, în perioada 2004-2007, documente oficiale cu date nereale ar fi permis dobândirea nelegală a 75.549,89 mp de teren și ar fi produs comunei un prejudiciu de 2.803.013 lei. Dosarul nr. 3231/93/2020 era încă pe fond la Tribunalul Ilfov la verificare, cu termen afișat pentru 24 septembrie 2026. Acuzațiile nu reprezintă o hotărâre definitivă, iar prezumția de nevinovăție se aplică.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34669,16 +34658,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10048',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/psd/primari/fostul-primar-psd-din-pantelimon-trimis-in-judecata-pentru-instigare-la-abuz-in-servicu-1641588',
+        label: 'StatusDosar – dosarul nr. 3231/93/2020, Tribunalul Ilfov',
+        kind: 'court_portal',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-ilfov/dosare/sectia-penala/penal/3231/93/2020',
       },
     ],
   },
   {
     name: 'Tusac Mihai Claudiu',
     party: 'PSD',
-    position: 'Primar al municipiului Mangalia',
+    position: 'Fost primar PSD al municipiului Mangalia',
     position_type: 'mayor',
     geography: {
       county: 'Constanța',
@@ -34686,14 +34675,14 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în municipiul Mangalia, județul Constanța.',
     },
     crime: 'Conflict de interese, în formă continuată',
-    sentence: '1 an închisoare cu suspendare; consecințe penale încetate ulterior prin dezincriminare',
-    sentence_years: 1,
-    conviction_year: 2017,
+    sentence: 'Toate consecințele penale ale condamnării din 2017 au încetat prin dezincriminare la 23 august 2018',
+    sentence_years: null,
+    conviction_year: null,
     status: 'closed',
-    execution_type: 'Cu suspendare',
+    execution_type: 'Consecințe penale încetate',
     details:
-      'DNA a consemnat condamnarea definitivă din 15 mai 2017 pentru conflict de interese, iar actualizarea oficială din octombrie 2018 arată că instanța a constatat dezincriminarea și încetarea consecințelor penale.',
-    verified_at: '2026-05-13',
+      'Prin decizia penală nr. 169 din 15 mai 2017, ÎCCJ îl condamnase definitiv la un an cu suspendare pentru conflict de interese în formă continuată. Ulterior, prin decizia penală nr. 161/2018 din 23 august 2018, Curtea de Apel Constanța a constatat dezincriminarea faptei și încetarea tuturor consecințelor penale ale acelei condamnări.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34701,16 +34690,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8222',
       },
       {
-        label: 'DCNews',
+        label: 'Ziua de Constanța – încetarea consecințelor penale prin dezincriminare',
         kind: 'press',
-        url: 'https://www.dcnews.ro/primarul-mangaliei-detine-un-apartament-la-bruxelles-si-peste-740-000-de-euro-in-conturi_122176.html',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/decizie-de-ultim-moment-este-vizat-dosarul-lui-claudiu-tusac-fostul-primar-din-mangalia-toate-consecintele-penale-incetate-668554.html',
       },
     ],
   },
   {
     name: 'Lupulescu Livițuc',
     party: 'PNL',
-    position: 'Primar al comunei Lunca Cernii de Jos',
+    position: 'Consilier local PNL; fost primar al comunei Lunca Cernii de Jos',
     position_type: 'mayor',
     geography: {
       county: 'Hunedoara',
@@ -34719,13 +34708,14 @@ export const politicianAdditions = [
     },
     crime:
       'Dare de mită; folosire sau prezentare de documente false pentru obținerea pe nedrept de fonduri europene',
-    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence: 'Proces penal încetat definitiv prin prescripție la 15 iulie 2025',
     sentence_years: 0,
     conviction_year: 2025,
     status: 'prescribed',
+    execution_type: 'Proces încetat prin prescripție',
     details:
-      'DNA Alba Iulia l-a trimis în judecată în 2022 în dosarul APIA Lunca Cernii de Jos, iar actualizarea oficială din 25 noiembrie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
-    verified_at: '2026-05-13',
+      'DNA l-a trimis în judecată în dosarul APIA Lunca Cernii de Jos. Prin decizia penală nr. 539 din 15 iulie 2025, Curtea de Apel Alba a încetat definitiv procesul penal prin prescripție. Instanța l-a obligat în solidar cu ceilalți trei inculpați la 340.988,49 lei către APIA și, separat, în solidar cu Opriș Florin și Ioan Ovidiu Gabriel, la 422.282,95 lei, plus accesorii fiscale. Pagina oficială actuală a comunei îl listează drept consilier local, nu primar.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34733,16 +34723,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=11711',
       },
       {
-        label: 'Mesagerul Hunedorean',
-        kind: 'press',
-        url: 'https://www.mesagerulhunedorean.ro/lunca-cernii-de-jos-merge-mai-departe-cu-aceeasi-echipa-administrativa/',
+        label: 'Primăria Lunca Cernii de Jos – componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://www.comunaluncacerniidejos.ro/autoritatile-publice-locale/consiliul-local/',
       },
     ],
   },
   {
     name: 'Zepa Daniel',
     party: 'PNL',
-    position: 'Viceprimar al comunei Lunca Cernii de Jos',
+    position: 'Consilier local PNL; fost viceprimar al comunei Lunca Cernii de Jos',
     position_type: 'local_official',
     geography: {
       county: 'Hunedoara',
@@ -34751,13 +34741,14 @@ export const politicianAdditions = [
     },
     crime:
       'Dare de mită; folosire sau prezentare de documente false pentru obținerea pe nedrept de fonduri europene',
-    sentence: 'Proces penal încetat ca urmare a prescripției',
+    sentence: 'Proces penal încetat definitiv prin prescripție la 15 iulie 2025',
     sentence_years: 0,
     conviction_year: 2025,
     status: 'prescribed',
+    execution_type: 'Proces încetat prin prescripție',
     details:
-      'DNA Alba Iulia l-a trimis în judecată în 2022 în dosarul APIA Lunca Cernii de Jos, iar actualizarea oficială din 25 noiembrie 2025 consemnează încetarea definitivă a procesului penal prin prescripție.',
-    verified_at: '2026-05-13',
+      'DNA l-a trimis în judecată în dosarul APIA Lunca Cernii de Jos. Prin decizia penală nr. 539 din 15 iulie 2025, Curtea de Apel Alba a încetat definitiv procesul penal prin prescripție. Instanța l-a obligat în solidar cu ceilalți trei inculpați la 340.988,49 lei, în solidar cu Opriș Florin și Ioan Ovidiu Gabriel la 451.209,63 lei și individual la 81.242,41 lei către APIA, plus accesorii fiscale. Pagina oficială actuală a comunei îl listează drept consilier local, nu viceprimar.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34765,16 +34756,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=11711',
       },
       {
-        label: 'Mesagerul Hunedorean',
-        kind: 'press',
-        url: 'https://www.mesagerulhunedorean.ro/lunca-cernii-de-jos-merge-mai-departe-cu-aceeasi-echipa-administrativa/',
+        label: 'Primăria Lunca Cernii de Jos – componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://www.comunaluncacerniidejos.ro/autoritatile-publice-locale/consiliul-local/',
       },
     ],
   },
   {
     name: 'Ciuhandu Gheorghe-Coriolan',
     party: 'PNȚCD',
-    position: 'Primar al municipiului Timișoara',
+    position: 'Fost primar PNȚCD al municipiului Timișoara',
     position_type: 'mayor',
     geography: {
       county: 'Timiș',
@@ -34782,14 +34773,14 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
     },
     crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
-    sentence: '3 ani închisoare cu suspendare',
+    sentence: '3 ani închisoare cu suspendare, termen de supraveghere 4 ani',
     sentence_years: 3,
     conviction_year: 2019,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Timișoara l-a condamnat definitiv în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara din bugetul local.',
-    verified_at: '2026-05-14',
+      'Prin decizia penală nr. 1137 din 4 noiembrie 2019, Curtea de Apel Timișoara l-a condamnat definitiv în dosarul finanțării clubului Politehnica Timișoara din bugetul local: 3 ani cu suspendare, termen de supraveghere de 4 ani, interdicții pe 4 ani și 120 de zile de muncă în folosul comunității. A fost obligat în solidar cu alți trei inculpați la plata a 27.000.000 lei către municipiu, plus dobânda legală. Achitarea definitivă din februarie 2026 privește un alt dosar, referitor la vânzarea unor locuințe, și nu desființează această condamnare.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34797,9 +34788,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
       },
       {
-        label: 'DCNews',
+        label: 'Digi24 – decizia definitivă în dosarul Politehnica Timișoara',
         kind: 'press',
-        url: 'https://www.dcnews.ro/gheorghe-ciuhandu-renunta-la-candidatura-primariei-timisoara_178752.html',
+        url: 'https://www.digi24.ro/stiri/actualitate/justitie/decizie-finala-in-dosarul-poli-timisoara-pedeapa-primita-de-fostul-primar-gheorghe-ciuhandu-1211701',
+      },
+      {
+        label: 'Libertatea – achitarea din 2026 în dosarul distinct al locuințelor',
+        kind: 'press',
+        url: 'https://www.libertatea.ro/stiri/stiri-timisoara-fostii-primari-nicolae-robu-si-gheorghe-ciuhandu-achitati-definitiv-in-dosarul-caselor-vandute-pe-legea-112-primele-reactii-ale-fostilor-edili-5642204',
       },
     ],
   },
@@ -34884,48 +34880,21 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Dumitru Delia-Ileana',
-    party: 'Independent',
-    position: 'Consilier juridic în cadrul Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=6674',
-      },
-    ],
-  },
-  {
     name: 'Orza Adrian Romiță',
     party: 'PNȚCD',
-    position: 'Viceprimar al municipiului Timișoara',
+    position: 'Fost viceprimar PNȚCD și fost consilier local al municipiului Timișoara',
     position_type: 'local_official',
     geography: {
       county: 'Timiș',
       basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
+      locality: 'Timișoara',
+      note: 'A fost viceprimar al municipiului Timișoara între 2000 și 2012 și ulterior consilier local independent.',
     },
     crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
     status: 'acquitted',
     details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
+      'Prin decizia penală nr. 1137 din 4 noiembrie 2019, Curtea de Apel Timișoara a dispus definitiv achitarea sa în dosarul finanțării clubului Politehnica Timișoara, întrucât fapta nu este prevăzută de legea penală. Orza a fost viceprimar în perioada 2000–2012, apoi consilier local independent; a decedat la 5 mai 2023.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -34933,149 +34902,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
       },
       {
-        label: 'DCNews',
-        kind: 'press',
-        url: 'https://www.dcnews.ro/gheorghe-ciuhandu-renunta-la-candidatura-primariei-timisoara_178752.html',
-      },
-    ],
-  },
-  {
-    name: 'Staia Martin',
-    party: 'Independent',
-    position: 'Șef Serviciu Administrare Baze Sportive din cadrul Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'Știrile ProTV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
-      },
-    ],
-  },
-  {
-    name: 'Munteanu Mirel Florin',
-    party: 'Independent',
-    position: 'Economist în cadrul Direcției Economice a Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'Știrile ProTV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
-      },
-    ],
-  },
-  {
-    name: 'Pintilie Alina',
-    party: 'Independent',
-    position: 'Funcționar public în cadrul Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'Știrile ProTV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
-      },
-    ],
-  },
-  {
-    name: 'Dimitriu Mariana',
-    party: 'Independent',
-    position: 'Economist în cadrul Direcției Economice a Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'Știrile ProTV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
-      },
-    ],
-  },
-  {
-    name: 'Miuț Nicușor Constantin',
-    party: 'Independent',
-    position: 'Director al Direcției Patrimoniu din cadrul Primăriei Timișoara',
-    position_type: 'local_official',
-    geography: {
-      county: 'Timiș',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Timișoara, județul Timiș.',
-    },
-    crime: 'Complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    status: 'acquitted',
-    details:
-      'Curtea de Apel Timișoara a dispus achitarea definitivă în noiembrie 2019 în dosarul finanțării clubului Politehnica Timișoara.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10106',
-      },
-      {
-        label: 'Știrile ProTV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/stiri/actualitate/fostul-primar-al-timisoarei-gheorghe-ciuhandu-trimis-in-judecata-de-dna-edilul-este-acuzat-de-abuz-in-serviciu.html',
+        label: 'Adevărul – cariera politică și decesul lui Adrian Orza',
+        kind: 'reliable_press',
+        url: 'https://adevarul.ro/stiri-locale/timisoara/fostul-viceprimar-al-timisoarei-adrian-orza-a-2264474.html',
       },
     ],
   },
@@ -35136,21 +34965,23 @@ export const politicianAdditions = [
   {
     name: 'Nagy Andras',
     party: 'UDMR',
-    position: 'Viceprimar al municipiului Reghin; fost primar al municipiului Reghin',
+    position: 'Consilier județean UDMR Mureș; fost primar și viceprimar al municipiului Reghin',
     position_type: 'mayor',
     geography: {
       county: 'Mureș',
       basis: 'office',
-      note: 'Funcția publică relevantă era în municipiul Reghin, județul Mureș.',
+      locality: 'Reghin',
+      note: 'Este consilier județean Mureș în mandatul 2024–2028; anterior a fost primar, viceprimar și consilier local la Reghin.',
     },
     crime: 'Abuz în serviciu cu obținere de folos necuvenit, în formă continuată',
     sentence: 'Proces penal încetat prin prescripție după condamnarea definitivă inițială la 6 luni cu suspendare',
     sentence_years: 0,
     conviction_year: 2023,
     status: 'prescribed',
+    execution_type: 'Proces încetat prin prescripție',
     details:
-      'DNA a consemnat condamnarea definitivă inițială din august 2021, iar actualizarea oficială din martie 2023 arată că procesul penal a încetat prin prescripție.',
-    verified_at: '2026-05-14',
+      'Prin decizia penală nr. 364 din 11 august 2021, Curtea de Apel Târgu Mureș îl condamnase definitiv la 6 luni cu suspendare, cu termen de încercare de 2 ani și 6 luni, pentru abuz în serviciu în formă continuată. Prin decizia penală nr. 71 din 6 februarie 2023, aceeași instanță a admis contestația în anulare și a încetat definitiv procesul penal ca urmare a prescripției. Declarația oficială de interese din 2025 îl identifică drept consilier județean Mureș și președinte de onoare al UDMR Reghin.',
+    verified_at: '2026-09-15',
     sources: [
       {
         label: 'DNA',
@@ -35158,16 +34989,16 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10532',
       },
       {
-        label: 'Zi de Zi',
-        kind: 'press',
-        url: 'https://www.zi-de-zi.ro/2021/03/29/nagy-andras-de-la-primar-la-consilier-pentru-dezvoltarea-reghinului/',
+        label: 'Consiliul Județean Mureș – declarație de interese 2025',
+        kind: 'official',
+        url: 'https://www.cjmures.ro/Decl_int2025/Consilieri/nagy_andras_i.pdf',
       },
     ],
   },
   {
     name: 'Saghin Virgil',
     party: 'PNL',
-    position: 'Primar al comunei Vatra Moldoviței',
+    position: 'Fost primar PNL al comunei Vatra Moldoviței',
     position_type: 'mayor',
     geography: {
       county: 'Suceava',
@@ -35179,32 +35010,32 @@ export const politicianAdditions = [
     sentence_years: 3,
     conviction_year: 2026,
     status: 'convicted',
-    execution_type: 'Cu executare',
+    execution_type: 'Executare suspendată în recursul în casație',
     details:
-      'DNA Iași l-a trimis în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
-    verified_at: '2026-05-14',
+      'Prin decizia penală nr. 207 din 2 martie 2026, Curtea de Apel Iași l-a condamnat definitiv la 3 ani de închisoare pentru abuz în serviciu în formă continuată și i-a interzis timp de 3 ani după executare drepturile electorale și ocuparea unor funcții publice. ÎCCJ a admis în principiu recursul în casație, a suspendat executarea condamnării și a dispus punerea sa în libertate până la soluționare; termenul de rejudecare publicat este 30 septembrie 2026. Mandatul de primar fusese constatat încetat de prefect după condamnare.',
+    verified_at: '2026-09-15',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimiterea în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
       },
       {
-        label: 'Monitorul de Suceava',
-        kind: 'press',
-        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
+        label: 'DNA – decizia penală nr. 207/2026',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13758',
       },
       {
-        label: 'VIVA FM',
+        label: 'Monitorul de Suceava – suspendarea executării și termenul recursului în casație',
         kind: 'press',
-        url: 'https://vivafm.ro/stire/2026/03/04/primarul-comunei-vatra-moldovitei-condamnat-la-3-ani-de-inchisoare-cu-executare/',
+        url: 'https://www.monitorulsv.ro/primarul-din-vatra-moldovitei-virgil-saghin-pus-in-libertate-de-inalta-curte-a-romaniei-in-dosarul-in-care-era-condamnat-definitiv_35fef7/',
       },
     ],
   },
   {
     name: 'Niga Gabriel',
     party: 'PNL',
-    position: 'Viceprimar cu atribuții de primar al comunei Vatra Moldoviței',
+    position: 'Fost viceprimar cu atribuții de primar al comunei Vatra Moldoviței',
     position_type: 'local_official',
     geography: {
       county: 'Suceava',
@@ -35216,65 +35047,32 @@ export const politicianAdditions = [
     sentence_years: 3,
     conviction_year: 2026,
     status: 'convicted',
-    execution_type: 'Cu executare',
+    execution_type: 'Executare suspendată în recursul în casație',
     details:
-      'DNA Iași l-a trimis în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
-    verified_at: '2026-05-14',
+      'Prin decizia penală nr. 207 din 2 martie 2026, Curtea de Apel Iași l-a condamnat definitiv la 3 ani de închisoare pentru abuz în serviciu în formă continuată și i-a interzis timp de 3 ani după executare drepturile electorale și ocuparea unor funcții publice. ÎCCJ a admis în principiu recursul în casație, a suspendat executarea condamnării și a dispus punerea sa în libertate până la soluționare; termenul de rejudecare publicat este 30 septembrie 2026.',
+    verified_at: '2026-09-15',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimiterea în judecată',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
       },
       {
-        label: 'Monitorul de Suceava',
-        kind: 'press',
-        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
-      },
-      {
-        label: 'News Romania',
-        kind: 'press',
-        url: 'https://newsromania.net/justitie/fata-si-pensionarul-animalului-politic-din-pnl-de-la-apele-romane/',
-      },
-    ],
-  },
-  {
-    name: 'Boca Ana',
-    party: 'Independent',
-    position: 'Secretar general al comunei Vatra Moldoviței',
-    position_type: 'local_official',
-    geography: {
-      county: 'Suceava',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în comuna Vatra Moldoviței, județul Suceava.',
-    },
-    crime:
-      'Abuz în serviciu cu obținere de folos necuvenit; complicitate la abuz în serviciu cu obținere de folos necuvenit',
-    sentence: '3 ani închisoare cu suspendare',
-    sentence_years: 3,
-    conviction_year: 2026,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA Iași a trimis-o în judecată în 2021 în dosarul angajărilor și detașărilor către ABA Prut-Bârlad, iar presa locală a consemnat condamnarea definitivă din martie 2026.',
-    verified_at: '2026-05-14',
-    sources: [
-      {
-        label: 'DNA',
+        label: 'DNA – decizia penală nr. 207/2026',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=10468',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13758',
       },
       {
-        label: 'Monitorul de Suceava',
+        label: 'Monitorul de Suceava – suspendarea executării și termenul recursului în casație',
         kind: 'press',
-        url: 'https://www.monitorulsv.ro/primarul-comunei-vatra-moldovitei-virgil-saghin-condamnat-la-3-ani-de-inchisoare-in-dosarul-angajarilor-de-la-apele-romane_cce346/',
+        url: 'https://www.monitorulsv.ro/primarul-din-vatra-moldovitei-virgil-saghin-pus-in-libertate-de-inalta-curte-a-romaniei-in-dosarul-in-care-era-condamnat-definitiv_35fef7/',
       },
     ],
   },
   {
     name: 'Lungu Ilie',
     party: 'PNL',
-    position: 'Primar al orașului Salcea',
+    position: 'Fost primar PNL al orașului Salcea',
     position_type: 'mayor',
     geography: SALCEA_EXAM_GEOGRAPHY,
     crime: 'Cumpărare de influență și dare de mită, în formă continuată',
@@ -35284,31 +35082,14 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Suceava l-a condamnat definitiv în aprilie 2023 în dosarul fraudării tezelor fiului său la Evaluarea Națională.',
-    verified_at: '2026-05-15',
+      'Prin decizia penală nr. 681 din 28 aprilie 2023, Curtea de Apel Suceava l-a condamnat definitiv la 3 ani cu suspendare, cu termen de supraveghere de 3 ani, pentru cumpărare de influență și dare de mită în formă continuată, în dosarul fraudării tezelor fiului său la Evaluarea Națională. Instanța a dispus interdicții pe 2 ani, 90 de zile de muncă în folosul comunității și 3.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-15',
     sources: [...SALCEA_EXAM_SOURCES, SALCEA_LUNGU_PARTY_SOURCE],
-  },
-  {
-    name: 'Zettel Nicoleta',
-    party: 'Independent',
-    position: 'Director al Școlii Gimnaziale „Cristofor Simionescu” Plopeni',
-    position_type: 'local_official',
-    geography: SALCEA_EXAM_GEOGRAPHY,
-    crime: 'Luare de mită și complicitate la sustragerea sau distrugerea de înscrisuri',
-    sentence: '2 ani și 4 luni închisoare cu suspendare',
-    sentence_years: 2.33,
-    conviction_year: 2023,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'Curtea de Apel Suceava a condamnat-o definitiv în aprilie 2023 în dosarul fraudării tezelor de la Evaluarea Națională din Salcea.',
-    verified_at: '2026-05-15',
-    sources: SALCEA_EXAM_SOURCES,
   },
   {
     name: 'Gîză Mihai',
     party: 'PSD',
-    position: 'Consilier local al orașului Salcea; profesor de matematică la Școala Gimnazială „Cristofor Simionescu” Plopeni',
+    position: 'Fost consilier local PSD al orașului Salcea; profesor de matematică la Școala Gimnazială „Cristofor Simionescu” Plopeni',
     position_type: 'local_official',
     geography: SALCEA_EXAM_GEOGRAPHY,
     crime:
@@ -35319,8 +35100,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Suceava l-a condamnat definitiv în aprilie 2023 în dosarul fraudării tezelor de la Evaluarea Națională din Salcea.',
-    verified_at: '2026-05-15',
+      'Prin decizia penală nr. 681 din 28 aprilie 2023, Curtea de Apel Suceava l-a condamnat definitiv la 2 ani și 10 luni cu suspendare, cu termen de supraveghere de 3 ani, pentru trafic de influență, complicitate la dare de mită și instigare la sustragerea sau distrugerea de înscrisuri în formă continuată, în dosarul fraudării Evaluării Naționale. Instanța a dispus interdicții pe 2 ani, inclusiv exercitarea profesiei didactice, 90 de zile de muncă în folosul comunității și 3.000 lei cheltuieli judiciare.',
+    verified_at: '2026-09-15',
     sources: [...SALCEA_EXAM_SOURCES, SALCEA_GIZA_PARTY_SOURCE],
   },
   {
@@ -35377,7 +35158,7 @@ export const politicianAdditions = [
   {
     name: 'Lorinț Petru',
     party: 'PSD',
-    position: 'Primar al comunei Domașnea',
+    position: 'Fost primar PSD al comunei Domașnea',
     position_type: 'mayor',
     geography: DOMASNEA_APIA_GEOGRAPHY,
     crime:
@@ -35388,8 +35169,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Timișoara l-a condamnat definitiv în aprilie 2018 în dosarul APIA privind pajiștile alpine ale comunei Domașnea.',
-    verified_at: '2026-05-15',
+      'Prin decizia penală nr. 399 din 5 aprilie 2018, Curtea de Apel Timișoara l-a condamnat definitiv la 2 ani și 9 luni cu suspendare, cu termen de supraveghere de 4 ani, pentru fraudă cu fonduri europene în formă continuată, fals intelectual și uz de fals. Instanța a dispus interdicții pe 2 ani, 90 de zile de muncă în folosul comunității, plata solidară a 316.262,99 lei accesorii fiscale și 20.600 lei cheltuieli judiciare; prejudiciul principal de 557.681,50 lei fusese achitat integral și înscrisurile falsificate au fost desființate.',
+    verified_at: '2026-09-15',
     sources: [DOMASNEA_DNA_SOURCE, DOMASNEA_LORINT_PARTY_SOURCE],
   },
   {
@@ -35581,16 +35362,29 @@ export const politicianAdditions = [
   {
     name: 'Pintea Adrian',
     party: 'PSD',
-    position: 'Secretar de stat în Ministerul Agriculturii și Dezvoltării Rurale',
+    position: 'Fost secretar de stat PSD; director general APIA suspendat din funcție în iulie 2026',
     position_type: 'secretary_of_state',
     geography: MADR_FITOSANITAR_GEOGRAPHY,
     crime:
       'Instigare la abuz în serviciu cu obținere de foloase necuvenite pentru altul, în formă continuată',
-    status: 'investigated',
+    status: 'indicted',
     details:
-      'DNA Suceava a dispus în mai 2026 punerea în mișcare a acțiunii penale, susținând că ar fi determinat transferul pretins nelegal al unei persoane de la Camera Deputaților la Autoritatea Națională Fitosanitară și apoi la OJF Botoșani.',
-    verified_at: '2026-05-19',
-    sources: [MADR_FITOSANITAR_DNA_SOURCE, ADRIAN_PINTEA_PARTY_SOURCE],
+      'DNA Suceava l-a trimis în judecată în iulie 2026, în stare de libertate, susținând că, în calitate de secretar de stat, ar fi determinat transferul pretins nelegal al unei persoane de la Camera Deputaților la Autoritatea Națională Fitosanitară și apoi la OJF Botoșani. Prejudiciul imputat este de 148.542 lei, ANF s-a constituit parte civilă, iar procurorii au instituit sechestru asupra unui imobil. Dosarul a fost trimis Tribunalului București. MADR i-a suspendat raportul de serviciu ca director general APIA. Acuzațiile nu reprezintă o hotărâre definitivă, iar prezumția de nevinovăție se aplică.',
+    verified_at: '2026-09-15',
+    sources: [
+      MADR_FITOSANITAR_DNA_SOURCE,
+      ADRIAN_PINTEA_PARTY_SOURCE,
+      {
+        label: 'AGERPRES – trimiterea în judecată și sechestrul',
+        kind: 'reliable_media',
+        url: 'https://agerpres.ro/justitie/2026/07/24/dna-fostul-secretar-de-stat-adrian-pintea-trimis-in-judecata-procurorii-au-pus-sechestru-pe-un-imobi--1579104',
+      },
+      {
+        label: 'AGERPRES / MADR – suspendarea conducerii APIA',
+        kind: 'official',
+        url: 'https://agerpres.ro/2026/07/27/directorii-generali-ai-apia-si-anf-suspendati-din-functii-dupa-ce-au-fost-trimisi-in-judecata-de-dna--1579579',
+      },
+    ],
   },
   {
     name: 'Romeo Șoldea',
@@ -35621,53 +35415,24 @@ export const politicianAdditions = [
   {
     name: 'Popovici Florin Mădălin',
     party: 'PSD',
-    position: 'Viceprimar al comunei Sârbi',
+    position: 'Consilier local PSD; fost viceprimar al comunei Sârbi',
     position_type: 'local_official',
     geography: SARBI_ISCTR_GEOGRAPHY,
     crime:
       'Complicitate la dare de mită; efectuare de operațiuni financiare incompatibile cu funcția publică',
     status: 'indicted',
     details:
-      'DNA Cluj l-a trimis în judecată în martie 2024 în dosarul ISCTR privind divulgarea de informații despre controale rutiere și protejarea unor operatori de transport.',
-    verified_at: '2026-05-19',
-    sources: [SARBI_ISCTR_DNA_SOURCE, SARBI_PARTY_SOURCE],
-  },
-  {
-    name: 'Bobeș Laura',
-    party: 'Independent',
-    position: 'Șef al Serviciului Resurse Umane din cadrul Primăriei Constanța',
-    position_type: 'local_official',
-    geography: CONSTANTA_SECRETAR_CONTEST_GEOGRAPHY,
-    crime:
-      'Folosirea de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații',
-    sentence: '1 an închisoare cu amânarea aplicării pedepsei',
-    sentence_years: 1,
-    conviction_year: 2024,
-    status: 'convicted',
-    execution_type: 'Amânarea aplicării pedepsei',
-    details:
-      'Tribunalul Constanța a admis definitiv, prin neapelare în aprilie 2024, acordul de recunoaștere a vinovăției în dosarul concursului pentru funcția de secretar general al municipiului Constanța.',
-    verified_at: '2026-05-19',
-    sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
-  },
-  {
-    name: 'Călin Viorela Mirabela',
-    party: 'Independent',
-    position:
-      'Funcționar public delegat în funcția de secretar al Primăriei municipiului Constanța',
-    position_type: 'local_official',
-    geography: CONSTANTA_SECRETAR_CONTEST_GEOGRAPHY,
-    crime:
-      'Complicitate la folosirea de informații ce nu sunt destinate publicității ori permiterea accesului unor persoane neautorizate la aceste informații',
-    sentence: '1 an închisoare cu amânarea aplicării pedepsei',
-    sentence_years: 1,
-    conviction_year: 2024,
-    status: 'convicted',
-    execution_type: 'Amânarea aplicării pedepsei',
-    details:
-      'Tribunalul Constanța a admis definitiv, prin neapelare în aprilie 2024, acordul de recunoaștere a vinovăției în dosarul concursului pentru funcția de secretar general al municipiului Constanța.',
-    verified_at: '2026-05-19',
-    sources: [CONSTANTA_SECRETAR_CONTEST_DNA_SOURCE, CONSTANTA_SECRETAR_CONTEST_INITIAL_DNA_SOURCE],
+      'DNA Cluj l-a trimis în judecată în martie 2024, susținând că ar fi intermediat foloase pentru inspectori ISCTR și că, în perioada aprilie 2022–august 2023, ar fi administrat în fapt o firmă de transport, incompatibil cu funcția de viceprimar. În mai 2025, DNA a cerut restituirea cauzei nr. 1555/117/2024/a1 pentru reluarea urmăririi penale; rezultatul definitiv al procedurii de cameră preliminară nu a putut fi confirmat. Pagina actuală a comunei îl listează consilier local PSD. Profilul rămâne ascuns până la clarificarea stadiului judiciar.',
+    verified_at: '2026-09-15',
+    sources: [
+      SARBI_ISCTR_DNA_SOURCE,
+      SARBI_PARTY_SOURCE,
+      {
+        label: 'DNews24 – cererea DNA de restituire a cauzei în 2025',
+        kind: 'press',
+        url: 'https://dnews24.ro/cerere-de-restituire-in-dosarul-isctr-dosarul-se-reintoarce-la-dna-cluj/',
+      },
+    ],
   },
   {
     name: 'Morega Costel Cosmin',
