@@ -58523,6 +58523,264 @@
       ],
       "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
       "reviewed_snapshot_hash": "33740aa2164e167318907763c04494ce90ff303d56bd885f551dd5a2b5ea167a"
+    },
+    {
+      "profile_id": "RV-0989",
+      "original_name": "Istrati Igori",
+      "current_name": "Istrati Igori",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3571",
+        "https://www.dna.ro/comunicat.xhtml?id=2267",
+        "https://www.primariamiroslava.ro/wp-content/uploads/2020/11/ziar_2020_10.pdf",
+        "https://static.anaf.ro/static/1/Iasi/20260220131236_anunt_ajfpiasi_20260220_320146_20-02-2026.pdf",
+        "https://www.hotnews.ro/wp-content/uploads/2024/11/1730735995-lista-candidat-senat-parlamentare-2024.pdf",
+        "https://www.ziaruldeiasi.ro/stiri/trafic-in-numele-prefectului--6v0s.html"
+      ],
+      "note": "Condamnarea definitivă la 4 ani pentru trafic de influență este confirmată de DNA. Identitatea candidatului este susținută de numele rar, cetățenia româno-moldoveană, localizarea în Iași și continuitatea firmei Royal Imobiliare, confirmată contemporan și de ANAF în 2026. Actualizate partidul și poziția cu candidatura ANC la Senat în Vaslui din 2024, păstrând candidatura PER la Primăria Miroslava din 2020.",
+      "reviewed_snapshot_hash": "fbdeb56077dd954a3767193313faeabe2a0f18d125cb2973db482ffe1b8167f8"
+    },
+    {
+      "profile_id": "RV-0988",
+      "original_name": "Juncu Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls"
+      ],
+      "note": "Eliminat conservator: DNA identifică un administrator de societate numit Mihai Juncu, iar sursa electorală un candidat ALDE omonim în Odobești, Bacău. Coincidența de nume și județ, fără firmă, vârstă, domiciliu sau alt identificator comun, nu permite atribuirea condamnării candidatului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0990",
+      "original_name": "Mariș Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls"
+      ],
+      "note": "Eliminat conservator: comunicatul DNA include chiar două inculpate distincte numite Mariș Maria și nu publică identificatori care să lege vreuna dintre ele de candidata PER din Dragomirești. Numele și județul sunt insuficiente pentru atribuirea condamnării.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0991",
+      "original_name": "Muntean Iacob-Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls"
+      ],
+      "note": "Eliminat conservator: sursele DNA și electorale conțin același nume și același județ, dar nu oferă localitate, vârstă, ocupație ori alt identificator comun care să demonstreze că persoana condamnată este candidatul ALDE din Poienile Izei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0992",
+      "original_name": "Belea Simion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls"
+      ],
+      "note": "Eliminat conservator: sursele DNA și electorale conțin același nume și același județ, dar nu oferă localitate, vârstă, ocupație ori alt identificator comun care să demonstreze că persoana condamnată este candidatul PER din Poienile Izei.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0993",
+      "original_name": "Sas Daniel-Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls"
+      ],
+      "note": "Eliminat conservator: sursele DNA și electorale conțin același nume și același județ, dar nu oferă localitate, vârstă, ocupație ori alt identificator comun care să demonstreze că persoana condamnată este candidatul ALDE din Șieu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0939",
+      "original_name": "Popovici Florin Mădălin",
+      "current_name": "Popovici Florin Mădălin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12507",
+        "https://www.dna.ro/obiect2.jsp?id=745",
+        "https://comunasarbi.ro/componenta-consiliului-local/"
+      ],
+      "note": "Identitatea și rolul politic sunt confirmate. Statusul a fost corectat din trimis în judecată în cercetat: DNA consemnează că încheierea definitivă nr. 308 din 19 iunie 2025 a Curții de Apel Cluj a restituit cauza la parchet. Nu a fost identificată până la 15 septembrie 2026 o nouă trimitere în judecată sau clasare.",
+      "reviewed_snapshot_hash": "63e0bafcf502cb8be6e0180a12b1079fd143bcf76ae423471eecdc680f3261ad"
+    },
+    {
+      "profile_id": "RV-0995",
+      "original_name": "Suciu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134",
+        "https://www.apateu.ro/wp-content/uploads/2024/05/PV-CONSTATARE-CANDIDATURI-FINALE-2024.pdf",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Eliminat conservator. DNA publică doar numele comun Suciu Ioan într-un dosar colectiv și îl descrie drept persoană fără calitate specială; documentul electoral oficial îl identifică pe candidatul PMP din Apateu ca muncitor calificat/stivuitorist. Nu există firmă, vârstă, domiciliu ori alt identificator comun care să permită atribuirea condamnării candidatului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0996",
+      "original_name": "Sarpe Ionel Petrisor",
+      "current_name": "Șarpe Ionel Petrișor",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1927",
+        "https://global-uploads.webflow.com/61af3cda2992ef5d359de56d/622a35afcf2139d8b057f7e1_Statutul%20Comunei%20Bradu.pdf",
+        "https://assets-global.website-files.com/61af3cda2992ef5d359de56d/6225f04656723ab7491ced4d_Realitatea%20Bradului%2032%20Octombrie%202020.pdf",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx",
+        "https://www.gds.ro/Actualitate/2008-09-18/Arges-Grupul-permiselor-auto-trimis-in-judecata/"
+      ],
+      "note": "Corectate diacriticele numelui, rolul politic și infracțiunea. DNA confirmă condamnarea definitivă la 2 ani cu suspendare pentru cumpărare de influență; sursa contemporană îl identifică drept subofițer ISU Argeș. Documentele locale confirmă că persoana cu același nume complet rar a fost consilier local PSD în Bradu în mandatul 2020–2024 și a candidat din nou în 2024.",
+      "reviewed_snapshot_hash": "327620415592bcecc4cc1b010bdfd94965c5135b4a140140631c725b7574ca5f"
+    },
+    {
+      "profile_id": "RV-0997",
+      "original_name": "Darie Irinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html",
+        "https://www.primariacomanesti.ro/docs/avere/2021/consilieri/daDarieIrinel.pdf",
+        "https://www.primariacomanesti.ro/consilieri-locali.html"
+      ],
+      "note": "Eliminat conservator. Persoana din dosarul penal este descrisă numai ca Irinel Darie, candidat la bacalaureat în cauza de la Podu Turcului. Sursele oficiale confirmă un consilier local PNL omonim în Comănești și PFA-ul său, dar nu există vârstă, localitate, ocupație ori alt identificator comun care să demonstreze că este aceeași persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0998",
+      "original_name": "Galatanu Costica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Eliminat conservator. Dosarul penal îl identifică pe Costică Gălățanu numai ca participant la bacalaureatul de la Podu Turcului, fără localitate, vârstă sau ocupație. Registrul electoral conține un candidat omonim în Orbeni (de fapt pe lista ADU, nu PMP), dar nu există identificatori comuni care să demonstreze că este aceeași persoană.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1000",
+      "original_name": "Olaru Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Eliminat conservator. În cauza Podu Turcului, Gheorghe Olaru este menționat doar ca intermediar, fără localitate, vârstă sau ocupație. Sursa electorală confirmă un candidat PNL omonim în Mănăstirea Cașin, însă numele foarte comun și județul nu sunt suficiente pentru atribuirea condamnării.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1001",
+      "original_name": "Rusu Romel",
+      "current_name": "Rusu Romel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://www.comunamotoseni.ro/autoritatile-publice-locale/consiliul-local/",
+        "https://emol.ro/pluginfile.php/1/local_emol/documentanexa/485/Anexa-nr-6-la-Statutul-comunei-Motoseni-judetul-Bacaupdf.pdf",
+        "https://adevarul.ro/stiri-locale/bacau/condamnari-in-masa-in-dosarul-bacului-corupt-de-1453346.html"
+      ],
+      "note": "Păstrat pe baza convergenței numelui rar, zonei Motoșeni–Podu Turcului și contextului local al dosarului. DNA confirmă condamnarea definitivă la 8 luni cu suspendare pentru cumpărare de influență. Documentele oficiale locale indică data nașterii 22 august 1971, mandat de consilier din 2018 și calitatea actuală de consilier local PNL.",
+      "reviewed_snapshot_hash": "3fc6e2cc9b27de64c0f3147fe8e59d8d4a29894170b93f1c9732d0f277ce4b4d"
+    },
+    {
+      "profile_id": "RV-1002",
+      "original_name": "Tataru Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Eliminat conservator. Persoana condamnată în dosarul bacalaureatului este identificată doar prin numele foarte comun Vasile Tătaru. Candidatul PNL din Lipova a candidat inclusiv la funcția de primar în 2024, dar nicio sursă nu publică o localitate, vârstă, ocupație sau alt identificator comun cu persoana din dosarul penal; există și alți omonimi în județ.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

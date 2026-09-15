@@ -59,6 +59,7 @@ export const excludedPoliticianNames = new Set([
   'Cruceanu Daniel',
   'Dascalu Carmen Mironel',
   'Dascalu Vasile-Dorin',
+  'Darie Irinel',
   'Dinculescu Marin',
   'Drăghici Elena',
   'Duca Alexandru',
@@ -73,6 +74,7 @@ export const excludedPoliticianNames = new Set([
   'Folea Adriana Simona',
   'Fortan Coleta',
   'Floroiu Laurențiu Constantin',
+  'Galatanu Costica',
   'Georgescu Claudia Liliana',
   'Gheorghe Dan Laurentiu',
   'Giuseppe Moriello',
@@ -112,6 +114,7 @@ export const excludedPoliticianNames = new Set([
   'Moldovan-Verdeș Doina-Adriana',
   'Moreanu Castelia',
   'Oana Vasilescu',
+  'Olaru Gheorghe',
   'Oproescu Dumitru',
   'Pădureanu Sabina',
   'Păuna Aida-Gabriela',
@@ -129,7 +132,14 @@ export const excludedPoliticianNames = new Set([
   'Sotir Simona Mariana',
   'Spătaru Nelu Eugen',
   'Stoica Florin',
+  'Suciu Ioan',
+  'Juncu Mihai',
+  'Mariș Maria',
+  'Muntean Iacob-Petru',
+  'Belea Simion',
+  'Sas Daniel-Gabriel',
   'Titus Găgeatu',
+  'Tataru Vasile',
   'Tudoroiu Constantin Izabel',
   'Țiplea Ioan',
   'Vasile Tudora',
@@ -11866,6 +11876,154 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Rusu Romel': {
+    replace_sources: true,
+    party: 'PNL',
+    position: 'Consilier local PNL al comunei Motoșeni, județul Bacău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      locality: 'Motoșeni',
+      note:
+        'Site-ul oficial al comunei îl listează în actualul Consiliu Local Motoșeni; istoricul oficial indică participarea sa în consiliu din 2018 și data nașterii 22 august 1971.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '8 luni închisoare cu suspendare',
+    sentence_years: 0.67,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 3.352 din 19 octombrie 2012, Înalta Curte de Casație și Justiție a menținut condamnarea definitivă a lui Rusu Romel la 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență, în dosarul fraudării bacalaureatului de la Podu Turcului. Sursele contemporane îl identifică drept fost candidat la examen. Documentele oficiale ale comunei Motoșeni îl consemnează ca ales local PNL din 2018, cu data nașterii 22 august 1971, iar site-ul actual al comunei îl listează în continuare ca membru al consiliului local. Identificarea este susținută de numele rar, proximitatea geografică și contextul local al dosarului, în care un alt inculpat este identificat explicit drept consilier din Motoșeni.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3620',
+      },
+      {
+        label: 'Primăria Motoșeni — componența actuală a consiliului local',
+        kind: 'official',
+        url: 'https://www.comunamotoseni.ro/autoritatile-publice-locale/consiliul-local/',
+      },
+      {
+        label: 'Primăria Motoșeni — istoricul consilierilor locali',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentanexa/485/Anexa-nr-6-la-Statutul-comunei-Motoseni-judetul-Bacaupdf.pdf',
+      },
+      {
+        label: 'Adevărul — condamnările din dosarul bacalaureatului',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/bacau/condamnari-in-masa-in-dosarul-bacului-corupt-de-1453346.html',
+      },
+    ],
+  },
+  'Sarpe Ionel Petrisor': {
+    replace_sources: true,
+    name: 'Șarpe Ionel Petrișor',
+    party: 'PSD',
+    position: 'Fost consilier local PSD al comunei Bradu (mandatul 2020–2024); candidat la un nou mandat în 2024',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      locality: 'Bradu',
+      note:
+        'Documentele comunei Bradu îl confirmă drept consilier local PSD în mandatul început în 2020, iar registrul electoral confirmă o nouă candidatură în 2024.',
+    },
+    crime: 'Cumpărare de influență',
+    sentence: '2 ani închisoare cu suspendare',
+    sentence_years: 2,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 747 din 21 iunie 2010, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Șarpe Ionel Petrișor la 2 ani de închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru cumpărare de influență. Documentarea contemporană a trimiterii în judecată îl identifica drept subofițer în cadrul ISU Argeș. Publicația și statutul comunei Bradu îl confirmă ulterior drept consilier local PSD în mandatul 2020–2024, iar lista electorală oficială consemnează candidatura sa la un nou mandat în 2024. Identificarea este susținută de numele complet rar și de continuitatea geografică în județul Argeș.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1927',
+      },
+      {
+        label: 'Primăria Bradu — statutul comunei și componența consiliului local',
+        kind: 'official',
+        url: 'https://global-uploads.webflow.com/61af3cda2992ef5d359de56d/622a35afcf2139d8b057f7e1_Statutul%20Comunei%20Bradu.pdf',
+      },
+      {
+        label: 'Primăria Bradu — constituirea Consiliului Local în 2020',
+        kind: 'official',
+        url: 'https://assets-global.website-files.com/61af3cda2992ef5d359de56d/6225f04656723ab7491ced4d_Realitatea%20Bradului%2032%20Octombrie%202020.pdf',
+      },
+      {
+        label: 'BEC — candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Gazeta de Sud — trimiterea în judecată și ocupația',
+        kind: 'press',
+        url: 'https://www.gds.ro/Actualitate/2008-09-18/Arges-Grupul-permiselor-auto-trimis-in-judecata/',
+      },
+    ],
+  },
+  'Istrati Igori': {
+    replace_sources: true,
+    party: 'ANC',
+    position: 'Candidat ANC la Senat în circumscripția Vaslui (2024); candidat PER la Primăria Miroslava (2020)',
+    position_type: 'other',
+    geography: {
+      county: 'Iași',
+      basis: 'political_base',
+      locality: 'Miroslava',
+      note:
+        'Sursele judiciare și comerciale îl localizează în Iași, iar publicația oficială a comunei Miroslava confirmă candidatura sa la primărie din 2020.',
+    },
+    crime: 'Trafic de influență',
+    sentence: '4 ani închisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penală nr. 3.137 din 4 octombrie 2012, Înalta Curte de Casație și Justiție a menținut condamnarea definitivă a lui Istrati Igori la 4 ani de închisoare în regim de detenție pentru trafic de influență. DNA îl identifică drept persoană cu dublă cetățenie română și moldoveană, iar documentarea contemporană a cauzei îl leagă de Iași, de activitatea politică din Republica Moldova și de firma Royal Imobiliare SRL. Un anunț ANAF din 2026 confirmă același nume rar ca administrator al aceleiași firme în Iași. Publicația oficială a comunei Miroslava confirmă candidatura PER la primărie din 2020, iar lista centralizată a candidaților la parlamentarele din 2024 îl indică drept candidat ANC la Senat în Vaslui. Convergența numelui rar, a biografiei, localizării și firmei susține identificarea ca aceeași persoană.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3571',
+      },
+      {
+        label: 'DNA — trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2267',
+      },
+      {
+        label: 'Primăria Miroslava — rezultatele alegerilor locale din 2020',
+        kind: 'official',
+        url: 'https://www.primariamiroslava.ro/wp-content/uploads/2020/11/ziar_2020_10.pdf',
+      },
+      {
+        label: 'ANAF Iași — anunț privind Royal Imobiliare SRL',
+        kind: 'official',
+        url: 'https://static.anaf.ro/static/1/Iasi/20260220131236_anunt_ajfpiasi_20260220_320146_20-02-2026.pdf',
+      },
+      {
+        label: 'Lista centralizată a candidaților la Senat — alegeri 2024',
+        kind: 'press',
+        url: 'https://www.hotnews.ro/wp-content/uploads/2024/11/1730735995-lista-candidat-senat-parlamentare-2024.pdf',
+      },
+      {
+        label: 'Ziarul de Iași — profilul contemporan al inculpatului',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/trafic-in-numele-prefectului--6v0s.html',
+      },
+    ],
+  },
   'Ionita Nistor': {
     replace_sources: true,
     party: 'PSD',
@@ -35450,17 +35608,17 @@ export const politicianAdditions = [
     geography: SARBI_ISCTR_GEOGRAPHY,
     crime:
       'Complicitate la dare de mită; efectuare de operațiuni financiare incompatibile cu funcția publică',
-    status: 'indicted',
+    status: 'investigated',
     details:
-      'DNA Cluj l-a trimis în judecată în martie 2024, susținând că ar fi intermediat foloase pentru inspectori ISCTR și că, în perioada aprilie 2022–august 2023, ar fi administrat în fapt o firmă de transport, incompatibil cu funcția de viceprimar. În mai 2025, DNA a cerut restituirea cauzei nr. 1555/117/2024/a1 pentru reluarea urmăririi penale; rezultatul definitiv al procedurii de cameră preliminară nu a putut fi confirmat. Pagina actuală a comunei îl listează consilier local PSD. Profilul rămâne ascuns până la clarificarea stadiului judiciar.',
+      'DNA Cluj l-a trimis în judecată în martie 2024, susținând că ar fi intermediat foloase pentru inspectori ISCTR și că, în perioada aprilie 2022–august 2023, ar fi administrat în fapt o firmă de transport, incompatibil cu funcția de viceprimar. Prin încheierea definitivă nr. 308 din 19 iunie 2025, Curtea de Apel Cluj a restituit cauza la DNA Cluj; în consecință, persoana nu mai poate fi descrisă ca trimisă în judecată în acel dosar, iar profilul este clasificat conservator drept cercetat. Pagina actuală a comunei îl listează consilier local PSD. Nu a fost identificată până la 15 septembrie 2026 o nouă trimitere în judecată ori o soluție de clasare, astfel că profilul rămâne ascuns.',
     verified_at: '2026-09-15',
     sources: [
       SARBI_ISCTR_DNA_SOURCE,
       SARBI_PARTY_SOURCE,
       {
-        label: 'DNews24 – cererea DNA de restituire a cauzei în 2025',
-        kind: 'press',
-        url: 'https://dnews24.ro/cerere-de-restituire-in-dosarul-isctr-dosarul-se-reintoarce-la-dna-cluj/',
+        label: 'DNA — restituirea definitivă a cauzei la parchet',
+        kind: 'official',
+        url: 'https://www.dna.ro/obiect2.jsp?id=745',
       },
     ],
   },

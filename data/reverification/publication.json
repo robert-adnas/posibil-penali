@@ -3712,13 +3712,6 @@
       ],
       "profile_id": "RV-3603"
     },
-    "Popovici Florin Mădălin": {
-      "held_at": "2026-09-15",
-      "reasons": [
-        "awaiting_current_court_decision"
-      ],
-      "profile_id": "RV-0939"
-    },
     "Măcrineanu Ana Cornelia": {
       "held_at": "2026-09-15",
       "reasons": [
@@ -3865,6 +3858,13 @@
         "insufficient_current_evidence"
       ],
       "profile_id": "RV-0985"
+    },
+    "Popovici Florin Mădălin": {
+      "held_at": "2026-09-15",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0939"
     }
   }
 }
