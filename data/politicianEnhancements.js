@@ -9039,8 +9039,8 @@ const AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES = {
 const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
   {
     name: 'Lupea Ioana Mădălina',
-    party: 'Pro Romania',
-    position: 'Consilier județean în cadrul Consiliului Județean Prahova',
+    party: 'PNL',
+    position: 'Fost consilier județean în cadrul Consiliului Județean Prahova; mandat încheiat în 2026',
     position_type: 'local_official',
     geography: {
       county: 'Prahova',
@@ -9048,13 +9048,28 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, începând cu 15 iunie 2021, ar fi exercitat simultan mandatul de consilier județean și o funcție contractuală de conducere într-o societate de interes național cu sediul în Ploiești.',
+      'ANI a constatat în decembrie 2022 o stare de incompatibilitate începând cu 15 iunie 2021, prin exercitarea simultană a mandatului de consilier județean și a unei funcții contractuale de conducere la CONPET. Contestația a fost respinsă definitiv de ÎCCJ la 5 februarie 2026, iar Lupea și-a dat demisia din Consiliul Județean în februarie 2026.',
     verified_at: '2026-06-16',
     sources: [
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.prahovaCountyCouncil2020,
+      {
+        label: 'Consiliul Județean Prahova',
+        kind: 'official',
+        url: 'https://cjph.ro/personal/lupea-ioana-madalina/',
+      },
+      {
+        label: 'Prahova Info',
+        kind: 'press',
+        url: 'https://prahovainfo.ro/politica/13364-m%C4%83d%C4%83lina-lupea%2C-consilier-jude%C8%9Bean-pnl%2C-a-pierdut-definitiv-procesul-cu-agen%C8%9Bia-na%C8%9Bional%C4%83-de-integritate.html',
+      },
+      {
+        label: 'Observatorul Prahovean',
+        kind: 'press',
+        url: 'https://www.observatorulph.ro/administratie/2780355-madalina-lupea-si-a-dat-demisia-din-consiliul-judetean-prahova',
+      },
     ],
   },
   {
@@ -9068,7 +9083,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Primăria și Consiliul Local Cosmești, județul Galați.',
     },
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, în mandatul local, ar fi participat la hotărâri prin care bugetul local aloca bani unui club sportiv în care era director, iar fiul său avea o funcție contractuală; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
     verified_at: '2026-06-16',
@@ -9088,13 +9103,18 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Corabia, județul Olt.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la ședința privind impozitele și taxele locale pentru 2022 fără să anunțe interesul personal legat de o clădire nerezidențială deținută ca persoană fizică.',
     verified_at: '2026-06-16',
     sources: [
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.corabiaCouncil2020,
+      {
+        label: 'Primăria Corabia - Consiliul Local',
+        kind: 'official',
+        url: 'https://www.primariacorabia.ro/autoritatile-publice-locale/consiliul-local/',
+      },
     ],
   },
   {
@@ -9108,13 +9128,18 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Dumbrava, județul Mehedinți.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, începând cu 29 octombrie 2020, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Dumbrava.',
     verified_at: '2026-06-16',
     sources: [
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.dumbravaMehedintiCouncil2020,
+      {
+        label: 'Comuna Dumbrava - Consiliul Local',
+        kind: 'official',
+        url: 'https://cldumbrava.ro/autoritatile-publice-locale/consiliul-local/',
+      },
     ],
   },
   {
@@ -9128,13 +9153,18 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Sfântu Gheorghe, județul Covasna.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, în mandatele de consilier local 2016-2020 și 2020-2024, ar fi participat la deliberarea și aprobarea a 15 hotărâri privind două societăți comerciale în care soția sa deținea funcții și calități.',
     verified_at: '2026-06-16',
     sources: [
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.aniElevenPublicOfficials,
       AUTOMATED_JUN_16_2026_MORE_PEOPLE_SOURCES.sfantuGheorgheCouncil2020,
+      {
+        label: 'Primăria Sfântu Gheorghe - Consilieri',
+        kind: 'official',
+        url: 'https://www.sfantugheorgheinfo.ro/consilieri6134',
+      },
     ],
   },
   {
@@ -9148,7 +9178,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Apateu, județul Arad.',
     },
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, în mandatul de consilier local 2020-2024, ar fi participat la hotărâri privind închirierea pajiștilor comunei Apateu, după care a încheiat acte adiționale la propriul contract de închiriere; ANI a sesizat Parchetul de pe lângă Judecătoria Chișineu Criș.',
     verified_at: '2026-06-16',
@@ -9168,7 +9198,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Broșteni, județul Suceava.',
     },
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în calitate de consilier local, ar fi participat la hotărâri privind rezilierea unor contracte de închiriere pășuni legate de o asociație în care era membru fondator.',
     verified_at: '2026-06-16',
@@ -9188,7 +9218,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Mișca, județul Arad.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la hotărârea din 28 februarie 2020 privind închirierea pășunii comunale, iar ulterior primăria a încheiat cu acesta un contract de închiriere pășune.',
     verified_at: '2026-06-16',
@@ -9208,7 +9238,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Prigor, județul Caraș-Severin.',
     },
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că ar fi participat la adoptarea hotărârii prin care s-a înființat postul de consilier personal al primarului, post pe care a fost ulterior numit; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
     verified_at: '2026-06-16',
@@ -9228,7 +9258,7 @@ const AUTOMATED_JUN_16_2026_ELEVEN_PUBLIC_OFFICIALS_RECORDS = [
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Brăești, județul Iași.',
     },
     crime: 'Conflict de interese administrativ; incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în decembrie 2022 că ar fi participat la adoptarea unei hotărâri privind modificarea organigramei și înființarea unui post, pe care ulterior l-a ocupat prin concurs; ANI a reținut și incompatibilitatea pentru exercitarea simultană a mandatului și a unei funcții contractuale în primărie.',
     verified_at: '2026-06-16',
@@ -9274,7 +9304,7 @@ const AUTOMATED_JUN_16_2026_POPESTI_LEORDENI_RECORDS = [
   },
 ].map((record) => ({
   ...record,
-  position: 'Consilier local în Consiliul Local al orașului Popești-Leordeni, județul Ilfov',
+  position: 'Consilier local în mandatul 2020-2024 al orașului Popești-Leordeni, județul Ilfov',
   position_type: 'local_official',
   geography: {
     county: 'Ilfov',
@@ -9282,7 +9312,7 @@ const AUTOMATED_JUN_16_2026_POPESTI_LEORDENI_RECORDS = [
     note: 'Funcția publică relevantă era în Consiliul Local al orașului Popești-Leordeni, județul Ilfov.',
   },
   crime: 'Conflict de interese administrativ',
-  status: 'investigated',
+  status: 'integrity',
   details:
     'ANI a constatat în decembrie 2022 că, în calitate de consilier local, a participat la adoptarea hotărârii din 28 septembrie 2021 privind respingerea proiectului de încetare a mandatelor celor 8 consilieri locali, deși se afla pe lista persoanelor vizate.',
   verified_at: '2026-06-16',
@@ -36074,7 +36104,7 @@ export const politicianAdditions = [
     position: 'Fost consilier local al comunei Tătăranu, județul Vrancea',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în aprilie 2026 că, în mandatul 2020-2024, societatea comercială pe care o administra și care fusese înființată de Consiliul Local Tătăranu ar fi încheiat două contracte de prestări servicii cu UAT Comuna Tătăranu, în valoare totală de 2.222.197,28 lei.',
     verified_at: '2026-05-22',
@@ -36133,7 +36163,7 @@ export const politicianAdditions = [
     position: 'Fost consilier local al municipiului Tulcea, județul Tulcea',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
       'ANI a constatat în februarie 2026 că, în mandatul 2020-2024, ar fi participat la adoptarea a două hotărâri ale Consiliului Local Tulcea privind finanțarea prin PNRR a reabilitării energetice a unor blocuri administrate de o asociație al cărei președinte era.',
     verified_at: '2026-05-22',

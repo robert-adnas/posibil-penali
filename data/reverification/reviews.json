@@ -58179,6 +58179,350 @@
       ],
       "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa. Pagina oficiala si candidatura USR confirma identitatea si rolul politic local.",
       "reviewed_snapshot_hash": "2a7d71cbd49c79cd41ec50bf139affedfbec048170f26fffe4ba9e8200eb1128"
+    },
+    {
+      "profile_id": "RV-0964",
+      "original_name": "Furtună Dan Gabriel",
+      "current_name": "Furtună Dan Gabriel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-10-persoane-prevazute-de-legea-nr-176-2010-4/",
+        "https://www.digi24.ro/stiri/actualitate/politica/cat-costa-o-zi-la-coasa-in-2023-la-claca-pe-filiera-de-partid-cu-bani-de-la-bugetul-de-stat-2457345"
+      ],
+      "note": "Identitatea și mandatul local sunt confirmate. Status corectat din investigated în integrity: ANI a constatat administrativ incompatibilitatea în aprilie 2026; nu există dovadă publică de calitate procesuală penală.",
+      "reviewed_snapshot_hash": "a4b685520ea685fc04534bb8e7cbcde50cfc15f09832ccfcdb59e95f07bbc7ab"
+    },
+    {
+      "profile_id": "RV-0966",
+      "original_name": "Drăniceanu Daniel",
+      "current_name": "Drăniceanu Daniel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane/",
+        "https://www.primariatulcea.ro/declaratii-de-avere-si-interese-3/",
+        "https://agerpres.ro/comunicate/2026/02/13/comunicat-de-presa---agentia-nationala-de-integritate--1527996"
+      ],
+      "note": "Identitatea și fostul mandat PSD la Tulcea sunt confirmate. Status corectat din investigated în integrity: comunicatul ANI din februarie 2026 privește un conflict de interese administrativ, nu o anchetă penală.",
+      "reviewed_snapshot_hash": "50d056d221dcbf47a7bc56579f45ff6c88e5ef7dd8c8eb7a14cc8112d8d465d0"
+    },
+    {
+      "profile_id": "RV-0968",
+      "original_name": "Lupea Ioana Mădălina",
+      "current_name": "Lupea Ioana Mădălina",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://cjph.ro/personal/lupea-ioana-madalina/",
+        "https://prahovainfo.ro/politica/13364-m%C4%83d%C4%83lina-lupea%2C-consilier-jude%C8%9Bean-pnl%2C-a-pierdut-definitiv-procesul-cu-agen%C8%9Bia-na%C8%9Bional%C4%83-de-integritate.html",
+        "https://www.observatorulph.ro/administratie/2780355-madalina-lupea-si-a-dat-demisia-din-consiliul-judetean-prahova"
+      ],
+      "note": "Identitatea este confirmată. Partid corectat la PNL și funcția actualizată după demisia din februarie 2026. Status corectat în integrity; raportul ANI a rămas definitiv după respingerea recursului la 5 februarie 2026.",
+      "reviewed_snapshot_hash": "0cc1d88232b4bc9ffd274d20919b114a25bf421ed16ffd998dc127b0f276d2ec"
+    },
+    {
+      "profile_id": "RV-0969",
+      "original_name": "Bîrlădeanu Emil Constantin",
+      "current_name": "Bîrlădeanu Emil Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.monitoruldegalati.ro/politica/dosar-penal-pentru-un-viceprimar-din-judetul-galati-acuzat-de-conflict-de-interese.html"
+      ],
+      "note": "Identitatea, localitatea și rolul politic sunt confirmate. Status corectat în integrity: ANI a constatat conflict administrativ și a sesizat Parchetul, dar sesizarea nu dovedește singură calitatea de suspect sau inculpat.",
+      "reviewed_snapshot_hash": "b47ec02977c2117fa142ecbf9f52e37ba9d81a044d3980a4c63c17ddf23cde48"
+    },
+    {
+      "profile_id": "RV-0970",
+      "original_name": "Safta Mihaela",
+      "current_name": "Safta Mihaela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.primariacorabia.ro/autoritatile-publice-locale/consiliul-local/"
+      ],
+      "note": "Identitatea, afilierea USR și mandatul local sunt confirmate inclusiv de pagina oficială actuală. Status corectat din investigated în integrity: ANI a constatat conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "d29e0d6bbd49de08cd92d3653f222bba6a917626b392dc6bd6b83d1b5b2b47a5"
+    },
+    {
+      "profile_id": "RV-0971",
+      "original_name": "Vlăduț Elena",
+      "current_name": "Vlăduț Elena",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://cldumbrava.ro/autoritatile-publice-locale/consiliul-local/"
+      ],
+      "note": "Identitatea și mandatul local sunt confirmate de ANI și de pagina oficială a comunei. Status corectat din investigated în integrity: constatare administrativă de incompatibilitate.",
+      "reviewed_snapshot_hash": "d41b23dffeed6134b310bf4473e752eb3d80cd3437c5ca151d605162a5f598eb"
+    },
+    {
+      "profile_id": "RV-0972",
+      "original_name": "Vajna Laszlo",
+      "current_name": "Vajna Laszlo",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.sfantugheorgheinfo.ro/consilieri6134",
+        "https://www.sfantugheorgheinfo.ro/uploads/15-pv-25-aprilie-1719399452.pdf"
+      ],
+      "note": "Identitatea, afilierea UDMR și mandatul local sunt confirmate oficial. Status corectat din investigated în integrity: constatare administrativă ANI; poziția publică a consiliului nu echivalează cu anularea raportului.",
+      "reviewed_snapshot_hash": "2af964aa777d4bd37eedd22580e368b3e12c55e277684bab96efd3df2f9bdbec"
+    },
+    {
+      "profile_id": "RV-0973",
+      "original_name": "Belei Dan Ioan",
+      "current_name": "Belei Dan Ioan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.apateu.ro/wp-content/uploads/2021/11/H-53.pdf"
+      ],
+      "note": "Identitatea și mandatul local din Apateu sunt confirmate. Status corectat în integrity: ANI a constatat conflict administrativ și a sesizat parchetul, fără dovadă publică ulterioară a calității de suspect sau inculpat.",
+      "reviewed_snapshot_hash": "5600353172cff94832714968a472528ba4a1d4d80398be151c1291efe86d9954"
+    },
+    {
+      "profile_id": "RV-0974",
+      "original_name": "Hlihor Marcel",
+      "current_name": "Hlihor Marcel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/brosteni/"
+      ],
+      "note": "Identitatea și fostul mandat local sunt confirmate. Status corectat din investigated în integrity: sursa atestă numai sesizarea Parchetului de către ANI, nu începerea urmăririi penale față de persoană.",
+      "reviewed_snapshot_hash": "0f0d145880bf1df2d8b3694d45577f8423d91d5ff6fa2d0805d57ea48970ee84"
+    },
+    {
+      "profile_id": "RV-0975",
+      "original_name": "Șimîndan Petru",
+      "current_name": "Șimîndan Petru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/misca/"
+      ],
+      "note": "Identitatea și mandatul politic sunt confirmate. Status corectat din investigated în integrity: ANI a constatat un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "66ade410e27964dc205df513e9cad3f293b23114c4d613db156edba4b25bc92e"
+    },
+    {
+      "profile_id": "RV-0976",
+      "original_name": "Boldea Grigore Iosif",
+      "current_name": "Boldea Grigore Iosif",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://portal.just.ro/115/Documents/09.04.2025%20-%20Liste%20sedinte%20Sectia%20II%20Civila.pdf"
+      ],
+      "note": "Identitatea, fostul mandat și litigiul privind constatarea ANI sunt confirmate. Status corectat în integrity: constatare administrativă plus sesizare la parchet, fără dovadă publică de suspect sau inculpat.",
+      "reviewed_snapshot_hash": "7dbc86ae34319710be504f499d3eda3af0b510e26f2d35575439fe1f9e035757"
+    },
+    {
+      "profile_id": "RV-0977",
+      "original_name": "Sorinel Gavriluță",
+      "current_name": "Sorinel Gavriluță",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-11-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/braesti/"
+      ],
+      "note": "Identitatea și mandatul local sunt confirmate. Status corectat din investigated în integrity: ANI a constatat conflict de interese administrativ și incompatibilitate.",
+      "reviewed_snapshot_hash": "2e49991a0ad7a22d5cb61b0b65b44a24458eb2243f65d903fee96093bfea3d91"
+    },
+    {
+      "profile_id": "RV-0978",
+      "original_name": "Ion Alexandru",
+      "current_name": "Ion Alexandru",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "0e3f300ada19a1965d0cf29390c8f965294e0bd8fb849f9d73516c9ea7ea2195"
+    },
+    {
+      "profile_id": "RV-0979",
+      "original_name": "Stan Florin-Radu-Virgil",
+      "current_name": "Stan Florin-Radu-Virgil",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "8f3acebeba16c675c90bb1a1173a228fe000f80149384a4cae3e46de70b12b4d"
+    },
+    {
+      "profile_id": "RV-0980",
+      "original_name": "Șerban Ionuț",
+      "current_name": "Șerban Ionuț",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Identitatea și candidatura AUR din 2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "77f3b075f1f9d99d913b98b8d5bc28a0f1d49923fb0217c2f81c6b630b836141"
+    },
+    {
+      "profile_id": "RV-0981",
+      "original_name": "Mitran Constantin",
+      "current_name": "Mitran Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "Identitatea, fostul mandat și candidaturile AUR din 2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "2c4d9d6cdd111c565147a178d1db9d80055cd4e7adae189fcaa5d2ca5a59ea68"
+    },
+    {
+      "profile_id": "RV-0982",
+      "original_name": "Oncuță Elena",
+      "current_name": "Oncuță Elena",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "81bf1dda4601d56f8c80a127e7a81695318a891c411ee26398ed90deb75febfb"
+    },
+    {
+      "profile_id": "RV-0983",
+      "original_name": "Târțău Valeriu-Marian",
+      "current_name": "Târțău Valeriu-Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "f4f64bfcacc98e52a0721305091ecfede5765a3c7862cbedd2a0def95fc0b122"
+    },
+    {
+      "profile_id": "RV-0984",
+      "original_name": "Cazacu Silviu",
+      "current_name": "Cazacu Silviu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "5bd312601cf95ccce6f4e29adfe98469966920b28654adf700482b652fe4f7c9"
+    },
+    {
+      "profile_id": "RV-0985",
+      "original_name": "Lorin Nicolae-Ionuț",
+      "current_name": "Lorin Nicolae-Ionuț",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/conflict-de-interese-administrativ-8-alesi-locali-din-cadrul-c-l-al-orasului-popesti-leordeni-jud-ilfov/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/"
+      ],
+      "note": "Identitatea și mandatul 2020-2024 sunt confirmate. Status corectat din investigated în integrity: ANI a constatat exclusiv un conflict de interese administrativ.",
+      "reviewed_snapshot_hash": "33740aa2164e167318907763c04494ce90ff303d56bd885f551dd5a2b5ea167a"
     }
   ]
 }
