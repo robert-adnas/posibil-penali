@@ -2,111 +2,6 @@
   "schema_version": 1,
   "updated_at": "2026-09-15",
   "holds": {
-    "Morega Costel Cosmin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0942"
-    },
-    "Strîmbu Florin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0943"
-    },
-    "Fugaru Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0944"
-    },
-    "Deaconescu Marian-Viorel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0945"
-    },
-    "Gogoi Ion": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0946"
-    },
-    "Lupulescu Ciprian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0947"
-    },
-    "Chelaru Larisa Mihaela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0948"
-    },
-    "Rusu Sorin-Ilie": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0949"
-    },
-    "Măcrineanu Ana Cornelia": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0950"
-    },
-    "Bobârnat Radu": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0951"
-    },
-    "Damian Constantin": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0952"
-    },
-    "Pușcă Vasile": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0953"
-    },
-    "Miclău Cristian": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0954"
-    },
-    "Popa Gabriel": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0955"
-    },
-    "Botu Daniela": {
-      "held_at": "2026-08-03",
-      "reasons": [
-        "active_legal_status"
-      ],
-      "profile_id": "RV-0956"
-    },
     "Furtună Dan Gabriel": {
       "held_at": "2026-08-03",
       "reasons": [
@@ -2040,11 +1935,11 @@
       "profile_id": "RV-4315"
     },
     "Márton János": {
-      "held_at": "2026-08-10",
+      "held_at": "2026-09-15",
       "reasons": [
         "awaiting_current_court_decision"
       ],
-      "profile_id": "RV-4339"
+      "profile_id": "RV-0957"
     },
     "Vasile Mureșan": {
       "held_at": "2026-08-10",
@@ -3963,6 +3858,20 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0939"
+    },
+    "Măcrineanu Ana Cornelia": {
+      "held_at": "2026-09-15",
+      "reasons": [
+        "awaiting_current_court_decision"
+      ],
+      "profile_id": "RV-0950"
+    },
+    "Miclău Cristian": {
+      "held_at": "2026-09-15",
+      "reasons": [
+        "insufficient_current_evidence"
+      ],
+      "profile_id": "RV-0954"
     }
   }
 }

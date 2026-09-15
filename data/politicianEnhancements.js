@@ -35439,11 +35439,11 @@ export const politicianAdditions = [
     party: 'PSD',
     position: 'Primar al municipiului Motru, județul Gorj',
     position_type: 'mayor',
-    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ; sesizare a Parchetului',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2024 un conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ privind indicii de folosire a funcției pentru favorizarea unor persoane, după semnarea unor autorizații de construire în 2022 și 2024.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 18 decembrie 2024 o constatare de conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ cu privire la indicii de folosire a funcției pentru favorizarea unor persoane, după semnarea unor autorizații de construire în 2022 și 2024. Morega a contestat raportul ANI la Curtea de Apel Craiova; o soluție definitivă și un stadiu penal ulterior sesizării nu au fost identificate public. Sesizarea nu este prezentată drept confirmare a calității de suspect sau inculpat.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Gorj',
       basis: 'office',
@@ -35456,6 +35456,11 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://primariamotru.ro/primaria/primar/',
       },
+      {
+        label: 'Gazeta de Sud – contestarea raportului ANI',
+        kind: 'press',
+        url: 'https://www.gds.ro/?p=850852',
+      },
     ],
   },
   {
@@ -35464,10 +35469,10 @@ export const politicianAdditions = [
     position: 'Fost consilier local al comunei Rădăuți-Prut, județul Botoșani',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, a participat la deliberarea și adoptarea unor hotărâri privind concesionarea unui teren pe care ulterior l-a contractat cu Primăria Rădăuți-Prut.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 18 decembrie 2024 o constatare de conflict de interese administrativ: în mandatul de consilier local 2020-2024, a participat la deliberarea și adoptarea unor hotărâri privind concesionarea unui teren pe care ulterior l-a contractat cu Primăria Rădăuți-Prut. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Botoșani',
       basis: 'office',
@@ -35488,10 +35493,10 @@ export const politicianAdditions = [
     position: 'Fost consilier local al orașului Târgu Cărbunești, județul Gorj',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, societatea la care fiul său deținea funcții și calități a încheiat contracte de furnizare cu Primăria Târgu Cărbunești și cu spitalul local.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 18 decembrie 2024 o constatare de incompatibilitate: în mandatul de consilier local 2020-2024, societatea la care fiul său deținea funcții și calități a încheiat contracte de furnizare cu Primăria Târgu Cărbunești și cu spitalul local. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Gorj',
       basis: 'office',
@@ -35512,10 +35517,10 @@ export const politicianAdditions = [
     position: 'Fost consilier local al comunei Fărcaș, județul Dolj',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2024 că, în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind organigrama aparatului primarului, după care a exercitat o funcție contractuală de execuție în acel aparat.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 18 decembrie 2024 o constatare de conflict de interese administrativ: în mandatul de consilier local 2020-2024, a participat la adoptarea unei hotărâri privind înființarea unui post și organigrama aparatului primarului, după care a exercitat o funcție contractuală de execuție în acel aparat. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Dolj',
       basis: 'office',
@@ -35536,10 +35541,10 @@ export const politicianAdditions = [
     position: 'Consilier local al municipiului Roșiorii de Vede, județul Teleorman',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2025 că, în perioada 2 noiembrie 2022 - 24 aprilie 2024, a exercitat simultan calitatea de membru titular în Consiliul de administrație al Spitalului Municipal Caritas Roșiorii de Vede și funcții în organele de conducere ale unui partid politic.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 17 februarie 2025 o constatare de incompatibilitate pentru perioada 2 noiembrie 2022 - 24 aprilie 2024, când a exercitat simultan calitatea de membru titular în Consiliul de administrație al Spitalului Municipal Caritas Roșiorii de Vede și o funcție în organele de conducere ale unui partid politic. Mandatul său PSD din Consiliul Local Roșiorii de Vede pentru 2024-2028 este confirmat de încheierea de validare publicată de primărie.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Teleorman',
       basis: 'office',
@@ -35556,14 +35561,14 @@ export const politicianAdditions = [
   },
   {
     name: 'Lupulescu Ciprian',
-    party: 'USR',
+    party: 'PNL',
     position: 'Consilier local al orașului Lipova, județul Arad',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2025 că, în perioada 28 ianuarie 2021 - 9 martie 2022, a exercitat simultan funcții în Consiliul de administrație al Spitalului Orășenesc Lipova și în organele de conducere ale unui partid politic.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 17 februarie 2025 o constatare de incompatibilitate pentru perioada 28 ianuarie 2021 - 9 martie 2022, când a exercitat simultan funcția de membru/președinte în Consiliul de administrație al Spitalului Orășenesc Lipova și o funcție în organele de conducere ale unui partid politic. Ales local din partea USR în 2020, a candidat din partea PNL în 2024 și este confirmat ulterior ca membru al actualului consiliu local.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Arad',
       basis: 'office',
@@ -35572,22 +35577,27 @@ export const politicianAdditions = [
     sources: [
       ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
+        label: 'Lista candidaților la alegerile locale 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/lipova/4',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arad/consiliul-local/lipova/1',
+      },
+      {
+        label: 'Documentație de achiziție publică a Orașului Lipova – persoane cu funcții de decizie',
+        kind: 'press',
+        url: 'https://ro.openprocurements.com/tender/2025-dotarea-unitatilor-de-invatamant-din-orasul-lipova-judetul-arad-cu-echipamente-it-dotari-specif/',
       },
     ],
   },
   {
     name: 'Chelaru Larisa Mihaela',
     party: 'PSD',
-    position: 'Consilier local al orașului Târgu Frumos, județul Iași',
+    position: 'Fost consilier local PSD al orașului Târgu Frumos, județul Iași',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2025 că, în mandatul de consilier local, a participat la deliberarea și adoptarea unei hotărâri privind desemnarea reprezentanților în comisia de interviu a unui concurs de recrutare, concurs la care ulterior a participat și a fost declarată admisă.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 17 februarie 2025 o constatare de conflict de interese administrativ: în mandatul de consilier local, a participat la adoptarea unei hotărâri privind comisia de interviu a unui concurs la care ulterior a participat și a fost declarată admisă. Curtea de Apel Iași i-a respins contestația împotriva raportului ANI la 27 mai 2025, cu drept de recurs. În iunie 2025 și-a dat demisia din Consiliul Local, iar Tribunalul Iași a constatat la 30 iulie 2026 nulitatea parțială a hotărârii locale relevante, soluție de asemenea susceptibilă de recurs.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -35596,9 +35606,19 @@ export const politicianAdditions = [
     sources: [
       ANI_FEB_2025_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
+        label: 'StatusDosar – dosarul 184/45/2025 al Curții de Apel Iași',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/targu-frumos/',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-iasi/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/184/45/2025',
+      },
+      {
+        label: 'NewsPascani – demisia din Consiliul Local',
+        kind: 'press',
+        url: 'https://newspascani.com/sedinta-ordinara-de-consiliu-local-la-targu-frumos-alesii-se-intalnesc-pentru-a-discuta-9-proiecte-de-pe-ordinea-de-zi/',
+      },
+      {
+        label: 'StatusDosar – dosarul 5536/99/2025 al Tribunalului Iași',
+        kind: 'press',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-iasi/dosare/sectia-ii-civila-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/5536/99/2025',
       },
     ],
   },
@@ -35608,10 +35628,10 @@ export const politicianAdditions = [
     position: 'Consilier local al comunei Mișca, județul Arad',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2025 că, în mandatul de consilier local, a participat la adoptarea unor hotărâri privind închirierea unor terenuri ale comunei Mișca, după care a încheiat contracte de închiriere și a obținut venituri APIA de 64.582,29 lei.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 17 februarie 2025 o constatare de conflict de interese administrativ: în mandatul de consilier local, a participat la adoptarea unor hotărâri privind închirierea unor terenuri ale comunei Mișca, după care a încheiat contracte de închiriere și a obținut venituri APIA de 64.582,29 lei. Componența oficială a consiliului local confirmă mandatul său PNL pentru 2024-2028.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Arad',
       basis: 'office',
@@ -35632,10 +35652,10 @@ export const politicianAdditions = [
     position: 'Primar al comunei Viziru, județul Brăila',
     position_type: 'mayor',
     crime: 'Incompatibilitate; conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2025 că s-a aflat în incompatibilitate în perioada 8 iulie 2021 - 3 mai 2022, iar anterior constatase și un conflict de interese administrativ legat de emiterea unei dispoziții prin care a beneficiat de o sumă acordată unor angajați ai aparatului de specialitate.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 15 aprilie 2025 o constatare de incompatibilitate pentru perioada 8 iulie 2021 - 3 mai 2022. Raportul nr. 12206/G/II/15.04.2025 a fost contestat, iar judecata a fost suspendată la Curtea de Apel Galați la 1 aprilie 2026. Separat, raportul ANI din 30 aprilie 2024 privind un conflict de interese administrativ a fost anulat în primă instanță la 11 martie 2025; recursul ANI era suspendat. Profilul redă constatări ANI contestate, nu hotărâri definitive.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Brăila',
       basis: 'office',
@@ -35644,9 +35664,19 @@ export const politicianAdditions = [
     sources: [
       ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Pro Brăila',
+        label: 'Primăria Viziru',
+        kind: 'official',
+        url: 'https://www.primaria-viziru.ro/',
+      },
+      {
+        label: 'StatusDosar – contestația raportului ANI din 2024',
         kind: 'press',
-        url: 'https://probr.ro/pnl-braila-are-incepand-de-astazi-doi-deputati-prin-venirea-deputatului-george-paladi-iar-doi-primari-alesi-pe-listele-psd-au-anuntat-ca-vor-candida-din-partea-liberalilor-in-2024/',
+        url: 'https://www.statusdosar.ro/instante/inalta-curte-de-casatie-si-justitie/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/1335/93/2024',
+      },
+      {
+        label: 'InfoDosar – contestația raportului ANI din 2025',
+        kind: 'press',
+        url: 'https://www.infodosar.ro/curtea-de-apel-bucuresti/dosar/3242-2-2025',
       },
     ],
   },
@@ -35656,10 +35686,10 @@ export const politicianAdditions = [
     position: 'Consilier local al municipiului Huși, județul Vaslui',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2025 că, în două intervale din 2024, a exercitat simultan calitatea de membru în Consiliul de administrație al Spitalului Municipal Dimitrie Castroian Huși și calitatea de membru în organele de conducere ale unui partid politic.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 15 aprilie 2025 o constatare de incompatibilitate pentru intervalele 29 februarie - 28 martie 2024 și 25 noiembrie - 23 decembrie 2024, când a exercitat simultan calitatea de membru în Consiliul de administrație al Spitalului Municipal „Dimitrie Castroian” Huși și o funcție în organele de conducere ale unui partid politic. Primăria Huși confirmă mandatul său PNL 2024-2028. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Vaslui',
       basis: 'office',
@@ -35668,9 +35698,9 @@ export const politicianAdditions = [
     sources: [
       ANI_APR_2025_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Vremea Nouă',
-        kind: 'press',
-        url: 'https://www.vremeanoua.ro/social-democratii-de-la-husi-si-au-completat-cu-supleanti-mandatele-din-noul-consiliu-local/',
+        label: 'Primăria Huși – componența Consiliului Local 2024-2028',
+        kind: 'official',
+        url: 'https://www.primariahusi.ro/componenta/',
       },
     ],
   },
@@ -35680,10 +35710,10 @@ export const politicianAdditions = [
     position: 'Consilier local al comunei Agăș, județul Bacău',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2025 că, în mandatul de consilier local, Primăria Agăș a încheiat două contracte cu societatea comercială în care persoana evaluată deține calitatea de asociat unic și administrator.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 15 aprilie 2025 o constatare de incompatibilitate: în mandatul de consilier local, Primăria Agăș a încheiat două contracte cu societatea comercială în care persoana evaluată deține calitatea de asociat unic și administrator. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Bacău',
       basis: 'office',
@@ -35704,10 +35734,10 @@ export const politicianAdditions = [
     position: 'Consilier local și fost primar al comunei Valea Lungă, județul Alba',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2025 că, în mandatul de consilier local, a inițiat și a participat la adoptarea unei hotărâri privind denunțarea unui contract de asistență juridică, hotărâre care putea produce un folos material pentru sine.',
-    verified_at: '2026-05-21',
+      'ANI a comunicat la 15 aprilie 2025 o constatare de conflict de interese administrativ: în mandatul de consilier local, a inițiat și a participat la adoptarea unei hotărâri privind denunțarea unui contract de asistență juridică, hotărâre care putea produce un folos material pentru sine. Candidatura sa PNL din 2024 și funcția de consilier local menționată de ANI în 2025 confirmă continuitatea rolului politic.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Alba',
       basis: 'office',
@@ -35725,13 +35755,13 @@ export const politicianAdditions = [
   {
     name: 'Miclău Cristian',
     party: 'PNL',
-    position: 'Fost primar al orașului Băile Herculane, județul Caraș-Severin',
+    position: 'Consilier local PNL și fost primar al orașului Băile Herculane, județul Caraș-Severin',
     position_type: 'mayor',
-    crime: 'Folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    crime: 'Sesizare ANI privind posibila folosire a funcției pentru favorizarea unor persoane',
+    status: 'integrity',
     details:
-      'ANI a sesizat în decembrie 2025 Parchetul de pe lângă Tribunalul Caraș-Severin, susținând că, în mandatul de primar, ar fi inițiat și susținut acte prin care orașul nu și-a exercitat dreptul de preempțiune asupra unui imobil monument istoric cumpărat ulterior de părinții săi.',
-    verified_at: '2026-05-22',
+      'ANI a sesizat la 10 decembrie 2025 Parchetul de pe lângă Tribunalul Caraș-Severin, indicând posibila folosire a funcției pentru favorizarea unor persoane: în mandatul de primar, Miclău ar fi inițiat și susținut acte prin care orașul nu și-a exercitat dreptul de preempțiune asupra unui imobil monument istoric cumpărat ulterior de părinții săi. Nu a fost identificată o confirmare publică ulterioară a calității de suspect ori inculpat; sesizarea ANI nu este prezentată drept anchetă penală confirmată. În 2025 era consilier local PNL.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
@@ -35757,10 +35787,10 @@ export const politicianAdditions = [
     position: 'Primar al comunei Albeștii de Argeș, județul Argeș',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, ar fi emis trei acte administrative prin care primăria a achiziționat servicii de găzduire pentru site-ul său personal, în valoare de 1.500 lei.',
-    verified_at: '2026-05-22',
+      'ANI a comunicat la 10 decembrie 2025 o constatare de conflict de interese administrativ: în mandatul 2020-2024, ar fi emis trei acte administrative prin care primăria a achiziționat servicii de găzduire pentru site-ul său personal, în valoare de 1.500 lei. Funcția actuală de primar PNL este confirmată de Consiliul Județean Argeș. Comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Argeș',
       basis: 'office',
@@ -35786,10 +35816,10 @@ export const politicianAdditions = [
     position: 'Consilier local al comunei Sadova, județul Dolj',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2025 că, în perioada 18 decembrie 2024 - 26 septembrie 2025, ar fi exercitat simultan funcția de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Sadova.',
-    verified_at: '2026-05-22',
+      'ANI a comunicat la 10 decembrie 2025 o constatare de incompatibilitate pentru perioada 18 decembrie 2024 - 26 septembrie 2025, când ar fi exercitat simultan funcția de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Sadova. Pagina oficială a comunei confirmă identitatea și mandatul local; comunicatul nu descrie o anchetă penală.',
+    verified_at: '2026-09-15',
     geography: {
       county: 'Dolj',
       basis: 'office',
@@ -62541,34 +62571,6 @@ export const politicianAdditions = [
         label: 'Mesagerul de Neamț - contestarea raportului ANI',
         kind: 'press',
         url: 'https://mesagerulneamt.ro/2026/01/ion-asaftei-in-instanta-cu-ani-dupa-ce-a-fost-declarat-incompatibil/',
-      },
-    ],
-  },
-  {
-    name: 'Marton Janos',
-    party: 'UDMR',
-    position: 'Fost consilier local în cadrul Consiliului Local Zagon, județul Covasna',
-    position_type: 'local_official',
-    geography: {
-      county: 'Covasna',
-      basis: 'office',
-      note: 'Funcția publică relevantă era în Consiliul Local Zagon, județul Covasna.',
-    },
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat în decembrie 2025 că, între 21 octombrie 2020 și 21 octombrie 2024, a exercitat simultan mandatul de consilier local și o funcție contractuală de execuție în aparatul de specialitate al primarului comunei Zagon.',
-    verified_at: '2026-06-18',
-    sources: [
-      {
-        label: 'ANI',
-        kind: 'official',
-        url: 'https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/',
-      },
-      {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_covasna/consiliul-local/zagon/',
       },
     ],
   },

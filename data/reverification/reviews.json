@@ -14827,14 +14827,14 @@
       "identity": "collision_resolved",
       "legal_status": "corrected",
       "scope": "political",
-      "reviewed_at": "2026-08-10",
+      "reviewed_at": "2026-09-15",
       "reviewer": "Codex",
       "evidence": [
         "https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/",
         "https://agerpres.ro/comunicate/2025/12/10/comunicat-de-presa---agentia-nationala-de-integritate--1510612",
         "https://comunazagon.info/index.php/ro/helyi-tanacs/a-helyi-tanacs-osszetetele"
       ],
-      "note": "Forma fără diacritice din registru și Márton János sunt aceeași persoană, confirmată prin Zagon, UDMR și mandat. Statusul investigat a fost corectat în constatare administrativă de integritate. ANI confirmă mandatul încheiat în 2024; nu s-a identificat o soluție definitivă asupra raportului din decembrie 2025.",
+      "note": "Duplicat ortografic consolidat în profilul canonic RV-0957, Márton János: aceeași persoană, funcție, localitate, perioadă și constatare ANI. Intrarea redundantă a fost eliminată, iar profilul canonic rămâne ascuns în așteptarea clarificării unei eventuale contestații.",
       "reviewed_snapshot_hash": "b0f9544198ba2f500de06405e6277423e581dd256f6359dc681d627d1dbf29e0"
     },
     {
@@ -57916,6 +57916,269 @@
       ],
       "note": "Funcționar public delegat ca secretar al primăriei, fără mandat, candidatură ori rol politic documentat; profil eliminat din aria proiectului, deși acordul de recunoaștere admis definitiv este confirmat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-0942",
+      "original_name": "Morega Costel Cosmin",
+      "current_name": "Morega Costel Cosmin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-3/",
+        "https://primariamotru.ro/primaria/primar/",
+        "https://www.gds.ro/?p=850852"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat un conflict administrativ si a sesizat Parchetul, fara dovada publica a calitatii de suspect sau inculpat. Raportul a fost contestat; rolul actual de primar PSD este confirmat oficial.",
+      "reviewed_snapshot_hash": "64db3d4c7979cdda33caebb0665c76131cf225e1ba96fbe0491e175dfe6b5bad"
+    },
+    {
+      "profile_id": "RV-0943",
+      "original_name": "Strîmbu Florin",
+      "current_name": "Strîmbu Florin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-3/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/1"
+      ],
+      "note": "Status corectat din investigated in integrity: comunicatul ANI descrie un conflict de interese administrativ, nu o cercetare penala. Identitatea si mandatul PNL 2020-2024 sunt confirmate.",
+      "reviewed_snapshot_hash": "88008ac1047e20d16c365eb3aa77c73438eaa6ea2b7257032c04773e3cccf908"
+    },
+    {
+      "profile_id": "RV-0944",
+      "original_name": "Fugaru Ion",
+      "current_name": "Fugaru Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-3/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_gorj/consiliul-local/targu-carbunesti/1"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa, nu o ancheta penala. Fostul mandat local si activitatea politica ulterioara sunt confirmate.",
+      "reviewed_snapshot_hash": "a9183e0dd896978f2a3ed1f6c7a6c384bf932951ce6159388f991c794ee0b932"
+    },
+    {
+      "profile_id": "RV-0945",
+      "original_name": "Deaconescu Marian-Viorel",
+      "current_name": "Deaconescu Marian-Viorel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-3/",
+        "https://www.primariafarcas.ro/dispozitii.html"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat un conflict de interese administrativ. Site-ul oficial confirma numirea ulterioara in postul contractual relevant; comunicatul nu descrie cercetare penala.",
+      "reviewed_snapshot_hash": "1b5ef04340ad2c974964b68d9ac02b5ba5646bdcf86f32125ddf2946ded75272"
+    },
+    {
+      "profile_id": "RV-0946",
+      "original_name": "Gogoi Ion",
+      "current_name": "Gogoi Ion",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-4/",
+        "https://www.primariarosioriidevede.ro/ro/component/content/article/10-all/650-consiliul-local-2024-2028?Itemid=101"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa. Documentul oficial de validare confirma identitatea, PSD si mandatul actual 2024-2028.",
+      "reviewed_snapshot_hash": "6e4cf95f3b48f4e4a0041127d07634755bf9d6bedae571a8de31b0fede161701"
+    },
+    {
+      "profile_id": "RV-0947",
+      "original_name": "Lupulescu Ciprian",
+      "current_name": "Lupulescu Ciprian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-4/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arad/consiliul-local/lipova/1",
+        "https://ro.openprocurements.com/tender/2025-dotarea-unitatilor-de-invatamant-din-orasul-lipova-judetul-arad-cu-echipamente-it-dotari-specif/"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa. Afilierea a fost actualizata din USR la PNL pe baza candidaturii 2024 si a componentei actuale a consiliului local.",
+      "reviewed_snapshot_hash": "fee3962fe265a024c7a70ca87ea04b94340042b93968097082394031b24ee447"
+    },
+    {
+      "profile_id": "RV-0948",
+      "original_name": "Chelaru Larisa Mihaela",
+      "current_name": "Chelaru Larisa Mihaela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-4/",
+        "https://www.statusdosar.ro/instante/curtea-de-apel-iasi/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/184/45/2025",
+        "https://newspascani.com/sedinta-ordinara-de-consiliu-local-la-targu-frumos-alesii-se-intalnesc-pentru-a-discuta-9-proiecte-de-pe-ordinea-de-zi/",
+        "https://www.statusdosar.ro/instante/tribunalul-iasi/dosare/sectia-ii-civila-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/5536/99/2025"
+      ],
+      "note": "Status corectat din investigated in integrity. Contestatia impotriva raportului ANI a fost respinsa in fond; mandatul local a incetat prin demisie in iunie 2025, iar nulitatea partiala a HCL relevante a fost constatata in fond in iulie 2026. Eventualele recursuri nu sunt prezentate ca solutionate.",
+      "reviewed_snapshot_hash": "39efdb4d7f1c11b01d43d26b7f8f139b5cf143137ae1220d4e5374832f61104d"
+    },
+    {
+      "profile_id": "RV-0949",
+      "original_name": "Rusu Sorin-Ilie",
+      "current_name": "Rusu Sorin-Ilie",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-4/",
+        "https://misca.ro/2024/11/27/componenta-consiliului-local/"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat un conflict de interese administrativ, nu cercetare penala. Pagina oficiala confirma identitatea, PNL si mandatul actual 2024-2028.",
+      "reviewed_snapshot_hash": "e76dfb9452f3cf186726574340eee8f312a75fc6d355f23a7e13b2b5b38ffd21"
+    },
+    {
+      "profile_id": "RV-0950",
+      "original_name": "Măcrineanu Ana Cornelia",
+      "current_name": "Măcrineanu Ana Cornelia",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/",
+        "https://www.primaria-viziru.ro/",
+        "https://www.statusdosar.ro/instante/inalta-curte-de-casatie-si-justitie/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/1335/93/2024",
+        "https://www.infodosar.ro/curtea-de-apel-bucuresti/dosar/3242-2-2025"
+      ],
+      "note": "Status corectat din investigated in integrity. Cele doua rapoarte ANI sunt contestate: raportul din 2024 a fost anulat in fond, cu recurs ANI suspendat, iar cauza privind raportul distinct din 2025 era suspendata. Rolul actual de primar PNL este confirmat oficial; profilul ramane ascuns pana la clarificare definitiva.",
+      "reviewed_snapshot_hash": "3d7cec0637b3d72e54d8de9d7054c50bd2b97160c2261b63107f2dc8bbb7bd4c"
+    },
+    {
+      "profile_id": "RV-0951",
+      "original_name": "Bobârnat Radu",
+      "current_name": "Bobârnat Radu",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/",
+        "https://www.primariahusi.ro/componenta/"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa, nu o cercetare penala. Primaria Husi confirma identitatea, afilierea PNL si mandatul actual 2024-2028.",
+      "reviewed_snapshot_hash": "2206b356e244d1484279783ed77f69d14ec01dcdfdf11f79a8e19a1a1321b40c"
+    },
+    {
+      "profile_id": "RV-0952",
+      "original_name": "Damian Constantin",
+      "current_name": "Damian Constantin",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_bacau/consiliul-local/agas/"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a comunicat o incompatibilitate administrativa si il identifica drept consilier local la Agas; candidatura PSD din 2024 confirma identitatea politica.",
+      "reviewed_snapshot_hash": "f05f5dc534645951ed124d9e4de62ebed24c152c41979d9267e5d1cb3de603c3"
+    },
+    {
+      "profile_id": "RV-0953",
+      "original_name": "Pușcă Vasile",
+      "current_name": "Pușcă Vasile",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-4-alesi-locali-5/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_alba/consiliul-local/valea-lunga/1",
+        "https://ziarulunirea.ro/vasile-pusca-fost-primar-al-comunei-valea-lunga-acuzat-de-ani-de-conflict-de-interese-937405/"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat un conflict de interese administrativ, nu o ancheta penala. Fostul mandat de primar, candidatura PNL 2024 si rolul de consilier in 2025 sunt confirmate.",
+      "reviewed_snapshot_hash": "7d42a2e8f968dd741e7f152b14013ed68882f4b57f8853579ebd9cebe456bf10"
+    },
+    {
+      "profile_id": "RV-0954",
+      "original_name": "Miclău Cristian",
+      "current_name": "Miclău Cristian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://agerpres.ro/justitie/2025/12/10/fost-primar-din-baile-herculane-reclamat-la-parchet-pentru-ca-si-a-favorizat-parintii-in-afaceri-imo--1510621"
+      ],
+      "note": "Eticheta investigated nu era sustinuta: ANI a anuntat numai sesizarea Parchetului, fara confirmarea publica a calitatii de suspect ori inculpat. Profilul este trecut la integrity ca incident ANI, actualizat cu mandatul de consilier local PNL si mentinut ascuns pana la clarificarea stadiului penal.",
+      "reviewed_snapshot_hash": "e28688ed31b35c819788f80531e212e7344ef7a38cb11495b0baa55e45894432"
+    },
+    {
+      "profile_id": "RV-0955",
+      "original_name": "Popa Gabriel",
+      "current_name": "Popa Gabriel",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.cjarges.ro/web/albestii-de-arges/prezentare"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat un conflict de interese administrativ, nu o ancheta penala. Functia actuala de primar PNL este confirmata oficial.",
+      "reviewed_snapshot_hash": "7be4060b3452f6f17b6a887b88ef867716899fadcb3258607f2181be932a1f72"
+    },
+    {
+      "profile_id": "RV-0956",
+      "original_name": "Botu Daniela",
+      "current_name": "Botu Daniela",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-14-persoane-prevazute-de-legea-nr-176-2010/",
+        "https://www.primariasadova.ro/autoritatile-publice-locale/consiliul-local/",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_dolj/consiliul-local/sadova/1"
+      ],
+      "note": "Status corectat din investigated in integrity: ANI a constatat o incompatibilitate administrativa. Pagina oficiala si candidatura USR confirma identitatea si rolul politic local.",
+      "reviewed_snapshot_hash": "2a7d71cbd49c79cd41ec50bf139affedfbec048170f26fffe4ba9e8200eb1128"
     }
   ]
 }
