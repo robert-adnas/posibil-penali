@@ -60070,6 +60070,399 @@
       ],
       "note": "DNA îl identifică drept administrator al societății private SC Șuba SRL din Tărhăuși, condamnat definitiv la 2 ani cu suspendare pentru înșelăciune. Numele a fost normalizat cu diacritice; căutările electorale și locale nu dovedesc niciun mandat, nicio candidatură ori funcție de partid, astfel că profilul este eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3697",
+      "original_name": "Bartha Emeric",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2721",
+        "https://www.dna.ro/comunicat.xhtml?id=1784",
+        "https://hotnews.ro/100-de-ani-de-traditie-aruncati-la-gunoi-fosta-fabrica-de-bere-rahova-intre-ruina-si-pericol-public-418463"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale și om de afaceri; rolurile civice sau comerciale găsite nu demonstrează un mandat, o candidatură ori o funcție de partid. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3698",
+      "original_name": "Beca Benoni",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://legislatie.just.ro/public/DetaliiDocument/86562",
+        "https://ziaruldebacau.ro/benoni-beca-l-a-infundat-pe-iosif-pop/"
+      ],
+      "note": "DNA și presa contemporană îl identifică exclusiv ca administrator/patron al Amapolla Prest și om de afaceri în dosarul Banca Transilvania. Nu am găsit mandat, candidatură sau funcție de partid; relațiile cu persoane politice nu îl fac actor politic. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3699",
+      "original_name": "Beja George Andrei",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3776",
+        "https://www.dna.ro/comunicat.xhtml?id=1791",
+        "https://www.companyhouse.de/George-Andrei-Beja"
+      ],
+      "note": "Comunicatele DNA îl identifică drept administrator al unor societăți comerciale, iar registrele comerciale confirmă activitatea de om de afaceri. Nu există dovadă fiabilă pentru mandat, candidatură sau funcție de partid; legăturile din dosare cu politicieni nu constituie rol politic. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3700",
+      "original_name": "Belli Maruf",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4765",
+        "https://www.dna.ro/comunicat.xhtml?id=3850"
+      ],
+      "note": "DNA îl identifică drept cetățean turc și administrator al unei societăți comerciale, condamnat pentru infracțiuni fiscale și de fals. Nu am găsit mandat, candidatură ori funcție într-un partid din România; interdicția de a fi ales din hotărâre nu dovedește că a fost politician. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3701",
+      "original_name": "Bernhard Fili",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2783",
+        "https://romanialibera.ro/special/fostul-patron-urex-rovinari-condamnat-la-patru-ani-de-detentie-pentru-coruptie-245152/",
+        "https://adevarul.ro/stiri-interne/societate/alexandru-crisan-trimis-in-judecata-866096.html"
+      ],
+      "note": "DNA și presa îl identifică drept cetățean austriac și administrator/partener de afaceri al unor societăți comerciale. Influența pretinsă asupra unor autorități locale nu reprezintă un mandat sau rol politic propriu. Nicio candidatură ori funcție de partid nu a fost identificată; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3702",
+      "original_name": "Berzuntanu Catalin Virgil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://ziaruldebacau.ro/sentinte-definitive-in-dosarul-banca-transilvania/",
+        "https://ziaruldebacau.ro/breakng-news/"
+      ],
+      "note": "Numele apare cu diacritice ca Berzunțanu Cătălin Virgil. DNA și presa locală îl identifică drept administrator al SC Arcovin SRL în dosarul Banca Transilvania. Nu am găsit mandat, candidatură sau funcție de partid; profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3703",
+      "original_name": "Blaga Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2499",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AB"
+      ],
+      "note": "DNA identifică persoana condamnată ca administrator al SC Mob Conf SRL Zlatna, Alba. Rezultatele pentru alți Nicolae Blaga din Arad sau Brașov sunt omonimi fără legătură demonstrată cu acest dosar. Pentru persoana din dosar nu există dovadă de mandat, candidatură ori funcție de partid; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3704",
+      "original_name": "Boceanu Mihai Misu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4911",
+        "https://www.dna.ro/comunicat.xhtml?id=847",
+        "https://legislatie.just.ro/Public/DetaliiDocument/116243"
+      ],
+      "note": "Numele oficial este Boceanu Mihai Mișu. DNA îl identifică exclusiv drept fost administrator al SC Topragino Agroprest SRL; decizia CCR confirmă identitatea din dosar. Nu am găsit mandat, candidatură ori funcție de partid. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3705",
+      "original_name": "Bojan Catalin Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157",
+        "https://hotnews.ro/fosta-conducere-a-cfr-marfa-a-fost-garata-in-instanta-815098",
+        "https://www.upt.ro/img/files/2020-2021/doctorat/LISTA_doctoranzi_UPT_2020.pdf"
+      ],
+      "note": "Numele oficial este Bojan Cătălin Dan. DNA și presa îl identifică drept administrator al SC Star Instal SRL Timișoara; registrul universitar confirmă activitatea profesional-academică, nu una politică. Nu există mandat, candidatură ori funcție de partid; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3706",
+      "original_name": "Borcea Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4705",
+        "https://www.dna.ro/comunicat.xhtml?id=1031",
+        "https://www.gsp.ro/fotbal/liga-1/membru-de-partid-pd-l-psd-si-pnl-vor-sa-l-atraga-pe-cristi-borcea-in-politica-172071.html"
+      ],
+      "note": "DNA îl identifică drept fost președinte executiv/acționar al clubului Dinamo, adică rol privat-sportiv. Articolul despre tentativele partidelor de a-l recruta nu dovedește înscriere, candidatură sau mandat, iar susținerea ulterioară a altui candidat nu este funcție politică. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3708",
+      "original_name": "Brandais Flaviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1422",
+        "https://jurnalul.ro/stiri/observator/judecati-pentru-fraudarea-bcr-curtici-538911.html"
+      ],
+      "note": "DNA și presa îl identifică drept administrator al mai multor societăți comerciale din Arad în frauda BCR Curtici. Nu am găsit mandat, candidatură sau funcție de partid; activitatea sportivă locală găsită nu este rol politic. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3709",
+      "original_name": "Bucata Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4125",
+        "https://www.avocatura.com/stire/3277/condamnari-cu-excutare-in-dosarul-rambursarilor-de-tva-din-maramures.html",
+        "https://portal.just.ro/100/Documents/27.05%20Sectia%20Penal%C4%83%20-%20Complet%20CPF%20nr.2%20-%20Fond%20-%20sala%2056.pdf"
+      ],
+      "note": "Numele oficial apare ca Bucată Dan. DNA și presa îl identifică drept administrator de firmă/om de afaceri în dosarul rambursărilor ilegale de TVA din Maramureș. Nu am găsit mandat, candidatură ori funcție de partid; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3710",
+      "original_name": "Bucur Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2876",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CT"
+      ],
+      "note": "DNA identifică persoana condamnată ca administrator al SC Tehnofarm Grup SRL. Numele este frecvent și apar numeroși omonimi în surse publice, dar niciun rol politic nu poate fi legat fiabil de persoana din dosar. Profil eliminat pentru a evita atribuirea greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3711",
+      "original_name": "Budau Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5076",
+        "https://www.dna.ro/comunicat.xhtml?id=5804",
+        "https://municipiulbacau.ro/wp-content/uploads/2024/05/BULETIN-DE-VOT-PENTRU-ALEGEREA-CONSILIULUI-JUDETEAN-BACAU.pdf"
+      ],
+      "note": "Numele oficial apare ca Budău Maria. DNA o identifică drept administrator al unei societăți comerciale în două hotărâri, fără rol public sau politic. Listele electorale conțin alți membri ai familiei/nume similare, nu pe această persoană; numele este comun și nu există legătură verificabilă cu un mandat ori partid. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3712",
+      "original_name": "Buia Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4446",
+        "https://adevarul.ro/stiri-locale/galati/patroni-trimisi-in-judecata-de-dna-pentru-ca-au-904009.html",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=8172"
+      ],
+      "note": "DNA și presa îl identifică drept fost asociat și administrator al SC Lematec 2008 SRL, ulterior condamnat și într-un alt dosar economic. Nu am găsit mandat, candidatură sau funcție de partid; interdicția electorală din sentință nu reprezintă rol politic. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3713",
+      "original_name": "Bulatel Sergiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3945",
+        "https://www.dna.ro/comunicat.xhtml?id=659",
+        "https://crjm.org/wp-content/uploads/2016/04/2013-04-17-ICCJ-sentinta-Guma.pdf"
+      ],
+      "note": "Numele oficial este Sergiu Bulățel. DNA și hotărârea ÎCCJ îl identifică drept cetățean moldovean și administrator al Gerom/Hystria, partener de afaceri al politicianului Valeriu Guma. Hotărârea distinge explicit calitatea politică a lui Guma de rolul comercial al lui Bulățel; nu există mandat sau candidatură proprie. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3714",
+      "original_name": "Buliga Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5176",
+        "https://www.dna.ro/comunicat.xhtml?id=6944",
+        "https://www.botosaninews.ro/196723/general/stirea-zilei/inchisoare-cu-executare-pentru-un-om-de-afaceri-din-botosani/"
+      ],
+      "note": "DNA și presa îl identifică pe Daniel Buliga drept fost administrator al societății Dany Ema și om de afaceri, cu două condamnări economice. În politica locală apar Marius Buliga și alți omonimi, nu această persoană. Nu există legătură verificabilă cu mandat, candidatură sau partid; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3715",
+      "original_name": "Bulugea Stive Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4671",
+        "https://www.dna.ro/comunicat.xhtml?id=3557",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/ce-afaceri-are-la-constanta-craioveanul-trimis-in-judecata-pentru-evaziune-91582-380424.html"
+      ],
+      "note": "DNA și presa îl identifică drept administrator și asociat unic al SC Raf Oil Petrol SRL, om de afaceri originar din Craiova. Nu am găsit mandat, candidatură sau funcție de partid; interdicția de a fi ales din sentință nu dovedește activitate politică. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3716",
+      "original_name": "Buluz Anca Constanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4331",
+        "https://www.gorjeanul.ro/investigatii/verdict-final-pentru-buluz-si-dragoi/",
+        "https://www.mediafax.ro/social/doi-administratori-de-firma-judecati-pentru-o-frauda-bancara-de-1-27-milioane-de-euro-9474653/amp"
+      ],
+      "note": "Numele oficial este Anca Constanța Buluz. DNA și presa o identifică drept administrator al SC Akybud Prod SRL și femeie de afaceri. Nu am găsit mandat, candidatură sau funcție de partid; contactele cu funcționari ori alte persoane publice țin de dosarele penale, nu de un rol politic propriu. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3717",
+      "original_name": "Bustean Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4450",
+        "https://legislatie.just.ro/Public/DetaliiDocumentAfis/123720",
+        "https://www.pressalert.ro/2012/05/traficanti-de-influenta-in-dosarul-regelui-asfaltului-catalin-spataru-prinsi-in-flagrant-la-timisoara/"
+      ],
+      "note": "Numele oficial este Ion Buștean. DNA îl identifică drept administrator al SC Neeral Impex SRL Drobeta-Turnu Severin; alte surse îl leagă de un nou dosar penal, nu de activitate politică. Există omonimi, dar niciun mandat, candidat sau rol de partid nu poate fi legat fiabil de această persoană. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3718",
+      "original_name": "Bustei Traian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3944",
+        "https://www.dna.ro/comunicat.xhtml?id=2051",
+        "https://www.dna.ro/comunicat.xhtml?id=5063"
+      ],
+      "note": "Numele oficial este Traian Buștei. DNA îl identifică drept asociat unic și administrator al SC Mary Lysa Flora Impex SRL, condamnat în două dosare fiscale. Nu am găsit mandat, candidatură sau funcție de partid; interdicțiile electorale din sentințe nu dovedesc activitate politică. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3719",
+      "original_name": "Buzu Ludmila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3945",
+        "https://www.zdg.md/investigatii/deputatul-valeriu-guma-ingropat-de-sora-sa-ea-a-declarat-tot/comment-page-1/",
+        "https://www.zdg.md/stiri/politic/lista-parlamentare-aur/"
+      ],
+      "note": "DNA și Ziarul de Gardă identifică persoana condamnată ca sora fostului deputat Valeriu Guma, director adjunct Gerom/ulterior Poșta Moldovei și soția unui primar. Candidata AUR din 2025 cu același nume este profesor născut în 1987 și este o altă persoană. Nu există rol politic propriu pentru inculpata din dosar; profil eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
