@@ -59268,6 +59268,231 @@
       ],
       "note": "Sursele o identifica drept presedinta asociatiei private DUNARG Oltenita si profesoara/directoare adjuncta la un liceu tehnologic. Declaratia de avere a sotului confirma identitatea profesionala, dar nu un rol politic propriu. Lista oficiala BEC 2020 pentru Calarasi nu contine numele; nu a fost gasit mandat, rol de partid, candidatura sau numire politica. Profil eliminat din domeniul politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3652",
+      "original_name": "Popa Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3110",
+        "https://www.dna.ro/comunicat.xhtml?id=1237",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA identifică persoana condamnată exclusiv ca asociat unic și administrator al societății private SC Derodin SRL Bacău. Județul București din profil provenea de la instanța care a pronunțat hotărârea, nu de la identitatea ori activitatea persoanei. Popa Daniel este un nume foarte comun, iar niciun mandat, rol de partid, candidatură sau alt identificator politic nu poate fi legat sigur de administratorul Derodin; profil eliminat conservator pentru a evita atribuirea condamnării unui omonim.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3653",
+      "original_name": "Popa Vintila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5374",
+        "https://www.desteptarea.ro/voturi-platite-cu-20-de-lei/",
+        "https://www.desteptarea.ro/viceprimarul-comunei-racova-trimis-in-judecata-de-dna/"
+      ],
+      "note": "DNA îl identifică drept președinte al Asociației producătorilor agricoli din Racova, iar presa locală drept administrator privat și titular de cabinet; susținerea unui candidat PNL într-un episod electoral nu constituie mandat, candidatură sau funcție de partid. Profilul conținea și pedeapsa greșită (1 an și 1 lună, față de 1 an și 10 luni în hotărârea DNA), însă persoana rămâne în afara domeniului politic și este eliminată integral.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3654",
+      "original_name": "Preda Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3626",
+        "https://db.prefectura.mai.gov.ro/wp-content/uploads/sites/43/2017/12/ORDIN-NR.388-DIN-30.12.2013.pdf",
+        "https://primariaraualb.ro/wp-content/uploads/2020/07/7.ADEVERIN%C8%9A%C4%82-LIBER%C4%82-V%C3%82NZARE-TEREN-3068-mp.-p%C4%83%C8%99une-%C8%99i-201-mp.-p%C4%83%C8%99une-MARIN-TRAIAN.pdf",
+        "https://www.tvpartener.ro/social/vezi-lista-primarilor-alesi-in-dambovita/"
+      ],
+      "note": "Condamnatul este identificat de DNA exclusiv ca fost administrator al SC COD SECURITY SRL Târgoviște. În același județ există un omonim politic, Cătălin/Cătălin-Valentin Preda, primar al comunei Râu Alb, documentat oficial în funcție în 2012-2013 și ulterior, cronologie incompatibilă cu pedeapsa de 4 ani în regim de detenție pronunțată în octombrie 2012. Nu există identificator comun care să lege primarul de COD Security; profil eliminat pentru a preveni atribuirea condamnării omonimului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3655",
+      "original_name": "Puwak Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2221",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=B",
+        "https://teisani.europrahova.eu/wordpress/wp-content/uploads/2023/04/Proces-Verbal-sedinta-28.11.2022.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_prahova/consiliul-local/teisani/11"
+      ],
+      "note": "DNA și România Curată identifică persoana condamnată ca administrator privat din București și fiu al fostului ministru Hildegard Puwak, fără funcție publică proprie la data cazului. Un nume identic apare ca participant la o ședință locală din Teișani și candidat PMP în 2024, însă sursele nu publică niciun identificator comun (vârstă, domiciliu anterior, firme sau filiație) care să permită atribuirea sigură a condamnării. Profil eliminat conservator până la o dovadă directă de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3656",
+      "original_name": "Radu Marian",
+      "current_name": "Radu Marian",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7364",
+        "https://www.dna.ro/comunicat.xhtml?id=5663",
+        "https://www.gazetadambovitei.ro/actual/radu-marian-se-declara-socat-de-condamnarea-de-6-ani-cu-inchisoare/",
+        "https://www.gazetadambovitei.ro/actual/unpr-dambovita-dezminte-zvonul-privind-numirea-lui-cosmin-bozieru-functia-de-presedinte/"
+      ],
+      "note": "Presa locală leagă explicit inculpatul Radu Marian din dosarele DNA de liderul și președintele executiv UNPR Dâmbovița. Profilul a fost corectat de la administrator independent la fost lider UNPR și mutat în Dâmbovița. Pedeapsa din 2014 era 1 an și 10 luni cu suspendare, nu 1 an și 1 lună, iar profilul omitea condamnarea definitivă ulterioară din 2016 la 4 ani și 4 luni cu executare; sunt prezentate ambele hotărâri.",
+      "reviewed_snapshot_hash": "5bd80002e30e02e82cbdccd9c09ee5ddd04733001b8f0349683787008c488f54"
+    },
+    {
+      "profile_id": "RV-3657",
+      "original_name": "Raduly Zsolt",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3120",
+        "https://www.dna.ro/comunicat.xhtml?id=1462",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=HR",
+        "https://udmr.ro/organizatie/ozun"
+      ],
+      "note": "DNA îl identifică exclusiv ca asociat unic și administrator al SC ERGOND TUR SRL Gheorgheni, iar România Curată marchează lipsa unei funcții publice. Singurul rezultat politic apropiat este Ráduly Zsolt József, consilier UDMR în Ozun, Covasna, persoană cu nume complet și localitate diferite. Nu a fost găsit mandat, rol de partid, candidatură sau numire publică pentru administratorul din Gheorgheni; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3658",
+      "original_name": "Rosca Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1889",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=VN",
+        "https://www.viata-libera.ro/justitie/6446-cei-sapte-%EF%BF%BD%C3%AF%C2%BF%C2%BD%C3%AF%C2%BF%C2%BDmohicani%EF%BF%BD%C3%AF%C2%BF%C2%BD%EF%BF%BD-ai-coruptiei-din-2008",
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Profilul din 2010 se referă la administratorul societății private Italo Con Vest SRL, fără rol politic documentat. Numele foarte comun aparține unor persoane politice și apare și într-o condamnare DNA distinctă din 2013, dar acea sursă nu oferă firmă sau alt identificator care să demonstreze că este aceeași persoană. Pentru a evita atât alipirea dosarelor, cât și atribuirea către un omonim politic, profilul este eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3659",
+      "original_name": "Savastre Fani",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2218",
+        "https://www.dna.ro/comunicat.xhtml?id=2223",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GL",
+        "https://www.cjgalati.ro/images/stories/hotarari2022/minuta-dezb-public-100622.pdf"
+      ],
+      "note": "Sursele îl identifică drept administrator al SC ROCAR LAK SRL Corod și ulterior reprezentant al unei alte societăți private la o dezbatere publică. Participarea ca reprezentant comercial la o ședință publică nu este funcție politică. România Curată marchează lipsa calității publice, iar căutarea exactă nu a găsit mandat, candidatură, rol de partid sau numire publică; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3660",
+      "original_name": "Savin Corneliu",
+      "current_name": "Corneliu Savin",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2073",
+        "https://www.dna.ro/comunicat.xhtml?id=807",
+        "https://tribunalulbucuresti.ro/images/articole/politice-partide/poz-38-nov-2025.pdf",
+        "https://cugetliber.ro/stiri-eveniment-patron-judecat-pentru-ca-a-schimbat-destinatia-unor-fonduri-europene-64283"
+      ],
+      "note": "Numele a fost normalizat în ordinea uzuală Corneliu Savin. DNA și presa îl identifică drept administrator al SC Masiva SRL Tulcea, iar Registrul partidelor politice al Tribunalului București îl consemnează în 2008, sub forma Savin Corneliu, organizația Tulcea, ca membru al Delegației permanente a Partidului Verde. Numele rar, același județ și perioada comună confirmă identitatea; au fost corectate partidul și rolul politic.",
+      "reviewed_snapshot_hash": "c6da2ceedf887335609e6ec5febedd433e948ccc51c26a29536176afd6b51c87"
+    },
+    {
+      "profile_id": "RV-3661",
+      "original_name": "Soos Janos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3865",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CV",
+        "https://covasnamedia.ro/actualitate/%E2%80%9Eafaceri%E2%80%9D-necurate-cu-legume-%C8%99i-fructe"
+      ],
+      "note": "DNA și presa locală îl identifică drept administrator al societății private IMMO Contact SRL Sfântu Gheorghe. Rezultatele politice apropiate au alte nume complete ori alte localități, iar căutarea exactă nu a identificat mandat, candidatură, funcție de partid sau numire publică pentru această persoană. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3662",
+      "original_name": "Stan Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2748",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DB",
+        "https://actualitateaprahoveana.ro/actual?start=25236",
+        "https://www.infodosar.ro/monitorul-oficial/autoritatea-electorala-permanenta/17740-lista-23371-2024"
+      ],
+      "note": "DNA o identifică drept fost asistent manager al companiei private TRM-TNUVA ROMÂNIA MILK SRL; eticheta de administrator din profil era inexactă. Numele comun aparține și unor candidate ori funcționare din alte județe, dar nu există vârstă, adresă, companie sau alt identificator care să le lege de persoana condamnată. Niciun rol politic propriu nu este verificat; profil eliminat conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3663",
+      "original_name": "Stanescu Iulian",
+      "current_name": "Iulian Stănescu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2439",
+        "https://www.pmtgv.ro/pv27-06-08.html",
+        "https://ziar.incomod-media.ro/3-ani-de-inchisoare-pentru-consilierul-targovistean-iulian-stanescu/",
+        "https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/trimitere-in-judecata-09-02-2009-249587.html"
+      ],
+      "note": "Numele a fost normalizat la Iulian Stănescu. Presa locală leagă explicit condamnarea de consilierul municipal Târgoviște, iar procesul-verbal oficial al consiliului îl listează în grupul PDL. Profilul a fost corectat de la administrator independent la fost consilier local PDL; descrierea juridică include folosirea de documente false pentru fonduri europene, instigarea la fals intelectual și falsul sub semnătură privată, nu doar fals intelectual.",
+      "reviewed_snapshot_hash": "d18bc3b69a7544f009395f7eaf66bed76cc7ad7ffa0732f80f8a5626f329c54b"
     }
   ]
 }

@@ -138,6 +138,15 @@ export const excludedPoliticianNames = new Set([
   'Parlog Elena',
   'Pascu Ioan',
   'Patrascu Tudora',
+  'Popa Daniel',
+  'Popa Vintila',
+  'Preda Catalin',
+  'Puwak Mihai',
+  'Raduly Zsolt',
+  'Rosca Ioan',
+  'Savastre Fani',
+  'Soos Janos',
+  'Stan Mihaela',
   'Pădureanu Sabina',
   'Păuna Aida-Gabriela',
   'Petre Mihai',
@@ -11899,6 +11908,145 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Stanescu Iulian': {
+    replace_sources: true,
+    name: 'Iulian Stănescu',
+    party: 'PDL',
+    position: 'Fost consilier local al municipiului Târgoviște',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'political_base',
+      locality: 'Târgoviște',
+      note:
+        'Procesul-verbal al Consiliului Local Târgoviște îl consemnează în grupul PDL, iar presa locală confirmă mandatul la data condamnării.',
+    },
+    crime:
+      'Folosirea și prezentarea de documente false pentru obținerea pe nedrept de fonduri europene; instigare la fals intelectual; fals în înscrisuri sub semnătură privată',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 801 din 2 iunie 2011, Curtea de Apel Ploiești l-a condamnat definitiv pe Iulian Stănescu, administrator al SC Contrust Prod SRL Răzvad, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru folosirea și prezentarea de documente false care au avut ca rezultat obținerea pe nedrept de fonduri europene, instigare la fals intelectual și fals în înscrisuri sub semnătură privată. A fost obligat în solidar la plata debitului de 320.595,98 lei și a majorărilor aferente. Presa locală a identificat aceeași persoană drept consilier local municipal în Târgoviște, iar un proces-verbal oficial din 2008 îl înscrie în grupul PDL.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2439',
+      },
+      {
+        label: 'Primăria Târgoviște — proces-verbal al Consiliului Local',
+        kind: 'official',
+        url: 'https://www.pmtgv.ro/pv27-06-08.html',
+      },
+      {
+        label: 'Incomod Media — condamnarea consilierului local',
+        kind: 'press',
+        url: 'https://ziar.incomod-media.ro/3-ani-de-inchisoare-pentru-consilierul-targovistean-iulian-stanescu/',
+      },
+      {
+        label: 'Ziua de Constanța — rechizitoriul DNA',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/trimitere-in-judecata-09-02-2009-249587.html',
+      },
+    ],
+  },
+  'Savin Corneliu': {
+    replace_sources: true,
+    name: 'Corneliu Savin',
+    party: 'Partidul Verde',
+    position:
+      'Fost membru al Delegației permanente a Partidului Verde, reprezentant al organizației Tulcea',
+    position_type: 'other',
+    geography: {
+      county: 'Tulcea',
+      basis: 'political_base',
+      locality: 'Tulcea',
+      note:
+        'Registrul partidelor politice îl consemnează ca reprezentant al organizației Tulcea în Delegația permanentă a Partidului Verde.',
+    },
+    crime:
+      'Schimbarea fără respectarea prevederilor legale a destinației fondurilor europene',
+    sentence: '9 luni închisoare cu suspendare condiționată',
+    sentence_years: 0.75,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 794 din 8 decembrie 2010, Curtea de Apel Constanța l-a condamnat definitiv pe Corneliu Savin, administrator al SC Masiva SRL Tulcea, la 9 luni de închisoare cu suspendare condiționată, cu termen de încercare de 2 ani și 9 luni, pentru schimbarea nelegală a destinației unor fonduri europene. Prejudiciul de 23.151,20 euro fusese recuperat integral. Registrul partidelor politice al Tribunalului București consemnează în documentele Partidului Verde din 2008 numele Savin Corneliu, organizația Tulcea, între membrii Delegației permanente; numele rar, județul și perioada stabilesc legătura politică.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2073',
+      },
+      {
+        label: 'DNA — trimiterea în judecată și identificarea societății',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=807',
+      },
+      {
+        label: 'Tribunalul București — Registrul partidelor politice, Partidul Verde',
+        kind: 'official',
+        url: 'https://tribunalulbucuresti.ro/images/articole/politice-partide/poz-38-nov-2025.pdf',
+      },
+      {
+        label: 'Cuget Liber — dosarul Masiva SRL',
+        kind: 'press',
+        url: 'https://cugetliber.ro/stiri-eveniment-patron-judecat-pentru-ca-a-schimbat-destinatia-unor-fonduri-europene-64283',
+      },
+    ],
+  },
+  'Radu Marian': {
+    replace_sources: true,
+    party: 'UNPR',
+    position: 'Fost președinte executiv al UNPR Dâmbovița',
+    position_type: 'other',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'political_base',
+      locality: 'Târgoviște',
+      note:
+        'A condus organizația județeană UNPR Dâmbovița, fiind prezentat de presa locală drept liderul filialei în dosarele penale.',
+    },
+    crime:
+      'Complicitate la fraudă cu fonduri europene și înșelăciune; într-un dosar separat, tentativă de obținere ilegală de fonduri europene',
+    sentence:
+      '4 ani și 4 luni închisoare cu executare; separat, 1 an și 10 luni cu suspendare sub supraveghere',
+    sentence_years: 4.33,
+    conviction_year: 2016,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penală nr. 367 din 22 martie 2016, Curtea de Apel Ploiești l-a condamnat definitiv pe Radu Marian, administrator al unei societăți comerciale la data faptelor, la 4 ani și 4 luni de închisoare pentru complicitate la folosirea de documente false pentru obținerea pe nedrept de fonduri europene și complicitate la înșelăciune, ambele în formă continuată. Într-un dosar separat, Curtea de Apel Brașov îl condamnase definitiv, prin decizia penală nr. 672 din 25 noiembrie 2014, la 1 an și 10 luni de închisoare cu suspendare sub supraveghere pentru complicitate la tentativă de obținere ilegală de fonduri europene și la folosirea de documente false. Presa locală a identificat persoana din aceste dosare drept lider și ulterior președinte executiv al UNPR Dâmbovița.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă din 2016',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7364',
+      },
+      {
+        label: 'DNA — condamnarea definitivă din 2014',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5663',
+      },
+      {
+        label: 'Gazeta Dâmboviței — liderul UNPR și dosarul penal',
+        kind: 'press',
+        url: 'https://www.gazetadambovitei.ro/actual/radu-marian-se-declara-socat-de-condamnarea-de-6-ani-cu-inchisoare/',
+      },
+      {
+        label: 'Gazeta Dâmboviței — conducerea filialei UNPR',
+        kind: 'press',
+        url: 'https://www.gazetadambovitei.ro/actual/unpr-dambovita-dezminte-zvonul-privind-numirea-lui-cosmin-bozieru-functia-de-presedinte/',
+      },
+    ],
+  },
   'Muresan Sorin Liviu': {
     replace_sources: true,
     name: 'Mureșan Sorin-Liviu',
