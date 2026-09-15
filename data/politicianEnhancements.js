@@ -46,6 +46,7 @@ export const excludedPoliticianNames = new Set([
   'Caprarin Ovidiu',
   'Caraba Robert Valentin',
   'Ciurila Gheorghe',
+  'Cozmaciuc Constantin',
   'Comanescu Valentin',
   'Coseru Valentin',
   'Buduru Cornel',
@@ -103,16 +104,24 @@ export const excludedPoliticianNames = new Set([
   'Laciu Răducu George',
   'Lăcrămioara Alexandru',
   'Lengher Adrian',
+  'Lorincz Andras Senior',
+  'Lucan Doru',
   'Lungu Gheorghe Adrian',
   'Lupșa Lenuța Florentina',
+  'Lungeanu Ioan',
   'Macarie Gabriela',
   'Maria Cioban',
+  'Maier Sabin',
   'Mihuț Firuț',
+  'Mititiuc Mihai',
   'Mihalache Violeta-Teodora',
+  'Moglan Constantin',
   'Miu Ileana-Cristina',
   'Mitrana Aurica',
   'Moldovan-Verdeș Doina-Adriana',
+  'Moldoveanu Horatiu Ovidiu',
   'Moreanu Castelia',
+  'Morcan Ioan',
   'Oana Vasilescu',
   'Olaru Gheorghe',
   'Oproescu Dumitru',
@@ -135,6 +144,7 @@ export const excludedPoliticianNames = new Set([
   'Suciu Ioan',
   'Juncu Mihai',
   'Mariș Maria',
+  'Maris Vasile',
   'Muntean Iacob-Petru',
   'Belea Simion',
   'Sas Daniel-Gabriel',
@@ -11876,6 +11886,109 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Meran Dorin': {
+    replace_sources: true,
+    name: 'Dorin Meran',
+    party: 'PRM',
+    position:
+      'Fost lider PSM/PSD Galați și candidat PRM la Camera Deputaților (2008); fost comisar-șef al Gărzii de Mediu Tulcea',
+    position_type: 'other',
+    geography: {
+      county: 'Galați',
+      basis: 'political_base',
+      locality: 'Galați',
+      note:
+        'Activitatea politică documentată s-a desfășurat în județul Galați; funcția publică ulterioară de comisar-șef a fost exercitată la Tulcea.',
+    },
+    crime:
+      'Luare de mită în formă continuată; obținerea și deturnarea nelegală de fonduri europene; instigare la fals',
+    sentence: '1 an și 6 luni închisoare cu suspendare',
+    sentence_years: 1.5,
+    conviction_year: 2024,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 1.237 din 19 decembrie 2024, Curtea de Apel Constanța l-a condamnat definitiv pe Dorin Meran, fost comisar-șef al Gărzii de Mediu Tulcea, la un an și 6 luni de închisoare cu suspendare sub supraveghere pentru luare de mită în formă continuată. DNA a arătat că pretinsese 25.000 de lei și alte foloase pentru aplicarea unei sancțiuni mai blânde, suma fiind remisă în cadrul unui flagrant. Aceasta este a doua condamnare definitivă: la 30 ianuarie 2012 fusese condamnat la un an și 2 luni cu suspendare pentru obținerea și deturnarea nelegală de fonduri europene și instigare la fals, ca administrator al Metacon Rep SRL. Sursele electorale și presa locală îl documentează ca fost lider PSM și vicepreședinte PSD Galați, candidat PRM la Camera Deputaților în 2008 și candidat la Consiliul Local Galați în 2012. În iunie 2026, presa judiciară a relatat trimiterea sa în judecată într-o nouă cauză, dosarul nr. 973/88/2026 al Tribunalului Tulcea; această acuzație distinctă rămâne nesoluționată și beneficiază de prezumția de nevinovăție.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă pentru luare de mită',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12859',
+      },
+      {
+        label: 'DNA — trimiterea în judecată pentru luare de mită',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12250',
+      },
+      {
+        label: 'DNA — condamnarea definitivă din dosarul fondurilor europene',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2950',
+      },
+      {
+        label: 'Consiliul Județean Galați — proces-verbal privind mandatul și apartenența PSD',
+        kind: 'official',
+        url: 'https://cjgalati.ro/images/stories/hotarari/sedinta_6iun2005.PDF',
+      },
+      {
+        label: 'Viața Liberă — candidatura PRM din 2008 și traseul politic',
+        kind: 'press',
+        url: 'https://www.viata-libera.ro/pdf/2008/10_octombrie/vlg_21_oct.pdf',
+      },
+      {
+        label: 'G4Media — condamnarea definitivă din 2024 și istoricul politic',
+        kind: 'press',
+        url: 'https://www.g4media.ro/curtea-de-apel-constanta-i-a-redus-pedeapsa-fostului-sef-al-garzii-de-mediu-tulcea-dorin-meran-gasit-vinovat-pentru-luare-de-mita-a-fost-prins-in-flagrant-in-timp-ce-lua-mita-25-000-de-lei-intr-un.html',
+      },
+      {
+        label: 'Ziarul Amprenta — dosarul nr. 973/88/2026',
+        kind: 'press',
+        url: 'https://ziarulamprenta.ro/justitie/surse-dna-constanta-il-trimite-in-judecata-din-nou-pe-dorin-meran-fostul-sef-al-garzii-de-mediu-tulcea-legaturi-cu-dosarul-primarului-municipiului-tulcea-stefan-ilie/557975/',
+      },
+    ],
+  },
+  'Savu Mihai Christian': {
+    replace_sources: true,
+    name: 'Savu Mihai-Christian',
+    party: 'PSD',
+    position: 'Consilier local PSD al comunei Ucea, județul Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      locality: 'Ucea',
+      note:
+        'Site-ul oficial al comunei îl listează în actualul Consiliu Local Ucea, cu apartenență PSD.',
+    },
+    crime:
+      'Folosirea sau prezentarea de documente false pentru obținerea pe nedrept de fonduri europene; schimbarea destinației fondurilor europene',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2011,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 389 din 24 mai 2011, Curtea de Apel Brașov l-a condamnat definitiv pe Savu Mihai Christian la un an de închisoare cu suspendare condiționată, pe un termen de încercare de 3 ani, pentru folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au avut ca rezultat obținerea pe nedrept de fonduri europene și pentru schimbarea nelegală a destinației acestor fonduri. A fost obligat să plătească în solidar cu primarul comunei Ucea despăgubiri de 62.630,88 lei, plus dobânzi. Site-ul oficial al comunei îl consemnează în actualul Consiliu Local Ucea, sub forma numelui Savu Mihai-Christian, cu apartenență PSD. Identitatea este susținută de numele complet rar, de contextul explicit al dosarului din Ucea și de înregistrarea întreprinderii individuale cu același nume în satul Feldioara, comuna Ucea, încă din 2009.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2432',
+      },
+      {
+        label: 'Primăria Ucea — componența actuală a consiliului local',
+        kind: 'official',
+        url: 'https://primariaucea.ro/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'InfoCompanii — întreprinderea individuală din Feldioara, Ucea',
+        kind: 'press',
+        url: 'https://infocompanii.ro/savu-mihai-christian-intreprindere-individuala-26000110',
+      },
+    ],
+  },
   'Rusu Romel': {
     replace_sources: true,
     party: 'PNL',

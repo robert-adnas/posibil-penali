@@ -58781,6 +58781,229 @@
       ],
       "note": "Eliminat conservator. Persoana condamnată în dosarul bacalaureatului este identificată doar prin numele foarte comun Vasile Tătaru. Candidatul PNL din Lipova a candidat inclusiv la funcția de primar în 2024, dar nicio sursă nu publică o localitate, vârstă, ocupație sau alt identificator comun cu persoana din dosarul penal; există și alți omonimi în județ.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-1004",
+      "original_name": "Savu Mihai Christian",
+      "current_name": "Savu Mihai-Christian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2432",
+        "https://primariaucea.ro/consiliul-local/componenta-consiliului-local/",
+        "https://infocompanii.ro/savu-mihai-christian-intreprindere-individuala-26000110"
+      ],
+      "note": "Identitate confirmată prin numele complet rar și convergența Ucea/Feldioara: hotărârea definitivă DNA privește cauza din Ucea, iar site-ul comunei îl listează în actualul consiliu local PSD. Au fost corectate forma numelui, funcția actuală și descrierea juridică exactă.",
+      "reviewed_snapshot_hash": "430089424be69c793244ae532ac417bd22fa4666b329a9e6deecbe72e25661de"
+    },
+    {
+      "profile_id": "RV-1006",
+      "original_name": "Maris Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1830",
+        "https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx"
+      ],
+      "note": "DNA identifică doar un condamnat cu numele comun Mariș Vasile în dosarul bacalaureatului din Cluj, fără vârstă, domiciliu sau ocupație. Nu există un identificator comun cu candidatul PMP din Măguri-Răcătău, iar sursele publice indică mai multe persoane omonime în județ. Profil eliminat conservator pentru a evita o atribuire greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3603",
+      "original_name": "Cozmaciuc Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2874",
+        "https://www.monitorulsv.ro/administratorul-pit-stop-constantin-cozmaciuc-sase-luni-de-inchisoare-cu-suspendare_52c2ab/",
+        "https://www.just.ro/wp-content/uploads/2025/03/17_03_2025Fundatii.pdf"
+      ],
+      "note": "Sursele identifică persoana condamnată drept administratorul societății Imobiliara/Pit Stop din Horodniceni, fără mandat, funcție politică sau numire publică demonstrată. Un omonim a candidat la Pojorâta în 2016, dar nu există identificator comun; profilul juridic existent este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3627",
+      "original_name": "Lorincz Andras Senior",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4664",
+        "https://agroromania.manager.ro/articole/stiri/s-au-folosit-de-documente-si-declaratii-false-pentru-a-obtine-fonduri-sapard-cu-scopul-de-a-infiinta-o-unitate-de-depozitare-si-procesare-cartofi-10314.html",
+        "https://portal.just.ro/305/SiteAssets/SitePages/acasa_default/14.10.2025-CC4.pdf"
+      ],
+      "note": "Persoana este documentată ca administrator al Frigos Pommes/Larapinta și beneficiar privat în proiecte SAPARD. Nu a fost găsit niciun mandat, rol de partid, candidatură sau numire publică; asocierea comercială cu firma unui politician nu justifică includerea.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3628",
+      "original_name": "Lucan Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4451",
+        "https://www.ebihoreanul.ro/stiri/ne-trateaza-cu-hotie-sefa-cu-cazier-la-spitalul-judetean-89511.html",
+        "https://m.ebihoreanul.ro/cautare_stiri/2083"
+      ],
+      "note": "Sursele îl identifică drept asociat și administrator privat al Briltex Group. Relația de rudenie cu un deputat și rolul public al soției nu reprezintă un rol politic propriu; nu a fost găsit mandat, candidatură, funcție de partid sau numire publică pentru Doru Lucan.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3629",
+      "original_name": "Lungeanu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2892",
+        "https://adevarul.ro/stiri-locale/brasov/inchisoare-pentru-o-teapa-de-400000-de-euro-cu-828418.html",
+        "https://transparenta24.ro/firma/17010017-hans-laang-company-srl"
+      ],
+      "note": "Sursele îl documentează ca președinte al Societății BrAnt SF Promotion și administrator/reprezentant comercial, fără mandat, candidatură, funcție de partid sau numire publică. Profil exclus din domeniul politic. Câmpul existent de 3 luni contrazicea hotărârea DNA de 3 ani, sporind riscul publicării greșite.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3630",
+      "original_name": "Maier Sabin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2885",
+        "https://www.ziaruldeiasi.ro/stiri/administrator-de-firma-judecat-pentru-fraudare-de-fonduri-europene-de-peste-33000-de-euro--7oir.html",
+        "https://www.gandul.ro/stiri/mapa-profesionala-a-procurorului-ioan-irimie-propus-la-sefia-dna-de-pivniceru-cate-dosare-de-coruptie-a-anchetat-in-10-ani-si-cu-ce-rezultate-10305580"
+      ],
+      "note": "Persoana este documentată exclusiv ca om de afaceri și administrator al Cente SRL Baia Mare. Nu a fost găsit niciun rol politic ori public propriu; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3632",
+      "original_name": "Meran Dorin",
+      "current_name": "Dorin Meran",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12859",
+        "https://www.dna.ro/comunicat.xhtml?id=12250",
+        "https://www.dna.ro/comunicat.xhtml?id=2950",
+        "https://cjgalati.ro/images/stories/hotarari/sedinta_6iun2005.PDF",
+        "https://www.viata-libera.ro/pdf/2008/10_octombrie/vlg_21_oct.pdf",
+        "https://www.g4media.ro/curtea-de-apel-constanta-i-a-redus-pedeapsa-fostului-sef-al-garzii-de-mediu-tulcea-dorin-meran-gasit-vinovat-pentru-luare-de-mita-a-fost-prins-in-flagrant-in-timp-ce-lua-mita-25-000-de-lei-intr-un.html",
+        "https://ziarulamprenta.ro/justitie/surse-dna-constanta-il-trimite-in-judecata-din-nou-pe-dorin-meran-fostul-sef-al-garzii-de-mediu-tulcea-legaturi-cu-dosarul-primarului-municipiului-tulcea-stefan-ilie/557975/"
+      ],
+      "note": "Profil politic confirmat și substanțial corectat: fost lider PSM/PSD Galați, candidat PRM în 2008 și 2012, ulterior comisar-șef al Gărzii de Mediu Tulcea. Adăugată condamnarea definitivă mai recentă din 2024 pentru luare de mită și menționată separat, cu prezumția de nevinovăție, noua cauză aflată pe rol în 2026.",
+      "reviewed_snapshot_hash": "e681f54a5a86a75456d4309136641c2bf808e800197526738665eb9a17cadff5"
+    },
+    {
+      "profile_id": "RV-3633",
+      "original_name": "Mititiuc Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4370",
+        "https://www.dna.ro/comunicat.xhtml?id=7420",
+        "https://www.botosaninews.ro/250462/eveniment/fermier-trimis-in-judeacta-cu-repetitie-de-procurorii-dna-vezi-de-ce-este-acuzat/",
+        "https://hcl.usr.ro/iasi/1999/h27"
+      ],
+      "note": "Persoana condamnată este fermierul și administratorul Victomil din Santa Mare, Botoșani, fără rol politic documentat. Omonimul fost consilier local PSD Iași este profesor universitar, iar candidatul ALDE din Adâncata are prenumele Mihai-Marian; profilul a fost eliminat pentru a evita coliziunea de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3634",
+      "original_name": "Moglan Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3316",
+        "https://www.cciabuzau.ro/wp-content/uploads/2023/11/Catalog-2023-SITE-2.pdf",
+        "https://opiniabuzau.ro/foto-ce-lucrare-si-a-adjudecat-firma-careia-plecarea-lui-mocanu-de-la-consiliul-judetean-i-a-injumatatit-profitul/",
+        "https://www.news.ro/social/consiliul-judetean-buzau-a-finalizat-licitatia-si-a-semnat-contractele-pentru-deszapezirea-drumurilor-judetene-in-urmatorii-doi-ani-1922405716002016111516051749"
+      ],
+      "note": "Constantin Moglan este documentat ca inginer, asociat și administrator/director al Conferic SRL. Apropierea de politicieni și contractele publice nu constituie rol politic propriu; nu a fost găsit mandat, candidatură, funcție de partid sau numire publică identificabilă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3635",
+      "original_name": "Moldoveanu Horatiu Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3544",
+        "https://www.dna.ro/comunicat.xhtml?id=1379",
+        "https://www.fonduri-structurale.ro/stiri/5407/brasovean-trimis-in-judecata-pentru-ca-a-schimbat-destinatia-a-60-000-de-euro-din-fonduri-phare"
+      ],
+      "note": "Persoana este documentată ca asociat unic și administrator privat al HOR&I SRL Brașov, beneficiar al unui proiect PHARE. Nu a fost găsit niciun mandat, rol de partid, candidatură sau numire publică; profilul este exclus din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3636",
+      "original_name": "Morcan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3570",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_04feb2022.pdf",
+        "https://edata.business/companie/rou/roonrcf0213452010-morcan-ioan-intreprindere-individuala",
+        "https://media.stiripesurse.ro/other/202405/media-171637463699794800.pdf"
+      ],
+      "note": "Persoana condamnată este documentată ca administrator privat și participant în activitatea unui composesorat, fără mandat sau rol politic verificat. Candidații electorali găsiți au alte prenume complete (Ioan-Ilie, respectiv Dragomir), deci nu pot fi asociați profilului.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
