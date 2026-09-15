@@ -59769,6 +59769,307 @@
       ],
       "note": "DNA și presa locală îl identifică pe Cezar Florin Zaharia exclusiv drept patron/administrator al SC Alumet SRL Suceava, condamnat definitiv la 1 an și 11 luni cu suspendare pentru fraudarea fondurilor europene. Sursele oficiale locale ulterioare confirmă aceeași persoană în contexte fiscale, nu politice. Nu există mandat, candidatură sau funcție de partid verificabilă; profilul este eliminat.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3679",
+      "original_name": "Zamfir Ovidiu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3959",
+        "https://www.dna.ro/comunicat.xhtml?id=2051",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al unor societăți agricole private din Felmer, condamnat definitiv la 1 an cu suspendare pentru complicitate la obținerea nelegală de fonduri europene. Nu există mandat, candidatură sau funcție de partid verificabilă; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3680",
+      "original_name": "Achira Hussin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2511",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BC"
+      ],
+      "note": "DNA îl identifică exclusiv ca administrator al societății private SC Frania SRL Bacău, condamnat definitiv la 3 ani și 10 luni cu executare pentru complicitate la înșelăciune. Nu a fost identificat niciun mandat, nicio candidatură și nicio funcție de partid; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3682",
+      "original_name": "Alaciu Catalin Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3302",
+        "https://www.dna.ro/comunicat.xhtml?id=1112",
+        "https://www.dna.ro/comunicat.xhtml?id=1447"
+      ],
+      "note": "DNA îl identifică drept asociat unic și administrator al firmei private SC Rat Company SRL Baia Mare, condamnat definitiv la 6 ani cu executare. Numele a fost normalizat cu diacritice; nu există un rol politic verificabil, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3683",
+      "original_name": "Aldescu Iliuta Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4450",
+        "https://www.dna.ro/comunicat.xhtml?id=1006",
+        "https://ziaruldevalcea.ro/2013/11/intreaga-conducere-a-firmei-mentchim-gasita-vinovata-de-prejudiciul-de-18-milioane-euro/"
+      ],
+      "note": "DNA îl identifică drept administrator al societății private SC Gen Fero Chim SRL București, condamnat definitiv la 3 ani cu suspendare pentru complicitate la abuz în serviciu și fals. Numele a fost normalizat cu diacritice; nu există un rol politic verificabil, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3684",
+      "original_name": "Alexandrescu Sandel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4641",
+        "https://www.dna.ro/comunicat.xhtml?id=2622",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AG"
+      ],
+      "note": "DNA îl identifică drept fost administrator al societății private SC Ioana Med Farm SRL Ștefănești, condamnat definitiv la 5 ani și 6 luni cu executare. Numele a fost normalizat cu diacritice; relația familială cu o directoare DSP nu îi conferă lui o funcție politică, iar un rol politic propriu nu este verificabil. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3685",
+      "original_name": "Alexe Mihai Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5531",
+        "https://www.dna.ro/comunicat.xhtml?id=4174",
+        "https://www.avocatnet.ro/articol_12984/Asociatul-unei-firme-ilfovene-a-prejudiciat-statul-cu-peste-23-milioane-euro.html"
+      ],
+      "note": "Sursele judiciare îl documentează ca persoană din mediul comercial privat, implicată în dosare de evaziune fiscală și condamnată definitiv; nu indică un mandat, o candidatură sau o funcție de partid. Profilul este în afara domeniului politic și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3686",
+      "original_name": "Alexutan Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1952",
+        "https://romaniacurata.ro/harta-coruptiei/?judet=AG",
+        "https://jurnaluldearges.ro/primele-sentinte-in-lotul-alexutan-405/"
+      ],
+      "note": "DNA și presa locală îl identifică drept administrator/patron al unor societăți private din Argeș, condamnat definitiv la 5 luni cu suspendare pentru fapte legate de fonduri și fals. Numele a fost normalizat cu diacritice; nu este documentat niciun rol politic propriu, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3687",
+      "original_name": "Alistar Adrian Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4441",
+        "https://www.dna.ro/comunicat.xhtml?id=4562",
+        "https://www.dna.ro/comunicat.xhtml?id=4576"
+      ],
+      "note": "DNA îl identifică drept administrator de fapt, asociat și administrator al mai multor societăți comerciale private, condamnat definitiv în dosare de evaziune fiscală. Nu a fost identificată nicio funcție publică electivă, candidatură sau funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3688",
+      "original_name": "Andreescu Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2647",
+        "https://sibiu100.ro/administratie/sibieni-judecati-pentru-evaziune-fiscala/",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA și presa sibiană identifică persoana din dosar ca administrator al unei societăți comerciale private, condamnat definitiv la 1 an cu suspendare pentru evaziune fiscală. Numele este comun, iar aparițiile omonime din administrație nu pot fi legate de acest inculpat; fără un rol politic verificabil, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3689",
+      "original_name": "Andrici Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3639",
+        "https://www.dna.ro/comunicat.xhtml?id=703",
+        "https://www.monitorulbt.ro/localbt/2020/06/11/ce-firme-vor-sa-faca-drumul-strategic/"
+      ],
+      "note": "DNA îl identifică drept administrator al societății private SC Construct Com SRL Botoșani și intermediar comercial în dosarul familiei Conțac, condamnat definitiv la 3 ani cu suspendare. Relațiile contractuale cu administrația nu reprezintă funcție politică; nu există mandat, candidatură ori rol de partid verificabil, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3690",
+      "original_name": "Anghel Ionel Mirel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://ziaruldebacau.ro/sentinte-definitive-in-dosarul-banca-transilvania/",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale private din Bacău, condamnat definitiv la 3 ani și 4 luni cu executare în dosarul Banca Transilvania. Nu există un mandat, o candidatură sau o funcție de partid verificabilă; profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3691",
+      "original_name": "Apavaloaei Dinu",
+      "current_name": "Dinu Apăvăloaei",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4806",
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1315&PID=20&currentPage=187",
+        "https://sar.org.ro/wp-content/uploads/2011/08/Consilieri-monitorizati.pdf"
+      ],
+      "note": "Profilul este păstrat: ANI confirmă mandatul de consilier județean Iași în perioada 2008–2012, iar sursele de monitorizare îl identifică drept PSD. Numele, partidul, rolul și geografia au fost corectate; condamnarea definitivă la 2 ani și 6 luni cu executare este confirmată de DNA.",
+      "reviewed_snapshot_hash": "203da74f972712cbb0d5d0b3fd7550a83778d5925e92aca3fadc761ffc5e0c2a"
+    },
+    {
+      "profile_id": "RV-3692",
+      "original_name": "Asan Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4479",
+        "https://www.euroavocatura.ro/stiri/10884/Sinteza_cauzelor_finalizate_de_procurorii_anticoruptie_in_luna_decembrie_2012"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al societății private SC Arcom Grup 2008 SRL, condamnat definitiv la 5 ani cu executare pentru evaziune fiscală și infracțiuni conexe. Nu este documentat niciun mandat, nicio candidatură și nicio funcție de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3693",
+      "original_name": "Balac Gheorghe",
+      "current_name": "Gheorghe Balâc",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1886",
+        "https://stirileprotv.ro/stiri/eveniment/candidatul-care-a-dat-mita-nu-va-ajunge-la-senat-ci-la-puscarie.html",
+        "https://www.hotnews.ro/wp-content/uploads/2024/11/1730735654-lista-candidati-camera-deputatilor-2024-1.pdf"
+      ],
+      "note": "Profilul este păstrat și corectat. Persoana condamnată este identificată direct de presa contemporană drept candidatul PNDC la Primăria Galați și Senat în 2008; lista electorală din 2024 consemnează același nume rar în Galați pe lista ANC pentru Camera Deputaților. Condamnarea definitivă la 3 ani cu executare este confirmată de DNA.",
+      "reviewed_snapshot_hash": "09f3807d8fedc54542a66253cb63c8e0e8b0523fa7b15af39989d9966f57cecc"
+    },
+    {
+      "profile_id": "RV-3694",
+      "original_name": "Baltag Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3224",
+        "https://www.dna.ro/comunicat.xhtml?id=1700"
+      ],
+      "note": "DNA îl identifică drept administrator al unui bar privat din comuna Ungureni, județul Bacău, condamnat definitiv la 4 luni cu suspendare pentru dare de mită. Nu este documentat niciun mandat, nicio candidatură sau funcție de partid; eventualele omonimii nu pot fi atribuite inculpatului, iar profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3695",
+      "original_name": "Banescu Razvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4360",
+        "https://www.romaniacurata.ro/inspector-in-primaria-capitalei-acuzat-de-mita/"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al societății private SC Auto Ram Service Roți SRL, condamnat definitiv la 4 luni cu suspendare pentru dare de mită și instigare la dare de mită. Numele a fost normalizat cu diacritice; nu este documentat niciun rol politic, iar profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3696",
+      "original_name": "Barsan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2511",
+        "https://www.ancpi.ro/pnccf_docs/Bac%C4%83u/Ghime%C8%99%20F%C4%83get/Contract_3465_16.05.2024/Documente%20tehnice/S50_Opis_alfabetic_detinatori_Ghimes-Faget.pdf"
+      ],
+      "note": "DNA îl identifică drept administrator al societății private SC Șuba SRL din Tărhăuși, condamnat definitiv la 2 ani cu suspendare pentru înșelăciune. Numele a fost normalizat cu diacritice; căutările electorale și locale nu dovedesc niciun mandat, nicio candidatură ori funcție de partid, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

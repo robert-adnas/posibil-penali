@@ -9,6 +9,7 @@ export const metadataOverrides = {
 // Profiles verified as public servants, police officers or private intermediaries
 // without an elected mandate, party leadership role or political appointment.
 export const excludedPoliticianNames = new Set([
+  'Achira Hussin',
   'Adrian Ginel Margarit',
   'Adrian Ivascu',
   'Andronic Marioara Elisabeta',
@@ -16,19 +17,32 @@ export const excludedPoliticianNames = new Set([
   'Apateanu Eugen',
   'Apopi Gheorghe',
   'Arpasteuan Mihaita Ionel',
+  'Asan Ion',
   'Alexandru Adriana',
   'Alexandra Maria Tichindelean',
+  'Alexandrescu Sandel',
   'Alexandru Mindrut',
   'Andrei Mureșan',
+  'Andreescu Adrian',
+  'Andrici Ioan',
   'Andreaș Elena',
   'Anghel Nicolae',
+  'Anghel Ionel Mirel',
   'Antinie Andreea',
   'Alexandru-Ovidiu Voda',
   'Alexnadrina Georgescu',
+  'Alexe Mihai Valeriu',
+  'Alexutan Gheorghe',
   'Alin-Narcis Pascariu',
+  'Alistar Adrian Nicolae',
+  'Alaciu Catalin Vasile',
+  'Aldescu Iliuta Ionel',
   'Amar-Danut Ziub',
   'Argintaru Niță',
   'Băncianu Alexandru',
+  'Baltag Constantin',
+  'Banescu Razvan',
+  'Barsan Ioan',
   'Bejan Robert George',
   'Bodrean Adrian Mihai',
   'Boroiu-Badea Florin',
@@ -160,6 +174,7 @@ export const excludedPoliticianNames = new Set([
   'Voicu Cristinel Daniel',
   'Zaharescu Andrei Bogdan',
   'Zaharia Cezar Florin',
+  'Zamfir Ovidiu Constantin',
   'Pădureanu Sabina',
   'Păuna Aida-Gabriela',
   'Petre Mihai',
@@ -11921,6 +11936,92 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Balac Gheorghe': {
+    replace_sources: true,
+    name: 'Gheorghe Balâc',
+    party: 'ANC',
+    position:
+      'Fost candidat ANC la Camera Deputaților în Galați (2024); fost candidat PNDC la Primăria Galați și Senat (2008)',
+    position_type: 'other',
+    geography: {
+      county: 'Galați',
+      basis: 'constituency',
+      locality: 'Galați',
+      note:
+        'Candidaturile documentate au fost depuse în municipiul și circumscripția Galați; numele rar și județul coincid cu persoana condamnată din comunicatul DNA.',
+    },
+    crime: 'Cumpărare de influență în formă continuată',
+    sentence: '3 ani închisoare cu executare',
+    sentence_years: 3,
+    conviction_year: 2010,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penală nr. 330 din 27 aprilie 2010, Curtea de Apel Galați l-a condamnat definitiv pe Gheorghe Balâc la 3 ani de închisoare cu executare pentru cumpărare de influență în formă continuată. DNA îl identifică drept administrator și asociat al mai multor societăți comerciale gălățene. Presa contemporană dosarului confirmă că aceeași persoană a candidat din partea PNDC la Primăria Galați și apoi la Senat, în Colegiul 4 Galați, în 2008. Lista centralizată a candidaților din 2024 consemnează ulterior numele Gheorghe Balâc pe lista Alianței Național Creștine pentru Camera Deputaților în Galați; sunt corectate numele, partidul și rolul politic.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1886',
+      },
+      {
+        label: 'DNA — trimiterea în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1076',
+      },
+      {
+        label: 'Știrile ProTV — candidaturile PNDC din 2008',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/stiri/eveniment/candidatul-care-a-dat-mita-nu-va-ajunge-la-senat-ci-la-puscarie.html',
+      },
+      {
+        label: 'Lista centralizată a candidaților la Camera Deputaților — 2024',
+        kind: 'report',
+        url: 'https://www.hotnews.ro/wp-content/uploads/2024/11/1730735654-lista-candidati-camera-deputatilor-2024-1.pdf',
+      },
+    ],
+  },
+  'Apavaloaei Dinu': {
+    replace_sources: true,
+    name: 'Dinu Apăvăloaei',
+    party: 'PSD',
+    position: 'Fost consilier județean PSD în Consiliul Județean Iași (2008–2012)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'political_base',
+      locality: 'Iași',
+      note:
+        'ANI confirmă exercitarea mandatului de consilier județean în Consiliul Județean Iași între 2008 și 2012; județul Tulcea din profilul inițial era doar locul cauzei Ecoterm Năvodari.',
+    },
+    crime: 'Complicitate la abuz în serviciu în formă continuată',
+    sentence: '2 ani și 6 luni închisoare cu executare',
+    sentence_years: 2.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Prin decizia penală nr. 216 din 2 aprilie 2014, Curtea de Apel Constanța l-a condamnat definitiv pe Dinu Apăvăloaei, fost administrator al unei societăți comerciale, la 2 ani și 6 luni de închisoare cu executare pentru complicitate la abuz în serviciu în formă continuată. Agenția Națională de Integritate confirmă că a exercitat mandatul de consilier județean în Consiliul Județean Iași în perioada 2008–2012, iar sursele de monitorizare electorală îl identifică drept reprezentant PSD. Sunt corectate astfel numele, partidul, rolul politic și județul profilului.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4806',
+      },
+      {
+        label: 'ANI — incompatibilitate în mandatul de consilier județean',
+        kind: 'official',
+        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1315&PID=20&currentPage=187',
+      },
+      {
+        label: 'Societatea Academică din România — consilieri monitorizați',
+        kind: 'report',
+        url: 'https://sar.org.ro/wp-content/uploads/2011/08/Consilieri-monitorizati.pdf',
+      },
+    ],
+  },
   'Vasilca Vasile': {
     replace_sources: true,
     name: 'Vasile Vasilca',
