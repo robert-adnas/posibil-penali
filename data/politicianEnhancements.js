@@ -147,6 +147,19 @@ export const excludedPoliticianNames = new Set([
   'Savastre Fani',
   'Soos Janos',
   'Stan Mihaela',
+  'Stavarescu Victor',
+  'Streteanu Mihaela Violeta',
+  'Teodor Doru',
+  'Teodorescu Ion',
+  'Torok Iosif',
+  'Trifu Adrian',
+  'Turbatu Vasile',
+  'Udroiu Sorin Ionut Claudiu',
+  'Vicol Mihai Tiberiu',
+  'Visan Nicolae',
+  'Voicu Cristinel Daniel',
+  'Zaharescu Andrei Bogdan',
+  'Zaharia Cezar Florin',
   'Pădureanu Sabina',
   'Păuna Aida-Gabriela',
   'Petre Mihai',
@@ -11908,6 +11921,99 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Vasilca Vasile': {
+    replace_sources: true,
+    name: 'Vasile Vasilca',
+    party: 'PNȚCD',
+    position:
+      'Fost președinte al PNȚCD Ocna Mureș și fost vicepreședinte al conducerii interimare PNȚCD Alba',
+    position_type: 'other',
+    geography: {
+      county: 'Alba',
+      basis: 'political_base',
+      locality: 'Ocna Mureș',
+      note:
+        'Procesul-verbal oficial al Consiliului Local Ocna Mureș îl identifică drept președinte al organizației locale PNȚCD; Ocna Mureș se află în județul Alba, nu în județul Mureș.',
+    },
+    crime:
+      'Folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea pe nedrept de fonduri europene și schimbarea nelegală a destinației fondurilor, ambele în formă continuată',
+    sentence: '3 ani închisoare cu suspendare, cu termen de încercare de 5 ani',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 410 din 27 mai 2014, Curtea de Apel Alba l-a condamnat definitiv pe Vasile Vasilca, administrator și acționar majoritar al SC Băile Sărate Ocna Mureș SA, la 3 ani de închisoare cu suspendarea executării pe un termen de încercare de 5 ani. Infracțiunile concurente au fost folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete pentru obținerea pe nedrept de fonduri europene și schimbarea nelegală a destinației acestor fonduri, ambele în formă continuată. A fost obligat în solidar cu societatea la plata echivalentului în lei al sumei de 59.401 euro. Un proces-verbal oficial din 2013 îl identifică drept președinte al PNȚCD Ocna Mureș, iar presa locală consemnează numirea sa în 2012 ca vicepreședinte al conducerii interimare PNȚCD Alba; astfel sunt corectate partidul, rolul și județul.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4978',
+      },
+      {
+        label: 'DNA — trimiterea în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1473',
+      },
+      {
+        label: 'Primăria Ocna Mureș — proces-verbal al Consiliului Local',
+        kind: 'official',
+        url: 'https://www.primariaocnamures.ro/consiliul-local/procese-verbale/2013/proces-verbal%2030.05.2013.pdf',
+      },
+      {
+        label: 'Alba24 — rolul în conducerea PNȚCD Alba',
+        kind: 'press',
+        url: 'https://alba24.ro/taranistul-vasile-vasilca-condamnat-la-10-ani-de-inchisoare-pentru-frauda-din-fonduri-europene-prejudiciul-cauzat-depaseste-60-000-de-euro-144994.html',
+      },
+    ],
+  },
+  'Tabacaru Nicolaie-Dan': {
+    replace_sources: true,
+    name: 'Nicolaie-Dan Tăbăcaru',
+    party: 'PSD',
+    position: 'Fost candidat PSD la Consiliul Local Horia, județul Neamț (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Neamț',
+      basis: 'political_base',
+      locality: 'Horia',
+      note:
+        'Lista candidaților la alegerile locale din 2020 îl consemnează pe lista PSD pentru Consiliul Local Horia; un document oficial anterior confirmă domiciliul în Horia și administrarea aceleiași societăți din dosarul penal.',
+    },
+    crime:
+      'Folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea pe nedrept de fonduri europene',
+    sentence: '3 ani închisoare cu suspendare, cu termen de încercare de 5 ani',
+    sentence_years: 3,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Prin decizia penală nr. 659 din 22 mai 2014, Curtea de Apel București l-a condamnat definitiv pe Nicolaie-Dan Tăbăcaru, administrator al SC Darcons SRL, la 3 ani de închisoare cu suspendarea executării pe un termen de încercare de 5 ani, pentru folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete care au dus la obținerea pe nedrept de fonduri europene. Rechizitoriul arată că societatea a obținut nelegal 10.509,35 lei, sumă restituită integral. Un act oficial al unei asociații intercomunitare îl identifică pe administratorul Darcons cu domiciliul în satul Horia, județul Neamț, iar lista electorală din 2020 consemnează exact numele Nicolaie-Dan Tabacaru drept candidat PSD la Consiliul Local Horia; cumulul numelui complet rar, localității și societății stabilește identitatea.',
+    verified_at: '2026-09-15',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4934',
+      },
+      {
+        label: 'Primăria Ion Creangă — act constitutiv GAL Elisabeta Doamna',
+        kind: 'official',
+        url: 'https://www.primariaioncreanga.ro/admin/atasamente/documente/582/H.C.L%20%20nr.%2017%20din%2027.03.2014.pdf',
+      },
+      {
+        label: 'Ziare.com — candidații la Consiliul Local Horia în 2020',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/horia/4',
+      },
+      {
+        label: 'EuroAvocatura — rechizitoriul DNA și identificarea SC Darcons SRL',
+        kind: 'press',
+        url: 'https://www.euroavocatura.ro/stiri/11879/Cauze_finalizate_de_procurorii_DNA_in_luna_august_2013%2C_altele_decat_cele_deja_mediatizate',
+      },
+    ],
+  },
   'Stanescu Iulian': {
     replace_sources: true,
     name: 'Iulian Stănescu',

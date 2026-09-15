@@ -59493,6 +59493,282 @@
       ],
       "note": "Numele a fost normalizat la Iulian Stănescu. Presa locală leagă explicit condamnarea de consilierul municipal Târgoviște, iar procesul-verbal oficial al consiliului îl listează în grupul PDL. Profilul a fost corectat de la administrator independent la fost consilier local PDL; descrierea juridică include folosirea de documente false pentru fonduri europene, instigarea la fals intelectual și falsul sub semnătură privată, nu doar fals intelectual.",
       "reviewed_snapshot_hash": "d18bc3b69a7544f009395f7eaf66bed76cc7ad7ffa0732f80f8a5626f329c54b"
+    },
+    {
+      "profile_id": "RV-3664",
+      "original_name": "Stavarescu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4188",
+        "https://www.dna.ro/comunicat.xhtml?id=758",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DB",
+        "https://www.gazetadambovitei.ro/wp-content/uploads/2014/10/topul-firmelor-2014-tipografie.pdf"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Stavcons SRL Morteni și al altor societăți private; dosarul privea o situație de lucrări falsificată într-un contract cu DGASPC/CJ, nu exercitarea unei funcții publice. România Curată marchează lipsa calității publice, iar sursele comerciale îl descriu exclusiv ca om de afaceri. Niciun mandat, nicio candidatură și niciun rol de partid verificabil; eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3665",
+      "original_name": "Streteanu Mihaela Violeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2892",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=682",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BV",
+        "https://craiova.ro/firme/kronstadt-facility-management-srl"
+      ],
+      "note": "DNA o identifică drept reprezentantă a SC Saniplus SRL și SC Sitex Serv SRL, condamnată definitiv la 3 ani cu executare pentru fals în înscrisuri private și complicitate la schimbarea destinației fondurilor europene. România Curată indică exclusiv calitatea de administrator privat, iar datele comerciale confirmă activitatea empresarială. Nu există mandat, candidatură ori funcție de partid verificabilă; eliminată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3666",
+      "original_name": "Tabacaru Nicolaie-Dan",
+      "current_name": "Nicolaie-Dan Tăbăcaru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4934",
+        "https://www.primariaioncreanga.ro/admin/atasamente/documente/582/H.C.L%20%20nr.%2017%20din%2027.03.2014.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/horia/4",
+        "https://www.euroavocatura.ro/stiri/11879/Cauze_finalizate_de_procurorii_DNA_in_luna_august_2013%2C_altele_decat_cele_deja_mediatizate"
+      ],
+      "note": "Condamnarea definitivă de 3 ani cu suspendare este confirmată de DNA. Rechizitoriul identifică SC Darcons SRL; documentul oficial GAL îl identifică pe administratorul cu același nume și domiciliul în Horia, Neamț, iar lista electorală 2020 consemnează exact numele drept candidat PSD la Consiliul Local Horia. Corectate numele, partidul, rolul și geografia.",
+      "reviewed_snapshot_hash": "9342c1b80be904a8d629655ec459123a80932b8a7179314597e79142cceea75a"
+    },
+    {
+      "profile_id": "RV-3667",
+      "original_name": "Teodor Doru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2966",
+        "https://adevarul.ro/stiri-locale/iasi/politia-din-republica-dominicana-l-a-extradat-in-1402999.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=IS",
+        "https://www.bjiasi.ro/wp-content/uploads/2014/01/Anuarul-judetului-Iasi-2012.pdf"
+      ],
+      "note": "DNA și sursele locale îl identifică pe Doru Teodor drept administrator/patron al societății private Teofarm SA, condamnat definitiv la 5 ani cu executare pentru fraudarea fondurilor europene și ulterior extrădat. Nu a fost identificat niciun mandat, nicio candidatură sau funcție de partid; eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3668",
+      "original_name": "Teodorescu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1953",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=VL",
+        "https://www.bjiasi.ro/wp-content/uploads/2014/01/Anuarul-judetului-Iasi-2012.pdf"
+      ],
+      "note": "Sursele dosarului îl descriu pe Ion Teodorescu exclusiv ca administrator al unei societăți comerciale private din Vâlcea, condamnat la un an cu suspendare. Numele este foarte comun, iar rezultatele politice găsite aparțin altor persoane, fără coincidență de societate, localitate sau alte identificatoare. Pentru a evita o atribuire greșită, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3669",
+      "original_name": "Torok Iosif",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3865",
+        "https://covasnamedia.ro/actualitate/%E2%80%9Eafaceri%E2%80%9D-necurate-cu-legume-%C8%99i-fructe",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CV",
+        "https://covasna.info.ro/_f/arhiva_hotarari/2006/MONITORUL_OFICIAL2006iulie4bis.pdf"
+      ],
+      "note": "DNA și presa locală îl identifică pe Torok Iosif drept asociat unic și administrator al SC Biofruct SRL Câlnic, rol privat. Omonimul politic găsit în documentele județene este Török József Attila, consilier UDMR cu nume complet diferit; nu există identificatori care să lege persoana condamnată de acesta sau de alt rol politic. Profilul este eliminat pentru evitarea unei coliziuni de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3670",
+      "original_name": "Trifu Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4503",
+        "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv"
+      ],
+      "note": "DNA îl identifică pe Adrian Trifu exclusiv ca administrator al SC Agro Diacost SRL, condamnat definitiv la 1 an și 6 luni cu suspendare pentru schimbarea destinației fondurilor europene și deturnare de fonduri. Căutarea electorală și instituțională nu a produs un mandat, o candidatură ori un rol de partid care să poată fi legat prin societate, localitate sau alt identificator; omonimii găsiți sunt persoane diferite. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3671",
+      "original_name": "Turbatu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1889",
+        "https://www.ziaruldevrancea.ro/actualitatea/ultimele-stiri/55073-doi-afaceristi-din-focsani-la-zdup-pentru-fraudarea-fondurilor-ue.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=VN"
+      ],
+      "note": "DNA și presa vrânceană îl identifică pe Vasile Turbatu drept om de afaceri implicat prin societatea privată Promet SRL Focșani, condamnat definitiv la 3 ani cu suspendare pentru obținerea nelegală de fonduri europene. Nu a fost găsit niciun mandat, nicio candidatură sau funcție de partid; rezultatele istorice ori persoanele cu nume apropiat nu pot fi atribuite inculpatului. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3672",
+      "original_name": "Udroiu Sorin Ionut Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4332",
+        "https://romanialibera.ro/special/primarul-comunei-firliug-din-caras-severin-a-fost-trimis-in-judecata-pentru-deturnare-de-fonduri-phare-247577/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CS"
+      ],
+      "note": "DNA și relatarea rechizitoriului îl identifică pe Sorin Ionuț Claudiu Udroiu drept administrator al societății private Banatica Group SRL, contractant al Consiliului Local Fîrliug, nu titular al unei funcții publice. Numele complet rar nu apare în surse electorale sau de partid; existența unui contract cu primăria nu conferă rol politic. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3673",
+      "original_name": "Vasilca Vasile",
+      "current_name": "Vasile Vasilca",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4978",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1473",
+        "https://www.primariaocnamures.ro/consiliul-local/procese-verbale/2013/proces-verbal%2030.05.2013.pdf",
+        "https://alba24.ro/taranistul-vasile-vasilca-condamnat-la-10-ani-de-inchisoare-pentru-frauda-din-fonduri-europene-prejudiciul-cauzat-depaseste-60-000-de-euro-144994.html"
+      ],
+      "note": "DNA confirmă definitiv 3 ani cu suspendare la 27 mai 2014. Procesul-verbal oficial îl identifică drept președinte PNȚCD Ocna Mureș, iar presa confirmă funcția județeană PNȚCD Alba. Corectate numele, partidul, rolul și geografia: Ocna Mureș este în județul Alba, nu Mureș.",
+      "reviewed_snapshot_hash": "0ddccd0c6653d864855ed258013740522f2f42e98479727b6644f91f4c79f397"
+    },
+    {
+      "profile_id": "RV-3674",
+      "original_name": "Vicol Mihai Tiberiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2846",
+        "https://www.digi24.ro/stiri/actualitate/social/ancheta-digi24-reabilitarea-blocurilor-in-insolventa-firma-care-a-incasat-17-milioane-de-euro-de-la-primaria-sectorului-2-spune-ca-a-ramas-fara-bani-257224",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=IF"
+      ],
+      "note": "DNA și investigația Digi24 îl identifică pe Mihai Tiberiu Vicol ca administrator/acționar al unor societăți private din Buftea, inclusiv Mega Electric, condamnat definitiv la 4 ani și 9 luni cu executare. Relațiile comerciale cu autorități publice nu reprezintă funcție politică, iar numele complet nu apare într-un mandat, o candidatură sau conducere de partid verificabilă. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3675",
+      "original_name": "Visan Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3247",
+        "https://covasnamedia.ro/sport/legendarul-hocheist-nicolae-visan-s-a-stins-din-viata",
+        "https://listafirme.ro/torpi-2000-srl-12422785/",
+        "https://www.ziaruldevrancea.ro/special/politica/19519-liderul-png-slobozia-bradului-sare-la-primarul-zamfirescu.html"
+      ],
+      "note": "DNA îl identifică pe Nicolae Vișan ca administrator al SC Torpi 2000 SRL Sfântu Gheorghe. Presa locală leagă aceeași firmă de fostul hocheist olimpic Nicolae Vișan, ulterior antreprenor, decedat în 2017. Liderul PNG-CD omonim era din Slobozia Bradului, Vrancea, iar candidatul omonim din Vâlcea avea altă ocupație și localitate; nu există legătură cu Torpi. Persoana condamnată nu a avut rol politic verificabil, deci profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3676",
+      "original_name": "Voicu Cristinel Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4864",
+        "https://www.dna.ro/comunicat.xhtml?id=2286",
+        "https://adevarul.ro/stiri-locale/alexandria/doar-10-condamnari-pentru-fapte-de-coruptie-in-1615765.html"
+      ],
+      "note": "DNA îl identifică pe Cristinel Daniel Voicu drept administrator al SC Eurowestrwst SRL, societate agricolă privată, condamnat definitiv la 2 ani cu suspendare după obținerea nelegală de subvenții; prejudiciul fusese achitat. Presa locală îl enumeră tot cu funcția de administrator, distinct de persoanele din sectorul public. Nu există mandat, candidatură sau rol de partid verificabil; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3677",
+      "original_name": "Zaharescu Andrei Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5005",
+        "https://www.topiasi.ro/homepage/topiasi/6092-exclusiv-b%C4%83iat-de-bani-gata-din-ia%C5%9Fi-condamnat-la-3-ani-de-%C3%AEnchisoare-cu-suspendare.html",
+        "https://edata.business/companie/rou/roonrcf2216332015-zaharescu-andrei-bogdan-persoana-fizica-autorizata"
+      ],
+      "note": "DNA și presa ieșeană îl identifică pe Andrei-Bogdan Zăhărescu ca antreprenor și administrator al SC Constantine Advertising SRL, condamnat definitiv la 2 ani cu suspendare pentru fraudă cu fonduri europene. Sursele biografice și comerciale descriu exclusiv activități antreprenoriale; nu apare niciun mandat, nicio candidatură ori funcție de partid. Numele a fost normalizat, iar profilul este eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3678",
+      "original_name": "Zaharia Cezar Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2828",
+        "https://www.monitorulsv.ro/patronul-de-la-alumet-cezar-zaharia-trimis-in-judecata-de-dna-suceava_fc0428/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=SV"
+      ],
+      "note": "DNA și presa locală îl identifică pe Cezar Florin Zaharia exclusiv drept patron/administrator al SC Alumet SRL Suceava, condamnat definitiv la 1 an și 11 luni cu suspendare pentru fraudarea fondurilor europene. Sursele oficiale locale ulterioare confirmă aceeași persoană în contexte fiscale, nu politice. Nu există mandat, candidatură sau funcție de partid verificabilă; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
