@@ -373,13 +373,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/bucuresti</loc>
+    <loc>https://politicieni-corupti.ro/judet/maramures</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/maramures</loc>
+    <loc>https://politicieni-corupti.ro/judet/bucuresti</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -391,37 +391,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/cluj</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/sibiu</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/ilfov</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/bacau</loc>
+    <loc>https://politicieni-corupti.ro/judet/cluj</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/maramures</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/arad</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -451,19 +433,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/bihor</loc>
+    <loc>https://politicieni-corupti.ro/judet/bacau</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/arad</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/vaslui</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/suceava</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -481,6 +463,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/suceava</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/ilfov</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/bihor</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/mures</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -493,19 +493,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/constanta</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/satu-mare</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/alba</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -517,7 +505,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/alba</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/dambovita</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/constanta</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -535,25 +535,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/galati</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/iasi</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/olt</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/galati</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/brasov</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/iasi</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -595,12 +595,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/neamt</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/braila</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -608,6 +602,12 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/timis</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/neamt</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -631,25 +631,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/buzau</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/caras-severin</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/botosani</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/buzau</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/ialomita</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/caras-severin</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -721,12 +721,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/salaj</loc>
-    <lastmod>2026-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://politicieni-corupti.ro/judet/ungaria</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -734,6 +728,12 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/republica-moldova</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/judet/salaj</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5679,282 +5679,6 @@
   <url>
     <loc>https://politicieni-corupti.ro/politician/adrian-mihail-dragan</loc>
     <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gavrilut-tudor</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/georgescu-alexandru-tudor</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gherghe-alexandru</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gherman-ioan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/ghervase-nelia</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gogoase-aurelian-iulica</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/goman-ioj</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gorgan-adina-anastasia</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gradinaru-corneliu-vasile</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/groapa-eugen</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/grosu-adriana-simona</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/grosu-laurentia-maria</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/gurau-horia</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/habip-ahmed</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/halmajan-pavel-petru</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/herraiz-medina-juliana</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/hritac-marcel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/iagaru-toader</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/iancu-viorica</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/ilea-cornel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/iosip-ioan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/iovanov-sorin-marcel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/isik-serda</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/ispas-marius-daniel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/iuruc-gheorghe</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/ivan-catalin-florin</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/izvernari-danut-nelu</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/jivan-bujor-petru</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/jurca-florin-alin</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/jurj-tudor-ioan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/jurje-vale-ioan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/karabulut-huseyin</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/kiss-elisabeta</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/kokbas-serkan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/kovacs-zoltan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/lapadat-eugen</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/laza-marcel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/leca-paul</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/locic-marius</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/lomidze-levan</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/lungu-octavian-valentin</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/luo-wensen</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/lupu-ghiocel</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/maftei-cristian</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/mandii-nicusor</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/politician/manea-ciprian-ionut</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
