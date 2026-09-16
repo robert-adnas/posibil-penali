@@ -61394,6 +61394,744 @@
       ],
       "note": "DNA îl identifică drept administrator al SC United Services & Consulting SRL București, condamnat definitiv la 3 ani și 3 luni pentru evaziune fiscală și falsuri contabile; nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă. Profilul este exclus pentru a evita atribuirea nejustificată a unui statut politic.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3774",
+      "original_name": "Gavrilut Tudor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4064"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Eurobild Trade SRL Oradea, condamnat pentru complicitate la evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3775",
+      "original_name": "Georgescu Alexandru Tudor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3879"
+      ],
+      "note": "DNA îl identifică drept asociat al SC Midocar SRL București, condamnat pentru folosirea cu rea-credință a bunurilor societății. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3776",
+      "original_name": "Gherghe Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2882"
+      ],
+      "note": "Comunicarea DNA îl identifică exclusiv ca administrator al unei societăți comerciale; în aceeași cauză, persoana cu funcție de partid este nominalizată separat. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă pentru Alexandru Gherghe, astfel că profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3777",
+      "original_name": "Gherman Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4937"
+      ],
+      "note": "DNA îl identifică drept administrator al unor societăți comerciale, condamnat pentru evaziune fiscală și încercarea de a determina mărturia mincinoasă. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3778",
+      "original_name": "Ghervase Nelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4486",
+        "https://arhiva.bzi.ro/fostul-arhitect-sef-al-primariei-bacau-judecat-pentru-coruptie-152024"
+      ],
+      "note": "Sursele o identifică drept administrator privat implicat în dosarul fostului arhitect-șef al municipiului Bacău. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3779",
+      "original_name": "Gogoase Aurelian Iulica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2876"
+      ],
+      "note": "DNA îl identifică drept director comercial al unei societăți comerciale, fără rol politic ori funcție publică menționată. Căutările exacte nu au identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3780",
+      "original_name": "Goman Ioj",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4708"
+      ],
+      "note": "DNA îl identifică drept fost administrator al unei societăți comerciale și îl obligă în solidar cu SC Karma Met Impex SRL; nu este indicat vreun rol politic sau public. Nu am identificat candidatură, mandat, funcție de partid ori numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3781",
+      "original_name": "Gorgan Adina Anastasia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3105"
+      ],
+      "note": "DNA o identifică drept administrator al SC Turdarom Advertising SRL, condamnată în dosarul în care rolul politic îi aparține separat fostului deputat Virgil Pop. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3782",
+      "original_name": "Gradinaru Corneliu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4309"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Compressa Construct SRL Moinești, condamnat într-un dosar fiscal. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3783",
+      "original_name": "Groapa Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5450"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale la data faptelor, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3784",
+      "original_name": "Grosu Adriana Simona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3564"
+      ],
+      "note": "DNA o identifică drept asociat unic și administrator al SC Alfarom 2000 SRL Constanța. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3785",
+      "original_name": "Grosu Laurentia Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5066"
+      ],
+      "note": "DNA o identifică drept președintă a Fundației Laurenția din Reghin, o organizație privată. Formularea infracțiunii privind folosirea autorității sau influenței nu dovedește o funcție politică; nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă, astfel că profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3786",
+      "original_name": "Gurau Horia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4309"
+      ],
+      "note": "DNA îl identifică drept administrator de fapt al SC Tehno Logystic Construct SRL Comănești, condamnat într-un dosar fiscal. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3787",
+      "original_name": "Habip Ahmed",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4133"
+      ],
+      "note": "DNA îl identifică drept cetățean turc și administrator de fapt al SC Valerio Optim SRL, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3788",
+      "original_name": "Halmajan Pavel Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4372"
+      ],
+      "note": "DNA îl identifică drept administrator și director general al SC Trans Bitum SRL, o societate comercială privată. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3789",
+      "original_name": "Herraiz Medina Juliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4861"
+      ],
+      "note": "DNA o identifică drept cetățean spaniol și fost administrator al unei societăți comerciale, condamnată pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3790",
+      "original_name": "Hritac Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1899"
+      ],
+      "note": "Comunicarea DNA confirmă condamnarea pentru fals, dar nu îi atribuie nicio funcție publică sau politică; eticheta de administrator apare doar în agregator. Căutările exacte nu au identificat candidatură, mandat, funcție de partid ori numire publică verificabilă, astfel că profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3791",
+      "original_name": "Iagaru Toader",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2647"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale, fără rol public sau politic; comunicatul indică 1 an și 10 luni, în timp ce profilul rezuma eronat 1 an și 1 lună. Cum nu am identificat candidatură, mandat, funcție de partid ori numire publică verificabilă, profilul este exclus în loc să publice date nepertinente și inconsistente.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3792",
+      "original_name": "Iancu Viorica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175"
+      ],
+      "note": "DNA o identifică numai ca reprezentant al unei societăți comerciale. Numele este comun, iar căutările exacte nu permit atribuirea sigură a condamnării unei persoane cu candidatură, mandat, funcție de partid ori numire publică; profilul este exclus pentru a evita o coliziune de identitate și o etichetare politică nefondată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3793",
+      "original_name": "Ilea Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2059"
+      ],
+      "note": "DNA îl identifică drept administrator al școlii private de șoferi Auto Ilea. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3794",
+      "original_name": "Iosip Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3222"
+      ],
+      "note": "DNA îl identifică drept administrator și asociat unic al SC Vanesa Prodcom SRL Siret, condamnat pentru infracțiuni fiscale. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3795",
+      "original_name": "Iovanov Sorin Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3333"
+      ],
+      "note": "DNA îl identifică drept asociat unic și administrator al SC Sanomed Team 2007 SRL și consemnează expulzarea sa în Austria după executarea pedepsei. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3796",
+      "original_name": "Isik Serda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4729"
+      ],
+      "note": "Profilul trunchia numele ca Isik Serda; DNA îl identifică drept IȘIK SERDAL, cetățean turc și administrator al unei societăți comerciale, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3797",
+      "original_name": "Ispas Marius Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1933"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Auto Ady 92 SRL Câmpia Turzii. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3798",
+      "original_name": "Iuruc Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4806"
+      ],
+      "note": "DNA îl identifică drept fost administrator al unei societăți comerciale, legat civil de SC Geserom Internațional SRL. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3799",
+      "original_name": "Ivan Catalin Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3401",
+        "https://www.europarl.europa.eu/meps/en/39726/CATALIN+SORIN_IVAN/history/8"
+      ],
+      "note": "DNA îl identifică pe Cătălin Florin Ivan drept administrator de fapt al SC Transamerican 2000 SRL Călărași. Fostul eurodeputat este Cătălin Sorin Ivan, cu alt nume complet și altă biografie; nu am găsit un rol politic propriu pentru condamnat. Profilul este exclus pentru a rezolva coliziunea de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3800",
+      "original_name": "Izvernari Danut Nelu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4780"
+      ],
+      "note": "DNA îl identifică drept administrator al unor societăți comerciale, condamnat pentru dare de mită și complicitate la abuz în serviciu. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3801",
+      "original_name": "Jivan Bujor Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170"
+      ],
+      "note": "DNA îl identifică drept administrator al unor societăți comerciale, condamnat pentru asociere și complicitate la spălare de bani. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3803",
+      "original_name": "Jurca Florin Alin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale, condamnat ca participant într-un dosar privind o agenție bancară privată. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3804",
+      "original_name": "Jurj Tudor Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5449"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale la data faptelor. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3805",
+      "original_name": "Jurje-Vale Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3558"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Textil Division SRL Baia Mare și complice la un abuz în serviciu comis de funcționari. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3806",
+      "original_name": "Karabulut Huseyin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4354"
+      ],
+      "note": "DNA îl identifică drept cetățean turc, asociat unic și administrator cu puteri depline al SC Lazarou Impex SRL, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3807",
+      "original_name": "Kiss Elisabeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4692"
+      ],
+      "note": "DNA o identifică drept administrator al unei societăți comerciale, condamnată pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3808",
+      "original_name": "Kokbas Serkan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4133"
+      ],
+      "note": "DNA îl identifică drept cetățean turc, asociat și administrator al SC Valerio Optim SRL, condamnat pentru complicitate la trafic de influență. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3809",
+      "original_name": "Kovacs Zoltan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4937"
+      ],
+      "note": "DNA îl identifică numai ca administrator al unei societăți comerciale din cauza fiscală. Numele Zoltan Kovacs este foarte frecvent, iar căutările nu permit legarea sigură a condamnatului de vreo persoană cu candidatură, mandat, funcție de partid sau numire publică; profilul este exclus pentru a evita o coliziune de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3810",
+      "original_name": "Lapadat Eugen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5141"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale, condamnat pentru dare de mită. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3811",
+      "original_name": "Laza Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3342"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Viomar Tex SRL Fetești; în aceeași cauză, rolul politic este atribuit separat vicepreședintelui CJ Ialomița Ioan Hanaru. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie pentru Marcel Laza; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3812",
+      "original_name": "Leca Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2884"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al SC Tehno Logystic Construct SRL Comănești, condamnat într-un dosar fiscal. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3813",
+      "original_name": "Locic Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4034"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Locic Imobiliare SRL și cumpărător de influență; rolurile politice și judiciare din dosar aparțin altor inculpați. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3814",
+      "original_name": "Lomidze Levan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3551"
+      ],
+      "note": "DNA îl identifică drept cetățean georgian, asociat și administrator al SC Saray Comimpex SRL, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3815",
+      "original_name": "Lungu Octavian Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3552"
+      ],
+      "note": "DNA îl identifică drept administrator de societăți comerciale și complice la trafic de influență. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3816",
+      "original_name": "Luo Wensen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5078"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale și îl obligă în solidar cu SC UEI SRL Pârscov într-un dosar fiscal. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3817",
+      "original_name": "Lupu Ghiocel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4486"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale, condamnat pentru dare de mită și cumpărare de influență. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3818",
+      "original_name": "Maftei Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4990"
+      ],
+      "note": "DNA îl identifică drept fost administrator al unor societăți comerciale din Iași și complice la fapte de mită. Nu am identificat candidatură, mandat, funcție de partid sau numire publică proprie; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3819",
+      "original_name": "Mandii Nicusor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3363"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Hagi Comexim SRL și SC Eurometal Comimpex SRL, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3820",
+      "original_name": "Manea Ciprian - Ionut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3318"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al SC Rul Com SRL, condamnat pentru infracțiuni fiscale și instigare la abuz în serviciu. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
