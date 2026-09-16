@@ -96,6 +96,24 @@ export const excludedPoliticianNames = new Set([
   'Diaconu Cristian',
   'Dicu Florin',
   'Dinu Ovidiu',
+  'Ditcov Iulian',
+  'Dobrescu Razvan',
+  'Dorneanu Florin Liviu',
+  'Dragan Bogdanel Ion',
+  'Dragoi Victor',
+  'Dragomir Paul',
+  'Droniuc Aspazia',
+  'Duma Durain Ionela',
+  'Dumitrescu Rovena Cristina',
+  'Dunareanu Mihail',
+  'Enescu Adrian',
+  'Fabian Petru',
+  'Fertu Alexandru',
+  'Floarea Dumitru',
+  'Florea Ciprian Sorin',
+  'Florea George Sorin',
+  'Florea Ion',
+  'Florescu Valeriu Emanuel',
   'Bejan Robert George',
   'Bodrean Adrian Mihai',
   'Boroiu-Badea Florin',
@@ -45865,23 +45883,23 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Dragan Adrian Mihail",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
+    "name": "Adrian-Mihail Drăgan",
+    "party": "PNG-CD",
+    "position": "Candidat PNG-CD la Camera Deputaților în Brăila (2008); fost administrator AgroDunărea Tractor Service",
     "position_type": "other",
     "geography": {
-      "county": "Galati",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Galati."
+      "county": "Braila",
+      "basis": "constituency",
+      "note": "A candidat din partea PNG-CD pentru Camera Deputaților, în colegiul uninominal nr. 4 Brăila, la alegerile parlamentare din 2008."
     },
-    "crime": "trafic de influență",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
+    "crime": "trafic de influență și obținere pe nedrept de fonduri europene prin documente false",
+    "sentence": "6 ani și 4 luni închisoare",
+    "sentence_years": 6.33,
+    "conviction_year": 2019,
     "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 15 februarie 2013. Condamnarea inculpatului DRĂGAN ADRIAN MIHAIL, administrator al unei societăți comerciale, la pedeapsa de 4 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea infracțiunii de trafic de influență.",
-    "verified_at": "2026-06-10",
+    "execution_type": "Cu executare",
+    "details": "Adrian-Mihail Drăgan a candidat din partea PNG-CD pentru Camera Deputaților în colegiul nr. 4 Brăila la alegerile din 2008. Condamnarea definitivă de 4 ani cu suspendare pentru trafic de influență, pronunțată în 2013, a fost revocată după o nouă condamnare pentru obținerea nelegală de fonduri europene. Prin decizia definitivă din martie 2019 a rezultat pedeapsa totală de 6 ani și 4 luni închisoare cu executare. A fost extrădat în 2023 și liberat condiționat prin hotărâre definitivă la 24 mai 2024.",
+    "verified_at": "2026-09-16",
     "sources": [
       {
         "label": "DNA",
@@ -45892,7 +45910,37 @@ export const politicianAdditions = [
         "label": "România Curată",
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dragan Adrian Mihail indică județul Galati, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 552 și condamnarea din 15/02/2013."
+        "description": "Rândul CSV pentru Dragan Adrian Mihail indică decizia penală 552 și condamnarea din 15 februarie 2013."
+      },
+      {
+        "label": "Lista candidaților la alegerile parlamentare din 2008",
+        "kind": "official",
+        "url": "https://image.stirileprotv.ro/media/document/60180959.pdf",
+        "description": "Lista electorală îl consemnează pe Drăgan Adrian-Mihail, PNG-CD, în județul Brăila, colegiul uninominal nr. 4."
+      },
+      {
+        "label": "România Liberă",
+        "kind": "press",
+        "url": "https://romanialibera.ro/sport/psd-mizeaza-pe-sprijinul-masiv-al-primarilor-sai-139959/",
+        "description": "Articolul electoral îl identifică drept candidatul PNG-CD în colegiul 4 Brăila pentru Camera Deputaților."
+      },
+      {
+        "label": "DNA — decizia definitivă din 2019",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=9404",
+        "description": "Decizia definitivă a stabilit pedeapsa totală de 6 ani și 4 luni închisoare, prin cumularea noii pedepse cu cea de 4 ani a cărei suspendare a fost revocată."
+      },
+      {
+        "label": "Judecătoria Galați — dosar de executare 2024",
+        "kind": "official",
+        "url": "https://portal.just.ro/233/SiteAssets/SitePages/informatii/%C8%99edin%C8%9Ba%20completului%20CP2%20ex.%2Bac%20din%20data%20de%2010.01.2024.pdf",
+        "description": "Documentul instanței confirmă existența dosarului de executare pentru condamnatul Drăgan Adrian Mihail."
+      },
+      {
+        "label": "Obiectiv Vocea Brăilei — liberarea condiționată",
+        "kind": "press",
+        "url": "https://obiectivbr.ro/fugar-condamnat-extradat-eliberat/",
+        "description": "Relatează extrădarea din 2023 și liberarea condiționată rămasă definitivă la 24 mai 2024."
       }
     ]
   },

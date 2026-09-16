@@ -61049,6 +61049,351 @@
       ],
       "note": "DNA și presa locală îl identifică pe Ovidiu Dinu exclusiv ca administrator al unor societăți comerciale sibiene din domeniul cerealelor și produselor petroliere. Un omonim apare ca reprezentant de partid într-o secție de votare din Maramureș în 2025, fără identificatori care să permită legarea de condamnatul din Sibiu. Nu există rol politic verificabil pentru persoana condamnată; profilul se elimină.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3754",
+      "original_name": "Ditcov Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5534",
+        "https://www.curentul.info/actualitate/locotenentii-lui-vintu-parteneri-de-afaceri-cu-evazionistii-lui-maricel-pacuraru/",
+        "https://infobiz.md/1020600034765/societatea-cu-raspundere-limitata-realitatea-phg"
+      ],
+      "note": "Sursele îl identifică pe Iulian Ditcov ca administrator și om de afaceri asociat în societăți comerciale, inclusiv ca partener al unor persoane cu legături politice. Nu a fost găsită o candidatură, un mandat, o funcție de partid sau o numire politică proprie; legăturile comerciale cu politicieni nu justifică includerea în registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3755",
+      "original_name": "Dobrescu Razvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2882",
+        "https://www.jurisprudenta.com/dosare-procese/2005/42079q3q2005-3/",
+        "https://www.gandul.ro/actualitate/a-murit-rasvan-dobrescu-avocat-fost-senator-deputat-initiatorul-legii-restituirii-proprietatii-19654411"
+      ],
+      "note": "DNA și hotărârea îl identifică pe condamnat ca Răzvan Teodor Dobrescu, administrator al unei societăți comerciale, fără rol politic documentat. Fostul parlamentar PNȚCD era Răsvan-Mihai Dobrescu, avocat pensionat în 2006 și decedat în 2021 la 88 de ani; este o persoană distinctă. Profilul abreviat crea o coliziune de nume și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3756",
+      "original_name": "Dorneanu Florin Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE%20OF%20DORNEANU%20v.%20ROMANIA.pdf&id=001-179193&library=ECHR&logEvent=False",
+        "https://www.desteptarea.ro/cedo-tratament-inuman-cazul-unui-detinut-care-murit-de-cancer/"
+      ],
+      "note": "DNA și hotărârea CEDO îl identifică drept om de afaceri/administrator implicat în dosarul economic Banca Transilvania, fără candidatură, mandat, funcție de partid sau numire politică documentată. A decedat la 24 decembrie 2013. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3757",
+      "original_name": "Dragan Adrian Mihail",
+      "current_name": "Adrian-Mihail Drăgan",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3916",
+        "https://image.stirileprotv.ro/media/document/60180959.pdf",
+        "https://romanialibera.ro/sport/psd-mizeaza-pe-sprijinul-masiv-al-primarilor-sai-139959/",
+        "https://www.dna.ro/comunicat.xhtml?id=9404",
+        "https://obiectivbr.ro/fugar-condamnat-extradat-eliberat/"
+      ],
+      "note": "Identitatea a fost normalizată la Adrian-Mihail Drăgan. Lista candidaților și presa electorală confirmă candidatura PNG-CD pentru Camera Deputaților, colegiul 4 Brăila, în 2008. Statusul a fost actualizat de la condamnarea din 2013 la pedeapsa definitivă totală de 6 ani și 4 luni cu executare din martie 2019; sursele din 2024 confirmă extrădarea și liberarea condiționată definitivă la 24 mai 2024.",
+      "reviewed_snapshot_hash": "d69873dc664cb5d28214ad579adecb462acfe50f9981fe9ac84a94e1e3d1757e"
+    },
+    {
+      "profile_id": "RV-3758",
+      "original_name": "Dragan Bogdanel Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4692",
+        "https://stirileprotv.ro/stiri/timis/evaziune-fiscala-de-peste-trei-milioane-de-euro-in-afaceri-cu-cereale-afla-cum-au-procedat-acuzatii.html",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE%20OF%20ILIA%C8%98%20AND%20OTHERS%20v.%20ROMANIA.pdf&id=001-181392&library=ECHR&logEvent=False"
+      ],
+      "note": "DNA, presa și hotărârea CEDO îl identifică drept reprezentant/administrator al unor societăți comerciale implicat într-un dosar de evaziune fiscală. Nu a fost identificată o candidatură, un mandat, o funcție de partid ori o numire politică; profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3759",
+      "original_name": "Dragoi Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4331",
+        "https://www.gorjeanul.ro/investigatii/verdict-final-pentru-buluz-si-dragoi/",
+        "https://www.pandurul.ro/articol/om-de-afaceri-amenintat-de-habitu-cu-pistolul_36645.html",
+        "https://dspace.bcucluj.ro/jspui/bitstream/123456789/70987/1/BCUCLUJ_FP_PIV2093_1996_008_1676.pdf"
+      ],
+      "note": "Condamnatul este Victor Drăgoi, om de afaceri din Gorj și asociat într-o societate beneficiară de fonduri europene. Există un omonim politic, Victor Drăgoi, fost inspector școlar general în Cluj și candidat PDSR la Consiliul Județean în 1996, însă sursele nu leagă cele două identități și indică geografii/cariere diferite. Pentru a evita atribuirea greșită, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3760",
+      "original_name": "Dragomir Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2554",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CT",
+        "https://campinatv.ro/News/Article/d5256e70-741a-4051-766b-627db383b478_alegeri-locale-2024-cum-se-impart-mandatele-de-consilier-local-la-campina-psd-7-pnl-5-pcc-3-adu-2-aur-2"
+      ],
+      "note": "DNA îl identifică pe condamnat numai ca asociat unic și administrator al Large Naval Eurotrading SRL Constanța, cu pedeapsă totală de 8 ani după revocarea unei suspendări anterioare. Un Paul Dragomir apare în politica locală din Câmpina în 2024, însă nu există elemente care să lege persoana din Prahova de administratorul condamnat din Constanța. Pentru evitarea unei coliziuni de nume, profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3761",
+      "original_name": "Droniuc Aspazia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3569",
+        "https://www.dna.ro/comunicat.xhtml?id=3488",
+        "https://adevarul.ro/stiri-interne/societate/aspazia-droniuc-se-folosea-in-afaceri-de-greii-951264.html",
+        "https://adevarul.ro/stiri-interne/societate/denuntatoarea-aspazia-scolita-de-emil-boc-1008404.html"
+      ],
+      "note": "Sursele oficiale o identifică drept asociată/administrator al firmelor Frarom. Presa a relatat o apartenență veche la PD/PDL, dar nu a fost găsită o candidatură, un mandat, o funcție de partid ori o numire publică; simpla calitate de membru, relatată neuniform, nu justifică afișarea ca profil politic. Este exclusă conservator, evitând și publicarea unei sinteze de sentință inconsistentă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3762",
+      "original_name": "Duma Durain Ionela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3269",
+        "https://www.dna.ro/comunicat.xhtml?id=6183",
+        "https://transparenta24.ro/firma/15312264-mike-security-srl"
+      ],
+      "note": "DNA o identifică drept administrator al SC Mike Security SRL, iar datele comerciale recente confirmă activitatea în societăți private. Nu a fost găsită o candidatură, un mandat, o funcție de partid ori o numire politică. Asocierea de afaceri cu o persoană care a fost membru PSD nu îi conferă o calitate politică proprie; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3763",
+      "original_name": "Dumitrescu Rovena Cristina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3220",
+        "https://www.observatorulph.ro/exclusiv/38629-spalare-de-bani-si-evaziune-fiscala-poveste-de-un-milion-de-lei",
+        "https://craiova.ro/firme/romciclin-2006-srl-18324620-1325440"
+      ],
+      "note": "Sursele o identifică drept administrator al unor societăți comerciale private implicate în activități cu produse petroliere. Nu a fost identificată vreo candidatură, funcție de partid, funcție publică sau numire politică. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3764",
+      "original_name": "Dunareanu Mihail",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4381",
+        "https://www.unpir.ro/documents/tablou/VII_2026-04-09_1775716748.pdf",
+        "https://www.anevar.ro/images/pdf/tablou_titulari_a_-_05.11.2024.pdf",
+        "https://ziarulamprenta.ro/stirile-zilei/un-evaluator-trebuie-sa-plateasca-o-avere-statului-roman-pentru-un-teren-din-portul-constanta-ce-ar-fi-fost-supraevaluat/358284/"
+      ],
+      "note": "Sursele îl identifică drept practician în insolvență și evaluator autorizat, inclusiv evaluator desemnat într-un dosar ANRP. Nu a fost identificată o candidatură, un mandat, o funcție de partid sau o numire politică; exercitarea unei profesii reglementate ori desemnarea ca evaluator nu reprezintă rol politic. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3765",
+      "original_name": "Enescu Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3399",
+        "https://adevarul.ro/stiri-locale/buzau/liberalii-buzoieni-au-deja-candidati-pentru-1739257.html",
+        "https://cjbuzau.ro/wp-content/uploads/2023/03/Enescu-Liviu-2022.pdf"
+      ],
+      "note": "DNA îl identifică pe condamnat ca Adrian Enescu, administrator al SC Aditom SRL din Zărnești, Brașov. Politicianul PNL din Buzău este Enescu Liviu-Adrian, fost consilier județean și lider al organizației Puiești, deci o persoană cu alt nume complet și alt traseu geografic. Nicio sursă nu leagă administratorul condamnat de un rol politic; profilul se exclude pentru coliziune de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3766",
+      "original_name": "Fabian Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5373",
+        "https://portal.just.ro/42/Documents/08.10.2025%20sp1.pdf",
+        "https://www.gazetadambovitei.ro/eveniment/fabian-petru-regele-alcoolului-6-ani-cu-executare-decizia-e-definitiva/"
+      ],
+      "note": "DNA și celelalte surse îl identifică drept om de afaceri/administrator de societăți din industria alcoolului, cu litigii penale și de executare. Nu a fost identificată o candidatură, un mandat, o funcție de partid ori o numire politică. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3767",
+      "original_name": "Fertu Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4438",
+        "https://adevarul.ro/stiri-locale/constanta/constanta-a-prejudiciat-bugetul-de-stat-cu-peste-1364156.html",
+        "https://static.anaf.ro/static/1/Galati/20260205141050_ct_31784.pdf"
+      ],
+      "note": "DNA, presa și documentele fiscale îl identifică drept om de afaceri din Valu lui Traian/Constanța, asociat sau administrator al mai multor societăți comerciale. Nu a fost identificată vreo candidatură, un mandat, o funcție de partid ori o numire politică; relațiile comerciale cu persoane conectate politic nu îi conferă un rol politic propriu. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3768",
+      "original_name": "Floarea Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://romanialibera.ro/special/functionari-ai-directilor-antifrauda-din-vama-si-anaf-deferiti-justitiei-pentru-luare-de-mita-282352/",
+        "https://isc.gov.ro/files/2024/Autorizari/22.11.2024%20DATE%20DESCHISE%20DS.pdf"
+      ],
+      "note": "Sursele îl identifică drept administrator al Termovil Râmnicu Vâlcea și specialist autorizat în construcții. Nu a fost identificată o candidatură, un mandat, o funcție de partid ori o numire politică; faptul că dosarul include funcționari publici nu îi conferă administratorului o calitate politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3769",
+      "original_name": "Florea Ciprian Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4134",
+        "https://www.dna.ro/comunicat.xhtml?id=2853",
+        "https://craiova.ro/firme/my-clinic-center-s-r-l"
+      ],
+      "note": "DNA îl identifică drept administrator/asociat al SC Trio Salt SRL și administrator al restaurantului Calypso din Brașov; registrul comercial îl indică și ca administrator al unei societăți medicale private. Nu a fost identificată o candidatură, un mandat, o funcție de partid sau o numire politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3770",
+      "original_name": "Florea George Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5677",
+        "https://www.spfl.ro/anunturi%20colective%202025/105392.pdf",
+        "https://www.spfl.ro/anunturi%20colective%202024/73454.pdf"
+      ],
+      "note": "DNA îl identifică drept administrator al unei societăți comerciale din Prahova, iar documentele fiscale locale confirmă identitatea în Ploiești. Nu a fost identificată o candidatură, un mandat, o funcție de partid ori o numire politică. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3772",
+      "original_name": "Florea Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4017",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR",
+        "https://www.telegrafonline.ro/mai-multi-alesi-locali-din-judet-au-ramas-fara-mandat"
+      ],
+      "note": "DNA îl identifică pe condamnat numai ca administrator al SC Olimpflor SRL Giurgiu. Numele foarte comun Ion Florea aparține și unor persoane cu activitate politică, inclusiv unui fost consilier local din Tuzla, dar nu există identificatori care să lege administratorul din Giurgiu de acești politicieni. Profilul se exclude conservator pentru coliziune de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3773",
+      "original_name": "Florescu Valeriu Emanuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2512"
+      ],
+      "note": "DNA îl identifică drept administrator al SC United Services & Consulting SRL București, condamnat definitiv la 3 ani și 3 luni pentru evaziune fiscală și falsuri contabile; nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă. Profilul este exclus pentru a evita atribuirea nejustificată a unui statut politic.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
