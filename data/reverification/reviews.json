@@ -60820,6 +60820,235 @@
       ],
       "note": "DNA și presa îl identifică pe Silviu Costache exclusiv drept administrator al societății Geoalco din Vâlcea, într-un dosar privind mituirea unor funcționari fiscali. Nu a fost identificat mandat, candidatură sau funcție de partid; candidatul AUR din București se numește Silviu Costachie, iar arbitrul vâlcean are numele complet Costache Marian Silviu. Profilul se elimină pentru a evita confuziile.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3741",
+      "original_name": "Coveianu Marin Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3344",
+        "https://legislatie.just.ro/Public/DetaliiDocument/130244",
+        "https://ziaruldevalcea.ro/2011/07/nicolae-minea-a-fugit-de-instanta/"
+      ],
+      "note": "DNA îl identifică pe Marin Petru Coveianu drept administrator al SC Alutus SA, iar hotărârea Curții Constituționale și presa locală îl plasează în litigii și în conducerea aceleiași societăți comerciale. Nu a fost identificat mandat, candidatură ori funcție de partid; profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3742",
+      "original_name": "Crisan Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2783",
+        "https://bizbrasov.ro/2017/02/19/alexandru-crisan-fostul-proprietar-al-hidromecanica-datorii-de-66-milioane-de-euro-la-bugetul-municipiului-brasov-pe-lista-se-mai-afla-liviu-pandele-sau-fiul-miliardarului-ioan-neculaie/",
+        "https://www.jurnalulbtd.ro/articol-Partidul-Unitatii-Natiunii-Romane-PUNR---scurt-istoric-35-793.html"
+      ],
+      "note": "Condamnatul este Alexandru Crișan jr., omul de afaceri brașovean, fost proprietar Hidromecanica și fost președinte al Federației Române de Șah. Președintele PUNR din 1990-1991 era profesorul universitar Ioan Alexandru Crișan din Cluj, o persoană diferită. Nu a fost identificat mandat, candidatură ori funcție de partid pentru condamnat; profilul se elimină pentru a evita coliziunea de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3743",
+      "original_name": "Cuciureanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4807",
+        "https://adevarul.ro/stiri-interne/evenimente/doi-administratori-de-firme-din-bacau-judecati-1431419.html",
+        "https://craiova.ro/firme/geluca-srl"
+      ],
+      "note": "DNA și presa îl identifică pe Gheorghe Cuciureanu exclusiv ca administrator al unei societăți comerciale din Bacău, în dosarul privind pretinderea a 300.000 euro pentru influențarea unor funcționari fiscali. Datele comerciale indică un administrator omonim la GELUCA SRL din Cașin; nu a fost identificat mandat, candidatură ori funcție de partid. Profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3744",
+      "original_name": "Curt Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2429",
+        "https://www.dna.ro/comunicat.xhtml?id=1379",
+        "https://www.dna.ro/comunicat.xhtml?id=3218"
+      ],
+      "note": "DNA îl identifică pe Daniel Curt drept administrator de fapt/de drept al societăților Cozdan SRL și Vianton SRL din Bolintin Vale în dosare de evaziune fiscală. Nu a fost identificat mandat, candidatură sau funcție de partid; profilul se elimină din domeniul politic. Existența unei alte condamnări definitive comunicate de DNA în 2012 nu schimbă această concluzie de domeniu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3745",
+      "original_name": "Curt Tanta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3990",
+        "https://www.dna.ro/comunicat.xhtml?id=2825"
+      ],
+      "note": "Forma corectă este Tanța Curt. DNA o identifică exclusiv ca administrator al SC Toni Construct SRL, trimisă în judecată și condamnată pentru evaziune fiscală. Nu a fost identificat mandat, candidatură ori funcție de partid; profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3746",
+      "original_name": "D.M. (persoana reabilitata)",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2428"
+      ],
+      "note": "DNA a anonimizat persoana ca reabilitată și o descrie exclusiv drept administrator al unei societăți comerciale. Nu există identitate publică verificabilă și nici mandat, candidatură ori funcție de partid; păstrarea profilului ar încălca atât criteriul politic, cât și regula conservatoare pentru persoane reabilitate. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3747",
+      "original_name": "Damian Ilie Adrian",
+      "current_name": "Ilie-Adrian Damian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3269",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2009-04-06%2C_nr._221.pdf",
+        "https://romanialibera.ro/special/conducerea-pnl-caras-severin-demisa-de-liderii-de-la-centru-24337/"
+      ],
+      "note": "Numele este normalizat ca Ilie-Adrian Damian. DNA confirmă condamnarea definitivă și rolul de administrator la SC Piețe Reșița. Monitorul Oficial îl include cu numele complet între donatorii PNL din 2008, iar presa îl enumeră în Biroul Județean PNL Caraș-Severin; afilierea și rolul politic justifică păstrarea profilului, corectat din Independent în PNL.",
+      "reviewed_snapshot_hash": "f1e6e284e3980f4734f632ff5cf8e95e5edd3ac93b1db8572c738aa35feb36df"
+    },
+    {
+      "profile_id": "RV-3748",
+      "original_name": "Demendy Aurora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4069",
+        "https://adevarul.ro/stiri-locale/timisoara/timisoara-procurori-slabi-smecher-liber-881987.html",
+        "https://infodosar.ro/monitorul-oficial/consiliul-de-mediere/137707-hotarare-487-2010"
+      ],
+      "note": "Forma naturală este Aurora Demendy. DNA și presa o identifică drept administrator împuternicit al New Manhatan Investment SRL, iar evidențele profesionale o indică drept mediator în Timișoara. Nu a fost identificat mandat, candidatură ori funcție de partid; profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3749",
+      "original_name": "Demeter Denes",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3550",
+        "https://www.dna.ro/comunicat.xhtml?id=2123",
+        "https://primaria-vinga.ro/wp-content/uploads/Proces-verbal-incheiat-in-04.05.2024-cu-ocazia-constatarii-ramanerii-definitivr-a-candiatorilor-depuse-la-BEC-nr.-72.pdf"
+      ],
+      "note": "Forma diacritizată este Demeter Dénes. DNA îl identifică drept administrator al SC Comalimetex SA Târgu Secuiesc, condamnat pentru luare de mită. Nu a fost identificat mandat, candidatură ori funcție de partid pentru această persoană. Candidatul UDMR omonim din 2024 este mecanic agricol în Vinga, județul Arad, deci nu poate fi atribuit condamnatului din Covasna; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3750",
+      "original_name": "Denizci Ali",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5725"
+      ],
+      "note": "DNA îl identifică pe Ali Denizci drept cetățean turc și administrator al SC Mirabela Trading SRL Voluntari la data faptelor, condamnat pentru evaziune fiscală. Nu a fost identificat mandat, candidatură ori funcție într-un partid politic din România; profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3751",
+      "original_name": "Diaconu Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4786",
+        "https://www.dna.ro/comunicat.xhtml?id=1462",
+        "https://www.stiripesurse.ro/partidul-ader-si-a-lansat-candidatii-pentru-functiile-de-primar-la-municipiile-buzau-si-ramnicu-sarat_1481961.html"
+      ],
+      "note": "DNA îl identifică pe condamnat doar ca fost administrator al SC General Cris Trade SRL, implicat în comerț cu cereale. Există un Cristian Diaconu în conducerea partidului ADER și pe lista electorală din București din 2020, dar sursele nu oferă niciun identificator care să demonstreze că este aceeași persoană. Din cauza numelui comun și a riscului de atribuire greșită, profilul se elimină conform regulii conservatoare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3752",
+      "original_name": "Dicu Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4277",
+        "https://www.replicaonline.ro/evazionistul-florin-dicu-eliberat-conditionat-din-inchisoare-507592",
+        "https://expressdebanat.ro/partidul-lui-dacian-ciolos-are-organizatie-in-capitala-banatului-cine-conduce-reper-timisoara/"
+      ],
+      "note": "DNA și presa îl identifică pe condamnatul Florin Dicu exclusiv ca administrator al SC Dealul Negru SRL, într-un dosar de evaziune fiscală. Politicianul REPER din Timișoara are numele complet Florin Marius Dicu, fără surse care să îl lege de condamnatul din București. Nu a fost identificat un rol politic verificabil pentru persoana condamnată; profilul se elimină pentru a evita coliziunea de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3753",
+      "original_name": "Dinu Ovidiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2647",
+        "https://www.turnulsfatului.ro/2009/11/10/administratori-de-firme-sibiene-anchetati-pentru-o-frauda-de-doua-milioane-de-euro-1123/",
+        "https://mm.prefectura.mai.gov.ro/wp-content/uploads/sites/45/2025/04/PV-BESV-individual-22.04.2025-pt-afisare-signed.pdf"
+      ],
+      "note": "DNA și presa locală îl identifică pe Ovidiu Dinu exclusiv ca administrator al unor societăți comerciale sibiene din domeniul cerealelor și produselor petroliere. Un omonim apare ca reprezentant de partid într-o secție de votare din Maramureș în 2025, fără identificatori care să permită legarea de condamnatul din Sibiu. Nu există rol politic verificabil pentru persoana condamnată; profilul se elimină.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }

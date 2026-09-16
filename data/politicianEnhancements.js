@@ -84,6 +84,18 @@ export const excludedPoliticianNames = new Set([
   'Coserariu Ciprian',
   'Coserariu Dragos',
   'Costache Silviu',
+  'Coveianu Marin Petru',
+  'Crisan Alexandru',
+  'Cuciureanu Gheorghe',
+  'Curt Daniel',
+  'Curt Tanta',
+  'D.M. (persoana reabilitata)',
+  'Demendy Aurora',
+  'Demeter Denes',
+  'Denizci Ali',
+  'Diaconu Cristian',
+  'Dicu Florin',
+  'Dinu Ovidiu',
   'Bejan Robert George',
   'Bodrean Adrian Mihai',
   'Boroiu-Badea Florin',
@@ -45520,14 +45532,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Damian Ilie Adrian",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
+    "name": "Ilie-Adrian Damian",
+    "party": "PNL",
+    "position": "Fost membru al Biroului Județean PNL Caraș-Severin; fost administrator SC Piețe Reșița",
     "position_type": "other",
     "geography": {
-      "county": "Caras-Severin",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Caras-Severin."
+      "county": "Caraș-Severin",
+      "basis": "political_base",
+      "locality": "Reșița",
+      "note": "Activitatea politică și conducerea SC Piețe Reșița sunt documentate în județul Caraș-Severin."
     },
     "crime": "fals în înscrisuri sub semnătură privată",
     "sentence": "2 luni închisoare cu suspendare",
@@ -45535,8 +45548,8 @@ export const politicianAdditions = [
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Damian Ilie Adrian a fost condamnat definitiv la 21 mai 2012 la 2 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Administrator în Societate comerciala. Infracțiunea reținută: fals în înscrisuri sub semnătură privată.",
-    "verified_at": "2026-06-10",
+    "details": "DNA consemnează condamnarea definitivă din 21 mai 2012 la 2 luni de închisoare cu suspendare pentru fals în înscrisuri sub semnătură privată, faptă comisă ca administrator al SC Piețe Reșița SRL. Monitorul Oficial îl include cu numele complet între donatorii PNL din 2008, iar presa îl menționează anterior ca membru al Biroului Județean PNL Caraș-Severin.",
+    "verified_at": "2026-09-16",
     "sources": [
       {
         "label": "DNA",
@@ -45548,6 +45561,18 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Damian Ilie Adrian indică județul Caras-Severin, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 180 și condamnarea din 21/05/2012."
+      },
+      {
+        "label": "Monitorul Oficial nr. 221/2009",
+        "kind": "official",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2009-04-06%2C_nr._221.pdf",
+        "description": "Lista donațiilor PNL din 2008 include numele complet Damian Ilie Adrian."
+      },
+      {
+        "label": "România Liberă",
+        "kind": "press",
+        "url": "https://romanialibera.ro/special/conducerea-pnl-caras-severin-demisa-de-liderii-de-la-centru-24337/",
+        "description": "Articolul despre conducerea PNL Caraș-Severin îl enumeră pe Adrian Damian în Biroul Județean."
       }
     ]
   },
