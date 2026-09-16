@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-16",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -60462,6 +60462,363 @@
         "https://www.zdg.md/stiri/politic/lista-parlamentare-aur/"
       ],
       "note": "DNA și Ziarul de Gardă identifică persoana condamnată ca sora fostului deputat Valeriu Guma, director adjunct Gerom/ulterior Poșta Moldovei și soția unui primar. Candidata AUR din 2025 cu același nume este profesor născut în 1987 și este o altă persoană. Nu există rol politic propriu pentru inculpata din dosar; profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3720",
+      "original_name": "Caculea Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1948",
+        "https://www.dna.ro/comunicat.xhtml?id=2123",
+        "https://www.dna.ro/comunicat.xhtml?id=2667",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/afacerile-lui-caculea-trimis-a-doua-oara-in-judecata-de-dna-constanta-68289-310952.html"
+      ],
+      "note": "Forma oficială a numelui este Ștefan Caculea. Comunicatele DNA îl identifică drept asociat/administrator al unor societăți comerciale private și consemnează condamnări pentru infracțiuni economice; nu a fost identificat niciun mandat, nicio candidatură și nicio funcție de partid. Profilul este în afara domeniului politic și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3721",
+      "original_name": "Calota Marian-Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5142",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3995",
+        "https://stirileprotv.ro/stiri/actualitate/instanta-suprema-judeca-luni-recursul-complicelui-deputatului-trasculescu-arestat-pentru-coruptie.html"
+      ],
+      "note": "Forma oficială este Marian-Valeriu Calotă. DNA și presa îl identifică drept asociat și administrator al SC Maryna Exclusiv SRL și complice al deputatului Alin Trășculescu; sursele disting explicit omul de afaceri de politician. Nu a fost identificat niciun mandat, nicio candidatură sau funcție de partid proprie, deci profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3722",
+      "original_name": "Capris Teodorescu-Virgil",
+      "current_name": "Virgil Teodorescu Capriș",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4668",
+        "https://image.stirileprotv.ro/media/document/60194951.pdf",
+        "https://www.mediafax.ro/politic/rezultate-finale-udmr-a-castigat-alegerile-in-bihor-3588142",
+        "https://portal.just.ro/111/SiteAssets/SitePages/acasa_default/Lista%20sedinta%2016-10-2025%20PI3%20penal-%20tbh.pdf"
+      ],
+      "note": "Identitatea a fost normalizată la Virgil Teodorescu Capriș. Listele și rezultatele electorale confirmă candidatura sa PNG-CD la Senat în colegiul 3 Bihor în 2008, fără obținerea mandatului. Condamnarea definitivă din 23 ianuarie 2014 la 5 ani a fost confirmată de DNA. Dosarul din 2025 privind redeschiderea procesului îl indică în continuare drept condamnat și nu oferă dovada desființării hotărârii.",
+      "reviewed_snapshot_hash": "c7916fa21120256c1066665ee2c821722cf681b247d14d9d3c8c9b3a8f8091bf"
+    },
+    {
+      "profile_id": "RV-3723",
+      "original_name": "Carabulea Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3205",
+        "https://www.dna.ro/comunicat.xhtml?id=4677",
+        "https://iliecarabulea.ro/",
+        "https://www.onrc.ro/documente/proiecte/divizari/ATLASSIB%20SRL.pdf"
+      ],
+      "note": "Forma uzuală și oficială este Ilie Carabulea (în documente comerciale apare și Ilie Tudor Carabulea). Sursele îl identifică drept antreprenor și asociat/administrator al companiilor Atlassib/Carpatica; participarea unor politicieni la evenimente găzduite în proprietățile sale nu reprezintă rol politic. Nu a fost identificat mandat, candidatură ori funcție de partid, deci profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3724",
+      "original_name": "Caraibot Petru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-15",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=5538",
+        "https://www.dna.ro/comunicat.xhtml?id=4205",
+        "https://static.anaf.ro/static/1/Bucuresti/20251117180742_anunt_colectiv_nr_101_17112025.pdf"
+      ],
+      "note": "DNA îl identifică exclusiv drept administrator al SC București Trade International SRL, iar documentele fiscale ulterioare confirmă aceeași persoană în zona privată. Nu a fost identificat niciun mandat, nicio candidatură sau funcție de partid; candidatul AUR cu numele Caraibot din 2024 este Simion-Nicolae Caraibot, o altă persoană. Profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3725",
+      "original_name": "Carare Marinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=911",
+        "https://www.dna.ro/comunicat.xhtml?id=2684"
+      ],
+      "note": "Forma corectă este Marinel Cărare. DNA îl identifică drept asociat și administrator al SC Agro Investments SRL și SC Cereal Group SRL Iași, condamnat pentru fapte comise în activitatea comercială privată. Nu a fost identificat mandat, candidatură sau funcție de partid; rezultatele politice cu nume apropiate aparțin altor persoane. Profilul se elimină din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3726",
+      "original_name": "Ceausescu Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1952",
+        "https://edata.business/companie/rou/roonrcf312562012-ceausescu-dumitru-persoana-fizica-autorizata"
+      ],
+      "note": "Forma corectă este Dumitru Ceaușescu. DNA și înregistrările comerciale îl plasează exclusiv în activitatea privată de administrator/PFA în Câmpulung, Argeș. Căutările electorale au identificat alți candidați cu prenumele sau numele Ceaușescu, nu această persoană. Fără mandat, candidatură ori funcție de partid verificabilă, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3727",
+      "original_name": "Chirica Tudorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1890",
+        "https://www.primariabraila.ro/wp-content/uploads/2018/documentePDF/DIRECTII%20PROPRII/DFPL/anunturi/2025/Anunt_515932.pdf"
+      ],
+      "note": "Forma corectă este Tudorel Chirică. DNA îl consemnează ca administrator condamnat pentru evaziune fiscală, iar documentele fiscale locale îl plasează în Brăila; nu există o legătură probată cu un mandat, o candidatură sau o funcție de partid. Rezultatele electorale consultate privesc alte persoane cu nume asemănătoare. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3728",
+      "original_name": "Chitaru Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4998",
+        "https://www.ziuaconstanta.ro/stiri/deschidere-editie/iepurasul-chitaru-paravan-pentru-evaziune-fiscala-in-afaceri-cu-lukoil-44425.html",
+        "https://static.anaf.ro/static/1/Galati/20250819140812_ct_31161.pdf"
+      ],
+      "note": "Forma corectă este Iulian Chițaru. DNA, presa locală și documentele fiscale îl identifică drept administrator/interpus în societăți comerciale din Constanța, fără rol public propriu. Nu a fost găsit niciun mandat, nicio candidatură și nicio funcție de partid, iar rezultatele cu nume apropiate aparțin altor persoane. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3729",
+      "original_name": "Cimpianu Emilian Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157",
+        "https://www.dna.ro/comunicat.xhtml?id=7231",
+        "https://portal.just.ro/325/SiteAssets/SitePages/acasa_default/Liste%20de%20sedinta%20din%20data%20de%2016.09.2025.pdf"
+      ],
+      "note": "Forma corectă este Emilian Ilie Cîmpianu. DNA îl identifică drept administrator de societăți comerciale, iar documentele judiciare și comerciale ulterioare îl mențin în activitatea privată. Nu a fost identificat niciun mandat, nicio candidatură sau funcție de partid; aparițiile electorale cu nume apropiate sunt alte persoane. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3730",
+      "original_name": "Ciocoiu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4822",
+        "https://www.telegrafonline.ro/avocat-si-politist-judecati-pentru-trafic-de-influenta",
+        "https://pastraveni.page.tl/Declaratii-de-avere-2009.htm",
+        "https://pastraveni.page.tl/Declara%26%23539%3Bii-de-interese-2009.htm"
+      ],
+      "note": "Persoana condamnată este descrisă în dosar ca Victor Ciocoiu din București, administrator al unei societăți comerciale. Există un consilier local omonim în Păstrăveni, Neamț, cu domiciliu, patrimoniu și societate declarată în Păstrăveni, dar nu există o sursă care să lege acel ales local de inculpatul bucureștean. Pentru a evita o atribuire greșită de condamnare prin coincidență de nume, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3731",
+      "original_name": "Cirligeru Costin Razvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2890",
+        "https://www.dna.ro/comunicat.xhtml?id=1462",
+        "https://static.anaf.ro/static/1/Ploiesti/20260304115245_293010000000071.pdf"
+      ],
+      "note": "Forma corectă este Costin-Răzvan Cîrligeru. DNA îl identifică drept asociat unic și administrator al SC Agropet Construct SRL, iar documentele fiscale ulterioare îl mențin în sfera privată. Nu a fost identificat niciun mandat, nicio candidatură sau funcție de partid. Profilul se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3732",
+      "original_name": "Ciufu Ioan Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5544"
+      ],
+      "note": "Forma firească a numelui este Ioan Bogdan Ciufu. DNA îl identifică drept administrator al SC Vircomed Group SRL Băicoi, complice la abuzul în serviciu al unor directori DSVSA, fără a-i atribui vreo funcție publică sau politică. Nu a fost identificat mandat, candidatură ori funcție de partid, deci profilul este în afara domeniului politic și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3733",
+      "original_name": "Constantin Carmen Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4081",
+        "https://primariasector1.ro/wp-content/uploads/2024/11/Partide-PREZIDENTIALE-24.11-ora-19-v2.pdf",
+        "https://primariasector1.ro/wp-content/uploads/2025/05/Lista-reprezentanti-18.05.pdf"
+      ],
+      "note": "DNA o identifică pe Carmen Daniela Constantin drept administrator al SC Nic Prod Trans 97 SRL. Documente electorale recente menționează o persoană cu exact același nume ca reprezentant AUR într-o secție de votare, dar nu există identificatori ori surse care să demonstreze că este aceeași persoană; în plus, calitatea de delegat într-un birou electoral nu dovedește candidatură, mandat sau funcție de partid. Pentru a evita asocierea unei condamnări prin coincidență de nume, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3735",
+      "original_name": "Constantin Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2919",
+        "https://www.zf.ro/zf-24/administrator-de-firma-acuzat-ca-a-pagubit-statul-cu-peste-1-7-milioane-euro-5159909"
+      ],
+      "note": "Persoana condamnată este Marian Constantin, administrator al SC Marimar Com Impex SRL, dintr-un dosar de evaziune fiscală în activitatea privată. Numele este foarte comun, iar rezultatele electorale consultate aparțin unor persoane cu nume compuse diferite; nu există o legătură verificabilă cu vreun mandat, candidatură sau rol de partid. Profilul se elimină pentru a evita omonimiile.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3736",
+      "original_name": "Constantinescu Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4653",
+        "https://static.anaf.ro/static/1/Craiova/20251021150049_anunt_colectiv_nr_56_16092025.pdf",
+        "https://cvlpress.ro/wp-content/uploads/2020/09/Lista-centralizat%C4%83-a-tuturor-candida%C8%9Bilor-din-Doljla-alegerile-autorit%C4%83%C8%9Bile-administra%C8%9Biei-publice-locale-din-anul-2020.htm"
+      ],
+      "note": "DNA îl identifică pe Marin Constantinescu drept administrator și acționar majoritar la firme private din Dolj, iar documentele fiscale ulterioare confirmă aceeași zonă. Lista electorală din Dolj nu conține această persoană; candidatul cu numele inversat Constantin Marin este o altă identitate. Fără mandat, candidatură sau funcție de partid verificabilă, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3737",
+      "original_name": "Corodea Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2890",
+        "https://www.dna.ro/comunicat.xhtml?id=1462",
+        "https://static.anaf.ro/static/1/Ploiesti/20260219090117_25459139_2.pdf"
+      ],
+      "note": "Forma corectă este Valerică Corodea. DNA îl identifică drept administrator al SC Agropet Construct SRL Constanța și co-inculpat într-un dosar strict comercial, iar documentele fiscale recente confirmă persoana în Constanța. Nu a fost identificat mandat, candidatură sau funcție de partid, deci profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3738",
+      "original_name": "Coserariu Ciprian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2511",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=48",
+        "https://craiova.ro/firme/desinsept-s-r-l"
+      ],
+      "note": "Forma corectă este Ciprian Coșerariu. DNA îl identifică drept administrator al SC Timpuri Noi SRL/Avipet SRL într-un dosar de credite comerciale, iar datele comerciale actuale indică în continuare un administrator omonim în mediul privat. Nu a fost identificat mandat, candidatură ori funcție de partid; candidatul Coșerariu din 2024 are prenumele Andrei-Gabriel. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3739",
+      "original_name": "Coserariu Dragos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2511",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=48",
+        "https://municipiulbacau.ro/wp-content/uploads/2017/07/popriri_all_2018.pdf"
+      ],
+      "note": "Forma corectă este Dragoș Coșerariu. DNA îl identifică drept administrator al SC Vin Blanc SRL Bacău și participant într-un dosar de credite comerciale; documentele fiscale locale confirmă un omonim în Bacău, fără vreo calitate publică. Nu a fost identificat mandat, candidatură ori funcție de partid, deci profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3740",
+      "original_name": "Costache Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4712",
+        "https://ziare.com/impozit/anaf/functionari-ai-anaf-trimisi-in-judecata-pentru-luare-de-mita-1198589"
+      ],
+      "note": "DNA și presa îl identifică pe Silviu Costache exclusiv drept administrator al societății Geoalco din Vâlcea, într-un dosar privind mituirea unor funcționari fiscali. Nu a fost identificat mandat, candidatură sau funcție de partid; candidatul AUR din București se numește Silviu Costachie, iar arbitrul vâlcean are numele complet Costache Marian Silviu. Profilul se elimină pentru a evita confuziile.",
       "reviewed_snapshot_hash": null
     }
   ]

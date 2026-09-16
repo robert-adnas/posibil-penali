@@ -65,6 +65,25 @@ export const excludedPoliticianNames = new Set([
   'Bustean Ion',
   'Bustei Traian',
   'Buzu Ludmila',
+  'Caculea Stefan',
+  'Calota Marian-Valeriu',
+  'Carabulea Ilie',
+  'Caraibot Petru',
+  'Carare Marinel',
+  'Ceausescu Dumitru',
+  'Chirica Tudorel',
+  'Chitaru Iulian',
+  'Cimpianu Emilian Ilie',
+  'Ciocoiu Victor',
+  'Cirligeru Costin Razvan',
+  'Ciufu Ioan Bogdan',
+  'Constantin Carmen Daniela',
+  'Constantin Marian',
+  'Constantinescu Marin',
+  'Corodea Valerica',
+  'Coserariu Ciprian',
+  'Coserariu Dragos',
+  'Costache Silviu',
   'Bejan Robert George',
   'Bodrean Adrian Mihai',
   'Boroiu-Badea Florin',
@@ -44718,14 +44737,15 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Capris Teodorescu-Virgil",
-    "party": "Independent",
-    "position": "Administrator în Societate comerciala",
+    "name": "Virgil Teodorescu Capriș",
+    "party": "PNG-CD",
+    "position": "Fost candidat PNG-CD la Senat în Bihor (2008)",
     "position_type": "other",
+    "role_at_time": "Candidat PNG-CD în colegiul uninominal 3 pentru Senat, circumscripția Bihor",
     "geography": {
       "county": "Bihor",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Bihor."
+      "basis": "constituency",
+      "note": "Candidatura la Senat din 2008 a fost înregistrată în colegiul uninominal 3 Bihor."
     },
     "crime": "înșelăciune cu consecințe deosebit de grave, uz de fals, în formă continuată și instigare la mărturie mincinoasă",
     "sentence": "5 ani închisoare",
@@ -44733,21 +44753,35 @@ export const politicianAdditions = [
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 23 ianuarie 2014. Condamnă pe inculpatul CAPRIȘ TEODORESCU-VIRGIL, fost administrator al unei societăți comerciale, la o pedeapsă de 5 ani închisoare și interzicerea, atât pe perioada executării pedepsei, cât și pe o perioadă de 3 ani, după executarea pedepsei principale, a drepturilor: de a fi ales în autoritățile publice sau în funții elective, de a ocupa o funcție implicând exercițiul autorității de stat, pentru săvârșirea infracțiunilor concurente de: înșelăciune cu consecințe deosebit de grave, uz de fals, în formă continuată și instigare la mărturie mincinoasă.",
-    "verified_at": "2026-06-10",
+    "details": "Virgil Teodorescu Capriș a candidat din partea PNG-CD la Senat, în colegiul uninominal 3 Bihor, la alegerile parlamentare din 2008, obținând 1.522 de voturi fără a câștiga mandatul. Curtea de Apel Oradea l-a condamnat definitiv la 23 ianuarie 2014 la 5 ani de închisoare pentru înșelăciune cu consecințe deosebit de grave, uz de fals în formă continuată și instigare la mărturie mincinoasă, fapte comise ca administrator al SC V. Capriș Comerț SRL. Un dosar din 2025 privind redeschiderea procesului la judecarea în lipsă îl indică în continuare drept condamnat și nu constituie, prin el însuși, dovada desființării hotărârii definitive.",
+    "verified_at": "2026-09-15",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA — hotărârea definitivă din 23 ianuarie 2014",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4668"
       },
       {
-        "label": "România Curată",
+        "label": "Lista candidaților la alegerile parlamentare din 2008",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Capris Teodorescu-Virgil indică județul Bihor, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 19 și condamnarea din 23/01/2014."
+        "url": "https://image.stirileprotv.ro/media/document/60194951.pdf",
+        "description": "Lista îl indică pe Capriș-Teodorescu Virgil drept candidat PNG-CD la Senat în colegiul 3 Bihor."
+      },
+      {
+        "label": "Mediafax — rezultatele finale ale alegerilor din Bihor",
+        "kind": "press",
+        "url": "https://www.mediafax.ro/politic/rezultate-finale-udmr-a-castigat-alegerile-in-bihor-3588142",
+        "description": "Rezultatul publicat confirmă candidatura PNG-CD și cele 1.522 de voturi obținute în colegiul 3 pentru Senat."
+      },
+      {
+        "label": "Tribunalul Bihor — dosarul 873/111/2025",
+        "kind": "official",
+        "url": "https://portal.just.ro/111/SiteAssets/SitePages/acasa_default/Lista%20sedinta%2016-10-2025%20PI3%20penal-%20tbh.pdf",
+        "description": "Lista de ședință îl indică drept condamnat într-o cerere de redeschidere a procesului penal la judecarea în lipsă."
       }
-    ]
+    ],
+    "source_url": "https://www.dna.ro/comunicat.xhtml?id=4668",
+    "county": "Bihor"
   },
   {
     "name": "Carabulea Ilie",
