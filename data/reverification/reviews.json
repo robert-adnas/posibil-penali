@@ -63080,6 +63080,245 @@
       ],
       "note": "Persoana condamnată este Valerică Petraru, administrator al unor societăți private din Botoșani. Candidatul ALDE din Huși este un profesor/instructor și dirijor local din județul Vaslui, documentat separat; numele identic nu dovedește aceeași identitate. Fără rol politic verificat pentru administratorul condamnat, profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3880",
+      "original_name": "Pieca Gheorghita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4430",
+        "https://www.dna.ro/comunicat.xhtml?id=1331"
+      ],
+      "note": "DNA îl identifică pe Gheorghiță Pieca drept administrator al companiilor private PIC SA, Muntenia Aliment SRL, PIC Distrib SRL și ulterior al FC Argeș, implicat în dosarele grupului Penescu. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3881",
+      "original_name": "Pieca Gheorghta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4312",
+        "https://www.dna.ro/comunicat.xhtml?id=4430"
+      ],
+      "note": "Acesta este un duplicat cu numele scris greșit al profilului Gheorghiță Pieca (RV-3880). DNA confirmă aceeași persoană și aceleași companii PIC SA, Muntenia Aliment SRL și PIC Distrib SRL. Persoana este administrator privat, fără rol politic verificat; varianta duplicată este exclusă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3882",
+      "original_name": "Pintilie Neculai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5534",
+        "https://www.zf.ro/eveniment/fosta-conducere-a-postei-trimisa-in-judecata-de-dna-intr-o-afacere-cu-asigurari-de-la-allianz-astra-si-omniasig-4986193",
+        "https://comunapuiesti.ro/index.php/regulamente/declaratii-de-avere-si-interese/anul-2021/2470-declaratie-de-interese-pintilie-neculai-consilier-local/file"
+      ],
+      "note": "Persoana condamnată este Neculai Pintilie, administrator al Continental Asig și intermediar privat în dosarul Poșta Română. O persoană cu același nume a fost consilier local PSD în Puiești, Vaslui, dar declarația sa de interese nu indică legături cu societățile din dosar, iar identitatea comună nu poate fi stabilită. Pentru a evita atribuirea condamnării unui omonim politic, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3883",
+      "original_name": "Pirneci Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5533",
+        "https://www.dna.ro/comunicat.xhtml?id=2755"
+      ],
+      "note": "DNA o identifică pe Georgeta Pîrneci ca asociat și administrator al cinci societăți private din domeniul deșeurilor, condamnată pentru evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3884",
+      "original_name": "Pirneci Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5533",
+        "https://www.dna.ro/comunicat.xhtml?id=2755"
+      ],
+      "note": "DNA îl identifică pe Marian Pîrneci drept soțul Georgetei Pîrneci și administrator de fapt al societății private Gevomar SRL, condamnat pentru complicitate la evaziune fiscală și spălare de bani. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3885",
+      "original_name": "Popa Dorinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://ziaruldebacau.ro/arestari-pe-banda-rulanta-in-dosarul-banca-transilvania-3/"
+      ],
+      "note": "Dorinel Popa este identificat ca administrator al Tandem Road SRL și fost comisar al Gărzii Financiare Bacău, funcție pe care o părăsise în 1998 înainte de activitatea comercială și faptele din dosar. Nu am identificat mandat electoral, candidatură, funcție de partid sau numire politică; un fost funcționar tehnic nu intră în domeniul registrului politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3886",
+      "original_name": "Popica Sevastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3549",
+        "https://www.dna.ro/comunicat.xhtml?id=1134"
+      ],
+      "note": "DNA îl identifică pe Sevastian Popică drept salariat cu funcție de conducere al societății private Interamerican Trading SRL — filiala Arad, condamnat pentru participarea la infracțiunile economice ale firmei. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3887",
+      "original_name": "Popoviciu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3549",
+        "https://www.dna.ro/comunicat.xhtml?id=1134"
+      ],
+      "note": "DNA o identifică pe Maria Popoviciu drept salariată cu funcție de conducere în cadrul societății private Interamerican Trading SRL — filiala Arad, condamnată pentru participarea la infracțiunile economice ale firmei. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3888",
+      "original_name": "Preda Nicolai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4822",
+        "https://www.telegrafonline.ro/preot-trimis-la-puscarie-pentru-trafic-de-influenta"
+      ],
+      "note": "Sursele indică forma corectă Nicolai Preda și îl identifică drept administrator al societății private Panif Comprod SRL din Cochirleanca, nu drept actor politic din Covasna. A fost condamnat pentru favorizarea infractorului, dar nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3889",
+      "original_name": "Puscas Aurica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://www.just.ro/wp-content/uploads/2022/01/Fundatii_28Ian2022.pdf"
+      ],
+      "note": "Aurica Pușcaș este identificată ca președintă a fundației private Sfântul Anton de Padua, care patrona școli particulare, și ca director adjunct în sistemul educațional local. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; conducerea unui ONG ori a unei școli nu intră în domeniul registrului politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3890",
+      "original_name": "Rachiteanu Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3174"
+      ],
+      "note": "DNA îl identifică pe Marian Răchițeanu exclusiv ca administrator al societății private Carnip Internațional SRL Ceptura, condamnat pentru folosirea unor documente vamale și comerciale falsificate. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3891",
+      "original_name": "Radu Stanescu Toma",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4520",
+        "https://www.dna.ro/comunicat.xhtml?id=836"
+      ],
+      "note": "DNA îl identifică pe Radu Stănescu Toma ca administrator al societății private Delta Radu SRL Râmnicu Vâlcea, condamnat pentru complicitate la abuz în serviciu și fals în legătură cu operațiuni de compensare. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3892",
+      "original_name": "Raducanu Sinculet Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2289",
+        "https://www.dna.ro/comunicat.xhtml?id=847"
+      ],
+      "note": "Sursele folosesc ordinea completă Ion Răducanu Șinculeț și îl identifică drept administrator/reprezentant pretins al Grup Sicomiga Single Man LTD, o entitate comercială inexistentă, condamnat pentru tentative de fraudă și fals. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3893",
+      "original_name": "Radulescu Viorel-Romeo",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4875",
+        "https://www.dna.ro/comunicat.xhtml?id=7274"
+      ],
+      "note": "Viorel-Romeo Rădulescu este identificat de DNA ca președinte al fundației private Fortuna Danubius și manager de proiect, condamnat în dosare privind obținerea nelegală de fonduri europene. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; conducerea unui ONG nu intră în domeniul registrului politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
