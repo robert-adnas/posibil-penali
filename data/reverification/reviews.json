@@ -62132,6 +62132,954 @@
       ],
       "note": "DNA îl identifică drept asociat și administrator al SC Rul Com SRL, condamnat pentru infracțiuni fiscale și instigare la abuz în serviciu. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3821",
+      "original_name": "Marcu George Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3636"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al SC Star Phone Serv Com SRL, condamnat pentru evaziune fiscală. Nu am identificat candidatură, mandat, funcție de partid sau numire publică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3822",
+      "original_name": "Marcu Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4604",
+        "https://anpc.ro/wp-content/uploads/2024/04/TABEL-INTERMEDIARI-CREDITE-SRL.pdf"
+      ],
+      "note": "DNA o identifică drept asociat și administrator al SC A.L.N. Comunication SRL, condamnată definitiv pentru evaziune fiscală; registrul ANPC o indică tot ca administrator privat. Nu există un mandat, o candidatură ori o funcție politică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3823",
+      "original_name": "Mardale Stefanita Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4975",
+        "https://www.realitatea.net/stiri/ultimele-stiri/alexandru-mardale-stefanita-a-fost-condamnat-la-inchisoare-cu-executare_5dcc91c7406af85273cc5f46"
+      ],
+      "note": "DNA îl identifică exclusiv ca fost administrator al unei societăți comerciale, iar relatarea contemporană îl descrie drept afacerist și administrator Delta Trans Util SRL. Nu există rol politic verificabil; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3824",
+      "original_name": "Marta Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4000",
+        "https://www.dna.ro/comunicat.xhtml?id=2080"
+      ],
+      "note": "DNA îl identifică drept asociat și administrator al SC Euroil SRL Brăila, condamnat pentru dare de mită. Sursele cauzei nu indică un mandat, o candidatură, o funcție de partid sau o numire publică; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3825",
+      "original_name": "Matei Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2395",
+        "https://www.ebihoreanul.ro/stiri/schema-lui-rizo-cum-a-scapat-celebrul-cornel-matei-de-dosarul-creditelor-de-peste-900000-lei-luate-pe-acte-false-165318.html",
+        "https://beius-stiri.blogspot.com/2012/05/vezi-lista-consilierilor-locali-psd.html"
+      ],
+      "note": "DNA și presa locală identifică persoana condamnată drept administrator privat din Buntești/Brădet. Există un omonim Cornel Matei pe lista PSD Beiuș din 2012, descris ca inginer silvic, dar sursele disponibile nu demonstrează că este aceeași persoană. Pentru a evita asocierea unui status penal unei identități politice neconfirmate, profilul este exclus conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3826",
+      "original_name": "Matyas Gabriel Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4663",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=282",
+        "https://www.gds.ro/Local/2004-08-14/Gabriel-Viorel-Matyas-acuzat-de-o-gaura-de-126-de-miliarde/"
+      ],
+      "note": "DNA îl identifică drept administrator al mai multor societăți comerciale și coordonator al unui grup de firme, iar presa îl descrie drept om de afaceri. Nu am identificat mandat, candidatură, funcție de partid ori numire politică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3827",
+      "original_name": "Maurer Kurth",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3401",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CL"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Transamerican 2000 SRL Călărași, iar România Curată îl clasifică drept administrator de societate comercială, fără funcție publică. Nu există rol politic verificabil; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3828",
+      "original_name": "Medintu Gheorghe",
+      "current_name": "Gheorghe Medințu",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://hotnews.ro/inchirieri-penale-la-spitalul-judetean-arad-814124",
+        "https://www.ziaruldeiasi.ro/stiri/fostul-vicepresedinte-al-psd-arad-gheorghe-medintu-va-face-sapte-ani-de-puscarie--8e7v.html"
+      ],
+      "note": "Condamnarea definitivă la 7 ani este confirmată de DNA și nu a fost modificată de actualizarea privind achitarea altui inculpat. HotNews și Ziarul de Iași identifică aceeași persoană drept fost vicepreședinte al organizației municipale PSD Arad; profilul este corectat la Gheorghe Medințu, PSD, rol politic de conducere.",
+      "reviewed_snapshot_hash": "66179b5ea606366399bb53f1df9cefe3634d251fa5823808c63e937cbbab3db4"
+    },
+    {
+      "profile_id": "RV-3829",
+      "original_name": "Memisi Cosmin-Mugurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3691",
+        "https://www.dna.ro/comunicat.xhtml?id=2506",
+        "https://www.mediafax.ro/social/administratorul-unei-firme-de-deseuri-judecat-pentru-o-frauda-de-1-5-milioane-de-euro-9811085"
+      ],
+      "note": "DNA și Mediafax îl identifică drept administrator al SC Cosnic SRL Giurgiu, firmă privată de comerț cu deșeuri. Nu am identificat mandat, candidatură, funcție de partid sau numire politică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3830",
+      "original_name": "Mereuta Florin Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5451",
+        "https://www.realitatea.net/stiri/ultimele-stiri/lucrat%E2%80%9C-de-procurorii-anticoruptie--florin-daniel-mereuta-a-fost-condamnat-la-sapte-ani-de-temnita_5dcc91db406af85273cdd9c2"
+      ],
+      "note": "DNA și presa îl identifică drept administrator al SC Media Star General SRL Constanța, fără funcție publică ori politică. Nu am identificat mandat, candidatură, funcție de partid sau numire politică verificabilă; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3831",
+      "original_name": "Mester Danut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2647",
+        "https://www.dna.ro/comunicat.xhtml?id=3056",
+        "https://sibiu100.ro/administratie/sibieni-judecati-pentru-evaziune-fiscala/"
+      ],
+      "note": "DNA și presa locală îl identifică drept administrator al unor societăți comerciale implicate în schema de evaziune fiscală. Nu există un rol politic verificabil; rezultatele electorale pentru nume asemănătoare privesc alte persoane. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3832",
+      "original_name": "Mihai Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4520",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=891"
+      ],
+      "note": "DNA îl identifică drept administrator al SC Ramsilv SRL Râmnicu Vâlcea, condamnat definitiv la 3 ani și 6 luni cu suspendare pentru complicitate la abuz în serviciu. Textul profilului amesteca eronat prescripția reținută pentru alt inculpat. În lipsa unui rol politic verificabil, profilul este exclus integral, evitând publicarea statusului pe o identitate privată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3834",
+      "original_name": "Mihai Gh. Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2883",
+        "https://www.pandurul.ro/articol/platit-de-tigani-sa-devina-patron-la-o-firma-evazi_29935.html"
+      ],
+      "note": "DNA îl identifică drept administrator de facto al SC Salba de Aur SRL, condamnat pentru evaziune fiscală; presa locală descrie aceeași schemă comercială. Nu am identificat un rol politic verificabil, iar numele este predispus la coliziuni; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3836",
+      "original_name": "Mihai Zambila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4444",
+        "https://www.dna.ro/comunicat.xhtml?id=807"
+      ],
+      "note": "DNA o identifică pe Mihai Zambila drept asociat unic și administrator al SC Meg Metal Impex SRL Vidra, condamnată în cauza de evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3837",
+      "original_name": "Mihail Stere",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4806"
+      ],
+      "note": "DNA îl identifică drept fost administrator al SC Stemirom 2000 SRL și confirmă o pedeapsă definitivă de 2 ani și 6 luni cu suspendare, nu cu executare cum indica profilul. Nu am identificat rol politic verificabil; pentru a evita publicarea atât a unei identități private, cât și a unui regim de executare greșit, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3838",
+      "original_name": "Mihus Stelian Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3549",
+        "https://www.dna.ro/comunicat.xhtml?id=1134"
+      ],
+      "note": "DNA îl identifică drept salariat cu funcție de conducere la SC Interamerican Trading SRL Arad, condamnat pentru complicitate la evaziune fiscală și producție neautorizată de produse accizabile. Nu există rol politic verificabil; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3839",
+      "original_name": "Mila Cristi Robert",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2349"
+      ],
+      "note": "DNA îl identifică drept asociat unic și administrator al SC Demyra GSM SRL Constanța, condamnat definitiv în cauza de evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3840",
+      "original_name": "Mircea Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2845",
+        "https://www.dna.ro/comunicat.xhtml?id=8070"
+      ],
+      "note": "DNA îl identifică pe condamnat drept asociat și administrator al SC Nesa Star SRL și SC Platon SRL, ulterior administrator de fapt al altor firme; nu ca jurnalistul sau ca persoanele politice cu nume asemănător. Nu am identificat un rol politic al persoanei din dosar; profilul este exclus și coliziunile de nume sunt separate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3841",
+      "original_name": "Mirita Codrut Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2647",
+        "https://www.oradesibiu.ro/2009/10/16/un-sibian-a-fost-arestat-pentru-evaziune-fisacala-de-1-400-000-de-euro/cb017213/",
+        "https://www.turnulsfatului.ro/2009/11/10/administratori-de-firme-sibiene-anchetati-pentru-o-frauda-de-doua-milioane-de-euro-1123/"
+      ],
+      "note": "DNA și presa locală îl identifică drept administrator de fapt al firmelor Seltix Services, D 33 A Service Invest și Dea Service Invest din Sibiu, condamnat pentru evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3842",
+      "original_name": "Mitra Calin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2510",
+        "https://www.dna.ro/comunicat.xhtml?id=2520"
+      ],
+      "note": "Cele două comunicate DNA îl identifică pe Mitra Călin exclusiv drept administrator de fapt al societății private Tomoil Excom SRL, condamnat definitiv pentru dare de mită. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3843",
+      "original_name": "Moga Sebastian Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3000",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CT"
+      ],
+      "note": "DNA îl identifică drept administrator al societății private Hidro Construct General SRL Medgidia, condamnat definitiv pentru evaziune fiscală și fals. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3844",
+      "original_name": "Moisa Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5534",
+        "https://www.dna.ro/comunicat.xhtml?id=1365"
+      ],
+      "note": "Comunicatele DNA o identifică pe Moisă Daniela drept administrator al societății private Pronova SRL, condamnată definitiv în dosarul privind prejudicierea Poștei Române. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3845",
+      "original_name": "Moise Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3652"
+      ],
+      "note": "DNA îl identifică pe Moise Adrian drept asociat unic al societății private NAC Industrii SRL, condamnat definitiv pentru infracțiuni fiscale. Rezultatele despre persoane cu nume extinse similare nu probează o identitate politică a inculpatului; profilul este exclus conservator.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3846",
+      "original_name": "Morar Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3565",
+        "https://www.zi-de-zi.ro/2005/03/30/rodica-moldovan-groparul-textilistilor/"
+      ],
+      "note": "DNA și presa locală îl identifică drept administrator/director executiv al unei societăți private de lichidare, condamnat pentru fapte comise ca lichidator al unui agent economic privat. Apariția unui omonim ca locțiitor într-o circumscripție electorală nu este o funcție politică și nu probează identitatea; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3847",
+      "original_name": "Mudura Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4064",
+        "https://hotnews.ro/ministrul-de-interne-blaga-si-a-vandut-actiunile-unui-afacerist-arestat-pentru-spalare-de-bani-si-evaziune-863264",
+        "https://www.ebihoreanul.ro/stiri/punct-si-de-la-capat-teparul-gelu-mudura-va-fi-judecat-intr-un-nou-dosar-pentru-distrugerea-librariilor-oradene-118312.html"
+      ],
+      "note": "Sursele îl identifică pe Gheorghe (Gelu) Mudura drept om de afaceri și administrator/patron al unor societăți private, inclusiv Călugăreni Com și Euromaster. Relațiile comerciale cu politicieni nu constituie funcție politică; nu am identificat mandat, candidatură, conducere de partid sau numire politică, astfel profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3848",
+      "original_name": "Muntean Valentin Teodor",
+      "current_name": "Valentin-Teodor Muntean",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4776",
+        "https://www.dna.ro/comunicat.xhtml?id=275",
+        "https://candidati.votcorect.ro/BIHOR/",
+        "https://www.firmacheck.ro/firma/5355098"
+      ],
+      "note": "DNA și presa contemporană îl identifică pe Muntean Valentin Teodor drept administrator al Exact Construct SRL Oradea și condamnat definitiv pentru dare de mită. Lista candidaților din 2024 consemnează același nume complet pe prima poziție ADN la Senat în Bihor, iar datele ONRC publicate de FirmaCheck leagă în continuare numele de Exact Construct SRL; convergența numelui complet, județului și societății confirmă identitatea. Profilul este păstrat, cu numele, partidul și rolul politic corectate.",
+      "reviewed_snapshot_hash": "26be5c62ef18a6b861dfba757dc04ac742e420e341e371f6a149dfa8396c0120"
+    },
+    {
+      "profile_id": "RV-3849",
+      "original_name": "Munteanu Neculai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2884",
+        "https://www.desteptarea.ro/administratorul-pro-serv-trust-cu-care-cet-isi-transporta-carbunele-inculpat-intr-un-dosar-de-evaziune-fiscala/"
+      ],
+      "note": "DNA și presa locală identifică persoana condamnată drept administratorul Pro Serv Trust și fost director Petrom, cu legături profesionale în Bacău/Moinești. Rezultatele politice pentru numele comun Neculai Munteanu privesc persoane din alte localități/județe și nu pot fi asociate inculpatului; fără dovadă de mandat, candidatură, funcție de partid sau numire politică, profilul este exclus pentru a evita o coliziune de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3850",
+      "original_name": "Naica Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4552",
+        "https://www.monitorulcj.ro/actualitate/30264-fosta-contabila-a-adr-nord-vest-condamnata-de-tribunalul-cluj-la-8-ani-de-inchisoare-"
+      ],
+      "note": "DNA și presa locală îl identifică pe Vasile Naica drept administratorul societății private Vangher SRL și soțul fostei contabile ADR Nord-Vest, condamnat pentru spălare de bani. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3851",
+      "original_name": "Nail Al Sabzachi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4666",
+        "https://www.dna.ro/comunicat.xhtml?id=3863"
+      ],
+      "note": "Comunicatele DNA îl identifică pe Nail Al Sabzachi exclusiv drept administrator și asociat unic al societății private Maxfruit SRL, condamnat pentru înșelăciune în convenții. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3852",
+      "original_name": "Neagu Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3043"
+      ],
+      "note": "DNA îl identifică pe Ilie Neagu drept administrator de drept și ulterior de fapt al societății private Bixoil SRL din Apoldu de Jos, condamnat definitiv pentru fapte economice. Căutarea nu a identificat pentru această persoană mandat, candidatură, funcție de partid sau numire politică; profilul este exclus, fără asociere cu omonimi.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3853",
+      "original_name": "Negrea Carmen Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4606",
+        "https://www.crainou.ro/category/editia/crai-nou-nr-5225-din-2009-12-22/page/2/"
+      ],
+      "note": "DNA și presa locală o identifică pe Carmen Maria Negrea drept asociat-administrator al societăților private Aicas SRL și Almondo SRL din Suceava. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3854",
+      "original_name": "Nicola Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134"
+      ],
+      "note": "DNA îl identifică pe Nicola Daniel drept unul dintre administratorii unor societăți comerciale din dosarul BCR Curtici, condamnat definitiv pentru fapte economice. Un rezultat pentru un consilier local cu aceeași ordine a numelui este din Simeria, județul Hunedoara, și nu poate fi asociat inculpatului din Arad; fără dovadă de rol politic pentru persoana condamnată, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3855",
+      "original_name": "Nicolae Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4663"
+      ],
+      "note": "DNA identifică persoana condamnată doar ca Nicolae Ion, administrator al mai multor societăți comerciale în dosarul BCR Novaci. Numele este extrem de comun, iar căutarea nu oferă un identificator sigur care să-l lege de un mandat, o candidatură, o funcție de partid ori o numire politică; profilul este exclus conservator pentru a evita asocierea cu omonimi.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3856",
+      "original_name": "Nicolae Marian Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1989"
+      ],
+      "note": "DNA îl identifică pe Nicolae Marian Daniel drept administrator al societății private RO-VA Grup SRL din Vidra, Ilfov, condamnat pentru evaziune fiscală. Un decret privind un militar cu numele redat în ordinea Marian-Daniel Nicolae nu probează aceeași identitate și nici un rol politic; profilul este exclus pentru a evita coliziunea de nume.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3857",
+      "original_name": "Nicolae Vivian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2429"
+      ],
+      "note": "DNA îl identifică pe Nicolae Vivian exclusiv drept administrator al societății private Romviv Invest SRL, condamnat definitiv pentru evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3858",
+      "original_name": "Nicorici Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3269",
+        "https://www.topfirme.com/afacere/nicorici-cosmin-persoan%C4%83-fizic%C4%83-autorizat%C4%83/7w2h63liow/"
+      ],
+      "note": "DNA îl identifică pe Cosmin Nicorici drept administrator al societății private M-Proiect Consulting SRL din Reșița, condamnat pentru fals în înscrisuri sub semnătură privată. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3859",
+      "original_name": "Nicu Samuel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3410"
+      ],
+      "note": "DNA îl identifică pe Nicu Samuel exclusiv ca administrator al societății private Sami & Artur SRL, condamnat pentru uz de fals. Căutările după numele exact și societate nu indică mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3860",
+      "original_name": "Nistor Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2483"
+      ],
+      "note": "DNA îl identifică pe Mihai Nistor ca administrator, asociat sau acționar al mai multor societăți comerciale, fără funcție publică ori politică menționată. Căutările după numele exact și contextul dosarului nu confirmă mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3861",
+      "original_name": "Novak Geza",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4860"
+      ],
+      "note": "DNA îl identifică pe Novak Geza drept cetățean maghiar și fost administrator al unei societăți comerciale, condamnat în dosarul unor activități comerciale. Nu există o funcție publică ori politică românească verificată; rezultatele electorale omonime din Ungaria nu pot fi atribuite aceleiași persoane. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3862",
+      "original_name": "Oneata Mihaela Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5373",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DB"
+      ],
+      "note": "Sursele o identifică pe Mihaela Alina Oneață ca administrator și director economic al unei societăți comerciale private din Târgoviște, condamnată pentru evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3863",
+      "original_name": "Onu Gheorghita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3850",
+        "https://www.prosport.ro/fotbal-intern/liga-2/lotul-celor-de-la-acu-arad-2928581"
+      ],
+      "note": "Sursele o identifică pe Gheorghița Onu ca președintă a clubului privat de fotbal ACU Arad, condamnată în legătură cu influențarea unui meci. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; conducerea unui club sportiv nu justifică includerea în registrul politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3864",
+      "original_name": "Pacuraru Maricel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5534",
+        "https://www.digi24.ro/stiri/actualitate/justitie/dosarul-posta-romana-maricel-pacuraru-si-mihai-toader-condamnati-la-inchisoare-cu-executare-316502"
+      ],
+      "note": "Maricel Păcuraru este identificat în surse ca om de afaceri și proprietar/finanțator media, condamnat în dosarul Poșta Română. Nu am identificat un mandat, o candidatură, o funcție de partid sau o numire politică proprie; activitatea media și legăturile cu politicieni nu justifică includerea în registrul politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3865",
+      "original_name": "Padureanu Jean",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4705",
+        "https://adevarul.ro/sport/raman-in-fotbal-pana-in-ultima-zi-a-vietii-1253999.html"
+      ],
+      "note": "Sursele verificabile îl identifică pe Jean Pădureanu ca președinte al clubului de fotbal Gloria Bistrița și condamnat în Dosarul Transferurilor. Deși presa a relatat apropieri politice ori apartenență informală, nu am confirmat un mandat, o candidatură, o funcție de conducere în partid sau o numire politică. Pentru a evita includerea pe baza unei legături nesigure, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3866",
+      "original_name": "Pahontu Nicusor-Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5068",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "Sursele îl identifică pe Nicușor-Marian Pahonțu exclusiv ca administrator al unei societăți comerciale, condamnat pentru evaziune fiscală. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3867",
+      "original_name": "Pana Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2123",
+        "https://www.dna.ro/comunicat.xhtml?id=3098"
+      ],
+      "note": "DNA îl identifică pe Sorin Pană drept administrator al SC Ianis SRL și asociat al SC Luncuța SRL, condamnat pentru evaziune fiscală și fals. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3868",
+      "original_name": "Panayotis Vassos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5405",
+        "https://www.firmacheck.ro/firma/16845982"
+      ],
+      "note": "DNA îl identifică pe Panayotis Vassos drept cetățean grec și administrator al societății private Xprinting SRL, condamnat pentru dare de mită. Nu există un rol politic românesc confirmat; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3869",
+      "original_name": "Paniccia Giuseppe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3484"
+      ],
+      "note": "DNA îl identifică pe Giuseppe Paniccia exclusiv ca administrator al grupului privat de firme Manfred Euro Aleșd, condamnat pentru luare de mită și spălare de bani. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3870",
+      "original_name": "Pap Sandor Istvan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4064",
+        "https://www.dna.ro/comunicat.xhtml?id=449"
+      ],
+      "note": "DNA îl identifică pe Pap Sandor Istvan ca administrator al societății private Steel Petrol SRL Oradea, condamnat pentru infracțiuni economice și dare de mită. Rezultatele electorale pentru alte persoane cu nume asemănător nu pot fi atribuite lui; nu am confirmat mandat, candidatură, funcție de partid sau numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3871",
+      "original_name": "Patrut Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4065",
+        "https://www.gds.ro/Local/2007-07-27/A-ajuns-peste-noapte-unul-dintre-cei-mai-bogati-gorjeni-/"
+      ],
+      "note": "Sursele îl identifică pe Ion Pătruț ca asociat, administrator și acționar majoritar al societății private Macofil SA Târgu Jiu. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3872",
+      "original_name": "Paun Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4449",
+        "https://www.euroavocatura.ro/stiri/9389/Directorul_coordonator_al_Directiei_Silvice_Arges_trimis_in_judecata_de_procurorii_DNA"
+      ],
+      "note": "Persoana din dosar este Florin Păun, administrator al firmei forestiere private Explorer Marcos Wood SRL din Stoenești, Argeș. O apariție omonimă ulterioară într-un consiliu de administrație al unei companii municipale din Sectorul 3 nu are suficiente elemente pentru identificarea aceleiași persoane. Fără mandat, candidatură, funcție de partid sau numire politică atribuite sigur persoanei condamnate, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3873",
+      "original_name": "Paun Mihai Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4764",
+        "https://bzb.ro/stire/un-administrator-de-firma-si-agent-de-vanzari-trimisi-in-judecata-de-dna-brasov-a62642"
+      ],
+      "note": "Sursele îl identifică pe Mihai Cătălin Păun ca administrator al societății private Viom Business Team SRL București, condamnat pentru trafic de influență. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3874",
+      "original_name": "Paunescu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3776",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=B"
+      ],
+      "note": "Persoana din dosarul DNA este Constantin Păunescu, administrator al unor societăți comerciale, condamnat pentru trafic de influență. Rezultatele despre omul de afaceri George Constantin Păunescu sau alte persoane omonime nu pot fi atribuite acestui profil. Nu am confirmat mandat, candidatură, funcție de partid ori numire politică pentru persoana condamnată; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3875",
+      "original_name": "Peleg Shaul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2887"
+      ],
+      "note": "DNA îl identifică pe Shaul Peleg ca administrator și asociat al societății private ICBT SRL, condamnat pentru luare de mită. Nu am identificat mandat, candidatură, funcție de partid sau numire politică în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3876",
+      "original_name": "Pelengica Eduard Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4495",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1280"
+      ],
+      "note": "DNA îl identifică pe Eduard Valentin Pelengică drept administrator al unei societăți comerciale bucureștene, condamnat în dosarul de corupție RADET. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3877",
+      "original_name": "Penescu Gheorghe Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4989",
+        "https://www.dna.ro/comunicat.xhtml?id=6036"
+      ],
+      "note": "Gheorghe Cornel Penescu este identificat ca om de afaceri, acționar majoritar al FC Argeș și al unor societăți comerciale. Presa a relatat că partide îl curtau și că avea legături politice, dar nu am confirmat că a deținut mandat, candidatură, funcție de partid ori numire politică. Pentru a nu echivala influența de afaceri cu o calitate politică verificată, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3878",
+      "original_name": "Petraru Valerica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-16",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5176",
+        "https://www.ziaruldeiasi.ro/stiri/director-acuzat-de-ilegalitati-cu-subventii--8i67.html",
+        "https://isj.vs.edu.ro/download/Concurs-regional-_-COPIII-AU-TALENT-Gradinita-12-Husi-PJ.pdf"
+      ],
+      "note": "Persoana condamnată este Valerică Petraru, administrator al unor societăți private din Botoșani. Candidatul ALDE din Huși este un profesor/instructor și dirijor local din județul Vaslui, documentat separat; numele identic nu dovedește aceeași identitate. Fără rol politic verificat pentru administratorul condamnat, profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
