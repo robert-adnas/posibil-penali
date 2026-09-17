@@ -65415,6 +65415,276 @@
       ],
       "note": "DNA și presa locală confirmă că Adriana Carmen Iordache a fost funcționar de execuție/consilier DGFP Dolj, nu ales local, condamnată definitiv la 3 ani cu suspendare pentru abuz în serviciu calificat, inclusiv în formă continuată. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat, iar eticheta juridică generică este corectată.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4031",
+      "original_name": "Ispas Danut-Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5141",
+        "https://adevarul.ro/stiri-locale/alba-iulia/doi-fosti-functionari-de-la-dgfp-alba-si-un-om-de-1438469.html"
+      ],
+      "note": "DNA confirmă identitatea și calitatea de consilier în Biroul de control fiscal al DGFP Alba, precum și condamnarea definitivă la 3 ani de închisoare cu suspendare pentru luare de mită. Sursele îl descriu exclusiv ca funcționar fiscal; nu a fost identificat un mandat, o candidatură ori o funcție de partid. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4032",
+      "original_name": "Ivan Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă că Ivan Marin era sergent-major în cadrul ISU «Vlașca» Giurgiu și că a fost condamnat definitiv la 1 an de închisoare cu suspendare pentru favorizarea infractorului și fals material în înscrisuri oficiale. Nu rezultă vreun mandat, vreo candidatură sau funcție de partid; profilul aparține unui cadru militar, nu domeniului politic, și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4033",
+      "original_name": "Joanta Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5029",
+        "https://www.dna.ro/comunicat.xhtml?id=5962",
+        "https://www.jurisprudenta.com/jurisprudenta/speta-vmcpm7d/",
+        "https://mitropolia-ardealului.ro/centrul-eparhial/"
+      ],
+      "note": "Sursele confirmă identitatea lui Sorin Joantă și activitatea exclusiv profesională de inspector școlar/de învățământ, fără mandat, candidatură ori funcție de partid. Situația juridică inițială era incompletă: decizia definitivă nr. 65/27.01.2015 a stabilit pedeapsa rezultantă de 2 ani și 6 luni cu suspendare pentru luare de mită, abuz în serviciu, fals intelectual și fals informatic. Fiind cadru din educație, nu persoană politică, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4035",
+      "original_name": "Lambrulescu Ioana Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2829",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=PH",
+        "https://vremeanoua.ro/prahova-fostul-subprefect-al-judetului-condamnat-definitiv-la-trei-ani-de-inchisoare-cu-executare/"
+      ],
+      "note": "DNA și presa confirmă că Ioana Daniela Lambrulescu era consilier juridic la Instituția Prefectului Prahova, nu demnitar politic. A fost achitată definitiv pentru instigare la abuz în serviciu și condamnată la 6 luni cu suspendare exclusiv pentru uz de fals; eticheta generică «fapte de corupție» este corectată în registru. Nu a fost identificat mandat, candidatură sau rol de partid, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4037",
+      "original_name": "Loghin Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7&nrcrt=21",
+        "https://adevarul.ro/stiri-interne/societate/150-de-falsi-persecutati-politic-trimisi-in-709617.html"
+      ],
+      "note": "DNA confirmă că Gheorghe Loghin era consilier juridic/fost angajat al Direcției Generale de Muncă și Protecție Socială București și membru al unei comisii administrative, condamnat definitiv la 7 ani cu executare pentru complicitate la luare de mită și înșelăciune cu consecințe deosebit de grave. Nu există dovadă de mandat, candidatură sau funcție de partid; rezultatele electorale omonime din Republica Moldova nu identifică aceeași persoană. Profil eliminat din domeniul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4038",
+      "original_name": "Luca Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3332",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3448",
+        "https://adevarul.ro/stiri-locale/vaslui/fost-subprefect-de-vaslui-din-nou-la-puscarie-1898581.html"
+      ],
+      "note": "Sursele o identifică pe Gabriela Luca drept consilier/fostă angajată a Prefecturii Vaslui și membră a Comisiei județene de fond funciar, fără mandat, candidatură sau funcție de partid. Situația juridică inițială din 2012 a fost depășită de hotărârea definitivă a Curții de Apel Iași din 19.10.2018: 2 ani și 5 luni închisoare cu suspendare și termen de supraveghere de 7 ani, într-un nou dosar de retrocedări ilegale. Profilul este eliminat ca funcționar nepolitic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4039",
+      "original_name": "Macesanu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2058",
+        "https://www.gds.ro/Local/2010-12-10/Avocata-spagara-condamnata-definitiv/",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DJ"
+      ],
+      "note": "DNA și Gazeta de Sud confirmă că Ion Măceșanu era agent și șef de escortă la Penitenciarul Craiova, condamnat definitiv la 2 ani cu executare pentru complicitate la trafic de influență în formă continuată. Nu a fost identificat un rol politic; rezultatele despre consilieri Măceșanu sau despre tatăl Alexandrei Măceșanu privesc alte persoane. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4040",
+      "original_name": "Mamaligan Florin Alin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă că Florin-Alin Mămăligan era sergent-major în cadrul ISU «Vlașca» Giurgiu și a primit definitiv 1 an de închisoare cu suspendare pentru favorizarea infractorului și fals material în înscrisuri oficiale. Nu a fost identificat niciun mandat, nicio candidatură și nicio funcție de partid; profilul este al unui cadru militar și este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4041",
+      "original_name": "Marzac Bogdan Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă că Bogdan-Mihai Mârzac era plutonier în cadrul ISU «Vlașca» Giurgiu și a fost condamnat definitiv la 3 ani cu suspendare pentru fals material, fals intelectual, uz de fals și abuz în serviciu. Nu există dovadă de mandat, candidatură sau funcție de partid; omonimele din alegeri privesc alte persoane. Profilul militar este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4043",
+      "original_name": "Mihailescu Florin Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3623",
+        "https://adevarul.ro/stiri-locale/alba-iulia/alba-functionarul-care-luat-mita-un-apartament-a-1254892.html",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=AB"
+      ],
+      "note": "DNA confirmă numele corect, funcția de consilier superior cu atribuții de inspecție fiscală la DGFP Alba și condamnarea definitivă la 3 ani cu suspendare sub supraveghere pentru luare de mită; descrierea inițială era trunchiată, iar infracțiunea era etichetată generic. Nu a fost identificat mandat, candidatură sau rol de partid. Profilul funcționarului fiscal este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4044",
+      "original_name": "Mihal Dima",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4806",
+        "https://www.telegrafonline.ro/fostul-director-al-ecoterm-cercetat-pentru-o-frauda-de-30-de-miliarde-de-lei",
+        "https://www.realitatea.net/amp/stiri/ultimele-stiri/patru-ani-de-inchisoare-pentru-suciu-si-cinci-pentru-dima--fosta-conducere-a-ecoterm-navodari--trimisa-in-judecata-de-dna--condamnata_5dcc91bf406af85273cbc5cf"
+      ],
+      "note": "DNA și presa confirmă că numele în ordine uzuală este Dima Mihal, fost contabil-șef/director economic la SC TSP Ecoterm SA Năvodari, condamnat definitiv la 5 ani cu executare pentru abuz în serviciu în formă continuată. Era manager al unei societăți comerciale, fără mandat, candidatură sau funcție de partid identificată; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4045",
+      "original_name": "Mitincu Caramfil Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4769",
+        "https://jurnalul.ro/stiri/observator/marinela-dobrea-director-dgaspc-galati-deferita-justitiei-540409.html",
+        "https://www.monitoruldegalati.ro/comunitate/fostul-director-al-dgaspc-galati-condamnat-pentru-coruptie-impreuna-cu-fiica-sa.html"
+      ],
+      "note": "DNA și presa confirmă identitatea în forma uzuală Iulian Mitincu-Caramfil și calitatea de fost consilier juridic al DGASPC Galați. A fost condamnat definitiv la 1 an și 10 luni cu suspendare, nu cu executare cum indica profilul, pentru două infracțiuni de neglijență în serviciu. Nu a fost identificat mandat, candidatură sau rol de partid; profilul funcționarului este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4046",
+      "original_name": "Miu Catalin Spiridon",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2977",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3127",
+        "https://gazetadecluj.ro/criste-nica-si-badiu-cu-succes-afaceri-asociati-cu-soare-de-la-sri/"
+      ],
+      "note": "Hotărârea definitivă îl identifică drept maiorul Cătălin-Spiridon Miu, fost consilier al directorului adjunct SRI Dumitru Zamfir. A fost condamnat la 1 an cu suspendare pentru fals în declarații și achitat pentru înșelăciune și instigare la abuz în serviciu; infracțiunea din profil era deci greșită. Nu există mandat, candidatură sau funcție de partid. Profilul fostului ofițer SRI este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4047",
+      "original_name": "Moldovan Sorin Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4651",
+        "https://alba24.ro/dosarul-de-mita-al-medicului-sef-al-penitenciarului-aiud-se-judeca-la-curtea-de-apel-bucuresti-62856.html",
+        "https://consiliuldemediere.ro/lib/pgajux/Tabloul-Mediatorilor-inactivi-2025-meltpzud.pdf"
+      ],
+      "note": "DNA și presa îl identifică pe Sorin-Gabriel Moldovan drept ofițer al Penitenciarului Aiud, condamnat definitiv la 4 ani cu suspendare sub supraveghere pentru complicitate la luare de mită. Registrul mediatorilor confirmă aceeași identitate profesională în Aiud. Nu există dovadă de mandat, candidatură sau funcție de partid; rezultatul despre politicianul Sorin Moldovan fără al doilea prenume nu dovedește identitatea. Profil eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4048",
+      "original_name": "Moraru Tatiana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://www.dna.ro/comunicat.xhtml?id=2035",
+        "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html"
+      ],
+      "note": "DNA și presa confirmă că Tatiana Moraru era secretara Grupului Școlar «Al. Vlahuță» din Podu Turcului, condamnată definitiv la 2 ani cu suspendare pentru asociere, complicitate la trafic de influență și complicitate la dare de mită în dosarul fraudei la bacalaureat. Nu a fost identificat mandat, candidatură sau rol de partid; rezultatele din Republica Moldova sunt omonime. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
