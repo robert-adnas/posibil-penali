@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16",
+  "updated_at": "2026-09-17",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -63318,6 +63318,276 @@
         "https://www.dna.ro/comunicat.xhtml?id=7274"
       ],
       "note": "Viorel-Romeo Rădulescu este identificat de DNA ca președinte al fundației private Fortuna Danubius și manager de proiect, condamnat în dosare privind obținerea nelegală de fonduri europene. Nu am identificat mandat, candidatură, funcție de partid sau numire politică; conducerea unui ONG nu intră în domeniul registrului politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3894",
+      "original_name": "Rat Zaharie Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Raț Zaharie Ioan exclusiv ca administrator al unei societăți comerciale, condamnat definitiv la 13 aprilie 2012. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3895",
+      "original_name": "Ratiu Stelian Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5200"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Rațiu Stelian Ioan exclusiv ca administrator al societății private Transilvania International SRL, condamnat definitiv la 25 august 2014. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este în afara domeniului registrului și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3896",
+      "original_name": "Riza Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4643"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Riza Ștefan exclusiv ca fost director general și administrator al societății private Liberty SRL. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3897",
+      "original_name": "Robu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3913",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=IS"
+      ],
+      "note": "Sursele cauzei îl identifică pe Ioan Robu ca administrator în fapt al unor societăți comerciale private din Iași, fără calitate publică sau politică. Este distinct contextual de alte persoane omonime cunoscute public. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3898",
+      "original_name": "Romanescu Doinita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4997",
+        "https://www.romaniacurata.ro/functionare-cu-atributii-de-control-in-cadrul-directiei-generale-a-finantelor-publice-arestate-pentru-luare-de-mita/"
+      ],
+      "note": "Sursele o identifică pe Doinița Romanescu ca administrator al firmei private Rom Excont RD SRL și practician/expert în mediul privat. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este în afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3899",
+      "original_name": "Romaniuc Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3727",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=OT"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Nicolae Romaniuc exclusiv ca administrator al societății private AC IND OLT SA, condamnat pentru complicitate într-un dosar care includea separat funcționari publici. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; omonimele politice din Republica Moldova nu au legătură cu persoana din cauză. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3900",
+      "original_name": "Rosu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1903",
+        "https://www.ziuaconstanta.ro/informatii/directia-nationala-anticoruptie/arestare-preventiva-rosu-victor-13-02-2009-249877.html"
+      ],
+      "note": "Sursele îl identifică pe Victor Roșu exclusiv ca administrator al unei societăți comerciale private din Galați și persoană care pretindea influență asupra unor funcționari. Nu rezultă că ar fi deținut mandat, candidatură, funcție de partid ori numire politică; candidatul Victor Tudor Roșu este o altă identitate. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3901",
+      "original_name": "Rusu Petru Marcel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Petru Marcel Rusu exclusiv ca administrator al societății private Montvin SRL. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; persoanele cu nume parțial asemănătoare din administrația locală au alte prenume complete. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3902",
+      "original_name": "Sala Petrica Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3701",
+        "https://www.digi24.ro/stiri/economiecnadnr-a-dat-un-contract-fara-licitatie-unei-firme-cu-actionar-condamnat-pentru-dare-de-mita-reactia-cnadnr-367751"
+      ],
+      "note": "Sursele îl identifică pe Petrică Mihai Sala ca om de afaceri, administrator și acționar al unor societăți private de construcții. Faptul că firmele sale au contracte publice sau că apare în dosare alături de demnitari nu îi conferă o funcție politică. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3903",
+      "original_name": "Salah Said",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4148",
+        "https://www.dna.ro/comunicat.xhtml?id=2870"
+      ],
+      "note": "Comunicatele oficiale DNA îl identifică pe Salah Said exclusiv ca administrator al societății private M.G.C. International Investments SRL (fosta Valahia 2002 SRL), condamnat pentru dare de mită. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3904",
+      "original_name": "Salman Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4357",
+        "https://adevarul.ro/stiri-interne/evenimente/barbatul-care-a-pretins-ca-este-judecator-la-1410890.html"
+      ],
+      "note": "Sursele îl identifică pe Gabriel Salman exclusiv ca administrator al unei societăți comerciale private din Galați, care s-a prezentat fals drept judecător pentru a pretinde influență. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; persoanele Salman active politic au alte prenume. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3905",
+      "original_name": "Sandu Marian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3802",
+        "https://old.cjtulcea.ro/sites/cjtulcea/Informatii/ConsilieriJudeteni/Consilieri%20judeteni%20in%20functie/Sandu%20Marian_2023.pdf",
+        "https://www.ziuaconstanta.ro/stiri/politic/care-este-noua-componenta-a-consiliului-judetean-tulcea-730268.html"
+      ],
+      "note": "DNA identifică persoana condamnată doar ca administrator al Postu Trans SRL Turcoaia. Există un om politic omonim, Sandu D. Marian, consilier județean PNL Tulcea și anterior consilier local Măcin, însă declarația sa oficială indică alte firme și nu oferă o legătură verificabilă cu Postu Trans. În lipsa unui identificator comun, atribuirea condamnării omonimului politic ar fi riscantă; profilul este exclus conservator pentru a evita o asociere greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3906",
+      "original_name": "Selin Mihai Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4859",
+        "https://adevarul.ro/stiri-locale/galati/ani-grei-de-inchisoare-pentru-un-patron-care-a-1789329.html",
+        "https://lagen.nu/dom/echr/001-181648"
+      ],
+      "note": "Sursele îl identifică pe Mihai-Gabriel Selin ca om de afaceri și administrator/împuternicit al mai multor societăți private; CEDO confirmă identitatea și detenția, fără vreo calitate politică. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3907",
+      "original_name": "Seres Jozsef",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4860",
+        "https://www.dna.ro/comunicat.xhtml?id=1440"
+      ],
+      "note": "Comunicatele oficiale DNA îl identifică pe Seres Jozsef drept cetățean maghiar, asociat unic și administrator al societății private Slov Oil Line SRL. Nu rezultă mandat, candidatură, funcție de partid ori numire politică în România; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3909",
+      "original_name": "Sima Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4356"
+      ],
+      "note": "Comunicatul oficial DNA îl identifică pe Sorin Sima exclusiv ca administrator al unor societăți comerciale private din Ploiești. Funcționarul public din același dosar este o altă persoană, iar angajatul municipal omonim are numele complet Sorin Gheorghe Sima. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3910",
+      "original_name": "Simineanu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5539",
+        "https://www.dna.ro/comunicat.xhtml?id=2825",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CT"
+      ],
+      "note": "Sursele o identifică pe Maria Simineanu exclusiv ca administrator al societății private Plantago Media SRL Medgidia (descrisă ulterior și ca pensionară), condamnată pentru evaziune fiscală. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
       "reviewed_snapshot_hash": null
     }
   ]
