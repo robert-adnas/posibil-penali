@@ -1,0 +1,16 @@
+{
+  "name": "Politicieni Corupți",
+  "short_name": "Integritate",
+  "description": "Proiect independent, non-profit și open source despre cazuri documentate de corupție și integritate din politica românească.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#f5f0e8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

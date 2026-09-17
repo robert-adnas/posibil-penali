@@ -1,0 +1,975 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f0e8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="133 politicieni români cu status „achitat”. Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune."
+    />
+    <meta
+      name="keywords"
+      content="politicieni corupți, corupție România, condamnați penal, DNA România, dosare penale politicieni, integritate politică, arhivă corupție"
+    />
+    <link rel="canonical" href="https://politicieni-corupti.ro/status/acquitted" />
+
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Politicieni Corupți" />
+    <meta
+      property="og:title"
+      content="Achitat — Politicieni | Politicieni Corupți"
+    />
+    <meta
+      property="og:description"
+      content="133 politicieni români cu status „achitat”. Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune."
+    />
+    <meta property="og:url" content="https://politicieni-corupti.ro/status/acquitted" />
+    <meta property="og:image" content="https://politicieni-corupti.ro/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Politicieni Corupți, arhivă independentă despre corupție și integritate în politica românească."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Achitat — Politicieni | Politicieni Corupți"
+    />
+    <meta
+      name="twitter:description"
+      content="133 politicieni români cu status „achitat”. Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune."
+    />
+    <meta name="twitter:image" content="https://politicieni-corupti.ro/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <title>Achitat — Politicieni | Politicieni Corupți</title>
+
+    <script>
+      // Restore path after GitHub Pages 404 redirect
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, '', decodeURIComponent(p));
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://politicieni-corupti.ro/#organization",
+          "name": "Politicieni Corupți",
+          "url": "https://politicieni-corupti.ro/",
+          "description": "Proiect independent, non-profit și open source de transparență civică privind integritatea politicienilor români.",
+          "sameAs": ["https://github.com/robert-adnas/posibil-penali"]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://politicieni-corupti.ro/#dataset",
+          "name": "Bază de date — Politicieni Corupți",
+          "description": "Bază de date cu politicieni români condamnați, trimiși în judecată sau cercetați penal pentru corupție. Fiecare intrare include statusul juridic, infracțiunile imputate și surse oficiale verificabile.",
+          "url": "https://politicieni-corupti.ro/",
+          "inLanguage": "ro",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "keywords": ["corupție", "politicieni", "România", "DNA", "dosare penale", "integritate"],
+          "creator": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          },
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://politicieni-corupti.ro/#website",
+          "url": "https://politicieni-corupti.ro/",
+          "name": "Politicieni Corupți",
+          "inLanguage": "ro",
+          "publisher": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-C8EXJPP7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Cw-MNNMr.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Achitat — Politicieni","url":"https://politicieni-corupti.ro/status/acquitted","description":"133 politicieni români cu status „achitat”. Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune.","mainEntity":{"@type":"ItemList","numberOfItems":133,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/adrian-ionut-gadea","name":"Adrian Ionuț Gâdea"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/adriean-videanu","name":"Adriean Videanu"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/agache-nina","name":"Agache Nina"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/amarandei-mihai","name":"Amarandei Mihai"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/ana-maria-patru","name":"Ana-Maria Pătru"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/andrei-nicolae","name":"Andrei Nicolae"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/andrei-volosevici","name":"Andrei Volosevici"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/apostol-nicolae","name":"Apostol Nicolae"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/balazs-bela-atila","name":"Balazs Bela Atila"},{"@type":"ListItem","position":10,"url":"https://politicieni-corupti.ro/politician/badulescu-ion","name":"Bădulescu Ion"},{"@type":"ListItem","position":11,"url":"https://politicieni-corupti.ro/politician/balasoiu-aurel","name":"Bălășoiu Aurel"},{"@type":"ListItem","position":12,"url":"https://politicieni-corupti.ro/politician/baloi-ion","name":"Băloi Ion"},{"@type":"ListItem","position":13,"url":"https://politicieni-corupti.ro/politician/berevoianu-corneliu","name":"Berevoianu Corneliu"},{"@type":"ListItem","position":14,"url":"https://politicieni-corupti.ro/politician/botezatu-gelu","name":"Botezatu Gelu"},{"@type":"ListItem","position":15,"url":"https://politicieni-corupti.ro/politician/bucovanu-irina","name":"Bucovanu Irina"},{"@type":"ListItem","position":16,"url":"https://politicieni-corupti.ro/politician/cazacu-iordache","name":"Cazacu Iordache"},{"@type":"ListItem","position":17,"url":"https://politicieni-corupti.ro/politician/calin-popescu-tariceanu","name":"Călin Popescu-Tăriceanu"},{"@type":"ListItem","position":18,"url":"https://politicieni-corupti.ro/politician/catalin-florin-teodorescu","name":"Cătălin Florin Teodorescu"},{"@type":"ListItem","position":19,"url":"https://politicieni-corupti.ro/politician/centea-liliana","name":"Centea Liliana"},{"@type":"ListItem","position":20,"url":"https://politicieni-corupti.ro/politician/ciolpan-vasile","name":"Ciolpan Vasile"}]}}</script>
+</head>
+  <body>
+    <div id="root" data-prerendered="true">
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhivă</a>
+              <a href="/lista">Lista completă</a>
+              <span aria-current="page">Achitat</span>
+            </nav>
+            <p class="app-kicker">Status juridic</p>
+            <h1 class="app-title">Achitat</h1>
+            <p class="app-intro">
+              133 politicieni. Politicieni achitați — instanța a decis că fapta nu există, nu a fost comisă de inculpat, sau nu este infracțiune.
+              
+            </p>
+            
+    <nav aria-label="Navigare principală" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
+      <a href="/">Arhivă</a><a href="/actualizari">Modificări recente</a><a href="/lista">Lista completă</a><a href="/glosar">Glosar juridic</a><a href="/metodologie">Metodologie</a><a href="/contact">Contact</a>
+    </nav>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Distribuție pe partide</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD</a> — 62</li><li><a href="/partid/pnl">PNL</a> — 27</li><li><a href="/partid/pdl">PDL</a> — 16</li><li><a href="/partid/independent">Independent</a> — 8</li><li><a href="/partid/prm">PRM</a> — 4</li><li><a href="/partid/pp-dd">PP-DD</a> — 3</li><li><a href="/partid/pd">PD</a> — 3</li><li><a href="/partid/udmr">UDMR</a> — 2</li><li><a href="/partid/pmp">PMP</a> — 2</li><li><a href="/partid/aur">AUR</a> — 1</li><li><a href="/partid/ppmprr">PPMPRR</a> — 1</li><li><a href="/partid/forta-dreptei">Forța Dreptei</a> — 1</li><li><a href="/partid/pro-romania">Pro România</a> — 1</li><li><a href="/partid/blocul-suveranist-roman">Blocul Suveranist Român</a> — 1</li><li><a href="/partid/pntcd">PNȚCD</a> — 1</li></ul>
+    </section>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Achitat (133)</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
+    <li>
+      <a href="/politician/adrian-ionut-gadea">Adrian Ionuț Gâdea</a>
+      <span> - Achitat, PSD, Președinte CJ, Complicitate la abuz în serviciu; participație improprie la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/adriean-videanu">Adriean Videanu</a>
+      <span> - Achitat, Independent, Ministru, Constituire a unui grup infracțional organizat; participație improprie la delapidare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/agache-nina">Agache Nina</a>
+      <span> - Achitat, PNL, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/amarandei-mihai">Amarandei Mihai</a>
+      <span> - Achitat, PSD, Altele, Avere nejustificată (raport ANI anulat definitiv)</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ana-maria-patru">Ana-Maria Pătru</a>
+      <span> - Achitat, Independent, Secretar de stat, Trafic de influență; spălare a banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/andrei-nicolae">Andrei Nicolae</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/andrei-volosevici">Andrei Volosevici</a>
+      <span> - Achitat, PDL, Primar, Abuz în serviciu; trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/apostol-nicolae">Apostol Nicolae</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/balazs-bela-atila">Balazs Bela Atila</a>
+      <span> - Achitat, UDMR, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/badulescu-ion">Bădulescu Ion</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/balasoiu-aurel">Bălășoiu Aurel</a>
+      <span> - Achitat, PNL, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/baloi-ion">Băloi Ion</a>
+      <span> - Achitat, PDL, Ales local, Acuzație de complicitate la folosirea de documente false pentru obținerea pe nedrept de fonduri europene — achitare definitivă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/berevoianu-corneliu">Berevoianu Corneliu</a>
+      <span> - Achitat, PDL, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/botezatu-gelu">Botezatu Gelu</a>
+      <span> - Achitat, PSD, Primar, Tentativă la fraudă cu fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bucovanu-irina">Bucovanu Irina</a>
+      <span> - Achitat, PRM, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cazacu-iordache">Cazacu Iordache</a>
+      <span> - Achitat, PSD, Primar, Acuzații soluționate prin achitare: folosire sau prezentare cu rea-credință de documente false pentru fonduri europene; fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/calin-popescu-tariceanu">Călin Popescu-Tăriceanu</a>
+      <span> - Achitat, Independent, Prim-ministru, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/catalin-florin-teodorescu">Cătălin Florin Teodorescu</a>
+      <span> - Achitat, AUR, Deputat, Abuz în serviciu dacă funcționarul public a obținut un folos necuvenit pentru sine sau pentru altul</span>
+    </li>
+  
+    <li>
+      <a href="/politician/centea-liliana">Centea Liliana</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciolpan-vasile">Ciolpan Vasile</a>
+      <span> - Achitat, PDL, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cioran-lucian">Cioran Lucian</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciulea-ioan-vasile">Ciulea Ioan Vasile</a>
+      <span> - Achitat, PP-DD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cojocaru-constantin">Cojocaru Constantin</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantin-adascalitei">Constantin Adăscăliței</a>
+      <span> - Achitat, PSD, Deputat, Operațiuni financiare incompatibile cu funcția; folosirea cu rea-credință a bunurilor sau creditului societății</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantin-gheorghe-nicorici">Constantin Gheorghe Nicorici</a>
+      <span> - Achitat, PDL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantin-iatagan">Constantin Iatagan</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantin-morosan">Constantin Moroșan</a>
+      <span> - Achitat, PNL, Primar, Complicitate la folosire sau prezentare de documente false pentru fonduri europene; folosirea funcției pentru favorizarea unor persoane</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantinescu-florin">Constantinescu Florin</a>
+      <span> - Achitat, PSD, Senator, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cornel-mircea-samartinean">Cornel Mircea Sămărtinean</a>
+      <span> - Achitat, PMP, Deputat, Abuz în serviciu; conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/corneliu-mugurel-cozmanciuc">Corneliu-Mugurel Cozmanciuc</a>
+      <span> - Achitat, PNL, Deputat, Trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cosmin-sandru">Cosmin Șandru</a>
+      <span> - Achitat, PNL, Deputat, Dare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristian-adomnitei">Cristian Adomniței</a>
+      <span> - Achitat, PNL, Președinte CJ, Favorizarea făptuitorului; fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristian-david">Cristian David</a>
+      <span> - Achitat, PNL, Ministru, Acuzație de luare de mită (500.000 euro) — achitat definitiv</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dan-radu-rusanu">Dan Radu Rușanu</a>
+      <span> - Achitat, PNL, Senator, Folosirea influenței; favorizarea făptuitorului; constituirea unui grup infracțional organizat</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dan-stefan-motreanu">Dan Ștefan Motreanu</a>
+      <span> - Achitat, PNL, Europarlamentar, Spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/danut-culetu">Dănuț Culețu</a>
+      <span> - Achitat, PNL, Deputat, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/decebal-fagadau">Decebal Făgădău</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu dacă funcționarul public a obținut pentru sine sau pentru altul un folos necuvenit</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dorin-florea">Dorin Florea</a>
+      <span> - Achitat, Independent, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dragos-chitic">Dragoș Chitic</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dragos-george-bogdan">Dragoș George Bogdan</a>
+      <span> - Achitat, PNL, Ales local, Acuzație de abuz în serviciu cu consecințe deosebit de grave — achitare definitivă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dumea-eronim-eduard">Dumea Eronim-Eduard</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dumitru-voicu">Dumitru Voicu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ene-florea">Ene Florea</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florian-bodog">Florian Bodog</a>
+      <span> - Achitat, PSD, Ministru, Abuz în serviciu; fals intelectual; fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florica-mioara-popa">Florica Mioara Popa</a>
+      <span> - Achitat, Independent, Ales local, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florin-mitroi">Florin Mitroi</a>
+      <span> - Achitat, PNL, Președinte CJ, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gabriel-oprea">Gabriel Oprea</a>
+      <span> - Achitat, PPMPRR, Ministru, Abuz în serviciu; ucidere din culpă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/george-adrian-scutaru">George-Adrian Scutaru</a>
+      <span> - Achitat, PNL, Deputat, Spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/georgeta-hutanu">Georgeta Huțanu</a>
+      <span> - Achitat, PD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-cernatescu">Gheorghe Cernătescu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-falca">Gheorghe Falcă</a>
+      <span> - Achitat, PNL, Europarlamentar, Luare de mită; abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-matei">Gheorghe Matei</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-patrascu">Gheorghe Pătrașcu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/grozav-eugen">Grozav Eugen</a>
+      <span> - Achitat, PSD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/hurdugaci-emanoil">Hurdugaci Emanoil</a>
+      <span> - Achitat, PRM, Primar, Instigare la fraudă cu fonduri europene; obținere ilegală de fonduri; spălare a banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ioan-farcas">Ioan Fărcaș</a>
+      <span> - Achitat, PNL, Ales local, Complicitate la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ioan-lascau">Ioan Lascău</a>
+      <span> - Achitat, PP-DD, Ales local, luare de mită și spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ion-ariton">Ion Ariton</a>
+      <span> - Achitat, PMP, Ministru, Participație improprie la abuz în serviciu; folosirea influenței în scopul obținerii de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ionita-ioan">Ioniță Ioan</a>
+      <span> - Achitat, PD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ivan-vasile-bebe">Ivan Vasile Bebe</a>
+      <span> - Achitat, PNL, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/knall-helmuth-iulius">Knall Helmuth Iulius</a>
+      <span> - Achitat, PDL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/langer-nicolae">Langer Nicolae</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/laszlo-attila-bako">Laszlo Attila Bako</a>
+      <span> - Achitat, Independent, Ales local, Complicitate la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lata-ilie">Lața Ilie</a>
+      <span> - Achitat, PSD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lazaroiu-ioan">Lăzăroiu Ioan</a>
+      <span> - Achitat, PP-DD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/luca-ion">Luca Ion</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ludovic-orban">Ludovic Orban</a>
+      <span> - Achitat, Forța Dreptei, Prim-ministru, Folosirea influenței în scopul obținerii de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lungu-cristina">Lungu Cristina</a>
+      <span> - Achitat, Independent, Ales local, Complicitate la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lungu-romeo-daniel">Lungu Romeo-Daniel</a>
+      <span> - Achitat, PSD, Deputat, Raport ANI de incompatibilitate anulat definitiv</span>
+    </li>
+  
+    <li>
+      <a href="/politician/manta-anca-maria">Manta Anca Maria</a>
+      <span> - Achitat, PSD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marian-ibric">Marian Ibric</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marian-oprisan">Marian Oprișan</a>
+      <span> - Achitat, PSD, Președinte CJ, Abuz în serviciu; utilizarea creditelor în alte scopuri; fals intelectual; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marian-victor-cristian">Marian Victor Cristian</a>
+      <span> - Achitat, PDL, Ales local, Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marin-ion">Marin Ion</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mihai-alexandru-voicu">Mihai Alexandru Voicu</a>
+      <span> - Achitat, PNL, Deputat, Folosirea influenței sau autorității într-un partid pentru obținerea de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mihail-boldea">Mihail Boldea</a>
+      <span> - Achitat, PDL, Deputat, Spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mircea-banias">Mircea Banias</a>
+      <span> - Achitat, PNL, Senator, Grup infracțional organizat; trafic de influență; instigare la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/moraru-eugen">Moraru Eugen</a>
+      <span> - Achitat, PSD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nagy-pavel">Nagy Pavel</a>
+      <span> - Achitat, PNL, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neag-florin">Neag Florin</a>
+      <span> - Achitat, PDL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/negoita-liviu-cristian">Negoiță Liviu Cristian</a>
+      <span> - Achitat, PNL, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nicolae-banicioiu">Nicolae Bănicioiu</a>
+      <span> - Achitat, Pro România, Ministru, Trafic de influență; luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nicolae-gheorghe">Nicolae Gheorghe</a>
+      <span> - Achitat, Blocul Suveranist Român, Primar, Tentativă la folosirea de documente false pentru fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nicolae-radu">Nicolae Radu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/niculaie-dochinoiu">Niculaie Dochinoiu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/oanea-ioan">Oanea Ioan</a>
+      <span> - Achitat, PSD, Primar, Incompatibilitate (raport ANI anulat definitiv)</span>
+    </li>
+  
+    <li>
+      <a href="/politician/orosz-csaba">Orosz Csaba</a>
+      <span> - Achitat, UDMR, Ales local, Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit</span>
+    </li>
+  
+    <li>
+      <a href="/politician/orza-adrian-romita">Orza Adrian Romiță</a>
+      <span> - Achitat, PNȚCD, Ales local, Complicitate la abuz în serviciu cu obținere de folos necuvenit</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pantazi-dumitru">Pantazi Dumitru</a>
+      <span> - Achitat, PSD, Ales local, Instigare la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paul-pacuraru">Paul Păcuraru</a>
+      <span> - Achitat, PNL, Ministru, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/patrui-eleonora">Pătrui Eleonora</a>
+      <span> - Achitat, PDL, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paun-baba">Păun Baba</a>
+      <span> - Achitat, PSD, Primar, Luare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pepenel-nicolae-cornel">Pepenel Nicolae-Cornel</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petrescu-george-stelian">Petrescu George Stelian</a>
+      <span> - Achitat, PNL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/plesca-vasile">Pleșca Vasile</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/plopeanu-teodor">Plopeanu Teodor</a>
+      <span> - Achitat, PSD, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/popa-ioan">Popa Ioan</a>
+      <span> - Achitat, PDL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/popa-ion">Popa Ion</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/postoaca-damian-ion">Poștoacă Damian-Ion</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ratoi-neculai">Rățoi Neculai</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/raut-danut">Răuț Dănuț</a>
+      <span> - Achitat, PRM, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/robu-nicolae">Robu Nicolae</a>
+      <span> - Achitat, PNL, Primar, Abuz în serviciu cu obținere de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/rusu-leonard">Rusu Leonard</a>
+      <span> - Achitat, PD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sas-ilarie">Sas Ilarie</a>
+      <span> - Achitat, PNL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/secareanu-dumitru">Secăreanu Dumitru</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sergiu-claudiu-maior">Sergiu-Claudiu Maior</a>
+      <span> - Achitat, PSD, Ales local, Uzurparea funcției</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sevastian-pupaza-rosu">Sevastian Pupăză-Roșu</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sevil-shhaideh">Sevil Shhaideh</a>
+      <span> - Achitat, PSD, Ministru, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/simion-constantin">Simion Constantin</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/simion-emil">Simion Emil</a>
+      <span> - Achitat, PDL, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sirbu-daniel">Sîrbu Daniel</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sofian-dorina">Sofian Dorina</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stere-sponte">Stere Sponte</a>
+      <span> - Achitat, PDL, Ales local, Complicitate la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stoia-traian-constantin">Stoia Traian Constantin</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu obținere de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/serban-mihailescu">Șerban Mihăilescu</a>
+      <span> - Achitat, PSD, Senator, Acuzații de primire de foloase necuvenite și nerespectarea regimului armelor și munițiilor — achitat definitiv</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stefan-ion">Ștefan Ion</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tabarcea-ionela-laura">Tabarcea Ionela-Laura</a>
+      <span> - Achitat, PRM, Ales local, Complicitate la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tarba-mihai-gheorghe">Tarbă Mihai Gheorghe</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tarba-sever">Tarbă Sever</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/taropa-floarea">Taropa Floarea</a>
+      <span> - Achitat, PDL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/teodor-neamtu">Teodor Neamțu</a>
+      <span> - Achitat, PDL, Primar, Complicitate la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/toma-cosmin-lucian">Toma Cosmin Lucian</a>
+      <span> - Achitat, PNL, Ales local, Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/toma-viorel">Toma Viorel</a>
+      <span> - Achitat, PSD, Ales local, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tudose-elisaveta">Tudose Elisaveta</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ungurenus-mihai">Ungurenuș Mihai</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/urdea-iustin-nicolae">Urdea Iustin Nicolae</a>
+      <span> - Achitat, PNL, Primar, Acuzații soluționate prin achitare: abuz în serviciu; fraudă cu fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/valerian-vreme">Valerian Vreme</a>
+      <span> - Achitat, PDL, Ministru, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/valeriu-zgonea">Valeriu Zgonea</a>
+      <span> - Achitat, PSD, Deputat, Trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vasile-blaga">Vasile Blaga</a>
+      <span> - Achitat, PNL, Senator, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vasile-silvian-ciuperca">Vasile Silvian Ciupercă</a>
+      <span> - Achitat, PSD, Președinte CJ, Folosirea influenței ori autorității; abuz în serviciu; instigare la fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/victor-ponta">Victor Ponta</a>
+      <span> - Achitat, Independent, Prim-ministru, Fals în înscrisuri sub semnătură privată; complicitate la evaziune fiscală; spălarea banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/viorel-daniel-chirvasa">Viorel-Daniel Chirvasă</a>
+      <span> - Achitat, PSD, Ales local, Mărturie mincinoasă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/visan-ionel-dragos">Vișan Ionel Dragoș</a>
+      <span> - Achitat, PSD, Primar, Abuz în serviciu</span>
+    </li>
+  </ul>
+    </section>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Alte statusuri juridice</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/status/convicted">Condamnat definitiv (867)</a></li><li><a href="/status/first_instance">Condamnat (primă instanță) (1)</a></li><li><a href="/status/indicted">Trimis în judecată (12)</a></li><li><a href="/status/investigated">Cercetat (6)</a></li><li><a href="/status/integrity">Incident de integritate (57)</a></li><li><a href="/status/prescribed">Prescris (41)</a></li><li><a href="/status/closed">Clasat (30)</a></li></ul>
+    </section>
+  
+          </div>
+        </main>
+      </div>
+    </div>
+    <script data-goatcounter="https://pcro.goatcounter.com/count" async src="/count.js"></script>
+  </body>
+</html>

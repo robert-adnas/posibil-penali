@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f0e8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="51 politicieni cu dosare penale din județul București: 24 condamnați definitiv, 104 ani de închisoare."
+    />
+    <meta
+      name="keywords"
+      content="politicieni corupți, corupție România, condamnați penal, DNA România, dosare penale politicieni, integritate politică, arhivă corupție"
+    />
+    <link rel="canonical" href="https://politicieni-corupti.ro/judet/bucuresti" />
+
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Politicieni Corupți" />
+    <meta
+      property="og:title"
+      content="Politicieni cu dosare penale din București | Politicieni Corupți"
+    />
+    <meta
+      property="og:description"
+      content="51 politicieni cu dosare penale din județul București: 24 condamnați definitiv, 104 ani de închisoare."
+    />
+    <meta property="og:url" content="https://politicieni-corupti.ro/judet/bucuresti" />
+    <meta property="og:image" content="https://politicieni-corupti.ro/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Politicieni Corupți, arhivă independentă despre corupție și integritate în politica românească."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Politicieni cu dosare penale din București | Politicieni Corupți"
+    />
+    <meta
+      name="twitter:description"
+      content="51 politicieni cu dosare penale din județul București: 24 condamnați definitiv, 104 ani de închisoare."
+    />
+    <meta name="twitter:image" content="https://politicieni-corupti.ro/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <title>Politicieni cu dosare penale din București | Politicieni Corupți</title>
+
+    <script>
+      // Restore path after GitHub Pages 404 redirect
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, '', decodeURIComponent(p));
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://politicieni-corupti.ro/#organization",
+          "name": "Politicieni Corupți",
+          "url": "https://politicieni-corupti.ro/",
+          "description": "Proiect independent, non-profit și open source de transparență civică privind integritatea politicienilor români.",
+          "sameAs": ["https://github.com/robert-adnas/posibil-penali"]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://politicieni-corupti.ro/#dataset",
+          "name": "Bază de date — Politicieni Corupți",
+          "description": "Bază de date cu politicieni români condamnați, trimiși în judecată sau cercetați penal pentru corupție. Fiecare intrare include statusul juridic, infracțiunile imputate și surse oficiale verificabile.",
+          "url": "https://politicieni-corupti.ro/",
+          "inLanguage": "ro",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "keywords": ["corupție", "politicieni", "România", "DNA", "dosare penale", "integritate"],
+          "creator": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          },
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://politicieni-corupti.ro/#website",
+          "url": "https://politicieni-corupti.ro/",
+          "name": "Politicieni Corupți",
+          "inLanguage": "ro",
+          "publisher": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-C8EXJPP7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Cw-MNNMr.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Politicieni cu dosare penale din București","url":"https://politicieni-corupti.ro/judet/bucuresti","description":"51 politicieni cu dosare penale din județul București: 24 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":51,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/adrian-severin","name":"Adrian Severin"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/alina-mihaela-bica","name":"Alina Mihaela Bica"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/andra-luminita-rasnoveanu","name":"Andra Luminița Râșnoveanu"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/bogdan-popovici","name":"Bogdan Popovici"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/camelia-teodora-andrusenco","name":"Camelia Teodora Andrușenco"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/catalin-voicu","name":"Cătălin Voicu"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/corneliu-dobritoiu","name":"Corneliu Dobrițoiu"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/cristian-poteras","name":"Cristian Poteraș"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/cristina-luminita-cristea","name":"Cristina-Luminița Cristea"},{"@type":"ListItem","position":10,"url":"https://politicieni-corupti.ro/politician/dan-dumitrescu","name":"Dan Dumitrescu"},{"@type":"ListItem","position":11,"url":"https://politicieni-corupti.ro/politician/daniel-tudorache","name":"Daniel Tudorache"},{"@type":"ListItem","position":12,"url":"https://politicieni-corupti.ro/politician/florin-costiniu","name":"Florin Costiniu"},{"@type":"ListItem","position":13,"url":"https://politicieni-corupti.ro/politician/george-becali","name":"George Becali"},{"@type":"ListItem","position":14,"url":"https://politicieni-corupti.ro/politician/ionita-nistor","name":"Ionita Nistor"},{"@type":"ListItem","position":15,"url":"https://politicieni-corupti.ro/politician/ionut-florentin-mihailescu","name":"Ionuț Florentin Mihăilescu"},{"@type":"ListItem","position":16,"url":"https://politicieni-corupti.ro/politician/jean-catalin-sandu","name":"Jean-Cătălin Sandu"},{"@type":"ListItem","position":17,"url":"https://politicieni-corupti.ro/politician/marian-zlotea","name":"Marian Zlotea"},{"@type":"ListItem","position":18,"url":"https://politicieni-corupti.ro/politician/neculai-ontanu","name":"Neculai Onțanu"},{"@type":"ListItem","position":19,"url":"https://politicieni-corupti.ro/politician/oana-niculescu-mizil","name":"Oana Niculescu Mizil"},{"@type":"ListItem","position":20,"url":"https://politicieni-corupti.ro/politician/petre-alexandru","name":"Petre Alexandru"}]}}</script>
+</head>
+  <body>
+    <div id="root" data-prerendered="true">
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhivă</a>
+              <a href="/lista">Lista completă</a>
+              <span aria-current="page">Județul București</span>
+            </nav>
+            <p class="app-kicker">Județ</p>
+            <h1 class="app-title">Județul București</h1>
+            <p class="app-intro">51 politicieni cu dosare penale: 24 condamnați definitiv, 104 ani de închisoare.</p>
+            
+    <nav aria-label="Navigare principală" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
+      <a href="/">Arhivă</a><a href="/actualizari">Modificări recente</a><a href="/lista">Lista completă</a><a href="/glosar">Glosar juridic</a><a href="/metodologie">Metodologie</a><a href="/contact">Contact</a>
+    </nav>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Distribuție pe partide</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/independent">Independent</a> — 15</li><li><a href="/partid/psd">PSD</a> — 12</li><li><a href="/partid/pnl">PNL</a> — 8</li><li><a href="/partid/pdl">PDL</a> — 5</li><li><a href="/partid/pusl">PUSL</a> — 2</li><li><a href="/partid/pc">PC</a> — 2</li><li><a href="/partid/pnrr">PNRR</a> — 1</li><li><a href="/partid/reper">REPER</a> — 1</li><li><a href="/partid/forta-dreptei">Forța Dreptei</a> — 1</li><li><a href="/partid/ppmprr">PPMPRR</a> — 1</li><li><a href="/partid/pro-romania">Pro România</a> — 1</li><li><a href="/partid/pmp">PMP</a> — 1</li><li><a href="/partid/prm">PRM</a> — 1</li></ul>
+    </section>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni din București (51)</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
+    <li>
+      <a href="/politician/adrian-severin">Adrian Severin</a>
+      <span> - Condamnat definitiv, Independent, Europarlamentar, Luare de mită; trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/alina-mihaela-bica">Alina Mihaela Bica</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Favorizarea făptuitorului</span>
+    </li>
+  
+    <li>
+      <a href="/politician/andra-luminita-rasnoveanu">Andra Luminița Râșnoveanu</a>
+      <span> - Condamnat definitiv, PNL, Altele, Complicitate la înșelăciune, tentativă la înșelăciune și fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bogdan-popovici">Bogdan Popovici</a>
+      <span> - Condamnat definitiv, Independent, Altele, Complicitate la abuz în serviciu, spălare de bani și fals în înscrisuri sub semnătură privată, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/camelia-teodora-andrusenco">Camelia Teodora Andrușenco</a>
+      <span> - Condamnat definitiv, Independent, Altele, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/catalin-voicu">Cătălin Voicu</a>
+      <span> - Condamnat definitiv, PSD, Senator, Două infracțiuni de trafic de influență; fals în înscrisuri sub semnătură privată; complicitate la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/corneliu-dobritoiu">Corneliu Dobrițoiu</a>
+      <span> - Condamnat definitiv, PNL, Ministru, Participație improprie la abuz în serviciu și la fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristian-poteras">Cristian Poteraș</a>
+      <span> - Condamnat definitiv, PDL, Primar, Abuz în serviciu contra intereselor publice, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristina-luminita-cristea">Cristina-Luminița Cristea</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Complicitate la abuz în serviciu; complicitate la folosirea de informații nedestinate publicității; instigare la fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dan-dumitrescu">Dan Dumitrescu</a>
+      <span> - Condamnat definitiv, PSD, Secretar de stat, Trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/daniel-tudorache">Daniel Tudorache</a>
+      <span> - Condamnat definitiv, PSD, Primar, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florin-costiniu">Florin Costiniu</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/george-becali">George Becali</a>
+      <span> - Condamnat definitiv, Independent, Deputat, Lipsire de libertate în mod ilegal (trei infracțiuni); complicitate la abuz în serviciu calificat și continuat; dare de mită (două infracțiuni) și fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ionita-nistor">Ionita Nistor</a>
+      <span> - Condamnat definitiv, PSD, Ales local, Trafic de influență (patru infracțiuni)</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ionut-florentin-mihailescu">Ionuț Florentin Mihăilescu</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Mărturie mincinoasă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/jean-catalin-sandu">Jean-Cătălin Sandu</a>
+      <span> - Condamnat definitiv, PC, Altele, Complicitate la stabilirea intenționată a unei valori diminuate în cadrul privatizării Institutului de Cercetări Alimentare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marian-zlotea">Marian Zlotea</a>
+      <span> - Condamnat definitiv, PDL, Europarlamentar, Trafic de influență; luare de mită; constituire de grup infracțional organizat; instigare la luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neculai-ontanu">Neculai Onțanu</a>
+      <span> - Condamnat definitiv, PSD, Primar, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/oana-niculescu-mizil">Oana Niculescu Mizil</a>
+      <span> - Condamnat definitiv, PSD, Deputat, Conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petre-alexandru">Petre Alexandru</a>
+      <span> - Condamnat definitiv, PMP, Ales local, Complicitate la stabilirea cu intenție a unei valori diminuate a bunurilor publice</span>
+    </li>
+  
+    <li>
+      <a href="/politician/remus-virgil-baciu">Remus-Virgil Baciu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/staicu-marian">Staicu Marian</a>
+      <span> - Condamnat definitiv, PRM, Ales local, Cumpărare de influență; complicitate la dare de mită; fals în înscrisuri</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stan-daniela">Stan Daniela</a>
+      <span> - Condamnat definitiv, PSD, Ales local, Participație improprie la înșelăciune cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/truta-enea-ioan">Truță Enea Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, deturnare de fonduri</span>
+    </li>
+  
+    <li>
+      <a href="/politician/picu-emanuel-victor">Picu Emanuel-Victor</a>
+      <span> - Condamnat (primă instanță), PNL, Ales local, Abuz în serviciu; fals intelectual (două infracțiuni)</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristian-popescu-piedone">Cristian Popescu Piedone</a>
+      <span> - Trimis în judecată, PNRR, Primar, Permiterea accesului la informații nedestinate publicității (dosarul controlului ANPC din Sinaia); conflict de interese administrativ; achitat definitiv în dosarul Colectiv</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marian-daniel-vanghelie">Marian-Daniel Vanghelie</a>
+      <span> - Trimis în judecată, PSD, Primar, Trimis în judecată pentru constituirea unui grup infracțional organizat și complicitate la abuz în serviciu cu consecințe deosebit de grave; într-un dosar anterior, luarea de mită s-a prescris, iar acuzațiile de abuz în serviciu și spălare de bani au fost soluționate prin achitare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pintea-adrian">Pintea Adrian</a>
+      <span> - Trimis în judecată, PSD, Secretar de stat, Instigare la abuz în serviciu cu obținere de foloase necuvenite pentru altul, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bogdan-eduard-dragomirescu">Bogdan-Eduard Dragomirescu</a>
+      <span> - Cercetat, PUSL, Altele, Instigare la abuz în serviciu; trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/carlogea-iulian-constantin">Cârlogea Iulian Constantin</a>
+      <span> - Cercetat, PUSL, Ales local, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciprian-ciucu">Ciprian Ciucu</a>
+      <span> - Cercetat, PNL, Primar, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florin-vasile-citu">Florin-Vasile Cîțu</a>
+      <span> - Cercetat, PNL, Prim-ministru, Complicitate la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ioana-mihaila">Ioana Mihăilă</a>
+      <span> - Cercetat, REPER, Ministru, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/deaconu-alexandru-stefan">Deaconu Alexandru-Ștefan</a>
+      <span> - Incident de integritate, PNL, Ales local, Incompatibilitate administrativă constatată de ANI și confirmată definitiv</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sergiu-andon">Sergiu Andon</a>
+      <span> - Incident de integritate, PC, Deputat, Incompatibilitate</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantin-dascalu">Constantin Dascălu</a>
+      <span> - Prescris, PDL, Secretar de stat, Acuzație de luare de mită — proces încetat definitiv prin prescripție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/crinuta-dumitrean">Crinuța Dumitrean</a>
+      <span> - Prescris, PDL, Secretar de stat, Abuz în serviciu; luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ecaterina-andronescu">Ecaterina Andronescu</a>
+      <span> - Prescris, PSD, Ministru, Abuz în serviciu în dosarul licențelor Microsoft</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mihai-tanasescu">Mihai Tănăsescu</a>
+      <span> - Prescris, PSD, Ministru, Abuz în serviciu; luare de mită; trafic de influență; spălare a banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mircea-ionut-costea">Mircea-Ionuț Costea</a>
+      <span> - Prescris, Independent, Secretar de stat, Acuzație de complicitate la luare de mită — proces încetat definitiv prin prescripție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/andrei-chiliman">Andrei Chiliman</a>
+      <span> - Clasat, PNL, Primar, Constituirea unui grup infracțional organizat; complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/daniel-funeriu">Daniel Funeriu</a>
+      <span> - Clasat, PDL, Ministru, Abuz în serviciu în dosarul licențelor Microsoft</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petre-toba">Petre Tobă</a>
+      <span> - Clasat, Independent, Ministru, Favorizarea făptuitorului</span>
+    </li>
+  
+    <li>
+      <a href="/politician/adriean-videanu">Adriean Videanu</a>
+      <span> - Achitat, Independent, Ministru, Constituire a unui grup infracțional organizat; participație improprie la delapidare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ana-maria-patru">Ana-Maria Pătru</a>
+      <span> - Achitat, Independent, Secretar de stat, Trafic de influență; spălare a banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/calin-popescu-tariceanu">Călin Popescu-Tăriceanu</a>
+      <span> - Achitat, Independent, Prim-ministru, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dragos-george-bogdan">Dragoș George Bogdan</a>
+      <span> - Achitat, PNL, Ales local, Acuzație de abuz în serviciu cu consecințe deosebit de grave — achitare definitivă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gabriel-oprea">Gabriel Oprea</a>
+      <span> - Achitat, PPMPRR, Ministru, Abuz în serviciu; ucidere din culpă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ludovic-orban">Ludovic Orban</a>
+      <span> - Achitat, Forța Dreptei, Prim-ministru, Folosirea influenței în scopul obținerii de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nicolae-banicioiu">Nicolae Bănicioiu</a>
+      <span> - Achitat, Pro România, Ministru, Trafic de influență; luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/viorel-daniel-chirvasa">Viorel-Daniel Chirvasă</a>
+      <span> - Achitat, PSD, Ales local, Mărturie mincinoasă</span>
+    </li>
+  </ul>
+    </section>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Alte județe</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/judet/arges">Argeș (83)</a></li><li><a href="/judet/iasi">Iași (61)</a></li><li><a href="/judet/dolj">Dolj (42)</a></li><li><a href="/judet/maramures">Maramures (40)</a></li><li><a href="/judet/prahova">Prahova (33)</a></li><li><a href="/judet/maramures">Maramureș (32)</a></li><li><a href="/judet/sibiu">Sibiu (30)</a></li><li><a href="/judet/constanta">Constanța (28)</a></li><li><a href="/judet/cluj">Cluj (28)</a></li><li><a href="/judet/bacau">Bacău (28)</a></li><li><a href="/judet/vrancea">Vrancea (26)</a></li><li><a href="/judet/caras-severin">Caraș-Severin (26)</a></li><li><a href="/judet/mures">Mureș (25)</a></li><li><a href="/judet/giurgiu">Giurgiu (24)</a></li><li><a href="/judet/bucuresti">Bucuresti (24)</a></li></ul>
+    </section>
+  
+          </div>
+        </main>
+      </div>
+    </div>
+    <script data-goatcounter="https://pcro.goatcounter.com/count" async src="/count.js"></script>
+  </body>
+</html>

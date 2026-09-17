@@ -1,0 +1,1 @@
+function e(){function e(e,t){if(typeof window>`u`||typeof window.goatcounter?.count!=`function`)return;let n=t?`${e}: ${Object.values(t).join(` / `)}`:e;window.goatcounter.count({path:e,title:n,event:!0})}return{track:e}}export{e as t};

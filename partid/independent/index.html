@@ -1,0 +1,1856 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f0e8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141210" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="311 politicieni Independent cu dosare penale: 297 condamnați definitiv, 711 ani de închisoare."
+    />
+    <meta
+      name="keywords"
+      content="politicieni corupți, corupție România, condamnați penal, DNA România, dosare penale politicieni, integritate politică, arhivă corupție"
+    />
+    <link rel="canonical" href="https://politicieni-corupti.ro/partid/independent" />
+
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Politicieni Corupți" />
+    <meta
+      property="og:title"
+      content="Independent — Politicieni cu dosare penale | Politicieni Corupți"
+    />
+    <meta
+      property="og:description"
+      content="311 politicieni Independent cu dosare penale: 297 condamnați definitiv, 711 ani de închisoare."
+    />
+    <meta property="og:url" content="https://politicieni-corupti.ro/partid/independent" />
+    <meta property="og:image" content="https://politicieni-corupti.ro/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Politicieni Corupți, arhivă independentă despre corupție și integritate în politica românească."
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Independent — Politicieni cu dosare penale | Politicieni Corupți"
+    />
+    <meta
+      name="twitter:description"
+      content="311 politicieni Independent cu dosare penale: 297 condamnați definitiv, 711 ani de închisoare."
+    />
+    <meta name="twitter:image" content="https://politicieni-corupti.ro/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script>
+      // Apply saved theme or system preference before first paint
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      :root {
+        --font-display: 'DM Serif Display', Georgia, serif;
+        --font-body: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --color-parchment: #f5f0e8;
+        --color-parchment-dark: #ece5d8;
+        --color-ink: #1a1612;
+        --color-ink-muted: #6b6054;
+        --color-ink-faint: #706456;
+        --color-rule-light: #e6dfd2;
+        --color-accent: #8b2500;
+        --font-serif: var(--font-display);
+        --color-text-muted: var(--color-ink-muted);
+      }
+
+      [data-theme="dark"] {
+        --color-parchment: #141210;
+        --color-parchment-dark: #1c1a17;
+        --color-ink: #f0ece5;
+        --color-ink-muted: #b5ad9f;
+        --color-ink-faint: #918779;
+        --color-rule-light: #38332e;
+        --color-accent: #c23a1a;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--color-parchment);
+        color: var(--color-ink);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 0.18em;
+      }
+
+      .app-shell,
+      .app-loading-shell,
+      #root:empty {
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, color-mix(in srgb, var(--color-parchment-dark) 42%, transparent), transparent 18rem),
+          var(--color-parchment);
+      }
+
+      .app-section {
+        padding-inline: 1.5rem;
+      }
+
+      .app-inner {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .app-kicker {
+        color: var(--color-accent);
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .app-title {
+        margin: 0.35rem 0 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 5.5vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.025em;
+      }
+
+      .app-intro {
+        max-width: 64rem;
+        margin: 1rem 0 0;
+        color: var(--color-ink-muted);
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.7;
+      }
+
+      #root[data-prerendered="true"] nav a,
+      #root[data-prerendered="true"] section a {
+        color: var(--color-accent);
+      }
+
+      #root[data-prerendered="true"] section {
+        border-top: 1px solid var(--color-rule-light);
+        padding-top: 1.5rem;
+      }
+
+      #root[data-prerendered="true"] ul {
+        color: var(--color-ink-muted);
+      }
+
+      .app-loading-shell,
+      #root:empty {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      #root:empty::before {
+        content: "Politicieni Corupti";
+        color: var(--color-accent);
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1;
+      }
+
+      .app-loading-card {
+        width: min(100%, 32rem);
+      }
+
+      .app-loading-line {
+        height: 1px;
+        margin-top: 1.1rem;
+        background: color-mix(in srgb, var(--color-ink) 30%, transparent);
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <title>Independent — Politicieni cu dosare penale | Politicieni Corupți</title>
+
+    <script>
+      // Restore path after GitHub Pages 404 redirect
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, '', decodeURIComponent(p));
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://politicieni-corupti.ro/#organization",
+          "name": "Politicieni Corupți",
+          "url": "https://politicieni-corupti.ro/",
+          "description": "Proiect independent, non-profit și open source de transparență civică privind integritatea politicienilor români.",
+          "sameAs": ["https://github.com/robert-adnas/posibil-penali"]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://politicieni-corupti.ro/#dataset",
+          "name": "Bază de date — Politicieni Corupți",
+          "description": "Bază de date cu politicieni români condamnați, trimiși în judecată sau cercetați penal pentru corupție. Fiecare intrare include statusul juridic, infracțiunile imputate și surse oficiale verificabile.",
+          "url": "https://politicieni-corupti.ro/",
+          "inLanguage": "ro",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "keywords": ["corupție", "politicieni", "România", "DNA", "dosare penale", "integritate"],
+          "creator": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          },
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://politicieni-corupti.ro/#website",
+          "url": "https://politicieni-corupti.ro/",
+          "name": "Politicieni Corupți",
+          "inLanguage": "ro",
+          "publisher": {
+            "@id": "https://politicieni-corupti.ro/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-C8EXJPP7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-GKSPxYst.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Cw-MNNMr.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Independent — Politicieni cu dosare penale","url":"https://politicieni-corupti.ro/partid/independent","description":"311 politicieni Independent cu dosare penale: 297 condamnați definitiv.","mainEntity":{"@type":"ItemList","numberOfItems":311,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://politicieni-corupti.ro/politician/adrian-severin","name":"Adrian Severin"},{"@type":"ListItem","position":2,"url":"https://politicieni-corupti.ro/politician/ailincai-vasile","name":"Ailincai Vasile"},{"@type":"ListItem","position":3,"url":"https://politicieni-corupti.ro/politician/alexandrescu-anca-sonia","name":"Alexandrescu Anca Sonia"},{"@type":"ListItem","position":4,"url":"https://politicieni-corupti.ro/politician/alina-mihaela-bica","name":"Alina Mihaela Bica"},{"@type":"ListItem","position":5,"url":"https://politicieni-corupti.ro/politician/anghelina-florian","name":"Anghelina Florian"},{"@type":"ListItem","position":6,"url":"https://politicieni-corupti.ro/politician/arba-gavrila","name":"Arba Gavrila"},{"@type":"ListItem","position":7,"url":"https://politicieni-corupti.ro/politician/arba-maria","name":"Arba Maria"},{"@type":"ListItem","position":8,"url":"https://politicieni-corupti.ro/politician/ardelean-ancuta-codruta-mariana","name":"Ardelean Ancuta Codruta Mariana"},{"@type":"ListItem","position":9,"url":"https://politicieni-corupti.ro/politician/ardelean-bogdan","name":"Ardelean Bogdan"},{"@type":"ListItem","position":10,"url":"https://politicieni-corupti.ro/politician/asimionesei-ghiocel-florin","name":"Asimionesei Ghiocel Florin"},{"@type":"ListItem","position":11,"url":"https://politicieni-corupti.ro/politician/aurel-elena","name":"Aurel Elena"},{"@type":"ListItem","position":12,"url":"https://politicieni-corupti.ro/politician/avram-elena","name":"Avram Elena"},{"@type":"ListItem","position":13,"url":"https://politicieni-corupti.ro/politician/avram-marilena-ancuta","name":"Avram Marilena Ancuta"},{"@type":"ListItem","position":14,"url":"https://politicieni-corupti.ro/politician/bacanu-mircea","name":"Bacanu Mircea"},{"@type":"ListItem","position":15,"url":"https://politicieni-corupti.ro/politician/balan-cristian","name":"Balan Cristian"},{"@type":"ListItem","position":16,"url":"https://politicieni-corupti.ro/politician/balasescu-catalin","name":"Balasescu Catalin"},{"@type":"ListItem","position":17,"url":"https://politicieni-corupti.ro/politician/baltac-george-claudiu","name":"Baltac George - Claudiu"},{"@type":"ListItem","position":18,"url":"https://politicieni-corupti.ro/politician/banu-laura","name":"Banu Laura"},{"@type":"ListItem","position":19,"url":"https://politicieni-corupti.ro/politician/barabas-marius","name":"Barabas Marius"},{"@type":"ListItem","position":20,"url":"https://politicieni-corupti.ro/politician/barbalata-gabriel","name":"Barbălată Gabriel"}]}}</script>
+</head>
+  <body>
+    <div id="root" data-prerendered="true">
+      <div class="app-shell">
+        <main class="app-section">
+          <div class="app-inner" style="padding-top:4rem;padding-bottom:4rem;">
+            <nav aria-label="Breadcrumb" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin-bottom:1rem;">
+              <a href="/">Arhivă</a>
+              <a href="/lista">Lista completă</a>
+              <span aria-current="page">Independent</span>
+            </nav>
+            <p class="app-kicker">Partid</p>
+            <h1 class="app-title">Independent</h1>
+            <p class="app-intro">311 politicieni cu dosare penale: 297 condamnați definitiv, 711 ani de închisoare.</p>
+            
+    <nav aria-label="Navigare principală" style="display:flex;gap:0.85rem;flex-wrap:wrap;margin:1.5rem 0 0;">
+      <a href="/">Arhivă</a><a href="/actualizari">Modificări recente</a><a href="/lista">Lista completă</a><a href="/glosar">Glosar juridic</a><a href="/metodologie">Metodologie</a><a href="/contact">Contact</a>
+    </nav>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Politicieni Independent documentați (311)</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;">
+    <li>
+      <a href="/politician/adrian-severin">Adrian Severin</a>
+      <span> - Condamnat definitiv, Independent, Europarlamentar, Luare de mită; trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ailincai-vasile">Ailincai Vasile</a>
+      <span> - Condamnat definitiv, Independent, Primar, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/alexandrescu-anca-sonia">Alexandrescu Anca Sonia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/alina-mihaela-bica">Alina Mihaela Bica</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Favorizarea făptuitorului</span>
+    </li>
+  
+    <li>
+      <a href="/politician/anghelina-florian">Anghelina Florian</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de coruptie / infractiuni asimilate coruptiei</span>
+    </li>
+  
+    <li>
+      <a href="/politician/arba-gavrila">Arba Gavrila</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/arba-maria">Arba Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ardelean-ancuta-codruta-mariana">Ardelean Ancuta Codruta Mariana</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ardelean-bogdan">Ardelean Bogdan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/asimionesei-ghiocel-florin">Asimionesei Ghiocel Florin</a>
+      <span> - Condamnat definitiv, Independent, Altele, șantaj, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/aurel-elena">Aurel Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/avram-elena">Avram Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/avram-marilena-ancuta">Avram Marilena Ancuta</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bacanu-mircea">Bacanu Mircea</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/balan-cristian">Balan Cristian</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/balasescu-catalin">Balasescu Catalin</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/baltac-george-claudiu">Baltac George - Claudiu</a>
+      <span> - Condamnat definitiv, Independent, Altele, instigare la infracțiunea de trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/banu-laura">Banu Laura</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/barabas-marius">Barabas Marius</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/barbalata-gabriel">Barbălată Gabriel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Spălare de bani; complicitate la fraudă cu fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/barbu-marin">Barbu Marin</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate de trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bardan-marinela">Bardan Marinela</a>
+      <span> - Condamnat definitiv, Independent, Ales local, abuz în serviciu în formă continuată și fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bendel-kosa-timea-marta">Bendel (Kosa) Timea Marta</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/berendi-gheorghe">Berendi Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/biro-andreea-elena">Biro Andreea Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/boala-dan">Boala Dan</a>
+      <span> - Condamnat definitiv, Independent, Altele, înșelăciune cu consecințe deosebit de grave, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bobariu-alexandru-ioan">Bobariu Alexandru Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bodeanu-gheorghe">Bodeanu Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bogdan-popovici">Bogdan Popovici</a>
+      <span> - Condamnat definitiv, Independent, Altele, Complicitate la abuz în serviciu, spălare de bani și fals în înscrisuri sub semnătură privată, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/boghiu-viorica">Boghiu Viorica</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate de trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bojenoiu-aurel">Bojenoiu Aurel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/borodi-simona-lenuta">Borodi Simona Lenuta</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/borpan-eugenia">Borpan Eugenia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de coruptie / infractiuni asimilate coruptiei</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bortea-constantin">Bortea Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la înșelăciune și 2 infracțiuni de participație improprie la fals intelectual, în legătură directă cu infracțiunile de corupție sau asimilate acestora</span>
+    </li>
+  
+    <li>
+      <a href="/politician/botez-nelu">Botez Nelu</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la infracțiunea de luare de mită în formă continuată și complicitate la infracțiunea de dare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bucoveanu-stefan">Bucoveanu Stefan</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/bujor-marius-victor">Bujor Marius Victor</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/burlui-gavril">Burlui Gavril</a>
+      <span> - Condamnat definitiv, Independent, Altele, evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/burtica-marin">Burtica Marin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/calea-marius">Calea Marius</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals în înscrisuri sub semnătură privată prevăzut în Legea contabilității</span>
+    </li>
+  
+    <li>
+      <a href="/politician/camelia-teodora-andrusenco">Camelia Teodora Andrușenco</a>
+      <span> - Condamnat definitiv, Independent, Altele, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/capota-gina">Capota Gina</a>
+      <span> - Condamnat definitiv, Independent, Altele, folosire sau prezentare de documente ori declarații false; fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/caraiman-lucian-nicu">Caraiman Lucian - Nicu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/catavei-cornel-nicolae">Catavei Cornel Nicolae</a>
+      <span> - Condamnat definitiv, Independent, Altele, folosire sau prezentare de documente ori declarații false; înșelăciune</span>
+    </li>
+  
+    <li>
+      <a href="/politician/chiriac-ion">Chiriac Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/chisarau-iacob">Chisarau Iacob</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/christian-andrada-madalina">Christian Andrada Madalina</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciobanu-gheorghe">Ciobanu Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cioflina-dumitru">Cioflina Dumitru</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, abuz în serviciu contra intereselor publice, în formă calificată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cioinea-timona">Cioinea Timona</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciripan-ioan">Ciripan Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, constituirea unui grup infracțional organizat, fals material în înscrisuri oficiale, în formă continuată, trafic de influență și dare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cirja-maria-eufrosina">Cirja Maria Eufrosina</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ciuteanu-alexandra-madalina">Ciuteanu Alexandra-Madalina</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cociu-ion">Cociu Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/codrea-emilia">Codrea Emilia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cojita-mihai">Cojita Mihai</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la dare de mită, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/condea-elena">Condea Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantinescu-anca-constantina">Constantinescu Anca Constantina</a>
+      <span> - Condamnat definitiv, Independent, Ales local, fals intelectual, în forma participației improprii și 2 infracțiuni de trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantinescu-constantin">Constantinescu Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/constantinescu-luminita">Constantinescu Luminita</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/contoloru-dumitru">Contoloru Dumitru</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor în formă calificată și deosebit de grav</span>
+    </li>
+  
+    <li>
+      <a href="/politician/corenti-tudor-nicolae-catalin">Corenti Tudor Nicolae Catalin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cornea-cristina-elena">Cornea Cristina Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cornoiu-ilie">Cornoiu Ilie</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită, fals material în înscrisuri oficiale și sustragere sau distrugere de înscrisuri, toate în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/coroian-maris-sandu-matei">Coroian - Maris Sandu Matei</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/costache-ionel-cristian">Costache Ionel Cristian</a>
+      <span> - Condamnat definitiv, Independent, Primar, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/costinela-augustina-chimoiu">Costinela-Augustina Chimoiu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cotea-florin">Cotea Florin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de coruptie / infractiuni asimilate coruptiei</span>
+    </li>
+  
+    <li>
+      <a href="/politician/crisan-cristian-eusebiu">Crisan Cristian Eusebiu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristian-anghel">Cristian Anghel</a>
+      <span> - Condamnat definitiv, Independent, Primar, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cristina-luminita-cristea">Cristina-Luminița Cristea</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Complicitate la abuz în serviciu; complicitate la folosirea de informații nedestinate publicității; instigare la fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/cutean-emilian-vasile">Cutean Emilian Vasile</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/damian-maria">Damian Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, folosire sau prezentare de documente ori declarații false</span>
+    </li>
+  
+    <li>
+      <a href="/politician/damian-vasile">Damian Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, înșelăciune în formă continuată pe durata unui termen de încercare de 3 ani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dan-ilie-morega">Dan Ilie Morega</a>
+      <span> - Condamnat definitiv, Independent, Deputat, Folosirea influenței sau autorității politice pentru obținerea de foloase necuvenite; instigare la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/danesan-ioan-dorin">Danesan Ioan Dorin</a>
+      <span> - Condamnat definitiv, Independent, Primar, abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dascalete-ion">Dascalete Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, asociere pentru săvârșirea de infracțiuni, dare de mită, în formă continuată și furt calificat în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dascalu-dragos-ionut">Dascalu Dragos Ionut</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dascalu-viorel">Dascalu Viorel</a>
+      <span> - Condamnat definitiv, Independent, Primar, folosire de documente false și inexacte având ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/david-spiru">David Spiru</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate de trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/deaconu-lelioara">Deaconu Lelioara</a>
+      <span> - Condamnat definitiv, Independent, Altele, : abuz în serviciu și instigare la fals intelectual, ambele în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/diaconu-adriana-daniela">Diaconu Adriana-Daniela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dicu-nicolae">Dicu Nicolae</a>
+      <span> - Condamnat definitiv, Independent, Ales local, luare de mită, respectiv complicitate la luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dijmarescu-elena">Dijmarescu Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dimcia-gheorghe">Dimcia Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Altele, uz de fals și complicitate la evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/din-dragos">Din Dragos</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; trafic de influență; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dobre-maria">Dobre Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dobrea-lucia-raluca">Dobrea Lucia Raluca</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/draghici-iuliana">Draghici Iuliana</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dragos-olina-ramona-bianca">Dragos Olina Ramona Bianca</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dranceanu-gheorghe">Dranceanu Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/duca-traian">Duca Traian</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dulfu-ioan-stefan">Dulfu Ioan Stefan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dumescu-florin">Dumescu Florin</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dunca-viorica-elena">Dunca Viorica Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/elena-madalina-cliante">Elena-Mădălina Cliante</a>
+      <span> - Condamnat definitiv, Independent, Altele, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/enache-daniel-teodor">Enache Daniel Teodor</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/enache-veronica">Enache Veronica</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/facaleata-liviu-ilie">Facaleata Liviu Ilie</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la dare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/faur-garofita">Faur Garofita</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/fianu-iverica">Fianu Iverica</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită și fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florin-costiniu">Florin Costiniu</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gabriel-gherghesanu">Gabriel Ghergheșanu</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Complicitate la abuz în serviciu cu obținere de foloase necuvenite</span>
+    </li>
+  
+    <li>
+      <a href="/politician/galan-ioan">Galan Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/garaiman-alexandru">Garaiman Alexandru</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de coruptie / infractiuni asimilate coruptiei</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gavrilovici-valeriu">Gavrilovici Valeriu</a>
+      <span> - Condamnat definitiv, Independent, Altele, evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/george-becali">George Becali</a>
+      <span> - Condamnat definitiv, Independent, Deputat, Lipsire de libertate în mod ilegal (trei infracțiuni); complicitate la abuz în serviciu calificat și continuat; dare de mită (două infracțiuni) și fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghe-netoiu">Gheorghe Nețoiu</a>
+      <span> - Condamnat definitiv, Independent, Deputat, Spălare a banilor, înșelăciune cu consecințe deosebit de grave și evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gheorghiu-liviu">Gheorghiu Liviu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/giurca-anca-diana">Giurca Anca Diana</a>
+      <span> - Condamnat definitiv, Independent, Altele, delapidare, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/giurca-marilena">Giurca Marilena</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gradinaru-ionel">Gradinaru Ionel</a>
+      <span> - Condamnat definitiv, Independent, Altele, evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/grecu-nicolaie-dan">Grecu Nicolaie-Dan</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Complicitate la fraudă cu fonduri europene; complicitate la conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/grigoriu-maria">Grigoriu Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/grijac-rebeca">Grijac Rebeca</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/grosu-lilica">Grosu Lilica</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/guliman-aurel">Guliman Aurel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/gurau-adriana-ani">Gurau Adriana Ani</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/hegyi-simona-luminita">Hegyi Simona Luminita</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la gestiune frauduloasă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/hogas-nicolae">Hogas Nicolae</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/hojda-samson">Hojda Samson</a>
+      <span> - Condamnat definitiv, Independent, Ales local, folosire sau prezentare de documente ori declarații false</span>
+    </li>
+  
+    <li>
+      <a href="/politician/horvath-ileana-jupit">Horvath Ileana Jupit</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ilies-alina-maria">Ilies Alina Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/iliesi-sabin">Iliesi Sabin</a>
+      <span> - Condamnat definitiv, Independent, Ales local, trafic de influență, în forma complicității</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ion-viorel">Ion Viorel</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ionescu-adriana">Ionescu Adriana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ionut-florentin-mihailescu">Ionuț Florentin Mihăilescu</a>
+      <span> - Condamnat definitiv, Independent, Secretar de stat, Mărturie mincinoasă</span>
+    </li>
+  
+    <li>
+      <a href="/politician/iordache-florica">Iordache Florica</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită și complicitate la înșelăciune cu consecințe deosebit de grave, ambele în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/iovita-ion">Iovita Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la evaziune fiscală</span>
+    </li>
+  
+    <li>
+      <a href="/politician/irimies-cosmin-claudiu">Irimies Cosmin-Claudiu</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ispas-gheorghe">Ispas Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/istoc-lucica">Istoc Lucica,</a>
+      <span> - Condamnat definitiv, Independent, Altele, înșelăciune și fals în înscrisuri sub semnătură privată, ambele în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/iuga-ion">Iuga Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/iuhos-emese">Iuhos Emese</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/kiss-cristina-rita">Kiss Cristina Rita</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/koss-gabriela">Koss Gabriela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Abuz în serviciu; instigare la fals intelectual; instigare la fals în înscrisuri sub semnătură privată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/kovacs-agnes">Kovacs Agnes</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ladunca-aurel">Ladunca Aurel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, luare de mită și trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lati-viorel">Lati Viorel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lazar-lucian">Lazar Lucian</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/legmiller-maria">Legmiller Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/leordean-virginica-meda">Leordean Virginica Meda</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență și dare de mită, ambele în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lucaci-ioan">Lucaci Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial</span>
+    </li>
+  
+    <li>
+      <a href="/politician/malureanu-alina-andreea">Malureanu Alina Andreea</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită și fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mandu-daniel-paul">Mandu Daniel Paul</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/manolache-maria-daniela">Manolache Maria Daniela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marcovici-dumitru">Marcovici Dumitru</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de furt calificat</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marcu-constantin">Marcu Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, constituire a unui grup infracțional organizat, complicitate la infracțiunea de trafic de influență în formă continuată și 2 infracțiuni de dare de mită, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marinescu-liliana-gina">Marinescu Liliana Gina</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/maris-valentin">Maris Valentin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marius-ovidiu-isaila">Marius Ovidiu Isăilă</a>
+      <span> - Condamnat definitiv, Independent, Senator, Trafic de influență și instigare la fals în înscrisuri sub semnătură privată; separat, acuzație de cumpărare de influență în stare de recidivă postexecutorie</span>
+    </li>
+  
+    <li>
+      <a href="/politician/marius-catalin-stancescu">Marius-Cătălin Stăncescu</a>
+      <span> - Condamnat definitiv, Independent, Altele, două infracțiuni de trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/matei-monica">Matei Monica</a>
+      <span> - Condamnat definitiv, Independent, Ales local, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/matusca-adriana">Matusca Adriana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mayer-marian">Mayer Marian</a>
+      <span> - Condamnat definitiv, Independent, Ales local, folosire sau prezentare de documente ori declarații false; fals intelectual; înșelăciune</span>
+    </li>
+  
+    <li>
+      <a href="/politician/miculescu-ioan-cornel">Miculescu Ioan Cornel</a>
+      <span> - Condamnat definitiv, Independent, Primar, folosire sau prezentare de documente ori declarații false; fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/miel-nelu">Miel Nelu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mihai-marinas">Mihai Marinas</a>
+      <span> - Condamnat definitiv, Independent, Ales local, înșelăciune</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mihai-radu-deac">Mihai-Radu Deac</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Folosirea de documente sau declarații false pentru obținerea pe nedrept de fonduri europene și instigare la fals intelectual</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mircea-ionita">Mircea Ioniță</a>
+      <span> - Condamnat definitiv, Independent, Altele, Abuz în serviciu calificat și instigare la sustragerea sau distrugerea de înscrisuri</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mitica-carmen">Mitica Carmen</a>
+      <span> - Condamnat definitiv, Independent, Altele, folosire sau prezentare de documente ori declarații false</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mitrofan-toader">Mitrofan Toader</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/moise-nicoleta">Moise Nicoleta</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/moroca-ioana-simona">Moroca Ioana Simona</a>
+      <span> - Condamnat definitiv, Independent, Altele, asociere pentru săvârșirea de infracțiuni și abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/motan-ovidiu-ginel">Motan Ovidiu Ginel</a>
+      <span> - Condamnat definitiv, Independent, Altele, favorizarea infractorului și fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/munteanu-vasile">Munteanu Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, asociere pentru săvârșirea de infracțiuni și complicitate la infracțiunea de abuz în serviciu contra intereselor persoanelor, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nae-constantin">Nae Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, neglijență în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/natu-octavian-iulian">Natu Octavian Iulian</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la infracțiunea de cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neagoe-ioseev">Neagoe Ioseev</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neagoe-raluca-eugenia-fosta-popa">Neagoe Raluca Eugenia (Fosta Popa)</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la dare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neagu-rares-constantin">Neagu Rares Constantin</a>
+      <span> - Condamnat definitiv, Independent, Ales local, complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neculae-ionut-daniel">Neculae Ionut Daniel</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/neculaie-adrian-iulian">Neculaie Adrian-Iulian</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nedea-meda">Nedea Meda</a>
+      <span> - Condamnat definitiv, Independent, Altele, favorizare a infractorului</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nedelcu-victor">Nedelcu Victor</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/negoita-camelia">Negoita Camelia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/negoita-carmen-mihaela">Negoita Carmen Mihaela</a>
+      <span> - Condamnat definitiv, Independent, Altele, asociere pentru săvârșirea de infracțiuni și abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/negrea-vasile">Negrea Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/negret-ioan">Negret Ioan</a>
+      <span> - Condamnat definitiv, Independent, Primar, luare de mită și abuz în serviciu contra intereselor persoanelor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nemes-ileana">Nemes Ileana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nistor-vasile">Nistor Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nita-poenaru-adina-elena">Nita (Poenaru) Adina Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nitu-aurel">Nitu Aurel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nitu-victoras-genel">Nitu Victoras Genel</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale și uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/nutica-maria">Nutica Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/oancea-elena">Oancea Elena</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/oncescu-liviu-marius">Oncescu Liviu Marius</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/palancz-adorjan-dan">Palancz Adorjan Dan</a>
+      <span> - Condamnat definitiv, Independent, Altele, dare de mită și trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/panzariu-constantin">Panzariu Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/papala-ionel">Papala Ionel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, fals intelectual și uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paraschiv-gabi">Paraschiv Gabi</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/patrasc-gigel-rafael">Patrasc Gigel Rafael</a>
+      <span> - Condamnat definitiv, Independent, Altele, dare de mită, asociere pentru săvârșirea de infracțiuni și complicitate la furt calificat</span>
+    </li>
+  
+    <li>
+      <a href="/politician/patrascanu-dan-mircea">Patrascanu Dan-Mircea</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/patrascu-victor">Patrascu Victor</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paul-ioan">Paul Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paul-constantin-zamfir">Paul-Constantin Zamfir</a>
+      <span> - Condamnat definitiv, Independent, Altele, Luare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/paval-dan-teofil">Paval Dan-Teofil</a>
+      <span> - Condamnat definitiv, Independent, Altele, stabilire, cu intenție, a unei valori diminuate, față de valoarea comercială reală, a bunurilor aparținând operatorilor economici la care statul este acționar, comisă în cadrul acțiunii de privatizare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pencea-cristian-mirel">Pencea Cristian Mirel</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pesek-szilard-zoltan">Pesek Szilard Zoltan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petean-ioan">Petean Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petrovai-petru-carol">Petrovai Petru Carol</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pinczes-iosif">Pinczes Iosif</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; trafic de influență; luare de mită; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pisuc-mihai">Pisuc Mihai</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/plesa-gheorghe-danut">Plesa Gheorghe Danut</a>
+      <span> - Condamnat definitiv, Independent, Altele, favorizare a persoanelor care au comis o infracțiune de luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pop-mihaela">Pop Mihaela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pop-s-rodica">Pop S. Rodica</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pop-stefan-mircea">Pop Stefan Mircea</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/popa-manuela-coca">Popa Manuela Coca</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/popescu-sorin">Popescu Sorin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/popescu-violeta-titina">Popescu Violeta Titina</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/pruteanu-stefan">Pruteanu Stefan</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/purcarea-costel-cosmin">Purcarea Costel Cosmin</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale și uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/rachieru-mariana">Rachieru Mariana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/racz-petru-pavel">Racz Petru Pavel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/radovici-costica">Radovici Costica</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/radu-alexandra">Radu Alexandra</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la trafic de influență în formă continuată (44 acte materiale)</span>
+    </li>
+  
+    <li>
+      <a href="/politician/razniceanu-danut">Razniceanu Danut</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, abuz în serviciu în formă calificată, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/remus-virgil-baciu">Remus-Virgil Baciu</a>
+      <span> - Condamnat definitiv, Independent, Altele, Trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ricu-iulian">Ricu Iulian</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/roatis-cristina-ioana">Roatis Cristina Ioana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/rogoveanu-gabriel">Rogoveanu Gabriel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/rusan-vintila">Rusan Vintila</a>
+      <span> - Condamnat definitiv, Independent, Ales local, folosire sau prezentare de documente ori declarații false</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ruse-sandu-stefan">Ruse Sandu Stefan</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/rusu-daniela">Rusu Daniela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sala-silviu-vasile">Sala Silviu Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la infracțiunea de luare de mită și complicitate la infracțiunea de dare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/salajan-iuliana-mariana">Salajan Iuliana Mariana</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sandu-daniela-lori">Sandu Daniela Lori</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sarbu-mihail-ioan">Sarbu Mihail-Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/saseanu-carmen-mariana">Saseanu Carmen Mariana</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sava-carmen-luoana">Sava Carmen Luoana</a>
+      <span> - Condamnat definitiv, Independent, Altele, conflict de interese</span>
+    </li>
+  
+    <li>
+      <a href="/politician/seftulescu-georgeta-actualmente-prepelita">Seftulescu Georgeta (Actualmente Prepelita)</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/siman-doina">Siman Doina</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sirbu-angela">Sirbu Angela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/slavoiu-cornel">Slavoiu Cornel</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sofronie-iovita">Sofronie Iovita</a>
+      <span> - Condamnat definitiv, Independent, Ales local, abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sonea-felicia">Sonea Felicia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/spataru-iulisca">Spataru Iulisca</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stan-alexandru">Stan Alexandru</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stan-constantin-catalin">Stan Constantin Cătălin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stan-georgeta">Stan Georgeta</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stan-nicolae">Stan Nicolae</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stana-ilie">Stana Ilie</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stanciu-natalia">Stanciu Natalia</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stanila-ionel">Stanila Ionel</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stanila-justina">Stanila Justina</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stanila-marius-ion">Stanila Marius Ion</a>
+      <span> - Condamnat definitiv, Independent, Altele, șantaj și abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stetca-ileana-alina">Stetca Ileana Alina</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stoianovici-genica">Stoianovici Genica</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stoica-mihai">Stoica Mihai</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stoica-vasilica">Stoica Vasilica</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/stoinea-sorin-gabriel">Stoinea Sorin-Gabriel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/strain-ilie">Strain Ilie</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/suciu-mircea">Suciu Mircea</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/szab-l-szl">Szabﾢ Lﾠszlﾢ</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/szirka-daniela-mihaela">Szirka Daniela Mihaela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/takacs-ferencz-zoltan">Takacs Ferencz Zoltan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/takacsne-gladis-maria">Takácsné Gladis Mária</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Complicitate la evaziune fiscală, complicitate la producerea neautorizată de produse accizabile și uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tanasa-gheorghe">Tanasa Gheorghe</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tanase-mihai">Tanase Mihai</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tarchila-ciprian">Tarchila Ciprian</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tatara-ionut-samirell">Tatara Ionut Samirell</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ticheriu-ion">Ticheriu Ion</a>
+      <span> - Condamnat definitiv, Independent, Ales local, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tinca-constantin">Tinca Constantin</a>
+      <span> - Condamnat definitiv, Independent, Altele, constituirea unui grup infracțional organizat; fals material în înscrisuri oficiale; trafic de influență; cumpărare de influență; dare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tirim-luminita-gabriela">Tirim Luminita-Gabriela</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tocan-alin-ioan">Tocan Alin Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, șantaj, în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/toma-alexandru">Toma Alexandru</a>
+      <span> - Condamnat definitiv, Independent, Altele, complicitate la trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tomos-viorel">Tomos Viorel</a>
+      <span> - Condamnat definitiv, Independent, Altele, cumpărare de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/torja-vasile">Torja Vasile</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/troaca-daniel">Troaca Daniel</a>
+      <span> - Condamnat definitiv, Independent, Altele, trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/truica-dan-gabriel">Truica Dan Gabriel</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/truta-enea-ioan">Truță Enea Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, deturnare de fonduri</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tudor-florea">Tudor Florea</a>
+      <span> - Condamnat definitiv, Independent, Ales local, folosire sau prezentare de documente ori declarații false; înșelăciune; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tudor-valeriu-pavel">Tudor Valeriu Pavel</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tudorache-ioan">Tudorache Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tunas-loredana-aurelia">Tunas Loredana Aurelia</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/tundrea-nicusor-florin">Tundrea Nicusor-Florin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/turba-romulus-sebastian">Turba Romulus Sebastian</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual și uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/turcin-marius-catalin">Turcin Marius Catalin</a>
+      <span> - Condamnat definitiv, Independent, Altele, șantaj, lipsire de libertate în mod ilegal și violare de domiciliu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/titiriga-ioan">Țițirigă Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, trei infracțiuni de luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/topa-dumitru">Țopa Dumitru</a>
+      <span> - Condamnat definitiv, Independent, Ales local, trafic de influență, în formă continuată, asociere pentru săvârșirea de infracțiuni de corupție și dare de mită în formă continuată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ungureanu-daniel">Ungureanu Daniel</a>
+      <span> - Condamnat definitiv, Independent, Ales local, Fapte de corupție legate de fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ungureanu-maier-claudia-maria">Ungureanu Maier Claudia Maria</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vaduva-doinita">Vaduva Doinita</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vaidahazan-ioan">Vaidahazan Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, luare de mită în formă continuată, trafic de influență în formă continuată, fals material în înscrisuri oficiale, sustragere sau distrugerea de înscrisuri</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vamanu-carmen-mariana">Vamanu Carmen Mariana</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice și folosirea de informații ce nu sunt destinate publicității</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vascan-monica-daniela">Vascan Monica Daniela</a>
+      <span> - Condamnat definitiv, Independent, Altele, asociere pentru săvârșirea de infracțiuni, înșelăciune, cu consecințe deosebit de grave și spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vasile-mihail-cristian">Vasile Mihail Cristian</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu; spălare de bani</span>
+    </li>
+  
+    <li>
+      <a href="/politician/vasile-viorel-melen">Vasile Viorel Melen</a>
+      <span> - Condamnat definitiv, Independent, Primar, Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/voinea-george-mugur">Voinea George Mugur</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/v-ida-calin">Vﾠida Calin</a>
+      <span> - Condamnat definitiv, Independent, Altele, Fapte de corupție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zabac-marioara-rodica">Zabac Marioara Rodica</a>
+      <span> - Condamnat definitiv, Independent, Ales local, - folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete care au ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zagrean-marius-ioan">Zagrean Marius-Ioan</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zaharia-mirela">Zaharia Mirela</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zainea-mihai">Zainea Mihai</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zanfirescu-daniela">Zanfirescu Daniela</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor publice, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zarnescu-zoia">Zarnescu Zoia</a>
+      <span> - Condamnat definitiv, Independent, Altele, abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/zlate-viorel">Zlate Viorel</a>
+      <span> - Condamnat definitiv, Independent, Altele, fals material în înscrisuri oficiale; fals intelectual; abuz în serviciu; uz de fals</span>
+    </li>
+  
+    <li>
+      <a href="/politician/timofciuc-razvan">Timofciuc Răzvan</a>
+      <span> - Incident de integritate, Independent, Ales local, Incompatibilitate; conflict de interese administrativ</span>
+    </li>
+  
+    <li>
+      <a href="/politician/mircea-ionut-costea">Mircea-Ionuț Costea</a>
+      <span> - Prescris, Independent, Secretar de stat, Acuzație de complicitate la luare de mită — proces încetat definitiv prin prescripție</span>
+    </li>
+  
+    <li>
+      <a href="/politician/sebastian-vladescu">Sebastian Vlădescu</a>
+      <span> - Prescris, Independent, Ministru, Acuzații de luare de mită — proces încetat definitiv prin prescripție în recurs în casație</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ovidiu-ioan-silaghi">Ovidiu Ioan Silaghi</a>
+      <span> - Clasat, Independent, Ministru, Trafic de influență</span>
+    </li>
+  
+    <li>
+      <a href="/politician/petre-toba">Petre Tobă</a>
+      <span> - Clasat, Independent, Ministru, Favorizarea făptuitorului</span>
+    </li>
+  
+    <li>
+      <a href="/politician/varujan-vosganian">Varujan Vosganian</a>
+      <span> - Clasat, Independent, Altele, Acuzații de constituire a unui grup infracțional organizat, abuz în serviciu și complicitate la delapidare în dosarul Romgaz–Interagro; cauză clasată</span>
+    </li>
+  
+    <li>
+      <a href="/politician/adriean-videanu">Adriean Videanu</a>
+      <span> - Achitat, Independent, Ministru, Constituire a unui grup infracțional organizat; participație improprie la delapidare</span>
+    </li>
+  
+    <li>
+      <a href="/politician/ana-maria-patru">Ana-Maria Pătru</a>
+      <span> - Achitat, Independent, Secretar de stat, Trafic de influență; spălare a banilor</span>
+    </li>
+  
+    <li>
+      <a href="/politician/calin-popescu-tariceanu">Călin Popescu-Tăriceanu</a>
+      <span> - Achitat, Independent, Prim-ministru, Luare de mită</span>
+    </li>
+  
+    <li>
+      <a href="/politician/dorin-florea">Dorin Florea</a>
+      <span> - Achitat, Independent, Primar, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/florica-mioara-popa">Florica Mioara Popa</a>
+      <span> - Achitat, Independent, Ales local, Abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/laszlo-attila-bako">Laszlo Attila Bako</a>
+      <span> - Achitat, Independent, Ales local, Complicitate la abuz în serviciu</span>
+    </li>
+  
+    <li>
+      <a href="/politician/lungu-cristina">Lungu Cristina</a>
+      <span> - Achitat, Independent, Ales local, Complicitate la abuz în serviciu cu consecințe deosebit de grave</span>
+    </li>
+  
+    <li>
+      <a href="/politician/victor-ponta">Victor Ponta</a>
+      <span> - Achitat, Independent, Prim-ministru, Fals în înscrisuri sub semnătură privată; complicitate la evaziune fiscală; spălarea banilor</span>
+    </li>
+  </ul>
+    </section>
+  
+            
+    <section style="margin-top:2rem;">
+      <h2 style="font-family:var(--font-serif);font-size:1.5rem;line-height:1.2;margin:0 0 0.75rem;">Alte partide</h2>
+      <ul style="margin:0;padding-left:1.2rem;display:grid;gap:0.65rem;"><li><a href="/partid/psd">PSD (326)</a></li><li><a href="/partid/pnl">PNL (196)</a></li><li><a href="/partid/pdl">PDL (85)</a></li><li><a href="/partid/aur">AUR (39)</a></li><li><a href="/partid/pmp">PMP (25)</a></li><li><a href="/partid/usr">USR (22)</a></li><li><a href="/partid/pc">PC (18)</a></li><li><a href="/partid/udmr">UDMR (18)</a></li><li><a href="/partid/pusl">PUSL (13)</a></li><li><a href="/partid/pntcd">PNȚCD (10)</a></li><li><a href="/partid/prm">PRM (10)</a></li><li><a href="/partid/pd">PD (9)</a></li><li><a href="/partid/pp-dd">PP-DD (8)</a></li><li><a href="/partid/forta-dreptei">Forța Dreptei (7)</a></li><li><a href="/partid/png-cd">PNG-CD (5)</a></li><li><a href="/partid/usl">USL (4)</a></li><li><a href="/partid/sos-romania">SOS Romania (3)</a></li><li><a href="/partid/png">PNG (3)</a></li><li><a href="/partid/alde">ALDE (3)</a></li><li><a href="/partid/pro-romania">Pro România (3)</a></li><li><a href="/partid/unpr">UNPR (3)</a></li><li><a href="/partid/pdsr">PDSR (2)</a></li><li><a href="/partid/udttmr">UDTTMR (2)</a></li><li><a href="/partid/blocul-suveranist-roman">Blocul Suveranist Român (2)</a></li><li><a href="/partid/per">PER (2)</a></li><li><a href="/partid/anc">ANC (2)</a></li><li><a href="/partid/pnd">PND (2)</a></li><li><a href="/partid/pnrr">PNRR (1)</a></li><li><a href="/partid/pdm">PDM (1)</a></li><li><a href="/partid/pncr">PNCR (1)</a></li><li><a href="/partid/reper">REPER (1)</a></li><li><a href="/partid/uniunea-croatilor-din-romania">Uniunea Croaților din România (1)</a></li><li><a href="/partid/ppmprr">PPMPRR (1)</a></li><li><a href="/partid/partida-romilor-pro-europa">Partida Romilor Pro-Europa (1)</a></li><li><a href="/partid/ppr">PPR (1)</a></li><li><a href="/partid/forta-democrata">Forța Democrată (1)</a></li><li><a href="/partid/alianta-tinerilor-democrati">Alianța Tinerilor Democrați (1)</a></li><li><a href="/partid/fsn">FSN (1)</a></li><li><a href="/partid/partidul-socialist-roman">Partidul Socialist Român (1)</a></li><li><a href="/partid/partidul-verde">Partidul Verde (1)</a></li><li><a href="/partid/adn">ADN (1)</a></li></ul>
+    </section>
+  
+          </div>
+        </main>
+      </div>
+    </div>
+    <script data-goatcounter="https://pcro.goatcounter.com/count" async src="/count.js"></script>
+  </body>
+</html>
