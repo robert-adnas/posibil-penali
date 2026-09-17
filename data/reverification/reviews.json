@@ -64170,6 +64170,671 @@
       ],
       "note": "DNA și presa îl identifică pe Daniel Vârgolici ca om de afaceri, asociat și administrator de societăți comerciale, condamnat după ce a oferit mită unui polițist rutier. Datele de registru confirmă activitatea sa de administrator; nu a fost identificat mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3944",
+      "original_name": "Vasiu Horatiu Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5157",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=496",
+        "https://static.anaf.ro/static/1/Timisoara/20251211151452_publicare_11.12.2025_scan.pdf"
+      ],
+      "note": "DNA îl identifică pe Horațiu-Nicolae Vasiu drept asociat și administrator al societăților private City Impex SRL și Betacom SRL din Simeria, respectiv Basic Cons SRL Timișoara; un document ANAF îl localizează în Simeria Veche. Căutările electorale și politice nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele despre alte persoane Vasiu au prenume diferite. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3945",
+      "original_name": "Vele Alin Sebastian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4476",
+        "https://www.monitorulcj.ro/actualitate/22183-un-clujean-care-a-prejudiciat-statul-cu-peste-un-milion-de-euro-trimis-in-judecata"
+      ],
+      "note": "DNA îl identifică exclusiv ca asociat unic și administrator al societății private Mivalis Company SRL Gilău, condamnat pentru evaziune fiscală. Căutările după numele complet nu indică mandat, candidatură, funcție de partid sau numire politică; rezultatele electorale similare privesc alte persoane. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3946",
+      "original_name": "Vinca Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2511",
+        "https://adevarul.ro/stiri-interne/societate/omul-de-afaceri-gheorghe-strungariu-cercetat-de-915111.html"
+      ],
+      "note": "DNA o identifică pe Maria Vinca drept președinte al consiliului de administrație al societății comerciale Cerealcom SA Piatra Neamț, iar presa o descrie ca administrator și om de afaceri. Căutările după numele exact nu indică mandat, candidatură, funcție de partid sau numire politică; aparițiile similare sunt omonime ori alte persoane. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3947",
+      "original_name": "Voicu Camelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1290",
+        "https://www.mediafax.ro/social/sapte-ani-de-inchisoare-pentru-un-complice-la-evaziune-patru-cu-suspendare-pentru-evazionist-9238025"
+      ],
+      "note": "DNA și relatarea Mediafax o identifică pe Camelia Voicu drept administrator al societăților comerciale private Agrotop Cereal SRL și Interagro Best Group SRL. Căutările după numele exact nu stabilesc vreun mandat, candidatură, rol de partid ori numire politică; rezultatele despre funcționari, cadre universitare sau aleși cu alte nume sunt necorelabile. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3948",
+      "original_name": "Vrancean Veaceslav",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1944",
+        "https://www.dna.ro/comunicat.xhtml?id=1290",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/frauda-de-46-miliarde-249022.html"
+      ],
+      "note": "DNA îl identifică pe Veaceslav Vrâncean exclusiv ca administrator al societății private Cereal Standard SRL Medgidia, iar presa locală drept patronul firmei. Căutările electorale și politice după numele exact nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele apropiate sunt persoane diferite, majoritatea din Republica Moldova. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3949",
+      "original_name": "Yuksek Sahin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4979",
+        "https://www.dna.ro/comunicat.xhtml?id=4077",
+        "https://agroinvestigatii.ro/sultanul-legumelor-a-scapat-de-condamnare-desi-si-a-recunoscut-faptele-de-evaziune-reteta-succesului/"
+      ],
+      "note": "DNA îl identifică pe Şahin Yüksek drept cetățean turc, asociat unic și fost administrator al societății private Yuksek International Fruct SRL; sursele de presă îl descriu ca importator și om de afaceri. Nu există dovadă de mandat, candidatură, rol de partid sau numire politică în România. Profilul este în afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3950",
+      "original_name": "Zainea Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4998",
+        "https://www.replicaonline.ro/cine-este-evazionistul-din-constanta-prins-in-portbagajul-unei-masini-cand-vroia-sa-fuga-din-tara-video-532751"
+      ],
+      "note": "DNA îl indică pe Marius Zainea ca fost administrator al unei societăți comerciale, iar presa locală îl identifică drept fost administrator al firmei private ARM Consulting SRL Constanța și persoana condamnată în același dosar. Căutările electorale după numele complet nu indică mandat, candidatură, rol de partid sau numire politică; persoanele Zainea din administrație au alte prenume. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3951",
+      "original_name": "Zur Moshe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3275",
+        "https://legeaz.net/spete-penal-cluj-2013/decizia-penala-49-2013-cluj-k76",
+        "https://zcj.ro/eveniment/modrea-infundat-de-declaratiile-prietenului-zur-moshe--100968.html"
+      ],
+      "note": "Hotărârea judecătorească și presa locală îl identifică pe Zur Moshe drept cetățean și om de afaceri israelian, administrator al unei societăți private din Cluj, condamnat în dosarul mitei de la Vamă. Nu există dovadă de mandat, candidatură, rol de partid ori numire politică în România. Profilul este în afara domeniului și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3952",
+      "original_name": "Aioanei Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4784",
+        "https://primaria-corlateni.ro/categorie-documente/declaratii-de-avere-si-interes-functionari/",
+        "https://bt.prefectura.mai.gov.ro/wp-content/uploads/sites/25/2025/05/Anexa-PV-componenta-BESV-03-05-2025.pdf"
+      ],
+      "note": "DNA stabilește că Florica Aioanei a fost consilier asistent la APIA Botoșani, Centrul local Dorohoi, nu în județul Vrancea cum era etichetat profilul. Primăria Corlăteni îi publică declarația în categoria funcționarilor, iar documentul electoral din 2025 o indică președinte de secție de votare, rol tehnic și nepartizan. Nu există dovadă de candidatură, mandat, funcție de partid sau numire politică; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3954",
+      "original_name": "Cirnu Ionica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3563",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BR"
+      ],
+      "note": "DNA o identifică pe Ionică Cîrnu drept referent principal de execuție la APIA Brăila, Centrul Local Cireșu; sursa secundară marchează explicit funcția ca neimportantă și administrativă. Căutările după numele exact nu indică mandat, candidatură, funcție de partid sau numire politică. Profilul este al unui funcționar de carieră din afara domeniului politic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3955",
+      "original_name": "Crisan Emanoil-Florin",
+      "current_name": "Emanoil-Florin Crișan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4173",
+        "https://www.dna.ro/comunicat.xhtml?id=3769",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_mures/consiliul-local/mica/1",
+        "https://www.zi-de-zi.ro/2020/08/29/pnl-lista-de-candidati-pentru-69-de-primarii-muresene/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă și îl identifică drept consilier în cadrul Primăriei Mica. Listele electorale din 2020 îl consemnează cu același nume complet și aceeași localitate drept candidat PNL la Primăria Mica și la Consiliul Local Mica. Profilul este păstrat, cu numele normalizat, partidul corectat din Independent în PNL și rolul politic descris strict ca candidatură.",
+      "reviewed_snapshot_hash": "99310eb1cefe29d3f51024256cd22619d2a2d74a30a630ab043f47b4131e56a2"
+    },
+    {
+      "profile_id": "RV-3956",
+      "original_name": "Fodor Oana-Catalina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5547",
+        "https://www.realitateamedia.ro/auditor-adr-ne-condamnat-definitiv-la-inchisoare/",
+        "https://www.primariacomanesti.ro/docs/proiecte/2023/pr_hot_14_30.05.2023.pdf"
+      ],
+      "note": "DNA și presa locală o identifică pe Oana-Cătălina Fodor drept auditor intern la Agenția pentru Dezvoltare Regională Nord-Est din Piatra Neamț; un document administrativ ulterior indică o expertă cu același nume în structura tehnică ADR. Căutările nu arată mandat, candidatură, funcție de partid sau numire politică; profilul este al unui angajat tehnic și se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3957",
+      "original_name": "Georgescu Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4188",
+        "https://isc.gov.ro/files/2024/Autorizari/14.06.2024%20DS.pdf",
+        "https://www.ziuaconstanta.ro/stiri/politic/functionari-trimisi-in-judecata-pentru-frauda-223310.html"
+      ],
+      "note": "DNA îl identifică pe Lucian Georgescu drept consilier tehnic în DGASPC Dâmbovița și membru al echipei de implementare a unui proiect, iar registrul Inspectoratului de Stat în Construcții consemnează un specialist cu același nume în Dâmbovița. Nu există o legătură documentată cu ministrul și politicianul PSD Puiu Lucian Georgescu din Galați ori cu alți omonimi. În lipsa unei candidaturi, a unui mandat, a unei funcții de partid sau a unei numiri politice verificabile, profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3958",
+      "original_name": "Hagiu Bitica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4052",
+        "https://www.dna.ro/comunicat.xhtml?id=3309",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=BR"
+      ],
+      "note": "DNA o identifică pe Bițica Hagiu drept referent principal la APIA Brăila, Centrul Local Cireșu, funcție administrativă de execuție; sursa secundară marchează rolul drept neimportant și nepolitic. Căutările după numele exact nu indică mandat, candidatură, funcție de partid sau numire politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3961",
+      "original_name": "Iurescu Laura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5026",
+        "https://primatimperiam.ro/wp-content/uploads/2014/02/PP0411.pdf",
+        "https://vechi.primariaperiam.ro/alte-documente/documente-oportune-si-necesare-publicului/declaratii-avere-2012/index.htm"
+      ],
+      "note": "Sursele o identifică pe Laura Iurescu drept secretar al comunei Periam și angajat al aparatului primăriei, funcție publică administrativă distinctă de primar, viceprimar și consilierii locali implicați în același dosar. Nu există dovadă de candidatură, mandat electiv, funcție de partid ori numire politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3963",
+      "original_name": "Nedelcu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650",
+        "https://primariamitreni.ro/2-informatii-de-interes-public/2-7-declaratii-de-avere-si-de-interese/3-consiliul-local",
+        "https://monitorulneamt.ro/consilier-din-pingarati-in-conflict-de-interese/"
+      ],
+      "note": "DNA o identifică pe Maria Nedelcu drept fost director al Grupului Școlar Agricol Hemeiuș, județul Bacău; atribuirea inițială la Neamț era greșită. Consiliera PNL Maria Nedelcu din Mitreni activează în Călărași, iar aleasa din Pângărați este Maria-Isabela Nedelcu, deci nu există o punte de identitate. În lipsa unui rol politic verificabil pentru directoarea condamnată, profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3964",
+      "original_name": "Ploscaru Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650",
+        "https://www.dna.ro/comunicat.xhtml?id=991",
+        "https://ziaruldevalcea.ro/2012/11/reputatul-chirurg-constantin/"
+      ],
+      "note": "DNA îl identifică pe Constantin Ploscaru drept fost gestionar al ISJ Neamț și confirmă condamnarea definitivă din 2014. Politicianul PRM cu același nume era chirurg în Râmnicu Vâlcea, fost consilier județean și candidat parlamentar, cu geografie și carieră incompatibile cu gestionarul din Neamț. Nu există rol politic verificabil pentru persoana condamnată; profilul se exclude ca omonimie rezolvată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3965",
+      "original_name": "Raba Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4866",
+        "https://www.primariacodaesti.ro/index.php/dec/declaratii-de-avere-si-interese",
+        "https://vs.prefectura.mai.gov.ro/wp-content/uploads/sites/18/2025/04/PV_Sectii_22.04.2025_15.00_NO_GDPR.pdf"
+      ],
+      "note": "DNA îl identifică pe Valeriu Raba drept fost secretar al comunei Codăești, funcție publică administrativă. Primăria îi publică declarația de avere în arhiva instituției, iar în 2025 apare ca președinte nepartizan al unei secții de votare, nu reprezentant al vreunui partid. Nu există dovadă de candidatură, mandat, funcție de partid sau numire politică; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3967",
+      "original_name": "Rotaru Silvica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650",
+        "https://www.dna.ro/comunicat.xhtml?id=991",
+        "https://www.liceulbrauner.ro/wp-content/uploads/2016/05/Lista_pesonalului_an_scolar_2015_-_2016.pdf"
+      ],
+      "note": "DNA o identifică pe Silvica Rotaru drept fost contabil al ISJ Neamț și confirmă condamnarea definitivă din 2014; un document ulterior al Liceului de Arte Victor Brauner o indică administrator financiar, confirmând cariera tehnică în educație. Nu există dovadă de candidatură, mandat, funcție de partid ori numire politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3969",
+      "original_name": "Suliman Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4353",
+        "https://www.dna.ro/comunicat.xhtml?id=3520"
+      ],
+      "note": "DNA îl identifică pe Constantin Suliman drept consilier superior de execuție la APIA – Centrul Județean Brașov și descrie faptele comise în această calitate tehnică. Căutările după numele exact nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele politice privesc alte persoane Suliman, cu prenume diferite. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3971",
+      "original_name": "Zaharia Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650",
+        "https://www.scoala-danielacuciuc.com/comisii/"
+      ],
+      "note": "DNA o identifică explicit pe Mariana Zaharia drept gestionar al ISJ Neamț, condamnată definitiv în 2014. O sursă instituțională școlară o indică ulterior ca administrator financiar, iar căutările după numele exact nu arată mandat, candidatură, funcție de partid sau numire politică. Rezultatele electorale omonime din alte județe nu pot fi atribuite acestei persoane. Profilul tehnic se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3972",
+      "original_name": "Zaharia Teodora",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4779",
+        "https://www.dna.ro/comunicat.xhtml?id=2948"
+      ],
+      "note": "Comunicatele DNA confirmă identitatea și funcția de secretar al Primăriei Stănilești, precum și condamnarea definitivă. Funcția de secretar este una administrativă de carieră, iar căutările după numele exact nu indică mandat electoral, candidatură, funcție de partid sau numire politică. Profilul se exclude din registrul politicienilor.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3973",
+      "original_name": "Aldea Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2847",
+        "https://www.dna.ro/comunicat.xhtml?id=1462"
+      ],
+      "note": "DNA îl identifică fără echivoc pe Mircea Aldea drept consilier de execuție în Serviciul Resurse Umane al Primăriei Târgu Mureș; rechizitoriul descrie atribuții administrative. Nu există dovadă de mandat de consilier local, candidatură, funcție de partid ori numire politică. Omonimul Mircea Aldea Ilie din Brașov este altă persoană. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3974",
+      "original_name": "Alexandrescu Mihai Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.roaep.ro/legislatie/wp-content/uploads/2024/11/Decizia-152-membri-operatori-besvs.pdf"
+      ],
+      "note": "DNA confirmă că Mihai Adrian Alexandrescu era subofițer/plutonier la ISU Vlaşca Giurgiu, o funcție militară de execuție. Singurul rezultat electoral exact îl indică drept operator electoral, calitate tehnică neutră, nu candidat sau reprezentant politic. Nu s-au găsit mandat, candidatură, funcție de partid ori numire politică; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3975",
+      "original_name": "Anghel Aurel Cristinel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4486",
+        "https://www.gandul.ro/stiri/fostul-sef-al-serviciului-cadastru-din-primaria-bacau-trimis-in-judecata-pentru-luare-de-mita-11709766/amp"
+      ],
+      "note": "Sursele îl identifică pe Aurel Cristinel Anghel drept funcționar de carieră al Primăriei Bacău, consilier superior și ulterior șef al Serviciului Cadastru, nu consilier local ales. Căutările electorale și politice după numele complet nu indică mandat, candidatură, funcție de partid ori numire politică. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3976",
+      "original_name": "Anin Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA confirmă că Ion Anin era plutonier în rezervă și fost angajat al ISU Vlaşca Giurgiu. Căutările după numele exact nu indică mandat, candidatură, funcție de partid ori numire politică; apar doar rezultate patrimoniale fără legătură politică. Profilul militar/tehnic se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3977",
+      "original_name": "Arcanu Stelian Leonard",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://primariagiurgiu.ro/monitorul-oficial-local/alte-documente/registrul-privind-publicarea-declaratiilor-de-casatorie/2022-publicatii-casatorii/"
+      ],
+      "note": "DNA îl identifică pe Stelian Leonard Arcanu drept sergent-major la ISU Vlaşca Giurgiu. Căutările exacte confirmă prezența locală, dar nu arată mandat, candidatură, funcție de partid ori numire politică; rezultatele suplimentare sunt strict personale/administrative. Profilul militar de execuție se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3978",
+      "original_name": "Barbu Eugenia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://legislatie.just.ro/public/DetaliiDocument/126096"
+      ],
+      "note": "DNA și evidențele judiciare o identifică pe Eugenia Barbu drept consilier de execuție/funcționar public în cadrul DGFP Dolj. Căutările electorale după numele exact nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele nominale din Dolj sunt administrative sau privesc alte persoane. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3979",
+      "original_name": "Berbec Catalin Costin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://static.anaf.ro/static/1/Ploiesti/20250901134209_523010000000034.pdf"
+      ],
+      "note": "DNA îl identifică pe Cătălin Costin Berbec drept sergent-major în rezervă, iar o evidență ANAF confirmă legătura exactă cu municipiul Giurgiu. Nu s-au găsit mandat, candidatură, funcție de partid ori numire politică; rezultatul electoral pentru Adrian-Costin Berbec din București este o altă persoană. Profilul militar se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3981",
+      "original_name": "Biscos Teodor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5529",
+        "https://www.dna.ro/comunicat.xhtml?id=760",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_mures/consiliul-local/sarmasu/"
+      ],
+      "note": "DNA confirmă condamnarea lui Teodor Biscoș, director economic la Direcția Silvică Târgu Mureș. Există un candidat omonim Pro România la Consiliul Local Sărmașu în 2020, dar sursele electorale disponibile nu oferă identificatori care să demonstreze că este aceeași persoană; alte rezultate locale arată mai multe contexte personale/profesionale posibile. Pentru a evita atribuirea condamnării unui omonim, profilul se exclude conform regulii conservative.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3984",
+      "original_name": "Bologa Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3545",
+        "https://jurnalul.ro/stiri/observator/comisari-anpc-judecati-pentru-coruptie-557707.html",
+        "https://comunadragusenisv.ro/raport/"
+      ],
+      "note": "DNA și presa o identifică pe Maria Bologa drept comisar ANPC București–Ilfov, funcție de execuție. Rezultatele politice exacte apar pentru consiliere locale din Drăgușeni, Suceava și Bârsana, Maramureș, fără nicio legătură cu profilul ANPC Ilfov și sunt omonime. Nu există dovadă de mandat, candidatură sau funcție de partid pentru persoana condamnată; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3985",
+      "original_name": "Bostan Iordache",
+      "current_name": "Iordache Bostan",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.ziaruldevrancea.ro/special/politica/24790-migratia-directorilor-are-loc-odata-la-patru-ani.html",
+        "https://www.monitoruldevrancea.ro/2010/04/02/bostan-suspendat-din-fruntea-isj/"
+      ],
+      "note": "DNA confirmă identitatea, funcția și condamnarea definitivă. Sursele locale îl identifică drept liberal; el declara explicit că fusese numit politic inspector general adjunct și că nu va pleca din PNL. Profilul rămâne public, cu numele normalizat Iordache Bostan, afilierea corectată la PNL și contextul politic documentat.",
+      "reviewed_snapshot_hash": "08ec12711fc241ebd0339cb089a8c1518b9d7168a93299370634ae69c232e736"
+    },
+    {
+      "profile_id": "RV-3986",
+      "original_name": "Bozdogescu Dan Emil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://legislatie.just.ro/Public/DetaliiDocument/126145"
+      ],
+      "note": "DNA îl identifică pe Dan Emil Bozdogescu drept funcționar public de execuție la DGFP Dolj, iar decizia Curții Constituționale confirmă că litigiul privea suspendarea raportului său de muncă. Alte rezultate îl plasează în corpul profesional al experților contabili, nu în politică. Nu s-au găsit mandat, candidatură, funcție de partid ori numire politică; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3987",
+      "original_name": "Bratu Mircea Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA îl identifică pe Mircea Florin Bratu drept sergent-major în rezervă la ISU Vlaşca Giurgiu și îl separă nominal de Mircea Florian-Andrei Bratu, menționat distinct în același dosar. Căutările după numele exact nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele politice găsite privesc alți Bratu. Profilul militar se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3988",
+      "original_name": "Bucse Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://achmb.com/doc/martie2017/INDEX%20PROPRIETARI%20CAC%2011.03.pdf"
+      ],
+      "note": "DNA îl identifică pe Adrian Bucșe drept sergent-major la ISU Vlaşca Giurgiu, iar un registru canin confirmă un omonim exact în Giurgiu fără relevanță politică. Căutările electorale și de partid nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele găsite privesc alte persoane Bucșe. Profilul militar se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3989",
+      "original_name": "Bunea Domsa Matei",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4936",
+        "https://ziarulunirea.ro/matei-domsa-bunea-inspector-silvic-din-zona-campeni-trimis-in-judecata-de-procurorii-dna-79261/",
+        "https://ziardecluj.ro/angajatii-inspectoratului-silvic-cluj-au-avut-anul-trecut-salarii-mici-dar-tranzactii-financiare-importante/"
+      ],
+      "note": "DNA și presa confirmă identitatea lui Matei Bunea-Domșa și funcția tehnică de inspector/consilier superior silvic în zona Câmpeni, în cadrul ITRSV Cluj. Căutările exacte nu indică mandat, candidatură, funcție de partid ori numire politică; rezultatele suplimentare sunt profesionale sau familiale. Profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3990",
+      "original_name": "Burcheci Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5146",
+        "https://igj.ro/actualitate/concursul-prefecturii-organizat.html",
+        "https://www.pandurul.ro/articol/sapte-functionari-gorjeni-anchetati-de-dna-pentru-_12426.html"
+      ],
+      "note": "DNA îl identifică pe Ștefan Burcheci drept consilier la Serviciul Legalitate și ulterior membru al Corpului de Control al Prefecturii Gorj. Postul său a fost ocupat prin concurs de funcționar public, ceea ce confirmă natura administrativă de carieră. Nu s-au găsit mandat, candidatură, funcție de partid ori numire politică; profilul se exclude.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3991",
+      "original_name": "Busuioc Ciprian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://static.anaf.ro/static/1/Bucuresti/20250805160824_anunt_n230_4667045_5.pdf"
+      ],
+      "note": "DNA folosește forma scurtă Busuioc Ciprian în dispozitiv și numele complet Busuioc Ciprian Mihai în lista inculpaților, iar evidența ANAF confirmă forma Ciprian-Mihai. Persoana era sergent-major în rezervă la ISU Vlaşca; căutările nu indică mandat, candidatură, funcție de partid ori numire politică. Profilul militar se exclude, cu identitatea normalizată în registrul de verificare.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
