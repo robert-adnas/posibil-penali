@@ -63868,6 +63868,308 @@
       ],
       "note": "DNA și presa îl identifică pe Gheorghe Șutoi drept administrator al unei societăți comerciale din Drobeta-Turnu Severin, condamnat pentru trafic de influență. România Curată îl marchează în sectorul privat. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3927",
+      "original_name": "Tamas Bela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3549",
+        "https://www.dna.ro/comunicat.xhtml?id=1134"
+      ],
+      "note": "DNA îl identifică pe Béla Tamaș drept cetățean maghiar cu domiciliul în Ungaria și administrator al societății private Interamerican Trading SRL – Filiala Arad. Nu rezultă mandat, candidatură, funcție de partid ori numire politică în România; rezultatele electorale cu nume similare aparțin altor persoane. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3928",
+      "original_name": "Tarcatu Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4746",
+        "https://www.g4media.ro/wp-content/uploads/2025/04/Monitorul-Oficial-Partea-I-nr.-366-Imprumuturi-PSD.pdf"
+      ],
+      "note": "DNA îl condamnă pe Marius Tărcatu în calitate de administrator al unei societăți comerciale, pentru complicitate la luare de mită. Sursele îl mai descriu ca fost director administrativ/economic în structuri locale și finanțator/împrumutător al PSD, însă nu a fost identificat un mandat electiv, o candidatură, o funcție statutară de partid sau o numire politică eligibilă pentru registru. Finanțarea unui partid și participarea la evenimente politice nu îl transformă într-un politician; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3929",
+      "original_name": "Tautu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3701",
+        "https://gazetadebistrita.ro/sef-de-la-inocsa-dupa-gratii/"
+      ],
+      "note": "DNA îl identifică pe Ioan Tăutu drept inginer senior al companiei private INOCSA INGENIERIA S.L.; presa dosarului confirmă aceeași calitate profesională. Nu a fost identificat un mandat, o candidatură, o funcție de partid ori o numire politică. Profilul este din afara domeniului politic și este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3930",
+      "original_name": "Telescu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4064",
+        "https://www.dna.ro/comunicat.xhtml?id=449",
+        "https://static.anaf.ro/static/1/Timisoara/20250826130505_353010000000059_5.pdf"
+      ],
+      "note": "DNA îl identifică pe Gheorghe Telescu drept asociat/administrator al firmei private Cameleon SRL din Timișoara, iar un document ANAF recent îl localizează în Moșnița Veche, județul Timiș. Există un candidat omonim ALDE la Consiliul Local Cărbunari, Caraș-Severin, dar nicio sursă nu leagă acea candidatură de administratorul condamnat; contextul geografic indică persoane diferite. Pentru a evita atribuirea greșită, profilul privat este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3931",
+      "original_name": "Teodorescu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1952",
+        "https://www.jurisprudenta.com/dosare-procese/2003/12555q280q2003-280/",
+        "https://comunatitesti.ro/consiliu-local/componenta/"
+      ],
+      "note": "Hotărârea din dosarul penal îl individualizează pe condamnat ca administrator de firmă, născut în Brăila la 18 martie 1956 și domiciliat în municipiul Constanța. Consilierul local omonim din Țițești, Argeș, nu poate fi legat de această persoană; județul Argeș din profil reflecta instanța/dosarul, nu domiciliul condamnatului. Fără dovadă de rol politic propriu, profilul este exclus pentru a evita o atribuire greșită.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3932",
+      "original_name": "Tepelea Florian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3549",
+        "https://static.anaf.ro/static/1/Timisoara/20260309085943_2301_26_dacc_25467173_2_2026_03_04%20semnat.pdf"
+      ],
+      "note": "DNA îl identifică pe Florian Țepelea drept angajat cu funcție de conducere al societății comerciale private Interamerican Trading SRL – Filiala Arad, nu administrator și nu titular al unei funcții publice. Căutările electorale și politice nu indică mandat, candidatură ori rol de partid pentru această persoană; rezultatele despre Gabriel Țepelea sau alte persoane sunt nerelevante. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3933",
+      "original_name": "Tican Ionut Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2484",
+        "https://www.euroavocatura.ro/stiri/4989/DNA%3A_Sinteza_a_cauzelor_ce_au_ca_obiect_infractiuni_de_evaziune_fiscala",
+        "https://romanialibera.ro/special/evazionisti-lasati-in-libertate-45182/"
+      ],
+      "note": "Sursele îl identifică pe Ionuț-Adrian Țican ca asociat unic și administrator al firmei private Rimsad SRL Bacău, originar/domiciliat la acea dată în Ploiești, implicat în operațiuni comerciale cu produse petroliere. Nu a fost identificat un mandat, o candidatură, o funcție de partid sau o numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3934",
+      "original_name": "Toma Luminita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4174",
+        "https://www.avocatnet.ro/articol_12984/Asociatul-unei-firme-ilfovene-a-prejudiciat-statul-cu-peste-23-milioane-euro.html",
+        "https://digital.bibliotecaarad.ro/files/original/56ae91d130dc504cfd1ea7054e1609f880dce7f8.pdf"
+      ],
+      "note": "DNA o identifică pe Luminița Toma exclusiv ca asociat și administrator al societății private Ana Impex SRL Ilfov. O persoană cu același nume apare în 2005 în Consiliul Național al Partidului Popular, în contextul delegației arădene, dar nicio sursă nu leagă această militantă din Arad de administratoarea din Ilfov. Pentru a evita transferarea condamnării între omonime și în lipsa unei funcții politice dovedite pentru inculpată, profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3935",
+      "original_name": "Tosum Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4306",
+        "https://www.dna.ro/comunicat.xhtml?id=2051"
+      ],
+      "note": "DNA o identifică pe Mariana Tosum drept asociat și administrator al societății private Mari Colect Metal SRL, redenumită Hypalom Export Import SRL. Dosarul privește exclusiv activitatea comercială și fiscală, iar căutările nu indică mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3936",
+      "original_name": "Trif Costel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175",
+        "https://primariadraganesti.ro/pdf/07.08.2025/Opis_alfabetic_detinatori_DRAGANESTI.pdf",
+        "https://adevarul.ro/stiri-locale/focsani/consilier-pnl-de-la-adjud-declarat-incompatibil-1446000.html"
+      ],
+      "note": "DNA îl identifică pe Costel Trif numai ca reprezentant al unei societăți comerciale, iar un document cadastral oficial localizează un Costel Trif în Drăgănești, Prahova. Alesul local găsit în presă este Costel Sorin Trif, consilier PNL din Adjud, Vrancea, o persoană cu nume complet și geografie diferite. Nu există dovadă că reprezentantul comercial condamnat a avut rol politic; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3937",
+      "original_name": "Truca Adrian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1952",
+        "https://upload.wikimedia.org/wikipedia/commons/0/00/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2009-06-17%2C_nr._413.pdf",
+        "https://jurnaluldearges.ro/primele-sentinte-in-lotul-alexutan-405/"
+      ],
+      "note": "Numele complet este Adrian-Claudiu Trucă. Sursele judiciare și presa locală îl identifică drept patron/administrator al societății private Titanic Internațional/Titanic Grup din Pitești, condamnat în dosarul deturnării unor fonduri europene. Nu a fost identificat mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3938",
+      "original_name": "Tudosa Stefania",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1943",
+        "https://www.viata-libera.ro/justitie/66033-galati-viata-libera-galatiul-are-55-de-condamnari-pentru-coruptie-vezi-care-sunt-cele-mai-mari-pedepse",
+        "https://primariabt.ro/storage/2020/07/Lista-candidati-Consiliul-Local-ADU.pdf"
+      ],
+      "note": "DNA și presa locală o identifică pe Ștefania Tudosă ca asociat/administrator al societății private Autostop SRL Galați. Persoana omonimă din documentul electoral Botoșani este locțiitor al biroului electoral, nu candidat, și nu există legătură de identitate cu inculpata din Galați. Nu a fost identificată nicio funcție politică a condamnatei; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3939",
+      "original_name": "Tudosa Viorel Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1943",
+        "https://www.viata-libera.ro/justitie/66033-galati-viata-libera-galatiul-are-55-de-condamnari-pentru-coruptie-vezi-care-sunt-cele-mai-mari-pedepse",
+        "https://static.anaf.ro/static/1/Galati/20260211155128_dacc_25453116_1_2026_02_09.pdf"
+      ],
+      "note": "DNA și sursele locale îl identifică pe Viorel-Liviu Tudosă ca asociat și administrator al societății private Autostop SRL Galați; documente ANAF recente confirmă aceeași formă completă a numelui și domiciliul din Galați. Nu a fost identificat mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3940",
+      "original_name": "Tuluc Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4309",
+        "https://www.dna.ro/comunicat.xhtml?id=8688",
+        "https://static.anaf.ro/static/1/Iasi/20250821181745_anunt_on_bcespf_21082025_1.pdf",
+        "https://hcl.usr.ro/sibiu/2001/h166"
+      ],
+      "note": "Condamnatul este administratorul firmelor private Ecologic Oil International SRL Onești și Mobil Tul Impex SRL Bacău; un document ANAF îl localizează în Onești. Fostul viceprimar al Sibiului și ulterior funcționar al Ministerului Mediului, tot Gheorghe Tuluc, are o carieră și o geografie distincte, iar nicio sursă nu leagă firmele băcăuane de el. Pentru a evita atribuirea condamnării politicianului omonim, profilul comercial este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3941",
+      "original_name": "Tuvec Lucian Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5450",
+        "https://www.dna.ro/comunicat.xhtml?id=4417",
+        "https://www.primariacomanesti.ro/anunturi-impozite-si-taxe/139-anunt-colectiv-aprilie-200910.html"
+      ],
+      "note": "DNA îl identifică pe Lucian-Ștefan Țuvec drept asociat unic și administrator al mai multor societăți private, inclusiv Petro-Met Invest SRL și Bart Construct SRL; documentele locale îl plasează în Comănești. Căutările nu indică mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3942",
+      "original_name": "Vacaru Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3552",
+        "https://www.promptmedia.ro/2016/07/bucuresti-gheorghe-roman-fost-vicepresedinte-al-cj-ilfov-trei-ani-cu-suspendare/",
+        "https://www.zf.ro/companii/dezvoltatorii-center-huedin-am-primit-deja-doua-oferte-de-preluare-dar-nu-vindem-3077509"
+      ],
+      "note": "DNA și relatările dosarului îl identifică pe Florin Văcaru drept administrator de societăți comerciale, distinct de inculpații care dețineau funcții publice în dosarul Jilava. Sursele economice îl prezintă ca om de afaceri/dezvoltator, iar căutările nu indică mandat, candidatură, funcție de partid ori numire politică proprie. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3943",
+      "original_name": "Vargolici Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4553",
+        "https://www.bursa.ro/dna-cerceteaza-un-om-de-afaceri-pentru-dare-de-mita-44335027",
+        "https://overit.ro/en/company/termotest-impex-srl-12870/"
+      ],
+      "note": "DNA și presa îl identifică pe Daniel Vârgolici ca om de afaceri, asociat și administrator de societăți comerciale, condamnat după ce a oferit mită unui polițist rutier. Datele de registru confirmă activitatea sa de administrator; nu a fost identificat mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
