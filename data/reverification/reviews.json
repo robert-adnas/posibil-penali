@@ -63589,6 +63589,285 @@
       ],
       "note": "Sursele o identifică pe Maria Simineanu exclusiv ca administrator al societății private Plantago Media SRL Medgidia (descrisă ulterior și ca pensionară), condamnată pentru evaziune fiscală. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3911",
+      "original_name": "Simoiu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4932",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DB"
+      ],
+      "note": "DNA îl identifică pe Gheorghe Simoiu drept administrator al unei societăți comerciale, iar România Curată îl marchează explicit în sectorul privat. Condamnarea definitivă este confirmată, însă nu rezultă mandat, candidatură, funcție de partid ori numire politică. Relația personală ori contractuală cu un primar nu constituie funcție politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3912",
+      "original_name": "Soponos Constantin Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2250",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=SM"
+      ],
+      "note": "DNA îl identifică pe Constantin Aurel Soponoș exclusiv ca administrator al SC Marathon SRL Satu Mare, iar România Curată consemnează că nu aparținea sectorului public. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; condamnarea privește activitatea sa privată, astfel că profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3913",
+      "original_name": "Spiridon Elisabeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2882",
+        "https://www.curentul.info/actualitate/trafic-de-influenta-in-numele-functionarilor-publici/"
+      ],
+      "note": "DNA o identifică pe Elisabeta Spiridon drept administrator al unei societăți comerciale și o diferențiază, în același dosar, de inculpatul care avea funcție de partid. Presa contemporană descrie implicarea sa privată în schema de trafic de influență. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3914",
+      "original_name": "Sponte Teia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4110",
+        "https://legislatie.just.ro/public/DetaliiDocument/90450",
+        "https://hotnews.ro/curtea-principelui-becali-891275"
+      ],
+      "note": "DNA confirmă condamnarea lui Teia Sponte în calitate de vicepreședinte al CA al clubului privat FC Steaua. Monitorul Oficial dovedește o donație către PNG-CD, iar presa îl descria drept coordonator neoficial al partidului în Dobrogea, însă nu a fost identificată o funcție statutară, candidatură, un mandat sau o numire publică. Afilierea informală și donația nu sunt suficiente pentru o includere sigură; profilul este exclus prudent.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3915",
+      "original_name": "Stan Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4446",
+        "https://comunavanatoriimici.ro/what-we-do/",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf"
+      ],
+      "note": "DNA confirmă condamnarea unui Stan Marin, fost asociat și administrator al firmei private LEMATEC 2008 SRL. Există un Stan Marin consilier local în Vânătorii Mici și candidat USR la primărie în 2024, dar nu a fost găsită o sursă care să demonstreze că este aceeași persoană cu administratorul condamnat. Numele comun și coincidența județului nu sunt suficiente pentru atribuirea condamnării; profilul este exclus prudent ca posibilă coliziune de identitate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3916",
+      "original_name": "Stanciu Bogdan Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4124",
+        "https://jurnalul.ro/stiri/observator/surupaceanu-reloaded-la-dna-128407.html"
+      ],
+      "note": "DNA și presa îl identifică pe Bogdan Florin Stanciu ca administrator al firmei private Eufrat SRL și asociat în alte societăți controlate de Mugurel Surupăceanu. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; legătura de afaceri cu un politician nu constituie rol politic. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3917",
+      "original_name": "Stanciu Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=B"
+      ],
+      "note": "DNA confirmă condamnarea unui Ștefan Stanciu în calitate de administrator al unei societăți comerciale, iar România Curată îl marchează în sectorul privat. Numele corespunde mai multor persoane publice distincte, însă nicio sursă nu leagă administratorul din acest dosar de un mandat, o candidatură, o funcție de partid sau o numire politică. Profilul este exclus pentru a evita conflarea identităților.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3918",
+      "original_name": "Stanescu Ciprian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4152",
+        "https://www.monitorulsv.ro/condamnat-pentru-o-evaziune-fiscala-de-aproape-350000-de-euro_221de1/"
+      ],
+      "note": "DNA și presa locală îl identifică pe Ciprian Stănescu drept asociat unic și administrator al firmei private Vanesa Comprod SRL din Grajduri, Iași. Alte persoane omonime apar în administrația publică, dar nu există o sursă care să le lege de acest administrator ori de dosar. Nu rezultă mandat, candidatură, funcție de partid sau numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3919",
+      "original_name": "Stanescu Cornelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4708",
+        "https://www.dna.ro/comunicat.xhtml?id=1416"
+      ],
+      "note": "DNA o identifică pe Cornelia Stănescu drept asociat unic și administrator al firmei private Karma Met Impex SRL, în contextul unei condamnări definitive pentru evaziune fiscală. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; aparițiile omonime nu oferă o legătură cu acest dosar. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3920",
+      "original_name": "Stanescu Istrate",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4186",
+        "https://www.dna.ro/comunicat.xhtml?id=2559"
+      ],
+      "note": "DNA îl identifică pe Istrate Stănescu exclusiv ca administrator al societății private Tracia Industrie 2000 SA din Grajduri. Condamnarea definitivă din 2013 este confirmată de sursa oficială, însă nu rezultă mandat, candidatură, funcție de partid ori numire politică. Profilul este exclus din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3921",
+      "original_name": "Statulescu Bogdan Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=PH"
+      ],
+      "note": "DNA îl identifică pe Bogdan Florin Stătulescu drept reprezentant al unei societăți comerciale, iar România Curată îl marchează explicit ca administrator din sectorul privat. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3922",
+      "original_name": "Stefan Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3175",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=PH",
+        "https://primariaplopeni.ro/consiliul-local/"
+      ],
+      "note": "DNA și România Curată descriu condamnatul Ștefan Marin drept administrator al unei societăți comerciale din sectorul privat. Există un consilier local omonim în Plopeni, dar nu a fost găsită o sursă care să lege acea persoană de societatea sau dosarul penal; numele este foarte frecvent. Pentru a evita atribuirea condamnării unui omonim politic, profilul este exclus prudent.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3923",
+      "original_name": "Stirbu Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2511",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=229"
+      ],
+      "note": "DNA îl identifică pe Ioan Știrbu în grupul de administratori și complici implicați în fraude cu credite comerciale în județul Bacău. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; rezultatele electorale găsite pentru nume asemănătoare aparțin altor persoane. Profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3924",
+      "original_name": "Stoia Calin Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5152",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=CJ",
+        "https://www.zf.ro/eveniment/de-ce-sa-lucrezi-in-administratie-iti-faci-firma-de-consultanta-si-primesti-mita-cu-acte-in-regula-9111788"
+      ],
+      "note": "DNA și presa îl identifică pe Călin Mihai Stoia drept om de afaceri și administrator al Companiei de Salubrizare Brantner Vereș, condamnat pentru mita remisă primarului Sorin Apostu. România Curată îl marchează în sectorul privat. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3925",
+      "original_name": "Strango Vasile",
+      "current_name": "Vasile Ștrango",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4778",
+        "https://locale2020.bec.ro/wp-content/uploads/2020/08/SM.xls",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_satu-mare/consiliul-local/gherta-mica/",
+        "https://www.satmareanul.net/2012/03/13/vasile-strango-se-declara-complet-nevinovat/"
+      ],
+      "note": "Condamnarea definitivă pentru cumpărare de influență este confirmată de DNA. Persoana a fost membru PDL și a candidat din partea PNL la Consiliul Local Gherța Mică în 2020; numele rar, localitatea și activitatea comercială din Gherța Mică confirmă identitatea. Profilul este păstrat, cu numele normalizat, afilierea PNL și rolul limitat la candidatura verificată, fără a pretinde că a obținut mandatul.",
+      "reviewed_snapshot_hash": "5060ef94429fdc5c509a1948ece69eb778a202ccc8ff89054c4db2fe4b26f054"
+    },
+    {
+      "profile_id": "RV-3926",
+      "original_name": "Sutoi Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "not_applicable",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1942",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DJ",
+        "https://www.gds.ro/Actualitate/2009-06-04/Flagrant-de-spaga-pentru-un-director-de-la-Portile-de-Fier/"
+      ],
+      "note": "DNA și presa îl identifică pe Gheorghe Șutoi drept administrator al unei societăți comerciale din Drobeta-Turnu Severin, condamnat pentru trafic de influență. România Curată îl marchează în sectorul privat. Nu rezultă mandat, candidatură, funcție de partid ori numire politică; profilul este exclus.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
