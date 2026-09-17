@@ -64835,6 +64835,586 @@
       ],
       "note": "DNA folosește forma scurtă Busuioc Ciprian în dispozitiv și numele complet Busuioc Ciprian Mihai în lista inculpaților, iar evidența ANAF confirmă forma Ciprian-Mihai. Persoana era sergent-major în rezervă la ISU Vlaşca; căutările nu indică mandat, candidatură, funcție de partid ori numire politică. Profilul militar se exclude, cu identitatea normalizată în registrul de verificare.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3992",
+      "original_name": "Butnaru Vasile",
+      "current_name": "Vasile Butnaru",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3305",
+        "https://adevarul.ro/stiri-locale/vaslui/despagubiri-importante-pentru-un-fost-deputat-psd-1922676.html",
+        "https://romanialibera.ro/special/pepiniera-de-100-ha-la-pret-de-garsoniera-118417/"
+      ],
+      "note": "Identitatea este confirmată ca fostul deputat PSD de Vaslui din legislatura 2004–2008. DNA consemnează condamnarea definitivă din 24 mai 2012 la 6 luni cu suspendare pentru fals intelectual și funcția de director al SC Hidrotehnica SA Vaslui. Au fost corectate partidul, rolul politic, numele societății (nu Hidroelectrica) și infracțiunea.",
+      "reviewed_snapshot_hash": "92c7873f89a91be22cc5da1fb7192f5423ab50ef7380d045851c71148dac3b4c"
+    },
+    {
+      "profile_id": "RV-3993",
+      "original_name": "Caldararu Cristian Niculae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA confirmă identitatea, gradul de plutonier-major în ISU Vlașca Giurgiu și condamnarea definitivă din 10 iulie 2014. Căutările exacte nu indică mandat, candidatură sau afiliere politică; funcția militară este în afara domeniului politic al arhivei, astfel profilul este eliminat din publicare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3994",
+      "original_name": "Carstea Sebastian Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3205",
+        "https://cnogsibiu.ro/wp-content/uploads/2024/09/resurse_umane_2024.pdf"
+      ],
+      "note": "DNA confirmă identitatea ca director al Liceului Carol I din Sibiu și condamnarea definitivă din 2012. Sursele educaționale îl consemnează ulterior profesor/director adjunct, iar căutările exacte nu indică mandat, candidatură ori afiliere politică. Funcția de conducere școlară nu intră în domeniul politic al arhivei, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3995",
+      "original_name": "Cazacincu Radu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4091",
+        "https://www.crainou.ro/2009/06/03/vama-siret-un-punct-sensibil-la-granita-imperiului/"
+      ],
+      "note": "DNA și presa locală confirmă identitatea ca șef/consilier vamal la Biroul Vamal Siret și condamnarea definitivă din 2013 pentru trafic de influență. Nu a fost identificat vreun mandat, vreo candidatură sau afiliere politică; funcția vamală de carieră este în afara domeniului politic al arhivei, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3997",
+      "original_name": "Ciobanu Eugenia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4570",
+        "https://www.anofm.ro/valcea/declaratie-de-avere-si-interese/",
+        "https://www.anofm.ro/valcea/wp-content/uploads/sites/41/2025/10/CIOBANU_EUGENIA_24I.pdf"
+      ],
+      "note": "DNA confirmă identitatea ca expert AJOFM Vâlcea și condamnarea definitivă din 2013. Evidențele oficiale AJOFM o consemnează în 2025 drept consilier superior, iar declarația de interese nu indică funcție de conducere într-un partid. Nu a fost identificat un mandat sau o candidatură politică verificabilă; funcția administrativă de carieră este în afara domeniului politic, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3998",
+      "original_name": "Ciurlin Nicu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/"
+      ],
+      "note": "DNA confirmă identitatea ca funcționar de execuție, consilier în cadrul DGFP Dolj, și condamnarea definitivă din 2013 pentru două infracțiuni de abuz în serviciu cu consecințe deosebit de grave. Căutările exacte nu indică mandat, candidatură sau afiliere politică; funcția fiscală de carieră este în afara domeniului politic, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-3999",
+      "original_name": "Clim Silviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5666"
+      ],
+      "note": "DNA confirmă identitatea ca consilier juridic în cadrul Ministerului Justiției și condamnarea definitivă din 2014 în dosarul retrocedării Colegiului Székely Mikó. Căutările exacte nu indică mandat, candidatură sau afiliere politică; era membru tehnic/juridic al comisiei de retrocedare, nu titular al unei funcții politice, astfel profilul este eliminat din arhiva publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4000",
+      "original_name": "Closca Virgil Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5365",
+        "https://www.euroavocatura.ro/stiri/9725/Sinteza_a_cauzelor_finalizate_de_procurorii_DNA_in_luna_mai_2012%2C_altele_decat_cele_deja_mediatizate"
+      ],
+      "note": "DNA confirmă numele corect Cloșcă Virgil Gabriel, calitatea de agent-șef la Biroul Rutier Brăila și condamnarea definitivă din 2014. Profilul de bază îi atribuia greșit gradul de subinspector, care aparținea co-inculpatei. Nu a fost identificat mandat, candidatură sau afiliere politică; polițistul de carieră este în afara domeniului politic, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4001",
+      "original_name": "Cojocaru Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/"
+      ],
+      "note": "Sursele dosarului confirmă exclusiv identitatea unui funcționar de execuție, consilier/inspector DGFP Dolj, condamnat definitiv în 2013. Rezultatele politice pentru persoane cu numele comun Alexandru Cojocaru privesc alte localități ori persoane cu alte prenume complete și nu pot fi legate de funcționarul DGFP. Fără rol politic verificabil, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4004",
+      "original_name": "Constantin Adriana-Iuliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4696",
+        "https://www.bvb.ro/infocont/infocont13/brk020513.pdf"
+      ],
+      "note": "DNA și raportările oficiale BVB confirmă identitatea ca fost director al SSIF Broker SA, sucursala Deva, societate privată de investiții financiare, și condamnarea definitivă din 2014. Mențiunea «Parlamentul României» din profilul inițial este eronată. Nu există rol politic verificabil, astfel profilul este eliminat din arhiva publică.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4005",
+      "original_name": "Corcoveanu Violeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/"
+      ],
+      "note": "DNA și presa contemporană confirmă identitatea ca funcționar de execuție, consilier în cadrul DGFP Dolj, și condamnarea definitivă din 2013. Căutările exacte nu indică mandat, candidatură sau afiliere politică; funcția fiscală de carieră este în afara domeniului politic al arhivei, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4006",
+      "original_name": "Corneanu Lenuta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988"
+      ],
+      "note": "DNA confirmă identitatea ca funcționar de execuție, consilier în cadrul DGFP Dolj, și condamnarea definitivă din 2013 pentru două infracțiuni de abuz în serviciu. Căutările exacte nu indică mandat, candidatură sau afiliere politică; funcția fiscală de carieră este în afara domeniului politic, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4007",
+      "original_name": "Costea Ionut Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA confirmă numele complet Costea Ionuț Cristian, gradul de sergent-major în rezervă la ISU Vlașca Giurgiu și condamnarea definitivă din 2014. Căutările exacte nu indică mandat, candidatură sau afiliere politică; funcția militară este în afara domeniului politic al arhivei, astfel profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4008",
+      "original_name": "Cristina Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163"
+      ],
+      "note": "DNA confirmă inculpatul masculin Cristina Ionel, sergent-major în rezervă la ISU Vlașca Giurgiu, și condamnarea definitivă din 2014. Rezultatele pentru «Ionel Cristina» privesc persoane distincte, cu ordinea numelui inversată (inclusiv o funcționară locală). Nu a fost identificat rol politic pentru persoana condamnată; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4009",
+      "original_name": "Croitoru Gerogeta Ligia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/",
+        "https://www.gds.ro/Local/2013-07-22/Finantistii-TVA-au-scapat-de-puscarie/"
+      ],
+      "note": "DNA și presa contemporană confirmă că numele corect este Georgeta Ligia Croitoru, funcționar de execuție/consilier DGFP Dolj, condamnată definitiv în 2013 pentru două infracțiuni de abuz în serviciu cu consecințe deosebit de grave. Nu a fost identificat mandat, candidatură sau afiliere politică; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4010",
+      "original_name": "Deac Mihai-Radu",
+      "current_name": "Mihai-Radu Deac",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4935",
+        "https://www.euroavocatura.ro/cache/stiri/9193.htm",
+        "https://punctul.ro/frauda-sau-cum-sa-scoti-bani-din-pamantul-altuia/"
+      ],
+      "note": "DNA și presa contemporană confirmă identitatea, mandatul de consilier local în comuna Vânători, județul Mureș, condamnarea definitivă din 2014 și infracțiunile exacte. Profilul este păstrat, cu localitatea, tipul funcției și încadrarea juridică detaliate; afilierea rămâne Independent deoarece nu a fost identificată o sursă solidă pentru un partid.",
+      "reviewed_snapshot_hash": "c567080dfcd74f1bb3ba154e777b58b54aefb000b0dad48899da656a531a37ff"
+    },
+    {
+      "profile_id": "RV-4011",
+      "original_name": "Draghici Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1894",
+        "https://www.gds.ro/Actualitate/2010-08-04/Draghici-condamnat-definitiv/"
+      ],
+      "note": "DNA și presa locală confirmă că Alexandru Drăghici era funcționar public/consilier superior în Direcția Tehnico-Economică a Consiliului Județean Gorj, nu consilier județean ales. A fost condamnat definitiv la 5 ani pentru trafic de influență, însă nu a fost identificat niciun mandat, nicio candidatură sau afiliere politică; profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4012",
+      "original_name": "Dragnuta Virgil Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737"
+      ],
+      "note": "DNA confirmă că Virgil-Viorel Drăgnuță a fost maistru militar în rezervă, fost angajat al ISU Vlaşca Giurgiu, și a primit definitiv 3 ani și 4 luni cu suspendare pentru fals intelectual, uz de fals și abuz în serviciu. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4013",
+      "original_name": "Dragomir Petrida",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/"
+      ],
+      "note": "DNA, hotărârea definitivă și presa locală confirmă că Petrida Dragomir a fost funcționar public/consilier în cadrul DGFP Dolj, nu ales local. A primit 2 ani cu suspendare pentru abuz în serviciu calificat; nu a fost identificat mandat, candidatură sau rol de partid, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4014",
+      "original_name": "Dragotoniu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3963",
+        "https://www.gds.ro/Local/2013-03-08/Directorul-Energoconstructia-condamnat-definitiv/",
+        "https://cvlpress.ro/29.09.2012/directorul-energoconstructia-bucuresti-deferit-justitiei-pentru-trafic-de-influenta/"
+      ],
+      "note": "DNA și presa contemporană confirmă că Constantin Dragotoniu a fost director, administrator și președinte CA al unei societăți comerciale private, condamnat definitiv la 1 an și 6 luni cu executare pentru trafic de influență. Nu a fost identificat mandat, candidatură ori funcție de partid; profilul este eliminat, iar eticheta generică a infracțiunii este corectată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4015",
+      "original_name": "Druta Cosmina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4552",
+        "https://www.sursazilei.ro/contabila-agen%C8%9Biei-de-dezvoltare-regional%C4%83-nord-vest-8-ani-de-inchisoare-pentru-furtul-a-25-milioane-de-euro/",
+        "https://www.zcj.ro/eveniment/agentia-de-dezvoltare-cere-inapoi-45-milioane-de-euro-de-la-fosta-contabila--107577.html"
+      ],
+      "note": "DNA confirmă că Cosmina Druță a fost contabilă la ADR Nord-Vest și IRCETT, precum și asociat/administrator al unei societăți private, condamnată definitiv la 8 ani cu executare pentru înșelăciune, falsuri, uz de fals și spălare de bani. Nu a fost identificat rol politic, mandat ori candidatură; profilul este eliminat, iar numele și eticheta juridică generică sunt corectate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4017",
+      "original_name": "Ene Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4478",
+        "https://romanialibera.ro/special/fostii-directori-oil-terminal-si-petrotrans-retinuti-de-dna-218963/",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/inchisoare-si-zeci-de-mii-de-dolari-confiscati-curtea-suprema-a-inchis-dosarul-reziduurilor-petroliere-de-la-oil-terminal-477214.html"
+      ],
+      "note": "Sursele confirmă că Ștefan Ene a fost director general și ulterior consilier al directorului general la Oil Terminal, nu consilier ales. Condamnarea definitivă de 1 an și 4 luni cu executare pentru trafic de influență este corectă, însă nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4018",
+      "original_name": "Ficleanu Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737"
+      ],
+      "note": "DNA confirmă că persoana condamnată a fost sergent-major în rezervă/fost angajat ISU Vlaşca Giurgiu, cu 1 an de închisoare cu suspendare pentru favorizarea infractorului și fals material în înscrisuri oficiale. Rezultatele cu același nume din fotbal nu dovedesc aceeași identitate și nu au fost asociate profilului. Nu există mandat, candidatură sau rol de partid verificabil; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4019",
+      "original_name": "Gherghelici Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737"
+      ],
+      "note": "DNA confirmă că Florin Gherghelici a fost plutonier/fost angajat ISU Vlaşca Giurgiu și a primit definitiv 1 an cu suspendare pentru favorizarea infractorului și fals material în înscrisuri oficiale. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4021",
+      "original_name": "Hinda Iancu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4977",
+        "https://adevarul.ro/stiri-locale/resita/pompierii-si-jandarmii-caraseni-nu-au-primit-nimic-1163524.html",
+        "https://www.pressalert.ro/2010/08/acuzatii-din-dosarul-fraudei-de-la-universitate-hyperion-trimisi-in-judecata-de-dna/"
+      ],
+      "note": "DNA și presa contemporană confirmă forma corectă Iancu Hînda, subofițer al Inspectoratului Județean de Jandarmi Caraș-Severin și student în cauza Hyperion, condamnat definitiv la 4 luni cu suspendare pentru dare de mită. Numele similare din listele electorale sunt alte persoane; nu a fost identificat mandat, candidatură sau rol de partid pentru această identitate, astfel că profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4022",
+      "original_name": "Hrituleac Silvia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3305",
+        "https://e-juridic.manager.ro/stiri/doi-directori-de-la-hidrotehnica-vaslui-prinsi-cu-mana-pe-banii-comunitatii-europene-1050.html",
+        "https://vremeanoua.ro/vasile-butnaru-in-boxa-acuzatilor/"
+      ],
+      "note": "DNA confirmă că Silvia Hrițuleac a fost director tehnic la SC Hidrotehnica SA Vaslui, nu la Hidroelectrica, și a fost condamnată definitiv la 3 luni cu suspendare pentru fals în înscrisuri sub semnătură privată. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat, cu identitatea și societatea corectate în fișa de verificare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4023",
+      "original_name": "Hudum Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3332",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1403",
+        "https://adevarul.ro/stiri-locale/vaslui/update-fostul-subprefect-de-vaslui-sergiu-marian-1596144.html",
+        "https://www.gandul.ro/stiri/fostul-subprefect-de-vaslui-condamnat-la-patru-ani-de-inchisoare-cu-executare-13791944"
+      ],
+      "note": "Mihai Hudum a fost funcționar și șef al ADS Vaslui, fără mandat ori afiliere politică verificată. Pe lângă condamnarea din 2012 la 8 luni cu suspendare pentru fals și tentativă de abuz în serviciu, sursele confirmă o condamnare definitivă ulterioară, în ianuarie 2015, la 3 ani cu executare într-un alt dosar de retrocedări ilegale. Profilul este eliminat din registrul politic, iar istoricul juridic este marcat drept corectat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4024",
+      "original_name": "Iamandi Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://adevarul.ro/stiri-locale/focsani/la-colegiul-valeriu-d-cotea-din-focsani-1079537.html",
+        "https://www.ziaruldevrancea.ro/special/educatie/scoala-gimnaziala-din-vidra-a-primit-numele-academicianului-valeriu-d.-cotea"
+      ],
+      "note": "Sursele școlare și chiar secțiunea de confiscări din comunicatul DNA indică forma Florin Iamandei; acesta a fost director al Colegiului Tehnic «Valeriu D. Cotea» Focșani și a primit definitiv 2 ani și 4 luni cu suspendare pentru trafic de influență. Nu a fost identificat mandat, candidatură sau rol de partid; rezultatele despre Florin-Ciprian Iamandi sunt o altă persoană. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4025",
+      "original_name": "Ignia Constantin Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5537",
+        "https://www.crisana.ro/stiri/flagrant-10/noua-angajati-ai-mai-condamnati-definitiv-pentru-infractiuni-de-coruptie-zeci-de-politisti-cercetati-de-anticoruptie-9281.html"
+      ],
+      "note": "DNA confirmă că Constantin-Cristian Ignia a fost ofițer IPJ Bihor, fără rol politic demonstrat. Pedeapsa corectă este 9 luni de închisoare cu suspendare, cu termen de încercare de 2 ani și 9 luni, nu 2 ani și 9 luni de închisoare; infracțiunile au fost falsuri și uz de fals. Profilul este eliminat, iar identitatea și datele juridice sunt corectate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4027",
+      "original_name": "Ionescu Milica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2005-06-27/Inspectorii-fiscali-doljeni-boierica-si-cu-Mimitel/",
+        "https://adevarul.ro/stiri-locale/craiova/angajatii-de-la-finante-care-au-acordat-returnari-1485594.html"
+      ],
+      "note": "Sursele confirmă că Milica Ionescu din acest dosar a fost funcționar de execuție/consilier DGFP Dolj, condamnată definitiv la 3 ani cu suspendare pentru abuz în serviciu calificat și continuat. Candidata omonimă PSD din Brăila și alte rezultate cu același nume nu au fost asociate acestei identități. Nu există mandat sau afiliere politică verificabilă pentru funcționara DGFP; profilul este eliminat, iar eticheta juridică generică este corectată.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4028",
+      "original_name": "Ionete Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4453",
+        "https://stirileprotv.ro/stiri/eveniment/radu-timofte-fostul-director-al-sri-trimis-in-instanta-de-dna.html",
+        "https://www.realitatea.net/stiri/ultimele-stiri/un-lucrator-din-sri-a-sustinut-la-dna-ca-i-s-a-cerut-sa-incalce-legea-in-cazul-lui-radu-timofte_5dcc91a4406af85273ca2833"
+      ],
+      "note": "DNA și presa contemporană confirmă că Dumitru Ionete a fost ofițer și consilier al adjunctului directorului SRI, membru într-o comisie internă, nu consilier ales. Condamnarea definitivă de 1 an cu suspendare pentru abuz în serviciu calificat este corectă. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4029",
+      "original_name": "Ionicoiu Mihaela Valentina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://www.gds.ro/Actualitate/2008-07-02/Fiscul-doljean-decimat-de-DNA/",
+        "https://cvlpress.ro/22.07.2013/dosarul-celor-36-de-finantisti-doljeni-la-final/"
+      ],
+      "note": "Sursele confirmă că Mihaela Valentina Ionicoiu a fost funcționar de execuție/consilier DGFP Dolj, nu ales local, și a fost condamnată definitiv în 2013 la 3 ani cu suspendare pentru abuz în serviciu calificat și continuat. Un dosar ulterior are o sentință de fond publicată, dar nu a fost folosit fără confirmarea soluției definitive. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4030",
+      "original_name": "Iordache Adriana Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-17",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://cvlpress.ro/22.07.2013/dosarul-celor-36-de-finantisti-doljeni-la-final/"
+      ],
+      "note": "DNA și presa locală confirmă că Adriana Carmen Iordache a fost funcționar de execuție/consilier DGFP Dolj, nu ales local, condamnată definitiv la 3 ani cu suspendare pentru abuz în serviciu calificat, inclusiv în formă continuată. Nu a fost identificat mandat, candidatură sau rol de partid; profilul este eliminat, iar eticheta juridică generică este corectată.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
