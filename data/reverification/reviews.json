@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-09-18",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -65684,6 +65684,321 @@
         "https://adevarul.ro/stiri-locale/bacau/lista-persoanelor-acuzate-ca-au-dat-si-au-luat-1156410.html"
       ],
       "note": "DNA și presa confirmă că Tatiana Moraru era secretara Grupului Școlar «Al. Vlahuță» din Podu Turcului, condamnată definitiv la 2 ani cu suspendare pentru asociere, complicitate la trafic de influență și complicitate la dare de mită în dosarul fraudei la bacalaureat. Nu a fost identificat mandat, candidatură sau rol de partid; rezultatele din Republica Moldova sunt omonime. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4049",
+      "original_name": "Motan Ovidiu Ginel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737"
+      ],
+      "note": "DNA confirmă numele MOȚAN OVIDIU GINEL, calitatea de sergent-major în rezervă al ISU Vlașca Giurgiu și condamnarea definitivă la 1 an cu suspendare pentru favorizarea infractorului și fals material. Nu am identificat un mandat, o candidatură ori o funcție de partid; profilul este în afara domeniului politic și rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4050",
+      "original_name": "Nae Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4356"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Constantin Nae, consilier superior DGFP Prahova, la 1 an cu suspendare pentru neglijență în serviciu. Rezultatele politice cu numele comun Nae Constantin aparțin altor persoane și nu există dovadă că funcționarul fiscal a avut mandat, candidatură ori funcție de partid; profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4051",
+      "original_name": "Natu Octavian Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4478",
+        "https://www.just.ro/wp-content/uploads/2022/02/Asociatii_21febr2022.pdf"
+      ],
+      "note": "DNA confirmă fostul director Petrotrans și condamnarea definitivă la 1 an și 4 luni, dar profilul omite a doua infracțiune: complicitate la trafic de influență, pe lângă complicitate la cumpărare de influență. Registrul Ministerului Justiției îl leagă de asociația salariaților Petrotrans, nu de activitate politică. Fără mandat, candidatură ori funcție de partid demonstrată, profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4052",
+      "original_name": "Neagoe Ioseev",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988",
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_2010-04-13%2C_nr._233.pdf"
+      ],
+      "note": "DNA confirmă că Ioseev Neagoe a fost consilier DGFP Dolj și a primit definitiv 2 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Monitorul Oficial confirmă ordinea naturală a numelui. Nu există mandat, candidatură sau funcție de partid identificată; profilul administrativ este în afara domeniului politic și rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4053",
+      "original_name": "Neagu Rares Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2872",
+        "https://www.jurisprudenta.com/dosare-procese/2017/45914q3q2017-3/"
+      ],
+      "note": "Cazul privește un consilier juridic angajat al Primăriei Generale, nu un consilier ales. Hotărârea nr. 128/25.01.2018 arată că Rareș Constantin Bican (fost Neagu) a obținut reabilitarea judecătorească pentru condamnarea definitivă de 3 ani pentru complicitate la trafic de influență. Numele și situația juridică erau deci neactualizate; fără mandat/candidatură politică, profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4054",
+      "original_name": "Neculae Ionut Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2714",
+        "https://www.dna.ro/comunicat.xhtml?id=1564",
+        "https://web.justitie-ag.ro/tr_ag/tr_app/dosar_detalii.asp?id_dosar=10900000000052539",
+        "https://anchetaonline.ro/subofiterul-care-jefuit-vile-arges-arestat-79801/"
+      ],
+      "note": "DNA și Tribunalul Argeș confirmă identitatea fostului subofițer ISU și condamnarea definitivă din 2011 la 5 ani cu executare pentru trafic de influență. Surse judiciare și de presă ulterioare indică o nouă condamnare definitivă de 8 ani și 10 luni pentru alte infracțiuni, deci profilul era și juridic neactualizat. Nu există mandat, candidatură sau funcție de partid; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4055",
+      "original_name": "Neculaie Adrian-Iulian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă că Adrian-Iulian Neculaie a fost plutonier-adjutant ISU Vlașca Giurgiu și a primit definitiv 1 an și 10 luni cu suspendare pentru fals material, fals intelectual, uz de fals și abuz în serviciu. Nu am identificat mandat, candidatură ori funcție de partid; este personal militar/administrativ, în afara domeniului politic, iar profilul rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4056",
+      "original_name": "Nedea Meda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2055",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1030",
+        "https://monitorulneamt.ro/finantistii-acuzati-de-coruptie-nu-mai-fac-inchisoare/"
+      ],
+      "note": "Profilul atribuia greșit Medăi Nedea infracțiunea de favorizare a infractorului, care aparținea șefului AFP Ioan-Cristian Vicol. DNA confirmă că Meda Nedea, consilier superior AFP Roman, a fost condamnată definitiv la 2 ani și 6 luni cu suspendare pentru două infracțiuni de luare de mită. Nu există mandat, candidatură ori funcție de partid; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4057",
+      "original_name": "Nedelcu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://bucuresti.partidulreper.ro/alegeri-locale-2024/"
+      ],
+      "note": "DNA confirmă plutonierul Victor Nedelcu din ISU Vlașca Giurgiu și condamnarea definitivă la 3 ani cu suspendare pentru fals intelectual, uz de fals și abuz în serviciu. Candidatul REPER din București identificat în rezultate este Victor-Emanuel Nedelcu, o altă persoană; nu există legătură politică demonstrată pentru fostul cadru ISU. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4058",
+      "original_name": "Nitu Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4880",
+        "https://bvb.ro/info/Raportari/CFED/CFED-Document%20de%20prezentare%20listare%20ATS.pdf"
+      ],
+      "note": "DNA și documentele societății confirmă că Aurel Nițu a fost director economic la SC Construcții Feroviare Craiova SA și a fost condamnat definitiv la 4 ani cu executare pentru luare de mită; eticheta generică «fapte de corupție» era imprecisă. Funcția era executivă într-o societate comercială, iar nicio funcție politică, candidatură sau mandat nu a fost identificat. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4059",
+      "original_name": "Nitu Victoras Genel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă numele Victoraș-Genel Nițu, calitatea de cadru ISU Vlașca Giurgiu și condamnarea definitivă la 6 luni cu suspendare pentru fals material și uz de fals. Nu există mandat, candidatură sau funcție de partid identificată; profilul militar/administrativ este în afara domeniului politic și rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4060",
+      "original_name": "Oncescu Liviu Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1938",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1242"
+      ],
+      "note": "DNA confirmă că Liviu Marius Oncescu a fost director al Școlii Generale nr. 10 «Marin Preda» Pitești și a primit definitiv 3 ani cu suspendare pentru luare de mită și fals intelectual. Profilul avea infracțiunea generică și detaliile trunchiate. Funcția de director școlar nu este mandat politic, iar nicio candidatură ori funcție de partid nu a fost identificată; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4061",
+      "original_name": "Papala Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4785",
+        "https://www.gds.ro/Actualitate/2009-03-03/EXCLUSIV-Craiova-Functionar-acuzat-de-fals-intors-la-munca-de-instanta/",
+        "https://cvlpress.ro/26.07.2011/prima-zi-de-primarie-pentru-antonie-solomon/"
+      ],
+      "note": "DNA și sursele locale confirmă că Ionel Păpălă era funcționar/inspector (consilier clasa I) în Serviciul Disciplina în Construcții al Primăriei Craiova, nu consilier local ales. Condamnarea definitivă este de 1 an cu executare pentru fals intelectual și uz de fals. Fără mandat, candidatură ori funcție de partid, profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4062",
+      "original_name": "Pencea Cristian Mirel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737"
+      ],
+      "note": "DNA confirmă plutonierul Cristian-Mirel Pencea din ISU Vlașca Giurgiu și condamnarea definitivă la 3 ani cu suspendare pentru fals intelectual, uz de fals și abuz în serviciu. Nu există mandat, candidatură ori funcție de partid identificată; profilul militar/administrativ este în afara domeniului politic și rămâne ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4063",
+      "original_name": "Plesa Gheorghe Danut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2745",
+        "https://evz.ro/adjunctul-ipj-alba-pus-in-libertate-844890.html",
+        "https://alba24.ro/judetul-in-care-sunt-cei-mai-putini-corupti-unde-se-afla-alba-in-topul-condamnarilor-2010-2014-450269.html"
+      ],
+      "note": "DNA și sursele locale confirmă că Gheorghe Dănuț Pleșa a fost agent-șef adjunct/subofițer la IPJ Alba și a primit definitiv 1 an cu suspendare pentru favorizarea autorilor unei infracțiuni de luare de mită. Rezultatele electorale pentru persoane cu nume apropiat nu corespund identității complete. Fără mandat, candidatură ori funcție de partid demonstrată, profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4065",
+      "original_name": "Popa Manuela Coca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1010"
+      ],
+      "note": "DNA confirmă că Manuela-Coca Popa a fost consilier-funcționar în cadrul DGFP Dolj și a primit definitiv 3 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Nu există mandat, candidatură sau funcție de partid identificată; termenul «consilier» desemnează funcția administrativă fiscală, nu un ales. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4066",
+      "original_name": "Popescu Violeta Titina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1010"
+      ],
+      "note": "DNA confirmă că Violeta Titina Popescu a fost consilier-funcționar DGFP Dolj și a fost condamnată definitiv la 2 ani cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Nu există mandat, candidatură ori funcție de partid identificată; funcția fiscală administrativă nu intră în domeniul politic. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4067",
+      "original_name": "Purcarea Costel Cosmin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.dna.ro/comunicat.xhtml?id=1737",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă sergentul-major în rezervă Costel-Cosmin Purcărea din ISU Vlașca Giurgiu și condamnarea definitivă la 6 luni cu suspendare pentru fals material și uz de fals. Nu există mandat, candidatură ori funcție de partid identificată; eventualele rezultate pentru alte persoane Purcărea nu corespund identității complete. Profilul este exclus și ascuns.",
       "reviewed_snapshot_hash": null
     }
   ]
