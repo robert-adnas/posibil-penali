@@ -52,6 +52,7 @@ export const excludedPoliticianNames = new Set([
   'Blaga Nicolae',
   'Boceanu Mihai Misu',
   'Bojan Catalin Dan',
+  'Bobariu Alexandru Ioan',
   'Borcea Cristian',
   'Brandais Flaviu',
   'Bucata Dan',
@@ -390,6 +391,16 @@ export const excludedPoliticianNames = new Set([
   'Stoica Vasilica',
   'Stoinea Sorin-Gabriel',
   'Strain Ilie',
+  'Tanase Mihai',
+  'Tatara Ionut Samirell',
+  'Troaca Daniel',
+  'Truica Dan Gabriel',
+  'Tundrea Nicusor-Florin',
+  'Turcin Marius Catalin',
+  'Vaduva Doinita',
+  'Vaidahazan Ioan',
+  'Zanfirescu Daniela',
+  'Zlate Viorel',
   'Bejan Robert George',
   'Bodrean Adrian Mihai',
   'Boroiu-Badea Florin',
@@ -56598,23 +56609,24 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Tudor Valeriu Pavel",
-    "party": "Independent",
-    "position": "Director în Compania nationala pentru controlul cazanelor, instalatiilor de ridicat si recipientelor sub presiune (Ministerul Economiei)",
-    "position_type": "other",
+    "name": "Valeriu-Pavel Tudor",
+    "party": "PSD",
+    "position": "Fost consilier local Pitești; candidat la Primăria și Consiliul Local Ștefănești",
+    "position_type": "local_official",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Compania nationala pentru controlul cazanelor, instalatiilor de ridicat si recipientelor sub presiune (Ministerul Economiei) în județul Bucuresti."
+      "county": "Arges",
+      "locality": "Ștefănești",
+      "basis": "political_base",
+      "note": "A candidat la Primăria Ștefănești în 2008 și 2012, iar în 2020 a figurat pe lista PSD pentru Consiliul Local Ștefănești."
     },
-    "crime": "Fapte de corupție",
+    "crime": "dare de mită",
     "sentence": "1 an și 10 luni închisoare cu suspendare",
     "sentence_years": 1.83,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 9 decembrie 2013. Condamnă pe inculpatul TUDOR VALERIU PAVEL, director al Sucursalei Pitești a S.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 3917 din 9 decembrie 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Valeriu-Pavel Tudor, director al Sucursalei Pitești a CNCIR SA, la 1 an și 10 luni de închisoare cu suspendare sub supraveghere pentru dare de mită. Identitatea politică este confirmată de candidatura PDL/Alianța pentru Argeș și Muscel la Primăria Ștefănești din 2012 și de traseul său documentat ca fost consilier local PSD, candidat PRM în 2008, președinte PDL Ștefănești, ulterior președinte ALDE Ștefănești și candidat PSD la consiliul local în 2020.",
+    "verified_at": "2026-09-18",
     "sources": [
       {
         "label": "DNA",
@@ -56622,10 +56634,19 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4569"
       },
       {
-        "label": "România Curată",
+        "label": "Gândul — candidatura PDL la Primăria Ștefănești",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tudor Valeriu Pavel indică județul Bucuresti, funcția \"Director\", instituția \"Compania nationala pentru controlul cazanelor, instalatiilor de ridicat si recipientelor sub presiune (Ministerul Economiei)\", decizia 3917 și condamnarea din 09/12/2013."
+        "url": "https://www.gandul.ro/stiri/seful-iscir-arges-candidat-pdl-la-primaria-stefanesti-a-fost-retinut-de-dna-pentru-fapte-de-coruptie-9631907"
+      },
+      {
+        "label": "Jurnalul de Argeș — traseu politic și profesional",
+        "kind": "press",
+        "url": "https://jurnaluldearges.ro/interceptarile-dna-cu-directorul-valeriu-tudor-de-la-iscir-7035/"
+      },
+      {
+        "label": "Candidați Consiliul Local Ștefănești 2020",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_arges/consiliul-local/stefanesti/3"
       }
     ]
   },

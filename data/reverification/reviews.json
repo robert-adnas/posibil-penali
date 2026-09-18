@@ -66242,6 +66242,214 @@
       ],
       "note": "DNA confirmă că Ilie Străin, fost subofițer la ISU Semenic, a fost condamnat definitiv la 4 luni cu suspendare pentru dare de mită; eticheta generică «fapte de corupție» era imprecisă. Lista electorală din 2020 conține un candidat PSD cu același nume la Consiliul Local Coronini, în același județ, însă sursele disponibile nu oferă un identificator sau un detaliu profesional care să demonstreze că este aceeași persoană. Conform regulii conservative pentru coliziuni de nume, legătura politică rămâne nesigură, iar profilul este exclus și ascuns.",
       "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4084",
+      "original_name": "Tanase Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4630",
+        "https://juri.ro/static/files/2015/iunie_2015/15/C5_Dec_12_ianuarie_2014_ds_2109-1-2013.pdf"
+      ],
+      "note": "DNA și hotărârea ÎCCJ confirmă că Mihai Tănase era plutonier-adjunct în cadrul ISU «Dobrogea» Constanța și a fost condamnat definitiv la 1 an și 6 luni cu suspendare sub supraveghere pentru fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată. Nu a fost identificată nicio funcție politică, candidatură sau calitate de ales; rezultatele omonime privesc alte persoane ori nu oferă o legătură verificabilă. Profilul este exclus din registrul politic și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4085",
+      "original_name": "Tatara Ionut Samirell",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=GR"
+      ],
+      "note": "DNA confirmă că Ionuț Samirell Țațără era sergent-major în rezervă la ISU «Vlașca» Giurgiu și a fost condamnat definitiv la 3 ani cu suspendare pentru fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată. Nu a fost identificată nicio funcție politică, candidatură sau calitate de ales; sursele disponibile îl indică exclusiv drept cadru militar. Profilul este exclus din registrul politic și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4086",
+      "original_name": "Troaca Daniel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3693",
+        "https://www.monitoruldegalati.ro/comunitate/militarul-proxenet-este-multumit-cu-pedeapsa-primita-pentru-coruptie.html"
+      ],
+      "note": "DNA confirmă că Daniel Troacă era subofițer la o unitate militară din Galați și a fost condamnat definitiv la 2 ani și 6 luni cu executare pentru trafic de influență. Presa locală confirmă identitatea și consemnează separat și o condamnare pentru proxenetism, fără a indica vreun rol politic. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; asocierea dosarului cu fostul deputat Mihail Boldea nu îl transformă pe Troacă în persoană politică. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4087",
+      "original_name": "Truica Dan Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://ro.linkedin.com/in/truica-dan-gabriel-b3294123"
+      ],
+      "note": "DNA confirmă că Dan Gabriel Truică era sergent-major la ISU «Vlașca» Giurgiu și a fost condamnat definitiv la 1 an și 10 luni cu suspendare pentru fals material în înscrisuri oficiale, fals intelectual, uz de fals și abuz în serviciu, în formele indicate de hotărâre. Profilul profesional public corespunde exact identității și confirmă activitatea la ISU Vlașca în perioada relevantă, urmată de activitate comercială, fără rol politic. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4088",
+      "original_name": "Tudor Valeriu Pavel",
+      "current_name": "Valeriu-Pavel Tudor",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4569",
+        "https://www.gandul.ro/stiri/seful-iscir-arges-candidat-pdl-la-primaria-stefanesti-a-fost-retinut-de-dna-pentru-fapte-de-coruptie-9631907",
+        "https://jurnaluldearges.ro/interceptarile-dna-cu-directorul-valeriu-tudor-de-la-iscir-7035/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_arges/consiliul-local/stefanesti/3"
+      ],
+      "note": "Identitatea corectă este Valeriu-Pavel Tudor. DNA confirmă condamnarea definitivă la 1 an și 10 luni cu suspendare pentru dare de mită, nu formula generică «fapte de corupție». Sursele electorale și presa confirmă că a fost consilier local PSD, candidat PRM la Primăria Ștefănești în 2008, președinte PDL Ștefănești și candidat PDL/Alianța pentru Argeș și Muscel la primărie în 2012; ulterior a condus ALDE Ștefănești și a candidat PSD la consiliul local în 2020. Profilul rămâne public, cu numele, partidul, funcția politică, geografia și infracțiunea corectate.",
+      "reviewed_snapshot_hash": "50c9ef56ed8d1e6f0681134295f975d725216a27cd6da7820e36c611d5f4853b"
+    },
+    {
+      "profile_id": "RV-4089",
+      "original_name": "Tundrea Nicusor-Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4977",
+        "https://adevarul.ro/stiri-locale/resita/pompierii-si-jandarmii-caraseni-nu-au-primit-nimic-1163524.html"
+      ],
+      "note": "DNA confirmă că Nicușor-Florin Țundrea era fost subofițer la ISU «Semenic» Caraș-Severin și a fost condamnat definitiv la 4 luni cu suspendare pentru dare de mită; eticheta generică «fapte de corupție» era imprecisă. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; candidații cu numele Țundrea din Caraș-Severin au alte prenume. Profilul este exclus din registrul politic și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4090",
+      "original_name": "Turcin Marius Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3172",
+        "https://web.justitie-ag.ro/ca_pit/ca_app/dosar_detalii.asp?id_dosar=4600000000026988"
+      ],
+      "note": "DNA și evidența Curții de Apel Pitești confirmă că Marius Cătălin Turcin era subofițer la ISU Argeș și a fost condamnat definitiv la 7 ani cu executare pentru șantaj, lipsire de libertate în mod ilegal și violare de domiciliu. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; eventualele rezultate pentru alte persoane Turcin nu corespund identității complete. Profilul este exclus din registrul politic și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4091",
+      "original_name": "Vaduva Doinita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/comunicat.xhtml?id=988"
+      ],
+      "note": "DNA confirmă că Doinița Văduva era consilier la DGFP Dolj și a fost condamnată definitiv la 3 ani cu suspendare sub supraveghere pentru două infracțiuni de abuz în serviciu contra intereselor publice cu consecințe deosebit de grave; eticheta generică «fapte de corupție» era imprecisă. Nu a fost identificată nicio funcție politică, candidatură ori calitate de ales; listele electorale din Dolj conțin alte persoane cu numele Văduva. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4092",
+      "original_name": "Vaidahazan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4382",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1830",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CHI%C8%98+AND+OTHERS+v.+ROMANIA.pdf&id=001-182950&library=ECHR&logEvent=False"
+      ],
+      "note": "DNA confirmă că Ioan Văidăhăzan era director adjunct la Liceul «Edmond Nicolau» din Cluj-Napoca și a fost condamnat definitiv la 2 ani și 6 luni cu suspendare sub supraveghere pentru luare de mită și trafic de influență în formă continuată, fals material în înscrisuri oficiale și sustragere ori distrugere de înscrisuri. Decizia CEDO ulterioară privind cererile sale nu anulează condamnarea internă. Nu a fost identificată nicio funcție politică, candidatură sau calitate de ales; consilierul județean din același dosar era Ilie Cornoiu. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4094",
+      "original_name": "Zanfirescu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4223",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1010"
+      ],
+      "note": "DNA confirmă că Daniela Zanfirescu era consilier la DGFP Dolj și a fost condamnată definitiv la 2 ani cu suspendare pentru abuz în serviciu contra intereselor publice cu consecințe deosebit de grave. Sursele ulterioare indică activitate privată în Craiova, nu o funcție politică. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; profilul este exclus din registrul politic și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4095",
+      "original_name": "Zlate Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5163",
+        "https://semnal.eu/ro/justitie/2010/04/29/conducerea-i-s-u-vlasca-cercetata-penal/"
+      ],
+      "note": "DNA confirmă că Viorel Zlate era plutonier-adjunct la ISU «Vlașca» Giurgiu și a fost condamnat definitiv la 3 ani cu suspendare pentru fals material în înscrisuri oficiale, fals intelectual, uz de fals și abuz în serviciu, toate în formă continuată, precum și asociere pentru săvârșirea de infracțiuni; această ultimă infracțiune lipsea din profil. Nu a fost identificată nicio candidatură, funcție de partid sau calitate de ales; omonimii identificați au alte profesii ori alte nume complete. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4096",
+      "original_name": "Bobariu Alexandru Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4972",
+        "https://adevarul.ro/stiri-locale/alba-iulia/update-dosar-de-frauda-din-fonduri-europene-trimis-1398142.html",
+        "https://dspalba.ro/declaratii-avere-si-interese/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Alexandru Ioan Bobariu la 6 luni cu suspendare pentru instigare, în formă continuată, la folosirea ori prezentarea cu rea-credință de documente sau declarații false pentru obținerea nelegală de fonduri UE. Instituția era însă greșită în profil: DSVSA Alba a precizat public că nu era angajatul său, iar documentele oficiale actuale îl identifică drept inspector superior la DSP Alba. Nu a fost identificată nicio funcție politică, candidatură sau calitate de ales; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
     }
   ]
 }
