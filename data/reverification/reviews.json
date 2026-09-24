@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-24",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -53820,7 +53820,7 @@
       "evidence": [
         "https://www.dna.ro/comunicat.xhtml?id=4645",
         "https://www.dna.ro/comunicat.xhtml?id=275",
-        "https://www.dna.ro/anexa_bilant.jsp?id=7\\u0026nrcrt=21"
+        "https://www.dna.ro/anexa_bilant.jsp?id=7&nrcrt=21"
       ],
       "note": "Numele corect este Fănică Tucaliuc. A fost comandant al UM 02033 Iași, fără rol politic documentat. DNA confirmă definitiv 3 ani cu suspendare sub supraveghere, termen de încercare 8 ani, pentru luare de mită continuată și abuz în serviciu calificat și continuat, plus confiscarea a 16.000 lei. Profilul vechi copia descrierea lui Dumitru Oniga și îi atribuia lui Tucaliuc, în mod greșit, falsul intelectual. Profilul este exclus din registrul politic.",
       "reviewed_snapshot_hash": null
@@ -66449,6 +66449,3242 @@
         "https://dspalba.ro/declaratii-avere-si-interese/"
       ],
       "note": "DNA confirmă condamnarea definitivă a lui Alexandru Ioan Bobariu la 6 luni cu suspendare pentru instigare, în formă continuată, la folosirea ori prezentarea cu rea-credință de documente sau declarații false pentru obținerea nelegală de fonduri UE. Instituția era însă greșită în profil: DSVSA Alba a precizat public că nu era angajatul său, iar documentele oficiale actuale îl identifică drept inspector superior la DSP Alba. Nu a fost identificată nicio funcție politică, candidatură sau calitate de ales; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4097",
+      "original_name": "Catavei Cornel Nicolae",
+      "current_name": "Cornel-Nicolae Cațavei",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3480",
+        "https://primaria-lisa.ro/2021/04/26/componenta-consiliului-local/",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_brasov/consiliul-local/recea/2"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 628/02.07.2012 la 1 an și 2 luni cu suspendare condiționată, pentru două fapte de folosire ori prezentare de documente sau declarații false pentru obținerea de fonduri europene, două înșelăciuni și tentativă la obținerea de fonduri europene prin documente false; sursa îl identifică drept reprezentant al Composesoratului de Pădure Budiu și indică Serviciul teritorial Brașov. Identitatea și localizarea în Brașov sunt confirmate suplimentar de surse profesionale și asociative. Primăria Lisa îl consemnează ca fost consilier local PNL în mandatul 2016–2020, iar numele complet Cornel-Nicolae Catavei apare drept candidat Pro România la Consiliul Local Recea în 2020. Profilul este păstrat, cu numele, afilierea, rolul politic, geografia și descrierea infracțiunilor corectate.",
+      "reviewed_snapshot_hash": "8e9d57d73d373f380cf90cc06fdf9df57b82cc7c843bdb310114abd735736cd4"
+    },
+    {
+      "profile_id": "RV-4098",
+      "original_name": "Damian Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3688",
+        "https://www.isc.gov.ro/files/2025/Autorizari/25.03.2025%20DATE%20DESCHISE%20DS.pdf"
+      ],
+      "note": "DNA confirmă faptul că Maria Damian era manager de proiect PHARE și a fost condamnată definitiv prin decizia penală nr. 1.197/12.11.2012 a Curții de Apel Iași la 2 ani cu suspendare condiționată pentru folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au dus la obținerea pe nedrept de fonduri europene și fals în declarații; ultima infracțiune lipsea din câmpul sintetic al profilului. Hotărârea privește proiectul orașului Negrești și nu îi atribuie o funcție aleasă, de partid ori de demnitate publică. Sursele profesionale o plasează în domeniul tehnic al construcțiilor în Vaslui, iar rezultatele politice pentru numele foarte comun Maria Damian aparțin unor omonime din alte județe. Profilul este exclus și ascuns pentru a evita asocierea politică și coliziunile de identitate nejustificate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4099",
+      "original_name": "Dranceanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4779",
+        "https://isc.gov.ro/files/2024/Autorizari/01.11.2024%20DATE%20DESCHISE%20DS.pdf",
+        "https://www.ziaruldeiasi.ro/stiri/prigoana-sefilor--6n9b.html"
+      ],
+      "note": "DNA confirmă că Gheorghe Drânceanu era inginer proiectant în Serviciul Proiectare–Finanțare Europeană al Consiliului Județean Iași, nu în Consiliul Județean Vaslui, și că a fost condamnat definitiv prin decizia nr. 1050/24.03.2014 a ÎCCJ la 2 ani cu suspendare pentru complicitate la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au dus la obținerea nelegală de fonduri europene. Registrul oficial ISC și presa locală confirmă profilul profesional de inginer și activitatea tehnică la CJ Iași. Nu a fost identificată nicio candidatură, funcție de partid, calitate de ales ori numire politică; profilul este exclus și ascuns, cu județul, funcția și infracțiunea corectate.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4100",
+      "original_name": "Faur Garofita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4151",
+        "https://www.dna.ro/comunicat.xhtml?id=1860"
+      ],
+      "note": "DNA confirmă identitatea corectă Garofița Faur, referent superior la Administrația Finanțelor Publice Brad, și condamnarea definitivă prin decizia penală nr. 645/07.06.2013 a Curții de Apel Alba Iulia la 3 ani cu suspendare sub supraveghere pentru complicitate la fals intelectual și complicitate la participație improprie la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete pentru obținerea nelegală de fonduri europene. Rechizitoriul oficial descrie contribuția sa tehnică la declarațiile fiscale false. Nu a fost identificată nicio candidatură, funcție de partid, calitate de ales ori numire politică; rezultatele electorale similare privesc alte persoane. Profilul este exclus și ascuns, iar infracțiunea generică a fost înlocuită cu încadrarea exactă.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4101",
+      "original_name": "Grigoriu Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2828",
+        "https://www.monitorulsv.ro/patronul-de-la-alumet-cezar-zaharia-trimis-in-judecata-de-dna-suceava_fc0428/"
+      ],
+      "note": "DNA confirmă că Maria Grigoriu era referent la Administrația Financiară Gura Humorului și a fost condamnată definitiv prin decizia penală nr. 1183/30.11.2011 a Curții de Apel Suceava la 6 luni cu suspendare condiționată pentru complicitate la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au dus la obținerea nelegală de fonduri europene și participație improprie la fals intelectual; câmpul sintetic menționa doar falsul intelectual. Presa locală contemporană confirmă identitatea și rolul strict fiscal în emiterea certificatului fals. Nu a fost identificată nicio candidatură, funcție de partid, calitate de ales ori numire politică; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4102",
+      "original_name": "Gurau Adriana Ani",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3330",
+        "https://hcl.usr.ro/braila/2010/h52"
+      ],
+      "note": "DNA confirmă identitatea Adriana Ani Gurău și rolul de asistent manager la Școala Română de Afaceri de pe lângă Camera de Comerț, Industrie și Agricultură – filiala Brăila, precum și condamnarea definitivă prin decizia penală nr. 844/06.06.2012 a Curții de Apel Galați la 2 luni cu suspendare condiționată pentru fals în înscrisuri sub semnătură privată. Un document al Consiliului Local Brăila confirmă forma de nume Maxim (Gurău) Adriana Ani în evidențele locale, fără a indica un mandat sau rol politic. Nu a fost identificată nicio candidatură, funcție de partid, calitate de ales ori numire politică; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4103",
+      "original_name": "Pruteanu Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4779",
+        "https://www.euroavocatura.ro/cache/stiri/9193.htm"
+      ],
+      "note": "DNA confirmă că Ștefan Pruteanu era inginer în cadrul Primăriei comunei Stănilești și membru tehnic al comisiei de recepție, nu ales local, și că a fost condamnat definitiv prin decizia nr. 1050/24.03.2014 a ÎCCJ la 2 ani cu suspendare pentru complicitate la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete care au dus la obținerea nelegală de fonduri europene. Rechizitoriul descrie semnarea procesului-verbal de recepție care atesta nereal finalizarea lucrărilor. Nu a fost identificată nicio candidatură, funcție de partid, calitate de ales ori numire politică; candidatul cu nume similar din Poduri, Bacău, este Ioan-Ștefan Pruteanu. Profilul este reclasificat ca funcționar tehnic, exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4104",
+      "original_name": "Sofronie Iovita",
+      "current_name": "Sofronie Ioviță",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3988",
+        "https://www.dna.ro/comunicat.xhtml?id=1700",
+        "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_iasi/primarie/plugari/",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Sofronie Ioviță, fost referent pentru fond funciar la Primăria Plugari, prin decizia penală nr. 310/22.03.2013 a Curții de Apel Iași la 1 an cu suspendare condiționată pentru complicitate la abuz în serviciu, complicitate la fals în înscrisuri sub semnătură privată și complicitate la folosirea ori prezentarea de documente sau declarații false pentru obținerea nelegală de fonduri europene; profilul menționa doar abuzul în serviciu. Identitatea politică este certă: rezultatele locale din 2024 îl arată candidat AUR la Primăria Plugari, cu 72 de voturi, iar raportarea oficială a contribuțiilor electorale consemnează exact numele, partidul AUR și județul Iași. Profilul este păstrat și corectat ca nume, partid, candidatură, localitate și situație juridică.",
+      "reviewed_snapshot_hash": "5d303437e17bffb5ad3ee761e7551cfb842436d8b8d1b5aaf38800c99bb67d4f"
+    },
+    {
+      "profile_id": "RV-4105",
+      "original_name": "Tudor Florea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4464",
+        "https://www.primariaintorsura.ro/declaratii-de-avere-si-interese-consilieri-locali/",
+        "https://www.primariaintorsura.ro/wp-content/uploads/2024/03/Declaratie-avere-Tudor-Florea-2021-Declaratie-avere-Tudor-Florea-2021.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă din 5 noiembrie 2013 a lui Tudor Florea, funcționar public la Primăria Radovan, la 3 ani cu suspendare. Sursele oficiale ale comunei Întorsura identifică separat un Tudor Florea consilier local și fost primar, însă nu există dovezi că este aceeași persoană cu funcționarul condamnat din Radovan. Nici pentru acesta din urmă nu este documentată o candidatură, un mandat ori o numire politică. Asocierea condamnării cu politicianul omonim ar fi nesigură; profilul bazat pe funcția administrativă este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4106",
+      "original_name": "Zabac Marioara Rodica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2357",
+        "https://www.dna.ro/comunicat.xhtml?id=705"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 607/20.04.2011 a Curții de Apel Timișoara la 2 ani cu suspendare condiționată pentru mai multe infracțiuni legate de fondurile PHARE, falsuri, înșelăciune și furt. Persoana este Zăbâc Marioara Rodica, referentă în Serviciul Economic, Biroul Contabilitate al Primăriei Bocșa, respectiv director economic al proiectului PHARE; nu primar sau ales local. Nu am găsit un mandat, o candidatură, o funcție de partid ori o numire politică documentată pentru ea. Funcția administrativă nu justifică includerea în registrul politic; profilul este eliminat și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4107",
+      "original_name": "Alexandrescu Anca Sonia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.dna.ro/comunicat.xhtml?id=705"
+      ],
+      "note": "DNA identifică inculpata ca Alexandrescu Anca Sonia, fostă profesoară de franceză și engleză la Colegiul Tehnic A. I. Cuza din Panciu, județul Vrancea. Condamnarea definitivă din 19.03.2014 este reală, dar sursele descriu doar un rol didactic în dosarul fraudării Bacalaureatului, nu o funcție politică. Nu a fost identificată o candidatură, un mandat, o funcție de partid ori o numire politică pentru această persoană. Numele parțial comun cu alte persoane publice nu permite atribuirea cazului acestora. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4108",
+      "original_name": "Arba Gavrila",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA identifică pe Arba Gavrilă în grupul de cadre didactice preuniversitare din dosarul fraudei la Bacalaureat de la Sighetu Marmației și confirmă condamnarea definitivă prin decizia penală nr. 618/25.06.2014 a Curții de Apel Cluj la 1 an cu suspendare pentru luare de mită. Calitatea documentată este cea de profesor, nu de ales, candidat ori titular al unei numiri politice. Nu a fost găsită o legătură politică verificabilă; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4109",
+      "original_name": "Arba Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA identifică pe Arba Maria între cadrele didactice preuniversitare din dosarul fraudei la Bacalaureat de la Sighetu Marmației și confirmă condamnarea definitivă prin decizia penală nr. 618/25.06.2014 a Curții de Apel Cluj la 1 an cu suspendare pentru luare de mită. Nu există în sursele consultate o candidatură, un mandat, o funcție de partid sau o numire politică atribuită acestei persoane; includerea provenea doar din rolul didactic. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4110",
+      "original_name": "Ardelean Bogdan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://bocsig.ro/wp-content/uploads/2023/02/10-HCL-octombrie.pdf"
+      ],
+      "note": "DNA identifică pe Ardelean Bogdan în grupul cadrelor didactice preuniversitare condamnate definitiv prin decizia penală nr. 618/25.06.2014 a Curții de Apel Cluj la 1 an cu suspendare pentru luare de mită în dosarul fraudei la Bacalaureat de la Sighetu Marmației. Nu există dovadă de candidatură, mandat sau rol de partid pentru profesorul din Maramureș. Consilierul local omonim Ardelean Bogdan din Bocsig, județul Arad, este o asociere nesigură și nu trebuie să preia condamnarea. Profilul bazat numai pe rolul didactic este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4111",
+      "original_name": "Aurel Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3840",
+        "https://www.gds.ro/Local/2013-01-29/Craiova-Infirmiera-de-la-Spitalul-Militar-care-lua-bani-pentru-angajari-condamnata-definitiv-la-inchisoare/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a inculpatei Aurel Elena, salariat civil și infirmieră la Spitalul Militar Craiova, la 2 ani și 6 luni cu executare pentru trafic de influență în formă continuată. Presa locală îi confirmă aceeași identitate și activitate profesională. Nu este documentată nicio candidatură, funcție de partid, calitate de ales sau numire politică. Dosarul penal real nu justifică includerea ca politician; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4112",
+      "original_name": "Avram Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4136",
+        "https://www.primariapn.ro/fisiere/hcl/decembrie2006/anexa_3_426_2006.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Avram Elena, referent superior în Direcția Taxe și Impozite a Consiliului Local Piatra Neamț, prin decizia nr. 614/31.05.2013 la 2 ani cu suspendare condiționată pentru abuz în serviciu. Anexa oficială a organigramei din 2006 identifică AVRAM ELENA în compartimentul fiscal cu grad profesional referent superior, nu ca membră aleasă a consiliului. Nu a fost găsită o candidatură, un mandat, o funcție de partid sau o numire politică. Profilul administrativ este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4113",
+      "original_name": "Avram Marilena Ancuta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4903",
+        "https://www.bursa.ro/asistent-medical-la-biroul-de-medicina-muncii-pitesti-urmarit-penal-de-dna-62475918"
+      ],
+      "note": "Comunicatul DNA confirmă condamnarea definitivă din 08.05.2014 a lui Avram Marilena Ancuța, fost asistent medical la Biroul de Medicina Muncii Pitești, la 3 ani închisoare pentru trafic de influență continuat; identitatea profesională este consemnată și în comunicarea despre anchetă. Nu există în dovezile identificate o candidatură, un mandat, rol de partid ori numire politică. Interzicerea dreptului de a fi aleasă ca pedeapsă accesorie nu dovedește că a ocupat o funcție electivă. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4114",
+      "original_name": "Bacanu Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3215",
+        "https://www.telegrafonline.ro/sentinta-in-dosarul-fraudarii-concursurilor-de-promovare-in-mapn"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 117/23.04.2012 a ÎCCJ a lui Băcanu Mircea, maistru militar la UM 01643 Pitești, la 10 luni cu suspendare pentru complicitate la trafic de influență în dosarul fraudării concursurilor din MApN. Nicio sursă consultată nu documentează pentru acesta o candidatură, un mandat, o funcție de partid sau o numire politică. Statutul militar nu echivalează cu funcție politică; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4115",
+      "original_name": "Balan Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_vrancea/consiliul-local/dumitresti/3"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia penală nr. 143/21.05.2012 a ÎCCJ a caporalului Bălan Cristian de la UM 01270 Focșani la 1 an și 6 luni cu suspendare pentru cumpărare de influență. În Vrancea apare și un candidat PNL Cristian Bălan la Consiliul Local Dumitrești în 2024, precum și un candidat Cristian-Emanuel Bălan la parlamentare, dar nu există o dovadă că vreunul este caporalul condamnat. Asocierea dosarului penal cu un politician omonim ar fi nesigură. Profilul militar, fără legătură politică verificată, este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4116",
+      "original_name": "Baltac George - Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2665",
+        "https://web.justitie-ag.ro/ca_pit/ca_app/dosar_detalii.asp?id_dosar=4600000000027930"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Băltac George-Claudiu, grefier arhivar la Tribunalul Comercial Argeș, la 3 ani închisoare în regim de detenție pentru instigare la trafic de influență. Evidența instanței confirmă dosarul penal și aceeași identitate. Nu a fost găsită o candidatură, un mandat, o funcție de partid ori o numire politică. Funcția de grefier nu este politică; profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4117",
+      "original_name": "Barbu Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://www.dna.ro/comunicat.xhtml?id=2035"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia nr. 3550/14.11.2013 a lui Barbu Marin, profesor supraveghetor în comisia de Bacalaureat de la Podu Turcului, județul Bacău, la 2 ani cu suspendare pentru luare de mită. Profilul atribuia greșit complicitatea la trafic de influență, faptă a altui inculpat. Nu este documentată o candidatură, un mandat, o funcție de partid ori o numire politică a profesorului; persoane omonime din alte județe nu pot fi asociate cu condamnarea. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4118",
+      "original_name": "Bardan Marinela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5146",
+        "https://www.gorjeanul.ro/investigatii/primarul-si-salariati-ai-primariei-borascu-martori-cu-mandat/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă prin decizia nr. 210/03.07.2014 a lui Bardan Marinela, referentă în Serviciul Cadastru al Primăriei Târgu Jiu, la 1 an și 4 luni cu suspendare pentru abuz în serviciu continuat și fals material în înscrisuri oficiale. Rolul documentat este administrativ, nu de ales local; interdicția accesorie de a fi aleasă nu dovedește un mandat. Nu a fost identificată o candidatură, o funcție de partid sau o numire politică. Profilul este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4119",
+      "original_name": "Bendel (Kosa) Timea Marta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-19",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA confirmă că Bendel (Kosa) Timea Marta era cadru didactic preuniversitar în dosarul fraudei la Bacalaureat din Sighetu Marmației și a fost condamnată definitiv prin decizia nr. 618/25.06.2014 a Curții de Apel Cluj la 1 an cu suspendare pentru luare de mită. Nicio sursă consultată nu indică un mandat, o candidatură, un rol de partid sau o numire politică. Profilul bazat doar pe statutul de profesor este exclus și ascuns.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4120",
+      "original_name": "Biro Andreea Elena",
+      "current_name": "Biro Andreea Elena",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "extended",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.emaramures.ro/candidati-sighetu-marmatiei-alegeri-2012-lista-completa-a-candidatilor-la-primaria-si-consiliul-local-sighetu-marmatiei/"
+      ],
+      "note": "DNA confirmă condamnarea cadrului didactic pentru luare de mită. Numele complet apare și pe lista UDMR pentru Consiliul Local Sighetu Marmației, dar identitatea comună nu este demonstrată; nu atribuim condamnarea candidatei și păstrăm profilul ascuns.",
+      "reviewed_snapshot_hash": "e6af51a3f6a6d01dbcdda3a98edfa6a3592b415c19035803d2ffc26512f342de"
+    },
+    {
+      "profile_id": "RV-4121",
+      "original_name": "Boghiu Viorica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://taranista.wordpress.com/rezistenta-pntcd/mesaje-si-atitudini/atitudini/semnatari-comunicat-membrii-pntcd-se-delimiteaza-de-aurelian-pavelescu/"
+      ],
+      "note": "DNA confirmă condamnarea bibliotecarei/fostei inspectoare școlare din Bacău, nu un mandat politic. O omonimă PNȚCD este listată ca ingineră din Brașov; nu există bază pentru atribuirea condamnării acesteia. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4122",
+      "original_name": "Borodi Simona Lenuta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA o identifică drept cadru didactic preuniversitar condamnat pentru luare de mită în dosarul BAC Sighet. Nu am găsit mandat, candidatură sau alt rol politic verificabil; profilul nu aparține registrului politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4123",
+      "original_name": "Bortea Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4653",
+        "https://www.dna.ro/comunicat.xhtml?id=724"
+      ],
+      "note": "DNA îl identifică pe Borțea Constantin ca expert contabil, fără funcție politică verificabilă. Profilul îi atribuia greșit infracțiunile și textul despre coinculpatul Constantinescu Marin; se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4124",
+      "original_name": "Botez Nelu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3690",
+        "https://www.ziaruldevrancea.ro/special/educatie/85960-mita-la-bac-d%C4%83uneaz%C4%83-grav-libert%C4%83%C5%A3ii%3A-cum-s-au-%C3%AEmp%C4%83r%C5%A3it-pedepsele-pentru-%E2%80%9E%C5%9Fpaga-la-bac%E2%80%9D-din-2008.html"
+      ],
+      "note": "DNA și presa locală îl identifică drept profesor de educație fizică la liceul din Adjud, condamnat în dosarul BAC. Nu există un rol politic verificabil; se elimină din registru.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4125",
+      "original_name": "Bucoveanu Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4059",
+        "https://adevarul.ro/stiri-locale/slobozia/gheorghe-bodeanu-trimis-in-judecata-pentru-o-1355921.html"
+      ],
+      "note": "DNA confirmă că Bucoveanu Ștefan era evaluator CECCAR condamnat în dosarul bancar, nu titular al unui rol politic verificabil. Eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4126",
+      "original_name": "Bujor Marius Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA îl identifică în grupul cadrelor didactice preuniversitare condamnate pentru luare de mită în dosarul BAC Sighet. Nu există rol politic verificabil; profilul nu aparține registrului.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4127",
+      "original_name": "Burtica Marin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5051",
+        "https://romanialibera.ro/special/fostul-sef-al-directiei-de-finante-bistrita-condamnat-definitiv-la-inchisoare-pentru-coruptie-339954/"
+      ],
+      "note": "DNA confirmă că Burtică Marin era cadru didactic universitar, fără rol politic dovedit. Pedeapsa reală este amendă penală de 1.000 lei cu suspendarea executării, nu 10 luni închisoare cum figura în profil. Se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4128",
+      "original_name": "Ciobanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://adevarul.ro/stiri-locale/bacau/condamnari-in-masa-in-dosarul-bacului-corupt-de-1453346.html"
+      ],
+      "note": "DNA identifică persoana condamnată ca profesor la Școala Mihail Sadoveanu din Bacău, pentru complicitate la cumpărare de influență, nu cumpărare. Există politicieni omonimi în alte județe, fără legătură dovedită cu acest dosar. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4130",
+      "original_name": "Ciuteanu Alexandra-Madalina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4574",
+        "https://www.dna.ro/comunicat.xhtml?id=1932"
+      ],
+      "note": "DNA o identifică drept funcționar/consilier vânzări CEC Bank Râmnicu Vâlcea, nu persoană cu mandat politic. Infracțiunile din decizia definitivă sunt complicitate la înșelăciune și instigare la fals în înscrisuri sub semnătură privată, nu genericul «fapte de corupție». Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4131",
+      "original_name": "Codrea Emilia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.liceulucrainean.ro/wp-content/uploads/2023/08/Decizii-comisie-de-concurs-si-contestatii-concurs-Secretar-1.pdf"
+      ],
+      "note": "DNA o identifică drept cadru didactic condamnat pentru luare de mită în dosarul BAC Sighet; documentele liceului o identifică drept profesoară de limba ucraineană. Nu există rol politic verificabil; se elimină din registru.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4132",
+      "original_name": "Constantinescu Anca Constantina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4748",
+        "https://doc.pmb.ro/monitorul_oficial/2005/mai_2005/volumul_2.pdf"
+      ],
+      "note": "DNA identifică persoana ca fost referent la Primăria Sectorului 6, o funcție administrativă. Interdicția de a fi aleasă este pedeapsă accesorie și nu dovedește un mandat ales; nu s-a găsit funcție politică. Profilul era încadrat eronat local_official și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4133",
+      "original_name": "Constantinescu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3690",
+        "https://www.colegiulbotta.ro/profesori/"
+      ],
+      "note": "DNA identifică persoana condamnată drept profesor de istorie la liceul Emil Botta din Adjud, pentru complicitate la luare și dare de mită în dosarul BAC. Există politicieni omonimi în alte localități, fără dovadă de identitate comună. Profilul nepolitic este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4134",
+      "original_name": "Cornoiu Ilie",
+      "current_name": "Cornoiu Ilie",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5728",
+        "https://cjcluj.ro/cladire-turn-complex-sportiv-proiect-blocat/",
+        "https://gazetadecluj.ro/sedinta-cu-scantei-la-cj-cluj/"
+      ],
+      "note": "DNA îl identifică explicit ca profesor universitar și consilier județean Cluj la data faptelor și confirmă sentința definitivă. CJ Cluj și presa locală confirmă afilierea PRM. Funcția și partidul au fost corectate; datele juridice sunt confirmate.",
+      "reviewed_snapshot_hash": "c1ae52d4158a4a5143d0452b839928420759f68379fc0feef1527a5e026f6b7c"
+    },
+    {
+      "profile_id": "RV-4135",
+      "original_name": "Coroian - Maris Sandu Matei",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.emaramures.ro/update-mita-la-bac-lista-completa-a-profesorilor-si-elevilor-trimisi-in-judecata-sighet-patroana-liceului-george-pop-de-basesti-directoarea-filialei-din-sighe/"
+      ],
+      "note": "DNA identifică persoana în grupul cadrelor didactice preuniversitare condamnate pentru luare de mită în dosarul BAC Sighet; nu am găsit rol politic verificabil. Profilul este în afara domeniului politic și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4136",
+      "original_name": "David Spiru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4487",
+        "https://adevarul.ro/stiri-interne/evenimente/primari-patroni-si-directori-pe-lista-spagarilor-1153928.html"
+      ],
+      "note": "DNA îl identifică pe David Spiru drept profesor asistent la Bacalaureat, condamnat pentru luare de mită, nu pentru complicitate la trafic de influență. Fusese director școlar în Stănișești, fără mandat politic verificat; se elimină din registru.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4137",
+      "original_name": "Diaconu Adriana-Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3690",
+        "https://www.colegiulbotta.ro/profesori/"
+      ],
+      "note": "DNA o identifică drept profesoară de informatică la liceul Emil Botta din Adjud, condamnată pentru complicitate la luare și dare de mită în dosarul BAC. Liceul confirmă rolul didactic; nu există rol politic verificabil. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4138",
+      "original_name": "Dimcia Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2876",
+        "https://www.dna.ro/comunicat.xhtml?id=633"
+      ],
+      "note": "DNA îl identifică drept angajat al Administrației Finanțelor Publice Medgidia, fără rol politic verificabil. Pedeapsa lui era 2 ani cu suspendare sub supraveghere, nu 3 ani (aceea aparține coinculpatului Ion Gheorghe); infracțiunile erau abuz în serviciu, complicitate la evaziune fiscală și fals intelectual. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4139",
+      "original_name": "Din Dragos",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265"
+      ],
+      "note": "DNA îl identifică pe Dragoș Din drept maistru militar la Centrul de Medicină Preventivă al Ministerului Apărării, condamnat definitiv pentru mai multe infracțiuni. Nu există candidatură, mandat sau alt rol politic verificabil; profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4140",
+      "original_name": "Dobre Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.cicnet.ro/content/munteni-buzau"
+      ],
+      "note": "DNA identifică persoana condamnată ca profesoară în dosarul BAC Sighet, pentru luare de mită. Consilierii locali numiți Maria Dobre din alte județe nu pot fi legați de această persoană doar pe baza numelui. Fără rol politic verificat, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4141",
+      "original_name": "Dobrea Lucia Raluca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4769"
+      ],
+      "note": "DNA o identifică drept fostă angajată DGASPC Galați, condamnată definitiv la 3 ani pentru spălare de bani, fals și participație improprie la neglijență în serviciu. Interdicția de a fi aleasă nu dovedește un mandat sau o candidatură; niciun rol politic nu este identificat. Profilul este în afara domeniului registrului și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4142",
+      "original_name": "Draghici Iuliana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4522"
+      ],
+      "note": "DNA o identifică drept angajată a Spitalului Județean de Urgență Buzău și confirmă condamnarea definitivă pentru trafic de influență. Funcția de angajat al spitalului nu este rol politic, iar căutarea nu a identificat mandat ori candidatură atribuibilă aceleiași persoane. Profil eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4143",
+      "original_name": "Dragos Olina Ramona Bianca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2155",
+        "https://www.dna.ro/comunicat.xhtml?id=847"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 1 an închisoare cu suspendare pentru luare de mită (nu doar categoria generică fapte de corupție). Persoana era funcționar la Inspectoratul Regional pentru Protecția Consumatorilor Satu Mare, nu politician. Fără mandat sau candidatură identificată, profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4144",
+      "original_name": "Dulfu Ioan Stefan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA îl identifică printre cadrele didactice preuniversitare condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet. Nu există mandat sau candidatură politică verificată; profilul este în afara domeniului. Infracțiunea din profil era descrisă generic, dar sursa oficială o precizează.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4145",
+      "original_name": "Dumescu Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5051",
+        "https://www.uvvg.ro/docs/Facultati/cv_profesori/facultate_economice/Dumescu_Florin.pdf"
+      ],
+      "note": "DNA identifică persoana drept decan al Facultății de Științe Economice din Arad, nu politician, și stabilește 1 an și 3 luni închisoare cu suspendare pentru fals material în înscrisuri oficiale; profilul afișa greșit 1 an. CV-ul universitar confirmă parcursul academic/administrativ; fără mandat ori candidatură politică verificată, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4146",
+      "original_name": "Dunca Viorica Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA o enumeră printre cadrele didactice preuniversitare condamnate definitiv la 1 an închisoare cu suspendare pentru luare de mită în dosarul BAC Sighet. Profilul nota generic fapte de corupție. Nu s-a identificat funcție electivă ori candidatură politică; se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4147",
+      "original_name": "Enache Daniel Teodor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3620",
+        "https://slibacau.ro/contact/"
+      ],
+      "note": "DNA îl identifică profesor la Grupul Școlar Al. Vlahuță din Podu Turcului, condamnat definitiv la 10 luni cu suspendare pentru complicitate la trafic de influență. Profilul afișa eronat 1 lună și avea detalii trunchiate. Contactul sindicatului școlar confirmă activitatea în învățământ, nu un rol politic. Fără mandat/candidatură verificată, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4148",
+      "original_name": "Fianu Iverica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4997"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 3 ani cu suspendare pentru luare de mită și fals intelectual, identificând-o drept fostă funcționară cu atribuții de control la DGFP Argeș. Funcția administrativă nu este una politică; nu s-a identificat mandat sau candidatură atribuibilă aceleiași persoane. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4149",
+      "original_name": "Galan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_bistrita-nasaud/consiliul-local/salva/"
+      ],
+      "note": "DNA identifică persoana condamnată ca plutonier major la UM 01331 Bistrița-Năsăud, cu 1 an și 2 luni suspendare pentru complicitate la trafic de influență, nu cumpărare de influență cum afișa profilul. Există un candidat PMP omonim la Salva în 2020, dar nu este demonstrat că este militarul condamnat. Pentru a evita atribuirea condamnării unui omonim, profilul public se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4150",
+      "original_name": "Grijac Rebeca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1054"
+      ],
+      "note": "DNA o identifică printre cadrele didactice preuniversitare din dosarul BAC Sighet, condamnate definitiv la 1 an cu suspendare pentru luare de mită, nu doar categoria generică fapte de corupție. Nu s-a identificat mandat/candidatură politică; un eventual rol de membru al unui birou electoral nu ar constitui singur funcție politică. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4151",
+      "original_name": "Horvath Ileana Jupit",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1054"
+      ],
+      "note": "Profilul conținea prenumele greșit Jupit; comunicatul DNA privind trimiterea în judecată și lista confiscărilor din hotărârea definitivă indică Horvath Ileana Judit. Persoana este cadru didactic condamnat definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet, fără mandat sau candidatură politică verificată. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4153",
+      "original_name": "Ilies Alina Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA o enumeră pe Ilieș Alina Maria între cadrele didactice condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet. Infracțiunea din profil era descrisă doar generic. Nu am găsit mandat sau candidatură politică atribuibilă aceleiași persoane; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4155",
+      "original_name": "Ion Viorel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4908",
+        "https://www.viata-libera.ro/educatie/28872-afacerea-curcan-si-cas-la-bacalaureat-cei-doi-profesori-si-au-prezentat-demisia",
+        "https://www.sport.ro/liga-2/viorel-ion-suspendat-de-frf-pentru-pariuri-va-fi-viceprimar-al-buzaului-si-se-va-ocupa-de-echipa-din-liga.html"
+      ],
+      "note": "DNA identifică condamnatul drept profesor de matematică și fost director adjunct la Liceul Dunărea Galați, cu 7 luni suspendare. Un politician omonim, Viorel Ion, este fost fotbalist/antrenor și consilier local la Buzău; nu este justificată atribuirea condamnării profesorului către politician. Profilul fără rol politic verificat se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4156",
+      "original_name": "Ionescu Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3621"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 1 an închisoare cu suspendare sub supraveghere pentru dare de mită, nu doar fapte de corupție generic. Persoana este asistentă medicală la Spitalul Județean Galați, fără funcție politică ori candidatură verificată. Profilul se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4157",
+      "original_name": "Iordache Florica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-20",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4693",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7\\u0026nrcrt=21"
+      ],
+      "note": "DNA identifică persoana condamnată drept Iordache Florică, bărbat și fost funcționar al arhivei Tribunalului Militar Teritorial București, condamnat definitiv la 9 ani. Profilul pierdea diacritica și putea fi confundat cu persoane numite Florica Iordache din sfera electorală. Niciun rol politic al funcționarului nu este verificat; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4158",
+      "original_name": "Iuga Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA îl enumeră pe Iuga Ion între cadrele didactice preuniversitare condamnate definitiv la 1 an închisoare cu suspendare pentru luare de mită în dosarul BAC Sighet. Profilul descria infracțiunea doar generic. Sursele găsite îl plasează în învățământ, fără mandat ori candidatură politică verificată; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4159",
+      "original_name": "Iuhos Emese",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://maszol.ro/belfold/Tanari-szigor-amiert-sok-diak-halas-lehet"
+      ],
+      "note": "DNA o enumeră pe Iuhos Emese între cadrele didactice preuniversitare condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet. O sursă recentă o identifică drept profesoară de biologie la Liceul Leőwey Klára; nu există mandat sau candidatură politică verificată. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4160",
+      "original_name": "Kiss Cristina Rita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.isjmm.ro/download/curriculum/2023-2024-curriculum/limbi-moderne/Gimnaziu_Sighet.pdf"
+      ],
+      "note": "DNA o enumeră pe Kiss Cristina Rita între cadrele didactice condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet; profilul folosea doar categoria generică. Documentul ISJ Maramureș confirmă activitatea didactică la Școala George Coșbuc, fără rol politic verificat. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4161",
+      "original_name": "Lazar Lucian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://ltforestier.ro/personal-didactic/"
+      ],
+      "note": "DNA îl enumeră pe Lazăr Lucian între cadrele didactice condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet. Site-ul Liceului Tehnologic Forestier Sighet confirmă activitatea didactică. Nu s-a identificat un mandat sau o candidatură politică pentru aceeași persoană; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4162",
+      "original_name": "Legmiller Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140"
+      ],
+      "note": "DNA consemnează numele cu variantele Legmiler/Legmiller Maria în același comunicat și confirmă că este cadru didactic condamnat definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet. Nu s-a identificat rol politic verificabil; profilul se elimină, iar variația de ortografie este consemnată în audit.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4163",
+      "original_name": "Lucaci Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1947",
+        "https://www.zhd.ro/diverse/inca-un-incompatibil-fost-consilier-local-la-pui-acuzat-ca-a-facut-afaceri-cu-primaria/"
+      ],
+      "note": "DNA îl identifică pe condamnat ca referent la AFP Dej și enumeră, pe lângă abuz în serviciu, falsuri și sustragere/distrugere de înscrisuri; profilul era incomplet. Există persoane politice omonime în alte județe, inclusiv un fost consilier local din Hunedoara, fără dovadă că sunt referentul din Dej. Pentru a evita o atribuire eronată, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4164",
+      "original_name": "Malureanu Alina Andreea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4997",
+        "https://jurnaluldearges.ro/lichidatoarea-doinita-romanescu-a-fost-denuntata-la-dna-de-un-patron-muscelean-9319/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Alinei Andreea Mălureanu la 3 ani cu suspendare pentru luare de mită și fals intelectual, ca fostă funcționară DGFP Argeș. Profilul omitea diacritica din nume. Nu s-a identificat mandat sau candidatură politică; activitatea administrativă ulterioară nu justifică includerea. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4165",
+      "original_name": "Mandu Daniel Paul",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1109"
+      ],
+      "note": "DNA îl identifică drept fost funcționar/inginer de sistem la SPCRPCIV Argeș și confirmă condamnarea definitivă la 3 ani cu executare pentru constituirea unui grup infracțional organizat și complicitate la trafic de influență. Profilul avea infracțiunea generică și detalii trunchiate. Fără rol politic verificat, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4166",
+      "original_name": "Marcovici Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483"
+      ],
+      "note": "DNA îl identifică drept sergent angajat și confirmă definitiv 2 ani și 6 luni cu suspendare sub supraveghere pentru luare de mită, asociere și complicitate la furt calificat. Sursa nu indică mandat/candidatură politică, iar interdicția de a fi ales este doar pedeapsă complementară. Profilul se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4167",
+      "original_name": "Maris Valentin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5052",
+        "https://www.dna.ro/comunicat.xhtml?id=4067"
+      ],
+      "note": "DNA îl identifică pe Mariș Valentin drept fost pădurar al Direcției Silvice Cluj și confirmă definitiv 2 ani și 4 luni cu suspendare pentru dare de mită; profilul folosea doar categoria generică «fapte de corupție». Nu s-a identificat mandat ori candidatură politică pentru această persoană. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4168",
+      "original_name": "Matei Monica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2830"
+      ],
+      "note": "DNA o identifică pe Monica Matei drept referent de specialitate/cadastru în Primăria Păulești și confirmă definitiv 3 ani cu suspendare. Profilul rezuma incomplet faptele, omițând sustragerea de înscrisuri și falsul sub semnătură privată. Nu s-a identificat un mandat ales, o candidatură sau o funcție politică; simpla calitate de angajat al primăriei nu justifică includerea. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4169",
+      "original_name": "Matusca Adriana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.liceulgeorgepopdebasesti.ro/Sighetu-Marmatiei/2"
+      ],
+      "note": "DNA o consemnează ca Matușca Adriana între cadrele didactice condamnate definitiv la 1 an cu suspendare pentru luare de mită în dosarul BAC Sighet; profilul nu avea diacritice și folosea categoria generică «fapte de corupție». Site-ul liceului confirmă activitatea didactică, fără rol politic verificat. Profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4170",
+      "original_name": "Miel Nelu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.ccdmaramures.ro/download2023/anunt_curs_inspectia_scolara_3noi2022.pdf"
+      ],
+      "note": "DNA confirmă definitiv condamnarea lui Nelu Miel, cadru didactic preuniversitar, la 1 an cu suspendare pentru luare de mită, după ce achitarea din primă instanță a fost schimbată; profilul folosea doar categoria generică. Documentul oficial al Casei Corpului Didactic Maramureș îl identifică drept profesor de educație fizică la Colegiul Pedagogic din Sighet. Fără rol politic verificat, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4171",
+      "original_name": "Mitrofan Toader",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1901",
+        "https://www.dna.ro/comunicat.xhtml?id=1199"
+      ],
+      "note": "DNA îl identifică drept lucrător vamal la Biroul Vamal Fălciu și consemnează pedeapsa de 1 an și 4 luni cu suspendare pentru abuz în serviciu cu avantaj patrimonial. Profilul avea infracțiunea generică, detaliile trunchiate și prezenta sentința Judecătoriei Murgeni drept definitivă deși comunicatul citat nu precizează acest lucru. Nu s-a identificat rol politic; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4172",
+      "original_name": "Moise Nicoleta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.ziaruldevrancea.ro/special/educatie/69866-noi-audieri-%C3%AEn-dosarul-%E2%80%9C%C5%9Fpaga-la-bac%E2%80%9D%3A-fosta-inspectoare-vica-minc%C4%83-vindea-notele-de-10-cu-400-de-lei.html"
+      ],
+      "note": "DNA confirmă definitiv condamnarea Nicoletei Moise, fost profesor la Colegiul Tehnic Valeriu D. Cotea Focșani, la 3 ani cu suspendare pentru trafic de influență, cumpărare de influență, luare de mită și dare de mită. Profilul avea infracțiunea generică și detalii trunchiate; presa locală consemnează și numele anterior Sfetcu. Nu s-a identificat rol politic verificat, astfel profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4173",
+      "original_name": "Negoita Camelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4908",
+        "https://www.isj.gl.edu.ro/html/sub_organigrama/2009-2010/Organi_nominal.htm"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Cameliei Negoiță, profesor de fizică și fost inspector școlar de specialitate la ISJ Galați, la 1 an cu suspendare pentru luare de mită. Profilul folosea infracțiunea generică și avea descrierea trunchiată; organigrama oficială confirmă funcția administrativ-didactică, nu una politică. Fără mandat sau candidatură verificată, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4174",
+      "original_name": "Negrea Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2918",
+        "https://www.dna.ro/comunicat.xhtml?id=401",
+        "https://www.bailii.org/eu/cases/ECHR/2011/1786.html"
+      ],
+      "note": "Sursele oficiale și hotărârea CEDO identifică persoana complet ca Vasile Eugen Negrea, funcționar/referent la Control Fiscal DGFP Mureș; DNA confirmă condamnarea la 3 ani cu executare pentru luare de mită în formă continuată. Profilul abrevia numele, creând risc de confuzie cu numeroși omonimi. Nu s-a identificat mandat sau candidatură politică pentru aceeași persoană; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4175",
+      "original_name": "Nemes Ileana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.scoalamihalyi.ro/old/documente/scoala_altfel_program_2012.pdf"
+      ],
+      "note": "DNA consemnează forma corectă Nemeș Ileana și confirmă definitiv 1 an cu suspendare pentru luare de mită, ca profesor preuniversitar; profilul nu avea diacritice și folosea categoria generică «fapte de corupție». Un document al Școlii Dr. Ioan Mihalyi de Apșa confirmă activitatea didactică. Nu s-a identificat rol politic verificat; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4176",
+      "original_name": "Nistor Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5529",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_mures/consiliul-local/batos/1"
+      ],
+      "note": "DNA confirmă definitiv că tehnicianul silvic Vasile Nistor de la Direcția Silvică Târgu Mureș a primit 1 an cu suspendare pentru luare de mită în formă continuată; profilul avea infracțiunea generică și detalii trunchiate. Există un candidat AUR omonim la Batoș în 2024, dar nicio sursă nu leagă identitățile. Pentru a evita atribuirea condamnării unui omonim și deoarece funcția silvică nu este politică, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4177",
+      "original_name": "Nita (Poenaru) Adina Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265"
+      ],
+      "note": "DNA consemnează forma corectă Niță (fostă Poenaru) Adina Elena, sergent la UM 01357 București, și condamnarea definitivă la 1 an și 6 luni cu suspendare pentru cumpărare de influență. Profilul omitea diacritica și formula corectă a numelui anterior. Nu s-a identificat mandat sau candidatură politică; profilul militar este în afara domeniului și se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4178",
+      "original_name": "Panzariu Constantin",
+      "current_name": "Pânzariu Constantin",
+      "decision": "corrected",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3635",
+        "https://www.cjbotosani.ro/files/Proiecte_de_hotarari/PH232_20251127.pdf"
+      ],
+      "note": "Numele, județul și perioada fac posibilă identitatea cu fostul consilier județean FSN publicat de CJ Botoșani, însă sursele nu oferă un identificator comun care să lege sigur alesul de medicul veterinar condamnat. Datele juridice au fost completate din hotărârea definitivă DNA, iar profilul este păstrat numai ascuns până la o confirmare nominală independentă.",
+      "reviewed_snapshot_hash": "c32709595721130c0788f38f634b01db36e75cfe2b592099fd0e7b352c0ead49"
+    },
+    {
+      "profile_id": "RV-4179",
+      "original_name": "Paraschiv Gabi",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2872",
+        "https://romanialibera.ro/special/doi-functionari-ai-primariei-bucuresti-condamnati-la-inchisoare-222840/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Gabi Paraschiv, referent la SC Apolodor SRL, la 4 ani cu executare pentru trafic de influență. Relatările despre legătura dosarului cu un consilier juridic al Primăriei Capitalei nu îi conferă lui Paraschiv un mandat ori o candidatură politică. Nu s-a identificat un rol politic propriu; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4180",
+      "original_name": "Patrasc Gigel Rafael",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.taxeimpozite4.ro/wp-content/uploads/2024/01/Anunt-colectiv-PF.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a sergentului angajat Gigel-Rafael Pătrașc la 2 ani și 6 luni cu suspendare pentru dare de mită, asociere și complicitate la furt calificat. O sursă administrativă recentă confirmă ortografia Pătrașc Gigel-Rafael și legătura cu Bucureștiul, dar nu indică vreun rol politic. Profilul militar se elimină din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4181",
+      "original_name": "Patrascanu Dan-Mircea",
+      "current_name": "Pătrășcanu Dan-Mircea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4431",
+        "https://poduturcului.ro/administratie/transparenta/declaratii-de-avere-si-interese/declaratii-consiliul-local/",
+        "https://poduturcului.ro/continut/fisiere/2020/11/PATRASCANU-M.-DAN-MIRCEA.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/primarie/podu-turcului/5"
+      ],
+      "note": "Sursele nominale din Podu Turcului confirmă că Dan-Mircea Pătrășcanu este consilier local și a candidat Pro România la primărie în 2020; declarația oficială îl identifică drept administrator al SC Digcom Construct. DNA confirmă condamnarea definitivă la 2 ani cu suspendare pentru trafic de influență. Profilul era clasificat eronat ca independent și persoană fără calitate politică; numele, partidul, funcția și localitatea au fost corectate.",
+      "reviewed_snapshot_hash": "304bca9141bb8a1f0eaf41ed85b708649a42db884ba31ce3bc632ba2a25ec73e"
+    },
+    {
+      "profile_id": "RV-4182",
+      "original_name": "Paul Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5536",
+        "https://www.dna.ro/comunicat.xhtml?id=2997"
+      ],
+      "note": "DNA îl identifică pe Paul Ioan drept operator de traseu la sectorul Satu Mare al SC Transgaz SA și confirmă condamnarea definitivă la 1 an cu suspendare condiționată pentru dare de mită. Profilul folosea eticheta juridică generică Fapte de corupție și nu există în sursele cauzei vreun mandat, partid sau candidatură politică. Profilul profesional, nepotic, se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4183",
+      "original_name": "Pesek Szilard Zoltan",
+      "current_name": "Pesek Szilárd-Zoltán",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://maramedia.ro/sighetu-marmatiei-kokenyesdi-mihai-stefan-este-noul-consilier-local-din-partea-udmr-sighet/",
+        "https://rmdsz.ro/aktualis/hirek/24-szemelynek-adott-ezustfenyo-dijat-az-rmdsz"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 1 an cu suspendare pentru luare de mită, nu eticheta generică din profil. Sursele nominale confirmă că Pesek Szilárd-Zoltán a fost consilier local al municipiului Sighetu Marmației până în iunie 2011 și este activ în organizația UDMR. Au fost corectate numele, partidul, funcția politică, localitatea și infracțiunea.",
+      "reviewed_snapshot_hash": "875333467bf26153fd43014f8d61896eabc4508752ab9bc967ad78ba13b1f286"
+    },
+    {
+      "profile_id": "RV-4184",
+      "original_name": "Petean Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1913",
+        "https://www.mediafax.ro/justitie/primarul-comunei-clujene-jucu-trimis-in-judecata-887145"
+      ],
+      "note": "DNA confirmă că Ioan Petean era inginer agronom și membru al Comisiei locale de fond funciar din Jucu, nu membru al Consiliului local, și că a fost condamnat definitiv la 3 ani cu executare pentru luare de mită. Profilul transforma greșit comisia administrativă în Consiliu local și folosea o infracțiune generică. Neexistând mandat sau candidatură politică, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4185",
+      "original_name": "Petrovai Petru Carol",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA îl identifică pe Petru Carol Petrovai drept cadru didactic preuniversitar și confirmă condamnarea definitivă la 1 an cu suspendare pentru luare de mită în dosarul fraudării bacalaureatului din Sighetu Marmației. Căutarea nominală nu a identificat un mandat, o candidatură sau o funcție de partid; rezultatele independente confirmă doar identitatea profesională. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4186",
+      "original_name": "Pisuc Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp",
+        "https://www.graiul.ro/2017/05/26/sindicalistii-din-invatamant-si-au-ales-liderii/"
+      ],
+      "note": "DNA și relatarea nominală a trimiterii în judecată îl identifică pe Mihai Pisuc drept cadru didactic preuniversitar și confirmă condamnarea definitivă la 1 an cu suspendare pentru luare de mită. Sursele ulterioare îl arată ca învățător și reprezentant sindical în educație, nu ca ales, candidat sau titular al unei funcții de partid. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4187",
+      "original_name": "Pop Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA confirmă că Mihaela Pop din această cauză era cadru didactic preuniversitar și a primit definitiv 1 an cu suspendare pentru luare de mită. Numele este foarte comun, iar rezultatele nominale din Maramureș aparțin mai multor persoane și nu oferă niciun identificator care să lege profesoara condamnată de un mandat sau de o candidatură politică. Pentru a evita atribuirea condamnării unei omonime și deoarece rolul confirmat este nepotic, profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4188",
+      "original_name": "Pop S. Rodica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.emaramures.ro/update-mita-la-bac-lista-completa-a-profesorilor-si-elevilor-trimsi-in-judecata-sighet-patroana-liceului-george-pop-de-basesti-directoarea-filialei-din-sighe/"
+      ],
+      "note": "DNA consemnează forma incompletă Pop Ș. Rodica în grupul cadrelor didactice preuniversitare condamnate definitiv la 1 an cu suspendare pentru luare de mită. Numele public incomplet și foarte comun nu permite legarea sigură de nicio persoană politică, iar sursele dosarului confirmă exclusiv rolul didactic. Pentru a evita orice atribuire către o omonimă, profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4189",
+      "original_name": "Rachieru Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://www.colegiulcotea.ro/catedre-pe-specialitati/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a profesoarei de matematică Mariana Rachieru de la Colegiul Tehnic Valeriu D. Cotea din Focșani la 1 an și 6 luni cu suspendare pentru luare de mită; profilul avea infracțiunea generică și descrierea trunchiată. Pagina actuală a colegiului confirmă aceeași identitate profesională, iar căutarea nominală nu indică mandat sau candidatură politică. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4190",
+      "original_name": "Racz Petru Pavel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA îl identifică pe Petru Pavel Racz drept cadru didactic preuniversitar și confirmă condamnarea definitivă la 1 an cu suspendare pentru luare de mită în dosarul bacalaureatului de la Sighetu Marmației. Căutarea nominală și sursele administrative confirmă legătura cu Sighetu Marmației, dar nu indică mandat, partid ori candidatură politică. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4191",
+      "original_name": "Roatis Cristina Ioana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.ccdmaramures.ro/download2025/anunt_grupe_eTwinning_oct2024.pdf",
+        "https://mm.prefectura.mai.gov.ro/wp-content/uploads/sites/45/2025/05/PV-BESV-individual-03.05.2025-pt-afisare-signed.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Cristinei-Ioana Roatiș, cadru didactic preuniversitar, la 1 an cu suspendare pentru luare de mită. Sursele educaționale recente confirmă activitatea de profesor la Liceul Pedagogic Taras Șevcenko. Numirea ca locțiitor neutru într-un birou electoral în 2025 nu este o funcție politică sau reprezentare de partid; nu s-a identificat mandat ori candidatură. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4192",
+      "original_name": "Rusu Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3097",
+        "https://www.anevar.ro/images/documente/BI_nr_4_%202004.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Danielei Rusu, evaluator autorizat ANEVAR, la 3 ani și 6 luni cu executare pentru complicitate la subevaluarea intenționată a activelor SC Comalex SA Alexandria. Tabloul profesional ANEVAR confirmă activitatea de evaluator, iar sursele cauzei nu indică mandat, candidatură sau funcție de partid. Asocierea profesională nu transformă persoana într-un actor politic; profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4193",
+      "original_name": "Salajan Iuliana Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2155",
+        "https://www.dna.ro/comunicat.xhtml?id=847",
+        "https://legislatie.just.ro/Public/DetaliiDocument/114736"
+      ],
+      "note": "Sursele oficiale confirmă ortografia Sălăjan Iuliana Mariana, calitatea de funcționar cu atribuții de control la Inspectoratul Regional pentru Protecția Consumatorilor Satu Mare și condamnarea definitivă la 1 an cu suspendare pentru luare de mită. Nu s-a identificat mandat, candidatură ori funcție de partid; titulatura profesională de consilier I A nu înseamnă consilier ales. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4194",
+      "original_name": "Siman Doina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.arhiva.primaria-sighet.ro/fisiere/stiri/Anunt_colectiv_persoane_fizice_nr_36538_4.09.2018.pdf"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a cadrului didactic Șiman Doina la 1 an cu suspendare pentru luare de mită. O sursă administrativă locală indică forma completă probabilă Șiman Doina-Lenuța în Sighetu Marmației, însă nu există mandat, candidatură ori afiliere politică. Rolul confirmat este exclusiv didactic, iar profilul se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4195",
+      "original_name": "Sirbu Angela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4762",
+        "https://mru.isjvrancea.ro/utile/2023/14%20Titularizare/Documente%20publicate/Repartizare%20candidati%20inspectie%20la%20clasa%20-%20probe%20practice%20examen%202023.pdf"
+      ],
+      "note": "DNA confirmă forma corectă Angela Sîrbu, profesor de chimie la Colegiul Național Unirea din Focșani, și condamnarea definitivă la 2 ani și 6 luni cu suspendare pentru trafic de influență în formă continuată. Inspectoratul Școlar Vrancea confirmă aceeași identitate profesională în 2023. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4196",
+      "original_name": "Slavoiu Cornel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3700",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1478"
+      ],
+      "note": "DNA confirmă ortografia Slăvoiu Cornel, calitatea de plutonier major la Centrul Militar Județean Argeș și condamnarea definitivă la 2 ani cu suspendare pentru trafic de influență în formă continuată. Sursele cauzei descriu exclusiv activitatea militară și nu indică mandat, candidatură sau funcție de partid. Profilul militar, nepotic, se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4197",
+      "original_name": "Spataru Iulisca",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1054"
+      ],
+      "note": "DNA confirmă forma corectă Spătaru Iulișca, calitatea de cadru didactic preuniversitar și condamnarea definitivă la 1 an cu suspendare pentru luare de mită în dosarul fraudării bacalaureatului de la Sighetu Marmației. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4198",
+      "original_name": "Stetca Ileana Alina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA confirmă forma corectă Ștețca Ileana Alina, calitatea de cadru didactic preuniversitar și condamnarea definitivă la 1 an cu suspendare pentru luare de mită. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină. Persoana nu trebuie confundată cu Ștețca Ileana-Cristina, directoare de școală, care are alt prenume complet.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4199",
+      "original_name": "Stoianovici Genica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.pensiimaramures.ro/upload/comunicari/AlocareS8.pdf"
+      ],
+      "note": "DNA confirmă identitatea Stoianovici Genica, calitatea de cadru didactic preuniversitar și condamnarea definitivă la 1 an cu suspendare pentru luare de mită. O evidență administrativă recentă din Maramureș confirmă aceeași identitate civilă, fără vreo calitate politică. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4200",
+      "original_name": "Takacs Ferencz Zoltan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.mediafax.ro/social/dna-a-deferit-justitiei-125-de-persoane-in-cazul-fraudarii-bacalaureatului-la-sighet-3407182/amp"
+      ],
+      "note": "DNA confirmă identitatea Takacs Ferencz Zoltan, calitatea de cadru didactic preuniversitar și condamnarea definitivă la 1 an cu suspendare pentru luare de mită în dosarul fraudării bacalaureatului din Sighetu Marmației. Căutările după forma exactă și variantele cu diacritice nu indică mandat, candidatură ori funcție de partid. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4201",
+      "original_name": "Tirim Luminita-Gabriela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3621",
+        "https://adevarul.ro/stiri-locale/galati/asistentele-cercetate-in-cazul-pensionarii-unor-1253165.html"
+      ],
+      "note": "DNA și presa locală confirmă forma corectă Luminița-Gabriela Tirim, funcția de asistentă medicală la Casa Județeană de Pensii Galați și condamnarea definitivă la 1 an cu suspendare pentru dare de mită. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4202",
+      "original_name": "Tunas Loredana Aurelia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2155",
+        "https://www.dna.ro/comunicat.xhtml?id=847",
+        "https://legislatie.just.ro/Public/DetaliiDocument/114736"
+      ],
+      "note": "Sursele oficiale confirmă forma corectă Loredana Aurelia Țunaș, calitatea de funcționar cu atribuții de control la Inspectoratul Regional pentru Protecția Consumatorilor Satu Mare și condamnarea definitivă la 1 an cu suspendare pentru luare de mită. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4203",
+      "original_name": "Turba Romulus Sebastian",
+      "current_name": "Turba Romulus-Sebastian",
+      "decision": "corrected",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3586",
+        "https://primariasighisoara.ro/portal/mures/sighisoara/portal.nsf/AllByUNID/59CCDFFE9CB0ABD6C22585D00025118F//P.v.%20ramanere%20definitiva%20a%20candidaturilor%20bec%20nr.%203%20sighisoara.pdf",
+        "https://agerpres.ro/administratie/2020/10/22/noul-primar-al-sighisoarei-iulian-sirbu-doreste-sa-aduca-orasul-in-normalitate-in-primii-ani-de-mand--595905"
+      ],
+      "note": "DNA confirmă condamnarea definitivă la 8 luni cu suspendare pentru fals intelectual și uz de fals. Procesul-verbal electoral oficial confirmă candidatura lui Turba Romulus-Sebastian pe poziția 6 a listei PMP pentru Consiliul Local Sighișoara în 2020. AGERPRES confirmă că PMP a obținut un singur mandat, atribuit lui Călin Stupariu; Turba nu a fost ales. Profilul se păstrează, cu partidul și rolul politic corectate.",
+      "reviewed_snapshot_hash": "030ea684043768acb9ad6ae86e0a597656c6e25b3155491bdc4473ecde5a922a"
+    },
+    {
+      "profile_id": "RV-4204",
+      "original_name": "Vﾠida Calin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://comunaband.ro/wp-content/uploads/2020/09/Proces-verbal-ramanere-definitiva-candidaturi.pdf"
+      ],
+      "note": "DNA confirmă forma Váida Călin, cadru didactic preuniversitar în dosarul fraudării bacalaureatului de la Sighetu Marmației, condamnat definitiv la 1 an cu suspendare pentru luare de mită. Candidatul PSD omonim din comuna Band este mecanic agricol din județul Mureș și reprezintă o altă persoană. Pentru profesorul din dosarul DNA nu s-a identificat mandat, candidatură sau funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4205",
+      "original_name": "Zainea Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4059",
+        "https://legeaz.net/monitorul-oficial-82-bis-2014/hotarare-7-2014-tablou-anevar/anexa-tabloul-asociatiei-nationale-a-evaluatorilor-autorizati-din-romania-in-anul-2014"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Mihai Zainea, evaluator ANEVAR, la 3 ani și 6 luni cu suspendare pentru abuz în serviciu cu consecințe deosebit de grave. Tabloul oficial ANEVAR îl confirmă ca evaluator în Ialomița. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4206",
+      "original_name": "Balasescu Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2430",
+        "https://adrvest.ro/wp-content/uploads/2020/09/Prezentare-firma-2020.pdf"
+      ],
+      "note": "DNA confirmă forma corectă Cătălin Bălășescu, director executiv la SC Expert Consulting SRL Timișoara, și condamnarea definitivă la o lună cu suspendare pentru fals în înscrisuri sub semnătură privată. Documentarea companiei confirmă rolul privat și ieșirea sa din acționariat în 2011. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4207",
+      "original_name": "Capota Gina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2846",
+        "https://adevarul.ro/stiri-interne/evenimente/milionarul-tiberiu-vicol-inchisoare-patru-ani-si-682797.html"
+      ],
+      "note": "DNA confirmă forma corectă Gina Capotă, director administrativ la SC Mega Electric SRL Buftea, și condamnarea definitivă la 3 ani cu executare pentru fals material și complicitate la folosirea de documente false pentru obținerea de fonduri europene. Presa confirmă că purtase anterior numele Surdu. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4208",
+      "original_name": "Cirja Maria Eufrosina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4650",
+        "https://www.isjneamt.ro/site/wp-content/uploads/2021/06/Lista-cu-rezultatele-candidatilor-participanti-la-concursul-de-acordare-a-gradatiilor-de-merit-sesiunea-2021.pdf"
+      ],
+      "note": "DNA confirmă forma corectă Maria Eufrosina Cîrjă, fost contabil-șef al Colegiului Tehnic Ion Creangă din Târgu-Neamț, și condamnarea definitivă la 2 ani cu suspendare sub supraveghere pentru complicitate la schimbarea nelegală a destinației fondurilor europene. Inspectoratul Școlar Neamț o confirmă ulterior ca administrator financiar. Nu s-a identificat mandat, candidatură ori funcție de partid; profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4209",
+      "original_name": "Crisan Cristian Eusebiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4332",
+        "https://isc.gov.ro/files/2024/Autorizari/29.03.2024%20DATE%20DESCHISE%20DS.pdf"
+      ],
+      "note": "DNA confirmă forma corectă Cristian Eusebiu Crișan, director tehnic al SC Banatica Group SRL, și condamnarea definitivă la 1 an cu suspendare pentru falsuri legate de fraude cu fonduri europene. Registrul oficial ISC îl confirmă ca diriginte de șantier autorizat în Caraș-Severin. Nu s-a identificat mandat, candidatură ori funcție de partid; o mențiune electorală abreviată din Alba nu poate fi atribuită aceleiași persoane. Profilul nepotic se elimină.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4210",
+      "original_name": "Dascalu Dragos Ionut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4177",
+        "https://www.ziaruldeiasi.ro/stiri/spaga-mascata-in-imprumut--6lsi.html"
+      ],
+      "note": "DNA îl identifică pe Dascălu Dragoș Ionuț exclusiv ca director și șef al sectorului Iași la SC Viarom Construct SA, societate privată, și confirmă condamnarea definitivă din 19 iunie 2013 la 2 ani și 2 luni cu suspendare pentru cumpărare de influență, nu trafic de influență. Presa locală contemporană confirmă același rol privat. Nu s-a identificat o funcție publică, o demnitate sau o candidatură politică verificabilă; rezultatele omonime ori cu nume compuse diferite nu permit atribuirea. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4211",
+      "original_name": "Guliman Aurel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4864",
+        "https://www.dna.ro/comunicat.xhtml?id=2286",
+        "https://primariasuhaia.ro/wp-content/uploads/2024/05/PV-constatarea-ramanerii-definitive-a-candidaturilor-alegeri-09.06.2024.pdf"
+      ],
+      "note": "DNA îl identifică pe Aurel Guliman drept director general al SC EurowestRWS SRL, societate comercială privată, și confirmă dosarul și condamnarea definitivă pentru complicitate la obținerea pe nedrept de fonduri europene și fals în declarații. Nu s-a identificat vreo funcție publică sau candidatură politică a sa. Documentul electoral oficial din Suhaia îl indică pe Mihail-Aristide Guliman, nu pe Aurel Guliman, deci acel rezultat nu poate justifica includerea. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4212",
+      "original_name": "Hogas Nicolae",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4177",
+        "https://www.ziaruldeiasi.ro/stiri/spaga-mascata-in-imprumut--6lsi.html"
+      ],
+      "note": "Forma corectă este Hogaș Nicolae. DNA și presa contemporană îl identifică exclusiv drept director la SC Apopi & Blumen SRL, companie privată, și confirmă condamnarea definitivă din 19 iunie 2013 la 2 ani și 2 luni cu suspendare pentru cumpărare de influență, nu trafic de influență. Nu s-a identificat nicio funcție publică, demnitate ori candidatură politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4213",
+      "original_name": "Mitica Carmen",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3100",
+        "https://www.senat.ro/PDFIntrebari/bBB%20r%2018%2002%20mihu%202375%20a.pdf",
+        "https://www.dezvaluiri.ro/drumul-banilor-fundatiei-judetene-pentru-tineret-constanta-condusa-de-o-condamnata-pentru-coruptie/"
+      ],
+      "note": "Forma corectă este Carmen Mîtîcă, ulterior Carmen Drăghici. DNA confirmă condamnarea definitivă la 3 ani cu suspendare și rolul de secretar/coordonator de seminarii într-un proiect PHARE. Documente și presă locale confirmă ulterior funcția de președinte al Fundației Județene pentru Tineret Constanța, entitate de drept privat. Nu s-a identificat o funcție publică electivă, o demnitate sau o candidatură politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4214",
+      "original_name": "Tanasa Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2185",
+        "https://www.dna.ro/comunicat.jsp?comunicat=1242",
+        "https://nt.prefectura.mai.gov.ro/wp-content/uploads/sites/38/2020/09/NT.pdf",
+        "https://www.comunacostisa.ro/primaria/departamentele-primariei/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Tănasă Gheorghe, director tehnic al firmei private SC Danto SRL Piatra Neamț și fratele administratorului Tănasă Aurel. Există un omonim candidat Pro România la Consiliul Local Costișa în 2020, ulterior candidat AUR, iar site-ul comunei îl identifică drept șef SVSU. Sursele nu oferă identificatori care să lege în siguranță persoana condamnată de candidatul local; contextul profesional și local diferă. Pentru a evita atribuirea unei condamnări unui posibil omonim, profilul este eliminat din registrul public.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4215",
+      "original_name": "Asimionesei Ghiocel Florin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3886",
+        "https://romania.europalibera.org/amp/campanie-facebook-calin-georgescu/33225342.html",
+        "https://www.ziaruldeiasi.ro/stiri/update-primarul-chirica-strivit-de-interesele-imobiliare-ale-lui-ghiocel-asimionesei--150985.html"
+      ],
+      "note": "Numele uzual corect este Ghiocel Florin Asimionesei. DNA confirmă condamnarea definitivă la 3 ani cu suspendare pentru șantaj în formă continuată și rolul de director general al SC Delta Press Investment. Sursele ulterioare îl identifică drept om de afaceri și patron de presă, nu ales, demnitar sau candidat. Relațiile editoriale și contractuale cu actori politici nu constituie funcție politică. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4216",
+      "original_name": "Banu Laura",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2715",
+        "https://www.unpir.ro/documents/tablou/I_B_2026-03-06_1772771176.pdf",
+        "https://laurabanu.ro/echipa-noastra/"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a Laurei Banu la 2 ani cu suspendare pentru complicitate la luare de mită și calitatea de consilier juridic la o societate de lichidare. Tabloul oficial UNPIR și biografia profesională o identifică drept practician în insolvență și avocat; funcțiile juridice anterioare în instituții publice au fost profesionale, nu elective sau politice. Nu s-a identificat o candidatură ori demnitate politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4217",
+      "original_name": "Barabas Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2510",
+        "https://www.dna.ro/comunicat.xhtml?id=2520",
+        "https://www.allianztiriac.ro/ro_RO/cauta-reprezentant-vanzari/BarabasMarius.html"
+      ],
+      "note": "Forma corectă este Marius Barabaș. DNA confirmă condamnarea definitivă din 27 iunie 2011 la 8 luni cu suspendare pentru luare de mită, nu formula generică «fapte de corupție», și rolul privat de director al sucursalei Deva Allianz-Țiriac. Pagina profesională actuală a companiei confirmă continuitatea în sectorul privat al asigurărilor. Nu s-a identificat vreo candidatură, demnitate sau funcție politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4218",
+      "original_name": "Boala Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2794",
+        "https://www.dna.ro/comunicat.xhtml?id=2972",
+        "https://romanialibera.ro/special/cum-a-fost-ruinata-fabrica-de-chibrituri-din-braila-220947/"
+      ],
+      "note": "Forma corectă este Dan Boală. DNA confirmă condamnarea definitivă din 14 noiembrie 2011 la 4 ani cu suspendare pentru înșelăciune cu consecințe deosebit de grave și rolul de șef al serviciului import-export la SC Pal SA Brăila. Sursele descriu exclusiv o funcție managerială într-o societate comercială și nu s-a identificat vreo candidatură, demnitate sau funcție politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4219",
+      "original_name": "Bodeanu Gheorghe",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4059",
+        "https://adevarul.ro/stiri-locale/slobozia/gheorghe-bodeanu-trimis-in-judecata-pentru-o-1355921.html",
+        "https://www.primariasuditi.ro/componenta_cl.html"
+      ],
+      "note": "DNA confirmă condamnarea definitivă a lui Gheorghe Bodeanu la 4 ani cu executare pentru abuz în serviciu contra intereselor persoanelor, cu consecințe deosebit de grave, și îl identifică drept fost director al sucursalei Slobozia a Romanian International Bank, entitate privată. Datele electorale locale îi privesc pe Iuliana-Alexandrina Bodeanu și alți omonimi/rude, nu pe Gheorghe Bodeanu. Nu s-a identificat o candidatură ori funcție politică a persoanei condamnate. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4220",
+      "original_name": "Burlui Gavril",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1896",
+        "https://www.dna.ro/comunicat.xhtml?id=191",
+        "https://adevarul.ro/stiri-locale/iasi/iasi-fostii-directori-ai-comcereal-vor-ajuge-dupa-991889.html"
+      ],
+      "note": "Forma naturală a numelui este Gavril Burlui. DNA confirmă condamnarea definitivă din 16 martie 2010 la 3 ani și 8 luni cu executare și îl identifică drept director tehnic al SC Comcereal SA Iași. Faptele privesc activitatea managerială în societate, inclusiv complicitate la evaziune fiscală și gestiune frauduloasă. Nu s-a identificat o candidatură, demnitate sau funcție politică verificabilă. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4221",
+      "original_name": "Calea Marius",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2428",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=DB"
+      ],
+      "note": "Forma naturală a numelui este Marius Calea. DNA confirmă condamnarea definitivă din 23 mai 2011 la 1 an și 6 luni cu suspendare pentru fals în înscrisuri sub semnătură privată prevăzut de Legea contabilității și rolul de director al SC Golden Cow SRL, societate privată. Nu s-a identificat nicio candidatură, demnitate sau funcție politică verificabilă; rezultatele electorale similare privesc alte persoane ori folosesc «calea» ca substantiv/adresă. Profilul este eliminat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4222",
+      "original_name": "Caraiman Lucian - Nicu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4120",
+        "https://legislatie.just.ro/Public/DetaliiDocument/138517",
+        "https://pressone.ro/intre-politica-si-religie-cui-apartin-scolile-private-acreditate-in-ultimii-10-ani-in-romania"
+      ],
+      "note": "Forma corectă este Lucian-Nicu Caraiman. DNA confirmă condamnarea definitivă din 22 mai 2013 la 2 ani cu executare pentru dare de mită și delapidare, nu formula generică «fapte de corupție», și îl identifică drept director de marketing la SC Confort SA și agent comercial la SC Izometal SA. Sursele ulterioare îl prezintă ca om de afaceri/asociat; conexiunile sau influența politică invocate în presă nu reprezintă o candidatură ori demnitate. Profilul este eliminat din registrul politic.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4223",
+      "original_name": "Chiriac Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4663",
+        "https://www.dna.ro/comunicat.xhtml?id=4669",
+        "https://scoalagorjeana.org/2024/10/05/profesorul-ion-chiriac-deschizator-de-drumuri-in-invatamantul-gorjean/",
+        "https://adevarul.ro/stiri-locale/alba-iulia/victimele-noului-cod-de-procedura-penala-1509860.html"
+      ],
+      "note": "DNA identifies the convicted person as a former BCR Novaci credit officer and management-committee member, finally sentenced to 3 years suspended for aggravated abuse of office. The former Novaci mayor Ion Chiriac was a mathematics professor and university lecturer with a separately documented career. No reliable evidence links the bank officer to political office; the profile was removed to prevent a homonym conviction from being attributed to the politician.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4225",
+      "original_name": "Christian Andrada Madalina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3654"
+      ],
+      "note": "DNA identifies Christian (formerly Gheorghe) Andrada Mădălina solely as a former corporate credit officer and management-committee member at BCR Dr. Obregia, finally sentenced to 3 years suspended for aggravated abuse of office. Targeted searches found no reliable evidence of candidacy, elected office, public office, or party role. Removed as a private banking professional outside the political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4226",
+      "original_name": "Cioinea Timona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4427",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=3951",
+        "https://hudoc.echr.coe.int/app/conversion/pdf/?filename=Chamber+judgments+14.02.12.pdf&id=003-3844366-4416949&library=ECHR"
+      ],
+      "note": "DNA and ECHR records consistently identify Timona Cioinea as a bank employee and former chief accountant at Banca Transilvania Bacau. The profile incorrectly labeled her a legal adviser; the final conviction covered continued abuse of office, with a separate definitive source also recording criminal association. No political or public-office role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4227",
+      "original_name": "Ciripan Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.romania-actualitati.ro/stiri/romania/amanare-in-dosarul-permiselor-din-arges-id148.html",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/draganu/"
+      ],
+      "note": "DNA and Radio Romania identify the convicted person as Ion Ciripan, director of the private driving school Cri-Mar Auto Company in Arges. Electoral sources contain same-name candidates in different places and years, but provide no identifiers connecting them to the convicted director. Because the political identity cannot be safely established, the profile was removed to avoid attributing the conviction by name coincidence.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4228",
+      "original_name": "Cociu Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4912",
+        "https://www.romaniacurata.ro/harta-coruptiei/?judet=PH",
+        "https://www.observatorulph.ro/exclusiv/30717-fabrica-ilegala-de-tigari-a-stat-in-curtea-lui-nicolae-capra"
+      ],
+      "note": "Official and press sources identify Ion Cociu as the director/intermediary of a private commercial company in an illegal cigarette and customs-fraud case. The definitive 6-year conviction is supported, but no candidacy, elected mandate, party position, or public-office role attributable to this person was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4229",
+      "original_name": "Condea Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1931",
+        "https://www.dna.ro/anexa_bilant.jsp?id=7&nrcrt=21",
+        "https://romanialibera.ro/special/vanzare-subevaluata-cu-un-milion-de-dolari-la-untim-timisoara-34042/"
+      ],
+      "note": "DNA identifies Elena Condea as former general director and board president of the commercial company Untim, finally sentenced to 3 years 6 months suspended for bribery. The generic crime label was incomplete, but the person is documented only as a private-company executive; no political or public-office role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4231",
+      "original_name": "Constantinescu Luminita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3481"
+      ],
+      "note": "DNA identifies Luminita Constantinescu as director of a private commercial company in Bucharest, finally sentenced to 4 years imprisonment for bribery. The profile generic corruption label was incomplete. Searches returned several same-name public employees and professionals in other cities but no reliable evidence linking the convicted director to candidacy, elected office, public office, or party leadership. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4232",
+      "original_name": "Contoloru Dumitru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4663",
+        "https://www.dna.ro/comunicat.xhtml?id=4669",
+        "https://www.dna.ro/comunicat.xhtml?id=61"
+      ],
+      "note": "DNA consistently identifies Dumitru Contoloru as former director and management-committee president of the private BCR Gorj branch, finally sentenced to 2 years 6 months suspended for aggravated abuse of office. Searches found business and banking activity but no candidacy, elected mandate, public office, or party role. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4233",
+      "original_name": "Corenti Tudor Nicolae Catalin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5033",
+        "https://www.dna.ro/comunicat.xhtml?id=4023"
+      ],
+      "note": "DNA identifies Tudor Nicolae Catalin Corenti as transport operations director and minority shareholder of the private company Davidson International Rom, finally sentenced to 2 years suspended for two continued influence-buying offenses. The profile generic corruption label was incomplete. No candidacy, elected office, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4234",
+      "original_name": "Cornea Cristina Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4569",
+        "https://www.gandul.ro/?p=9631907"
+      ],
+      "note": "DNA identifies Cristina Elena Cornea as director of the private company Vanlex Inspect Consulting, finally sentenced to 1 year 6 months suspended for bribery. The generic corruption label was incomplete. Targeted searches found multiple homonyms but no reliable candidacy, elected mandate, public office, or party role for the convicted director. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4235",
+      "original_name": "Damian Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4427",
+        "https://comunapincesti.ro/administratie/consiliul-local/componenta-consiliului-local/"
+      ],
+      "note": "The profile was materially wrong: DNA records Damian Vasile as a person without special capacity, finally sentenced to 2 years suspended for continued fraud, not 8 years imprisonment and not as a company director. A same-name PNL local councillor exists in Pancesti, Bacau, but no reliable identifier connects him to the convicted person. Removed to prevent a false homonym attribution.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4236",
+      "original_name": "Enache Veronica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.independentonline.ro/2015/10/13/Despagubiri-de-14-4-mii-de-euro-acordate-de-Romania-unor-inculpati-ialomiteni-12329"
+      ],
+      "note": "DNA and local reporting identify Veronica Enache solely as former director of the private BCR Tandarei branch, finally sentenced to 4 years 6 months imprisonment for aggravated abuse of office. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4237",
+      "original_name": "Facaleata Liviu Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4989",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1202",
+        "https://www.digi24.ro/stiri/actualitate/justitie/condamnari-in-dosarul-mita-pentru-arbitri-gheorghe-constantin-si-cornel-penescu-5-ani-de-inchisoare-cu-executare-355830"
+      ],
+      "note": "DNA and press sources identify Liviu Ilie Facaleata as a private-company director and person in businessman Cornel Penescu entourage, involved in commercial and football corruption cases. The cited definitive 2-year suspended conviction is supported, but no candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4238",
+      "original_name": "Gavrilovici Valeriu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1896",
+        "https://www.dna.ro/comunicat.xhtml?id=191",
+        "https://adevarul.ro/stiri-locale/iasi/iasi-fostii-directori-ai-comcereal-vor-ajuge-dupa-991889.html",
+        "https://primariatudora.md/comisiile-de-lucru/"
+      ],
+      "note": "DNA identifies the convicted person as Valeriu Gavrilovici, economic director of private SC Comcereal SA Iasi, sentenced to 4 years for continued tax evasion, complicity in fraudulent management, undervaluation in privatization, and incompatible financial operations. Same-name public figures include a Moldovan local councillor and a Suceava surgeon/medical director, with no evidence they are the convicted company director. Removed to avoid homonym attribution and because no political role is established.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4239",
+      "original_name": "Gheorghiu Liviu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4994",
+        "https://www.ziuaconstanta.ro/stiri/eveniment/seful-radet-constanta-condamnat-pentru-abuz-in-serviciu-si-luare-de-mita-dosarul-lui-ilie-rachieru-a-ajuns-la-inalta-curte-483559.html"
+      ],
+      "note": "DNA and press sources identify Liviu Gheorghiu as general director and shareholder of private SC Multigama Tech SRL, finally sentenced to 5 months suspended for bribery. The profile generic corruption label was incomplete. Targeted searches found no candidacy, elected mandate, public office, or party role attributable to this person. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4240",
+      "original_name": "Giurca Anca Diana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3484"
+      ],
+      "note": "DNA identifies Anca Diana Giurca solely as secretary of private SC Silviacos SRL Oradea, finally sentenced to 1 year 6 months suspended for continued embezzlement. Targeted searches found no candidacy, elected mandate, public office, or party role. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4241",
+      "original_name": "Giurca Marilena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2247",
+        "https://www.dna.ro/comunicat.xhtml?id=4663",
+        "https://adevarul.ro/stiri-locale/alba-iulia/victimele-noului-cod-de-procedura-penala-1509860.html",
+        "https://www.gorjeanul.ro/condamnari-cu-executare-intr-un-dosar-al-tepelor-de-la-bcr-novaci/"
+      ],
+      "note": "Marilena Giurca was chief accountant and management-committee member at the private BCR Novaci branch. The profile reflected only a 2011 suspended sentence, while later definitive cases in 2014 and subsequent merger of sentences show a materially more complex legal history. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope and marked legally corrected.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4242",
+      "original_name": "Gradinaru Ionel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1896",
+        "https://www.dna.ro/comunicat.xhtml?id=191",
+        "https://adevarul.ro/stiri-locale/iasi/iasi-fostii-directori-ai-comcereal-vor-ajuge-dupa-991889.html"
+      ],
+      "note": "DNA identifies Ionel Gradinaru as general director of private SC Comcereal SA Iasi, finally sentenced to 4 years for continued tax evasion, fraudulent management, undervaluation in privatization, and incompatible financial operations. The profile listed only tax evasion. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4243",
+      "original_name": "Hegyi Simona Luminita",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1896",
+        "https://www.dna.ro/comunicat.xhtml?id=191",
+        "https://adevarul.ro/stiri-interne/evenimente/sentinta-amanata-in-dosarul-comcereal-839745.html"
+      ],
+      "note": "DNA and contemporaneous press consistently identify Simona Luminita Hegyi solely as legal counsel at private SC Comcereal SA Iasi and confirm the final 2-year suspended sentence for complicity in fraudulent management. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4244",
+      "original_name": "Istoc Lucica,",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1910"
+      ],
+      "note": "DNA identifies the person as Iștoc Lucica (the profile had an unaccented surname and a stray comma), economic director at private SC Metal Invest Grup SA Darmanesti, and confirms the final 3-year suspended sentence for continued fraud and continued forgery under private signature. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4245",
+      "original_name": "Kovacs Agnes",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3703",
+        "https://www.dna.ro/comunicat.xhtml?id=1914"
+      ],
+      "note": "DNA identifies Kovacs Agnes solely as director of private ALPINE BAU GmbH and confirms the final one-year suspended sentence for bribery. The profile generic crime label Fapte de coruptie was less precise than the official judgment. No candidacy, elected mandate, public office, or party role was found; similarly named political candidates are different people. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4246",
+      "original_name": "Leordean Virginica Meda",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5140",
+        "https://www.dna.ro/comunicat.xhtml?id=1053",
+        "https://legislatie.just.ro/Public/DetaliiDocument/240173"
+      ],
+      "note": "DNA confirms Virginica Meda Leordean was director of the private George Pop de Basesti high school in Sighetu Marmatiei and was finally sentenced to 1 year 6 months for continued influence peddling and bribery. Later official records show school administrative employment, not political office. No candidacy, elected mandate, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4247",
+      "original_name": "Manolache Maria Daniela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2827",
+        "https://www.csm1909.ro/ViewFile.ashx?guid=03184816-c486-453b-a137-9a7a026bf9ee%7CInfoCSM"
+      ],
+      "note": "DNA identifies the convicted person as legal counsel of SC Ploiesti Industrial Parc SA and confirms a final 5-month suspended sentence for continued intellectual forgery. The profile was truncated and used the generic crime label Fapte de coruptie. Exact-name search also returns magistrates, including a prosecutor, who are different people and must not be conflated. No candidacy, elected mandate, or party role was found for the convicted legal counsel. Removed as outside political scope and to prevent name collision.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4249",
+      "original_name": "Moroca Ioana Simona",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.dna.ro/comunicat.xhtml?id=332",
+        "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=Chamber+judgments+01.12.09.pdf&id=003-2938962-3232498&library=ECHR&logEvent=False"
+      ],
+      "note": "DNA and ECHR records consistently identify Ioana Simona Moroca as a private bank employee/legal counsel at Banca Transilvania Bacau. DNA confirms the final two-year suspended sentence for association to commit offences and aggravated abuse of office. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4250",
+      "original_name": "Munteanu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.dna.ro/comunicat.xhtml?id=332",
+        "https://glavanesti.ro/administratie/transparenta/declaratii-de-avere-si-interese/declaratii-consiliul-local/"
+      ],
+      "note": "DNA identifies this Vasile Munteanu as head of the Bacau agency of the private Transilvania insurance company and confirms the final two-year suspended sentence. The name is highly ambiguous: official local-government sources identify other Vasile Munteanu officeholders in Bacau county and elsewhere, without evidence linking them to the convicted insurance employee. Removed as outside political scope and to prevent same-name conflation.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4251",
+      "original_name": "Neagoe Raluca Eugenia (Fosta Popa)",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4641",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2622"
+      ],
+      "note": "DNA confirms Raluca Eugenia Neagoe, formerly Popa, was legal counsel at private SC Ioana Med Farm SRL and was finally sentenced to 2 years 6 months suspended for continued complicity in bribery. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4252",
+      "original_name": "Negoita Carmen Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3951",
+        "https://www.dna.ro/comunicat.xhtml?id=4427",
+        "https://ziaruldebacau.ro/arestari-pe-banda-rulanta-in-dosarul-banca-transilvania/"
+      ],
+      "note": "DNA and contemporaneous reporting consistently identify Carmen Mihaela Negoita as director of the private Bacau branch of Banca Transilvania. DNA confirms the final 10-year prison sentence for association to commit offences and aggravated abuse of office. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4253",
+      "original_name": "Nutica Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4575"
+      ],
+      "note": "DNA identifies Maria Nutica as a commercial agent at private SC Osiris Design SRL and confirms a final three-year suspended sentence for continued complicity in bribery. The profile was truncated and used the generic crime label Fapte de coruptie. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4254",
+      "original_name": "Oancea Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212",
+        "https://www.cjialomita.ro/declaratii/2022/Avere/Oancea%20Elena.pdf",
+        "https://infodosar.ro/monitorul-oficial/autoritatea-electorala-permanenta/18531-raport-0-2024"
+      ],
+      "note": "DNA identifies the convicted Elena Oancea as chief accountant and management committee member at BCR Tandarei and confirms the final three-year suspended sentence. Exact-name searches also identify an Ialomita county council employee and an independent mayoral candidate in Craiova, with no evidence they are the same person as the convicted bank employee. Removed as outside political scope and to prevent name conflation.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4255",
+      "original_name": "Patrascu Victor",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3401",
+        "https://www.yumpu.com/ro/document/view/25472534/biroul-electoral-judeaean-nr-prefectura-judeaului-calaraai"
+      ],
+      "note": "DNA identifies Victor Patrascu as former head of the credit service and management committee member at BCR Calarasi and confirms a final three-year custodial sentence for two continued aggravated abuse-of-office offences. The profile generic crime label Fapte de coruptie was inaccurate. An exact-name entry as deputy member of the 2009 county electoral bureau is an electoral-administration role, not a candidacy, elected mandate, or party office. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4256",
+      "original_name": "Paval Dan-Teofil",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-23",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4191",
+        "https://www.dna.ro/comunicat.xhtml?id=2123"
+      ],
+      "note": "DNA identifies Dan-Teofil Paval as former legal counsel at SC Moldoforest SA Iasi and later a Vaslui Bar lawyer, confirming the final 1 year 6 month suspended sentence for intentionally undervaluing state-owned assets during privatization. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4257",
+      "original_name": "Pop Stefan Mircea",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2483",
+        "https://www.dna.ro/comunicat.xhtml?id=3624",
+        "https://www.dna.ro/comunicat.xhtml?id=129"
+      ],
+      "note": "DNA identifies Stefan Mircea Pop solely as former director of BCR Negresti-Oas. The profile was truncated, used the generic label Fapte de coruptie, and omitted a second definitive conviction: 4 years suspended in 2011 for aggravated abuse of office and 3 years suspended in 2012 in another case for aggravated abuse of office. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4258",
+      "original_name": "Popescu Sorin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4663",
+        "https://www.gorjeanul.ro/investigatii/a-cerut-eliberarea-conditionata/",
+        "https://www.varvorudejos.ro/wp-content/uploads/2025/01/NUMIRE-PRIMAR-POPESCU-SORIN-2024-DEFINITIVA.pdf"
+      ],
+      "note": "DNA and local reporting identify this Sorin Popescu as former director and management committee president of BCR Novaci, finally sentenced to 6 years for aggravated abuse of office. The profile was truncated and used the generic crime label Fapte de coruptie. The common name also belongs to political officeholders and candidates, including Sorin-Cristian Popescu in Dolj, without evidence linking them to the convicted banker. Removed as outside political scope and to prevent name conflation.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4259",
+      "original_name": "Radu Alexandra",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3042",
+        "https://www.dna.ro/comunicat.xhtml?id=2438"
+      ],
+      "note": "DNA identifies this Alexandra Radu as a real-estate sales agent who intermediated payments in an ANL influence-peddling scheme and confirms the final eight-month suspended sentence for 44 acts of continued complicity in influence peddling. The very common name also belongs to unrelated public-sector experts, lawyers, and real-estate agents. No candidacy, elected mandate, or party role can be linked to the convicted person. Removed as outside political scope and to prevent name conflation.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4260",
+      "original_name": "Razniceanu Danut",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4420",
+        "https://www.dna.ro/comunicat.xhtml?id=3420",
+        "https://www.dna.ro/comunicat.xhtml?id=10688",
+        "https://www.ziaruldeiasi.ro/stiri/prima-cadere-in-instanta-a-gastii-de-bancheri-de-la-brd-gura-humorului--5jsv.html"
+      ],
+      "note": "DNA and contemporaneous reporting identify Danut Razniceanu solely as the director/responsible officer of BRD Gura Humorului. The 2013 final notice confirms a three-year suspended sentence, while a later DNA case summary lists the fuller set of continued offences, including unauthorized transfers and participation in a criminal group, beyond the profile wording. No political role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4261",
+      "original_name": "Rogoveanu Gabriel",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5200",
+        "https://www.radioiasi.ro/author/lucian-balanuta/page/96/",
+        "https://primariaseaca.ro/portal-administratie-publica/seaca/ultimele-anunturi/alegeri-locale-2024/proces-verbal-nr-48-din-02.05.2024---ramanere-definitiva-candidaturi"
+      ],
+      "note": "DNA and contemporaneous reporting identify the convicted Gabriel Rogoveanu as a Bucharest real-estate agent at Euroest Invest, finally sentenced to 3 years for two concurrent continued complicity-to-tax-evasion offences. The profile used the generic label Fapte de coruptie. A 2024 PUSL candidate with the same name in Seaca, Olt, is listed as a postal worker and cannot be linked to the convicted Bucharest agent. Removed as outside political scope and to prevent name conflation.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4262",
+      "original_name": "Sala Silviu Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3701",
+        "https://www.bursa.ro/trei-persoane-trimise-in-judecata-pentru-luare-si-dare-de-mita-8823799",
+        "https://isc.gov.ro/files/2025/Autorizari/13.02.2025%20DATE%20DESCHISE%20DS.pdf"
+      ],
+      "note": "DNA identifies Silviu Vasile Sala as director of private SC Astor Com SRL and confirms the final three-year suspended sentence for complicity in taking and giving bribes. Current construction-specialist records remain professional, not political. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4263",
+      "original_name": "Sandu Daniela Lori",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212"
+      ],
+      "note": "DNA and the original PNA indictment identify Daniela-Lori Sandu solely as a credit officer and management committee member at BCR Tandarei and confirm the final 2 year 10 month custodial sentence for aggravated abuse of office. No candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4265",
+      "original_name": "Stan Georgeta",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212"
+      ],
+      "note": "DNA and the original PNA indictment identify Georgeta Stan only as a member of the management committee of BCR Tandarei and confirm the definitive suspended sentence. Searches found no linked candidacy, elected mandate, public office, or party role; exact-name councillors in other localities are unsupported namesakes. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4266",
+      "original_name": "Stana Ilie",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3170",
+        "https://www.dna.ro/comunicat.xhtml?id=171"
+      ],
+      "note": "DNA confirms Ilie Stana solely as former director of Banca Carpatica Timisoara branch, definitively sentenced to 3 years in detention for bribery. The generic crime label was incomplete; no candidacy, elected mandate, public office, or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4268",
+      "original_name": "Stoica Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4705",
+        "https://www.viata-libera.ro/pdf/2016/02_februarie/vlg_16_feb.pdf",
+        "https://hartapoliticii.ro/?name=mihai+stoica"
+      ],
+      "note": "DNA and contemporaneous reporting identify this Mihai Stoica as the football executive formerly at Otelul Galati, definitively sentenced to 3 years 6 months for two aggravated fraud offenses and conditionally released in 2016. A same-name PSR parliamentary candidate is not reliably linked to him; no political role was found for the convicted football executive. Removed and the generic corruption label flagged as incorrect.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4269",
+      "original_name": "Suciu Mircea",
+      "current_name": "Suciu Mircea",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4806",
+        "https://www.ziuaconstanta.ro/stiri/politic/mircea-suciu-ovationat-de-navodareni-21731.html",
+        "https://www.ziuaconstanta.ro/stiri-calde/stiri-calde/ex-directorul-tsp-ecoterm-navodari-suciu-trimis-in-judecata-62740.html",
+        "https://www.replicaonline.ro/fostul-director-al-ecoterm-s-a-ales-cu-majorare-de-pedeapsa-241206"
+      ],
+      "note": "Profile retained after identifying the political link. Mircea Suciu was PRM Navodari president, PRM mayoral candidate in 2004 and elected local councillor, relinquishing the mandate because of incompatibility with his Ecoterm directorship. Corrected party, political position and county from Independent/Tulcea to PRM/Navodari, Constanta; also added the definitive 2015 forgery conviction merged into the 4-year sentence.",
+      "reviewed_snapshot_hash": "60ea917288fa6d543cadb9554c130f04b11ce827ff4d162f1a14ed110bf8ef64"
+    },
+    {
+      "profile_id": "RV-4270",
+      "original_name": "Szabﾢ Lﾠszlﾢ",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "corrected",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2188",
+        "https://www.dna.ro/comunicat.xhtml?id=1914"
+      ],
+      "note": "Official DNA sources restore the corrupted name as Szabó László and identify him solely as a director of private contractor Alpine Bau GmbH. He received a definitive one-year suspended sentence for bribery; the generic corruption label was incomplete. No reliably linked candidacy, elected mandate, public office, or party role was found, and the very common name creates many unrelated matches. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4271",
+      "original_name": "Szirka Daniela Mihaela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3134",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1422"
+      ],
+      "note": "Official DNA records identify Daniela Mihaela Szirka solely as former director of BCR Curtici agency and confirm the definitive 6 year 10 month custodial sentence. The profile was truncated and its generic crime label omitted aggravated continued abuse of office, bribery, two private-document forgeries and criminal association. No candidacy, elected mandate, public office or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4272",
+      "original_name": "Tinca Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.gds.ro/Actualitate/2008-12-06/DNA-a-trimis-28-de-persoane-in-judecata-in-dosarul-permiselor-de-conducere-din-Arges/"
+      ],
+      "note": "DNA and contemporaneous reporting identify Constantin Tinca solely as administrator/director of private driving school Comef Auto Prompt in the Arges driving-licence fraud case. The definitive 3-year custodial sentence and offenses are accurately stated. No candidacy, elected mandate, public office or party role was found; references to politicians concern other people in the same case. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4273",
+      "original_name": "Tocan Alin Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3886",
+        "https://media.hotnews.ro/assets/document/2014/05/5/17168483-0.pdf",
+        "https://www.ziuaconstanta.ro/diverse/stiri-calde/a-murit-colegul-nostru-de-la-cotidianul-buna-ziua-iasi-alin-tocan-485480.html"
+      ],
+      "note": "DNA and the ActiveWatch press-freedom report identify Alin Ioan Tocan solely as former editor-in-chief of Ziua de Iasi, definitively sentenced to 2 years suspended for continued blackmail. He died in 2014. No candidacy, elected mandate, public office or party role was found; politicians mentioned in reporting were victims or complainants. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4274",
+      "original_name": "Toma Alexandru",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4504",
+        "https://doc.pmb.ro/monitorul_oficial/2013/mai_2013/volumul_1.pdf",
+        "https://hartapoliticii.ro/?name=alexandru+toma"
+      ],
+      "note": "DNA identifies the convicted person only as Bucharest real-estate agent Alexandru Toma and confirms the 2-year suspended sentence for complicity in influence peddling. Electoral records contain multiple political namesakes, including Alexandru Edmond Toma and an older parliamentary candidate, but no reliable source links either to the agent in the criminal case. Removed rather than attribute the conviction by name coincidence.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4276",
+      "original_name": "Torja Vasile",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3738",
+        "https://www.opiniatimisoarei.ro/directorii-unei-fabrici-din-timisoara-condamnati-pentru-instrainarea-ilegala-activelor/12/12/2012"
+      ],
+      "note": "DNA and contemporaneous reporting identify Vasile Torja solely as economic director and administrator of private SC 1 Iunie SA Timisoara. The definitive 5 year 6 month sentence is confirmed; the crime field omitted continued private-document forgery in addition to aggravated abuse of office. No candidacy, elected mandate, public office or party role was found. Removed as outside political scope.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4277",
+      "original_name": "Tudorache Ioan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2428",
+        "https://www.curentul.info/actualitate/directorul-unei-banci-arestat-pentru-mita/"
+      ],
+      "note": "DNA and contemporaneous reporting identify Ioan Tudorache as director of Banca Comerciala Carpatica Targoviste branch, definitively sentenced to 4 years suspended for bribery. The profile generic corruption label was incomplete. Searches surfaced several political namesakes, especially Ioan-Dragos Tudorache and a 2024 electoral-bureau representative, but no reliable link to the convicted banker. Removed as outside political scope and to avoid false attribution.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4278",
+      "original_name": "Ungureanu Maier Claudia Maria",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3654"
+      ],
+      "note": "Decizia oficiala DNA identifica persoana drept fost ofiter de credite persoane juridice la sucursala BCR Dr. Obregia si membru al comitetului de conducere; nu exista un rol politic verificabil.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4279",
+      "original_name": "Vasile Mihail Cristian",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3383",
+        "https://luju.ro/static/files/2012/martie_2012/28/sentinta_nastase.pdf"
+      ],
+      "note": "Sursele il identifica drept director general/administrator al firmei private Eurografica, implicata in producerea si disimularea materialelor electorale; nu rezulta o functie politica sau publica. Profilul omitea si falsul in inscrisuri sub semnatura privata din condamnarea definitiva.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4280",
+      "original_name": "Voinea George Mugur",
+      "current_name": "Voinea George Mugur",
+      "decision": "corrected",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "political",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4763",
+        "https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf",
+        "https://anchetaonline.ro/anaf-continua-la-instanta-suprema-razboiul-de-13-milioane-lei-cu-fostul-ofiter-sri-george-mugur-voinea-214897/"
+      ],
+      "note": "Corectat din Independent/director privat in membru PC, judetul Arges. Eticheta generica Fapte de coruptie a fost inlocuita cu trafic de influenta si complicitate la luare de mita, conform condamnarii definitive.",
+      "reviewed_snapshot_hash": "3bd4f9ab26ef9db9a9f2366f429b38592fb5bf87307a571b436430c8ed58f56c"
+    },
+    {
+      "profile_id": "RV-4281",
+      "original_name": "Zaharia Mirela",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212"
+      ],
+      "note": "Comunicatele oficiale o identifica exclusiv ca ofiter de credite/functionara la BCR Sucursala Tandarei. Nu a fost gasit un rol politic verificabil; candidatii cu nume asemanatoare au alte prenume complete.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4282",
+      "original_name": "Zarnescu Zoia",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212"
+      ],
+      "note": "Sursele oficiale o identifica drept consilier juridic si membru al Comitetului director al BCR Tandarei, fara rol politic verificabil. Activitatea publica ulterioara gasita este de trainer/autor, nu politica.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4283",
+      "original_name": "Marinescu Liliana Gina",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2135"
+      ],
+      "note": "Comunicatul oficial o identifica drept contabil la Euroconstruct Group SRL Iasi, fara rol politic. Profilul enumera doar falsul material, dar condamnarea include si obtinerea nelegala de fonduri europene prin participatie improprie si incalcarea din culpa a unei indatoriri de serviciu.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4285",
+      "original_name": "Ardelean Ancuta Codruta Mariana",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5234",
+        "https://www.euroavocatura.ro/stiri/12221/Avocat_in_cadrul_Baroului_Satu_Mare_trimis_in_judecata_pentru_trafic_de_influenta"
+      ],
+      "note": "Sursele identifica persoana exclusiv ca avocat in Baroul Satu Mare; condamnarea definitiva si incadrarea sunt corecte, dar nu exista rol politic ori functie publica verificabila.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4286",
+      "original_name": "Cojita Mihai",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2360",
+        "https://ziarullumina.ro/actualitate-religioasa/stiri/reteaua-permiselor-ajunge-si-la-bucuresti-49698.html"
+      ],
+      "note": "Sursele il identifica drept instructor auto la Auto Intact SRL Bucuresti, fara rol politic ori functie publica. Alte persoane omonime din Neamt si sportul auto nu pot fi legate de condamnat.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4287",
+      "original_name": "Dascalete Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3483",
+        "https://www.curentul.info/actualitate/politisti-si-jandarmi-arestati-pentru-furt-din-conducte-petroliere/"
+      ],
+      "note": "Persoana este identificata ca gestionar la statia PECO Chitila si participant civil la reteaua de furt de combustibil; nu exista rol politic sau mandat public verificabil. Condamnarea definitiva este confirmata de DNA.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4288",
+      "original_name": "Dijmarescu Elena",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3385",
+        "https://www.dna.ro/comunicat.xhtml?id=2087"
+      ],
+      "note": "Sursele oficiale o identifica drept prestator privat de servicii contabile pentru Dealul Negru SRL, fara rol politic. Eticheta evaziune fiscala era incompleta: condamnarea include doua complicitati la evaziune si complicitate la tentativa de rambursare fiscala nelegala.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4289",
+      "original_name": "Grosu Lilica",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4119",
+        "https://www.dna.ro/comunicat.xhtml?id=212"
+      ],
+      "note": "Sursele oficiale o identifica drept contabil/reprezentant al unei societati comerciale in dosarul BCR Tandarei, fara rol politic. Eticheta generica a fost corectata: condamnarea definitiva a fost pentru complicitate la abuz in serviciu cu consecinte deosebit de grave.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4290",
+      "original_name": "Iovita Ion",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2883",
+        "https://craiova.ro/firme/cibgomec-srl"
+      ],
+      "note": "DNA il identifica drept contabil de fapt al societatii private Salba de Aur SRL; datele comerciale il plaseaza tot in mediul privat. Nu exista rol politic verificabil, iar candidatii Iovita gasiti au alte prenume complete.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4291",
+      "original_name": "Irimies Cosmin-Claudiu",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=3265",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=2390",
+        "https://primariaclujnapoca.ro/transparenta/declaratii-de-avere/irimies-cosmin-claudiu-4/"
+      ],
+      "note": "Persoana este identificata ca fost cursant la UM 02216 Cluj, iar o declaratie de avere municipala ulterioara nu dovedeste mandat politic. Profilul atribuia gresit cumparare de influenta; hotararea definitiva retine folosirea informatiilor nepublice, complicitate la fals intelectual, instigare la abuz in serviciu, uz de fals si asociere pentru savarsirea de infractiuni.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4292",
+      "original_name": "Marcu Constantin",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4857",
+        "https://www.jurnaluldearges.ro/codrut-vlasceanu-cine-sunt-magistratii-care-au-facut-trafic-de-influenta-in-dosarul-permiselor-si-de-ce-nu-se-mentioneaza-si-numele-lor-in-dosar-13029/",
+        "https://ziaruldebacau.ro/umanistii-vor-avea-un-consilier-local-in-plus-la-b/"
+      ],
+      "note": "Condamnatul este fost instructor auto si fost lucrator de politie din Arges. Omonimul politic din Bacau era economist, fost cadru militar si om de afaceri, deci este o alta persoana. Profilul fara rol politic este exclus.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4293",
+      "original_name": "Palancz Adorjan Dan",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=2187",
+        "https://www.dna.ro/comunicat.xhtml?id=562",
+        "https://www.dna.ro/comunicat.xhtml?id=690"
+      ],
+      "note": "Sursele oficiale il identifica exclusiv ca instructor auto/intermediar in reteaua permiselor Maramures, fara rol politic. Profilul afisa gresit 1 an si 1 luna; hotararea definitiva consemneaza 1 an si 11 luni inchisoare.",
+      "reviewed_snapshot_hash": null
+    },
+    {
+      "profile_id": "RV-4294",
+      "original_name": "Pinczes Iosif",
+      "current_name": null,
+      "decision": "removed",
+      "identity": "confirmed",
+      "legal_status": "corrected",
+      "scope": "exclude",
+      "reviewed_at": "2026-09-24",
+      "reviewer": "Codex",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=1918",
+        "https://www.dna.ro/comunicat.xhtml?id=1959"
+      ],
+      "note": "Sursele il identifica exclusiv ca instructor auto/intermediar privat, fara rol politic. Profilul includea eronat luarea de mita si omitea asocierea pentru savarsirea de infractiuni; condamnarea definitiva retine trafic de influenta, complicitate la fals material si uz de fals, plus asociere.",
       "reviewed_snapshot_hash": null
     }
   ]

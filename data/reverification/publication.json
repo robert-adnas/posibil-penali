@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-24",
   "holds": {
     "Zaharia Liviu": {
       "held_at": "2026-08-03",
@@ -3858,6 +3858,27 @@
         "awaiting_current_court_decision"
       ],
       "profile_id": "RV-0939"
+    },
+    "Biro Andreea Elena": {
+      "held_at": "2026-09-20",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-4120"
+    },
+    "Pânzariu Constantin": {
+      "held_at": "2026-09-23",
+      "reasons": [
+        "identity_uncertainty"
+      ],
+      "profile_id": "RV-4178"
+    },
+    "Stan Alexandru": {
+      "held_at": "2026-09-24",
+      "reasons": [
+        "Identity uncertainty: DNA confirms Stan Alexandru as former BCR Calarasi branch director convicted in 2012, while the municipality lists an exact-name Stan Alexandru as PSD local councillor in 2004-2008. No reliable source found that establishes whether they are the same person; profile must remain hidden rather than risk attributing a conviction to a namesake."
+      ],
+      "profile_id": "RV-4264"
     }
   }
 }
