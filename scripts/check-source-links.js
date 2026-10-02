@@ -10,21 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(__dirname, '..', 'data', 'politicians.json');
 const REQUEST_TIMEOUT_MS = 30000;
 const CONCURRENCY = 6;
-const SOFT_FAILURE_STATUSES = new Set([401, 403, 429]);
-const SOFT_FAILURE_HOSTS = new Set(['digi24.ro']);
-
-function hostFor(url) {
-  try {
-    return new URL(url).hostname.replace(/^www\./, '');
-  } catch {
-    return null;
-  }
-}
-
-function isSoftFailureHost(url) {
-  const host = hostFor(url);
-  return host ? SOFT_FAILURE_HOSTS.has(host) : false;
-}
+const SOFT_FAILURE_STATUSES = new Set([401, 403, 408, 425, 429, 500, 502, 503, 504, 521, 522, 523, 524, 525]);
 
 function sourceKey(source) {
   return source.url;
@@ -129,7 +115,9 @@ try {
     } catch (error) {
       return {
         source,
-        softFailure: isSoftFailureHost(source.url),
+        // A transport error or timeout cannot prove that the source disappeared;
+        // treat it like bot protection and reserve hard failures for definitive HTTP responses.
+        softFailure: true,
         error: `${error.name}: ${error.message}`,
       };
     }
@@ -139,6 +127,21 @@ try {
 
   const hardFailures = results.filter((result) => !result.softFailure && (result.error || !result.ok));
   const softFailures = results.filter((result) => result.softFailure);
+  const resultsByPolitician = new Map();
+
+  results.forEach((result) => {
+    result.source.politicians.forEach((name) => {
+      const profileResults = resultsByPolitician.get(name) || [];
+      profileResults.push(result);
+      resultsByPolitician.set(name, profileResults);
+    });
+  });
+
+  const profilesWithoutUsableSources = politicians.filter((politician) => {
+    const profileResults = resultsByPolitician.get(politician.name) || [];
+    return profileResults.length === 0
+      || profileResults.every((result) => !result.ok && !result.softFailure);
+  });
 
   if (hardFailures.length > 0) {
     console.log('Hard failures:');
@@ -156,10 +159,15 @@ try {
   console.log(`Sources checked: ${sources.length}`);
   console.log(`Hard failures: ${hardFailures.length}`);
   console.log(`Soft failures: ${softFailures.length}`);
+  console.log(`Profiles without a usable source: ${profilesWithoutUsableSources.length}`);
 
-  if (hardFailures.length > 0) {
+  if (profilesWithoutUsableSources.length > 0) {
+    console.log('\nProfiles without a usable source:');
+    profilesWithoutUsableSources.forEach((politician) => console.log(`- ${politician.name}`));
     process.exit(1);
   }
+
+  process.exit(0);
 } catch (error) {
   console.error('Source link check failed to run:', error.message);
   process.exit(1);

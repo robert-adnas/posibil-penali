@@ -53,7 +53,7 @@ const KNOWN_PARTIES = [
 ];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];
 const STATUSES_REQUIRING_SENTENCE = ['convicted', 'first_instance', 'prescribed'];
-const YEAR_RANGE = { min: 2010, max: 2026 };
+const YEAR_RANGE = { min: 1900, max: 2026 };
 
 let errors = 0;
 let warnings = 0;

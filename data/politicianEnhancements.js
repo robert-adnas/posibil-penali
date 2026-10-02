@@ -120,6 +120,7 @@ export const excludedPoliticianNames = new Set([
   'Florescu Valeriu Emanuel',
   'Gavrilut Tudor',
   'Georgescu Alexandru Tudor',
+  'George Simion',
   'Gherghe Alexandru',
   'Gherman Ioan',
   'Grigoriu Maria',
@@ -853,16 +854,34 @@ const DOGARU_TATIANA_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/dobresti/9',
 };
 
+const DOGARU_TATIANA_COURT_SOURCE = {
+  label: 'Curtea de Apel Pite\u0219ti',
+  kind: 'official',
+  url: 'https://portal.just.ro/46/Documents/Liste%20sedinta%20-%2018%20mai%202026%20-%20ora%2010.30s2.pdf',
+};
+
+const DOGARU_TATIANA_CASE_STATUS_SOURCE = {
+  label: 'Status Dosar (date portal.just.ro)',
+  kind: 'registry',
+  url: 'https://www.statusdosar.ro/instante/curtea-de-apel-pitesti/dosare/sectia-a-ii-a-civila-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/3809/109/2025',
+};
+
 const HANTASCU_FLORIN_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/zamostea/',
 };
 
-const ALBU_IOAN_AUGUSTIN_PARTY_SOURCE = {
-  label: 'Ziare.com',
+const HANTASCU_FLORIN_LOCAL_MANDATE_SOURCE = {
+  label: 'Comuna Zamostea',
+  kind: 'official',
+  url: 'https://zamostea.ro/attachments/article/28/Declara%C8%9Bie%20de%20avere%20si%20interese%20H%C4%83n%C8%9B%C4%83scu%20Florin%2C%20pentru%20anul%202021.pdf',
+};
+
+const ZAMOSTEA_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com \u2013 candida\u021bi locali 2024',
   kind: 'press',
-  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_sibiu/consiliul-local/rasinari/',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_suceava/consiliul-local/zamostea/',
 };
 
 const DUNCA_FELICIA_PARTY_SOURCE = {
@@ -1141,16 +1160,34 @@ const CIOCANESTI_PAVEL_PARTY_SOURCE = {
   url: 'https://actualitateacalarasi.eu/jud-calarasi-prezenta-la-vot-in-functie-de-culoarea-politica-a-localitatilor/',
 };
 
+const CIOCANESTI_CURRENT_MAYOR_SOURCE = {
+  label: 'Primăria Ciocănești',
+  kind: 'official',
+  url: 'https://old.primaria-ciocanesti.ro/',
+};
+
 const MILCOVUL_COUNCIL_PARTY_SOURCE = {
   label: 'Primaria Milcovul',
   kind: 'official',
   url: 'https://www.primariamilcovul.ro/conducere',
 };
 
-const AMARA_DANIEL_MIHAI_PARTY_SOURCE = {
-  label: 'Independent',
+const MILCOVUL_CERNICA_CURRENT_OFFICE_SOURCE = {
+  label: 'Monitorul de Vrancea',
   kind: 'press',
-  url: 'https://www.independentonline.ro/?articles_page=228&cele_mai_citite=%25253Fpagina%25253D5&news_page=349',
+  url: 'https://www.monitoruldevrancea.ro/2024/11/01/milcovul-costica-cernica-este-noul-viceprimar-al-comunei/',
+};
+
+const AMARA_DANIEL_MIHAI_PARTY_SOURCE = {
+  label: 'Ziare.com - rezultate alegeri locale 2020',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_ialomita/primarie/amara/',
+};
+
+const AMARA_DANIEL_MIHAI_COUNCIL_SOURCE = {
+  label: 'Hotărârea Consiliului Local Amara nr. 44/2023',
+  kind: 'other',
+  url: 'https://hotarari.ro/amara/hcl-44-2023-47672',
 };
 
 const TOMUS_DOREL_PARTY_SOURCE = {
@@ -1159,16 +1196,40 @@ const TOMUS_DOREL_PARTY_SOURCE = {
   url: 'https://www.staging.cjalba.ro/wp-content/uploads/2019/03/PH28.03.2019.pdf',
 };
 
+const TOMUS_DOREL_COURT_SOURCE = {
+  label: 'Adevărul - soluția Curții de Apel Alba Iulia',
+  kind: 'press',
+  url: 'https://adevarul.ro/stiri-locale/alba-iulia/director-psd-la-cea-mai-profitabila-companie-2222894.html',
+};
+
+const TOMUS_DOREL_2024_CANDIDACY_SOURCE = {
+  label: 'Portal Legislativ - lista AEP nr. 22697/2024',
+  kind: 'official',
+  url: 'https://legislatie.just.ro/Public/DetaliiDocument/285408',
+};
+
 const CARANSEBES_DRAGOMIR_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/caransebes/',
 };
 
+const CARANSEBES_DRAGOMIR_2024_OFFICE_SOURCE = {
+  label: 'Primăria Caransebeș - proces-verbal 19 septembrie 2024',
+  kind: 'official',
+  url: 'https://primaria-caransebes.ro/ftp/2024/cl/pv19092024.pdf',
+};
+
 const MOLDOVA_NOUA_CARPIAN_PARTY_SOURCE = {
-  label: 'Reper24',
-  kind: 'press',
-  url: 'https://arhiva.reper24.ro/lupta-intensa-pentru-primaria-moldova-noua-vezi-listele-complete-pentru-primarie-si-consiliu-local/',
+  label: 'BEC Moldova Nouă - candidatura ADU 2024',
+  kind: 'official',
+  url: 'https://primariamoldovanoua.ro/wp-content/uploads/2024/05/HOTARAREA-NR.7-26.04.2024-CANDIDATURA-CONSILIUL-LOCAL-ALIANTA-DREAPTA-UNITA.pdf',
+};
+
+const MOLDOVA_NOUA_CARPIAN_COURT_SOURCE = {
+  label: 'Tribunalul Caraș-Severin - dosarul 2322/115/2024',
+  kind: 'official',
+  url: 'https://portal.just.ro/115/Documents/25.02.2025-LISTA%20SEDINTA%20SECTIA%20II%20CIVILA.pdf',
 };
 
 const BARCA_TURCULEANU_PARTY_SOURCE = {
@@ -1177,10 +1238,22 @@ const BARCA_TURCULEANU_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/barca/19',
 };
 
+const BARCA_TURCULEANU_2023_OFFICE_SOURCE = {
+  label: 'Primăria Bârca - document achiziție 2023',
+  kind: 'official',
+  url: 'https://primariacomuneibirca.ro/wp-content/uploads/2023/06/07.06.2023-invitatie-.pdf',
+};
+
 const RODNA_BOLDIS_PARTY_SOURCE = {
   label: 'Comuna Rodna',
   kind: 'official',
   url: 'https://comunarodna.ro/consiliul-local-rodna/rapoarte-de-activitate-ale-consiliului-local.html',
+};
+
+const RODNA_BOLDIS_CURRENT_OFFICE_SOURCE = {
+  label: 'Primăria Rodna - declarații consilieri locali 2026',
+  kind: 'official',
+  url: 'https://comunarodna.ro/documente/declaratii-de-avere-si-interese-consilieri-locali-2026/',
 };
 
 const HODAC_FARCAS_PARTY_SOURCE = {
@@ -1189,10 +1262,28 @@ const HODAC_FARCAS_PARTY_SOURCE = {
   url: 'https://www.zi-de-zi.ro/2021/01/14/conducerea-comunei-hodac-in-formula-completa-ioan-feier-ales-viceprimar/',
 };
 
+const HODAC_FARCAS_2024_OFFICE_SOURCE = {
+  label: 'Primăria Hodac - proces-verbal 9 iulie 2024',
+  kind: 'official',
+  url: 'https://www.hodac.ro/wp-content/uploads/2024/07/BRNB42200B08D0D_004319.pdf',
+};
+
+const HODAC_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Hodac - Consiliul Local 2024-2028',
+  kind: 'official',
+  url: 'https://www.hodac.ro/consiliul-local/',
+};
+
 const COCORA_TOADER_PARTY_SOURCE = {
   label: 'Comuna Cocora',
   kind: 'official',
   url: 'https://comunacocora.ro/componenta_cl.html',
+};
+
+const COCORA_TOADER_FINAL_COURT_SOURCE = {
+  label: 'Independent - hotărârea definitivă privind raportul ANI',
+  kind: 'press',
+  url: 'https://www.independentonline.ro/2023/07/21/Razboi-in-instanta-intre-Agentia-Nationala-de-Integritate-si-Primaria-Cocora-27653?news_page=2',
 };
 
 const HALCHIU_DRUGAN_NECULA_PARTY_SOURCE = {
@@ -1201,16 +1292,76 @@ const HALCHIU_DRUGAN_NECULA_PARTY_SOURCE = {
   url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
 };
 
+const HALCHIU_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Hălchiu - componența Consiliului Local',
+  kind: 'official',
+  url: 'https://vechi.primariahalchiu.ro/componenta-consiliului-local/index.htm',
+};
+
+const DRUGAN_ANI_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosar 210/64/2024',
+  kind: 'official',
+  url: 'https://portal.just.ro/64/SitePages/dosare.aspx',
+};
+
+const DRUGAN_ELECTORAL_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosar 11599/197/2024',
+  kind: 'official',
+  url: 'https://portal.just.ro/62/SitePages/dosare.aspx',
+};
+
+const NECULA_ANI_COURT_CASE_SOURCE = {
+  label: 'Curtea de Apel Brașov - dosar 261/64/2022',
+  kind: 'official',
+  url: 'https://portal.just.ro/64/Documents/lista%20de%20sedinta%2027.09.2022%20-%20contencios.pdf',
+};
+
+const HALCHIU_NECULA_2020_ELECTION_SOURCE = {
+  label: 'Rezultate alegeri locale Hălchiu 2020',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_brasov/primarie/halchiu/8',
+};
+
 const TECUCI_MARTIN_PARTY_SOURCE = {
   label: 'Primaria Tecuci',
   kind: 'official',
   url: 'https://primariatecuci.ro/wp-content/uploads/2025/09/Statutul-Municipiului-Tecuci.pdf',
 };
 
+const TECUCI_MARTIN_FINAL_ANI_SOURCE = {
+  label: 'Tecuceni.com',
+  kind: 'press',
+  url: 'https://www.tecuceni.com/2025/06/liberalii-au-numit-un-nou-director-la-piata/',
+};
+
 const AVRAM_IANCU_HELER_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_alba/primarie/avram-iancu/14',
+};
+
+const HELER_PREFECTURE_CV_SOURCE = {
+  label: 'Instituția Prefectului Alba - CV Sandu Heler',
+  kind: 'official',
+  url: 'https://ab.prefectura.mai.gov.ro/wp-content/uploads/sites/17/2024/04/CV-Sandu-Heler.pdf',
+};
+
+const HELER_PSD_SOURCE = {
+  label: 'Alba pe Surse - trecerea la PSD',
+  kind: 'press',
+  url: 'https://www.albapesurse.ro/multi-pleaca-de-la-psd-la-pnl-dar-atii-de-la-pnl-se-intorc-acasa-la-psd-primarul-comunei-avram-iancu-sandu-heler-a-trecut-la-social-democrati/24/03/2024/101404/',
+};
+
+const HELER_RELEASE_SOURCE = {
+  label: 'Portal Legislativ - HG 294/2026',
+  kind: 'official',
+  url: 'https://legislatie.just.ro/Public/FormaPrintabila/00000G3PNEANXTWJUDF1UY1ROO2COWI9',
+};
+
+const HELER_FINAL_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosar 4020/107/2022',
+  kind: 'official',
+  url: 'https://portal.just.ro/57/SitePages/dosare.aspx',
 };
 
 const BRANESTI_PREDA_PARTY_SOURCE = {
@@ -1226,9 +1377,21 @@ const PUCIOASA_PREDA_ION_CASE_SOURCE = {
 };
 
 const POGANA_VEZETEU_PARTY_SOURCE = {
-  label: 'Ziare.com',
+  label: 'Candidați alegeri locale Pogana 2024',
   kind: 'press',
-  url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/pogana/',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vaslui/consiliul-local/pogana/',
+};
+
+const POGANA_VEZETEU_CURRENT_OFFICE_SOURCE = {
+  label: 'Asociația pentru Dezvoltare Intercomunitară Vaslui - act constitutiv 2025',
+  kind: 'official',
+  url: 'https://adiv.ro/wp-content/uploads/2025/05/050_ADIV_act_constitutiv.pdf',
+};
+
+const VEZETEU_ANI_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosar 582/45/2022*',
+  kind: 'official',
+  url: 'https://portal.just.ro/45/SitePages/dosare.aspx',
 };
 
 const TARGU_BUJOR_ANDONE_PARTY_SOURCE = {
@@ -1237,16 +1400,46 @@ const TARGU_BUJOR_ANDONE_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/targu-bujor/',
 };
 
+const TARGU_BUJOR_ANDONE_CURRENT_OFFICE_SOURCE = {
+  label: 'Primăria Târgu Bujor - conducere',
+  kind: 'official',
+  url: 'https://www.primariatgbujor.ro/conducere/',
+};
+
+const ANDONE_FINAL_INTEGRITY_SOURCE = {
+  label: 'Curtea de Conturi - raport privind Decizia ÎCCJ nr. 3620/2024',
+  kind: 'official',
+  url: 'https://www.curteadeconturi.ro/rapoarte-audit/downloads/7473',
+};
+
+const ANDONE_2024_VALIDATION_SOURCE = {
+  label: 'Viața Liberă - validarea mandatului din 2024',
+  kind: 'press',
+  url: 'https://www.viata-libera.ro/prima-pagina/234229-declarat-incompatibil-ion-andone-este-in-continuare-primar-la-targu-bujor',
+};
+
 const SALATRUCEL_PREOTESCU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_valcea/consiliul-local/salatrucel/',
 };
 
+const SALATRUCEL_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidații la Consiliul Local Sălătrucel în 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_valcea/consiliul-local/salatrucel/',
+};
+
 const FLORESTI_MARGHIOLESCU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_prahova/consiliul-local/floresti/12',
+};
+
+const FLORESTI_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidații la Consiliul Local Florești în 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_prahova/consiliul-local/floresti/1',
 };
 
 const VANATORI_HULEA_PARTY_SOURCE = {
@@ -1261,10 +1454,40 @@ const PUIESTI_BALAN_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/puiesti/10',
 };
 
+const PUIESTI_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidații la Consiliul Local Puiești în 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vaslui/consiliul-local/puiesti/',
+};
+
+const BALAN_VIOREL_ANI_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosarul 17/45/2024',
+  kind: 'official',
+  url: 'https://portal.just.ro/45/SitePages/dosare.aspx',
+};
+
 const AGIGEA_NITA_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_constanta/primarie/agigea/',
+};
+
+const AGIGEA_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Agigea - Consiliul Local 2024-2028',
+  kind: 'official',
+  url: 'https://primaria-agigea.ro/consiliul-local/',
+};
+
+const NITA_ABUSE_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosarul penal 17528/212/2024',
+  kind: 'official',
+  url: 'https://portal.just.ro/212/SitePages/Dosar.aspx?id_dosar=21200000000674039&id_inst=212',
+};
+
+const NITA_ABUSE_INDICTMENT_SOURCE = {
+  label: 'Ziua de Constanța - rechizitoriul Parchetului de pe lângă Curtea de Apel Constanța',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/stiri/justitie/agigea-dosar-justitie-procurorii-din-constanta-explica-de-ce-au-trimis-in-judecata-sase-consilieri-locali-din-agigea-document-861509.html',
 };
 
 const POPESTI_LUPU_PARTY_SOURCE = {
@@ -1273,10 +1496,34 @@ const POPESTI_LUPU_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_iasi/primarie/popesti/',
 };
 
+const POPESTI_LUPU_CURRENT_OFFICE_SOURCE = {
+  label: 'Primăria Popești - conducerea instituției',
+  kind: 'official',
+  url: 'https://www.primariapopestiiasi.ro/primaria/conducerea/',
+};
+
+const POPESTI_LUPU_2024_ELECTION_SOURCE = {
+  label: 'Ziare.com - rezultatele alegerilor locale din Popești în 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_iasi/primarie/popesti/2',
+};
+
 const CRISTIAN_COJOCARU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_brasov/primarie/cristian/19',
+};
+
+const CRISTIAN_COJOCARU_2024_ELECTION_SOURCE = {
+  label: 'Ziare.com - rezultatele alegerilor locale din Cristian în 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_brasov/primarie/cristian/',
+};
+
+const CRISTIAN_COJOCARU_CURRENT_OFFICE_SOURCE = {
+  label: 'Primăria Cristian - raportul de activitate al primarului',
+  kind: 'official',
+  url: 'https://primariacristian.ro/wp-content/uploads/2024/03/Raport-de-activitate-PRIMAR-2023.pdf',
 };
 
 const BREASTA_VIZITIU_PARTY_SOURCE = {
@@ -1285,10 +1532,46 @@ const BREASTA_VIZITIU_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_dolj/primarie/breasta/',
 };
 
+const BREASTA_VIZITIU_CURRENT_OFFICE_SOURCE = {
+  label: 'Primăria Breasta - primar',
+  kind: 'official',
+  url: 'https://primariabreasta.ro/primaria/conducere/primar/',
+};
+
+const BREASTA_VIZITIU_2024_VALIDATION_SOURCE = {
+  label: 'Judecătoria Craiova - încheierea de validare a mandatului de primar din 2024',
+  kind: 'official',
+  url: 'https://primariabreasta.ro/wp-content/uploads/2024/10/Incheiere-validare-primar-Breasta-Vizitiu-Ion.pdf',
+};
+
+const VIZITIU_ANI_COURT_CASE_SOURCE = {
+  label: 'Portalul instanțelor - dosarul 1393/54/2023',
+  kind: 'official',
+  url: 'https://portal.just.ro/54/SitePages/dosare.aspx',
+};
+
 const NUFARU_SOLOMENCU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_tulcea/primarie/nufaru/',
+};
+
+const SOLOMENCU_FINAL_CONVICTION_SOURCE = {
+  label: 'Info Tulcea - condamnarea definitivă în dosarul 9086/327/2022',
+  kind: 'press',
+  url: 'https://infotulcea.ro/condamnat-definitiv-primarul-din-nufaru-si-a-depus-mandatul/',
+};
+
+const SOLOMENCU_ANI_WITHDRAWAL_SOURCE = {
+  label: 'Ziua de Constanța - minuta din dosarul ANI 491/36/2023',
+  kind: 'press',
+  url: 'https://www.ziuaconstanta.ro/stiri/justitie/ciprian-ionut-solomencu-primarul-din-nufaru-judetul-tulcea-renunta-la-procesul-din-constanta-cu-agentia-nationala-de-integritate-minuta-852906.html',
+};
+
+const SOLOMENCU_MANDATE_END_SOURCE = {
+  label: 'Instituția Prefectului Tulcea - raport de activitate 2024',
+  kind: 'official',
+  url: 'https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2025/03/Raport-de-activitate-IPTL-01.01-31.12.2024_FINAL_v-rdb.pdf',
 };
 
 const CHIUIESTI_MIHUT_PARTY_SOURCE = {
@@ -1297,10 +1580,34 @@ const CHIUIESTI_MIHUT_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_cluj/primarie/chiuiesti/',
 };
 
+const CHIUIESTI_MIHUT_CURRENT_OFFICE_SOURCE = {
+  label: 'Consiliul Județean Cluj - Primăria Chiuiești',
+  kind: 'official',
+  url: 'https://cjcluj.ro/primarie/chiuiesti/',
+};
+
+const CHIUIESTI_MIHUT_2024_ELECTION_SOURCE = {
+  label: 'Dej24 - rezultatul alegerilor locale din Chiuiești în 2024',
+  kind: 'press',
+  url: 'https://dej24.ro/pnl-s-a-impus-in-aproape-toate-comunele-de-langa-dej-vezi-unde-s-au-schimbat-primarii/',
+};
+
 const SARMIZEGETUSA_HIBAIS_PARTY_SOURCE = {
   label: 'Comuna Sarmizegetusa',
   kind: 'official',
   url: 'https://comuna-sarmizegetusa.ro/wp-content/uploads/2024/10/sentinta-validare-consilieri-locali-2024-2028.pdf',
+};
+
+const SARMIZEGETUSA_CURRENT_MAYOR_SOURCE = {
+  label: 'Primăria Sarmizegetusa - primarul ales în 2024',
+  kind: 'official',
+  url: 'https://comuna-sarmizegetusa.ro/',
+};
+
+const SARMIZEGETUSA_HIBAIS_RESIGNATION_SOURCE = {
+  label: 'Primăria Sarmizegetusa - încetarea mandatului de consilier al lui Leontin-Dorin Hibais',
+  kind: 'official',
+  url: 'https://comuna-sarmizegetusa.ro/ph-nr-1-din-03-01-2025-privind-constatarea-incetarii-de-drept-inainte-de-expirarea-duratei-normale-prin-demisie-a-mandatului-de-consilier-local-al-d-lui-hibais-leontin-dorin-precum-si-vacantarea-lo/',
 };
 
 const CARTA_CANDULETIU_PARTY_SOURCE = {
@@ -1309,22 +1616,52 @@ const CARTA_CANDULETIU_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_sibiu/primarie/carta/',
 };
 
+const CARTA_CANDULETIU_FINAL_ANI_SOURCE = {
+  label: 'Instituția Prefectului Sibiu - încetarea mandatului după hotărârea definitivă',
+  kind: 'official',
+  url: 'https://sb.prefectura.mai.gov.ro/informare-de-presa-incetare-mandat-primar/',
+};
+
+const CARTA_2025_MAYOR_ELECTION_SOURCE = {
+  label: 'Sibiu 100 - rezultatul alegerilor locale parțiale din Cârța',
+  kind: 'press',
+  url: 'https://sibiu100.ro/eveniment/ultima-ora-carta-si-a-ales-noul-primar-eduard-manitiu-a-castigat-alegerile-partiale/',
+};
+
 const CELARU_COUNCIL_PARTY_SOURCE = {
   label: 'Primăria Celaru',
   kind: 'official',
   url: 'https://www.primariacelarudolj.ro/consilieri/',
 };
 
+const MINCAN_FINAL_ANI_DECISION_SOURCE = {
+  label: 'Gazeta de Sud - hotărârea definitivă a ÎCCJ privind raportul ANI',
+  kind: 'press',
+  url: 'https://www.gds.ro/Local/2025-02-25/consilier-local-incompatibil-la-inalta-curte-de-casatie-si-justitie/',
+};
+
+const MINCAN_COUNCIL_RESIGNATION_SOURCE = {
+  label: 'Primăria Celaru - încetarea prin demisie a mandatului de consilier local',
+  kind: 'official',
+  url: 'https://www.primariacelarudolj.ro/wp-content/uploads/2025/02/PH-nr.-7-din-20.02.2025-constatarea-incetarii-de-drept-prin-demisie-a-mandatului-de-consilier-local-al-dlui-Mincan-Marin.pdf',
+};
+
 const NICOLAE_BALCESCU_COUNCIL_PARTY_SOURCE = {
   label: 'Primăria Nicolae Bălcescu',
   kind: 'official',
-  url: 'https://www.primarianicolaebalcescu.ro/despre-institutie/consiliul-local/',
+  url: 'https://www.primarianicolaebalcescu.ro/despre-institutie/conducere/lista-persoanelor-din-conducere/consiliul-local-2/',
 };
 
 const COCORA_LUNGU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/cocora/',
+};
+
+const COCORA_2024_ELECTION_SOURCE = {
+  label: 'Primăria Cocora - documentele alegerilor locale din 2024',
+  kind: 'official',
+  url: 'https://comunacocora.ro/alegeri_locale.html',
 };
 
 const PODENII_NOI_COUNCIL_PARTY_SOURCE = {
@@ -1339,10 +1676,10 @@ const RADAUTI_PRUT_COUNCIL_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/2',
 };
 
-const RODNA_COUNCIL_PARTY_SOURCE = {
-  label: 'Comuna Rodna',
-  kind: 'official',
-  url: 'https://comunarodna.ro/consiliul-local-rodna/rapoarte-de-activitate-ale-consiliului-local.html',
+const RADAUTI_PRUT_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_botosani/consiliul-local/radauti-prut/1',
 };
 
 const ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE = {
@@ -1357,10 +1694,34 @@ const PODOLENI_2020_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/podoleni/',
 };
 
+const PODOLENI_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Podoleni - componența Consiliului Local',
+  kind: 'official',
+  url: 'https://comunapodoleni.ro/despre-primarie/conducere/consiliul-local/componenta/',
+};
+
+const PODOLENI_MANDRILAS_ANI_CASE_SOURCE = {
+  label: 'Mesagerul de Neamț',
+  kind: 'press',
+  url: 'https://mesagerulneamt.ro/2024/02/consilieri-locali-din-podoleni-in-proces-cu-inspectorii-de-integritate/',
+};
+
+const PODOLENI_GRASU_FINAL_ANI_SOURCE = {
+  label: 'Primăria Podoleni - adresă ANI și proiect de sancționare',
+  kind: 'official',
+  url: 'https://comunapodoleni.ro/wp-content/uploads/2025/03/Proiectul-nr.-31-privind-aplicarea-sanctiunii-de-diminuare-a-indemnizatiei-unui-consilier-local.pdf',
+};
+
 const RADOMIRESTI_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_olt/consiliul-local/radomiresti/21',
+};
+
+const RADOMIRESTI_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_olt/consiliul-local/radomiresti/1',
 };
 
 const DANESTI_COUNCIL_PARTY_SOURCE = {
@@ -1369,10 +1730,34 @@ const DANESTI_COUNCIL_PARTY_SOURCE = {
   url: 'https://www.comunadanesti.ro/consiliul-local/componenta/',
 };
 
+const DANESTI_PALITA_2024_CANDIDACY_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_gorj/consiliul-local/danesti/7',
+};
+
+const DANESTI_PALITA_CURRENT_MANDATE_SOURCE = {
+  label: 'Comuna Dănești - declarație de avere și interese 2025',
+  kind: 'official',
+  url: 'https://www.comunadanesti.ro/declaratie-de-avere-si-interese-palita-daniel-2025/',
+};
+
 const BUMBESTI_JIU_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_gorj/consiliul-local/bumbesti-jiu/2',
+};
+
+const BUMBESTI_JIU_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_gorj/consiliul-local/bumbesti-jiu/1',
+};
+
+const BUMBESTI_JIU_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Bumbești-Jiu - proces-verbal al Consiliului Local din 19 decembrie 2024',
+  kind: 'official',
+  url: 'https://bumbesti-jiu.ro/images/documente/Procese-verbale-CL/2024/Proces-verbal_19122024.pdf',
 };
 
 const CORBENI_2020_PARTY_SOURCE = {
@@ -1381,16 +1766,46 @@ const CORBENI_2020_PARTY_SOURCE = {
   url: 'https://www.cjarges.ro/documents/45853/959771/PV%2Bconstituire%2B26.10.2020.pdf/a2613be0-79a7-4426-9d0a-ba1342a41c3b',
 };
 
+const CORBENI_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Corbeni - consilieri locali, mandat 2024-2028',
+  kind: 'official',
+  url: 'https://www.cjarges.ro/en/web/corbeni/consilieri-locali-mandat-2024-2028',
+};
+
 const PADINA_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/consiliul-local/padina/21',
 };
 
+const PADINA_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_buzau/consiliul-local/padina/11',
+};
+
+const PADINA_CURRENT_COUNCIL_SOURCE = {
+  label: 'Info Bărăgan - convocarea Consiliului Local Padina din 22 ianuarie 2025',
+  kind: 'press',
+  url: 'https://www.infobaragan.ro/stiri/consiliul-local-al-comunei-padina-convocat-in-sedinta-ordinara-pe-22-01-2025/',
+};
+
+const PADINA_DAN_ANI_CHALLENGE_SOURCE = {
+  label: 'Știrile ProTV',
+  kind: 'press',
+  url: 'https://stirileprotv.ro/stiri/actualitate/consilierii-locali-prinsi-de-ani-ca-si-au-favorizat-propriile-firme-cine-este-jan-dan-care-vindea-hartie-igienica-primariei.html',
+};
+
 const PERIETI_2020_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/consiliul-local/perieti/',
+};
+
+const PERIETI_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_ialomita/consiliul-local/perieti/',
 };
 
 const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE = {
@@ -1819,10 +2234,28 @@ const TUDORA_DORIN_PARTY_SOURCE = {
   url: 'https://www.observatorulph.ro/administratie/2595713-dorin-tudora-pnl-si-a-dat-demisia-din-consiliul-judetean-prahova-a-fost-numit-director-general-la-conpet',
 };
 
+const TUDORA_DORIN_FINAL_ANI_SOURCE = {
+  label: 'Bursa de Valori București - raport trimestrial CONPET la 30 septembrie 2025',
+  kind: 'official',
+  url: 'https://m.bvb.ro/infocont/infocont25/COTE_20251113180734_1-Raport-administratori-Sit-Fin-trim-3-2025-BVB-RO.pdf',
+};
+
 const BRADEA_GRIGORE_PARTY_SOURCE = {
   label: 'Gazeta de Bistrita',
   kind: 'press',
   url: 'https://gazetadebistrita.ro/grigore-bradea-nu-mai-este-primarul-comunei-chiuza/',
+};
+
+const BRADEA_GRIGORE_FINAL_DECISION_SOURCE = {
+  label: 'Radio România Cluj',
+  kind: 'press',
+  url: 'https://www.radiocluj.ro/2026/03/23/28-de-ani-de-primarie-acum-la-final/',
+};
+
+const CHIUZA_CURRENT_LEADERSHIP_SOURCE = {
+  label: 'Primăria Chiuza - conducerea instituției',
+  kind: 'official',
+  url: 'https://chiuza.ro/conducerea-primariei/',
 };
 
 const GHINDAOANI_ANTOCHI_PARTY_SOURCE = {
@@ -1831,16 +2264,52 @@ const GHINDAOANI_ANTOCHI_PARTY_SOURCE = {
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/ghindaoani/19',
 };
 
+const GHINDAOANI_ANTOCHI_CURRENT_MANDATE_SOURCE = {
+  label: 'Instituția Prefectului Neamț - validarea mandatelor din 27 octombrie 2024',
+  kind: 'official',
+  url: 'https://nt.prefectura.mai.gov.ro/comunicate-privind-validarea-mandatelor-consiliilor-locale-garcina-dobreni-negresti-ghindaoani-baltatesti-ghindaoani-27-octombrie-2024/',
+};
+
+const GHINDAOANI_ANTOCHI_FINAL_ANI_CASE_SOURCE = {
+  label: 'StatusDosar - dosarul 30/103/2024, date din portal.just.ro',
+  kind: 'press',
+  url: 'https://www.statusdosar.ro/instante/inalta-curte-de-casatie-si-justitie/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/30/103/2024',
+};
+
+const GHINDAOANI_ANTOCHI_CONVICTION_SOURCE = {
+  label: 'Libertatea',
+  kind: 'press',
+  url: 'https://www.libertatea.ro/stiri/trucul-la-care-a-apelat-un-primar-condamnat-ca-sa-ramana-la-putere-dupa-a-fost-suspendat-din-functie-evident-ca-nu-o-sa-refuz-3658347',
+};
+
 const SCUNDU_BLEJAN_PARTY_SOURCE = {
   label: 'Eveniment Valcean',
   kind: 'press',
   url: 'https://evenimentvalcean.ro/psd-scundu-incepe-o-noua-etapa-sub-conducerea-primarului-mihaita-george-blejan/',
 };
 
+const SCUNDU_BLEJAN_FINAL_ANI_CASE_SOURCE = {
+  label: 'Timpul de Vâlcea - dosarul 804/46/2023',
+  kind: 'press',
+  url: 'https://www.timpuldevalcea.net/la-scundu-istoria-se-repeta-dupa-tata-si-fiul-incompatibil/',
+};
+
+const SCUNDU_BLEJAN_CURRENT_OFFICE_SOURCE = {
+  label: 'Curtea de Conturi a României - raport de audit UAT Scundu din 7 mai 2025',
+  kind: 'official',
+  url: 'https://www.curteadeconturi.ro/rapoarte-audit/downloads/10136',
+};
+
 const MIRCESTI_ANTOANE_PARTY_SOURCE = {
   label: 'Primaria Mircesti',
   kind: 'official',
   url: 'https://mircesti.ro/hcl-2021/',
+};
+
+const MIRCESTI_ANTOANE_CURRENT_EMPLOYMENT_SOURCE = {
+  label: 'Primăria Mircești - stat de funcții',
+  kind: 'official',
+  url: 'https://mircesti.ro/wp-content/uploads/2025/11/HCL-3-3.pdf',
 };
 
 const STRAMTURA_IAGAR_PARTY_SOURCE = {
@@ -1855,6 +2324,18 @@ const HARABAGIU_PSD_SOURCE = {
   url: 'https://www.ziaruldeiasi.ro/stiri/fostul-viceprimar-gabriel-harabagiu-cercetat-pentru-conflict-de-interese-a-fost-sesizat-parchetul--331626.html',
 };
 
+const HARABAGIU_FINAL_ANI_DECISION_SOURCE = {
+  label: '7Est - decizia definitivă ÎCCJ din 9 aprilie 2024',
+  kind: 'press',
+  url: 'https://www.7est.ro/2024/04/a-aparut-raportul-expertizei-grafice-la-semnaturile-fostului-viceprimar-gabriel-harabagiu-documentul-ar-putea-schimba-cursul-dosarului-flux/',
+};
+
+const HARABAGIU_2024_ASSET_DECLARATION_SOURCE = {
+  label: 'Primăria Iași - declarație de avere 2024',
+  kind: 'official',
+  url: 'https://www.primaria-iasi.ro/dm_iasi/hr.nsf/0/E1848ADA6C656682C2258B490040342E/%24FILE/Harabagiu%20Gabriel%20Vasile_a.pdf?Open=',
+};
+
 const OSVATH_UDMR_SOURCE = {
   label: 'UDMR',
   kind: 'official',
@@ -1867,10 +2348,28 @@ const BUSTENI_COUNCIL_SOURCE = {
   url: 'https://orasul-busteni.ro/wp-content/files/lista_CL.pdf',
 };
 
-const HAIDUC_USR_SOURCE = {
-  label: 'USR',
+const HAIDUC_SANATORIUM_SOURCE = {
+  label: 'Sanatoriul Balneoclimateric Bușteni - organizare',
   kind: 'official',
-  url: 'https://next.usr.ro/stiri/usr-sapte-candidati-la-alegerile-locale-din-11-iunie',
+  url: 'https://sanatoriulbusteni.ro/organizare/',
+};
+
+const HAIDUC_2024_ASSET_DECLARATION_SOURCE = {
+  label: 'Sanatoriul Balneoclimateric Bușteni - declarație de avere 2024',
+  kind: 'official',
+  url: 'https://sanatoriulbusteni.ro/wp-content/uploads/2024/07/DA-Haqiduc-Gh.pdf',
+};
+
+const CRIZBAV_2020_COUNCIL_SOURCE = {
+  label: 'Instituția Prefectului Brașov - constituirea Consiliului Local Crizbav',
+  kind: 'official',
+  url: 'https://bv.prefectura.mai.gov.ro/wp-content/uploads/sites/27/2020/10/Crizbav.pdf',
+};
+
+const CRIZBAV_2024_CANDIDATES_SOURCE = {
+  label: 'Litera 9 - candidați locali Brașov 2024',
+  kind: 'press',
+  url: 'https://litera9.com/sase-candidati-pentru-presedintia-judetului-brasov-si-sapte-pentru-primaria-brasov-lista-centralizata-a-tuturor-candidatilor-la-alegerile-locale-din-2024/',
 };
 
 const COLTEA_PNL_SOURCE = {
@@ -1885,10 +2384,40 @@ const HARLAU_RUGINA_PNL_SOURCE = {
   url: 'https://bit24.ro/ales-local-din-harlau-sanctionat-pentru-conflict-de-interese/',
 };
 
+const HARLAU_RUGINA_MANDATE_END_SOURCE = {
+  label: 'Primăria Hârlău - declarație la încetarea mandatului',
+  kind: 'official',
+  url: 'https://www.primaria-hirlau.ro/documente/declaratiiC/2024/avere/rugina%20incetare.pdf',
+};
+
+const HARLAU_CURRENT_COUNCIL_SOURCE = {
+  label: 'Primăria Hârlău - declarații Consiliul Local 2024-2028',
+  kind: 'official',
+  url: 'https://www.primaria-hirlau.ro/declaratiiC.html',
+};
+
+const RUGINA_FINAL_COURT_OUTCOME_SOURCE = {
+  label: 'BIT24 - hotărârea definitivă și încetarea funcției de director',
+  kind: 'press',
+  url: 'https://bit24.ro/un-nou-director-interimar-la-scoala-gimnaziala-petru-rares-din-harlau-dupa-demisia-fostei-conduceri/',
+};
+
+const IASI_COURT_PORTAL_SOURCE = {
+  label: 'Portalul Instanțelor - Curtea de Apel Iași',
+  kind: 'official',
+  url: 'https://portal.just.ro/45/SitePages/dosare.aspx',
+};
+
 const STRUGARI_DOSPINESCU_PARTY_SOURCE = {
   label: 'Ziare.com',
   kind: 'press',
   url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/strugari/',
+};
+
+const STRUGARI_2024_CANDIDATES_SOURCE = {
+  label: 'Ziare.com - candidați locali 2024',
+  kind: 'press',
+  url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_bacau/consiliul-local/strugari/',
 };
 
 const TOPOLOV_PNL_SOURCE = {
@@ -2235,15 +2764,15 @@ const AUR_JURAVLEA_CONVICTION_SOURCE = {
 };
 
 const AUR_RINGO_DAMUREANU_CONVICTION_SOURCE = {
-  label: 'B1TV',
+  label: 'G4Media',
   kind: 'press',
-  url: 'https://www.b1tv.ro/politica/cine-este-ringo-damureanu-condamnat-cu-amenda-penala-pentru-lovire-deputatul-aur-a-participat-la-consultarile-cu-klaus-iohannis-354250.html',
+  url: 'https://www.g4media.ro/unul-dintre-membrii-delegatiei-aur-care-se-intalneste-cu-presedintele-iohannis-a-fost-condamnat-cu-amenda-penala-pentru-lovire-ringo-damureanu-este-liderul-unui-sindicat-din-craiova-si-a-devenit-depu.html',
 };
 
 const AUR_RINGO_DAMUREANU_PARTY_SOURCE = {
-  label: 'AUR',
+  label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://partidulaur.ro/ringo-damureanu-intrebare-catre-m-a-i-a-constatat-politia-vreo-fapta-penala-la-data-de-28-mai-2010-in-urma-apelului-doamnei-boara-mioara-la-serviciul-unic-112/',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=89&leg=2020',
 };
 
 const AUR_DRAGOS_STEFAN_CASE_SOURCE = {
@@ -2271,112 +2800,147 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al comunei Breasta, județul Dolj',
     position_type: 'mayor',
     crime: 'Avere nejustificată; fals în declarații (sesizare parchet)',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'ANI a constatat în iulie 2023 o diferență nejustificată de 114.540 lei între averea dobândită și veniturile realizate în mandatul de primar 2016-2020 și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind venituri din jocuri de noroc nedeclarate.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 o diferență nejustificată de 114.540 lei și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind venituri din jocuri de noroc nedeclarate. Curtea de Apel Craiova a respins la 6 noiembrie 2023 contestația sa împotriva raportului ANI în dosarul 1393/54/2023; hotărârea putea fi atacată cu recurs. Nu a fost identificată o soluție definitivă publică până la reverificare. Ion Vizitiu a fost validat pentru un nou mandat de primar în 2024.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Dolj',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Breasta, județul Dolj.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, BREASTA_VIZITIU_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      VIZITIU_ANI_COURT_CASE_SOURCE,
+      BREASTA_VIZITIU_CURRENT_OFFICE_SOURCE,
+      BREASTA_VIZITIU_2024_VALIDATION_SOURCE,
+      BREASTA_VIZITIU_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Solomencu Ciprian',
     party: 'PSD',
-    position: 'Primar al comunei Nufăru, județul Tulcea',
+    position: 'Fost primar al comunei Nufăru, județul Tulcea (2020-2023)',
     position_type: 'mayor',
-    crime: 'Conflict de interese administrativ',
-    status: 'integrity',
+    crime: 'Conducerea unui vehicul sub influența alcoolului; conflict de interese administrativ',
+    sentence: '1 an închisoare cu suspendare',
+    sentence_years: 1,
+    conviction_year: 2023,
+    status: 'convicted',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de primar început în 2020, ar fi încheiat două acte juridice care au produs un folos material pentru soția sa, constând în încasarea de subvenții în calitate de persoană fizică autorizată.',
-    verified_at: '2026-05-24',
+      'Curtea de Apel Constanța a menținut în 2023 condamnarea din dosarul 9086/327/2022 la un an de închisoare cu suspendare pentru conducerea unui vehicul sub influența alcoolului; ulterior, mandatul său de primar a încetat. Separat, ANI a constatat în iulie 2023 că a încheiat două acte juridice care au produs un folos material pentru soția sa, prin încasarea de subvenții ca persoană fizică autorizată. Curtea de Apel Constanța a luat act la 11 aprilie 2024 de renunțarea sa la judecarea cererii de anulare a raportului ANI în dosarul 491/36/2023.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Tulcea',
       basis: 'office',
-      note: 'Funcția publică relevantă este cea de primar al comunei Nufăru, județul Tulcea.',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Nufăru, județul Tulcea.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, NUFARU_SOLOMENCU_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      SOLOMENCU_FINAL_CONVICTION_SOURCE,
+      SOLOMENCU_ANI_WITHDRAWAL_SOURCE,
+      SOLOMENCU_MANDATE_END_SOURCE,
+      NUFARU_SOLOMENCU_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Mihuț Gavril',
-    party: 'PNL',
+      party: 'PNL',
     position: 'Primar al comunei Chiuiești, județul Cluj',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de primar început în 2020, ar fi emis acte administrative care au produs un folos material pentru fiul său, prin achiziții directe ale primăriei de la societatea acestuia în valoare de 14.440,03 lei.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de primar început în 2020, ar fi emis acte administrative care au produs un folos material pentru fiul său, prin achiziții directe ale primăriei de la societatea acestuia în valoare de 14.440,03 lei. Gavril Mihuț a fost reales în 2024 și este indicat în continuare drept primar de Consiliul Județean Cluj. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Cluj',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Chiuiești, județul Cluj.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CHIUIESTI_MIHUT_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      CHIUIESTI_MIHUT_CURRENT_OFFICE_SOURCE,
+      CHIUIESTI_MIHUT_2024_ELECTION_SOURCE,
+      CHIUIESTI_MIHUT_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Hibais Leontin Dorin',
     party: 'PNL',
-    position: 'Primar și fost viceprimar al comunei Sarmizegetusa, județul Hunedoara',
+    position: 'Fost primar al comunei Sarmizegetusa (2021-2024); fost consilier local (2024-2025)',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în perioada exercitării mandatului de viceprimar, societatea comercială în care soția sa era asociat unic și administrator ar fi încheiat două contracte de prestări servicii, de 6.664 lei, cu Școala Gimnazială Sarmizegetusa.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în perioada exercitării mandatului de viceprimar, societatea comercială în care soția sa era asociat unic și administrator a încheiat două contracte de prestări servicii, în valoare totală de 6.664 lei, cu Școala Gimnazială Sarmizegetusa, aflată în subordinea Consiliului Local. A fost primar până în 2024; mandatul de consilier local obținut la alegerile din 2024 a încetat prin demisie la începutul anului 2025. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Hunedoara',
       basis: 'office',
-      note: 'Funcția publică relevantă este legată de comuna Sarmizegetusa, județul Hunedoara.',
+      note: 'Funcțiile publice relevante au fost cele de primar și consilier local al comunei Sarmizegetusa, județul Hunedoara.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, SARMIZEGETUSA_HIBAIS_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      SARMIZEGETUSA_HIBAIS_PARTY_SOURCE,
+      SARMIZEGETUSA_CURRENT_MAYOR_SOURCE,
+      SARMIZEGETUSA_HIBAIS_RESIGNATION_SOURCE,
+    ],
   },
   {
     name: 'Cândulețiu Daniel',
     party: 'PNL',
-    position: 'Primar al comunei Cârța, județul Sibiu',
+    position: 'Fost primar al comunei Cârța, județul Sibiu (2020-2025)',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2023 că, în perioada 22 octombrie 2020 - 2 noiembrie 2021, ar fi exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
-    verified_at: '2026-05-24',
+      'ANI a constatat că, în perioada 22 octombrie 2020 - 2 noiembrie 2021, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică. Curtea de Apel Alba Iulia i-a respins acțiunea de anulare a raportului ANI prin sentința nr. 156 din 4 iunie 2024, iar ÎCCJ a respins definitiv, ca tardiv, recursul prin decizia nr. 426 din 30 ianuarie 2025. Prefectul județului Sibiu a constatat încetarea mandatului la 17 martie 2025; Eduard Manițiu a câștigat alegerile parțiale din 2025.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Sibiu',
       basis: 'office',
-      note: 'Funcția publică relevantă este cea de primar al comunei Cârța, județul Sibiu.',
+      note: 'Funcția publică relevantă a fost cea de primar al comunei Cârța, județul Sibiu.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CARTA_CANDULETIU_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      CARTA_CANDULETIU_FINAL_ANI_SOURCE,
+      CARTA_2025_MAYOR_ELECTION_SOURCE,
+      CARTA_CANDULETIU_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Mincan Marin',
     party: 'PNL',
-    position: 'Consilier local al comunei Celaru, județul Dolj',
+    position: 'Fost consilier local al comunei Celaru, județul Dolj (mandat încetat în 2025)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2023 că, în perioada 30 iunie 2016 - 31 decembrie 2022, Primăria Celaru și Consiliul Local Celaru ar fi încheiat achiziții directe de 622.587,71 lei cu societatea comercială în cadrul căreia persoana evaluată deținea funcția de director.',
-    verified_at: '2026-05-24',
+      'ANI a constatat că, în perioada 30 iunie 2016 - 31 decembrie 2022, Primăria Celaru și Consiliul Local Celaru au încheiat achiziții directe de 622.587,71 lei cu societatea la care Marin Mincan deținea funcția de director al unui punct de lucru. Curtea de Apel Craiova anulase inițial raportul ANI prin sentința nr. 70 din 12 februarie 2024, dar ÎCCJ a admis definitiv recursul ANI la 18 februarie 2025 și a respins acțiunea lui Mincan. Mandatul său de consilier local a încetat ulterior prin demisie.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Dolj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Celaru, județul Dolj.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, CELARU_COUNCIL_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      MINCAN_FINAL_ANI_DECISION_SOURCE,
+      MINCAN_COUNCIL_RESIGNATION_SOURCE,
+      CELARU_COUNCIL_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Popescu Ionuț-Gabriel',
     party: 'PSD',
-    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position: 'Fost consilier local al comunei Nicolae Bălcescu, județul Călărași (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la adoptarea unor hotărâri privind prelungirea contractelor de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, persoana evaluată fiind beneficiar direct.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la 24 noiembrie 2020 și 25 mai 2022 la adoptarea unor hotărâri privind prelungirea contractelor de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, deși era beneficiar direct al contractelor. Componența oficială a consiliului rezultat din alegerile din 2024 nu îl mai include. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Călărași',
       basis: 'office',
@@ -2387,13 +2951,13 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Teodorescu Sergiu',
     party: 'PSD',
-    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position: 'Fost consilier local al comunei Nicolae Bălcescu, județul Călărași (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la adoptarea unei hotărâri privind prelungirea unor contracte de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, tatăl său fiind beneficiar direct.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, ar fi participat la adoptarea unei hotărâri privind prelungirea unor contracte de închiriere ale terenurilor primăriei și modificarea taxei anuale de închiriere, tatăl său fiind beneficiar direct. Componența oficială a consiliului rezultat din alegerile din 2024 nu îl mai include. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Călărași',
       basis: 'office',
@@ -2404,30 +2968,30 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Lungu Victor',
     party: 'PNL',
-    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position: 'Fost consilier local al comunei Cocora, județul Ialomița (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de consilier local, ar fi participat la adoptarea unei hotărâri privind inițierea procedurii de închiriere a unor terenuri comunale, iar ulterior atât persoana evaluată, cât și fratele său au încheiat contracte de închiriere cu comuna.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local, ar fi participat la adoptarea hotărârii din 21 ianuarie 2021 privind inițierea procedurii de închiriere a unor terenuri comunale, iar ulterior atât persoana evaluată, cât și fratele său au încheiat contracte de închiriere cu comuna. Listele de candidați din 2024 nu îl mai includ, iar PNL nu a depus listă pentru Consiliul Local Cocora. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE],
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE, COCORA_2024_ELECTION_SOURCE],
   },
   {
     name: 'Mareș Florin',
     party: 'PNL',
-    position: 'Consilier local al comunei Podenii Noi, județul Prahova',
+    position: 'Consilier local al comunei Podenii Noi, județul Prahova, în mandatul 2020-2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, societatea comercială a soției sale ar fi încheiat un contract de prestări servicii și un act adițional cu Școala Gimnazială Comuna Podenii Noi, entitate aflată în subordinea UAT Podenii Noi.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local început în 2020, societatea comercială a soției sale ar fi încheiat un contract de prestări servicii și un act adițional cu Școala Gimnazială Comuna Podenii Noi, entitate aflată în subordinea UAT Podenii Noi. Pagina oficială consultată confirmă doar componența consiliului ales în 2020; nu a fost identificată o dovadă oficială a unui mandat ulterior sau o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Prahova',
       basis: 'office',
@@ -2438,19 +3002,23 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Hrițcușoru Fănică',
     party: 'PNL',
-    position: 'Consilier local al comunei Rădăuți-Prut, județul Botoșani',
+    position: 'Fost consilier local al comunei Rădăuți-Prut, județul Botoșani (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în calitate de consilier local, ar fi participat la adoptarea hotărârii din 31 martie 2021 privind prelungirea unor contracte de concesiune, iar ulterior a încheiat un act adițional la contractul său de concesiune din 2016.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în calitate de consilier local, ar fi participat la adoptarea hotărârii din 31 martie 2021 privind prelungirea unor contracte de concesiune, iar ulterior a încheiat un act adițional la contractul său de concesiune din 2016. Lista candidaților din 2024 nu îl mai include, astfel că funcția este prezentată ca mandat 2020-2024. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Botoșani',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Rădăuți-Prut, județul Botoșani.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, RADAUTI_PRUT_COUNCIL_PARTY_SOURCE],
+    sources: [
+      ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE,
+      RADAUTI_PRUT_COUNCIL_PARTY_SOURCE,
+      RADAUTI_PRUT_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Culcă Istrate',
@@ -2460,14 +3028,14 @@ const ANI_JUL_2023_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2023 că, în mandatul de consilier local 2016-2020, societatea comercială în cadrul căreia soția sa deținea funcția de director economic ar fi încheiat cu Primăria Rodna un contract de prestări servicii în baza căruia a încasat 21.420 lei.',
-    verified_at: '2026-05-24',
+      'ANI a constatat în iulie 2023 că, în mandatul de consilier local 2016-2020, societatea comercială în cadrul căreia soția sa deținea funcția de director economic ar fi încheiat cu Primăria Rodna un contract de prestări servicii în baza căruia a încasat 21.420 lei. Statutul oficial al comunei confirmă mandatul 2016-2020 și apartenența la PSD. Nu a fost identificată public o hotărâre judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Bistrița-Năsăud',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Rodna, județul Bistrița-Năsăud.',
     },
-    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE, RODNA_COUNCIL_PARTY_SOURCE],
+    sources: [ANI_JUL_2023_LOCAL_OFFICIALS_SOURCE],
   },
 ];
 
@@ -2480,14 +3048,19 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în perioada 28 iunie 2016 - 15 octombrie 2020, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în perioada 28 iunie 2016 - 15 octombrie 2020, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică. Sursele publice consultate nu confirmă o hotărâre definitivă asupra raportului ANI; site-ul oficial al comunei indică un alt primar în funcție.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Călărași',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Ciocănești, județul Călărași.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, CIOCANESTI_PAVEL_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      CIOCANESTI_PAVEL_PARTY_SOURCE,
+      CIOCANESTI_CURRENT_MAYOR_SOURCE,
+    ],
   },
   {
     name: 'Cernica Costică',
@@ -2497,99 +3070,130 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în perioada 3 noiembrie 2020 - 15 februarie 2021, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în perioada 3 noiembrie 2020 - 15 februarie 2021, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală. A fost ales din nou viceprimar al comunei Milcovul la 31 octombrie 2024. Sursele publice consultate nu confirmă o hotărâre definitivă asupra raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vrancea',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de viceprimar al comunei Milcovul, județul Vrancea.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, MILCOVUL_COUNCIL_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      MILCOVUL_COUNCIL_PARTY_SOURCE,
+      MILCOVUL_CERNICA_CURRENT_OFFICE_SOURCE,
+    ],
   },
   {
     name: 'Mihai Daniel Ionuț',
-    party: 'PSD',
-    position: 'Fost viceprimar al orașului Amara, județul Ialomița',
+    party: 'Pro România',
+    position: 'Fost viceprimar și consilier local al orașului Amara, județul Ialomița',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în perioada 30 iulie - 28 noiembrie 2019, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în perioada 30 iulie - 28 noiembrie 2019, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală. A candidat la Primăria Amara din partea Pro România în 2020 și era consilier local în aprilie 2023. Sursele publice consultate nu confirmă o hotărâre definitivă asupra raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de viceprimar al orașului Amara, județul Ialomița.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, AMARA_DANIEL_MIHAI_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      AMARA_DANIEL_MIHAI_PARTY_SOURCE,
+      AMARA_DANIEL_MIHAI_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Tomuș Dorel',
-    party: 'PSD',
-    position: 'Fost consilier județean în Consiliul Județean Alba',
+    party: 'Independent',
+    position: 'Fost consilier județean în Consiliul Județean Alba; candidat independent în 2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'ANI a constatat în mai 2022 că, în perioada 9 iulie 2018 - 28 martie 2019, a deținut simultan mandatul de consilier județean și funcția de director general sau director general adjunct într-o societate comercială cu acționar unic Ministerul Economiei.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în perioada 9 iulie 2018 - 28 martie 2019, a deținut simultan mandatul de consilier județean și funcția de director general sau director general adjunct la Cupru Min. Curtea de Apel Alba Iulia a anulat raportul ANI în primă instanță la 24 noiembrie 2022; sursele publice consultate nu confirmă soluția unui eventual recurs. În 2024 a candidat ca independent.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Alba',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de consilier județean în Consiliul Județean Alba.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, TOMUS_DOREL_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      TOMUS_DOREL_PARTY_SOURCE,
+      TOMUS_DOREL_COURT_SOURCE,
+      TOMUS_DOREL_2024_CANDIDACY_SOURCE,
+    ],
   },
   {
     name: 'Dragomir Cristian Eugen',
     party: 'PNL',
-    position: 'Consilier local al municipiului Caransebeș, județul Caraș-Severin',
+    position: 'Fost consilier local al municipiului Caransebeș, județul Caraș-Severin (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; sesizare parchet',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind darea în folosință gratuită a unui teren către clubul sportiv în cadrul căruia deținea o funcție contractuală și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii privind folosirea funcției pentru favorizarea unor persoane.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind darea în folosință gratuită a unui teren către clubul sportiv în cadrul căruia deținea o funcție contractuală și a sesizat Parchetul de pe lângă ÎCCJ pentru indicii privind folosirea funcției pentru favorizarea unor persoane. Documentele oficiale confirmă exercitarea mandatului până în septembrie 2024; sursele publice consultate nu confirmă finalitatea raportului ANI ori a sesizării penale.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Caransebeș, județul Caraș-Severin.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, CARANSEBES_DRAGOMIR_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      CARANSEBES_DRAGOMIR_PARTY_SOURCE,
+      CARANSEBES_DRAGOMIR_2024_OFFICE_SOURCE,
+    ],
   },
   {
     name: 'Cârpian Ion',
-    party: 'UNPR',
-    position: 'Fost consilier local al orașului Moldova Nouă, județul Caraș-Severin',
+    party: 'ADU',
+    position: 'Fost consilier local; candidat ADU la Primăria și Consiliul Local Moldova Nouă în 2024',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea a două hotărâri ale Consiliului Local Moldova Nouă privind activitatea Ocolului Silvic Moldova Nouă, în timp ce deținea funcții de șef district și șef ocol în cadrul acelui ocol.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea a două hotărâri ale Consiliului Local Moldova Nouă privind activitatea Ocolului Silvic Moldova Nouă, în timp ce deținea funcții de șef district și șef ocol în cadrul acelui ocol. În 2024 a candidat din partea Alianței Dreapta Unită la primărie și la consiliul local. Dosarul 2322/115/2024, inițiat de ANI împotriva sa și a UAT Moldova Nouă, figura pe rolul Tribunalului Caraș-Severin în februarie 2025; soluția definitivă nu a fost identificată public.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Moldova Nouă, județul Caraș-Severin.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, MOLDOVA_NOUA_CARPIAN_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      MOLDOVA_NOUA_CARPIAN_PARTY_SOURCE,
+      MOLDOVA_NOUA_CARPIAN_COURT_SOURCE,
+    ],
   },
   {
     name: 'Turculeanu Constantin',
     party: 'PSD',
-    position: 'Consilier local al comunei Bârca, județul Dolj',
+    position: 'Consilier local al comunei Bârca în mandatele 2016-2020 și 2020-2024; candidat PSD în 2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, societatea comercială administrată de fiul său a încheiat un contract de prestări servicii cu Primăria comunei Bârca.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, societatea comercială administrată de fiul său a încheiat un contract de prestări servicii cu Primăria comunei Bârca. Un document oficial îl confirmă consilier local în 2023, iar lista electorală îl arată candidat PSD la consiliul local în 2024. Sursele publice consultate nu confirmă finalitatea raportului ANI sau validarea unui nou mandat.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Dolj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Bârca, județul Dolj.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, BARCA_TURCULEANU_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      BARCA_TURCULEANU_PARTY_SOURCE,
+      BARCA_TURCULEANU_2023_OFFICE_SOURCE,
+    ],
   },
   {
     name: 'Boldiș Cornelia Alexandra',
@@ -2599,82 +3203,112 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind taxe speciale în comuna Rodna, inclusiv taxa pentru terenul sintetic de la plata căreia erau exceptați sportivii legitimați la cluburi locale, deși soțul său era legitimat la un club sportiv din comună.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind taxe speciale în comuna Rodna, inclusiv taxa pentru terenul sintetic de la plata căreia erau exceptați sportivii legitimați la cluburi locale, deși soțul său era legitimat la un club sportiv din comună. A candidat din partea ADU în 2024, iar Primăria Rodna publică declarațiile sale de consilier local pentru 2026. Sursele publice consultate nu confirmă finalitatea raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Bistrița-Năsăud',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Rodna, județul Bistrița-Năsăud.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, RODNA_BOLDIS_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      RODNA_BOLDIS_PARTY_SOURCE,
+      RODNA_BOLDIS_CURRENT_OFFICE_SOURCE,
+    ],
   },
   {
     name: 'Fărcaș Nicolae',
     party: 'PSD',
-    position: 'Consilier local al comunei Hodac, județul Mureș',
+    position: 'Fost consilier local al comunei Hodac, județul Mureș (mandatele 2016-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; sesizare parchet',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la acte administrative privind atribuirea directă a pășunilor proprietate privată ale comunei Hodac, care puteau produce folos material pentru fiul său, și a sesizat Parchetul de pe lângă ÎCCJ.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la acte administrative privind atribuirea directă a pășunilor proprietate privată ale comunei Hodac, care puteau produce folos material pentru fiul său, și a sesizat Parchetul de pe lângă ÎCCJ. Documentele oficiale îl confirmă în consiliu în iulie 2024, însă nu mai figurează în componența publicată pentru mandatul 2024-2028. Sursele publice consultate nu confirmă finalitatea raportului ANI sau a sesizării penale.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Mureș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Hodac, județul Mureș.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HODAC_FARCAS_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      HODAC_FARCAS_PARTY_SOURCE,
+      HODAC_FARCAS_2024_OFFICE_SOURCE,
+      HODAC_CURRENT_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Toader Vasile',
     party: 'PSD',
-    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position: 'Fost consilier local al comunei Cocora, județul Ialomița',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; sesizare parchet',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul 2020-2024 de consilier local, a participat la adoptarea unei hotărâri privind închirierea pajiștilor comunale, după care a încheiat cu Primăria Cocora un contract de închiriere pentru o pajiște comunală; ANI a sesizat și Parchetul de pe lângă ÎCCJ.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul 2020-2024 de consilier local, a participat la adoptarea unei hotărâri privind închirierea pajiștilor comunale, după care a încheiat cu Primăria Cocora un contract de închiriere pentru o pajiște comunală; ANI a sesizat și Parchetul de pe lângă ÎCCJ. După raportul ANI, Toader a contestat constatarea și a demisionat din funcția electivă. Curtea de Apel București a confirmat în februarie 2023 conflictul de interese, iar constatarea ANI a rămas definitivă.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, COCORA_TOADER_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      COCORA_TOADER_PARTY_SOURCE,
+      COCORA_TOADER_FINAL_COURT_SOURCE,
+    ],
   },
   {
     name: 'Drugan Petru',
     party: 'PNL',
-    position: 'Consilier local al comunei Hălchiu, județul Brașov',
+    position: 'Fost viceprimar și consilier local al comunei Hălchiu, județul Brașov (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor suprafețe de pășune proprietate privată a comunei Hălchiu, iar ulterior primăria a încheiat un contract de închiriere cu tatăl său.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor suprafețe de pășune proprietate privată a comunei Hălchiu, iar ulterior primăria a încheiat un contract de închiriere cu tatăl său. Acțiunea prin care a contestat raportul ANI a fost anulată ca netimbrată de Curtea de Apel Brașov la 9 iulie 2024 (dosar 210/64/2024, închis). În aprilie 2024, Tribunalul Brașov i-a respins definitiv apelul electoral privind candidatura la Primăria Hălchiu; nu figurează în actualul consiliu local.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Hălchiu, județul Brașov.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HALCHIU_DRUGAN_NECULA_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      HALCHIU_DRUGAN_NECULA_PARTY_SOURCE,
+      DRUGAN_ANI_COURT_CASE_SOURCE,
+      DRUGAN_ELECTORAL_CASE_SOURCE,
+      HALCHIU_CURRENT_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Necula Samoilă',
-    party: 'UNPR',
+    party: 'ALDE',
     position: 'Fost consilier local al comunei Hălchiu, județul Brașov',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor pășuni comunale, iar ulterior primăria a încheiat un contract de închiriere cu o întreprindere individuală al cărei titular era fiul său.',
-    verified_at: '2026-05-25',
+      'ANI a constatat în mai 2022 că, în mandatul 2016-2020 de consilier local, a participat la deliberarea și adoptarea hotărârii privind închirierea directă a unor pășuni comunale, iar ulterior primăria a încheiat un contract de închiriere cu o întreprindere individuală al cărei titular era fiul său. A contestat raportul ANI nr. 21828/G/II/09.05.2022 la Curtea de Apel Brașov în dosarul 261/64/2022; nu a fost identificată o soluție finală publică suficient de clară. În 2020 a candidat din partea ALDE la Primăria și Consiliul Local Hălchiu, iar în actualul consiliu local nu figurează.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Hălchiu, județul Brașov.',
     },
-    sources: [ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE, ANI_MAY_2022_AGERPRES_SOURCE, HALCHIU_DRUGAN_NECULA_PARTY_SOURCE],
+    sources: [
+      ANI_MAY_2022_LOCAL_OFFICIALS_SOURCE,
+      ANI_MAY_2022_AGERPRES_SOURCE,
+      HALCHIU_DRUGAN_NECULA_PARTY_SOURCE,
+      NECULA_ANI_COURT_CASE_SOURCE,
+      HALCHIU_NECULA_2020_ELECTION_SOURCE,
+      HALCHIU_CURRENT_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Cristinel-Mihai Martin',
@@ -2698,20 +3332,27 @@ const ANI_MAY_2022_LOCAL_OFFICIALS_RECORDS = [
 const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Heler Sandu',
-    party: 'PNL',
-    position: 'Primar al comunei Avram Iancu, județul Alba',
+    party: 'PSD',
+    position: 'Fost subprefect al județului Alba (aprilie 2024-aprilie 2026); anterior primar al comunei Avram Iancu',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în exercitarea atribuțiilor de primar, ar fi semnat mai multe documente care au produs un folos patrimonial acestuia.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că, în exercitarea atribuțiilor de primar, a semnat mai multe documente care i-au produs un folos patrimonial. În dosarul 4020/107/2022, Tribunalul Alba a constatat nulitatea absolută a certificatelor de urbanism și autorizațiilor emise, iar Curtea de Apel Alba Iulia i-a respins definitiv recursul la 12 martie 2025. A fost primar până la 11 aprilie 2024, apoi subprefect al județului Alba; Guvernul l-a eliberat din această funcție la 30 aprilie 2026. În martie 2024 a trecut de la PNL la PSD.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Alba',
       basis: 'office',
-      note: 'Funcția publică relevantă este cea de primar al comunei Avram Iancu, județul Alba.',
+      note: 'Faptele de integritate privesc mandatul de primar al comunei Avram Iancu; ulterior a fost subprefect al județului Alba.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, AVRAM_IANCU_HELER_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      HELER_FINAL_COURT_CASE_SOURCE,
+      HELER_PREFECTURE_CV_SOURCE,
+      HELER_RELEASE_SOURCE,
+      HELER_PSD_SOURCE,
+      AVRAM_IANCU_HELER_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Preda Ion',
@@ -2741,21 +3382,25 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Vezeteu Ioan',
-    party: 'ALDE',
-    position:
-      'Viceprimar al comunei Pogana, județul Vaslui și funcționar public în Primăria Comunei Voinești',
-    position_type: 'local_official',
+    party: 'PNL',
+    position: 'Primar al comunei Pogana, județul Vaslui; viceprimar la data constatării ANI',
+    position_type: 'mayor',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că ar fi candidat și apoi ar fi exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Voinești.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că a candidat și apoi a exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Voinești. Contestația raportului ANI se rejudecă în dosarul 582/45/2022* al Curții de Apel Iași; la 15 aprilie 2025 instanța a sesizat CJUE și a suspendat cauza până la soluționarea întrebărilor preliminare. În 2024 a candidat din partea PNL, iar un document oficial din 2025 îl confirmă primar al comunei Pogana.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vaslui',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de viceprimar al comunei Pogana, județul Vaslui.',
+      note: 'La data constatării ANI era viceprimar al comunei Pogana; ulterior a devenit primarul comunei.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, POGANA_VEZETEU_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      VEZETEU_ANI_COURT_CASE_SOURCE,
+      POGANA_VEZETEU_CURRENT_OFFICE_SOURCE,
+      POGANA_VEZETEU_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Andone Ion',
@@ -2763,50 +3408,64 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al orașului Târgu Bujor, județul Galați; fost viceprimar',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că ar fi candidat și apoi ar fi exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Târgu Bujor.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că a candidat și apoi a exercitat mandatul de consilier local fără suspendarea corespunzătoare a raportului de serviciu din funcția publică deținută în Primăria Târgu Bujor. Raportul ANI nr. 36341/G/II/19.08.2022 a rămas definitiv prin Decizia ÎCCJ nr. 3620 din 26 iunie 2024, iar Prefectura Galați a constatat încetarea mandatului prin Ordinul nr. 408/15.07.2024. După realegerea din 2024, Judecătoria Târgu Bujor i-a validat însă noul mandat, iar site-ul oficial al primăriei îl indică în continuare drept primar.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Galați',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al orașului Târgu Bujor, județul Galați.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, TARGU_BUJOR_ANDONE_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      ANDONE_FINAL_INTEGRITY_SOURCE,
+      TARGU_BUJOR_ANDONE_CURRENT_OFFICE_SOURCE,
+      ANDONE_2024_VALIDATION_SOURCE,
+      TARGU_BUJOR_ANDONE_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Preoțescu Marian',
     party: 'PNL',
-    position: 'Consilier local al comunei Sălătrucel, județul Vâlcea',
+    position: 'Fost consilier local al comunei Sălătrucel, județul Vâlcea (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că, începând cu 23 octombrie 2020, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Sălătrucel.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că, începând cu 23 octombrie 2020, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Sălătrucel. Lista candidaților din 2024 nu îl mai include; nu a fost identificată însă o soluție definitivă publică privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Sălătrucel, județul Vâlcea.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, SALATRUCEL_PREOTESCU_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      SALATRUCEL_PREOTESCU_PARTY_SOURCE,
+      SALATRUCEL_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Marghiolescu Lucia-Nicoleta',
     party: 'Partida Romilor Pro-Europa',
-    position: 'Consilier local al comunei Florești, județul Prahova',
+    position: 'Fost consilier local al comunei Florești, județul Prahova (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că, în perioada 15 iunie - 12 septembrie 2021, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală la cancelaria prefectului din județul Prahova.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că, în perioada 15 iunie - 12 septembrie 2021, ar fi exercitat simultan mandatul de consilier local și o funcție contractuală la cancelaria prefectului din județul Prahova. Lista candidaților din 2024 nu o mai include, iar în sursele publice consultate nu a fost identificată o soluție definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Prahova',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Florești, județul Prahova.',
     },
-    sources: [ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE, FLORESTI_MARGHIOLESCU_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SECOND_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      FLORESTI_MARGHIOLESCU_PARTY_SOURCE,
+      FLORESTI_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Hulea Ecaterina',
@@ -2816,8 +3475,8 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că, în mandatul 2016-2020, ar fi încheiat cu Primăria Comunei Vânători, prin propriul PFA, două contracte de prestări servicii și un act adițional în valoare totală de 30.000 lei.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în august 2022 că, în mandatul 2016-2020, ar fi încheiat cu Primăria Comunei Vânători, prin propriul PFA, două contracte de prestări servicii și un act adițional în valoare totală de 30.000 lei. În sursele publice consultate nu a fost identificată o soluție definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Galați',
       basis: 'office',
@@ -2827,37 +3486,48 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Niță Marius Daniel',
-    party: 'PER',
-    position: 'Fost viceprimar al comunei Agigea, județul Constanța',
+    party: 'PNL',
+    position: 'Consilier local al comunei Agigea, județul Constanța (mandatul 2024-2028); fost viceprimar',
     position_type: 'local_official',
-    crime: 'Fals în declarații',
-    status: 'investigated',
+    crime: 'Complicitate la abuz în serviciu; fals în declarații (sesizare ANI distinctă)',
+    status: 'indicted',
     details:
-      'ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ, susținând că nu ar fi menționat în declarațiile de avere depuse în 2018 și 2019 un imobil aflat în proprietate comună și apoi înstrăinarea acestuia.',
-    verified_at: '2026-06-01',
+      'În dosarul 17528/212/2024, Parchetul de pe lângă Curtea de Apel Constanța l-a trimis în judecată pentru complicitate la abuz în serviciu, în legătură cu votul secret pentru alegerea viceprimarului din noiembrie 2020; după finalizarea camerei preliminare, judecata pe fond este în curs, cu termen publicat pentru 11 noiembrie 2026. Separat, ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ pentru posibile declarații de avere incomplete din 2018 și 2019; nu a fost identificată o soluție publică în acea sesizare.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Constanța',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de viceprimar al comunei Agigea, județul Constanța.',
+      note: 'Este consilier local al comunei Agigea în mandatul 2024-2028 și a fost viceprimar al comunei.',
     },
-    sources: [ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE, AGIGEA_NITA_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      AGIGEA_CURRENT_COUNCIL_SOURCE,
+      NITA_ABUSE_COURT_CASE_SOURCE,
+      NITA_ABUSE_INDICTMENT_SOURCE,
+      AGIGEA_NITA_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Bălan Viorel',
     party: 'ALDE',
-    position: 'Consilier local al comunei Puiești, județul Vaslui',
+    position: 'Fost consilier local al comunei Puiești, județul Vaslui (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 1 august 2022 - 31 ianuarie 2023, ar fi deținut simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în aparatul de specialitate al Consiliului Local Puiești.',
-    verified_at: '2026-06-01',
+      'ANI a constatat în decembrie 2023 că, în perioada 1 august 2022 - 31 ianuarie 2023, ar fi deținut simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în aparatul de specialitate al Consiliului Local Puiești. Curtea de Apel Iași i-a respins în primă instanță contestația împotriva raportului ANI la 21 martie 2024, în dosarul 17/45/2024; nu a fost identificată public soluția unui eventual recurs. Nu a mai candidat la Consiliul Local Puiești în 2024.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vaslui',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Puiești, județul Vaslui.',
     },
-    sources: [ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE, PUIESTI_BALAN_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_FIRST_TEN_LOCAL_OFFICIALS_SOURCE,
+      BALAN_VIOREL_ANI_COURT_CASE_SOURCE,
+      PUIESTI_BALAN_PARTY_SOURCE,
+      PUIESTI_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Lupu Vasile',
@@ -2867,14 +3537,19 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că, în mandatul de primar 2016-2020, ar fi încheiat cu Primăria Popești un contract de vânzare-cumpărare prin care a dobândit imobile în suprafață totală de 3.000 mp.',
-    verified_at: '2026-06-01',
+      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că, în mandatul de primar 2016-2020, ar fi încheiat cu Primăria Popești un contract de vânzare-cumpărare prin care a dobândit imobile în suprafață totală de 3.000 mp. A fost reales primar în 2024, însă în sursele publice consultate nu a fost identificată o soluție privind sesizarea penală.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Popești, județul Iași.',
     },
-    sources: [ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE, POPESTI_LUPU_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE,
+      POPESTI_LUPU_CURRENT_OFFICE_SOURCE,
+      POPESTI_LUPU_2024_ELECTION_SOURCE,
+      POPESTI_LUPU_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Cojocaru Gicu',
@@ -2884,14 +3559,19 @@ const ANI_2021_2023_BACKFILL_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Conflict de interese; folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că ar fi încheiat în nume propriu un contract de asistență juridică, iar ulterior, ca primar, ar fi semnat și aprobat contracte ale comunei cu același cabinet de avocatură.',
-    verified_at: '2026-06-01',
+      'ANI a sesizat în decembrie 2021 Parchetul de pe lângă ÎCCJ, susținând că ar fi încheiat în nume propriu un contract de asistență juridică, iar ulterior, ca primar, ar fi semnat și aprobat contracte ale comunei cu același cabinet de avocatură. A fost reales primar în 2024, însă în sursele publice consultate nu a fost identificată o soluție privind sesizarea penală.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Cristian, județul Brașov.',
     },
-    sources: [ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE, CRISTIAN_COJOCARU_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2021_TWENTY_SIX_LOCAL_OFFICIALS_SOURCE,
+      CRISTIAN_COJOCARU_CURRENT_OFFICE_SOURCE,
+      CRISTIAN_COJOCARU_2024_ELECTION_SOURCE,
+      CRISTIAN_COJOCARU_PARTY_SOURCE,
+    ],
   },
 ];
 
@@ -2928,53 +3608,67 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Mândrilaș Mihai',
     party: 'PSD',
-    position: 'Consilier local al comunei Podoleni, județul Neamț',
+    position: 'Fost consilier local al comunei Podoleni, județul Neamț (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la avizarea și adoptarea unei hotărâri prin care au fost exceptați de la plata unei taxe agenți economici, inclusiv întreprinderea individuală al cărei titular era.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-2024, ar fi participat la avizarea și adoptarea unei hotărâri prin care au fost exceptați de la plata unei taxe agenți economici, inclusiv întreprinderea individuală al cărei titular era. A contestat raportul ANI, cauza fiind declinată de Tribunalul Neamț către Curtea de Apel Bacău în 2024. Componența oficială pentru mandatul 2024-2028 nu îl mai include, iar o soluție definitivă publică a litigiului nu a fost identificată.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Neamț',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Podoleni, județul Neamț.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PODOLENI_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      PODOLENI_2020_PARTY_SOURCE,
+      PODOLENI_CURRENT_COUNCIL_SOURCE,
+      PODOLENI_MANDRILAS_ANI_CASE_SOURCE,
+    ],
   },
   {
     name: 'Grasu Adrian-Nicolae',
     party: 'PSD',
-    position: 'Consilier local al comunei Podoleni, județul Neamț',
+    position: 'Fost viceprimar (2016-2020) și fost consilier local (2020-2024) al comunei Podoleni, județul Neamț',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat în anul 2022 la emiterea și adoptarea unor acte administrative care au produs un folos material pentru soția sa, titular al unei întreprinderi individuale.',
-    verified_at: '2026-05-26',
+      'ANI a constatat că, în mandatul de consilier local 2020-2024, a participat în anul 2022 la emiterea și adoptarea unor acte administrative care au produs un folos material pentru soția sa, titular al unei întreprinderi individuale. Raportul ANI a rămas definitiv la 3 aprilie 2024, prin nerecurarea Sentinței nr. 33/12.03.2024 a Curții de Apel Bacău, potrivit adresei ANI publicate de Primăria Podoleni. A fost viceprimar în mandatul 2016-2020 și consilier local în mandatul 2020-2024; componența oficială 2024-2028 nu îl mai include.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Neamț',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Podoleni, județul Neamț.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PODOLENI_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      PODOLENI_GRASU_FINAL_ANI_SOURCE,
+      PODOLENI_CURRENT_COUNCIL_SOURCE,
+      PODOLENI_2020_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Achim Ionel',
     party: 'PSD',
-    position: 'Consilier local al comunei Radomirești, județul Olt',
+    position: 'Fost consilier local al comunei Radomirești, județul Olt (2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada deținerii mandatului 2020-prezent, societatea la care era asociat unic și administrator unic ar fi încheiat două contracte de furnizare cu Primăria Radomirești, în valoare totală de 49.580 lei.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în perioada mandatului 2020-2024, societatea la care era asociat unic și administrator unic ar fi încheiat două contracte de furnizare cu Primăria Radomirești, în valoare totală de 49.580 lei. Lista candidaților locali din 2024 nu îl mai include. Nu a fost identificată public o hotărâre judecătorească definitivă sau o confirmare oficială că raportul ANI a rămas definitiv.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Olt',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Radomirești, județul Olt.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, RADOMIRESTI_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      RADOMIRESTI_2020_PARTY_SOURCE,
+      RADOMIRESTI_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Marian David-Stanciu',
@@ -2996,30 +3690,30 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
   {
     name: 'Necula Valentin',
     party: 'PNL',
-    position: 'Consilier local al comunei Cocora, județul Ialomița',
+    position: 'Fost consilier local al comunei Cocora, județul Ialomița (2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la deliberarea și adoptarea a două hotărâri în baza cărora a încheiat cu Comuna Cocora contracte de închiriere pentru terenuri din domeniul privat al comunei.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-2024, ar fi participat la deliberarea și adoptarea a două hotărâri în baza cărora a încheiat cu Comuna Cocora contracte de închiriere pentru terenuri din domeniul privat al comunei. Nu figurează între candidații locali din 2024, când PNL nu a depus listă pentru Consiliul Local Cocora. Nu a fost identificată public o hotărâre judecătorească definitivă sau o confirmare oficială că raportul ANI a rămas definitiv.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Cocora, județul Ialomița.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE],
+    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, COCORA_LUNGU_PARTY_SOURCE, COCORA_2024_ELECTION_SOURCE],
   },
   {
     name: 'Ștefănescu Mihail',
     party: 'PNL',
-    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași',
+    position: 'Consilier local al comunei Nicolae Bălcescu, județul Călărași (mandatul 2024-2028)',
     position_type: 'local_official',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ, susținând că ar fi participat la deliberarea și adoptarea unor hotărâri pe baza cărora el, soția sa și societatea pe care o administra au încheiat contracte de închiriere de terenuri cu primăria.',
-    verified_at: '2026-05-26',
+      'ANI a sesizat în decembrie 2023 Parchetul de pe lângă ÎCCJ, susținând că ar fi participat la deliberarea și adoptarea unor hotărâri pe baza cărora el, soția sa și societatea pe care o administra au încheiat contracte de închiriere de terenuri cu primăria. Componența oficială a Consiliului Local confirmă realegerea sa pentru mandatul 2024-2028. Nu a fost identificată public o soluție a sesizării penale, o trimitere în judecată sau o hotărâre definitivă.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Călărași',
       basis: 'office',
@@ -3029,71 +3723,91 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Paliță Daniel',
-    party: 'PSD',
-    position: 'Consilier local al comunei Dănești, județul Gorj',
+    party: 'PNL',
+    position: 'Consilier local al comunei Dănești, județul Gorj (mandatul 2024-2028)',
     position_type: 'local_official',
     crime: 'Infracțiune asimilată faptelor de corupție',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2023 DNA, susținând că, în exercitarea atribuțiilor de consilier local, ar fi aprobat bugetul comunei Dănești prin care s-au alocat 40.000 lei pentru reabilitarea unui monument, lucrare efectuată de societatea la care era asociat și administrator.',
-    verified_at: '2026-05-26',
+      'ANI a sesizat în decembrie 2023 DNA, susținând că, în exercitarea atribuțiilor de consilier local, ar fi aprobat bugetul comunei Dănești prin care s-au alocat 40.000 lei pentru reabilitarea unui monument, lucrare efectuată de societatea la care era asociat și administrator. A fost reales consilier local în 2024 după ce a candidat din partea PNL, iar declarațiile oficiale din 2025 confirmă mandatul actual. Nu a fost identificată public o soluție a sesizării DNA, o trimitere în judecată sau o hotărâre definitivă.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Gorj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Dănești, județul Gorj.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, DANESTI_COUNCIL_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      DANESTI_PALITA_2024_CANDIDACY_SOURCE,
+      DANESTI_PALITA_CURRENT_MANDATE_SOURCE,
+      DANESTI_COUNCIL_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Dădălău Dumitru',
     party: 'PNL',
-    position: 'Consilier local al orașului Bumbești-Jiu, județul Gorj',
+    position: 'Fost consilier local al orașului Bumbești-Jiu, județul Gorj (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 1 octombrie 2020 - 31 ianuarie 2022, ar fi exercitat simultan mandatul de consilier local și funcția de director general al unei societăți pe acțiuni, filială a unei companii naționale.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în perioada 1 octombrie 2020 - 31 ianuarie 2022, ar fi exercitat simultan mandatul de consilier local și funcția de director general al unei societăți pe acțiuni, filială a unei companii naționale. A candidat din nou din partea PNL în 2024, dar procesul-verbal oficial al ședinței din 19 decembrie 2024, la care erau prezenți toți cei 15 consilieri în funcție, nu îl indică printre membrii noului consiliu. Nu a fost identificată public o hotărâre definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Gorj',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Bumbești-Jiu, județul Gorj.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, BUMBESTI_JIU_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      BUMBESTI_JIU_2020_PARTY_SOURCE,
+      BUMBESTI_JIU_2024_CANDIDATES_SOURCE,
+      BUMBESTI_JIU_CURRENT_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Bostan Ștefan',
     party: 'USR',
-    position: 'Consilier local al comunei Corbeni, județul Argeș',
+    position: 'Fost consilier local al comunei Corbeni, județul Argeș (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul 2020-prezent, ar fi participat la deliberarea și adoptarea hotărârii privind închirierea unor terenuri comunale disponibile către o asociație în care avea calitatea de membru.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în mandatul 2020-2024, ar fi participat la deliberarea și adoptarea hotărârii din 26 aprilie 2022 privind închirierea unor terenuri comunale disponibile către o asociație în care avea calitatea de membru. Lista oficială a consilierilor Corbeni pentru mandatul 2024-2028 nu îl mai include. Nu a fost identificată public o hotărâre definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Argeș',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Corbeni, județul Argeș.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, CORBENI_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      CORBENI_2020_PARTY_SOURCE,
+      CORBENI_CURRENT_COUNCIL_SOURCE,
+    ],
   },
   {
     name: 'Dan Jan',
-    party: 'PNL',
+    party: 'PSD',
     position: 'Consilier local al comunei Padina, județul Buzău',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatele 2016-2020 și 2020-prezent, societatea la care era asociat și director, iar soția sa asociat și administrator, ar fi încheiat cu Primăria Padina 30 de contracte de furnizare prin achiziție directă.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în mandatele 2016-2020 și 2020-2024, societatea la care era asociat și director, iar soția sa asociat și administrator, ar fi încheiat cu Primăria Padina 30 de contracte de furnizare prin achiziție directă, în valoare totală de aproximativ 189.662 lei. Dan Jan a declarat public că a contestat raportul ANI. A fost reales consilier local în 2024, candidând din partea PSD, iar un document oficial din ianuarie 2025 îl indică între inițiatorii consilieri locali. Nu a fost identificată public soluția definitivă a contestației.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Buzău',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Padina, județul Buzău.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PADINA_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      PADINA_2020_PARTY_SOURCE,
+      PADINA_2024_CANDIDATES_SOURCE,
+      PADINA_CURRENT_COUNCIL_SOURCE,
+      PADINA_DAN_ANI_CHALLENGE_SOURCE,
+    ],
   },
   {
     name: 'Agiu Marian',
@@ -3101,10 +3815,10 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier local al comunei Nicolae Bălcescu, județul Călărași',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local 2020-2021, ar fi participat la adoptarea unei hotărâri prin care s-au prelungit contracte de închiriere pentru terenuri comunale și s-a modificat taxa anuală de închiriere, ulterior încheind un act adițional cu comuna.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local 2020-2021, ar fi participat la adoptarea unei hotărâri prin care s-au prelungit contracte de închiriere pentru terenuri comunale și s-a modificat taxa anuală de închiriere, ulterior încheind un act adițional cu comuna. Pagina oficială a actualului Consiliu Local nu îl include, iar declarațiile publicate de primărie consemnează încetarea mandatului său. Nu a fost identificată public o contestație sau o hotărâre definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Călărași',
       basis: 'office',
@@ -3118,16 +3832,20 @@ const ANI_DEC_2023_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier local al comunei Perieți, județul Ialomița',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada exercitării mandatului de consilier local, ar fi participat la adoptarea bugetului comunei Perieți pentru anul 2021, prin care s-au alocat bani școlii gimnaziale în cadrul căreia deținea funcția de director.',
-    verified_at: '2026-05-26',
+      'ANI a constatat în decembrie 2023 că, în perioada exercitării mandatului de consilier local, ar fi participat la adoptarea bugetului comunei Perieți pentru anul 2021, prin care s-au alocat bani școlii gimnaziale în cadrul căreia deținea funcția de director. ANI îl identifica deja drept fost consilier local. A candidat din partea PNL la Primăria și Consiliul Local Perieți în 2024, dar sursele verificate nu confirmă obținerea unui nou mandat. Nu a fost identificată public o soluție definitivă privind raportul ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Ialomița',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Perieți, județul Ialomița.',
     },
-    sources: [ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE, PERIETI_2020_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_LOCAL_OFFICIALS_SOURCE,
+      PERIETI_2020_PARTY_SOURCE,
+      PERIETI_2024_CANDIDATES_SOURCE,
+    ],
   },
 ];
 
@@ -3138,112 +3856,141 @@ const ANI_DEC_2023_TEN_LOCAL_OFFICIALS_RECORDS = [
     position: 'Fost consilier județean în cadrul Consiliului Județean Prahova',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 15 octombrie 2020 - 15 februarie 2021, a deținut simultan mandatul de consilier județean și funcții de conducere la o societate cu capital integral de stat.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în perioada 15 octombrie 2020 - 15 februarie 2021, a deținut simultan mandatul de consilier județean și funcțiile de director general adjunct, respectiv director general provizoriu la CONPET, societate controlată de stat. Raportul ANI a produs definitiv interdicția legală: în urma adresei ANI din 30 septembrie 2025, Consiliul de Administrație CONPET a constatat încetarea de drept a mandatului său de director general începând cu 1 octombrie 2025.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Prahova',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Județean Prahova.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, TUDORA_DORIN_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      TUDORA_DORIN_PARTY_SOURCE,
+      TUDORA_DORIN_FINAL_ANI_SOURCE,
+    ],
   },
   {
     name: 'Bradea Grigore',
     party: 'PSD',
-    position: 'Primar al comunei Chiuza, județul Bistrița-Năsăud',
+    position: 'Fost primar al comunei Chiuza, județul Bistrița-Năsăud (mandat încetat definitiv la 23 martie 2026)',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 15 iunie 2016 - 18 iulie 2023, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în perioada 15 iunie 2016 - 18 iulie 2023, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică. A fost reales în 2024, dar a pierdut definitiv contestația împotriva raportului ANI. La 23 martie 2026, Tribunalul Bistrița-Năsăud a respins definitiv și acțiunea împotriva ordinului prefectului de încetare a mandatului; pagina oficială a primăriei îl indică acum pe Cristian Ioan Roș ca primar.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Bistrița-Năsăud',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Chiuza, județul Bistrița-Năsăud.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, BRADEA_GRIGORE_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      BRADEA_GRIGORE_PARTY_SOURCE,
+      BRADEA_GRIGORE_FINAL_DECISION_SOURCE,
+      CHIUZA_CURRENT_LEADERSHIP_SOURCE,
+    ],
   },
   {
     name: 'Antochi Adrian',
     party: 'PSD',
     position: 'Primar al comunei Ghindăoani, județul Neamț',
     position_type: 'mayor',
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    crime: 'Deținerea, depozitarea și vânzarea de bunuri provenite din contrabandă',
+    sentence: '2 ani închisoare cu suspendare; termen de supraveghere de 2 ani',
+    status: 'convicted',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de primar, ar fi propus și susținut înființarea unui post contractual de consilier al primarului, post pe care l-a ocupat ulterior.',
-    verified_at: '2026-05-28',
+      'Curtea de Apel Bacău a menținut definitiv, la 30 iunie 2021, condamnarea la 2 ani de închisoare cu suspendare pentru deținerea, depozitarea și vânzarea a peste 700 de pachete de țigări provenite din contrabandă. A fost reales primar al comunei Ghindăoani în 2024, din partea PSD. Separat, ANI a susținut în 2023 existența unui conflict de interese privind înființarea unui post de consilier al primarului, dar raportul ANI a fost anulat definitiv: prin hotărârea nr. 230/2026 din 20 ianuarie 2026, ÎCCJ a respins recursul ANI ca nefondat.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Neamț',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Ghindăoani, județul Neamț.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, GHINDAOANI_ANTOCHI_PARTY_SOURCE],
+    sources: [
+      GHINDAOANI_ANTOCHI_CONVICTION_SOURCE,
+      GHINDAOANI_ANTOCHI_CURRENT_MANDATE_SOURCE,
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      GHINDAOANI_ANTOCHI_FINAL_ANI_CASE_SOURCE,
+      GHINDAOANI_ANTOCHI_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Blejan Mihăiță-George',
     party: 'PSD',
-    position: 'Viceprimar al comunei Scundu, județul Vâlcea',
-    position_type: 'local_official',
+    position: 'Primar al comunei Scundu, județul Vâlcea',
+    position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de viceprimar, a participat la adoptarea unei hotărâri privind modificarea organigramei și statului de funcții al primăriei, act care a stat la baza angajării tatălui său.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în mandatul de viceprimar, a participat la adoptarea unei hotărâri privind modificarea organigramei și statului de funcții al primăriei, act care a stat la baza angajării tatălui său. A devenit primar în 2021 și a obținut un nou mandat în 2024. Raportul ANI a rămas definitiv: prin hotărârea nr. 4078/2025 din 23 septembrie 2025, ÎCCJ a respins ca nefondat recursul său împotriva sentinței Curții de Apel Pitești. Documentele oficiale îl indică încă drept primar; aplicarea interdicției și încetarea mandatului au fost anunțate, dar nu erau încă materializate printr-un ordin public identificat la data verificării.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de viceprimar al comunei Scundu, județul Vâlcea.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, SCUNDU_BLEJAN_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      SCUNDU_BLEJAN_FINAL_ANI_CASE_SOURCE,
+      SCUNDU_BLEJAN_CURRENT_OFFICE_SOURCE,
+      SCUNDU_BLEJAN_PARTY_SOURCE,
+    ],
   },
   {
     name: 'Martin Eugen',
     party: 'PNL',
-    position: 'Fost consilier local al municipiului Tecuci, județul Galați',
+    position: 'Fost consilier local al municipiului Tecuci, județul Galați (mandat exercitat în 2021)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii prin care a fost numit administrator/director general al unei societăți din subordinea Consiliului Local Tecuci.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la deliberarea și adoptarea hotărârii prin care a fost numit administrator/director general al unei societăți din subordinea Consiliului Local Tecuci. Statutul oficial al municipiului confirmă că a exercitat mandatul de consilier numai în 2021, iar presa locală a relatat în iunie 2025 că raportul ANI a rămas definitiv și a atras interdicția de a ocupa funcții publice timp de trei ani; hotărârea judecătorească definitivă nu a fost identificată într-o sursă primară publică la reverificare.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Galați',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al municipiului Tecuci, județul Galați.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, TECUCI_MARTIN_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      TECUCI_MARTIN_PARTY_SOURCE,
+      TECUCI_MARTIN_FINAL_ANI_SOURCE,
+    ],
   },
   {
     name: 'Antoane Cristian',
     party: 'USR',
-    position: 'Fost consilier local al comunei Mircești, județul Iași',
+    position: 'Fost consilier local USR-PLUS al comunei Mircești, județul Iași (2020–2021)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind înființarea unui post contractual în aparatul de specialitate al primarului, post pe care l-a ocupat ulterior.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local exercitat între 26 octombrie 2020 și 26 martie 2021, a participat la deliberarea și adoptarea hotărârii din 25 ianuarie 2021 prin care a fost înființat un post contractual în aparatul de specialitate al primarului, post ocupat ulterior de el. Primăria Mircești confirmă încetarea mandatului prin HCL nr. 26/23.04.2021, iar un stat de funcții publicat ulterior îl menționează ca angajat contractual; la reverificare nu a fost identificată într-o sursă publică primară situația definitivă a raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Mircești, județul Iași.',
     },
-    sources: [ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE, MIRCESTI_ANTOANE_PARTY_SOURCE],
+    sources: [
+      ANI_DEC_2023_TEN_LOCAL_OFFICIALS_SOURCE,
+      MIRCESTI_ANTOANE_PARTY_SOURCE,
+      MIRCESTI_ANTOANE_CURRENT_EMPLOYMENT_SOURCE,
+    ],
   },
   {
     name: 'Iagăr Cosma',
     party: 'PNL',
-    position: 'Fost consilier local al comunei Strâmtura, județul Maramureș',
+    position: 'Fost consilier local PNL al comunei Strâmtura, județul Maramureș (mandat în 2020)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 24 octombrie - 1 decembrie 2020, a exercitat simultan funcția de consilier local și o funcție contractuală de asistent personal în Primăria Comunei Strâmtura.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în decembrie 2023 că, în perioada 24 octombrie – 1 decembrie 2020, a exercitat simultan mandatul de consilier local și funcția contractuală de asistent personal în Primăria Comunei Strâmtura, încălcând regimul incompatibilităților. Lista candidaților la alegerile locale din 2020 confirmă apartenența la PNL. La reverificare nu a fost identificată într-o sursă publică primară situația definitivă a raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Maramureș',
       basis: 'office',
@@ -3383,14 +4130,14 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
   },
   {
     name: 'Horescu Petrișor',
-    party: 'PRM',
-    position: 'Viceprimar al comunei Domașnea, județul Caraș-Severin',
+    party: 'AUR',
+    position: 'Viceprimar al comunei Domașnea, județul Caraș-Severin; candidat AUR la Consiliul Local în 2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2023 că, în perioada 16 mai - 20 decembrie 2022, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale.',
-    verified_at: '2026-05-29',
+      'ANI a constatat în decembrie 2023 că, în perioada 16 mai – 20 decembrie 2022, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale. A candidat din partea AUR la Consiliul Local Domașnea în 2024, iar documentația unei achiziții publice din 2026 îl indică în continuare drept viceprimar și persoană cu funcție de decizie. La reverificare nu a fost identificată într-o sursă publică primară situația definitivă a raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Caraș-Severin',
       basis: 'office',
@@ -3402,6 +4149,16 @@ const ANI_DEC_2023_FIRST_AND_FEB_2026_LOCAL_RECORDS = [
         label: 'Caon.ro',
         kind: 'press',
         url: 'https://caon.ro/alegeri-locale-2020-in-caras-severin/petre-iles-primar-cu-9-voturi-peste-cel-de-la-usr-in-domasnea-2390951/',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Documentație achiziție publică Domașnea',
+        kind: 'press',
+        url: 'https://bizzlink.ro/licitatii/executia-lucrarilor-de-modernizare-a-drumurilor-de-interes-local-in-comuna-domas-bcddbafa',
       },
     ],
   },
@@ -3633,119 +4390,168 @@ const ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_RECORDS = [
     party: 'PSD',
     position: 'Fost viceprimar al municipiului Iași și fost consilier local al municipiului Iași',
     position_type: 'local_official',
-    crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    crime:
+      'Conflict de interese administrativ (raport ANI anulat definitiv); fals intelectual și abuz în serviciu (achitare în primă instanță, apel în curs)',
+    status: 'acquitted',
     details:
-      'ANI a constatat în august 2022 un conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ, reținând că, în mandatul de viceprimar, a semnat acte adiționale la un contract între Primăria Iași și o societate în care erau angajați socrii săi.',
-    verified_at: '2026-05-28',
+      'ANI a susținut în august 2022 că, în mandatul de viceprimar, a semnat acte adiționale la un contract între Primăria Iași și o societate unde erau angajați socrii săi și a sesizat Parchetul de pe lângă ÎCCJ pentru posibila folosire a funcției în favorizarea unor persoane. Înalta Curte a anulat definitiv la 9 aprilie 2024 partea raportului ANI privind conflictul de interese administrativ și a obligat ANI la plata a 10.000 lei cheltuieli de judecată; a menținut însă ca inadmisibilă cererea de anulare a dispoziției de sesizare a parchetului, fără a judeca fondul penal. Separat, în dosarul penal „Flux” nr. 4050/99/2022, Tribunalul Iași l-a achitat la 21 aprilie 2026 pentru fals intelectual și abuz în serviciu, în temeiul art. 16 alin. (1) lit. c) CPP; apelul era în curs la Curtea de Apel Iași la data reverificării.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de viceprimar al municipiului Iași.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, HARABAGIU_PSD_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      HARABAGIU_PSD_SOURCE,
+      HARABAGIU_FINAL_ANI_DECISION_SOURCE,
+      HARABAGIU_2024_ASSET_DECLARATION_SOURCE,
+      {
+        label: 'Portalul instanțelor - dosarul 4050/99/2022',
+        kind: 'court_portal',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+    ],
   },
   {
     name: 'Osváth Csaba',
     party: 'UDMR',
-    position: 'Primar al comunei Acățari, județul Mureș',
+    position: 'Primar UDMR al comunei Acățari, județul Mureș',
     position_type: 'mayor',
     crime: 'Folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea funcției de primar, ar fi semnat contracte ale primăriei cu două asociații în care avea roluri sau calități.',
-    verified_at: '2026-05-28',
+      'ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ cu privire la posibila folosire a funcției pentru favorizarea unor persoane, susținând că, în exercitarea funcției de primar, a semnat contracte ale primăriei cu două asociații în care fusese vicepreședinte, respectiv era membru fondator. Primăria Acățari și documente oficiale semnate în 2025–2026 îl confirmă în continuare ca primar, iar declarația sa de interese din 2026 menționează calitatea de membru al Asociației Microregiunea Valea Nirajului. La reverificare nu a fost identificată o soluție publică actuală a parchetului sau o trimitere în judecată legată fără echivoc de sesizarea ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Mureș',
       basis: 'office',
       note: 'Funcția publică relevantă era cea de primar al comunei Acățari, județul Mureș.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, OSVATH_UDMR_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      OSVATH_UDMR_SOURCE,
+      {
+        label: 'Primăria Acățari - primar',
+        kind: 'official',
+        url: 'https://acatari.ro/primaria/structura/persoana/osvath-csaba_48',
+      },
+      {
+        label: 'Primăria Acățari - declarație de interese 2026',
+        kind: 'official',
+        url: 'https://acatari.ro/download/WYerzio4xXjh8D3kr3ZrnVJsTEq6jz3wPcopbcCr.pdf',
+      },
+    ],
   },
   {
     name: 'Haiduc Gheorghe',
-    party: 'USR',
-    position: 'Consilier local al orașului Bușteni, județul Prahova',
+    party: 'PNL',
+    position: 'Fost consilier local PNL al orașului Bușteni, județul Prahova (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în perioada 26 octombrie 2020 - 22 octombrie 2021, a exercitat simultan funcția de consilier local și activitatea de voluntar în Serviciul Voluntar pentru Situații de Urgență Bușteni.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în august 2022 că, în perioada 26 octombrie 2020 - 22 octombrie 2021, a exercitat simultan mandatul de consilier local și activitatea de voluntar în Serviciul Voluntar pentru Situații de Urgență Bușteni. Lista oficială a Consiliului Local Bușteni 2020-2024 îl identifică drept consilier PNL, corectând afilierea USR rămasă din candidatura sa la alegerile parțiale din 2017. Declarația de avere depusă în 2024 confirmă indemnizația de consilier aferentă anului 2023, iar pagina de organizare a sanatoriului local îl indică drept reprezentant al Consiliului Local în consiliul de administrație. Nu a fost identificată public o hotărâre judecătorească referitoare la caracterul definitiv al raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Prahova',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Bușteni, județul Prahova.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, BUSTENI_COUNCIL_SOURCE, HAIDUC_USR_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      BUSTENI_COUNCIL_SOURCE,
+      HAIDUC_SANATORIUM_SOURCE,
+      HAIDUC_2024_ASSET_DECLARATION_SOURCE,
+    ],
   },
   {
     name: 'Gherasă Radu',
     party: 'PNL',
-    position: 'Consilier local al comunei Rădăuți-Prut, județul Botoșani',
+    position: 'Fost consilier local PNL al comunei Rădăuți-Prut, județul Botoșani (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind inițierea procedurii de concesiune directă a unei pășuni comunale, iar ulterior a încheiat contractul de concesiune cu primăria.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în august 2022 că, în mandatul 2020-2024, a participat la deliberarea și adoptarea hotărârii Consiliului Local Rădăuți-Prut din 31 martie 2021 privind concesionarea directă a 200,15 hectare de pășune comunală, iar la 14 mai 2021 a încheiat cu primăria contractul de concesiune pentru acea suprafață. Sursele electorale îl identifică drept candidat PNL în 2020; numele său nu apare în lista publicată a candidaților locali din 2024. Nu a fost identificată public o hotărâre judecătorească referitoare la caracterul definitiv al raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Botoșani',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Rădăuți-Prut, județul Botoșani.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, RADAUTI_PRUT_COUNCIL_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      RADAUTI_PRUT_COUNCIL_PARTY_SOURCE,
+      RADAUTI_PRUT_2024_CANDIDATES_SOURCE,
+    ],
   },
   {
     name: 'Colțea Gheorghe',
     party: 'PNL',
-    position: 'Consilier local al comunei Crizbav cu atribuții de viceprimar, județul Brașov',
+    position: 'Fost consilier local PNL al comunei Crizbav, cu atribuții de viceprimar, județul Brașov (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în calitate de consilier local, a inițiat și a votat o hotărâre privind modernizarea și asfaltarea unui drum de exploatare care deservește un imobil pe care îl deține.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în august 2022 că, în calitate de consilier local, a inițiat proiectul și a participat la adoptarea hotărârii din 26 februarie 2021 privind modernizarea și asfaltarea unui drum de exploatare care deservește un imobil pe care îl deține, existând posibilitatea obținerii unui avantaj patrimonial. Hotărârea prefectului privind constituirea Consiliului Local Crizbav îl confirmă drept consilier PNL în mandatul 2020-2024; numele său nu apare în lista publicată a candidaților locali din 2024. Nu a fost identificată public o hotărâre judecătorească referitoare la caracterul definitiv al raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Crizbav, județul Brașov.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, COLTEA_PNL_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      CRIZBAV_2020_COUNCIL_SOURCE,
+      CRIZBAV_2024_CANDIDATES_SOURCE,
+      COLTEA_PNL_SOURCE,
+    ],
   },
   {
     name: 'Rugină Maria Tereza',
     party: 'PNL',
-    position: 'Consilier local al orașului Hârlău, județul Iași',
+    position: 'Fost consilier local PNL al orașului Hârlău, județul Iași (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în mandatul de consilier local, a participat la adoptarea unei hotărâri privind desemnarea reprezentanților Consiliului Local Hârlău într-o comisie de interviu, iar ulterior a participat la concurs și a fost declarată promovată.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în august 2022 că, în calitate de consilier local, a participat la deliberarea și adoptarea Hotărârii Consiliului Local Hârlău nr. 80 din 29 octombrie 2021 privind desemnarea reprezentanților în comisia de evaluare a interviului pentru concursul de directori, după care a participat la concurs și a fost promovată director adjunct. În dosarul 4233/99/2023, Tribunalul Iași a constatat prin sentința nr. 550/CA/2025 nulitatea parțială a hotărârii adoptate în conflict de interese; Curtea de Apel Iași a anulat ca netimbrat recursul Consiliului Local la 2 februarie 2026, soluția fiind definitivă. Declarația oficială depusă la încetarea mandatului și componența publicată pentru mandatul 2024-2028 confirmă că nu mai este consilier local. În mai 2026 a încetat și funcția de director al Școlii Gimnaziale „Petru Rareș” Hârlău.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al orașului Hârlău, județul Iași.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, HARLAU_RUGINA_PNL_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      HARLAU_RUGINA_PNL_SOURCE,
+      HARLAU_RUGINA_MANDATE_END_SOURCE,
+      HARLAU_CURRENT_COUNCIL_SOURCE,
+      IASI_COURT_PORTAL_SOURCE,
+      RUGINA_FINAL_COURT_OUTCOME_SOURCE,
+    ],
   },
   {
     name: 'Dospinescu Sorin Narcis',
     party: 'PSD',
-    position: 'Fost consilier local al comunei Strugari, județul Bacău',
+    position: 'Fost consilier local PSD al comunei Strugari, județul Bacău (mandatul 2016-2020)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în mandatul de consilier local 2016-2020, a exercitat simultan și o funcție contractuală în aparatul de specialitate al primarului comunei Strugari.',
-    verified_at: '2026-05-28',
+      'ANI a constatat în august 2022 că, în mandatul de consilier local 2016-2020, a exercitat simultan și o funcție contractuală în aparatul de specialitate al primarului comunei Strugari, obținând venituri totale de 111.304 lei. Sursele electorale îl identifică drept candidat PSD la Consiliul Local Strugari în 2020; numele său nu apare în lista publicată a candidaților locali din 2024. Nu a fost identificată public o hotărâre judecătorească referitoare la caracterul definitiv al raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Bacău',
       basis: 'office',
       note: 'Funcția publică relevantă era în Consiliul Local al comunei Strugari, județul Bacău.',
     },
-    sources: [ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE, STRUGARI_DOSPINESCU_PARTY_SOURCE],
+    sources: [
+      ANI_AUG_2022_SEVEN_LOCAL_OFFICIALS_SOURCE,
+      STRUGARI_DOSPINESCU_PARTY_SOURCE,
+      STRUGARI_2024_CANDIDATES_SOURCE,
+    ],
   },
 ];
 
@@ -4497,20 +5303,43 @@ const AUR_FOCUSED_ADDITIONAL_RECORDS = [
   },
   {
     name: 'Ciprian Ciubuc',
-    party: 'AUR',
-    position: 'Fost deputat ales pe listele AUR',
+    party: 'Neafiliat (ales SOS România)',
+    position: 'Deputat de Neamț, ales pe lista SOS România; neafiliat din iunie 2025',
     position_type: 'deputy',
-    crime: 'Distrugere',
+    crime: 'Distrugere; hărțuire',
     status: 'investigated',
     details:
-      'TVR Info \u0219i Realitatea au relatat c\u0103 fostul deputat AUR Ciprian Ciubuc era cercetat penal pentru distrugere dup\u0103 ce o turm\u0103 de oi ar fi produs pagube pe o cultur\u0103 de lucern\u0103 \u0219i trifoi din jude\u021bul Neam\u021b.',
-    verified_at: '2026-05-26',
+      'Parchetul General a anunțat în iulie 2024 urmărirea penală pentru distrugere, după ce o turmă de oi deținută de Ciprian Ciubuc ar fi afectat la 13 aprilie 2024 o cultură de lucernă și trifoi din Gura Văii, comuna Girov, pe 640 mp, prejudiciul indicat fiind de 5.000 de lei. Separat, în iunie 2026, IPJ Neamț a comunicat deschiderea unui dosar penal pentru hărțuire, în urma sesizării fostei soții; un ordin de protecție provizoriu și monitorizarea electronică au fost dispuse inițial, iar Ciubuc a declarat ulterior că dispozitivul a fost îndepărtat după trei zile. Încetarea monitorizării nu echivalează cu soluționarea dosarului penal. Nu a fost identificată o soluție publică a vreunuia dintre cele două dosare. Camera Deputaților îl confirmă ca deputat de Neamț în al doilea mandat, ales pe lista SOS România și neafiliat din iunie 2025; vechea descriere ca fost deputat AUR era depășită.',
+    verified_at: '2026-09-30',
     geography: {
-      county: 'Neam\u021b',
-      basis: 'case_location',
-      note: 'Cazul relatat prive\u0219te o cultur\u0103 agricol\u0103 din jude\u021bul Neam\u021b.',
+      county: 'Neamț',
+      basis: 'constituency',
+      note: 'Este deputat ales în circumscripția Neamț, iar ambele cauze relatate au legătură cu județul Neamț.',
     },
-    sources: [AUR_CIUBUC_TVR_SOURCE, AUR_CIUBUC_INVESTIGATION_SOURCE, AUR_CIUBUC_PARTY_SOURCE],
+    sources: [
+      AUR_CIUBUC_TVR_SOURCE,
+      AUR_CIUBUC_INVESTIGATION_SOURCE,
+      {
+        label: 'Camera Deputaților - fișa deputatului Ciprian Ciubuc',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=62&leg=2024',
+      },
+      {
+        label: 'PRESShub - comunicatul Parchetului General privind urmărirea penală pentru distrugere',
+        kind: 'press',
+        url: 'https://www.presshub.ro/un-cioban-ales-deputat-este-urmarit-penal-dupa-ce-a-pascut-oile-in-lucerna-vecinului-335690/',
+      },
+      {
+        label: 'Antena 3 CNN - comunicatul IPJ Neamț privind dosarul de hărțuire',
+        kind: 'press',
+        url: 'https://www.antena3.ro/amp/deputatul-ciprian-ciubuc-anchetat-dupa-ce-si-ar-fi-hartuit-fosta-sotie-politistii-i-au-montat-o-bratara-electronica-de-monitorizare-793211.html',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Bacău',
+        kind: 'official',
+        url: 'https://portal.just.ro/32/SitePages/dosare.aspx',
+      },
+    ],
   },
   {
     name: 'George Simion',
@@ -4911,19 +5740,20 @@ const AUR_BIG_SEARCH_ADDITIONAL_RECORDS = [
   },
   {
     name: 'Ringo Dămureanu',
-    party: 'AUR',
-    position: 'Fost deputat AUR de Dolj',
+    party: 'Neafiliat (ales AUR)',
+    position: 'Fost deputat de Dolj, ales pe lista AUR',
     position_type: 'deputy',
-    crime: 'Lovire',
-    sentence: 'Amendă penală',
+    crime: 'Lovire sau alte violențe',
+    sentence: 'Amendă penală de 1.000.000 lei vechi; reabilitare admisă în 2018',
+    conviction_year: 2001,
     status: 'convicted',
     details:
-      'B1TV a relatat că deputatul AUR Ringo Dămureanu avea o amendă penală pentru lovire, într-un caz petrecut înainte de mandatul parlamentar; pagina AUR îl prezenta ulterior în activitatea parlamentară a partidului.',
-    verified_at: '2026-05-29',
+      'Judecătoria Craiova l-a condamnat în noiembrie 2000 la o amendă penală de 1.000.000 lei vechi pentru infracțiunea prevăzută de art. 180 alin. (2) din Codul penal din 1969 (lovire sau alte violențe), iar hotărârea a rămas definitivă la Tribunalul Dolj în iunie 2001. În 2018, Judecătoria Craiova i-a admis cererea de reabilitare. Condamnarea este consemnată aici ca fapt istoric, împreună cu reabilitarea ulterioară; acuzația distinctă relatată în 2010 nu este prezentată drept condamnare.',
+    verified_at: '2026-10-02',
     geography: {
       county: 'Dolj',
-      basis: 'case_location',
-      note: 'Incidentul relatat era legat de Craiova, iar mandatul parlamentar AUR a fost în județul Dolj.',
+      basis: 'office',
+      note: 'Ringo Dămureanu a reprezentat județul Dolj în Camera Deputaților în legislatura 2020–2024.',
     },
     sources: [AUR_RINGO_DAMUREANU_CONVICTION_SOURCE, AUR_RINGO_DAMUREANU_PARTY_SOURCE],
   },
@@ -4957,8 +5787,8 @@ const ANI_DEC_2025_ADDITIONAL_RECORDS = [
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2025 c\u0103, de\u0219i avea un interes personal, a participat la deliberarea \u0219i adoptarea hot\u0103r\u00e2rii prin care cabinetul medical individual la care lucra era scutit de taxe \u0219i impozite.',
-    verified_at: '2026-05-23',
+      'ANI a constatat în decembrie 2025 c\u0103, de\u0219i avea un interes personal, a participat la deliberarea \u0219i adoptarea hot\u0103r\u00e2rii prin care cabinetul medical individual la care lucra era scutit de taxe \u0219i impozite. A contestat raportul ANI nr. 35111/G/II/21.11.2025 în dosarul 3809/109/2025, aflat în fond la Curtea de Apel Pite\u0219ti; la 21 septembrie 2026 instan\u021ba a amânat pentru 6 octombrie 2026 pronun\u021barea asupra cererii de suspendare a judec\u0103\u021bii. Nu exist\u0103 înc\u0103 o solu\u021bie pe fond.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Arge\u0219',
       basis: 'office',
@@ -4968,49 +5798,31 @@ const ANI_DEC_2025_ADDITIONAL_RECORDS = [
       ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
       ANI_DEC_2025_AGERPRES_SOURCE,
       DOGARU_TATIANA_PARTY_SOURCE,
+      DOGARU_TATIANA_COURT_SOURCE,
+      DOGARU_TATIANA_CASE_STATUS_SOURCE,
     ],
   },
   {
     name: 'H\u0103n\u021b\u0103scu Florin',
-    party: 'PNL',
-    position: 'Consilier local în Consiliul Local al comunei Zamostea, jude\u021bul Suceava',
+    party: 'PNL (mandatul 2020\u20132024)',
+    position: 'Fost consilier local în Consiliul Local al comunei Zamostea, jude\u021bul Suceava (mandatul 2020\u20132024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2025 c\u0103 a participat la deliberarea \u0219i votul asupra unei hot\u0103r\u00e2ri privind asisten\u021ba juridic\u0103 pentru Comisia de Fond Funciar Zamostea, în contextul în care so\u021bia sa figura ca mandatar al unuia dintre reclaman\u021bi.',
-    verified_at: '2026-05-23',
+      'ANI a constatat în decembrie 2025 c\u0103, în mandatul de consilier local 2020\u20132024, a participat la deliberarea \u0219i a votat împotriva unei hot\u0103râri privind asisten\u021ba juridic\u0103 pentru Comisia de Fond Funciar Zamostea, de\u0219i so\u021bia sa figura ca mandatar al unuia dintre reclaman\u021bii îndrepta\u021bi împotriva comisiei. Lista complet\u0103 a candida\u021bilor din Zamostea la alegerile locale din 2024 nu îl include, astfel c\u0103 func\u021bia este redat\u0103 ca fost\u0103. Pân\u0103 la verificarea din 29 septembrie 2026 nu a fost identificat\u0103 public o hot\u0103râre judec\u0103toreasc\u0103 ori o confirmare suficient\u0103 privind caracterul definitiv al raportului ANI.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Suceava',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era în Consiliul Local al comunei Zamostea, jude\u021bul Suceava.',
+      note: 'Func\u021bia public\u0103 relevant\u0103 a fost exercitat\u0103 în mandatul 2020\u20132024 în Consiliul Local al comunei Zamostea, jude\u021bul Suceava.',
     },
     sources: [
       ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
       ANI_DEC_2025_AGERPRES_SOURCE,
       HANTASCU_FLORIN_PARTY_SOURCE,
-    ],
-  },
-  {
-    name: 'Albu Ioan-Augustin',
-    party: 'PSD',
-    position:
-      'Func\u021bionar public în Direc\u021bia Sanitar\u0103 Veterinar\u0103 \u0219i pentru Siguran\u021ba Alimentelor Sibiu; candidat la Consiliul Local R\u0103\u0219inari',
-    position_type: 'other',
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat în decembrie 2025 c\u0103, în timpul exercit\u0103rii func\u021biei publice, a candidat la alegerile locale din 2024 pentru func\u021bia de consilier local f\u0103r\u0103 suspendarea raportului de serviciu pe durata campaniei electorale.',
-    verified_at: '2026-05-23',
-    geography: {
-      county: 'Sibiu',
-      basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era în cadrul DSVSA Sibiu; candidatura local\u0103 era pentru Consiliul Local R\u0103\u0219inari, jude\u021bul Sibiu.',
-    },
-    sources: [
-      ANI_DEC_2025_PUBLIC_OFFICIALS_SOURCE,
-      ANI_DEC_2025_AGERPRES_SOURCE,
-      ALBU_IOAN_AUGUSTIN_PARTY_SOURCE,
+      HANTASCU_FLORIN_LOCAL_MANDATE_SOURCE,
+      ZAMOSTEA_2024_CANDIDATES_SOURCE,
     ],
   },
   {
@@ -6964,10 +7776,10 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     position: 'Fost consilier local in cadrul C.L. al orașului Buhuși, județul Bacău',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in februarie 2022 conflict de interese administrativ dupa ce, in mandatul 2016-2020, a participat la deliberarea si adoptarea unei hotarari privind prelungirea contractului de inchiriere al unei societati in care detinea functie de administrator si calitate de asociat.',
-    verified_at: '2026-06-15',
+      'ANI a constatat în februarie 2022 un conflict de interese administrativ după ce, în mandatul 2016-2020, a participat la deliberarea și adoptarea unei hotărâri privind prelungirea contractului de închiriere al unei societăți în care deținea funcția de administrator și calitatea de asociat. Este o evaluare administrativă, nu o anchetă penală. Sursele consultate nu confirmă dacă raportul ANI a rămas definitiv prin necontestare sau printr-o hotărâre judecătorească; profilul rămâne ascuns.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Bacău',
       basis: 'office',
@@ -7010,8 +7822,8 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat in februarie 2022 ca s-a aflat in incompatibilitate in perioada 30 iulie 2019 - 27 octombrie 2020, deoarece a exercitat simultan mandatul de consilier local si calitatea de angajat in aparatul de specialitate al primarului comunei Gropeni.',
-    verified_at: '2026-06-15',
+      'ANI a anunțat în februarie 2022 că l-a evaluat ca incompatibil pentru perioada 30 iulie 2019 - 27 octombrie 2020, când a exercitat simultan mandatul de consilier local și calitatea de angajat în aparatul de specialitate al primarului comunei Gropeni. A candidat din partea PNL la Consiliul Local Gropeni în 2024, dar nu figurează în componența actuală publicată de primărie. Nu a fost identificată o soluție judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Brăila',
       basis: 'office',
@@ -7019,47 +7831,94 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     },
     sources: [
       AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniFeb2022EighteenPublicOfficials,
-      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareGropeniCouncil2020,
+      {
+        label: 'BEC Gropeni - candidaturi definitive la alegerile locale din 2024',
+        kind: 'official',
+        url: 'https://comunagropeni.ro/wp-content/uploads/2024/05/Proces-verbal-privind-ramanerea-definitiva-a-candidaturilor-din-08.05.2024.pdf',
+      },
+      {
+        label: 'Primăria Gropeni - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://comunagropeni.ro/componenta/',
+      },
     ],
   },
   {
     name: 'Malinche Stan',
     party: 'PNL',
-    position: 'Primar al comunei Gropeni, județul Brăila',
-    position_type: 'mayor',
-    crime: 'Sesizare Parchet; conflict de interese administrativ',
+    position: 'Fost primar al comunei Gropeni, județul Brăila',
+    position_type: 'local_official',
+    crime: 'Conflict de interese administrativ; sesizări ale Parchetului',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul in noiembrie 2023 pentru indicii privind falsul in declaratii, mentionand si constatarea anterioara a unui conflict de interese administrativ legat de acte privind o societate in care detinea functie de conducere.',
-    verified_at: '2026-06-15',
+      'ANI a constatat în februarie 2023 un conflict de interese administrativ și a sesizat Parchetul pentru indicii privind folosirea funcției și falsul în declarații, în legătură cu acte privind o societate în care deținea o funcție de conducere și întreprinderea individuală a soției. În noiembrie 2023, ANI a formulat o nouă sesizare pentru posibile declarații de avere și de interese necorespunzătoare. Un litigiu în care ANI și Stan Malinche erau părți figura pe rolul Curții de Apel Galați în septembrie 2025, dar nu a fost identificată o soluție definitivă. Din 2024, primarul comunei Gropeni este Nicușor Cocianu.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Brăila',
       basis: 'office',
       note: 'Funcția publică relevantă era Primăria comunei Gropeni, județul Brăila.',
     },
     sources: [
+      {
+        label: 'ANI - conflict de interese administrativ și sesizări ale Parchetului (7 februarie 2023)',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
+      },
       AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023FourLocalOfficials,
-      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareGropeniCouncil2020,
+      {
+        label: 'Curtea de Apel Galați - lista cauzelor din 16 septembrie 2025',
+        kind: 'official',
+        url: 'https://portal.just.ro/44/SiteAssets/SitePages/acasa_default/Lista%20cauzelor%20care%20se%20am%C3%A2n%C4%83%20-%20C3R%20-%20%C5%9Eedin%C5%A3a%20din%2016.09.2025.pdf',
+      },
+      {
+        label: 'Judecătoria Brăila - validarea mandatelor locale Gropeni din 2024',
+        kind: 'official',
+        url: 'https://comunagropeni.ro/wp-content/uploads/2024/10/Hotararea-civila-nr.-1253-valid-are-mandate-consilieri-locali.pdf',
+      },
+      {
+        label: 'Primăria Gropeni - primarul în funcție',
+        kind: 'official',
+        url: 'https://comunagropeni.ro/primar/',
+      },
     ],
   },
   {
     name: 'Anton Valeriu',
     party: 'PMP',
-    position: 'Primar al comunei Corbeanca, județul Ilfov',
-    position_type: 'mayor',
-    crime: 'Avere nejustificata',
-    status: 'investigated',
+    position: 'Fost primar al comunei Corbeanca, județul Ilfov',
+    position_type: 'local_official',
+    crime: 'Luare de mită; spălare de bani; falsuri; avere nejustificată',
+    status: 'first_instance',
     details:
-      'ANI a constatat in noiembrie 2023 o diferenta nejustificata de 3.061.855 lei intre averea dobandita si veniturile realizate impreuna cu familia, in perioada exercitarii functiei publice, si a sesizat Curtea de Apel Bucuresti.',
-    verified_at: '2026-06-15',
+      'DNA l-a trimis în judecată în iulie 2023 pentru luare de mită în formă continuată, spălare de bani și infracțiuni de fals, susținând că ar fi primit foloase de 3.523.661 euro în legătură cu retrocedări de terenuri. Dosarul nr. 1760/93/2023 era încă judecat în fond la Tribunalul Ilfov la 22 septembrie 2026, cu termen la 21 octombrie 2026. Separat, Judecătoria Buftea a acceptat în iulie 2024 un acord de recunoaștere pentru 11 fapte de fals în declarații și a stabilit o amendă penală de 45.000 lei; nu a fost identificată soluția definitivă. ANI a constatat în noiembrie 2023 o diferență nejustificată de 3.061.855 lei și a sesizat Comisia de cercetare a averilor. Din octombrie 2024, primarul comunei este Ștefan-Adrian Apăteanu.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Ilfov',
       basis: 'office',
       note: 'Funcția publică relevantă era Primăria comunei Corbeanca, județul Ilfov.',
     },
     sources: [
+      {
+        label: 'DNA - trimiterea în judecată din 14 iulie 2023',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12168',
+      },
       AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023UnjustifiedWealth,
-      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareCorbeancaMayor2020,
+      {
+        label: 'Portal instanțe via Status Dosar - dosarul 1760/93/2023',
+        kind: 'court',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-ilfov/dosare/sectia-penala/penal/1760/93/2023',
+      },
+      {
+        label: 'G4Media - hotărârea de primă instanță privind falsul în declarații',
+        kind: 'press',
+        url: 'https://www.g4media.ro/anton-valeriu-fostul-primar-din-corbeanca-condamnat-pentru-11-falsuri-in-declaratii-decizia-nu-este-definitiva-ani-il-acuza-ca-nu-poate-justifica-trei-milioane-de-lei-din-avere-fostul-edil-este.html',
+      },
+      {
+        label: 'Primăria Corbeanca - conducerea actuală',
+        kind: 'official',
+        url: 'https://pcc.ro/conducere/',
+      },
     ],
   },
   {
@@ -7067,11 +7926,11 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     party: 'PSD',
     position: 'Consilier local în cadrul C.L. al comunei Bucșani, județul Dâmbovița',
     position_type: 'local_official',
-    crime: 'Avere nejustificata',
+    crime: 'Avere nejustificată',
     status: 'investigated',
     details:
-      'ANI a constatat in noiembrie 2023 o diferenta nejustificata de 216.137 lei intre averea dobandita si veniturile realizate impreuna cu familia in mandatul 2016-2020 de consilier local si a sesizat Curtea de Apel Ploiesti.',
-    verified_at: '2026-06-15',
+      'ANI a constatat în noiembrie 2023 o diferență nejustificată de 216.137 lei între averea dobândită și veniturile realizate împreună cu familia în mandatul 2016-2020 de consilier local și a sesizat Comisia de cercetare a averilor din cadrul Curții de Apel Ploiești. Primăria Bucșani o afișează în actualul consiliu local ca reprezentant PSD și i-a publicat declarațiile pentru 2025. Nu a fost identificată o soluție publică ulterioară sesizării ANI.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Dâmbovița',
       basis: 'office',
@@ -7079,7 +7938,16 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     },
     sources: [
       AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023UnjustifiedWealth,
-      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.ziareBucsaniCouncil2020,
+      {
+        label: 'Primăria Bucșani - componența Consiliului Local',
+        kind: 'official',
+        url: 'https://www.bucsani.ro/declaratii-de-avere-si-interese/consilieri-locali/',
+      },
+      {
+        label: 'Primăria Bucșani - declarații ale consilierilor locali pentru 2025',
+        kind: 'official',
+        url: 'https://www.bucsani.ro/declaratii-de-avere-si-interese/consilieri-locali/declaratii-2025-consilieri/',
+      },
     ],
   },
   {
@@ -7087,11 +7955,11 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     party: 'UDMR',
     position: 'Primar al municipiului Sfântu Gheorghe, județul Covasna',
     position_type: 'mayor',
-    crime: 'Sesizare Parchet',
+    crime: 'Sesizare a Parchetului pentru posibila folosire a funcției',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul in noiembrie 2023 cu privire la indicii de folosire a functiei pentru favorizarea unor persoane, retinand acte prin care s-ar fi obtinut un folos patrimonial pentru sine.',
-    verified_at: '2026-06-15',
+      'ANI a sesizat Parchetul de pe lângă Înalta Curte în noiembrie 2023 cu privire la indicii de folosire a funcției pentru favorizarea unor persoane. Potrivit ANI, în exercitarea atribuțiilor ar fi încheiat contracte de servicii cu o societate care avea punct de lucru într-un spațiu comercial deținut anterior de o societate la care acesta este asociat. A fost reales în 2024 pentru al cincilea mandat, iar Primăria Sfântu Gheorghe îl confirmă în funcție în 2026. Nu a fost identificată o soluție publică a sesizării penale.',
+    verified_at: '2026-09-28',
     geography: {
       county: 'Covasna',
       basis: 'office',
@@ -7099,7 +7967,21 @@ const AUTOMATED_JUN_15_2026_MORE_PEOPLE_RECORDS = [
     },
     sources: [
       AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.aniNov2023FourLocalOfficials,
-      AUTOMATED_JUN_15_2026_MORE_PEOPLE_SOURCES.localElectionReference2020,
+      {
+        label: 'Primăria Sfântu Gheorghe - conducere',
+        kind: 'official',
+        url: 'https://www.sfantugheorgheinfo.ro/conducere',
+      },
+      {
+        label: 'Primăria Sfântu Gheorghe - declarații de avere și interese',
+        kind: 'official',
+        url: 'https://www.sfantugheorgheinfo.ro/decl-avere-interese-tabel',
+      },
+      {
+        label: 'AGERPRES - realegerea pentru al cincilea mandat în 2024',
+        kind: 'press',
+        url: 'https://agerpres.ro/politic/2024/06/10/primarul-antal-arpad-udmr-sfantu-gheorghe-este-emotionant-sa-castigi-al-cincilea-mandat-cu-peste-80--1310563',
+      },
     ],
   },
 ];
@@ -7304,10 +8186,10 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     position: 'Consilier județean în cadrul Consiliului Județean Iași',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'ANI a constatat în februarie 2024 că, în perioada 15 iunie 2018 - 27 ianuarie 2021, ar fi exercitat simultan calitatea de membru titular în Consiliul de administrație al Spitalului Clinic de Urgență pentru Copii „Sf. Maria” Iași și funcția de vicepreședinte într-un partid politic.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în februarie 2024 că, în perioada 15 iunie 2018 – 27 ianuarie 2021, a exercitat simultan calitatea de membru titular, reprezentant al Consiliului Județean Iași, în Consiliul de administrație al Spitalului Clinic de Urgență pentru Copii „Sf. Maria” Iași și funcția de vicepreședinte al PSD Iași. Curtea de Apel Iași i-a respins la 20 ianuarie 2025 acțiunea de anulare a raportului ANI prin Hotărârea nr. 7/2025, cu drept de recurs. În dosarul separat 163/45/2025, privind obligarea ANI la clarificarea efectelor raportului, instanța a luat act la 10 iunie 2025 de renunțarea sa la judecată. Nu a fost identificată o soluție publică suficient de clară asupra eventualului recurs împotriva hotărârii principale.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -7320,6 +8202,21 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
         kind: 'official',
         url: 'https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2024/05/ANEXA-2-CJ-LA-PROCES-VERBAL-RAMANERE-DEFINITIVA-CANDIDATURI.pdf',
       },
+      {
+        label: 'Instituția Prefectului - Județul Iași (activitate 2025)',
+        kind: 'official',
+        url: 'https://is.prefectura.mai.gov.ro/wp-content/uploads/sites/49/2025/05/Lista-prezenta-CDS-Iasi-aprilie-2025.pdf',
+      },
+      {
+        label: 'Ziarul de Iași',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/consilierul-cristian-stanciu-pierde-prima-runda-in-confruntarea-cu-ani--1716553.html',
+      },
+      {
+        label: 'Status Dosar (date portal.just.ro)',
+        kind: 'registry',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-iasi/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/163/45/2025',
+      },
     ],
   },
   {
@@ -7328,10 +8225,10 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al comunei Țibana, județul Iași',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2024 că, în exercitarea atribuțiilor de primar, ar fi emis o dispoziție pentru întreprinderea familială reprezentată de soția sa și în care era membru unul dintre fiii săi.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în februarie 2024 că, în mandatul 2020–2024, a emis la 4 februarie 2021 o dispoziție pentru întreprinderea familială reprezentată de soția sa și în care unul dintre fii era membru, producând foloase materiale familiei. A contestat raportul, însă a pierdut acțiunea, iar Înalta Curte de Casație și Justiție i-a respins și recursul până în martie 2025, astfel că raportul ANI a rămas definitiv. A fost reales în 2024, iar pagina oficială a Primăriei Țibana îl indica în continuare drept primar la verificarea din 29 septembrie 2026.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -7342,20 +8239,25 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
       {
         label: 'Primăria Țibana',
         kind: 'official',
-        url: 'https://www.primariatibana.ro/data/_editor/files/Documents/CONSILIERI_LOCALI.pdf',
+        url: 'https://www.primariatibana.ro/primaria/primar/5',
+      },
+      {
+        label: 'Ziarul de Iași — contestația ANI respinsă și la ÎCCJ (8 martie 2025)',
+        kind: 'press',
+        url: 'https://www.ziaruldeiasi.ro/stiri/a-doua-comuna-ieseana-fara-primar-a-pierdut-contestatia-la-decizia-ani-dupa-ce-a-semnat-in-folosul-sotiei--1732077.html',
       },
     ],
   },
   {
     name: 'Novac Vasile',
     party: 'PSD',
-    position: 'Primar al comunei Ivănești, județul Vaslui',
+    position: 'Fost primar al comunei Ivănești, județul Vaslui',
     position_type: 'mayor',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2024 că, începând cu luna octombrie 2020, ar fi exercitat simultan funcția de primar și activități remunerate în cadrul unei societăți.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în februarie 2024 că, începând cu octombrie 2020, a exercitat simultan funcția de primar și activități remunerate în cadrul unei societăți. Raportul ANI nr. 5058/G/II/20.02.2024 a rămas definitiv prin Decizia ÎCCJ nr. 1706 din 26 martie 2026. Prefectul județului Vaslui a constatat la 20 mai 2026 încetarea de drept a mandatului, cu efect de la 26 martie 2026. Recursul lui Vasile Novac împotriva respingerii cererii de suspendare a ordinului prefectului a fost respins definitiv de Curtea de Apel Iași la 9 septembrie 2026, prin Hotărârea nr. 487/2026.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vaslui',
       basis: 'office',
@@ -7364,9 +8266,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
+        label: 'TVR Info — încetarea mandatului după decizia definitivă a ÎCCJ',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vaslui/primarie/ivanesti/',
+        url: 'https://tvrinfo.ro/primarul-comunei-ivanesti-vasile-novac-ramas-fara-mandat-dupa-o-decizie-definitiva-de-incompatibilitate/',
+      },
+      {
+        label: 'Curtea de Apel Iași — dosarul nr. 1281/89/2026/a1',
+        kind: 'court',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-iasi/dosare/sectia-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/1281/89/2026/a1',
       },
     ],
   },
@@ -7376,10 +8283,10 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     position: 'Primar al comunei Slatina, județul Suceava',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'first_instance',
     details:
-      'ANI a constatat în februarie 2024 că, în exercitarea atribuțiilor de primar, ar fi semnat un contract de furnizare produse cu societatea comercială în care fratele său era asociat și administrator.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în februarie 2024 că, în exercitarea atribuțiilor de primar, a semnat un contract de furnizare produse cu societatea în care fratele său era asociat și administrator; documentele aprobate sau avizate au generat plăți de 57.972 lei către societate. Curtea de Apel Suceava i-a respins ca nefondată acțiunea de anulare a raportului ANI la 12 decembrie 2024, prin Hotărârea nr. 140/2024. A declarat recurs la 21 ianuarie 2025, fără ca o soluție definitivă să poată fi confirmată public până la verificarea din 29 septembrie 2026. Site-ul oficial al comunei îl indică în continuare drept primar în mandatul 2024–2028.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Suceava',
       basis: 'office',
@@ -7388,22 +8295,27 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_FEB_2024_FOUR_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_suceava/primarie/slatina/2',
+        label: 'Curtea de Apel Suceava — dosarul nr. 147/39/2024',
+        kind: 'court',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-suceava/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/147/39/2024',
+      },
+      {
+        label: 'Comuna Slatina — structura instituției',
+        kind: 'official',
+        url: 'https://www.comunaslatina.ro/primarie/structura/',
       },
     ],
   },
   {
     name: 'Vatamanu Ionel',
     party: 'PSD',
-    position: 'Primar al orașului Târgu Frumos, județul Iași',
+    position: 'Fost primar al orașului Târgu Frumos, județul Iași',
     position_type: 'mayor',
-    crime: 'Fals în declarații; sesizare fiscală',
-    status: 'investigated',
+    crime: 'Conflict de interese; fals în declarații',
+    status: 'convicted',
     details:
-      'ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind mențiuni neconcordante din declarațiile de avere depuse în perioada 2015-2017 și a solicitat verificări fiscale.',
-    verified_at: '2026-05-31',
+      'Curtea de Apel Iași l-a condamnat definitiv la 27 octombrie 2016 la un an de închisoare cu suspendare și un termen de încercare de trei ani pentru conflict de interese în formă continuată. Separat, ANI a sesizat în august 2022 Parchetul de pe lângă ÎCCJ pentru indicii de fals în declarații privind mențiuni neconcordante din declarațiile de avere depuse în perioada 2015–2017 și a cerut verificări fiscale; nu a fost identificată public o soluție ulterioară a acestei sesizări. Și-a încheiat mandatul de primar în 2024, iar site-ul oficial al orașului îl indică pe Neculai Zugravu drept primar la verificarea din 29 septembrie 2026.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -7412,9 +8324,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'NewsPascani.com',
+        label: 'Ziarul de Iași — condamnarea definitivă (28 octombrie 2016)',
         kind: 'press',
-        url: 'https://newspascani.com/ionel-vatamanu-a-castigat-un-nou-mandat-la-primaria-targu-frumos/',
+        url: 'https://www.ziaruldeiasi.ro/stiri/targu-frumos-ramane-fara-primar-vatamanu-a-fost-condamnat--142923.html',
+      },
+      {
+        label: 'Primăria Târgu Frumos — primarul în funcție',
+        kind: 'official',
+        url: 'https://primariatgfrumos.ro/blog/primar/',
       },
     ],
   },
@@ -7457,14 +8374,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
   },
   {
     name: 'Butum Ioan Eusebiu',
-    party: 'PNL',
+    party: 'Viitorul Țării Făgărașului',
     position: 'Viceprimar al comunei Șercaia, județul Brașov',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că, începând cu 22 ianuarie 2019, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriei întreprinderi individuale.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în august 2022 că, începând cu 22 ianuarie 2019, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriei întreprinderi individuale. Nu a fost identificată public o hotărâre judecătorească sau o confirmare oficială privind caracterul definitiv ori anularea raportului ANI. Pagina oficială a Primăriei Șercaia îl indică în continuare drept viceprimar la verificarea din 29 septembrie 2026; la alegerile locale din 2024 a candidat pentru Partidul Local Viitorul Țării Făgărașului, nu pentru PNL.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
@@ -7473,9 +8390,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Primăria Șercaia',
+        label: 'Primăria Șercaia — viceprimar',
         kind: 'official',
-        url: 'https://www.primaria-sercaia.ro/wp-content/uploads/2022/02/STATUTUL_COMUNEI_SERCAIA.pdf',
+        url: 'https://www.primaria-sercaia.ro/administratie/viceprimar',
+      },
+      {
+        label: 'Alegeri locale 2024 — candidații la Consiliul Local Șercaia',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_brasov/consiliul-local/sercaia/4',
       },
     ],
   },
@@ -7485,10 +8407,10 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     position: 'Consilier local al comunei Muntenii de Sus, județul Vaslui',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în august 2022 că, în mandatul de consilier local, ar fi participat la adoptarea unei hotărâri prin care s-au alocat 45.000 lei clubului sportiv în cadrul căruia era legitimat.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în august 2022 că, în mandatul de consilier local, a participat la adoptarea hotărârii din 27 iunie 2019 prin care s-au alocat 45.000 lei clubului sportiv în cadrul căruia era legitimat din 2013. Ca urmare a constatării, Consiliul Local Muntenii de Sus a adoptat HCL nr. 40 din 12 iulie 2023, prin care i-a redus indemnizația cu 10% pentru șase luni. Documente oficiale ale comunei publicate în 2026 îl indică în continuare drept consilier local.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Vaslui',
       basis: 'office',
@@ -7497,9 +8419,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/muntenii-de-sus/',
+        label: 'Consiliul Local Muntenii de Sus — HCL nr. 40/12.07.2023',
+        kind: 'official',
+        url: 'https://emol.ro/munteniidesus-vs/registru-hcl/112621',
+      },
+      {
+        label: 'Comuna Muntenii de Sus — document oficial de achiziție publică',
+        kind: 'official',
+        url: 'https://munteniidesus.ro/anunturi-de-interes-public/anunt-oferte-iluminat-public/1-referat-de-necesitate-strategie-de-contractare-iluminat-public/?layout=file',
       },
     ],
   },
@@ -7511,8 +8438,8 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2022 că, în mandatul 2016-2020, ar fi votat pentru o hotărâre privind acordarea unei cotizații către o asociație în care deținea funcția de evaluator proiecte.',
-    verified_at: '2026-05-31',
+      'ANI a constatat în august 2022 că, în mandatul 2016–2020, a votat și a susținut în dezbateri hotărârea Consiliului Local Neaua din 5 iulie 2019 privind acordarea unei cotizații de 4.500 lei unei asociații în care deținea funcția de evaluator proiecte. Nu a fost identificată public o hotărâre judecătorească sau o confirmare oficială privind caracterul definitiv ori anularea raportului ANI. O declarație de avere oficială publicată în 2026 îl indică în continuare drept consilier local al comunei Neaua.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Mureș',
       basis: 'office',
@@ -7521,22 +8448,22 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Primăria Neaua',
+        label: 'Primăria Neaua — declarație de avere consilier local',
         kind: 'official',
-        url: 'https://neaua.ro/download/9x6OUqw6Y0vmk7xHWDZbVBhWEGl8eanTpoi86TfS.pdf',
+        url: 'https://neaua.ro/download/qAT1xZsa01cYRR8UeAqryoVOPwxtzzWOak2y4qFS.pdf',
       },
     ],
   },
   {
     name: 'Matei Paul Vlad',
-    party: 'USR',
+    party: 'Independent',
     position: 'Consilier local al comunei Hălchiu, județul Brașov',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a constatat conflict administrativ și a sesizat Parchetul de pe lângă ÎCCJ după ce, în mai 2019, ar fi participat la adoptarea unei hotărâri privind închirierea unor pășuni, în baza căreia o asociație reprezentată de tatăl său a primit subvenții APIA.',
-    verified_at: '2026-05-31',
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul de pe lângă ÎCCJ după ce, la 10 mai 2019, a participat la adoptarea unei hotărâri privind închirierea directă a unor pășuni, în baza căreia asociația reprezentată de tatăl său a încasat subvenții APIA de 971.722 lei. Tribunalul Brașov a constatat în primă instanță, la 18 martie 2026, nulitatea parțială a HCL nr. 37/2019 și nulitatea contractului de închiriere; Paul Vlad Matei și asociația au declarat recurs la 4 septembrie 2026, nesoluționat la verificarea din 29 septembrie 2026. Nu a fost identificată o soluție publică a sesizării penale. În componența actuală a Consiliului Local Hălchiu figurează ca independent, nu ca membru USR.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Brașov',
       basis: 'office',
@@ -7545,14 +8472,14 @@ const ANI_2022_2024_LOCAL_OFFICIALS_RECORDS = [
     sources: [
       ANI_AUG_2022_FIRST_SEVEN_LOCAL_OFFICIALS_SOURCE,
       {
-        label: 'Primăria Hălchiu',
+        label: 'Primăria Hălchiu — componența consiliului local',
         kind: 'official',
         url: 'https://primariahalchiu.ro/componenta-consiliului-local/',
       },
       {
-        label: 'Brașov Metropolitan',
-        kind: 'press',
-        url: 'https://brasovmetropolitan.ro/2019/07/usr-brasov-a-recrutat-doi-consilieri-locali-care-vor-sa-candideze-si-la-primarie/',
+        label: 'Tribunalul Brașov / Curtea de Apel Brașov — dosarul nr. 1140/62/2025',
+        kind: 'court',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-brasov/dosare/sectia-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/1140/62/2025',
       },
     ],
   },
@@ -8688,10 +9615,10 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
     position: 'Primar al orașului Ardud, județul Satu Mare',
     position_type: 'mayor',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, în mandatele de primar 2016-2020 și 2020-2024, ar fi emis ori semnat acte administrative care au produs folos patrimonial pentru fiica sa și pentru o asociație în care deținea calitatea de membru.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, în mandatele 2016-2020 și 2020-2024, a emis o dispoziție prin care fiica sa a fost numită asistent manager într-un proiect al Primăriei Ardud, încasând 13.750 lei, și a semnat un contract de furnizare cu o asociație în care era membru cooperator fondator, care a obținut 21.955,50 lei. Prin Decizia nr. 2795 din 22 mai 2025, Înalta Curte de Casație și Justiție a admis recursul ANI, a casat sentința Curții de Apel Oradea și a respins definitiv acțiunea primarului împotriva raportului; cererea sa de revizuire a fost respinsă la 9 decembrie 2025. La 29 septembrie 2026, site-ul oficial al orașului îl prezintă încă drept primar, iar ANI îl include între persoanele ale căror mandate intră sub incidența procedurii de încetare de drept prevăzute de Legea nr. 180/2026.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Satu Mare',
       basis: 'office',
@@ -8700,22 +9627,37 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
     sources: [
       ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
+        label: 'Orașul Ardud - primar și declarații de avere',
+        kind: 'official',
+        url: 'https://www.orasardud.ro/ro/articol?slug=declaratii-avere-2024',
+      },
+      {
+        label: 'Justnews - Decizia definitivă ÎCCJ nr. 2795/2025',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_satu-mare/primarie/ardud/',
+        url: 'https://justnews.ro/de-ce-nu-va-putea-candida-pentru-un-nou-mandat-primarul-unui-oras-din-judetul-satu-mare/',
+      },
+      {
+        label: 'StatusDosar - revizuirea din dosarul 1394/1/2025',
+        kind: 'press',
+        url: 'https://www.statusdosar.ro/instante/inalta-curte-de-casatie-si-justitie/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/1394/1/2025',
+      },
+      {
+        label: 'ANI - aplicarea Legii nr. 180/2026',
+        kind: 'official',
+        url: 'https://integritate.eu/comunicat-actualizare-privind-incetarea-functiilor-demnitatilor-publice-sau-mandatelor-si-aplicarea-regimului-interdictiilor/',
       },
     ],
   },
   {
     name: 'Popa Sorin Vasile',
     party: 'PSD',
-    position: 'Fost primar al comunei Micăsasa, județul Sibiu',
+    position: 'Fost primar PSD al comunei Micăsasa, județul Sibiu (până în 2020)',
     position_type: 'mayor',
     crime: 'Folosirea funcției pentru favorizarea unor persoane; sesizare parchet',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, reținând indicii că, în exercitarea atribuțiilor de primar, ar fi semnat contracte de închiriere a unor pajiști din domeniul public al comunei cu rude și afini.',
-    verified_at: '2026-06-02',
+      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă Înalta Curte de Casație și Justiție, reținând indicii că, în exercitarea atribuțiilor de primar, a semnat la 11 aprilie 2018 contracte de închiriere a unor pajiști din domeniul public al comunei Micăsasa cu fiica, soția, mama și soacra sa. A fost primar PSD până în 2020; un ordin al Prefecturii Sibiu din 2025 îl confirmă pe Alexandru-Adrian Suciu drept actualul primar. Nu a fost identificată public o soluție a parchetului ori un dosar penal pe numele exact al fostului primar în instanțele competente.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Sibiu',
       basis: 'office',
@@ -8728,18 +9670,23 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/primarie/micasasa/',
       },
+      {
+        label: 'Instituția Prefectului Sibiu - primarul comunei Micăsasa în 2025',
+        kind: 'official',
+        url: 'https://sb.prefectura.mai.gov.ro/wp-content/uploads/sites/28/2025/03/OP-26.pdf',
+      },
     ],
   },
   {
     name: 'Pachițac Dumitru Cătălin',
-    party: 'PMP',
-    position: 'Viceprimar al comunei Dumești, județul Iași',
+    party: 'AUR',
+    position: 'Consilier local AUR al comunei Dumești (mandatul 2024-2028); fost viceprimar',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ; folosirea funcției pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul în decembrie 2022, arătând că, în mandatul 2020-2024, ar fi încheiat contracte de închiriere a unor pajiști comunale care au produs foloase materiale pentru soția și mama sa.',
-    verified_at: '2026-06-02',
+      'ANI a constatat conflict de interese administrativ și a sesizat Parchetul de pe lângă Înalta Curte de Casație și Justiție în decembrie 2022, arătând că, în mandatul 2020-2024, a încheiat fără licitație și fără delegarea atribuțiilor două contracte de închiriere a unor pajiști comunale care au produs pentru soția și mama sa subvenții de aproximativ 35.117 lei. A candidat din partea AUR la primărie și la Consiliul Local în 2024, iar componența oficială actuală a Consiliului Local Dumești îl confirmă drept consilier AUR. Nu a fost identificată public o soluție privind sesizarea penală sau caracterul definitiv al raportului administrativ.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Iași',
       basis: 'office',
@@ -8752,18 +9699,23 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/dumesti/',
       },
+      {
+        label: 'Primăria Dumești - componența Consiliului Local 2024-2028',
+        kind: 'official',
+        url: 'https://comunadumesti.ro/consiliul-local/',
+      },
     ],
   },
   {
     name: 'Olaru Valentin George',
-    party: 'PSD',
-    position: 'Viceprimar al comunei Bara, județul Timiș',
+    party: 'ADU',
+    position: 'Viceprimar al comunei Bara, județul Timiș; candidat ADU în 2024',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, începând cu 20 noiembrie 2020, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, începând cu 20 noiembrie 2020, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în propria întreprindere individuală, beneficiind în campaniile 2020-2021 de subvenții de aproximativ 139.000 lei. Curtea de Apel Timișoara i-a respins ca nefondată acțiunea de anulare a raportului ANI la 6 octombrie 2023, în dosarul 14/30/2023, soluția fiind atunci supusă recursului. În 2024 a candidat din partea Alianței Dreapta Unită, iar pagina oficială actuală a Comunei Bara îl confirmă în continuare drept viceprimar. Nu a fost identificat public rezultatul unui eventual recurs.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Timiș',
       basis: 'office',
@@ -8776,6 +9728,21 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/bara/',
       },
+      {
+        label: 'Primăria Bara - conducerea executivă',
+        kind: 'official',
+        url: 'https://comunabara.ro/primaria/structura',
+      },
+      {
+        label: 'Ziare.com - candidați locali 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_timis/consiliul-local/bara/1',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Timișoara',
+        kind: 'official',
+        url: 'https://portal.just.ro/59/SitePages/dosare.aspx',
+      },
     ],
   },
   {
@@ -8784,10 +9751,10 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
     position: 'Fost viceprimar al comunei Hidișelu de Sus, județul Bihor',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, în mandatul 2016-2020, ar fi exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, în mandatul 2016-2020, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică. Arhiva oficială a declarațiilor de avere și interese îl documentează în administrația locală până în 2020, iar în 2020 a candidat la Consiliul Local din partea Pro România. În căutarea nominală din Portalul Instanțelor nu a fost identificat un dosar de anulare a raportului ANI; singurul dosar găsit pe numele exact privește fond funciar și nu are legătură cu evaluarea de integritate. Absența unui dosar public nu dovedește însă, singură, caracterul definitiv al raportului.',
+    verified_at: '2026-09-29',
     geography: {
       county: 'Bihor',
       basis: 'office',
@@ -8800,18 +9767,28 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/hidiselu-de-sus/',
       },
+      {
+        label: 'Primăria Hidișelu de Sus - arhiva declarațiilor de avere și interese',
+        kind: 'official',
+        url: 'https://www.primariahidiseludesus.ro/category/informatii/declaratii-de-avere-si-interese/',
+      },
+      {
+        label: 'Portalul Instanțelor - Judecătoria Oradea',
+        kind: 'official',
+        url: 'https://portal.just.ro/271/SitePages/dosare.aspx',
+      },
     ],
   },
   {
     name: 'Iliescu Pintea Aurelian',
     party: 'USR',
-    position: 'Consilier local în Consiliul Local al municipiului Satu Mare',
+    position: 'Fost consilier local al municipiului Satu Mare (mandat încheiat prin demisie în ianuarie 2023)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, în mandatul de consilier local, societatea comercială în care deținea calitatea de asociat ar fi încheiat contracte de prestări servicii cu entități aflate sub autoritatea Consiliului Local Satu Mare.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, în mandatul de consilier local, societatea New Technology Software SRL, în care deținea calitatea de asociat, a încheiat contracte de prestări servicii cu entități aflate sub autoritatea Consiliului Local Satu Mare, inclusiv Administrația Domeniului Public. Primăria Satu Mare a inițiat la 12 ianuarie 2023 constatarea încetării de drept, prin demisie, a mandatului său. Căutările nominale în Portalul Instanțelor nu au identificat un dosar de anulare a raportului ANI, dar absența unui rezultat public nu dovedește singură caracterul definitiv al constatării.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Satu Mare',
       basis: 'office',
@@ -8824,18 +9801,33 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_satu-mare/consiliul-local/satu-mare/',
       },
+      {
+        label: 'Primăria Satu Mare - încetarea mandatului prin demisie',
+        kind: 'official',
+        url: 'https://www.primariasm.ro/sedinta-extraordinara-a-consiliului-local-satu-mare-convocata-de-indata-pe-data-de-13012023-proiect-de-hotarare-inscris-la-pct-nr-1-pe-ordinea-de-zi-share',
+      },
+      {
+        label: 'Primăria Satu Mare - profil și declarații de interese',
+        kind: 'official',
+        url: 'https://www.primariasm.ro/iliescu-pintea-aurelian',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Oradea',
+        kind: 'official',
+        url: 'https://portal.just.ro/35/SitePages/dosare.aspx',
+      },
     ],
   },
   {
     name: 'Nicola-Olteanu Ionuț-Vasile',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al comunei Lipovu, județul Dolj',
+    position: 'Consilier local al comunei Lipovu în mandatul 2020-2024; candidat PSD în 2024',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi luat parte la adoptarea unei hotărâri privind înființarea unor funcții de execuție, în contextul în care soția sa a ocupat ulterior unul dintre posturile scoase la concurs.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, a participat la adoptarea unei hotărâri privind înființarea unor funcții de execuție, iar soția sa a ocupat ulterior unul dintre posturile scoase la concurs. Lista candidaților îl confirmă din nou pe lista PSD pentru Consiliul Local Lipovu în 2024. Site-ul oficial publică documente de validare a mandatelor, însă pagina nominală de componență conține doar un șablon, iar mandatul său 2024-2028 nu a putut fi confirmat fără echivoc. Căutările nominale în Portalul Instanțelor nu au identificat un dosar de anulare a raportului ANI; acest rezultat negativ nu dovedește singur caracterul definitiv al constatării.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Dolj',
       basis: 'office',
@@ -8848,18 +9840,38 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dolj/consiliul-local/lipovu/',
       },
+      {
+        label: 'Ziare.com - candidați locali 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_dolj/consiliul-local/lipovu/',
+      },
+      {
+        label: 'Primăria Lipovu - alegeri locale 2024 și validarea mandatelor',
+        kind: 'official',
+        url: 'https://primarialipovu.ro/informatii-de-interes-public/alegeri-2024/',
+      },
+      {
+        label: 'Primăria Lipovu - componența Consiliului Local',
+        kind: 'official',
+        url: 'https://primarialipovu.ro/consiliul-local/componenta/',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Craiova',
+        kind: 'official',
+        url: 'https://portal.just.ro/54/SitePages/dosare.aspx',
+      },
     ],
   },
   {
     name: 'Badea Dumitru',
     party: 'PNL',
-    position: 'Consilier local în Consiliul Local al comunei Troianul, județul Teleorman',
+    position: 'Fost consilier local al comunei Troianul, județul Teleorman (mandatul 2020-2024)',
     position_type: 'local_official',
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, ar fi participat la adoptarea unor hotărâri privind bugetul local, în care erau incluse și salariile pentru asistenți personali, context în care soția sa deținea o funcție contractuală în primărie.',
-    verified_at: '2026-06-02',
+      'ANI a constatat în decembrie 2022 că, în calitate de consilier local, a participat la adoptarea și votarea hotărârilor privind bugetul local pentru perioada 2020-2022, în care erau incluse salariile asistenților personali, în condițiile în care soția sa deținea o asemenea funcție contractuală în Primăria Troianul. Candidatura sa PNL din 2020 este confirmată, dar numele nu mai apare pe lista completă a candidaților la Consiliul Local Troianul din 2024; funcția este, prin urmare, prezentată ca fostă. Din numeroasele dosare omonime din Portalul Instanțelor, niciunul nu asociază numele exact cu ANI; dosarele penale ale altor persoane cu același nume nu au fost atribuite acestui profil. Lipsa unui litigiu ANI identificabil nu dovedește singură caracterul definitiv al raportului.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Teleorman',
       basis: 'office',
@@ -8872,18 +9884,33 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_teleorman/consiliul-local/troianul/',
       },
+      {
+        label: 'Ziare.com - lista completă a candidaților locali 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_teleorman/consiliul-local/troianul/',
+      },
+      {
+        label: 'Primăria Troianul - alegeri 2024',
+        kind: 'official',
+        url: 'https://www.comunatroianul.ro/index.php/informatii-de-interes-public/alegeri',
+      },
+      {
+        label: 'Portalul Instanțelor - Tribunalul Teleorman',
+        kind: 'official',
+        url: 'https://portal.just.ro/87/SitePages/dosare.aspx',
+      },
     ],
   },
   {
     name: 'Balașei Iulian',
     party: 'Pro Romania',
-    position: 'Consilier local al comunei Frumușica, județul Botoșani',
+    position: 'Fost consilier local al comunei Frumușica, județul Botoșani (cel târziu până în 2024)',
     position_type: 'local_official',
     crime: 'Folosirea funcției pentru favorizarea unor persoane; incompatibilitate',
     status: 'investigated',
     details:
-      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ, susținând că, în mandatul de consilier local 2016-2020, ar fi participat la adoptarea unei hotărâri legate de un proiect POCU din care tatăl său a beneficiat ulterior de o subvenție; ANI consemnase anterior și incompatibilitatea sa.',
-    verified_at: '2026-06-02',
+      'ANI a sesizat în decembrie 2022 Parchetul de pe lângă ÎCCJ cu privire la posibila folosire a funcției pentru favorizarea unor persoane: în mandatul 2016-2020 ar fi participat la adoptarea unei hotărâri legate de un proiect POCU, din care tatăl său a beneficiat ulterior de o subvenție. Separat, ANI constatase în 2021 o incompatibilitate administrativă, deoarece societatea pe care o administra și în care era asociat unic încheiase în 2019 un contract de 8.568 lei cu o școală aflată sub autoritatea consiliului local. Declarațiile oficiale îl documentează drept consilier până în 2022; pagina de componență a primăriei este neactualizată și cumulează 25 de nume, iar el nu apare pe lista completă a candidaților din 2024. Căutările nominale în Portalul Instanțelor nu au identificat un dosar public sau o soluție privind sesizarea penală.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Botoșani',
       basis: 'office',
@@ -8896,53 +9923,103 @@ const ANI_DEC_2022_TEN_PUBLIC_OFFICIALS_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/frumusica/',
       },
+      {
+        label: 'ANI - incidente de integritate, 16 aleși locali (constatarea din 2021)',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-16-alesi-locali/',
+      },
+      {
+        label: 'Primăria Frumușica - declarații de avere și interese ale consilierilor',
+        kind: 'official',
+        url: 'https://primariafrumusica.ro/documente/declaratii-de-avere-si-interese-consilieri-locali-2020/',
+      },
+      {
+        label: 'Primăria Frumușica - pagina de componență a Consiliului Local',
+        kind: 'official',
+        url: 'https://primariafrumusica.ro/despre-primarie/conducere/consiliul-local/componenta/',
+      },
+      {
+        label: 'Ziare.com - lista completă a candidaților locali 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_botosani/consiliul-local/frumusica/',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Suceava',
+        kind: 'official',
+        url: 'https://portal.just.ro/39/SitePages/dosare.aspx',
+      },
     ],
   },
   {
     name: 'Dohi Francisk',
-    party: 'PCM-MPP',
-    position: 'Viceprimar al comunei Ciumești, județul Satu Mare',
+    party: 'FCM',
+    position: 'Consilier local al comunei Ciumești, județul Satu Mare; fost viceprimar (2020-2024)',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2026 că, în mandatul de viceprimar 2020-2024, ar fi înregistrat venituri din activități independente prin intermediul propriei întreprinderi familiale.',
-    verified_at: '2026-06-02',
+      'ANI a constatat la 4 mai 2026 că, în mandatul de viceprimar 2020-2024, a înregistrat venituri din activități independente prin intermediul propriei întreprinderi familiale, situație încadrată de Agenție ca incompatibilitate administrativă. Nu este vorba despre o acuzație penală. În mandatul 2024-2028, pagina oficială a Primăriei Ciumești îl listează drept consilier local ales din partea FCM, nu viceprimar; procesele-verbale și componența comisiei juridice confirmă exercitarea mandatului de consilier. Nu a fost identificată o hotărâre judecătorească publică privind o eventuală contestație a raportului ANI.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Satu Mare',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de viceprimar al comunei Ciumești, județul Satu Mare.',
+      note: 'Funcțiile publice relevante au fost exercitate în comuna Ciumești, județul Satu Mare.',
     },
     sources: [
       ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
       {
-        label: 'Primăria Ciumești',
+        label: 'Primăria Ciumești - componența Consiliului Local 2024-2028',
         kind: 'official',
         url: 'https://primariaciumesti.ro/consiliul-local/consilieri-locali/',
+      },
+      {
+        label: 'Primăria Ciumești - comisii de specialitate',
+        kind: 'official',
+        url: 'https://primariaciumesti.ro/consiliul-local/comisii-de-specialitate/',
+      },
+      {
+        label: 'Primăria Ciumești - declarații de avere și interese',
+        kind: 'official',
+        url: 'https://primariaciumesti.ro/informatii-de-interes-public/declaratii-avere-interese/',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Oradea',
+        kind: 'official',
+        url: 'https://portal.just.ro/35/SitePages/dosare.aspx',
       },
     ],
   },
   {
     name: 'Herescu Emil',
-    party: 'Pro Romania',
-    position: 'Fost viceprimar al comunei Buciumeni, județul Galați',
+    party: 'PNL',
+    position: 'Consilier local al comunei Buciumeni, județul Galați; fost viceprimar',
     position_type: 'local_official',
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2026 că, în timpul exercitării funcției de viceprimar, ar fi desfășurat în perioada 23 martie - 8 decembrie 2023 activități remunerate prin intermediul întreprinderii familiale în care figura ca reprezentant.',
-    verified_at: '2026-06-02',
+      'ANI a constatat la 4 mai 2026 că, în timpul exercitării funcției de viceprimar, a desfășurat între 23 martie și 8 decembrie 2023 activități remunerate prin intermediul întreprinderii familiale în care figura ca reprezentant, situație încadrată ca incompatibilitate administrativă. Nu este vorba despre o acuzație penală. Monitorul Oficial Local al județului Galați confirmă că a primit în 2024 un mandat de consilier local din partea PNL, iar pagina actuală a Primăriei Buciumeni îl include între consilierii locali. Nu a fost identificată o hotărâre judecătorească publică privind o eventuală contestație a raportului ANI.',
+    verified_at: '2026-09-30',
     geography: {
       county: 'Galați',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de viceprimar al comunei Buciumeni, județul Galați.',
+      note: 'Funcțiile publice relevante au fost exercitate în comuna Buciumeni, județul Galați.',
     },
     sources: [
       ANI_MAY_2026_PUBLIC_OFFICIALS_SOURCE,
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/buciumeni/',
+        label: 'Primăria Buciumeni - Consiliul Local',
+        kind: 'official',
+        url: 'https://www.primariabuciumeni.ro/consiliul-local/',
+      },
+      {
+        label: 'Consiliul Județean Galați - Monitorul Oficial Local nr. 37/2024',
+        kind: 'official',
+        url: 'https://cjgalati.ro/wp-content/uploads/2024/10/mo-37.pdf',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Galați',
+        kind: 'official',
+        url: 'https://portal.just.ro/44/SitePages/dosare.aspx',
       },
     ],
   },
@@ -8977,44 +10054,159 @@ const MEDIAS_GOSCOM_TWO_COUNTS_CRIME =
 
 const MEDIAS_GOSCOM_COUNCIL_RECORDS = [
   {
-    name: 'Balazs Bela Atila',
+    name: 'Balázs Béla Attila',
     party: 'UDMR',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    position: 'Fost consilier local în Consiliul Local al municipiului Mediaș',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'UDMR – profil Balázs Béla Attila',
+        kind: 'official',
+        url: 'https://udmr.ro/profil/balazs-bela-attila',
+      },
+      {
+        label: 'Sibiu 100 – demisia din Consiliul Local Mediaș',
+        kind: 'press',
+        url: 'https://sibiu100.ro/eveniment/un-ales-local-demisioneaza-din-consiliul-local-medias/',
+      },
+    ],
   },
   {
     name: 'Ciulea Ioan Vasile',
     party: 'PP-DD',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Adevărul – mandatul local și afilierea politică',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/sibiu/un-consilier-local-din-medias-vrea-scoaterea-1688645.html',
+      },
+    ],
   },
   {
     name: 'Grozav Eugen',
     party: 'PSD',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Consiliul Județean Sibiu – Monitorul Oficial nr. 5/2013',
+        kind: 'official',
+        url: 'https://www.cjsibiu.ro/wp-content/uploads/2015/03/monitorul_5_2013_1.pdf',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Knall Helmuth Iulius',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Lăzăroiu Ioan',
     party: 'PP-DD',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Consiliul Județean Sibiu – Monitorul Oficial nr. 5/2013',
+        kind: 'official',
+        url: 'https://www.cjsibiu.ro/wp-content/uploads/2015/03/monitorul_5_2013_1.pdf',
+      },
+      {
+        label: 'Sibiu 100 – mandatul PP-DD și trecerea la PMP',
+        kind: 'press',
+        url: 'https://sibiu100.ro/politica/un-consilier-local-din-medias-migrat-de-la-pp-dd-la-pmp/',
+      },
+      {
+        label: 'Sibiu 100 – alegerea ca viceprimar în 2016',
+        kind: 'press',
+        url: 'https://sibiu100.ro/administratie/pnl-a-pierdut-postul-de-viceprimar-al-mediasului/',
+      },
+    ],
   },
   {
     name: 'Manta Anca Maria',
     party: 'PSD',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Turnul Sfatului – audierea în dosarul Gospodăria Comunală',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2015/09/20/cum-justifica-alesii-pomparea-a-3-7-milioane-intr-o-societate-intrata-in-insolventa-35743/',
+      },
+      {
+        label: 'Sibiu 100 – consilier local PSD',
+        kind: 'press',
+        url: 'https://sibiu100.ro/politica/psd-medias-si-a-ales-candidatul-pentru-primaria-medias/',
+      },
+    ],
   },
   {
     name: 'Moraru Eugen',
     party: 'PSD',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Turnul Sfatului – candidatul USL/PSD la Primăria Mediaș',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2012/03/13/eugen-moraru-candidatul-usl-pentru-medias-13795/',
+      },
+    ],
   },
   {
     name: 'Neag Florin',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+      {
+        label: 'Antena 3 – candidatura parlamentară PDL din 2012',
+        kind: 'press',
+        url: 'https://www.antena3.ro/politica/regizorul-sorin-iliesiu-va-candida-pe-listele-pnl-pentru-un-post-de-senator-in-sibiu-avandu-l-188626.html',
+      },
+    ],
   },
   {
     name: 'Constantin Gheorghe Nicorici',
@@ -9040,69 +10232,279 @@ const MEDIAS_GOSCOM_COUNCIL_RECORDS = [
     name: 'Petrescu George Stelian',
     party: 'PNL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    position: 'Fost viceprimar și consilier local al municipiului Mediaș',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Prefectura Sibiu – încetarea mandatelor de consilier și viceprimar',
+        kind: 'official',
+        url: 'https://www.cjsibiu.ro/wp-content/uploads/2016/06/M.O.nr_.4.2016.pdf',
+      },
+      {
+        label: 'Monitorul de Mediaș – alegerea ca viceprimar în 2012',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Popa Ioan',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Monitorul de Mediaș – interviu cu Ioan Popa, consilier PDL',
+        kind: 'press',
+        url: 'https://www.monitorulcj.ro/documente/monitorul%20de%20medias%20-%2003.06.2011.pdf',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Sas Ilarie',
-    party: 'PNL',
+    party: 'PER',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Monitorul de Mediaș – traseul politic PER–PDL/PNL',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+      {
+        label: 'Nova TV Mediaș – consilier local în 2013',
+        kind: 'press',
+        url: 'https://novatv.ro/2013/07/video-comisia-alesilor-locali-se-cauta-solutii-pentru-medias-vezi-declaratii/',
+      },
+    ],
   },
   {
     name: 'Taropa Floarea',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    position: 'Fost viceprimar și consilier local al municipiului Mediaș',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Adevărul – alegerea ca viceprimar PDL',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/sibiu/sibiu-mediasul-are-pentru-prima-data-in-istorie-o-851479.html',
+      },
+      {
+        label: 'Turnul Sfatului – fost viceprimar, consilier local și inculparea în dosar',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2014/09/16/medias-ex-viceprimar-actual-consilier-local-trimis-in-judecata-de-dna-alaturi-de-alti-22-and-quot-am-dorit-salvarea-acelei-societati-and-quot-27132/',
+      },
+    ],
   },
   {
     name: 'Toma Cosmin Lucian',
     party: 'PNL',
     crime: MEDIAS_GOSCOM_TWO_COUNTS_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Ciolpan Vasile',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raport privind componența Consiliului Local în 2007',
+        kind: 'official',
+        url: 'https://primariasighisoara.ro/portal/mures/sighisoara/portal.nsf/1365E1D2CFDB5B07C22581EE0032AAEF/%24FILE/Raportul%20Primarului%20Municipiului%20Medias%20final.pdf',
+      },
+      {
+        label: 'Sibiu 100 – mandatul PDL și incompatibilitatea constatată de ANI',
+        kind: 'press',
+        url: 'https://sibiu100.ro/politica/consilier-local-mediesean-declarat-incompatibil-de-ani/',
+      },
+      {
+        label: 'Monitorul de Mediaș – mandatul încheiat în noiembrie 2013',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Nagy Pavel',
     party: 'PNL',
     crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – raportul primarului pentru 2016',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/portal/medias/portal.nsf/0/751940EA945AA3D7C2258BAF003EF81E/%24FILE/Raportul%20primarului%20pentru%20anul%202016.pdf?Open=',
+      },
+      {
+        label: 'Sibiu 100 – activitatea în Consiliul Local în 2016',
+        kind: 'press',
+        url: 'https://sibiu100.ro/administratie/impozitele-ar-putea-scadea-la-medias-pentru-cladirile-nerezidentiale-ale-persoanelor-fizice/',
+      },
+      {
+        label: 'Monitorul de Mediaș – componența Consiliului Local 2012–2016',
+        kind: 'press',
+        url: 'https://www.monitoruldemedias.ro/2016/02/analiza-consiliul-local-medias-2012.html',
+      },
+    ],
   },
   {
     name: 'Pătrui Eleonora',
     party: 'PDL',
     crime: MEDIAS_GOSCOM_STANDARD_CRIME,
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Turnul Sfatului – declarații în dosarul Gospodăria Comunală',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2016/12/02/esec-rasunator-al-dna-in-dosarul-afacerea-goscom-toti-cei-23-de-alesi-trimisi-in-judecata-au-fost-achitati-73258/',
+      },
+      {
+        label: 'Sibiu 100 – conducerea județeană PDL',
+        kind: 'press',
+        url: 'https://sibiu100.ro/politica/raluca-turcan-este-noul-presedinte-al-democrat-liberalilor-din-tot-judetul-sibiu/',
+      },
+      {
+        label: 'Adevărul verde în față – demisia din Consiliul Local în 2013',
+        kind: 'press',
+        url: 'https://iongirnod.blogspot.com/2013/02/exclusivitate-eleonora-patrui-parasit.html',
+      },
+    ],
   },
   {
     name: 'Lața Ilie',
     party: 'PSD',
     crime:
       'Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Agenda Locală 21 Mediaș – comitetul local',
+        kind: 'official',
+        url: 'https://cndd.ro/wp-content/uploads/2018/08/AgLoc21_Medias_eng.pdf',
+      },
+      {
+        label: 'Ora de Sibiu – demisia din PSD și Consiliul Local în 2014',
+        kind: 'press',
+        url: 'https://www.oradesibiu.ro/2014/05/17/conferinta-de-presa-la-psd-demisii-din-partid-declaratii/',
+      },
+      {
+        label: 'Turnul Sfatului – rolul în dosarul Gospodăria Comunală',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2016/10/26/dosarul-goscom-la-final-fostul-primar-din-medias-e-un-dosar-politic-fostul-viceprimar-sunt-somer-70122/',
+      },
+    ],
   },
   {
     name: 'Plopeanu Teodor',
     party: 'PSD',
     crime:
       'Două infracțiuni concurente de abuz în serviciu, dintre care una cu consecințe deosebit de grave; conflict de interese',
+    position: 'Fost primar și consilier local al municipiului Mediaș',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Agenda Locală 21 Mediaș – primarul municipiului',
+        kind: 'official',
+        url: 'https://cndd.ro/wp-content/uploads/2018/08/AgLoc21_Medias_rom.pdf',
+      },
+      {
+        label: 'Ora de Sibiu – demisia din PSD și Consiliul Local în 2014',
+        kind: 'press',
+        url: 'https://www.oradesibiu.ro/2014/05/17/conferinta-de-presa-la-psd-demisii-din-partid-declaratii/',
+      },
+      {
+        label: 'Turnul Sfatului – fostul primar și rolul în dosarul Gospodăria Comunală',
+        kind: 'press',
+        url: 'https://www.turnulsfatului.ro/2015/03/22/afacerea-penala-goscom-primaria-medias-isi-muta-sediul-la-tribunal-29739/',
+      },
+    ],
   },
   {
     name: 'Marian Victor Cristian',
     party: 'PDL',
     crime:
       'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Romgaz – declarația de avere Victor Cristian Marian',
+        kind: 'official',
+        url: 'https://www.romgaz.ro/sites/default/files/2024-06/Marian%20Victor%20Cristian.pdf',
+      },
+      {
+        label: 'Sibiu 100 – validarea ca ales local PDL în 2013',
+        kind: 'press',
+        url: 'https://sibiu100.ro/administratie/schimbare-in-consiliul-local-medias/',
+      },
+      {
+        label: 'Sibiu 100 – candidatura independentă din 2016',
+        kind: 'press',
+        url: 'https://sibiu100.ro/administratie/s-stabilit-ordinea-candidatilor-pe-buletinele-de-vot-la-alegerile-din-medias/',
+      },
+    ],
   },
   {
     name: 'Orosz Csaba',
     party: 'UDMR',
     crime:
       'Abuz în serviciu dacă funcționarul a obținut pentru sine sau pentru altul un folos necuvenit',
+    position: 'Consilier local al municipiului Mediaș; fost administrator public al municipiului',
+    verified_at: '2026-10-02',
+    sources: [
+      {
+        label: 'Primăria Mediaș – proces-verbal al Consiliului Local din 28 august 2025',
+        kind: 'official',
+        url: 'https://eportal.primariamedias.ro/dm_medias/2025/Hotarari.nsf/25090788EB513677C2258D160017B688/%24FILE/Proces%20verbal%2028%20aug%202025.pdf',
+      },
+      {
+        label: 'Transgaz – curriculum vitae Csaba Orosz',
+        kind: 'official',
+        url: 'https://www.transgaz.ro/sites/default/files/CV%20Orosz%20Csaba.PDF',
+      },
+      {
+        label: 'UDMR – profil Orosz Csaba',
+        kind: 'official',
+        url: 'https://udmr.ro/profil/orosz-csaba',
+      },
+    ],
   },
 ].map((record) => ({
   ...record,
-  position: record.position || 'Consilier local în Consiliul Local al municipiului Mediaș',
+  position: record.position || 'Fost consilier local în Consiliul Local al municipiului Mediaș',
   position_type: 'local_official',
   geography: MEDIAS_GOSCOM_GEOGRAPHY,
   sentence: 'Achitat definitiv (2018)',
@@ -9121,6 +10523,7 @@ const MEDIAS_GOSCOM_COUNCIL_RECORDS = [
 const PASCANI_AGROCOMPLEX_GEOGRAPHY = {
   county: 'Iași',
   basis: 'office',
+  locality: 'Pașcani',
   note: 'Funcția publică relevantă ori cauza viza municipiul Pașcani, județul Iași.',
 };
 
@@ -9160,64 +10563,78 @@ const PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS =
 
 const PASCANI_AGROCOMPLEX_RECORDS = [
   {
-    name: 'Rățoi Neculai',
+    name: 'Neculai Rățoi',
     party: 'PSD',
-    position: 'Primar al municipiului Pașcani; ulterior deputat',
+    position: 'Fost primar al municipiului Pașcani; deputat PSD de Iași (2008–2016)',
     position_type: 'mayor',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    verified_at: '2026-10-02',
+    sources: [
+      ...PASCANI_AGROCOMPLEX_SOURCES,
+      {
+        label: 'Camera Deputaților',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=310&leg=2012',
+      },
+    ],
   },
   {
-    name: 'Constantinescu Florin',
+    name: 'Florin Constantinescu',
     party: 'PSD',
-    position: 'Consilier local în Pașcani; ulterior senator',
+    position: 'Fost consilier local în Pașcani (2004–2008); senator PSD de Iași (2008–2016)',
     position_type: 'senator',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    verified_at: '2026-10-02',
+    sources: [
+      ...PASCANI_AGROCOMPLEX_SOURCES,
+      {
+        label: 'Senatul României',
+        kind: 'official',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=B6EC5466-5330-4649-9229-29ED02F7841B',
+      },
+    ],
   },
   {
-    name: 'Agache Nina',
+    name: 'Nina Agache',
     party: 'PNL',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PNL al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Bucovanu Irina',
-    party: 'PRM',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    name: 'Irina Bucovanu (fostă Dumitriu)',
+    party: 'PSD',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Dumea Eronim-Eduard',
+    name: 'Eronim-Eduard Dumea',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
     name: 'Georgeta Huțanu',
@@ -9233,172 +10650,180 @@ const PASCANI_AGROCOMPLEX_RECORDS = [
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Simion Constantin',
+    name: 'Constantin Simion',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Sofian Dorina',
+    name: 'Dorina Sofian (fostă Loghin)',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Toma Viorel',
+    name: 'Viorel Toma',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
-  },
-  {
-    name: 'Apostol Nicolae',
-    party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
-    position_type: 'local_official',
-    geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
-    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
-    status: 'acquitted',
-    details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Centea Liliana',
+    name: 'Nicolae Apostol',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
-  },
-  {
-    name: 'Cojocaru Constantin',
-    party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
-    position_type: 'local_official',
-    geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
-    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
-    status: 'acquitted',
-    details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Ioniță Ioan',
+    name: 'Liliana Centea (fostă Paraschiv)',
+    party: 'PNL',
+    position: 'Fost consilier local PNL al municipiului Pașcani',
+    position_type: 'local_official',
+    geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
+  },
+  {
+    name: 'Constantin Cojocaru',
+    party: 'PSD',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
+    position_type: 'local_official',
+    geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
+    crime: 'Abuz în serviciu cu consecințe deosebit de grave',
+    status: 'acquitted',
+    details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
+  },
+  {
+    name: 'Ioan Ioniță',
     party: 'PD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Pleșca Vasile',
+    name: 'Vasile Pleșca',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Răuț Dănuț',
+    name: 'Dănuț Răuț',
     party: 'PRM',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PRM al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Rusu Leonard',
-    party: 'PD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    name: 'Leonard Rusu',
+    party: 'PD (fost PRM; ulterior PD-L)',
+    position: 'Fost consilier local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    verified_at: '2026-10-02',
     sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_RUSU_PARTY_SOURCE],
   },
   {
-    name: 'Sîrbu Daniel',
+    name: 'Daniel Sîrbu',
     party: 'PSD',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local PSD al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
   {
-    name: 'Pantazi Dumitru',
+    name: 'Dumitru Pantazi',
     party: 'PSD',
-    position: 'Viceprimar al municipiului Pașcani; acționar majoritar la SC Agrocomplex Lunca Pașcani SA',
+    position: 'Consilier local PSD în Pașcani; fost viceprimar și primar al municipiului (2012–2020)',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Instigare la abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: PASCANI_AGROCOMPLEX_SOURCES,
+    verified_at: '2026-10-02',
+    sources: [
+      ...PASCANI_AGROCOMPLEX_SOURCES,
+      {
+        label: 'Primăria Pașcani — componența Consiliului Local',
+        kind: 'official',
+        url: 'https://www.primariapascani.ro/dm_pascani/portal.nsf/AllByUNID/2024-mandat-nou-00041142?OpenDocument=',
+      },
+    ],
   },
   {
     name: 'Lungu Cristina',
     party: 'Independent',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    position: 'Fost consilier local în Consiliul Local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
-    details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
+    details:
+      'DNA a identificat-o pe Lungu Cristina drept consilier local al municipiului Pașcani și membră a Comisiei economice, buget și finanțe la data faptelor. Prin decizia penală nr. 119 din 4 iulie 2018, ÎCCJ a dispus achitarea sa definitivă în dosarul Agrocomplex Lunca Pașcani, întrucât faptele reținute nu sunt prevăzute de legea penală.',
+    verified_at: '2026-10-01',
     sources: PASCANI_AGROCOMPLEX_SOURCES,
   },
   {
-    name: 'Tabarcea Ionela-Laura',
-    party: 'PRM',
-    position: 'Consilier local în Consiliul Local al municipiului Pașcani',
+    name: 'Ionela-Laura Tabarcea (fostă Lupu)',
+    party: 'PRM (ulterior PD)',
+    position: 'Fost consilier local al municipiului Pașcani',
     position_type: 'local_official',
     geography: PASCANI_AGROCOMPLEX_GEOGRAPHY,
     crime: 'Complicitate la abuz în serviciu cu consecințe deosebit de grave',
     status: 'acquitted',
     details: PASCANI_AGROCOMPLEX_ACQUITTAL_DETAILS,
-    verified_at: '2026-05-12',
-    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_COUNCIL_PARTY_SOURCE],
+    verified_at: '2026-10-02',
+    sources: [...PASCANI_AGROCOMPLEX_SOURCES, PASCANI_SIMION_VALIDATION_SOURCE],
   },
 ];
 
@@ -9816,67 +11241,7 @@ const AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_ROWS = [
   ["Toma Marian Gelu", "PSD", "Bac\u0103u", "Consiliul Local Moto\u015feni", "local_official", "2669", 8, true, 2011, "08/09/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
   ["Savu Mihai Christian", "PSD", "Bra\u0219ov", "Consiliul Local Ucea", "local_official", "2432", 12, true, 2011, "24/05/2011", "Persoana fara calitate speciala", "Nu este cazul", true],
   ["Maris Vasile", "PMP", "Cluj", "Consiliul Local M\u0103guri-R\u0103c\u0103t\u0103u", "local_official", "5728", 5, true, 2014, "18/12/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Dedu Dumitru", "PSD", "Constan\u021ba", "Consiliul Jude\u021bean Constan\u021ba", "local_official", "4477", 18, true, 2013, "20/11/2013", "Persoana fara calitate speciala", "Nu este cazul", true],
-  ["Popescu Elena", "PNL", "Dolj", "Consiliul Local Castranova", "local_official", "5154", 33, true, 2014, "08/07/2014", "Persoana fara calitate speciala", "Nu este cazul", true],
-  ["Zaharia Ion", "USR", "Ialomi\u021ba", "Consiliul Local Gura Ialomi\u0163ei", "local_official", "4119", 42, false, 2013, "24/05/2013", "Reprezentant", "Societate comerciala", false],
-  ["Apetrei Consela", "PSD", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "5675", 29, true, 2014, "19/11/2014", "Angajat", "Societate comerciala", true],
-  ["Catargiu Dumitru", "PNL", "Ia\u0219i", "Consiliul Local ora\u0219ul H\u00e2rl\u0103u", "local_official", "4973", 48, true, 2014, "28/05/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Rusu Doina", "PSD", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "5675", 30, true, 2014, "19/11/2014", "Angajat", "Societate comerciala", true],
-  ["Nicolae Marin", "PNL", "Ilfov", "Consiliul Local Petr\u0103chioaia", "local_official", "3272", 36, false, 2012, "16/05/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Balea Ioan", "PSD", "Maramure\u0219", "Consiliul Local Once\u015fti", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Borca Vasile", "PSD", "Maramure\u0219", "Consiliul Local B\u00e2rsana", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Bosca Ioan Daniel", "PNL", "Maramure\u0219", "Consiliul Local Rona De Jos", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Chira Maria", "PSD", "Maramure\u0219", "Consiliul Local L\u0103pu\u015f", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Coman Vasile", "PSD", "Maramure\u0219", "Consiliul Local Moisei", "local_official", "2361", 24, false, 2011, "27/04/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Danci Maria", "PUSL", "Maramure\u0219", "Consiliul Local S\u0103cel", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Hodor Ioan", "PNL", "Maramure\u0219", "Consiliul Local B\u00e2rsana", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Iuga Mariana", "USR", "Maramure\u0219", "Consiliul Local ora\u0219ul S\u0103li\u015ftea De Sus", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Nan Ioan", "PNL", "Maramure\u0219", "Consiliul Local \u015eieu", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Petreus Ioan", "USR", "Maramure\u0219", "Consiliul Local Botiza", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Pop Lucian", "USR", "Maramure\u0219", "Consiliul Local Recea", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Roman Ioan Marian", "PNL", "Maramure\u0219", "Consiliul Local C\u00e2mpulung La Tisa", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Pal Imre", "UDMR", "Mure\u0219", "Consiliul Local ora\u0219ul Ludu\u015f", "local_official", "5680", 24, true, 2014, "19/11/2014", "Persoana fara calitate speciala", "Nu este cazul", true],
-  ["Chirila Alexandru Teodor", "PNL", "Neam\u021b", "Consiliul Local Poiana Teiului", "local_official", "5532", 6, true, 2014, "21/10/2014", "Reprezentant", "Societate comerciala", false],
-  ["Ciobanu Petrica", "PUSL", "Neam\u021b", "Consiliul Local municipiul Roman", "local_official", "3066", 4, true, 2012, "12/03/2012", "Reprezentant", "Societate comerciala", false],
-  ["Predut Marius-Marinel", "PSD", "Olt", "Consiliul Local ora\u0219ul Piatra-Olt", "local_official", "5110", 16, true, 2014, "30/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Pirvan Ion", "PSD", "Prahova", "Consiliul Local B\u0103l\u0163e\u015fti", "local_official", "4356", 12, true, 2013, "26/09/2013", "Sofer", "Societate comerciala", false],
-  ["Stoica Niculae", "PNL", "Prahova", "Consiliul Local Gherghi\u0163a", "local_official", "2830", 36, false, 2011, "29/11/2011", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Gabri Gabor Sandor", "PSD", "Satu Mare", "Consiliul Local Porumbe\u015fti", "local_official", "3771", 78, false, 2012, "14/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Olah Nicolae", "PNL", "Satu Mare", "Consiliul Local Porumbe\u015fti", "local_official", "3771", 54, false, 2012, "14/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Savu Ion", "PNL", "Satu Mare", "Consiliul Local Bixad", "local_official", "4766", 45, false, 2014, "21/03/2014", "Om de afaceri", "Societate comerciala", false],
-  ["Stanca Toma-Stefan", "PNL", "Sibiu", "Consiliul Local Tili\u015fca", "local_official", "5029", 6, true, 2014, "21/05/2014", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Olaru Florin Costica", "PSD", "Suceava", "Consiliul Local municipiul Suceava", "local_official", "4080", 18, true, 2013, "29/04/2013", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Dumitrescu Gheorghe", "PSD", "V\u00e2lcea", "Consiliul Local ora\u0219ul Brezoi", "local_official", "3969", 48, true, 2013, "13/03/2013", "Asociat", "Societate comerciala", false],
-  ["Cirnu Marin", "PNL", "Vrancea", "Consiliul Local Pope\u015fti", "local_official", "2054", 36, true, 2010, "24/11/2010", "Persoana fara calitate speciala", "Nu este cazul", false],
-  ["Agachi Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local Poduri", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Albert Gheorghe", "PNL", "Bac\u0103u", "Consiliul Local Livezi", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Alexandru Nicu", "PSD", "Buz\u0103u", "Consiliul Local Bl\u0103jani", "local_official", "1893", 24, false, 2010, "07/05/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Arhire Ioan", "PSD", "Constan\u021ba", "Consiliul Local Cump\u0103na", "local_official", "4487", 8, true, 2013, "14/11/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Berbece Marin", "PSD", "Olt", "Consiliul Local Oboga", "local_official", "1927", 24, true, 2010, "21/06/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Bica Adrian", "PMP", "Dolj", "Consiliul Local Leu", "local_official", "1924", 24, false, 2010, "23/03/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Buzatu Nicolae", "PSD", "Ia\u0219i", "Consiliul Local Todire\u0219ti", "local_official", "5080", 24, false, 2014, "18/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Chirita Aurelian", "PNL", "Olt", "Consiliul Local Vulture\u0219ti", "local_official", "2054", 24, true, 2010, "24/11/2010", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Ciubotaru Gheorghe", "PMP", "Bac\u0103u", "Consiliul Local Racova", "local_official", "4816", 36, true, 2014, "16/04/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Ciurar Traian", "PSD", "Mure\u0219", "Consiliul Local municipiul Sighi\u0219oara", "local_official", "3774", 24, true, 2012, "12/12/2012", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Cocos Ion", "PSD", "V\u00e2lcea", "Consiliul Local Berisl\u0103ve\u0219ti", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Coman Melania", "USR", "Mure\u0219", "Consiliul Local municipiul T\u00e2rn\u0103veni", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Coman Stelian", "USR", "Dolj", "Consiliul Local Bratovoe\u0219ti", "local_official", "4356", 12, true, 2013, "26/09/2013", "Sofer", "Societate comerciala", false, "2026-06-30"],
-  ["Costache Iulian", "PSD", "Prahova", "Consiliul Local C\u0103rbune\u0219ti", "local_official", "2714", 24, true, 2011, "13/10/2011", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Costea Mihai", "USR", "V\u00e2lcea", "Consiliul Local D\u0103e\u0219ti", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Costin Alexandru", "PSD", "Bistri\u021ba-N\u0103s\u0103ud", "Consiliul Local Negrile\u0219ti", "local_official", "5728", 6, true, 2014, "18/12/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Covaci Gheorghe Vasile", "AUR", "Bra\u0219ov", "Consiliul Local Budila", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Cristescu Mihai", "PNL", "Cara\u0219-Severin", "Consiliul Local Cornea", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Dan Tudor", "PNL", "Teleorman", "Consiliul Local Beciu", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Dina Nicolae", "AUR", "Arge\u0219", "Consiliul Local Priboieni", "local_official", "3950", 24, true, 2013, "28/02/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Dita Ion", "PNL", "Olt", "Consiliul Local Corbu", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Dragota Marian", "PNL", "Dolj", "Consiliul Local V\u00e2rtop", "local_official", "5153", 84, false, 2014, "07/07/2014", "Asociat", "Societate comerciala", false, "2026-06-30"],
-  ["Dumitrescu Mariana", "AUR", "Mehedin\u021bi", "Consiliul Local Butoie\u0219ti", "local_official", "5178", 36, true, 2014, "29/07/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Florea Dorel", "PSD", "Mure\u0219", "Consiliul Local R\u00e2ciu", "local_official", "4860", 6, true, 2014, "14/04/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Florian Liviu", "PNL", "Maramure\u0219", "Consiliul Local Copalnic-M\u0103n\u0103\u0219tur", "local_official", "4766", 42, false, 2014, "21/03/2014", "Om de afaceri", "Societate comerciala", false, "2026-06-30"],
-  ["Gheorghe Adriana", "PMP", "Cara\u0219-Severin", "Consiliul Local Ciudanovi\u021ba", "local_official", "5028", 48, true, 2014, "10/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
-  ["Niculae Constantin", "SOS Romania", "C\u0103l\u0103ra\u0219i", "Consiliul Jude\u021bean C\u0103l\u0103ra\u0219i", "local_official", "4355", 48, false, 2013, "26/09/2013", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
   ["Zvori\u0219teanu Vasile", "For\u021ba Dreptei", "Ia\u0219i", "Consiliul Local Popricani", "local_official", "4555", 48, false, 2013, "06/12/2013", "Persoana fara calitate speciala", "Nu este cazul", true, "2026-06-30"],
-  ["Ulici Maria", "For\u021ba Dreptei", "Maramure\u0219", "Consiliul Local C\u0103line\u0219ti", "local_official", "5140", 6, true, 2014, "25/06/2014", "Persoana fara calitate speciala", "Nu este cazul", false, "2026-06-30"],
 ];
 
 function formatAutomatedSentence(months, suspended) {
@@ -9894,9 +11259,10 @@ function formatAutomatedSentence(months, suspended) {
 
 const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
   {
-    name: 'Buzdea Ion',
-    party: 'PSD',
-    position: 'Viceprimar al comunei Poiana Teiului',
+    name: 'Ion Buzdea',
+    party: 'S.O.S. România',
+    position:
+      'Candidat S.O.S. România la Consiliul Local Poiana Teiului și Consiliul Județean Neamț (2024); fost viceprimar și consilier local PSD al comunei Poiana Teiului',
     position_type: 'local_official',
     geography: {
       county: 'Neamț',
@@ -9906,23 +11272,19 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     crime: 'Șantaj; acces fără drept la un sistem informatic',
     status: 'indicted',
     details:
-      'DNA Bacău l-a trimis în judecată în iulie 2022, sub control judiciar, pentru șantaj în formă continuată și acces fără drept la un sistem informatic. Pagina oficială a Primăriei Poiana Teiului pentru comisiile consiliului local îl listează pe Buzdea Ion ca membru PSD.',
-    verified_at: '2026-07-02',
+      'DNA Bacău l-a trimis în judecată la 4 iulie 2022, sub control judiciar, pentru șantaj în formă continuată și acces fără drept la un sistem informatic în formă continuată. Procurorii susțin că ar fi constrâns o colegă de partid să îl includă pe lista eligibilă pentru Consiliul Local și să îl sprijine pentru funcția de viceprimar și că i-ar fi solicitat 150.000 de lei. Dosarul a fost trimis Tribunalului Neamț; sursele consultate nu indică o hotărâre definitivă.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 11325',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=11325',
       },
-      {
-        label: 'Primăria Poiana Teiului - comisii de specialitate',
-        kind: 'official',
-        url: 'https://poianateiului.ro/despre-primarie/conducere/consiliul-local/comisii-de-specialitate/',
-      },
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
     ],
   },
   {
-    name: 'Boricean Nistor',
+    name: 'Nistor Boricean',
     party: 'PNL',
     position: 'Primar al comunei Măieruș',
     position_type: 'mayor',
@@ -9932,10 +11294,10 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era în comuna Măieruș, județul Brașov.',
     },
     crime: 'Abuz în serviciu',
-    status: 'indicted',
+    status: 'prescribed',
     details:
-      'DNA Brașov l-a trimis în judecată pentru abuz în serviciu în formă continuată într-un dosar privind lucrări de apă și canalizare în localitatea Arini. Rezultatele electorale locale din 2024 îl listează drept candidat PNL la Primăria Măieruș.',
-    verified_at: '2026-07-02',
+      'DNA Brașov l-a trimis în judecată în 2021 pentru abuz în serviciu în formă continuată, susținând că ar fi decontat cheltuieli nereale ori supraevaluate și servicii neprestate în proiectul de apă și canalizare din Arini, cu un prejudiciu estimat atunci la 4.509.513 lei. În dosarul 4310/62/2021, Tribunalul Brașov a încetat procesul penal la 10 iunie 2026 ca urmare a prescripției răspunderii penale; soluția nu reprezintă nici achitare, nici condamnare și permitea apel. La data verificării, portalul instanțelor nu afișa un dosar de apel la Curtea de Apel Brașov. A câștigat un nou mandat de primar al comunei Măieruș din partea PNL în 2024.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 10650',
@@ -9947,10 +11309,20 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_brasov/primarie/maierus/',
       },
+      {
+        label: 'Portalul instanțelor - dosarul 4310/62/2021',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'ASUM - hotărârea 81/2026 și prescripția',
+        kind: 'press',
+        url: 'https://asum.ro/2026/06/11/primarul-din-maierus-nistor-boricean-scapa-de-judecata-datorita-termenului-de-prescriptie/',
+      },
     ],
   },
   {
-    name: 'Bacinschi Decebal-Gabriel',
+    name: 'Decebal-Gabriel Bacinschi',
     party: 'PSD',
     position: 'Fost primar al municipiului Focșani',
     position_type: 'mayor',
@@ -9960,14 +11332,14 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era în municipiul Focșani, județul Vrancea.',
     },
     crime: 'Abuz în serviciu',
-    sentence: '3 ani închisoare cu suspendare',
+    sentence: '3 ani închisoare cu executare',
     sentence_years: 3,
     conviction_year: 2021,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Galați l-a condamnat definitiv în decembrie 2021 la 3 ani închisoare cu suspendare pentru abuz în serviciu. HotNews îl identifică drept fost primar PSD al Focșaniului.',
-    verified_at: '2026-07-02',
+      'Curtea de Apel Galați l-a condamnat definitiv, prin decizia penală 1249 din 16 decembrie 2021, la 3 ani de închisoare cu suspendare sub supraveghere timp de 4 ani pentru abuz în serviciu. Instanța i-a interzis timp de 3 ani dreptul de a fi ales și de a ocupa o funcție ce implică autoritatea de stat, a dispus 60 de zile de muncă în folosul comunității și confiscarea sumei de 197.427,30 lei. Faptele priveau atribuirea directă și plata la preț supraevaluat a unor lucrări de iluminat ornamental în perioada în care era primar PSD al municipiului Focșani.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 10852',
@@ -9982,9 +11354,9 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Condu Ștefan',
-    party: 'PNL',
-    position: 'Fost primar al comunei Dobroești',
+    name: 'Ștefan Condu',
+    party: 'Independent',
+    position: 'Fost viceprimar cu atribuții de primar al comunei Dobroești; candidat independent la primărie în 2024',
     position_type: 'mayor',
     geography: {
       county: 'Ilfov',
@@ -9994,8 +11366,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     crime: 'Instigare la abuz în serviciu; fals intelectual',
     status: 'indicted',
     details:
-      'DNA l-a trimis în judecată în 2021 pentru instigare la abuz în serviciu și fals intelectual în formă continuată, în legătură cu acte privind un imobil din Dobroești. Fișierul AEP/FinantarePartide.ro pentru contribuțiile locale 2020 îl listează pe Condu Ștefan la Partidul Național Liberal pentru Primăria Dobroești.',
-    verified_at: '2026-07-02',
+      'DNA l-a trimis în judecată în 2021 pentru instigare la abuz în serviciu și fals intelectual în formă continuată. Procurorii susțin că ar fi contribuit la documentația falsă ori incompletă pe baza căreia prefectul de Ilfov a constatat dreptul de proprietate al unei persoane asupra unui imobil din Dobroești, deși acesta era în litigiu și era locuit de alte persoane de peste 40 de ani. Dosarul 3390/93/2021 se judecă în continuare la Tribunalul Ilfov; la 24 septembrie 2026 instanța a acordat termen pentru 9 octombrie 2026, fără soluție pe fond. După candidatura PNL din 2020, a candidat ca independent la Primăria Dobroești în 2024.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 10787',
@@ -10003,19 +11375,24 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10787',
       },
       {
-        label: 'FinantarePartide.ro - contribuții locale 2020',
+        label: 'FinantarePartide.ro - candidatura PNL din 2020',
         kind: 'official',
         url: 'https://finantarepartide.ro/wp-content/uploads/2020/09/CENTRALIZARE-CONTRIBUTII-04.09.2020.xlsx',
       },
       {
-        label: 'Ziare.com - candidați Consiliul Local Dobroești 2020',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/dobroesti/',
+        label: 'Portalul instanțelor - dosarul 3390/93/2021',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Monitorul Oficial - raportul electoral al candidatului independent din 2024',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/287569',
       },
     ],
   },
   {
-    name: 'Puchin Marin',
+    name: 'Marin Puchin',
     party: 'USL',
     position: 'Fost primar al comunei Lăcusteni',
     position_type: 'mayor',
@@ -10026,15 +11403,20 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     },
     crime:
       'Folosire sau prezentare cu rea-credință de documente false pentru obținerea pe nedrept de fonduri europene',
-    status: 'indicted',
+    status: 'investigated',
     details:
-      'DNA Pitești l-a trimis în judecată în aprilie 2021 pentru folosirea de documente false într-un proiect finanțat din fonduri europene pentru apă, canalizare și epurare. BEC 2012 îl listează drept primar ales al comunei Lăcusteni din partea Uniunii Social Liberale.',
-    verified_at: '2026-07-02',
+      'DNA Pitești l-a trimis inițial în judecată în aprilie 2021, acuzându-l că ar fi folosit documente false privind lucrările și probe de apă din altă localitate într-un proiect european pentru apă, canalizare și epurare, cu fonduri obținute estimate la 8.757.329 lei. În camera preliminară a dosarului 1484/90/2021/a1, Tribunalul Vâlcea a exclus o expertiză și, prin încheierea 183 din 5 octombrie 2022, a restituit cauza la parchet; raportul DNA pentru 2023 confirmă restituirea și menținerea măsurilor asigurătorii. Nu a fost identificată o nouă trimitere în judecată ori o soluție definitivă, astfel că profilul este marcat ca cercetat, nu ca trimis în judecată. BEC îl confirmă drept primar ales USL al comunei Lăcusteni în 2012.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 10358',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10358',
+      },
+      {
+        label: 'DNA - raportul de activitate 2023, restituirea dosarului',
+        kind: 'official',
+        url: 'https://www.pna.ro/obiect2.jsp?id=655',
       },
       {
         label: 'BEC - primari aleși 2012',
@@ -10044,7 +11426,7 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Dima Vasile',
+    name: 'Vasile Dima',
     party: 'USL',
     position: 'Fost primar al comunei Răstoaca',
     position_type: 'mayor',
@@ -10059,8 +11441,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     conviction_year: 2023,
     status: 'prescribed',
     details:
-      'DNA l-a trimis în judecată în 2018 într-un dosar privind fonduri APIA și atribuții de serviciu. Actualizarea DNA din februarie 2024 consemnează că decizia definitivă din aprilie 2023 a dispus achitarea pentru unele acuzații și încetarea procesului penal prin prescripție pentru abuz în serviciu. BEC 2012 îl listează drept primar USL al comunei Răstoaca.',
-    verified_at: '2026-07-02',
+      'DNA l-a trimis în judecată în 2018 pentru complicitate la obținerea nelegală de fonduri europene, abuz în serviciu și fals intelectual, în legătură cu documente și contracte folosite de o asociație pentru plăți APIA. Prin decizia penală definitivă 504 din 25 aprilie 2023, Curtea de Apel Galați l-a achitat, întrucât faptele nu există, pentru acuzațiile reținute cu excepția unui abuz în serviciu în formă continuată, pentru care a încetat procesul penal ca urmare a prescripției. Instanța l-a obligat la plata către UAT Răstoaca a prejudiciului rămas de 18.738,64 lei. BEC 2012 îl confirmă drept primar ales USL al comunei Răstoaca.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 8704',
@@ -10075,7 +11457,7 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Ciaușu Angelica',
+    name: 'Angelica Ciaușu',
     party: 'PNL',
     position: 'Fost viceprimar al comunei Costuleni',
     position_type: 'local_official',
@@ -10091,8 +11473,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     conviction_year: 2026,
     status: 'prescribed',
     details:
-      'DNA Iași a trimis-o în judecată în 2019 pentru documente false depuse la APIA în perioada 2008-2010, iar actualizarea oficială din iunie 2026 consemnează încetarea definitivă a procesului penal ca urmare a prescripției. Documentul oficial al comunei Costuleni o listează viceprimar PNL în mandatul 2008-2012.',
-    verified_at: '2026-07-02',
+      'DNA Iași a trimis-o în judecată în 2019, susținând că, în calitate de viceprimar, ar fi depus documente false ori inexacte la APIA pentru campania din 2010. Prin decizia penală definitivă 342 din 2 aprilie 2026, Curtea de Apel Iași a încetat procesul penal ca urmare a prescripției. Instanța a obligat-o la plata către APIA a 119.933,48 lei și, în solidar cu Dumitru Harabagiu, a încă 89.056,79 lei, plus accesorii fiscale, și a dispus desființarea înscrisurilor falsificate. Documentul oficial al comunei Costuleni o listează viceprimar PNL în mandatul 2008–2012.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 9513',
@@ -10107,8 +11489,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Marian Elena',
-    party: 'PNL',
+    name: 'Elena Marian',
+    party: 'Independent',
     position: 'Primar al comunei Brateiu',
     position_type: 'mayor',
     geography: {
@@ -10123,8 +11505,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     conviction_year: 2024,
     status: 'prescribed',
     details:
-      'DNA Alba Iulia a trimis-o în judecată în 2020 pentru documente false depuse la APIA, iar actualizarea oficială din februarie 2025 consemnează decizia definitivă din noiembrie 2024 de încetare a procesului penal prin prescripție. Comunicatul PNL Sibiu relatat de presa locală arată că Marian Elena era membru PNL Sibiu înainte de autosuspendarea din decembrie 2022.',
-    verified_at: '2026-07-02',
+      'DNA Alba Iulia a trimis-o în judecată în 2020, susținând că în perioada 2012–2015 ar fi depus la APIA documente false privind terenuri pe care nu le deținea. Prin decizia penală definitivă 794 din 22 noiembrie 2024, Curtea de Apel Alba Iulia a încetat procesul penal ca urmare a prescripției. Instanța a obligat-o la plata către APIA a 2.867,68 lei plus accesorii fiscale și a dispus desființarea înscrisurilor falsificate. După autosuspendarea din PNL, a câștigat ca independentă în 2024 al șaptelea mandat de primar al comunei Brateiu.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 9771',
@@ -10136,10 +11518,20 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
         kind: 'press',
         url: 'https://sibiuindependent.ro/2023/11/10/primarul-din-brateiu-marian-elena-nu-mai-detine-in-acest-moment-nicio-calitate-de-membru-sau-de-conducere-in-cadrul-pnl-sibiu-c-p/',
       },
+      {
+        label: 'Rezultate alegeri locale 2024 - Primăria Brateiu',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_sibiu/primarie/brateiu/6',
+      },
+      {
+        label: 'Monitorul Oficial Local Brateiu - registrul hotărârilor',
+        kind: 'official',
+        url: 'https://emol.ro/brateiu-sb/registru-hcl/273904/',
+      },
     ],
   },
   {
-    name: 'Drugă Nicușor',
+    name: 'Nicușor Drugă',
     party: 'PDL',
     position: 'Fost primar al comunei Corbu',
     position_type: 'mayor',
@@ -10156,8 +11548,8 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Târgu Mureș l-a condamnat definitiv în februarie 2017 la 2 ani și 8 luni închisoare cu suspendare pentru complicitate la obținerea nelegală de fonduri europene și fals intelectual. BEC 2012 îl listează drept primar ales al comunei Corbu din partea PDL.',
-    verified_at: '2026-07-02',
+      'Prin decizia penală definitivă 56 din 14 februarie 2017, Curtea de Apel Târgu Mureș l-a condamnat la 2 ani și 8 luni de închisoare cu suspendare, cu termen de supraveghere de 4 ani, pentru complicitate la obținerea nelegală de fonduri europene și fals intelectual în formă continuată. Instanța i-a interzis timp de 5 ani dreptul de a fi ales și de a ocupa o funcție publică, a dispus 90 de zile de muncă în folosul comunității și l-a obligat, în solidar cu ceilalți responsabili, la plata către APIA a 111.122,37 lei plus accesorii. BEC îl listează drept primar ales al comunei Corbu din partea PDL în 2012.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 8087',
@@ -10172,7 +11564,7 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Miclea Aurel',
+    name: 'Aurel Miclea',
     party: 'PDL',
     position: 'Fost primar al comunei Bozovici',
     position_type: 'mayor',
@@ -10188,13 +11580,18 @@ const AUTOMATED_JUL_02_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Timișoara l-a condamnat definitiv în noiembrie 2017 la 3 ani închisoare cu suspendare pentru luare de mită. Datele electorale BEC 2008 îl listează ca primar ales al comunei Bozovici din partea PDL.',
-    verified_at: '2026-07-02',
+      'Prin decizia penală definitivă 1299 din 8 noiembrie 2017, Curtea de Apel Timișoara l-a condamnat la 3 ani de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru luare de mită. Instanța a dispus interzicerea timp de 2 ani a unor drepturi electorale și profesionale și confiscarea sumei de 150.000 lei. Potrivit DNA, mita fusese primită pentru atribuirea discreționară a unor contracte de concesiune a pajiștilor comunei. BEC îl listează drept primar ales al comunei Bozovici din partea PDL în 2008.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 8564',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8564',
+      },
+      {
+        label: 'DNA - rechizitoriu 7875',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7875',
       },
       {
         label: 'BEC - primari aleși 2008',
@@ -10241,45 +11638,6 @@ const AUTOMATED_JUL_03_2026_BEC_2020_SOURCES = {
 };
 
 const AUTOMATED_JUL_03_2026_BEC_CANDIDATE_RECORDS = [
-  [
-    'Petre Alexandru',
-    'PMP',
-    'Bucure\u0219ti',
-    'Consiliul Local Bucure\u0219ti Sectorul 1',
-    'local_official',
-    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
-    '5173',
-    36,
-    true,
-    2014,
-    'Complicitate la stabilirea cu inten\u021bie a unei valori diminuate a bunurilor publice',
-  ],
-  [
-    'Staicu Marian',
-    'PRM',
-    'Bucure\u0219ti',
-    'Consiliul Local Bucure\u0219ti Sectorul 6',
-    'local_official',
-    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
-    '5307',
-    36,
-    true,
-    2014,
-    'Cump\u0103rare de influen\u021b\u0103; complicitate la dare de mit\u0103; fals \u00een \u00eenscrisuri',
-  ],
-  [
-    'Stan Daniela',
-    'PSD',
-    'Bucure\u0219ti',
-    'Consiliul Local Bucure\u0219ti Sectorul 3',
-    'local_official',
-    AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bucuresti,
-    '4128',
-    84,
-    false,
-    2013,
-    'Participa\u021bie improprie la \u00een\u0219el\u0103ciune cu consecin\u021be deosebit de grave',
-  ],
 ].map(([
   name,
   party,
@@ -10324,9 +11682,9 @@ const AUTOMATED_JUL_03_2026_BEC_CANDIDATE_RECORDS = [
 
 const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
   {
-    name: 'Curcudel Elena',
-    party: 'USL',
-    position: 'Fost primar al comunei Mironeasa',
+    name: 'Elena Curcudel',
+    party: 'PNL',
+    position: 'Primar al comunei Mironeasa',
     position_type: 'mayor',
     geography: {
       county: 'Ia\u0219i',
@@ -10340,19 +11698,29 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     status: 'convicted',
     execution_type: 'Am\u00e2nare',
     details:
-      'Curtea de Apel Ia\u0219i a stabilit definitiv, \u00een iunie 2018, pedeapsa de 1 an \u0219i 4 luni \u00eenchisoare cu am\u00e2narea aplic\u0103rii pedepsei pentru fapte de fals intelectual. BEC 2012 o listeaz\u0103 ca primar ales al comunei Mironeasa din partea USL.',
-    verified_at: '2026-07-03',
+      'Prin decizia penal\u0103 definitiv\u0103 452/2018 din 18 iunie 2018, Curtea de Apel Ia\u0219i a stabilit pedeapsa de 1 an \u0219i 4 luni de \u00eenchisoare, cu am\u00e2narea aplic\u0103rii pedepsei pe un termen de supraveghere de 2 ani, pentru instigare la fals intelectual \u0219i fals intelectual. Faptele au privit recep\u021bionarea ca finalizat\u0103 a moderniz\u0103rii drumului DC 49, de\u0219i lucr\u0103rile nu erau integral executate. Sursa oficial\u0103 a Prim\u0103riei Mironeasa o indic\u0103 drept primar PNL pentru mandatul 2024\u20132028.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hot\u0103r\u00e2re definitiv\u0103 8891',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8891',
       },
+      {
+        label: 'DNA - rechizitoriu 5693',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5693',
+      },
+      {
+        label: 'Prim\u0103ria Mironeasa - profilul primarului',
+        kind: 'official',
+        url: 'https://primariamironeasa.ro/despre-primarie/conducere/primar/',
+      },
       AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
     ],
   },
   {
-    name: 'Rus Mircea',
+    name: 'Mircea Rus',
     party: 'USL',
     position: 'Fost primar al comunei Band',
     position_type: 'mayor',
@@ -10361,20 +11729,26 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
       basis: 'office',
       note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Band, jude\u021bul Mure\u0219.',
     },
-    crime: 'Luare de mit\u0103; sp\u0103lare de bani',
-    sentence: 'Proces penal \u00eencetat ca urmare a prescrip\u021biei',
-    sentence_years: 0,
+    crime:
+      'Complicitate la delapidare \u00een form\u0103 continuat\u0103; abuz \u00een serviciu; luare de mit\u0103; sp\u0103lare de bani',
+    sentence: '3 ani, 1 lun\u0103 \u0219i 10 zile \u00eenchisoare cu executare',
+    sentence_years: 3.11,
     conviction_year: 2023,
-    status: 'prescribed',
-    execution_type: 'Prescrip\u021bie',
+    status: 'convicted',
+    execution_type: 'Cu executare',
     details:
-      'DNA a consemnat c\u0103, prin decizia penal\u0103 nr. 426 din 5 iulie 2023, Curtea de Apel T\u00e2rgu Mure\u0219 a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei \u0219i confiscarea sumei de 435.000 lei. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei Band din partea USL.',
-    verified_at: '2026-07-03',
+      'Prin hot\u0103r\u00e2rea definitiv\u0103 din dosarul 4881/320/2020, Curtea de Apel T\u00e2rgu Mure\u0219 l-a condamnat pentru dou\u0103 infrac\u021biuni de complicitate la delapidare \u00een form\u0103 continuat\u0103 \u0219i a contopit pedepsele cu o condamnare anterioar\u0103 pentru abuz \u00een serviciu, rezult\u00e2nd 3 ani, 1 lun\u0103 \u0219i 10 zile de \u00eenchisoare cu executare. A fost obligat \u00een solidar la restituirea c\u0103tre UAT Band a 281.564 lei \u0219i 105.963 lei, plus accesorii. Separat, prin decizia definitiv\u0103 426 din 5 iulie 2023, procesul pentru luare de mit\u0103 \u0219i sp\u0103lare de bani a \u00eencetat prin prescrip\u021bie, iar instan\u021ba a confiscat 435.000 lei. BEC 2012 \u00eel listeaz\u0103 drept primar ales al comunei Band din partea USL.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 8362',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8362',
+      },
+      {
+        label: 'AGERPRES - condamnarea definitiv\u0103 pentru delapidare',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2023/01/31/mures-cantautorul-mircea-rusu-band-incarcerat-dupa-a-doua-condamnare-penala--1051615',
       },
       AUTOMATED_JUL_03_2026_BEC_2012_MAYORS_SOURCE,
     ],
@@ -10413,7 +11787,7 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     ],
   },
   {
-    name: 'Apostol Constantin',
+    name: 'Constantin Apostol',
     party: 'PSD',
     position: 'Fost primar al comunei Bal\u0219',
     position_type: 'mayor',
@@ -10429,8 +11803,8 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     status: 'prescribed',
     execution_type: 'Prescrip\u021bie',
     details:
-      'DNA a consemnat c\u0103, prin decizia penal\u0103 nr. 1025 din 19 decembrie 2024, Curtea de Apel Ia\u0219i a dispus \u00eencetarea procesului penal ca urmare a prescrip\u021biei. Registrul oficial BEC 2020 listeaz\u0103 candidatura sa PSD la Consiliul Local Bal\u0219.',
-    verified_at: '2026-07-03',
+      'DNA l-a trimis \u00een judecat\u0103 \u00een 2021, sus\u021bin\u00e2nd c\u0103, \u00een perioada 2011\u20132014, ar fi pus la dispozi\u021bia pre\u0219edintelui unei asocia\u021bii de cresc\u0103tori adeverin\u021be false privind animale inexistente, folosite pentru ob\u021binerea de fonduri APIA. Prin decizia penal\u0103 definitiv\u0103 1025 din 19 decembrie 2024, Curtea de Apel Ia\u0219i a \u00eencetat procesul penal ca urmare a prescrip\u021biei. Instan\u021ba l-a obligat, \u00een solidar cu Mihai Florea, la plata c\u0103tre APIA a 220.171 lei plus dob\u00e2nzi \u0219i penalit\u0103\u021bi \u0219i a desfiin\u021bat \u00eenscrisurile false. Registrul oficial BEC 2020 listeaz\u0103 candidatura sa PSD la Consiliul Local Bal\u0219.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 10577',
@@ -10443,12 +11817,12 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
   {
     name: 'Kelemen Zoltan',
     party: 'UDMR',
-    position: 'Fost primar al comunei Ro\u0219iori',
+    position: 'Primar al comunei Ro\u0219iori',
     position_type: 'mayor',
     geography: {
       county: 'Bihor',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era \u00een comuna Ro\u0219iori, jude\u021bul Bihor.',
+      note: 'Primar reales al comunei Ro\u0219iori, jude\u021bul Bihor, pentru mandatul 2024-2028.',
     },
     crime: 'Tentativ\u0103 la folosirea de documente false pentru fonduri europene',
     sentence: 'Proces penal \u00eencetat ca urmare a prescrip\u021biei',
@@ -10457,19 +11831,24 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     status: 'prescribed',
     execution_type: 'Prescrip\u021bie',
     details:
-      'DNA a consemnat c\u0103 Tribunalul Bihor a dispus \u00eencetarea procesului penal, definitiv\u0103 prin neapelare \u00een august 2025, ca urmare a prescrip\u021biei. BEC 2020 \u00eel listeaz\u0103 drept candidat UDMR la Prim\u0103ria Ro\u0219iori.',
-    verified_at: '2026-07-03',
+      'DNA arat\u0103 c\u0103, \u00een calitate de primar, a fost acuzat c\u0103 a depus \u00een 2014 documente nereale pentru a ob\u021bine 103.079 euro \u00eentr-un proiect transfrontalier de reabilitare a drumului Pocsaj-Ro\u0219iori; cererea de plat\u0103 a fost respins\u0103 integral. Tribunalul Bihor a \u00eencetat procesul pentru prescrip\u021bie prin sentin\u021ba nr. 137 din 1 august 2025, definitiv\u0103 prin neapelare la 20 august 2025. A fost reales primar din partea UDMR \u00een 2024.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 10785',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10785',
       },
+      {
+        label: 'Prim\u0103ria Ro\u0219iori - candidaturi definitive locale 2024',
+        kind: 'official',
+        url: 'https://www.rosiori.ro/documente/cc37200913202a403b455c348e3ac677.pdf',
+      },
       AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.bihor,
     ],
   },
   {
-    name: 'Kiss Iosif',
+    name: 'Iosif Kiss',
     party: 'UDMR',
     position: 'Fost primar al comunei T\u0103rlungeni',
     position_type: 'mayor',
@@ -10481,8 +11860,8 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     crime: 'Instigare la folosirea de documente false pentru fonduri europene',
     status: 'indicted',
     details:
-      'DNA Bra\u0219ov l-a trimis \u00een judecat\u0103 \u00een martie 2022 pentru instigare la folosirea de documente false \u00een leg\u0103tur\u0103 cu fonduri europene. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei T\u0103rlungeni din partea UDMR.',
-    verified_at: '2026-07-03',
+      'DNA Bra\u0219ov l-a trimis \u00een judecat\u0103 \u00een martie 2022, acuz\u00e2ndu-l c\u0103, \u00een calitate de primar, l-ar fi instigat pe administratorul public s\u0103 depun\u0103 \u00een 2013 situa\u021bii de plat\u0103 \u0219i alte documente false \u00een proiectul integrat de infrastructur\u0103 al comunei. Procurorii sus\u021bin c\u0103 astfel au fost ob\u021binute necuvenit 384.351 lei; AFIR s-a constituit parte civil\u0103 cu aceea\u0219i sum\u0103. Dosarul a fost trimis Tribunalului Bra\u0219ov, iar comunicatul oficial nu consemneaz\u0103 o solu\u021bie definitiv\u0103 ulterioar\u0103.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 11038',
@@ -10493,7 +11872,7 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     ],
   },
   {
-    name: 'Hali\u021b\u0103 Gheorghe',
+    name: 'Gheorghe Hali\u021b\u0103',
     party: 'USL',
     position: 'Fost primar al comunei Siminicea',
     position_type: 'mayor',
@@ -10505,8 +11884,8 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     crime: 'Complicitate la folosirea de documente false pentru fonduri europene',
     status: 'indicted',
     details:
-      'DNA Suceava l-a trimis \u00een judecat\u0103 \u00een martie 2023 pentru complicitate la folosirea de documente false \u00een leg\u0103tur\u0103 cu fonduri europene. BEC 2012 \u00eel listeaz\u0103 ca primar ales al comunei Siminicea din partea USL.',
-    verified_at: '2026-07-03',
+      'DNA Suceava l-a trimis \u00een judecat\u0103 \u00een martie 2023, acuz\u00e2ndu-l c\u0103, \u00een calitate de primar, ar fi eliberat o parte dintre documentele false sau inexacte folosite de reprezentantul Asocia\u021biei Cresc\u0103torilor de Animale Simina pentru a solicita pl\u0103\u021bi APIA pe terenuri pe care nu le de\u021binea. Procurorii indic\u0103 642.683 lei ob\u021binu\u021bi necuvenit \u00een perioada 2010-2014; APIA s-a constituit parte civil\u0103 cu aceea\u0219i sum\u0103. Dosarul a fost trimis Tribunalului Suceava, iar comunicatul oficial nu consemneaz\u0103 o solu\u021bie definitiv\u0103 ulterioar\u0103.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 11910',
@@ -10517,7 +11896,7 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     ],
   },
   {
-    name: 'Oloeriu Dan',
+    name: 'Dan Oloeriu',
     party: 'PNL',
     position: 'Fost primar al ora\u0219ului Fl\u0103m\u00e2nzi',
     position_type: 'mayor',
@@ -10533,13 +11912,23 @@ const AUTOMATED_JUL_03_2026_MANUAL_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a consemnat c\u0103 Tribunalul Boto\u0219ani a admis acordul de recunoa\u0219tere a vinov\u0103\u021biei \u0219i l-a condamnat definitiv, prin neapelare \u00een mai 2026, la 3 ani \u00eenchisoare cu suspendare. BEC 2020 \u00eel listeaz\u0103 drept candidat PNL la Prim\u0103ria Fl\u0103m\u00e2nzi.',
-    verified_at: '2026-07-03',
+      'Prin sentin\u021ba penal\u0103 nr. 82 din 5 mai 2026, definitiv\u0103 prin neapelare la 26 mai 2026, Tribunalul Boto\u0219ani a admis acordul de recunoa\u0219tere \u0219i l-a condamnat la 3 ani de \u00eenchisoare cu suspendare, cu termen de supraveghere de 3 ani, interdic\u021bia de a fi ales sau de a exercita autoritatea de stat timp de 3 ani \u0219i 120 de zile de munc\u0103 \u00een folosul comunit\u0103\u021bii. Instan\u021ba a confiscat extins 98.364,45 lei, valoarea mitei recunoscute; acordul re\u021bine \u0219i un prejudiciu de 531.759 lei din compensarea nelegal\u0103 a unor obliga\u021bii fiscale. Mandatul s\u0103u de primar a \u00eencetat de drept la 28 noiembrie 2025.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hot\u0103r\u00e2re definitiv\u0103 13809',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=13809',
+      },
+      {
+        label: 'DNA - acord de recunoa\u0219tere 13667',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13667',
+      },
+      {
+        label: 'Prefectura Boto\u0219ani - \u00eencetarea mandatului',
+        kind: 'official',
+        url: 'https://bt.prefectura.mai.gov.ro/comunicat-de-presa-5/',
       },
       AUTOMATED_JUL_03_2026_BEC_2020_SOURCES.botosani,
     ],
@@ -10595,7 +11984,7 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Rădeanu Constantin',
+    name: 'Constantin Rădeanu',
     party: 'PSD',
     position: 'Fost primar al comunei Frumușica',
     position_type: 'mayor',
@@ -10605,10 +11994,14 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era în comuna Frumușica, județul Botoșani.',
     },
     crime: 'Instigare la folosirea de documente false pentru obținerea de fonduri europene',
-    status: 'indicted',
+    sentence: '3 ani închisoare cu suspendare',
+    sentence_years: 3,
+    conviction_year: 2020,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
     details:
-      'DNA Suceava a comunicat trimiterea în judecată în 2017 a primarului comunei Frumușica pentru instigare la folosirea de documente false în legătură cu subvenții APIA. Rezultatele locale 2016 îl listează candidat PSD la Primăria Frumușica.',
-    verified_at: '2026-07-04',
+      'A fost condamnat definitiv în octombrie 2020 la 3 ani de închisoare cu suspendare sub supraveghere și termen de încercare de 6 ani, pentru instigarea la folosirea unor documente false în vederea obținerii subvențiilor APIA. DNA arată că în 2010 a pus la dispoziția solicitantului inclusiv un contract fals de arendare pentru 523,21 ha de pășune; au fost obținuți necuvenit 143.538,33 lei. El și beneficiarul au fost obligați să plătească APIA 136.758,94 lei plus accesorii.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 8266',
@@ -10620,10 +12013,15 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
         kind: 'press',
         url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-botosani.html',
       },
+      {
+        label: 'Știri Botoșani - condamnare definitivă',
+        kind: 'press',
+        url: 'https://stiri.botosani.ro/stiri/justitie/directorul-suspendat-al-apia-achitat-definitiv-intr-un-dosar-de-coruptie-ceilalti-doi-inculpati-au-fost-condamnati.html',
+      },
     ],
   },
   {
-    name: 'Pelivan Tănase',
+    name: 'Tănase Pelivan',
     party: 'PDL',
     position: 'Fost primar al comunei Mihai Bravu',
     position_type: 'mayor',
@@ -10636,8 +12034,8 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
       'Complicitate la folosirea de documente false pentru fonduri europene; fals în înscrisuri; abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA Constanța a comunicat trimiterea în judecată pentru contracte și înscrisuri privind terenuri comunale folosite la obținerea nelegală de subvenții APIA. BEC 2008 îl listează ca primar ales al comunei Mihai Bravu din partea PDL.',
-    verified_at: '2026-07-04',
+      'DNA Constanța l-a trimis în judecată în decembrie 2016. Procurorii susțin că în 2010 a atribuit nelegal unei firme deținute de soția sa folosința a 102,07 ha de izlaz, aceasta obținând subvenții APIA de 214.388,75 lei, iar în 2011 a falsificat un contract indicând 70 ha în loc de 7 ha, folosit apoi pentru obținerea a 80.052,63 lei. Primăria Mihai Bravu s-a constituit parte civilă cu 244.440,63 lei. Dosarul a fost trimis Tribunalului Tulcea; comunicatul oficial nu consemnează o soluție definitivă ulterioară.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 7875',
@@ -10652,14 +12050,14 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Zoltan Andras',
+    name: 'András Zoltán',
     party: 'UDMR',
-    position: 'Primar al comunei Plăieșii de Jos',
+    position: 'Fost primar al comunei Plăieșii de Jos',
     position_type: 'mayor',
     geography: {
       county: 'Harghita',
       basis: 'office',
-      note: 'Funcția publică relevantă era în comuna Plăieșii de Jos, județul Harghita.',
+      note: 'A fost primar al comunei Plăieșii de Jos, județul Harghita; mandatul este deținut din 2024 de András Tamás.',
     },
     crime: 'Complicitate la folosirea de documente false pentru obținerea de fonduri europene',
     sentence: 'Proces penal încetat ca urmare a prescripției',
@@ -10668,8 +12066,8 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     status: 'prescribed',
     execution_type: 'Prescripție',
     details:
-      'DNA a comunicat trimiterea în judecată în 2016 pentru documente false folosite în legătură cu terenuri și subvenții APIA, iar actualizarea oficială din februarie 2024 consemnează încetarea procesului penal prin prescripție. Profilul UDMR îl listează pe András Zoltán pentru Plăieșii de Jos.',
-    verified_at: '2026-07-04',
+      'Prin decizia penală nr. 652 din 29 noiembrie 2023, Curtea de Apel Târgu Mureș a încetat definitiv procesul penal ca urmare a prescripției. Dosarul privea sprijinul acordat unei asociații care ar fi folosit documente nereale pentru subvenții APIA pe pășuni comunale. Instanța i-a obligat în solidar pe András Zoltán, asociație și reprezentantul acesteia la plata către APIA a 863.757,31 lei, plus accesorii fiscale, și la câte 400 lei cheltuieli judiciare.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 7875',
@@ -10681,23 +12079,29 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
         kind: 'official',
         url: 'https://udmr.ro/profil/andras-zoltan',
       },
+      {
+        label: 'UDMR - conducerea actuală Plăieșii de Jos',
+        kind: 'official',
+        url: 'https://udmr.ro/organizatie/plaiesii-de-jos',
+      },
     ],
   },
   {
-    name: 'Troacă Mihăiță Gabriel',
+    name: 'Mihăiță-Gabriel Troacă',
     party: 'PSD',
-    position: 'Fost primar al comunei Padeș',
+    position: 'Primar al comunei Padeș',
     position_type: 'mayor',
     geography: {
       county: 'Gorj',
       basis: 'office',
-      note: 'Funcția publică relevantă era în comuna Padeș, județul Gorj.',
+      note: 'Primar al comunei Padeș, județul Gorj, cu mandat validat după alegerile locale din 2024.',
     },
     crime: 'Complicitate la folosirea de documente false pentru obținerea de fonduri europene; fals intelectual',
-    status: 'indicted',
+    sentence: 'Achitat definitiv',
+    status: 'acquitted',
     details:
-      'DNA a comunicat trimiterea în judecată în 2017 a primarului comunei Padeș într-un dosar privind documente false folosite la APIA. Presa locală îl identifică drept edil PSD al comunei Padeș.',
-    verified_at: '2026-07-04',
+      'Curtea de Apel Craiova l-a achitat definitiv prin decizia penală nr. 533 din 22 aprilie 2024 pentru acuzațiile privind adeverințe și alte documente folosite la obținerea de subvenții APIA, stabilind că faptele nu sunt prevăzute de legea penală ori nu au fost săvârșite cu vinovăția cerută de lege. Profilul anterior cita separat o condamnare nedefinitivă pentru evaziune fiscală; acea cauză distinctă s-a încheiat de asemenea prin achitare definitivă și nu justifică un status de condamnat. A fost reales primar PSD al comunei Padeș în 2024.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 8266',
@@ -10705,21 +12109,31 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8266',
       },
       {
-        label: 'Adevărul',
+        label: 'DNA - achitare definitivă 12610',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=12610',
+      },
+      {
+        label: 'Impact în Gorj - achitare definitivă în cauza de evaziune',
         kind: 'press',
-        url: 'https://adevarul.ro/stiri-locale/targu-jiu/primar-psd-condamnat-la-sase-ani-de-inchisoare-2065722.html',
+        url: 'https://igj.ro/actualitate/primarul-comunei-pades-achitat-de-curtea-de-apel-craiova.html',
+      },
+      {
+        label: 'Consiliul Județean Gorj - primari 2026',
+        kind: 'official',
+        url: 'https://www.cjgorj.ro/Date%20site/Sedinte%20Consiliu/25.05.2026%20-%20Adoptate/134.%20HCJ%20aprobare%20plan%20ISU%20PAAR%202026.pdf',
       },
     ],
   },
   {
-    name: 'Stan Viorel Adrian',
-    party: 'USL',
-    position: 'Fost primar al orașului Techirghiol',
-    position_type: 'mayor',
+    name: 'Viorel-Adrian Stan',
+    party: 'PSD',
+    position: 'Consilier local în Techirghiol; fost primar al orașului',
+    position_type: 'local_official',
     geography: {
       county: 'Constanța',
       basis: 'office',
-      note: 'Funcția publică relevantă era în orașul Techirghiol, județul Constanța.',
+      note: 'Fost primar și actual consilier local PSD în orașul Techirghiol, județul Constanța.',
     },
     crime: 'Luare de mită',
     sentence: '2 ani și 8 luni închisoare',
@@ -10728,13 +12142,23 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a comunicat condamnarea definitivă din mai 2016 la 2 ani și 8 luni de închisoare pentru luare de mită. BEC 2012 îl listează ca primar ales al orașului Techirghiol din partea USL.',
-    verified_at: '2026-07-04',
+      'Prin decizia penală nr. 593 din 24 mai 2016, Curtea de Apel Constanța l-a condamnat definitiv la 2 ani și 8 luni de închisoare cu executare pentru luare de mită și i-a interzis, pe durata executării și încă 2 ani după aceea, să fie ales, să exercite autoritatea de stat ori să ocupe funcția de primar. DNA arată că în octombrie 2015 a cerut 40.000 lei și 64.000 lei, aproximativ 4% din două facturi pentru lucrări, și a fost prins în flagrant după primirea primei sume. În mandatul 2024-2028 este consilier local PSD în Techirghiol.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 7527',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=7527',
+      },
+      {
+        label: 'DNA - rechizitoriu 6836',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6836',
+      },
+      {
+        label: 'Primăria Techirghiol - consilieri locali',
+        kind: 'official',
+        url: 'https://www.primariatechirghiol.ro/home/primaria/informatii-publice/consiliul-local/consilieri-locali/',
       },
       {
         label: 'BEC - primari aleși 2012',
@@ -10822,7 +12246,7 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Negoiță Liviu Cristian',
+    name: 'Liviu-Cristian Negoiță',
     party: 'PNL',
     position: 'Primar al orașului Cernavodă',
     position_type: 'mayor',
@@ -10837,8 +12261,8 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     conviction_year: null,
     status: 'acquitted',
     details:
-      'DNA a comunicat inițial condamnarea definitivă din ianuarie 2026 la 4 ani închisoare, însă actualizarea oficială din 15 iunie 2026 consemnează decizia ÎCCJ din 27 mai 2026 de achitare definitivă întrucât fapta nu este prevăzută de legea penală. Presa locală îl identifică drept primar liberal al Cernavodei.',
-    verified_at: '2026-07-04',
+      'Curtea de Apel Constanța l-a condamnat inițial, prin decizia nr. 16 din 13 ianuarie 2026, la 4 ani de închisoare cu executare pentru abuz în serviciu în formă continuată și a dispus confiscarea a 9.307.790 lei. Prin decizia nr. 396/RC din 27 mai 2026, ÎCCJ a admis recursul în casație și l-a achitat definitiv deoarece fapta nu este prevăzută de legea penală, înlăturând și confiscarea. Pagina oficială a Primăriei Cernavodă îl prezintă în funcția de primar.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - comunicat 13648',
@@ -10846,14 +12270,14 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=13648',
       },
       {
-        label: 'Dobrogea Live',
-        kind: 'press',
-        url: 'https://dobrogealive.ro/inalta-curte-a-decis-primarul-liberal-din-cernavoda-liviu-cristian-negoita-achitat-acesta-va-fi-eliberat-din-inchisoare/',
+        label: 'Primăria Cernavodă - primar',
+        kind: 'official',
+        url: 'https://primaria-cernavoda.ro/administratie/conducerea/primar/',
       },
     ],
   },
   {
-    name: 'Luca Mircea Traian',
+    name: 'Mircea-Traian Luca',
     party: 'PDL',
     position: 'Fost primar al comunei Ghioroc',
     position_type: 'mayor',
@@ -10869,8 +12293,8 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'ÎCCJ l-a condamnat definitiv în decembrie 2018 la 3 ani de închisoare cu suspendare pentru luare de mită și a dispus confiscarea unei suprafețe de teren. BEC 2008 îl listează ca primar ales al comunei Ghioroc din partea PDL.',
-    verified_at: '2026-07-04',
+      'Prin decizia penală nr. 344/2018 din 18 decembrie 2018, ÎCCJ l-a condamnat definitiv la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de supraveghere de 3 ani, pentru luare de mită. Instanța a impus 90 de zile de muncă în folosul comunității și a dispus confiscarea echivalentului în lei al unei suprafețe de 2.500 mp. BEC 2008 îl listează ca primar ales al comunei Ghioroc din partea PDL.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 9247',
@@ -10885,7 +12309,7 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Jurj Vasile Marin',
+    name: 'Vasile-Marin Jurj',
     party: 'PSD',
     position: 'Fost primar al comunei Arieșeni',
     position_type: 'mayor',
@@ -10901,8 +12325,8 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'Curtea de Apel Alba l-a condamnat definitiv în octombrie 2023 la 2 ani de închisoare cu suspendare pentru folosirea de documente false în vederea obținerii de fonduri europene. Presa locală consemnează trecerea primarului de la PNL la PSD înaintea dosarului.',
-    verified_at: '2026-07-04',
+      'Prin decizia penală nr. 793 din 19 octombrie 2023, Curtea de Apel Alba l-a condamnat definitiv la 2 ani de închisoare cu suspendare, cu termen de supraveghere de 3 ani, pentru folosirea cu rea-credință de documente ori declarații false, inexacte sau incomplete, faptă care a avut ca rezultat obținerea pe nedrept de fonduri europene. Instanța a impus 60 de zile de muncă în folosul comunității și a menținut măsurile asigurătorii până la concurența sumei de 377.663,76 lei. Site-ul oficial al comunei îl indică în prezent pe Gheorghe Pantea drept primar.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'DNA - hotărâre definitivă 12381',
@@ -10914,30 +12338,16 @@ const AUTOMATED_JUL_04_2026_MORE_PEOPLE_RECORDS = [
         kind: 'press',
         url: 'https://ziare.com/stiri/coruptie/aventurile-penale-ale-unui-primar-trimis-in-judecata-pentru-frauda-din-fonduri-europene-candideaza-senin-pentru-un-nou-mandat-1627004',
       },
+      {
+        label: 'Primăria Arieșeni - primar',
+        kind: 'official',
+        url: 'https://comuna-arieseni.ro/primaria/lista-persoanelor-din-conducere/primar/',
+      },
     ],
   },
 ];
 
 const AUTOMATED_JUL_05_2026_BEC_2024_CANDIDATE_ROWS = [
-  ['Dan Maria', 'PNL', 'Alba', 'Consiliul Local oras Baia de Aries', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Florea Nicolae', 'PNL', 'Alba', 'Consiliul Local Galda de Jos', 'local_official', '4902', 24, true, 2014, '06/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Varga Mircea', 'PNL', 'Alba', 'Consiliul Local Sibot', 'local_official', '1934', 60, false, 2010, '25/05/2010', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Albu Elena', 'AUR', 'Alba', 'Consiliul Local Vintu de Jos', 'local_official', '4816', 12, true, 2014, '16/04/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Rus Maria', 'PUSL', 'Arad', 'Consiliul Local municipiul Arad', 'local_official', '4439', 4, true, 2013, '17/10/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ciobanu Dumitru', 'PSD', 'Arad', 'Consiliul Local Semlac', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ion Costel', 'PNL', 'Arad', 'Consiliul Local Zadareni', 'local_official', '4897', 24, true, 2014, '09/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Popescu Liviu', 'PNL', 'Arge\u0219', 'Consiliul Local Bascov', 'local_official', '2162', 18, true, 2011, '12/01/2011', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Enache Ion', 'USR', 'Arge\u0219', 'Consiliul Local Babana', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Anghel Ion', 'AUR', 'Arge\u0219', 'Consiliul Local Babana', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Vasile Elena', 'AUR', 'Arge\u0219', 'Consiliul Local Bogati', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Tudor Niculina', 'PMP', 'Arge\u0219', 'Consiliul Local Bogati', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ionescu Ion', 'PSD', 'Arge\u0219', 'Consiliul Local Bradulet', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Florea Alexandru', 'PUSL', 'Arge\u0219', 'Consiliul Local Buzoesti', 'local_official', '3620', 8, true, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Tanase Vasile', 'PSD', 'Arge\u0219', 'Consiliul Local Cepari', 'local_official', '4645', 5, true, 2014, '31/01/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Gheorghe Maria', 'USR', 'Arge\u0219', 'Consiliul Local Izvoru', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Dinca Maria', 'PSD', 'Arge\u0219', 'Consiliul Local Maracineni', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Serban Vasile', 'PNL', 'Arge\u0219', 'Consiliul Local Merisani', 'local_official', '4079', 24, true, 2013, '29/04/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Constantin Nicolae', 'PSD', 'Arge\u0219', 'Consiliul Local Mioarele', 'local_official', '4128', 84, false, 2013, '27/05/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
 ];
 
 const AUTOMATED_JUL_05_2026_MORE_PEOPLE_RECORDS =
@@ -10991,30 +12401,7 @@ const AUTOMATED_JUL_05_2026_MORE_PEOPLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_06_2026_BEC_2024_CANDIDATE_ROWS = [
-  ['Barbulescu Tudor', 'USR', 'Valcea', 'Consiliul Local Ghioroiu', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Burca Anamaria', 'AUR', 'Suceava', 'Consiliul Local Malini', 'local_official', '4121', 12, true, 2013, '21/05/2013', 'Avocat', 'Barou', false],
-  ['Chirila Danut', 'PNL', 'Suceava', 'Consiliul Local Hantesti', 'local_official', '3620', 8, true, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Cocos Gheorghe', 'PSD', 'Ilfov', 'Consiliul Local Ciorogarla', 'local_official', '3583', 12, false, 2012, '02/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Constantinescu Gabriel', 'USR', 'Dambovita', 'Consiliul Local Matasaru', 'local_official', '5274', 6, false, 2014, '08/09/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Gagiu Alexandru', 'PNL', 'Buzau', 'Consiliul Local Cislau', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Gheorghe Constanta', 'AUR', 'Olt', 'Consiliul Local Movileni', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
   ['Gheorghe Ionut-Alexandru', 'PSD', 'Ialomita', 'Consiliul Local Sinesti', 'local_official', '2770', 18, false, 2011, '04/11/2011', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Gheorghe Silvia', 'PSD', 'Dambovita', 'Consiliul Local Nucet', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ghinea Ioana', 'USR', 'Dambovita', 'Consiliul Local Potlogi', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ghita Floarea', 'PSD', 'Giurgiu', 'Consiliul Local Greaca', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Groza Lucian', 'PSD', 'Cluj', 'Consiliul Local Feleacu', 'local_official', '3620', 8, true, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Hagiu Violeta', 'PSD', 'Botosani', 'Consiliul Local Radauti Prut', 'local_official', '4805', 36, true, 2014, '02/04/2014', 'Persoana fara calitate speciala', 'Nu este cazul', true],
-  ['Iancau Florin', 'PMP', 'Hunedoara', 'Consiliul Local Beriu', 'local_official', '3774', 24, true, 2012, '12/12/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ilie Eduard', 'PSD', 'Buzau', 'Consiliul Local Municipiul Buzau', 'local_official', '4070', 48, false, 2013, '26/04/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ion Ilie', 'AUR', 'Dambovita', 'Consiliul Local Dragodana', 'local_official', '4897', 24, true, 2014, '09/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ion Paul', 'PSD', 'Olt', 'Consiliul Local Municipiul Caracal', 'local_official', '4897', 24, true, 2014, '09/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ionita Georgeta', 'PSD', 'Constanta', 'Consiliul Local Lipnita', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ionita Ionut', 'PNL', 'Dambovita', 'Consiliul Local Crevedia', 'local_official', '3483', 18, true, 2012, '03/07/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Ionita Tanase', 'USR', 'Ialomita', 'Consiliul Local Facaeni', 'local_official', '3950', 36, false, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Iordache Gheorghita', 'AUR', 'Bacau', 'Consiliul Local Asau', 'local_official', '4330', 36, false, 2013, '20/09/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Lipan Marian', 'PSD', 'Ialomita', 'Consiliul Local Valea Ciorii', 'local_official', '3885', 12, true, 2013, '29/01/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Lupu Claudiu', 'PSD', 'Vrancea', 'Consiliul Local Ploscuteni', 'local_official', '3399', 12, true, 2012, '20/06/2012', 'Asociat', 'Societate comerciala', false],
-  ['Manole Gica', 'PNL', 'Tulcea', 'Consiliul Local Nalbant', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
 ];
 
 const AUTOMATED_JUL_06_2026_MORE_PEOPLE_RECORDS =
@@ -11073,64 +12460,7 @@ const AUTOMATED_JUL_06_2026_MORE_PEOPLE_RECORDS =
   }));
 
 const AUTOMATED_JUL_07_2026_BEC_2024_CANDIDATE_ROWS = [
-  ['Cernat Ionel', 'PNL', 'Braila', 'Consiliul Local Maxineni', 'local_official', '4356', 12, true, 2013, '26/09/2013', 'Sofer', 'Societate comerciala', false],
-  ['Enache Elena', 'PNL', 'Prahova', 'Consiliul Local Starchiojd', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Iliut Vasile', 'PNL', 'Suceava', 'Consiliul Local Oras Vicovu De Sus', 'local_official', '3173', 24, true, 2012, '13/04/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Istrate Mihail', 'PNL', 'Bacau', 'Consiliul Local Tatarasti', 'local_official', '4119', 48, false, 2013, '24/05/2013', 'Reprezentant', 'Societate comerciala', false],
-  ['Manole Marin', 'PSD', 'Olt', 'Consiliul Local Samburesti', 'local_official', '3174', 36, true, 2012, '10/04/2012', 'Reprezentant', 'Societate comerciala', false],
-  ['Manoliu Liviu', 'AUR', 'Ilfov', 'Consiliul Local Balotesti', 'local_official', '5681', 25, true, 2014, '21/11/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Marin Elena', 'PSD', 'Covasna', 'Consiliul Local Valea Mare', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Mercioiu Marin', 'PNL', 'Calarasi', 'Consiliul Local Manastirea', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Miclaus Maria', 'PSD', 'Sibiu', 'Consiliul Local Oras Saliste', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Mihalache Alexandru', 'PNL', 'Galati', 'Consiliul Local Ivesti', 'local_official', '5271', 25, false, 2014, '11/09/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Mircea Maria', 'PSD', 'Valcea', 'Consiliul Local Nicolae Balcescu', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Miu Maria', 'PNL', 'Gorj', 'Consiliul Local Capreni', 'local_official', '1927', 36, true, 2010, '21/06/2010', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Moise Mihai', 'AUR', 'Prahova', 'Consiliul Local Adunati', 'local_official', '4478', 16, false, 2013, '20/11/2013', 'Reprezentant', 'Societate comerciala', false],
-  ['Musat Alexandru', 'PMP', 'Buzau', 'Consiliul Local Zarnesti', 'local_official', '3324', 36, true, 2012, '07/06/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Neagu Dumitru', 'AUR', 'Teleorman', 'Consiliul Local Branceni', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Negrila Florin', 'PSD', 'Giurgiu', 'Consiliul Local Gogosari', 'local_official', '4180', 42, true, 2013, '27/06/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Niculae Ana Maria', 'AUR', 'Ilfov', 'Consiliul Local Peris', 'local_official', '2219', 24, true, 2011, '24/02/2011', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Niculae Elena', 'USR', 'Suceava', 'Consiliul Local Baia', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Nita Ionel', 'PUSL', 'Giurgiu', 'Consiliul Local Ulmi', 'local_official', '4645', 36, true, 2014, '31/01/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Oita Alexandru', 'PNL', 'Mehedinti', 'Consiliul Local Pristol', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Onica Gheorghe', 'PSD', 'Vaslui', 'Consiliul Local Puscasi', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Oprea Georgeta', 'PMP', 'Tulcea', 'Consiliul Local Oras Isaccea', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Pana Danut', 'PMP', 'Vrancea', 'Consiliul Local Racoasa', 'local_official', '3620', 8, false, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Paraschiv Adrian', 'PNL', 'Bacau', 'Consiliul Local Izvoru Berheciului', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Paraschiva Ion', 'AUR', 'Dolj', 'Consiliul Local Dragotesti', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Pavel Cristian', 'USR', 'Suceava', 'Consiliul Local Baia', 'local_official', '4910', 36, true, 2014, '14/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Perju Mihai', 'USR', 'Iasi', 'Consiliul Local Scanteia', 'local_official', '4487', 8, true, 2013, '14/11/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Petran Ioan', 'PSD', 'Salaj', 'Consiliul Local Cristolt', 'local_official', '1924', 120, false, 2010, '23/03/2010', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Petre Niculae', 'AUR', 'Dambovita', 'Consiliul Local Matasaru', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Petrescu Marin', 'PSD', 'Olt', 'Consiliul Local Vladila', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Pintilie Dumitru', 'PNL', 'Iasi', 'Consiliul Local Oras Targu Frumos', 'local_official', '5532', 6, true, 2014, '21/10/2014', 'Reprezentant', 'Societate comerciala', false],
-  ['Pintilie Ionel', 'PSD', 'Tulcea', 'Consiliul Local Greci', 'local_official', '3946', 36, false, 2013, '27/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Popa Corneliu', 'AUR', 'Galati', 'Consiliul Local Cuza Voda', 'local_official', '5173', 96, false, 2014, '08/08/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Prodan Daniela', 'PSD', 'Braila', 'Consiliul Local Silistea', 'local_official', '3988', 34, true, 2013, '22/03/2013', 'Persoana fara calitate speciala', 'Nu este cazul', true],
-  ['Puia Mihai', 'AUR', 'Valcea', 'Consiliul Local Caineni', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Radu Luciana', 'PMP', 'Mehedinti', 'Consiliul Local Burila Mare', 'local_official', '5731', 54, false, 2014, '17/12/2014', 'Asociat', 'Societate comerciala', false],
-  ['Rosca Vasilica', 'PSD', 'Vrancea', 'Consiliul Local Vrancioaia', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Rotariu Ion', 'PNL', 'Mehedinti', 'Consiliul Local Stangaceaua', 'local_official', '3620', 8, true, 2012, '19/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Serb Mirela', 'AUR', 'Valcea', 'Consiliul Local Voineasa', 'local_official', '5663', 24, true, 2014, '25/11/2014', 'Consultant financiar', 'Societate comerciala', true],
-  ['Serban Corneliu', 'AUR', 'Ilfov', 'Consiliul Local Ciolpani', 'local_official', '4779', 24, true, 2014, '24/03/2014', 'Inginer constructor', 'Societate comerciala', true],
-  ['Serbu Stefan', 'PSD', 'Braila', 'Consiliul Local Surdila Gaiseanca', 'local_official', '3951', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Soare Daniel', 'PNL', 'Constanta', 'Consiliul Local 23 August', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Sotir Elena', 'PSD', 'Calarasi', 'Consiliul Local Calarasi', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Spiridon Ioan', 'PMP', 'Iasi', 'Consiliul Local Tibana', 'local_official', '3946', 60, false, 2013, '27/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Stan Fanel', 'PNL', 'Ilfov', 'Consiliul Local Cornetu', 'local_official', '3588', 24, false, 2012, '11/10/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Stan Octavian', 'PSD', 'Prahova', 'Consiliul Local Carbunesti', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Stancu Stelian', 'PNL', 'Olt', 'Consiliul Local Ianca', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Stanescu Ioan', 'AUR', 'Suceava', 'Consiliul Local Oras Salcea', 'local_official', '4973', 108, false, 2014, '28/05/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Stoica Victoria', 'PNL', 'Dambovita', 'Consiliul Local Produlesti', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Talpos Vasile', 'USR', 'Satu Mare', 'Consiliul Local Orasu Nou', 'local_official', '4645', 42, false, 2014, '31/01/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Tanase Nicusor', 'USR', 'Giurgiu', 'Consiliul Local Vanatorii Mici', 'local_official', '3483', 30, true, 2012, '03/07/2012', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Timis Dumitru', 'PUSL', 'Bistrita Nasaud', 'Consiliul Local Sant', 'local_official', '2187', 12, true, 2011, '08/02/2011', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Trif Maria', 'PNL', 'Cluj', 'Consiliul Local Ciurila', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Tudor Gheorghita', 'PNL', 'Buzau', 'Consiliul Local Bradeanu', 'local_official', '5178', 36, true, 2014, '29/07/2014', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Zaharie Dumitru', 'USR', 'Satu Mare', 'Consiliul Local Oras Ardud', 'local_official', '4030', 6, true, 2013, '15/04/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Zaharii Petrica', 'PSD', 'Botosani', 'Consiliul Local Corlateni', 'local_official', '4784', 12, true, 2014, '27/03/2014', 'Persoana fara calitate speciala', 'Nu este cazul', true],
-  ['Zamfir Elena', 'AUR', 'Teleorman', 'Consiliul Local Rosiori De Vede', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
-  ['Zamfir Marin', 'PSD', 'Dambovita', 'Consiliul Local Brezoaele', 'local_official', '3950', 24, true, 2013, '28/02/2013', 'Persoana fara calitate speciala', 'Nu este cazul', false],
+  ['Zaharii Petrica', 'PSD', 'Botosani', 'Consiliul Local Corlateni', 'local_official', '4784', 12, true, 2014, '27/03/2014', 'Persoana fara calitate speciala', 'Nu este cazul', true, 'Consilier local Corlateni'],
 ];
 
 const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
@@ -11148,16 +12478,19 @@ const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
     sourceRole,
     sourceInstitution,
     euFunds,
+    confirmedOffice,
   ]) => ({
     name,
     party,
-    position: `Candidat ${party} la ${candidateTarget} (2024)`,
+    position: confirmedOffice || `Candidat ${party} la ${candidateTarget} (2024)`,
     position_type: positionType,
     geography: {
       county,
-      basis: 'political_base',
+      basis: confirmedOffice ? 'elected_office' : 'political_base',
       note:
-        `Candidatura din registrul oficial BEC 2024 era pentru ${candidateTarget}, judetul ${county}.`,
+        confirmedOffice
+          ? `Componenta oficiala a Consiliului Local Corlateni il confirma in functie.`
+          : `Candidatura din registrul oficial BEC 2024 era pentru ${candidateTarget}, judetul ${county}.`,
     },
     crime: euFunds
       ? 'Fapte de coruptie legate de fonduri europene'
@@ -11170,7 +12503,9 @@ const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
     details:
       `Potrivit datelor DNA indexate in Harta coruptiei, condamnarea definitiva a fost pronuntata la ${convictionDate}. ` +
       `Functia consemnata in sursa de condamnare: ${sourceRole} in ${sourceInstitution}. ` +
-      `Registrul oficial BEC 2024 listeaza acelasi nume drept candidat ${party} la ${candidateTarget}.`,
+      (confirmedOffice
+        ? `Primaria Corlateni il confirma in componenta actuala a consiliului local, din partea ${party}.`
+        : `Registrul oficial BEC 2024 listeaza acelasi nume drept candidat ${party} la ${candidateTarget}.`),
     verified_at: '2026-07-07',
     sources: [
       {
@@ -11179,6 +12514,13 @@ const AUTOMATED_JUL_07_2026_MORE_PEOPLE_RECORDS =
         url: `https://www.dna.ro/comunicat.xhtml?id=${dnaId}`,
       },
       AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      ...(confirmedOffice
+        ? [{
+            label: 'Primaria Corlateni - componenta Consiliului Local',
+            kind: 'official',
+            url: 'https://primaria-corlateni.ro/consiliul-local/componenta/',
+          }]
+        : []),
       {
         ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.hartaCoruptiei,
         description:
@@ -11568,7 +12910,7 @@ const AUTOMATED_JUL_09_2026_ADDITIONAL_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputa\u021bilor',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=233&idm=304&leg=2008&pag=1&prn=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idl=233&idm=304&leg=2008&pag=1&prn=1',
       },
     ],
   },
@@ -12008,10 +13350,10 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era cea de primar al comunei Stănilești, județul Vaslui.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2021 că, în calitate de primar, a emis acte administrative care au produs un avantaj patrimonial pentru sine și pentru fiul său.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 23 iulie 2021 că, în calitate de primar, Liviu Zaharia a emis acte administrative care au produs un avantaj patrimonial pentru sine și pentru fiul său. Contestația sa a fost respinsă definitiv de Înalta Curte de Casație și Justiție la 22 martie 2023, în dosarul nr. 500/45/2021, astfel că incidentul de integritate a rămas definitiv.',
+    verified_at: '2026-09-24',
     sources: [
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3165,
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.zahariaParty,
@@ -12028,17 +13370,17 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era cea de viceprimar al comunei Moneasa, județul Arad.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2021 că, în perioada 22 iunie 2016 - 29 octombrie 2020, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 23 iulie 2021 că, în perioada 22 iunie 2016 - 29 octombrie 2020, a exercitat simultan funcția de viceprimar și calitatea de administrator al unei societăți comerciale.',
+    verified_at: '2026-09-24',
     sources: [
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3165,
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.grozaParty,
     ],
   },
   {
-    name: 'Tara Florian Vasile',
+    name: 'Florian Vasile Tara',
     party: 'PNL',
     position: 'Fost primar al comunei Râu Sadului, județul Sibiu',
     position_type: 'mayor',
@@ -12048,10 +13390,10 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era cea de primar al comunei Râu Sadului, județul Sibiu.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2021 că, în mandatul 2016-2020, a exercitat simultan funcția de primar și calitatea de administrator al unei societăți comerciale.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 20 septembrie 2021 că, în mandatul 2016-2020, a exercitat simultan funcția de primar și calitatea de administrator al unei societăți comerciale, încălcând art. 87 alin. (1) lit. d) din Legea nr. 161/2003.',
+    verified_at: '2026-09-25',
     sources: [
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3178,
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.taraParty,
@@ -12078,9 +13420,9 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Taifas Marian',
+    name: 'Marian Taifas',
     party: 'PSD',
-    position: 'Fost primar al comunei Horia; candidat PNL la Consiliul Local Horia (2020)',
+    position: 'Primar al comunei Horia, județul Tulcea',
     position_type: 'mayor',
     geography: {
       county: 'Tulcea',
@@ -12088,13 +13430,23 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era cea de primar al comunei Horia, județul Tulcea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2021 că, în perioada exercitării mandatului de primar, a deținut și exercitat simultan calități incompatibile cu funcția publică.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 18 octombrie 2021 că, în perioada 4 septembrie 2017 - 20 iulie 2021, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică. Curtea de Apel Constanța i-a respins contestația în primă instanță prin Hotărârea nr. 208/2022; sursele consultate nu confirmă soluția definitivă a unui eventual recurs.',
+    verified_at: '2026-09-25',
     sources: [
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3183,
       AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      {
+        label: 'Ziua de Constanța - Hotărârea nr. 208/2022',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/un-edil-din-dobrogea-primar-si-comerciant-persoana-fizica-au-spus-inspectorii-de-integritate-raspunsul-curtii-de-apel-constanta-798757.html',
+      },
+      {
+        label: 'Primăria Horia - primar',
+        kind: 'official',
+        url: 'https://www.primariahoria.ro/index.php?p=primar',
+      },
     ],
   },
   {
@@ -12188,7 +13540,7 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
     ],
   },
   {
-    name: 'Raclariu Alexandrina',
+    name: 'Alexandrina Raclariu',
     party: 'PNL',
     position: 'Primar al comunei Crăcăoani, județul Neamț',
     position_type: 'mayor',
@@ -12198,19 +13550,24 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era cea de primar al comunei Crăcăoani, județul Neamț.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2021 că, în calitate de primar, a semnat dispoziția privind numirea fiului său în funcția de administrator public al comunei și contractul de management aferent.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 28 decembrie 2021 că, în calitate de primar, a semnat dispoziția privind numirea fiului său ca administrator public al comunei pentru perioada 5 ianuarie 2021 - 5 ianuarie 2024 și contractul de management aferent. Înalta Curte a respins definitiv recursul la 30 aprilie 2026, menținând sentința nr. 119/2023 a Curții de Apel Bacău și raportul ANI.',
+    verified_at: '2026-09-25',
     sources: [
       AUTOMATED_JUN_26_2026_MORE_PEOPLE_SOURCES.ani3193,
       AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      {
+        label: 'Mesagerul de Neamț - decizia definitivă ÎCCJ',
+        kind: 'press',
+        url: 'https://mesagerulneamt.ro/2026/05/primarul-comunei-cracaoani-in-conflict-de-interese-administrativ-alexandrina-raclariu-a-pierdut-definitiv-procesul-cu-ani/',
+      },
     ],
   },
   {
-    name: 'Petrovan Ioan',
+    name: 'Ioan Petrovan',
     party: 'PNL',
-    position: 'Viceprimar și fost consilier local al comunei Șieu, județul Maramureș',
+    position: 'Fost viceprimar și fost consilier local al comunei Șieu; candidat PNL la Consiliul Local Șieu (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Maramureș',
@@ -12218,10 +13575,10 @@ const AUTOMATED_JUN_26_2026_MORE_PEOPLE_RECORDS = [
       note: 'Funcția publică relevantă era în administrația locală a comunei Șieu, județul Maramureș.',
     },
     crime: 'Incompatibilitate; conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2022 incompatibilitate și conflict de interese administrativ în legătură cu exercitarea mandatului de consilier local și ulterior a funcției de viceprimar.',
-    verified_at: '2026-06-26',
+      'ANI a constatat la 15 decembrie 2022 că, în perioada 1 august 2016 - 19 august 2021, a exercitat simultan mandatul de consilier local și o funcție contractuală în Primăria Șieu. ANI a constatat și conflict de interese administrativ deoarece a participat la votarea bugetelor locale din 2020-2022, care includeau salariile pentru funcțiile de asistent personal exercitate de el și de soția sa. Sursele consultate nu confirmă dacă raportul a fost contestat sau a rămas definitiv.',
+    verified_at: '2026-09-25',
     sources: [
       {
         label: 'ANI',
@@ -12242,10 +13599,6 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_SOURCES = {
 };
 
 const AUTOMATED_JUN_27_2026_PUBLIC_OFFICIAL_ROWS = [
-  ['Anghelina Florian', 'Arges', 'Inspector', 'Inspectoratul teritorial de munca (MMFPS)', '4705', 24, true, 2014, '04/03/2014', false],
-  ['Borpan Eugenia', 'Maramures', 'Cadru didactic', 'Cadru didactic (MECS)', '5140', 12, true, 2014, '25/06/2014', false],
-  ['Cotea Florin', 'Bucuresti', 'Ofiter politie', 'Politie (MAI)', '4879', 36, true, 2014, '30/04/2014', false],
-  ['Garaiman Alexandru', 'Arges', 'Ofiter politie', 'Politie (MAI)', '4999', 72, false, 2014, '05/06/2014', false],
 ];
 
 const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
@@ -12300,6 +13653,49 @@ const AUTOMATED_JUN_27_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianOverrides = {
+  'Zvorișteanu Vasile': {
+    replace_sources: true,
+    name: 'Vasile Zvorișteanu',
+    party: 'Forța Dreptei',
+    position:
+      'Candidat Forța Dreptei la Consiliul Local Popricani (2024); candidat Împreună pentru Moldova în aceeași comună (2020)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'political_base',
+      locality: 'Popricani',
+      note:
+        'Dosarul penal și cele două candidaturi locale documentate privesc comuna Popricani, județul Iași; numele rar, localitatea și activitatea de crescător de animale confirmă identitatea.',
+    },
+    crime:
+      'Obținere frauduloasă de fonduri europene; înșelăciune; complicitate la fals intelectual',
+    sentence: '4 ani închisoare cu executare',
+    sentence_years: 4,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Curtea de Apel Bacău l-a condamnat definitiv la 4 ani de închisoare cu executare. În perioada 2008–2011, Vasile Zvorișteanu a folosit documente false emise cu sprijinul primarului și al inginerului agronom din Primăria Popricani pentru a solicita subvenții în numele unei asociații fictive de crescători de animale. DNA indică un prejudiciu de 1.231.447,85 lei din fonduri FEGA și bugetul național. Listele electorale îl consemnează candidat la Consiliul Local Popricani în 2020 și 2024.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4555',
+      },
+      {
+        label: 'DNA — trimiterea în judecată și descrierea faptelor',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2997',
+      },
+      AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_SOURCES.becLocal2024,
+      {
+        label: 'Lista candidaților locali Popricani 2020',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/popricani/1',
+      },
+    ],
+  },
   'Balac Gheorghe': {
     replace_sources: true,
     name: 'Gheorghe Balâc',
@@ -13063,7 +14459,7 @@ export const politicianOverrides = {
       {
         label: 'FINAL DNA Database',
         kind: 'press',
-        url: 'https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -13531,7 +14927,7 @@ export const politicianOverrides = {
       {
         label: 'Camera Deputaților – fișă parlamentar',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=188&leg=2020',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=14&idm=188&leg=2020',
       },
       {
         label: 'Prefectura Argeș – candidaturi parlamentare 2024',
@@ -13614,7 +15010,7 @@ export const politicianOverrides = {
       {
         label: 'Camera Deputaților – fișă parlamentar',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=146&leg=2004',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=146&leg=2004',
       },
       {
         label: 'Știrile ProTV – decizia definitivă ÎCCJ',
@@ -13795,8 +15191,8 @@ export const politicianOverrides = {
   'Pachi\u021bac Dumitru C\u0103t\u0103lin': {
     party: 'AUR',
     position:
-      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local Dume\u0219ti (2024); viceprimar al comunei Dume\u0219ti',
-    verified_at: '2026-06-23',
+      'Consilier local AUR al comunei Dume\u0219ti (mandatul 2024-2028); fost viceprimar',
+    verified_at: '2026-09-29',
     sources: [
       {
         label: 'BEC \u2013 candidaturi locale 2024',
@@ -15014,7 +16410,7 @@ export const politicianOverrides = {
       {
         label: 'Camera Deputaților — profil parlamentar',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=2&idm=139&leg=2008&pag=1&par=&prn=0',
       },
     ],
   },
@@ -17685,7 +19081,7 @@ export const politicianOverrides = {
       {
         label: 'Camera Deputaților — fișă parlamentară',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?idm=339&cam=2&leg=2012',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=339&cam=2&leg=2012',
       },
       {
         label: 'HotNews — liberarea condiționată',
@@ -18134,7 +19530,7 @@ const AUTOMATED_JUL_10_2026_ARGES_INFLUENCE_DNA_SOURCE = {
 const AUTOMATED_JUL_10_2026_MIUTESCU_CDEP_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=188&leg=2020',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=14&idm=188&leg=2020',
 };
 
 const AUTOMATED_JUL_10_2026_ARGES_PNL_PROTV_SOURCE = {
@@ -18590,7 +19986,7 @@ const AUTOMATED_JUL_10_2026_THIRD_MORE_PEOPLE_RECORDS = [
       {
         label: 'Baza de date DNA 2013 - candidatura PSD la Primăria Corbu',
         kind: 'media',
-        url: 'https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
       {
         label: 'AFIR - proiectul agricol al lui Emil Cozan în comuna Corbu',
@@ -18653,7 +20049,7 @@ const AUTOMATED_JUL_13_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=57&leg=2008',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=57&leg=2008',
       },
     ],
   },
@@ -19525,7 +20921,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=239&leg=2008',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=14&idm=239&leg=2008',
       },
       {
         label: 'DNA',
@@ -19604,7 +21000,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=397&leg=2012&pag=1&prn=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idl=0&idm=397&leg=2012&pag=1&prn=1',
       },
       {
         label: 'DNA',
@@ -19632,7 +21028,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=146&leg=2004',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=146&leg=2004',
       },
       {
         label: 'Curs de Guvernare',
@@ -19757,7 +21153,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=244&leg=2012',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=244&leg=2012',
       },
       {
         label: 'Adevărul',
@@ -19799,7 +21195,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://cdep.ro/pls/parlam/structura.mp?cam=2&idl=1&idm=283&leg=2012&pag=1&par=12707&prn=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idl=1&idm=283&leg=2012&pag=1&par=12707&prn=1',
       },
       {
         label: 'Adevărul',
@@ -19868,7 +21264,7 @@ const AUTOMATED_JUL_16_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=202&leg=2008&pag=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idl=0&idm=202&leg=2008&pag=1',
       },
       {
         label: 'News.ro',
@@ -20243,7 +21639,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=403&leg=2012',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=14&idm=403&leg=2012',
       },
       {
         label: 'HotNews',
@@ -20282,7 +21678,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=281&leg=2012&pag=1&par=8661&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=281&leg=2012&pag=1&par=8661&prn=0',
       },
       {
         label: 'HotNews',
@@ -20395,7 +21791,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=58&leg=2008&pag=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=58&leg=2008&pag=0',
       },
       {
         label: 'ANI — situația dosarelor în decembrie 2017',
@@ -20487,7 +21883,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=76&leg=2008&pag=1&par=12795&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=76&leg=2008&pag=1&par=12795&prn=0',
       },
       {
         label: 'HotNews',
@@ -20526,7 +21922,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=3&idm=78&leg=2008',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=3&idm=78&leg=2008',
       },
       {
         label: 'Ziare.com',
@@ -20598,7 +21994,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=142&leg=2008',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=142&leg=2008',
       },
       {
         label: 'Parlamentul României - Hotărârea nr. 20/2022',
@@ -20642,7 +22038,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=146&leg=2008&pag=1&par=12820&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=146&leg=2008&pag=1&par=12820&prn=0',
       },
       {
         label: 'ANI - situația rapoartelor la 15 decembrie 2017',
@@ -20720,7 +22116,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=202&leg=2016&pag=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=202&leg=2016&pag=1',
       },
       {
         label: 'ANI - situația rapoartelor la 15 decembrie 2017',
@@ -20759,7 +22155,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=22&idl=3&leg=2008&poz=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=22&idl=3&leg=2008&poz=1',
       },
       {
         label: 'Consiliul Județean Hunedoara - conducerea actuală',
@@ -20793,7 +22189,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=209&leg=2008',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=209&leg=2008',
       },
       {
         label: 'ANI - situația rapoartelor la 15 decembrie 2017',
@@ -20832,7 +22228,7 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=210&leg=2008&pag=1&par=17009&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=210&leg=2008&pag=1&par=17009&prn=0',
       },
       {
         label: 'Alba24 - decizia definitivă ÎCCJ din 29 noiembrie 2018',
@@ -20909,37 +22305,37 @@ const AUTOMATED_JUL_19_2026_MORE_PEOPLE_RECORDS = [
 const CDEP_2008_DAMBOVITA_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=16&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=16&leg=2008',
 };
 
 const CDEP_2008_MARAMURES_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=26&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=26&leg=2008',
 };
 
 const CDEP_2008_VASLUI_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=40&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=40&leg=2008',
 };
 
 const CDEP_2008_BRASOV_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=8&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=8&leg=2008',
 };
 
 const CDEP_2008_CLUJ_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=13&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=13&leg=2008',
 };
 
 const CDEP_2008_MURES_SOURCE = {
   label: 'Camera Deputaților',
   kind: 'official',
-  url: 'https://www.cdep.ro/pls/parlam/structura2015.ce?cir=28&leg=2008',
+  url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.ce?cir=28&leg=2008',
 };
 
 const GHEORGHE_FIRCZAK_SENATE_SOURCE = {
@@ -23003,8 +24399,13 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'ÎCCJ l-a condamnat definitiv în februarie 2015 la 1 an de închisoare cu suspendare pentru conflict de interese, după sesizarea ANI privind angajarea fiului, nurorii și soției în relație cu biroul parlamentar.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-10-02',
     sources: [
+      {
+        label: 'Camera Deputaților — vot nominal, mandatul parlamentar',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/steno/eVot.Nominal?idv=5703',
+      },
       MIHAI_RADAN_CONVICTION_SOURCE,
       MIHAI_RADAN_SECOND_CONVICTION_SOURCE,
       MIHAI_RADAN_LOCAL_CONVICTION_SOURCE,
@@ -23053,8 +24454,13 @@ const AUTOMATED_JUL_20_2026_SECOND_MORE_PEOPLE_RECORDS = [
     execution_type: 'Cu suspendare',
     details:
       'Înalta Curte l-a condamnat definitiv la 14 septembrie 2015 la 1 an de închisoare cu suspendare pentru conflict de interese, în legătură cu angajarea soției la biroul parlamentar. Contestația în anulare a fost respinsă ca inadmisibilă la 22 februarie 2016. Raportul administrativ ANI fusese anulat separat de instanța de contencios; această soluție nu a desființat condamnarea penală.',
-    verified_at: '2026-08-10',
+    verified_at: '2026-10-02',
     sources: [
+      {
+        label: 'Camera Deputaților — activitate parlamentară PSD',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/interpelari.detalii?idi=15831&idl=1',
+      },
       IOAN_CINDREA_FINAL_DECISION_SOURCE,
       IOAN_CINDREA_ANNULMENT_REJECTION_SOURCE,
       IOAN_CINDREA_CONVICTION_SOURCE,
@@ -23617,9 +25023,9 @@ const AUTOMATED_JUL_31_2026_PARTY_SOURCES = {
     url: 'https://www.primaria-drajna.ro/consiliul-local/consilieri/',
   },
   lunguPnl: {
-    label: 'Obiectiv Vocea Brailei',
-    kind: 'press',
-    url: 'https://obiectivbr.ro/content/administra%C8%9Bia-chiriac-un-nou-%C3%AEnceput',
+    label: 'Consiliul Județean Brăila',
+    kind: 'official',
+    url: 'https://cjbraila.ro/dm_cj/portal.nsf/61A09274AE1689FEC2258BEF00340867/%24FILE/Proces%20verbal%20sedinta%20extraordinara%20din%2011%20noiembrie%202024.pdf',
   },
   marinFd: {
     label: 'Ziare.com',
@@ -24663,7 +26069,7 @@ export const politicianAdditions = [
       {
         label: 'Baza istorică a cauzelor DNA — soluția de condamnare',
         kind: 'reference',
-        url: 'https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf',
+        url: 'https://peterhfrank.com/wp-content/uploads/2024/12/FINALDNADatabase.v10.pdf',
       },
     ],
   },
@@ -30379,8 +31785,18 @@ export const politicianAdditions = [
     status: 'acquitted',
     details:
       'DNA l-a trimis în judecată în 2016, susținând că ar fi cerut bani pentru promovarea campaniei la Primăria Capitalei. ÎCCJ a respins apelul DNA și a menținut achitarea definitivă în martie 2018.',
-    verified_at: '2026-08-25',
+    verified_at: '2026-10-02',
     sources: [
+      {
+        label: 'DNA — trimiterea în judecată și achitarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7389',
+      },
+      {
+        label: 'Camera Deputaților — mandatul 2020-2024',
+        kind: 'official',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=0&idm=212&leg=2020',
+      },
       {
         label: 'Digi24 – președinte Forța Dreptei',
         kind: 'press',
@@ -37563,6 +38979,377 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Dedu Dumitru',
+    party: 'PSD',
+    position: 'Fost primar al comunei Mircea Vodă; consilier local în comuna Mircea Vodă',
+    position_type: 'mayor',
+    geography: {
+      county: 'Constanța',
+      basis: 'office',
+      locality: 'Mircea Vodă',
+      note: 'A fost primar al comunei Mircea Vodă, iar în 2026 era consilier local al aceleiași comune.',
+    },
+    crime:
+      'Tentativă la folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '1 an și 6 luni închisoare cu suspendare condiționată',
+    sentence_years: 1.5,
+    conviction_year: 2013,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Constanța l-a condamnat definitiv la 20 noiembrie 2013 la 1 an și 6 luni închisoare cu suspendare condiționată pentru tentativa de a obține pe nedrept fonduri FEGA folosind un contract de arendare falsificat. Sursele instituționale îl identifică drept primar al comunei Mircea Vodă în perioada cauzei. Mandatul său a încetat ulterior ca urmare a condamnării. A candidat din partea PSD la Consiliul Județean Constanța în 2024, iar în 2026 era consilier local la Mircea Vodă.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4477',
+      },
+      {
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1700',
+      },
+      {
+        label: 'Consiliul Județean Constanța – Hotărârea nr. 222/2013',
+        kind: 'official',
+        url: 'https://www.cjc.ro/dyn_doc/Hotarari/2013/222.pdf',
+        description: 'Documentul îl identifică pe Dumitru Dedu drept primar al comunei Mircea Vodă.',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Ziarul Amprenta',
+        kind: 'press',
+        url: 'https://ziarulamprenta.ro/stirile-zilei/cine-i-ar-putea-lua-locul-lui-daniel-learciu-in-cj-constanta-acesta-a-demisionat-in-aceasta-dimineata/550245/',
+        description: 'Îl identifică în 2026 drept consilier local la Mircea Vodă și următor pe lista PSD pentru CJ Constanța.',
+      },
+    ],
+  },
+  {
+    name: 'Apetrei Consela',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Popricani (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'political_base',
+      locality: 'Popricani',
+      note: 'A candidat din partea PSD la Consiliul Local Popricani în 2024.',
+    },
+    crime:
+      'Fals în înscrisuri sub semnătură privată; complicitate la obținerea pe nedrept de fonduri europene; complicitate la înșelăciune, toate în formă continuată',
+    sentence: '2 ani și 5 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 2.42,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Iași a condamnat-o definitiv la 19 noiembrie 2014 la 2 ani și 5 luni închisoare cu suspendare sub supraveghere. În calitate de angajată a SC Euro-Elmar SRL Popricani, a întocmit în fals contracte de arendă folosite pentru obținerea nelegală de subvenții agricole, fiind condamnată pentru fals în înscrisuri sub semnătură privată, complicitate la folosirea de documente false pentru obținerea de fonduri europene și complicitate la înșelăciune, toate în formă continuată. Registrul electoral oficial o listează drept candidat PSD la Consiliul Local Popricani în 2024.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5675',
+      },
+      {
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4184',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Catargiu Dumitru',
+    party: 'PNL',
+    position: 'Consilier local al orașului Hârlău',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'office',
+      locality: 'Hârlău',
+      note: 'Membru PNL al Consiliului Local Hârlău în mandatul 2024–2028.',
+    },
+    crime: 'Evaziune fiscală în formă continuată',
+    sentence: '4 ani închisoare cu suspendare',
+    sentence_years: 4,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte de Casație și Justiție l-a condamnat definitiv la 28 mai 2014 la 4 ani închisoare cu suspendare, cu termen de încercare de 6 ani, pentru evaziune fiscală în formă continuată. DNA îl identifică drept fost asociat unic și administrator al SC Gelco Print SRL Hârlău; prejudiciul fiscal stabilit în solidar în cauză a fost de 5.730.054 lei. Primăria Hârlău îl listează drept consilier local PNL în mandatul 2024–2028.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4973',
+      },
+      {
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2123',
+      },
+      {
+        label: 'Primăria Orașului Hârlău – membrii Consiliului Local',
+        kind: 'official',
+        url: 'https://www.primaria-hirlau.ro/membri.html',
+      },
+      {
+        label: 'Primăria Orașului Hârlău – declarații consilieri locali',
+        kind: 'official',
+        url: 'https://www.primaria-hirlau.ro/declaratiiC.html',
+      },
+    ],
+  },
+  {
+    name: 'Rusu Doina',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Popricani (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Iași',
+      basis: 'political_base',
+      locality: 'Popricani',
+      note: 'A candidat din partea PSD la Consiliul Local Popricani în 2024.',
+    },
+    crime:
+      'Fals în înscrisuri sub semnătură privată; complicitate la obținerea pe nedrept de fonduri europene; complicitate la înșelăciune, toate în formă continuată',
+    sentence: '2 ani și 6 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 2.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Iași a condamnat-o definitiv la 19 noiembrie 2014 la 2 ani și 6 luni închisoare cu suspendare sub supraveghere. În calitate de angajată a SC Euro-Elmar SRL Popricani, a întocmit în fals contracte de arendă folosite pentru obținerea nelegală de subvenții agricole, fiind condamnată pentru fals în înscrisuri sub semnătură privată, complicitate la folosirea de documente false pentru obținerea de fonduri europene și complicitate la înșelăciune, toate în formă continuată. Registrul electoral oficial o listează drept candidat PSD la Consiliul Local Popricani în 2024.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5675',
+      },
+      {
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4184',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Chirilă Alexandru-Teodor',
+    party: 'PNL',
+    position: 'Primar al comunei Poiana Teiului',
+    position_type: 'mayor',
+    geography: {
+      county: 'Neamț',
+      basis: 'office',
+      locality: 'Poiana Teiului',
+      note: 'Primar PNL al comunei Poiana Teiului în mandatul 2024–2028.',
+    },
+    crime: 'Dare de mită',
+    sentence: '6 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Curtea de Apel Bacău l-a condamnat definitiv la 21 octombrie 2014 la 6 luni închisoare cu suspendare sub supraveghere, cu termen de încercare de 2 ani și 6 luni, pentru dare de mită. DNA îl identifică drept reprezentant al unei societăți comerciale din județul Neamț care, la 29 septembrie 2011, a dat bani unor comisari ai Gărzii Financiare pentru favorizarea firmei la control. Ales primar al comunei Poiana Teiului în 2024, este confirmat în funcție de site-ul oficial al primăriei.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5532',
+      },
+      {
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2791',
+      },
+      {
+        label: 'Primăria Poiana Teiului – primar',
+        kind: 'official',
+        url: 'https://poianateiului.ro/despre-primarie/conducere/primarul-si-viceprimarul/primar/',
+      },
+      {
+        label: 'Judecătoria Bicaz – validarea mandatului de primar',
+        kind: 'official',
+        url: 'https://poianateiului.ro/wp-content/uploads/2025/06/Raport-de-specialitate.pdf',
+        description: 'Încheierea nr. 1141/2024 validează mandatul obținut de Chirilă Alexandru-Teodor din partea PNL.',
+      },
+    ],
+  },
+  {
+    name: 'Preduț Marius-Marinel',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local orașul Piatra-Olt (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Olt',
+      basis: 'political_base',
+      locality: 'Piatra-Olt',
+      note: 'Candidat PSD la Consiliul Local Piatra-Olt la alegerile locale din 2024.',
+    },
+    crime: 'Falsificarea documentelor electorale și introducerea de buletine de vot suplimentare',
+    sentence: '1 an și 4 luni închisoare cu suspendare',
+    sentence_years: 1.33,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Înalta Curte l-a condamnat definitiv la 30 iunie 2014 la 1 an și 4 luni închisoare cu suspendare. În calitate de membru al biroului electoral al secției nr. 105 din Piatra-Olt, a falsificat împreună cu Preduț Simona-Cristina lista pentru urna mobilă, adăugând persoane care nu solicitaseră urna, contrafăcând semnături și introducând opt voturi corespunzătoare semnăturilor falsificate. În dosarul referendumului din 2012 era reprezentant al Partidului Conservator; în 2024 a candidat din partea PSD la Consiliul Local Piatra-Olt.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5110',
+      },
+      {
+        label: 'ÎCCJ – decizia penală definitivă nr. 114/2016',
+        kind: 'official',
+        url: 'https://www.romaniacurata.ro/wp-content/uploads/2017/02/C5-decizia-penal%C3%84%C6%92-nr.-114-2795-Dragnea-PDF.pdf',
+        description: 'Decizia reproduce condamnarea definitivă separată și descrie falsificarea listei pentru urna mobilă și cele opt voturi.',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+    ],
+  },
+  {
+    name: 'Gabri Gabor-Sandor',
+    party: 'PSD',
+    position: 'Candidat PSD la Consiliul Local Porumbești (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Satu Mare',
+      basis: 'political_base',
+      locality: 'Porumbești',
+      note: 'Candidat PSD la Consiliul Local Porumbești și reprezentant PSD într-un birou electoral din județul Satu Mare în 2024.',
+    },
+    crime: 'Dare de mită, grup infracțional organizat și complicitate la contrabandă calificată',
+    sentence: '6 ani și 6 luni închisoare cu executare',
+    sentence_years: 6.5,
+    conviction_year: 2012,
+    status: 'convicted',
+    execution_type: 'Cu executare',
+    details:
+      'Înalta Curte l-a condamnat definitiv la 14 decembrie 2012 la 6 ani și 6 luni închisoare pentru dare de mită în formă continuată, constituirea unui grup infracțional organizat în scopul contrabandei și complicitate la contrabandă calificată în formă continuată. Instanța a dispus și confiscarea sumei de 172.500 lei și interzicerea dreptului de a fi ales pe durata executării și încă patru ani. În 2024, numele complet apare atât pe lista candidaților PSD la Consiliul Local Porumbești, cât și ca reprezentant PSD într-un birou electoral din județ.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3771',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Prefectura Satu Mare – componența birourilor electorale 2024',
+        kind: 'official',
+        url: 'https://sm.prefectura.mai.gov.ro/wp-content/uploads/sites/32/2024/11/Sectiile-de-votare-201-340_compressed-1.pdf',
+        description: 'Îl listează pe Gabri Gabor-Sandor ca membru PSD al biroului electoral al secției 273.',
+      },
+    ],
+  },
+  {
+    name: 'Stancă Toma-Ștefan',
+    party: 'PNL',
+    position: 'Candidat PNL la Consiliul Local Tilișca (2024)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Sibiu',
+      basis: 'political_base',
+      locality: 'Tilișca',
+      note: 'Candidat PNL la Consiliul Local Tilișca în 2024; administrator al unei societăți cu sediul în Tilișca.',
+    },
+    crime: 'Fals în declarații în dosarul fraudării examenului de bacalaureat',
+    sentence: '6 luni închisoare cu suspendare',
+    sentence_years: 0.5,
+    conviction_year: 2014,
+    status: 'convicted',
+    execution_type: 'Cu suspendare',
+    details:
+      'Tribunalul Sibiu a admis acordul de recunoaștere a vinovăției și l-a condamnat definitiv la 21 mai 2014 la 6 luni închisoare cu suspendare, cu termen de încercare de 2 ani și 6 luni, pentru fals în declarații. Cauza privea fraudarea bacalaureatului din 2013, când Stancă Toma-Ștefan era candidat la Colegiul Tehnic Independența din Sibiu; instanța a dispus anularea diplomelor întocmite în fals. În 2024 a candidat din partea PNL la Consiliul Local Tilișca.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – hotărâre definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5029',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Firmoscop – Toma Plus STS SRL Tilișca',
+        kind: 'registry',
+        url: 'https://firmoscop.ro/firma/35767562-toma-plus-sts-srl',
+        description: 'Datele ONRC indexate îl identifică pe Stancă Toma Ștefan drept administrator al societății din Tilișca.',
+      },
+    ],
+  },
+  {
+    name: 'Olaru Florin-Costică',
+    party: 'PSD',
+    position: 'Candidat PSD la Camera Deputaților în circumscripția Suceava (2024)',
+    position_type: 'other',
+    geography: {
+      county: 'Suceava',
+      basis: 'constituency',
+      locality: 'Suceava',
+      note: 'Candidat PSD la Consiliul Local Suceava și, ulterior, la Camera Deputaților în circumscripția Suceava în 2024.',
+    },
+    crime: 'Complicitate la abuz în serviciu – achitat definitiv la rejudecare',
+    sentence: 'Condamnat inițial la 1 an și 6 luni cu suspendare; achitat definitiv în 2018',
+    sentence_years: 1.5,
+    conviction_year: 2013,
+    status: 'acquitted',
+    execution_type: 'Achitat definitiv',
+    details:
+      'Curtea de Apel București l-a condamnat la 29 aprilie 2013 la 1 an și 6 luni închisoare cu suspendare pentru complicitate la abuz în serviciu, într-o cauză privind un prejudiciu de 397.430 lei adus Ministerului Mediului. După admiterea revizuirii și rejudecare, aceeași instanță l-a achitat definitiv la 9 martie 2018, constatând că fapta nu fusese săvârșită cu vinovăția prevăzută de lege. În 2024 a candidat din partea PSD la Consiliul Local Suceava și la Camera Deputaților.',
+    verified_at: '2026-09-24',
+    sources: [
+      {
+        label: 'DNA – condamnarea inițială și achitarea definitivă după revizuire',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4080',
+      },
+      {
+        label: 'BEC – candidaturi locale 2024',
+        kind: 'official',
+        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Prefectura Suceava – buletin de vot Camera Deputaților 2024',
+        kind: 'official',
+        url: 'https://sv.prefectura.mai.gov.ro/wp-content/uploads/sites/26/2024/11/sv_camera_deputatilor_2024-01.11.pdf',
+      },
+    ],
+  },
   ...AUTOMATED_JUN_16_2026_MORE_PEOPLE_RECORDS,
   ...AUTOMATED_JUN_30_2026_BEC_2020_CANDIDATE_RECORDS,
   ...AUTOMATED_JUN_25_2026_BEC_LOCAL_CANDIDATE_RECORDS,
@@ -37659,119 +39446,99 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Poputa Daniela Emilia",
-    "party": "PC",
-    "position": "Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)",
-    "position_type": "other",
-    "geography": {
-      "county": "Cluj",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Agent politie în Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura) în județul Cluj."
-    },
-    "crime": "luare de mită, în formă continuată",
-    "sentence": "1 an și 2 luni închisoare",
-    "sentence_years": 1.17,
-    "conviction_year": 2010,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 29 noiembrie 2010. Condamnarea inculpatei POPUȚA DANIELA EMILIA, agent de poliție în cadrul Serviciului Public Comunitar Regim Permise de Conducere și Înmatricularea Vehiculelor (S.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=2059"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Poputa Daniela Emilia indică județul Cluj, funcția \"Agent politie\", instituția \"Serviciul public comunitar regim permise de conducere si inmatriculare a vehiculelor (Prefectura)\", decizia 4270 și condamnarea din 29/11/2010."
-      }
-    ]
-  },
-  {
-    "name": "Dascalu Viorel",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "name": "Dascălu Viorel",
+    "party": "PDL",
+    "position": "Fost primar al comunei Lopătari (mandatul 2004–2008)",
     "position_type": "mayor",
     "geography": {
-      "county": "Buzau",
+      "county": "Buzău",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Buzau."
+      "locality": "Lopătari",
+      "note": "A exercitat funcția de primar al comunei Lopătari, județul Buzău, în mandatul 2004–2008."
     },
     "crime": "folosire de documente false și inexacte având ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene",
-    "sentence": "4 ani închisoare cu suspendare",
+    "sentence": "4 ani închisoare cu suspendare sub supraveghere",
     "sentence_years": 4,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 30 mai 2012. Condamnarea inculpatului DASCĂLU VIOREL, primarul comunei Lopătari, jud.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 1.831 din 30 mai 2012, ÎCCJ l-a condamnat pe Dascălu Viorel, fost primar al comunei Lopătari, la 4 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 7 ani, pentru folosirea unor documente false și inexacte care a dus la obținerea nelegală de fonduri europene. Dosarul privea proiectul SAPARD pentru drumul Luncile–Terca; inculpații au fost obligați în solidar la plata a 1.291.284,25 lei către APDRP.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA – trimitere în judecată (6 mai 2010)",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1614"
+      },
+      {
+        "label": "DNA – hotărâre definitivă (30 mai 2012)",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3316"
       },
       {
-        "label": "România Curată",
+        "label": "Rezultate alegeri locale 2012 – Lopătari",
         "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Dascalu Viorel indică județul Buzau, funcția \"Primar\", instituția \"Primarie\", decizia 1831 și condamnarea din 30/05/2012."
+        "url": "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "description": "Rezultatele îl identifică pe Dascălu Viorel drept candidat PDL la Primăria Lopătari în 2012."
       }
     ]
   },
   {
     "name": "Mayer Marian",
-    "party": "Independent",
-    "position": "Viceprimar în Primarie",
+    "party": "PRM",
+    "position": "Fost viceprimar al comunei Sânmihaiu Român; candidat PRM la președinția Consiliului Județean Timiș (2024)",
     "position_type": "local_official",
     "geography": {
-      "county": "Timis",
+      "county": "Timiș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Viceprimar în Primarie în județul Timis."
+      "locality": "Sânmihaiu Român",
+      "note": "DNA îl identifică drept fost viceprimar al comunei Sânmihaiu Român, iar candidatura PRM din 2024 a fost pentru președinția Consiliului Județean Timiș."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false; fals intelectual; înșelăciune",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Tentativă la folosirea sau prezentarea de documente ori declarații false pentru obținerea de fonduri europene; fals în înscrisuri sub semnătură privată; înșelăciune; fals intelectual",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere",
     "sentence_years": 3,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 2 noiembrie 2011. Condamnarea inculpatului MAYER MARIAN, viceprimar al comunei Sînmihaiu-Român, jud.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală definitivă nr. 1.728 din 2 noiembrie 2011, Curtea de Apel Timișoara l-a condamnat pe Mayer Marian, viceprimar al comunei Sânmihaiu Român la data faptelor, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani. Cauza privea documente false folosite în implementarea proiectului PHARE 2000 «Agenția de Cooperare Rurală și Dezvoltare – ACORD»; el și experta proiectului au fost obligați în solidar la plata a 11.961,41 euro despăgubiri.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
-        "label": "DNA",
+        "label": "DNA – trimitere în judecată (2 octombrie 2007)",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=759"
+      },
+      {
+        "label": "DNA – hotărâre definitivă (2 noiembrie 2011)",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2766"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Mayer Marian indică județul Timis, funcția \"Viceprimar\", instituția \"Primarie\", decizia 1728 și condamnarea din 02/11/2011."
+        "label": "Prefectura Timiș – candidaturi definitive la alegerile locale 2024",
+        "kind": "official",
+        "url": "https://tm.prefectura.mai.gov.ro/wp-content/uploads/sites/22/2024/05/PV-ramanere-definitiva-a-candidaturilor.pdf"
       }
     ]
   },
   {
     "name": "Miculescu Ioan Cornel",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "party": "PDL",
+    "position": "Fost primar al comunei Secaș (mandatul 2008–2012)",
     "position_type": "mayor",
     "geography": {
-      "county": "Timis",
+      "county": "Timiș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Timis."
+      "locality": "Secaș",
+      "note": "Funcția relevantă a fost cea de primar al comunei Secaș, județul Timiș."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false; fals intelectual",
-    "sentence": "2 ani închisoare cu suspendare",
+    "crime": "tentativă la folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene; instigare la fals intelectual",
+    "sentence": "2 ani închisoare cu suspendare condiționată, cu termen de încercare de 4 ani",
     "sentence_years": 2,
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Miculescu Ioan Cornel a fost condamnat definitiv la 3 mai 2010 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Primar în Primarie. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false; fals intelectual.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Timișoara, prin decizia penală nr. 487 din 3 mai 2010, l-a condamnat definitiv pe Ioan Cornel Miculescu, primar al comunei Secaș, la 2 ani închisoare cu suspendare condiționată pe un termen de încercare de 4 ani. DNA consemnează tentativa la folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene și instigarea la fals intelectual. Instanța i-a interzis, pentru 2 ani după executarea pedepsei principale, dreptul de a fi ales și dreptul de a ocupa o funcție care implică exercițiul autorității de stat. Istoricul administrației locale indică mandatul 2008–2012 și apartenența la PDL.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
@@ -37783,32 +39550,50 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Miculescu Ioan Cornel indică județul Timis, funcția \"Primar\", instituția \"Primarie\", decizia 487 și condamnarea din 03/05/2010."
+      },
+      {
+        "label": "Portal Info - istoricul Primăriei Secaș",
+        "kind": "press",
+        "url": "https://www.portal-info.ro/primarii/primaria-secas-timis.html",
+        "description": "Istoricul primarilor indică mandatul iunie 2008–iunie 2012 și partidul PDL."
       }
     ]
   },
   {
-    "name": "Ailincai Vasile",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "name": "Ailincăi Vasile",
+    "party": "PSD",
+    "position": "Fost primar al municipiului Moinești (mandatul 2004–2008)",
     "position_type": "mayor",
     "geography": {
-      "county": "Bucuresti",
+      "county": "Bacău",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Bucuresti."
+      "locality": "Moinești",
+      "note": "Funcția relevantă a fost cea de primar al municipiului Moinești, județul Bacău."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "5 ani închisoare",
+    "crime": "luare de mită",
+    "sentence": "5 ani închisoare cu executare",
     "sentence_years": 5,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 4 iulie 2012. Condamnarea inculpatului AILINCĂI VASILE, primar al municipiului Moinești în perioada 2004 – 2008, la pedeapsa de 5 ani închisoare pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 2.369 din 4 iulie 2012, a menținut condamnarea definitivă a lui Vasile Ailincăi, primar al municipiului Moinești în perioada 2004–2008, la 5 ani închisoare pentru luare de mită. Potrivit DNA, în 2007 a primit 30.000 lei și a mai pretins 50.000 euro în legătură cu vânzarea unei baze de tratament și eliberarea autorizațiilor de construire. Instanța a dispus confiscarea sumei de 30.000 lei și interzicerea unor drepturi pe durata pedepsei și timp de 3 ani după executare.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3481"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1303"
+      },
+      {
+        "label": "HotNews - alegeri locale 2008",
+        "kind": "press",
+        "url": "https://hotnews.ro/alegeri-locale-2008-candidati-la-primaria-oraselor-din-bacau-contacte-primarii-bacau-1649288",
+        "description": "Lista candidaților la Primăria Moinești îl indică pe Vasile Ailincăi drept candidat PSD."
       },
       {
         "label": "România Curată",
@@ -37819,28 +39604,40 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Costache Ionel Cristian",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "name": "Costache Ionel-Cristian",
+    "party": "PDL",
+    "position": "Fost primar al comunei Tărtășești",
     "position_type": "mayor",
     "geography": {
-      "county": "Dambovita",
+      "county": "Dâmbovița",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Dambovita."
+      "locality": "Tărtășești",
+      "note": "Funcția relevantă a fost cea de primar al comunei Tărtășești, județul Dâmbovița."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "4 ani închisoare",
+    "crime": "luare de mită",
+    "sentence": "4 ani închisoare în regim de detenție",
     "sentence_years": 4,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 15 martie 2013. Condamnarea inculpatului COSTACHE IONEL – CRISTIAN, primar al comunei Tărtășești, județul Dâmbovița, la pedeapsa de 4 ani închisoare în regim de detenție pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 904 din 15 martie 2013, a menținut condamnarea definitivă a lui Ionel-Cristian Costache, primar al comunei Tărtășești, la 4 ani închisoare în regim de detenție pentru luare de mită. DNA arată că, în 2011, acesta a pretins 100.000 lei pentru a considera executată o lucrare de extindere și modernizare a iluminatului public care nu fusese realizată. Instanța i-a interzis anumite drepturi pe durata pedepsei și timp de 2 ani după executare.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3972"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=2456"
+      },
+      {
+        "label": "Mediafax - alegeri locale 2012",
+        "kind": "press",
+        "url": "https://www.mediafax.ro/social/razvan-corneteanu-a-pierdut-alegerile-pentru-primaria-tartasesti-9743898/amp",
+        "description": "Lista candidaților îl indică pe Costache Ionel Cristian, primarul în funcție, drept candidat PDL."
       },
       {
         "label": "România Curată",
@@ -37851,28 +39648,35 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Danesan Ioan Dorin",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "name": "Dăneșan Ioan-Dorin",
+    "party": "PSD",
+    "position": "Fost primar al municipiului Sighișoara (2000–2014)",
     "position_type": "mayor",
     "geography": {
-      "county": "Mures",
+      "county": "Mureș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Mures."
+      "locality": "Sighișoara",
+      "note": "Funcția relevantă a fost cea de primar al municipiului Sighișoara, județul Mureș."
     },
     "crime": "abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial",
-    "sentence": "2 ani închisoare cu suspendare",
+    "sentence": "2 ani închisoare cu suspendare condiționată, cu termen de încercare de 4 ani",
     "sentence_years": 2,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 martie 2013. Condamnarea inculpatului DĂNEȘAN IOAN DORIN, primar al Municipiului Sighișoara, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea infracțiunii de abuz în serviciu contra intereselor publice, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Târgu Mureș, prin decizia penală nr. 187/R din 7 martie 2013, l-a condamnat definitiv pe Ioan-Dorin Dăneșan, primarul municipiului Sighișoara, la 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru abuz în serviciu contra intereselor publice prin obținerea unui avantaj patrimonial sau nepatrimonial. Instanța a dispus desființarea totală a contractului de concesiune vizat. Statutul oficial al municipiului consemnează mandatele sale din 2000 până la 28 noiembrie 2014 și apartenența la PSD în perioadele 2004–2012.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3960"
+      },
+      {
+        "label": "Primăria Sighișoara - statutul municipiului",
+        "kind": "official",
+        "url": "https://primariasighisoara.ro/portal/mures/sighisoara/portal.nsf/atasament/D61D4D62F2842EB9C22587910040BB34/%24FILE/Ph%20Statut%20MS%20material.pdf",
+        "description": "Anexa privind primarii municipiului confirmă mandatele 2000–2014 și apartenența politică."
       },
       {
         "label": "România Curată",
@@ -37884,27 +39688,39 @@ export const politicianAdditions = [
   },
   {
     "name": "Dicu Nicolae",
-    "party": "Independent",
-    "position": "Viceprimar în Primarie",
+    "party": "PD",
+    "position": "Fost viceprimar al municipiului Râmnicu Vâlcea",
     "position_type": "local_official",
     "geography": {
-      "county": "Valcea",
+      "county": "Vâlcea",
       "basis": "office",
-      "note": "Funcția relevantă a fost Viceprimar în Primarie în județul Valcea."
+      "locality": "Râmnicu Vâlcea",
+      "note": "Funcția relevantă a fost cea de viceprimar al municipiului Râmnicu Vâlcea, județul Vâlcea."
     },
-    "crime": "luare de mită, respectiv complicitate la luare de mită",
-    "sentence": "3 ani și 6 luni închisoare",
+    "crime": "complicitate la luare de mită",
+    "sentence": "3 ani și 6 luni închisoare cu executare",
     "sentence_years": 3.5,
     "conviction_year": 2010,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Dicu Nicolae a fost condamnat definitiv la 27 ianuarie 2010 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Viceprimar în Primarie. Infracțiunea reținută: luare de mită, respectiv complicitate la luare de mită.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 273 din 27 ianuarie 2010, l-a condamnat definitiv pe Nicolae Dicu, viceprimar al municipiului Râmnicu Vâlcea, la 3 ani și 6 luni închisoare pentru complicitate la luare de mită. Potrivit DNA, acesta a primit 25.000 euro din suma de 50.000 euro pretinsă pentru facilitarea obținerii unui certificat de urbanism. Instanța a dispus și interzicerea unor drepturi pe durata pedepsei și timp de 2 ani după executare. Achitarea dispusă în 2018 în revizuire l-a vizat numai pe coinculpatul Mircia Gutău, nu pe Nicolae Dicu.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=1925"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=509"
+      },
+      {
+        "label": "Consiliul Local Râmnicu Vâlcea - alegerea viceprimarului",
+        "kind": "official",
+        "url": "https://dm.primariavl.ro/dm/2004/hotarari.nsf/vwHotarariByAn/4F7683A37795F64BC22573FE004AAAC7/%24FILE/hotararea%20118%20-iulie%202004.htm",
+        "description": "Hotărârea din 5 iulie 2004 confirmă alegerea lui Nicolae Dicu ca viceprimar din partea Partidului Democrat."
       },
       {
         "label": "România Curată",
@@ -37915,28 +39731,41 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Negret Ioan",
-    "party": "Independent",
-    "position": "Primar în Primarie",
+    "name": "Negreț Ioan",
+    "party": "PNL",
+    "position": "Fost primar al municipiului Băilești (1996–2000 și 2004–2008)",
     "position_type": "mayor",
     "geography": {
       "county": "Dolj",
       "basis": "office",
-      "note": "Funcția relevantă a fost Primar în Primarie în județul Dolj."
+      "locality": "Băilești",
+      "note": "Funcția relevantă a fost cea de primar al municipiului Băilești, județul Dolj."
     },
     "crime": "luare de mită și abuz în serviciu contra intereselor persoanelor",
-    "sentence": "2 ani închisoare cu suspendare",
+    "sentence": "2 ani închisoare cu suspendare condiționată, cu termen de încercare de 4 ani",
     "sentence_years": 2,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 25 septembrie 2013. Condamnarea inculpatului NEGREȚ IOAN, primar al Municipiului Băilești, la pedeapsa de 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru săvârșirea infracțiunilor de luare de mită și abuz în serviciu contra intereselor persoanelor.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 2.863 din 25 septembrie 2013, l-a condamnat definitiv pe Ioan Negreț, fost primar al municipiului Băilești, la 2 ani închisoare cu suspendare condiționată, pe un termen de încercare de 4 ani, pentru luare de mită și abuz în serviciu contra intereselor persoanelor. Sursele electorale locale confirmă că a fost primar PNL în mandatele 1996–2000 și 2004–2008.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4359"
+      },
+      {
+        "label": "Gazeta de Sud - alegerile locale din Băilești",
+        "kind": "press",
+        "url": "https://www.gds.ro/Local/2004-06-23/Liberalii-au-cistigat-Primaria-Bailesti/",
+        "description": "Confirmă alegerea lui Ioan Negreț din partea PNL și mandatul anterior 1996–2000."
+      },
+      {
+        "label": "Gazeta de Sud - alegeri locale 2008",
+        "kind": "press",
+        "url": "https://www.gds.ro/Local/2008-06-03/57-de-primari-au-luat-din-prima/",
+        "description": "Confirmă că Ioan Negreț, PNL, a deținut Primăria Băilești în mandatul 2004–2008."
       },
       {
         "label": "România Curată",
@@ -38198,26 +40027,38 @@ export const politicianAdditions = [
   {
     "name": "Deaconu Lelioara",
     "party": "Independent",
-    "position": "Subprefect în Prefectura",
+    "position": "Fost subprefect al județului Gorj (2006–2007)",
     "position_type": "other",
     "geography": {
       "county": "Gorj",
       "basis": "office",
-      "note": "Funcția relevantă a fost Subprefect în Prefectura în județul Gorj."
+      "locality": "Târgu Jiu",
+      "note": "A exercitat funcția publică de subprefect al județului Gorj din ianuarie 2006 până în decembrie 2007."
     },
-    "crime": ": abuz în serviciu și instigare la fals intelectual, ambele în formă continuată",
-    "sentence": "2 ani închisoare cu suspendare",
+    "crime": "abuz în serviciu și instigare la fals intelectual, ambele în formă continuată",
+    "sentence": "2 ani închisoare cu suspendare, cu termen de încercare de 6 ani",
     "sentence_years": 2,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 3 iulie 2014. Condamnă pe inculpatul DEACONU NICOLAE, avocat în cadrul Baroului Gorj, la data faptelor, la o pedeapsă de 2 ani închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 6 ani și interzicerea pe o perioadă de 2 ani după executarea pedepsei principale a drepturilor: de a fi ales în autoritățile publice sau în orice alte funcții publice și de a ocupa o funcție care implică exercițiul autorității de stat, pentru săvârșirea infracțiunilor concurente de: complicitate la abuz în serviciu în formă continuată, uz de fals și fals în declarații.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 210 din 3 iulie 2014, a condamnat-o definitiv pe Lelioara Deaconu, subprefect al județului Gorj la data faptelor, la 2 ani închisoare cu suspendare pe un termen de încercare de 6 ani, pentru abuz în serviciu și instigare la fals intelectual, ambele în formă continuată. Potrivit DNA, în perioada 2002–2007, folosindu-se de atribuțiile de secretar și membru al Comisiei județene de fond funciar, a determinat întocmirea unor documente incomplete sau falsificate și a susținut reconstituirea nelegală a dreptului de proprietate asupra unor terenuri. Textul anterior al profilului descria în mod eronat condamnarea distinctă a soțului său, Nicolae Deaconu.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5146"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1726"
+      },
+      {
+        "label": "Guvernul României - încetarea funcției de subprefect",
+        "kind": "official",
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/87718",
+        "description": "Hotărârea Guvernului nr. 1.476/2007 constată încetarea funcției publice de subprefect al județului Gorj."
       },
       {
         "label": "România Curată",
@@ -38298,134 +40139,6 @@ export const politicianAdditions = [
         "label": "Gazeta de Sud — candidatura la Primăria Craiova",
         "kind": "press",
         "url": "https://www.gds.ro/Actualitate/2004-04-06/Dinel-Staicu-candidat-la-primarie/"
-      }
-    ]
-  },
-  {
-    "name": "Cristea Ioana",
-    "party": "PC",
-    "position": "Director executiv în Directia generala de asistenta sociala si protectia copilului (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director executiv în Directia generala de asistenta sociala si protectia copilului (Consiliu Local) în județul Dambovita."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Cristea Ioana a fost condamnat definitiv la 26 iunie 2013 la 4 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Director executiv în Directia generala de asistenta sociala si protectia copilului (Consiliu Local). Infracțiunea reținută: Fapte de corupție legate de fonduri europene.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4188"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Cristea Ioana indică județul Dambovita, funcția \"Director executiv\", instituția \"Directia generala de asistenta sociala si protectia copilului (Consiliu Local)\", decizia 942 și condamnarea din 26/06/2013."
-      }
-    ]
-  },
-  {
-    "name": "Gabrian Viorica",
-    "party": "PC",
-    "position": "Sef serviciu în Consiliu judetean",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef serviciu în Consiliu judetean în județul Dambovita."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 iunie 2013. Condamnarea inculpatului STĂVĂRESCU VICTOR, administrator la mai multe societăți comerciale din județul Dâmbovița, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de înșelăciune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4188"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Gabrian Viorica indică județul Dambovita, funcția \"Sef serviciu\", instituția \"Consiliu judetean\", decizia 942 și condamnarea din 26/06/2013."
-      }
-    ]
-  },
-  {
-    "name": "Huiu Ileana Andreea",
-    "party": "PC",
-    "position": "Sef birou în Directia generala de asistenta sociala si protectia copilului (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef birou în Directia generala de asistenta sociala si protectia copilului (Consiliu Local) în județul Dambovita."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Huiu Ileana Andreea a fost condamnat definitiv la 26 iunie 2013 la 4 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Sef birou în Directia generala de asistenta sociala si protectia copilului (Consiliu Local). Infracțiunea reținută: Fapte de corupție legate de fonduri europene.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4188"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Huiu Ileana Andreea indică județul Dambovita, funcția \"Sef birou\", instituția \"Directia generala de asistenta sociala si protectia copilului (Consiliu Local)\", decizia 942 și condamnarea din 26/06/2013."
-      }
-    ]
-  },
-  {
-    "name": "Toma Giusepe",
-    "party": "PC",
-    "position": "Sef birou în Directia generala de asistenta sociala si protectia copilului (Consiliu Local)",
-    "position_type": "other",
-    "geography": {
-      "county": "Dambovita",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Sef birou în Directia generala de asistenta sociala si protectia copilului (Consiliu Local) în județul Dambovita."
-    },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "4 ani închisoare cu suspendare",
-    "sentence_years": 4,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 26 iunie 2013. Condamnarea inculpatului STĂVĂRESCU VICTOR, administrator la mai multe societăți comerciale din județul Dâmbovița, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani, pentru săvârșirea infracțiunii de înșelăciune.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4188"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Toma Giusepe indică județul Dambovita, funcția \"Sef birou\", instituția \"Directia generala de asistenta sociala si protectia copilului (Consiliu Local)\", decizia 942 și condamnarea din 26/06/2013."
       }
     ]
   },
@@ -38651,28 +40364,39 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Cutean Emilian Vasile",
-    "party": "Independent",
-    "position": "Secretar de stat în Guvernul Romaniei",
+    "name": "Cutean Vasile Emilian",
+    "party": "PSD",
+    "position": "Fost deputat PSD de Alba (2004–2008); fost secretar de stat la SSPR",
     "position_type": "secretary_of_state",
     "geography": {
-      "county": "Bucuresti",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Secretar de stat în Guvernul Romaniei în județul Bucuresti."
+      "county": "Alba",
+      "basis": "political_base",
+      "note": "A fost ales deputat PSD în circumscripția Alba în legislatura 2004–2008; faptele au legătură cu funcția națională de secretar de stat la SSPR."
     },
-    "crime": "abuz în serviciu",
-    "sentence": "5 ani închisoare",
+    "crime": "efectuarea de operațiuni financiare incompatibile cu funcția și abuz în serviciu contra intereselor publice, ambele în formă continuată",
+    "sentence": "5 ani închisoare cu executare; pedeapsă constatată ca executată la rejudecarea definitivă din 2019",
     "sentence_years": 5,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 7 februarie 2012. Condamnarea inculpatului CUTEAN EMILIAN VASILE, fost secretar de stat la Secretariatul de Stat pentru Problemele Revoluționarilor din decembrie 1989 (SSPR), la pedeapsa de 5 ani închisoare, pentru săvârșirea următoarelor infracțiuni: efectuarea de operațiuni financiare incompatibile cu funcția sa, utilizând informații obținute în virtutea acestei funcții și abuz în serviciu contra intereselor publice, în formă calificată, dacă funcționarul public a obținut pentru sine sau pentru altul un avantaj patrimonial sau nepatrimonial, ambele în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel București l-a condamnat definitiv în 2012 pe Vasile Emilian Cutean, fost secretar de stat la Secretariatul de Stat pentru Problemele Revoluționarilor din Decembrie 1989, la 5 ani închisoare cu executare pentru efectuarea de operațiuni financiare incompatibile cu funcția și abuz în serviciu, ambele în formă continuată. După admiterea unei cereri de revizuire în 2016 și desființarea hotărârilor anterioare, Curtea de Apel București a pronunțat la 27 februarie 2019 o nouă condamnare definitivă pentru aceleași infracțiuni și la aceeași pedeapsă, constatând-o executată. DNA arată că aproape 300.000 lei au fost virați fără bază legală unei asociații pe care Cutean o conducea. Camera Deputaților confirmă mandatul său de deputat PSD de Alba din 2004–2008.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2968"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=458"
+      },
+      {
+        "label": "Camera Deputaților - validarea mandatelor din 2004",
+        "kind": "official",
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/57931",
+        "description": "Hotărârea Camerei Deputaților nr. 36/2004 îl indică pe Cutean Vasile Emilian, ales în circumscripția Alba din partea PSD."
       },
       {
         "label": "România Curată",
@@ -38772,28 +40496,39 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Cioflina Dumitru",
+    "name": "Cioflină Dumitru",
     "party": "Independent",
-    "position": "Secretar de stat în Ministerul apararii nationale",
+    "position": "Fost secretar de stat în Ministerul Apărării Naționale și fost șef al Marelui Stat Major General",
     "position_type": "secretary_of_state",
     "geography": {
-      "county": "Bucuresti",
+      "county": "București",
       "basis": "office",
-      "note": "Funcția relevantă a fost Secretar de stat în Ministerul apararii nationale în județul Bucuresti."
+      "locality": "București",
+      "note": "Funcțiile relevante au fost exercitate la nivel național în conducerea Ministerului Apărării Naționale."
     },
     "crime": "abuz în serviciu contra intereselor publice, în formă calificată",
-    "sentence": "2 ani închisoare",
+    "sentence": "2 ani închisoare în regim de detenție",
     "sentence_years": 2,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 mai 2013. Condamnarea inculpatului CIOFLINĂ DUMITRU, fost secretar de stat în Ministerul Apărării Naționale (M.",
-    "verified_at": "2026-06-10",
+    "details": "Înalta Curte de Casație și Justiție, prin decizia penală nr. 124 din 20 mai 2013, l-a condamnat definitiv pe Dumitru Cioflină, fost secretar de stat în Ministerul Apărării Naționale și fost șef al Marelui Stat Major General, la 2 ani închisoare în regim de detenție pentru abuz în serviciu contra intereselor publice, în formă calificată. Cauza privea schimbul, aprobat în 1998, dintre terenuri administrate de MApN în Voluntari și terenuri din Ștefănești; instanța l-a obligat în solidar cu George Becali la plata a 421.280 USD, plus dobândă, către stat. Cioflină a fost eliberat condiționat în aprilie 2014.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4095"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1992"
+      },
+      {
+        "label": "Digi24 - eliberare condiționată",
+        "kind": "press",
+        "url": "https://www.digi24.ro/stiri/actualitate/justitie/dumitru-cioflina-va-fi-eliberat-conditionat-227963"
       },
       {
         "label": "România Curată",
@@ -38804,28 +40539,46 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Ticheriu Ion",
-    "party": "Independent",
-    "position": "Viceprimar în Primarie",
-    "position_type": "local_official",
+    "name": "Țicheriu Ion",
+    "party": "PSD",
+    "position": "Primar PSD al comunei Brebu (mandatul 2024–2028); viceprimar la data faptelor",
+    "position_type": "mayor",
     "geography": {
-      "county": "Caras-Severin",
+      "county": "Caraș-Severin",
       "basis": "office",
-      "note": "Funcția relevantă a fost Viceprimar în Primarie în județul Caras-Severin."
+      "locality": "Brebu",
+      "note": "A fost viceprimar al comunei Brebu la data faptelor și este primar al comunei în mandatul 2024–2028."
     },
     "crime": "trafic de influență",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
+    "sentence": "1 an și 6 luni închisoare, cu amânarea aplicării pedepsei pe un termen de supraveghere de 2 ani",
     "sentence_years": 1.5,
     "conviction_year": 2014,
     "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ticheriu Ion a fost condamnat definitiv la 11 noiembrie 2014 la 1 an și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Viceprimar în Primarie. Infracțiunea reținută: trafic de influență.",
-    "verified_at": "2026-06-10",
+    "execution_type": "Amânarea aplicării pedepsei",
+    "details": "Curtea de Apel Timișoara, prin decizia penală nr. 940 din 11 noiembrie 2014, a stabilit pentru Ion Țicheriu, viceprimar al comunei Brebu la data faptelor, pedeapsa de 1 an și 6 luni închisoare pentru trafic de influență, cu amânarea aplicării pedepsei pe un termen de supraveghere de 2 ani. Potrivit rechizitoriului DNA, cauza privea atribuirea și decontarea unor lucrări de întreținere a pajiștilor comunale care nu erau executate sau erau realizate doar parțial. Țicheriu a devenit ulterior primar al comunei Brebu și a câștigat mandatul 2024–2028 din partea PSD.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5604"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=4562"
+      },
+      {
+        "label": "Asociația Comunelor din România - primari 2024–2028",
+        "kind": "official",
+        "url": "https://www.acor.ro/comune-membre-acor-caras-severin/",
+        "description": "Îl indică pe Ion Țicheriu drept primar al comunei Brebu în mandatul 2024–2028."
+      },
+      {
+        "label": "Rezultatele alegerilor locale 2024 - Brebu",
+        "kind": "press",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_caras-severin/primarie/brebu/5",
+        "description": "Rezultatele îl indică pe Ion Țicheriu, PSD, câștigător al Primăriei Brebu."
       },
       {
         "label": "România Curată",
@@ -44873,38 +46626,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
         "description": "Rândul CSV pentru Borcea Cristian indică județul Bucuresti, funcția \"Presedinte executiv\", instituția \"Societate comerciala\", decizia 0 și condamnarea din 04/03/2014."
-      }
-    ]
-  },
-  {
-    "name": "Borsos Sandor",
-    "party": "PC",
-    "position": "Administrator în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Galati",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Galati."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 luni închisoare cu suspendare",
-    "sentence_years": 0.25,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 martie 2014. Condamnă pe inculpata BORSOS SANDOR, fost administrator al unei societăți comerciale, la o pedeapsă 3 luni închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 2 ani și 3 luni, pentru săvârșirea, infracțiunii de abuz în serviciu contra intereselor publice.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4769"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Borsos Sandor indică județul Galati, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 995 și condamnarea din 20/03/2014."
       }
     ]
   },
@@ -51175,38 +52896,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Serghe Adrian",
-    "party": "PC",
-    "position": "Administrator în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Galati",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Administrator în Societate comerciala în județul Galati."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 luni închisoare cu suspendare",
-    "sentence_years": 0.25,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 20 martie 2014. Condamnă pe inculpata SERGHE ADRIAN, fost administrator al unei societăți comerciale, la o pedeapsă 3 luni închisoare cu suspendarea executării pedepsei pe durata unui termen de încercare de 2 ani și 3 luni, pentru săvârșirea, infracțiunii de abuz în serviciu contra intereselor publice în formă continuată.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4769"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Serghe Adrian indică județul Galati, funcția \"Administrator\", instituția \"Societate comerciala\", decizia 995 și condamnarea din 20/03/2014."
-      }
-    ]
-  },
-  {
     "name": "Sima Sorin",
     "party": "Independent",
     "position": "Administrator în Societate comerciala",
@@ -52776,27 +54465,39 @@ export const politicianAdditions = [
   },
   {
     "name": "Hojda Samson",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "PDL",
+    "position": "Fost viceprimar PDL al comunei Periam (2008–2012); consilier local la data faptelor",
     "position_type": "local_official",
     "geography": {
-      "county": "Timis",
+      "county": "Timiș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Timis."
+      "locality": "Periam",
+      "note": "A fost consilier local PD, apoi viceprimar PDL al comunei Periam în mandatul 2008–2012."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "1 an închisoare cu suspendare",
+    "crime": "folosire sau prezentare de documente ori declarații false pentru obținerea de fonduri europene; tentativă la aceeași infracțiune; fals în înscrisuri sub semnătură privată în formă continuată",
+    "sentence": "1 an închisoare cu suspendarea executării, cu termen de încercare de 3 ani",
     "sentence_years": 1,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Hojda Samson a fost condamnat definitiv la 11 iunie 2014 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Consilier local în Consiliu local. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
+    "details": "Curtea de Apel Timișoara, prin decizia penală nr. 512 din 11 iunie 2014, l-a condamnat definitiv pe Samson Hojda, consilier local la data faptelor, la 1 an închisoare cu suspendarea executării pe un termen de încercare de 3 ani. Infracțiunile au fost folosirea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene, tentativa la aceeași infracțiune și falsul în înscrisuri sub semnătură privată în formă continuată. A fost obligat la plata a 2.481,79 lei reprezentând dobânzi și penalități. Statutul oficial al comunei Periam îl identifică drept consilier local PD și viceprimar PDL în mandatul 2008–2012.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5026"
+      },
+      {
+        "label": "DNA - trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=2629"
+      },
+      {
+        "label": "Comuna Periam - statutul UAT",
+        "kind": "official",
+        "url": "https://emol.ro/pluginfile.php/1/local_emol/statut_ro/2855/1.1%20STATUT%20Comuna%20Periam.pdf",
+        "description": "Istoricul aleșilor locali îl indică drept consilier PD și viceprimar PDL în mandatul 2008–2012."
       },
       {
         "label": "România Curată",
@@ -52808,27 +54509,43 @@ export const politicianAdditions = [
   },
   {
     "name": "Ispas Gheorghe",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "PSD",
+    "position": "Consilier local PSD al comunei Mihai Bravu; fost viceprimar",
     "position_type": "local_official",
     "geography": {
       "county": "Giurgiu",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Giurgiu."
+      "locality": "Mihai Bravu",
+      "note": "La data faptelor era consilier local și președinte al Comisiei Economice din cadrul Primăriei Mihai Bravu. A fost viceprimar în mandatul 2020–2024, iar lista oficială curentă îl indică drept consilier local PSD."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Folosirea sau prezentarea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; fals în înscrisuri sub semnătură privată, în formă continuată; participație improprie la fals intelectual, în formă continuată",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani",
     "sentence_years": 3,
     "conviction_year": 2011,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 16 martie 2011. Condamnarea inculpatului ISPAS GHEORGHE, administrator al SC „VILIS” SRL Mihai Bravu, județul Giurgiu, consilier local și președinte al Comisiei Economice din cadrul Primăriei Mihai Bravu, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere pe un termen de încercare de 5 ani pentru săvârșirea următoarelor infracțiuni: - folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete, care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor; - fals în înscrisuri sub semnătură privată, în formă continuată; - participație improprie la fals intelectual, în formă continuată.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 607 din 16 martie 2011, Curtea de Apel București l-a condamnat definitiv pe Gheorghe Ispas, administrator al SC Vilis SRL și, la data faptelor, consilier local și președinte al Comisiei Economice din cadrul Primăriei Mihai Bravu, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 5 ani. DNA arată că a falsificat 94 de contracte de arendare și tabele centralizatoare pentru a obține nelegal 50.420 euro din fonduri SAPARD. Instanța l-a obligat, în solidar cu societatea, la plata a 231.671,9 lei, plus majorări, către Agenția de Plăți pentru Dezvoltare Rurală și Pescuit. Site-ul oficial al comunei îl consemnează ca viceprimar în mandatul 2020–2024 și îl listează în prezent drept consilier local PSD.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=2272"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1164"
+      },
+      {
+        "label": "Primăria Mihai Bravu — lista consilierilor locali",
+        "kind": "official",
+        "url": "https://primariamihaibravu.ro/consiliul-local/lista-consilieri/"
+      },
+      {
+        "label": "Primăria Mihai Bravu — declarații de avere 2020–2024",
+        "kind": "official",
+        "url": "https://primariamihaibravu.ro/primaria/declaratii-de-avere/"
       },
       {
         "label": "România Curată",
@@ -52871,28 +54588,34 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Mihai Marinas",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "name": "Mihai Marinaș",
+    "party": "PDL",
+    "position": "Fost consilier local PDL al comunei Verbița",
     "position_type": "local_official",
     "geography": {
       "county": "Dolj",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Dolj."
+      "locality": "Verbița",
+      "note": "La data faptelor și a condamnării era consilier local al comunei Verbița, județul Dolj."
     },
-    "crime": "înșelăciune",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Folosirea sau prezentarea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; înșelăciune; patru infracțiuni de fals în înscrisuri sub semnătură privată",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani",
     "sentence_years": 3,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 10 iunie 2013. Condamnarea inculpatului MIHAI MARINAȘ, consilier local în cadrul Consiliului Local al comunei Verbița, județul Dolj, la pedeapsa de 3 ani închisoare cu suspendare sub supraveghere, pe un termen de încercare de 6 ani, pentru săvârșirea următoarelor infracțiuni: folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete care are ca rezultat obținerea pe nedrept de fonduri din bugetul general al Comunităților Europene sau din bugetele administrate de acestea ori în numele lor, înșelăciune și patru infracțiuni de fals în înscrisuri sub semnătură privată.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 1.285 din 10 iunie 2013, Curtea de Apel Craiova l-a condamnat definitiv pe Mihai Marinaș, consilier local al comunei Verbița, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani. Condamnarea privește obținerea pe nedrept de fonduri europene prin documente ori declarații false, înșelăciune și patru infracțiuni de fals în înscrisuri sub semnătură privată. Instanța l-a obligat la plata către APIA a 110.297,46 lei, plus dobânzi și penalități. Presa locală contemporană îl identifica drept consilier PDL al comunei Verbița.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4156"
+      },
+      {
+        "label": "Cuvântul Libertății — consilier PDL Verbița",
+        "kind": "press",
+        "url": "https://cvlpress.ro/15.06.2011/un-consilier-local-pdl-din-verbita-incaseaza-bani-de-la-apia-cu-adeverinte-false/"
       },
       {
         "label": "România Curată",
@@ -53031,28 +54754,34 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Rusan Vintila",
+    "name": "Rusan Vintilă",
     "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "position": "Fost consilier local al comunei Periam",
     "position_type": "local_official",
     "geography": {
-      "county": "Timis",
+      "county": "Timiș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Timis."
+      "locality": "Periam",
+      "note": "La data faptelor era consilier local al comunei Periam, județul Timiș. Afilierea politică nu a putut fi confirmată din sursele consultate."
     },
-    "crime": "folosire sau prezentare de documente ori declarații false",
-    "sentence": "1 an închisoare cu suspendare",
+    "crime": "Folosirea sau prezentarea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; tentativă la aceeași infracțiune; fals în înscrisuri sub semnătură privată, în formă continuată",
+    "sentence": "1 an închisoare cu suspendarea executării, cu termen de încercare de 3 ani",
     "sentence_years": 1,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Rusan Vintila a fost condamnat definitiv la 11 iunie 2014 la 1 an închisoare cu suspendare. Funcția relevantă consemnată în sursă: Consilier local în Consiliu local. Infracțiunea reținută: folosire sau prezentare de documente ori declarații false.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 512 din 11 iunie 2014, Curtea de Apel Timișoara l-a condamnat definitiv pe Rusan Vintilă, consilier local al comunei Periam la data faptelor, la 1 an de închisoare cu suspendarea executării, cu termen de încercare de 3 ani. Condamnarea privește folosirea de documente ori declarații false pentru obținerea pe nedrept de fonduri europene, tentativa la aceeași infracțiune și falsul în înscrisuri sub semnătură privată în formă continuată. Instanța l-a obligat și la plata a 1.533,93 lei, reprezentând dobânzi și penalități pentru achitarea cu întârziere a debitului principal.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5026"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=2629"
       },
       {
         "label": "România Curată",
@@ -53096,27 +54825,43 @@ export const politicianAdditions = [
   },
   {
     "name": "Ungureanu Daniel",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "PSD",
+    "position": "Viceprimar PSD al comunei Corbeni",
     "position_type": "local_official",
     "geography": {
-      "county": "Arges",
+      "county": "Argeș",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Arges."
+      "locality": "Corbeni",
+      "note": "La data faptelor era consilier local în Corbeni. A fost ales viceprimar în 2020 și reales pentru mandatul 2024–2028; documentele oficiale îl indică drept ales local PSD."
     },
-    "crime": "Fapte de corupție legate de fonduri europene",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Folosirea sau prezentarea cu rea-credință de documente ori declarații false pentru obținerea pe nedrept de fonduri europene; schimbarea fără respectarea legii a destinației fondurilor europene; fals în înscrisuri sub semnătură privată, toate în formă continuată",
+    "sentence": "3 ani închisoare cu suspendarea executării, cu termen de încercare de 4 ani și 100 de zile de muncă în folosul comunității",
     "sentence_years": 3,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ungureanu Daniel a fost condamnat definitiv la 19 iunie 2014 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Consilier local în Consiliu local. Infracțiunea reținută: Fapte de corupție legate de fonduri europene.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 359 din 19 iunie 2014, Curtea de Apel Pitești l-a condamnat definitiv pe Daniel Ungureanu, fost consilier local în Corbeni, la 3 ani de închisoare cu suspendarea executării, cu termen de încercare de 4 ani și obligația de a presta 100 de zile de muncă în folosul comunității. Condamnarea privește obținerea pe nedrept de fonduri europene prin documente ori declarații false, schimbarea nelegală a destinației fondurilor și fals în înscrisuri sub semnătură privată, toate în formă continuată. El și coinculpatul au fost obligați în solidar la plata debitelor de 160.064,15 lei și 64.608,28 lei, plus accesorii. Documentele oficiale locale confirmă că ulterior a revenit în administrația locală, ca viceprimar PSD al comunei Corbeni.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5079"
+      },
+      {
+        "label": "Consiliul Județean Argeș — profil ales local",
+        "kind": "official",
+        "url": "https://www.cjarges.ro/web/corbeni/ungureanu-daniel1"
+      },
+      {
+        "label": "Consiliul Local Corbeni — alegerea viceprimarului în 2020",
+        "kind": "official",
+        "url": "https://www.cjarges.ro/documents/45853/951218/HCL%2B10%2BDIN%2B17.12.2020.pdf/86a6419c-6f2b-4e8e-af3e-64b776eec2d0"
+      },
+      {
+        "label": "Consiliul Local Corbeni — stat de funcții 2025",
+        "kind": "official",
+        "url": "https://primariacorbeni.ro/wp-content/uploads/2025/10/HCL-organigrama-nr.-18-din-27.02.2025.pdf"
       },
       {
         "label": "România Curată",
@@ -53416,27 +55161,38 @@ export const politicianAdditions = [
   },
   {
     "name": "Berendi Gheorghe",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "UDMR",
+    "position": "Fost consilier local UDMR al comunei Bătarci",
     "position_type": "local_official",
     "geography": {
       "county": "Satu Mare",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Satu Mare."
+      "locality": "Bătarci",
+      "note": "La data trimiterii în judecată era consilier local UDMR în comuna Bătarci, județul Satu Mare; comunicatul condamnării îl indică drept fost consilier local."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "Dare de mită, două acte materiale; complicitate la contrabandă calificată",
+    "sentence": "3 ani închisoare cu suspendarea condiționată a executării, cu termen de încercare de 5 ani",
     "sentence_years": 3,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 februarie 2014. Condamnă pe inculpatul BERENDI GHEORGHE, fost consilier local în Consiliul Local Batarci, jud.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 62 din 28 februarie 2014, Curtea de Apel Oradea l-a condamnat definitiv pe Gheorghe Berendi, fost consilier local în Bătarci, la 3 ani de închisoare cu suspendarea condiționată a executării, cu termen de încercare de 5 ani, pentru dare de mită în două acte materiale și complicitate la contrabandă calificată. Potrivit DNA, în 2011 a oferit câte 10.000 de euro unui lucrător vamal și unei persoane din conducerea structurii vamale Satu Mare pentru facilitarea introducerii în țară a unui TIR cu țigări și a ajutat la introducerea din Ucraina a 100.490 de pachete de țigări; instanța a dispus confiscarea acestora. Presa locală contemporană îl identifica drept consilier UDMR.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4732"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=3121"
+      },
+      {
+        "label": "Informația Zilei — afiliere UDMR",
+        "kind": "press",
+        "url": "https://informatia-zilei.ro/consilierul-udmr-gheorghe-berendi-a-fost-trimis-in-judecata-de-procurorii-dna/berendi/"
       },
       {
         "label": "România Curată",
@@ -53480,27 +55236,43 @@ export const politicianAdditions = [
   },
   {
     "name": "Bojenoiu Aurel",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "PNL",
+    "position": "Fost consilier local PNL al municipiului Craiova",
     "position_type": "local_official",
     "geography": {
       "county": "Dolj",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Dolj."
+      "locality": "Craiova",
+      "note": "A fost consilier local PNL al municipiului Craiova în mandatul 2004–2008 și candidat PNL la Primăria Craiova în 2004."
     },
     "crime": "conflict de interese",
-    "sentence": "1 an și 6 luni închisoare",
+    "sentence": "1 an și 6 luni închisoare cu executare",
     "sentence_years": 1.5,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 martie 2014. Condamnă pe inculpatul BOJENOIU AUREL, fost consilier local, în cadrul Consiliului Local al Municipiului Craiova, la o pedeapsă de 1an și 6 luni închisoare, cu interzicerea drepturilor de: a fi ales în autoritățile publice sau în funcții elective publice, de a ocupa o funcție implicând exercițiul autorității de stat, pentru săvârșirea infracțiunii de conflict de interese.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 67 din 27 martie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Aurel Bojenoiu, fost consilier local PNL al municipiului Craiova, la 1 an și 6 luni de închisoare cu executare pentru conflict de interese. Potrivit rechizitoriului DNA, la 31 octombrie 2006 a participat la ședința Consiliului Local Craiova și a votat hotărârea prin care s-a avizat un contract de închiriere între primărie și o societate la care erau acționari fiica și ginerele său. Presa locală a confirmat că soluția definitivă a fost cu executare.",
+    "verified_at": "2026-10-01",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=4785"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1462"
+      },
+      {
+        "label": "Primăria Craiova — hotărâre semnată ca președinte de ședință",
+        "kind": "official",
+        "url": "https://www.primariacraiova.ro/uploads/articole/attachments/67b82fd820cf5344412640.pdf"
+      },
+      {
+        "label": "Gazeta de Sud — condamnarea definitivă cu executare",
+        "kind": "press",
+        "url": "https://www.gds.ro/Local/2014-03-28/Craiova-Fostul-consilier-local-Aurel-Bojenoiu-condamnat-la-inchisoare/"
       },
       {
         "label": "România Curată",
@@ -53895,28 +55667,39 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Chisarau Iacob",
-    "party": "Independent",
-    "position": "Consilier judetean în Consiliu judetean",
+    "name": "Chișărău Iacob",
+    "party": "PDL",
+    "position": "Fost consilier județean PDL în Caraș-Severin și fost director general al Moldomin SA",
     "position_type": "local_official",
     "geography": {
-      "county": "Caras-Severin",
+      "county": "Caraș-Severin",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier judetean în Consiliu judetean în județul Caras-Severin."
+      "locality": "Moldova Nouă",
+      "note": "A fost consilier județean PDL în Caraș-Severin în mandatul 2008–2012 și director general al Moldomin SA Moldova Nouă."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
+    "crime": "Complicitate la cumpărare de influență; complicitate la trafic de influență; asociere pentru săvârșirea de infracțiuni",
+    "sentence": "3 ani închisoare în regim de detenție",
     "sentence_years": 3,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 13 februarie 2013. Condamnarea inculpatului CHIȘĂRĂU IACOB, consilier județean în cadrul Consiliului Județean Caraș-Severin și director general al S.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 517 din 13 februarie 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Iacob Chișărău, consilier județean PDL în Caraș-Severin și director general al Moldomin SA Moldova Nouă, la 3 ani de închisoare în regim de detenție pentru complicitate la cumpărare de influență, complicitate la trafic de influență și asociere pentru săvârșirea de infracțiuni. Potrivit DNA, în februarie–martie 2012 a intermediat circuitul prin care un judecător, atunci vicepreședinte al Curții de Apel Timișoara, a pretins 60.000 de euro și a primit 50.000 de euro pentru a interveni în două litigii privind Moldomin. Instanța i-a interzis pe durata executării dreptul de a fi ales și de a ocupa o funcție ce implică exercițiul autorității de stat.",
+    "verified_at": "2026-10-02",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3915"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=3122"
+      },
+      {
+        "label": "Consiliul Județean Caraș-Severin — statutul județului",
+        "kind": "official",
+        "url": "https://www.cjcs.ro/data_files/2023/Statut-CS-02.23.pdf"
       },
       {
         "label": "România Curată",
@@ -54472,27 +56255,38 @@ export const politicianAdditions = [
   },
   {
     "name": "Duca Traian",
-    "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "party": "PNL",
+    "position": "Fost consilier local PNL al comunei Motoșeni și candidat la funcția de primar",
     "position_type": "local_official",
     "geography": {
-      "county": "Bacau",
+      "county": "Bacău",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Bacau."
+      "locality": "Motoșeni",
+      "note": "Era consilier local în Motoșeni la data faptelor. A candidat la primărie în 2012 din partea Alianței pentru Bacău și în 2016 din partea PNL, apoi a fost consilier local PNL în perioada 2016–2018."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "8 luni închisoare cu suspendare",
+    "crime": "Complicitate la cumpărare de influență",
+    "sentence": "8 luni închisoare cu suspendare condiționată, cu termen de încercare de 2 ani și 8 luni",
     "sentence_years": 0.67,
     "conviction_year": 2012,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Duca Traian a fost condamnat definitiv la 19 octombrie 2012 la 8 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Consilier local în Consiliu local. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 3.352 din 19 octombrie 2012, Înalta Curte de Casație și Justiție a menținut condamnarea definitivă a lui Traian Duca, consilier local în comuna Motoșeni la data faptelor și rudă a doi candidați la bacalaureat, la 8 luni de închisoare cu suspendare condiționată, cu termen de încercare de 2 ani și 8 luni, pentru complicitate la cumpărare de influență. A fost obligat și la plata a 1.700 de lei cheltuieli judiciare. Statutul oficial al comunei confirmă că a revenit ulterior în Consiliul Local Motoșeni, ca ales PNL în perioada 2016–2018.",
+    "verified_at": "2026-10-02",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=3620"
+      },
+      {
+        "label": "Comuna Motoșeni — statutul comunei, mandatul 2016–2020",
+        "kind": "official",
+        "url": "https://emol.ro/pluginfile.php/1/local_emol/documentanexa/485/Anexa-nr-6-la-Statutul-comunei-Motoseni-judetul-Bacaupdf.pdf"
+      },
+      {
+        "label": "Biroul Electoral Central — rezultate locale 2012",
+        "kind": "official",
+        "url": "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf"
       },
       {
         "label": "România Curată",
@@ -54759,28 +56553,39 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Iliesi Sabin",
-    "party": "Independent",
-    "position": "Consilier judetean în Consiliu judetean",
+    "name": "Ilieși Sabin",
+    "party": "PDL",
+    "position": "Fost consilier județean PDL în Bistrița-Năsăud și fost lider județean PNL/PLD",
     "position_type": "local_official",
     "geography": {
-      "county": "Bistrita-Nasaud",
+      "county": "Bistrița-Năsăud",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier judetean în Consiliu judetean în județul Bistrita-Nasaud."
+      "locality": "Bistrița",
+      "note": "A fost consilier județean, lider al filialei PNL Bistrița-Năsăud, apoi al PLD și prim-vicepreședinte PDL; mandatul județean obținut pe lista PDL în 2008 a încetat în 2009."
     },
-    "crime": "trafic de influență, în forma complicității",
-    "sentence": "3 ani și 6 luni închisoare",
+    "crime": "Două infracțiuni de trafic de influență; complicitate la fals material în înscrisuri oficiale; uz de fals; folosirea influenței sau autorității funcției de conducere politică ori asociativă pentru obținerea de foloase necuvenite, în formă continuată",
+    "sentence": "3 ani și 6 luni închisoare cu executare",
     "sentence_years": 3.5,
     "conviction_year": 2014,
     "status": "convicted",
     "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Iliesi Sabin a fost condamnat definitiv la 18 iunie 2014 la 3 ani și 6 luni închisoare. Funcția relevantă consemnată în sursă: Consilier judetean în Consiliu judetean. Infracțiunea reținută: trafic de influență, în forma complicității.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.066 din 18 iunie 2014, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Sabin Ilieși la 3 ani și 6 luni de închisoare cu executare. La data faptelor era consilier județean în Bistrița-Năsăud și prodecan al Facultății de Științe Economice a Universității de Vest „Vasile Goldiș”. Dosarul privește două intervenții contra unor sume de 6.000 și 1.500 de euro, acte false folosite pentru obținerea titlului de conferențiar și folosirea influenței politice și universitare pentru controale favorabile, angajări, autorizații și promovarea examenelor. Instanța l-a obligat să restituie denunțătoarei diferența de 800 de euro și i-a interzis anumite drepturi pe durata executării și încă 2 ani după executare.",
+    "verified_at": "2026-10-02",
     "sources": [
       {
         "label": "DNA",
         "kind": "official",
         "url": "https://www.dna.ro/comunicat.xhtml?id=5051"
+      },
+      {
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=1454"
+      },
+      {
+        "label": "Consiliul Județean Bistrița-Năsăud — încetarea mandatului și afilierea PDL",
+        "kind": "official",
+        "url": "https://www.portalbn.ro/portal/bistrita-nasaud/psonline.nsf/9AFE2B446443C704C22586D3003D7664/%24FILE/CONS%2015%20apr%202009.pdf"
       },
       {
         "label": "România Curată",
@@ -55015,38 +56820,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Ladunca Aurel",
-    "party": "Independent",
-    "position": "Consilier judetean în Consiliu judetean",
-    "position_type": "local_official",
-    "geography": {
-      "county": "Vrancea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Consilier judetean în Consiliu judetean în județul Vrancea."
-    },
-    "crime": "luare de mită și trafic de influență",
-    "sentence": "3 ani închisoare cu suspendare",
-    "sentence_years": 3,
-    "conviction_year": 2014,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Ladunca Aurel a fost condamnat definitiv la 3 iulie 2014 la 3 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Consilier judetean în Consiliu judetean. Infracțiunea reținută: luare de mită și trafic de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=5149"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Ladunca Aurel indică județul Vrancea, funcția \"Consilier judetean\", instituția \"Consiliu judetean\", decizia 211 și condamnarea din 03/07/2014."
-      }
-    ]
-  },
-  {
     "name": "Lambrulescu Ioana Daniela",
     "party": "Independent",
     "position": "Consilier juridic în Prefectura",
@@ -55079,23 +56852,24 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Lati Viorel",
+    "name": "Lați Viorel",
     "party": "Independent",
-    "position": "Consilier local în Consiliu local",
+    "position": "Fost consilier local al comunei Munteni",
     "position_type": "local_official",
     "geography": {
-      "county": "Galati",
+      "county": "Galați",
       "basis": "office",
-      "note": "Funcția relevantă a fost Consilier local în Consiliu local în județul Galati."
+      "locality": "Munteni",
+      "note": "La data faptelor, Viorel Lați era consilier local al comunei Munteni, județul Galați."
     },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare cu suspendare",
+    "crime": "trafic de influență",
+    "sentence": "3 ani închisoare cu suspendare sub supraveghere; termen de încercare de 6 ani",
     "sentence_years": 3,
     "conviction_year": 2013,
     "status": "convicted",
     "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 19 iunie 2013. Condamnarea inculpatului LAȚI VIOREL, consilier local la Primăria comunei Munteni, jud.",
-    "verified_at": "2026-06-10",
+    "details": "Prin decizia penală nr. 2.152 din 19 iunie 2013, Înalta Curte de Casație și Justiție l-a condamnat definitiv pe Viorel Lați, consilier local al comunei Munteni, la 3 ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de 6 ani, pentru trafic de influență. Instanța l-a obligat să restituie denunțătorului 15.000 lei.",
+    "verified_at": "2026-10-02",
     "sources": [
       {
         "label": "DNA",
@@ -55103,10 +56877,9 @@ export const politicianAdditions = [
         "url": "https://www.dna.ro/comunicat.xhtml?id=4189"
       },
       {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Lati Viorel indică județul Galati, funcția \"Consilier local\", instituția \"Consiliu local\", decizia 2152 și condamnarea din 19/06/2013."
+        "label": "DNA — trimitere în judecată",
+        "kind": "official",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=3540"
       }
     ]
   },
@@ -57384,38 +59157,6 @@ export const politicianAdditions = [
     ]
   },
   {
-    "name": "Stan Alexandru",
-    "party": "Independent",
-    "position": "Director în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Calarasi",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Director în Societate comerciala în județul Calarasi."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "3 ani închisoare",
-    "sentence_years": 3,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Stan Alexandru a fost condamnat definitiv la 20 iunie 2012 la 3 ani închisoare. Funcția relevantă consemnată în sursă: Director în Societate comerciala. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3401"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stan Alexandru indică județul Calarasi, funcția \"Director\", instituția \"Societate comerciala\", decizia 1257 și condamnarea din 20/06/2012."
-      }
-    ]
-  },
-  {
     "name": "Suciu Mircea",
     "party": "PRM",
     "position": "Președinte PRM Năvodari; candidat la Primăria Năvodari și consilier local ales (2004)",
@@ -57498,198 +59239,6 @@ export const politicianAdditions = [
         "kind": "press",
         "url": "https://anchetaonline.ro/anaf-continua-la-instanta-suprema-razboiul-de-13-milioane-lei-cu-fostul-ofiter-sri-george-mugur-voinea-214897/",
         "description": "Confirmă apartenența la Partidul Conservator în 2013 și identitatea omului de afaceri din dosarul APIA."
-      }
-    ]
-  },
-  {
-    "name": "Stan Nicolae",
-    "party": "Independent",
-    "position": "Declarant vamal în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Declarant vamal în Societate comerciala în județul Prahova."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "2 ani și 6 luni închisoare cu suspendare",
-    "sentence_years": 2.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Stan Nicolae a fost condamnat definitiv la 27 mai 2013 la 2 ani și 6 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Declarant vamal în Societate comerciala. Infracțiunea reținută: Fapte de corupție.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4127"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stan Nicolae indică județul Prahova, funcția \"Declarant vamal\", instituția \"Societate comerciala\", decizia 1823 și condamnarea din 27/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Stanila Justina",
-    "party": "Independent",
-    "position": "Declarant vamal în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Prahova",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Declarant vamal în Societate comerciala în județul Prahova."
-    },
-    "crime": "Fapte de corupție",
-    "sentence": "1 an și 6 luni închisoare cu suspendare",
-    "sentence_years": 1.5,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 27 mai 2013. Condamnarea inculpatei STĂNILĂ JUSTINA, declarant vamal la societatea de comisionariat vamal Wim Bosman, la pedeapsa de 2 ani și 6 luni închisoare cu suspendare sub supraveghere, pe un termen de încercare de 5 ani și 6 luni, pentru săvârșirea infracțiunii de luare de mită.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=4127"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Stanila Justina indică județul Prahova, funcția \"Declarant vamal\", instituția \"Societate comerciala\", decizia 1823 și condamnarea din 27/05/2013."
-      }
-    ]
-  },
-  {
-    "name": "Tarchila Ciprian",
-    "party": "Independent",
-    "position": "Cursant în Unitate militara (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Arges",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Cursant în Unitate militara (Ministerul Apararii Nationale) în județul Arges."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tarchila Ciprian a fost condamnat definitiv la 21 mai 2012 la 1 an și 2 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Cursant în Unitate militara (Ministerul Apararii Nationale). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3265"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tarchila Ciprian indică județul Arges, funcția \"Cursant\", instituția \"Unitate militara (Ministerul Apararii Nationale)\", decizia 143 și condamnarea din 21/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Tomos Viorel",
-    "party": "Independent",
-    "position": "Cursant în Unitate militara (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Necunoscut",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Cursant în Unitate militara (Ministerul Apararii Nationale) în județul Necunoscut."
-    },
-    "crime": "cumpărare de influență",
-    "sentence": "2 ani închisoare cu suspendare",
-    "sentence_years": 2,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Tomos Viorel a fost condamnat definitiv la 21 mai 2012 la 2 ani închisoare cu suspendare. Funcția relevantă consemnată în sursă: Cursant în Unitate militara (Ministerul Apararii Nationale). Infracțiunea reținută: cumpărare de influență.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3265"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Tomos Viorel indică județul Necunoscut, funcția \"Cursant\", instituția \"Unitate militara (Ministerul Apararii Nationale)\", decizia 143 și condamnarea din 21/05/2012."
-      }
-    ]
-  },
-  {
-    "name": "Vascan Monica Daniela",
-    "party": "Independent",
-    "position": "Contabil în Societate comerciala",
-    "position_type": "other",
-    "geography": {
-      "county": "Bacau",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Contabil în Societate comerciala în județul Bacau."
-    },
-    "crime": "asociere pentru săvârșirea de infracțiuni, înșelăciune, cu consecințe deosebit de grave și spălare de bani",
-    "sentence": "10 ani închisoare",
-    "sentence_years": 10,
-    "conviction_year": 2013,
-    "status": "convicted",
-    "execution_type": "Cu executare",
-    "details": "Potrivit DNA, condamnarea definitivă a fost pronunțată la 28 februarie 2013. Condamnarea inculpatei VASCAN MONICA DANIELA, contabil la SC AMAPOLLA PREST SRL, la pedeapsa de 10 ani închisoare pentru săvârșirea următoarelor infracțiuni: asociere pentru săvârșirea de infracțiuni, înșelăciune, cu consecințe deosebit de grave și spălare de bani.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3951"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Vascan Monica Daniela indică județul Bacau, funcția \"Contabil\", instituția \"Societate comerciala\", decizia 726 și condamnarea din 28/02/2013."
-      }
-    ]
-  },
-  {
-    "name": "Zagrean Marius-Ioan",
-    "party": "Independent",
-    "position": "Cursant în Unitate militara (Ministerul Apararii Nationale)",
-    "position_type": "other",
-    "geography": {
-      "county": "Valcea",
-      "basis": "office",
-      "note": "Funcția relevantă a fost Cursant în Unitate militara (Ministerul Apararii Nationale) în județul Valcea."
-    },
-    "crime": "fals intelectual; abuz în serviciu; uz de fals",
-    "sentence": "1 an și 2 luni închisoare cu suspendare",
-    "sentence_years": 1.17,
-    "conviction_year": 2012,
-    "status": "convicted",
-    "execution_type": "Cu suspendare",
-    "details": "Potrivit datelor România Curată și comunicatului DNA, Zagrean Marius-Ioan a fost condamnat definitiv la 21 mai 2012 la 1 an și 2 luni închisoare cu suspendare. Funcția relevantă consemnată în sursă: Cursant în Unitate militara (Ministerul Apararii Nationale). Infracțiunea reținută: fals intelectual; abuz în serviciu; uz de fals.",
-    "verified_at": "2026-06-10",
-    "sources": [
-      {
-        "label": "DNA",
-        "kind": "official",
-        "url": "https://www.dna.ro/comunicat.xhtml?id=3265"
-      },
-      {
-        "label": "România Curată",
-        "kind": "press",
-        "url": "https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv",
-        "description": "Rândul CSV pentru Zagrean Marius-Ioan indică județul Valcea, funcția \"Cursant\", instituția \"Unitate militara (Ministerul Apararii Nationale)\", decizia 143 și condamnarea din 21/05/2012."
       }
     ]
   },
@@ -58058,18 +59607,18 @@ export const politicianAdditions = [
   {
     name: 'Pintilie Constantin Cristian',
     party: 'Pro Romania',
-    position: 'Consilier local in cadrul Consiliului Local Buhu\u0219i, jude\u021bul Bac\u0103u',
+    position: 'Fost consilier local al orașului Buhuși, județul Bacău (mandatul 2020-2024)',
     position_type: 'local_official',
     geography: {
-      county: 'Bac\u0103u',
+      county: 'Bacău',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Buhu\u0219i, jude\u021bul Bac\u0103u.',
+      note: 'Funcția publică relevantă a fost exercitată în Consiliul Local Buhuși, județul Bacău.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in decembrie 2023 ca societatea in cadrul careia detinea 50% din partile sociale si calitatea de administrator a incheiat 38 de contracte, in valoare de 145.100,3 lei, cu institutii din subordinea Consiliului Local Buhu\u0219i.',
-    verified_at: '2026-06-14',
+      'ANI a constatat în decembrie 2023 că, în mandatul de consilier local început în 2020, societatea în care deținea 50% din părțile sociale și funcția de administrator a încheiat 38 de contracte comerciale de furnizare, în valoare totală de 145.100,3 lei, cu instituții subordonate Primăriei Buhuși. Este o constatare administrativă de incompatibilitate, nu o acuzație penală. Documentele oficiale ale orașului confirmă mandatul 2020-2024 și afilierea Pro România; numele său nu apare pe lista completă a candidaților la Consiliul Local Buhuși din 2024, astfel că funcția este actualizată la fost consilier. Nu a fost identificată o hotărâre judecătorească publică privind o eventuală contestație a raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58077,27 +59626,37 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primăria Buhuși - statutul orașului și componența Consiliului Local 2020-2024',
+        kind: 'official',
+        url: 'https://www.primariabuhusi.ro/wp-content/uploads/2022/02/12-HCL.pdf',
+      },
+      {
+        label: 'Ziare.com - lista completă a candidaților la Consiliul Local Buhuși în 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/buhusi/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_bacau/consiliul-local/buhusi/1',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Bacău',
+        kind: 'official',
+        url: 'https://portal.just.ro/32/SitePages/dosare.aspx',
       },
     ],
   },
   {
     name: 'Chira Dorel Iosif',
-    party: 'PMP',
-    position: 'Consilier local in cadrul Consiliului Local Avram Iancu, jude\u021bul Alba',
+    party: 'PNL (candidat în 2024; anterior PMP)',
+    position: 'Fost consilier local al comunei Avram Iancu, județul Alba (mandatul 2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Alba',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Avram Iancu, jude\u021bul Alba.',
+      note: 'Funcția publică relevantă a fost exercitată în Consiliul Local Avram Iancu, județul Alba.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in decembrie 2023 ca a participat la discutarea unei hotarari privind modificarea contractului de inchiriere pentru o asociatie in care detinea functia de presedinte.',
-    verified_at: '2026-06-14',
+      'ANI a constatat în decembrie 2023 că, deși avea un interes personal, a participat la deliberarea și adoptarea hotărârii Consiliului Local Avram Iancu din 4 august 2021 privind chiria spațiului folosit de asociația al cărei președinte era și a votat împotriva creșterii chiriei la 1.000 lei/lună. Este un conflict de interese administrativ, nu o acuzație penală. În 2024 a candidat la Consiliul Local din partea PNL, după mandatul exercitat ca ales PMP, însă pagina oficială actuală a comunei nu îl include în componența consiliului 2024-2028. Nu a fost identificată o hotărâre judecătorească publică privind o eventuală contestație a raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58105,9 +59664,24 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-10-alesi-locali-2/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primăria Avram Iancu - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://primariaavramiancu.ro/despre-institutie/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'Ziare.com - lista candidaților la Consiliul Local Avram Iancu în 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_alba/consiliul-local/avram-iancu/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_alba/consiliul-local/avram-iancu/',
+      },
+      {
+        label: 'Alba24 - detaliile constatării ANI',
+        kind: 'press',
+        url: 'https://alba24.ro/ani-consilier-local-din-comuna-avram-iancu-in-conflict-de-interese-ar-fi-votat-un-proiect-in-care-avea-interes-personal-1017028.html',
+      },
+      {
+        label: 'Portalul Instanțelor - Curtea de Apel Alba Iulia',
+        kind: 'official',
+        url: 'https://portal.just.ro/57/SitePages/dosare.aspx',
       },
     ],
   },
@@ -58170,7 +59744,7 @@ export const politicianAdditions = [
   {
     name: 'Pricope Nicolae',
     party: 'PSD',
-    position: 'Viceprimar al comunei Podoleni, jude\u021bul Neam\u021b, \u0219i fost consilier local in Consiliul Local Podoleni',
+    position: 'Fost viceprimar \u0219i fost consilier local al comunei Podoleni, jude\u021bul Neam\u021b (mandat incheiat in 2024)',
     position_type: 'local_official',
     geography: {
       county: 'Neam\u021b',
@@ -58178,10 +59752,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Podoleni \u0219i Prim\u0103ria comunei Podoleni, jude\u021bul Neam\u021b.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in august 2024 ca, in mandatul 2020-2024, desi avea un interes personal, a participat la adoptarea unei hotarari a Consiliului Local Podoleni care a adus beneficii sotiei si mamei sale.',
-    verified_at: '2026-06-14',
+      'ANI a constatat la 19 august 2024 un conflict de interese administrativ: in mandatul de consilier local 2020-2024, de\u0219i avea un interes personal, a participat la adoptarea unei hotarari a Consiliului Local Podoleni care a adus beneficii so\u021biei \u0219i mamei sale. Pricope a contestat raportul la Curtea de Apel Bacau in septembrie 2024; nu a fost identificata o solu\u021bie definitiva publicata. Declara\u021bia sa de avere arata ca mandatul de viceprimar a incetat la 22 octombrie 2024, iar lista oficiala 2024-2028 a consilierilor locali nu il include.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58189,16 +59763,26 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-3/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primaria Podoleni \u2014 componen\u021ba Consiliului Local 2024-2028',
+        kind: 'official',
+        url: 'https://comunapodoleni.ro/despre-primarie/conducere/consiliul-local/componenta/',
+      },
+      {
+        label: 'Primaria Podoleni \u2014 declara\u021bie de avere 2025',
+        kind: 'official',
+        url: 'https://comunapodoleni.ro/wp-content/uploads/2025/06/Declaratie-de-avere-Pricope-Nicolae.pdf',
+      },
+      {
+        label: 'Mesagerul de Neam\u021b \u2014 contesta\u021bia raportului ANI',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/podoleni/',
+        url: 'https://mesagerulneamt.ro/2024/09/viceprimar-din-neamt-in-proces-cu-ani/',
       },
     ],
   },
   {
     name: 'C\u0103lescu Mihaela Maria',
     party: 'PNL',
-    position: 'Consilier jude\u021bean in cadrul Consiliului Jude\u021bean Timi\u0219',
+    position: 'Fost consilier jude\u021bean in Consiliul Jude\u021bean Timi\u0219 (mandat incheiat in decembrie 2024)',
     position_type: 'local_official',
     geography: {
       county: 'Timi\u0219',
@@ -58206,10 +59790,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Jude\u021bean Timi\u0219.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2024 ca a exercitat simultan mandatul de consilier judetean si functii de conducere sau administrare in regii autonome si societati de interes local ori national cu sediul in Timisoara.',
-    verified_at: '2026-06-14',
+      'ANI a constatat la 4 noiembrie 2024 o incompatibilitate administrativa: intre octombrie 2020 si mai 2023, a exercitat simultan mandatul de consilier jude\u021bean \u0219i func\u021bii de director general interimar ori membru in consilii de administra\u021bie ale unei regii na\u021bionale \u0219i ale unor societa\u021bi locale, ob\u021binand indemniza\u021bii de 240.136 lei. Aleasa pentru un nou mandat in 2024, a demisionat la 3 decembrie 2024; Consiliul Jude\u021bean Timi\u0219 ii marcheaza oficial mandatul ca incetat. Nu a fost identificata o contesta\u021bie judiciara publicata a raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58217,9 +59801,19 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Consiliul Jude\u021bean Timi\u0219 \u2014 mandat incetat',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/team/mihaela-maria-calescu/',
+      },
+      {
+        label: 'Consiliul Jude\u021bean Timi\u0219 \u2014 incetarea mandatului',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/comunicate-de-presa/sedinta-ordinara-38/',
+      },
+      {
+        label: 'Gazeta din Vest \u2014 demisia din 3 decembrie 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-judetean/',
+        url: 'https://gazetadinvest.ro/cel-mai-scurt-mandat-de-consilier-judetean-mihaela-calescu-paraseste-forul/',
       },
     ],
   },
@@ -58234,10 +59828,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al comunei Petre\u0219ti, jude\u021bul D\u00e2mbovi\u021ba.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2024 ca, in perioada 13 noiembrie 2020 - 16 iunie 2022, a exercitat simultan functia de viceprimar si calitatea de comerciant persoana fizica.',
-    verified_at: '2026-06-14',
+      'ANI a constatat la 4 noiembrie 2024 o incompatibilitate administrativa: in perioada 13 noiembrie 2020 - 16 iunie 2022 a exercitat simultan func\u021bia de viceprimar \u0219i calitatea de comerciant persoana fizica. A candidat din partea PNL in 2024, iar pagina oficiala a declara\u021biilor de avere il identifica in continuare drept viceprimar in 2025. Nu a fost identificata o solu\u021bie judiciara publica privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58245,9 +59839,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-6-persoane-prevazute-de-legea-nr-176-2010-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primaria Petre\u0219ti \u2014 declara\u021bii de avere 2025',
+        kind: 'official',
+        url: 'https://www.primariapetresti.ro/declaratii_de_avere.php',
+      },
+      {
+        label: 'Ziare.com \u2014 candida\u021bi Consiliul Local Petre\u0219ti 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/consiliul-local/petresti/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_dambovita/consiliul-local/petresti/10',
       },
     ],
   },
@@ -58262,10 +59861,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local S\u00e2nnicolau Rom\u00e2n, jude\u021bul Bihor.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in iulie 2024 ca, desi avea un interes personal, a participat la adoptarea unei hotarari privind raportul de evaluare pentru cinci imobile din comuna S\u00e2nnicolau Rom\u00e2n.',
-    verified_at: '2026-06-14',
+      'ANI a constatat la 10 iulie 2024 un conflict de interese administrativ: de\u0219i avea un interes personal, a participat la adoptarea hotararii din 26 martie 2021 privind evaluarea a cinci imobile, apoi a incheiat cu comuna un contract de concesiune pentru unul dintre terenuri. A fost reales consilier local PSD in 2024, iar declara\u021biile sale figureaza pe pagina oficiala a comunei. Nu a fost identificata o solu\u021bie judiciara publica privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58273,16 +59872,21 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-5-persoane-prevazute-de-legea-nr-176-2010-2/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primaria S\u00e2nnicolau Rom\u00e2n \u2014 declara\u021bii de avere \u0219i interese',
+        kind: 'official',
+        url: 'https://sannicolauroman.ro/informatii/declatii-de-avere',
+      },
+      {
+        label: 'Bihoreanul \u2014 reales consilier local in 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_bihor/consiliul-local/sannicolau-roman/',
+        url: 'https://www.ebihoreanul.ro/stiri/inca-un-consilier-local-din-bihor-proaspat-reales-in-pericol-sa-nu-si-poata-exercita-noul-mandat-dupa-ce-ani-l-a-gasit-in-conflict-de-interese-187546.html',
       },
     ],
   },
   {
     name: 'Scurtu Ion',
-    party: 'ALDE',
-    position: 'Consilier local in cadrul Consiliului Local Puie\u0219ti, jude\u021bul Vaslui',
+    party: 'Pro Rom\u00e2nia (candidat in 2024; anterior ALDE)',
+    position: 'Fost consilier local in Consiliul Local Puie\u0219ti, jude\u021bul Vaslui (mandat 2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Vaslui',
@@ -58290,10 +59894,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Puie\u0219ti, jude\u021bul Vaslui.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2024 c\u0103, intre 1 ianuarie 2021 \u0219i 1 februarie 2023, a exercitat simultan func\u021bia de consilier local \u0219i calitatea de angajat cu contract individual de munc\u0103 in aparatul de specialitate al primarului comunei Puie\u0219ti.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in octombrie 2024 o incompatibilitate administrativa: intre 1 ianuarie 2021 \u0219i 1 februarie 2023 a exercitat simultan func\u021bia de consilier local \u0219i calitatea de angajat cu contract individual de munca in aparatul de specialitate al primarului comunei Puie\u0219ti. In 2024 a candidat din partea Pro Rom\u00e2nia, dupa mandatul ca ales ALDE, dar procesul-verbal electoral definitiv nu il include intre cei 13 candida\u021bi carora li s-au atribuit mandate. Nu a fost identificata o solu\u021bie judiciara publica privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58301,27 +59905,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'BEC Puie\u0219ti \u2014 proces-verbal Consiliul Local 2024',
+        kind: 'official',
+        url: 'https://comunapuiesti.ro/index.php/raport-primar4/alegeri-locale-si-europarlamentare-2024-bec-nr-63/2713-pv-consiliul-local/file',
+      },
+      {
+        label: 'Ziare.com \u2014 candida\u021bi Consiliul Local Puie\u0219ti 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/puiesti/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vaslui/consiliul-local/puiesti/',
       },
     ],
   },
   {
     name: 'Precup Paul Mihai Nicu',
     party: 'PNL',
-    position: 'Primar al comunei Mogo\u0219oaia, jude\u021bul Ilfov',
+    position: 'Fost primar al comunei Mogo\u0219oaia, jude\u021bul Ilfov (mandat 2004-2024)',
     position_type: 'mayor',
     geography: {
       county: 'Ilfov',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de primar al comunei Mogo\u0219oaia, jude\u021bul Ilfov.',
+      note: 'A fost primar al comunei Mogo\u0219oaia p\u00e2n\u0103 in 2024; mandatul actual ii apar\u021bine lui Florin-R\u0103ducu Covaci.',
     },
     crime: 'Sesizare parchet; folosirea func\u021biei pentru favorizarea unor persoane',
     status: 'investigated',
     details:
-      'ANI a sesizat Parchetul in februarie 2023 cu privire la indicii c\u0103, in calitate de primar, a ini\u021biat \u0219i semnat documente privind schimbarea regimului unor terenuri din Sectorul Zero, demers care ar fi creat un avantaj patrimonial pentru fiul acestuia.',
-    verified_at: '2026-06-17',
+      'ANI a sesizat Parchetul General in februarie 2023 cu privire la indicii c\u0103, in calitate de primar, a ini\u021biat \u0219i semnat documente privind schimbarea regimului unor terenuri din Sectorul Zero, demers care ar fi creat un avantaj patrimonial pentru fiul s\u0103u. Mandatul de primar s-a incheiat in 2024, iar pagina oficial\u0103 a comunei il indic\u0103 pe Florin-R\u0103ducu Covaci drept primar. P\u00e2n\u0103 la 30 septembrie 2026 nu a fost identificat\u0103 o solu\u021bie public\u0103 a sesiz\u0103rii penale; anularea definitiv\u0103 in contencios administrativ a unor hot\u0103r\u00e2ri privind Sectorul Zero nu reprezint\u0103 o solu\u021bie in dosarul penal.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58329,27 +59938,37 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Comuna Mogo\u0219oaia \u2014 primar in func\u021bie',
+        kind: 'official',
+        url: 'https://primaria.mogosoaia.ro/primar/',
+      },
+      {
+        label: 'Comuna Mogo\u0219oaia \u2014 validarea mandatului 2024',
+        kind: 'official',
+        url: 'https://primaria.mogosoaia.ro/proiect-de-hotarare-167-04-11-2024/',
+      },
+      {
+        label: 'AGERPRES \u2014 sesizarea Parchetului General',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_ilfov/primarie/mogosoaia/',
+        url: 'https://agerpres.ro/justitie/2023/02/07/ani-a-sesizat-parchetul-general-in-cazul-primarului-din-mogosoaia-paul-precup--1055657',
       },
     ],
   },
   {
     name: 'Mihaiu Dumitru',
     party: 'PNL',
-    position: 'Viceprimar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila',
+    position: 'Fost viceprimar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila (mandat incheiat in 2024)',
     position_type: 'local_official',
     geography: {
       county: 'Br\u0103ila',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al comunei Tudor Vladimirescu, jude\u021bul Br\u0103ila.',
+      note: 'A exercitat trei mandate de viceprimar; in 2024 a candidat f\u0103r\u0103 succes la func\u021bia de primar al comunei Tudor Vladimirescu.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in februarie 2023 c\u0103, in mandatul de consilier local 2016-2020, a participat la adoptarea hot\u0103r\u00e2rii prin care Consiliul Local Tudor Vladimirescu a alocat 60.000 lei unei asocia\u021bii in care de\u021binea calitatea de membru fondator \u0219i func\u021bia de pre\u0219edinte.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in februarie 2023 un conflict de interese administrativ: in mandatul de consilier local 2016-2020 a participat la adoptarea hot\u0103r\u00e2rii prin care Consiliul Local Tudor Vladimirescu a alocat 60.000 lei unei asocia\u021bii in care de\u021binea calitatea de membru fondator \u0219i func\u021bia de pre\u0219edinte. In 2024, dup\u0103 trei mandate de viceprimar, a candidat din partea PNL la prim\u0103rie, dar a ob\u021binut 279 de voturi, fa\u021b\u0103 de 303 pentru c\u00e2\u0219tig\u0103torul Mircea-Tudorel Berte\u0219teanu. Nu a fost identificat\u0103 o solu\u021bie judiciar\u0103 public\u0103 privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58357,9 +59976,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com \u2014 rezultate primar Tudor Vladimirescu 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_braila/consiliul-local/tudor-vladimirescu/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_braila/primarie/tudor-vladimirescu/',
+      },
+      {
+        label: 'Br\u0103ila Chirei \u2014 candidatura PNL din 2024',
+        kind: 'press',
+        url: 'https://brailachirei.wordpress.com/tag/alegeri/',
       },
     ],
   },
@@ -58371,13 +59995,13 @@ export const politicianAdditions = [
     geography: {
       county: 'Ilfov',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era cea de viceprimar al ora\u0219ului Pope\u0219ti-Leordeni, jude\u021bul Ilfov.',
+      note: 'Este viceprimar al ora\u0219ului Pope\u0219ti-Leordeni in mandatul 2024-2028, conform paginii oficiale a institu\u021biei \u0219i actelor administrative din 2025-2026.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in februarie 2023 c\u0103, in calitate de consilier local, a participat la adoptarea unor hot\u0103r\u00e2ri privind incetarea mandatelor unor consilieri \u0219i aprobarea unui PUZ pentru terenul unei societ\u0103\u021bi in care de\u021binea calitatea de asociat unic \u0219i administrator.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in februarie 2023 dou\u0103 situa\u021bii de conflict de interese administrativ: a participat la votul privind respingerea incet\u0103rii unor mandate, de\u0219i propriul mandat se afla pe lista vizat\u0103, \u0219i la aprobarea unui PUZ pentru terenul unei societ\u0103\u021bi in care de\u021binea calitatea de asociat unic \u0219i administrator. Pagina oficial\u0103 a ora\u0219ului \u0219i documentele administrative din 2025-2026 confirm\u0103 c\u0103 este in continuare viceprimar. Nu a fost identificat\u0103 o solu\u021bie judiciar\u0103 public\u0103 privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58385,27 +60009,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/',
+        label: 'Prim\u0103ria Pope\u0219ti-Leordeni \u2014 conducere',
+        kind: 'official',
+        url: 'https://xn--primria-popeti-leordeni-7tc270e.ro/primarie/conducere/persoanele-din-conducere',
+      },
+      {
+        label: 'Monitorul Oficial Local Pope\u0219ti-Leordeni \u2014 activitate 2026',
+        kind: 'official',
+        url: 'https://www.molppl.ro/consiliul-local/comisiile-specialitate/4',
       },
     ],
   },
   {
     name: 'Ciotoianu Marian',
-    party: 'Pro Romania',
-    position: 'Consilier local in cadrul Consiliului Local Pope\u0219ti-Leordeni, jude\u021bul Ilfov',
+    party: 'PSD (anterior Pro Rom\u00e2nia)',
+    position: 'Consilier local in cadrul Consiliului Local Pope\u0219ti-Leordeni, jude\u021bul Ilfov (mandat 2024-2028)',
     position_type: 'local_official',
     geography: {
       county: 'Ilfov',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Pope\u0219ti-Leordeni, jude\u021bul Ilfov.',
+      note: 'Este consilier local activ in mandatul 2024-2028, ales din partea PSD; in mandatul anterior a reprezentat Pro Rom\u00e2nia.',
     },
-    crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ (raport ANI anulat definitiv)',
+    status: 'closed',
     details:
-      'ANI a constatat in februarie 2023 c\u0103 a participat la adoptarea unei hot\u0103r\u00e2ri privind respingerea proiectului de incetare a mandatelor unor consilieri locali, de\u0219i se afla pe lista consilierilor ale c\u0103ror mandate fuseser\u0103 declarate incetate de drept.',
-    verified_at: '2026-06-17',
+      'ANI a sus\u021binut prin raportul nr. 5305/G/II/07.02.2023 c\u0103 a participat la adoptarea unei hot\u0103r\u00e2ri privind respingerea proiectului de incetare a mandatelor unor consilieri locali, de\u0219i propriul mandat se afla pe lista vizat\u0103. Dup\u0103 rejudecare, Inalta Curte de Casa\u021bie \u0219i Justi\u021bie a admis definitiv recursul lui Marian Ciotoianu la 19 martie 2026 \u0219i a anulat raportul ANI. Este consilier local PSD activ in mandatul 2024-2028.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58413,27 +60042,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Monitorul Oficial Local Pope\u0219ti-Leordeni \u2014 componen\u021ba consiliului',
+        kind: 'official',
+        url: 'https://www.molppl.ro/consiliul-local/mandate-consilieri',
+      },
+      {
+        label: 'Justnews \u2014 solu\u021bia definitiv\u0103 ICCJ din 19 martie 2026',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ilfov/consiliul-local/popesti-leordeni/',
+        url: 'https://justnews.ro/pesedistul-marian-ciotoianu-unul-dintre-regii-micilor-din-bucuresti-ilfov-i-a-invins-in-cele-din-urma-pe-inspectorii-de-integritate/',
       },
     ],
   },
   {
     name: 'Diaconu Sabin',
     party: 'PSD',
-    position: 'Consilier local in cadrul Consiliului Local Cru\u0219e\u021b, jude\u021bul Gorj',
+    position: 'Fost consilier local in cadrul Consiliului Local Cru\u0219e\u021b, jude\u021bul Gorj (mandat 2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Gorj',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Cru\u0219e\u021b, jude\u021bul Gorj.',
+      note: 'A fost consilier local PSD in mandatul 2020-2024; nu figureaz\u0103 pe lista candida\u021bilor la Consiliul Local Cru\u0219e\u021b din 2024.',
     },
     crime: 'Conflict de interese administrativ \u0219i sesizare Camera de Conturi',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in februarie 2023 c\u0103 a participat la adoptarea unei hot\u0103r\u00e2ri privind prelungirea unor contracte de loca\u021biune pentru imobile din domeniul privat al comunei, dup\u0103 care Prim\u0103ria Cru\u0219e\u021b a incheiat acte adi\u021bionale cu trei afini ai persoanei evaluate.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in februarie 2023 un conflict de interese administrativ: a participat la adoptarea unei hot\u0103r\u00e2ri privind prelungirea unor contracte de loca\u021biune pentru imobile din domeniul privat al comunei, dup\u0103 care Prim\u0103ria Cru\u0219e\u021b a incheiat acte adi\u021bionale cu trei afini ai persoanei evaluate. ANI a sesizat separat Camera de Conturi Gorj pentru verificarea administr\u0103rii resurselor comunei; comunicatul nu indic\u0103 sesizarea direct\u0103 a unui parchet in privin\u021ba lui Sabin Diaconu. Nu figureaz\u0103 intre candida\u021bii la consiliul local din 2024 \u0219i nu a fost identificat\u0103 o solu\u021bie judiciar\u0103 public\u0103 privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58441,27 +60075,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com \u2014 candida\u021bi Consiliul Local Cru\u0219e\u021b 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_gorj/consiliul-local/cruset/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_gorj/consiliul-local/cruset/',
+      },
+      {
+        label: 'Prim\u0103ria Cru\u0219e\u021b \u2014 proces-verbal de consiliu 2021',
+        kind: 'official',
+        url: 'https://www.comunacruset.ro/_CRUSET/PV_sedinte/2021/PV231.pdf',
       },
     ],
   },
   {
     name: 'Hortea Vasile Dorin',
     party: 'PNL',
-    position: 'Consilier local in cadrul Consiliului Local Ro\u0219ia, jude\u021bul Bihor',
+    position: 'Fost consilier local in cadrul Consiliului Local Ro\u0219ia, jude\u021bul Bihor (demisie in martie 2024)',
     position_type: 'local_official',
     geography: {
       county: 'Bihor',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Ro\u0219ia, jude\u021bul Bihor.',
+      note: 'A fost consilier local PNL p\u00e2n\u0103 la demisia consemnat\u0103 prin HCL nr. 27 din 26 martie 2024.',
     },
-    crime: 'Conflict de interese administrativ \u0219i sesizare parchet',
-    status: 'investigated',
+    crime: 'Conflict de interese administrativ; folosirea func\u021biei pentru favorizarea unor persoane',
+    status: 'first_instance',
     details:
-      'ANI a constatat in februarie 2023 c\u0103 a participat la deliberarea \u0219i adoptarea mai multor hot\u0103r\u00e2ri ale Consiliului Local Ro\u0219ia privind Ocolul Silvic Codrii Beiu\u0219ului, unde de\u021binea func\u021bia de \u0219ef district, \u0219i a sesizat organele de urm\u0103rire penal\u0103 pentru indicii de folosire a func\u021biei.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in februarie 2023 c\u0103 a participat la deliberarea \u0219i adoptarea unor hot\u0103r\u00e2ri privind Ocolul Silvic Codrii Beiu\u0219ului, unde era \u0219ef de district, \u0219i a sesizat organele penale. Curtea de Apel Oradea i-a respins contesta\u021bia impotriva raportului ANI la 20 iunie 2023, iar el a declarat recurs. In dosarul penal nr. 1682/187/2024, Judec\u0103toria Beiu\u0219 a stabilit la 24 decembrie 2024 o pedeaps\u0103 de 1 an \u0219i 6 luni inchisoare pentru folosirea func\u021biei in form\u0103 continuat\u0103, cu am\u00e2narea aplic\u0103rii pedepsei pe un termen de supraveghere de 2 ani; hot\u0103r\u00e2rea publicat\u0103 prevedea drept de apel. Nu a fost identificat\u0103 o solu\u021bie explicit definitiv\u0103 in apel, astfel c\u0103 profilul nu trebuie prezentat drept condamnare definitiv\u0103. Mandatul de consilier a incetat prin demisie in martie 2024.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58469,27 +60108,37 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-7-alesi-locali-4/',
       },
       {
-        label: 'Ziare.com',
+        label: 'StatusDosar (date Portal Just) \u2014 dosarul penal 1682/187/2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/rosia/',
+        url: 'https://www.statusdosar.ro/instante/judecatoria-beius/dosare/penal/penal/1682/187/2024',
+      },
+      {
+        label: 'StatusDosar (date Portal Just) \u2014 contesta\u021bia raportului ANI',
+        kind: 'press',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-oradea/dosare/sectia-de-contencios-administrativ-si-fiscal/contencios-administrativ-si-fiscal/101/35/2023',
+      },
+      {
+        label: 'Comuna Ro\u0219ia \u2014 raport privind HCL nr. 27/2024',
+        kind: 'official',
+        url: 'https://primarii.aqpa.ro/hcl/doc/409_1753950831L.pdf',
       },
     ],
   },
   {
     name: 'Lupei Dan',
     party: 'PSD',
-    position: 'Consilier local in cadrul Consiliului Local R\u0103zboieni, jude\u021bul Neam\u021b',
+    position: 'Fost consilier local in cadrul Consiliului Local R\u0103zboieni, jude\u021bul Neam\u021b (mandat 2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Neam\u021b',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local R\u0103zboieni, jude\u021bul Neam\u021b.',
+      note: 'A fost consilier local PSD in mandatul 2020-2024; componen\u021ba oficial\u0103 a consiliului 2024-2028 nu il mai include. Este in continuare bibliotecar al comunei.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2022 c\u0103, incep\u00e2nd cu 19 octombrie 2020, a de\u021binut simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in aparatul de specialitate al primarului; de asemenea, intre 1 ianuarie \u0219i 15 martie 2021 a de\u021binut \u0219i o func\u021bie contractual\u0103 in compartimentul achizi\u021bii publice.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in noiembrie 2022 o incompatibilitate administrativ\u0103: incep\u00e2nd cu 19 octombrie 2020 a de\u021binut simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in aparatul de specialitate al primarului, iar intre 1 ianuarie \u0219i 15 martie 2021 a de\u021binut \u0219i o func\u021bie contractual\u0103 in compartimentul achizi\u021bii publice. Pagina oficial\u0103 a comunei confirm\u0103 mandatul s\u0103u doar pentru 2020-2024 \u0219i faptul c\u0103 lucreaz\u0103 in continuare ca bibliotecar; nu figureaz\u0103 in consiliul 2024-2028. Nu a fost identificat\u0103 o solu\u021bie judiciar\u0103 public\u0103 privind raportul ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58497,27 +60146,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_neamt/consiliul-local/razboieni/',
+        label: 'Comuna R\u0103zboieni \u2014 componen\u021ba consiliilor 2020-2024 \u0219i 2024-2028',
+        kind: 'official',
+        url: 'https://www.comunarazboieni.ro/membrii-cl-razboieni-2016.html',
+      },
+      {
+        label: 'Comuna R\u0103zboieni \u2014 biblioteca comunal\u0103',
+        kind: 'official',
+        url: 'https://www.comunarazboieni.ro/biblioteca-comunala.html',
       },
     ],
   },
   {
     name: 'P\u0103unic\u0103 Adriana',
-    party: 'Bucure\u0219ti 2020',
-    position: 'Consilier local in cadrul Consiliului Local Sector 3 Bucure\u0219ti',
+    party: 'PSD',
+    position: 'Fost consilier local in cadrul Consiliului Local Sector 3 Bucure\u0219ti (mandat 2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Bucure\u0219ti',
       basis: 'office',
-      note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Sector 3 Bucure\u0219ti.',
+      note: 'A fost consilier local in mandatul 2020-2024. A candidat din partea alian\u021bei PSD-PNL in 2024, dar mandatul nou a fost invalidat definitiv.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2022 c\u0103, intre 30 ianuarie \u0219i 30 iulie 2020, a exercitat simultan calitatea de membru al Consiliului de administra\u021bie al Spitalului Clinic de Boli Infec\u021bioase \u0219i Tropicale Dr. Victor Babe\u0219 \u0219i func\u021bia de secretar executiv intr-un organ de conducere al unui partid politic.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in noiembrie 2022 c\u0103, intre 30 ianuarie \u0219i 30 iulie 2020, a exercitat simultan calitatea de membru al Consiliului de administra\u021bie al Spitalului Clinic de Boli Infec\u021bioase \u0219i Tropicale Dr. Victor Babe\u0219 \u0219i func\u021bia de secretar executiv intr-un organ de conducere al unui partid politic. In 2024 a candidat pe lista alian\u021bei PSD-PNL, ins\u0103 Judec\u0103toria Sectorului 3 i-a invalidat mandatul de consilier local, iar Tribunalul Bucure\u0219ti i-a respins definitiv apelul la 29 octombrie 2024. Prin urmare, nu face parte din Consiliul Local Sector 3 pentru mandatul 2024-2028.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58525,9 +60179,19 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-8-persoane-prevazute-de-legea-nr-176-2010-3/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bucuresti/consiliul-local/sectorul-3/',
+        label: 'Portalul instan\u021belor de judecat\u0103 \u2014 dosarul 19452/301/2024',
+        kind: 'official',
+        url: 'https://portal.just.ro/SitePages/dosare.aspx',
+      },
+      {
+        label: 'Prim\u0103ria Sectorului 3 \u2014 constituirea consiliului 2024-2028',
+        kind: 'official',
+        url: 'https://www.primarie3.ro/images/uploads/formulare/2._Procesul_verbal_din_29_.10.2024_al_sedintei_privind_ceremonia_de_constituire_a_CLSi_3_.pdf',
+      },
+      {
+        label: 'Monitorul Oficial \u2014 finan\u021barea campaniei electorale din 2024',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/286874',
       },
     ],
   },
@@ -58542,10 +60206,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia public\u0103 relevant\u0103 era in Consiliul Local Vr\u00e2ncioaia, jude\u021bul Vrancea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat in noiembrie 2022 c\u0103, intre 23 octombrie \u0219i 14 decembrie 2020, a exercitat simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in cadrul Prim\u0103riei Vr\u00e2ncioaia.',
-    verified_at: '2026-06-17',
+      'ANI a constatat in noiembrie 2022 c\u0103, intre 23 octombrie \u0219i 14 decembrie 2020, a exercitat simultan func\u021bia de consilier local \u0219i o func\u021bie contractual\u0103 in cadrul Prim\u0103riei Vr\u00e2ncioaia. Comunicatul ANI il identific\u0103 deja drept fost consilier local. Nu a fost identificat\u0103 o hot\u0103r\u00e2re judec\u0103toreasc\u0103 public\u0103 privind eventuala contestare a raportului, astfel c\u0103 profilul r\u0103m\u00e2ne ascuns.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58595,18 +60259,18 @@ export const politicianAdditions = [
   {
     name: 'Borz Ciprian-Sandu',
     party: 'ALDE',
-    position: 'Fost viceprimar al comunei Uileacu de Beiuș, județul Bihor',
+    position: 'Fost viceprimar al comunei Uileacu de Beiuș, județul Bihor (2020-2024); consilier al primarului în 2025',
     position_type: 'local_official',
     geography: {
       county: 'Bihor',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de viceprimar al comunei Uileacu de Beiuș, județul Bihor.',
+      note: 'A fost viceprimar în mandatul 2020-2024; planul oficial pentru situații de urgență din 2025 îl menționează drept consilier al primarului.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriului PFA.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în decembrie 2025 că, în mandatul 2020-2024, a exercitat simultan funcția de viceprimar și calitatea de comerciant persoană fizică în cadrul propriului PFA. Documentația oficială a comunei pentru 2025 îl menționează ulterior drept consilier al primarului, nu viceprimar. Nu a fost identificată o soluție judiciară publică privind raportul ANI, astfel că profilul rămâne ascuns.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58614,9 +60278,9 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-18-persoane-autosesizari-sistem-big-data/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bihor/consiliul-local/uileacu-de-beius/',
+        label: 'Comuna Uileacu de Beiuș — PAAR 2025',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documenthcl/74110/PAAR%20comuna%20UILEACU%20DE%20BEIUS%202025.pdf',
       },
     ],
   },
@@ -58628,13 +60292,13 @@ export const politicianAdditions = [
     geography: {
       county: 'Satu Mare',
       basis: 'office',
-      note: 'Funcția publică relevantă era în Consiliul Local Racșa, județul Satu Mare.',
+      note: 'Procesul-verbal oficial din 29 octombrie 2024 îl include, sub numele complet Balaj Toader Ilie, în consiliul local și în comisia juridică.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2024 că a participat la adoptarea unor hotărâri privind protocoale de colaborare între comuna Racșa și o asociație în care fiul său deținea calitatea de membru.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în octombrie 2024 că a participat la adoptarea unor hotărâri privind protocoale de colaborare între comuna Racșa și o asociație în care fiul său deținea calitatea de membru. Procesul-verbal oficial de constituire confirmă că este consilier local și în mandatul 2024-2028, sub numele complet Balaj Toader Ilie. În dosarul nr. 744/83/2025, inițiat de ANI, Tribunalul Satu Mare a constatat la 27 martie 2026 nulitatea absolută a hotărârilor vizate; minuta prevedea drept de recurs, iar o soluție definitivă nu a fost identificată. Profilul rămâne ascuns până la clarificarea definitivă.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58642,27 +60306,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-4-persoane-prevazute-de-legea-nr-176-2010-4/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_satu-mare/consiliul-local/racsa/',
+        label: 'Comuna Racșa — proces-verbal din 29 octombrie 2024',
+        kind: 'official',
+        url: 'https://racsasm.ro/wp-content/uploads/2025/03/PV-SED-29.10.2024-1.pdf',
+      },
+      {
+        label: 'Portalul instanțelor — dosarul 744/83/2025',
+        kind: 'official',
+        url: 'https://portal.just.ro/SitePages/dosare.aspx',
       },
     ],
   },
   {
     name: 'Butacu Simona Valentina',
     party: 'PSD',
-    position: 'Fost consilier local în cadrul Consiliului Local Sector 6 București',
+    position: 'Fost consilier local al Sectorului 6 București; fost subsecretar de stat la ANES (2022-2025)',
     position_type: 'local_official',
     geography: {
       county: 'București',
       basis: 'office',
-      note: 'Funcția publică relevantă era în Consiliul Local Sector 6 București.',
+      note: 'A demisionat din Consiliul Local Sector 6 în octombrie 2022. A fost subsecretar de stat la ANES până la eliberarea din funcție la 8 aprilie 2025.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în ianuarie 2023 că, între 1 noiembrie 2016 și 3 august 2020, a exercitat simultan calitatea de membru al Consiliului de Administrație al Spitalului Clinic de Obstetrică-Ginecologie Prof. Dr. Panait Sîrbu și funcția de vicepreședinte într-un organ de conducere al unui partid politic.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în ianuarie 2023 că, între 1 noiembrie 2016 și 3 august 2020, a exercitat simultan calitatea de membru al Consiliului de Administrație al Spitalului Clinic de Obstetrică-Ginecologie Prof. Dr. Panait Sîrbu și funcția de vicepreședinte într-un organ de conducere al PSD. Înalta Curte de Casație și Justiție i-a respins definitiv contestația prin Decizia nr. 1.384 din 12 martie 2025, în dosarul nr. 959/2/2023. Raportul ANI rămas definitiv a determinat eliberarea sa din funcția de subsecretar de stat la ANES la 8 aprilie 2025.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58670,9 +60339,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-2-persoane-prevazute-de-legea-nr-176-2010-2/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bucuresti/consiliul-local/sectorul-6/',
+        label: 'Primăria Sectorului 6 — încetarea mandatului prin demisie',
+        kind: 'official',
+        url: 'https://primarie6.ro/primarie_sector6/sites/default/files/2023-08/3.-Proiect-de-hotarare-incetare-mandat-d-na-Butacu-refacut.pdf',
+      },
+      {
+        label: 'Portal Legislativ — Decizia nr. 196/2025',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/public/DetaliiDocument/296494',
       },
     ],
   },
@@ -58689,8 +60363,8 @@ export const politicianAdditions = [
     crime: 'Sesizare parchet; conflict de interese',
     status: 'investigated',
     details:
-      'ANI a sesizat în martie 2022 Parchetul de pe lângă Judecătoria Lugoj după ce a constatat indicii că, în calitate de primar, a emis acte privind terenuri deținute de el și soția sa și a inițiat o hotărâre privind închirierea pășunilor comunei.',
-    verified_at: '2026-06-18',
+      'ANI a sesizat în martie 2022 Parchetul de pe lângă Judecătoria Lugoj cu privire la indicii că, în calitate de primar, a emis în 2017 acte privind terenuri deținute de el și soția sa și a inițiat o hotărâre privind închirierea pășunilor comunei, în urma căreia întreprinderea individuală a soției a închiriat pășune de la comună. Aceasta este o sesizare penală, nu o condamnare. Sursele oficiale ale comunei și județului confirmă că este în continuare primarul comunei Secaș. Nu a fost identificată o soluție publică a parchetului sau a unei instanțe în cauza sesizată de ANI, astfel că profilul rămâne ascuns.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58698,27 +60372,32 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/primarie/secas/',
+        label: 'Comuna Secaș — conducere și consiliu local',
+        kind: 'official',
+        url: 'https://primariasecas.ro/functionari/',
+      },
+      {
+        label: 'Consiliul Județean Timiș — fișa comunei Secaș',
+        kind: 'official',
+        url: 'https://www.cjtimis.ro/judetul-timis/primariile-din-judetul-timis/comuna-secas/',
       },
     ],
   },
   {
     name: 'Biserică Nicu',
-    party: 'ALDE',
-    position: 'Primar al comunei Gura Ialomiței, județul Ialomița, și fost viceprimar',
+    party: 'PSD',
+    position: 'Fost primar și fost viceprimar al comunei Gura Ialomiței, județul Ialomița',
     position_type: 'mayor',
     geography: {
       county: 'Ialomița',
       basis: 'office',
-      note: 'Funcția publică relevantă era cea de primar și fost viceprimar al comunei Gura Ialomiței, județul Ialomița.',
+      note: 'Mandatul de primar a încetat la 19 septembrie 2024. A candidat din partea PSD și a pierdut alegerile locale din iunie 2024.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în martie 2022 că, între 27 noiembrie și 31 decembrie 2020, a exercitat simultan funcția de viceprimar și calitatea de angajat cu contract individual de muncă în cadrul unei societăți comerciale.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, între 27 noiembrie și 31 decembrie 2020, a exercitat simultan funcția de viceprimar și calitatea de angajat cu contract individual de muncă în cadrul unei societăți comerciale. Înalta Curte de Casație și Justiție i-a respins definitiv recursul ca tardiv în 2024, menținând raportul de incompatibilitate; mandatul său de primar a încetat la 19 septembrie 2024. La alegerile din iunie 2024 a candidat din partea PSD și a pierdut în fața candidatului AUR Alexandru Florea.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58726,9 +60405,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Tribuna Ialomiței — soluția definitivă și încetarea mandatului',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/primarie/gura-ialomitei/',
+        url: 'https://www.tribunaialomitei.ro/2024/11/primarul-nicu-biserica-si-incheiat.html',
+      },
+      {
+        label: 'AEP — contribuții electorale 2024',
+        kind: 'official',
+        url: 'https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf',
       },
     ],
   },
@@ -58743,10 +60427,12 @@ export const politicianAdditions = [
       note: 'Funcțiile publice relevante erau în comuna Oltina, județul Constanța.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Curtea de Apel Constanța a anulat raportul ANI în primă instanță la 11 iulie 2022. Nu a fost identificată o soluție definitivă a unui eventual recurs, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în martie 2022 că, în perioada exercitării mandatului de primar, a semnat acte administrative care i-au produs un folos material, obținând subvenții APIA în valoare totală de 51.030 lei.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, în perioada exercitării mandatului de primar, a semnat acte administrative care i-au produs un folos material, obținând subvenții APIA în valoare totală de 51.030 lei. În dosarul 210/36/2022, Curtea de Apel Constanța a anulat raportul de evaluare nr. 12638/G/II/16.03.2022 la 11 iulie 2022; hotărârea publicată era atacabilă cu recurs, iar rezultatul definitiv nu a fost identificat. Este un litigiu administrativ de integritate, nu o acuzație penală. În mandatul local 2024–2028 figurează în continuare drept consilier local PNL în Oltina.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58754,16 +60440,21 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primăria Oltina — componența Consiliului Local',
+        kind: 'official',
+        url: 'https://comunaoltina.ro/consiliul-local/',
+      },
+      {
+        label: 'Ziua de Constanța — anularea raportului ANI în primă instanță',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_constanta/consiliul-local/oltina/',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/agentia-nationala-de-integritate-invinsa-in-instanta-de-un-fost-primar-din-judetul-constanta-789855.html',
       },
     ],
   },
   {
     name: 'Opriș Constantin',
     party: 'PMP',
-    position: 'Consilier local în cadrul Consiliului Local Vernești, județul Buzău',
+    position: 'Fost consilier local al comunei Vernești, județul Buzău (mandatul 2020–2024)',
     position_type: 'local_official',
     geography: {
       county: 'Buzău',
@@ -58771,10 +60462,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Vernești, județul Buzău.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este una administrativă. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în martie 2022 că, în două perioade din anul 2020, a exercitat simultan mandatul de consilier local și funcția de consilier la Cancelaria Prefectului din cadrul Instituției Prefectului Buzău.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, în perioadele 15 iunie–31 august 2020 și 29 septembrie–14 decembrie 2020, a exercitat simultan mandatul de consilier local și funcția de consilier la Cancelaria Prefectului din cadrul Instituției Prefectului Buzău. A fost consilier local PMP în mandatul 2020–2024; încheierea Judecătoriei Buzău privind validarea consilierilor aleși în 2024 nu îl include în noul consiliu. Nu a fost identificată o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58782,9 +60475,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/consiliul-local/vernesti/',
+        label: 'Primăria Vernești — componența Consiliului Local 2020–2024',
+        kind: 'official',
+        url: 'https://primariavernestibuzau.ro/componenta-consiliului-local/',
+      },
+      {
+        label: 'Judecătoria Buzău — validarea mandatelor Consiliului Local Vernești 2024',
+        kind: 'official',
+        url: 'https://primariavernestibuzau.ro/wp-content/uploads/2024/11/Incheiere-CLV-10-oct-2024.pdf',
       },
     ],
   },
@@ -58799,10 +60497,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Berești-Tazlău, județul Bacău.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este administrativă, nu penală. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în martie 2022 că, între 22 iunie 2016 și 14 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în cadrul Primăriei Berești-Tazlău.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, între 22 iunie 2016 și 14 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat cu contract individual de muncă în cadrul Primăriei Berești-Tazlău. Sursele îl identifică drept fost consilier local, iar la reverificare nu a fost găsită o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58810,9 +60510,9 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziarul de Bacău — cazul Doru Ionel',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/beresti-tazlau/',
+        url: 'https://ziaruldebacau.ro/incompatibilitate-la-beresti-tazlau-a-fost-si-consilier-local-si-angajat-la-primarie-timp-de-patru-ani/',
       },
     ],
   },
@@ -58827,10 +60527,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Ciurea, județul Iași.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este administrativă, nu penală. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în martie 2022 că, în mandatul 2016-2020, societatea administrată și deținută de soția sa a prestat servicii pentru comuna Ciurea, emițând șapte facturi în valoare totală de 289.975,17 lei.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, în mandatul 2016–2020, societatea în care soția sa era administrator și asociat a prestat servicii pentru comuna Ciurea, emițând șapte facturi în valoare totală de 289.975,17 lei. Sursele ulterioare îl identifică drept fost consilier local PSD, iar la reverificare nu a fost găsită o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58838,27 +60540,29 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: '7 Iași — profilul fostului consilier local și constatarea ANI',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/ciurea/',
+        url: 'https://www.7iasi.ro/primaria-ciurea-un-srl-confiscat-de-psd-contract-de-135-000-lei-incredintat-in-doar-4-minute-unui-consilier-declarat-incompatibil-de-ani/',
       },
     ],
   },
   {
     name: 'Neacșu Gheorghe Lucian',
     party: 'PSD',
-    position: 'Consilier local în cadrul Consiliului Local Muntenii de Sus, județul Vaslui',
+    position: 'Viceprimar al comunei Muntenii de Sus, județul Vaslui',
     position_type: 'local_official',
     geography: {
       county: 'Vaslui',
       basis: 'office',
-      note: 'Funcția publică relevantă era în Consiliul Local Muntenii de Sus, județul Vaslui.',
+      note: 'Funcția publică relevantă este cea de viceprimar al comunei Muntenii de Sus, județul Vaslui.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'ANI a inițiat în 2024 o acțiune pentru anularea parțială a hotărârii locale implicate, dar a renunțat la judecată. Renunțarea nu infirmă raportul de evaluare; în lipsa unei confirmări explicite a caracterului său definitiv, profilul rămâne ascuns.',
     details:
-      'ANI a constatat în februarie 2022 că, în mandatul 2016-2020, a participat la deliberarea unei hotărâri prin care s-au alocat 45.000 lei unui club sportiv cu care avea o relație de angajament.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în februarie 2022 că, în mandatul 2016–2020, a participat la deliberarea și adoptarea unei hotărâri prin care s-au alocat 45.000 lei Asociației Clubul Sportiv Flacăra Muntenii de Sus, cu care avea o relație de angajament. În dosarul 589/89/2024, ANI a cerut anularea parțială a HCL nr. 29/2019, apoi a renunțat la judecată; Tribunalul Vaslui a luat act de renunțare la 11 iunie 2024, fără a soluționa fondul constatării. Documente oficiale din 2026 îl identifică drept viceprimar și șef al serviciului voluntar pentru situații de urgență.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58866,9 +60570,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-18-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/consiliul-local/muntenii-de-sus/',
+        label: 'eMOL Muntenii de Sus — document oficial 2026',
+        kind: 'official',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentdispozitieprimar/50681/Anexa%201.pdf',
+      },
+      {
+        label: 'Portalul instanțelor — dosarul 589/89/2024',
+        kind: 'official',
+        url: 'https://portal.just.ro/SitePages/dosare.aspx',
       },
     ],
   },
@@ -58983,9 +60692,11 @@ export const politicianAdditions = [
     },
     crime: 'Sesizare parchet; folosirea funcției și fals în declarații',
     status: 'investigated',
+    note:
+      'ANI a transmis o sesizare penală, nu o acuzație ori o condamnare. Nu a fost identificată o soluție publică a Parchetului sau a unei instanțe, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a sesizat în noiembrie 2023 Parchetul cu privire la indicii că, în calitate de primar, a inițiat și semnat acte care i-au produs venituri și acte în beneficiul soției sale, precum și la posibile omisiuni din declarațiile de avere și interese.',
-    verified_at: '2026-06-18',
+      'ANI a sesizat în noiembrie 2023 Parchetul de pe lângă Înalta Curte cu privire la indicii de folosire a funcției pentru favorizarea unor persoane: în calitate de primar și reprezentant al Consiliului Local în AGA unei societăți, ar fi inițiat și semnat acte din care a obținut venituri de 42.659 lei, precum și acte în beneficiul soției sale. ANI a sesizat separat și Parchetul de pe lângă Judecătoria Vaslui pentru posibile omisiuni din declarațiile de avere și interese. Sesizările nu echivalează cu punerea sub acuzare sau condamnarea, iar la reverificare nu a fost identificată o soluție publică. A câștigat un nou mandat de primar PNL în 2024 și figurează în continuare în conducerea comunei.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -58993,16 +60704,21 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-4-alesi-locali-2/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vaslui/primarie/muntenii-de-jos/',
+        label: 'Primăria Muntenii de Jos — conducerea instituției',
+        kind: 'official',
+        url: 'https://primariamdj.ro/conducerea-primariei/',
+      },
+      {
+        label: 'Biroul Electoral Muntenii de Jos — candidaturi definitive 2024',
+        kind: 'official',
+        url: 'https://primariamdj.ro/wp-content/uploads/2024/05/Proces-verbal-ramanere-definitiva-candidaturi.pdf',
       },
     ],
   },
   {
     name: 'Fartușnic Cornelia',
     party: 'ALDE',
-    position: 'Consilier local în cadrul Consiliului Local Rădăuți-Prut, județul Botoșani',
+    position: 'Fostă consilieră locală a comunei Rădăuți-Prut, județul Botoșani (mandatul 2020–2024)',
     position_type: 'local_official',
     geography: {
       county: 'Botoșani',
@@ -59010,10 +60726,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Rădăuți-Prut, județul Botoșani.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este administrativă, nu penală. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în iulie 2023 că a participat la adoptarea unor hotărâri în baza cărora Primăria Rădăuți-Prut i-a concesionat în anul 2021 o suprafață de teren din proprietatea privată a comunei.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în iulie 2023 că, deși avea un interes personal, a participat în mandatul 2020–2024 la deliberarea și adoptarea unor hotărâri în baza cărora Primăria Rădăuți-Prut i-a concesionat în anul 2021 o suprafață de teren din proprietatea privată a comunei. A fost aleasă pe lista ALDE în 2020, dar nu figurează între candidații la Consiliul Local Rădăuți-Prut din 2024. La reverificare nu a fost identificată o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59021,9 +60739,9 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-13-alesi-locali-2/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com — candidații la Consiliul Local Rădăuți-Prut în 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/radauti-prut/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_botosani/consiliul-local/radauti-prut/2',
       },
     ],
   },
@@ -59038,10 +60756,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Șirineasa, județul Vâlcea.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este administrativă, nu penală. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în mai 2022 că, în mandatul 2016-2020, a participat la deliberarea și adoptarea unei hotărâri privind plata redevenței către primărie de către o asociație condusă de unchiul său.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în mai 2022 că, în mandatul 2016–2020, deși avea un interes personal, a participat la deliberarea și adoptarea hotărârii Consiliului Local Șirineasa din 14 iunie 2019 privind plata redevenței către primărie de către o asociație condusă de unchiul său. Este vorba despre un conflict de interese administrativ; la reverificare nu a fost identificată o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59052,6 +60772,11 @@ export const politicianAdditions = [
         label: 'Primăria Șirineasa - declarație de interese',
         kind: 'official',
         url: 'https://primariasirineasa.ro/upload/declaratii_interese/2017/Glodeanu%20Maria%20Marilena.pdf',
+      },
+      {
+        label: 'Jurnalul Olteniei — cazul fostei consiliere locale',
+        kind: 'press',
+        url: 'https://jurnalulolteniei.ro/valcea-fost-consilier-local-din-sirineasa-declarat-incompatibil-de-ani/',
       },
     ],
   },
@@ -59066,10 +60791,12 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă era în Consiliul Local Măicănești, județul Vrancea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
+    note:
+      'Constatarea ANI este administrativă, nu penală. Nu a fost identificată o hotărâre judecătorească ori o confirmare publică suficientă privind caracterul definitiv, astfel că profilul rămâne ascuns.',
     details:
-      'ANI a constatat în martie 2022 că, între 31 mai și 29 octombrie 2021, a exercitat simultan mandatul de consilier local și o funcție contractuală în aparatul de specialitate al primarului comunei Măicănești.',
-    verified_at: '2026-06-18',
+      'ANI a constatat în martie 2022 că, între 31 mai și 29 octombrie 2021, a exercitat simultan mandatul de consilier local și o funcție contractuală în Compartimentul administrativ al aparatului de specialitate al primarului comunei Măicănești. Sursele îl identifică drept fost consilier local, iar la reverificare nu a fost găsită o soluție publică a unei contestații împotriva raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59077,9 +60804,9 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Știri pe Surse — comunicatul ANI din martie 2022',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_vrancea/consiliul-local/maicanesti/',
+        url: 'https://www.stiripesurse.ro/ani-da-un-nou-tun-mai-multi-alesi-locali-in-stare-de-incompatibilitate_2293450.html',
       },
     ],
   },
@@ -59113,19 +60840,19 @@ export const politicianAdditions = [
   },
   {
     name: 'Hop\u0219a Adrian Florin',
-    party: 'PNL',
-    position: 'Consilier jude\u021bean \u00een cadrul Consiliului Jude\u021bean Neam\u021b',
+    party: 'PSD',
+    position: 'Consilier jude\u021bean PSD \u00een cadrul Consiliului Jude\u021bean Neam\u021b (mandatul 2024-2028)',
     position_type: 'local_official',
     geography: {
       county: 'Neam\u021b',
       basis: 'office',
-      note: 'Func\u021bia relevant\u0103 era \u00een cadrul Consiliului Jude\u021bean Neam\u021b.',
+      note: 'Func\u021bia relevant\u0103 este \u00een cadrul Consiliului Jude\u021bean Neam\u021b.',
     },
-    crime: 'Fals \u00een declara\u021bii; sesizare parchet',
+    crime: 'Posibil fals \u00een declara\u021bii; sesizare ANI c\u0103tre Parchet',
     status: 'investigated',
     details:
-      'ANI a sesizat \u00een august 2022 Parchetul privind indicii de fals \u00een declara\u021bii. \u00cen mandatul jude\u021bean relevant pentru evaluare, acesta era liderul consilierilor PNL din Consiliul Jude\u021bean Neam\u021b.',
-    verified_at: '2026-06-19',
+      'ANI a sesizat la 1 august 2022 Parchetul de pe l\u00e2ng\u0103 \u00cenalta Curte de Casa\u021bie \u0219i Justi\u021bie cu privire la indicii privind posibila s\u0103v\u00e2r\u0219ire a infrac\u021biunii de fals \u00een declara\u021bii, pentru nedeclararea unor venituri din jocuri de noroc \u0219i dob\u00e2nzi \u00een valoare de 108.798 lei. Nu a fost identificat\u0103 o solu\u021bie ulterioar\u0103 a Parchetului sau a unei instan\u021be, astfel c\u0103 profilul nu sus\u021bine existen\u021ba unei trimiteri \u00een judecat\u0103 ori condamn\u0103ri \u0219i r\u0103m\u00e2ne ascuns. Florin-Adrian Hop\u0219a a fost ales consilier jude\u021bean pe lista PSD pentru mandatul 2024-2028.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -59133,9 +60860,9 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/fals-in-declaratii-nedeclarare-venituri-in-cuantum-total-de-peste-480-000-lei/',
       },
       {
-        label: 'Mesagerul de Neam\u021b',
-        kind: 'press',
-        url: 'https://mesagerulneamt.ro/2021/05/rocada-la-sefia-rar-neamt-adrian-ciobanu-consilier-local-ia-locul-lui-florin-hopsa-consilier-judetean/',
+        label: 'Consiliul Jude\u021bean Neam\u021b',
+        kind: 'official',
+        url: 'https://cjneamt.ro/ro/acasa/cj-neamt/',
       },
     ],
   },
@@ -59206,10 +60933,10 @@ export const politicianAdditions = [
       note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Corod, jude\u021bul Gala\u021bi.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een iunie 2025 c\u0103 societatea administrat\u0103 \u0219i de\u021binut\u0103 de fiul s\u0103u a \u00eencheiat trei contracte cu UAT Corod, \u00een valoare de 184.717,70 lei.',
-    verified_at: '2026-06-19',
+      'ANI a constatat \u00een iunie 2025 starea de incompatibilitate, deoarece, \u00een perioada mandatului s\u0103u, societatea administrat\u0103 \u0219i de\u021binut\u0103 de fiul s\u0103u a \u00eencheiat trei contracte cu UAT Corod, \u00een valoare total\u0103 de 184.717,70 lei. Este o evaluare administrativ\u0103 de integritate, nu o anchet\u0103 penal\u0103. Nu a fost identificat\u0103 o hot\u0103r\u00e2re judec\u0103toreasc\u0103 definitiv\u0103 sau o confirmare a necontest\u0103rii raportului ANI; profilul r\u0103m\u00e2ne ascuns.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -59217,8 +60944,13 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/c-o-m-u-n-i-c-a-t-privind-primele-rezultate-ale-analizei-automate-a-declaratiilor-de-avere-si-de-interese/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Via\u021ba Liber\u0103 Gala\u021bi',
         kind: 'press',
+        url: 'https://www.viata-libera.ro/satul/246007-fost-consilier-local-in-corod%2C-gasit-incompatibilitate',
+      },
+      {
+        label: 'Ziare.com',
+        kind: 'reference',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_galati/consiliul-local/corod/',
       },
     ],
@@ -59226,18 +60958,18 @@ export const politicianAdditions = [
   {
     name: 'Ruscovan Ioan',
     party: 'PNL',
-    position: 'Viceprimar al comunei Rona de Sus, jude\u021bul Maramure\u0219, \u0219i fost consilier local',
+    position: 'Consilier local PNL al comunei Rona de Sus, jude\u021bul Maramure\u0219; fost viceprimar (2020-2024)',
     position_type: 'local_official',
     geography: {
       county: 'Maramure\u0219',
       basis: 'office',
-      note: 'Func\u021biile relevante erau \u00een comuna Rona de Sus, jude\u021bul Maramure\u0219.',
+      note: 'Func\u021biile relevante sunt \u00een comuna Rona de Sus, jude\u021bul Maramure\u0219.',
     },
     crime: 'Avere nejustificat\u0103',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een noiembrie 2023 o diferen\u021b\u0103 nejustificat\u0103 de 770.574 lei \u00eentre averea dob\u00e2ndit\u0103 \u00eempreun\u0103 cu familia \u0219i veniturile realizate \u00een mandatul de consilier local 2016-2020.',
-    verified_at: '2026-06-19',
+      'ANI a constatat \u00een noiembrie 2023 o diferen\u021b\u0103 nejustificat\u0103 de 770.574 lei \u00eentre averea dob\u00e2ndit\u0103 de Ioan Ruscovan \u00eempreun\u0103 cu familia \u0219i veniturile realizate \u00een mandatul de consilier local 2016-2020, apoi a sesizat Comisia de cercetare a averilor din cadrul Cur\u021bii de Apel Cluj. Nu a fost identificat public un rezultat ulterior al procedurii, astfel c\u0103 profilul nu prezint\u0103 constatarea ANI drept hot\u0103r\u00e2re judec\u0103toreasc\u0103 definitiv\u0103 \u0219i r\u0103m\u00e2ne ascuns. Mandatul s\u0103u de viceprimar a expirat odat\u0103 cu mandatul 2020-2024; documentele locale \u00eel confirm\u0103 consilier local \u00een noul mandat.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -59245,9 +60977,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/averi-nejustificate-in-cuantum-total-de-4-048-566-lei/',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_maramures/consiliul-local/rona-de-sus/',
+        label: 'Prim\u0103ria Rona de Sus \u2014 HCL nr. 4/2025',
+        kind: 'official',
+        url: 'https://primariaronadesus.ro/wp-content/uploads/2025/02/Hotararea-NR.-4-transmiterea-live-a-sedintelor-Connsiliului-Local.pdf',
+      },
+      {
+        label: 'Prim\u0103ria Rona de Sus \u2014 proces-verbal 24 decembrie 2024',
+        kind: 'official',
+        url: 'https://primariaronadesus.ro/wp-content/uploads/2025/01/Procese-verbale-din-luna-decembrie-2024.pdf',
       },
     ],
   },
@@ -59290,18 +61027,18 @@ export const politicianAdditions = [
   {
     name: 'Mor\u0103ra\u0219 Dana-Maria',
     party: 'PSD',
-    position: 'Fost consilier local \u00een cadrul Consiliului Local Media\u0219, jude\u021bul Sibiu',
+    position: 'Fost consilier jude\u021bean Sibiu (2020-2024) \u0219i fost consilier local Media\u0219',
     position_type: 'local_official',
     geography: {
       county: 'Sibiu',
       basis: 'office',
-      note: 'Func\u021bia relevant\u0103 era \u00een Consiliul Local Media\u0219, jude\u021bul Sibiu.',
+      note: 'A reprezentat PSD \u00een Consiliul Local Media\u0219, apoi \u00een Consiliul Jude\u021bean Sibiu.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een martie 2022 c\u0103, \u00eentre 12 iunie 2019 \u0219i 18 august 2020, a exercitat simultan mandatul de consilier local \u0219i atribu\u021biile de director adjunct \u00eentr-o societate de interes na\u021bional.',
-    verified_at: '2026-06-19',
+      'ANI a constatat la 16 martie 2022 c\u0103, \u00eentre 12 iunie 2019 \u0219i 18 august 2020, a exercitat simultan mandatul de consilier local Media\u0219 \u0219i atribu\u021biile de director adjunct al Direc\u021biei Juridice dintr-o societate de interes na\u021bional. Dana-Maria Mor\u0103ra\u0219 a contestat public temeinicia constat\u0103rii \u0219i a anun\u021bat c\u0103 \u00ee\u0219i rezerv\u0103 dreptul de a ataca raportul \u00een instan\u021b\u0103. Nu a fost identificat\u0103 o hot\u0103r\u00e2re judec\u0103toreasc\u0103 definitiv\u0103 privind raportul ANI; profilul r\u0103m\u00e2ne ascuns. Ulterior, a fost consilier jude\u021bean PSD \u00een mandatul 2020-2024.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -59309,9 +61046,14 @@ export const politicianAdditions = [
         url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Consiliul Jude\u021bean Sibiu',
+        kind: 'official',
+        url: 'https://www.cjsibiu.ro/componenta-mandat-2020-2024/',
+      },
+      {
+        label: 'Turnul Sfatului',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_sibiu/consiliul-local/medias/',
+        url: 'https://www.turnulsfatului.ro/2022/03/16/mihai-macaveiu-declarat-incompatibil-de-ani-nu-am-avut-functie-decizionala-ci-una-tehnica-190875/',
       },
     ],
   },
@@ -59513,7 +61255,7 @@ export const politicianAdditions = [
     name: 'Popescu Adrian',
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local \u0219i Consiliul Jude\u021bean Bac\u0103u (2024); fost vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u',
+      'Fost vicepre\u0219edinte ALDE al Consiliului Jude\u021bean Bac\u0103u (2016-2020); candidat AUR la Consiliul Local al municipiului Bac\u0103u \u0219i la Consiliul Jude\u021bean Bac\u0103u (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Bac\u0103u',
@@ -59522,10 +61264,10 @@ export const politicianAdditions = [
         'Func\u021bia public\u0103 evaluat\u0103 de ANI era cea de vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een aprilie 2022 c\u0103, \u00een mandatul 2016-2020, a exercitat simultan func\u021bia de vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u \u0219i calitatea de membru al Consiliului de Administra\u021bie al Registrului Auto Rom\u00e2n.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 27 octombrie 2021 c\u0103, \u00een mandatul 2016-2020, a exercitat simultan func\u021bia de vicepre\u0219edinte al Consiliului Jude\u021bean Bac\u0103u \u0219i calitatea de membru al Consiliului de Administra\u021bie al Registrului Auto Rom\u00e2n. Aceasta este o constatare administrativ\u0103 de incompatibilitate, nu o acuza\u021bie sau condamnare penal\u0103; nu a fost identificat\u0103 o hot\u0103r\u00e2re judec\u0103toreasc\u0103 public\u0103 privind eventuala contestare ori r\u0103m\u00e2nerea definitiv\u0103 a raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59533,9 +61275,19 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?PID=20&M=NewsV2&Action=1&NewsId=3185',
       },
       {
-        label: 'BEC \u2013 candidaturi locale 2024',
+        label: 'Municipiul Bac\u0103u \u2013 buletin de vot pentru Consiliul Local (2024)',
         kind: 'official',
-        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+        url: 'https://municipiulbacau.ro/wp-content/uploads/2024/05/BULETIN-DE-VOT-PENTRU-ALEGEREA-CONSILIULUI-LOCAL-AL-MUNICIPIULUI-BACAU-1.pdf',
+      },
+      {
+        label: 'Consiliul Jude\u021bean Bac\u0103u \u2013 proces-verbal al \u0219edin\u021bei din 30 iunie 2020',
+        kind: 'official',
+        url: 'https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/7D75C162DBE8DC93C2258684003FC7E8/%24FILE/3650_01.Proces-verbal-sedinta-ordinara-din-30.06.2020.pdf',
+      },
+      {
+        label: 'RAR \u2013 raport de activitate semestrul I 2018',
+        kind: 'official',
+        url: 'https://www.rarom.ro/wp-content/uploads/2018/08/Raport-activitate-semestrul-I-2018.pdf',
       },
     ],
   },
@@ -59543,7 +61295,7 @@ export const politicianAdditions = [
     name: 'Varodi Ioan',
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local C\u00e2mpia Turzii (2024); fost consilier local',
+      'Fost consilier local PNL al municipiului C\u00e2mpia Turzii; candidat AUR la Consiliul Local C\u00e2mpia Turzii (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Cluj',
@@ -59552,10 +61304,10 @@ export const politicianAdditions = [
         'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al municipiului C\u00e2mpia Turzii, jude\u021bul Cluj.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een septembrie 2020 c\u0103, \u00eencep\u00e2nd cu 28 noiembrie 2017, a exercitat simultan func\u021bia de consilier local \u0219i calitatea de administrator, membru al consiliului de administra\u021bie al unei societ\u0103\u021bi al c\u0103rei ac\u021bionar unic era Consiliul Jude\u021bean Cluj.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 7 august 2020 c\u0103, \u00eencep\u00e2nd cu 28 noiembrie 2017, a exercitat simultan func\u021bia de consilier local \u0219i calitatea de administrator-membru al consiliului de administra\u021bie al unei societ\u0103\u021bi al c\u0103rei ac\u021bionar unic era Consiliul Jude\u021bean Cluj. Este o constatare administrativ\u0103 de incompatibilitate, nu o acuza\u021bie ori condamnare penal\u0103; nu a fost identificat\u0103 o hot\u0103r\u00e2re judec\u0103toreasc\u0103 public\u0103 privind eventuala contestare sau definitivarea raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59573,7 +61325,7 @@ export const politicianAdditions = [
     name: 'Mare\u0219 Cosmin-R\u0103zvan',
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local Deva (2024); fost viceprimar \u0219i consilier local',
+      'Consilier local AUR al municipiului Deva (mandat preluat \u00een ianuarie 2025); fost viceprimar',
     position_type: 'local_official',
     geography: {
       county: 'Hunedoara',
@@ -59582,10 +61334,10 @@ export const politicianAdditions = [
         'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al municipiului Deva, jude\u021bul Hunedoara.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een august 2019 c\u0103, \u00een mandatul de consilier local 2016-2020, a participat la deliberarea \u0219i adoptarea a patru hot\u0103r\u00e2ri prin care municipiul Deva a acordat Asocia\u021biei Fotbal Club Autobergamo finan\u021b\u0103ri nerambursabile de 500.000 \u0219i 450.000 lei; ulterior, a f\u0103cut parte dintr-o delega\u021bie a asocia\u021biei la Madrid.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 14 august 2019 c\u0103, \u00een mandatul de consilier local 2016-2020, a participat la deliberarea \u0219i adoptarea a patru hot\u0103r\u00e2ri prin care municipiul Deva a acordat Asocia\u021biei Fotbal Club Autobergamo finan\u021b\u0103ri nerambursabile de 500.000 \u0219i 450.000 lei; ulterior, a f\u0103cut parte dintr-o delega\u021bie a asocia\u021biei la Madrid. Este o constatare administrativ\u0103, nu o acuza\u021bie ori condamnare penal\u0103; nu a fost identificat\u0103 o hot\u0103r\u00e2re public\u0103 privind eventuala contestare sau definitivarea raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59602,13 +61354,18 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.news.ro/comunicate/comunicat-de-presa-incompatibilitate-si-conflict-de-interese-administrativ-4-alesi-locali-19087978',
       },
+      {
+        label: 'eMOL Deva \u2013 proiect de hot\u0103r\u00e2re ini\u021biat \u00een calitate de consilier local (2026)',
+        kind: 'official',
+        url: 'https://emol.ro/deva-hd/registru-phcl/274918/',
+      },
     ],
   },
   {
     name: 'Dr\u0103ghia Dorel',
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local C\u0103line\u0219ti (2024); fost consilier local',
+      'Fost consilier local PNL al comunei C\u0103line\u0219ti; candidat AUR la Consiliul Local C\u0103line\u0219ti (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Arge\u0219',
@@ -59617,10 +61374,10 @@ export const politicianAdditions = [
         'Mandatul evaluat de ANI era \u00een cadrul Consiliului Local al comunei C\u0103line\u0219ti, jude\u021bul Arge\u0219.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een iulie 2017 c\u0103, \u00eencep\u00e2nd cu 21 iunie 2012, a exercitat simultan calitatea de consilier local \u0219i func\u021bia contractual\u0103 de asistent personal \u00een cadrul Prim\u0103riei comunei C\u0103line\u0219ti.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 12 iulie 2017 c\u0103, \u00eencep\u00e2nd cu 21 iunie 2012, a exercitat simultan calitatea de consilier local \u0219i func\u021bia contractual\u0103 de asistent personal \u00een cadrul Prim\u0103riei comunei C\u0103line\u0219ti. Un r\u0103spuns ANI din decembrie 2017 ar\u0103ta c\u0103 raportul fusese contestat \u00een instan\u021b\u0103; nu a fost identificat\u0103 public solu\u021bia definitiv\u0103. Este o constatare administrativ\u0103, nu o acuza\u021bie ori condamnare penal\u0103.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59632,12 +61389,18 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
+      {
+        label: 'ANI \u2013 r\u0103spuns nr. 17147/15.12.2017 privind stadiul rapoartelor contestate',
+        kind: 'official',
+        url: 'https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf',
+      },
     ],
   },
   {
     name: 'Cr\u0103ciun Dumitru',
     party: 'AUR',
-    position: 'Candidat AUR la Consiliul Local Goruia (2024); fost primar al comunei',
+    position:
+      'Fost primar PSD al comunei Goruia; candidat AUR la Consiliul Local Goruia (2024)',
     position_type: 'mayor',
     geography: {
       county: 'Cara\u0219-Severin',
@@ -59646,10 +61409,10 @@ export const politicianAdditions = [
         'Func\u021bia evaluat\u0103 de ANI era cea de primar al comunei Goruia, jude\u021bul Cara\u0219-Severin.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 20 iunie 2012 - 4 martie 2016, a de\u021binut simultan func\u021bia de primar, func\u021bia de cenzor al unei societ\u0103\u021bi comerciale \u0219i calitatea de comerciant persoan\u0103 fizic\u0103 autorizat\u0103.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 29 noiembrie 2016 c\u0103, \u00een perioada 20 iunie 2012 - 4 martie 2016, a de\u021binut simultan func\u021bia de primar, func\u021bia de cenzor al unei societ\u0103\u021bi comerciale \u0219i calitatea de comerciant persoan\u0103 fizic\u0103 autorizat\u0103. Un r\u0103spuns ANI din decembrie 2017 indica faptul c\u0103 raportul era contestat \u00een instan\u021b\u0103; solu\u021bia definitiv\u0103 nu a fost identificat\u0103 public. Este o constatare administrativ\u0103, nu o acuza\u021bie ori condamnare penal\u0103.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59661,25 +61424,30 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
+      {
+        label: 'ANI \u2013 r\u0103spuns nr. 17147/15.12.2017 privind stadiul rapoartelor contestate',
+        kind: 'official',
+        url: 'https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf',
+      },
     ],
   },
   {
     name: 'Birin Ion',
     party: 'AUR',
     position:
-      'Candidat AUR la Prim\u0103ria \u0219i Consiliul Local V\u00e2lcele (2024); fost primar \u0219i consilier local',
-    position_type: 'mayor',
+      'Consilier local AUR al comunei V\u00e2lcele (din 2024); fost primar PDL \u0219i fost consilier local PNL',
+    position_type: 'local_official',
     geography: {
       county: 'Olt',
       basis: 'office',
       note:
         'Func\u021biile evaluate de ANI erau cele de primar \u0219i consilier local al comunei V\u00e2lcele, jude\u021bul Olt.',
     },
-    crime: 'Incompatibilitate',
-    status: 'investigated',
+    crime: 'Incompatibilitate \u0219i conflict de interese administrativ',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een noiembrie 2016 c\u0103, \u00een perioada 27 ianuarie 2010 - 24 iunie 2012, a de\u021binut simultan func\u021bia de primar \u0219i func\u021bia de manager de proiect, ob\u021bin\u00e2nd venituri de 108.732 lei.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 25 noiembrie 2016 c\u0103, \u00een perioada 27 ianuarie 2010 - 24 iunie 2012, a de\u021binut simultan func\u021bia de primar \u0219i func\u021bia de manager de proiect, ob\u021bin\u00e2nd venituri de 108.732 lei. La 20 decembrie 2016, ANI a comunicat separat un conflict de interese administrativ: \u00een calitate de primar ar fi semnat un acord de parteneriat \u0219i o conven\u021bie care au produs foloase patrimoniale pentru sine (108.732 lei) \u0219i pentru nora sa (11.055 lei). Un r\u0103spuns ANI din decembrie 2017 indica faptul c\u0103 cel pu\u021bin unul dintre rapoarte era contestat; solu\u021biile definitive nu au fost identificate public. Nu sunt acuza\u021bii ori condamn\u0103ri penale.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59690,6 +61458,26 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Prim\u0103ria V\u00e2lcele \u2013 validarea mandatelor de consilier local (2024)',
+        kind: 'official',
+        url: 'https://www.primariavilcele.ro/portal-administratie-publica/vilcele/ultimele-anunturi/incheiere-nr-1508-din-15.10.2024---validare-mandate-pentru-functia-de-consilieri-locali',
+      },
+      {
+        label: 'Prim\u0103ria V\u00e2lcele \u2013 componen\u021ba Consiliului Local',
+        kind: 'official',
+        url: 'https://primariavilcele.ro/portal-administratie-publica/vilcele/primaria-vilcele/conducere/consiliul-local',
+      },
+      {
+        label: 'Olt Alert \u2013 al doilea raport ANI din decembrie 2016',
+        kind: 'press',
+        url: 'https://olt-alert.ro/2016/12/20/fost-primar-si-actual-consilier-local-din-olt-in-conflict-de-interese-raport-ani/',
+      },
+      {
+        label: 'ANI \u2013 r\u0103spuns nr. 17147/15.12.2017 privind stadiul rapoartelor contestate',
+        kind: 'official',
+        url: 'https://www.romaniacurata.ro/wp-content/uploads/2017/12/raspuns_ani.pdf',
       },
     ],
   },
@@ -59705,11 +61493,11 @@ export const politicianAdditions = [
       note:
         'Mandatul \u0219i func\u021bia evaluate de ANI erau \u00een cadrul Consiliului Jude\u021bean Arge\u0219 \u0219i al Unit\u0103\u021bii de Administrare Arge\u0219.',
     },
-    crime: 'Avere nejustificat\u0103',
-    status: 'investigated',
+    crime: 'Evaziune fiscal\u0103; avere nejustificat\u0103 (sesizare ANI)',
+    status: 'first_instance',
     details:
-      'ANI a constatat \u00een mai 2015 o diferen\u021b\u0103 nejustificat\u0103 de 95.272 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bia sa \u00een perioada 21 iunie 2008 - 31 decembrie 2010 \u0219i a sesizat Comisia de cercetare a averilor a Cur\u021bii de Apel Pite\u0219ti.',
-    verified_at: '2026-06-23',
+      'Tribunalul Arge\u0219 l-a condamnat \u00een prim\u0103 instan\u021b\u0103, la 14 noiembrie 2024, la 2 ani \u0219i 2 luni de \u00eenchisoare cu suspendare pentru evaziune fiscal\u0103 \u00een form\u0103 continuat\u0103; hot\u0103r\u00e2rea nu este definitiv\u0103, iar apelul din dosarul 4324/109/2023 era \u00een curs la Curtea de Apel Pite\u0219ti, cu termen la 27 octombrie 2026. Separat, ANI a constatat la 28 mai 2015 o diferen\u021b\u0103 nejustificat\u0103 de 95.272 lei \u00eentre averea dob\u00e2ndit\u0103 \u0219i veniturile realizate \u00eempreun\u0103 cu so\u021bia sa \u00een perioada 21 iunie 2008 - 31 decembrie 2010 \u0219i a sesizat Comisia de cercetare a averilor a Cur\u021bii de Apel Pite\u0219ti; finalitatea acelei proceduri nu a fost identificat\u0103 public.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -59720,6 +61508,21 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'Curtea de Apel Pite\u0219ti \u2013 dosarul 4324/109/2023 pe lista de \u0219edin\u021b\u0103 din 12 iunie 2026',
+        kind: 'official',
+        url: 'https://portal.just.ro/46/Documents/Lista%20sedinta%20-%2012%20iunie%202026%20-%20ora%2009.00sp.pdf',
+      },
+      {
+        label: 'Portalul instan\u021belor \u2013 serviciul oficial de interogare ECRIS (dosar 4324/109/2023)',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Atitudine \u00een Arge\u0219 \u2013 trimiterea \u00een judecat\u0103 pentru evaziune fiscal\u0103',
+        kind: 'press',
+        url: 'https://www.atitudineinarges.ro/omul-de-afaceri-ioan-predica-zis-si-semaca-trimis-in-judecata-alaturi-de-sotie-pentru-evaziune-fiscala/',
       },
     ],
   },
@@ -59741,11 +61544,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Ardelean Petru a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
-    verified_at: '2026-06-23',
+      'DNA a comunicat condamnarea definitiv\u0103 la 25 iunie 2014 a unui Ardelean Petru, candidat la bacalaureat \u00een dosarul din Sighetu Marma\u021biei, la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103. De\u0219i candidatul AUR este din Vadu Izei, presa documenta \u00eenc\u0103 din 2001 un adult omonim, consilier parohial \u00een aceea\u0219i localitate; f\u0103r\u0103 data na\u0219terii sau alt identificator comun nu se poate stabili care persoan\u0103 a candidat \u00een 2024. Profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 trimitere \u00een judecat\u0103 \u00een dosarul bacalaureatului din Sighet',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1054',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
@@ -59753,6 +61561,16 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'eMaramure\u0219 \u2013 lista candida\u021bilor la bacalaureat trimi\u0219i \u00een judecat\u0103',
+        kind: 'press',
+        url: 'https://www.emaramures.ro/update-mita-la-bac-lista-completa-a-profesorilor-si-elevilor-trimsi-in-judecata-sighet-patroana-liceului-george-pop-de-basesti-directoarea-filialei-din-sighe/',
+      },
+      {
+        label: 'Ziua de Ardeal/Catholica \u2013 adult omonim \u00een Vadu Izei \u00een 2001',
+        kind: 'press',
+        url: 'https://www.catholica.ro/2001/10/22/romania-calca-pe-urmele-afghanistanului-talibanii-ortodocsi/',
       },
       {
         label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
@@ -59779,51 +61597,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 21 noiembrie 2014: Chiriac Constantin a fost condamnat la 2 ani de \u00eenchisoare cu suspendare pentru trafic de influen\u021b\u0103, dup\u0103 ce a pretins 2.000 de euro pentru a interveni pe l\u00e2ng\u0103 examinatori auto.',
-    verified_at: '2026-06-23',
+      'Curtea de Apel Constan\u021ba a admis acordul de recunoa\u0219tere a vinov\u0103\u021biei \u0219i l-a condamnat definitiv, la 21 noiembrie 2014, pe un Chiriac Constantin la 2 ani de \u00eenchisoare cu suspendare sub supraveghere, cu termen de supraveghere de 2 ani, pentru trafic de influen\u021b\u0103; instan\u021ba a confiscat 200 euro. Dosarul privea corup\u021bia legat\u0103 de examenele auto din jude\u021bul Tulcea, dar sursele judiciare nu public\u0103 domiciliul sau alt identificator care s\u0103 lege persoana de candidatul AUR din Jijila. Profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 acorduri de recunoa\u0219tere \u0219i trimitere \u00een judecat\u0103',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=5046',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5674',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale 2024',
-        kind: 'official',
-        url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
-      },
-      {
-        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
-        kind: 'press',
-        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
-      },
-    ],
-  },
-  {
-    name: 'Marina Ioan',
-    party: 'AUR',
-    position: 'Candidat AUR la Consiliul Local Rona de Jos (2024)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Maramure\u0219',
-      basis: 'political_base',
-      note:
-        'Candidatura AUR din 2024 era pentru Consiliul Local al comunei Rona de Jos, jude\u021bul Maramure\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
-    },
-    crime: 'Cump\u0103rare de influen\u021b\u0103',
-    sentence: '6 luni \u00eenchisoare cu suspendare',
-    sentence_years: 0.5,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Marina Ioan a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
-    verified_at: '2026-06-23',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
       {
         label: 'BEC \u2013 candidaturi locale 2024',
@@ -59855,11 +61640,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a comunicat c\u0103 decizia definitiv\u0103 din 12 mai 2011 a stabilit executarea unei pedepse de 2 ani \u0219i 6 luni de \u00eenchisoare pentru tentativ\u0103 la folosirea de documente false sau inexacte \u00een vederea ob\u021binerii pe nedrept de fonduri europene.',
-    verified_at: '2026-06-23',
+      'Curtea de Apel Timi\u0219oara a men\u021binut definitiv, la 12 mai 2011, condamnarea unui fermier numit Muntean Ioan la 1 an \u0219i 6 luni de \u00eenchisoare pentru tentativa de a ob\u021bine nelegal 130.062 lei din fonduri europene folosind documente ale Prim\u0103riei Banloc; prin revocarea suspend\u0103rii unei pedepse anterioare, pedeapsa de executat a devenit 2 ani \u0219i 6 luni. Candidatul AUR din \u0218tiuca este prezentat oficial doar ca liber-profesionist, iar numele foarte comun, jude\u021bul \u0219i proximitatea localit\u0103\u021bilor nu constituie un identificator individual. Profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 trimitere \u00een judecat\u0103',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1569',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=2396',
       },
@@ -59867,6 +61657,11 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
+      },
+      {
+        label: 'BEC \u0218tiuca \u2013 profesia \u0219i ocupa\u021bia candida\u021bilor',
+        kind: 'official',
+        url: 'https://primariastiuca.ro/download/IByTGfeJBpHKD7lbemX8Hs0WiQGOVua88k07ZGgK.pdf',
       },
       {
         label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
@@ -59893,11 +61688,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 24 mai 2013: Ni\u021b\u0103 Ion, reprezentant al unei societ\u0103\u021bi comerciale, a fost condamnat la 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare pentru complicitate la abuz \u00een serviciu cu consecin\u021be deosebit de grave.',
-    verified_at: '2026-06-23',
+      'DNA a comunicat c\u0103 hot\u0103r\u00e2rea a r\u0103mas definitiv\u0103 la 24 mai 2013: un Ni\u021b\u0103 Ion, prezentat numai ca reprezentant al unei societ\u0103\u021bi comerciale, a primit 2 ani \u0219i 6 luni de \u00eenchisoare cu suspendare sub supraveghere, cu termen de \u00eencercare de 4 ani \u0219i 6 luni, pentru complicitate la abuz \u00een serviciu \u00een dosarul creditelor acordate nelegal de BCR \u021a\u0103nd\u0103rei \u00een perioada 1999\u20132002. Comunicatele DNA nu indic\u0103 societatea, domiciliul ori data na\u0219terii, iar sursele electorale nu ofer\u0103 un identificator care s\u0103 lege aceast\u0103 persoan\u0103 de candidatul AUR din Sf\u00e2ntu Gheorghe; profilul r\u0103m\u00e2ne ascuns din cauza riscului de omonimie.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'PNA/DNA \u2013 trimitere \u00een judecat\u0103 (27 mai 2003)',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=212',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103 (24 mai 2013)',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4119',
       },
@@ -59907,9 +61707,9 @@ export const politicianAdditions = [
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
       {
-        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        label: 'Lista candida\u021bilor \u2013 Sf\u00e2ntu Gheorghe, Ialomi\u021ba (2024)',
         kind: 'press',
-        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_ialomita/consiliul-local/sfantu-gheorghe/',
       },
     ],
   },
@@ -59931,11 +61731,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 14 mai 2010: Popa Gheorghi\u021b\u0103 a fost condamnat la 2 ani de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103.',
-    verified_at: '2026-06-23',
+      'DNA a comunicat c\u0103, prin decizia definitiv\u0103 din 14 mai 2010, o inculpat\u0103 numit\u0103 Popa Gheorghi\u021b\u0103 a primit 2 ani de \u00eenchisoare cu suspendare condi\u021bionat\u0103, cu termen de \u00eencercare de 4 ani, pentru cump\u0103rare de influen\u021b\u0103. Rechizitoriul arat\u0103 c\u0103 banii urmau s\u0103 faciliteze ob\u021binerea frauduloas\u0103 a permisului de conducere, dar nu indic\u0103 domiciliul, v\u00e2rsta sau alt identificator. Aceste surse nu permit legarea sigur\u0103 de candidatura AUR din Tite\u0219ti, astfel c\u0103 profilul r\u0103m\u00e2ne ascuns din cauza riscului de omonimie.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 trimitere \u00een judecat\u0103 (20 octombrie 2008)',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1043',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103 (14 mai 2010)',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1926',
       },
@@ -59943,11 +61748,6 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale 2024',
         kind: 'official',
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
-      },
-      {
-        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
-        kind: 'press',
-        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
       },
     ],
   },
@@ -59962,18 +61762,24 @@ export const politicianAdditions = [
       note:
         'Candidatura AUR din 2024 era pentru Consiliul Local Boteni, jude\u021bul Arge\u0219; registrul Rom\u00e2nia Curat\u0103 localizeaz\u0103 condamnarea \u00een acela\u0219i jude\u021b.',
     },
-    crime: 'Cump\u0103rare de influen\u021b\u0103',
+    crime:
+      'Cump\u0103rare de influen\u021b\u0103 \u0219i conducerea unui autovehicul cu alcoolemie peste limita legal\u0103',
     sentence: '2 ani \u00eenchisoare cu suspendare',
     sentence_years: 2,
     conviction_year: 2013,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 decizia definitiv\u0103 din 7 ianuarie 2013 l-a condamnat pe R\u0103descu Bogdan la 2 ani de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103; hot\u0103r\u00e2rea a contopit pedeapsa cu o condamnare pentru conducere sub influen\u021ba alcoolului.',
-    verified_at: '2026-06-23',
+      'DNA a comunicat c\u0103 decizia definitiv\u0103 din 7 ianuarie 2013 l-a condamnat pe R\u0103descu Bogdan la 2 ani de \u00eenchisoare cu suspendare sub supraveghere, cu termen de \u00eencercare de 6 ani, pentru cump\u0103rare de influen\u021b\u0103 \u0219i conducerea unui autovehicul cu alcoolemie peste limita legal\u0103. Rechizitoriul arat\u0103 c\u0103 a pl\u0103tit pentru influen\u021barea calculului retroactiv al alcoolemiei, dar sursele judiciare nu public\u0103 domiciliul, v\u00e2rsta sau alt identificator care s\u0103 \u00eel lege de candidatul AUR din Boteni; profilul r\u0103m\u00e2ne ascuns.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 trimitere \u00een judecat\u0103 (15 martie 2012)',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3039',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103 (7 ianuarie 2013)',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=3882',
       },
@@ -59983,9 +61789,9 @@ export const politicianAdditions = [
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
       {
-        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        label: 'Lista candida\u021bilor \u2013 Boteni, Arge\u0219 (2024)',
         kind: 'press',
-        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/boteni/9',
       },
     ],
   },
@@ -60007,11 +61813,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat c\u0103 sentin\u021ba a r\u0103mas definitiv\u0103 la 25 iunie 2014: Rednic Vasile a fost condamnat la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii bacalaureatului din Maramure\u0219.',
-    verified_at: '2026-06-23',
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014 a unui Rednic Vasile, candidat la bacalaureat \u00een dosarul de la Liceul \u201eGeorge Pop de B\u0103se\u0219ti\u201d din Sighetu Marma\u021biei, la 6 luni de \u00eenchisoare cu suspendare, cu termen de \u00eencercare de 2 ani \u0219i 6 luni, pentru cump\u0103rare de influen\u021b\u0103. Sursa judiciar\u0103 nu public\u0103 data na\u0219terii ori domiciliul; \u00een Maramure\u0219 apar mai multe persoane \u0219i chiar mai mul\u021bi candida\u021bi din 2024 cu exact acest nume, astfel c\u0103 leg\u0103tura cu candidatul AUR din Petrova nu poate fi confirmat\u0103, iar profilul r\u0103m\u00e2ne ascuns.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA \u2013 trimitere \u00een judecat\u0103 (31 octombrie 2008)',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1054',
+      },
+      {
+        label: 'DNA \u2013 hot\u0103r\u00e2re definitiv\u0103 (25 iunie 2014)',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
@@ -60021,9 +61832,14 @@ export const politicianAdditions = [
         url: 'https://locale2024.bec.ro/wp-content/uploads/2024/06/Candidaturi_locale_2024.xlsx',
       },
       {
-        label: 'Rom\u00e2nia Curat\u0103 \u2013 Harta corup\u021biei',
+        label: 'Lista candida\u021bilor \u2013 Petrova, Maramure\u0219 (2024)',
         kind: 'press',
-        url: 'https://www.romaniacurata.ro/harta-coruptiei/export.php?v=csv',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_maramures/consiliul-local/petrova/2',
+      },
+      {
+        label: 'Prim\u0103ria Sighetu Marma\u021biei \u2013 anun\u021b fiscal cu omonimi (2018)',
+        kind: 'official',
+        url: 'https://www.arhiva.primaria-sighet.ro/fisiere/stiri/Anunt_colectiv_persoane_fizice_nr_36538_4.09.2018.pdf',
       },
     ],
   },
@@ -60031,7 +61847,7 @@ export const politicianAdditions = [
     name: 'Cristea Cristian Traian',
     party: 'AUR',
     position:
-      'Candidat AUR la Consiliul Local Avram Iancu (2020); fost viceprimar al comunei Avram Iancu',
+      'Fost viceprimar al comunei Avram Iancu (inclusiv \u00een mandatul 2020-2024); candidat AUR la Consiliul Local \u00een 2020',
     position_type: 'local_official',
     geography: {
       county: 'Alba',
@@ -60040,10 +61856,10 @@ export const politicianAdditions = [
         'Func\u021bia evaluat\u0103 de ANI era cea de viceprimar al comunei Avram Iancu, jude\u021bul Alba.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat \u00een noiembrie 2020 c\u0103, \u00een perioada 23 iunie 2016 - 19 august 2020, a exercitat simultan func\u021bia de viceprimar al comunei Avram Iancu \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale.',
-    verified_at: '2026-06-23',
+      'ANI a constatat la 19 noiembrie 2020 c\u0103, \u00een perioada 23 iunie 2016 - 19 august 2020, a exercitat simultan func\u021bia de viceprimar al comunei Avram Iancu \u0219i func\u021bia de administrator al unei societ\u0103\u021bi comerciale. Este o constatare administrativ\u0103 de incompatibilitate, nu o acuza\u021bie ori condamnare penal\u0103; nu a fost identificat\u0103 o hot\u0103r\u00e2re public\u0103 privind eventuala contestare sau definitivarea raportului ANI.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'ANI',
@@ -60054,6 +61870,11 @@ export const politicianAdditions = [
         label: 'BEC \u2013 candidaturi locale Alba 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AB.xls',
+      },
+      {
+        label: 'Registru achizi\u021bii publice \u2013 persoane cu func\u021bii de decizie la comuna Avram Iancu (2024)',
+        kind: 'registry',
+        url: 'https://ro.openprocurements.com/tender/2024-imbunatatirea-serviciilor-publice-pentru-cresterea-calitatii-vietii-cetatenilor-din-comuna-avra/',
       },
     ],
   },
@@ -60368,108 +62189,9 @@ export const politicianAdditions = [
     ],
   },
   {
-    name: 'Ungureanu Viorel',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local S\u0103uce\u0219ti (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Bac\u0103u',
-      basis: 'political_base',
-      note:
-        'Candidatura PSD din 2020 era pentru Consiliul Local S\u0103uce\u0219ti, jude\u021bul Bac\u0103u.',
-    },
-    crime: 'Complicitate la luare de mit\u0103',
-    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu executare',
-    sentence_years: 1.5,
-    conviction_year: 2011,
-    status: 'convicted',
-    execution_type: 'Cu executare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 29 martie 2011: Ungureanu Viorel, instructor auto, a primit 1 an \u0219i 6 luni de \u00eenchisoare \u00een regim de deten\u021bie pentru complicitate la luare de mit\u0103.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=2290',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Bac\u0103u 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
-      },
-    ],
-  },
-  {
-    name: 'Maftei C\u0103t\u0103lin',
-    party: 'PNL',
-    position: 'Candidat PNL la Consiliul Local \u0218tefan cel Mare (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Bac\u0103u',
-      basis: 'political_base',
-      note:
-        'Candidatura PNL din 2020 era pentru Consiliul Local \u0218tefan cel Mare, jude\u021bul Bac\u0103u.',
-    },
-    crime: 'Cump\u0103rare de influen\u021b\u0103',
-    sentence: '8 luni \u00eenchisoare cu suspendare condi\u021bionat\u0103',
-    sentence_years: 0.67,
-    conviction_year: 2013,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 14 noiembrie 2013: Maftei C\u0103t\u0103lin a primit 8 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Bac\u0103u.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Bac\u0103u 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
-      },
-    ],
-  },
-  {
-    name: 'Moldovan Marinela',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local Apahida (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Cluj',
-      basis: 'political_base',
-      note:
-        'Candidatura PSD din 2020 era pentru Consiliul Local Apahida, jude\u021bul Cluj.',
-    },
-    crime: 'Cump\u0103rare de influen\u021b\u0103; fals material \u00een \u00eenscrisuri oficiale',
-    sentence: '2 ani \u0219i 4 luni \u00eenchisoare cu suspendare sub supraveghere',
-    sentence_years: 2.33,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 18 decembrie 2014: Moldovan Marinela a primit 2 ani \u0219i 4 luni de \u00eenchisoare cu suspendare sub supraveghere pentru cump\u0103rare de influen\u021b\u0103 \u0219i fals material \u00een \u00eenscrisuri oficiale, \u00een form\u0103 continuat\u0103.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5728',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Cluj 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CJ.xls',
-      },
-    ],
-  },
-  {
     name: 'Schinteie Ion',
-    party: 'PNL',
-    position: 'Candidat PNL la Consiliul Local C\u0103rbunari (2020)',
+    party: 'AUR (candidat în 2024; anterior PNL)',
+    position: 'Fost consilier local PNL al comunei Cărbunari (din 2021) și candidat AUR în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Cara\u0219-Severin',
@@ -60484,8 +62206,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 9 aprilie 2013: Schinteie Ion a primit 6 luni de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru dare de mit\u0103 \u00een dosarul PTF Naid\u0103\u0219.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 9 aprilie 2013: o persoană numită Schinteie Ion a primit 6 luni de închisoare cu suspendare condiționată pentru dare de mită în dosarul PTF Naidăș. Documentele comunei Cărbunari confirmă un consilier local PNL cu același nume, născut la 12 martie 1980, în funcție din 2021, iar lista electorală din 2024 include candidatul AUR Ioan-Viorel Schinteie. Proximitatea geografică și numele rar susțin legătura, dar sursa penală nu publică suficiente date pentru o identificare definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -60493,75 +62215,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=4053',
       },
       {
-        label: 'BEC \u2013 candidaturi locale Cara\u0219-Severin 2020',
+        label: 'Statutul comunei Cărbunari - componența consiliului local',
         kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls',
-      },
-    ],
-  },
-  {
-    name: 'Grozav Maria',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local Marga (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Cara\u0219-Severin',
-      basis: 'political_base',
-      note:
-        'Candidatura PSD din 2020 era pentru Consiliul Local Marga, jude\u021bul Cara\u0219-Severin.',
-    },
-    crime: 'Complicitate la dare de mit\u0103',
-    sentence: '1 an \u0219i 6 luni \u00eenchisoare cu suspendare',
-    sentence_years: 1.5,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 22 aprilie 2014: Grozav Maria a primit 1 an \u0219i 6 luni de \u00eenchisoare cu suspendare pentru complicitate la dare de mit\u0103, \u00een dosarul instrumentat de Serviciul Teritorial Timi\u0219oara.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=4867',
+        url: 'https://emol.ro/pluginfile.php/1/local_emol/documentanexa/228/STATUTUL-COMUNEI-CARBUNARI.pdf',
       },
       {
-        label: 'BEC \u2013 candidaturi locale Cara\u0219-Severin 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CS.xls',
-      },
-    ],
-  },
-  {
-    name: 'Avram Ionel',
-    party: 'PNL',
-    position: 'Candidat PNL la Consiliul Local \u0218endreni (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Gala\u021bi',
-      basis: 'political_base',
-      note:
-        'Candidatura PNL din 2020 era pentru Consiliul Local \u0218endreni, jude\u021bul Gala\u021bi.',
-    },
-    crime: 'Complicitate la trafic de influen\u021b\u0103',
-    sentence: '10 luni \u00eenchisoare cu executare',
-    sentence_years: 0.83,
-    conviction_year: 2013,
-    status: 'convicted',
-    execution_type: 'Cu executare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 25 septembrie 2013: Avram Ionel a primit 10 luni de \u00eenchisoare \u00een regim de deten\u021bie pentru complicitate la trafic de influen\u021b\u0103.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=4357',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Gala\u021bi 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/GL.xls',
+        label: 'Ziare.com - candidați Cărbunari 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_caras-severin/consiliul-local/carbunari/4',
       },
     ],
   },
@@ -60583,8 +62244,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 12 decembrie 2013: Marin Constantin a primit 5 luni de \u00eenchisoare cu suspendare sub supraveghere pentru \u0219antaj \u00een form\u0103 continuat\u0103, \u00een acela\u0219i dosar cu fostul deputat Dan P\u0103sat.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitiv\u0103 din 12 decembrie 2013 a unei persoane cu numele Marin Constantin la 5 luni de \u00eenchisoare cu suspendare sub supraveghere pentru \u0219antaj \u00een form\u0103 continuat\u0103, \u00een acela\u0219i dosar cu fostul deputat Dan P\u0103sat. Candidatura PSD din Roata de Jos este confirmat\u0103 separat, dar sursele disponibile nu public\u0103 un identificator comun care s\u0103 demonstreze c\u0103 este aceea\u0219i persoan\u0103; profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -60596,104 +62257,10 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/GR.xls',
       },
-    ],
-  },
-  {
-    name: 'St\u0103nescu Ferdinand',
-    party: 'PNL',
-    position: 'Candidat PNL la Consiliul Local Grajduri (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Ia\u0219i',
-      basis: 'political_base',
-      note:
-        'Candidatura PNL din 2020 era pentru Consiliul Local Grajduri, jude\u021bul Ia\u0219i.',
-    },
-    crime: 'Complicitate la evaziune fiscal\u0103',
-    sentence: '5 ani \u00eenchisoare',
-    sentence_years: 5,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu executare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 28 mai 2014: St\u0103nescu Ferdinand a primit 5 ani de \u00eenchisoare pentru complicitate la evaziune fiscal\u0103 \u00een form\u0103 continuat\u0103.',
-    verified_at: '2026-06-28',
-    sources: [
       {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=4973',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Ia\u0219i 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IS.xls',
-      },
-    ],
-  },
-  {
-    name: 'Michnea Gheorghe',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local Sighetu Marma\u021biei (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Maramure\u0219',
-      basis: 'political_base',
-      note:
-        'Candidatura PSD din 2020, prin Alian\u021ba Electoral\u0103 Coali\u021bia pentru Maramure\u0219, era pentru Consiliul Local Sighetu Marma\u021biei.',
-    },
-    crime: 'Cump\u0103rare de influen\u021b\u0103',
-    sentence: '6 luni \u00eenchisoare cu suspendare',
-    sentence_years: 0.5,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Michnea Gheorghe a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Maramure\u0219 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
-      },
-    ],
-  },
-  {
-    name: 'Iuga Grigore',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local S\u0103li\u0219tea de Sus (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Maramure\u0219',
-      basis: 'political_base',
-      note:
-        'Candidatura PSD din 2020, prin Alian\u021ba Electoral\u0103 Coali\u021bia pentru Maramure\u0219, era pentru Consiliul Local S\u0103li\u0219tea de Sus.',
-    },
-    crime: 'Cump\u0103rare de influen\u021b\u0103',
-    sentence: '6 luni \u00eenchisoare cu suspendare',
-    sentence_years: 0.5,
-    conviction_year: 2014,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Iuga Grigore a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
-      },
-      {
-        label: 'BEC \u2013 candidaturi locale Maramure\u0219 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+        label: 'EuroAvocatura \u2013 trimiterea \u00een judecat\u0103 \u00een dosarul Dan P\u0103sat',
+        kind: 'press',
+        url: 'https://www.euroavocatura.ro/stiri/7208/Dan_Pasat_a_fost_trimis_in_judecata_pentru_savarsirea_a_trei_infractiuni_de_santaj',
       },
     ],
   },
@@ -60715,8 +62282,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014: Caia Ioan-Sorin a primit 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103 \u00een dosarul fraud\u0103rii examenului de bacalaureat din Maramure\u0219.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 iunie 2014 a unei persoane cu numele Caia Ioan-Sorin la 6 luni de \u00eenchisoare cu suspendare pentru cump\u0103rare de influen\u021b\u0103. Candidatura PNL din Rozavlea \u0219i un document AFIR confirm\u0103 acela\u0219i nume rar \u00een localitate, dar sursa judiciar\u0103 nu public\u0103 un identificator care s\u0103 lege neechivoc persoana condamnat\u0103 de candidat; profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -60728,18 +62295,23 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
       },
+      {
+        label: 'AFIR \u2013 raport de selec\u021bie M141 (2010)',
+        kind: 'official',
+        url: 'https://portal.afir.info/uploads/Docu%20FEADR/M141/Raport_Selectie_rectificat_M141.pdf',
+      },
     ],
   },
   {
     name: 'Timaru Vasile',
-    party: 'PSD',
-    position: 'Candidat PSD la Consiliul Local Tei\u0219ani (2020)',
+    party: 'Partidul Rom\u00e2nia \u00een Ac\u021biune',
+    position: 'Candidat al Partidului Rom\u00e2nia \u00een Ac\u021biune la Consiliul Local Tei\u0219ani (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Prahova',
       basis: 'political_base',
       note:
-        'Candidatura PSD din 2020 era pentru Consiliul Local Tei\u0219ani, jude\u021bul Prahova.',
+        'A candidat la Consiliul Local Tei\u0219ani din partea PSD \u00een 2020 \u0219i din partea Partidului Rom\u00e2nia \u00een Ac\u021biune \u00een 2024.',
     },
     crime: 'M\u0103rturie mincinoas\u0103',
     sentence: '1 an \u00eenchisoare cu suspendare condi\u021bionat\u0103',
@@ -60748,8 +62320,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 26 septembrie 2013: Timaru Vasile a primit 1 an de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru m\u0103rturie mincinoas\u0103.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitiv\u0103 din 26 septembrie 2013 a unui Vasile Timaru, fost conduc\u0103tor auto la o societate din Ploie\u0219ti, la 1 an de \u00eenchisoare cu suspendare condi\u021bionat\u0103 pentru m\u0103rturie mincinoas\u0103. Sursele electorale confirm\u0103 un candidat cu acela\u0219i nume la Tei\u0219ani \u00een 2020 \u0219i 2024, dar nu exist\u0103 o surs\u0103 public\u0103 ce leag\u0103 profesia sau dosarul de candidat; profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -60761,28 +62333,33 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/PH.xls',
       },
+      {
+        label: 'Ziare.com \u2013 candidaturi locale Tei\u0219ani 2024',
+        kind: 'secondary',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_prahova/consiliul-local/teisani/9',
+      },
     ],
   },
   {
     name: 'Savin Doric\u0103',
-    party: 'PNL',
-    position: 'Candidat PNL la Consiliul Local P\u0103ule\u0219ti (2020)',
+    party: 'USR',
+    position: 'Candidat USR la Consiliul Local P\u0103ule\u0219ti (2024)',
     position_type: 'local_official',
     geography: {
       county: 'Vrancea',
       basis: 'political_base',
       note:
-        'Candidatura PNL din 2020 era pentru Consiliul Local P\u0103ule\u0219ti, jude\u021bul Vrancea.',
+        'A candidat la Consiliul Local P\u0103ule\u0219ti din partea PNL \u00een 2020 \u0219i din partea USR \u00een 2024.',
     },
-    crime: 'Infrac\u021biune conex\u0103 dosarului de fraud\u0103 cu fonduri europene',
+    crime: 'Neglijen\u021b\u0103 \u00een serviciu',
     sentence: 'Amend\u0103 penal\u0103 de 1.000 lei cu suspendare condi\u021bionat\u0103',
     sentence_years: 0,
     conviction_year: 2013,
     status: 'convicted',
     execution_type: 'Amend\u0103 penal\u0103',
     details:
-      'DNA a comunicat condamnarea definitiv\u0103 din 25 aprilie 2013: Savin Doric\u0103, func\u021bionar public la Prim\u0103ria Foc\u0219ani, a primit amend\u0103 penal\u0103 de 1.000 lei cu suspendare condi\u021bionat\u0103 \u00een dosarul privind ob\u021binerea pe nedrept de fonduri europene.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitiv\u0103 din 25 aprilie 2013: Savin Doric\u0103, func\u021bionar public la Serviciul taxe \u0219i impozite locale al Prim\u0103riei Foc\u0219ani, a primit amend\u0103 penal\u0103 de 1.000 lei cu suspendare condi\u021bionat\u0103 pentru neglijen\u021b\u0103 \u00een serviciu, \u00eentr-un dosar privind fonduri europene. Sursele electorale confirm\u0103 un candidat omonim la P\u0103ule\u0219ti \u00een 2020 \u0219i 2024, dar nu ofer\u0103 un identificator care s\u0103 demonstreze c\u0103 este aceea\u0219i persoan\u0103; profilul r\u0103m\u00e2ne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -60794,38 +62371,15 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VN.xls',
       },
-    ],
-  },
-  {
-    name: 'Barbu Marian',
-    party: 'PUSL',
-    position: 'Candidat PUSL la Consiliul Local Buzoești (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Argeș',
-      basis: 'political_base',
-      note:
-        'Candidatura PUSL din 2020 era pentru Consiliul Local Buzoești, județul Argeș.',
-    },
-    crime: 'Cumpărare de influență',
-    sentence: '2 ani închisoare cu suspendare condiționată',
-    sentence_years: 2,
-    conviction_year: 2011,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitivă din 13 octombrie 2011: Barbu Marian a primit 2 ani de închisoare cu suspendare condiționată pentru cumpărare de influență.',
-    verified_at: '2026-06-28',
-    sources: [
       {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=2714',
+        label: 'Ziare.com \u2013 candidaturi locale P\u0103ule\u0219ti 2024',
+        kind: 'secondary',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_vrancea/consiliul-local/paulesti/',
       },
       {
-        label: 'BEC – candidaturi locale Argeș 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/AG.xls',
+        label: 'Adev\u0103rul \u2013 trimiterea \u00een judecat\u0103 (2011)',
+        kind: 'secondary',
+        url: 'https://adevarul.ro/stiri-locale/focsani/omul-de-afaceri-constantin-nistoroiu-si-un-986582.html',
       },
     ],
   },
@@ -60886,13 +62440,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a comunicat condamnarea definitivă din 21 iunie 2010: Pandelea Valerică a primit 3 ani și 2 luni de închisoare pentru abuz în serviciu în vederea obținerii unui avantaj patrimonial și dare de mită.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 21 iunie 2010 a unei persoane cu numele Pandelea Valerică la 3 ani și 2 luni de închisoare pentru complicitate la abuz în serviciu în vederea obținerii unui avantaj patrimonial și dare de mită, în dosarul permiselor auto din Argeș. Candidatura PMP din Recea are același nume rar și același județ, dar sursele judiciare nu publică domiciliul ori un alt identificator care să confirme că este aceeași persoană; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1927',
+      },
+      {
+        label: 'Curtea de Apel Pitești – dosarul penal',
+        kind: 'official',
+        url: 'https://web.justitie-ag.ro/ca_pit/ca_app/dosar_detalii.asp?id_dosar=4600000000024322',
       },
       {
         label: 'BEC – candidaturi locale Argeș 2020',
@@ -60919,46 +62478,13 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 14 noiembrie 2013: Boghiu Sorinel a primit 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Bacău.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 14 noiembrie 2013 a unei persoane cu numele Boghiu Sorinel la 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Bacău. Candidatura USR din Podu Turcului are același nume rar și același județ, dar comunicatul judiciar nu publică domiciliul, ocupația ori un alt identificator care să confirme că este aceeași persoană; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4487',
-      },
-      {
-        label: 'BEC – candidaturi locale Bacău 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/BC.xls',
-      },
-    ],
-  },
-  {
-    name: 'Ciocan Gabriela',
-    party: 'PMP',
-    position: 'Candidat PMP la Consiliul Local Brusturoasa (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Bacău',
-      basis: 'political_base',
-      note:
-        'Candidatura PMP din 2020 era pentru Consiliul Local Brusturoasa, județul Bacău.',
-    },
-    crime: 'Cumpărare de influență',
-    sentence: '8 luni închisoare cu suspendare condiționată',
-    sentence_years: 0.67,
-    conviction_year: 2012,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitivă din 19 octombrie 2012: Ciocan Gabriela a primit 8 luni de închisoare cu suspendare condiționată pentru cumpărare de influență într-un dosar privind examenul de bacalaureat.',
-    verified_at: '2026-06-28',
-    sources: [
-      {
-        label: 'DNA',
-        kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=3620',
       },
       {
         label: 'BEC – candidaturi locale Bacău 2020',
@@ -61037,23 +62563,23 @@ export const politicianAdditions = [
   {
     name: 'Csáka Pál',
     party: 'UDMR',
-    position: 'Candidat UDMR la Consiliul Local Merești (2020)',
+    position: 'Fost consilier local UDMR în Merești; candidat la Consiliul Local Merești (2020)',
     position_type: 'local_official',
     geography: {
       county: 'Harghita',
       basis: 'political_base',
       note:
-        'Candidatura UDMR din 2020 era pentru Consiliul Local Merești, județul Harghita.',
+        'Documentele oficiale ale comunei îl identifică drept consilier local și președinte de ședință în 2019; a candidat din nou din partea UDMR în 2020.',
     },
     crime: 'Complicitate la fals intelectual',
-    sentence: '6 luni închisoare cu suspendare',
+    sentence: '6 luni închisoare, cu amânarea aplicării pedepsei și termen de supraveghere de 2 ani',
     sentence_years: 0.5,
     conviction_year: 2014,
     status: 'convicted',
-    execution_type: 'Cu suspendare',
+    execution_type: 'Amânarea aplicării pedepsei',
     details:
-      'DNA a comunicat condamnarea definitivă din 20 noiembrie 2014: Csáka Pál a primit 6 luni de închisoare cu suspendare pentru complicitate la fals intelectual.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat hotărârea definitivă din 20 noiembrie 2014: Csáka Pál, angajat la data faptelor al Asociației Crescătorilor de Bovine Merești, a recunoscut complicitatea la fals intelectual și a primit 6 luni de închisoare cu amânarea aplicării pedepsei, cu termen de supraveghere de 2 ani. În 2010 a completat fără drept o adeverință care majora fictiv de la 0,60 la 60,60 hectare suprafața declarată pentru obținerea unor subvenții.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -61065,38 +62591,10 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/HR.xls',
       },
-    ],
-  },
-  {
-    name: 'Stoian Florea',
-    party: 'PMP',
-    position: 'Candidat PMP la Consiliul Local Manasia (2020)',
-    position_type: 'local_official',
-    geography: {
-      county: 'Ialomița',
-      basis: 'political_base',
-      note:
-        'Candidatura PMP din 2020 era pentru Consiliul Local Manasia, județul Ialomița.',
-    },
-    crime: 'Înșelăciune',
-    sentence: '3 ani închisoare cu suspendare sub supraveghere',
-    sentence_years: 3,
-    conviction_year: 2012,
-    status: 'convicted',
-    execution_type: 'Cu suspendare',
-    details:
-      'DNA a comunicat condamnarea definitivă din 16 mai 2012: Stoian Florea, reprezentant al unei societăți comerciale, a primit 3 ani de închisoare cu suspendare sub supraveghere pentru înșelăciune.',
-    verified_at: '2026-06-28',
-    sources: [
       {
-        label: 'DNA',
+        label: 'Consiliul Local Merești – HCL nr. 40/2019',
         kind: 'official',
-        url: 'https://www.dna.ro/comunicat.xhtml?id=3273',
-      },
-      {
-        label: 'BEC – candidaturi locale Ialomița 2020',
-        kind: 'official',
-        url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/IL.xls',
+        url: 'https://homorodalmas.ro/wp-content/uploads/2020/07/HCL-NR-40-2019-Alegerea-presedintele-de-sedinta.pdf',
       },
     ],
   },
@@ -61151,11 +62649,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Bledea Marius-Daniel a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014 a unui Bledea Marius Daniel, candidat la bacalaureat în Sighetu Marmației, la 6 luni de închisoare cu suspendare pentru cumpărare de influență. Candidatul PMP din Vadu Izei are același nume complet rar și activează economic în imediata vecinătate a Sighetului, însă sursele publice consultate nu oferă un identificator unic care să confirme că este aceeași persoană; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată în dosarul bacalaureatului din Sighet',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1054',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
@@ -61163,6 +62666,11 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Maramureș 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+      {
+        label: 'Transparența24 – BLEDUM PROD SRL, Vadu Izei',
+        kind: 'secondary',
+        url: 'https://transparenta24.ro/firma/6794466-bledum-prod-srl',
       },
     ],
   },
@@ -61184,11 +62692,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Dunca Ileana a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014 a unei persoane numite Dunca Ileana, candidat la bacalaureat în dosarul din Sighetu Marmației, la 6 luni de închisoare cu suspendare pentru cumpărare de influență. În sursele publice apar mai multe persoane cu acest nume în Maramureș, iar comunicatul judiciar nu publică domiciliul, vârsta sau alt identificator care să o lege de candidata USR din Șieu; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată în dosarul bacalaureatului din Sighet',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1054',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
@@ -61196,6 +62709,11 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Maramureș 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+      {
+        label: 'Biblioteca Județeană Petre Dulfu – bibliotecarul din Șieu',
+        kind: 'official',
+        url: 'https://www.bibliotecamm.ro/activitati/colocviul-zonal-profesional-al-bibliotecarilor-la-ieud/2023/11/17/',
       },
     ],
   },
@@ -61217,11 +62735,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 25 iunie 2014: Șandor Marin-Ioan a primit 6 luni de închisoare cu suspendare pentru cumpărare de influență în dosarul fraudării examenului de bacalaureat din Maramureș.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 25 iunie 2014 a unui Șandor Marin Ioan, candidat la bacalaureat în dosarul din Sighetu Marmației, la 6 luni de închisoare cu suspendare pentru cumpărare de influență. Numele complet rar coincide cu al candidatului PMP, iar ANCPI documentează o persoană cu acest nume în comuna Ocna Șugatag, însă comunicatul judiciar nu publică data nașterii, domiciliul sau alt identificator comun; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată în dosarul bacalaureatului din Sighet',
+        kind: 'official',
+        url: 'https://www.dna.ro/faces/comunicat.xhtml?id=1054',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5140',
       },
@@ -61229,6 +62752,11 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Maramureș 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/MM.xls',
+      },
+      {
+        label: 'ANCPI – opis cadastral Ocna Șugatag',
+        kind: 'official',
+        url: 'https://www.ancpi.ro/pnccf_docs/Maramures/Ocna%20Sugatag/Contract_2041_10.04.2024/Documente%20cadastru/67/S67_Opis_alfabetic_de%C5%A3in%C4%83tori_OCNA%20%C8%98UGATAG.pdf',
       },
     ],
   },
@@ -61250,11 +62778,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 14 mai 2010: Lăzăroiu Maria a primit 2 ani de închisoare cu suspendare condiționată pentru cumpărare de influență.',
-    verified_at: '2026-06-28',
+      'DNA a comunicat condamnarea definitivă din 14 mai 2010 a unei Lăzăroiu Maria la 2 ani de închisoare cu suspendare condiționată pentru cumpărare de influență, într-un dosar privind obținerea frauduloasă a permiselor auto în Vâlcea. Sursele judiciare nu publică domiciliul, vârsta sau alt identificator care să o lege de candidata PMP din Frâncești, iar în județ sunt documentate persoane omonime; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată în dosarul permiselor auto Vâlcea',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1043',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=1926',
       },
@@ -61262,6 +62795,11 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Vâlcea 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/VL.xls',
+      },
+      {
+        label: 'Consiliul Județean Vâlcea – declarație de avere a unei persoane omonime',
+        kind: 'official',
+        url: 'https://old.cjvalcea.ro/images/cjvalcea/declaratii/2022/aparat/Lazaroiu_Maria_2022.pdf',
       },
     ],
   },
@@ -61350,11 +62888,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 13 ianuarie 2014: Obrejan Radu-Iulian a primit 1 an și 4 luni de închisoare cu suspendare sub supraveghere.',
-    verified_at: '2026-06-28',
+      'Înalta Curte l-a condamnat definitiv la 13 ianuarie 2014 pe Obrejan Radu Iulian la 1 an și 4 luni de închisoare cu suspendare sub supraveghere, cu termen de încercare de 3 ani și 4 luni, pentru cumpărare de influență, trafic de influență în formă continuată și complicitate la dare de mită în formă continuată, în dosarul înmatriculării frauduloase a unor autovehicule în Cluj. Identitatea candidatului din Turda este confirmată prin numele complet rar, localitate și activitatea sa documentată de administrator al unei firme de transport rutier.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=2233',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=4605',
       },
@@ -61362,6 +62905,16 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Cluj 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CJ.xls',
+      },
+      {
+        label: 'ARR – operatori de transport marfă',
+        kind: 'official',
+        url: 'https://www.arr.ro/files/info-utile/transport%20marfa/marfuri.pdf',
+      },
+      {
+        label: 'Monitorul de Cluj – reprezentantul RO MAGIC IMPEX SRL',
+        kind: 'secondary',
+        url: 'https://www.monitorulcj.ro/anunturi/86437-demararea-implementarii-proiectului-granturi-pentru-capital-de-lucru-acordate-beneficiarilor-imm-uri-pentru-firma-ro-magic-impex-s-r-l',
       },
     ],
   },
@@ -61383,11 +62936,16 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a comunicat condamnarea definitivă din 17 decembrie 2014: Radu Daniela, asociat și administrator al unei societăți din Agigea, a primit 5 ani și 6 luni de închisoare.',
-    verified_at: '2026-06-28',
+      'Curtea de Apel Constanța a condamnat definitiv la 17 decembrie 2014 o persoană numită Radu Daniela, asociat și administrator al SC Lusinda Nicolas SRL Agigea, la 5 ani și 6 luni de închisoare pentru evaziune fiscală și complicitate la evaziune fiscală, ambele în formă continuată. Deși dosarul și candidatura PMP coincid la nivel de localitate, numele este comun, iar sursele publice nu oferă un identificator personal care să confirme că este aceeași persoană; profilul rămâne ascuns preventiv.',
+    verified_at: '2026-10-01',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3595',
+      },
+      {
+        label: 'DNA – hotărâre definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=5731',
       },
@@ -61395,6 +62953,11 @@ export const politicianAdditions = [
         label: 'BEC – candidaturi locale Constanța 2020',
         kind: 'official',
         url: 'https://locale2020.bec.ro/wp-content/uploads/2020/08/CT.xls',
+      },
+      {
+        label: 'Primăria Agigea – anunț colectiv cu persoană omonimă',
+        kind: 'official',
+        url: 'https://primaria-agigea.ro/DOCUMENTE/ANUNTURI/2022/12.04.2022.Anunt%20colectiv.pdf',
       },
     ],
   },
@@ -61452,8 +63015,8 @@ export const politicianAdditions = [
     crime: 'Abuz în serviciu',
     status: 'investigated',
     details:
-      'DNA a comunicat în aprilie 2026 punerea în mișcare a acțiunii penale și control judiciar pentru două infracțiuni de abuz în serviciu legate de proceduri de achiziție publică ale Consiliului Județean Sălaj.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat la 23 aprilie 2026 punerea în mișcare a acțiunii penale și plasarea sub control judiciar pentru două presupuse infracțiuni de abuz în serviciu legate de proceduri de achiziție publică ale Consiliului Județean Sălaj. La 29 mai 2026, Tribunalul Sălaj a înlăturat din controlul judiciar interdicția de a exercita funcția de președinte al Consiliului Județean; activitatea oficială a instituției îl confirmă ulterior în funcție. Nu a fost identificat un anunț de trimitere în judecată sau o soluție definitivă. Se aplică prezumția de nevinovăție, iar profilul rămâne ascuns.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61463,7 +63026,12 @@ export const politicianAdditions = [
       {
         label: 'Consiliul Județean Sălaj',
         kind: 'official',
-        url: 'https://cjsj.ro/date/pdfuri/CV/CV_Dinu_Iancu-Salajanu.pdf',
+        url: 'https://www.cjsj.ro/index.php/consiliul-judetean/conducerea-consiliului-judetean?id=55&view=article',
+      },
+      {
+        label: 'Tribunalul Sălaj',
+        kind: 'official',
+        url: 'https://portal.just.ro/84/SiteAssets/SitePages/acasa_default/comunicat%20de%20pres%C4%83%20Dinu%20Iancu%20-%20S%C4%83l%C4%83janul.pdf',
       },
       {
         label: 'AGERPRES',
@@ -61474,7 +63042,7 @@ export const politicianAdditions = [
   },
   {
     name: 'Violeta Cătălina Ionescu',
-    party: 'PMP',
+    party: 'FD',
     position: 'Primar al comunei Olteni',
     position_type: 'mayor',
     geography: {
@@ -61485,8 +63053,8 @@ export const politicianAdditions = [
     crime: 'Abuz în serviciu',
     status: 'investigated',
     details:
-      'DNA a comunicat în decembrie 2025 punerea în mișcare a acțiunii penale și control judiciar pentru două infracțiuni de abuz în serviciu privind ajutoare sociale și activități de achiziții publice în perioada 2024-2025.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat la 5 decembrie 2025 punerea în mișcare a acțiunii penale și control judiciar pentru două presupuse infracțiuni de abuz în serviciu în formă continuată. Procurorii susțin că, în perioada 2024-2025, nu ar fi aplicat obligațiile legale pentru beneficiarii apți de muncă ai ajutorului social, producând un prejudiciu estimat la peste 2,2 milioane lei, și că în 2021 ar fi aprobat achiziții de peste 403.000 lei fără legătură strictă cu activitatea UAT. Nu a fost identificat un anunț de trimitere în judecată sau o soluție definitivă. Se aplică prezumția de nevinovăție, iar profilul rămâne ascuns. A fost realeasă primar în 2024 din partea Forța Dreptei.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61494,16 +63062,21 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=13349',
       },
       {
-        label: 'Antena 3',
-        kind: 'press',
-        url: 'https://www.antena3.ro/actualitate/politica/rezultate-alegeri-locale-2017-teleorman-pmp-a-castigat-primaria-olteni-423375.html',
+        label: 'Ziare.com — candidaturi locale 2024',
+        kind: 'reference',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_teleorman/primarie/olteni/',
+      },
+      {
+        label: 'Asociația Comunelor din România',
+        kind: 'reference',
+        url: 'https://www.acor.ro/ligile-acor/liga-femeilor-primari-ai-comunelor-din-romania/',
       },
     ],
   },
   {
     name: 'Petru Nistor',
-    party: 'PNL',
-    position: 'Primar al comunei Mălini',
+    party: 'PSD',
+    position: 'Primar PSD al comunei Mălini',
     position_type: 'mayor',
     geography: {
       county: 'Suceava',
@@ -61511,10 +63084,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Mălini, județul Suceava.',
     },
     crime: 'Complicitate la folosire de documente false pentru fonduri europene; folosirea funcției pentru favorizarea unor persoane',
-    status: 'investigated',
+    status: 'indicted',
     details:
-      'DNA a comunicat în octombrie 2017 punerea în mișcare a acțiunii penale și control judiciar într-un dosar privind documente depuse pentru obținerea de fonduri APIA și folosirea funcției de primar pentru favorizarea unei persoane.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în octombrie 2017 punerea în mișcare a acțiunii penale și control judiciar. În februarie 2018, Petru Nistor a fost trimis în judecată în dosarul nr. 846/86/2018 al Tribunalului Suceava, privind pretinsul sprijin acordat pentru obținerea nelegală a aproape 6,3 milioane de lei din fonduri APIA și folosirea funcției pentru favorizarea unor persoane. Dosarul era încă pe fond la 21 septembrie 2026, cu termen la 19 octombrie 2026; nu există o hotărâre definitivă, iar prezumția de nevinovăție se aplică. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61522,9 +63095,24 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8461',
       },
       {
-        label: 'Ziare.com',
+        label: 'Adevărul — trimiterea în judecată',
         kind: 'press',
-        url: 'https://ziare.com/stiri/dna/un-primar-traseist-cu-dosar-la-dna-pentru-fraude-cu-fonduri-europene-a-castigat-deja-alegerile-este-singurul-candidat-din-comuna-1626261',
+        url: 'https://adevarul.ro/stiri-locale/suceava/primar-trimis-in-judecata-pentru-o-frauda-de-peste-1844913.html',
+      },
+      {
+        label: 'Status Dosar — dosarul nr. 846/86/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-suceava/dosare/sectia-penala/penal/846/86/2018',
+      },
+      {
+        label: 'Comuna Mălini — declarații de avere și interese',
+        kind: 'official',
+        url: 'https://www.comunamalini.ro/primarie/declaratii/',
+      },
+      {
+        label: 'Știri Suceava — rezultate locale Mălini 2024',
+        kind: 'press',
+        url: 'https://www.stirisuceava.net/2024/06/rezultate-alegeri-locale-2024-pentru_4.html',
       },
     ],
   },
@@ -61538,15 +63126,15 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Drânceni, județul Vaslui.',
     },
-    crime: 'Folosire de documente false pentru fonduri europene; fals intelectual',
+    crime: 'Folosire de documente false pentru obținerea de fonduri europene',
     sentence: '2 ani și 6 luni închisoare cu suspendare',
     sentence_years: 2.5,
     conviction_year: 2023,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat trimiterea în judecată în 2019 pentru documente false într-un proiect finanțat din fonduri europene, iar presa a consemnat condamnarea definitivă la 2 ani și 6 luni de închisoare cu suspendare.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat trimiterea în judecată în 2019 pentru folosirea unor documente false într-un proiect finanțat din fonduri europene și fals intelectual. Curtea de Apel Iași a pronunțat definitiv la 7 septembrie 2023 pedeapsa de 2 ani și 6 luni de închisoare cu suspendare sub supraveghere pe 3 ani pentru infracțiunea privind fondurile europene; procesul pentru fals intelectual a încetat ca urmare a prescripției.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -61557,6 +63145,11 @@ export const politicianAdditions = [
         label: 'Ziarul de Iași',
         kind: 'press',
         url: 'https://www.ziaruldeiasi.ro/stiri/un-primar-condamnat-la-iasi-pentru-coruptie-cere-inapoi-banii-confiscati-de-procurori--371868.html',
+      },
+      {
+        label: 'Vremea Nouă – hotărârea definitivă',
+        kind: 'press',
+        url: 'https://www.vremeanoua.ro/nora-lui-pecheanu-a-cerut-revizuirea-sentitei-prin-care-a-ajuns-la-puscarie-iata-intreaga-telenovela-din-spatele-condamnarii/',
       },
       {
         label: 'Adevărul',
@@ -61580,10 +63173,10 @@ export const politicianAdditions = [
     sentence_years: 3,
     conviction_year: 2015,
     status: 'convicted',
-    execution_type: 'Cu suspendare',
+    execution_type: 'Cu executare',
     details:
-      'DNA a comunicat trimiterea în judecată pentru luare de mită și fals în legătură cu atribuirea unor contracte publice, iar presa locală a consemnat condamnarea definitivă din februarie 2015 la 3 ani de închisoare cu suspendare.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat trimiterea în judecată pentru luare de mită și fals în legătură cu atribuirea unor contracte publice. Curtea de Apel București l-a condamnat definitiv în februarie 2015 la 3 ani de închisoare cu executare și la interzicerea unor drepturi timp de 2 ani; după pronunțare a fost încarcerat.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -61591,9 +63184,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=2299',
       },
       {
-        label: 'Săptămâna',
+        label: 'Curierul de Vâlcea – condamnarea definitivă',
         kind: 'press',
-        url: 'https://saptamana.net/articol/11611-fost-si-actual-primar-la-boisoara-valcea-trimisi-in-judecata-de-dna-pentru-retrocedarea-unei-paduri',
+        url: 'https://www.curierul.ro/inchisoare-pentru-fostul-primar-din-boisoara/',
+      },
+      {
+        label: 'Jurnalul Olteniei – condamnarea definitivă',
+        kind: 'press',
+        url: 'https://jurnalulolteniei.ro/2015/03/06/fost-primar-din-valcea-trei-ani-cu-executare/',
       },
       {
         label: 'Mediafax',
@@ -61619,13 +63217,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat trimiterea în judecată în dosarul finanțării FC Ceahlăul, iar Curtea de Apel Bacău a menținut definitiv condamnarea la 2 ani și 6 luni de închisoare cu suspendare.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Bacău l-a condamnat definitiv la 15 aprilie 2021 la 2 ani și 6 luni de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru abuz în serviciu cu folos necuvenit și consecințe deosebit de grave în dosarul finanțării FC Ceahlăul. A fost obligat, în solidar cu două coinculpate, la plata prejudiciului de 5.416.097,62 lei către județul Neamț.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9194',
+      },
+      {
+        label: 'DNA – hotărârea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10413',
       },
       {
         label: 'Atacul.ro',
@@ -61656,13 +63259,18 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat trimiterea în judecată în dosarul finanțării FC Ceahlăul, iar Curtea de Apel Bacău a menținut definitiv o pedeapsă de 3 ani de închisoare cu suspendare.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Bacău a condamnat-o definitiv la 15 aprilie 2021 la 3 ani de închisoare cu suspendare, cu termen de încercare de 5 ani, pentru două infracțiuni de abuz în serviciu cu folos necuvenit în formă continuată în dosarul finanțării FC Ceahlăul. A fost obligată, în solidar cu Vasile Vișan, la plata prejudiciului de 5.495.000 lei către municipiul Piatra-Neamț.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9194',
+      },
+      {
+        label: 'DNA – hotărârea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10413',
       },
       {
         label: 'Atacul.ro',
@@ -61693,8 +63301,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din martie 2020 la 4 ani de închisoare cu suspendare într-un dosar privind documente false depuse pentru un proiect finanțat din fonduri europene.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Suceava l-a condamnat definitiv la 4 martie 2020 la 4 ani de închisoare cu suspendare, cu termen de încercare de 6 ani, pentru folosirea cu rea-credință a unor documente false care a avut ca rezultat obținerea pe nedrept de fonduri europene. Prejudiciul fusese recuperat, iar înscrisurile false au fost anulate.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -61725,8 +63333,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din aprilie 2015 la 3 ani de închisoare cu suspendare pentru trafic de influență, cu confiscarea sumei de 50.000 euro.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel București l-a condamnat definitiv la 29 aprilie 2015 la 3 ani de închisoare cu suspendare sub supraveghere pe 3 ani pentru trafic de influență. Instanța a dispus 100 de zile de muncă în folosul comunității și confiscarea sumei de 50.000 euro.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -61753,8 +63361,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind sume plătite pentru poziții eligibile pe listele electorale ale PNL Brașov.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată pentru dare de mită în dosarul privind sume pretins plătite pentru poziții eligibile pe listele electorale ale PNL Brașov. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Dosarul reînregistrat figura încă pe fond, cu ultima modificare la 14 aprilie 2026; nu există o hotărâre definitivă, iar prezumția de nevinovăție se aplică. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61762,16 +63370,26 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'Pro TV',
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău / Status Dosar — rejudecare',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-buzau/dosare/sectia-penala/penal/1866/62/2018',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
         kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
       },
     ],
   },
   {
     name: 'Dragoș Romulus Crăciun',
     party: 'PNL',
-    position: 'Fost consilier județean Brașov',
+    position: 'Consilier județean PNL în Consiliul Județean Brașov',
     position_type: 'local_official',
     geography: {
       county: 'Brașov',
@@ -61781,8 +63399,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind bani plătiți pentru poziții eligibile pe listele electorale ale PNL Brașov.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată pentru dare de mită în formă continuată, în dosarul privind sume pretins plătite pentru poziții eligibile pe listele electorale ale PNL Brașov. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Crăciun figurează nominal în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61790,9 +63408,24 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'Bună Ziua Brașov',
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'PNL Brașov — echipa de consilieri județeni',
+        kind: 'official',
+        url: 'https://pnlbrasov.ro/echipa',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
         kind: 'press',
-        url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
       },
     ],
   },
@@ -61809,8 +63442,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind sume plătite pentru poziții eligibile pe listele electorale ale PNL Brașov.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată pentru dare de mită în dosarul privind sume pretins plătite pentru poziții eligibile pe listele electorale ale PNL Brașov. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Șoneriu figurează nominal ca inculpat în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61827,12 +63460,27 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://agrointel.ro/19070/valentin-soneriu-pnl-a-demisionat-din-pozitia-de-secretar-de-stat-in-madr-vezi-ce-alti-liberali-au-parasit-functii-importante',
       },
+      {
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
+        kind: 'press',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
+      },
     ],
   },
   {
     name: 'Vasile Ungureanu',
     party: 'PNL',
-    position: 'Fost consilier județean Brașov',
+    position: 'Consilier județean PNL în Consiliul Județean Brașov',
     position_type: 'local_official',
     geography: {
       county: 'Brașov',
@@ -61842,8 +63490,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul privind bani plătiți pentru poziții eligibile pe listele electorale ale PNL Brașov.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată pentru dare de mită în dosarul privind sume pretins plătite pentru poziții eligibile pe listele electorale ale PNL Brașov. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Ungureanu figurează nominal în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61851,9 +63499,29 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'Bună Ziua Brașov',
+        label: 'Consiliul Județean Brașov — Hotărârea nr. 137/2025',
+        kind: 'official',
+        url: 'https://hcl.usr.ro/cjbrasov/2025/h137',
+      },
+      {
+        label: 'PNL Brașov — echipa de consilieri județeni',
+        kind: 'official',
+        url: 'https://pnlbrasov.ro/echipa',
+      },
+      {
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
         kind: 'press',
-        url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
       },
     ],
   },
@@ -61870,8 +63538,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită; complicitate la abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte și liste electorale.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte și liste electorale. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Matei figurează nominal în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61883,12 +63551,27 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://www.gandul.ro/stiri/sefa-directiei-pentru-protectia-copilului-brasov-si-un-consilier-judetean-liberal-retinuti-de-dna-tribunalul-brasov-a-respins-arestarea-preventiva-ceruta-de-procurori-12022847',
       },
+      {
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
+        kind: 'press',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
+      },
     ],
   },
   {
     name: 'Gheorghe Claudiu Cornea',
-    party: 'PNL',
-    position: 'Fost consilier județean Brașov',
+    party: 'PNL (la data faptelor; ulterior ALDE)',
+    position: 'Fost consilier județean Brașov (PNL; ulterior ALDE)',
     position_type: 'local_official',
     geography: {
       county: 'Brașov',
@@ -61898,8 +63581,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită; complicitate la abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte publice și poziții electorale.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de dare de mită și complicitate la abuz în serviciu legate de contracte publice și poziții electorale. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Cornea figurează nominal în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. În 2019 a părăsit PNL pentru ALDE și a demisionat din Consiliul Județean. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61910,6 +63593,26 @@ export const politicianAdditions = [
         label: 'Bună Ziua Brașov',
         kind: 'press',
         url: 'https://bzb.ro/stire/toti-oamenii-presedintelui-tarati-la-dna-a108942',
+      },
+      {
+        label: 'Brașov Metropolitan — plecarea la ALDE și demisia din CJ',
+        kind: 'press',
+        url: 'https://brasovmetropolitan.ro/2019/04/claudiu-cornea-inlocuit-in-consiliul-judetean-brasov/',
+      },
+      {
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
+        kind: 'press',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
       },
     ],
   },
@@ -61926,8 +63629,8 @@ export const politicianAdditions = [
     crime: 'Abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice încheiate de Primăria Șercaia.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice încheiate de Primăria Șercaia. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov și actele camerei preliminare și a trimis cauza nr. 1866/62/2018 spre rejudecare la Tribunalul Buzău din etapa camerei preliminare. Paltin figurează nominal în procedura de rejudecare, iar dosarul era încă pe fond în 2026; nu există o hotărâre definitivă și se aplică prezumția de nevinovăție. A fost reales primar PNL al comunei Șercaia în 2024. Profilul rămâne ascuns cât timp cauza este activă.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61935,16 +63638,36 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'Pro TV',
+        label: 'Monitorul de Făgăraș — rezultate locale 2024',
         kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+        url: 'https://www.monitorfg.ro/2024/06/10/vot-in-tara-fagarasului-rezultate-alegeri-locale-2024/',
+      },
+      {
+        label: 'Asociația Comunelor din România — Filiala Brașov',
+        kind: 'official',
+        url: 'https://acorbrasov.ro/comune-membre-acor/',
+      },
+      {
+        label: 'Curtea de Apel Ploiești / Status Dosar — dosarul nr. 1866/62/2018',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Lumea Justiției — decizia de rejudecare',
+        kind: 'press',
+        url: 'https://www.luju.ro/condamnarea-lui-cancescu-dinamitata-din-temelii-ca-ploiesti-a-dispus-rejudecarea-dosarului-ex-presedintelui-cj-brasov-aristotel-cancescu-inca-din-faza-de-camera-preliminara-curtea-a-constatat-ca-judecatoarea-nicoleta-constantinescu-de-la-tribunalul-brasov',
       },
     ],
   },
   {
     name: 'Ioan Iancu Boeriu',
     party: 'PNL',
-    position: 'Primar al comunei Jibert',
+    position: 'Fost primar PNL al comunei Jibert (decedat în 2022)',
     position_type: 'mayor',
     geography: {
       county: 'Brașov',
@@ -61952,10 +63675,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Jibert, județul Brașov.',
     },
     crime: 'Abuz în serviciu',
-    status: 'indicted',
+    status: 'closed',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice semnate la Primăria Jibert.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de abuz în serviciu privind contracte publice semnate la Primăria Jibert. Ioan Iancu Boeriu a decedat la 30 martie 2022, iar Tribunalul Brașov a dispus încetarea procesului penal față de el din cauza decesului, fără o soluție asupra fondului acuzației. Listele judiciare din 2025 îl consemnează explicit drept decedat. Nu a existat o constatare definitivă a vinovăției.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61968,15 +63691,20 @@ export const politicianAdditions = [
         url: 'https://beclocale2012.roaep.ro/DOCUMENTE%20BEC/REZULTATE%20FINALE/PDF/Primari/P_lista_moc.pdf',
       },
       {
-        label: 'Pro TV',
+        label: 'InfoBrașov — minuta privind încetarea procesului penal',
         kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+        url: 'https://infobrasov.net/dosarul-mita-la-partid-s-a-lasat-cu-ani-grei-de-puscarie-si-sume-imense-de-recuperat-de-institutiile-publice-pagubite/',
+      },
+      {
+        label: 'Tribunalul Buzău — listă de ședință, mențiunea decesului',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
       },
     ],
   },
   {
     name: 'Sebastian Grapă',
-    party: 'PNL',
+    party: 'PNL (la data faptelor; ulterior UNPR și PMP)',
     position: 'Fost senator de Brașov și fost consilier județean Brașov',
     position_type: 'senator',
     geography: {
@@ -61987,8 +63715,8 @@ export const politicianAdditions = [
     crime: 'Dare de mită; complicitate la abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații legate de plata unor sume pentru poziții eligibile pe listele electorale ale PNL Brașov și de contracte publice.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată a lui Sebastian Grapă în dosarul nr. 1866/62/2018, pentru acuzații legate de plata unor sume în schimbul unor poziții eligibile pe listele PNL Brașov și de contracte publice. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov din 2022 și actele de cameră preliminară, dispunând rejudecarea cauzei la Tribunalul Buzău începând cu camera preliminară; prin urmare, condamnarea din 2022 nu mai reprezintă o soluție judiciară valabilă. Dosarul de rejudecare era înregistrat la Tribunalul Buzău la verificarea din 28 septembrie 2026, fără o hotărâre definitivă identificată. Separat, Parchetul de pe lângă Tribunalul Brașov a anunțat în octombrie 2022 trimiterea sa în judecată pentru două acuzații de complicitate la abuz în serviciu privind lucrări din comuna Mândra; nu a fost identificată o soluție definitivă ulterioară. Profilul rămâne ascuns până la clarificarea definitivă a cauzelor; acuzațiile beneficiază de prezumția de nevinovăție.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -61998,12 +63726,32 @@ export const politicianAdditions = [
       {
         label: 'Senatul României',
         kind: 'official',
-        url: 'https://www.senat.ro/Legis/Lista.aspx?cod=18830',
+        url: 'https://www.senat.ro/FisaSenator.aspx?ParlamentarID=15982C69-C59B-4D31-90CE-2E0BAA9FC14F',
       },
       {
-        label: 'Libertatea',
+        label: 'Senatul României — apartenență UNPR în 2016',
+        kind: 'official',
+        url: 'https://www.senat.ro/VoturiPlenDetaliu.aspx?AppID=BFE6330D-8DA1-4A1D-B8AD-43E51DE81441&Cod=19510&Data=2016-04-05',
+      },
+      {
+        label: 'Agerpres — trimiterea în judecată din 2022',
         kind: 'press',
-        url: 'https://www.libertatea.ro/stiri/fiica-fostului-senator-sebastian-grapa-batuta-in-plina-zi-in-centrul-brasovului-de-un-barbat-beat-copila-are-mana-rupta-fotovideo-2284573',
+        url: 'https://agerpres.ro/justitie/2022/10/24/fostul-presedinte-al-cj-brasov-si-fostul-senator-sebastian-grapa-trimisi-in-judecata-pentru-abuz-in---1001546',
+      },
+      {
+        label: 'Curtea de Apel Ploiești — soluția din apel',
+        kind: 'court_registry',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — dosarul de rejudecare',
+        kind: 'court_registry',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-buzau/dosare/sectia-penala/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — lista oficială a părților',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
       },
     ],
   },
@@ -62020,8 +63768,8 @@ export const politicianAdditions = [
     crime: 'Complicitate la abuz în serviciu',
     status: 'indicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de complicitate la abuz în serviciu legate de contracte publice ale Consiliului Județean Brașov.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2017 trimiterea în judecată a lui Adrian Sabin Neag în dosarul nr. 1866/62/2018, pentru complicitate la abuz în serviciu în formă continuată. Potrivit acuzației, în calitate de consilier județean și administrator al unei societăți, ar fi redactat documente și studii, ar fi completat și semnat facturi și ar fi redactat contracte folosite în atribuirea unor achiziții publice. Curtea de Apel Ploiești a desființat integral, la 11 decembrie 2024, sentința Tribunalului Brașov din 2022 și actele camerei preliminare, dispunând rejudecarea cauzei la Tribunalul Buzău din etapa camerei preliminare. Neag figurează nominal în procedurile judiciare ulterioare, inclusiv în lista oficială a Curții de Apel Ploiești din octombrie 2025. Nu a fost identificată o hotărâre definitivă, iar condamnarea din 2022 nu mai reprezintă o soluție valabilă. Profilul rămâne ascuns cât timp rejudecarea este activă; se aplică prezumția de nevinovăție.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62029,27 +63777,42 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'NewsBV',
+        label: 'NewsBV — mandatul de consilier județean PSD',
         kind: 'press',
-        url: 'https://newsbv.ro/ministerul-educatiei-a-cumparat-fara-licitatie-15-milioane-de-masti-pentru-elevi-de-la-o-firma-administrata-de-un-fost-consilier-psd-din-brasov/',
+        url: 'https://newsbv.ro/psd-propune-un-nou-consilier-judetean-pe-locul-vacant-e-consilier-parlamentar-si-bucatar-sef/',
+      },
+      {
+        label: 'Curtea de Apel Ploiești — lista oficială din 6 octombrie 2025',
+        kind: 'official',
+        url: 'https://portal.just.ro/42/Documents/LIST%C4%82%2006.10.2025-SALA%203.pdf',
+      },
+      {
+        label: 'Curtea de Apel Ploiești — soluția din apel',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
+      },
+      {
+        label: 'Tribunalul Buzău — dosarul de rejudecare',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/tribunalul-buzau/dosare/sectia-penala/penal/1866/62/2018',
       },
     ],
   },
   {
     name: 'Cosmin Ioan Leancu',
     party: 'PSD',
-    position: 'Fost primar al comunei Beclean',
+    position: 'Consilier local PSD în comuna Beclean; fost primar al comunei Beclean',
     position_type: 'mayor',
     geography: {
       county: 'Brașov',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Beclean, județul Brașov.',
     },
-    crime: 'Complicitate la abuz în serviciu',
-    status: 'indicted',
+    crime: 'Nerecuperarea prejudiciilor constatate de Curtea de Conturi; mărturie mincinoasă; favorizarea făptuitorului',
+    status: 'convicted',
     details:
-      'DNA a comunicat în iunie 2017 trimiterea în judecată în dosarul Căncescu, reținând acuzații de complicitate la abuz în serviciu privind contracte publice locale.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Brașov l-a condamnat definitiv pe Cosmin Ioan Leancu, prin decizia nr. 567 din 22 octombrie 2021 în dosarul nr. 2200/226/2020, la o amendă penală de 12.000 lei și interzicerea unor drepturi timp de doi ani, pentru nerecuperarea prejudiciilor ca urmare a neaplicării măsurilor dispuse de Curtea de Conturi. Separat, DNA l-a trimis în judecată în 2017, în dosarul nr. 1866/62/2018, pentru mărturie mincinoasă și favorizarea făptuitorului, nu pentru complicitate la abuz în serviciu cum indica anterior profilul. Sentința Tribunalului Brașov din 2022 în această din urmă cauză a fost desființată integral la 11 decembrie 2024, iar cauza se rejudecă la Tribunalul Buzău din etapa camerei preliminare; Leancu figurează nominal în lista oficială din septembrie 2025 și nu a fost identificată o nouă soluție definitivă. Hotărârea definitivă din 2021 justifică statusul public de condamnat, independent de acuzațiile aflate în rejudecare. Site-ul oficial al comunei îl indică în 2026 drept consilier local PSD.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62057,14 +63820,24 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8242',
       },
       {
-        label: 'PSD Brașov',
+        label: 'Primăria Beclean — componența Consiliului Local',
         kind: 'official',
-        url: 'https://psdbrasov.ro/candidati/',
+        url: 'https://comunabeclean.ro/home/consiliul-local/',
       },
       {
-        label: 'Ziare.com',
+        label: 'Monitorul de Făgăraș — decizia definitivă nr. 567/2021',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_brasov/primarie/beclean/3',
+        url: 'https://www.monitorfg.ro/2021/10/25/fost-primar-condamnat-penal-o-suveica-de-firme-a-capusat-bugetul-comunei-beclean/',
+      },
+      {
+        label: 'Tribunalul Buzău — lista oficială a părților în rejudecare',
+        kind: 'official',
+        url: 'https://portal.just.ro/114/SiteAssets/SitePages/acasa_default/lista%20de%20sedinta%20CPCP1Lg%2078%20-%2016.09.2025.pdf',
+      },
+      {
+        label: 'Curtea de Apel Ploiești — soluția de rejudecare',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-ploiesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/1866/62/2018',
       },
     ],
   },
@@ -62081,8 +63854,8 @@ export const politicianAdditions = [
     crime: 'Instigare la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; fals intelectual',
     status: 'indicted',
     details:
-      'DNA a comunicat în ianuarie 2023 trimiterea în judecată, în stare de libertate, a primarului comunei Spermezeu într-un dosar privind documente APIA false sau inexacte și fonduri obținute necuvenit.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în ianuarie 2023 trimiterea în judecată, în stare de libertate, a primarului comunei Spermezeu pentru instigare la folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete în vederea obținerii pe nedrept de fonduri europene, în formă continuată, și fals intelectual, în formă continuată. Cauza nr. 3681/112/2022 se judeca încă pe fond la Tribunalul Bistrița-Năsăud în 2026: lista oficială din februarie 2026 îl menționează ca inculpat, iar la 6 iulie 2026 instanța a menținut măsurile asigurătorii într-un dosar asociat, fără a se pronunța asupra vinovăției. Nu a fost identificată o hotărâre pe fond sau definitivă. Hognogi a fost reales în 2024 și este indicat în continuare drept primar PNL de site-ul oficial al comunei. Profilul rămâne ascuns cât timp dosarul este activ; se aplică prezumția de nevinovăție.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62090,14 +63863,24 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=11709',
       },
       {
-        label: 'PressHUB',
-        kind: 'press',
-        url: 'https://www.presshub.ro/vicepresedintele-pnl-bistrita-nasaud-sorin-hognogi-sunt-cercetat-de-dna-250673/',
+        label: 'Primăria Spermezeu — conducere',
+        kind: 'official',
+        url: 'https://comunaspermezeu.ro/despre-noi/conducere/primar/',
       },
       {
-        label: 'Bistrița Express',
+        label: 'Tribunalul Bistrița-Năsăud — lista oficială din 13 februarie 2026',
+        kind: 'official',
+        url: 'https://portal.just.ro/112/SiteAssets/SitePages/informatii/13.02.2026%2C%20Complet%206%20Fond%2C%20Complet%201%20JDL%2C%20Complet%205%20Fond%2C%20sala%206.pdf',
+      },
+      {
+        label: 'Săptămâna Online — stadiul procesului în iulie 2026',
         kind: 'press',
-        url: 'https://bistritaexpress.ro/2024/01/11/ce-anunt-legat-de-candidatura-a-facut-un-primar-din-bistrita-nasaud-trimis-in-judecata-de-dna-pentrr-fapte-de-coruptie/',
+        url: 'https://saptamana.online/2026/07/05/procesul-primarului-din-spermezeu-sorin-hognogi-se-prelungeste-27-de-amanari-in-dosarul-privind-fondurile-apia/',
+      },
+      {
+        label: 'Săptămâna Online — menținerea măsurilor asigurătorii',
+        kind: 'press',
+        url: 'https://saptamana.online/2026/07/13/tribunalul-mentine-sechestrul-in-dosarul-penal-al-primarului-din-spermezeu-sorin-hognogi/',
       },
     ],
   },
@@ -62111,15 +63894,15 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Ungra, județul Brașov.',
     },
-    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    crime: 'Complicitate, în formă continuată, la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
     sentence: '2 ani închisoare cu suspendare',
     sentence_years: 2,
     conviction_year: 2024,
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 28 martie 2024: fostul primar al comunei Ungra a primit 2 ani de închisoare cu suspendare într-un dosar privind fonduri APIA obținute pe baza unor documente false.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Brașov l-a condamnat definitiv la 28 martie 2024 la 2 ani de închisoare cu suspendare sub supraveghere pe 2 ani pentru complicitate, în formă continuată, la folosirea unor documente false care a avut ca rezultat obținerea pe nedrept de fonduri europene. Instanța a impus 80 de zile de muncă în folosul comunității și plata în solidar a 833.705,65 lei către APIA, cu accesoriile aferente.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62155,8 +63938,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 7 decembrie 2020: fostul primar al comunei Tănăsoaia a primit 3 ani de închisoare cu suspendare pentru folosirea de documente false în vederea obținerii de fonduri europene.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Galați l-a condamnat definitiv la 7 decembrie 2020 la 3 ani de închisoare cu suspendare sub supraveghere pe 4 ani pentru folosirea, în formă continuată, a unor documente false care a avut ca rezultat obținerea pe nedrept de fonduri europene. Instanța a impus 90 de zile de muncă în folosul comunității și plata către AFIR a 19.414 lei, plus accesorii fiscale.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62192,8 +63975,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă a primarului comunei Godeanu la 2 ani și 10 luni de închisoare cu suspendare și interdicția de a ocupa funcția de primar timp de 5 ani, într-un dosar privind fonduri APIA.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Craiova l-a condamnat definitiv la 26 ianuarie 2017 la 2 ani și 10 luni de închisoare cu suspendare sub supraveghere pe 4 ani pentru patru infracțiuni, toate în formă continuată, într-un dosar privind fonduri APIA. A primit interdicția de a ocupa funcția de primar timp de 5 ani și a fost obligat la plata a 1.379.483 lei despăgubiri; după expirarea interdicției, a câștigat din nou Primăria Godeanu în 2024, din partea PSD.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62206,21 +63989,21 @@ export const politicianAdditions = [
         url: 'https://www.comunagodeanumh.ro/membru-primarie/ion-gheorgheci/',
       },
       {
-        label: 'Pro TV',
+        label: 'Rezultate alegeri locale 2024 – Godeanu',
         kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-mehedinti.html',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_mehedinti/primarie/godeanu/',
       },
     ],
   },
   {
     name: 'Ion Spîrleanu',
     party: 'PSD',
-    position: 'Primar al comunei Crețeni',
+    position: 'Fost primar al comunei Crețeni',
     position_type: 'mayor',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
-      note: 'Funcția publică relevantă este cea de primar al comunei Crețeni, județul Vâlcea.',
+      note: 'Funcția publică relevantă este cea de fost primar al comunei Crețeni, județul Vâlcea; din 2024 primar este Constantin Catrina.',
     },
     crime: 'Tentativă la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
     sentence: '1 an și 6 luni închisoare cu suspendare',
@@ -62229,8 +64012,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu suspendare',
     details:
-      'DNA a comunicat condamnarea definitivă din 21 iulie 2021: primarul comunei Crețeni a primit 1 an și 6 luni de închisoare cu suspendare pentru tentativa de obținere a unei finanțări nerambursabile pe baza unor hotărâri de consiliu local false.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Pitești l-a condamnat definitiv la 21 iulie 2021 la 1 an și 6 luni de închisoare cu suspendare sub supraveghere pe 2 ani pentru tentativa de obținere a unor fonduri europene pe baza a două hotărâri de consiliu local false. Instanța a impus 60 de zile de muncă în folosul comunității și interzicerea unor drepturi timp de un an.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62243,9 +64026,9 @@ export const politicianAdditions = [
         url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-valcea.html',
       },
       {
-        label: 'Săptămâna în Oltenia',
+        label: 'Rezultate alegeri locale 2024 – Crețeni',
         kind: 'press',
-        url: 'https://saptamana.net/articol/10048-rezultate-alegeri-2016-31-de-localitati-din-valcea-si-au-ales-primari-noi',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_valcea/primarie/creteni/',
       },
     ],
   },
@@ -62257,17 +64040,18 @@ export const politicianAdditions = [
     geography: {
       county: 'Suceava',
       basis: 'office',
-      note: 'Funcția publică relevantă este cea de primar al comunei Brodina, județul Suceava.',
+      locality: 'Brodina',
+      note: 'La data faptelor, Vasile Viorel Melen era primar al comunei Brodina, județul Suceava.',
     },
-    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene',
+    crime: 'Folosire sau prezentare cu rea-credință de documente ori declarații false, inexacte sau incomplete, cu obținerea pe nedrept de fonduri europene',
     sentence: '3 ani închisoare cu executare',
     sentence_years: 3,
     conviction_year: 2021,
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a comunicat condamnarea definitivă inițială din 24 martie 2021, iar actualizarea din 13 martie 2023 a menținut condamnarea la 3 ani de închisoare pentru folosire sau prezentare cu rea-credință de documente false pentru fonduri europene.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Suceava l-a condamnat definitiv la 24 martie 2021 la 3 ani și 4 luni de închisoare pentru fraudarea fondurilor europene și conflict de interese. În urma contestației în anulare, prin decizia definitivă nr. 167 din 2 februarie 2023, instanța a încetat procesul pentru folosirea funcției în vederea favorizării unor persoane, ca urmare a prescripției, și a menținut condamnarea la 3 ani de închisoare cu executare pentru infracțiunea privind fondurile europene, precum și interdicțiile complementare timp de 3 ani după executarea pedepsei.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62275,9 +64059,9 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=10349',
       },
       {
-        label: 'Adevărul',
-        kind: 'press',
-        url: 'https://adevarul.ro/stiri-locale/suceava/video-prefectul-sinescu-si-primarul-melen-au-fost-1602213.html',
+        label: 'DNA — trimitere în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8312',
       },
       {
         label: 'Dinu Zară',
@@ -62288,8 +64072,8 @@ export const politicianAdditions = [
   },
   {
     name: 'Nicolae Chiriac',
-    party: 'PNL',
-    position: 'Primar al orașului Broșteni',
+    party: 'PUSL (în 2024; anterior PNL)',
+    position: 'Fost primar al orașului Broșteni',
     position_type: 'mayor',
     geography: {
       county: 'Suceava',
@@ -62299,8 +64083,8 @@ export const politicianAdditions = [
     crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene; instigare la folosirea de documente false',
     status: 'indicted',
     details:
-      'DNA a comunicat în mai 2019 trimiterea în judecată a primarului orașului Broșteni într-un dosar privind documente false depuse la APIA pentru subvenții pe suprafață.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat la 8 iulie 2019 trimiterea în judecată, în stare de libertate, a lui Nicolae Chiriac, la data faptelor primar al orașului Broșteni și reprezentant al Asociației Crescătorilor de Animale „Ciobănașul” Broșteni. Acuzațiile privesc folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete pentru obținerea de fonduri europene, în formă continuată, și participație improprie sub forma instigării la aceeași infracțiune; dosarul a fost trimis Tribunalului Suceava. În sursele publice consultate până la 28 septembrie 2026 nu a putut fi identificată cu suficientă certitudine o soluție definitivă în această cauză, astfel că statusul rămâne „trimis în judecată”, fără a presupune vinovăția. În 2024 a candidat la Primăria Broșteni din partea PUSL, nu PNL, și a obținut 7,27%, pierzând mandatul. Profilul rămâne ascuns până la confirmarea unei soluții judiciare actuale.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62308,20 +64092,20 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9513',
       },
       {
-        label: 'Crai Nou',
+        label: 'Agerpres — trimiterea în judecată',
         kind: 'press',
-        url: 'https://www.crainou.ro/2019/04/02/primarul-pnl-al-orasului-brosteni-nicolae-chiriac-repus-in-functie-de-tribunalul-suceava/',
+        url: 'https://agerpres.ro/justitie/2019/07/08/dna-primarul-comunei-sucevene-brosteni---trimis-in-judecata-pentru-frauda-cu-fonduri-europene--338193',
       },
       {
-        label: 'Suceava News',
+        label: 'News Bucovina — rezultate locale 2024',
         kind: 'press',
-        url: 'https://suceavanews.ro/200638/administratie/portret-de-candidat-nicolae-chiriac-candidatul-pnl-la-primaria-brosteni/',
+        url: 'https://www.newsbucovina.ro/featured/388211/biroul-electoral-central-a-centralizat-rezultatele-din-mai-multe-localitati-din-judetul-suceava-vezi-rezultatele-si-care-sunt-primarii-alesi-pentru-mandatul-2024-2028',
       },
     ],
   },
   {
     name: 'Virgil-Remo Mateescu',
-    party: 'PSD',
+    party: 'PSD (la data faptelor; ulterior PER)',
     position: 'Fost primar al comunei Corbeni',
     position_type: 'mayor',
     geography: {
@@ -62330,10 +64114,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Corbeni, județul Argeș.',
     },
     crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene, cu consecințe deosebit de grave',
-    status: 'indicted',
+    status: 'prescribed',
     details:
-      'DNA a comunicat în ianuarie 2023 trimiterea în judecată a fostului primar al comunei Corbeni într-un dosar privind obținerea nelegală de fonduri europene cu consecințe deosebit de grave.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în ianuarie 2023 trimiterea în judecată a fostului primar al comunei Corbeni în dosarul nr. 6602/109/2022, pentru folosirea sau prezentarea cu rea-credință de documente ori declarații false, inexacte sau incomplete, cu consecințe deosebit de grave și în formă continuată. Acuzația privea documente depuse la AFIR în legătură cu modernizarea unui drum forestier și obținerea a 6.310.449 lei din fonduri europene. Tribunalul Argeș a dispus la 11 decembrie 2025 încetarea procesului penal ca urmare a prescripției. Curtea de Apel Pitești a respins definitiv, prin decizia nr. 993 din 2 septembrie 2026, apelurile formulate împotriva sentinței, inclusiv apelul DNA. Încetarea prin prescripție nu constituie o hotărâre de condamnare și nu stabilește vinovăția. La data faptelor Mateescu era primar PSD; ulterior a activat ca ales local PER.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62341,14 +64125,24 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=11709',
       },
       {
-        label: 'Argeș Expres',
-        kind: 'press',
-        url: 'https://www.argesexpres.ro/index.php/politic/9670-psd-a-facut-liniste-in-arges-75-primari-din-102-posibili',
+        label: 'Curtea de Apel Pitești — dosarul nr. 6602/109/2022',
+        kind: 'reference',
+        url: 'https://www.statusdosar.ro/instante/curtea-de-apel-pitesti/dosare/sectia-penala-si-pentru-cauze-cu-minori-si-de-familie/penal/6602/109/2022',
       },
       {
-        label: 'Observator de Argeș',
+        label: 'Curtea de Apel Pitești — lista oficială din 4 martie 2026',
+        kind: 'official',
+        url: 'https://portal.just.ro/46/Documents/Lista%20sedinta%20-%2004%20martie%202026%20-%20ora%2010.00sp.pdf',
+      },
+      {
+        label: 'Ziar Obiectiv — decizia definitivă din 2 septembrie 2026',
         kind: 'press',
-        url: 'https://www.observatordearges.ro/rezultate-alegeri-locale.html',
+        url: 'https://ziarobiectiv.ro/acum-primar-din-arges-scapa-de-inchisoare-a-facut-un-drum-numai-pe-hartie-prejudiciu-de-peste-1-milion-de-euro-bani-europeni-2/',
+      },
+      {
+        label: 'Actualitatea Argeșeană — mandat local PER',
+        kind: 'press',
+        url: 'https://www.ziarulactualitatea.com/primaria-corbeni-sedinta-extraordinara/',
       },
     ],
   },
@@ -62362,11 +64156,14 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Hoghiz, județul Brașov.',
     },
-    crime: 'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
-    status: 'indicted',
+    crime: 'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; conflict de interese',
+    sentence: '2 ani și 4 luni închisoare cu suspendare, termen de supraveghere 3 ani',
+    sentence_years: 2.33,
+    conviction_year: 2022,
+    status: 'convicted',
     details:
-      'DNA a comunicat în iunie 2019 trimiterea în judecată a primarului comunei Hoghiz într-un dosar privind documente folosite la APIA pentru sprijin financiar pe suprafață.',
-    verified_at: '2026-07-01',
+      'DNA a comunicat în iunie 2019 trimiterea în judecată a lui Ion Șerban, fost primar PSD al comunei Hoghiz, în dosarul nr. 2109/62/2019, pentru participație improprie la folosirea sau prezentarea cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea de fonduri europene, în formă continuată. Tribunalul Brașov a pronunțat în ianuarie 2022 o condamnare de 4 ani și 4 luni, redusă definitiv de Curtea de Apel Brașov prin decizia nr. 854 din 12 decembrie 2022 la 2 ani și 4 luni închisoare cu suspendare, cu termen de supraveghere de 3 ani. Separat, Curtea de Apel Brașov îl condamnase definitiv în 2017 la un an de închisoare cu suspendare pentru conflict de interese, fapt care a dus la încetarea mandatului de primar. Profilul fusese rămas eronat la stadiul de trimitere în judecată.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'DNA',
@@ -62374,9 +64171,19 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9465',
       },
       {
-        label: 'Pro TV',
+        label: 'Curtea de Apel Brașov — lista oficială în apel',
+        kind: 'official',
+        url: 'https://portal.just.ro/64/Documents/lista%20sedinta%2027.09.2022%20-%20penal.pdf',
+      },
+      {
+        label: 'MyTex — decizia definitivă nr. 854/2022',
         kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-brasov.html',
+        url: 'https://mytex.ro/delicte/curtea-de-apel-brasov-a-redus-pedeapsa-fostului-primar-serban-ion/',
+      },
+      {
+        label: 'Bună Ziua Brașov — condamnarea definitivă din 2017',
+        kind: 'press',
+        url: 'https://www.bzb.ro/stire/mandat-de-primar-pierdut-pe-un-vot-de-consilier-a113099',
       },
     ],
   },
@@ -62390,14 +64197,14 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Costuleni, județul Iași.',
     },
-    crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    crime: 'Complicitate, în formă continuată, la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
     sentence: 'Proces penal încetat definitiv ca urmare a prescripției răspunderii penale',
     sentence_years: 0,
     conviction_year: 2026,
     status: 'prescribed',
     details:
-      'DNA a comunicat trimiterea în judecată în mai 2019, iar actualizarea din iunie 2026 consemnează decizia definitivă a Curții de Apel Iași de încetare a procesului penal ca urmare a prescripției, cu despăgubiri civile stabilite pentru campania APIA 2009.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Iași a dispus definitiv, prin decizia din 2 aprilie 2026, încetarea procesului penal ca urmare a prescripției răspunderii penale. Pentru campania APIA 2009, Dimitrie Nechita a fost obligat în solidar cu Laurențiu Miron la plata sumei de 145.555,51 lei, plus accesorii fiscale; instanța a dispus și desființarea înscrisurilor falsificate.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62410,9 +64217,9 @@ export const politicianAdditions = [
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/costuleni/',
       },
       {
-        label: 'Viața Liberă',
+        label: 'News.ro – trimiterea în judecată',
         kind: 'press',
-        url: 'https://www.viata-libera.ro/pdf/2004/06_iunie/vlg_15_iun.pdf',
+        url: 'https://www.news.ro/justitie/doi-fosti-primari-ai-unei-comune-iesene-si-alte-doua-persoane-trimisi-in-judecata-de-dna-intr-un-dosar-legat-de-obtinerea-ilegala-de-fonduri-europene-1922404008362019072019054871',
       },
     ],
   },
@@ -62432,8 +64239,8 @@ export const politicianAdditions = [
     conviction_year: 2026,
     status: 'prescribed',
     details:
-      'DNA a comunicat trimiterea în judecată în mai 2019, iar actualizarea din iunie 2026 consemnează decizia definitivă a Curții de Apel Iași de încetare a procesului penal ca urmare a prescripției, cu despăgubiri civile stabilite pentru campaniile APIA 2009 și 2010.',
-    verified_at: '2026-07-01',
+      'Curtea de Apel Iași a dispus definitiv, prin decizia din 2 aprilie 2026, încetarea procesului penal ca urmare a prescripției răspunderii penale. Dumitru Harabagiu a fost obligat în solidar la plata către APIA a 14.013,97 lei pentru campania 2009 și a 89.056,79 lei pentru campania 2010, plus accesorii fiscale; instanța a dispus și desființarea înscrisurilor falsificate.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62463,10 +64270,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al orașului Zărnești, județul Brașov.',
     },
     crime: 'Tentativă la folosirea sau prezentarea de documente ori declarații false pentru fonduri europene',
-    status: 'indicted',
+    status: 'acquitted',
     details:
-      'DNA a comunicat în sinteza cauzelor finalizate în noiembrie 2022 trimiterea în judecată a lui Igrișan Alexandru Lucian, la data faptei viceprimar al orașului Zărnești și ulterior primar al aceluiași oraș, într-un dosar privind documente false depuse pentru finanțarea unui centru de informare turistică.',
-    verified_at: '2026-07-02',
+      'DNA l-a trimis în judecată pentru tentativa de a obține pe nedrept 293.849 lei din fonduri europene, prin documente despre care procurorii au susținut că atestau nereal finalizarea unui centru de informare turistică. Prin decizia penală nr. 273 din 28 martie 2025, Curtea de Apel Brașov l-a achitat, reținând că fapta nu a fost săvârșită cu forma de vinovăție prevăzută de lege; instanța a constatat și că nu s-a produs un prejudiciu. Decizia este definitivă.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
@@ -62478,23 +64285,29 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_brasov/primarie/zarnesti/',
       },
+      {
+        label: 'Primăria Zărnești – primar',
+        kind: 'official',
+        url: 'https://www.primaria-zarnesti.ro/conducerea-primariei-zarnesti/primar-primaria-zarnesti/',
+      },
     ],
   },
   {
     name: 'Ilie Gherman',
-    party: 'PSD',
-    position: 'Fost primar al comunei Slatina',
+    party: 'PNL (în 2020; anterior PDL)',
+    position: 'Fost primar al comunei Slatina; ales consilier local PNL în 2020, cu mandat invalidat',
     position_type: 'mayor',
     geography: {
       county: 'Suceava',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Slatina, județul Suceava.',
     },
-    crime: 'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene',
+    crime:
+      'Participație improprie la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; falsuri și fraudă la vot (proces încetat prin prescripție)',
     status: 'indicted',
     details:
-      'DNA a comunicat în sinteza cauzelor finalizate în octombrie 2019 trimiterea în judecată a fostului primar al comunei Slatina într-un dosar privind documente false sau inexacte depuse la APIA pentru obținerea de fonduri.',
-    verified_at: '2026-07-02',
+      'DNA a comunicat în octombrie 2019 trimiterea în judecată în dosarul 3098/86/2019, privind documente false sau inexacte depuse la APIA și un prejudiciu indicat de 570.045 lei. Portalul instanțelor arată că dosarul se judecă încă în fond la Tribunalul Suceava, cu termen la 14 octombrie 2026. Separat, în dosarul 1149/227/2017, procesul pentru falsuri și fraudă la vot a încetat prin prescripție la 25 aprilie 2023, soluție rămasă definitivă la 12 octombrie 2023. Documentele oficiale locale îl identifică drept candidat PNL în 2020, nu PSD.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
@@ -62502,44 +64315,55 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=9651',
       },
       {
-        label: 'Pro TV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-suceava.html',
+        label: 'Portalul instanțelor – dosarele 3098/86/2019 și 1149/227/2017',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Judecătoria Fălticeni – validarea mandatelor locale din 2020',
+        kind: 'official',
+        url: 'https://www.comunaslatina.ro/wp-content/uploads/2021/03/investire-primar-gherman-vladut-2020-2024.pdf',
       },
     ],
   },
   {
     name: 'Vasile Raica',
     party: 'PSD',
-    position: 'Primar al comunei Râmeț',
+    position: 'Primar al comunei Râmeț (mandat 2024–2028)',
     position_type: 'mayor',
     geography: {
       county: 'Alba',
       basis: 'office',
       note: 'Funcția publică relevantă este cea de primar al comunei Râmeț, județul Alba.',
     },
-    crime: 'Folosire sau prezentare cu rea-credință de documente false pentru fonduri europene',
-    status: 'indicted',
+    crime:
+      'Acuzații privind documente false pentru fonduri europene: achitare definitivă pentru campaniile 2010 și 2012–2016; prescripție pentru campania 2011',
+    status: 'acquitted',
     details:
-      'DNA a comunicat în decembrie 2020 trimiterea în judecată a primarului și fostului viceprimar al comunei Râmeț într-un dosar privind documente false sau inexacte depuse pentru obținerea de fonduri europene.',
-    verified_at: '2026-07-02',
+      'DNA a actualizat comunicatul inițial: prin decizia penală nr. 575 din 20 iunie 2023, Curtea de Apel Alba i-a achitat definitiv pe Vasile Raica și Daniela Gligor pentru campaniile 2010 și 2012–2016, deoarece faptele nu există ori nu sunt prevăzute de legea penală. Pentru campania 2011, procesul penal a încetat prin prescripție; instanța a admis parțial acțiunea civilă pentru 18.618 lei. Site-ul oficial al comunei îl indică în continuare drept primar, iar ACoR confirmă mandatul 2024–2028.',
+    verified_at: '2026-09-30',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – comunicat actualizat cu soluția definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=10171',
       },
       {
-        label: 'BEC 2016',
+        label: 'Primăria Râmeț – primar',
         kind: 'official',
-        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+        url: 'https://comunarimet.ro/primaria/structura/persoana/raica-vasile_3',
+      },
+      {
+        label: 'Asociația Comunelor din România – mandat 2024–2028',
+        kind: 'official',
+        url: 'https://www.acor.ro/distinctii-acor/',
       },
     ],
   },
   {
     name: 'Costel Morărescu',
-    party: 'UNPR',
-    position: 'Primar al comunei Filipeștii de Pădure',
+    party: 'UNPR (la data cazului)',
+    position: 'Fost primar al comunei Filipeștii de Pădure (până în 2020)',
     position_type: 'mayor',
     geography: {
       county: 'Prahova',
@@ -62547,10 +64371,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Filipeștii de Pădure, județul Prahova.',
     },
     crime: 'Abuz în serviciu',
-    status: 'indicted',
+    status: 'first_instance',
     details:
-      'DNA a comunicat în sinteza cauzelor finalizate în aprilie 2018 trimiterea în judecată a primarului comunei Filipeștii de Pădure pentru abuz în serviciu în formă continuată, într-un dosar privind finanțări nerambursabile acordate de la bugetul local unei asociații sportive.',
-    verified_at: '2026-07-02',
+      'DNA a comunicat trimiterea în judecată în dosarul 9182/105/2017, privind 56 de plăți către o asociație sportivă. După rejudecare, Tribunalul Prahova a încetat procesul penal prin prescripție la 15 iulie 2026; hotărârea nu este definitivă. Portalul instanțelor arată că apelul se află în pronunțare la Curtea de Apel Ploiești, cu soluția stabilită pentru 1 octombrie 2026. Consiliul Județean Prahova indică un alt primar în funcție, astfel că funcția lui Costel Morărescu a fost actualizată ca istorică.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
@@ -62558,9 +64382,14 @@ export const politicianAdditions = [
         url: 'https://www.dna.ro/comunicat.xhtml?id=8616',
       },
       {
-        label: 'Pro TV',
-        kind: 'press',
-        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-prahova.html',
+        label: 'Portalul instanțelor – dosarul 9182/105/2017*',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Consiliul Județean Prahova – Filipeștii de Pădure',
+        kind: 'official',
+        url: 'https://cjph.ro/localitate/filipestii-de-padure/',
       },
     ],
   },
@@ -62575,15 +64404,20 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Bărăganu, județul Constanța.',
     },
     crime: 'Complicitate la folosirea sau prezentarea cu rea-credință de documente false pentru fonduri europene; complicitate la fals în înscrisuri sub semnătură privată',
-    status: 'indicted',
+    status: 'convicted',
     details:
-      'DNA a comunicat în sinteza cauzelor finalizate în mai 2018 trimiterea în judecată a lui Neague Titu, administrator în fapt al unei societăți și primar al comunei Bărăganu la data faptelor, într-un dosar privind documente folosite pentru obținerea de fonduri europene.',
-    verified_at: '2026-07-02',
+      'În rejudecarea dosarului 8208/118/2017*, Tribunalul Constanța l-a condamnat la 4 ani de închisoare cu executare la 4 martie 2024 pentru complicitate la obținerea nelegală de fonduri europene; soluția include contopirea cu două condamnări definitive anterioare, din 2016 și 2020. Procesul pentru fals intelectual din aceeași cauză a încetat prin prescripție. Hotărârea din 2024 nu este încă definitivă: apelul se judecă la Curtea de Apel Constanța, cu următorul termen la 14 octombrie 2026.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8541',
+      },
+      {
+        label: 'Portalul instanțelor – dosarul 8208/118/2017*',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
       {
         label: 'BEC 2016',
@@ -62603,13 +64437,13 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Deveselu, județul Olt.',
     },
     crime: 'Luare de mită',
-    status: 'indicted',
+    status: 'closed',
     details:
-      'DNA a comunicat în octombrie 2018 trimiterea în judecată a primarului comunei Deveselu pentru luare de mită, într-un dosar privind lucrări de modernizare a drumurilor comunale.',
-    verified_at: '2026-07-02',
+      'DNA a comunicat trimiterea în judecată pentru luare de mită într-un dosar privind modernizarea drumurilor comunale, însă a actualizat ulterior cazul: Tribunalul București a încetat procesul penal prin sentința nr. 1227 din 22 octombrie 2020, ca urmare a decesului lui Ion Aliman. Hotărârea a rămas definitivă prin neapelare la 4 noiembrie 2020.',
+    verified_at: '2026-09-30',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – comunicat actualizat cu soluția definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=9118',
       },
@@ -62636,15 +64470,20 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Mărgău, județul Cluj.',
     },
     crime: 'Abuz în serviciu',
-    status: 'indicted',
+    status: 'acquitted',
     details:
-      'DNA a comunicat în mai 2022 trimiterea în judecată a fostului primar al comunei Mărgău pentru abuz în serviciu în formă continuată, într-un dosar privind un contract de refacere a lucrărilor afectate de fenomene hidrometeorologice.',
-    verified_at: '2026-07-02',
+      'În dosarul 2305/117/2022, Tribunalul Cluj l-a condamnat în primă instanță la 7 ani și 6 luni de închisoare la 19 martie 2025. Curtea de Apel Cluj a desființat integral sentința și a dispus achitarea lui Petru Ungur la 8 ianuarie 2026, în temeiul art. 16 alin. (1) lit. b, tezele I și II din Codul de procedură penală. Decizia este definitivă.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=11277',
+      },
+      {
+        label: 'Portalul instanțelor – dosarul 2305/117/2022',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
       },
       {
         label: 'BEC 2016',
@@ -62661,7 +64500,7 @@ export const politicianAdditions = [
   {
     name: 'Ion-Robert Rotea',
     party: 'PSD',
-    position: 'Primar al comunei Vitomirești',
+    position: 'Primar al comunei Vitomirești (mandat 2024–2028)',
     position_type: 'mayor',
     geography: {
       county: 'Olt',
@@ -62669,15 +64508,25 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Vitomirești, județul Olt.',
     },
     crime: 'Abuz în serviciu; fals material; complicitate la obținerea ilegală de fonduri; luare de mită; instigare la spălare a banilor',
-    status: 'investigated',
+    status: 'indicted',
     details:
-      'DNA a comunicat în mai 2022 punerea în mișcare a acțiunii penale și reținerea primarului comunei Vitomirești într-un dosar privind achiziții publice, fonduri și plăți nelegale.',
-    verified_at: '2026-07-02',
+      'DNA a comunicat în mai 2022 punerea în mișcare a acțiunii penale și reținerea primarului comunei Vitomirești, iar cauza a ajuns în judecată în dosarul 3435/104/2022. Portalul instanțelor confirmă că procesul se află încă în fond la Tribunalul Olt, cu termen la 23 octombrie 2026. Site-ul oficial al comunei și rezultatele locale din 2024 îl confirmă în continuare primar PSD.',
+    verified_at: '2026-09-30',
     sources: [
       {
         label: 'DNA',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=11256',
+      },
+      {
+        label: 'Portalul instanțelor – dosarul 3435/104/2022',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Primăria Vitomirești – primar',
+        kind: 'official',
+        url: 'https://primariavitomiresti.ro/ro/content/primaria-vitomiresti/conducere/primar',
       },
       {
         label: 'BEC 2016',
@@ -62765,7 +64614,7 @@ export const politicianAdditions = [
   {
     name: 'Gheorghe Claudiu Doroftei',
     party: 'PSD',
-    position: 'Primar al comunei Bălușeni',
+    position: 'Primar al comunei Bălușeni (mandat 2024–2028)',
     position_type: 'mayor',
     geography: {
       county: 'Botoșani',
@@ -62773,10 +64622,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă este cea de primar al comunei Bălușeni, județul Botoșani.',
     },
     crime: 'Abuz în serviciu; fals intelectual',
-    status: 'indicted',
+    status: 'first_instance',
     details:
-      'DNA a comunicat în martie 2023 trimiterea în judecată a primarului comunei Bălușeni pentru abuz în serviciu și fals intelectual, într-un dosar privind plata drepturilor salariale pentru un director de complex sportiv.',
-    verified_at: '2026-07-02',
+      'În dosarul 776/40/2023, Tribunalul Botoșani l-a condamnat la 23 februarie 2026 la 3 ani de închisoare cu suspendare sub supraveghere pentru 4 ani, pentru abuz în serviciu în formă continuată și fals intelectual. I-a interzis pentru 5 ani dreptul de a fi ales și de a ocupa o funcție ce implică autoritatea de stat. Hotărârea nu este definitivă: portalul instanțelor înregistrează apelul declarat de Gheorghe-Claudiu Doroftei la 13 martie 2026. Documente oficiale din 2026 îl indică încă drept primar.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -62788,12 +64637,22 @@ export const politicianAdditions = [
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_botosani/primarie/baluseni/',
       },
+      {
+        label: 'Portalul instanțelor – dosarul 776/40/2023',
+        kind: 'official',
+        url: 'http://portalquery.just.ro/Query.asmx',
+      },
+      {
+        label: 'Curtea de Conturi – audit UAT Bălușeni',
+        kind: 'official',
+        url: 'https://www.curteadeconturi.ro/rapoarte-audit/downloads/5549',
+      },
     ],
   },
   {
     name: 'Gabriel Plăiașu',
-    party: 'PNL',
-    position: 'Fost deputat de Dâmbovița',
+    party: 'Forța Dreptei (din 2021; ales PNL în 2020)',
+    position: 'Fost deputat de Dâmbovița (mandatul 2020–2024)',
     position_type: 'deputy',
     geography: {
       county: 'Dâmbovița',
@@ -62803,8 +64662,8 @@ export const politicianAdditions = [
     crime: 'Instigare la folosirea sau prezentarea de documente false, inexacte sau incomplete pentru fonduri europene',
     status: 'indicted',
     details:
-      'DNA Ploiești a comunicat în ianuarie 2023 trimiterea în judecată a deputatului Gabriel Plăiașu într-un dosar APIA privind obținerea pe nedrept de fonduri europene în perioada 2010-2011.',
-    verified_at: '2026-07-11',
+      'DNA Ploiești a comunicat în ianuarie 2023 trimiterea în judecată la Înalta Curte a lui Gabriel Plăiașu într-un dosar APIA privind obținerea pe nedrept de fonduri europene în perioada 2010–2011. La verificarea din 1 octombrie 2026 nu a fost identificată în sursele oficiale consultate o hotărâre definitivă care să înlocuiască acest stadiu. Camera Deputaților confirmă că mandatul său parlamentar s-a încheiat în 2024; afilierea a fost actualizată pentru a reflecta trecerea de la PNL la Forța Dreptei.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'DNA',
@@ -62814,7 +64673,7 @@ export const politicianAdditions = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idm=228&leg=2020&pag=1',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idm=228&leg=2020&pag=1',
       },
     ],
   },
@@ -62828,11 +64687,12 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Ialomița.',
     },
-    crime: 'Folosirea influenței ori autorității; abuz în serviciu; instigare la fals',
+    crime:
+      'Luare de mită; folosirea influenței ori autorității; abuz în serviciu; instigare la abuz în serviciu; instigare la fals intelectual; complicitate la fraudă cu fonduri europene',
     status: 'acquitted',
     details:
-      'DNA a comunicat trimiterea în judecată în 2015, iar actualizarea oficială din 2021 consemnează achitarea definitivă pentru infracțiunile reținute, întrucât faptele nu există ori nu sunt prevăzute de legea penală.',
-    verified_at: '2026-07-11',
+      'DNA l-a trimis în judecată la 30 iunie 2015 pentru toate acuzațiile enumerate. Prin decizia penală nr. 940 din 13 august 2021, Curtea de Apel București a dispus achitarea definitivă a lui Vasile Silvian Ciupercă, întrucât faptele nu există ori nu sunt prevăzute de legea penală.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62847,7 +64707,7 @@ export const politicianAdditions = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=41&leg=2000',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=41&leg=2000',
       },
     ],
   },
@@ -62861,14 +64721,20 @@ export const politicianAdditions = [
       basis: 'constituency',
       note: 'Senator ales în Circumscripția electorală nr. 22 Hunedoara, colegiul 3.',
     },
-    crime: 'Folosirea influenței; favorizarea făptuitorului; constituirea unui grup infracțional organizat',
+    crime:
+      'Constituirea unui grup infracțional organizat; influențarea declarațiilor; favorizarea făptuitorului; folosirea influenței pentru obținerea de foloase necuvenite',
     status: 'acquitted',
     details:
-      'DNA a trimis dosarul ASF-Carpatica în judecată în 2014. În 2017, DNA a consemnat decizia definitivă prin care ÎCCJ a dispus achitarea lui Radu Dan Rușanu pentru infracțiunile reținute.',
-    verified_at: '2026-07-11',
+      'DNA l-a trimis în judecată în dosarul ASF–Carpatica la 20 aprilie 2014. Prin decizia penală nr. 235 din 28 iunie 2017, Înalta Curte de Casație și Justiție a dispus achitarea definitivă a lui Radu Dan Rușanu pentru toate infracțiunile reținute.',
+    verified_at: '2026-10-02',
     sources: [
       {
-        label: 'DNA',
+        label: 'DNA – trimiterea în judecată',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4835',
+      },
+      {
+        label: 'DNA – hotărârea definitivă',
         kind: 'official',
         url: 'https://www.dna.ro/comunicat.xhtml?id=8307',
       },
@@ -62896,8 +64762,8 @@ export const politicianAdditions = [
     status: 'convicted',
     execution_type: 'Cu executare',
     details:
-      'DNA a consemnat condamnarea definitivă din 3 noiembrie 2020 la 8 ani de închisoare, cu despăgubiri stabilite pentru CCIR și Romexpo. Profilul parlamentar îl leagă de mandatul de deputat PNL de Iași.',
-    verified_at: '2026-07-11',
+      'Prin decizia penală nr. 325 din 3 noiembrie 2020, Înalta Curte de Casație și Justiție l-a condamnat definitiv la 8 ani de închisoare cu executare. A fost obligat la plata a 53.823.942,46 lei către CCIR și a 6.086.741,44 lei către Romexpo, parțial singur și parțial în solidar cu ceilalți inculpați. Profilul parlamentar îl leagă de mandatul de deputat PNL de Iași.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62907,7 +64773,7 @@ export const politicianAdditions = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=370&leg=2004&pag=1&par=&prn=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=370&leg=2004&pag=1&par=&prn=0',
       },
     ],
   },
@@ -62927,8 +64793,8 @@ export const politicianAdditions = [
     conviction_year: 2018,
     status: 'prescribed',
     details:
-      'DNA a comunicat în 2018 clasarea cauzei față de Dan Nica pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 1 februarie 2018 clasarea cauzei față de Dan Nica pentru abuz în serviciu în dosarul licențelor Microsoft, deoarece fapta era prescrisă. Faptele cercetate priveau hotărârile de guvern din 2003-2004 și un prejudiciu estimat la 66.965.343,88 USD. Profilurile oficiale confirmă fostul mandat de deputat PSD de Galați și mandatul de europarlamentar.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62938,7 +64804,7 @@ export const politicianAdditions = [
       {
         label: 'Camera Deputaților',
         kind: 'official',
-        url: 'https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=250&leg=2012&pag=0',
+        url: 'https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=250&leg=2012&pag=0',
       },
       {
         label: 'Parlamentul European',
@@ -62963,8 +64829,8 @@ export const politicianAdditions = [
     conviction_year: 2018,
     status: 'prescribed',
     details:
-      'DNA a comunicat în 2018 clasarea cauzei față de Silvia-Adriana Țicău pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 1 februarie 2018 clasarea cauzei față de Silvia-Adriana Țicău pentru abuz în serviciu în dosarul licențelor Microsoft, deoarece fapta era prescrisă. Faptele cercetate priveau hotărârile de guvern din 2003-2004 și un prejudiciu estimat la 66.965.343,88 USD. Istoricul oficial al Parlamentului European confirmă fostele mandate de europarlamentar PSD.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -62999,8 +64865,8 @@ export const politicianAdditions = [
     conviction_year: 2018,
     status: 'prescribed',
     details:
-      'DNA a comunicat în 2018 clasarea cauzei față de Alexandru Athanasiu pentru abuz în serviciu în dosarul Microsoft, deoarece fapta era prescrisă.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 1 februarie 2018 clasarea cauzei față de Alexandru Athanasiu pentru abuz în serviciu în dosarul licențelor Microsoft, deoarece fapta era prescrisă. Faptele cercetate priveau hotărârile de guvern din 2003-2004 și un prejudiciu estimat la 66.965.343,88 USD. Fișa oficială a Senatului confirmă mandatele PSD din circumscripția Bihor.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -63030,8 +64896,8 @@ export const politicianAdditions = [
     conviction_year: 2018,
     status: 'prescribed',
     details:
-      'DNA a comunicat în 2018 clasarea cauzei față de Ecaterina Andronescu pentru abuz în serviciu în dosarul Microsoft, deoarece faptele erau prescrise.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 1 februarie 2018 clasarea cauzei față de Ecaterina Andronescu pentru abuz în serviciu în dosarul licențelor Microsoft, deoarece fapta era prescrisă. Faptele cercetate priveau inițierea ori avizarea unor hotărâri de guvern din perioada 2000-2004. Fișa oficială a Camerei Deputaților confirmă mandatul PSD din circumscripția București.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -63058,8 +64924,8 @@ export const politicianAdditions = [
     crime: 'Abuz în serviciu în dosarul licențelor Microsoft',
     status: 'closed',
     details:
-      'DNA a comunicat în 2018 soluția clasării față de Daniel Funeriu în dosarul Microsoft, întrucât actul analizat nu era de natură să producă efecte juridice.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 1 februarie 2018 clasarea față de Daniel Funeriu în dosarul licențelor Microsoft, în temeiul art. 16 alin. (1) lit. b CPP: nota semnată de acesta avea exclusiv scop de raportare și informare și nu era aptă să producă efecte juridice. Istoricul Parlamentului European confirmă mandatul PDL din 22 decembrie 2008 până la 13 iulie 2009.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -63070,6 +64936,11 @@ export const politicianAdditions = [
         label: 'Camera Deputaților',
         kind: 'official',
         url: 'https://www.cdep.ro/ords/pls/steno/steno2015.stenograma?idl=&idm=1.147&ids=7041',
+      },
+      {
+        label: 'Parlamentul European',
+        kind: 'official',
+        url: 'https://www.europarl.europa.eu/meps/en/95020/DANIEL%2BPETRU_FUNERIU/history/6',
       },
     ],
   },
@@ -63086,8 +64957,8 @@ export const politicianAdditions = [
     crime: 'Constituirea unui grup infracțional organizat; complicitate la trafic de influență',
     status: 'closed',
     details:
-      'DNA a comunicat punerea în mișcare a acțiunii penale în 2015, iar actualizarea oficială din 18 ianuarie 2021 consemnează clasarea cauzei pentru lipsa faptelor ori lipsa probelor certe și suficiente.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat punerea în mișcare a acțiunii penale la 18 iunie 2015. La 16 decembrie 2020, procurorii au clasat cauza în temeiul art. 16 lit. a și c CPP: fapta nu există ori nu există probe că persoana a săvârșit infracțiunea; nu au rezultat probe certe și suficiente dincolo de orice îndoială rezonabilă. PNL Sector 1 confirmă că Andrei Chiliman a condus sectorul între 2004 și 2015 și a revenit în partid în 2024.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -63111,11 +64982,12 @@ export const politicianAdditions = [
       basis: 'office',
       note: 'Funcția publică relevantă a fost cea de președinte al Consiliului Județean Hunedoara.',
     },
-    crime: 'Trafic de influență; luare de mită; folosirea influenței; spălare de bani; conflict de interese',
+    crime:
+      'Trafic de influență; luare de mită; folosirea influenței ori autorității politice; instigare la spălare de bani; conflict de interese; deținerea fără drept a unui document secret de stat',
     status: 'closed',
     details:
-      'DNA a comunicat în decembrie 2014 punerea în mișcare a acțiunii penale și reținerea fostului președinte al CJ Hunedoara. Presa locală și juridică a relatat ulterior clasarea dosarului de corupție în 2022.',
-    verified_at: '2026-07-11',
+      'DNA a comunicat la 4 decembrie 2014 punerea în mișcare a acțiunii penale și reținerea președintelui CJ Hunedoara pentru nouă capete de acuzare. În iulie-august 2022, publicațiile locale au prezentat ordonanța de clasare și au consemnat că soluția devenise definitivă pentru toate acuzațiile.',
+    verified_at: '2026-10-02',
     sources: [
       {
         label: 'DNA',
@@ -63130,25 +65002,30 @@ export const politicianAdditions = [
       {
         label: 'Ziarul Hunedoreanului',
         kind: 'press',
-        url: 'https://zhd.ro/eveniment/mircea-molot-nevinovat-in-dosarul-in-care-a-fost-anchetat-de-dna-in-2014-ce-s-a-intamplat-cu/',
+        url: 'https://www.zhd.ro/evenimente/mircea-molot-nevinovat-in-dosarul-in-care-a-fost-anchetat-de-dna-in-2014-ce-s-a-intamplat-cu/',
+      },
+      {
+        label: 'Replica Hunedoara',
+        kind: 'press',
+        url: 'https://www.replicahd.ro/documente-in-exclusivitate-definitiv-ultimul-dosar-de-ancheta-impotriva-lui-mircea-molot-a-fost-clasat/',
       },
     ],
   },
   {
     name: 'Stelian Traian',
-    party: 'PSD',
-    position: 'Primar al orașului Căzănești, județul Ialomița',
+    party: 'PNL (în 2024; anterior PSD)',
+    position: 'Fost primar al orașului Căzănești, județul Ialomița (2020-2024)',
     position_type: 'mayor',
     geography: {
       county: 'Ialomița',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al orașului Căzănești, județul Ialomița.',
+      note: 'A fost primar al orașului Căzănești în mandatul 2020-2024; în 2024 a candidat din partea PNL și nu a fost reales.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la deliberarea și adoptarea unor hotărâri ale Consiliului Local Căzănești care au dus la contracte de închiriere ori transmiterea unui drept de concesiune în favoarea unor rude.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatul de consilier local 2016-2020 a participat la adoptarea a trei hotărâri care au permis închirierea ori concesionarea unor terenuri către nepotul și ginerele său. Stelian Traian a contestat raportul, însă Înalta Curte de Casație și Justiție a menținut definitiv, în septembrie 2023, hotărârea Curții de Apel București care confirmase constatarea ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63156,27 +65033,37 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
+        label: 'Independent',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_ialomita/primarie/cazanesti/',
+        url: 'https://www.independentonline.ro/2023/11/01/Primarul-din-Cazanesti--Stelian-Traian---iertat--de-lege-cu-o-sanctiune-disciplinara-28277',
+      },
+      {
+        label: 'Prefectura Ialomița - alegeri locale 2024',
+        kind: 'official',
+        url: 'https://il.prefectura.mai.gov.ro/alegeri-locale-si-europarlamentare-2024/',
+      },
+      {
+        label: 'Ziare.com - rezultate locale 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_ialomita/primarie/cazanesti/',
       },
     ],
   },
   {
     name: 'Snae Florin',
     party: 'PSD',
-    position: 'Primar al comunei Rușețu, județul Buzău',
+    position: 'Fost primar al comunei Rușețu, județul Buzău (până în 2024)',
     position_type: 'mayor',
     geography: {
       county: 'Buzău',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al comunei Rușețu, județul Buzău.',
+      note: 'A fost primar al comunei Rușețu până în 2024; alegerile locale din 2024 au fost câștigate de Marius Samoilă (PSD).',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de primar 2016-2020, a emis dispoziția prin care soția sa a fost desemnată personal tehnic auxiliar la biroul electoral de circumscripție comunală Rușețu.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatul de primar 2016-2020 a emis dispoziția prin care soția sa a fost desemnată personal tehnic auxiliar al biroului electoral de circumscripție Rușețu. Înalta Curte de Casație și Justiție i-a respins definitiv recursul la 10 mai 2023, menținând sentința Curții de Apel Ploiești și raportul ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63184,27 +65071,37 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
+        label: 'Justnews - soluția definitivă ÎCCJ',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_buzau/primarie/rusetu/',
+        url: 'https://justnews.ro/22045-2/',
+      },
+      {
+        label: 'Prefectura Buzău - alegeri locale 2024',
+        kind: 'official',
+        url: 'https://bz.prefectura.mai.gov.ro/alegeri-europarlamentare-si-locale-9-iunie-2024/',
+      },
+      {
+        label: 'Ziare.com - rezultate locale 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_buzau/primarie/rusetu/',
       },
     ],
   },
   {
     name: 'Tătar Ioan',
     party: 'PNL',
-    position: 'Primar al comunei Bixad, județul Satu Mare',
+    position: 'Fost primar al comunei Bixad, județul Satu Mare (mandat încetat în 2023)',
     position_type: 'mayor',
     geography: {
       county: 'Satu Mare',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al comunei Bixad, județul Satu Mare.',
+      note: 'A fost primar al comunei Bixad până în iulie 2023, când mandatul i-a încetat după rămânerea definitivă a raportului ANI.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatele de primar 2016-2020 și 2020-2024, a emis dispoziții de numire, mutare și delegare de atribuții pentru fiica sa, funcționar public în cadrul Primăriei Bixad.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatele 2016-2020 și 2020-2024 a emis dispoziții de numire, mutare și delegare de atribuții pentru fiica sa, funcționar public al Primăriei Bixad, producându-i un folos material. După rămânerea definitivă a raportului, mandatul său de primar a încetat în iulie 2023. În 2024, Tribunalul Satu Mare a constatat cu autoritate de lucru judecat interdicția de a ocupa funcții publice alese timp de trei ani.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63212,27 +65109,37 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
+        label: 'BECC Bixad - Hotărârea nr. 20/2024',
+        kind: 'official',
+        url: 'https://www.primaria-bixad.ro/media/images/h20.pdf',
+      },
+      {
+        label: 'Primăria Bixad - componența instituției',
+        kind: 'official',
+        url: 'https://vechi.primaria-bixad.ro/ro/componenta/index.htm',
+      },
+      {
+        label: 'Informația Zilei',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/rezultate_satu-mare/primarie/bixad/',
+        url: 'https://informatia-zilei.ro/ioan-tatar-primarul-demis-al-comunei-bixad-isi-sarbatoreste-ziua/',
       },
     ],
   },
   {
     name: 'Tătar Nistor',
     party: 'PSD',
-    position: 'Fost primar al municipiului Rădăuți, județul Suceava',
+    position: 'Fost primar și fost consilier local al municipiului Rădăuți, județul Suceava',
     position_type: 'mayor',
     geography: {
       county: 'Suceava',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al municipiului Rădăuți, județul Suceava.',
+      note: 'A fost primar al municipiului Rădăuți în mandatul 2016-2020 și consilier local după alegerile din 2024, mandat încetat prin ordinul prefectului din 31 martie 2025.',
     },
     crime: 'Conflict de interese administrativ; sesizare Camera de Conturi',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de primar al municipiului Rădăuți, a încheiat un contract de lucrări cu o societate la care era angajat cu contract suspendat pe durata mandatului, producând foloase materiale pentru sine.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatul de primar 2016-2020 a încheiat un contract de lucrări cu societatea la care era angajat cu contractul suspendat și la care a revenit ulterior într-o funcție mai bine plătită. ÎCCJ i-a respins definitiv contestația prin Decizia nr. 4861 din 26 octombrie 2023. Mandatul de consilier local obținut în 2024 a încetat prin Ordinul prefectului nr. 245/31.03.2025; legalitatea măsurii a fost confirmată definitiv de Curtea de Apel Suceava la 2 martie 2026.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63240,27 +65147,32 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
+        label: 'VIVA FM - decizia definitivă ÎCCJ',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/primarie/radauti/',
+        url: 'https://old.vivafm.ro/2023/10/27/nistor-tatar-a-pierdut-procesul-cu-ani-care-il-gasise-in-conflict-de-interese/',
+      },
+      {
+        label: 'Radio TOP Suceava - hotărârea definitivă din 2026',
+        kind: 'press',
+        url: 'https://www.radiotop.ro/actualitate/fostul-prefect-de-suceava-traian-andronachi-despre-legea-retroactiva-privind-incompatibilitatile-nu-pot-accepta-ideea-ca-statul-de-drept-trebuie-masurat-in-functie-de-cine-este-pe.html',
       },
     ],
   },
   {
     name: 'Morgociu Ioan',
     party: 'PNL',
-    position: 'Viceprimar al comunei Șepreuș, județul Arad',
+    position: 'Fost viceprimar al comunei Șepreuș, județul Arad (până în 2024)',
     position_type: 'local_official',
     geography: {
       county: 'Arad',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de viceprimar al comunei Șepreuș, județul Arad.',
+      note: 'A fost viceprimar al comunei Șepreuș în mandatul 2020-2024; din 2024 funcția este deținută de Adrian Rîb.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri privind actualizarea chiriilor pentru pășunea comunală, deși avea interes personal printr-o asociație al cărei membru fondator era.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatul de consilier local 2016-2020 a participat la adoptarea unei hotărâri privind actualizarea chiriilor pentru pășunea comunală, deși avea un interes personal printr-o asociație al cărei membru fondator era. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63268,27 +65180,32 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
+        label: 'Primăria Șepreuș - rapoarte de activitate',
+        kind: 'official',
+        url: 'https://sepreus.ro/rapoarte-de-activitate-consilieri-locali/',
+      },
+      {
+        label: 'Live Arad - conducerea locală în 2025',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_arad/consiliul-local/sepreus/',
+        url: 'https://www.livearad.ro/zilele-comunei-sepreus-editia-a-xvi-a-sarbatoare-muzica-si-bucurie-pe-9-si-10-august/',
       },
     ],
   },
   {
     name: 'Ivanciu Ovidiu-Adrian',
     party: 'PSD',
-    position: 'Viceprimar al comunei Răchitoasa, județul Bacău',
+    position: 'Consilier local PSD în comuna Răchitoasa, județul Bacău; fost viceprimar',
     position_type: 'local_official',
     geography: {
       county: 'Bacău',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de viceprimar al comunei Răchitoasa, județul Bacău.',
+      note: 'A fost viceprimar în mandatul 2020-2024 și este în prezent consilier local PSD în comuna Răchitoasa.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în calitate de consilier local în mandatul 2016-2020, a participat la adoptarea hotărârii privind achiziționarea a două terenuri de la fratele său, fără consemnarea interesului personal.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în calitate de consilier local în mandatul 2016-2020 a participat la adoptarea hotărârii privind achiziționarea de către comună a două terenuri de la fratele său, fără consemnarea interesului personal. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63296,27 +65213,27 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/consiliul-local/rachitoasa/11',
+        label: 'Primăria Răchitoasa - consilier local',
+        kind: 'official',
+        url: 'https://www.primariarachitoasa.ro/consilier-local/ovidiu-adrian-ivanciu/',
       },
     ],
   },
   {
     name: 'Misăilă Ioan-Cătălin',
-    party: 'ALDE',
-    position: 'Consilier local al municipiului Piatra Neamț, județul Neamț',
+    party: 'Partidul Patrioților (din 2025; anterior ALDE)',
+    position: 'Președinte al filialei municipale Piatra Neamț a Partidului Patrioților; fost consilier local și viceprimar interimar',
     position_type: 'local_official',
     geography: {
       county: 'Neamț',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Piatra Neamț, județul Neamț.',
+      note: 'A fost consilier local și viceprimar interimar al municipiului Piatra Neamț; din octombrie 2025 conduce filiala municipală a Partidului Patrioților.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că a votat o hotărâre a Consiliului Local Piatra Neamț privind chiria unui teren închiriat ulterior unei societăți la care el și soția sa aveau interese.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în calitate de consilier local a votat, la 28 noiembrie 2018, o hotărâre care menținea nivelul chiriei pentru un teren municipal închiriat ulterior societății în care el și soția sa aveau interese. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63324,9 +65241,9 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Realitatea Media',
-        kind: 'press',
-        url: 'https://www.realitateamedia.ro/catalin-misaila-este-noul-viceprimar-interimar-al-municipiului-piatra-neamt/',
+        label: 'Partidul Patrioților',
+        kind: 'official',
+        url: 'https://partidulpatriotilor.ro/comunicate/partidul-patriotilor-extindere-organizatia-neamt-filiala-piatra-neamt/',
       },
     ],
   },
@@ -63341,10 +65258,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Cristești, județul Botoșani.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în perioada 23 iunie 2016 - 16 octombrie 2020, a exercitat simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cristești.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 că, în perioada 23 iunie 2016 - 16 octombrie 2020, a exercitat simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cristești. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63352,27 +65269,27 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/cristesti/',
+        label: 'Primăria Cristești - Biblioteca Comunală',
+        kind: 'official',
+        url: 'https://primariacristesti.ro/biblioteca/',
       },
     ],
   },
   {
     name: 'Geaboc-Bădic Rodica-Mihaela',
     party: 'PMP',
-    position: 'Fost consilier local al municipiului Onești, județul Bacău',
+    position: 'Fost consilier local în Onești și Helegiu, județul Bacău',
     position_type: 'local_official',
     geography: {
       county: 'Bacău',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Onești, județul Bacău.',
+      note: 'A fost consilier local al municipiului Onești în mandatul 2016-2020 și consilier local al comunei Helegiu în mandatul 2020-2024.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, a participat la deliberări și hotărâri ale Consiliului Local Onești privind activitatea unei societăți administrate de soțul său.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 un conflict de interese administrativ: în mandatul de consilier local al municipiului Onești 2016-2020 a participat la deliberări și hotărâri privind activitatea unei societăți administrate de soțul său. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63380,9 +65297,9 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_bacau/primarie/helegiu/19',
+        label: 'Primăria Helegiu - proces-verbal septembrie 2024',
+        kind: 'official',
+        url: 'https://helegiu.ro/wp-content/uploads/2024/11/pv-septembrie.pdf',
       },
     ],
   },
@@ -63397,10 +65314,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Bacău, județul Bacău.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2018, o societate la care era asociat, iar soția sa asociat și administrator, a încheiat un contract de furnizare produse cu municipiul Bacău.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 o incompatibilitate: în timpul mandatului de consilier local, între 23 iunie 2016 și 24 iulie 2018, societatea în care era asociat, iar soția sa asociat și administrator, a încheiat un contract de furnizare de produse cu municipiul Bacău. Nu a fost identificată o sursă oficială sau judiciară publică suficientă pentru a stabili dacă raportul ANI a fost contestat și care este situația sa definitivă.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63417,18 +65334,18 @@ export const politicianAdditions = [
   {
     name: 'Dobra Cristian',
     party: 'PSD',
-    position: 'Fost consilier local al comunei Ghiroda, județul Timiș',
+    position: 'Consilier local PSD al comunei Ghiroda, județul Timiș',
     position_type: 'local_official',
     geography: {
       county: 'Timiș',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de consilier local al comunei Ghiroda, județul Timiș.',
+      note: 'A revenit în Consiliul Local Ghiroda după alegerile din 2024, pe lista PSD.',
     },
     crime: 'Conflict de interese; sesizare Parchet',
     status: 'investigated',
     details:
-      'ANI a sesizat în iulie 2021 Parchetul de pe lângă Judecătoria Timișoara, susținând că a participat la avizarea și adoptarea unei hotărâri privind concesionarea unui teren către Aeroportul Internațional Timișoara, instituție la care deținea funcții sindicale și contractuale.',
-    verified_at: '2026-07-23',
+      'ANI a sesizat în iulie 2021 Parchetul de pe lângă Judecătoria Timișoara cu indicii privind un posibil conflict de interese: la 6 martie 2017 ar fi participat la avizarea și adoptarea unei hotărâri pentru concesionarea unui teren către Aeroportul Internațional Timișoara, unde era angajat și președinte al sindicatului. Nu a fost identificată o comunicare oficială ulterioară privind soluția parchetului sau trimiterea în judecată.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63436,16 +65353,21 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_timis/consiliul-local/ghiroda/',
+        label: 'BECC Ghiroda - candidaturi definitive 2024',
+        kind: 'official',
+        url: 'https://primariaghiroda.ro/wp-content/uploads/2024/05/IMG_0002-1.pdf',
+      },
+      {
+        label: 'Primăria Ghiroda - minuta din 26 februarie 2026',
+        kind: 'official',
+        url: 'https://primariaghiroda.ro/wp-content/uploads/2026/03/MINUTA-SEDINTEI-EXTRAORDINARE-DIN-DATA-DE-26.02.2026.pdf',
       },
     ],
   },
   {
     name: 'Pușcașu Stelian',
-    party: 'PNL',
-    position: 'Fost consilier local al comunei Hudești, județul Botoșani',
+    party: 'PSD (în 2024; anterior PNL)',
+    position: 'Fost consilier local al comunei Hudești; candidat PSD la Consiliul Local Hudești în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Botoșani',
@@ -63453,10 +65375,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Hudești, județul Botoșani.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în perioada 1 august 2016 - 15 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat în aparatul de specialitate al primarului.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 că, în perioada 1 august 2016 - 15 octombrie 2020, a exercitat simultan mandatul de consilier local și calitatea de angajat în aparatul de specialitate al primarului. Lista oficială a candidaturilor definitive din 2024 îl indică drept candidat PSD la Consiliul Local Hudești. Nu a fost identificată o sursă oficială care să stabilească situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63464,16 +65386,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_botosani/consiliul-local/hudesti/2',
+        label: 'BECC Hudești - candidaturi definitive 2024',
+        kind: 'official',
+        url: 'https://hudesti.ro/images/Alegeri_2024/PV-uri-ramaner-candidatura_c.pdf',
       },
     ],
   },
   {
     name: 'Diaconu Rădița',
     party: 'PSD',
-    position: 'Consilier local al comunei Cobia, județul Dâmbovița',
+    position: 'Fost consilier local al comunei Cobia, județul Dâmbovița',
     position_type: 'local_official',
     geography: {
       county: 'Dâmbovița',
@@ -63481,10 +65403,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Cobia, județul Dâmbovița.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că se afla în incompatibilitate începând cu 27 iunie 2016, deoarece exercita simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cobia.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 că se afla în incompatibilitate începând cu 27 iunie 2016, deoarece exercita simultan mandatul de consilier local și o funcție în aparatul de specialitate al primarului comunei Cobia. Documentele oficiale locale din 2025 o indică drept bibliotecar responsabil, nu drept membru al actualului consiliu local. Nu a fost identificată o sursă oficială care să stabilească situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63492,16 +65414,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_dambovita/consiliul-local/cobia/',
+        label: 'Primăria Cobia - HCL nr. 11/25.02.2025',
+        kind: 'official',
+        url: 'https://cobia.ro/wp-content/uploads/2025/03/Hotarari-de-consiliu-local-luna-februarie-2025.pdf',
       },
     ],
   },
   {
     name: 'Almășan Liviu',
-    party: 'Pro Romania',
-    position: 'Consilier local al orașului Oravița, județul Caraș-Severin',
+    party: 'Independent (în 2024; anterior Pro România și PSD)',
+    position: 'Fost consilier local al orașului Oravița; candidat independent la Primăria Oravița în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Caraș-Severin',
@@ -63509,10 +65431,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al orașului Oravița, județul Caraș-Severin.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, două societăți la care era asociat au emis facturi pentru produse furnizate către UAT Oravița și instituții din subordine.',
-    verified_at: '2026-07-23',
+      'ANI a constatat în iulie 2021 că, în mandatul de consilier local 2016-2020, două societăți la care era asociat au emis 591 de facturi, în valoare totală de 989.679 lei, pentru produse furnizate către UAT Oravița și instituții din subordine. În 2024 a candidat independent la funcția de primar al Oraviței. Nu a fost identificată o sursă oficială care să stabilească situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63520,9 +65442,9 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3147&PID=20&currentPage=7',
       },
       {
-        label: 'Ziare.com',
-        kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/oravita/',
+        label: 'AEP - raport electoral candidat independent 2024',
+        kind: 'official',
+        url: 'https://legislatie.just.ro/Public/DetaliiDocument/284845',
       },
     ],
   },
@@ -63537,10 +65459,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al municipiului Bistrița, județul Bistrița-Năsăud.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în exercitarea mandatului de primar 2016-2020, a semnat ordonanțări de plată și facturi pentru o societate la care figura ca acționar și din care a realizat venituri din dividende.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în exercitarea mandatului de primar 2016-2020, a semnat ordonanțări de plată și facturi pentru o societate la care figura ca acționar și din care a realizat venituri din dividende. Nu a fost identificată o sursă oficială care să stabilească situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63548,27 +65470,27 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Portal Info',
-        kind: 'profile',
-        url: 'https://www.portal-info.ro/primarii/primaria-bistrita-bistrita-nasaud.html',
+        label: 'AGERPRES',
+        kind: 'press',
+        url: 'https://agerpres.ro/justitie/2021/10/18/fostul-primar-din-municipiul-bistrita-declarat-de-ani-in-conflict-de-interese--798162',
       },
     ],
   },
   {
     name: 'Pîrvulescu Virgil',
-    party: 'PNL',
-    position: 'Viceprimar al municipiului Râmnicu Vâlcea',
+    party: 'Independent (din 2024; ales pe lista PNL)',
+    position: 'Consilier local al municipiului Râmnicu Vâlcea; fost viceprimar',
     position_type: 'local_official',
     geography: {
       county: 'Vâlcea',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de viceprimar al municipiului Râmnicu Vâlcea, județul Vâlcea.',
+      note: 'Este consilier local în mandatul 2024-2028; anterior a fost viceprimar al municipiului Râmnicu Vâlcea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'acquitted',
     details:
-      'ANI a constatat în octombrie 2021 că, după alegerea ca membru al Consiliului Local Râmnicu Vâlcea pentru mandatul 2020-2024, a exercitat simultan și calitatea de funcționar public în perioada 29 septembrie - 26 octombrie 2020.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, după alegerea ca membru al Consiliului Local Râmnicu Vâlcea pentru mandatul 2020-2024, a exercitat simultan și calitatea de funcționar public în perioada 29 septembrie - 26 octombrie 2020. Înalta Curte a admis definitiv recursul său la 1 noiembrie 2023 și a anulat raportul de evaluare ANI nr. 50456/G/II/18.10.2021.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63576,16 +65498,21 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Ziarul de Vâlcea',
+        label: 'Jurnal Vâlcean - soluția definitivă ÎCCJ din 1 noiembrie 2023',
         kind: 'press',
-        url: 'https://ziaruldevalcea.ro/2020/03/virgil-pirvulescu-sunt-oficial-din-aceasta-seara-candidatul-pnl-pentru-primaria-ramnicului/',
+        url: 'https://jurnalvalcean.ro/viceprimarul-ramnicului-a-castigat-procesul-cu-agentia-nationala-de-integritate/',
+      },
+      {
+        label: 'AGERPRES - constituirea Consiliului Local Râmnicu Vâlcea 2024',
+        kind: 'press',
+        url: 'https://agerpres.ro/administratie/2024/10/25/valcea-primarul-ramnicului-mircia-gutau-a-preluat-al-cincilea-mandat-fostul-viceprimar-pirvulescu-pr--1377060',
       },
     ],
   },
   {
     name: 'Băhnăreanu Mihai',
     party: 'PNL',
-    position: 'Consilier local al comunei Tătărăni, județul Vaslui; fost primar al comunei',
+    position: 'Fost primar și fost consilier local al comunei Tătărăni, județul Vaslui',
     position_type: 'local_official',
     geography: {
       county: 'Vaslui',
@@ -63595,8 +65522,8 @@ export const politicianAdditions = [
     crime: 'Conflict de interese administrativ; sesizare Parchet',
     status: 'investigated',
     details:
-      'ANI a constatat în octombrie 2021 că, în mandatul de primar 2016-2020, a inițiat și susținut o hotărâre locală prin care soția sa a fost numită referent superior în aparatul de specialitate al primarului; ANI a sesizat și Parchetul.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în mandatul de primar 2016-2020, a inițiat și susținut o hotărâre locală prin care soția sa a fost numită referent superior în aparatul de specialitate al primarului; ANI a sesizat și Parchetul pentru posibila folosire a funcției în favorizarea unor persoane. A contestat raportul ANI la Curtea de Apel Iași, însă nu au fost identificate soluția definitivă a litigiului sau soluția procurorilor. Nu mai figurează în componența actuală a Consiliului Local Tătărăni.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63604,16 +65531,21 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Vremea Nouă',
+        label: 'Primăria Tătărăni - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://comuna-tatarani.ro/primaria/consiliul-local/',
+      },
+      {
+        label: 'BZI - contestarea raportului ANI la Curtea de Apel Iași',
         kind: 'press',
-        url: 'https://www.vremeanoua.ro/primarul-de-la-tatarani-mihai-bahnareanu-dare-de-seama-in-fata-alegatorilor/',
+        url: 'https://www.bzi.ro/wp-content/uploads/2021/11/pp-6.pdf',
       },
     ],
   },
   {
     name: 'Grigoruț Alexandru',
     party: 'PMP',
-    position: 'Consilier local al orașului Dolhasca, județul Suceava',
+    position: 'Fost consilier local al orașului Dolhasca, județul Suceava',
     position_type: 'local_official',
     geography: {
       county: 'Suceava',
@@ -63621,10 +65553,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al orașului Dolhasca, județul Suceava.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că se afla în incompatibilitate începând cu 27 octombrie 2020, deoarece exercita simultan mandatul de consilier local și o funcție contractuală într-un serviciu din aparatul de specialitate al primarului.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că se afla în incompatibilitate începând cu 27 octombrie 2020, deoarece exercita simultan mandatul de consilier local și o funcție contractuală într-un serviciu din aparatul de specialitate al primarului. Nu a fost identificată o sursă oficială care să confirme continuarea mandatului după 2024 sau situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63632,7 +65564,7 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com - candidatura din 2020',
         kind: 'press',
         url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_suceava/consiliul-local/dolhasca/7',
       },
@@ -63641,7 +65573,7 @@ export const politicianAdditions = [
   {
     name: 'Stoica Ion',
     party: 'PUSL',
-    position: 'Consilier local al comunei Filipeștii de Pădure, județul Prahova',
+    position: 'Fost consilier local al comunei Filipeștii de Pădure, județul Prahova',
     position_type: 'local_official',
     geography: {
       county: 'Prahova',
@@ -63649,10 +65581,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Filipeștii de Pădure, județul Prahova.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în perioada 27 octombrie 2020 - 18 iunie 2021, a exercitat simultan mandatul de consilier local și funcția de director general într-o societate înființată de Consiliul Județean Prahova.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în perioada 27 octombrie 2020 - 18 iunie 2021, a exercitat simultan mandatul de consilier local și funcția de director general într-o societate înființată de Consiliul Județean Prahova. A contestat raportul ANI în dosarul 4954/105/2021 al Tribunalului Prahova, însă soluția definitivă nu a putut fi confirmată din sursele publice consultate.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63660,16 +65592,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Prahova News',
-        kind: 'press',
-        url: 'https://prahova-news.ro/stire/la-filipestii-de-padure-a-fost-constituit-noul-consiliu-local-totodata-si-noul-primar-ciprian-morarescu-a-depus-juramantul--11344',
+        label: 'Portal instanțe - dosarul 4954/105/2021',
+        kind: 'official',
+        url: 'https://portal.just.ro/105/SiteAssets/SitePages/acasa_default/list%C4%83%2020%20fond%20-%2009.02.2022.pdf',
       },
     ],
   },
   {
     name: 'Păunoiu Constantin Cristian',
     party: 'PSD',
-    position: 'Fost consilier local al orașului Băbeni, județul Vâlcea',
+    position: 'Fost consilier local și fost administrator public al orașului Băbeni; candidat PSD la Consiliul Local în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Vâlcea',
@@ -63677,10 +65609,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al orașului Băbeni, județul Vâlcea.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local, a participat la adoptarea hotărârii din 28 noiembrie 2019 prin care a fost creată funcția de administrator public, funcție în care a fost numit ulterior.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local, a participat la adoptarea hotărârii din 28 noiembrie 2019 prin care a fost creată funcția de administrator public, funcție în care a fost numit ulterior, la 20 ianuarie 2020. A candidat din partea PSD la Consiliul Local Băbeni în 2024, dar nu figurează în componența actuală publicată de primărie. Nu a fost identificată o sursă oficială privind situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63688,16 +65620,21 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Ziare.com',
+        label: 'Ziare.com - candidaturi Consiliul Local Băbeni 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_valcea/consiliul-local/babeni/21',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_valcea/consiliul-local/babeni/1',
+      },
+      {
+        label: 'Primăria Băbeni - componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://www.orasbabeni.ro/componenta-consiliului-local/',
       },
     ],
   },
   {
     name: 'Belu Florian',
     party: 'PSD',
-    position: 'Consilier local al comunei Unirea, județul Călărași; fost primar al comunei',
+    position: 'Fost primar și fost consilier local al comunei Unirea; candidat PSD la primărie în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Călărași',
@@ -63705,10 +65642,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost în administrația locală a comunei Unirea, județul Călărași.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în calitate de consilier local, a participat la adoptarea unei hotărâri din 22 martie 2021 privind închirierea prin atribuire directă a pajiștilor comunei, iar în baza acesteia a încheiat un contract cu primăria.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în calitate de consilier local, a participat la adoptarea unei hotărâri din 22 martie 2021 privind închirierea prin atribuire directă a pajiștilor comunei, iar în baza acesteia a încheiat un contract cu primăria. A candidat din partea PSD la funcția de primar al comunei Unirea în 2024. Nu a fost identificată o sursă oficială privind situația judiciară definitivă a raportului ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63716,16 +65653,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'CălărașiPress',
-        kind: 'press',
-        url: 'https://calarasipress.ro/primarul-comunei-unirea-belu-florian-continua-dezvoltarea-localitatii/',
+        label: 'Primăria Unirea - candidatura PSD la funcția de primar în 2024',
+        kind: 'official',
+        url: 'https://www.primaria-unirea.ro/anunturi/',
       },
     ],
   },
   {
     name: 'Răduț Cristinel Danielus',
-    party: 'Pro Romania',
-    position: 'Consilier local al comunei Constantin Daicoviciu, județul Caraș-Severin',
+    party: 'PNL (în 2024; anterior Pro România)',
+    position: 'Fost consilier local al comunei Constantin Daicoviciu; candidat PNL la Consiliul Local în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Caraș-Severin',
@@ -63733,10 +65670,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Constantin Daicoviciu, județul Caraș-Severin.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri prin care un teren din Prisaca a fost dat în administrarea DGASPC Caraș-Severin pentru un imobil destinat centrului în care deținea o funcție contractuală de conducere.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea unei hotărâri prin care un teren din Prisaca a fost dat în administrarea DGASPC Caraș-Severin pentru un imobil destinat centrului în care deținea o funcție contractuală de conducere. Mandatul său de consilier a încetat prin Ordinul prefectului nr. 401/15.12.2022. În 2024 a candidat din partea PNL, iar în 2025 ANI a deschis împotriva sa și a UAT Constantin Daicoviciu dosarul 705/115/2025, având ca obiect conflict de interese/incompatibilitate; soluția definitivă nu a fost identificată.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63744,16 +65681,26 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Ziare.com',
+        label: 'Prefectura Caraș-Severin - raport de activitate 2022',
+        kind: 'official',
+        url: 'https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2023/04/ilovepdf_merged.pdf',
+      },
+      {
+        label: 'Portal instanțe - dosarul 705/115/2025',
+        kind: 'official',
+        url: 'https://portal.just.ro/115/Documents/21-10-2025%20-Lista%20sedinte%20Sectia%20II%20Civila.pdf',
+      },
+      {
+        label: 'Ziare.com - candidatura PNL din 2024',
         kind: 'press',
-        url: 'https://ziare.com/alegeri/alegeri-locale-2020/candidati_caras-severin/consiliul-local/constantin-daicoviciu/3',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_caras-severin/consiliul-local/constantin-daicoviciu/8',
       },
     ],
   },
   {
     name: 'Ursu Titinel',
     party: 'PNL',
-    position: 'Consilier local al comunei Fălciu, județul Vaslui',
+    position: 'Fost consilier județean Vaslui (2022-2024) și fost consilier local al comunei Fălciu',
     position_type: 'local_official',
     geography: {
       county: 'Vaslui',
@@ -63761,10 +65708,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Fălciu, județul Vaslui.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în mandatul de consilier local 2016-2020, a participat la adoptarea hotărârii privind concesionarea unui teren extravilan de 27,10 ha, adjudecat ulterior de societatea la care era administrator unic și asociat împreună cu fratele său.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 un conflict de interese administrativ: în mandatul de consilier local 2016-2020, a participat la adoptarea hotărârii privind concesionarea unui teren extravilan de 27,10 ha, adjudecat ulterior de societatea la care era administrator unic și asociat împreună cu fratele său. A fost validat consilier județean PNL în 2022, iar Consiliul Județean Vaslui publică declarația sa la încetarea mandatului 2020-2024. Nu am identificat în sursele publice consultate hotărârea judecătorească definitivă privind raportul ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63772,16 +65719,21 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Vremea Nouă',
+        label: 'Consiliul Județean Vaslui - declarații la încetarea mandatului 2020-2024',
+        kind: 'official',
+        url: 'https://cjvs.eu/dai-consilieri-judeteni-2024/',
+      },
+      {
+        label: 'Vremea Nouă - validarea mandatului de consilier județean',
         kind: 'press',
-        url: 'https://www.vremeanoua.ro/titinel-ursu-candidatul-pnl-la-primaria-falciu-eu-nu-ma-lupt-doar-cu-primarul-moraru-ma-lupt-cu-un-intreg-sistem-mafiot/',
+        url: 'https://vremeanoua.ro/doi-noi-consilieri-judeteni-isi-preiau-mandatele-dupa-un-proces-care-a-durat-mai-bine-de-un-an/',
       },
     ],
   },
   {
     name: 'Stoican Alin Iulian',
-    party: 'Pro Romania',
-    position: 'Consilier local al comunei Dragodana, județul Dâmbovița; fost funcționar public în Primăria Dragodana',
+    party: 'AUR (în 2024; anterior Pro România)',
+    position: 'Fost consilier local al comunei Dragodana și candidat AUR la Primăria Dragodana în 2024',
     position_type: 'local_official',
     geography: {
       county: 'Dâmbovița',
@@ -63789,10 +65741,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al comunei Dragodana, județul Dâmbovița.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în octombrie 2021 că, în perioada 21 octombrie - 24 decembrie 2020, a deținut simultan funcția publică de execuție în Primăria Dragodana și mandatul de consilier local al comunei.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în octombrie 2021 că, în perioada 21 octombrie - 24 decembrie 2020, a deținut simultan funcția publică de execuție în Primăria Dragodana și mandatul de consilier local al comunei. În 2024 a candidat din partea AUR la Primăria Dragodana; nu am identificat în sursele publice consultate soluția definitivă privind raportul ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63800,16 +65752,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=3183&PID=20',
       },
       {
-        label: 'Politica Broaștei',
+        label: 'Ziare.com - candidați Primăria Dragodana 2024',
         kind: 'press',
-        url: 'https://www.politica-broastei.ro/continua-prezentarea-candidatilor-pro-romania-dambovita-ep-3-declaratii-adrian-tutuianu/',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_dambovita/primarie/dragodana/',
       },
     ],
   },
   {
     name: 'Vîrlan Georgeta Luminița',
     party: 'PSD',
-    position: 'Fost consilier local al municipiului Piatra-Neamț, județul Neamț',
+    position: 'Consilier local PSD al municipiului Piatra-Neamț (mandatul 2024-2028)',
     position_type: 'local_official',
     geography: {
       county: 'Neamț',
@@ -63817,10 +65769,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de consilier local al municipiului Piatra-Neamț, județul Neamț.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în aprilie 2021 că, în calitate de ales local, a votat două hotărâri privind proiecte cu finanțare nerambursabilă de la bugetul local, urmate de contracte cu o asociație cu care avea o relație de angajament.',
-    verified_at: '2026-07-26',
+      'ANI a constatat în aprilie 2021 un conflict de interese administrativ: în calitate de ales local, a votat două hotărâri privind proiecte cu finanțare nerambursabilă de la bugetul local, urmate de contracte cu o asociație cu care avea o relație de angajament. Sub numele Vîrlan-Ciobanu Georgeta Luminița, a fost validată și exercită un nou mandat de consilier local PSD din 2024. Nu am identificat în sursele publice consultate soluția definitivă privind raportul ANI.',
+    verified_at: '2026-10-01',
     sources: [
       {
         label: 'ANI',
@@ -63828,16 +65780,16 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3061&PID=20&currentPage=20',
       },
       {
-        label: 'Vestea.net',
-        kind: 'press',
-        url: 'https://vestea.net/emilia-arcan-despre-numirea-luminitei-virlan-ca-presedinte-psd-piatra-neamt-apel-la-unitate/',
+        label: 'Primăria Piatra-Neamț - ședința de constituire a mandatului 2024-2028',
+        kind: 'official',
+        url: 'https://www.primariapn.ro/documents/10179/5759294/procesvb_28_10_2024_ceremonie.pdf',
       },
     ],
   },
   {
     name: 'Porge Florin Ioan',
-    party: 'PNL',
-    position: 'Primar al orașului Vașcău, județul Bihor',
+    party: 'PUSL (din 2024; anterior PNL și PDL)',
+    position: 'Fost primar al orașului Vașcău, județul Bihor',
     position_type: 'mayor',
     geography: {
       county: 'Bihor',
@@ -63845,10 +65797,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al orașului Vașcău, județul Bihor.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2018 că, în mandatul de primar 2012-2016, a emis o dispoziție prin care soția sa a fost numită manager de proiect într-un proiect al Primăriei Vașcău, obținând venituri de 15.859 lei.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2018 că, în mandatul de primar 2012-2016, Florin Ioan Porge a emis o dispoziție prin care soția sa a fost numită manager într-un proiect al Primăriei Vașcău și a obținut venituri de 15.859 lei, situație calificată drept conflict de interese administrativ. Constatarea a rămas definitivă prin decizia nr. 4197 a Înaltei Curți de Casație și Justiție, iar Prefectura Bihor i-a aplicat în octombrie 2021 sancțiunea disciplinară a reducerii indemnizației cu 10% pentru șase luni. În 2024 a părăsit PNL pentru PUSL, însă candidatura sa pentru un al șaselea mandat a fost respinsă definitiv din cauza interdicției rezultate din raportul ANI. Mandatul său s-a încheiat în 2024, declarația oficială fiind depusă la încetarea funcției, iar noul primar este Sebastian Bursașiu. Nu este vorba despre o anchetă în curs, ci despre o constatare definitivă de integritate.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -63856,16 +65808,31 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=2783&PID=20',
       },
       {
-        label: 'BEC 2016',
+        label: 'Prefectura Bihor / Oradea Online — sancțiunea după decizia definitivă',
+        kind: 'press',
+        url: 'https://www.oradea-online.ro/stiri/sanctiune-disciplinara-pentru-primarul-orasului-vascau-florin-ioan-porge',
+      },
+      {
+        label: 'Europa FM — respingerea definitivă a candidaturii din 2024',
+        kind: 'press',
+        url: 'https://www.europafm.ro/bihor-primar-comuna-oprit-candideze-mandat-parat-preot/',
+      },
+      {
+        label: 'PUSL — înscrierea în partid în 2024',
         kind: 'official',
-        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+        url: 'https://pusl.ro/primarul-orasului-vascau-bihor-florin-ioan-porge-s-a-inscris-in-pusl/',
+      },
+      {
+        label: 'Primăria Vașcău — declarație la încetarea mandatului',
+        kind: 'official',
+        url: 'https://primaria-vascau.ro/wp-content/uploads/2024/12/Declaratie-de-avere-si-interese-30-de-zile-de-la-incetare-Porge-Florin-Ioan.pdf',
       },
     ],
   },
   {
     name: 'Magheru Cristin',
     party: 'PSD',
-    position: 'Primar al comunei Cîrța, județul Sibiu',
+    position: 'Consilier local PSD în comuna Cârța; fost primar al comunei Cârța (2000-2020)',
     position_type: 'mayor',
     geography: {
       county: 'Sibiu',
@@ -63873,10 +65840,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Cîrța, județul Sibiu.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2018 că, în perioada 26 iunie 2012 - 15 iunie 2018, a exercitat simultan funcția de primar și calitatea de comerciant persoană fizică, titular al unei întreprinderi individuale.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2018 că, în perioada 26 iunie 2012 - 15 iunie 2018, Cristin Magheru a exercitat simultan funcția de primar al comunei Cârța și calitatea de comerciant persoană fizică, titular al unei întreprinderi individuale, situație calificată drept incompatibilitate administrativă. Nu a fost identificată în sursele publice consultate o hotărâre definitivă care să confirme ori să anuleze raportul, astfel că profilul consemnează strict constatarea ANI și rămâne ascuns editorial. Site-ul oficial al comunei arată că a fost primar în perioada 2000-2020 și că este în prezent consilier local; a candidat fără succes din partea PSD la alegerile locale din 2024 și la scrutinul parțial din decembrie 2025.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -63884,16 +65851,26 @@ export const politicianAdditions = [
         url: 'https://old.integritate.eu/Comunicate.aspx?NewsID=2783&PID=20',
       },
       {
-        label: 'BEC 2016',
+        label: 'Primăria Cârța — istoricul primarilor',
         kind: 'official',
-        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+        url: 'https://comunacarta.ro/despre/organigrama/',
+      },
+      {
+        label: 'Primăria Cârța — componența Consiliului Local',
+        kind: 'official',
+        url: 'https://comunacarta.ro/administratie/consiliul-local/componenta-consiliului-local/',
+      },
+      {
+        label: 'Știrile ProTV — rezultate alegeri parțiale 2025',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri/locale/2025/alegeri-locale-partiale-7-decembrie-2025-de-la-consiliul-judetean-buzau-la-primariile-din-intreaga-tara.html',
       },
     ],
   },
   {
     name: 'Camburi Constantin',
-    party: 'PNL',
-    position: 'Primar al comunei Beidaud, județul Tulcea',
+    party: 'PNL (la data raportului ANI; anterior PDL)',
+    position: 'Fost primar al comunei Beidaud, județul Tulcea',
     position_type: 'mayor',
     geography: {
       county: 'Tulcea',
@@ -63901,10 +65878,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Beidaud, județul Tulcea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2019 că a deținut simultan funcția de primar și calitatea de persoană fizică autorizată, iar în 2017 a cumulat funcția de primar cu funcții într-o societate comercială.',
-    verified_at: '2026-07-28',
+      'ANI a constatat la 1 februarie 2019 că, începând din 2012, a exercitat simultan funcția de primar și calitatea de persoană fizică autorizată, iar între 22 iunie și 5 septembrie 2017 a cumulat funcția de primar cu cea de director și calitatea de angajat al unei societăți comerciale. Raportul ANI a fost contestat în dosarul 114/36/2019, iar Curtea de Apel Constanța a respins acțiunea în fond. Nu a fost identificată din surse publice suficient de clare soluția definitivă a unui eventual recurs; profilul rămâne ascuns până la clarificare. Primăria Beidaud îl indică în prezent pe Mihai Culina drept primar, astfel că funcția lui Constantin Camburi este una anterioară.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -63916,40 +65893,22 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
-    ],
-  },
-  {
-    name: 'Coste Teodor',
-    party: 'PNL',
-    position: 'Primar al comunei Tinca, județul Bihor',
-    position_type: 'mayor',
-    geography: {
-      county: 'Bihor',
-      basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al comunei Tinca, județul Bihor.',
-    },
-    crime: 'Incompatibilitate',
-    status: 'investigated',
-    details:
-      'ANI a constatat în februarie 2019 că, în mandatul 2012-2016, a exercitat simultan funcția de primar și pe cea de administrator într-o societate comercială.',
-    verified_at: '2026-07-28',
-    sources: [
       {
-        label: 'ANI',
+        label: 'Instituția Prefectului Tulcea — raport de activitate 2019',
         kind: 'official',
-        url: 'https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2822&PID=20&currentPage=40',
+        url: 'https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2020/02/RAPORT-ACTIVITATE-INSTITUTIE-2019-.pdf',
       },
       {
-        label: 'BEC 2016',
+        label: 'Primăria Beidaud — conducerea actuală',
         kind: 'official',
-        url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+        url: 'https://www.primariabeidaud.ro/',
       },
     ],
   },
   {
     name: 'Savu Luchian',
-    party: 'PNL',
-    position: 'Primar al comunei Șandra, județul Timiș',
+    party: 'PSD (din 2024; anterior PNL și PDL)',
+    position: 'Fost primar al comunei Șandra, județul Timiș',
     position_type: 'mayor',
     geography: {
       county: 'Timiș',
@@ -63957,10 +65916,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Șandra, județul Timiș.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în februarie 2019 că, în mandatul 2012-2016, a exercitat simultan funcția de primar și calitatea de membru al Consiliului de Administrație al Școlii Gimnaziale Șandra.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în februarie 2019 că, în mandatul 2012-2016, a exercitat simultan funcția de primar și calitatea de membru al Consiliului de Administrație al Școlii Gimnaziale Șandra. ÎCCJ a admis definitiv la 25 ianuarie 2022 recursul ANI, a casat sentința favorabilă pronunțată de Curtea de Apel Timișoara și a respins acțiunea lui Luchian Savu împotriva raportului. Prefectul Timiș i-a încetat mandatul în februarie 2023, iar candidatura sa din 2024 a fost respinsă definitiv; primarul actual este fiul său, Natanael Savu.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -63972,12 +65931,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Gazeta din Vest — hotărârea definitivă și încetarea mandatului',
+        kind: 'press',
+        url: 'https://gazetadinvest.ro/primarul-din-sandra-ramane-fara-fotoliu-luchian-savu-isi-pierde-functia-iar-prefectul-ritivoiu-a-confirmat-decizia/',
+      },
+      {
+        label: 'G4Media — respingerea definitivă a candidaturii din 2024',
+        kind: 'press',
+        url: 'https://www.g4media.ro/doi-primari-psd-din-timis-isi-lasa-copiii-sa-candideze-in-locul-lor-ambii-au-fost-declarati-incompatibili-de-ani-cei-doi-sunt-sustinuti-si-de-pnl.html',
+      },
+      {
+        label: 'Primăria Șandra — conducerea actuală',
+        kind: 'official',
+        url: 'https://primariasandra.ro/',
+      },
     ],
   },
   {
     name: 'Gogoașă Marian-Emil',
-    party: 'PMP',
-    position: 'Primar al comunei Valea Teilor, județul Tulcea',
+    party: 'PMP (la data constatării ANI)',
+    position: 'Fost primar al comunei Valea Teilor, județul Tulcea',
     position_type: 'mayor',
     geography: {
       county: 'Tulcea',
@@ -63985,10 +65959,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Valea Teilor, județul Tulcea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2017 că, în perioada 1 iunie 2015 - 4 mai 2016, a deținut simultan funcția de primar și calitatea de angajat cu contract individual de muncă la S.C. Poiana cu Tei S.R.L.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2017 că, în perioada 1 iunie 2015 - 4 mai 2016, a deținut simultan funcția de primar și calitatea de angajat cu contract individual de muncă la S.C. Poiana cu Tei S.R.L. Raportul a fost contestat în dosarul 30548/3/2017, ajuns la ÎCCJ cu termen la 19 ianuarie 2022; nu a fost identificată din surse publice suficient de clare soluția definitivă, astfel că profilul rămâne ascuns. Primăria Valea Teilor o indică în prezent pe Violeta Andrei drept primar, iar Marian-Emil Gogoașă nu a figurat între candidații la funcția de primar în 2024.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64000,12 +65974,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Instituția Prefectului Tulcea — raport de activitate 2019',
+        kind: 'official',
+        url: 'https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2020/02/RAPORT-ACTIVITATE-INSTITUTIE-2019-.pdf',
+      },
+      {
+        label: 'Primăria Valea Teilor — conducerea actuală',
+        kind: 'official',
+        url: 'https://primaria-valea-teilor.ro/',
+      },
+      {
+        label: 'Ziua de Constanța — candidații din Valea Teilor la alegerile locale 2024',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/alegeri-locale-2024-valeateilor-tulcea-candidatii-la-primaria-si-consiliul-local-valea-teilor-documente-858868.html',
+      },
     ],
   },
   {
     name: 'Vlăduți Constantin',
     party: 'PSD',
-    position: 'Primar al comunei Bălăcița, județul Mehedinți',
+    position: 'Fost primar al comunei Bălăcița, județul Mehedinți (2008-2024)',
     position_type: 'mayor',
     geography: {
       county: 'Mehedinți',
@@ -64013,10 +66002,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Bălăcița, județul Mehedinți.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2019 că, în exercitarea mandatului de primar, a emis o dispoziție privind constituirea echipei unui proiect de drumuri județene din care făcea parte și soția sa.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în mai 2019 că, în exercitarea mandatului de primar, a emis la 31 iulie 2017 dispoziția de constituire a echipei proiectului „Reabilitare și modernizare drumuri județene, județul Mehedinți”, din care făcea parte și soția sa. ÎCCJ a respins definitiv recursul său prin Decizia nr. 3869 din 13 septembrie 2022, confirmând raportul ANI. În 2024 candidatura sa a fost contestată în baza interdicției de trei ani, iar alegerile au fost câștigate de Petrică Vlăduți-Pătrașcu (PSD); Constantin Vlăduți este, prin urmare, fost primar.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64028,12 +66017,22 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'B1 TV — decizia definitivă ÎCCJ și candidatura din 2024',
+        kind: 'press',
+        url: 'https://www.b1tv.ro/politica/mai-multi-primari-vor-sa-candideze-iar-desi-ani-i-a-gasit-in-conflict-de-interese-si-au-interdictii-pe-3-ani-stabilite-prin-decizii-judecatoresti-definitive-cazul-primarului-constantin-vladuti-din-1451993.html',
+      },
+      {
+        label: 'Rezultatele alegerilor locale 2024 — Bălăcița',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_mehedinti/primarie/balacita/2',
+      },
     ],
   },
   {
     name: 'Lungu Bordea Petru',
     party: 'PSD',
-    position: 'Primar al comunei Pîngărați, județul Neamț',
+    position: 'Fost primar al comunei Pângărați, județul Neamț (2008-2020)',
     position_type: 'mayor',
     geography: {
       county: 'Neamț',
@@ -64041,10 +66040,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Pîngărați, județul Neamț.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în martie 2018 că a întocmit, semnat și aprobat contracte între comuna Pîngărați și o asociație în care fiul său era membru fondator, asociație care a încasat subvenții APIA.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în martie 2018 că a întocmit, semnat și aprobat un contract de arendare și unul de concesiune între comuna Pângărați și Asociația Crescătorilor de Animale Pângărați, în care fiul său era membru fondator; asociația a încasat ulterior subvenții APIA pentru campaniile 2011-2015. Curtea de Apel Bacău i-a respins contestația la 27 noiembrie 2018, iar ÎCCJ a confirmat definitiv existența conflictului de interese după aproape cinci ani de litigiu. Petru Lungu-Bordea a fost primar în perioada 2008-2020; primarul actual este Cristinel Croitoru.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64056,12 +66055,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Atacul.ro — parcursul dosarului ANI',
+        kind: 'press',
+        url: 'https://atacul.ro/2020/01/20/cine-acopera-smecheriile-din-primaria-pangarati-aproape-un-an-pentru-redactarea-motivarii-in-dosarul-bordea-ani/',
+      },
+      {
+        label: 'Vestea — confirmarea definitivă la ÎCCJ',
+        kind: 'press',
+        url: 'https://vestea.net/dinastia/',
+      },
+      {
+        label: 'Primăria Pângărați — conducerea actuală',
+        kind: 'official',
+        url: 'https://pangarati.ro/primaria/lista-persoanelor-din-conducere/primar/',
+      },
     ],
   },
   {
     name: 'Sandu Ion',
-    party: 'PNL',
-    position: 'Primar al comunei Perișani, județul Vâlcea',
+    party: 'PSD (în 2024; anterior PNL)',
+    position: 'Fost primar al comunei Perișani, județul Vâlcea (până în 2021)',
     position_type: 'mayor',
     geography: {
       county: 'Vâlcea',
@@ -64069,10 +66083,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Perișani, județul Vâlcea.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2018 că, în perioada 15 octombrie 2012 - 30 iunie 2014, a deținut simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Școlii Profesionale Comuna Perișani.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2018 că, în perioada 15 octombrie 2012 - 30 iunie 2014, a deținut simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Școlii Profesionale Comuna Perișani. În urma rămânerii definitive a constatării, prefectul Vâlcea a emis la 6 iulie 2021 ordinul de încetare de drept a mandatului. Ion Sandu a candidat din partea PSD în 2024, dar a pierdut în fața lui Dumitru-Sorin Leonte (PNL), actualul primar.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64084,12 +66098,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Arena Vâlceană — încetarea mandatului în 2021',
+        kind: 'press',
+        url: 'https://arenavalceana.ro/investitiile-continua-la-perisani-primarul-ion-sandu-se-indeparteaza-momentan-de-primarie-insa-lasa-o-mostenire-bogata-comunitatii/',
+      },
+      {
+        label: 'Tribuna Vâlceană — rezultatul alegerilor locale 2024',
+        kind: 'press',
+        url: 'https://www.tribunavalceana.ro/dumitru-sorin-leonte-pnl-l-a-invins-clar-pe-ion-sandu-psd-in-alegerile-locale-de-la-perisani/',
+      },
+      {
+        label: 'Primăria Perișani — conducerea actuală',
+        kind: 'official',
+        url: 'https://perisani.ro/pag_conducere.php?ZGVzdGluYXRpZQ=%3D%3DKmVsdkA%3D%21MzM%3D%21QG5wbio%3D&tmp_nou=1',
+      },
     ],
   },
   {
     name: 'Moțica Ana Lenuța',
     party: 'PNL',
-    position: 'Primar al comunei Gurahonț, județul Arad',
+    position: 'Fost primar al comunei Gurahonț, județul Arad',
     position_type: 'mayor',
     geography: {
       county: 'Arad',
@@ -64097,10 +66126,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Gurahonț, județul Arad.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2018 că, în perioada 4 septembrie 2012 - 9 aprilie 2014, a exercitat simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Liceului "Ioan Buteanu" Gurahonț.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2018 că, în perioada 4 septembrie 2012 - 9 aprilie 2014, a exercitat simultan funcția de primar și pe cea de membru în Consiliul de Administrație al Liceului "Ioan Buteanu" Gurahonț. Constatarea a rămas definitivă după respingerea contestației de către ÎCCJ, iar Prefectura Arad i-a încetat mandatul de primar în mai 2021. La alegerile din 2024, funcția de primar a fost câștigată de Flavius-Beniamin Moț (PNL).',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64112,12 +66141,22 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Special Arad — decizia definitivă și încetarea mandatului (11 mai 2021)',
+        kind: 'press',
+        url: 'https://specialarad.ro/raportul-ani-ramane-in-picioare-prefectura-a-emis-ordinul-de-demitere-a-primaritei-din-gurahont/',
+      },
+      {
+        label: 'Rezultate alegeri locale 2024 — Primăria Gurahonț',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_arad/primarie/gurahont/',
+      },
     ],
   },
   {
     name: 'Tănase Constantin',
-    party: 'PSD',
-    position: 'Primar al comunei Joița, județul Giurgiu',
+    party: 'PNL (în mandatul 2020-2024; anterior PSD)',
+    position: 'Fost primar al comunei Joița, județul Giurgiu',
     position_type: 'mayor',
     geography: {
       county: 'Giurgiu',
@@ -64125,10 +66164,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Joița, județul Giurgiu.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în mai 2020 că, în exercitarea mandatului de primar, a emis și semnat o dispoziție prin care a fost acordat sporul de dispozitiv de 25% la propria indemnizație.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în mai 2020 că, în exercitarea mandatului de primar, a emis și semnat o dispoziție prin care a fost acordat sporul de dispozitiv de 25% la propria indemnizație. Tănase a pierdut definitiv contestația în martie 2024 și a figurat pe lista transmisă de BEC cu persoanele care nu puteau candida la alegerile locale din 2024. Nu a mai candidat, iar Alexandru Păun (PNL) a fost ales și învestit primar în octombrie 2024.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64140,23 +66179,33 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Giurgiu News — lista BEC și decizia definitivă ÎCCJ (18 aprilie 2024)',
+        kind: 'press',
+        url: 'https://giurgiu-news.ro/incompatibilitatea-conflictul-de-interese-si-averea-nejustificata-motivele-pentru-care-trei-primari-din-judet-au-interdictie-de-a-mai-candida-la-alegerile-locale/',
+      },
+      {
+        label: 'Giurgiuveanul — învestirea noului primar al comunei Joița (10 octombrie 2024)',
+        kind: 'press',
+        url: 'https://www.giurgiuveanul.ro/stiri/alexandru-paun-noul-edil-sef-al-comunei-joita-primul-primar-investit-in-judetul-giurgiu/',
+      },
     ],
   },
   {
     name: 'Rebegea Mihai',
-    party: 'PSD',
-    position: 'Primar al comunei Codăești, județul Vaslui',
-    position_type: 'mayor',
+    party: 'PUSL (din 2024; anterior PSD)',
+    position: 'Consilier local al comunei Codăești, județul Vaslui; fost primar',
+    position_type: 'local_official',
     geography: {
       county: 'Vaslui',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al comunei Codăești, județul Vaslui.',
+      note: 'În mandatul 2024-2028 este consilier local PUSL; anterior a fost primar al comunei Codăești.',
     },
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în august 2020 că, în calitate de primar, a semnat prelungirea unei autorizații de construire și certificatul de atestare a edificării unei construcții emise pe numele său.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în august 2020 că, în calitate de primar, a semnat prelungirea unei autorizații de construire și certificatul de atestare a edificării unei construcții emise pe numele său. Un rezultat judiciar definitiv al eventualei contestații nu a putut fi confirmat din sursele publice consultate. În 2024 a candidat la primărie din partea PUSL, a obținut 196 de voturi și ulterior a intrat în Consiliul Local Codăești.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64168,12 +66217,22 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Primăria Codăești — componența actuală a Consiliului Local',
+        kind: 'official',
+        url: 'https://www.primariacodaesti.ro/index.php/consiliul-local',
+      },
+      {
+        label: 'Rezultate alegeri locale 2024 — Primăria Codăești',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_vaslui/primarie/codaesti/4',
+      },
     ],
   },
   {
     name: 'Janos Deszke',
     party: 'UDMR',
-    position: 'Primar al comunei Moacșa, județul Covasna',
+    position: 'Fost primar al comunei Moacșa, județul Covasna',
     position_type: 'mayor',
     geography: {
       county: 'Covasna',
@@ -64181,10 +66240,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Moacșa, județul Covasna.',
     },
     crime: 'Incompatibilitate',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în noiembrie 2020 că, în mandatul 2016-2020, a exercitat simultan funcția de primar al comunei Moacșa și calitatea de comerciant persoană fizică în propria întreprindere individuală.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în noiembrie 2020 că, în mandatul 2016-2020, a exercitat simultan funcția de primar al comunei Moacșa și calitatea de comerciant persoană fizică în propria întreprindere individuală. Constatarea a rămas definitivă, iar mandatul său 2020-2024 a încetat înainte de termen. La alegerile locale din 2024, funcția a fost câștigată de candidatul UDMR Kanyó Antal.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64196,12 +66255,17 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Covasna Media — încetarea mandatului și rezultatul alegerilor din 2024',
+        kind: 'press',
+        url: 'https://covasnamedia.ro/actualitate/cati-primari-noi-ar-putea-fi-din-toamna-in-judetul-covasna',
+      },
     ],
   },
   {
     name: 'Bocănel Marian',
     party: 'PSD',
-    position: 'Primar al comunei Dudești, județul Brăila',
+    position: 'Fost primar al comunei Dudești, județul Brăila',
     position_type: 'mayor',
     geography: {
       county: 'Brăila',
@@ -64209,10 +66273,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Dudești, județul Brăila.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în noiembrie 2020 că, în exercitarea mandatului de primar, a aprobat și semnat 80 de acte administrative care au produs un folos material pentru societatea soției sale.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în noiembrie 2020 că, în exercitarea mandatului de primar, a aprobat și semnat 80 de acte administrative care au produs un folos material pentru societatea soției sale. ÎCCJ i-a respins definitiv recursul la 8 decembrie 2022, menținând sentința Curții de Apel Galați. Nu a mai avut dreptul să candideze în 2024, iar funcția de primar a fost câștigată de Marius-Alin Stancu (PNL).',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64224,12 +66288,22 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'ProBrăila — hotărârea definitivă ÎCCJ (13 decembrie 2022)',
+        kind: 'press',
+        url: 'https://probr.ro/primarul-comunei-dudesti-marian-bocanel-a-pierdut-recursul-in-procesul-privind-conflictul-de-interese-si-isi-poate-pierde-mandatul-inainte-de-termen/',
+      },
+      {
+        label: 'ProBrăila — rezultatele finale alegerilor locale 2024',
+        kind: 'press',
+        url: 'https://probr.ro/rezultate-finale-alegeri-locale-2024-in-judetul-braila/',
+      },
     ],
   },
   {
     name: 'Pavel Teodor',
     party: 'PSD',
-    position: 'Primar al orașului Recaș, județul Timiș',
+    position: 'Fost primar al orașului Recaș, județul Timiș',
     position_type: 'mayor',
     geography: {
       county: 'Timiș',
@@ -64237,10 +66311,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al orașului Recaș, județul Timiș.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în decembrie 2018 că, în mandatul 2016-2020, a semnat un contract și documente pentru închirierea fără licitație publică a unui teren de la primărie către societatea soției sale.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în decembrie 2018 că, în mandatul 2016-2020, a semnat un contract și documente pentru închirierea fără licitație publică a unui teren de la primărie către societatea soției sale. Raportul ANI a rămas definitiv la 22 noiembrie 2022. Candidatura sa pentru un nou mandat a fost respinsă definitiv în aprilie 2024, iar fiul său, Aurel-Adrian Pavel (PSD), a câștigat funcția de primar.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64252,12 +66326,27 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Pressalert — hotărârea definitivă în dosarul ANI (22 noiembrie 2022)',
+        kind: 'press',
+        url: 'https://www.pressalert.ro/2022/11/primarul-si-viceprimarul-din-recas-au-pierdut-definitiv-procesul-cu-agentia-nationala-de-integritate/',
+      },
+      {
+        label: 'Libertatea — respingerea definitivă a candidaturii din 2024',
+        kind: 'press',
+        url: 'https://www.libertatea.ro/stiri/declarati-incompatibili-doi-primari-din-timis-si-au-pus-feciorii-sa-candideze-in-locul-lor-4911455',
+      },
+      {
+        label: 'Primăria Recaș — conducerea actuală',
+        kind: 'official',
+        url: 'https://primariarecas.ro/primarie/conducere/primarul-si-viceprimarul/primar/',
+      },
     ],
   },
   {
     name: 'Jivan Tiberiu Ionel',
     party: 'PNL',
-    position: 'Primar al comunei Bucovăț, județul Timiș',
+    position: 'Fost primar al comunei Bucovăț, județul Timiș',
     position_type: 'mayor',
     geography: {
       county: 'Timiș',
@@ -64267,8 +66356,8 @@ export const politicianAdditions = [
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în decembrie 2018 că, în mandatul de primar 2012-2016, a emis trei acte administrative care au produs un folos material pentru fiul său, în cuantum de 8.121 lei.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în decembrie 2018 că, în mandatul de primar 2012-2016, a emis trei acte administrative care au produs un folos material pentru fiul său, în cuantum de 8.121 lei. Un rezultat judiciar definitiv al eventualei contestații nu a putut fi confirmat din sursele publice consultate. Nu mai este primar din 2020; funcția este deținută de Gheorghe Pop.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64280,12 +66369,17 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Primăria Bucovăț — declarațiile conducerii după alegerile din 2024',
+        kind: 'official',
+        url: 'https://www.comunabucovat.ro/informatii-publice/declaratii-de-avere/declaratii-de-avere-si-interese-2024/',
+      },
     ],
   },
   {
     name: 'Vișa Ionel',
     party: 'PNL',
-    position: 'Primar al comunei Nocrich, județul Sibiu',
+    position: 'Fost primar al comunei Nocrich, județul Sibiu',
     position_type: 'mayor',
     geography: {
       county: 'Sibiu',
@@ -64293,10 +66387,10 @@ export const politicianAdditions = [
       note: 'Funcția publică relevantă a fost cea de primar al comunei Nocrich, județul Sibiu.',
     },
     crime: 'Conflict de interese administrativ',
-    status: 'investigated',
+    status: 'integrity',
     details:
-      'ANI a constatat în iulie 2019 că, în mandatul 2016-2020, a încheiat un contract individual de muncă privind numirea fiicei sale ca și consilier personal și a emis o dispoziție de numire a acesteia într-un proiect finanțat din fonduri comunitare.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2019 că, în mandatul 2016-2020, a încheiat un contract individual de muncă privind numirea fiicei sale ca și consilier personal și a emis o dispoziție de numire a acesteia într-un proiect finanțat din fonduri comunitare. ÎCCJ a respins definitiv contestația prin decizia nr. 1673 din 22 martie 2022. A candidat din nou în 2024, dar a pierdut în fața lui Adrian Mușoaie (PSD), cu 273 la 1.018 voturi.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64308,23 +66402,33 @@ export const politicianAdditions = [
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
       },
+      {
+        label: 'Sibiu Independent — decizia definitivă ÎCCJ nr. 1673/22.03.2022',
+        kind: 'press',
+        url: 'https://sibiuindependent.ro/2024/06/02/nocrich-desi-are-interdictie-de-la-inalta-curte-fostul-primar-ionel-visa-poate-candida-girat-de-judecatorii-de-la-agnita-si-sibiu/',
+      },
+      {
+        label: 'Rezultate alegeri locale 2024 — Primăria Nocrich',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/rezultate_sibiu/primarie/nocrich/',
+      },
     ],
   },
   {
     name: 'Voicu Lică',
     party: 'PNL',
-    position: 'Primar al comunei Independența, județul Călărași',
-    position_type: 'mayor',
+    position: 'Consilier local al comunei Independența, județul Călărași; fost primar',
+    position_type: 'local_official',
     geography: {
       county: 'Călărași',
       basis: 'office',
-      note: 'Funcția publică relevantă a fost cea de primar al comunei Independența, județul Călărași.',
+      note: 'În prezent figurează în Consiliul Local Independența; anterior a fost primar al comunei.',
     },
     crime: 'Conflict de interese administrativ',
     status: 'investigated',
     details:
-      'ANI a constatat în iulie 2020 că, în calitate de primar, a semnat trei contracte de închiriere pentru terenuri adiacente unor spații comerciale, încheiate cu o întreprindere individuală reprezentată de soția sa.',
-    verified_at: '2026-07-28',
+      'ANI a constatat în iulie 2020 că, în calitate de primar, a semnat trei contracte de închiriere pentru terenuri adiacente unor spații comerciale, încheiate cu o întreprindere individuală reprezentată de soția sa. Un rezultat judiciar definitiv al eventualei contestații nu a putut fi confirmat din sursele publice consultate. A pierdut funcția de primar în 2020 în fața lui Gabriel Rădulescu (PSD) și a continuat ca ales local PNL.',
+    verified_at: '2026-09-28',
     sources: [
       {
         label: 'ANI',
@@ -64335,6 +66439,16 @@ export const politicianAdditions = [
         label: 'BEC 2016',
         kind: 'official',
         url: 'https://locale2016.bec.ro/wp-content/uploads/2016/06/SIAL2016_Mandate_Nivel_P1.xlsx',
+      },
+      {
+        label: 'Primăria Independența — lista consilierilor locali',
+        kind: 'official',
+        url: 'https://primariaindependenta.ro/despre-noi/lista-consilierilor-locali/',
+      },
+      {
+        label: 'Televiziunea Călărași — învestirea primarului ales în 2020',
+        kind: 'press',
+        url: 'https://televiziuneacalarasi.ro/independenta-gabriel-radulescu-psd-a-depus-juramantul-de-primar-video/',
       },
     ],
   },
