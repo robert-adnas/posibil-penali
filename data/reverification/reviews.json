@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-07",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79412,6 +79412,143 @@
       ],
       "note": "Confirmate identitatea și acuzațiile din comunicatul oficial DNA, precum și clasarea definitivă relatată în 2022 pe baza ordonanței prezentate de două publicații locale. A fost completată acuzația privind documentul secret de stat, reparat linkul ZHD și adăugată sursa Replica Hunedoara.",
       "reviewed_snapshot_hash": "3527affcca3c0a34ed3480f6a2772cbdd45209ccbb4d7d63bc4cd7f38a94548f"
+    },
+    {
+      "profile_id": "RV-4619",
+      "original_name": "Ghiorghe Țepeluș",
+      "current_name": "Ghiorghe Țepeluș",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8087",
+        "https://www.dna.ro/comunicat.xhtml?id=4232",
+        "https://informatiahr.ro/comuna-corbu-are-primar-nou-tepes-focsa-romeo/"
+      ],
+      "note": "Full source texts checked. Ghiorghe Tepelus, Corbu vice-mayor at the facts, is the accused in DNA 8087/4232. Final 56/14.02.2017: three years suspended, four-year supervision. No later verified reversal found in subsequent exact-name and official-domain searches. ALDE is supported only for the June 2016 council, not retroactively for 2008-2012. Distinct from Gheorghe-Andrei Tepelus. Office supports Harghita. Raw, additions, overrides, exclusions, held and historical profiles plus batch aliases checked.",
+      "reviewed_snapshot_hash": "df86cdeb6fe4bba7e04045cb9c7724a37e22621704215298e02c35bcf548ef05"
+    },
+    {
+      "profile_id": "RV-4620",
+      "original_name": "Ioan Petran",
+      "current_name": "Ioan Petran",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8670",
+        "https://clujtoday.ro/ioan-petran-este-noul-pre537edinte-al-pnl-cluj/",
+        "https://iosud.utcluj.ro/files/Dosare%20abilitare/Petran%20Ioan/e2_cv%2021-1_ro.pdf",
+        "https://www.clujust.ro/iccj-a-scazut-pedepsele-definitive-ale-lui-horea-uioreanu-si-ioan-bene-la-recursul-in-casatie/",
+        "https://gazetadecluj.ro/ioan-petran-om-de-afaceri-si-profesor-la-universitatea-tehnica-cluj-condamnat-penal-definitiv-pentru-mita/",
+        "https://www.dna.ro/comunicat.xhtml?id=1924",
+        "https://www.dna.ro/faces/comunicat.xhtml?id=1232",
+        "https://comunacristolt.ro/download/5463Pp6lZej0KfhlRGUKns6LxORjn3NT0hXkjS0z.pdf"
+      ],
+      "note": "Full texts read and name-order collision with removed RV-1203 investigated. This record is the PNL Cluj county councillor, party leader and university professor in the 2014 bribery case 3627/117/2014: final 170/31.01.2018, three years suspended. Reported 2018 cassation and 2019 revision rejections concern him, not co-defendants' reduced sentences. No later verified reversal located. Preserve RV-1203's removed decision: its 2009 false-identity social-housing defendant (alias Morar Sergiu), 2010 judgment and PSD Cristolt mandate must not be attached to this Cluj profile. Ioan Petrovan of Sieu and Ioan Petean of Jucu are different officeholders. All editorial, held, raw and historical aliases checked.",
+      "reviewed_snapshot_hash": "70dcde0b24660657b18f260670fd8c8b06975b2b33b060e0a421cae3e9379b99"
+    },
+    {
+      "profile_id": "RV-4621",
+      "original_name": "Constantin Găbrian",
+      "current_name": "Constantin Găbrian",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/",
+        "https://argesuldenord.wordpress.com/2012/07/27/nimic-nou-la-suici-si-salatrucu/",
+        "https://www.observatordearges.ro/primarul-de-la-suici-condamnat-la-2-ani-si-patru-luni.html"
+      ],
+      "note": "Read full DNA and local-election texts. Suici councillor/vice-mayor, Arges; PRM supported in 2008, USL electoral list in 2012, no inferred component party. Final 475/04.05.2018 in 2691/109/2015: resultant 13 months suspended, two-year supervision. Larger 18-month-and-20-day penalty in the press belongs only to the dissent; majority minuta agrees with DNA. Subsequent case-number/name searches found no verified reversal for Gabrian; the 2020 remedy located concerned only Iatagan. Corporate administrators Constantin Marian/Gabriel are distinct, not fuzzy-name merges. Complete raw/editorial/held/excluded/history and batch duplicate checks performed.",
+      "reviewed_snapshot_hash": "7fc09d65dd1d9eaa997980068345276a5273af3a1c2c65b30d774e8fa47be7e2"
+    },
+    {
+      "profile_id": "RV-4622",
+      "original_name": "Ion Rudeanu",
+      "current_name": "Ion Rudeanu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3"
+      ],
+      "note": "Full texts identify the accused as Suici local councillor, Arges, in the 2010 APIA proceedings. Final acquittal 475/04.05.2018 because the conduct is not criminal; do not present him as convicted or indicted. No subsequent verified reversal located in official/name/case searches. Same locality and office connect the PSD councillor in the July 2018 council report with the PNL council candidate in 2024; document the party change without claiming a won 2024 mandate. Distinct from other Rudeanu defendants/private actors. Duplicate checks covered raw/additions/overrides/exclusions/unpublished/registry/history and batch variants.",
+      "reviewed_snapshot_hash": "37b8065233d0181235cf7653d498fdb6010685c768708f53eb1f92d254134374"
+    },
+    {
+      "profile_id": "RV-4624",
+      "original_name": "Stelu Platon",
+      "current_name": "Stelu Platon",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=11337",
+        "https://www.dna.ro/comunicat.xhtml?id=7760",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-harghita.html",
+        "https://informatiahr.ro/toplita-primarul-stelu-platon-a-depus-juramantul-pentru-al-treilea-mandat/"
+      ],
+      "note": "Full official texts checked, including DNA's 23.03.2026 update. The accused is Toplita mayor Stelu Platon, PNL election winner in 2016, Harghita office basis. ICCJ 47/RC of 22.01.2026 admits his cassation appeal and finally terminates the process through prescription; this supersedes the 2022 three-year suspended conviction. Keep non-conflicting dispositions, do not claim cancellation of all civil liability. conviction_year 2026 follows this dataset's prescribed-outcome year convention, not a new finding of guilt; sentence_years zero. No later verified outcome located. Reversed-name and all editorial/historical/held/excluded duplicate checks completed; nonpolitical co-defendants not added.",
+      "reviewed_snapshot_hash": "36287ffd623e93c5775e0765fa60088e149c5f13230e205819be6622bde48246"
+    },
+    {
+      "profile_id": "RV-4625",
+      "original_name": "Florea Stănaia",
+      "current_name": "Florea Stănaia",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10004",
+        "https://www.dna.ro/comunicat.xhtml?id=8301",
+        "https://www.cronicadeseverin.ro/?p=5956"
+      ],
+      "note": "Read full DNA indictment and final-outcome texts and the September 2020 candidate list. Florea Stanaia / Stanaia Florea is the Obarsia de Camp mayor, Mehedinti office basis. Final Craiova 1066/29.09.2020: three years suspended, four-year supervision, for continuous EU-document fraud complicity and intellectual forgery. PSD is evidenced for the 2020 mayoral candidacy, not extrapolated to the whole 2011-2016 conduct period. Subsequent official-domain/name/cassation searches found no later verified reversal. Distinguish him from Stanaia Cristina Raluca and other family co-defendants; no political scope established for them. All raw/additions/overrides/exclusions/held/historical and intra-batch variants checked.",
+      "reviewed_snapshot_hash": "d0352cc84883de8103ec442b4aef76e09b3f56681bf595fa35edc4cad2234a41"
+    },
+    {
+      "profile_id": "RV-4623",
+      "original_name": "Constantin Șerban",
+      "current_name": "Constantin Șerban",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-07",
+      "reviewer": "Codex - automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3",
+        "https://www.dna.ro/comunicat.xhtml?id=13435"
+      ],
+      "note": "Read full official/legal and identifying texts. Constantin Serban is the Suici councillor in the 2010 APIA case, finally acquitted for conflict of interest by Pitesti 475/04.05.2018 because conduct is not criminal; no later verified reversal located. Arges Expres identifies the PSD acting-mayor vice-mayor chosen 19.06.2018 and separately his octogenarian namesake father; do not transfer the father's biography. 2024 PSD candidacy refers to the same council. Held RV-0548 Todorica-Constantin Serban is a different Brasov county official in DNA 13435, not this Suici acquittal. Preserve that hold and review history. County derives from office. Complete editorial/raw/additions/overrides/excluded/held/historical and intra-batch duplicate checks completed.",
+      "reviewed_snapshot_hash": "2345633baeec3b88969e93c2f167097378c99983c838b7bd7f6624e16c9e0d9d"
     }
   ]
 }

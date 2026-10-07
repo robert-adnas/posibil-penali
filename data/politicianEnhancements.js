@@ -1,7 +1,7 @@
 export const metadataOverrides = {
   description:
         'Proiect independent, non-profit și open source despre politicieni români condamnați, trimiși în judecată sau cercetați pentru corupție și probleme de integritate.',
-  last_updated: '2026-09-02',
+  last_updated: '2026-10-07',
   notes:
     'Statusuri: convicted (condamnare definitivă), first_instance (condamnat în primă instanță), indicted (trimis în judecată), investigated (cercetat penal), integrity (incident administrativ de integritate constatat de ANI), prescribed (proces închis prin prescripție), closed (cauză clasată sau închisă fără trimitere în judecată), acquitted (achitat). Fiecare persoană inclusă are cel puțin o sursă oficială verificabilă; unde contextul o cere, am adăugat și presă de referință pentru clarificarea evoluției procedurale. Lista rămâne deschisă și nu este exhaustivă.',
 };
@@ -66449,6 +66449,294 @@ export const politicianAdditions = [
         label: 'Televiziunea Călărași — învestirea primarului ales în 2020',
         kind: 'press',
         url: 'https://televiziuneacalarasi.ro/independenta-gabriel-radulescu-psd-a-depus-juramantul-de-primar-video/',
+      },
+    ],
+  },
+  {
+    name: 'Ghiorghe Țepeluș',
+    party: 'ALDE (în 2016)',
+    position: 'Fost viceprimar al comunei Corbu, județul Harghita; consilier local ALDE în 2016',
+    position_type: 'local_official',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'DNA identifică funcția de viceprimar al comunei Corbu, județul Harghita, la data faptelor.',
+    },
+    crime: 'Folosirea de documente false pentru fonduri europene; instigare la fals intelectual; fals intelectual',
+    sentence: '3 ani de închisoare cu suspendare; termen de supraveghere de 4 ani',
+    sentence_years: 3,
+    conviction_year: 2017,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'Prin decizia nr. 56 din 14 februarie 2017, Curtea de Apel Tîrgu Mureș l-a condamnat definitiv pe fostul viceprimar din Corbu în dosarul subvențiilor APIA. Afilierea ALDE este documentată pentru Consiliul Local constituit în iunie 2016, nu pentru perioada faptelor din 2008-2012. Numele din comunicatul juridic este Țepeluș Ghiorghe; profilul nu se referă la Gheorghe-Andrei Țepeluș.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - decizia definitivă nr. 56/14.02.2017',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8087',
+      },
+      {
+        label: 'DNA - rechizitoriul din dosarul Corbu, punctul 4',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4232',
+      },
+      {
+        label: 'Informația Harghitei - Consiliul Local Corbu, iunie 2016',
+        kind: 'press',
+        url: 'https://informatiahr.ro/comuna-corbu-are-primar-nou-tepes-focsa-romeo/',
+      },
+    ],
+  },
+  {
+    name: 'Ioan Petran',
+    party: 'PNL',
+    position: 'Fost consilier județean în Consiliul Județean Cluj; președinte PNL Cluj-Napoca în 2013',
+    position_type: 'local_official',
+    geography: {
+      county: 'Cluj',
+      basis: 'office',
+      note: 'DNA identifică mandatul de consilier județean în Consiliul Județean Cluj la data faptei.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani de închisoare cu suspendare; termen de supraveghere de 3 ani',
+    sentence_years: 3,
+    conviction_year: 2018,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'Curtea de Apel Cluj l-a condamnat definitiv prin decizia nr. 170 din 31 ianuarie 2018. Relatările ulterioare reproduc respingerea recursului său în casație în octombrie 2018 și a apelului privind revizuirea în noiembrie 2019; pedeapsa de trei ani cu suspendare a rămas neschimbată. Identitatea este coroborată prin mandatul din Cluj, conducerea PNL Cluj-Napoca și cariera universitară. Nu îi este atribuit dosarul de trafic de influență al unui omonim din 2010 și nici mandatul PSD din Cristolt, Sălaj.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - decizia definitivă nr. 170/31.01.2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8670',
+      },
+      {
+        label: 'Universitatea Tehnică din Cluj-Napoca - CV Ioan Petran',
+        kind: 'official',
+        url: 'https://iosud.utcluj.ro/files/Dosare%20abilitare/Petran%20Ioan/e2_cv%2021-1_ro.pdf',
+      },
+      {
+        label: 'ClujToday - alegerea președintelui PNL Cluj-Napoca, 2013',
+        kind: 'press',
+        url: 'https://clujtoday.ro/ioan-petran-este-noul-pre537edinte-al-pnl-cluj/',
+      },
+      {
+        label: 'Clujust - soluția ÎCCJ la recursul în casație, 2018',
+        kind: 'press',
+        url: 'https://www.clujust.ro/iccj-a-scazut-pedepsele-definitive-ale-lui-horea-uioreanu-si-ioan-bene-la-recursul-in-casatie/',
+      },
+      {
+        label: 'Gazeta de Cluj - respingerea revizuirii, 2019',
+        kind: 'press',
+        url: 'https://gazetadecluj.ro/ioan-petran-om-de-afaceri-si-profesor-la-universitatea-tehnica-cluj-condamnat-penal-definitiv-pentru-mita/',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Găbrian',
+    party: 'PRM (în 2008; ulterior USL)',
+    position: 'Fost consilier local și viceprimar al comunei Șuici, județul Argeș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcția de consilier local în comuna Șuici este identificată în rechizitoriul DNA.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene; fals intelectual',
+    sentence: '1 an și 1 lună de închisoare cu suspendare; termen de supraveghere de 2 ani',
+    sentence_years: 13 / 12,
+    conviction_year: 2018,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'Curtea de Apel Pitești a stabilit definitiv pedeapsa prin decizia nr. 475 din 4 mai 2018, în dosarul nr. 2691/109/2015 privind subvențiile APIA din Șuici. Pedeapsa rezultantă este de un an și o lună; sancțiunea mai mare reprodusă într-un reportaj aparține opiniei separate, nu soluției majoritare. Presa locală documentează afilierea PRM ca viceprimar în 2008 și alegerea pe lista USL în 2012; nu este dedusă o afiliere ulterioară la unul dintre partidele alianței.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - decizia definitivă nr. 475/04.05.2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8840',
+      },
+      {
+        label: 'DNA - rechizitoriul Șuici, punctul 6',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6507',
+      },
+      {
+        label: 'Bitpress - primari și viceprimari argeșeni, 2008',
+        kind: 'press',
+        url: 'https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/',
+      },
+      {
+        label: 'Argeșul de Nord - componența administrației Șuici, 2012',
+        kind: 'press',
+        url: 'https://argesuldenord.wordpress.com/2012/07/27/nimic-nou-la-suici-si-salatrucu/',
+      },
+      {
+        label: 'Observator de Argeș - minuta și opinia separată, 2018',
+        kind: 'press',
+        url: 'https://www.observatordearges.ro/primarul-de-la-suici-condamnat-la-2-ani-si-patru-luni.html',
+      },
+    ],
+  },
+  {
+    name: 'Ion Rudeanu',
+    party: 'PNL (în 2024; anterior PSD)',
+    position: 'Fost consilier local al comunei Șuici, județul Argeș; candidat PNL la Consiliul Local în 2024',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Rechizitoriul identifică funcția de consilier local în comuna Șuici, județul Argeș.',
+    },
+    crime: 'Conflict de interese - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă: fapta nu este prevăzută de legea penală',
+    status: 'acquitted',
+    details:
+      'Trimis în judecată în dosarul APIA Șuici, a fost achitat definitiv pentru conflict de interese prin decizia nr. 475 din 4 mai 2018 a Curții de Apel Pitești, deoarece fapta nu era prevăzută de legea penală. Lista administrației locale din iulie 2018 îl identifică drept consilier PSD. Lista candidaturilor pentru același consiliu local în 2024 îl înscrie la PNL; candidatura nu este prezentată drept dovadă a câștigării unui mandat.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - achitarea definitivă din 04.05.2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8840',
+      },
+      {
+        label: 'DNA - rechizitoriul Șuici, punctul 6',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6507',
+      },
+      {
+        label: 'Argeș Expres - Consiliul Local Șuici, iulie 2018',
+        kind: 'press',
+        url: 'https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici',
+      },
+      {
+        label: 'Ziare.com - candidaturi la Consiliul Local Șuici, 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Șerban',
+    party: 'PSD',
+    position: 'Fost consilier local al comunei Șuici, județul Argeș; viceprimar cu atribuții de primar în 2018',
+    position_type: 'local_official',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      note: 'Funcțiile publice relevante sunt în comuna Șuici, județul Argeș, nu în județul Brașov.',
+    },
+    crime: 'Conflict de interese - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă: fapta nu este prevăzută de legea penală',
+    status: 'acquitted',
+    details:
+      'Curtea de Apel Pitești l-a achitat definitiv pentru conflict de interese prin decizia nr. 475 din 4 mai 2018, în dosarul APIA Șuici. În iunie 2018, consilierul PSD a fost ales viceprimar cu atribuții de primar; candidatura sa PSD în aceeași comună este documentată și în 2024. Este distinct de Todorică-Constantin Șerban din Consiliul Județean Brașov și de tatăl său omonim, identificat separat în reportajul local din 2018.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - achitarea definitivă din 04.05.2018',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8840',
+      },
+      {
+        label: 'DNA - rechizitoriul Șuici, punctul 6',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6507',
+      },
+      {
+        label: 'Argeș Expres - viceprimarul Șuici și tatăl omonim, 2018',
+        kind: 'press',
+        url: 'https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici',
+      },
+      {
+        label: 'Ziare.com - candidaturi la Consiliul Local Șuici, 2024',
+        kind: 'press',
+        url: 'https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3',
+      },
+    ],
+  },
+  {
+    name: 'Stelu Platon',
+    party: 'PNL',
+    position: 'Fost primar al municipiului Toplița, județul Harghita',
+    position_type: 'mayor',
+    geography: {
+      county: 'Harghita',
+      basis: 'office',
+      note: 'Mandatul relevant era la Primăria Toplița, județul Harghita; instanța din Bacău nu stabilește județul profilului.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene - proces încetat prin prescripție',
+    sentence: 'Proces penal încetat definitiv prin prescripție la 22 ianuarie 2026',
+    sentence_years: 0,
+    conviction_year: 2026,
+    execution_type: 'Proces încetat prin prescripție',
+    status: 'prescribed',
+    details:
+      'În dosarul subvențiilor APIA, condamnarea din 7 iunie 2022 la trei ani cu suspendare a fost urmată de admiterea recursului în casație. Prin decizia nr. 47/RC din 22 ianuarie 2026, ÎCCJ a încetat definitiv procesul penal față de Stelu Platon prin prescripție, potrivit actualizării DNA din 23 martie 2026. Nu este prezentată ca actuală condamnarea din 2022; instanța a menținut dispozițiile care nu contravin noii hotărâri. Afilierea PNL este confirmată pentru mandatul câștigat în 2016. Anul 2026 reprezintă anul soluției de încetare, nu al unei condamnări.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - hotărârea din 2022 și actualizarea ÎCCJ din 2026',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11337',
+      },
+      {
+        label: 'DNA - rechizitoriul Toplița, punctul 4',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7760',
+      },
+      {
+        label: 'Știrile ProTV - alegerea primarului PNL Stelu Platon, 2016',
+        kind: 'press',
+        url: 'https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-harghita.html',
+      },
+      {
+        label: 'Informația Harghitei - învestirea primarului Toplița, 2016',
+        kind: 'press',
+        url: 'https://informatiahr.ro/toplita-primarul-stelu-platon-a-depus-juramantul-pentru-al-treilea-mandat/',
+      },
+    ],
+  },
+  {
+    name: 'Florea Stănaia',
+    party: 'PSD',
+    position: 'Fost primar al comunei Obârșia de Câmp, județul Mehedinți',
+    position_type: 'mayor',
+    geography: {
+      county: 'Mehedinți',
+      basis: 'office',
+      note: 'DNA identifică explicit funcția de primar al comunei Obârșia de Câmp, județul Mehedinți.',
+    },
+    crime: 'Complicitate la folosirea de documente false pentru fonduri europene; fals intelectual, în formă continuată',
+    sentence: '3 ani de închisoare cu suspendare; termen de supraveghere de 4 ani',
+    sentence_years: 3,
+    conviction_year: 2020,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'Prin decizia nr. 1066 din 29 septembrie 2020, Curtea de Apel Craiova l-a condamnat definitiv pe primarul comunei Obârșia de Câmp pentru complicitate la fraudarea fondurilor europene și fals intelectual în formă continuată. Rechizitoriul descrie documente false furnizate de primar pentru finanțările solicitate de rude în perioada 2011-2016. Afilierea PSD este documentată prin candidatura la Primăria Obârșia de Câmp în septembrie 2020; nu este extrapolată asupra întregii perioade a faptelor. Numele din comunicatul DNA este Stănaia Florea.',
+    verified_at: '2026-10-07',
+    sources: [
+      {
+        label: 'DNA - decizia definitivă nr. 1066/29.09.2020',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=10004',
+      },
+      {
+        label: 'DNA - rechizitoriul Obârșia de Câmp, 2017',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8301',
+      },
+      {
+        label: 'Cronica de Severin - candidaturile la primărie, septembrie 2020',
+        kind: 'press',
+        url: 'https://www.cronicadeseverin.ro/?p=5956',
       },
     ],
   },

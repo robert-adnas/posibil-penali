@@ -100735,6 +100735,150 @@
         "bulk_verification_date"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4619",
+      "baseline_index": 4618,
+      "name": "Ghiorghe Țepeluș",
+      "party": "ALDE (în 2016)",
+      "position": "Fost viceprimar al comunei Corbu, județul Harghita; consilier local ALDE în 2016",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8087",
+        "https://www.dna.ro/comunicat.xhtml?id=4232",
+        "https://informatiahr.ro/comuna-corbu-are-primar-nou-tepes-focsa-romeo/"
+      ],
+      "baseline_snapshot_hash": "df86cdeb6fe4bba7e04045cb9c7724a37e22621704215298e02c35bcf548ef05",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4620",
+      "baseline_index": 4619,
+      "name": "Ioan Petran",
+      "party": "PNL",
+      "position": "Fost consilier județean în Consiliul Județean Cluj; președinte PNL Cluj-Napoca în 2013",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8670",
+        "https://iosud.utcluj.ro/files/Dosare%20abilitare/Petran%20Ioan/e2_cv%2021-1_ro.pdf",
+        "https://clujtoday.ro/ioan-petran-este-noul-pre537edinte-al-pnl-cluj/",
+        "https://www.clujust.ro/iccj-a-scazut-pedepsele-definitive-ale-lui-horea-uioreanu-si-ioan-bene-la-recursul-in-casatie/",
+        "https://gazetadecluj.ro/ioan-petran-om-de-afaceri-si-profesor-la-universitatea-tehnica-cluj-condamnat-penal-definitiv-pentru-mita/"
+      ],
+      "baseline_snapshot_hash": "70dcde0b24660657b18f260670fd8c8b06975b2b33b060e0a421cae3e9379b99",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4621",
+      "baseline_index": 4620,
+      "name": "Constantin Găbrian",
+      "party": "PRM (în 2008; ulterior USL)",
+      "position": "Fost consilier local și viceprimar al comunei Șuici, județul Argeș",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://argesuldenord.wordpress.com/2012/07/27/nimic-nou-la-suici-si-salatrucu/",
+        "https://bitpress.ro/politica/aliantele-politice-din-primariile-argesene/",
+        "https://www.observatordearges.ro/primarul-de-la-suici-condamnat-la-2-ani-si-patru-luni.html"
+      ],
+      "baseline_snapshot_hash": "7fc09d65dd1d9eaa997980068345276a5273af3a1c2c65b30d774e8fa47be7e2",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4622",
+      "baseline_index": 4621,
+      "name": "Ion Rudeanu",
+      "party": "PNL (în 2024; anterior PSD)",
+      "position": "Fost consilier local al comunei Șuici, județul Argeș; candidat PNL la Consiliul Local în 2024",
+      "position_type": "local_official",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3"
+      ],
+      "baseline_snapshot_hash": "37b8065233d0181235cf7653d498fdb6010685c768708f53eb1f92d254134374",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4623",
+      "baseline_index": 4622,
+      "name": "Constantin Șerban",
+      "party": "PSD",
+      "position": "Fost consilier local al comunei Șuici, județul Argeș; viceprimar cu atribuții de primar în 2018",
+      "position_type": "local_official",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8840",
+        "https://www.dna.ro/comunicat.xhtml?id=6507",
+        "https://www.argesexpres.ro/index.php/administratie/23282-trei-zile-si-trei-nopti-a-fost-sarbatorita-comuna-suici",
+        "https://ziare.com/alegeri/alegeri-locale-2024/candidati_arges/consiliul-local/suici/3"
+      ],
+      "baseline_snapshot_hash": "2345633baeec3b88969e93c2f167097378c99983c838b7bd7f6624e16c9e0d9d",
+      "risk_score": 100,
+      "risk_flags": [
+        "possible_name_collision"
+      ],
+      "similar_names": [
+        "Todorică-Constantin Șerban"
+      ]
+    },
+    {
+      "id": "RV-4624",
+      "baseline_index": 4623,
+      "name": "Stelu Platon",
+      "party": "PNL",
+      "position": "Fost primar al municipiului Toplița, județul Harghita",
+      "position_type": "mayor",
+      "legal_status": "prescribed",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=11337",
+        "https://www.dna.ro/comunicat.xhtml?id=7760",
+        "https://informatiahr.ro/toplita-primarul-stelu-platon-a-depus-juramantul-pentru-al-treilea-mandat/",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-harghita.html"
+      ],
+      "baseline_snapshot_hash": "36287ffd623e93c5775e0765fa60088e149c5f13230e205819be6622bde48246",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4625",
+      "baseline_index": 4624,
+      "name": "Florea Stănaia",
+      "party": "PSD",
+      "position": "Fost primar al comunei Obârșia de Câmp, județul Mehedinți",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-07",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=10004",
+        "https://www.dna.ro/comunicat.xhtml?id=8301",
+        "https://www.cronicadeseverin.ro/?p=5956"
+      ],
+      "baseline_snapshot_hash": "d0352cc84883de8103ec442b4aef76e09b3f56681bf595fa35edc4cad2234a41",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
