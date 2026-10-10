@@ -66740,6 +66740,309 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Florin Marius Nedelcu',
+    party: 'PSD (până în februarie 2016)',
+    position: 'Fost viceprimar al orașului Videle, județul Teleorman',
+    position_type: 'local_official',
+    geography: {
+      county: 'Teleorman',
+      basis: 'office',
+      note: 'DNA identifică funcția de viceprimar al orașului Videle la data faptelor.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani de închisoare cu suspendare; termen de supraveghere de 4 ani',
+    sentence_years: 3,
+    conviction_year: 2017,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'Curtea de Apel București l-a condamnat definitiv prin decizia nr. 335/A din 3 martie 2017, în dosarul contractului pentru terenuri de sport din Videle, privind fapte din 2015-2016. Cauza primarului Nicolae Bădănoiu a fost disjunsă; soluția acestuia nu este atribuită viceprimarului. PSD Videle l-a exclus pe Nedelcu la 13 februarie 2016, potrivit relatării din 15 februarie. Numele complet din sursele judiciare este Nedelcu Florin Marius, distinct de agentul de poliție Florin Adrian Nedelcu din Bragadiru.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - condamnarea definitivă nr. 335/A/03.03.2017',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=8121',
+      },
+      {
+        label: 'DNA - rechizitoriul Videle, mai 2016',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7388',
+      },
+      {
+        label: 'Adevărul - excluderea viceprimarului din PSD, februarie 2016',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/alexandria/florin-nedelcu-viceprimarul-din-videle-a-fost-1688024.html',
+      },
+    ],
+  },
+  {
+    name: 'Cătălin Ionuț Lăscaie',
+    party: 'PSD (candidatură în 2020)',
+    position: 'Consilier județean în Consiliul Județean Dâmbovița la data faptelor din 2022',
+    position_type: 'local_official',
+    geography: {
+      county: 'Dâmbovița',
+      basis: 'office',
+      note: 'Funcția de consilier județean este identificată de DNA și de CV-ul publicat de Universitatea Valahia.',
+    },
+    crime: 'Folosirea de informații nedestinate publicității pentru obținerea de foloase necuvenite',
+    sentence: '1 an de închisoare cu suspendare; termen de supraveghere de 2 ani',
+    sentence_years: 1,
+    conviction_year: 2026,
+    execution_type: 'Cu suspendare',
+    status: 'convicted',
+    details:
+      'ÎCCJ l-a condamnat definitiv prin decizia nr. 12 din 15 iunie 2026, în dosarul concursurilor din Ministerul Agriculturii, pentru faptele din 2022. Dosarele celorlalți cinci inculpați, inclusiv Adrian-Ionuț Chesnoiu și Mihai Pârv, au fost disjunse; condamnarea lui Lăscaie nu reprezintă soluția lor. CV-ul universitar din 2022 confirmă mandatul de consilier județean început în 2020. Lista candidaturilor din august 2020 documentează afilierea PSD; aceasta nu este prezentată drept afiliere actuală în 2026.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - condamnarea definitivă ÎCCJ din 15.06.2026',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13960',
+      },
+      {
+        label: 'DNA - rechizitoriul concursurilor MADR, decembrie 2022',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=11636',
+      },
+      {
+        label: 'Universitatea Valahia - CV Cătălin Ionuț Lăscaie, 2022, pagina 43',
+        kind: 'official',
+        url: 'https://sd.valahia.ro/wp-content/uploads/RezumatCV-LascaieCatalinIonut.pdf',
+      },
+      {
+        label: 'Incomod Media - candidații PSD la CJ Dâmbovița, august 2020',
+        kind: 'press',
+        url: 'https://incomod-media.ro/2020/08/15/70-000-de-semnaturi-de-sustinere-a-candidatilor-psd-dambovita-pentru-consiliul-judetean/',
+      },
+    ],
+  },
+  {
+    name: 'Gelu Apostol',
+    party: 'PNL (în 2024; anterior PSD și PDL)',
+    position: 'Primar al comunei Cernica, județul Ilfov, inclusiv la data faptelor din 2008',
+    position_type: 'mayor',
+    geography: {
+      county: 'Ilfov',
+      basis: 'office',
+      note: 'Primăria Cernica este în Ilfov; terenurile din dosar și OCPI Călărași nu stabilesc județul profilului.',
+    },
+    crime: 'Omisiunea sesizării organelor judiciare - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă la 26 septembrie 2013',
+    status: 'acquitted',
+    details:
+      'ÎCCJ l-a achitat definitiv prin decizia nr. 2874 din 26 septembrie 2013 în cauza descrisă de rechizitoriul din iunie 2009. Nu i se atribuie condamnarea viceprimarului Vasile Zaharia. Presa locală documentează PDL în perioada 2006-2012 și trecerea la PSD în 2012; tabelul electoral din 2024 îl identifică drept candidatul propus de PNL în alianța PSD-PNL pentru Primăria Cernica.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - achitarea definitivă ÎCCJ din 26.09.2013',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4355',
+      },
+      {
+        label: 'DNA - rechizitoriul și identitatea primarului Cernica, 2009',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=1273',
+      },
+      {
+        label: 'Vox Cernica - istoricul PDL și PSD, mai 2012',
+        kind: 'press',
+        url: 'https://www.voxcernica.ro/interese/politica-in-cernica/377-partid-unic-la-cernica-primarul-pdl-gelu-apostol-a-trecut-la-usl.html',
+      },
+      {
+        label: 'Vox Cernica - candidatul PNL și rezultatele din 2024',
+        kind: 'press',
+        url: 'https://www.voxcernica.ro/stiri/800-analiza-rezultatelor-alegerilor-locale-si-europarlamentare-din-comuna-cernica-9-iunie-2024.html',
+      },
+    ],
+  },
+  {
+    name: 'Jenel Șerban',
+    party: 'ALDE (în 2016; anterior PC și PNL)',
+    position: 'Fost prefect al județului Călărași; ulterior consilier județean în Consiliul Județean Călărași',
+    position_type: 'local_official',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'DNA identifică funcția de prefect, iar procesul-verbal din 2016 confirmă mandatul de consilier județean în Călărași.',
+    },
+    crime: 'Abuz în serviciu și neglijență în serviciu - acuzații soluționate prin achitări definitive',
+    sentence: 'Achitări definitive în 2013 și 2021',
+    status: 'acquitted',
+    details:
+      'Achitat definitiv pentru neglijență în serviciu prin decizia ÎCCJ nr. 2874/26.09.2013 și, în dosarul terenurilor INCD Fundulea, prin decizia Curții de Apel București nr. 936/A/29.07.2021. Procesul-verbal al CJ Călărași din 1 iulie 2016 îl înscrie în grupul ALDE. Centrul de Investigații Media documentează istoricul PC și candidatura PNL din 2008; Arena Media consemnează înscrierea în PPU-SL în ianuarie 2019. Afilierea ALDE din 2016 nu este prezentată ca actuală.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - rechizitoriul Fundulea și achitarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7728',
+      },
+      {
+        label: 'DNA - achitarea definitivă din 2013 în celălalt dosar',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=4355',
+      },
+      {
+        label: 'CJ Călărași - proces-verbal din 01.07.2016, grupul ALDE',
+        kind: 'official',
+        url: 'https://calarasi.ro/wp-content/uploads/2020/07/pv-sedinta-2016.07.01.pdf',
+      },
+      {
+        label: 'Centrul de Investigații Media - identitatea și istoricul PC/PNL, 2014',
+        kind: 'press',
+        url: 'https://investigatiimedia.ro/investigatii/prefectul-grivco-din-calarasi',
+      },
+      {
+        label: 'Arena Media - trecerea de la ALDE la PPU-SL, ianuarie 2019',
+        kind: 'press',
+        url: 'https://arhiva.arenamedia.ro/index.php/arena-news/politica-mp/actualitatea-politica-mp/jenel-serban-a-intrat-in-echipa-ppu-sl',
+      },
+    ],
+  },
+  {
+    name: 'Dumitru Culea',
+    party: 'PDL (până în 2012; ulterior candidat USL)',
+    position: 'Primar al comunei Valea Argovei, județul Călărași, la data faptelor din 2007',
+    position_type: 'mayor',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Funcția de primar al comunei Valea Argovei este confirmată și în documentul intercomunitar din 2011.',
+    },
+    crime: 'Abuz în serviciu - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă la 29 iulie 2021',
+    status: 'acquitted',
+    details:
+      'În cauza INCD Fundulea, Curtea de Apel București a pronunțat achitarea definitivă prin decizia nr. 936/A/29.07.2021. Identitatea și comuna sunt coroborate de anexa oficială din 2011. Adevărul îl identifică în aprilie 2012 între primarii PDL care candidează pe listele USL. Nu este dedusă apartenența la un anumit partid component al alianței și nici afilierea din 2007 doar din această relatare.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - rechizitoriul Fundulea și achitarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7728',
+      },
+      {
+        label: 'Primăria Dragoș Vodă - HCL nr. 9/2011, anexa cu primarii',
+        kind: 'official',
+        url: 'https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b',
+      },
+      {
+        label: 'Adevărul - candidatura USL a primarului din Valea Argovei, 2012',
+        kind: 'press',
+        url: 'https://adevarul.ro/stiri-locale/calarasi/au-sarit-in-barca-puterii-sapte-primari-pdl-din-1253236.html',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Giurea',
+    party: 'PNL',
+    position: 'Primar al comunei Nicolae Bălcescu, județul Călărași, la data faptelor din 2007',
+    position_type: 'mayor',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Documentul intercomunitar și DNA identifică explicit comuna Nicolae Bălcescu din Călărași.',
+    },
+    crime: 'Abuz în serviciu - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă la 29 iulie 2021',
+    status: 'acquitted',
+    details:
+      'În cauza INCD Fundulea, Curtea de Apel București a pronunțat achitarea definitivă prin decizia nr. 936/A/29.07.2021. Anexa oficială din 2011 și lista primarilor aleși în iunie 2016 identifică aceeași persoană și aceeași comună. Afilierea PNL este documentată pentru alegerile din 2016, nu extrapolată asupra întregii perioade a faptelor din 2007.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - rechizitoriul Fundulea și achitarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7728',
+      },
+      {
+        label: 'Primăria Dragoș Vodă - HCL nr. 9/2011, anexa cu primarii',
+        kind: 'official',
+        url: 'https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b',
+      },
+      {
+        label: 'Radio TV Oltenița - primarul PNL al comunei Nicolae Bălcescu, 2016',
+        kind: 'press',
+        url: 'https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/',
+      },
+    ],
+  },
+  {
+    name: 'Victor Manea',
+    party: 'PSD (în 2016)',
+    position: 'Primar al comunei Lupșanu, județul Călărași, la data faptelor din 2007',
+    position_type: 'mayor',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'DNA și anexa intercomunitară din 2011 identifică Primăria Lupșanu, nu Constanța.',
+    },
+    crime: 'Abuz în serviciu - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă la 29 iulie 2021',
+    status: 'acquitted',
+    details:
+      'În cauza INCD Fundulea, Curtea de Apel București a pronunțat achitarea definitivă prin decizia nr. 936/A/29.07.2021. Anexa oficială din 2011 confirmă funcția în Lupșanu, iar lista rezultatelor din iunie 2016 îl înscrie drept primar PSD al aceleiași comune. Nu este confundat cu fostul parlamentar PNL Victor Manea din Constanța și nu îi sunt atribuite acestuia faptele ori afilierea primarului din Lupșanu.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - rechizitoriul Fundulea și achitarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7728',
+      },
+      {
+        label: 'Primăria Dragoș Vodă - HCL nr. 9/2011, primarul Lupșanu',
+        kind: 'official',
+        url: 'https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b',
+      },
+      {
+        label: 'Radio TV Oltenița - primarul PSD al comunei Lupșanu, 2016',
+        kind: 'press',
+        url: 'https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/',
+      },
+    ],
+  },
+  {
+    name: 'Constantin Chirică',
+    party: 'PSD',
+    position: 'Primar al comunei Tămădău Mare, județul Călărași, inclusiv la data faptelor din 2007',
+    position_type: 'mayor',
+    geography: {
+      county: 'Călărași',
+      basis: 'office',
+      note: 'Comuna Tămădău Mare este confirmată de documentul intercomunitar și de pagina oficială a primăriei.',
+    },
+    crime: 'Abuz în serviciu - acuzație soluționată prin achitare definitivă',
+    sentence: 'Achitare definitivă la 29 iulie 2021',
+    status: 'acquitted',
+    details:
+      'În cauza INCD Fundulea, Curtea de Apel București a pronunțat achitarea definitivă prin decizia nr. 936/A/29.07.2021. Documentul intercomunitar din 2011 și pagina oficială a Primăriei Tămădău Mare confirmă numele și funcția. PSD este documentat în lista rezultatelor electorale din 2016 și pe pagina oficială aferentă declarațiilor din 2025; nu este dedusă afilierea din 2007. Nu este identificat cu Chiriac Constantin sau Chirilă Constantin din alte dosare.',
+    verified_at: '2026-10-10',
+    sources: [
+      {
+        label: 'DNA - rechizitoriul Fundulea și achitarea definitivă din 2021',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7728',
+      },
+      {
+        label: 'Primăria Dragoș Vodă - HCL nr. 9/2011, primarul Tămădău Mare',
+        kind: 'official',
+        url: 'https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b',
+      },
+      {
+        label: 'Primăria Tămădău Mare - primarul și partidul, declarații 2025',
+        kind: 'official',
+        url: 'https://primaria-tamadau.ro/index.php/2-informatii-de-interes-public/2-7-declaratii-de-avere-si-de-interese/2-conducerea/1-primarul',
+      },
+      {
+        label: 'Radio TV Oltenița - primarul PSD al comunei Tămădău Mare, 2016',
+        kind: 'press',
+        url: 'https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/',
+      },
+    ],
+  },
 ];
 
 /**

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-10",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79549,6 +79549,161 @@
       ],
       "note": "Read full official/legal and identifying texts. Constantin Serban is the Suici councillor in the 2010 APIA case, finally acquitted for conflict of interest by Pitesti 475/04.05.2018 because conduct is not criminal; no later verified reversal located. Arges Expres identifies the PSD acting-mayor vice-mayor chosen 19.06.2018 and separately his octogenarian namesake father; do not transfer the father's biography. 2024 PSD candidacy refers to the same council. Held RV-0548 Todorica-Constantin Serban is a different Brasov county official in DNA 13435, not this Suici acquittal. Preserve that hold and review history. County derives from office. Complete editorial/raw/additions/overrides/excluded/held/historical and intra-batch duplicate checks completed.",
       "reviewed_snapshot_hash": "2345633baeec3b88969e93c2f167097378c99983c838b7bd7f6624e16c9e0d9d"
+    },
+    {
+      "profile_id": "RV-4626",
+      "original_name": "Florin Marius Nedelcu",
+      "current_name": "Florin Marius Nedelcu",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8121",
+        "https://www.dna.ro/comunicat.xhtml?id=7388",
+        "https://adevarul.ro/stiri-locale/alexandria/florin-nedelcu-viceprimarul-din-videle-a-fost-1688024.html",
+        "https://www.dna.ro/comunicat.xhtml?id=3069"
+      ],
+      "note": "DNA 8121: final CA Bucuresti 335/A, 03.03.2017, 3 ani suspendare/4 ani supraveghere. DNA 7388: viceprimar Videle la faptele 2015-2016. Excludere PSD 13.02.2016 documentata separat. Nu este politistul Nedelcu Florin Adrian din Bragadiru (DNA 3069, alt nume complet, institutie, judet si dosar). Cauza Badanoiu disjunsa, fara transferul solutiei. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "6106cc9b6163b4e8cad19373cca49a22dcc7fe9213e4a461511f6412b79187f9"
+    },
+    {
+      "profile_id": "RV-4627",
+      "original_name": "Cătălin Ionuț Lăscaie",
+      "current_name": "Cătălin Ionuț Lăscaie",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13960",
+        "https://www.dna.ro/comunicat.xhtml?id=11636",
+        "https://sd.valahia.ro/wp-content/uploads/RezumatCV-LascaieCatalinIonut.pdf",
+        "https://incomod-media.ro/2020/08/15/70-000-de-semnaturi-de-sustinere-a-candidatilor-psd-dambovita-pentru-consiliul-judetean/"
+      ],
+      "note": "DNA 13960: final ICCJ 12, 15.06.2026, 1 an suspendare/2 ani supraveghere; ceilalti cinci inculpati disjunsi. DNA 11636, CV Valahia 2022 p.43 (consilier CJ din 2020) si lista PSD 2020 leaga numele complet, institutia si perioada. PSD este datat 2020, nu prezentat ca afiliere actuala. Nicio solutie a lui Chesnoiu sau Parv nu este dedusa din condamnarea sa. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "53e9c9c4d7309336f615fdc59fe8fe76bab8a5b94511af073276d1103926ea72"
+    },
+    {
+      "profile_id": "RV-4628",
+      "original_name": "Gelu Apostol",
+      "current_name": "Gelu Apostol",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=1273",
+        "https://www.voxcernica.ro/stiri/800-analiza-rezultatelor-alegerilor-locale-si-europarlamentare-din-comuna-cernica-9-iunie-2024.html",
+        "https://www.voxcernica.ro/interese/politica-in-cernica/377-partid-unic-la-cernica-primarul-pdl-gelu-apostol-a-trecut-la-usl.html"
+      ],
+      "note": "DNA 1273 identifica primarul Cernica, Ilfov, la faptele din 2008; DNA 4355: achitare finala ICCJ 2874/26.09.2013, nu condamnarea viceprimarului Zaharia Vasile. Sursele locale identifica aceeasi primarie, PDL 2006-2012, PSD din 2012 si candidat propus de PNL in 2024. Judetul este cel al functiei, nu al terenurilor ori OCPI. Sursele comune cu alti inculpati sunt legaturi de dosar, nu duplicate. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "2b9353edbbe575e24b909fe77df872217aba2c38d5dc9d0dbfaf6c54221c02e8"
+    },
+    {
+      "profile_id": "RV-4629",
+      "original_name": "Jenel Șerban",
+      "current_name": "Jenel Șerban",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://calarasi.ro/wp-content/uploads/2020/07/pv-sedinta-2016.07.01.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://arhiva.arenamedia.ro/index.php/arena-news/politica-mp/actualitatea-politica-mp/jenel-serban-a-intrat-in-echipa-ppu-sl",
+        "https://investigatiimedia.ro/investigatii/prefectul-grivco-din-calarasi"
+      ],
+      "note": "DNA 4355: achitare finala ICCJ 2874/26.09.2013 pentru neglijenta; DNA 7728 actualizat 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021 in Fundulea. PV oficial CJ 01.07.2016 confirma consilierul ALDE; CIM 2014 si Arena 2019 coroboreaza fostul prefect, PC/PNL si trecerea la PPU-SL. ALDE este datat 2016. Ambele cauze apartin aceleiasi persoane; nu s-a creat cate un profil pe dosar. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "739add4c215de665993e7ac321e58fdc2e9d9ffa21ca594d294e9a13d87c0186"
+    },
+    {
+      "profile_id": "RV-4630",
+      "original_name": "Dumitru Culea",
+      "current_name": "Dumitru Culea",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://adevarul.ro/stiri-locale/calarasi/au-sarit-in-barca-puterii-sapte-primari-pdl-din-1253236.html",
+        "https://www.dna.ro/comunicat.xhtml?id=4124"
+      ],
+      "note": "DNA 7728, actualizare 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021. HCL Dragos Voda 9/2011, anexa ADI, confirma Valea Argovei si numele; Adevarul 30.04.2012 confirma primar PDL, candidat USL. Componenta USL si partidul din 2007 nu sunt inventate. Similaritatea cu Bunea Dumitru (RV-2951, DNA 4124: director Romsilva, alt dosar/solutie) nu indica aceeasi persoana. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "b1092cef4d5a75e1c5b6d7fcf930dfc2f957e0b65bb9a23f6bc52b19f8e60a07"
+    },
+    {
+      "profile_id": "RV-4631",
+      "original_name": "Constantin Giurea",
+      "current_name": "Constantin Giurea",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/"
+      ],
+      "note": "DNA 7728 actualizat 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021. Numele, Nicolae Balcescu din Calarasi si functia sunt coroborate de HCL Dragos Voda 9/2011 si rezultatele electorale 2016. PNL este probat pentru 2016, nu extrapolat la faptele din 2007. Sursa comuna cu alti primari achitati nu este dovada de duplicat. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "9ab34c9ea693ff851e973385813d42e44261be83a4fd0aeb0380860d5eedbed9"
+    },
+    {
+      "profile_id": "RV-4632",
+      "original_name": "Victor Manea",
+      "current_name": "Victor Manea",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/",
+        "https://www.dna.ro/comunicat.xhtml?id=3950",
+        "https://www.ziuaconstanta.ro/stiri/justitie/asociatia-condusa-de-fostul-deputat-victor-manea-chemata-in-judecata-este-vizat-contractul-de-concesiune-a-serviciului-de-salubrizare-de-la-nivelul-judetului-826309.html"
+      ],
+      "note": "DNA 7728 actualizat 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021. HCL Dragos Voda 9/2011 si alegerile 2016 confirma primarul Lupsanu, PSD 2016. Nu este fostul deputat PNL Victor Manea din Constanta (alta functie/localitate; articolul 2023 este despre litigiu civil, nu aceasta cauza penala). Mara Victor (RV-1853, DNA 3950, cauza pensiilor) are alt nume/rol/dosar; nu se unesc pe similaritate. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "87de99a2539edfc20227bd64ce449d19529853c7523b80c89eb6215a1488a606"
+    },
+    {
+      "profile_id": "RV-4633",
+      "original_name": "Constantin Chirică",
+      "current_name": "Constantin Chirică",
+      "decision": "confirmed",
+      "identity": "collision_resolved",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-10",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://primaria-tamadau.ro/index.php/2-informatii-de-interes-public/2-7-declaratii-de-avere-si-de-interese/2-conducerea/1-primarul",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/",
+        "https://www.dna.ro/comunicat.xhtml?id=5674",
+        "https://www.dna.ro/comunicat.xhtml?id=3951"
+      ],
+      "note": "DNA 7728 actualizat 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021. HCL Dragos Voda 9/2011, rezultate 2016 si pagina oficiala Tamadau Mare 2025 confirma numele/functia; PSD documentat 2016/2025, nu dedus in 2007. Chiriac Constantin (RV-4461, DNA 5674: alt nume/dosar, identitate istorica inca incerta) ramane sub hold, fara corectarea sau unirea sa. Chirila Constantin (RV-1538, DNA 3951, credite bancare) este alt nume/caz. Nu se atribuie aceste condamnari primarului. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
+      "reviewed_snapshot_hash": "8272328b65e75ae0e6f94173cc8d5ffc4d800d3ff11a2c6d09a6fd314a5c1467"
     }
   ]
 }

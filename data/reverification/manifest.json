@@ -100879,6 +100879,163 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4626",
+      "baseline_index": 4625,
+      "name": "Florin Marius Nedelcu",
+      "party": "PSD (până în februarie 2016)",
+      "position": "Fost viceprimar al orașului Videle, județul Teleorman",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8121",
+        "https://www.dna.ro/comunicat.xhtml?id=7388",
+        "https://adevarul.ro/stiri-locale/alexandria/florin-nedelcu-viceprimarul-din-videle-a-fost-1688024.html"
+      ],
+      "baseline_snapshot_hash": "6106cc9b6163b4e8cad19373cca49a22dcc7fe9213e4a461511f6412b79187f9",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4627",
+      "baseline_index": 4626,
+      "name": "Cătălin Ionuț Lăscaie",
+      "party": "PSD (candidatură în 2020)",
+      "position": "Consilier județean în Consiliul Județean Dâmbovița la data faptelor din 2022",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=13960",
+        "https://www.dna.ro/comunicat.xhtml?id=11636",
+        "https://sd.valahia.ro/wp-content/uploads/RezumatCV-LascaieCatalinIonut.pdf",
+        "https://incomod-media.ro/2020/08/15/70-000-de-semnaturi-de-sustinere-a-candidatilor-psd-dambovita-pentru-consiliul-judetean/"
+      ],
+      "baseline_snapshot_hash": "53e9c9c4d7309336f615fdc59fe8fe76bab8a5b94511af073276d1103926ea72",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4628",
+      "baseline_index": 4627,
+      "name": "Gelu Apostol",
+      "party": "PNL (în 2024; anterior PSD și PDL)",
+      "position": "Primar al comunei Cernica, județul Ilfov, inclusiv la data faptelor din 2008",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=1273",
+        "https://www.voxcernica.ro/stiri/800-analiza-rezultatelor-alegerilor-locale-si-europarlamentare-din-comuna-cernica-9-iunie-2024.html",
+        "https://www.voxcernica.ro/interese/politica-in-cernica/377-partid-unic-la-cernica-primarul-pdl-gelu-apostol-a-trecut-la-usl.html"
+      ],
+      "baseline_snapshot_hash": "2b9353edbbe575e24b909fe77df872217aba2c38d5dc9d0dbfaf6c54221c02e8",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4629",
+      "baseline_index": 4628,
+      "name": "Jenel Șerban",
+      "party": "ALDE (în 2016; anterior PC și PNL)",
+      "position": "Fost prefect al județului Călărași; ulterior consilier județean în Consiliul Județean Călărași",
+      "position_type": "local_official",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://calarasi.ro/wp-content/uploads/2020/07/pv-sedinta-2016.07.01.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=4355",
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://arhiva.arenamedia.ro/index.php/arena-news/politica-mp/actualitatea-politica-mp/jenel-serban-a-intrat-in-echipa-ppu-sl",
+        "https://investigatiimedia.ro/investigatii/prefectul-grivco-din-calarasi"
+      ],
+      "baseline_snapshot_hash": "739add4c215de665993e7ac321e58fdc2e9d9ffa21ca594d294e9a13d87c0186",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4630",
+      "baseline_index": 4629,
+      "name": "Dumitru Culea",
+      "party": "PDL (până în 2012; ulterior candidat USL)",
+      "position": "Primar al comunei Valea Argovei, județul Călărași, la data faptelor din 2007",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://adevarul.ro/stiri-locale/calarasi/au-sarit-in-barca-puterii-sapte-primari-pdl-din-1253236.html"
+      ],
+      "baseline_snapshot_hash": "b1092cef4d5a75e1c5b6d7fcf930dfc2f957e0b65bb9a23f6bc52b19f8e60a07",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4631",
+      "baseline_index": 4630,
+      "name": "Constantin Giurea",
+      "party": "PNL",
+      "position": "Primar al comunei Nicolae Bălcescu, județul Călărași, la data faptelor din 2007",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/"
+      ],
+      "baseline_snapshot_hash": "9ab34c9ea693ff851e973385813d42e44261be83a4fd0aeb0380860d5eedbed9",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4632",
+      "baseline_index": 4631,
+      "name": "Victor Manea",
+      "party": "PSD (în 2016)",
+      "position": "Primar al comunei Lupșanu, județul Călărași, la data faptelor din 2007",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/"
+      ],
+      "baseline_snapshot_hash": "87de99a2539edfc20227bd64ce449d19529853c7523b80c89eb6215a1488a606",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4633",
+      "baseline_index": 4632,
+      "name": "Constantin Chirică",
+      "party": "PSD",
+      "position": "Primar al comunei Tămădău Mare, județul Călărași, inclusiv la data faptelor din 2007",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-10",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.primariadragosvoda.ro/old/HCL_NR_9_-2011096fd45.pdf?id=340&securityhash=0f5c194536dfa8a87e602bb24e2f5a1b",
+        "https://primaria-tamadau.ro/index.php/2-informatii-de-interes-public/2-7-declaratii-de-avere-si-de-interese/2-conducerea/1-primarul",
+        "https://radiotvoltenita.ro/lista-primarilor-castigatori-in-jud-calarasi/"
+      ],
+      "baseline_snapshot_hash": "8272328b65e75ae0e6f94173cc8d5ffc4d800d3ff11a2c6d09a6fd314a5c1467",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
