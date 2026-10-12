@@ -180,7 +180,7 @@ export function Metodologie() {
       <Section title="Cum se citește o intrare">
         <p>Fiecare intrare despre un politician conține:</p>
         <ul>
-          <li><strong>Nume și partid</strong> — la momentul comiterii faptei sau al condamnării</li>
+          <li><strong>Nume și partid</strong> — afilierea documentată în înregistrare; perioada și eventualele schimbări de afiliere sunt precizate separat pe profil</li>
           <li><strong>Funcția deținută</strong> — funcția publică relevantă în contextul dosarului</li>
           <li><strong>Faptă</strong> — descriere sumară a acuzațiilor sau a faptelor reținute de instanță</li>
           <li><strong>Status juridic</strong> — stadiul procesual curent (vezi categorii mai sus)</li>
@@ -188,6 +188,13 @@ export function Metodologie() {
           <li><strong>Pedeapsă</strong> — dacă există sentință definitivă sau în primă instanță</li>
           <li><strong>Surse</strong> — link-uri directe către sursele documentare folosite</li>
         </ul>
+        <p>
+          Filtrele, graficele și listele grupează variantele aceluiași nume de partid.
+          Partidele istorice și alianțele rămân distincte. Fiecare persoană este numărată
+          o singură dată, la afilierea indicată în profil; partidele menționate ca anterioare
+          sau ulterioare nu primesc automat același caz. Afilierea nu este prezentată
+          implicit drept cea actuală sau cea de la data faptelor.
+        </p>
         <p>
           Informațiile sunt prezentate rezumativ. Pentru detalii complete, accesați întotdeauna
           sursele originale indicate.

@@ -8,6 +8,7 @@ import {
 import { manualChangeEntries } from './changeLog.js';
 import publicationReview from './reverification/publication.json' with { type: 'json' };
 import { normalizeGeography } from '../src/utils/geography.js';
+import { normalizePartyAffiliation } from '../src/utils/parties.js';
 
 const HOST_LABELS = {
   'agerpres.ro': 'AGERPRES',
@@ -204,7 +205,8 @@ export function buildDataset(baseData, options = {}) {
   const basePoliticians = baseData.politicians
     .filter((politician) => !excludedPoliticianNames.has(politician.name))
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
-    .map(applyGeography);
+    .map(applyGeography)
+    .map(normalizePartyAffiliation);
 
   const existingNames = new Set(basePoliticians.map((politician) => politician.name));
   const additions = politicianAdditions
@@ -213,7 +215,8 @@ export function buildDataset(baseData, options = {}) {
         !existingNames.has(politician.name) && !excludedPoliticianNames.has(politician.name)
     )
     .map((politician) => mergePolitician(politician, politicianOverrides[politician.name] || {}))
-    .map(applyGeography);
+    .map(applyGeography)
+    .map(normalizePartyAffiliation);
 
   const allPoliticians = [...basePoliticians, ...additions];
   const politicians = options.includeUnpublished

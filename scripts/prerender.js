@@ -19,6 +19,7 @@ const publicDir = join(root, 'public');
 const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'utf8'));
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
 const { getCounty } = await import(pathToFileURL(join(root, 'src/utils/geography.js')).href);
+const { getPartySlugAliases } = await import(pathToFileURL(join(root, 'src/utils/parties.js')).href);
 const { politicians, metadata, changeLog } = buildDataset(rawData);
 const template = readFileSync(join(distDir, 'index.html'), 'utf8');
 
@@ -624,6 +625,7 @@ for (const [party, members] of Object.entries(partyGroups)) {
             </nav>
             <p class="app-kicker">Partid</p>
             <h1 class="app-title">${escapeHtml(party)}</h1>
+            <p class="party-affiliation-note">Gruparea folosește afilierea documentată în fiecare profil. Perioada și schimbările de afiliere sunt precizate acolo.</p>
             <p class="app-intro">${members.length} politicieni cu dosare penale: ${convictedMembers.length} condamna\u021bi definitiv, ${Math.round(totalYears)} ani de \u00eenchisoare.</p>
             ${renderSiteNav()}
             ${renderSection(
@@ -813,6 +815,26 @@ for (const [county, members] of Object.entries(countyGroups).sort((a, b) => a[0]
   count += 1;
 }
 
+// Keep previously shared party URLs reachable; React redirects to the canonical page.
+const legacyPartyRoutes = new Map();
+politicians.forEach((politician) => {
+  const canonicalSlug = nameToSlug(politician.party);
+  getPartySlugAliases(politician).forEach((alias) => {
+    if (alias !== canonicalSlug) legacyPartyRoutes.set(alias, politician.party);
+  });
+});
+for (const [alias, party] of legacyPartyRoutes) {
+  const canonicalPath = `/partid/${nameToSlug(party)}`;
+  renderPage({
+    path: `partid/${alias}`,
+    title: `${party} — Politicieni Corupți`,
+    description: `Vezi toate profilurile grupate la ${party}.`,
+    canonical: `${BASE_URL}${canonicalPath}`,
+    rootContent: `<main class="app-section"><div class="app-inner" style="padding-block:4rem;"><h1 class="app-title">${escapeHtml(party)}</h1><p><a href="${canonicalPath}">Vezi toate profilurile ${escapeHtml(party)} →</a></p></div></main>`,
+  });
+  count += 1;
+}
+
 // ── Politician pages ────────────────────────────────────
 for (const politician of politicians) {
   const slug = nameToSlug(politician.name);
@@ -870,6 +892,7 @@ for (const politician of politicians) {
             <p class="app-kicker">${escapeHtml(statusLabel)}</p>
             <h1 class="app-title">${escapeHtml(politician.name)}</h1>
             <p class="app-intro">${escapeHtml(politician.party)} - ${escapeHtml(positionLabel)}</p>
+            ${politician.party_context ? renderSection('Contextul afilierii', `<p>${escapeHtml(politician.party_context)}</p>`) : ''}
             ${facts.length > 0 ? renderSection('Repere rapide', renderBulletList(facts)) : ''}
             ${renderSection('Fapta documentat\u0103', `<p style="margin:0;line-height:1.7;">${escapeHtml(politician.crime)}</p>`)}
             ${politician.details ? renderSection('Detalii', `<p style="margin:0;line-height:1.7;">${escapeHtml(politician.details)}</p>`) : ''}

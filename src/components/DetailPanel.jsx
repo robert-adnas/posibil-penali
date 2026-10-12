@@ -117,6 +117,12 @@ export function DetailPanel({ politician, onClose }) {
 
           <div className="detail-panel-divider" />
 
+          {politician.party_context && (
+            <Section label="Contextul afilierii">
+              <p className="detail-panel-copy detail-panel-copy--muted">{politician.party_context}</p>
+            </Section>
+          )}
+
           <Section label="Status juridic">
             <span className="detail-panel-status">
               <span className="detail-panel-status-dot" />

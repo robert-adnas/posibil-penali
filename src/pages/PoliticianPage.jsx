@@ -287,6 +287,7 @@ function getRoleFacts(politician) {
       : null,
     politician.position ? { label: 'Funcția relevantă', value: politician.position } : null,
     politician.party ? { label: 'Partid', value: politician.party } : null,
+    politician.party_context ? { label: 'Contextul afilierii', value: politician.party_context } : null,
     politician.county ? { label: 'Județ', value: politician.county } : null,
     {
       label: 'Categorie de funcție',

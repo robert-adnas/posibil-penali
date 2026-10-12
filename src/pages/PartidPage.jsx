@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react';
-import { useParams, Link, useSearchParams } from 'react-router-dom';
+import { useParams, Link, Navigate, useSearchParams } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { useData } from '../hooks/useData';
 import { nameToSlug } from '../utils/slug';
@@ -11,6 +11,7 @@ import {
   readScopeFromSearchParams,
 } from '../utils/filterParams';
 import { countDataScopes, DATA_SCOPE } from '../utils/politicalScope';
+import { resolvePartySlug } from '../utils/parties';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { ArchiveScopeToggle } from '../components/ArchiveScopeToggle';
 
@@ -36,12 +37,13 @@ export function PartidPage() {
     scope,
   }), [scope]);
   const { allData, scopeData } = useData({ filters });
+  const requestedParty = useMemo(() => resolvePartySlug(slug, allData), [slug, allData]);
   const scopeSearch = useMemo(() => getScopeSearch(scope), [scope]);
   const peopleLabel = scope === DATA_SCOPE.ALL ? 'persoane' : 'politicieni';
   const isExtendedScope = scope === DATA_SCOPE.ALL;
   const contextScopeTotals = useMemo(
-    () => countDataScopes(allData, (politician) => nameToSlug(politician.party) === slug),
-    [allData, slug]
+    () => countDataScopes(allData, (politician) => politician.party === requestedParty),
+    [allData, requestedParty]
   );
 
   const setScope = useCallback((includeExtendedArchive) => {
@@ -50,7 +52,7 @@ export function PartidPage() {
   }, [searchParams, setSearchParams]);
 
   const { party, politicians } = useMemo(() => {
-    const match = scopeData.find((p) => nameToSlug(p.party) === slug);
+    const match = scopeData.find((p) => p.party === requestedParty);
     if (!match) return { party: null, politicians: [] };
     const partyName = match.party;
     const list = scopeData
@@ -62,7 +64,7 @@ export function PartidPage() {
         return a.name.localeCompare(b.name, 'ro');
     });
     return { party: partyName, politicians: list };
-  }, [scopeData, slug]);
+  }, [scopeData, requestedParty]);
 
   const stats = useMemo(() => {
     const convicted = politicians.filter((p) => p.status === 'convicted');
@@ -91,7 +93,13 @@ export function PartidPage() {
       .filter(([name]) => name !== party);
   }, [scopeData, party]);
 
-  useSEO({ title, description, url: `${BASE_URL}/partid/${slug}` });
+  const canonicalSlug = requestedParty ? nameToSlug(requestedParty) : slug;
+  useSEO({ title, description, url: `${BASE_URL}/partid/${canonicalSlug}` });
+
+  if (requestedParty && slug !== canonicalSlug) {
+    const search = searchParams.toString();
+    return <Navigate to={`/partid/${canonicalSlug}${search ? `?${search}` : ''}`} replace />;
+  }
 
   if (!party) {
     return (
@@ -128,6 +136,9 @@ export function PartidPage() {
 
           <p className="app-subtitle">
             {politicians.length} {peopleLabel} cu dosare penale
+          </p>
+          <p className="party-affiliation-note">
+            Gruparea folosește afilierea documentată în fiecare profil. Perioada și schimbările de afiliere sunt precizate acolo.
           </p>
           <div className="app-rule" />
         </div>

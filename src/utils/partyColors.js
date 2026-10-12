@@ -1,3 +1,5 @@
+import { getPartyName } from './parties.js';
+
 export const PARTY_COLORS = {
   PSD: '#e11d48',
   PNL: '#eab308',
@@ -28,7 +30,7 @@ export const PARTY_COLORS = {
   'Partida Romilor Pro-Europa': '#9333ea',
   'Partidul pentru Odorheiu Secuiesc': '#0f766e',
   Independent: '#64748b',
-  'SOS Romania': '#78350f',
+  'S.O.S. România': '#78350f',
   'România Socialistă': '#b91c1c',
 };
 
@@ -62,9 +64,9 @@ export const PARTY_TOKENS = {
   'Partida Romilor Pro-Europa': 'partida-romilor-pro-europa',
   'Partidul pentru Odorheiu Secuiesc': 'partidul-pentru-odorheiu-secuiesc',
   Independent: 'independent',
-  'SOS Romania': 'sos-romania',
+  'S.O.S. România': 'sos-romania',
   'România Socialistă': 'romania-socialista',
 };
 
-export const getPartyColor = (party) => PARTY_COLORS[party] || '#94a3b8';
-export const getPartyToken = (party) => PARTY_TOKENS[party] || 'other';
+export const getPartyColor = (party) => PARTY_COLORS[getPartyName(party)] || '#94a3b8';
+export const getPartyToken = (party) => PARTY_TOKENS[getPartyName(party)] || 'other';

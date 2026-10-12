@@ -1,11 +1,10 @@
 import { useMemo, useState } from 'react';
-import { getPartyToken } from '../utils/partyColors';
+import { PartyFilter } from './PartyFilter';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
 import { DATA_SCOPE } from '../utils/politicalScope';
 import { ArchiveScopeToggle } from './ArchiveScopeToggle';
 
 const VISIBLE_FILTER_COUNTS = {
-  party: 8,
   positionType: 6,
   status: 5,
 };
@@ -204,34 +203,10 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
 
       <div className="filter-content" data-expanded={expanded}>
         <div className="filter-groups">
-          <FilterChipRow
-            rowKey="party"
-            label="Partid"
-            items={parties}
-            visibleCount={VISIBLE_FILTER_COUNTS.party}
-            expanded={Boolean(expandedRows.party)}
-            onToggle={() => toggleRow('party')}
-            isActive={({ party }) => filters.party === party}
-            mobileHiddenLabel
-            renderChip={({ party, count }) => {
-              const isActive = filters.party === party;
-              const isDimmed = Boolean(filters.party && !isActive);
-
-              return (
-                <button
-                  key={party}
-                  type="button"
-                  onClick={() => updateFilter('party', party)}
-                  className={`filter-chip filter-chip--party${isActive ? ' is-active' : ''}`}
-                  data-party-token={getPartyToken(party)}
-                  data-dimmed={isDimmed}
-                >
-                  <span className="filter-chip-dot" />
-                  <span className="filter-chip-label">{party}</span>
-                  <span className="filter-chip-count">{count}</span>
-                </button>
-              );
-            }}
+          <PartyFilter
+            parties={parties}
+            selectedParty={filters.party}
+            onChange={(party) => updateFilter('party', party)}
           />
 
           <FilterChipRow

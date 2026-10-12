@@ -32,7 +32,7 @@ export function downloadJSON() {
 
 export function downloadCSV() {
   const { politicians } = buildDataset(rawData);
-  const columns = ['name', 'party', 'position_type', 'position', 'status', 'crime', 'sentence', 'conviction_year', 'url'];
+  const columns = ['name', 'party', 'party_context', 'party_label', 'position_type', 'position', 'status', 'crime', 'sentence', 'conviction_year', 'url'];
   const header = columns.join(',');
   const rows = politicians.map((p) => {
     const values = columns.map((col) => {

@@ -125,6 +125,7 @@ export function ListaPage() {
     return scopeData.filter((politician) =>
       stripDiacritics(politician.name.toLowerCase()).includes(q) ||
       stripDiacritics(politician.party.toLowerCase()).includes(q) ||
+      stripDiacritics((politician.party_label || '').toLowerCase()).includes(q) ||
       stripDiacritics((politician.position || '').toLowerCase()).includes(q) ||
       stripDiacritics((politician.crime || '').toLowerCase()).includes(q)
     );

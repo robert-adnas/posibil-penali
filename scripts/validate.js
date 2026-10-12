@@ -33,7 +33,7 @@ const KNOWN_PARTIES = [
   'PN\u021aCD',
   'PRM',
   'USR',
-  'SOS Romania',
+  'S.O.S. România',
   'SOS',
   'ADN',
   'PLAN',
@@ -50,6 +50,12 @@ const KNOWN_PARTIES = [
   'Partida Romilor Pro-Europa',
   'Partidul pentru Odorheiu Secuiesc',
   'Partidul Socialist Român',
+  'ADU', 'ALDE', 'FD', 'FCM', 'FSN', 'PDM', 'PER', 'PNG-CD', 'PPR', 'PPU-SL', 'PRU', 'REPER',
+  'Neafiliat', 'Forța Dreptei', 'Forța Democrată', 'Blocul Suveranist Român',
+  'Alianța Tinerilor Democrați', 'Partidul Verde', 'Partidul Alianța Socialistă',
+  'Partidul Patrioților', 'Partidul Pentru Patrie', 'Partidul România în Acțiune',
+  'Partid al minorităților naționale', 'Comunitatea Rușilor Lipoveni din România',
+  'Uniunea Croaților din România', 'Uniunea Culturală a Rutenilor din România', 'Viitorul Țării Făgărașului',
 ];
 const REQUIRED_FIELDS = ['name', 'party', 'position', 'position_type', 'crime', 'status'];
 const STATUSES_REQUIRING_SENTENCE = ['convicted', 'first_instance', 'prescribed'];

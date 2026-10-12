@@ -1,5 +1,6 @@
 import { POSITION_LABELS, STATUS_LABELS } from './constants.js';
 import { DATA_SCOPE, DEFAULT_DATA_SCOPE, normalizeDataScope } from './politicalScope.js';
+import { getPartyName } from './parties.js';
 
 const FILTER_PARAM_KEYS = {
   party: 'party',
@@ -28,6 +29,7 @@ export function normalizeFilters(filters = {}) {
   return {
     ...createDefaultFilters(),
     ...safeFilters,
+    party: normalizeValue(getPartyName(safeFilters.party)),
     scope: normalizeDataScope(safeFilters.scope),
     yearRange: safeFilters.yearRange || [null, null],
   };
@@ -40,7 +42,7 @@ export function readScopeFromSearchParams(searchParams) {
 export function readFiltersFromSearchParams(searchParams) {
   return {
     ...createDefaultFilters(),
-    party: normalizeValue(searchParams.get(FILTER_PARAM_KEYS.party)),
+    party: normalizeValue(getPartyName(searchParams.get(FILTER_PARAM_KEYS.party))),
     positionType: normalizeValue(searchParams.get(FILTER_PARAM_KEYS.positionType)),
     status: normalizeValue(searchParams.get(FILTER_PARAM_KEYS.status)),
     scope: readScopeFromSearchParams(searchParams),
@@ -52,7 +54,7 @@ export function applyFiltersToSearchParams(baseSearchParams, filters) {
 
   Object.values(FILTER_PARAM_KEYS).forEach((key) => next.delete(key));
 
-  if (filters.party) next.set(FILTER_PARAM_KEYS.party, filters.party);
+  if (filters.party) next.set(FILTER_PARAM_KEYS.party, getPartyName(filters.party));
   if (filters.positionType) next.set(FILTER_PARAM_KEYS.positionType, filters.positionType);
   if (filters.status) next.set(FILTER_PARAM_KEYS.status, filters.status);
   if (normalizeDataScope(filters.scope) === DATA_SCOPE.ALL) {
