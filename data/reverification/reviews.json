@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-16",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -1042,7 +1042,7 @@
         "https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf"
       ],
       "note": "Refăcut profilul: nume normalizat, fost deputat PRM în loc de Independent/expert fără rol politic, trafic de influență și condamnare în 2011. Eliminată sursa DNA 3946, care privește dosarul Electrica Banat și nu pe Dănuț Saulea.",
-      "reviewed_snapshot_hash": "28a31bd0696ef8039437f5b95c18003b68a8c3a00263a01359a690532c8cfbda"
+      "reviewed_snapshot_hash": "3057e424707dc71a14af3111b7f65e64453026b1e7a6eb7ec36060f805467ef7"
     },
     {
       "profile_id": "RV-1240",
@@ -8518,7 +8518,7 @@
         "https://agerpres.ro/2024/06/05/instanta-suprema-dispune-reabilitarea-fostului-ministru-monica-iacob-ridzi-condamnata-in-dosarul-2-m--1306716"
       ],
       "note": "DNA confirms the identity Monica-Maria Iacob-Ridzi, her ministerial role and final five-year conviction. The duplicate profile under Monica Maria Iacob Ridzi was removed; the retained profile adds the parliamentary role, exact offences, damages, release and rehabilitation context.",
-      "reviewed_snapshot_hash": "6020e652ec69a8f022e4f2a968db05d2852f6b6f9725cbfe13fac6386a6f18e2"
+      "reviewed_snapshot_hash": "bae44ece866dbb8cacb298b7b930fc09ffbefa1ca945435b28e3a0e0204a64ff"
     },
     {
       "profile_id": "RV-0013",
@@ -9308,7 +9308,7 @@
         "https://agerpres.ro/politic/2018/08/03/dambovita-a-murit-fostul-deputat-psd-ion-stan--155778"
       ],
       "note": "Confirmată condamnarea definitivă ÎCCJ nr. 6 din 25 ianuarie 2016 la 2 ani pentru două infracțiuni de trafic de influență, plus confiscările de 45.000 și 535.000 lei. Adăugate liberarea condiționată din noiembrie 2016, încetarea mandatului și decesul din 3 august 2018; funcția a fost formulată ca istorică.",
-      "reviewed_snapshot_hash": "aef704872d9dc148b32d7f9092d7ce7c639ebf14c0c5e929337610f19967fecf"
+      "reviewed_snapshot_hash": "4b8f603ad42945b2965ba6526128fe5b0c0ed4e787838eb004a2c9c24c6983ee"
     },
     {
       "profile_id": "RV-0063",
@@ -10285,7 +10285,7 @@
         "https://cjbraila.ro/dm_cj/portal.nsf/61A09274AE1689FEC2258BEF00340867/%24FILE/Proces%20verbal%20sedinta%20extraordinara%20din%2011%20noiembrie%202024.pdf"
       ],
       "note": "Statut corectat din investigat in integrity: constatare administrativa ANI. Procesul-verbal oficial confirma noul mandat de consilier judetean PNL inceput in noiembrie 2024; pozitia a fost actualizata.",
-      "reviewed_snapshot_hash": "8bdc60bd7ec71b1ddfb8eec6f48fc02921e86d7c9781e87e0f25b1174e53145f"
+      "reviewed_snapshot_hash": "2e3a0c63390aea5dda8c8b728a5399147097b30de2fae433a25f8a6e0d469e36"
     },
     {
       "profile_id": "RV-0114",
@@ -11788,7 +11788,7 @@
         "https://www.radioresita.ro/actualitate/inca-un-primar-din-caras-severin-a-fost-condamnat-la-inchisoare"
       ],
       "note": "Condamnarea definitivă din 23 februarie 2015 la un an cu suspendare este confirmată de trei relatări distincte, două bazate explicit pe fluxul Agerpres; apelul a fost respins și sentința de fond menținută. Identitatea de fost deputat al minorității croate și fost primar al Carașovei este coerentă în surse.",
-      "reviewed_snapshot_hash": "e3af8ee6ce03a64bb715a613c622b8d84388fa94078c339aa329f18d4e30a362"
+      "reviewed_snapshot_hash": "5c7fc447e2ee3a31627daa5d5544eadaf8b516af1cded6045b69e52cbb7babf8"
     },
     {
       "profile_id": "RV-0235",
@@ -11806,7 +11806,7 @@
         "https://www.turnulsfatului.ro/2015/09/22/cindrea-prin-propunerea-angajarii-sotiei-mele-am-incercat-sa-eficientizez-activitatea-de-la-biroul-de-deputat-35889/"
       ],
       "note": "Condamnarea penală definitivă din 14 septembrie 2015 este confirmată; contestația în anulare a fost respinsă ca inadmisibilă la 22 februarie 2016. Am clarificat că anularea separată a raportului administrativ ANI nu a desființat hotărârea penală.",
-      "reviewed_snapshot_hash": "24b27d574e2814eea42339a44456bbfc77887e715ff6a03369ab7c1a3ec5cd27"
+      "reviewed_snapshot_hash": "450c22fca8dbcb073545812c98b60af934e4b0ab00632412da4b14563482dcfc"
     },
     {
       "profile_id": "RV-0236",
@@ -11844,7 +11844,7 @@
         "https://gazetadecluj.ro/clujul-pierde-parlamentar-mate-andras-levente-declarat-incompatibil-irevocabil-de-iccj/"
       ],
       "note": "Identitatea, mandatul, afilierea și condamnarea penală definitivă sunt confirmate. Completul de cinci judecători al ÎCCJ a respins apelul la 9 februarie 2015 și a menținut pedeapsa de 6 luni cu suspendare pentru angajarea soției; constatarea administrativă ANI fusese confirmată irevocabil prin Decizia ÎCCJ nr. 565/7.02.2014.",
-      "reviewed_snapshot_hash": "39394b1696db9dd7fbd4cc890cb355e6636cdd90fe249e9802c35ebd5a4247e8"
+      "reviewed_snapshot_hash": "e9fbc0d580649c59bacbdfa342a860b71668bf0612055f34806ed28a2feef0dc"
     },
     {
       "profile_id": "RV-0248",
@@ -11863,7 +11863,7 @@
         "https://www.tirgumures.ro/portal/servicii/2026/hotarari.nsf/all/4780CFA1244518AEC2258D8F003AE6D5/%24FILE/HCL%201.pdf"
       ],
       "note": "Identitatea și condamnarea definitivă din februarie 2015 la 1 an și 6 luni cu suspendare sunt confirmate. Profilul a fost actualizat cu funcția locală ulterioară: ales consilier local UDMR în Târgu Mureș, mandat încetat prin demisie de la 1 ianuarie 2026, conform HCL nr. 1/29.01.2026.",
-      "reviewed_snapshot_hash": "8e696741a60b43a716ec4b3f06f7dc8710bf07f25b71223caf027405e8dd4096"
+      "reviewed_snapshot_hash": "0a46266b04460657610c54f28104213f18140270cc23b878c2b3e465bf5e5ec8"
     },
     {
       "profile_id": "RV-0251",
@@ -11919,7 +11919,7 @@
         "https://agerpres.ro/comunicate/2025/05/15/declaratie-de-presa---deputat-liviu-bogdan-ciuca-psd--1449427"
       ],
       "note": "Status corectat din «investigat» în constatare de integritate definitivă: Liviu-Bogdan Ciucă nu a contestat raportul ANI și a fost sancționat de Camera Deputaților cu reducerea indemnizației cu 10% timp de trei luni. Funcția și partidul au fost actualizate: deputat PSD în exercițiu, reales în 2024, președinte al Comisiei juridice.",
-      "reviewed_snapshot_hash": "6856aa6a74593563d0560cf7b3295db65f4765b0a13353eb5dc50770ee36e299"
+      "reviewed_snapshot_hash": "114318c5ff74a9a88f76bd61656d5672909dfc262539f65b3ac5f81f0dd7c12d"
     },
     {
       "profile_id": "RV-0262",
@@ -11956,7 +11956,7 @@
         "https://adevarul.ro/stiri-locale/hunedoara/decizie-definitiva-in-dosarul-sefului-psd-1899057.html"
       ],
       "note": "Identitatea este confirmată. Funcția a fost actualizată la președinte al CJ Hunedoara, iar statutul din cercetat a fost corectat la incident administrativ de integritate confirmat definitiv de ÎCCJ la 22.10.2018.",
-      "reviewed_snapshot_hash": "011a3565a25f62cdcd44b5c880da5827f846e61463f54692225ccd07b3f2f06a"
+      "reviewed_snapshot_hash": "6451256810b49e4169bd39be87f6ad2dc67afdf71a132d43af11b42cc6577415"
     },
     {
       "profile_id": "RV-0266",
@@ -11974,7 +11974,7 @@
         "https://www.digi24.ro/stiri/actualitate/politica/a-murit-deputatul-pnl-corneliu-olar-1837653"
       ],
       "note": "Identitatea este confirmată. Am corectat partidul la PNL și funcția la fost deputat de Alba, decedat la 15 februarie 2022. Eticheta penală generică investigated a fost înlocuită cu integrity: ÎCCJ a menținut definitiv la 29 noiembrie 2018 raportul ANI privind conflictul de interese administrativ, după casarea sentinței de fond favorabile lui Olar.",
-      "reviewed_snapshot_hash": "e92f1e7753d74ef83bf53508ed339c609bd3ab2461294182b233471ddf38b2a8"
+      "reviewed_snapshot_hash": "adb50fcf3614592ef6dfcc6b22b7fe4669e1058902c3d5c5e10b10b7241d41ff"
     },
     {
       "profile_id": "RV-2734",
@@ -14360,7 +14360,7 @@
         "https://www.ziuaconstanta.ro/informatii/agentia-nationala-de-integritate/comunicat-de-presa-ani-conflict-de-interese-administrativ-si-penal-32-fosti-sau-actuali-parlamentari-31-deputati-si-1-senator-568375.html"
       ],
       "note": "Identitatea fostului deputat UDMR de Maramureș este confirmată și este distinctă de Vasile Bereș, fost director DSVSA Alba. ANI a comunicat o constatare administrativă de conflict de interese, nu o anchetă penală; statusul a fost corectat din investigated în integrity. Nu a fost identificată o soluție definitivă verificabilă asupra raportului, astfel că profilul rămâne ascuns.",
-      "reviewed_snapshot_hash": "770ff707cc49e6d1f5a7bb8c8c5f4cbe31b1907782ffb41297d755c3ba30fc38"
+      "reviewed_snapshot_hash": "e11e0f6f2f739d3b9c0411c08952d9a18946e303d74c7c6449153e960bf8a794"
     },
     {
       "profile_id": "RV-0254",
@@ -14398,7 +14398,7 @@
         "https://financialintelligence.ro/comitetul-de-reglementare-al-anre-a-ramas-in-patru-membri-dupa-ce-au-expirat-mandatele-pentru-trei-membri/"
       ],
       "note": "Identitatea fostului deputat PSD de Bacău este confirmată și este distinctă de administratorul brașovean omonim din RV-3619. ANI a descris un conflict de interese administrativ și a precizat intervenirea prescripției penale; statusul corect este integrity, nu investigated. Mandatul său în Comitetul de reglementare ANRE a expirat la 23 iulie 2025. Fondul contestației ANI nu a putut fi stabilit printr-o hotărâre definitivă verificabilă, astfel că profilul rămâne ascuns.",
-      "reviewed_snapshot_hash": "cdac4f12903cfe9f054066439c8c32a1b96387b6381afbb94db590a340db8dea"
+      "reviewed_snapshot_hash": "8b4b565a044bfb611a6a5ad967b0cb29f4da964f6469fa93e39ac81a88cec7c8"
     },
     {
       "profile_id": "RV-0260",
@@ -14418,7 +14418,7 @@
         "https://ph.prefectura.mai.gov.ro/wp-content/uploads/sites/34/2024/11/ph_camera_deputatilor_2024-2-1.pdf"
       ],
       "note": "Identitatea fostului deputat de Prahova este confirmată și distinctă de inspectorul antifraudă Ionescu Valentin-George. În 2024 a candidat pentru Forța Dreptei și nu a mai obținut mandat parlamentar. ANI a comunicat un conflict de interese administrativ, precizând prescripția componentei penale; statusul corect este integrity, nu investigated. Nu a fost găsită o soluție definitivă verificabilă pe fondul contestației, astfel că profilul rămâne ascuns.",
-      "reviewed_snapshot_hash": "ee4c6a42968712a717196cac773ccbd3f5fccbfc4728de72ebc43e1c8a9e8ec1"
+      "reviewed_snapshot_hash": "da648974a1e896bf991eaaeeeeb7dedc59d4dd10a2c149f2284073550696364d"
     },
     {
       "profile_id": "RV-0645",
@@ -21548,7 +21548,7 @@
         "https://stirileprotv.ro/stiri/actualitate/deputatul-virgil-pop-condamnat-definitiv-la-cinci-ani-de-inchisoare-ridicat-din-hotelul-bucuresti.html"
       ],
       "note": "Profilul canonic Virgil Pop a fost completat cu mandatul PNL, fosta funcție de consilier județean, data exactă și detaliile condamnării definitive.",
-      "reviewed_snapshot_hash": "b1fdb228a46e89112bdce77b1db549234f976f360272cfec8769a820f730d526"
+      "reviewed_snapshot_hash": "b0ad9da98f1501b56d05d944dbb80eb21f3ca09a6d75e243fb3a83c960cb5b8b"
     },
     {
       "profile_id": "RV-2467",
@@ -21652,7 +21652,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=233&idm=304&leg=2008&pag=1&prn=1"
       ],
       "note": "Profil canonic păstrat. DNA confirmă definitiv condamnarea din 4 martie 2016 la 3 ani închisoare pentru trafic de influență, instigare la spălare de bani și instigare la fals; Camera confirmă mandatul PDL de Vrancea. Sursa Wikipedia a fost înlocuită cu sursa oficială parlamentară.",
-      "reviewed_snapshot_hash": "90cc03610b7026e93bc4512f8a08c38b93a375ac8b62df4dacee70e5dd308b1e"
+      "reviewed_snapshot_hash": "6f36ad731a3c6ad8c57010bedac2e20077bca7cf71e50559ccc9e7da1a0f911a"
     },
     {
       "profile_id": "RV-0310",
@@ -21669,7 +21669,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=233&idm=304&leg=2008&pag=1&prn=1"
       ],
       "note": "Înregistrarea duplicată Alin Silviu Trășculescu a fost consolidată în profilul canonic RV-2313, Alin-Silviu Trășculescu. Persoana, mandatul și condamnarea sunt aceleași, confirmate prin sursele oficiale DNA și Camera Deputaților.",
-      "reviewed_snapshot_hash": "90cc03610b7026e93bc4512f8a08c38b93a375ac8b62df4dacee70e5dd308b1e"
+      "reviewed_snapshot_hash": "6f36ad731a3c6ad8c57010bedac2e20077bca7cf71e50559ccc9e7da1a0f911a"
     },
     {
       "profile_id": "RV-0313",
@@ -21686,7 +21686,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idl=0&idm=397&leg=2012&pag=1&prn=1"
       ],
       "note": "Profilul canonic a fost confirmat după rezolvarea anterioară a duplicatei RV-3355. DNA confirmă decizia definitivă nr. 232/10.12.2013, pedeapsa de 2 ani și traficul de influență; Camera confirmă mandatul PSD de Dolj. Sursa de presă a fost înlocuită cu DNA.",
-      "reviewed_snapshot_hash": "04781bbc86b02fa5bd4eed01933fb8c5db3f95901956998110b305a484171203"
+      "reviewed_snapshot_hash": "b44b55949d1ef1c5b677ae15627fa15b6e503937469aa11e0ede6c5bba3c0317"
     },
     {
       "profile_id": "RV-0315",
@@ -22374,7 +22374,7 @@
         "https://www.monitorulbt.ro/localbt/2020/02/28/functionar-din-cadrul-cj-declarat-incompatibil-de-ani-video/"
       ],
       "note": "Identitatea a fost diferențiată de omonima Georgeta-Doina Huțanu, funcționar public la CJ Botoșani. Profilul verificat este fosta consilieră locală din Pașcani trimisă în judecată în dosarul Agrocomplex și achitată definitiv de ÎCCJ la 4 iulie 2018. Numele a fost normalizat în ordinea firească.",
-      "reviewed_snapshot_hash": "ce85b70470bd2681b44ec16f899fe64a061c7d2bc8fa0a00abe6f0f3b430c116"
+      "reviewed_snapshot_hash": "509171ad5cfe387cfb955016da90ae0a679498f8c65f8c85cef15cdb7f373281"
     },
     {
       "profile_id": "RV-4496",
@@ -24690,7 +24690,7 @@
         "https://portal.afir.info/uploads/Docu%20FEADR/Dec%202008%20-%20Feb%202009/Raport_final_141_07.09.2009.pdf"
       ],
       "note": "Pastrat si corectat: Emil Cozan a fost candidat PSD la functia de primar al comunei Corbu, Harghita; localitatea si activitatea agricola coincid cu dosarul si documentele AFIR. DNA confirma condamnarea definitiva din februarie 2017 la 2 ani si 4 luni cu suspendare.",
-      "reviewed_snapshot_hash": "00c28a749858840da2b387445f0a0b375d333c39328541ac928d0b7759b3c7ea"
+      "reviewed_snapshot_hash": "1a6ae460bc0938c6253f248be8daa1dcf5dcda5a183b89b1c22ad49656382c23"
     },
     {
       "profile_id": "RV-0454",
@@ -25839,7 +25839,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.ce?cir=16&leg=2008"
       ],
       "note": "Constatarea ANI a fost reclasificată drept integritate administrativă; nu au fost identificate hotărârea definitivă asupra raportului sau rezultatul sesizării penale.",
-      "reviewed_snapshot_hash": "fcd7cb177377dc2c9ab278264b6fc43ea99de989df74229376a4253ac3bc9ae2"
+      "reviewed_snapshot_hash": "f302bbc8ad203f06e67548afb182acda79ec3e6a3bfa1d588608eb3a060dd676"
     },
     {
       "profile_id": "RV-0240",
@@ -25857,7 +25857,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.ce?cir=40&leg=2008"
       ],
       "note": "Separată constatarea ANI de sesizarea penală și corectată categoria la integritate; soluția din 2017 nu era definitivă, iar recursul și sesizarea penală nu au rezultate identificate.",
-      "reviewed_snapshot_hash": "c092d8e86928dfdb1053bcc61706e6499e6db33970f7aae8311cf0d4e6bc4205"
+      "reviewed_snapshot_hash": "84ae275f68b3fec309410a061e5f758bc44317ecf40597d42dde5c93240b4808"
     },
     {
       "profile_id": "RV-0486",
@@ -27544,7 +27544,7 @@
         "https://cursdeguvernare.ro/ani-cere-camerei-revocarea-din-functie-a-deputatului-aurel-nechita-pentru-incompatibilitate-decisa-in-instanta.html"
       ],
       "note": "Status corectat din investigated în integrity: raportul de incompatibilitate a fost confirmat definitiv prin Decizia ÎCCJ nr. 585/05.02.2013.",
-      "reviewed_snapshot_hash": "86bdf3385b714b8ae4c08cb52e848eb7f5a6f29d3bb24fb2905ed67c4128d5c4"
+      "reviewed_snapshot_hash": "acbedeb38682149b79166e02c7fa07b7283e48abe94e62c90e6100343717054a"
     },
     {
       "profile_id": "RV-0316",
@@ -27599,7 +27599,7 @@
         "https://ag.prefectura.mai.gov.ro/wp-content/uploads/sites/15/2024/10/PROCES-VERBAL-privin-ramanerea-definitiva-a-candidaturilor-la-alegerile-pentru-Senat-si-Camera-Deputatilor-din-anul-2024-la-nivelul-circumscriptiei-electorale-Arges.pdf"
       ],
       "note": "Afilierea și rolul politic actualizate la Forța Dreptei/candidat 2024; nu a fost identificată o soluție publică ulterioară urmăririi penale din dosarul 35/P/2021, deci profilul este ascuns.",
-      "reviewed_snapshot_hash": "9c60a738a6330ebb9ec704af3a8c5576671482bd32fe31bd4a14a7a8a7431159"
+      "reviewed_snapshot_hash": "f7bf87d1756eeedb81f31cc6cff9a432436ea6908baf29527d18bd3637605cdf"
     },
     {
       "profile_id": "RV-0477",
@@ -28203,7 +28203,7 @@
         "https://www.peterhfrank.com/wp-content/uploads/2015/05/FINALDNADatabase.v10.pdf"
       ],
       "note": "Numele a fost completat la Cornel-Leontin Moisil, iar rolul politic a fost recuperat: fost primar PSD si ulterior consilier local in Sant, candidat PUSL in 2020. Condamnarea definitiva de 4 ani ramane confirmata de DNA.",
-      "reviewed_snapshot_hash": "c8c5d90212520879cf64600089b972e327a45736f7625cd808b5fca4ace5a166"
+      "reviewed_snapshot_hash": "84198083850cdafe35167389b69b7e2465ce6416701fee93fd98c16fa3fdc842"
     },
     {
       "profile_id": "RV-1701",
@@ -38829,7 +38829,7 @@
         "https://brasovmetropolitan.ro/2020/08/fostul-deputat-pnl-brasov-gheorghe-gabor-a-trecut-la-cele-vesnice/"
       ],
       "note": "Constatare administrativă ANI, nu anchetă penală; persoana a decedat în 2020.",
-      "reviewed_snapshot_hash": "64eda99012ebe420ff2350915cbb67be26ba3f0c82077b4bccf986c86ba10dda"
+      "reviewed_snapshot_hash": "c40e60cde4ffb756fbb8d140778e3cd33f70d9c0631cc8fe0f342c469c856874"
     },
     {
       "profile_id": "RV-0242",
@@ -38863,7 +38863,7 @@
         "https://gazetadecluj.ro/judecatorii-clujeni-l-au-albit-pe-giurgiu-de-la-cluj-de-incompatibilitate/"
       ],
       "note": "Raport ANI anulat în primă instanță; finalitatea nu a putut fi demonstrată.",
-      "reviewed_snapshot_hash": "9584285c0bd3c00aac4587863d03dcf0fa4e30da17cf9147e3730caef2ce9a71"
+      "reviewed_snapshot_hash": "9fafd1806775e1aa095f29bd258f632ccf600226019e031dae99efee3ad007d8"
     },
     {
       "profile_id": "RV-0244",
@@ -38897,7 +38897,7 @@
         "https://www.puterea.ro/ludovic-orban-insista-pentru-revenirea-in-padurile-din-maramures-a-marelui-gater-pavel-horj/"
       ],
       "note": "Constatare administrativă ANI; nu a fost identificată o hotărâre definitivă verificabilă.",
-      "reviewed_snapshot_hash": "c238630aa738d717fa5241a42518956c858d4fb8cb3439f7aebc2180d70f3e07"
+      "reviewed_snapshot_hash": "b6d2aa5568b27ca87427eaef02497c0d1e8fe8f137054a5b9a6abc93caccf0c4"
     },
     {
       "profile_id": "RV-0246",
@@ -38914,7 +38914,7 @@
         "https://hotnews.ro/un-fost-deputat-pnl-nu-poate-justifica-112-000-de-euro-afirma-ani-acesta-nu-e-pentru-prima-oara-in-atentia-ani-399001"
       ],
       "note": "Conflictul din 2015 este administrativ; sesizarea distinctă privind averea a fost clasată ca tardivă, iar finalitatea raportului din 2015 nu este verificabilă.",
-      "reviewed_snapshot_hash": "d2e4e831179851144f3e15e1dc0b8c252d43c7737a361afa9d1ed24e3e3e92d2"
+      "reviewed_snapshot_hash": "dfb6ab445cfd8bdbb39bcdcc78a7f27deadec09f8ca38f8fe44e132b6f0b5473"
     },
     {
       "profile_id": "RV-0249",
@@ -38932,7 +38932,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=14&idm=403&leg=2012"
       ],
       "note": "Trimiterea în judecată din 2016 a fost desființată definitiv; cauza a revenit la DNA, fără soluție publică ulterioară identificată.",
-      "reviewed_snapshot_hash": "0dabac4a8855da62c058e730763b21d776d8dd59bd3450026260ddca68e5ffd4"
+      "reviewed_snapshot_hash": "90c657762e86b3a577b78b59a5fa25e529fb2a2079c948a21a66bed7f83c5edb"
     },
     {
       "profile_id": "RV-0250",
@@ -38950,7 +38950,7 @@
         "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/pv0316.pdf"
       ],
       "note": "Trimiterea în judecată din 2016 a fost desființată definitiv; cauza a revenit la DNA. Mandatul parlamentar actual a fost confirmat.",
-      "reviewed_snapshot_hash": "90afb63d2f1a7c2db04e81552d0cf70c061ed72a27afc9adcf58dd364c8f9122"
+      "reviewed_snapshot_hash": "d1739d4717f323fa8b7ecae5524d4512610b95ae265dff7f4b629615cb8ac871"
     },
     {
       "profile_id": "RV-0253",
@@ -38967,7 +38967,7 @@
         "https://alba24.ro/wp-content/uploads/2017/12/raspuns_ani.pdf"
       ],
       "note": "Constatare administrativă ANI, nu anchetă penală; contestația era pe rol în 2017, fără finalitate publică identificată.",
-      "reviewed_snapshot_hash": "6750caa2846c5d324fe0584db40ac812b5fef8ea24170edf4f545e43c7f09fb3"
+      "reviewed_snapshot_hash": "5c4f2b410be38ef0e3077a2d913ffb3dcd13ea3a318bf5c88f09d44182b2fdfb"
     },
     {
       "profile_id": "RV-0257",
@@ -38984,7 +38984,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=3&idm=78&leg=2008"
       ],
       "note": "Constatare administrativă ANI, fără soluție definitivă publică verificabilă.",
-      "reviewed_snapshot_hash": "aa12d057ea897de708d44deae4fd7ae9c38361bf2dc1577fd0e8a5e11f522f7d"
+      "reviewed_snapshot_hash": "de5bdc909b4d854c574b1088765e0f2267a117ffecee09df2ed39bcb57c1323e"
     },
     {
       "profile_id": "RV-0258",
@@ -39038,7 +39038,7 @@
         "https://gazetadecluj.ro/ani-face-greseli-pe-banda-rulanta-iar-curtea-de-apel-cluj-le-repara-iuliu-nosa-scapat-de-acuzatii/"
       ],
       "note": "Raport administrativ ANI anulat în primă instanță; recursul ANI nu are o soluție definitivă verificată.",
-      "reviewed_snapshot_hash": "df335813c0378c073faba05a97c23b02474362f447c02f8a61859d83fab7bd8a"
+      "reviewed_snapshot_hash": "e77b1a7de8e933f9cb81f2ef5cb5be8606a96c959365f23274330955d42b6748"
     },
     {
       "profile_id": "RV-0265",
@@ -39056,7 +39056,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=209&leg=2008"
       ],
       "note": "Constatare administrativă ANI; contestația era pe rol în 2017, fără finalitate publică identificată.",
-      "reviewed_snapshot_hash": "7068ed401f9d36e2dbeea3f896ae005293c0e15ca4fb6b363a762e86631570bf"
+      "reviewed_snapshot_hash": "6f3d2a5f27e91cd35da64a703644843eae4f1e683e8da6d4921ad2c44bbe74b7"
     },
     {
       "profile_id": "RV-0267",
@@ -39181,7 +39181,7 @@
         "https://defapt.ro/politica/de-ce-condamne-penal-marian-neacsu-vicepremier"
       ],
       "note": "Condamnarea definitivă a fost reconfirmată, iar funcția a fost completată cu mandatul ulterior de viceprim-ministru.",
-      "reviewed_snapshot_hash": "03359fcd3460a1d5608d9acdcbd4b4d85d91aa6ebf297f4dc86876233ad03a70"
+      "reviewed_snapshot_hash": "8085963c337f5c3ac2cf8dcd126da975c2ea507d1ee3d0350fa0ccef3670dcaa"
     },
     {
       "profile_id": "RV-0319",
@@ -39199,7 +39199,7 @@
         "https://adevarul.ro/stiri-locale/galati/deputatul-florin-paslaru-a-fost-condamnat-1722908.html"
       ],
       "note": "Profilul a fost actualizat cu cea mai nouă condamnare definitivă: 2 ani cu suspendare pentru trafic de influență în 2021; condamnarea din 2016 rămâne în istoric.",
-      "reviewed_snapshot_hash": "e6467a3942ca12515ada6cb0bfd3c8202a8bb6ae5ba88d3f9d94c93174629bed"
+      "reviewed_snapshot_hash": "a9a95ce22b9a7f1f56535268c3fc0d87f860183375b7ff3fd517ea6cc7d43f3b"
     },
     {
       "profile_id": "RV-0321",
@@ -39216,7 +39216,7 @@
         "https://www.news.ro/justitie/fostul-deputat-oana-niculescu-mizil-condamnata-definitiv-la-un-an-de-inchisoare-cu-suspendare-pentru-conflict-de-interese-1922403624422016101115606528"
       ],
       "note": null,
-      "reviewed_snapshot_hash": "91f5d9b46c46c5fb3b3266395e7a52e2e228dd8847103ba029eb64848830a6d8"
+      "reviewed_snapshot_hash": "f45f9c2ecef64c67555816d9f215f8853ee7fa4b6116cc8c5c93a94bf480b61f"
     },
     {
       "profile_id": "RV-0445",
@@ -39233,7 +39233,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=57&leg=2008"
       ],
       "note": "Identitatea, mandatul de deputat și condamnarea definitivă din 2015 sunt confirmate oficial.",
-      "reviewed_snapshot_hash": "196d40946236bb997e78b029a44e7122400bea21a4582aaa26bea8235c0d4657"
+      "reviewed_snapshot_hash": "a2917ed8d04ac463588185773db454890adc746a5f05b119766c6afa3c30896c"
     },
     {
       "profile_id": "RV-0446",
@@ -41504,7 +41504,7 @@
         "https://agerpres.ro/documentare/2020/12/22/presedintele-pnl-ludovic-orban-ales-presedinte-al-camerei-deputatilor-fisa-biografica--631942"
       ],
       "note": "Achitarea definitivă din 2018 este confirmată. Afilierea și funcția politică au fost corectate: Orban este președintele Forța Dreptei, nu membru PNL actual.",
-      "reviewed_snapshot_hash": "6162b5b92b814c081d92010fef74aaf308eeb115558593c4935064982013bc65"
+      "reviewed_snapshot_hash": "8df1992ee8c137c9c83eb114677818ba7ef79ca2f92264d22a29cb1cd273abd0"
     },
     {
       "profile_id": "RV-0677",
@@ -71050,7 +71050,7 @@
         "https://hotnews.ro/fostul-primar-psd-al-focsaniului-decebal-bacinschi-trimis-n-judecata-pentru-abuz-n-serviciu-309292"
       ],
       "note": "Normalizat numele în ordinea uzuală. Confirmată condamnarea definitivă prin decizia penală 1249/16.12.2021: 3 ani cu suspendare, termen de supraveghere 4 ani, interdicții 3 ani, 60 zile muncă în folosul comunității și confiscarea a 197.427,30 lei.",
-      "reviewed_snapshot_hash": "9e657deba689d52752d3cbf062bffb96e29fbf6c594c06f208ae64230ab5d0cb"
+      "reviewed_snapshot_hash": "fef7f02b8129206100ea4489f97a339a65dae8caf05f9d12268d99b5ed6ab650"
     },
     {
       "profile_id": "RV-1099",
@@ -74041,7 +74041,7 @@
         "https://ziare.com/alegeri/alegeri-locale-2024/rezultate_vaslui/primarie/codaesti/4"
       ],
       "note": "Identitate confirmată. Profilul a fost actualizat la consilier local PUSL și fost primar. Raportul ANI din 2020 este confirmat, dar nu a fost identificată o hotărâre definitivă verificabilă; profilul rămâne ascuns.",
-      "reviewed_snapshot_hash": "5dbd14556bea1d989dc548be41c11d4daf5ac8e1e95112e583eb06fdeb8709e1"
+      "reviewed_snapshot_hash": "beee722eb43b47d60748e13d7057a548bc0734af86db44f9785f4a4c1a6a9673"
     },
     {
       "profile_id": "RV-4613",
@@ -74148,7 +74148,7 @@
         "https://televiziuneacalarasi.ro/independenta-gabriel-radulescu-psd-a-depus-juramantul-de-primar-video/"
       ],
       "note": "Identitate confirmată. Profilul a fost actualizat la consilier local PNL și fost primar. Raportul ANI din 2020 este confirmat, dar nu a fost identificată o hotărâre definitivă verificabilă; profilul rămâne ascuns.",
-      "reviewed_snapshot_hash": "8ccdac9418e98d7011f7a48c93182ce4ef925a3a350c0d9f0ac3f79c0dff09e8"
+      "reviewed_snapshot_hash": "49d28362d86e1b867d6b0ebf8d16b6238c923b3eb49016025333f170cdcfb4e5"
     },
     {
       "profile_id": "RV-2422",
@@ -75076,7 +75076,7 @@
         "https://comunarodna.ro/monitorul-oficial-local/statutul-u-a-t-rodna.html?cid=2039&file=files%2Frodna%2Fuploads%2Fdoc%2Falte_doc%2F2022%2FStatutul+comunei+Rodna.pdf"
       ],
       "note": "Identitatea, apartenența PSD și mandatul 2016-2020 sunt confirmate prin statutul oficial al comunei. Constatarea ANI este confirmată, însă nu a fost identificată public o soluție judecătorească definitivă; profilul rămâne ascuns. Dosarele publice ale unor omonimi sau privind alte obiecte nu au fost asociate raportului ANI.",
-      "reviewed_snapshot_hash": "4ae7869cd0b21a1c92877273efecac5171a8a2847ba8af5951fd4dd16b746fde"
+      "reviewed_snapshot_hash": "aa6ac87147121e9990a24ab756dc69637f359d11e1d01c969a48e0a3f84e429c"
     },
     {
       "profile_id": "RV-2563",
@@ -76661,7 +76661,7 @@
         "https://oficialmedia.com/deputatul-gabriel-plaiasu-ataca-alaturi-de-liderii-aliantei-dreapta-unita-ordonanta-de-organizare-a-alegerilor-din-9-iunie-2024/"
       ],
       "note": "Funcția actualizată ca fost deputat (mandat încheiat în 2024), iar afilierea din PNL în Forța Dreptei. Nu a fost identificată o soluție definitivă publică în dosarul trimis la ÎCCJ.",
-      "reviewed_snapshot_hash": "16dfa36c57941fa834e12e516075941f6a78680a1571548ae62271fa982fe562"
+      "reviewed_snapshot_hash": "6a6b888706cdb6ca282c95eb82542404768c8fda30226951d9e2295b1f7f52f2"
     },
     {
       "profile_id": "RV-4576",
@@ -76942,7 +76942,7 @@
         "https://agerpres.ro/administratie/2024/10/25/valcea-primarul-ramnicului-mircia-gutau-a-preluat-al-cincilea-mandat-fostul-viceprimar-pirvulescu-pr--1377060"
       ],
       "note": "Statusul a fost corectat la achitat/anulat: ÎCCJ a anulat definitiv raportul ANI la 1 noiembrie 2023. Funcția a fost actualizată la actual consilier local și fost viceprimar, iar afilierea la independent din 2024.",
-      "reviewed_snapshot_hash": "07a37e498bcc1e783d8c1470fefa9c273ab3b4037576db1b1aaeeea10f4580da"
+      "reviewed_snapshot_hash": "33e35077cbeb25bff60ddae8944f01fdab916e3a0a81716df8a10ddfccabc0a0"
     },
     {
       "profile_id": "RV-4592",
@@ -77824,7 +77824,7 @@
         "https://www.dna.ro/comunicat.xhtml?id=8988"
       ],
       "note": "DNA identifică explicit aceeași persoană ca fost consilier local și membră a Comisiei economice din Pașcani. Am actualizat funcția la forma istorică și am individualizat motivarea achitării definitive din 4 iulie 2018.",
-      "reviewed_snapshot_hash": "ac154ac7e262f2aa92040c2674ccf9cdda93f22b8fa64b94fa5dc09fe1a8327d"
+      "reviewed_snapshot_hash": "13915b8eb46c5ae5dec447a632bd24a4c7dd6bee8199dc27e46a0f8702aed1fa"
     },
     {
       "profile_id": "RV-2859",
@@ -78769,7 +78769,7 @@
         "https://adevarul.ro/stiri-locale/brasov/traian-stanciu-ungra-cel-mai-longeviv-primar-1704964.html"
       ],
       "note": "Am completat din hotărârea definitivă forma continuată, termenul de supraveghere, munca în folosul comunității și obligația civilă. Identitatea, funcția și afilierea PSD sunt confirmate de surse independente și electorale.",
-      "reviewed_snapshot_hash": "8ae4595bf4f885263947acbaedbb88aa2db38f8ad982c50f1a72d08eb40a9239"
+      "reviewed_snapshot_hash": "293dec3cda419b275c22303f35919f445256f397c681154e2adf692438bcd38d"
     },
     {
       "profile_id": "RV-4544",
@@ -78843,7 +78843,7 @@
         "https://comunaraducaneni.ro/cl/ha/2024/07/hcl_27_07_2024.pdf"
       ],
       "note": "Confirmată soluția definitivă de prescripție, nu o condamnare. Am completat data deciziei, forma continuată, suma civilă exactă și desființarea înscrisurilor și am înlocuit o sursă electorală veche, slab țintită, cu surse care identifică explicit fostul primar.",
-      "reviewed_snapshot_hash": "7c0bf8ff5db09845f275c0324caa7738d7cb7378cae6192194dd13b59974ae33"
+      "reviewed_snapshot_hash": "95c6ebdcafe243548a1a44d141074078bd0ca1596cdf5dd9b54885bf0e98bc07"
     },
     {
       "profile_id": "RV-4553",
@@ -79254,7 +79254,7 @@
         "https://www.cdep.ro/pls/parlam/structura.mp?cam=2&idm=41&leg=2000"
       ],
       "note": "Completată lista integrală a acuzațiilor din rechizitoriul DNA și precizată decizia definitivă nr. 940/13.08.2021 a Curții de Apel București. Achitarea definitivă este confirmată pentru toate acuzațiile, deoarece faptele nu există ori nu sunt prevăzute de legea penală.",
-      "reviewed_snapshot_hash": "972790d02498cd2352f8ec0123ed3d14ac1591b835a128065dfd49b37e0214bb"
+      "reviewed_snapshot_hash": "8c329cda0304e3874b88e7c1c2447e0fe737e1850ff30b0542b9d97b3a6044f3"
     },
     {
       "profile_id": "RV-4567",
@@ -79289,7 +79289,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=370&leg=2004&pag=1&par=&prn=0"
       ],
       "note": "Completate decizia definitivă nr. 325/03.11.2020 a ÎCCJ și cuantumul despăgubirilor: 53.823.942,46 lei către CCIR și 6.086.741,44 lei către Romexpo. Condamnarea la 8 ani cu executare și infracțiunile sunt confirmate oficial.",
-      "reviewed_snapshot_hash": "ad4890c52c899d7fc9d78b4d5325efc77eab5702786a85cc71171c0294473a39"
+      "reviewed_snapshot_hash": "17dd0926837cc049ca71defbe7e0eb3659ec9fe195679b570f35637b568e1f39"
     },
     {
       "profile_id": "RV-4569",
@@ -79307,7 +79307,7 @@
         "https://www.cdep.ro/pls/parlam/structura2015.mp?cam=2&idl=1&idm=250&leg=2012&pag=0"
       ],
       "note": "Confirmate oficial clasarea din 1 februarie 2018 pentru abuz în serviciu ca urmare a prescripției, contextul faptelor și identitatea fostului deputat PSD de Galați, în prezent europarlamentar. Detaliile și data verificării au fost actualizate.",
-      "reviewed_snapshot_hash": "475378362783ee895e9964a22723cc4a248016cc4524a3a38b35ea2279b1cc8a"
+      "reviewed_snapshot_hash": "b3219e6ada3a9c55167cc1118b093c35375e8d56a373eb25d7da28b686368586"
     },
     {
       "profile_id": "RV-4570",

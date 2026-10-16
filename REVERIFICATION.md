@@ -89,3 +89,20 @@ este coada de lucru și poate eșua cât timp reverificarea nu este terminată.
 `check` detectează profilurile schimbate după reverificare, intrările eliminate care au reapărut și
 profilurile noi care nu sunt încă în registru. Registrul nu permite suprascrierea tăcută a unei
 reverificări deja consemnate.
+
+## Metadate derivate și reparații de migrare
+
+Hash-ul snapshotului urmărește faptele editoriale revizuite. Câmpurile derivate pentru interfață
+`party_label` și `party_context` nu intră în hash; normalizarea lor nu reprezintă o schimbare a
+profilului reverificat.
+
+Pentru o eroare istorică de migrare deja investigată, administratorul poate reînnoi explicit hash-ul
+unui set închis de profiluri, fără a modifica decizia, dovezile sau data reverificării:
+
+```powershell
+npm.cmd run reverify -- refresh-snapshots --ids RV-0001,RV-0002
+```
+
+Comanda refuză ID-uri fără manifest, reverificare sau profil curent și refuză snapshoturi care sunt
+deja actuale. Nu se utilizează pentru schimbări editoriale obișnuite; acestea se reverifică prin
+`complete` cu dovezi actualizate.

@@ -89,8 +89,13 @@ function stableValue(value) {
 }
 
 function profileHash(profile) {
+  // Party labels and their context are derived at dataset-build time for UI/filter
+  // compatibility. They are not reviewed editorial facts, so their introduction or
+  // formatting changes must not invalidate an otherwise unchanged review snapshot.
+  const { party_label, party_context, ...reviewedProfile } = profile;
+  if (party_label) reviewedProfile.party = party_label;
   return createHash('sha256')
-    .update(JSON.stringify(stableValue(profile)))
+    .update(JSON.stringify(stableValue(reviewedProfile)))
     .digest('hex');
 }
 
@@ -474,6 +479,37 @@ function holdProfile(options) {
   console.log(`Profil ascuns editorial: ${manifestProfile.id} - ${currentProfile.name}.`);
 }
 
+function refreshSnapshots(options) {
+  if (!options.ids) throw new Error('Lipseste --ids cu profilele care necesita rebasare.');
+
+  const requestedIds = [...new Set(options.ids.split(',').map((id) => id.trim()).filter(Boolean))];
+  if (requestedIds.length === 0) throw new Error('Nu au fost furnizate ID-uri valide.');
+
+  const manifest = loadManifest();
+  const politicians = loadPoliticians();
+  const reviewsDocument = loadReviews();
+  const manifestById = new Map(manifest.profiles.map((profile) => [profile.id, profile]));
+  const reviewById = new Map(reviewsDocument.reviews.map((review) => [review.profile_id, review]));
+
+  requestedIds.forEach((id) => {
+    const profile = manifestById.get(id);
+    const review = reviewById.get(id);
+    if (!profile || !review) throw new Error(`Profilul ${id} nu are atat manifest, cat si reverificare.`);
+
+    const currentProfile = findCurrentProfile(politicians, profile, review);
+    if (!currentProfile) throw new Error(`Profilul curent pentru ${id} nu a fost gasit.`);
+    if (profileHash(currentProfile) === review.reviewed_snapshot_hash) {
+      throw new Error(`Profilul ${id} nu necesita rebasarea snapshotului.`);
+    }
+
+    review.reviewed_snapshot_hash = profileHash(currentProfile);
+  });
+
+  reviewsDocument.updated_at = today();
+  writeJson(REVIEWS_PATH, reviewsDocument);
+  console.log(`Snapshot-uri rebasate: ${requestedIds.length}.`);
+}
+
 function checkRegistry() {
   const manifest = loadManifest();
   const reviewsDocument = loadReviews();
@@ -553,6 +589,7 @@ function printHelp() {
   npm run reverify -- show --id RV-0001
   npm run reverify -- hold --id RV-0001 [--current-name "Nume corectat"] --reason "motiv"
   npm run reverify -- apply-safety-holds
+  npm run reverify -- refresh-snapshots --ids RV-0001,RV-0002
   npm run reverify -- complete --id RV-0001 --decision corrected \\
     --identity confirmed --legal-status confirmed --scope political \\
     --reviewer "Nume" --evidence https://... [--evidence https://...] --note "..."
@@ -567,6 +604,7 @@ try {
   else if (command === 'show') showProfile(options);
   else if (command === 'hold') holdProfile(options);
   else if (command === 'apply-safety-holds') applySafetyHolds();
+  else if (command === 'refresh-snapshots') refreshSnapshots(options);
   else if (command === 'complete') completeProfile(options);
   else if (command === 'check') checkRegistry();
   else if (command === 'help' || command === '--help') printHelp();
