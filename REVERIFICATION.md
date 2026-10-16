@@ -106,3 +106,10 @@ npm.cmd run reverify -- refresh-snapshots --ids RV-0001,RV-0002
 Comanda refuză ID-uri fără manifest, reverificare sau profil curent și refuză snapshoturi care sunt
 deja actuale. Nu se utilizează pentru schimbări editoriale obișnuite; acestea se reverifică prin
 `complete` cu dovezi actualizate.
+
+Profilurile noi se înregistrează explicit înainte de `complete`; comanda refuză nume deja urmărite,
+profiluri inexistente și persoane care nu trec criteriul politic:
+
+```powershell
+npm.cmd run reverify -- register --names "Nume unu,Nume doi"
+```

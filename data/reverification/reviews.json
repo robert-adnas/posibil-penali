@@ -79704,6 +79704,43 @@
       ],
       "note": "DNA 7728 actualizat 18.08.2021: achitare finala CA Bucuresti 936/A/29.07.2021. HCL Dragos Voda 9/2011, rezultate 2016 si pagina oficiala Tamadau Mare 2025 confirma numele/functia; PSD documentat 2016/2025, nu dedus in 2007. Chiriac Constantin (RV-4461, DNA 5674: alt nume/dosar, identitate istorica inca incerta) ramane sub hold, fara corectarea sau unirea sa. Chirila Constantin (RV-1538, DNA 3951, credite bancare) este alt nume/caz. Nu se atribuie aceste condamnari primarului. Sursele au fost citite integral in partile relevante; cautate evolutii ulterioare DNA si dupa nume/caz. Nicio evolutie oficiala ulterioara identificata. Portalquery.just.ro indisponibil (SSL 525); fara pretentia unei cautari exhaustive in toate instantele. Verificat setul raw, additions, overrides, excluded, editorial inclusiv held, manifest, reviews si lotul, cu variante de nume si legaturi de dosar.",
       "reviewed_snapshot_hash": "8272328b65e75ae0e6f94173cc8d5ffc4d800d3ff11a2c6d09a6fd314a5c1467"
+    },
+    {
+      "profile_id": "RV-4634",
+      "original_name": "Bartha Domokos",
+      "current_name": "Bartha Domokos",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-16",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6255",
+        "https://www.dna.ro/comunicat.xhtml?id=3769",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf"
+      ],
+      "note": "DNA 6255 confirms the final 16.04.2015 two-year suspended conviction; DNA 3769 identifies the accused as Band vice-mayor in Mureș. BEC's 2012 result list records the same Bartha Domokos as UDMR mayoral candidate in Band. No later official outcome located; duplicate/alias checks found no matching profile.",
+      "reviewed_snapshot_hash": "1e2f17d747ed3dff9759b0d6b5795df4cbeb1e0b1604b35a4b38e47457e542ea"
+    },
+    {
+      "profile_id": "RV-4635",
+      "original_name": "Teodor Eugen Moroșteș",
+      "current_name": "Teodor Eugen Moroșteș",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-16",
+      "reviewer": "Codex automation",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7413",
+        "https://www.dna.ro/comunicat.xhtml?id=6266",
+        "https://www.cjarad.ro/despre-institutie/conducere/consilieri-judeteni/",
+        "https://www.infodosar.ro/monitorul-oficial/biroul-electoral-central/219901-proces-verbal-0-2000"
+      ],
+      "note": "DNA 7413 confirms the final 13.04.2016 six-month suspended conviction; DNA 6266 identifies the accused as Moneasa vice-mayor and describes the false declaration. CJ Arad confirms the 2004-2008 county-council mandate and the official-election record documents the 2000 PRM candidacy. No later official outcome located; duplicate/alias checks found no matching profile.",
+      "reviewed_snapshot_hash": "ad3a65664c493772eef2bbd25e8f1210603824f87539e0a636cabef415a931d9"
     }
   ]
 }

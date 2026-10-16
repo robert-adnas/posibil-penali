@@ -510,6 +510,58 @@ function refreshSnapshots(options) {
   console.log(`Snapshot-uri rebasate: ${requestedIds.length}.`);
 }
 
+function registerProfiles(options) {
+  if (!options.names) throw new Error('Lipseste --names cu profilurile noi de inregistrat.');
+
+  const requestedNames = [...new Set(options.names.split(',').map((name) => name.trim()).filter(Boolean))];
+  if (requestedNames.length === 0) throw new Error('Nu au fost furnizate nume valide.');
+
+  const manifest = loadManifest();
+  const politicians = loadPoliticians();
+  const registeredNames = new Set(manifest.profiles.map((profile) => normalizeName(profile.name)));
+  const politiciansByName = new Map(politicians.map((politician) => [normalizeName(politician.name), politician]));
+  const verificationDates = new Map();
+  politicians.forEach((politician) => {
+    verificationDates.set(
+      politician.verified_at,
+      (verificationDates.get(politician.verified_at) || 0) + 1
+    );
+  });
+  const context = { verificationDates, similarNames: buildSimilarNameIndex(politicians) };
+
+  const candidates = requestedNames.map((name) => {
+    const politician = politiciansByName.get(normalizeName(name));
+    if (!politician) throw new Error(`Profilul curent nu a fost gasit: ${name}.`);
+    if (registeredNames.has(normalizeName(politician.name))) {
+      throw new Error(`Profilul este deja inregistrat: ${politician.name}.`);
+    }
+    if (!isPoliticalActor(politician)) {
+      throw new Error(`Profilul nu indeplineste criteriul politic: ${politician.name}.`);
+    }
+    return politician;
+  });
+
+  candidates.forEach((politician) => {
+    const index = manifest.profiles.length;
+    manifest.profiles.push({
+      id: `RV-${String(index + 1).padStart(4, '0')}`,
+      baseline_index: index,
+      name: politician.name,
+      party: politician.party,
+      position: politician.position,
+      position_type: politician.position_type,
+      legal_status: politician.status,
+      verified_at: politician.verified_at || null,
+      source_urls: (politician.sources || []).map((source) => source.url),
+      baseline_snapshot_hash: profileHash(politician),
+      ...buildRiskProfile(politician, context),
+    });
+  });
+
+  writeJson(MANIFEST_PATH, manifest);
+  console.log(`Profiluri noi inregistrate: ${candidates.length}.`);
+}
+
 function checkRegistry() {
   const manifest = loadManifest();
   const reviewsDocument = loadReviews();
@@ -589,6 +641,7 @@ function printHelp() {
   npm run reverify -- show --id RV-0001
   npm run reverify -- hold --id RV-0001 [--current-name "Nume corectat"] --reason "motiv"
   npm run reverify -- apply-safety-holds
+  npm run reverify -- register --names "Nume unu,Nume doi"
   npm run reverify -- refresh-snapshots --ids RV-0001,RV-0002
   npm run reverify -- complete --id RV-0001 --decision corrected \\
     --identity confirmed --legal-status confirmed --scope political \\
@@ -604,6 +657,7 @@ try {
   else if (command === 'show') showProfile(options);
   else if (command === 'hold') holdProfile(options);
   else if (command === 'apply-safety-holds') applySafetyHolds();
+  else if (command === 'register') registerProfiles(options);
   else if (command === 'refresh-snapshots') refreshSnapshots(options);
   else if (command === 'complete') completeProfile(options);
   else if (command === 'check') checkRegistry();

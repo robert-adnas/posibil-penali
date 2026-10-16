@@ -79,13 +79,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/pc</loc>
+    <loc>https://politicieni-corupti.ro/partid/prm</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/partid/prm</loc>
+    <loc>https://politicieni-corupti.ro/partid/pc</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -421,6 +421,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/mures</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/caras-severin</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -428,12 +434,6 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/prahova</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/mures</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -493,6 +493,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://politicieni-corupti.ro/judet/arad</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://politicieni-corupti.ro/judet/alba</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -506,12 +512,6 @@
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/judet/vrancea</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://politicieni-corupti.ro/judet/arad</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5735,5 +5735,17 @@
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/bartha-domokos</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/teodor-eugen-morostes</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

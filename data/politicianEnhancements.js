@@ -67043,6 +67043,87 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Bartha Domokos',
+    party: 'UDMR (candidat la primăria Band în 2012)',
+    position: 'Fost viceprimar al comunei Band, județul Mureș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Mureș',
+      basis: 'office',
+      locality: 'Band',
+      note: 'DNA îl identifică drept viceprimar al comunei Band la data faptelor.',
+    },
+    crime: 'Folosirea sau prezentarea de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene',
+    sentence: '2 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 2,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2015,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Târgu Mureș l-a condamnat definitiv la 16 aprilie 2015 la 2 ani de închisoare cu suspendare sub supraveghere, pentru folosirea de documente false/inexacte la obținerea de fonduri europene. DNA precizează că era viceprimar al comunei Band la data faptelor. UDMR este documentat numai pentru candidatura sa la primăria Band din 2012.',
+    verified_at: '2026-10-16',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6255',
+      },
+      {
+        label: 'DNA — trimiterea în judecată și funcția de viceprimar',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=3769',
+      },
+      {
+        label: 'Biroul Electoral Central — rezultate pentru primăria Band, 2012',
+        kind: 'official',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
+      },
+    ],
+  },
+  {
+    name: 'Teodor Eugen Moroșteș',
+    party: 'PRM (candidat în 2000)',
+    position: 'Fost viceprimar al comunei Moneasa, județul Arad; consilier județean (2004-2008)',
+    position_type: 'local_official',
+    geography: {
+      county: 'Arad',
+      basis: 'office',
+      locality: 'Moneasa',
+      note: 'DNA îl identifică drept viceprimar al comunei Moneasa la data faptei; CJ Arad îi consemnează mandatul de consilier județean.',
+    },
+    crime: 'Fals în declarații',
+    sentence: '6 luni închisoare cu suspendare sub supraveghere',
+    sentence_years: 0.5,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2016,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Timișoara l-a condamnat definitiv la 13 aprilie 2016 la 6 luni de închisoare cu suspendare sub supraveghere pentru fals în declarații. DNA îl identifică drept viceprimar al comunei Moneasa la data faptei și arată că a atestat în fals dreptul de folosință asupra pășunii comunale. Apartenența PRM este documentată pentru candidatura din 2000, fără a fi extrapolată la mandatul local ulterior.',
+    verified_at: '2026-10-16',
+    sources: [
+      {
+        label: 'DNA — condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=7413',
+      },
+      {
+        label: 'DNA — trimiterea în judecată, funcția și fapta',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=6266',
+      },
+      {
+        label: 'Consiliul Județean Arad — consilier județean, mandatul 2004-2008',
+        kind: 'official',
+        url: 'https://www.cjarad.ro/despre-institutie/conducere/consilieri-judeteni/',
+      },
+      {
+        label: 'Monitorul Oficial — candidatura PRM din 2000',
+        kind: 'official',
+        url: 'https://www.infodosar.ro/monitorul-oficial/biroul-electoral-central/219901-proces-verbal-0-2000',
+      },
+    ],
+  },
 ];
 
 /**

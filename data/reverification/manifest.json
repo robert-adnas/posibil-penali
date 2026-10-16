@@ -101036,6 +101036,45 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4634",
+      "baseline_index": 4633,
+      "name": "Bartha Domokos",
+      "party": "UDMR",
+      "position": "Fost viceprimar al comunei Band, județul Mureș",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-16",
+      "source_urls": [
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=6255",
+        "https://www.dna.ro/comunicat.xhtml?id=3769"
+      ],
+      "baseline_snapshot_hash": "1e2f17d747ed3dff9759b0d6b5795df4cbeb1e0b1604b35a4b38e47457e542ea",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4635",
+      "baseline_index": 4634,
+      "name": "Teodor Eugen Moroșteș",
+      "party": "PRM",
+      "position": "Fost viceprimar al comunei Moneasa, județul Arad; consilier județean (2004-2008)",
+      "position_type": "local_official",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-16",
+      "source_urls": [
+        "https://www.cjarad.ro/despre-institutie/conducere/consilieri-judeteni/",
+        "https://www.dna.ro/comunicat.xhtml?id=7413",
+        "https://www.dna.ro/comunicat.xhtml?id=6266",
+        "https://www.infodosar.ro/monitorul-oficial/biroul-electoral-central/219901-proces-verbal-0-2000"
+      ],
+      "baseline_snapshot_hash": "ad3a65664c493772eef2bbd25e8f1210603824f87539e0a636cabef415a931d9",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
