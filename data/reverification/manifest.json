@@ -101075,6 +101075,26 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4636",
+      "baseline_index": 4635,
+      "name": "Ion Bușagă",
+      "party": "USL",
+      "position": "Fost primar al comunei Berislăvești, județul Vâlcea",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-10-18",
+      "source_urls": [
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://cjvalcea.ro/images/cjvalcea/adiapa/statut/06_ACT_ADITIONAL_nr_2_la_Actul_constitutiv_ADI%20.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=9893",
+        "https://ziaruldevalcea.ro/2016/05/proiectele-primarului-din-berislavesti-ion-busaga-psd-pentru-perioada-2016-2020/"
+      ],
+      "baseline_snapshot_hash": "bb88e564c5ef562a4588471f1e5e77534f984886f3df2e61681ed75b91873901",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

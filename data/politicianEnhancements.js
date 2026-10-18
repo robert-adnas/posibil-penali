@@ -67124,6 +67124,49 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Ion Bușagă',
+    party: 'USL (primar ales în 2012); PSD (în 2016)',
+    position: 'Fost primar al comunei Berislăvești, județul Vâlcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Vâlcea',
+      basis: 'office',
+      locality: 'Berislăvești',
+      note: 'DNA și un document al Consiliului Județean Vâlcea îl identifică drept primar al comunei Berislăvești.',
+    },
+    crime: 'Folosirea sau prezentarea cu rea-credință de documente ori declarații false, inexacte sau incomplete pentru obținerea pe nedrept de fonduri europene, în formă continuată',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere',
+    sentence_years: 3,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2020,
+    status: 'convicted',
+    details:
+      'Curtea de Apel Pitești l-a condamnat definitiv la 8 iulie 2020 la 3 ani de închisoare cu suspendare sub supraveghere, pentru folosirea repetată de documente false/inexacte la obținerea de fonduri europene. DNA îl identifică drept primar al comunei Berislăvești la data faptelor. BEC consemnează candidatura și alegerea sa din partea USL în 2012, iar PSD este documentat pentru candidatura din 2016; afilierea nu este extrapolată la alte perioade.',
+    verified_at: '2026-10-18',
+    sources: [
+      {
+        label: 'DNA - condamnarea definitivă',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=9893',
+      },
+      {
+        label: 'Consiliul Județean Vâlcea - document cu identificarea primarului',
+        kind: 'official',
+        url: 'https://cjvalcea.ro/images/cjvalcea/adiapa/statut/06_ACT_ADITIONAL_nr_2_la_Actul_constitutiv_ADI%20.pdf',
+      },
+      {
+        label: 'Biroul Electoral Central - rezultatele alegerilor locale din 2012',
+        kind: 'official',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
+      },
+      {
+        label: 'Ziarul de Vâlcea - candidatura PSD din 2016',
+        kind: 'press',
+        url: 'https://ziaruldevalcea.ro/2016/05/proiectele-primarului-din-berislavesti-ion-busaga-psd-pentru-perioada-2016-2020/',
+      },
+    ],
+  },
 ];
 
 /**
