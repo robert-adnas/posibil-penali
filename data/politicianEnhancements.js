@@ -67125,6 +67125,49 @@ export const politicianAdditions = [
     ],
   },
   {
+    name: 'Ovidiu-Alexandru Ovesea',
+    party: 'PNL (candidat la primărie în 2024; anterior PMP în 2020)',
+    position: 'Fost primar al comunei Părău, județul Brașov',
+    position_type: 'mayor',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      locality: 'Părău',
+      note: 'DNA și Instituția Prefectului Brașov îl identifică drept primar al comunei Părău, județul Brașov.',
+    },
+    crime: 'Luare de mită, abuz în serviciu cu obținere de foloase necuvenite (două fapte, una în formă continuată) și delapidare',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anunțat la 8 octombrie 2026 trimiterea sa în judecată, sub control judiciar, pentru luare de mită, două infracțiuni de abuz în serviciu și delapidare. Potrivit rechizitoriului, acuzațiile privesc contracte ale comunei Părău și un complex de joacă; acestea sunt acuzații, nu constatări de vinovăție. Instituția Prefectului Brașov a publicat Ordinul nr. 842 din 27 iulie 2026 privind încetarea înainte de termen a mandatului său de primar. A fost candidat PNL la primărie în 2024, iar candidatura PMP este documentată pentru 2020.',
+    verified_at: '2026-10-19',
+    sources: [
+      {
+        label: 'DNA – trimiterea în judecată și acuzațiile',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=14011',
+      },
+      {
+        label: 'Instituția Prefectului Brașov – Ordinul nr. 842/2026 privind încetarea mandatului',
+        kind: 'official',
+        url: 'https://bv.prefectura.mai.gov.ro/proiecte-de-acte-normative-adoptate-emise/',
+      },
+      {
+        label: 'AEP – raportarea finanțării electorale PNL Brașov pentru candidatura la primărie din 2024',
+        kind: 'official',
+        url: 'https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf',
+      },
+      {
+        label: 'Monitorul de Făgăraș – candidatura PMP la primărie din 2020',
+        kind: 'press',
+        url: 'https://www.monitorfg.ro/2020/09/29/analiza-monitorul-de-fagaras-vot-in-tara-fagarasului/',
+      },
+    ],
+  },
+  {
     name: 'Ion Bușagă',
     party: 'USL (primar ales în 2012); PSD (în 2016)',
     position: 'Fost primar al comunei Berislăvești, județul Vâlcea',

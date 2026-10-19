@@ -101095,6 +101095,28 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4637",
+      "baseline_index": 4636,
+      "name": "Ovidiu-Alexandru Ovesea",
+      "party": "PNL",
+      "position": "Fost primar al comunei Părău, județul Brașov",
+      "position_type": "mayor",
+      "legal_status": "indicted",
+      "verified_at": "2026-10-19",
+      "source_urls": [
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=14011",
+        "https://bv.prefectura.mai.gov.ro/proiecte-de-acte-normative-adoptate-emise/",
+        "https://www.monitorfg.ro/2020/09/29/analiza-monitorul-de-fagaras-vot-in-tara-fagarasului/"
+      ],
+      "baseline_snapshot_hash": "0513fd2fc6e736b3c7de1a15fa5036e6a3ad2ac637814c64d5de40b96d6855d3",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

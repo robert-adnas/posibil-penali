@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79760,6 +79760,24 @@
       ],
       "note": "DNA confirms the final 2020 conviction; county and BEC documents corroborate identity, office, locality, and 2012 USL candidacy. No duplicate or later official outcome located.",
       "reviewed_snapshot_hash": "bb88e564c5ef562a4588471f1e5e77534f984886f3df2e61681ed75b91873901"
+    },
+    {
+      "profile_id": "RV-4637",
+      "original_name": "Ovidiu-Alexandru Ovesea",
+      "current_name": "Ovidiu-Alexandru Ovesea",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-19",
+      "reviewer": "Codex + verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=14011",
+        "https://bv.prefectura.mai.gov.ro/proiecte-de-acte-normative-adoptate-emise/",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf"
+      ],
+      "note": "Identitatea, mandatul de primar Părău și afilierea PNL la candidatura din 2024 sunt corroborate; statusul este trimitere în judecată, nu condamnare.",
+      "reviewed_snapshot_hash": "0513fd2fc6e736b3c7de1a15fa5036e6a3ad2ac637814c64d5de40b96d6855d3"
     }
   ]
 }
