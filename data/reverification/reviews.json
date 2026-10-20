@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79778,6 +79778,25 @@
       ],
       "note": "Identitatea, mandatul de primar Părău și afilierea PNL la candidatura din 2024 sunt corroborate; statusul este trimitere în judecată, nu condamnare.",
       "reviewed_snapshot_hash": "0513fd2fc6e736b3c7de1a15fa5036e6a3ad2ac637814c64d5de40b96d6855d3"
+    },
+    {
+      "profile_id": "RV-4638",
+      "original_name": "Gavril Ropan",
+      "current_name": "Gavril Ropan",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-20",
+      "reviewer": "Codex + verificare editorială",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13893",
+        "https://mm.prefectura.mai.gov.ro/wp-content/uploads/sites/45/2022/04/Anexa-nr.-2-cuprinzand-spatiile-de-cazare-puse-la-dispozitie-cu-titlu-gratuit-actualizata-13.04.2022.pdf",
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf"
+      ],
+      "note": "DNA 13893 indică trimiterea în judecată din 13.07.2026, în stare de libertate, pentru două fapte de abuz în serviciu și obținere ilegală de fonduri. Prefectura Maramureș confirmă identitatea, funcția și localitatea; raportul AEP 2024 confirmă candidatura PNL la primărie, iar rezultatul BEC din 2012 documentează candidatura PDL. Căutările ulterioare după nume și dosar nu au identificat o soluție judiciară mai nouă. Verificat complet setul raw, additions, overrides, excluderi, hold-uri, manifest, reviews și variante de nume; fără duplicate sau coliziuni.",
+      "reviewed_snapshot_hash": "b636579127a8e038f6486f792030326245f36afd3c136d2f097f941a95dbee42"
     }
   ]
 }

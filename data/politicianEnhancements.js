@@ -67210,6 +67210,49 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Gavril Ropan',
+    party: 'PNL (candidat la primărie în 2024; anterior PDL în 2012)',
+    position: 'Primar al comunei Coroieni, județul Maramureș',
+    position_type: 'mayor',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      locality: 'Coroieni',
+      note: 'DNA și Instituția Prefectului Maramureș îl identifică drept primar al comunei Coroieni, județul Maramureș.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite (două fapte, una în formă continuată) și obținere ilegală de fonduri',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anunțat trimiterea sa în judecată la 13 iulie 2026, în stare de libertate, pentru două infracțiuni de abuz în serviciu cu obținere de foloase necuvenite, dintre care una în formă continuată, și obținere ilegală de fonduri. Acuzațiile sunt în curs de judecată și nu constituie o constatare a vinovăției. Documentul Instituției Prefectului Maramureș îl identifică drept primar al comunei Coroieni, iar raportul AEP pentru alegerile locale din 2024 îl consemnează ca candidat PNL la funcția de primar; rezultatul BEC din 2012 documentează candidatura sa PDL din același oraș.',
+    verified_at: '2026-10-20',
+    sources: [
+      {
+        label: 'DNA — trimiterea în judecată și acuzațiile',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13893',
+      },
+      {
+        label: 'Instituția Prefectului Maramureș — document cu identificarea primarului Coroieni',
+        kind: 'official',
+        url: 'https://mm.prefectura.mai.gov.ro/wp-content/uploads/sites/45/2022/04/Anexa-nr.-2-cuprinzand-spatiile-de-cazare-puse-la-dispozitie-cu-titlu-gratuit-actualizata-13.04.2022.pdf',
+      },
+      {
+        label: 'AEP — raportul finanțării electorale PNL Maramureș, alegeri locale 2024',
+        kind: 'official',
+        url: 'https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf',
+      },
+      {
+        label: 'Biroul Electoral Central — rezultate pentru primăria Coroieni, 2012',
+        kind: 'official',
+        url: 'https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf',
+      },
+    ],
+  },
 ];
 
 /**

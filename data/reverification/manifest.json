@@ -101117,6 +101117,28 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4638",
+      "baseline_index": 4637,
+      "name": "Gavril Ropan",
+      "party": "PNL",
+      "position": "Primar al comunei Coroieni, județul Maramureș",
+      "position_type": "mayor",
+      "legal_status": "indicted",
+      "verified_at": "2026-10-20",
+      "source_urls": [
+        "https://www.ziuaconstanta.ro/images/stories/2024/07/01/DANIELA/sit-contrib-electorale-chelt-elect-competitori-aleg-loc-10-05-08-06-2024-site.pdf",
+        "https://www.antena3.ro/pictures/documents/194-P_lista_vve_moc.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=13893",
+        "https://mm.prefectura.mai.gov.ro/wp-content/uploads/sites/45/2022/04/Anexa-nr.-2-cuprinzand-spatiile-de-cazare-puse-la-dispozitie-cu-titlu-gratuit-actualizata-13.04.2022.pdf"
+      ],
+      "baseline_snapshot_hash": "b636579127a8e038f6486f792030326245f36afd3c136d2f097f941a95dbee42",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }
