@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79797,6 +79797,24 @@
       ],
       "note": "DNA 13893 indică trimiterea în judecată din 13.07.2026, în stare de libertate, pentru două fapte de abuz în serviciu și obținere ilegală de fonduri. Prefectura Maramureș confirmă identitatea, funcția și localitatea; raportul AEP 2024 confirmă candidatura PNL la primărie, iar rezultatul BEC din 2012 documentează candidatura PDL. Căutările ulterioare după nume și dosar nu au identificat o soluție judiciară mai nouă. Verificat complet setul raw, additions, overrides, excluderi, hold-uri, manifest, reviews și variante de nume; fără duplicate sau coliziuni.",
       "reviewed_snapshot_hash": "b636579127a8e038f6486f792030326245f36afd3c136d2f097f941a95dbee42"
+    },
+    {
+      "profile_id": "RV-4639",
+      "original_name": "Ráduly István",
+      "current_name": "Ráduly István",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-21",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=13891",
+        "https://cv.prefectura.mai.gov.ro/despre-noi/conducere/",
+        "https://udmr.ro/profil/raduly-istvan"
+      ],
+      "note": "DNA identifies Ráduly István as Covasna prefect and records the 03.08.2026 indictment. The Covasna Prefecture and UDMR profile corroborate the same identity; the UDMR profile also documents his elected Ozun mayoral role. Name, office, county, political eligibility and current located legal status were checked; no duplicate or later official outcome was identified.",
+      "reviewed_snapshot_hash": "234fb6352f614ca4aadc0269da4d84dcf596a052a2975d3209dcc63161a5db3e"
     }
   ]
 }

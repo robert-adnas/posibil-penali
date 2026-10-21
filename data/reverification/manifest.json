@@ -101139,6 +101139,27 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4639",
+      "baseline_index": 4638,
+      "name": "Ráduly István",
+      "party": "UDMR",
+      "position": "Prefect al județului Covasna; fost primar al comunei Ozun",
+      "position_type": "local_official",
+      "legal_status": "indicted",
+      "verified_at": "2026-10-21",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=13891",
+        "https://cv.prefectura.mai.gov.ro/despre-noi/conducere/",
+        "https://udmr.ro/profil/raduly-istvan"
+      ],
+      "baseline_snapshot_hash": "234fb6352f614ca4aadc0269da4d84dcf596a052a2975d3209dcc63161a5db3e",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

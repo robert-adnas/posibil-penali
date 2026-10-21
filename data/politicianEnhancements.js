@@ -67253,6 +67253,44 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Ráduly István',
+    party: 'UDMR',
+    position: 'Prefect al județului Covasna; fost primar al comunei Ozun',
+    position_type: 'local_official',
+    geography: {
+      county: 'Covasna',
+      basis: 'office',
+      locality: 'Ozun',
+      note: 'DNA, Instituția Prefectului Covasna și profilul UDMR identifică aceeași persoană ca prefect al județului Covasna și fost primar al comunei Ozun.',
+    },
+    crime: 'Abuz în serviciu cu obținere de foloase necuvenite pentru altul',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'DNA a anunțat la 3 august 2026 trimiterea sa în judecată, în stare de libertate, pentru abuz în serviciu cu obținere de foloase necuvenite pentru altul, într-o cauză privind atribuirea unui contract de lucrări la sediul Instituției Prefectului Covasna. Acuzația este în curs de judecată și nu reprezintă o constatare a vinovăției. Instituția Prefectului Covasna îl identifică drept prefect, iar UDMR îl prezintă ca prefect și fost primar ales al comunei Ozun în 2004.',
+    verified_at: '2026-10-21',
+    sources: [
+      {
+        label: 'DNA — trimiterea în judecată și acuzația',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13891',
+      },
+      {
+        label: 'Instituția Prefectului Covasna — conducerea instituției',
+        kind: 'official',
+        url: 'https://cv.prefectura.mai.gov.ro/despre-noi/conducere/',
+      },
+      {
+        label: 'UDMR — profilul prefectului și fostului primar al comunei Ozun',
+        kind: 'profile',
+        url: 'https://udmr.ro/profil/raduly-istvan',
+      },
+    ],
+  },
 ];
 
 /**
