@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-23",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79815,6 +79815,25 @@
       ],
       "note": "DNA identifies Ráduly István as Covasna prefect and records the 03.08.2026 indictment. The Covasna Prefecture and UDMR profile corroborate the same identity; the UDMR profile also documents his elected Ozun mayoral role. Name, office, county, political eligibility and current located legal status were checked; no duplicate or later official outcome was identified.",
       "reviewed_snapshot_hash": "234fb6352f614ca4aadc0269da4d84dcf596a052a2975d3209dcc63161a5db3e"
+    },
+    {
+      "profile_id": "RV-4640",
+      "original_name": "Flavia Ramona Boghiu-Samoilă",
+      "current_name": "Flavia Ramona Boghiu-Samoilă",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-23",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12431",
+        "https://www.dna.ro/comunicat.xhtml?id=13975",
+        "https://brasovcity.ro/file-zone/rapoarte/primaria/liber%20acces/2025/Raport%20privind%20activitatea%20Primariei%20Municipiului%20Brasov%20pentru%20anul%202024.pdf",
+        "https://hcl.usr.ro/brasov/2020/h525"
+      ],
+      "note": "DNA's 06.02.2024 official bulletin identifies Boghiu Flavia-Ramona as Brașov deputy mayor and records the investigated abuse-of-office allegation. DNA's published final decision 567/Ap in case 1908/62/2024 records the definitive acquittal on 03.08.2026 because the act does not exist. Brașov's official 2024 activity report and the local-council decision corroborate the full hyphenated identity, elective office, locality and USR PLUS affiliation. Checked name variants and case number for later official developments; none were located. No duplicate or conflicting record was found.",
+      "reviewed_snapshot_hash": "f38f4f0bc229f7179b8ff90f6abcdbd697fff0706dd8311dd6fd3c9980c67b6a"
     }
   ]
 }

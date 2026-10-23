@@ -67291,6 +67291,44 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Flavia Ramona Boghiu-Samoilă',
+    party: 'USR',
+    position: 'Fost viceprimar al municipiului Brașov; consilier local al municipiului Brașov',
+    position_type: 'local_official',
+    geography: {
+      county: 'Brașov',
+      basis: 'office',
+      locality: 'Brașov',
+      note: 'Funcțiile elective relevante au fost în municipiul Brașov, județul Brașov.',
+    },
+    crime: 'Abuz în serviciu (acuzație; achitare definitivă)',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'acquitted',
+    details:
+      'DNA a publicat decizia penală nr. 567/Ap din 3 august 2026 a Curții de Apel Brașov, definitivă, în dosarul 1908/62/2024. Curtea a desființat parțial achitarea de la fond numai pentru a reține temeiul că fapta nu există și a achitat-o definitiv pe Boghiu-Samoilă Flavia Ramona pentru acuzația de abuz în serviciu. Hotărârea reprezintă o achitare definitivă, nu o constatare de vinovăție. Documentele oficiale ale municipiului o identifică drept consilier local ales pe lista Alianței USR PLUS și drept viceprimar al Brașovului.',
+    verified_at: '2026-10-23',
+    sources: [
+      {
+        label: 'DNA — decizia penală definitivă nr. 567/Ap din 3 august 2026, dosarul 1908/62/2024',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=13975',
+      },
+      {
+        label: 'Municipiul Brașov — raportul de activitate pentru 2024, componența Consiliului Local',
+        kind: 'official',
+        url: 'https://brasovcity.ro/file-zone/rapoarte/primaria/liber%20acces/2025/Raport%20privind%20activitatea%20Primariei%20Municipiului%20Brasov%20pentru%20anul%202024.pdf',
+      },
+      {
+        label: 'Consiliul Local Brașov — hotărârea nr. 525/2020 privind alegerea viceprimarului',
+        kind: 'official',
+        url: 'https://hcl.usr.ro/brasov/2020/h525',
+      },
+    ],
+  },
 ];
 
 /**

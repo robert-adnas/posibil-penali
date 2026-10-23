@@ -101160,6 +101160,25 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4640",
+      "baseline_index": 4639,
+      "name": "Flavia Ramona Boghiu-Samoilă",
+      "party": "USR",
+      "position": "Fost viceprimar al municipiului Brașov; consilier local al municipiului Brașov",
+      "position_type": "local_official",
+      "legal_status": "acquitted",
+      "verified_at": "2026-10-23",
+      "source_urls": [
+        "https://hcl.usr.ro/brasov/2020/h525",
+        "https://www.dna.ro/comunicat.xhtml?id=13975",
+        "https://brasovcity.ro/file-zone/rapoarte/primaria/liber%20acces/2025/Raport%20privind%20activitatea%20Primariei%20Municipiului%20Brasov%20pentru%20anul%202024.pdf"
+      ],
+      "baseline_snapshot_hash": "f38f4f0bc229f7179b8ff90f6abcdbd697fff0706dd8311dd6fd3c9980c67b6a",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
