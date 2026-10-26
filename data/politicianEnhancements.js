@@ -67329,6 +67329,50 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Kócza István',
+    party: 'UDMR',
+    position: 'Primar al comunei Buduslău, județul Bihor',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bihor',
+      basis: 'office',
+      locality: 'Buduslău',
+      note: 'Profilul UDMR și pagina filialei bihorene a Asociației Comunelor din România îl identifică drept primar al comunei Buduslău, județul Bihor.',
+    },
+    crime: 'Luare de mită',
+    sentence: '3 ani închisoare cu suspendare sub supraveghere, în primă instanță',
+    sentence_years: 3,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2026,
+    status: 'first_instance',
+    details:
+      'Tribunalul Cluj a admis la 20 octombrie 2026, în dosarul nr. 4641/117/2026, acordul de recunoaștere a vinovăției încheiat între Parchetul European – Biroul Teritorial Timișoara și Kócza István. Instanța l-a condamnat în primă instanță la 3 ani de închisoare cu suspendare sub supraveghere pentru luare de mită și a interzis, pentru 2 ani, dreptul de a fi ales, de a ocupa funcții care implică exercițiul autorității de stat și funcția de primar. Hotărârea era atacabilă cu apel în 10 zile de la comunicare; la verificarea din 26 octombrie 2026 nu a fost identificată o cale de atac înregistrată la Curtea de Apel Cluj. Prin urmare, profilul consemnează numai soluția de primă instanță, nu o condamnare definitivă. EPPO anunțase la 20 mai 2026 că primarul comunei Buduslău fusese acuzat de luare de mită în aceeași cauză.',
+    verified_at: '2026-10-26',
+    sources: [
+      {
+        label: 'Portalul instanțelor — dosarul nr. 4641/117/2026, Tribunalul Cluj',
+        kind: 'court',
+        url: 'https://portal.just.ro/117/SitePages/Dosare.aspx',
+        description: 'Interogarea oficială după KOCZA ISTVAN afișează dosarul 4641/117/2026 și hotărârea nr. 296/20.10.2026, inclusiv soluția, pedeapsa, caracterul atacabil și măsura controlului judiciar.',
+      },
+      {
+        label: 'Parchetul European — primarul din Buduslău, acuzat de luare de mită',
+        kind: 'official',
+        url: 'https://www.eppo.europa.eu/media/news/romania-mayor-caught-red-handed-while-receiving-bribe-2026-05-20_en',
+      },
+      {
+        label: 'UDMR — profilul lui Kócza István, primar Buduslău',
+        kind: 'official',
+        url: 'https://udmr.ro/profil/Kocza-Istvan',
+      },
+      {
+        label: 'Asociația Comunelor din România, filiala Bihor — Primăria Buduslău',
+        kind: 'official',
+        url: 'https://acorbihor.ro/despre-filiala/comunele-membre/comuna-buduslau/',
+      },
+    ],
+  },
 ];
 
 /**

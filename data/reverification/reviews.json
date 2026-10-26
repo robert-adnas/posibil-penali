@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-26",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79834,6 +79834,25 @@
       ],
       "note": "DNA's 06.02.2024 official bulletin identifies Boghiu Flavia-Ramona as Brașov deputy mayor and records the investigated abuse-of-office allegation. DNA's published final decision 567/Ap in case 1908/62/2024 records the definitive acquittal on 03.08.2026 because the act does not exist. Brașov's official 2024 activity report and the local-council decision corroborate the full hyphenated identity, elective office, locality and USR PLUS affiliation. Checked name variants and case number for later official developments; none were located. No duplicate or conflicting record was found.",
       "reviewed_snapshot_hash": "f38f4f0bc229f7179b8ff90f6abcdbd697fff0706dd8311dd6fd3c9980c67b6a"
+    },
+    {
+      "profile_id": "RV-4641",
+      "original_name": "Kócza István",
+      "current_name": "Kócza István",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-26",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://portal.just.ro/117/SitePages/Dosare.aspx",
+        "https://www.eppo.europa.eu/media/news/romania-mayor-caught-red-handed-while-receiving-bribe-2026-05-20_en",
+        "https://udmr.ro/profil/Kocza-Istvan",
+        "https://acorbihor.ro/despre-filiala/comunele-membre/comuna-buduslau/"
+      ],
+      "note": "Portalul instanțelor confirmă identitatea inculpatului, dosarul 4641/117/2026 și hotărârea nr. 296/20.10.2026; EPPO confirmă cauza de mită privind primarul din Buduslău. UDMR și ACoR Bihor confirmă aceeași persoană ca primar UDMR al comunei Buduslău, județul Bihor. Nu există potrivire în setul editorial pentru variantele Kocza/Kócza Istvan. Căutarea oficială la Curtea de Apel Cluj nu a identificat apel; hotărârea rămâne consemnată strict ca primă instanță.",
+      "reviewed_snapshot_hash": "19ecdeb541509e0ba9f2532478df78b9d2f2ee1188e87dc1e139dc3c39468d0a"
     }
   ]
 }

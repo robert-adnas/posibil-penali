@@ -101179,6 +101179,28 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4641",
+      "baseline_index": 4640,
+      "name": "Kócza István",
+      "party": "UDMR",
+      "position": "Primar al comunei Buduslău, județul Bihor",
+      "position_type": "mayor",
+      "legal_status": "first_instance",
+      "verified_at": "2026-10-26",
+      "source_urls": [
+        "https://acorbihor.ro/despre-filiala/comunele-membre/comuna-buduslau/",
+        "https://www.eppo.europa.eu/media/news/romania-mayor-caught-red-handed-while-receiving-bribe-2026-05-20_en",
+        "https://udmr.ro/profil/Kocza-Istvan",
+        "https://portal.just.ro/117/SitePages/Dosare.aspx"
+      ],
+      "baseline_snapshot_hash": "19ecdeb541509e0ba9f2532478df78b9d2f2ee1188e87dc1e139dc3c39468d0a",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }
