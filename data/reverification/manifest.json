@@ -101201,6 +101201,28 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4642",
+      "baseline_index": 4641,
+      "name": "Constantin Smeu",
+      "party": "PNL",
+      "position": "Fost primar al comunei Tigveni, județul Argeș; fost viceprimar al comunei",
+      "position_type": "mayor",
+      "legal_status": "first_instance",
+      "verified_at": "2026-10-27",
+      "source_urls": [
+        "https://www.eppo.europa.eu/media/news/romania-mayor-tigveni-pleads-guilty-subsidy-fraud-committed-his-term-2023-06-13_en",
+        "https://www.cjarges.ro/en/web/tigveni/primar-mandat-2020-2024",
+        "https://www.cjarges.ro/en/web/tigveni/viceprimar-mandat-2016-2020",
+        "https://www.ziuaconstanta.ro/stiri/justitie/primarul-constantin-smeu-pnl-condamnare-dupa-acordul-de-recunoastere-a-vinovatiei-cu-parchetul-european-833689.html"
+      ],
+      "baseline_snapshot_hash": "15d37e7c31be94ef50dc389831410dfca3f9be260b3d1ebe9206732bfdd30091",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

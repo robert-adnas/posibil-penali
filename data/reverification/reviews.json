@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79853,6 +79853,24 @@
       ],
       "note": "Portalul instanțelor confirmă identitatea inculpatului, dosarul 4641/117/2026 și hotărârea nr. 296/20.10.2026; EPPO confirmă cauza de mită privind primarul din Buduslău. UDMR și ACoR Bihor confirmă aceeași persoană ca primar UDMR al comunei Buduslău, județul Bihor. Nu există potrivire în setul editorial pentru variantele Kocza/Kócza Istvan. Căutarea oficială la Curtea de Apel Cluj nu a identificat apel; hotărârea rămâne consemnată strict ca primă instanță.",
       "reviewed_snapshot_hash": "19ecdeb541509e0ba9f2532478df78b9d2f2ee1188e87dc1e139dc3c39468d0a"
+    },
+    {
+      "profile_id": "RV-4642",
+      "original_name": "Constantin Smeu",
+      "current_name": "Constantin Smeu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-27",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://www.eppo.europa.eu/media/news/romania-mayor-tigveni-pleads-guilty-subsidy-fraud-committed-his-term-2023-06-13_en",
+        "https://www.cjarges.ro/en/web/tigveni/primar-mandat-2020-2024",
+        "https://www.ziuaconstanta.ro/stiri/justitie/primarul-constantin-smeu-pnl-condamnare-dupa-acordul-de-recunoastere-a-vinovatiei-cu-parchetul-european-833689.html"
+      ],
+      "note": "EPPO identifies the Tigveni mayor and the 2023 plea-agreement case; the official Tigveni mandate page resolves the identity, office, locality and relevant PNL affiliation. The reported 31.10.2023 Tribunalul București outcome is non-final, and targeted later searches located no authoritative appellate outcome; status remains first_instance. The prior 2016–2020 PSD vice-mayor mandate is separately documented. Exact, diacritic, spacing, reversed-order and locality searches found no duplicate, exclusion or hold.",
+      "reviewed_snapshot_hash": "15d37e7c31be94ef50dc389831410dfca3f9be260b3d1ebe9206732bfdd30091"
     }
   ]
 }

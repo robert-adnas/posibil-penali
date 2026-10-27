@@ -67373,6 +67373,53 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Constantin Smeu',
+    party: 'PNL',
+    position: 'Fost primar al comunei Tigveni, județul Argeș; fost viceprimar al comunei',
+    position_type: 'mayor',
+    geography: {
+      county: 'Argeș',
+      basis: 'office',
+      locality: 'Tigveni',
+      note: 'Documentele oficiale ale comunei Tigveni îl identifică drept primar al comunei în mandatul 2020–2024 și anterior viceprimar.',
+    },
+    crime: 'Folosirea sau prezentarea de documente ori declarații false pentru obținerea de fonduri europene; fals în înscrisuri sub semnătură privată',
+    sentence: '2 ani și 2 luni închisoare cu suspendare, în primă instanță',
+    sentence_years: 2.17,
+    execution_type: 'Cu suspendare',
+    conviction_year: 2023,
+    status: 'first_instance',
+    details:
+      'Parchetul European a anunțat la 13 iunie 2023 că a sesizat instanța cu un acord de recunoaștere a vinovăției privind primarul comunei Tigveni, Argeș, pentru fraudarea subvențiilor europene înainte de mandat. Potrivit relatării din 31 octombrie 2023 despre soluția Tribunalului București, acordul a fost admis și Constantin Smeu a primit 2 ani și 2 luni de închisoare cu suspendare; relatarea precizează că hotărârea nu era definitivă. La verificarea din 27 octombrie 2026 nu a fost identificată o sursă oficială ulterioară care să confirme soluționarea unei căi de atac, astfel profilul consemnează strict soluția de primă instanță, nu o condamnare definitivă.',
+    verified_at: '2026-10-27',
+    sources: [
+      {
+        label: 'Parchetul European — primarul din Tigveni, acord de recunoaștere pentru fraudă cu subvenții',
+        kind: 'official',
+        url: 'https://www.eppo.europa.eu/media/news/romania-mayor-tigveni-pleads-guilty-subsidy-fraud-committed-his-term-2023-06-13_en',
+        description: 'Comunicatul din 13.06.2023 identifică primarul comunei Tigveni, județul Argeș, cauza, perioada faptelor, acordul de recunoaștere și pedeapsa acceptată.',
+      },
+      {
+        label: 'Primăria Tigveni — primar, mandatul 2020–2024',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/web/tigveni/primar-mandat-2020-2024',
+        description: 'Pagina instituției îl identifică pe Constantin Smeu ca primar PNL al comunei Tigveni în mandatul 2020–2024.',
+      },
+      {
+        label: 'Primăria Tigveni — viceprimar, mandatul 2016–2020',
+        kind: 'official',
+        url: 'https://www.cjarges.ro/en/web/tigveni/viceprimar-mandat-2016-2020',
+        description: 'Pagina instituției îl identifică pe Constantin Smeu ca viceprimar PSD al comunei Tigveni în mandatul 2016–2020.',
+      },
+      {
+        label: 'Ziua de Constanța — soluția Tribunalului București în acordul EPPO',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/stiri/justitie/primarul-constantin-smeu-pnl-condamnare-dupa-acordul-de-recunoastere-a-vinovatiei-cu-parchetul-european-833689.html',
+        description: 'Relatează la 31.10.2023 admiterea acordului, pedeapsa de 2 ani și 2 luni cu suspendare și caracterul nedefinitiv al soluției.',
+      },
+    ],
+  },
 ];
 
 /**
