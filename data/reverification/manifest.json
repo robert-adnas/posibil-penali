@@ -101223,6 +101223,28 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4643",
+      "baseline_index": 4642,
+      "name": "Dan Nicolcenco",
+      "party": "PNL",
+      "position": "Fost primar al orașului Sulina, județul Tulcea",
+      "position_type": "mayor",
+      "legal_status": "indicted",
+      "verified_at": "2026-10-28",
+      "source_urls": [
+        "https://prezenta.roaep.ro/locale27092020/data/json/sicpv/pv/pv_tl_final.json",
+        "https://www.eppo.europa.eu/media/news/romania-former-mayor-indicted-eu-funding-fraud-involving-mooring-facilities-sulina-2025-11-06_en",
+        "https://www.primariatulcea.ro/wp-content/uploads/2021/11/HCL-nr.-301-din-28.10.2021.pdf",
+        "https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/alegeri-locale-2024-candidatii-la-primaria-si-consiliul-local-sulina-judetul-tulcea-documente-858462.html"
+      ],
+      "baseline_snapshot_hash": "4b0071399aec94ea2c2c0be757789dba53c649d0effd0dac31c4daa2d6365fb5",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

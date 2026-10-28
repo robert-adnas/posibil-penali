@@ -67420,6 +67420,53 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Dan Nicolcenco',
+    party: 'PNL (primar ales în 2020; candidat Forța Dreptei în 2024)',
+    position: 'Fost primar al orașului Sulina, județul Tulcea',
+    position_type: 'mayor',
+    geography: {
+      county: 'Tulcea',
+      basis: 'office',
+      locality: 'Sulina',
+      note: 'Rezultatul oficial al alegerilor locale din 2020 și documentele administrației locale îl identifică drept primar al orașului Sulina, județul Tulcea.',
+    },
+    crime: 'Fraudă cu fonduri europene prin prezentarea de documente false privind proiectul de facilități de acostare din Sulina (acuzație)',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'indicted',
+    details:
+      'Parchetul European a anunțat la 6 noiembrie 2025 trimiterea în judecată a fostului primar al orașului Sulina într-o cauză privind fonduri din Programul Operațional pentru Pescuit și Afaceri Maritime. Comunicatul arată că, potrivit acuzației, în calitate de primar ar fi prezentat documente care atestau în mod fals finalizarea proiectului „Facilități de acostare în orașul Sulina – zona Canalului Podul Plajei Sulina” și livrarea echipamentelor, cu un prejudiciu potențial estimat la 892.495,54 lei. EPPO precizează că persoana este prezumată nevinovată. Rezultatul oficial al alegerilor locale din 2020 îl consemnează candidat PNL ales la Sulina; în 2024 a candidat la aceeași funcție din partea Forța Dreptei. La verificarea din 28 octombrie 2026 nu a fost localizat un document oficial nominal care să indice o soluție ulterioară; profilul consemnează strict trimiterea în judecată anunțată de EPPO și nu deduce o soluție a cauzei.',
+    verified_at: '2026-10-28',
+    sources: [
+      {
+        label: 'Parchetul European — trimiterea în judecată pentru frauda privind facilitățile de acostare din Sulina',
+        kind: 'official',
+        url: 'https://www.eppo.europa.eu/media/news/romania-former-mayor-indicted-eu-funding-fraud-involving-mooring-facilities-sulina-2025-11-06_en',
+        description: 'Comunicatul din 06.11.2025 descrie acuzația, rolul de fost primar al Sulinei și prejudiciul potențial.',
+      },
+      {
+        label: 'Autoritatea Electorală Permanentă — rezultatele alegerilor locale din 2020, județul Tulcea',
+        kind: 'official',
+        url: 'https://prezenta.roaep.ro/locale27092020/data/json/sicpv/pv/pv_tl_final.json',
+        description: 'Rezultatul oficial pentru județul Tulcea îl consemnează pe Dan Nicolcenco, candidatul PNL ales la primăria Sulina.',
+      },
+      {
+        label: 'Primăria Tulcea — hotărârea ADI cu reprezentantul orașului Sulina',
+        kind: 'official',
+        url: 'https://www.primariatulcea.ro/wp-content/uploads/2021/11/HCL-nr.-301-din-28.10.2021.pdf',
+        description: 'Documentul administrației locale îl identifică pe Nicolcenco Dan drept primarul orașului Sulina.',
+      },
+      {
+        label: 'Biroul Electoral de Circumscripție Județean Tulcea — candidaturile locale din 2024',
+        kind: 'press',
+        url: 'https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/alegeri-locale-2024-candidatii-la-primaria-si-consiliul-local-sulina-judetul-tulcea-documente-858462.html',
+        description: 'Publică lista Biroului Electoral de Circumscripție Județean Tulcea, unde NICOLCENCO DAN figurează candidat Forța Dreptei la primăria Sulina.',
+      },
+    ],
+  },
 ];
 
 /**

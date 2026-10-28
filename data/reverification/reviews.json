@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79871,6 +79871,25 @@
       ],
       "note": "EPPO identifies the Tigveni mayor and the 2023 plea-agreement case; the official Tigveni mandate page resolves the identity, office, locality and relevant PNL affiliation. The reported 31.10.2023 Tribunalul București outcome is non-final, and targeted later searches located no authoritative appellate outcome; status remains first_instance. The prior 2016–2020 PSD vice-mayor mandate is separately documented. Exact, diacritic, spacing, reversed-order and locality searches found no duplicate, exclusion or hold.",
       "reviewed_snapshot_hash": "15d37e7c31be94ef50dc389831410dfca3f9be260b3d1ebe9206732bfdd30091"
+    },
+    {
+      "profile_id": "RV-4643",
+      "original_name": "Dan Nicolcenco",
+      "current_name": "Dan Nicolcenco",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-28",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://www.eppo.europa.eu/media/news/romania-former-mayor-indicted-eu-funding-fraud-involving-mooring-facilities-sulina-2025-11-06_en",
+        "https://prezenta.roaep.ro/locale27092020/data/json/sicpv/pv/pv_tl_final.json",
+        "https://www.primariatulcea.ro/wp-content/uploads/2021/11/HCL-nr.-301-din-28.10.2021.pdf",
+        "https://www.ziuaconstanta.ro/informatii/alegeri-electorale-romania/alegeri-locale-2024-candidatii-la-primaria-si-consiliul-local-sulina-judetul-tulcea-documente-858462.html"
+      ],
+      "note": "EPPO a anunțat la 06.11.2025 trimiterea în judecată a fostului primar al Sulinei pentru presupusa fraudă cu fonduri UE; acuzația rămâne neconfirmată judiciar. AEP și documentul administrației locale confirmă identitatea, funcția și județul; lista BECJ confirmă candidatura din 2024. Căutările nominale în surse oficiale și după cauză nu au localizat o soluție ulterioară, astfel este consemnat strict stadiul de trimitere în judecată.",
+      "reviewed_snapshot_hash": "4b0071399aec94ea2c2c0be757789dba53c649d0effd0dac31c4daa2d6365fb5"
     }
   ]
 }
