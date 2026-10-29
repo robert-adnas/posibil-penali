@@ -101245,6 +101245,26 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4644",
+      "baseline_index": 4643,
+      "name": "Benone Moraru",
+      "party": "PSD",
+      "position": "Primar al orașului Slănic-Moldova, județul Bacău",
+      "position_type": "mayor",
+      "legal_status": "investigated",
+      "verified_at": "2026-10-29",
+      "source_urls": [
+        "https://visitslanicmoldova.ro/administratie-publica/",
+        "https://www.dna.ro/comunicat.xhtml?id=14057"
+      ],
+      "baseline_snapshot_hash": "3023431069c01ec2b2a20c93648851619442b3b8ab956b971e5d495756365288",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

@@ -67467,6 +67467,41 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Benone Moraru',
+    party: 'PSD',
+    position: 'Primar al orașului Slănic-Moldova, județul Bacău',
+    position_type: 'mayor',
+    geography: {
+      county: 'Bacău',
+      basis: 'office',
+      locality: 'Slănic-Moldova',
+      note: 'Pagina publică a administrației orașului îl identifică drept primar al Slănic-Moldova, județul Bacău, din noiembrie 2024.',
+    },
+    crime: 'Luare de mită (acuzație)',
+    sentence: null,
+    sentence_years: null,
+    execution_type: null,
+    conviction_year: null,
+    status: 'investigated',
+    details:
+      'DNA a anunțat la 28 octombrie 2026 punerea în mișcare a acțiunii penale față de Benone Moraru, primarul orașului Slănic-Moldova, pentru luare de mită. Potrivit comunicatului, în legătură cu un contract pentru intervenții la alimentarea cu apă a orașului, acesta ar fi primit 15.000 de euro în iulie 2026 și 6.000 de euro la 27 octombrie 2026, moment în care procurorii au consemnat flagrantul. În actualizarea din aceeași zi, DNA arată că judecătorul de drepturi și libertăți de la Tribunalul București a admis arestarea preventivă pentru 30 de zile. Măsura preventivă nu reprezintă o condamnare, iar persoana beneficiază de prezumția de nevinovăție. Pagina administrației locale îl identifică drept primar PSD, în funcție din 1 noiembrie 2024. La verificarea din 29 octombrie 2026 nu a fost localizat un document oficial nominal privind o evoluție procedurală ulterioară actualizării DNA.',
+    verified_at: '2026-10-29',
+    sources: [
+      {
+        label: 'DNA — acțiune penală și arest preventiv',
+        kind: 'official',
+        url: 'https://www.dna.ro/comunicat.xhtml?id=14057',
+        description: 'Comunicatul din 28.10.2026 identifică primarul, acuzația, faptele pretinse și actualizarea privind arestul preventiv.',
+      },
+      {
+        label: 'Administrația publică Slănic-Moldova — primar și partid',
+        kind: 'official',
+        url: 'https://visitslanicmoldova.ro/administratie-publica/',
+        description: 'Pagina administrației orașului îl indică pe Benone Moraru ca primar al Slănic-Moldova din partea PSD, din 1 noiembrie 2024.',
+      },
+    ],
+  },
 ];
 
 /**

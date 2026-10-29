@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79890,6 +79890,23 @@
       ],
       "note": "EPPO a anunțat la 06.11.2025 trimiterea în judecată a fostului primar al Sulinei pentru presupusa fraudă cu fonduri UE; acuzația rămâne neconfirmată judiciar. AEP și documentul administrației locale confirmă identitatea, funcția și județul; lista BECJ confirmă candidatura din 2024. Căutările nominale în surse oficiale și după cauză nu au localizat o soluție ulterioară, astfel este consemnat strict stadiul de trimitere în judecată.",
       "reviewed_snapshot_hash": "4b0071399aec94ea2c2c0be757789dba53c649d0effd0dac31c4daa2d6365fb5"
+    },
+    {
+      "profile_id": "RV-4644",
+      "original_name": "Benone Moraru",
+      "current_name": "Benone Moraru",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-10-29",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=14057",
+        "https://visitslanicmoldova.ro/administratie-publica/"
+      ],
+      "note": "DNA identifică aceeași persoană ca primar al Slănic-Moldova, inculpat pentru luare de mită, și actualizează la 28.10.2026 că Tribunalul București a admis arestarea preventivă pentru 30 de zile. Pagina administrației orașului confirmă numele, funcția, localitatea, județul și afilierea PSD. Căutările nominale și după procedură nu au localizat o dezvoltare oficială ulterioară actualizării DNA; nu se deduce o soluție de fond. Verificările exacte, fără diacritice, cu ordine inversată, după localitate, în setul complet, manifest, review-uri, excluderi și hold-uri nu au găsit duplicat ori coliziune.",
+      "reviewed_snapshot_hash": "3023431069c01ec2b2a20c93648851619442b3b8ab956b971e5d495756365288"
     }
   ]
 }
