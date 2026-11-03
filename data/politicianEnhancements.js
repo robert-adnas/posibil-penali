@@ -67502,6 +67502,43 @@ export const politicianAdditions = [
       },
     ],
   },
+  {
+    name: 'Silvian-Cătălin Petruț-Ticuleanu',
+    party: 'PNL',
+    position: 'Consilier local PNL al orașului Târgu Lăpuș, județul Maramureș',
+    position_type: 'local_official',
+    geography: {
+      county: 'Maramureș',
+      basis: 'office',
+      locality: 'Târgu Lăpuș',
+      note: 'Mandatul de consilier local al orașului Târgu Lăpuș, județul Maramureș, a fost validat după alegerile locale din 2024.',
+    },
+    crime: 'Incompatibilitate',
+    status: 'integrity',
+    details:
+      'ANI a comunicat la 4 mai 2026 constatarea unei incompatibilități pentru persoana indicată în comunicat ca „Petruț Ticulescu Silvian-Cătălin”, reprezentant al Consiliului Local Târgu Lăpuș în consiliul de administrație al spitalului orășenesc: între 22 decembrie 2022 și 22 decembrie 2025 a fost simultan membru al acelui consiliu de administrație și membru al unui birou politic local. Documentele electorale și ale consiliului local identifică aceeași persoană, cu numele complet Silvian-Cătălin Petruț-Ticuleanu, drept consilier local PNL din Târgu Lăpuș; variația „Ticulescu” din comunicatul ANI este păstrată ca limitare de identificare. Constatarea ANI este una administrativă, nu o condamnare penală. La verificarea din 3 noiembrie 2026 nu a fost localizată o hotărâre sau o comunicare oficială nominală privind soluția unei eventuale contestații.',
+    verified_at: '2026-11-03',
+    sources: [
+      {
+        label: 'ANI — constatarea incompatibilității',
+        kind: 'official',
+        url: 'https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/',
+        description: 'Comunicatul din 4.05.2026 descrie funcția, localitatea, perioada și constatarea ANI; instituția a redat numele ca „Petruț Ticulescu Silvian-Cătălin”.',
+      },
+      {
+        label: 'Biroul Electoral Târgu Lăpuș — rezultate și mandate locale 2024',
+        kind: 'official',
+        url: 'https://primariatargulapus.ro/storage/7325/Proces%20verbal%20privind%20centralizare%20voturi%20CONSILIU%20LOCAL.pdf',
+        description: 'Procesul-verbal electoral îl identifică pe Silvian-Cătălin Petruț-Ticuleanu pe lista PNL și între aleșii Consiliului Local Târgu Lăpuș.',
+      },
+      {
+        label: 'Primăria Târgu Lăpuș — validarea mandatului de consilier local',
+        kind: 'official',
+        url: 'https://primariatargulapus.ro/storage/9922/%C3%8Encheiere%20434%20din%202025.pdf',
+        description: 'Documentul consemnează validarea mandatului lui Petruț-Ticuleanu Silvian-Cătălin, candidat PNL, și oferă corroborarea independentă a identității.',
+      },
+    ],
+  },
 ];
 
 /**

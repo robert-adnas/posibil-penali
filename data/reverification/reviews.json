@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-11-03",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79907,6 +79907,24 @@
       ],
       "note": "DNA identifică aceeași persoană ca primar al Slănic-Moldova, inculpat pentru luare de mită, și actualizează la 28.10.2026 că Tribunalul București a admis arestarea preventivă pentru 30 de zile. Pagina administrației orașului confirmă numele, funcția, localitatea, județul și afilierea PSD. Căutările nominale și după procedură nu au localizat o dezvoltare oficială ulterioară actualizării DNA; nu se deduce o soluție de fond. Verificările exacte, fără diacritice, cu ordine inversată, după localitate, în setul complet, manifest, review-uri, excluderi și hold-uri nu au găsit duplicat ori coliziune.",
       "reviewed_snapshot_hash": "3023431069c01ec2b2a20c93648851619442b3b8ab956b971e5d495756365288"
+    },
+    {
+      "profile_id": "RV-4645",
+      "original_name": "Silvian-Cătălin Petruț-Ticuleanu",
+      "current_name": "Silvian-Cătălin Petruț-Ticuleanu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-03",
+      "reviewer": "Codex automated research",
+      "evidence": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://primariatargulapus.ro/storage/7325/Proces%20verbal%20privind%20centralizare%20voturi%20CONSILIU%20LOCAL.pdf",
+        "https://primariatargulapus.ro/storage/9922/%C3%8Encheiere%20434%20din%202025.pdf"
+      ],
+      "note": "ANI identifică persoana ca Petruț Ticulescu Silvian-Cătălin; documentele electorale și de validare ale Târgu Lăpuș confirmă aceeași funcție, localitate și prenume sub forma Petruț-Ticuleanu Silvian-Cătălin. Constatarea administrativă ANI este confirmată ca ultimul rezultat oficial nominal localizat; nu a fost găsită o soluție ulterioară a unei eventuale contestații.",
+      "reviewed_snapshot_hash": "f64ff9347942b7c769ad2a0f93888d0628262e126f70385b6e6a61844e93d6aa"
     }
   ]
 }

@@ -101265,6 +101265,25 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4645",
+      "baseline_index": 4644,
+      "name": "Silvian-Cătălin Petruț-Ticuleanu",
+      "party": "PNL",
+      "position": "Consilier local PNL al orașului Târgu Lăpuș, județul Maramureș",
+      "position_type": "local_official",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-03",
+      "source_urls": [
+        "https://integritate.eu/incidente-de-integritate-12-persoane-prevazute-de-legea-nr-176-2010-3/",
+        "https://primariatargulapus.ro/storage/7325/Proces%20verbal%20privind%20centralizare%20voturi%20CONSILIU%20LOCAL.pdf",
+        "https://primariatargulapus.ro/storage/9922/%C3%8Encheiere%20434%20din%202025.pdf"
+      ],
+      "baseline_snapshot_hash": "f64ff9347942b7c769ad2a0f93888d0628262e126f70385b6e6a61844e93d6aa",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
