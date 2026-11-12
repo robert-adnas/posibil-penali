@@ -101284,6 +101284,24 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4646",
+      "baseline_index": 4645,
+      "name": "Iusein Visel",
+      "party": "PSD",
+      "position": "Primar al comunei Dobromir, județul Constanța",
+      "position_type": "mayor",
+      "legal_status": "prescribed",
+      "verified_at": "2026-11-12",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=10471",
+        "https://primariadobromir.ro/dobromir/despre-noi/"
+      ],
+      "baseline_snapshot_hash": "f04f9ae0e36a1826c85d166ebfb6486018e2274f01c247d7cf1ae217aa424870",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

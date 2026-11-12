@@ -25499,6 +25499,36 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
   }));
 
 export const politicianAdditions = [
+{
+  "name": "Iusein Visel",
+  "party": "PSD",
+  "position": "Primar al comunei Dobromir, județul Constanța",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Constanța",
+    "locality": "Dobromir",
+    "basis": "office"
+  },
+  "crime": "Complicitate la obținerea nelegală de fonduri europene",
+  "status": "prescribed",
+  "sentence": "Încetarea definitivă a procesului penal prin prescripție, 25 iunie 2026",
+  "details": "DNA a anunțat trimiterea în judecată pentru sprijinirea obținerii unor subvenții APIA prin înscrisuri nereale. Prin decizia definitivă 696 din 25 iunie 2026, Curtea de Apel Constanța a constatat prescripția. Au fost stabilite obligații civile de 453.052,50 lei, plus accesorii fiscale. Profilul privește exclusiv această cauză; prescripția nu reprezintă o condamnare.",
+  "verified_at": "2026-11-12",
+  "sources": [
+    {
+      "label": "DNA — actualizare definitivă din 14 septembrie 2026",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=10471",
+      "description": "Identitate, funcție și soluție definitivă din 25.06.2026."
+    },
+    {
+      "label": "Primăria Dobromir — identitate și afiliere",
+      "kind": "official",
+      "url": "https://primariadobromir.ro/dobromir/despre-noi/",
+      "description": "Identifică primarul Visel Iusein, PSD, ales în 2016; numele este redat în ordine inversă."
+    }
+  ]
+},
   {
     name: 'Gelil Eserghep',
     party: 'PRM',

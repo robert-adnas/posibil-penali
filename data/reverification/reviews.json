@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-12",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79925,6 +79925,23 @@
       ],
       "note": "ANI identifică persoana ca Petruț Ticulescu Silvian-Cătălin; documentele electorale și de validare ale Târgu Lăpuș confirmă aceeași funcție, localitate și prenume sub forma Petruț-Ticuleanu Silvian-Cătălin. Constatarea administrativă ANI este confirmată ca ultimul rezultat oficial nominal localizat; nu a fost găsită o soluție ulterioară a unei eventuale contestații.",
       "reviewed_snapshot_hash": "f64ff9347942b7c769ad2a0f93888d0628262e126f70385b6e6a61844e93d6aa"
+    },
+    {
+      "profile_id": "RV-4646",
+      "original_name": "Iusein Visel",
+      "current_name": "Iusein Visel",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-12",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=10471",
+        "https://primariadobromir.ro/dobromir/despre-noi/"
+      ],
+      "note": "Identitate coroborată cu funcția și localitatea; DNA confirmă soluția definitivă prin prescripție din 25.06.2026. Căutări pentru evoluții ulterioare și variante de nume fără duplicat identificat. Profil limitat la cauza APIA, fără combinarea altor proceduri.",
+      "reviewed_snapshot_hash": "f04f9ae0e36a1826c85d166ebfb6486018e2274f01c247d7cf1ae217aa424870"
     }
   ]
 }
