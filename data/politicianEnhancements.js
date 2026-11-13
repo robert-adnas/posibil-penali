@@ -25500,6 +25500,36 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Cornel Resmeriță",
+  "party": "PSD",
+  "position": "Fost primar al municipiului Lupeni, județul Hunedoara",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Hunedoara",
+    "locality": "Lupeni",
+    "basis": "office"
+  },
+  "crime": "Abuz în serviciu — contractul de alimentare cu energie electrică a stațiunii Straja",
+  "status": "prescribed",
+  "sentence": "Încetare definitivă prin prescripție, 28 iulie 2022",
+  "details": "DNA a anunțat trimiterea în judecată în legătură cu atribuirea contractului pentru alimentarea cu energie electrică a stațiunii Straja. Prin decizia definitivă 621 din 28 iulie 2022, Curtea de Apel Alba a constatat prescripția în privința sa. Au fost stabilite despăgubiri civile solidare de 3.364.144,86 lei. Profilul privește exclusiv această cauză și nu indică o condamnare penală. Ultima soluție oficială localizată la verificarea din 13 noiembrie 2026 este cea din 2022.",
+  "verified_at": "2026-11-13",
+  "sources": [
+    {
+      "label": "DNA — soluția definitivă, actualizare 12 august 2022",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=7328",
+      "description": "Identifică primarul, acuzația, prescripția definitivă și despăgubirile civile."
+    },
+    {
+      "label": "Consiliul Local Lupeni — proces-verbal 23 octombrie 2020",
+      "kind": "official",
+      "url": "https://www.municipiullupeni.ro/dm_lupeni/portal.nsf/3C8CF870C9341ADFC225872C003A0412/%24FILE/proces-verbal-%C8%99edin%C8%9B%C4%83-extraordinar%C4%83-23-octombrie-2020.pdf",
+      "description": "Pagina 3 identifică fostul primar Cornel Resmeriță și legătura politică PSD, separat de Cornel Cristian și Lucian Marius Resmeriță."
+    }
+  ]
+},
+{
   "name": "Iusein Visel",
   "party": "PSD",
   "position": "Primar al comunei Dobromir, județul Constanța",

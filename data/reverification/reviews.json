@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-13",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79942,6 +79942,23 @@
       ],
       "note": "Identitate coroborată cu funcția și localitatea; DNA confirmă soluția definitivă prin prescripție din 25.06.2026. Căutări pentru evoluții ulterioare și variante de nume fără duplicat identificat. Profil limitat la cauza APIA, fără combinarea altor proceduri.",
       "reviewed_snapshot_hash": "f04f9ae0e36a1826c85d166ebfb6486018e2274f01c247d7cf1ae217aa424870"
+    },
+    {
+      "profile_id": "RV-4647",
+      "original_name": "Cornel Resmeriță",
+      "current_name": "Cornel Resmeriță",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-13",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7328",
+        "https://www.municipiullupeni.ro/dm_lupeni/portal.nsf/3C8CF870C9341ADFC225872C003A0412/%24FILE/proces-verbal-%C8%99edin%C8%9B%C4%83-extraordinar%C4%83-23-octombrie-2020.pdf"
+      ],
+      "note": "Identitate separată de ceilalți Resmeriță; cauza Straja, prescripție definitivă 28.07.2022. Căutări pentru evoluții ulterioare fără o soluție oficială ulterioară localizată. Verificare automată, fără atribuire unui reviewer uman.",
+      "reviewed_snapshot_hash": "c76c0503fac47b2d022e43efd2111b623535884ded19f38e48cd944cedd42d73"
     }
   ]
 }

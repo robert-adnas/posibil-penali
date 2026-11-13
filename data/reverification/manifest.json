@@ -101302,6 +101302,24 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4647",
+      "baseline_index": 4646,
+      "name": "Cornel Resmeriță",
+      "party": "PSD",
+      "position": "Fost primar al municipiului Lupeni, județul Hunedoara",
+      "position_type": "mayor",
+      "legal_status": "prescribed",
+      "verified_at": "2026-11-13",
+      "source_urls": [
+        "https://www.municipiullupeni.ro/dm_lupeni/portal.nsf/3C8CF870C9341ADFC225872C003A0412/%24FILE/proces-verbal-%C8%99edin%C8%9B%C4%83-extraordinar%C4%83-23-octombrie-2020.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=7328"
+      ],
+      "baseline_snapshot_hash": "c76c0503fac47b2d022e43efd2111b623535884ded19f38e48cd944cedd42d73",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
