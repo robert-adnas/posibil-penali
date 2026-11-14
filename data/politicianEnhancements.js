@@ -25500,6 +25500,54 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Ion Stoia",
+  "party": "PNL",
+  "position": "Fost primar al comunei Forotic, județul Caraș-Severin; ales PNL în 2012",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Caraș-Severin",
+    "locality": "Forotic",
+    "basis": "office"
+  },
+  "crime": "Luare de mită și fals în înscrisuri sub semnătură privată, în formă continuată",
+  "status": "convicted",
+  "conviction_year": 2015,
+  "sentence_years": 3,
+  "sentence": "3 ani închisoare cu suspendare sub supraveghere, definitiv la 10 februarie 2015",
+  "details": "Curtea de Apel Timișoara a pronunțat decizia definitivă 141 din 10 februarie 2015 pentru luare de mită și fals în înscrisuri sub semnătură privată, în formă continuată. DNA menționează confiscarea a 20.000 lei și pedeapsa complementară istorică de interzicere a unor drepturi. Cauza privește contracte pentru întreținerea pajiștilor din 2011. Afilierea PNL este documentată pentru alegerile din 2012; documentul electoral din 2008 îl indică ales PDL, iar data exactă a schimbării nu a fost localizată. Ultima soluție oficială localizată la verificarea din 14 noiembrie 2026 este cea din 2015. Nu se afirmă existența unei interdicții în prezent.",
+  "verified_at": "2026-11-14",
+  "sources": [
+    {
+      "label": "DNA — hotărâre definitivă 10 februarie 2015",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=6024",
+      "description": "Identitate, funcție, infracțiuni, pedeapsă și confiscare."
+    },
+    {
+      "label": "DNA — rechizitoriu",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=4562",
+      "description": "Secțiunea 3 descrie cauza Forotic și perioada faptelor."
+    },
+    {
+      "label": "Prefectura Caraș-Severin — comisii cadastrale",
+      "kind": "official",
+      "url": "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/Ordin_comisii_delimitare_cadastrala.doc.pdf",
+      "description": "Pagina 7 identifică Stoia Ion ca primar al comunei Forotic."
+    },
+    {
+      "label": "Express de Banat — alegeri 2012",
+      "url": "https://expressdebanat.ro/usl-castigat-cele-mai-multe-primarii-din-judet-vezi-aici-lista-completa-cu-primarii-din-toate-localitatile/",
+      "description": "Articolul din 14 iunie 2012 îl identifică pe Ion Stoia, Forotic, în categoria PNL."
+    },
+    {
+      "label": "BEC — alegeri 2008, copie găzduită de un terț",
+      "url": "https://ro.scribd.com/doc/11804914/Pales-Moc123",
+      "description": "Pagina tipărită 42 îl indică ales PDL. Copie a documentului BEC, fără găzduire pe domeniul instituției."
+    }
+  ]
+},
+{
   "name": "Cornel Resmeriță",
   "party": "PSD",
   "position": "Fost primar al municipiului Lupeni, județul Hunedoara",

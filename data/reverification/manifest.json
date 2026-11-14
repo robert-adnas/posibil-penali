@@ -101320,6 +101320,27 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4648",
+      "baseline_index": 4647,
+      "name": "Ion Stoia",
+      "party": "PNL",
+      "position": "Fost primar al comunei Forotic, județul Caraș-Severin; ales PNL în 2012",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-14",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=6024",
+        "https://www.dna.ro/comunicat.xhtml?id=4562",
+        "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/Ordin_comisii_delimitare_cadastrala.doc.pdf",
+        "https://ro.scribd.com/doc/11804914/Pales-Moc123",
+        "https://expressdebanat.ro/usl-castigat-cele-mai-multe-primarii-din-judet-vezi-aici-lista-completa-cu-primarii-din-toate-localitatile/"
+      ],
+      "baseline_snapshot_hash": "ad08b7d622477377a9839688cc4eaaa4b15714e2c0e76ad25302e6871a2b6d00",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

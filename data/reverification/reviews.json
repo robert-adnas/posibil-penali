@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-14",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79959,6 +79959,24 @@
       ],
       "note": "Identitate separată de ceilalți Resmeriță; cauza Straja, prescripție definitivă 28.07.2022. Căutări pentru evoluții ulterioare fără o soluție oficială ulterioară localizată. Verificare automată, fără atribuire unui reviewer uman.",
       "reviewed_snapshot_hash": "c76c0503fac47b2d022e43efd2111b623535884ded19f38e48cd944cedd42d73"
+    },
+    {
+      "profile_id": "RV-4648",
+      "original_name": "Ion Stoia",
+      "current_name": "Ion Stoia",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-14",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6024",
+        "https://cs.prefectura.mai.gov.ro/wp-content/uploads/sites/33/2018/01/Ordin_comisii_delimitare_cadastrala.doc.pdf",
+        "https://expressdebanat.ro/usl-castigat-cele-mai-multe-primarii-din-judet-vezi-aici-lista-completa-cu-primarii-din-toate-localitatile/"
+      ],
+      "note": "Identitate confirmată prin funcție și localitate; distinct de Stoian Ion și Traian Constantin Stoia. PNL este documentat pentru 2012, separat de PDL în 2008; data schimbării nu este afirmată. DNA confirmă condamnarea definitivă 2015; fără interdicție prezentă dedusă.",
+      "reviewed_snapshot_hash": "ad08b7d622477377a9839688cc4eaaa4b15714e2c0e76ad25302e6871a2b6d00"
     }
   ]
 }

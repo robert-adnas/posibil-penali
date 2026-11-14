@@ -421,13 +421,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/mures</loc>
+    <loc>https://politicieni-corupti.ro/judet/caras-severin</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://politicieni-corupti.ro/judet/caras-severin</loc>
+    <loc>https://politicieni-corupti.ro/judet/mures</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1091,6 +1091,12 @@
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://politicieni-corupti.ro/politician/ion-stoia</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://politicieni-corupti.ro/politician/cornel-resmerita</loc>
