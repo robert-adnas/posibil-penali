@@ -25500,6 +25500,40 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Ștefan-Bucur Stoica",
+  "party": "PDL",
+  "position": "Fost consilier județean Dolj și deputat PDL de Dolj în mandatul început în 2012",
+  "position_type": "deputy",
+  "geography": {
+    "county": "Dolj",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate — consilier județean și director al DRDP Craiova",
+  "status": "integrity",
+  "details": "ANI a constatat la 28 decembrie 2011 incompatibilitatea pentru exercitarea simultană a mandatului de consilier județean Dolj și a funcției de director al Direcției Regionale de Drumuri și Poduri Craiova. Raportul a fost menținut prin decizia definitivă și irevocabilă 6734 din 15 octombrie 2013 a ÎCCJ. Profilul parlamentar oficial consemnează încetarea de drept a mandatului de deputat la 15 octombrie 2013, conform HCD 58/2014. Este o constatare administrativă de integritate. Nu este indicată o condamnare penală sau o interdicție în prezent. Afilierea PDL este cea documentată în profilul mandatului parlamentar din 2012. La verificarea din 15 noiembrie 2026 nu a fost localizată o soluție ulterioară care să infirme constatarea.",
+  "verified_at": "2026-11-15",
+  "sources": [
+    {
+      "label": "ANI — constatare definitivă, 21 octombrie 2013",
+      "kind": "official",
+      "url": "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1361&PID=20&currentPage=178",
+      "description": "Identitate, funcțiile incompatibile și decizia ÎCCJ 6734/15.10.2013."
+    },
+    {
+      "label": "ANI — reafirmarea hotărârii definitive, 1 septembrie 2014",
+      "kind": "official",
+      "url": "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1693&PID=20&currentPage=48",
+      "description": "Confirmă menținerea raportului de evaluare prin hotărârea ÎCCJ."
+    },
+    {
+      "label": "Camera Deputaților — profil mandat 2012",
+      "kind": "official",
+      "url": "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=348&leg=2012",
+      "description": "Coroborează identitatea, circumscripția Dolj, afilierea PDL și încetarea mandatului potrivit HCD 58/2014."
+    }
+  ]
+},
+{
   "name": "Ion Stoia",
   "party": "PNL",
   "position": "Fost primar al comunei Forotic, județul Caraș-Severin; ales PNL în 2012",

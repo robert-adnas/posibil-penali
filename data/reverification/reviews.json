@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79977,6 +79977,23 @@
       ],
       "note": "Identitate confirmată prin funcție și localitate; distinct de Stoian Ion și Traian Constantin Stoia. PNL este documentat pentru 2012, separat de PDL în 2008; data schimbării nu este afirmată. DNA confirmă condamnarea definitivă 2015; fără interdicție prezentă dedusă.",
       "reviewed_snapshot_hash": "ad08b7d622477377a9839688cc4eaaa4b15714e2c0e76ad25302e6871a2b6d00"
+    },
+    {
+      "profile_id": "RV-4649",
+      "original_name": "Ștefan-Bucur Stoica",
+      "current_name": "Ștefan-Bucur Stoica",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-15",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1361&PID=20&currentPage=178",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=348&leg=2012"
+      ],
+      "note": "Identitate, funcție politică, afiliere istorică și incompatibilitate definitivă verificate din ANI și profilul parlamentar. Nu se deduce o interdicție actuală. Căutări pentru evoluții ulterioare și duplicate fără infirmare sau duplicat localizat.",
+      "reviewed_snapshot_hash": "841f6c93b7e9700029528769df56cc9b8c5ba2b947480d39278045920b3a2bfd"
     }
   ]
 }

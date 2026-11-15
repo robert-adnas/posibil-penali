@@ -101341,6 +101341,25 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4649",
+      "baseline_index": 4648,
+      "name": "Ștefan-Bucur Stoica",
+      "party": "PDL",
+      "position": "Fost consilier județean Dolj și deputat PDL de Dolj în mandatul început în 2012",
+      "position_type": "deputy",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-15",
+      "source_urls": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1361&PID=20&currentPage=178",
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=1693&PID=20&currentPage=48",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?cam=2&idl=1&idm=348&leg=2012"
+      ],
+      "baseline_snapshot_hash": "841f6c93b7e9700029528769df56cc9b8c5ba2b947480d39278045920b3a2bfd",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
