@@ -25500,6 +25500,55 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Luminița-Adriana Temea",
+  "party": "PSD",
+  "position": "Fost viceprimar și primar al comunei Horgești, județul Bacău; aleasă primar PSD în 2020",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Bacău",
+    "locality": "Horgești",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate — viceprimar și membru în consiliile de administrație ale școlilor Horgești și Răcătău",
+  "status": "integrity",
+  "details": "ANI a constatat incompatibilitatea pentru exercitarea simultană a funcției de viceprimar al comunei Horgești și a calității de membru în consiliile de administrație ale școlilor Horgești și Răcătău în perioada 31 august 2016–28 martie 2017. Curtea de Apel Bacău a anulat inițial raportul, însă ÎCCJ a admis recursul ANI și a respins contestația prin decizia definitivă 678 din 8 februarie 2023. Contestația în anulare a fost anulată ca netimbrată prin decizia 5862 din 7 decembrie 2023, iar cererea de revizuire a fost respinsă definitiv prin decizia 1639 din 21 martie 2024. Textele acestor două hotărâri au fost consultate într-o copie publicată de un terț, cu identificare prin funcție, școli, perioadă și hotărârea atacată. Presa locală a relatat încetarea mandatului de primar la 14 martie 2023. Afilierea PSD este documentată pentru alegerea din 2020, fără a afirma aceeași afiliere în perioada faptelor. Este un incident administrativ de integritate, fără condamnare penală indicată. La verificarea din 16 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme constatarea; nu se afirmă existența unei interdicții în prezent.",
+  "verified_at": "2026-11-16",
+  "sources": [
+    {
+      "label": "ANI — constatare din 7 august 2020",
+      "kind": "official",
+      "url": "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3004&PID=20&currentPage=25",
+      "description": "Poziția 2 identifică persoana, funcția, școlile și perioada incompatibilității."
+    },
+    {
+      "label": "CCR — decizia 320 din 30 mai 2023",
+      "kind": "official",
+      "url": "https://legislatie.just.ro/public/DetaliiDocument/273768",
+      "description": "Identifică nominal Luminița Adriana Temea în dosarul 368/32/2020/a1 privind raportul ANI; privește excepția de neconstituționalitate."
+    },
+    {
+      "label": "ÎCCJ — decizia 1639/2024, copie găzduită de un terț",
+      "url": "https://precedentia.md/search/case/1525209/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+      "description": "Textul hotărârii definitive din 21 martie 2024 respinge revizuirea și redă soluția 678/2023. Copie anonimizată, corelată cu ANI prin funcție, școli și date; originalul indicat de platformă nu a fost accesibil."
+    },
+    {
+      "label": "ÎCCJ — decizia 5862/2023, copie găzduită de un terț",
+      "url": "https://precedentia.md/search/case/1525879/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+      "description": "Contestația în anulare împotriva deciziei 678/2023 a fost anulată ca netimbrată, definitiv la 7 decembrie 2023. Copie a textului judiciar."
+    },
+    {
+      "label": "Ziarul de Bacău — 2 martie 2023",
+      "url": "https://ziaruldebacau.ro/comuna-horgesti-ramane-fara-primar-dupa-ce-luminita-temea-a-fost-declarata-definitiv-in-incompatibilitate/",
+      "description": "Coroborează identitatea, soluția ÎCCJ din februarie 2023 și alegerea ca primar PSD în 2020."
+    },
+    {
+      "label": "Deșteptarea — 14 martie 2023",
+      "url": "https://www.desteptarea.ro/primarita-demisa-a-comunei-horgesti-devine-administrator-public/",
+      "description": "Relatează emiterea ordinului de încetare a mandatului și anunțul privind funcția de administrator public."
+    }
+  ]
+},
+{
   "name": "Ștefan-Bucur Stoica",
   "party": "PDL",
   "position": "Fost consilier județean Dolj și deputat PDL de Dolj în mandatul început în 2012",

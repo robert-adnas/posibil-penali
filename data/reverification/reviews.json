@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -79994,6 +79994,26 @@
       ],
       "note": "Identitate, funcție politică, afiliere istorică și incompatibilitate definitivă verificate din ANI și profilul parlamentar. Nu se deduce o interdicție actuală. Căutări pentru evoluții ulterioare și duplicate fără infirmare sau duplicat localizat.",
       "reviewed_snapshot_hash": "841f6c93b7e9700029528769df56cc9b8c5ba2b947480d39278045920b3a2bfd"
+    },
+    {
+      "profile_id": "RV-4650",
+      "original_name": "Luminița-Adriana Temea",
+      "current_name": "Luminița-Adriana Temea",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-16",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3004&PID=20&currentPage=25",
+        "https://legislatie.just.ro/public/DetaliiDocument/273768",
+        "https://precedentia.md/search/case/1525209/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+        "https://precedentia.md/search/case/1525879/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+        "https://ziaruldebacau.ro/comuna-horgesti-ramane-fara-primar-dupa-ce-luminita-temea-a-fost-declarata-definitiv-in-incompatibilitate/"
+      ],
+      "note": "Identitate corelată prin ANI nominal, CCR dosar368/32/2020/a1, funcție, ambele școli și interval exact. Integritate administrativă;678/2023 menține ANI,5862/2023 anulează contestația ca netimbrată,1639/2024 respinge revizuirea. Copii judiciare terțe explicit etichetate. PSD numai pentru alegerea2020. Duplicatele verificate în1321profiluri editoriale și registrele actuale. Fără afirmație de interdicție prezentă.",
+      "reviewed_snapshot_hash": "23c6b4a7aa025cdc61b4f71bb17fd7c8cf454990c154d2040fc5dba5c2b02dc3"
     }
   ]
 }

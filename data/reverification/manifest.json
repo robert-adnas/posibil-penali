@@ -101360,6 +101360,28 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4650",
+      "baseline_index": 4649,
+      "name": "Luminița-Adriana Temea",
+      "party": "PSD",
+      "position": "Fost viceprimar și primar al comunei Horgești, județul Bacău; aleasă primar PSD în 2020",
+      "position_type": "mayor",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-16",
+      "source_urls": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=3004&PID=20&currentPage=25",
+        "https://legislatie.just.ro/public/DetaliiDocument/273768",
+        "https://www.desteptarea.ro/primarita-demisa-a-comunei-horgesti-devine-administrator-public/",
+        "https://precedentia.md/search/case/1525209/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+        "https://precedentia.md/search/case/1525879/iccj-sectia-de-contencios-administrativ-si-fiscal-decizia/",
+        "https://ziaruldebacau.ro/comuna-horgesti-ramane-fara-primar-dupa-ce-luminita-temea-a-fost-declarata-definitiv-in-incompatibilitate/"
+      ],
+      "baseline_snapshot_hash": "23c6b4a7aa025cdc61b4f71bb17fd7c8cf454990c154d2040fc5dba5c2b02dc3",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
