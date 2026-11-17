@@ -101382,6 +101382,27 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4651",
+      "baseline_index": 4650,
+      "name": "Dumitru Roman",
+      "party": "PSD",
+      "position": "Fost primar al comunei Dimitrie Cantemir, Vaslui; consilier local PSD în mandatul 2024–2028",
+      "position_type": "mayor",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-17",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=5737",
+        "https://www.scj.ro/1093/Detalii-jurisprudenta?customQuery%5B0%5D.Key=id&customQuery%5B0%5D.Value=158761",
+        "https://primariadimitriecantemir.ro/consilieri-locali/",
+        "https://www.primariahusi.ro/wp-content/uploads/2022/11/anexa_hot205_2014.pdf",
+        "https://www.radioiasi.ro/stiri/vaslui-inca-un-primar-a-fost-gasit-incompatibil-de-ani/"
+      ],
+      "baseline_snapshot_hash": "d858a5fbe8c63e468d83ae5a82e81557927fb03058c36d8bf61734c41be44ce0",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

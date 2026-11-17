@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-17",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80014,6 +80014,26 @@
       ],
       "note": "Identitate corelată prin ANI nominal, CCR dosar368/32/2020/a1, funcție, ambele școli și interval exact. Integritate administrativă;678/2023 menține ANI,5862/2023 anulează contestația ca netimbrată,1639/2024 respinge revizuirea. Copii judiciare terțe explicit etichetate. PSD numai pentru alegerea2020. Duplicatele verificate în1321profiluri editoriale și registrele actuale. Fără afirmație de interdicție prezentă.",
       "reviewed_snapshot_hash": "23c6b4a7aa025cdc61b4f71bb17fd7c8cf454990c154d2040fc5dba5c2b02dc3"
+    },
+    {
+      "profile_id": "RV-4651",
+      "original_name": "Dumitru Roman",
+      "current_name": "Dumitru Roman",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-17",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.scj.ro/1093/Detalii-jurisprudenta?customQuery%5B0%5D.Key=id&customQuery%5B0%5D.Value=158761",
+        "https://www.dna.ro/comunicat.xhtml?id=5737",
+        "https://www.primariahusi.ro/wp-content/uploads/2022/11/anexa_hot205_2014.pdf",
+        "https://primariadimitriecantemir.ro/consilieri-locali/",
+        "https://www.radioiasi.ro/stiri/vaslui-inca-un-primar-a-fost-gasit-incompatibil-de-ani/"
+      ],
+      "note": "Identitate corelată prin localitate, funcție, perioade și activități în hotărârea oficială anonimizată și relatarea nominală. Incompatibilitate definitivă1933/2019 separată de achitarea penală127/2018 confirmată DNA. PSD documentat doar2024-2028. Fără interdicție actuală afirmată. Verificare duplicate în1322profiluri și4650înregistrări fără potrivire.",
+      "reviewed_snapshot_hash": "d858a5fbe8c63e468d83ae5a82e81557927fb03058c36d8bf61734c41be44ce0"
     }
   ]
 }

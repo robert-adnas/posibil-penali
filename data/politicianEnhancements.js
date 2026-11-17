@@ -25500,6 +25500,52 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Dumitru Roman",
+  "party": "PSD",
+  "position": "Fost primar al comunei Dimitrie Cantemir, Vaslui; consilier local PSD în mandatul 2024–2028",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Vaslui",
+    "locality": "Dimitrie Cantemir",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate administrativă; achitare definitivă într-o cauză penală separată privind fonduri SAPARD",
+  "status": "integrity",
+  "details": "ÎCCJ a respins definitiv recursul împotriva raportului ANI din 1 aprilie 2016 prin decizia 1933 din 9 aprilie 2019. Constatarea administrativă privește cumulul funcției de primar cu statutul de comerciant persoană fizică în perioada 4 iunie 2014–29 septembrie 2015, activități remunerate de cadastru și calitatea de expert tehnic judiciar până la 3 aprilie 2015. Hotărârea oficială este anonimizată; identitatea este coroborată prin funcție, localitate, perioade și activități cu relatarea nominală Radio Iași. Separat, în dosarul penal privind recepția unor lucrări de modernizare a drumurilor finanțate prin SAPARD, Curtea de Apel Iași a dispus achitarea definitivă prin decizia 127 din 6 martie 2018 și a respins acțiunea civilă a AFIR, potrivit actualizării DNA. Achitarea penală și incompatibilitatea administrativă sunt soluții în cauze distincte. Afilierea PSD este documentată pentru mandatul de consilier local 2024–2028, fără a fi atribuită automat perioadelor anterioare. La verificarea din 17 noiembrie 2026 nu a fost localizată o soluție ulterioară care să infirme aceste rezultate. Nu se afirmă o condamnare penală sau o interdicție în prezent.",
+  "verified_at": "2026-11-17",
+  "sources": [
+    {
+      "label": "ÎCCJ — decizia definitivă 1933/2019",
+      "kind": "official",
+      "url": "https://www.scj.ro/1093/Detalii-jurisprudenta?customQuery%5B0%5D.Key=id&customQuery%5B0%5D.Value=158761",
+      "description": "Hotărâre anonimizată: funcția, localitatea, perioadele incompatibilității și respingerea definitivă a recursului la 9 aprilie 2019."
+    },
+    {
+      "label": "DNA — achitare definitivă, actualizare 25 aprilie 2018",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=5737",
+      "description": "Secțiunea 5: decizia 127/6 martie 2018 îl numește pe Roman Dumitru între persoanele achitate și consemnează respingerea acțiunii civile."
+    },
+    {
+      "label": "Primăria Huși — anexă HCL 205/2014",
+      "kind": "official",
+      "url": "https://www.primariahusi.ro/wp-content/uploads/2022/11/anexa_hot205_2014.pdf",
+      "description": "Pagina 2, poziția 58, îl identifică pe Roman Dumitru ca primar al comunei Dimitrie Cantemir."
+    },
+    {
+      "label": "Primăria Dimitrie Cantemir — consilieri locali 2024–2028",
+      "kind": "official",
+      "url": "https://primariadimitriecantemir.ro/consilieri-locali/",
+      "description": "Poziția 6: Roman Dumitru — PSD. Afiliere pentru acest mandat."
+    },
+    {
+      "label": "Radio Iași — 4 aprilie 2016",
+      "url": "https://www.radioiasi.ro/stiri/vaslui-inca-un-primar-a-fost-gasit-incompatibil-de-ani/",
+      "description": "Identifică nominal primarul, localitatea și activitățile din raportul ANI, pentru corelarea cu hotărârea anonimizată."
+    }
+  ]
+},
+{
   "name": "Luminița-Adriana Temea",
   "party": "PSD",
   "position": "Fost viceprimar și primar al comunei Horgești, județul Bacău; aleasă primar PSD în 2020",
