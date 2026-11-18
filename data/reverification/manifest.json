@@ -101403,6 +101403,28 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4652",
+      "baseline_index": 4651,
+      "name": "Lucian-Ovidiu Micu",
+      "party": "PNL",
+      "position": "Fost viceprimar și primar al municipiului Roman, Neamț; ales primar PNL în 2017",
+      "position_type": "mayor",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-18",
+      "source_urls": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2248&PID=20&currentPage=77",
+        "https://primariaroman.ro/wp-content/uploads/2018/01/2017-01_CV_Lucian_-Micu.pdf",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-129-din-26-06-2020/",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-213-din-19-10-2020/",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-240-din-10-12-2020/",
+        "https://www.ziarulderoman.ro/lucian-micu-si-a-lansat-candidatura-pentru-un-nou-mandat-de-primar-al-romanului/"
+      ],
+      "baseline_snapshot_hash": "9707829cc493688350aa9bf34d5c2fa081fa472b112d32e55c8c97f5cb91eeb5",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

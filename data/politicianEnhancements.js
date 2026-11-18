@@ -25500,6 +25500,58 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Lucian-Ovidiu Micu",
+  "party": "PNL",
+  "position": "Fost viceprimar și primar al municipiului Roman, Neamț; ales primar PNL în 2017",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Neamț",
+    "locality": "Roman",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate — viceprimar și membru remunerat în consiliul de administrație al spitalului municipal",
+  "status": "integrity",
+  "details": "ANI a constatat incompatibilitatea pentru cumulul funcției de viceprimar al municipiului Roman cu funcția remunerată de membru în consiliul de administrație al Spitalului Municipal de Urgență Roman, începând cu 30 august 2012. Documentația oficială municipală consemnează că raportul 29376/G/II/12.07.2016 a rămas definitiv prin decizia ÎCCJ 1747 din 2 aprilie 2020, dosar 533/32/2016; hotărârea judecătorească integrală nu a fost consultată. Consiliul Local a invocat ulterior prescripția răspunderii prin HCL 129/26.06.2020, dar a revocat această hotărâre prin HCL 240/10.12.2020. HCL 213/19.10.2020 citează ordinul prefectului 308/03.08.2020 privind încetarea mandatului de primar. Este o constatare administrativă de integritate, fără condamnare penală indicată în această cauză. PNL este afilierea documentată pentru alegerea ca primar din 2017; în august 2020 a anunțat revenirea la PSD și candidatura susținută de Alianța pentru Modernizarea Neamțului 2020. Nu se atribuie automat PNL întregii perioade a incompatibilității. La verificarea din 18 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme constatarea; nu se afirmă existența unei interdicții în prezent.",
+  "verified_at": "2026-11-18",
+  "sources": [
+    {
+      "label": "ANI — constatare din 12 iulie 2016",
+      "kind": "official",
+      "url": "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2248&PID=20&currentPage=77",
+      "description": "Poziția 1 identifică nominal viceprimarul, funcția remunerată și începutul incompatibilității."
+    },
+    {
+      "label": "Primăria Roman — HCL 129/26 iunie 2020, ulterior revocată",
+      "kind": "official",
+      "url": "https://primariaroman.ro/consiliu_local/hcl-nr-129-din-26-06-2020/",
+      "description": "Citează explicit raportul ANI și decizia definitivă ÎCCJ 1747/02.04.2020, dosar 533/32/2016. Invocarea locală a prescripției a fost ulterior revocată."
+    },
+    {
+      "label": "Primăria Roman — HCL 240/10 decembrie 2020",
+      "kind": "official",
+      "url": "https://primariaroman.ro/consiliu_local/hcl-nr-240-din-10-12-2020/",
+      "description": "Revocă HCL 129/2020; nu anulează raportul ANI."
+    },
+    {
+      "label": "Primăria Roman — HCL 213/19 octombrie 2020",
+      "kind": "official",
+      "url": "https://primariaroman.ro/consiliu_local/hcl-nr-213-din-19-10-2020/",
+      "description": "Citează ordinul prefectului 308/03.08.2020 privind încetarea mandatului de primar."
+    },
+    {
+      "label": "Primăria Roman — CV Lucian-Ovidiu Micu",
+      "kind": "official",
+      "url": "https://primariaroman.ro/wp-content/uploads/2018/01/2017-01_CV_Lucian_-Micu.pdf",
+      "description": "Coroborează identitatea și funcțiile de viceprimar și membru în consiliul de administrație al spitalului, pagina 1."
+    },
+    {
+      "label": "Ziarul de Roman — 11 august 2020",
+      "url": "https://www.ziarulderoman.ro/lucian-micu-si-a-lansat-candidatura-pentru-un-nou-mandat-de-primar-al-romanului/",
+      "description": "Documentează alegerea PNL din 2017 și declarația despre revenirea la PSD în august 2020."
+    }
+  ]
+},
+{
   "name": "Dumitru Roman",
   "party": "PSD",
   "position": "Fost primar al comunei Dimitrie Cantemir, Vaslui; consilier local PSD în mandatul 2024–2028",

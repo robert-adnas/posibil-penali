@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80034,6 +80034,27 @@
       ],
       "note": "Identitate corelată prin localitate, funcție, perioade și activități în hotărârea oficială anonimizată și relatarea nominală. Incompatibilitate definitivă1933/2019 separată de achitarea penală127/2018 confirmată DNA. PSD documentat doar2024-2028. Fără interdicție actuală afirmată. Verificare duplicate în1322profiluri și4650înregistrări fără potrivire.",
       "reviewed_snapshot_hash": "d858a5fbe8c63e468d83ae5a82e81557927fb03058c36d8bf61734c41be44ce0"
+    },
+    {
+      "profile_id": "RV-4652",
+      "original_name": "Lucian-Ovidiu Micu",
+      "current_name": "Lucian-Ovidiu Micu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-18",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://old.integritate.eu/Comunicate.aspx?Action=1&M=NewsV2&NewsId=2248&PID=20&currentPage=77",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-129-din-26-06-2020/",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-240-din-10-12-2020/",
+        "https://primariaroman.ro/consiliu_local/hcl-nr-213-din-19-10-2020/",
+        "https://primariaroman.ro/wp-content/uploads/2018/01/2017-01_CV_Lucian_-Micu.pdf",
+        "https://www.ziarulderoman.ro/lucian-micu-si-a-lansat-candidatura-pentru-un-nou-mandat-de-primar-al-romanului/"
+      ],
+      "note": "ANI nominal și CV oficial confirmă identitatea. Caracterul definitiv este citat de HCL129 cu ICCJ1747/02.04.2020 dosar533/32/2016; hotărârea judiciară integrală nu a fost citită. HCL240 revocă prescripția locală, HCL213 citează încetarea mandatului. PNL numai pentru alegerea2017, revenirePSD2020 explicită. Duplicate verificate1323profiluri/4651registru. Fără condamnare sau interdicție actuală afirmate.",
+      "reviewed_snapshot_hash": "9707829cc493688350aa9bf34d5c2fa081fa472b112d32e55c8c97f5cb91eeb5"
     }
   ]
 }
