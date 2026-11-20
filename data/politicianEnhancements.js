@@ -25500,6 +25500,54 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Aurora Bălan Lazăr",
+  "party": "PSD",
+  "position": "Fost primar al comunei Gârcina, Neamț; realeasă din partea PSD în 2016",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Neamț",
+    "locality": "Gârcina",
+    "basis": "office"
+  },
+  "crime": "Abuz în serviciu în formă continuată — vânzarea unor terenuri care nu aparțineau comunei",
+  "status": "convicted",
+  "conviction_year": 2017,
+  "sentence_years": 3,
+  "details": "Curtea de Apel Bacău a condamnat-o definitiv la trei ani de închisoare prin decizia penală 1317 din 23 noiembrie 2017, pentru abuz în serviciu cu obținerea unui folos necuvenit pentru altul, în formă continuată. Potrivit comunicatului DNA privind trimiterea în judecată, cauza privește vânzarea, în mai și iulie 2008, a două terenuri care nu aparțineau comunei Gârcina, în perioada în care era primar. Dispozitivul reprodus de presa locală în dosarul 2786/103/2015 arată că instanța de apel a înlăturat suspendarea dispusă la fond și a stabilit executarea în detenție; originalul hotărârii nu a fost consultat. DNA confirmă distinct caracterul definitiv, pedeapsa de trei ani și interdicțiile stabilite la acea dată. Identitatea și funcția sunt coroborate prin anexa oficială a Consiliului Local Roman, care citează HCL Gîrcina 35/30.04.2008. Afilierea PSD este documentată pentru realegerea din 2016, fără a fi atribuită automat faptelor din 2008. La verificarea din 20 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să schimbe condamnarea. Nu se afirmă că persoana execută în prezent pedeapsa ori că interdicțiile sunt încă în vigoare.",
+  "verified_at": "2026-11-20",
+  "sources": [
+    {
+      "label": "DNA — condamnare definitivă din 23 noiembrie 2017",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=8580",
+      "description": "O numește pe Bălan Lazăr Aurora, primar al comunei Gârcina la data faptelor, și confirmă decizia 1317/2017, pedeapsa de trei ani și caracterul definitiv."
+    },
+    {
+      "label": "DNA — comunicat din 21 octombrie 2015",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=6766",
+      "description": "Prezintă trimiterea în judecată și acuzațiile privind vânzările de terenuri din 2008; soluția definitivă este prezentată separat."
+    },
+    {
+      "label": "Consiliul Local Roman — anexă HCL 31/2009",
+      "kind": "official",
+      "url": "https://primariaroman.ro/wp-content/uploads/ConsLoc/HCL/2009/031%20ANX%202%202009-02%20modificare%20HCL%2062_2008%20Econeamt.pdf",
+      "description": "Pagina 3, poziția 38: Balan Lazăr Aurora, primar al comunei Gîrcina, cu trimitere la HCL 35/30.04.2008. Pagina 11 folosește și ordinea Aurora Balan Lazăr."
+    },
+    {
+      "label": "Vestea — dispozitivul reprodus la 23 noiembrie 2017",
+      "url": "https://vestea.net/sentinta-soc-3-ani-de-inchisoare-cu-executare-pentru-primarita-de-la-gircina/",
+      "description": "Reproducere de presă a dispozitivului: dosar 2786/103/2015, înlăturarea suspendării de la fond și executarea în detenție. Nu este documentul judiciar original."
+    },
+    {
+      "label": "Mesagerul de Neamț — rezultate locale din 5 iunie 2016",
+      "url": "https://mesagerulneamt.ro/2016/06/rezultate-alegeri-in-neamt-primarii-castigatori/",
+      "description": "Actualizarea de la 23:20 o identifică drept primar reales al comunei Gârcina din partea PSD; afiliere documentată pentru alegerile din 2016."
+    }
+  ],
+  "sentence": "3 ani de închisoare; executare în detenție potrivit dispozitivului reprodus în presă"
+},
+{
   "name": "Lucian-Ovidiu Micu",
   "party": "PNL",
   "position": "Fost viceprimar și primar al municipiului Roman, Neamț; ales primar PNL în 2017",

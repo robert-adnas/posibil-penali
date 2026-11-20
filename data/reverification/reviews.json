@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-20",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80055,6 +80055,26 @@
       ],
       "note": "ANI nominal și CV oficial confirmă identitatea. Caracterul definitiv este citat de HCL129 cu ICCJ1747/02.04.2020 dosar533/32/2016; hotărârea judiciară integrală nu a fost citită. HCL240 revocă prescripția locală, HCL213 citează încetarea mandatului. PNL numai pentru alegerea2017, revenirePSD2020 explicită. Duplicate verificate1323profiluri/4651registru. Fără condamnare sau interdicție actuală afirmate.",
       "reviewed_snapshot_hash": "9707829cc493688350aa9bf34d5c2fa081fa472b112d32e55c8c97f5cb91eeb5"
+    },
+    {
+      "profile_id": "RV-4653",
+      "original_name": "Aurora Bălan Lazăr",
+      "current_name": "Aurora Bălan Lazăr",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-20",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8580",
+        "https://www.dna.ro/comunicat.xhtml?id=6766",
+        "https://primariaroman.ro/wp-content/uploads/ConsLoc/HCL/2009/031%20ANX%202%202009-02%20modificare%20HCL%2062_2008%20Econeamt.pdf",
+        "https://vestea.net/sentinta-soc-3-ani-de-inchisoare-cu-executare-pentru-primarita-de-la-gircina/",
+        "https://mesagerulneamt.ro/2016/06/rezultate-alegeri-in-neamt-primarii-castigatori/"
+      ],
+      "note": "DNA 8580 confirmă nominal decizia definitivă 1317/23.11.2017 și trei ani pentru abuz în serviciu continuat; DNA 6766 descrie acuzațiile. Anexa oficială municipală citită independent: pagina 3 poziția 38 confirmă primarul Gîrcina, pagina 11 varianta numelui. Dispozitivul este reprodus de Vestea, originalul judiciar nu a fost consultat; detenția și înlăturarea suspendării sunt atribuite reproducerii. PSD documentat pentru alegerile 2016, nu atribuit faptelor 2008. Căutări independente după variante și număr dosar nu au identificat o hotărâre ulterioară care schimbă condamnarea; listele din 2025 despre proceduri distincte nu dovedesc anularea ei. Verificate 1324 profiluri incluzând holds, manifestul, excluderile, variantele și referințele DNA: fără duplicat. Nu se afirmă detenție sau interdicție actuală.",
+      "reviewed_snapshot_hash": "21952cfcd7d130d784cdc500e0ebca8b9346c9dc4beca4bcfc390126e82ba119"
     }
   ]
 }

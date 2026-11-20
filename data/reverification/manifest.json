@@ -101425,6 +101425,27 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4653",
+      "baseline_index": 4652,
+      "name": "Aurora Bălan Lazăr",
+      "party": "PSD",
+      "position": "Fost primar al comunei Gârcina, Neamț; realeasă din partea PSD în 2016",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-20",
+      "source_urls": [
+        "https://primariaroman.ro/wp-content/uploads/ConsLoc/HCL/2009/031%20ANX%202%202009-02%20modificare%20HCL%2062_2008%20Econeamt.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=6766",
+        "https://www.dna.ro/comunicat.xhtml?id=8580",
+        "https://mesagerulneamt.ro/2016/06/rezultate-alegeri-in-neamt-primarii-castigatori/",
+        "https://vestea.net/sentinta-soc-3-ani-de-inchisoare-cu-executare-pentru-primarita-de-la-gircina/"
+      ],
+      "baseline_snapshot_hash": "21952cfcd7d130d784cdc500e0ebca8b9346c9dc4beca4bcfc390126e82ba119",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
