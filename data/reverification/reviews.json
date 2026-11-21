@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80075,6 +80075,43 @@
       ],
       "note": "DNA 8580 confirmă nominal decizia definitivă 1317/23.11.2017 și trei ani pentru abuz în serviciu continuat; DNA 6766 descrie acuzațiile. Anexa oficială municipală citită independent: pagina 3 poziția 38 confirmă primarul Gîrcina, pagina 11 varianta numelui. Dispozitivul este reprodus de Vestea, originalul judiciar nu a fost consultat; detenția și înlăturarea suspendării sunt atribuite reproducerii. PSD documentat pentru alegerile 2016, nu atribuit faptelor 2008. Căutări independente după variante și număr dosar nu au identificat o hotărâre ulterioară care schimbă condamnarea; listele din 2025 despre proceduri distincte nu dovedesc anularea ei. Verificate 1324 profiluri incluzând holds, manifestul, excluderile, variantele și referințele DNA: fără duplicat. Nu se afirmă detenție sau interdicție actuală.",
       "reviewed_snapshot_hash": "21952cfcd7d130d784cdc500e0ebca8b9346c9dc4beca4bcfc390126e82ba119"
+    },
+    {
+      "profile_id": "RV-4654",
+      "original_name": "Aurora Trofim",
+      "current_name": "Aurora Trofim",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-21",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2023/03/Raport-de-activitate-1-ianuarie-31-decembrie-2022.pdf",
+        "https://www.radioconstanta.ro/2019/02/01/trei-alesi-locali-din-judetul-tulcea-gasiti-de-ani-in-stare-de-incompatibilitate/",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-tulcea.html"
+      ],
+      "note": "Prefectura Tulcea raport2022 p46 citit independent: identitate Trofim Aurora, viceprimar Crisan mandatele2012-16/2016-20, ANI3137/01.02.2019 definitiv prin nerecurarea sentintei166/13.09.2021, confirmare ANI12.08.2022. Originalul hotararii nu a fost consultat; finalitatea atribuita prefecturii. RadioRomania2019 coroboreaza nominal persoana si faptele ANI; ProTV2016 candidatura ALDE explicit datata. Anexa CJ2017 inaccesibila, nu folosita ca dovada citita. Fara duplicat in1325profiluri/holds/excluderi/manifest/reviews. Cautari ulterioare nu au identificat infirmare. Fara condamnare sau interdictie actuala afirmata.",
+      "reviewed_snapshot_hash": "b4f5ebd7d97e87edcbdf3849276ffec26bbfafced215996ffb8c93ab7df9ffda"
+    },
+    {
+      "profile_id": "RV-4655",
+      "original_name": "Vasile Prodan",
+      "current_name": "Vasile Prodan",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-21",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://emol.ro/corni-gl/registru-hcl/60520/",
+        "https://emol.ro/corni-gl/registru-hcl/60111/",
+        "https://www.comunacorni.ro/declaratii/",
+        "https://adevarul.ro/stiri-locale/galati/primarul-unei-localitati-galatene-incompatibil-1776735.html"
+      ],
+      "note": "HCL21/29.04.2022 art1 citit: ProdanVasile primarCorniGalati, ANI11164/29.03.2017 definitiv ICCJ353/25.01.2022 dosar335/44/2017. HCL17/28.03.2022 citeaza prefect94/01.03.2022 incetaremandat. Hotararea integrala nu a fost consultata, finalitatea atribuita documentelor municipale. Pagina oficiala declaratii2020/2021 coroboreaza primarul. Adevarul04.04.2017 citit: PNL datat2017, cumul administratorProdi13SRL2012-2016. Fara duplicat1325profiles/holds/exclusions/registru inclusiv nume inversate; distinctProdanEmilian/Daniela. Cautari dupa nume/dosar nu au localizat infirmare. Fara condamnare/interdictie actuala afirmata.",
+      "reviewed_snapshot_hash": "4cedcbfe1a48d169b3e75cc000d585e58eb17b69bf8639978915c04b13a10321"
     }
   ]
 }

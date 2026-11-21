@@ -25500,6 +25500,79 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Aurora Trofim",
+  "party": "ALDE",
+  "position": "Fost viceprimar și consilier local al comunei Crișan, Tulcea; candidată ALDE în 2016",
+  "position_type": "local_official",
+  "geography": {
+    "county": "Tulcea",
+    "locality": "Crișan",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate administrativă — cumulul funcțiilor elective locale cu alte funcții și activități",
+  "status": "integrity",
+  "details": "Raportul de activitate al Prefecturii Tulcea pentru 2022 consemnează că ANI a comunicat, prin adresa 35654/G/II/12.08.2022, caracterul definitiv al raportului de evaluare 3137/G/II/01.02.2019 privind-o pe Trofim Aurora, viceprimar al comunei Crișan în mandatele 2012–2016 și 2016–2020. Raportul a rămas definitiv prin nerecurarea sentinței civile 166 din 13 septembrie 2021 a Curții de Apel Constanța; hotărârea judecătorească integrală nu a fost consultată. Relatarea Radio România Constanța din 1 februarie 2019, care citează ANI, descrie cumulul funcției de viceprimar cu alte activități și calități, precum și cumulul funcției de consilier local cu activitatea de asistent medical comunitar în aparatul primăriei în 2014–2016. Afilierea ALDE este documentată prin lista candidaturilor la Primăria Crișan din 2016; nu este atribuită automat întregii perioade a constatării. Este o constatare administrativă, fără condamnare penală indicată în această cauză. La verificarea din 21 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme acest rezultat. Nu se afirmă existența unei interdicții în prezent.",
+  "verified_at": "2026-11-21",
+  "sources": [
+    {
+      "label": "Prefectura Tulcea — raport de activitate 2022",
+      "kind": "official",
+      "url": "https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2023/03/Raport-de-activitate-1-ianuarie-31-decembrie-2022.pdf",
+      "description": "Pagina 46 identifică nominal viceprimarul și mandatele și confirmă definitivarea raportului ANI prin nerecurarea sentinței 166/13.09.2021, conform adresei ANI din august 2022."
+    },
+    {
+      "label": "Radio România Constanța — 1 februarie 2019",
+      "url": "https://www.radioconstanta.ro/2019/02/01/trei-alesi-locali-din-judetul-tulcea-gasiti-de-ani-in-stare-de-incompatibilitate/",
+      "description": "Relatare nominală contemporană care citează constatările ANI și coroborează identitatea, funcția și localitatea."
+    },
+    {
+      "label": "Știrile ProTV — candidaturi locale din Tulcea, 2016",
+      "url": "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-tulcea.html",
+      "description": "Lista pentru Primăria Crișan o identifică pe Trofim Aurora drept candidată ALDE în 2016; nu dovedește alegerea ca primar."
+    }
+  ]
+},
+{
+  "name": "Vasile Prodan",
+  "party": "PNL",
+  "position": "Fost primar al comunei Corni, Galați; afiliere PNL documentată în 2017",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Galați",
+    "locality": "Corni",
+    "basis": "office"
+  },
+  "crime": "Incompatibilitate administrativă — primar și administrator al unei societăți comerciale",
+  "status": "integrity",
+  "details": "HCL Corni 21 din 29 aprilie 2022 consemnează explicit că raportul ANI 11164/G/II/29.03.2017 privind incompatibilitatea primarului Prodan Vasile a rămas definitiv prin decizia ÎCCJ 353 din 25 ianuarie 2022, dosar 335/44/2017. HCL 17 din 28 martie 2022 citează ordinul prefectului Galați 94/01.03.2022 privind încetarea mandatului și exercitarea temporară a atribuțiilor de către viceprimar. Hotărârea judecătorească integrală nu a fost consultată; finalitatea este confirmată de documentele oficiale municipale. Potrivit relatării Adevărul din 4 aprilie 2017, care citează ANI, constatarea privește cumulul funcției de primar cu cea de administrator al Prodi 13 SRL în perioada 21 iunie 2012–28 noiembrie 2016. Aceeași relatare documentează afilierea PNL în 2017, fără a fi atribuită automat întregii perioade anterioare. Este o constatare administrativă, fără condamnare penală indicată în această cauză. La verificarea din 21 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme acest rezultat. Nu se afirmă existența unei interdicții în prezent.",
+  "verified_at": "2026-11-21",
+  "sources": [
+    {
+      "label": "Consiliul Local Corni — HCL 21/29 aprilie 2022",
+      "kind": "official",
+      "url": "https://emol.ro/corni-gl/registru-hcl/60520/",
+      "description": "Articolul 1 îl identifică nominal și citează raportul ANI, decizia definitivă ÎCCJ 353/25.01.2022 și dosarul 335/44/2017."
+    },
+    {
+      "label": "Consiliul Local Corni — HCL 17/28 martie 2022",
+      "kind": "official",
+      "url": "https://emol.ro/corni-gl/registru-hcl/60111/",
+      "description": "Citează decizia ÎCCJ și ordinul prefectului 94/01.03.2022 privind încetarea mandatului de primar; desemnează reprezentarea prin viceprimar."
+    },
+    {
+      "label": "Primăria Corni — declarații de avere și interese",
+      "kind": "official",
+      "url": "https://www.comunacorni.ro/declaratii/",
+      "description": "Arhiva oficială 2020–2021 îl identifică pe Prodan Vasile drept primar și leagă declarațiile sale, coroborând identitatea și funcția."
+    },
+    {
+      "label": "Adevărul — 4 aprilie 2017",
+      "url": "https://adevarul.ro/stiri-locale/galati/primarul-unei-localitati-galatene-incompatibil-1776735.html",
+      "description": "Relatare contemporană despre constatarea ANI: cumulul cu administrarea Prodi 13 SRL, perioada și afilierea PNL. Caracterul definitiv este documentat separat prin HCL din 2022."
+    }
+  ]
+},
+{
   "name": "Aurora Bălan Lazăr",
   "party": "PSD",
   "position": "Fost primar al comunei Gârcina, Neamț; realeasă din partea PSD în 2016",

@@ -101446,6 +101446,45 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4654",
+      "baseline_index": 4653,
+      "name": "Aurora Trofim",
+      "party": "ALDE",
+      "position": "Fost viceprimar și consilier local al comunei Crișan, Tulcea; candidată ALDE în 2016",
+      "position_type": "local_official",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-21",
+      "source_urls": [
+        "https://tl.prefectura.mai.gov.ro/wp-content/uploads/sites/20/2023/03/Raport-de-activitate-1-ianuarie-31-decembrie-2022.pdf",
+        "https://www.radioconstanta.ro/2019/02/01/trei-alesi-locali-din-judetul-tulcea-gasiti-de-ani-in-stare-de-incompatibilitate/",
+        "https://stirileprotv.ro/alegeri-locale/alegeri-locale-2016-candidatii-la-primarie-in-localitatile-din-judetul-tulcea.html"
+      ],
+      "baseline_snapshot_hash": "b4f5ebd7d97e87edcbdf3849276ffec26bbfafced215996ffb8c93ab7df9ffda",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4655",
+      "baseline_index": 4654,
+      "name": "Vasile Prodan",
+      "party": "PNL",
+      "position": "Fost primar al comunei Corni, Galați; afiliere PNL documentată în 2017",
+      "position_type": "mayor",
+      "legal_status": "integrity",
+      "verified_at": "2026-11-21",
+      "source_urls": [
+        "https://emol.ro/corni-gl/registru-hcl/60111/",
+        "https://emol.ro/corni-gl/registru-hcl/60520/",
+        "https://www.comunacorni.ro/declaratii/",
+        "https://adevarul.ro/stiri-locale/galati/primarul-unei-localitati-galatene-incompatibil-1776735.html"
+      ],
+      "baseline_snapshot_hash": "4cedcbfe1a48d169b3e75cc000d585e58eb17b69bf8639978915c04b13a10321",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
