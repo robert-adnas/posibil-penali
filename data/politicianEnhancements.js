@@ -25500,6 +25500,92 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Vasile Rîmbu",
+  "party": "PSD",
+  "position": "Primar al municipiului Suceava, ales din partea PSD în 2024; suspendat din partid în 2026",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Suceava",
+    "locality": "Suceava",
+    "basis": "office"
+  },
+  "crime": "Achitare definitivă — acuzație de instigare la folosirea unor informații nedestinate publicității",
+  "status": "acquitted",
+  "sentence": "Achitare definitivă la 30 aprilie 2025",
+  "details": "Curtea de Apel Suceava a dispus achitarea definitivă a lui Vasile Rîmbu prin decizia penală 493 din 30 aprilie 2025, deoarece fapta nu este prevăzută de legea penală, potrivit actualizării DNA din 30 septembrie 2025. Fusese trimis în judecată în 2023 pentru instigare la folosirea unor informații nedestinate publicității, în legătură cu perioada în care era manager suspendat al Spitalului Județean Suceava. Acuzația inițială nu reprezintă o constatare a vinovăției, iar profilul consemnează achitarea. Soluția este verificată prin comunicatul oficial DNA; hotărârea judecătorească integrală nu a fost consultată. Identitatea managerului devenit primar este coroborată prin interviul Radio Top din mai 2024 și organigrama oficială municipală. PSD este afilierea documentată pentru alegerea din 2024. News.ro consemnează în octombrie 2026 suspendarea din PSD și anunțarea susținerii PNL pentru o candidatură viitoare, precizând că nu devenise membru PNL; nu se afirmă o schimbare formală de partid. La verificarea din 22 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme achitarea în această cauză.",
+  "verified_at": "2026-11-22",
+  "sources": [
+    {
+      "label": "DNA — actualizare din 30 septembrie 2025",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=12281",
+      "description": "Secțiunea 1 îl numește pe Rîmbu Vasile și confirmă achitarea definitivă prin decizia 493/30.04.2025, deoarece faptele nu sunt prevăzute de legea penală."
+    },
+    {
+      "label": "Primăria Suceava — organigramă",
+      "kind": "official",
+      "url": "https://www.primariasv.ro/dm_suceava/site.nsf/pagini/organigrama-00001652",
+      "description": "Pagina oficială datată 24 aprilie 2026 îl identifică pe Vasile Rîmbu drept primar al municipiului."
+    },
+    {
+      "label": "Radio Top — interviu din 8 mai 2024",
+      "url": "https://www.radiotop.ro/politic/vasile-rimbu-candidatul-psd-la-functia-de-primar-al-sucevei-faptul-ca-am-acceptat-in-cele-din-urma-sa-candidez-la-primaria-municipiului-suceava-a-fost-si-pentru-ca-vreau-sa-demonstrez-ca-ceea-ce-am.html",
+      "description": "Coroborează identitatea fostului manager al Spitalului Județean și candidatura PSD la Primăria Suceava."
+    },
+    {
+      "label": "AGERPRES — alegeri locale, 10 iunie 2024",
+      "url": "https://agerpres.ro/politica/2024/06/10/vasile-rimbu-psd-42-47-si-lucian-harsovschi-pnl-27-65-la-primaria-municipiului-suceava--1310590",
+      "description": "Documentează victoria candidatului PSD Vasile Rîmbu la alegerile pentru Primăria Suceava din 2024."
+    },
+    {
+      "label": "News.ro — situația politică la 15 octombrie 2026",
+      "url": "https://www.news.ro/politic-intern/edilul-sucevei-vasile-rimbu-ales-pe-listele-psd-in-2024-va-candida-pentru-un-nou-mandat-sustinut-de-pnl-el-a-fost-suspendat-din-psd-tocmai-pentru-apropierea-sa-fata-de-pnl-1922401515002026102322837522",
+      "description": "Consemnează suspendarea din PSD și susținerea anunțată de PNL pentru o candidatură viitoare, fără înscriere în PNL la acea dată."
+    }
+  ]
+},
+{
+  "name": "Dumitru Tudone",
+  "party": "PNL",
+  "position": "Consilier județean Prahova și fost vicepreședinte al CJ Prahova; candidat PNL în 2024",
+  "position_type": "local_official",
+  "geography": {
+    "county": "Prahova",
+    "locality": "",
+    "basis": "office"
+  },
+  "crime": "Achitare definitivă — acuzație de abuz în serviciu în dosarul terenurilor Fundulea",
+  "status": "acquitted",
+  "sentence": "Achitare definitivă la 29 iulie 2021",
+  "details": "Curtea de Apel București a dispus achitarea definitivă a lui Dumitru Tudone prin decizia penală 936/A din 29 iulie 2021, conform actualizării DNA din 18 august 2021. Fusese trimis în judecată în septembrie 2016 pentru acuzația de abuz în serviciu cu consecințe deosebit de grave în cauza terenurilor aflate în administrarea institutului de cercetare Fundulea, în calitate de fost secretar general al Consiliului Județean Călărași și membru al comisiei județene de fond funciar. DNA consemnează achitarea tuturor inculpaților și respingerea acțiunilor civile; temeiurile achitării sunt prezentate colectiv, fără a atribui automat unuia dintre inculpați un temei individual neprecizat. Hotărârea judecătorească integrală nu a fost consultată. Pagina oficială CJ Prahova confirmă mandatul de consilier, iar HCJ 21/05.02.2024 îl identifică drept vicepreședinte. Relatarea News.ro din aprilie 2024 leagă identitatea fostului secretar general din Călărași de mandatul politic în Prahova și candidatura PNL. Afilierea este documentată pentru candidatura politică din 2024, fără a fi atribuită funcției administrative din 2007. Județul profilului reflectă mandatul politic din Prahova; cauza privește activitatea anterioară din Călărași. La verificarea din 22 noiembrie 2026 nu a fost localizată o hotărâre ulterioară care să infirme această achitare.",
+  "verified_at": "2026-11-22",
+  "sources": [
+    {
+      "label": "DNA — trimitere în judecată și achitare definitivă",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=7728",
+      "description": "Actualizarea din 18.08.2021 îl numește explicit pe Tudone Dumitru între persoanele achitate definitiv prin decizia 936/A/29.07.2021; acțiunile civile au fost respinse."
+    },
+    {
+      "label": "CJ Prahova — profil oficial Tudone Dumitru",
+      "kind": "official",
+      "url": "https://cjph.ro/personal/tudone-dumitru-2/",
+      "description": "Confirmă funcția de consilier județean și publică legăturile declarațiilor din 2024 și 2025."
+    },
+    {
+      "label": "CJ Prahova — hotărârea 21/5 februarie 2024",
+      "kind": "official",
+      "url": "https://cjph.ro/wp-content/uploads/2024/02/Hotararea-nr.-21-din-data-5-02-2024.pdf",
+      "description": "Articolul 1 îl identifică pe Tudone Dumitru drept vicepreședinte și îl desemnează pentru exercitarea temporară a atribuțiilor președintelui."
+    },
+    {
+      "label": "News.ro — candidatura PNL din 29 aprilie 2024",
+      "url": "https://www.news.ro/politic-intern/omul-de-incredere-al-lui-iulian-dumitrescu-dumitru-tudone-care-a-lasat-calarasiul-pentru-prahova-deschide-lista-pnl-pentru-consiliul-judetean-prahova-1922404329012024041921575625",
+      "description": "Coroborează identitatea fostului secretar general al județului Călărași cu mandatul politic din Prahova și candidatura PNL din 2024."
+    }
+  ]
+},
+{
   "name": "Aurora Trofim",
   "party": "ALDE",
   "position": "Fost viceprimar și consilier local al comunei Crișan, Tulcea; candidată ALDE în 2016",

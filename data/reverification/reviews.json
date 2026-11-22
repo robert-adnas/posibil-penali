@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-22",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80112,6 +80112,45 @@
       ],
       "note": "HCL21/29.04.2022 art1 citit: ProdanVasile primarCorniGalati, ANI11164/29.03.2017 definitiv ICCJ353/25.01.2022 dosar335/44/2017. HCL17/28.03.2022 citeaza prefect94/01.03.2022 incetaremandat. Hotararea integrala nu a fost consultata, finalitatea atribuita documentelor municipale. Pagina oficiala declaratii2020/2021 coroboreaza primarul. Adevarul04.04.2017 citit: PNL datat2017, cumul administratorProdi13SRL2012-2016. Fara duplicat1325profiles/holds/exclusions/registru inclusiv nume inversate; distinctProdanEmilian/Daniela. Cautari dupa nume/dosar nu au localizat infirmare. Fara condamnare/interdictie actuala afirmata.",
       "reviewed_snapshot_hash": "4cedcbfe1a48d169b3e75cc000d585e58eb17b69bf8639978915c04b13a10321"
+    },
+    {
+      "profile_id": "RV-4656",
+      "original_name": "Vasile Rîmbu",
+      "current_name": "Vasile Rîmbu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-22",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=12281",
+        "https://www.primariasv.ro/dm_suceava/site.nsf/pagini/organigrama-00001652",
+        "https://www.radiotop.ro/politic/vasile-rimbu-candidatul-psd-la-functia-de-primar-al-sucevei-faptul-ca-am-acceptat-in-cele-din-urma-sa-candidez-la-primaria-municipiului-suceava-a-fost-si-pentru-ca-vreau-sa-demonstrez-ca-ceea-ce-am.html",
+        "https://agerpres.ro/politica/2024/06/10/vasile-rimbu-psd-42-47-si-lucian-harsovschi-pnl-27-65-la-primaria-municipiului-suceava--1310590",
+        "https://www.news.ro/politic-intern/edilul-sucevei-vasile-rimbu-ales-pe-listele-psd-in-2024-va-candida-pentru-un-nou-mandat-sustinut-de-pnl-el-a-fost-suspendat-din-psd-tocmai-pentru-apropierea-sa-fata-de-pnl-1922401515002026102322837522"
+      ],
+      "note": "DNA12281 sect1 actualizare30.09.2025 citita: achitare definitiva493/30.04.2025 faptele nu sunt prevazute de legea penala. Original judiciar necitit; mirrorLuju direct404, nu folosit pentru pretinsa clasare111/P/2020. RadioTop08.05.2024 leaga managerul spitalului de candidatulPSD; Agerpres10.06.2024 victoriaPSD, organigramaoficiala2026 primar. News.ro15.10.2026 suspendatPSD/sustinereviitoarePNL fara membruPNL explicit. Duplicate1327profiles inclholds, manifestreviews/exclusions/numeinversate/diacritice: absent, distinctCosminaRambu/FlorinStrimbu; DNA12281sharedremovedRodicaAurelian distinct. Cautari ulterioare fara infirmarelocalizata. Profilul afirma explicit achitarea, nu condamnarea.",
+      "reviewed_snapshot_hash": "77fe1b7a269616989dddefee01fbdcb969dea111deb88fdfd30065dda01d8e05"
+    },
+    {
+      "profile_id": "RV-4657",
+      "original_name": "Dumitru Tudone",
+      "current_name": "Dumitru Tudone",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-22",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://cjph.ro/personal/tudone-dumitru-2/",
+        "https://cjph.ro/wp-content/uploads/2024/02/Hotararea-nr.-21-din-data-5-02-2024.pdf",
+        "https://www.news.ro/politic-intern/omul-de-incredere-al-lui-iulian-dumitrescu-dumitru-tudone-care-a-lasat-calarasiul-pentru-prahova-deschide-lista-pnl-pentru-consiliul-judetean-prahova-1922404329012024041921575625"
+      ],
+      "note": "DNA7728 actualizare18.08.2021 citita independent: nominal TudoneDumitru achitat definitiv936/A29.07.2021, actiunicivilerespinse; nu atribuit temeiindividual din formula colectiva. Originalhotarare necitit. HCJ21/05.02.2024 PDFoficialcitit art1 vicePresCJ; profiloficialactual consilierjudetean. News.ro29.04.2024 leaga fostsecretargeneralCalarasi cu politicianPrahova/candidaturaPNL. Politiceligible prinmandatPrahova, distinctfunctieadministrativa2007. Numeinversate/manifest/reviews/holds/exclusions1327profiles fara duplicat; DNAsharedco-defendants distinct. Cautari ulterioare fara infirmarelocalizata. Profil explicit achitat.",
+      "reviewed_snapshot_hash": "02174e07d1354643a29b2772e301f5b6b37fc4c3b92bd58edfa93b4eb981b8fc"
     }
   ]
 }

@@ -101485,6 +101485,47 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4656",
+      "baseline_index": 4655,
+      "name": "Vasile Rîmbu",
+      "party": "PSD",
+      "position": "Primar al municipiului Suceava, ales din partea PSD în 2024; suspendat din partid în 2026",
+      "position_type": "mayor",
+      "legal_status": "acquitted",
+      "verified_at": "2026-11-22",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=12281",
+        "https://www.primariasv.ro/dm_suceava/site.nsf/pagini/organigrama-00001652",
+        "https://agerpres.ro/politica/2024/06/10/vasile-rimbu-psd-42-47-si-lucian-harsovschi-pnl-27-65-la-primaria-municipiului-suceava--1310590",
+        "https://www.news.ro/politic-intern/edilul-sucevei-vasile-rimbu-ales-pe-listele-psd-in-2024-va-candida-pentru-un-nou-mandat-sustinut-de-pnl-el-a-fost-suspendat-din-psd-tocmai-pentru-apropierea-sa-fata-de-pnl-1922401515002026102322837522",
+        "https://www.radiotop.ro/politic/vasile-rimbu-candidatul-psd-la-functia-de-primar-al-sucevei-faptul-ca-am-acceptat-in-cele-din-urma-sa-candidez-la-primaria-municipiului-suceava-a-fost-si-pentru-ca-vreau-sa-demonstrez-ca-ceea-ce-am.html"
+      ],
+      "baseline_snapshot_hash": "77fe1b7a269616989dddefee01fbdcb969dea111deb88fdfd30065dda01d8e05",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4657",
+      "baseline_index": 4656,
+      "name": "Dumitru Tudone",
+      "party": "PNL",
+      "position": "Consilier județean Prahova și fost vicepreședinte al CJ Prahova; candidat PNL în 2024",
+      "position_type": "local_official",
+      "legal_status": "acquitted",
+      "verified_at": "2026-11-22",
+      "source_urls": [
+        "https://cjph.ro/wp-content/uploads/2024/02/Hotararea-nr.-21-din-data-5-02-2024.pdf",
+        "https://cjph.ro/personal/tudone-dumitru-2/",
+        "https://www.dna.ro/comunicat.xhtml?id=7728",
+        "https://www.news.ro/politic-intern/omul-de-incredere-al-lui-iulian-dumitrescu-dumitru-tudone-care-a-lasat-calarasiul-pentru-prahova-deschide-lista-pnl-pentru-consiliul-judetean-prahova-1922404329012024041921575625"
+      ],
+      "baseline_snapshot_hash": "02174e07d1354643a29b2772e301f5b6b37fc4c3b92bd58edfa93b4eb981b8fc",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }
