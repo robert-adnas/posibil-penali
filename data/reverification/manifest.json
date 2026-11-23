@@ -101526,6 +101526,31 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4658",
+      "baseline_index": 4657,
+      "name": "Stoian Vasiu",
+      "party": "PSD",
+      "position": "Primar al comunei Tomnatic, Timiș; candidat PSD în 2024",
+      "position_type": "mayor",
+      "legal_status": "indicted",
+      "verified_at": "2026-11-23",
+      "source_urls": [
+        "https://primaria-tomnatic.ro/acte-afisate-de-catre-biroul-electoral-de-circumscriptie-nr-91-al-comunei-tomnatic/",
+        "https://portal.just.ro/59/Documents/Informatii%20de%20interes%20public/2026/Liste%20sedinta/ianuarie/Lista%20sedinta%20PENAL%20-%2015%20ianuarie%202026.pdf",
+        "https://www.eppo.europa.eu/media/news/romania-eppo-indicts-nine-individuals-and-two-companies-misuse-agricultural-funds-2025-03-06_en",
+        "https://primaria-tomnatic.ro/despre-noi/conducere/primar/",
+        "https://dosarjust.ro/dosar/230%2F59%2F2025",
+        "https://www.statusdosar.ro/instante/curtea-de-apel-timisoara/dosare/sectia-penala/penal/230/59/2025",
+        "https://www.timisoarastiri.ro/victorie-obtinuta-de-avocatul-timisorean-florin-kovacs-la-inalta-curte-vasiu-stoian-isi-poate-relua-functia-de-primar-la-tomnatic/"
+      ],
+      "baseline_snapshot_hash": "af23b1e60407a3bfb7edbe45d9b63c7ef4814ed8cc081df85921aa494eda07da",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

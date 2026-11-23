@@ -25500,6 +25500,62 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Stoian Vasiu",
+  "party": "PSD",
+  "position": "Primar al comunei Tomnatic, Timiș; candidat PSD în 2024",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Timiș",
+    "locality": "Tomnatic",
+    "basis": "office"
+  },
+  "crime": "Dosar EPPO privind fonduri europene — judecată în curs, fără condamnare confirmată",
+  "status": "indicted",
+  "details": "Stoian Vasiu, primarul comunei Tomnatic, este numit ca inculpat în dosarul 230/59/2025 al Curții de Apel Timișoara, în lista oficială a ședinței din 15 ianuarie 2026. Obiectul dosarului este consemnat ca infracțiuni de corupție, potrivit Legii 78/2000. Comunicarea EPPO din martie 2025 descrie acuzații privind trei proiecte agricole finanțate din fonduri europene; aceasta nu numește persoanele, astfel încât identificarea nominală se bazează pe documentul instanței și este coroborată cu sursele municipale și relatarea independentă despre dosarul conex. Nu se atribuie individual lui Vasiu toate acuzațiile formulate împotriva celorlalți inculpați. La verificarea din 23 noiembrie 2026, ultima încheiere identificată în reproducerile datelor instanței, din 6 noiembrie 2026, amâna judecata la 27 noiembrie 2026. Nu a fost identificată o hotărâre de condamnare sau achitare pe fond. Prezumția de nevinovăție se aplică. Lista oficială nominală a fost consultată; stadiul recent este verificat prin reproduceri ale datelor ECRIS, nu prin lectura unei încheieri originale recente. Presa a relatat separat înlăturarea în august 2025 a interdicției de exercitare a funcției de primar în dosarul conex 230/59/2025/a5; aceasta nu reprezintă o achitare, iar hotărârea integrală respectivă nu a fost consultată. PSD este afilierea documentată pentru candidatura din 2024.",
+  "verified_at": "2026-11-23",
+  "sources": [
+    {
+      "label": "Curtea de Apel Timișoara — lista ședinței din 15 ianuarie 2026",
+      "kind": "official",
+      "url": "https://portal.just.ro/59/Documents/Informatii%20de%20interes%20public/2026/Liste%20sedinta/ianuarie/Lista%20sedinta%20PENAL%20-%2015%20ianuarie%202026.pdf",
+      "description": "Îl numește pe VASIU STOIAN ca inculpat în dosarul 230/59/2025, în stadiul fond, cu participarea EPPO."
+    },
+    {
+      "label": "Primăria Tomnatic — primar",
+      "kind": "official",
+      "url": "https://primaria-tomnatic.ro/despre-noi/conducere/primar/",
+      "description": "Identifică nominal primarul comunei Tomnatic, Vasiu Stoian."
+    },
+    {
+      "label": "Biroul Electoral Tomnatic — acte pentru alegerile din 2024",
+      "kind": "official",
+      "url": "https://primaria-tomnatic.ro/acte-afisate-de-catre-biroul-electoral-de-circumscriptie-nr-91-al-comunei-tomnatic/",
+      "description": "Indexul oficial, punctul 8, consemnează admiterea candidaturii VASIU STOIAN din partea PSD prin Hotărârea 38/26.04.2024; documentul PDF anexat nu a fost accesibil."
+    },
+    {
+      "label": "EPPO — comunicat din martie 2025",
+      "kind": "official",
+      "url": "https://www.eppo.europa.eu/media/news/romania-eppo-indicts-nine-individuals-and-two-companies-misuse-agricultural-funds-2025-03-06_en",
+      "description": "Comunicatul nenominal descrie acuzații privind proiecte agricole; numele persoanei se verifică separat în lista instanței."
+    },
+    {
+      "label": "Status Dosar — evoluția dosarului 230/59/2025",
+      "url": "https://www.statusdosar.ro/instante/curtea-de-apel-timisoara/dosare/sectia-penala/penal/230/59/2025",
+      "description": "Reproduce încheierea din 06.11.2026 de amânare pentru 27.11.2026, stadiul fond; nu este o hotărâre originală și părțile fizice sunt anonimizate."
+    },
+    {
+      "label": "DosarJust — reproducere a datelor dosarului",
+      "url": "https://dosarjust.ro/dosar/230%2F59%2F2025",
+      "description": "Coroborează dosarul, societățile implicate și judecata în curs; versiunile indexate și pagina deschisă au date de actualizare diferite."
+    },
+    {
+      "label": "Timișoara Știri — dosar conex, 7 august 2025",
+      "url": "https://www.timisoarastiri.ro/victorie-obtinuta-de-avocatul-timisorean-florin-kovacs-la-inalta-curte-vasiu-stoian-isi-poate-relua-functia-de-primar-la-tomnatic/",
+      "description": "Leagă independent identitatea primarului Tomnatic de dosarul 230/59/2025/a5 și relatează înlăturarea interdicției de exercitare a funcției, fără achitare."
+    }
+  ]
+},
+{
   "name": "Vasile Rîmbu",
   "party": "PSD",
   "position": "Primar al municipiului Suceava, ales din partea PSD în 2024; suspendat din partid în 2026",

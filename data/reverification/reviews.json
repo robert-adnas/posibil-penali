@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-23",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80151,6 +80151,25 @@
       ],
       "note": "DNA7728 actualizare18.08.2021 citita independent: nominal TudoneDumitru achitat definitiv936/A29.07.2021, actiunicivilerespinse; nu atribuit temeiindividual din formula colectiva. Originalhotarare necitit. HCJ21/05.02.2024 PDFoficialcitit art1 vicePresCJ; profiloficialactual consilierjudetean. News.ro29.04.2024 leaga fostsecretargeneralCalarasi cu politicianPrahova/candidaturaPNL. Politiceligible prinmandatPrahova, distinctfunctieadministrativa2007. Numeinversate/manifest/reviews/holds/exclusions1327profiles fara duplicat; DNAsharedco-defendants distinct. Cautari ulterioare fara infirmarelocalizata. Profil explicit achitat.",
       "reviewed_snapshot_hash": "02174e07d1354643a29b2772e301f5b6b37fc4c3b92bd58edfa93b4eb981b8fc"
+    },
+    {
+      "profile_id": "RV-4658",
+      "original_name": "Stoian Vasiu",
+      "current_name": "Stoian Vasiu",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-23",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://portal.just.ro/59/Documents/Informatii%20de%20interes%20public/2026/Liste%20sedinta/ianuarie/Lista%20sedinta%20PENAL%20-%2015%20ianuarie%202026.pdf",
+        "https://primaria-tomnatic.ro/despre-noi/conducere/primar/",
+        "https://primaria-tomnatic.ro/acte-afisate-de-catre-biroul-electoral-de-circumscriptie-nr-91-al-comunei-tomnatic/",
+        "https://www.statusdosar.ro/instante/curtea-de-apel-timisoara/dosare/sectia-penala/penal/230/59/2025"
+      ],
+      "note": "Verificare automată independentă: lista oficială nominală a instanței, identitate municipală și candidatură PSD2024, legătură independentă primar-dosar conex. Judecată în curs, fără condamnare confirmată, prezumție de nevinovăție; stadiul recent prin reproduceri ECRIS, încheiere originală recentă neconsultată. Nu se atribuie toate acuzațiile colective individual. Variantele de nume și excluderile istorice Stoian Vasile/Horațiu Nicolae Vasiu sunt persoane distincte. Petre Pârvu amânat pentru confirmarea oficială a soluției definitive.",
+      "reviewed_snapshot_hash": "af23b1e60407a3bfb7edbe45d9b63c7ef4814ed8cc081df85921aa494eda07da"
     }
   ]
 }
