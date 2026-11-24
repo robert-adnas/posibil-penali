@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23",
+  "updated_at": "2026-11-24",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80170,6 +80170,24 @@
       ],
       "note": "Verificare automată independentă: lista oficială nominală a instanței, identitate municipală și candidatură PSD2024, legătură independentă primar-dosar conex. Judecată în curs, fără condamnare confirmată, prezumție de nevinovăție; stadiul recent prin reproduceri ECRIS, încheiere originală recentă neconsultată. Nu se atribuie toate acuzațiile colective individual. Variantele de nume și excluderile istorice Stoian Vasile/Horațiu Nicolae Vasiu sunt persoane distincte. Petre Pârvu amânat pentru confirmarea oficială a soluției definitive.",
       "reviewed_snapshot_hash": "af23b1e60407a3bfb7edbe45d9b63c7ef4814ed8cc081df85921aa494eda07da"
+    },
+    {
+      "profile_id": "RV-4659",
+      "original_name": "Cornel-Vasile Chifor",
+      "current_name": "Cornel-Vasile Chifor",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-24",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://portal.just.ro/235/Documents/lista_sedinta_Complet_P_1_Camer%C4%83_de_Consiliu_%28p%29_29.09.2025.pdf",
+        "https://cjcluj.ro/primarie/cornesti/",
+        "https://www.statusdosar.ro/instante/judecatoria-gherla/dosare/fara-sectie/penal/3944/235/2025/a1%2A"
+      ],
+      "note": "Verificare independentă: document judiciar nominal, CJCluj identitate, presă independentă leagă edilul de dosar și alegerea PNL2024. Camera preliminară reluată, fără soluție pe fond identificată; prezumție de nevinovăție. Stadiu recent prin reproduceri ECRIS citite HTTP, nu încheieri originale. Suspendarea funcției relatată2025, exercitarea actuală neconfirmată. Nume inversate/raw/additions/exclusions/holds/istoric fără potrivire; CristianVasileChifor din Dej persoană distinctă. JanaFulga și HoriaPetruSulea amânați pentru verificarea dosarelor separate.",
+      "reviewed_snapshot_hash": "57b0cae3ea40e12cc3c245cc5be16a4f9acaf04d8fbfba2d2ce333515fc77da3"
     }
   ]
 }

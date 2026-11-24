@@ -101551,6 +101551,31 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4659",
+      "baseline_index": 4658,
+      "name": "Cornel-Vasile Chifor",
+      "party": "PNL",
+      "position": "Primar ales al comunei Cornești, Cluj, din partea PNL în 2024; suspendare din exercitarea funcției relatată în 2025",
+      "position_type": "mayor",
+      "legal_status": "indicted",
+      "verified_at": "2026-11-24",
+      "source_urls": [
+        "https://cjcluj.ro/primarie/cornesti/",
+        "https://portal.just.ro/235/Documents/lista_sedinta_Complet_P_1_Camer%C4%83_de_Consiliu_%28p%29_29.09.2025.pdf",
+        "https://cluj24.ro/alegeri-cluj-2024-harta-primarilor-pnl-in-top-pe-podium-psd-si-udmr-primari-alesi-cu-peste-90-dar-si-sub-30-din-voturi-213073.html",
+        "https://cluj24.ro/un-consilier-local-pnl-ales-viceprimar-in-cornesti-va-prelua-atributiile-primarului-suspendat-pentru-coruptie-244056.html",
+        "https://foaiatransilvana.ro/lovitura-in-dosarul-primarului-acuzat-de-procurori-ca-ar-fi-sustras-motorina-din-primarie/",
+        "https://www.statusdosar.ro/instante/judecatoria-gherla/dosare/fara-sectie/penal/3944/235/2025/a1%2A",
+        "https://www.statusdosar.ro/instante/judecatoria-gherla/dosare/fara-sectie/penal/3944/235/2025/a1%2A/a1"
+      ],
+      "baseline_snapshot_hash": "57b0cae3ea40e12cc3c245cc5be16a4f9acaf04d8fbfba2d2ce333515fc77da3",
+      "risk_score": 60,
+      "risk_flags": [
+        "active_legal_status"
+      ],
+      "similar_names": []
     }
   ]
 }

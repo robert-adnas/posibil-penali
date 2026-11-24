@@ -25500,6 +25500,60 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Cornel-Vasile Chifor",
+  "party": "PNL",
+  "position": "Primar ales al comunei Cornești, Cluj, din partea PNL în 2024; suspendare din exercitarea funcției relatată în 2025",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Cluj",
+    "locality": "Cornești",
+    "basis": "office"
+  },
+  "crime": "Acuzații de delapidare și fals informatic — cameră preliminară în curs",
+  "status": "indicted",
+  "details": "Cornel-Vasile Chifor este numit ca inculpat în dosarul 3944/235/2025/a1.2, în lista oficială a Judecătoriei Gherla pentru 29 septembrie 2025, cu Primăria comunei Cornești ca parte civilă. Identitatea edilului este coroborată prin pagina Consiliului Județean Cluj și presa locală. Potrivit relatării Foaia Transilvană din iunie 2026, acuzațiile privesc folosirea pretinsă în interes personal a motorinei și utilajelor primăriei, fals informatic și conducere fără permis; rechizitoriul integral nu a fost consultat. La 26 iunie 2026, Tribunalul Cluj a dispus reluarea camerei preliminare, potrivit aceleiași relatări; soluția privește procedura, fără a stabili vinovăția. La verificarea din 24 noiembrie 2026, reproducerea datelor ECRIS pentru 3944/235/2025/a1* indica reînregistrarea la 9 octombrie 2026 și un termen la 19 ianuarie 2027. Dosarul asociat a1*/a1, înregistrat la 10 noiembrie 2026, privește verificarea măsurilor asigurătorii. Nu a fost identificată o condamnare sau achitare pe fond. Prezumția de nevinovăție se aplică. Stadiul recent este verificat prin reproduceri ale datelor instanței, fără consultarea încheierilor originale recente. PNL este afilierea documentată pentru alegerea din 2024. Cluj24 a relatat în aprilie 2025 suspendarea exercitării funcției și preluarea atribuțiilor de viceprimar; profilul nu confirmă reluarea actuală a atribuțiilor.",
+  "verified_at": "2026-11-24",
+  "sources": [
+    {
+      "label": "Judecătoria Gherla — lista ședinței din 29 septembrie 2025",
+      "kind": "official",
+      "url": "https://portal.just.ro/235/Documents/lista_sedinta_Complet_P_1_Camer%C4%83_de_Consiliu_%28p%29_29.09.2025.pdf",
+      "description": "Îl numește ca inculpat pe CHIFOR CORNEL-VASILE în dosarul 3944/235/2025/a1.2, cu Primăria Cornești parte civilă."
+    },
+    {
+      "label": "Consiliul Județean Cluj — Cornești",
+      "kind": "official",
+      "url": "https://cjcluj.ro/primarie/cornesti/",
+      "description": "Pagina instituțională identifică nominal primarul CHIFOR Cornel-Vasile; nu confirmă exercitarea efectivă actuală a atribuțiilor."
+    },
+    {
+      "label": "Cluj24 — rezultatele alegerilor din 2024",
+      "url": "https://cluj24.ro/alegeri-cluj-2024-harta-primarilor-pnl-in-top-pe-podium-psd-si-udmr-primari-alesi-cu-peste-90-dar-si-sub-30-din-voturi-213073.html",
+      "description": "Rezultatele publicate la 11 iunie 2024 îl indică pe Cornel Chifor, PNL, ales la Cornești."
+    },
+    {
+      "label": "Foaia Transilvană — reluarea camerei preliminare",
+      "url": "https://foaiatransilvana.ro/lovitura-in-dosarul-primarului-acuzat-de-procurori-ca-ar-fi-sustras-motorina-din-primarie/",
+      "description": "Relatarea din 28 iunie 2026 leagă identitatea primarului de dosar, descrie acuzațiile și decizia procedurală din 26 iunie; consemnează că edilul se declară nevinovat."
+    },
+    {
+      "label": "Status Dosar — camera preliminară rejudecată",
+      "url": "https://www.statusdosar.ro/instante/judecatoria-gherla/dosare/fara-sectie/penal/3944/235/2025/a1%2A",
+      "description": "Reproducere ECRIS: dosar reînregistrat la 09.10.2026, termen 19.01.2027; părțile fizice sunt anonimizate."
+    },
+    {
+      "label": "Status Dosar — verificarea măsurilor asigurătorii",
+      "url": "https://www.statusdosar.ro/instante/judecatoria-gherla/dosare/fara-sectie/penal/3944/235/2025/a1%2A/a1",
+      "description": "Reproducere ECRIS: dosar asociat înregistrat la 10.11.2026, actualizat la 11.11.2026, termen 19.01.2027."
+    },
+    {
+      "label": "Cluj24 — suspendarea exercitării funcției, aprilie 2025",
+      "url": "https://cluj24.ro/un-consilier-local-pnl-ales-viceprimar-in-cornesti-va-prelua-atributiile-primarului-suspendat-pentru-coruptie-244056.html",
+      "description": "Relatează suspendarea lui Cornel Chifor și preluarea atribuțiilor de către viceprimarul Sergiu Loșonți; nu constituie dovada unei condamnări."
+    }
+  ]
+},
+{
   "name": "Stoian Vasiu",
   "party": "PSD",
   "position": "Primar al comunei Tomnatic, Timiș; candidat PSD în 2024",
