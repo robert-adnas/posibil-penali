@@ -101576,6 +101576,47 @@
         "active_legal_status"
       ],
       "similar_names": []
+    },
+    {
+      "id": "RV-4660",
+      "baseline_index": 4659,
+      "name": "Ioan Hoban",
+      "party": "PNL",
+      "position": "Fost consilier local Baia Mare (2000–2004) și deputat PNL de Maramureș (2004–2008)",
+      "position_type": "deputy",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-25",
+      "source_urls": [
+        "https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=181&leg=2004",
+        "https://www.dna.ro/comunicat.xhtml?id=6347",
+        "https://www.dna.ro/comunicat.xhtml?id=1007",
+        "https://hotnews.ro/deputatul-pnl-ioan-hoban-trimis-in-judecata-de-dna-776669"
+      ],
+      "baseline_snapshot_hash": "34c8bb4fd13b61fb002ddfe1ba3b6db96a03e29bf08fb9c511ccfb45768b82e3",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4661",
+      "baseline_index": 4660,
+      "name": "Petrișor Teslovan",
+      "party": "PNL",
+      "position": "Fost viceprimar (2004–2008) și primar al comunei Lunca Bradului (2008–2012); PNL pentru mandatul de primar",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-25",
+      "source_urls": [
+        "https://www.bjmures.ro/bd/C/001/13/C00113.pdf",
+        "https://www.dna.ro/comunicat.xhtml?id=3491",
+        "https://www.dna.ro/comunicat.xhtml?id=7253",
+        "https://glasulvailor.ro/2016/04/26/lunca-bradului-are-o-noua-fata-datorita-primarului-petru-vultur-fara-datorii-si-executari-silite/",
+        "https://www.portal-info.ro/primarii/primaria-lunca_bradului-mures.html"
+      ],
+      "baseline_snapshot_hash": "e85961d9153e378e101ecab0e685b05d48c9e5b79311b0f4f3d9120653b13ae7",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

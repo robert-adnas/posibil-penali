@@ -25500,6 +25500,97 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+  "name": "Ioan Hoban",
+  "party": "PNL",
+  "position": "Fost consilier local Baia Mare (2000–2004) și deputat PNL de Maramureș (2004–2008)",
+  "position_type": "deputy",
+  "geography": {
+    "county": "Maramureș",
+    "locality": "Baia Mare",
+    "basis": "office"
+  },
+  "crime": "Luare de mită — condamnare definitivă cu suspendare",
+  "status": "convicted",
+  "sentence": "4 ani închisoare cu suspendare; termen de supraveghere de 7 ani",
+  "sentence_years": 4,
+  "conviction_year": 2015,
+  "verified_at": "2026-11-25",
+  "details": "Curtea de Apel Cluj l-a condamnat definitiv pe Ioan Hoban prin decizia 753 din 27 mai 2015 la patru ani de închisoare cu suspendare, cu un termen de supraveghere de șapte ani, pentru luare de mită, potrivit comunicatului DNA. Fapta privea activitatea de consilier local și membru al Comisiei de urbanism din Baia Mare, în mandatul 2000–2004. DNA consemnează confiscarea a 149.455 euro. Mandatul ulterior de deputat PNL, în legislatura 2004–2008, este confirmat de Camera Deputaților și legat de aceeași persoană prin comunicatul DNA din 2008 și relatarea HotNews. PNL este afilierea documentată pentru mandatul parlamentar; nu este atribuită automat întregii perioade anterioare. Soluția definitivă este verificată prin comunicatul oficial DNA; hotărârea judecătorească integrală nu a fost consultată. Căutările efectuate până la 25 noiembrie 2026 nu au identificat o hotărâre ulterioară care să infirme această condamnare. Profilul consemnează soluția istorică și nu afirmă existența unei interdicții electorale actuale.",
+  "sources": [
+    {
+      "label": "DNA — soluția definitivă din 27 mai 2015",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=6347",
+      "description": "Îl numește pe Hoban Ioan, fost consilier local Baia Mare, și confirmă pedeapsa definitivă de patru ani cu suspendare pentru luare de mită."
+    },
+    {
+      "label": "DNA — trimiterea în judecată din 2008",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=1007",
+      "description": "Leagă nominal fostul consilier local de calitatea de deputat la data trimiterii în judecată; acuzațiile inițiale sunt distincte de soluția definitivă."
+    },
+    {
+      "label": "Camera Deputaților — legislatura 2004–2008",
+      "kind": "official",
+      "url": "https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=181&leg=2004",
+      "description": "Profil oficial consultat direct: deputat de Maramureș, membru PNL, validat la 17 decembrie 2004."
+    },
+    {
+      "label": "HotNews — identitate politică și dosar, 22 august 2008",
+      "url": "https://hotnews.ro/deputatul-pnl-ioan-hoban-trimis-in-judecata-de-dna-776669",
+      "description": "Relatare independentă care leagă deputatul PNL de Maramureș de activitatea anterioară de consilier local și de dosarul schimbului de terenuri."
+    }
+  ]
+},
+{
+  "name": "Petrișor Teslovan",
+  "party": "PNL",
+  "position": "Fost viceprimar (2004–2008) și primar al comunei Lunca Bradului (2008–2012); PNL pentru mandatul de primar",
+  "position_type": "mayor",
+  "geography": {
+    "county": "Mureș",
+    "locality": "Lunca Bradului",
+    "basis": "office"
+  },
+  "crime": "Abuz în serviciu și infracțiuni de fals — condamnare definitivă cu suspendare",
+  "status": "convicted",
+  "sentence": "3 ani închisoare cu suspendare sub supraveghere; termen de încercare de 5 ani",
+  "sentence_years": 3,
+  "conviction_year": 2016,
+  "verified_at": "2026-11-25",
+  "details": "Curtea de Apel Târgu Mureș l-a condamnat definitiv pe Petrișor Teslovan prin decizia 137 din 1 martie 2016 la trei ani de închisoare cu suspendare sub supraveghere, cu termen de încercare de cinci ani, potrivit DNA. Infracțiunile consemnate sunt abuz în serviciu, fals intelectual, fals în înscrisuri sub semnătură privată și participație improprie la fals în înscrisuri sub semnătură privată, în formă continuată. Dosarul privea lucrări angajate și recepționate în numele comunei Lunca Bradului. Monografia localității, disponibilă la Biblioteca Județeană Mureș, confirmă mandatele de viceprimar din 2004 și primar din 2008 până în 2012; directorul istoric Portal Info consemnează PNL pentru mandatul 2008–2012. Această afiliere nu este extinsă automat perioadei anterioare. Identitatea fostului edil implicat în dosar este coroborată și de interviul din aprilie 2016 cu succesorul său. Soluția este verificată prin comunicatul oficial DNA; hotărârea integrală nu a fost consultată. Căutările efectuate până la 25 noiembrie 2026 nu au identificat o hotărâre ulterioară care să infirme condamnarea. Nu se afirmă o interdicție electorală actuală.",
+  "sources": [
+    {
+      "label": "DNA — soluția definitivă din 1 martie 2016",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=7253",
+      "description": "Confirmă nominal pedeapsa de trei ani cu suspendare și termenul de încercare de cinci ani, precum și infracțiunile reținute."
+    },
+    {
+      "label": "DNA — comunicatul 623/VIII/3 din 14 august 2012",
+      "kind": "official",
+      "url": "https://www.dna.ro/comunicat.xhtml?id=3491",
+      "description": "Identifică primarul și viceprimarul Lunca Bradului în cauza privind lucrări publice; nu se confundă acuzațiile inițiale cu soluția definitivă."
+    },
+    {
+      "label": "Biblioteca Județeană Mureș — monografia Lunca Bradului",
+      "kind": "official",
+      "url": "https://www.bjmures.ro/bd/C/001/13/C00113.pdf",
+      "description": "Secțiunea 10.1.7, paginile tipărite 176–177, confirmă mandatele de viceprimar din 2004 și primar în 2008–2012; nu stabilește afilierea politică."
+    },
+    {
+      "label": "Portal Info — istoricul primarilor Lunca Bradului",
+      "url": "https://www.portal-info.ro/primarii/primaria-lunca_bradului-mures.html",
+      "description": "Directorul istoric îl indică pe Teslovan Petrișor, PNL, pentru mandatul iunie 2008–iunie 2012; este o sursă secundară."
+    },
+    {
+      "label": "Glasul Văilor — interviu din 26 aprilie 2016",
+      "url": "https://glasulvailor.ro/2016/04/26/lunca-bradului-are-o-noua-fata-datorita-primarului-petru-vultur-fara-datorii-si-executari-silite/",
+      "description": "Interviul cu succesorul său coroborează identitatea fostului primar și soluția definitivă în cauza lucrărilor publice."
+    }
+  ]
+},
+{
   "name": "Cornel-Vasile Chifor",
   "party": "PNL",
   "position": "Primar ales al comunei Cornești, Cluj, din partea PNL în 2024; suspendare din exercitarea funcției relatată în 2025",

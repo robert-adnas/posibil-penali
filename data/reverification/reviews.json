@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80188,6 +80188,43 @@
       ],
       "note": "Verificare independentă: document judiciar nominal, CJCluj identitate, presă independentă leagă edilul de dosar și alegerea PNL2024. Camera preliminară reluată, fără soluție pe fond identificată; prezumție de nevinovăție. Stadiu recent prin reproduceri ECRIS citite HTTP, nu încheieri originale. Suspendarea funcției relatată2025, exercitarea actuală neconfirmată. Nume inversate/raw/additions/exclusions/holds/istoric fără potrivire; CristianVasileChifor din Dej persoană distinctă. JanaFulga și HoriaPetruSulea amânați pentru verificarea dosarelor separate.",
       "reviewed_snapshot_hash": "57b0cae3ea40e12cc3c245cc5be16a4f9acaf04d8fbfba2d2ce333515fc77da3"
+    },
+    {
+      "profile_id": "RV-4660",
+      "original_name": "Ioan Hoban",
+      "current_name": "Ioan Hoban",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-25",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=6347",
+        "https://www.dna.ro/comunicat.xhtml?id=1007",
+        "https://www.cdep.ro/ords/pls/parlam/structura.mp?cam=2&idm=181&leg=2004"
+      ],
+      "note": "DNA final753/27May2015 nominal4yrs suspended7supervision bribery read. CDEP directHTTP MP2004-08PNL plusDNA2008 andHotNews identity bridge councillor→deputy. Originaljudgment unread; laterremedysearches no changingrulinglocated, no currentban claimed. HobanAnaRV2891 unrelatedexcludedperson; sharedDNAStreuti co-defendant distinct. Parsed1331editorial andhistoricalchecks no duplicate.",
+      "reviewed_snapshot_hash": "34c8bb4fd13b61fb002ddfe1ba3b6db96a03e29bf08fb9c511ccfb45768b82e3"
+    },
+    {
+      "profile_id": "RV-4661",
+      "original_name": "Petrișor Teslovan",
+      "current_name": "Petrișor Teslovan",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-25",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=7253",
+        "https://www.dna.ro/comunicat.xhtml?id=3491",
+        "https://www.bjmures.ro/bd/C/001/13/C00113.pdf",
+        "https://www.portal-info.ro/primarii/primaria-lunca_bradului-mures.html"
+      ],
+      "note": "DNA final137/1Mar2016 nominal3yrs suspended5probation offenses read. Independentlibrarymonograph176-177 confirms vice2004/mayor2008-12; portalinfoPNL2008-12 dated historical only; GlasulVailor2016 successorinterviewcasebridge. Originaljudgment unread; latersearches no changingrulinglocated, no currentban claimed. NamevariantsPterisor reversed/diacritics parsed1331editorial andhistory no duplicate. UngheniPDF unread omitted.",
+      "reviewed_snapshot_hash": "e85961d9153e378e101ecab0e685b05d48c9e5b79311b0f4f3d9120653b13ae7"
     }
   ]
 }
