@@ -101617,6 +101617,65 @@
       "risk_score": 0,
       "risk_flags": [],
       "similar_names": []
+    },
+    {
+      "id": "RV-4662",
+      "baseline_index": 4661,
+      "name": "Gheorghe Ancuța",
+      "party": "PNL",
+      "position": "Fost primar al comunei Sirețel, Iași; candidat PNL la primărie în 2024",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-27",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8507",
+        "https://www.primariasiretel.ro/ari2_3203-alegeri_2024.html",
+        "https://www.presshub.ro/primar-dosar-penal-gheorghe-ancuta-tine-cu-dintii-de-functie-blocand-proiecte-fonduri-europene-5134/"
+      ],
+      "baseline_snapshot_hash": "35eeb9ff8a6516153e8fb18b479c86887c74404db5257140b7da85fe4204880f",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4663",
+      "baseline_index": 4662,
+      "name": "Dănuț Spiță",
+      "party": "ALDE",
+      "position": "Fost primar al comunei Țibana, Iași, și consilier local; candidat ALDE la consiliul local în 2020",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-27",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=5372",
+        "https://www.primariatibana.ro/data/_editor/files/Documents/CONSILIERI_LOCALI.pdf",
+        "https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/tibana/17",
+        "https://www.ziaruldeiasi.ro/stiri/directorul-penal-de-la-scoala-din-tibana-si-a-dat-demisia-e-condamnat-definitiv--152433.html"
+      ],
+      "baseline_snapshot_hash": "463b65b4a0bc3c3418447d804d462e2b34b89323827457818126b22425cecdb8",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
+    },
+    {
+      "id": "RV-4664",
+      "baseline_index": 4663,
+      "name": "Ion Balaure",
+      "party": "ADU",
+      "position": "Fost primar al comunei Rogova, Mehedinți; consilier local în 2023 și candidat ADU la primărie în 2024",
+      "position_type": "mayor",
+      "legal_status": "convicted",
+      "verified_at": "2026-11-27",
+      "source_urls": [
+        "https://www.dna.ro/comunicat.xhtml?id=8767",
+        "https://www.comunarogova.ro/wp-content/uploads/2023/06/Declaratie-de-interese-BALAURE-ION.pdf",
+        "https://adevarul.ro/stiri-locale/turnu-severin/un-fost-primar-un-functionar-de-la-apia-mehedinti-1699771.html",
+        "https://informatiadeseverin.eu/ion-balaure-candidatul-aliantei-dreapta-unita-pentru-rogova/"
+      ],
+      "baseline_snapshot_hash": "8020e11b042c0a83165924a2e92f95329bf592c22c860fcfe05825c37c26e366",
+      "risk_score": 0,
+      "risk_flags": [],
+      "similar_names": []
     }
   ]
 }

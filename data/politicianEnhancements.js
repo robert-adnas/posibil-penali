@@ -25500,6 +25500,127 @@ const AUTOMATED_AUG_02_2026_MORE_PEOPLE_RECORDS =
 
 export const politicianAdditions = [
 {
+    "name": "Gheorghe Ancuța",
+    "party": "PNL",
+    "position": "Fost primar al comunei Sirețel, Iași; candidat PNL la primărie în 2024",
+    "position_type": "mayor",
+    "geography": {
+      "county": "Iași",
+      "locality": "Sirețel",
+      "basis": "office"
+    },
+    "crime": "Abuz în serviciu — condamnare definitivă cu suspendare",
+    "status": "convicted",
+    "sentence": "3 ani închisoare cu suspendare; termen de încercare de 5 ani",
+    "sentence_years": 3,
+    "conviction_year": 2017,
+    "verified_at": "2026-11-27",
+    "details": "Curtea de Apel Iași l-a condamnat definitiv pe Gheorghe Ancuța prin decizia 765 din 23 octombrie 2017 la trei ani de închisoare cu suspendare, cu un termen de încercare de cinci ani, pentru abuz în serviciu, în calitate de primar al comunei Sirețel la data faptei. DNA consemnează obligația de plată în solidar cu un coinculpat a 173.883 lei către partea civilă. Identitatea și legătura cu mandatul de primar sunt coroborate prin investigația PRESShub din martie 2019. Hotărârea electorală 7/28.04.2024, descrisă pe site-ul oficial al comunei, confirmă candidatura PNL din 2024; afilierea este documentată pentru această candidatură. Soluția este verificată prin comunicatul oficial DNA; hotărârea judecătorească integrală nu a fost consultată. Căutările efectuate până la 27 noiembrie 2026 nu au identificat o hotărâre ulterioară care să infirme condamnarea. Profilul consemnează soluția istorică, fără a afirma existența unei interdicții actuale.",
+    "sources": [
+      {
+        "label": "DNA — decizia definitivă 765/23.10.2017",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=8507",
+        "description": "Confirmă nominal primarul din Sirețel, abuzul în serviciu, trei ani cu suspendare și termenul de încercare de cinci ani.",
+        "kind": "official"
+      },
+      {
+        "label": "Primăria Sirețel — alegeri 2024",
+        "url": "https://www.primariasiretel.ro/ari2_3203-alegeri_2024.html",
+        "description": "Indexul oficial descrie hotărârea 7 din 28 aprilie 2024 privind admiterea candidaturii lui Ancuța Gheorghe, propus de PNL.",
+        "kind": "official"
+      },
+      {
+        "label": "PRESShub — investigație din 5 martie 2019",
+        "url": "https://www.presshub.ro/primar-dosar-penal-gheorghe-ancuta-tine-cu-dintii-de-functie-blocand-proiecte-fonduri-europene-5134/",
+        "description": "Coroborează identitatea primarului Sirețel și condamnarea definitivă din octombrie 2017."
+      }
+    ]
+  },
+  {
+    "name": "Dănuț Spiță",
+    "party": "ALDE",
+    "position": "Fost primar al comunei Țibana, Iași, și consilier local; candidat ALDE la consiliul local în 2020",
+    "position_type": "mayor",
+    "geography": {
+      "county": "Iași",
+      "locality": "Țibana",
+      "basis": "office"
+    },
+    "crime": "Fals intelectual și complicitate la obținerea nelegală de fonduri europene — condamnare definitivă cu suspendare",
+    "status": "convicted",
+    "sentence": "1 an și 9 luni închisoare cu suspendare; termen de încercare de 3 ani și 9 luni",
+    "sentence_years": 1.75,
+    "conviction_year": 2014,
+    "verified_at": "2026-11-27",
+    "details": "Curtea de Apel Iași l-a condamnat definitiv pe Dănuț Spiță prin decizia 543 din 29 septembrie 2014 la un an și nouă luni de închisoare cu suspendare, cu un termen de încercare de trei ani și nouă luni, pentru fals intelectual și complicitate la folosirea ori prezentarea de documente sau declarații false, inexacte ori incomplete având ca rezultat obținerea pe nedrept de fonduri europene. DNA îl identifică drept primar al comunei Țibana la data faptelor. Relatarea Ziarului de Iași despre fostul primar coroborează identitatea și pedeapsa definitivă. Tabelul oficial al consilierilor îl identifică distinct de Valentin Spiță și îi atribuie afilierea ALDE; candidatura din 2020 este consemnată și în datele electorale publicate de Ziare.com. Afilierea este istorică și nu este atribuită automat mandatului de primar sau perioadei actuale. Soluția este verificată prin comunicatul oficial DNA; hotărârea judecătorească integrală nu a fost consultată. Căutările efectuate până la 27 noiembrie 2026 nu au identificat o hotărâre ulterioară care să infirme condamnarea. Profilul consemnează soluția istorică, fără a afirma existența unei interdicții actuale.",
+    "sources": [
+      {
+        "label": "DNA — decizia definitivă 543/29.09.2014",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=5372",
+        "description": "Confirmă nominal fostul primar și pedeapsa de un an și nouă luni cu suspendare, cu termen de încercare de trei ani și nouă luni.",
+        "kind": "official"
+      },
+      {
+        "label": "Primăria Țibana — lista consilierilor locali",
+        "url": "https://www.primariatibana.ro/data/_editor/files/Documents/CONSILIERI_LOCALI.pdf",
+        "description": "Tabelul oficial, nedatat, îl identifică pe Spiță Dănuț drept consilier ALDE, distinct de Spiță Valentin.",
+        "kind": "official"
+      },
+      {
+        "label": "Ziarul de Iași — identitatea fostului primar",
+        "url": "https://www.ziaruldeiasi.ro/stiri/directorul-penal-de-la-scoala-din-tibana-si-a-dat-demisia-e-condamnat-definitiv--152433.html",
+        "description": "Coroborează identitatea fostului primar din Țibana și condamnarea definitivă de un an și nouă luni."
+      },
+      {
+        "label": "Ziare.com — candidați la Consiliul Local Țibana în 2020",
+        "url": "https://ziare.com/alegeri/alegeri-locale-2020/candidati_iasi/consiliul-local/tibana/17",
+        "description": "Consemnează candidatura lui Dănuț Spiță din partea ALDE în 2020."
+      }
+    ]
+  },
+  {
+    "name": "Ion Balaure",
+    "party": "ADU",
+    "position": "Fost primar al comunei Rogova, Mehedinți; consilier local în 2023 și candidat ADU la primărie în 2024",
+    "position_type": "mayor",
+    "geography": {
+      "county": "Mehedinți",
+      "locality": "Rogova",
+      "basis": "office"
+    },
+    "crime": "Fals intelectual și instigare la obținerea nelegală de fonduri europene — condamnare definitivă cu suspendare",
+    "status": "convicted",
+    "sentence": "3 ani închisoare cu suspendare; termen de supraveghere de 4 ani",
+    "sentence_years": 3,
+    "conviction_year": 2018,
+    "verified_at": "2026-11-27",
+    "details": "Curtea de Apel Craiova l-a condamnat definitiv pe Ion Balaure prin decizia 278 din 6 martie 2018 la trei ani de închisoare cu suspendare, cu un termen de supraveghere de patru ani, pentru fals intelectual și instigare la folosirea ori prezentarea cu rea-credință de documente sau declarații false, inexacte ori incomplete având ca rezultat obținerea pe nedrept de fonduri europene, ambele în formă continuată. DNA îl identifică drept primar al comunei Rogova la data faptelor. Relatarea Adevărul din 2016 coroborează identitatea și cauza APIA, iar declarația oficială de interese din 18 mai 2023 confirmă mandatul ulterior de consilier local. ADU desemnează alianța care i-a susținut candidatura la primărie în 2024, documentată de Informația de Severin; nu se deduce apartenența individuală la unul dintre partidele alianței și nici afilierea de la data faptelor. Soluția este verificată prin comunicatul oficial DNA; hotărârea judecătorească integrală nu a fost consultată. Căutările efectuate până la 27 noiembrie 2026 nu au identificat o hotărâre ulterioară care să infirme condamnarea. Profilul consemnează soluția istorică, fără a afirma existența unei interdicții actuale.",
+    "sources": [
+      {
+        "label": "DNA — decizia definitivă 278/06.03.2018",
+        "url": "https://www.dna.ro/comunicat.xhtml?id=8767",
+        "description": "Confirmă nominal primarul Rogova, infracțiunile, trei ani cu suspendare și termenul de supraveghere de patru ani.",
+        "kind": "official"
+      },
+      {
+        "label": "Primăria Rogova — declarație de interese, 18 mai 2023",
+        "url": "https://www.comunarogova.ro/wp-content/uploads/2023/06/Declaratie-de-interese-BALAURE-ION.pdf",
+        "description": "Declarația îl identifică pe Balaure Ion drept consilier local al comunei Rogova.",
+        "kind": "official"
+      },
+      {
+        "label": "Adevărul — cauza APIA și identitatea fostului primar",
+        "url": "https://adevarul.ro/stiri-locale/turnu-severin/un-fost-primar-un-functionar-de-la-apia-mehedinti-1699771.html",
+        "description": "Relatarea din 2016 coroborează identitatea primarului Rogova și faptele din cauza APIA; stadiul final este documentat separat prin DNA."
+      },
+      {
+        "label": "Informația de Severin — candidatura ADU din 2024",
+        "url": "https://informatiadeseverin.eu/ion-balaure-candidatul-aliantei-dreapta-unita-pentru-rogova/",
+        "description": "Articolul din 25 martie 2024 confirmă candidatura Alianței Dreapta Unită și mandatele anterioare de primar și consilier local."
+      }
+    ]
+  },
+{
   "name": "Ioan Hoban",
   "party": "PNL",
   "position": "Fost consilier local Baia Mare (2000–2004) și deputat PNL de Maramureș (2004–2008)",

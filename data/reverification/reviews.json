@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-27",
   "reviews": [
     {
       "profile_id": "RV-0001",
@@ -80225,6 +80225,57 @@
       ],
       "note": "DNA final137/1Mar2016 nominal3yrs suspended5probation offenses read. Independentlibrarymonograph176-177 confirms vice2004/mayor2008-12; portalinfoPNL2008-12 dated historical only; GlasulVailor2016 successorinterviewcasebridge. Originaljudgment unread; latersearches no changingrulinglocated, no currentban claimed. NamevariantsPterisor reversed/diacritics parsed1331editorial andhistory no duplicate. UngheniPDF unread omitted.",
       "reviewed_snapshot_hash": "e85961d9153e378e101ecab0e685b05d48c9e5b79311b0f4f3d9120653b13ae7"
+    },
+    {
+      "profile_id": "RV-4662",
+      "original_name": "Gheorghe Ancuța",
+      "current_name": "Gheorghe Ancuța",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-27",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8507",
+        "https://www.primariasiretel.ro/ari2_3203-alegeri_2024.html"
+      ],
+      "note": "Identitate primar Sirețel coroborată prin PRESShub; decizia definitivă 765/2017 documentată prin DNA, originalul integral neconsultat. PNL documentat pentru candidatura 2024. Fără interdicție actuală afirmată.",
+      "reviewed_snapshot_hash": "35eeb9ff8a6516153e8fb18b479c86887c74404db5257140b7da85fe4204880f"
+    },
+    {
+      "profile_id": "RV-4663",
+      "original_name": "Dănuț Spiță",
+      "current_name": "Dănuț Spiță",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-27",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=5372",
+        "https://www.primariatibana.ro/data/_editor/files/Documents/CONSILIERI_LOCALI.pdf"
+      ],
+      "note": "Fost primar Țibana, identitate coroborată prin Ziarul de Iași; distinct de Valentin Spiță. DNA confirmă 543/2014, originalul integral neconsultat. Afiliere ALDE istorică, fără interdicție actuală afirmată.",
+      "reviewed_snapshot_hash": "463b65b4a0bc3c3418447d804d462e2b34b89323827457818126b22425cecdb8"
+    },
+    {
+      "profile_id": "RV-4664",
+      "original_name": "Ion Balaure",
+      "current_name": "Ion Balaure",
+      "decision": "confirmed",
+      "identity": "confirmed",
+      "legal_status": "confirmed",
+      "scope": "political",
+      "reviewed_at": "2026-11-27",
+      "reviewer": "Codex — verificare automată",
+      "evidence": [
+        "https://www.dna.ro/comunicat.xhtml?id=8767",
+        "https://www.comunarogova.ro/wp-content/uploads/2023/06/Declaratie-de-interese-BALAURE-ION.pdf"
+      ],
+      "note": "Fost primar Rogova, consilier 2023 confirmat oficial, identitate și cauză coroborate prin Adevărul. DNA confirmă 278/2018, originalul integral neconsultat. ADU alianță candidatura 2024, fără apartenență PMP dedusă și fără interdicție actuală afirmată.",
+      "reviewed_snapshot_hash": "8020e11b042c0a83165924a2e92f95329bf592c22c860fcfe05825c37c26e366"
     }
   ]
 }
