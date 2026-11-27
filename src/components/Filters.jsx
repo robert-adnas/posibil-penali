@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useId, useMemo, useState } from 'react';
 import { PartyFilter } from './PartyFilter';
 import { POSITION_LABELS, STATUS_LABELS } from '../utils/constants';
 import { DATA_SCOPE } from '../utils/politicalScope';
@@ -77,6 +77,7 @@ function FilterChipRow({
 export function Filters({ filters, setFilters, parties, positionTypes, statuses, total, scopeTotals }) {
   const [expanded, setExpanded] = useState(false);
   const [expandedRows, setExpandedRows] = useState({});
+  const panelId = useId();
   const isExtendedScope = filters.scope === DATA_SCOPE.ALL;
 
   const activeFilters = useMemo(() => {
@@ -147,11 +148,12 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
 
   return (
     <div className="filters-shell">
-      <div className="filters-mobile-row">
+      <div className="filters-toolbar">
         <button
           type="button"
-          onClick={() => setExpanded(!expanded)}
-          className="filter-mobile-toggle"
+          onClick={() => setExpanded((open) => !open)}
+          className="filter-toggle"
+          aria-controls={panelId}
           aria-expanded={expanded}
         >
           <svg
@@ -161,47 +163,51 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
             fill="none"
             stroke="currentColor"
             strokeWidth="1.5"
-            className={`filter-mobile-icon${expanded ? ' is-expanded' : ''}`}
+            className="filter-toggle-icon"
+            aria-hidden="true"
           >
-            <path d="M5 3l4 4-4 4" />
+            <path d="m3 5 4 4 4-4" />
           </svg>
-          Filtre
-          {hasFilters && <span className="filter-mobile-dot" />}
+          <span>{expanded ? 'Ascunde filtrele' : 'Afișează filtrele'}</span>
+          {hasFilters && <span className="filter-active-dot" aria-hidden="true" />}
+          {hasFilters && <span className="sr-only"> (filtre active)</span>}
         </button>
 
-        <span className="filter-mobile-total">{total} rezultate</span>
+        <span className="filter-total" role="status">
+          {total} {total === 1 ? 'rezultat' : 'rezultate'}
+        </span>
       </div>
 
-      <div className="filter-scope-strip">
-        <ArchiveScopeToggle
-          checked={isExtendedScope}
-          onChange={updateScope}
-          allTotal={scopeTotals?.[DATA_SCOPE.ALL] || 0}
-          politicalTotal={scopeTotals?.[DATA_SCOPE.POLITICAL] || 0}
-        />
-      </div>
-
-      {hasFieldFilters && (
-        <div className="filter-mobile-active" aria-label="Filtre active">
-          {activeFilters.map((filter) => (
-            <button
-              key={filter.key}
-              type="button"
-              className="filter-active-chip"
-              onClick={() => clearFilter(filter.key)}
-            >
-              <span>{filter.label}</span>
-              <span className="filter-active-chip-remove" aria-hidden="true">×</span>
-            </button>
-          ))}
-
-          <button type="button" onClick={clearAll} className="filter-active-clear">
-            Resetează
-          </button>
+      <div id={panelId} className="filter-panel" hidden={!expanded}>
+        <div className="filter-scope-strip">
+          <ArchiveScopeToggle
+            checked={isExtendedScope}
+            onChange={updateScope}
+            allTotal={scopeTotals?.[DATA_SCOPE.ALL] || 0}
+            politicalTotal={scopeTotals?.[DATA_SCOPE.POLITICAL] || 0}
+          />
         </div>
-      )}
 
-      <div className="filter-content" data-expanded={expanded}>
+        {hasFieldFilters && (
+          <div className="filter-mobile-active" aria-label="Filtre active">
+            {activeFilters.map((filter) => (
+              <button
+                key={filter.key}
+                type="button"
+                className="filter-active-chip"
+                onClick={() => clearFilter(filter.key)}
+              >
+                <span>{filter.label}</span>
+                <span className="filter-active-chip-remove" aria-hidden="true">×</span>
+              </button>
+            ))}
+
+            <button type="button" onClick={clearAll} className="filter-active-clear">
+              Resetează
+            </button>
+          </div>
+        )}
+
         <div className="filter-groups">
           <PartyFilter
             parties={parties}
@@ -257,15 +263,11 @@ export function Filters({ filters, setFilters, parties, positionTypes, statuses,
                 </button>
               );
             }}
-            toolbarEnd={(
+            toolbarEnd={hasFilters && (
               <div className="filter-toolbar-end">
-                {hasFilters && (
-                  <button type="button" onClick={clearAll} className="filter-reset">
-                    Resetează
-                  </button>
-                )}
-
-                <span className="filter-count-desktop">{total} rezultate</span>
+                <button type="button" onClick={clearAll} className="filter-reset">
+                  Resetează
+                </button>
               </div>
             )}
           />
