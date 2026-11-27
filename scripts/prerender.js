@@ -20,6 +20,7 @@ const rawData = JSON.parse(readFileSync(join(root, 'data/politicians.json'), 'ut
 const { buildDataset } = await import(pathToFileURL(join(root, 'data/buildDataset.js')).href);
 const { getCounty } = await import(pathToFileURL(join(root, 'src/utils/geography.js')).href);
 const { getPartySlugAliases } = await import(pathToFileURL(join(root, 'src/utils/parties.js')).href);
+const { formatUpdateDate } = await import(pathToFileURL(join(root, 'src/utils/recentUpdates.js')).href);
 const { politicians, metadata, changeLog } = buildDataset(rawData);
 const template = readFileSync(join(distDir, 'index.html'), 'utf8');
 
@@ -92,11 +93,7 @@ function formatDateRo(value) {
   if (!value) return null;
 
   try {
-    return new Intl.DateTimeFormat('ro-RO', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date(value));
+    return formatUpdateDate(value);
   } catch {
     return value;
   }

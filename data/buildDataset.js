@@ -201,6 +201,19 @@ function buildChangeLog(baseData, politicians) {
     });
 }
 
+function getLatestArchiveDate(dates) {
+  let latest = '';
+  for (const date of dates) {
+    if (typeof date !== 'string' || date <= latest || !/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
+
+    const parsed = new Date(date);
+    if (Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === date) {
+      latest = date;
+    }
+  }
+  return latest || undefined;
+}
+
 export function buildDataset(baseData, options = {}) {
   const basePoliticians = baseData.politicians
     .filter((politician) => !excludedPoliticianNames.has(politician.name))
@@ -219,16 +232,25 @@ export function buildDataset(baseData, options = {}) {
     .map(normalizePartyAffiliation);
 
   const allPoliticians = [...basePoliticians, ...additions];
-  const politicians = options.includeUnpublished
-    ? allPoliticians
-    : allPoliticians.filter((politician) => !publicationReview.holds[politician.name]);
+  const publicPoliticians = allPoliticians.filter((politician) => !publicationReview.holds[politician.name]);
+  const politicians = options.includeUnpublished ? allPoliticians : publicPoliticians;
+  const changeLog = buildChangeLog(baseData, politicians);
+  const lastUpdated = getLatestArchiveDate([
+    baseData.metadata?.last_updated,
+    metadataOverrides.last_updated,
+    ...publicPoliticians.map((politician) => politician.verified_at),
+    ...changeLog
+      .filter((entry) => !publicationReview.holds[entry.politician.name])
+      .map((entry) => entry.date),
+  ]);
 
   return {
     metadata: {
       ...baseData.metadata,
       ...metadataOverrides,
+      last_updated: lastUpdated,
     },
     politicians,
-    changeLog: buildChangeLog(baseData, politicians),
+    changeLog,
   };
 }

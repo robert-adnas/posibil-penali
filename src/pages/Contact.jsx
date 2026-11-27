@@ -1,8 +1,11 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { PageLayout } from '../components/PageLayout';
+import { useData } from '../hooks/useData';
 import { useSEO } from '../hooks/useSEO';
+import { nameToSlug } from '../utils/slug';
 
+const BASE_URL = 'https://politicieni-corupti.ro';
 const CONTACT_EMAIL = 'politicienicoruptiro@gmail.com';
 
 const REQUEST_TYPES = [
@@ -12,15 +15,42 @@ const REQUEST_TYPES = [
 ];
 
 export function Contact() {
+  const { search, hash, key } = useLocation();
+  const { findBySlug } = useData();
+  const slug = new URLSearchParams(search).get('profil');
+  const profile = slug ? findBySlug(slug) : null;
+  const profileName = typeof profile?.name === 'string' && nameToSlug(profile.name) === slug
+    ? profile.name
+    : '';
+  const profilePath = profileName ? `/politician/${slug}` : '';
+
+  useEffect(() => {
+    if (hash !== '#formular') return undefined;
+
+    const frame = window.requestAnimationFrame(() => {
+      const heading = document.getElementById('formular');
+      heading?.focus({ preventScroll: true });
+      heading?.scrollIntoView();
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [hash, key]);
+
+  return <ContactPage key={profilePath} profileName={profileName} profilePath={profilePath} />;
+}
+
+function ContactPage({ profileName, profilePath }) {
   useSEO({
     title: 'Contact & Corecții | Politicieni Corupți',
     description: 'Trimite o solicitare de corecție, eliminare a datelor (GDPR) sau contactează echipa proiectului.',
   });
   const [type, setType] = useState('correction');
-  const [politician, setPolitician] = useState('');
+  const [politician, setPolitician] = useState(profileName);
   const [description, setDescription] = useState('');
   const [source, setSource] = useState('');
   const [name, setName] = useState('');
+  const isProfileRequest = type !== 'general';
+  const linkedProfilePath = isProfileRequest && politician === profileName ? profilePath : '';
 
   const subject = encodeURIComponent(
     type === 'correction'
@@ -33,13 +63,14 @@ export function Contact() {
   const body = encodeURIComponent(
     [
       `Tip cerere: ${REQUEST_TYPES.find((r) => r.value === type)?.label}`,
-      politician ? `Politician vizat: ${politician}` : '',
+      isProfileRequest && politician ? `Politician vizat: ${politician}` : '',
+      linkedProfilePath ? `Fișă: ${BASE_URL}${linkedProfilePath}` : undefined,
       name ? `Numele dvs.: ${name}` : '',
       '',
       'Descriere:',
       description,
       '',
-      source ? `Surse / documente suport:\n${source}` : '',
+      isProfileRequest && source ? `Surse / documente suport:\n${source}` : '',
     ]
       .filter((line) => line !== undefined)
       .join('\n')
@@ -80,7 +111,7 @@ export function Contact() {
         </p>
       </Section>
 
-      <Section title="Formular de contact">
+      <Section id="formular" title="Formular de contact">
         <p>
           Completați câmpurile de mai jos — formularul va deschide clientul dvs. de email cu datele
           pre-completate. Puteți de asemenea să scrieți direct la{' '}
@@ -106,7 +137,7 @@ export function Contact() {
             </div>
           </div>
 
-          {type !== 'general' && (
+          {isProfileRequest && (
             <div className="contact-form-field">
               <label className="contact-form-label" htmlFor="politician">
                 Politicianul vizat
@@ -119,6 +150,11 @@ export function Contact() {
                 value={politician}
                 onChange={(e) => setPolitician(e.target.value)}
               />
+              {linkedProfilePath && (
+                <p className="contact-form-note">
+                  <Link to={linkedProfilePath} className="legal-inline-link">Vezi fișa vizată</Link>
+                </p>
+              )}
             </div>
           )}
 
@@ -139,7 +175,9 @@ export function Contact() {
           <div className="contact-form-field">
             <label className="contact-form-label" htmlFor="description">
               Descriere
-              {type === 'correction' && ' — ce este incorect și care este informația corectă'}
+              {type === 'correction' && (linkedProfilePath
+                ? ' — ce s-a schimbat sau ce este incorect'
+                : ' — ce este incorect și care este informația corectă')}
               {type === 'removal' && ' — motivul solicitării de eliminare'}
             </label>
             <textarea
@@ -158,7 +196,7 @@ export function Contact() {
             />
           </div>
 
-          {type !== 'general' && (
+          {isProfileRequest && (
             <div className="contact-form-field">
               <label className="contact-form-label" htmlFor="source">
                 Surse / documente suport <span className="contact-form-optional">(recomandat)</span>
@@ -200,10 +238,10 @@ export function Contact() {
   );
 }
 
-function Section({ title, children }) {
+function Section({ id, title, children }) {
   return (
     <section className="page-section">
-      <h2 className="page-section-title">{title}</h2>
+      <h2 id={id} tabIndex={id ? -1 : undefined} className="page-section-title">{title}</h2>
       <div className="page-section-body">{children}</div>
     </section>
   );

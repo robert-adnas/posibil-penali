@@ -15,6 +15,7 @@ import { useAnalytics } from '../hooks/useAnalytics';
 import { useData } from '../hooks/useData';
 import { useSEO } from '../hooks/useSEO';
 import { downloadJSON, downloadCSV } from '../utils/download';
+import { formatUpdateDate } from '../utils/recentUpdates';
 import {
   applyFiltersToSearchParams,
   getScopeSearch,
@@ -120,14 +121,10 @@ export function HomePage() {
     ? Math.min(...convictionYears)
     : new Date().getFullYear();
   const coverageEndYear = metadata?.last_updated
-    ? new Date(metadata.last_updated).getFullYear()
+    ? new Date(metadata.last_updated).getUTCFullYear()
     : new Date().getFullYear();
   const formattedLastUpdated = metadata?.last_updated
-    ? new Intl.DateTimeFormat('ro-RO', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date(metadata.last_updated))
+    ? formatUpdateDate(metadata.last_updated)
     : 'necunoscut';
   const recentChanges = useMemo(() => changeLog.slice(0, 4), [changeLog]);
 

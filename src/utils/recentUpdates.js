@@ -15,12 +15,12 @@ function verifiedTimestamp(value) {
 }
 
 export function formatUpdateDate(value, options = {}) {
-  return new Intl.DateTimeFormat(
-    'ro-RO',
-    options.compact
-      ? { day: 'numeric', month: 'short', year: 'numeric' }
-      : { day: 'numeric', month: 'long', year: 'numeric' }
-  ).format(new Date(value));
+  return new Intl.DateTimeFormat('ro-RO', {
+    day: 'numeric',
+    month: options.compact ? 'short' : 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(value));
 }
 
 export function getRecentUpdates(politicians) {

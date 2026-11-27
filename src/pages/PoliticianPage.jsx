@@ -12,8 +12,15 @@ import {
 } from '../utils/geography';
 import { nameToSlug } from '../utils/slug';
 import { parsePrejudiciuEur } from '../utils/parsePrejudiciu';
+import { getProfileEvidence } from '../utils/profileEvidence';
 
 const BASE_URL = 'https://politicieni-corupti.ro';
+const fullDateFormatter = new Intl.DateTimeFormat('ro-RO', {
+  day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
+});
+const monthDateFormatter = new Intl.DateTimeFormat('ro-RO', {
+  month: 'short', year: 'numeric', timeZone: 'UTC',
+});
 
 const SOURCE_KIND_LABELS = {
   official: 'Oficial',
@@ -405,6 +412,54 @@ function DetailList({ items }) {
   );
 }
 
+function EvidenceDate({ date }) {
+  let label = date;
+  if (date.length === 7) label = monthDateFormatter.format(new Date(`${date}-01`));
+  if (date.length === 10) label = fullDateFormatter.format(new Date(date));
+  return <time dateTime={date}>{label}</time>;
+}
+
+function EvidenceLink({ source, children }) {
+  return (
+    <a className="pol-page-evidence-link" href={source.url} target="_blank" rel="noopener noreferrer">
+      {children}
+      <svg viewBox="0 0 12 12" width="11" height="11" aria-hidden="true">
+        <path d="M4 1h7v7M11 1L5 7" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      </svg>
+    </a>
+  );
+}
+
+function CaseChronologies({ chronologies }) {
+  if (!chronologies.length) return null;
+
+  return (
+    <section className="pol-page-section pol-page-chronology">
+      <h2 className="pol-page-chronology-heading">
+        {chronologies.length === 1 ? 'Cronologia dosarului' : 'Cronologia dosarelor'}
+      </h2>
+      <p className="pol-page-chronology-note">Repere selectate din sursele citate.</p>
+      {chronologies.map(({ title, events }) => (
+        <div key={title} className="pol-page-chronology-case">
+          <h3 className="pol-page-chronology-case-name">{title}</h3>
+          <ol className="pol-page-timeline" role="list">
+            {events.map(({ date, label, note, source }) => (
+              <li key={`${date}:${label}`} className="pol-page-timeline-event">
+                <div className="pol-page-timeline-date"><EvidenceDate date={date} /></div>
+                <div className="pol-page-timeline-detail">
+                  <p className="pol-page-timeline-label">{label}</p>
+                  {note && <p className="pol-page-timeline-note">{note}</p>}
+                  <EvidenceLink source={source}>{source.label}</EvidenceLink>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </section>
+  );
+}
+
 function RelatedGroup({ title, items, moreHref, moreLabel }) {
   if (!items.length) return null;
 
@@ -551,6 +606,9 @@ export function PoliticianPage() {
     );
   }
 
+  const { chronologies, currentStatusSource, statusVerifiedAt } = getProfileEvidence(politician);
+  const reportSearch = new URLSearchParams({ profil: nameToSlug(politician.name) });
+
   const sources = Array.isArray(politician.sources) ? politician.sources : [];
   const sourceSummary = getSourceSummary(sources);
   const institutions = getInstitutions(politician, sources);
@@ -626,19 +684,32 @@ export function PoliticianPage() {
           <div className="pol-page-grid">
             <div className="pol-page-card">
               <div className="pol-page-card-topbar">
-                <span
-                  className="detail-panel-status"
-                  data-status={politician.status}
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}
-                >
-                  <span className="detail-panel-status-dot" />
-                  {STATUS_LABELS[politician.status] || politician.status}
-                </span>
+                <div className="pol-page-status-main">
+                  <span className="detail-panel-status" data-status={politician.status}>
+                    <span className="detail-panel-status-dot" />
+                    {STATUS_LABELS[politician.status] || politician.status}
+                  </span>
+                  {statusVerifiedAt && (
+                    <span className="pol-page-card-verified">
+                      Verificare editorială la <EvidenceDate date={statusVerifiedAt} />
+                    </span>
+                  )}
+                  {currentStatusSource && (
+                    <EvidenceLink source={currentStatusSource}>
+                      Documentul care confirmă stadiul
+                    </EvidenceLink>
+                  )}
+                </div>
+                <Link to={`/contact?${reportSearch}#formular`} className="pol-page-evidence-link pol-page-report-link">
+                  Semnalează o actualizare
+                </Link>
               </div>
 
               <Section label="Dosar pe scurt">
                 <DetailList items={summaryRows} />
               </Section>
+
+              <CaseChronologies chronologies={chronologies} />
 
               {institutions.length > 0 && (
                 <Section label="Surse oficiale relevante">

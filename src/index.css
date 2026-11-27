@@ -3650,16 +3650,61 @@ html:has(.party-picker-dialog[open]) {
 .pol-page-card-topbar {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 0.75rem 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--color-rule-light);
 }
 
+.pol-page-status-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.pol-page-status-main .detail-panel-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .pol-page-card-verified {
-  color: var(--color-ink-faint);
-  font-size: 0.775rem;
+  color: var(--color-ink-muted);
+  font-size: 0.8125rem;
   line-height: 1.5;
+}
+
+.pol-page-evidence-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  color: var(--color-ink-light);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.pol-page-evidence-link svg {
+  flex: none;
+}
+
+.pol-page-evidence-link:hover {
+  color: var(--color-ink);
+  text-decoration-thickness: 2px;
+}
+
+.pol-page-evidence-link:focus-visible {
+  outline: 2px solid var(--color-ink-muted);
+  outline-offset: 3px;
+}
+
+.pol-page-report-link {
+  padding-block: 0.2rem;
 }
 
 .pol-page-section {
@@ -3674,6 +3719,93 @@ html:has(.party-picker-dialog[open]) {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-ink-muted);
+}
+
+.pol-page-chronology {
+  gap: 0.6rem;
+  border-block: 1px solid var(--color-rule-light);
+  padding-block: 1rem;
+}
+
+.pol-page-chronology-heading {
+  color: var(--color-ink);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.pol-page-chronology-note,
+.pol-page-timeline-note {
+  color: var(--color-ink-muted);
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+.pol-page-chronology-case + .pol-page-chronology-case {
+  border-top: 1px solid var(--color-rule-light);
+  padding-top: 0.85rem;
+}
+
+.pol-page-chronology-case-name {
+  margin-bottom: 0.75rem;
+  color: var(--color-ink);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.pol-page-timeline {
+  list-style: none;
+}
+
+.pol-page-timeline-event {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 0.25rem 0.75rem;
+  border-inline-start: 1px solid var(--color-rule);
+  padding: 0 0 0.95rem 0.95rem;
+  position: relative;
+}
+
+.pol-page-timeline-event:last-child {
+  padding-bottom: 0;
+}
+
+.pol-page-timeline-event::before {
+  position: absolute;
+  inset-block-start: 0.45rem;
+  inset-inline-start: -4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-ink-muted);
+  content: '';
+}
+
+.pol-page-timeline-date {
+  color: var(--color-ink-muted);
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.55;
+}
+
+.pol-page-timeline-detail {
+  display: grid;
+  justify-items: start;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.pol-page-timeline-label {
+  color: var(--color-ink);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+@media (max-width: 520px) {
+  .pol-page-timeline-event {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .pol-page-detail-list {
@@ -3994,6 +4126,7 @@ html:has(.party-picker-dialog[open]) {
 @media print {
   
   .app-kicker-row .pol-page-share-btn,
+  .pol-page-report-link,
   .pol-page-sidebar,
   .app-footer,
   .detail-panel-footer-note,
